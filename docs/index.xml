@@ -7,7 +7,7 @@
     <description>Ben Dêivide</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://bendeivide.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Ben Dêivide</title>
       <link>http://bendeivide.github.io/</link>
     </image>
@@ -299,7 +299,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-537624189&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-824796135&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -309,7 +309,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-537624189&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-824796135&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -747,7 +747,7 @@ Three
     </item>
     
     <item>
-      <title>About</title>
+      <title>Sobre</title>
       <link>http://bendeivide.github.io/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       <guid>http://bendeivide.github.io/about/</guid>

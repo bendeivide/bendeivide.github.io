@@ -3,6 +3,9 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
 
+# Ativar ou desativar a pagina
+active: false
+
 # This file represents a page section.
 headless: true
 

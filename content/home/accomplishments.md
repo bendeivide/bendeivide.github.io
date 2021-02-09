@@ -3,6 +3,9 @@
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
 widget: accomplishments
 
+# Ativar ou desativar a pagina
+active: false
+
 # This file represents a page section.
 headless: true
 
