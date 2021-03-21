@@ -2,3 +2,16 @@
 .Rhistory
 .RData
 .Ruserdata
+config.toml
+.gitignore
+index.Rmd
+assets
+config
+content
+layouts
+R
+resorces
+static
+themes
+SITE.Rproj
+i18n

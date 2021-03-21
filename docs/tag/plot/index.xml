@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/plot/</link>
       <atom:link href="http://bendeivide.github.io/tag/plot/index.xml" rel="self" type="application/rss+xml" />
     <description>plot</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>plot</title>
@@ -18,6 +18,7 @@
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       <guid>http://bendeivide.github.io/post/2020-12-01-r-rmarkdown/</guid>
       <description>
+&lt;script src=&#34;http://bendeivide.github.io/post/2020-12-01-r-rmarkdown/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
