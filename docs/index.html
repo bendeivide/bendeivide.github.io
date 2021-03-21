@@ -260,6 +260,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-183980834-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-183980834-4', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -327,6 +365,36 @@
   
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#1565c0",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#1565c0"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
   
 
@@ -839,7 +907,7 @@
     </h1>
 
     
-    <div class="hero-lead"><p><strong>A melhor linguagem é a que você domina!</strong></p>
+    <div class="hero-lead"><p><strong>O conhecimento é uma liberdade necessária!</strong></p>
 <p><strong>Vivendo o presente e propagando conhecimento:</strong> Desperte para as suas escolhas e viva intensamente elas como se não existisse o amanhã!.</p>
 </div>
     
@@ -885,107 +953,6 @@
 
 
 
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-    
-    
-    
-    
-      
-      
-    
-    
-      
-      
-    
-  
-
-  
-    
-  
-
-  
-    
-    
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="demo" class="home-section wg-blank light " style="padding: 20px 0 20px 0;" >
-   <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;http://bendeivide.github.io/media/open-book.jpg&#39;);background-size: cover;background-position: center;filter: brightness(1);"></div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-        
-          <div class="section-heading col-12 mb-3 text-center">
-            <h1 class="mb-0">Recomendações</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-  <div class="col-12">
-    <p>Aprecie todo o material contido nesse site, como se fosse seu. Zele, propague, critique, contribua. Será um prazer compartilharmos nossas experiências</p>
-<div class="alert alert-note">
-  <div>
-    Em construção&hellip;
-  </div>
-</div>
-
-  </div>
-
-
-
-    
-      </div>
     
 
     </div>
@@ -1177,15 +1144,95 @@
     <h1>Biografia</h1>
 
     <div class="article-style">
-      <p>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
+      <p>Sou natural de Pau dos Ferros, RN, que fica a uma distância de 450km da capital,
+Natal, onde ocorreu minha trajetória estudantil até o ensino médio. Em 2001, no primeiro
+ano do ensino médio, para conseguir minha bolsa de estudos, trabalhei como monitor
+de inglês no ensino fundamental na escola Educandário Imaculada Conceição. Descobri
+nesse período, o prazer em ensinar. Apesar de pouco conhecimento da língua inglesa, a
+preocupação em dar uma boa aula, me motivava a estudar e mostrava o quanto o ensino
+era fascinante. Ao término do ensino médio, em 2003, tive outra oportunidade de lecionar
+física e inglês, na Escola Municipal Prof. Severino Bezerra, em Pau dos Ferros/RN, no
+ensino fundamental II. Em 2005, inicio o curso de graduação em Engenharia Agronômica,
+pela Universidade Federal Rural do Semiárido (UFERSA), antiga ESAM, em Mossoró, RN.
+Em virtude das condições financeiras não ser favorável, tive que trabalhar em 2006,
+paralelamente ao curso de graduação em Agronomia, para compor a renda do mês. Unindo
+o prazer com o trabalho, consegui uma vaga de Professor para lecionar as disciplinas de
+Física e Inglês na Escola Estadual José Martins de Vasconcelos, em Mossoró/RN, e assim,
+arcar com custos financeiros. Durante o período acadêmico, me identifiquei com a disciplina
+de Estatística Básica, e no terceiro semestre do curso de Agronomia, concorri a tão sonhada
+bolsa de monitoria em Estatística Básica. Daí em diante, vi que o caminho da Estatística
+levava a um mundo extraordinário. Nesse pequeno intervalo, tive também a experiência de
+lecionar em um curso básico de informática, na empresa Ingetec Informática. Percebi uma
+outra paixão nos estudos, que é a área de programação.
+Em 2010, concluí minha graduação. Nessa ocasião apresentei o trabalho de conclusão
+do curso de Agronomia, que era intitulado “Modelagem estocástica da temperatura média
+da cidade de Mossoró, RN”. Sob a orientação do Prof. Janilson Pinheiro de Assis, avaliamos
+seis modelos de distribuições (Normal, Log-Normal, Beta, Gama, Log-Pearson, Gumbel e
+Weibull) de probabilidade para verificar qual destes se ajustaria aos dados de temperatura
+média. Para verificar a aderência das distribuições à série de temperatura média foram
+utilizados testes de aderência (Qui-quadrado, Kolmogorov-Smirnov, Cramér-von Mises,
+Anderson-Darling, Kuiper). A distribuição que obteve melhor ajuste aos dados foi a
+distribuição Normal em três escalas utilizadas.
+Nesse mesmo ano, prestei concurso temporário ao IBGE, para participar do Censo 2010.
+Aprovado como supervisor, trabalhei diretamente com 20 recenseadores, do qual minha
+função era averiguar se a coleta de dados feita pelos recenseadores estava correta. Uma
+experiência incrível, pois foi meu primeiro trabalho fora da Universidade que estava ligado
+diretamente com a estatística.
+Determinado e focado no que queria, resolvi fazer pós-graduação em Estatística tendo
+como segunda opção a área de Climatologia. Ainda em 2010, prestei concurso para quatro
+instituições de ensino: Universidade Federal de Lavras - UFLA (Pós-Graduação em
+Estatística), Universidade Federal de Viçosa - UFV (duas seleções: Pós-Graduação em Estatística
+Aplicada e Biometria e outra seleção na Pós-Graduação em Meteorologia Aplicada),
+Universidade Federal de Campina Grande - UFCG (Pós-Graduação em Meteorologia),
+UFRN (Pós-Graduação em Matemática Aplicada e Estatística). Fui aprovado em todas
+as seleções, sendo que na UFRN fiz apenas a primeira etapa, devido ter obtido alguns
+resultados positivos das demais seleções e já está convicto para onde me destinar, resolvi
+não prosseguir. Essa escolha, caso houvesse sucesso no processo seletivo, já havia sido
+tomada bem antes das provas de seleções, quando comecei a ler as obras do Professor
+Daniel Furtado Ferreira, e me vi fascinado com os seus trabalhos, principalmente com o
+software SISVAR. Daí, decidi que o local onde iria fazer o mestrado seria a Universidade
+Federal de Lavras, em Minas Gerais.
+Mesmo com muitos desafios, encarei com muita naturalidade esse momento. Houve
+um fato interessante para concorrer à seleção de Pós-Graduação da UFLA. Me deparei
+com a dificuldade em saber como iria fazer a prova, pois nunca havia saído de meu estado
+de origem. Assim, consegui por meio de uma solicitação para que a prova fosse realizada
+na UFRN, em Natal, sendo que o Professor responsável pela aplicação da prova foi Paulo
+César Formiga Ramos. Fui aprovado para o mestrado em Estatística e Experimentação
+Agropecuária e, ainda, sob a orientação do Professor Daniel Furtado. Em 2011, viajo para
+Lavras, com a minha esposa, Allanna Lopes, para a realização de um sonho.
+Confesso que nesse período, sob a orientação do Prof. Daniel, o aprendizado sobre a
+estatística foi fundamental. E ele é o meu ponto de referência como profissional na área da
+Estatística. Em 2012, concluí o mestrado, e além disso, consegui obter uma mudança de
+nível, para o Doutorado no mesmo programa e com a continuação da orientação do Prof.
+Daniel, sendo finalizado em Maio de 2016. Continua&hellip;</p>
+<!--
+
+  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/media/demo_resume.pdf" target="_blank">resumé</a>.
+-->
 <p>
-  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/media/demo_resume.pdf" target="_blank">resumé</a>.</p>
+  <i class="fas fa-download  pr-1 fa-fw"></i> Baixar meu  <a href="/cursor/about.html" target="_blank">Resumo</a>.</p>
 
     </div>
 
     <div class="row">
 
+      
+      <div class="col-md-5">
+        <div class="section-subheading">Interests</div>
+        <ul class="ul-interests">
+          
+          <li>Estatística Computacional</li>
+          
+          <li>Estatística Experimental</li>
+          
+          <li>Ciência de dados</li>
+          
+          <li>Ambiente R</li>
+          
+          <li>Desenvolvimento de pacotes R</li>
+          
+        </ul>
+      </div>
       
 
       
@@ -1196,24 +1243,32 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">PhD in Artificial Intelligence, 2012</p>
-              <p class="institution">Stanford University</p>
+              <p class="course">Pós-Doutorado em Estatística e Experimentação Agropecuária, 2019</p>
+              <p class="institution">Universidade Federal de Lavras (UFLA)</p>
             </div>
           </li>
           
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">MEng in Artificial Intelligence, 2009</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
+              <p class="course">Doutorado em Estatística e Experimentação Agropecuária, 2016</p>
+              <p class="institution">Universidade Federal de Lavras (UFLA)</p>
             </div>
           </li>
           
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">BSc in Artificial Intelligence, 2008</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
+              <p class="course">Mestrado em Estatística e Experimentação Agropecuária, 2012</p>
+              <p class="institution">Universidade Federal de Lavras (UFLA)</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Bacharelado em Engenharia Agronômica, 2010</p>
+              <p class="institution">Universidade Federal Rural do Semiárido (UFERSA)</p>
             </div>
           </li>
           
@@ -1226,323 +1281,6 @@
 </div>
 
 
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="gallery" class="home-section wg-blank  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Galeria</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-  <div class="col-12 col-lg-8">
-    
-
-
-
-
-
-
-
-  
-  
-
-
-<div class="gallery">
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/theme-1950s.png" >
-      <img data-src="/home/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png" class="lazyload" alt="theme-1950s.png" width="124" height="190">
-    </a>
-  
-    
-    
-    
-    
-    
-    <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/theme-apogee.png" >
-      <img data-src="/home/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png" class="lazyload" alt="theme-apogee.png" width="124" height="190">
-    </a>
-  
-    
-    
-    
-    
-    
-    <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/theme-coffee-playfair.png" >
-      <img data-src="/home/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png" class="lazyload" alt="theme-coffee-playfair.png" width="124" height="190">
-    </a>
-  
-    
-    
-    
-    
-    
-    <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/theme-dark.png" >
-      <img data-src="/home/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png" class="lazyload" alt="theme-dark.png" width="124" height="190">
-    </a>
-  
-    
-    
-    
-    
-    
-    <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/theme-default.png" >
-      <img data-src="/home/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png" class="lazyload" alt="theme-default.png" width="124" height="190">
-    </a>
-  
-    
-    
-    
-    
-    
-    <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/theme-forest.png" >
-      <img data-src="/home/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png" class="lazyload" alt="theme-forest.png" width="124" height="190">
-    </a>
-  
-    
-    
-    
-    
-    
-    <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/theme-ocean.png" >
-      <img data-src="/home/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png" class="lazyload" alt="theme-ocean.png" width="124" height="190">
-    </a>
-  
-    
-    
-    
-    
-    
-    <a data-fancybox="gallery-gallery" href="/home/gallery/gallery/theme-strawberry.png" >
-      <img data-src="/home/gallery/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png" class="lazyload" alt="theme-strawberry.png" width="124" height="190">
-    </a>
-  
-
-  
-</div>
-
-  </div>
-
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="tags" class="home-section wg-tag-cloud  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Tópicos populares</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-
-    
-    
-    
-    
-    
-    
-
-    <div class="tag-cloud">
-      
-        
-        
-        
-        <a href="/tag/academic/" style="font-size:0.7rem">Academic</a>
-      
-        
-        
-        
-        <a href="/tag/deep-learning/" style="font-size:0.7rem">Deep Learning</a>
-      
-        
-        
-        
-        <a href="/tag/demo/" style="font-size:0.7rem">Demo</a>
-      
-        
-        
-        
-        <a href="/tag/plot/" style="font-size:0.7rem">plot</a>
-      
-        
-        
-        
-        <a href="/tag/r-markdown/" style="font-size:0.7rem">R Markdown</a>
-      
-        
-        
-        
-        <a href="/tag/regression/" style="font-size:0.7rem">regression</a>
-      
-        
-        
-        
-        <a href="/tag/source-themes/" style="font-size:1.7302256254687514rem">Source Themes</a>
-      
-        
-        
-        
-        <a href="/tag/%E5%BC%80%E6%BA%90/" style="font-size:0.7rem">开源</a>
-      
-    </div>
-  
-
-</div>
-
-
-    
-      </div>
     
 
     </div>
@@ -1637,7 +1375,7 @@
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/f/test"  >
+      <form name="contact" method="POST" action="https://formspree.io/f/xzbypdbv"  >
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -1677,7 +1415,7 @@
       
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">Rod.: MG 443, KM 7 Ouro Branco - MG, Ouro Branco, MG 364200-000</span>
+        <span id="person-address">Rod.: MG 443, KM 7 Ouro Branco - MG<br>Ouro Branco, MG<br>364200-000<br>Brasil</span>
       </li>
     
 
@@ -1689,17 +1427,7 @@
     
 
     
-    <li>
-      <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-      <span>Monday 10:00 to 13:00<br>Wednesday 09:00 to 10:00</span>
-    </li>
-    
 
-    
-    <li>
-      <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
-      <a href="https://calendly.com" target="_blank" rel="noopener">Book an appointment</a>
-    </li>
     
 
     
@@ -1717,21 +1445,7 @@
     
     <li>
       <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-      <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">DM Me</a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <i class="fa-li fab fa-skype fa-2x" aria-hidden="true"></i>
-      <a href="skype:echo123?call" >Skype Me</a>
+      <a href="https://twitter.com/bendeivide" target="_blank" rel="noopener">Sigma-se!</a>
     </li>
     
     
@@ -1746,8 +1460,8 @@
       
     
     <li>
-      <i class="fa-li fab fa-keybase fa-2x" aria-hidden="true"></i>
-      <a href="https://keybase.io/" target="_blank" rel="noopener">Chat on Keybase</a>
+      <i class="fa-li fab fa-instagram fa-2x" aria-hidden="true"></i>
+      <a href="https://instagram.com/bendeivide" target="_blank" rel="noopener">Sigma-se!</a>
     </li>
     
     
@@ -1762,13 +1476,39 @@
       
     
     <li>
-      <i class="fa-li fas fa-comments fa-2x" aria-hidden="true"></i>
-      <a href="https://discourse.gohugo.io" target="_blank" rel="noopener">Discuss on Forum</a>
+      <i class="fa-li fab fa-facebook fa-2x" aria-hidden="true"></i>
+      <a href="https://facebook.com/bendeivide" target="_blank" rel="noopener">Sigma-se!</a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <i class="fa-li fab fa-youtube fa-2x" aria-hidden="true"></i>
+      <a href="https://youtube.com/bendeivide" target="_blank" rel="noopener">Se inscreva!</a>
     </li>
     
 
   </ul>
 
+  
+  <div class="d-none">
+    <input id="map-provider" value="2">
+    <input id="map-lat" value="-20.52206">
+    <input id="map-lng" value="-43.74496">
+    <input id="map-dir" value="Rod.: MG 443, KM 7 Ouro Branco - MGOuro Branco, MG364200-000Brasil">
+    <input id="map-zoom" value="15">
+    <input id="map-api-key" value="">
+  </div>
+  <div id="map"></div>
   
 
 </div>
