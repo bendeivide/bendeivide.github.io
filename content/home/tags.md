@@ -4,7 +4,7 @@
 widget: tag_cloud
 
 # Ativar ou desativar a pagina
-active: true
+active: false
 
 # This file represents a page section.
 headless: true

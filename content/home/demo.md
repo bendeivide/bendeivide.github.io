@@ -3,11 +3,9 @@
 # Documentation: https://wowchemy.com/docs/getting-started/page-builder/
 widget: blank
 
-# Ativar ou desativar a pagina
+# Ativar ou desativar a pagina? true/false
 active: false
 
-# Activate this widget? true/false
-active: true
 
 # This file represents a page section.
 headless: true

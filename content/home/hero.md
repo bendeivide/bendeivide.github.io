@@ -13,6 +13,6 @@ advanced:
   css_class: fullscreen
 ---
 
-**A melhor linguagem é a que você domina!**
+**O conhecimento é uma liberdade necessária!**
 
 **Vivendo o presente e propagando conhecimento:** Desperte para as suas escolhas e viva intensamente elas como se não existisse o amanhã!.
