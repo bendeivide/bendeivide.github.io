@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statscience | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/en/tag/statscience/</link>
+      <atom:link href="http://bendeivide.github.io/en/tag/statscience/index.xml" rel="self" type="application/rss+xml" />
+    <description>statscience</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Wed, 21 Apr 2021 22:17:00 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>statscience</title>
+      <link>http://bendeivide.github.io/en/tag/statscience/</link>
+    </image>
+    
+    <item>
+      <title>Pacote statscience</title>
+      <link>http://bendeivide.github.io/en/project/statscience/</link>
+      <pubDate>Wed, 21 Apr 2021 22:17:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/en/project/statscience/</guid>
+      <description>&lt;p&gt;O projeto do pacote &lt;code&gt;statscience&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

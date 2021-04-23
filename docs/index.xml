@@ -13,98 +13,96 @@
     </image>
     
     <item>
-      <title>Python basics</title>
-      <link>http://bendeivide.github.io/courses/example/python/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/courses/example/python/</guid>
-      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
+      <title>Programação em R (Nível Básico)</title>
+      <link>http://bendeivide.github.io/courses/cursor/nbasico/</link>
+      <pubDate>Fri, 23 Apr 2021 05:49:36 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/cursor/nbasico/</guid>
+      <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;p&gt;O material encontra-se disponível em &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico&#34;&gt;http://bendeivide.github.io/cursor/nbasico&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;p&gt;Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;p&gt;Os exercícios do curso, podem ser desenvolvidos via &lt;em&gt;web&lt;/em&gt; em &lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34;&gt;https://bendeivide.shinyapps.io/Curso-R/&lt;/a&gt;, como também é possível baixar todos os &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scripts&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
-&lt;li&gt;Slower than tuples&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tuples&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
-&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
-  &lt;p&gt;Yes&lt;/p&gt;
+  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
     </item>
     
     <item>
-      <title>Visualization</title>
-      <link>http://bendeivide.github.io/courses/example/visualization/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/courses/example/visualization/</guid>
-      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
+      <title>Programação em R (Nível Intermediário)</title>
+      <link>http://bendeivide.github.io/courses/cursor/nintermediario/</link>
+      <pubDate>Fri, 23 Apr 2021 05:45:49 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/cursor/nintermediario/</guid>
+      <description>&lt;p&gt;Programando em nível intermediário o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
+ --&gt;
+&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
+&lt;!-- - O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021. --&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;!-- O material encontra-se disponível em &lt;http://bendeivide.github.io/cursor/nbasico&gt; --&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;!-- Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist [Curso R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O). --&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;!-- Os exercícios do curso, podem ser desenvolvidos via *web* em &lt;https://bendeivide.shinyapps.io/Curso-R/&gt;, como também é possível baixar todos os [scripts](http://bendeivide.github.io/cursor/nbasico#scripts). --&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
-  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
-data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
-fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
-fig.show()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/p&gt;
-&lt;/details&gt;</description>
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Acesse: &lt;http://bendeivide.github.io/cursor/nbasico#rwork&gt; --&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;</description>
     </item>
     
     <item>
-      <title>Statistics</title>
-      <link>http://bendeivide.github.io/courses/example/stats/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/courses/example/stats/</guid>
-      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
+      <title>Programação em R (Nível Avançado)</title>
+      <link>http://bendeivide.github.io/courses/cursor/navancado/</link>
+      <pubDate>Fri, 23 Apr 2021 05:50:06 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/cursor/navancado/</guid>
+      <description>&lt;p&gt;Programando em nível avançado o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
-&lt;p&gt;$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The parameter $\mu$ is the mean or expectation of the distribution.
-$\sigma$ is its standard deviation.
-The variance of the distribution is $\sigma^{2}$.
-  &lt;/div&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
+ --&gt;
+&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
+&lt;!-- - O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021. --&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;!-- O material encontra-se disponível em &lt;http://bendeivide.github.io/cursor/nbasico&gt; --&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;!-- Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist [Curso R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O). --&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;!-- Os exercícios do curso, podem ser desenvolvidos via *web* em &lt;https://bendeivide.shinyapps.io/Curso-R/&gt;, como também é possível baixar todos os [scripts](http://bendeivide.github.io/cursor/nbasico#scripts). --&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
-  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
-&lt;/details&gt;</description>
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Acesse: &lt;http://bendeivide.github.io/cursor/nbasico#rwork&gt; --&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;</description>
     </item>
     
     <item>
@@ -124,6 +122,55 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pacote meupacoter</title>
+      <link>http://bendeivide.github.io/project/meupacoter/</link>
+      <pubDate>Fri, 23 Apr 2021 06:06:41 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/meupacoter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pacote statscience</title>
+      <link>http://bendeivide.github.io/project/statscience/</link>
+      <pubDate>Fri, 23 Apr 2021 05:36:16 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/statscience/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;O projeto do pacote &lt;a href=&#34;https://bendeivide.github.io/statscience/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;statscience&lt;/a&gt; está em fase de desenvolvimento, e tem por objetivo de apresentar as principais técnicas de análises de dados na área da Estatística. Seguem alguns dos tópicos abordados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Estatística Experimental;&lt;/li&gt;
+&lt;li&gt;Procedimento de Comparações múltiplas;&lt;/li&gt;
+&lt;li&gt;Modelos de Regressão linear e Não Linear;&lt;/li&gt;
+&lt;li&gt;Modelos Lineares Generalizado;&lt;/li&gt;
+&lt;li&gt;Estatística Multivariada;&lt;/li&gt;
+&lt;li&gt;Estatística Espacial;&lt;/li&gt;
+&lt;li&gt;Análise Bayesiana;&lt;/li&gt;
+&lt;li&gt;Análise exploratória de dados;&lt;/li&gt;
+&lt;li&gt;Dentre outros temas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O projeto está baseado no ambiente &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; de programação, isto é, toda a programação na análise de dados. Contudo, queremos deixar o pacote intuitivo para não programadores, e sim, usuários da ferramenta estatistica. Para isso, criaremos duas interfaces gráficas ao usuário, uma baseada na linguagem &lt;a href=&#34;http://tcl.tk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tcl/Tk&lt;/a&gt; e outra via &lt;em&gt;web&lt;/em&gt; (usando o &lt;a href=&#34;https://pt-br.reactjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;React&lt;/a&gt;). Para esse último, a ideia é tornar o usuário totalmente independente de instalação e sistema operacional, do qual só será necessário ter internet e acessar o link do projeto. A escolha da linguagem &lt;a href=&#34;http://tcl.tk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tcl/Tk&lt;/a&gt; é devido a integramação com o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, uma vez que já existe o pacote &lt;code&gt;tcltk&lt;/code&gt; integrada na base de instalação do prórpio ambiente.&lt;/p&gt;
+&lt;h2 id=&#34;membros-do-projeto&#34;&gt;Membros do projeto&lt;/h2&gt;
+&lt;p&gt;Os membros do projeto se distribui de acordo com as demandas de trabalho:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementação dos algoritmos para as análises estatísticas:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de O. Batista (UFSJ)&lt;/a&gt; (Estatística Experimental e Procedimentos de Comparações múltiplas)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lattes.cnpq.br/1676599123972157&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique  josé de Paula Alves (IPEA)&lt;/a&gt; (Estatística Espacial)&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interface Gráfica ao usuário:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://lattes.cnpq.br/5103890188106141&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fernando Augusto Teixeira (UFSJ)&lt;/a&gt; (&lt;em&gt;Frontend&lt;/em&gt; usando o &lt;a href=&#34;https://pt-br.reactjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;React&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;parcerias&#34;&gt;Parcerias&lt;/h2&gt;
+&lt;p&gt;Estamos buscando parcerias, sempre com a finalidade de propagação de conhecimento. Queremos auxiliar a ciência de um modo geral. Portanto, esse projeto é de código aberto e qualquer um poderá contribuir. Para fazer parte desse projeto, entre em contato por &lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email&lt;/a&gt;, descrevendo a área em que poderá nos auxiliar. Será um imenso prazer compartilharmos as nossas experiências nesse projeto.&lt;/p&gt;
 </description>
     </item>
     
@@ -299,7 +346,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-841539627&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-231465987&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -309,7 +356,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-841539627&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-231465987&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -752,27 +799,6 @@ Three
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       <guid>http://bendeivide.github.io/about/</guid>
       <description>&lt;p&gt;This is a &amp;ldquo;hello world&amp;rdquo; example website for the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; package. The theme was forked from &lt;a href=&#34;https://github.com/jrutheiser/hugo-lithium-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@jrutheiser/hugo-lithium-theme&lt;/a&gt; and modified by &lt;a href=&#34;https://github.com/yihui/hugo-lithium&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yihui Xie&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>http://bendeivide.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>http://bendeivide.github.io/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     

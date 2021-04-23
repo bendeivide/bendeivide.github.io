@@ -3,48 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://bendeivide.github.io/courses/example/python/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/courses/example/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/courses/example/python/"
-                />
+    <loc>http://bendeivide.github.io/courses/cursor/nbasico/</loc>
+    <lastmod>2021-04-23T05:49:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/courses/example/visualization/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/courses/example/visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/courses/example/visualization/"
-                />
+    <loc>http://bendeivide.github.io/courses/cursor/nintermediario/</loc>
+    <lastmod>2021-04-23T05:45:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/courses/example/stats/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/courses/example/stats/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/courses/example/stats/"
-                />
+    <loc>http://bendeivide.github.io/courses/cursor/navancado/</loc>
+    <lastmod>2021-04-23T05:50:06+00:00</lastmod>
   </url>
   
   <url>
@@ -93,8 +63,48 @@
   </url>
   
   <url>
+    <loc>http://bendeivide.github.io/tag/meupacoter/</loc>
+    <lastmod>2021-04-23T06:06:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/meupacoter/</loc>
+    <lastmod>2021-04-23T06:06:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/</loc>
+    <lastmod>2021-04-23T06:06:41+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://bendeivide.github.io/en/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://bendeivide.github.io/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc>
+    <lastmod>2021-04-23T06:06:41+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://bendeivide.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://bendeivide.github.io/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>http://bendeivide.github.io/courses/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-23T05:50:06+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -108,17 +118,47 @@
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/courses/example/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+    <loc>http://bendeivide.github.io/courses/cursor/</loc>
+    <lastmod>2021-04-23T05:37:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://bendeivide.github.io/en/courses/example/"
+                href="http://bendeivide.github.io/en/courses/cursor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://bendeivide.github.io/courses/example/"
+                href="http://bendeivide.github.io/courses/cursor/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/statscience/</loc>
+    <lastmod>2021-04-23T05:36:16+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://bendeivide.github.io/en/project/statscience/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://bendeivide.github.io/project/statscience/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/statscience/</loc>
+    <lastmod>2021-04-23T05:36:16+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://bendeivide.github.io/en/tag/statscience/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://bendeivide.github.io/tag/statscience/"
                 />
   </url>
   
@@ -209,21 +249,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="http://bendeivide.github.io/post/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tags/"
                 />
   </url>
   
@@ -524,81 +549,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="http://bendeivide.github.io/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tag/deep-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tag/deep-learning/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tag/demo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tag/demo/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/project/external-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/project/external-project/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/project/internal-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/project/internal-project/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/project/"
                 />
   </url>
   
