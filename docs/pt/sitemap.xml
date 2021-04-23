@@ -63,18 +63,18 @@
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/project/leem/</loc>
-    <lastmod>2021-04-23T14:59:46+00:00</lastmod>
+    <loc>http://bendeivide.github.io/tag/cdec/</loc>
+    <lastmod>2021-04-23T15:23:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/tag/leem/</loc>
-    <lastmod>2021-04-23T14:59:46+00:00</lastmod>
+    <loc>http://bendeivide.github.io/project/cdec/</loc>
+    <lastmod>2021-04-23T15:23:33+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/project/</loc>
-    <lastmod>2021-04-23T14:59:46+00:00</lastmod>
+    <lastmod>2021-04-23T15:23:33+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -89,7 +89,7 @@
   
   <url>
     <loc>http://bendeivide.github.io/tags/</loc>
-    <lastmod>2021-04-23T14:59:46+00:00</lastmod>
+    <lastmod>2021-04-23T15:23:33+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -100,6 +100,16 @@
                 hreflang="pt"
                 href="http://bendeivide.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/leem/</loc>
+    <lastmod>2021-04-23T14:59:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/leem/</loc>
+    <lastmod>2021-04-23T14:59:46+00:00</lastmod>
   </url>
   
   <url>
@@ -170,11 +180,6 @@
                 hreflang="pt"
                 href="http://bendeivide.github.io/courses/cursor/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/cdec/</loc>
-    <lastmod>2021-04-23T05:36:16+00:00</lastmod>
   </url>
   
   <url>
