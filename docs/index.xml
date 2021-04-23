@@ -126,6 +126,30 @@
     </item>
     
     <item>
+      <title>Pacote midrangeMCP</title>
+      <link>http://bendeivide.github.io/project/midrangemcp/</link>
+      <pubDate>Fri, 23 Apr 2021 14:27:41 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/midrangemcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pacote SMR</title>
+      <link>http://bendeivide.github.io/project/smr/</link>
+      <pubDate>Fri, 23 Apr 2021 14:27:27 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/smr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pacote MCPtests</title>
+      <link>http://bendeivide.github.io/project/mcptests/</link>
+      <pubDate>Fri, 23 Apr 2021 10:24:36 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/mcptests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pacote meupacoter</title>
       <link>http://bendeivide.github.io/project/meupacoter/</link>
       <pubDate>Fri, 23 Apr 2021 06:06:41 +0000</pubDate>
@@ -346,7 +370,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-231465987&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-742516839&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -356,7 +380,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-231465987&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-742516839&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
