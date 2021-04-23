@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/leem/</link>
       <atom:link href="http://bendeivide.github.io/tag/leem/index.xml" rel="self" type="application/rss+xml" />
     <description>LEEM</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 23 Apr 2021 14:59:46 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 23 Apr 2021 15:56:47 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>LEEM</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>Laboratório de Ensino de Estatística e Matemática</title>
+      <title>LEEM</title>
       <link>http://bendeivide.github.io/project/leem/</link>
-      <pubDate>Fri, 23 Apr 2021 14:59:46 +0000</pubDate>
+      <pubDate>Fri, 23 Apr 2021 15:56:47 +0000</pubDate>
       <guid>http://bendeivide.github.io/project/leem/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;Esse projeto tem por objetivo de criar uma interface gráfica ao usuário no &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, usando o pacote &lt;a href=&#34;https://shiny.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shiny&lt;/a&gt; e o pacote &lt;em&gt;tcltk&lt;/em&gt; da base do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Tentaremos apresentar temas simples e complexos de forma interativa, para que o professor dessas áreas possa abordar o tema de modo mais facilmente.&lt;/p&gt;
