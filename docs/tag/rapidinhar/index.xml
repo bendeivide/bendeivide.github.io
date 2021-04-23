@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>statscience | Ben Dêivide</title>
-    <link>http://bendeivide.github.io/tag/statscience/</link>
-      <atom:link href="http://bendeivide.github.io/tag/statscience/index.xml" rel="self" type="application/rss+xml" />
-    <description>statscience</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 23 Apr 2021 05:36:16 +0000</lastBuildDate>
+    <title>rapidinhar | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/rapidinhar/</link>
+      <atom:link href="http://bendeivide.github.io/tag/rapidinhar/index.xml" rel="self" type="application/rss+xml" />
+    <description>rapidinhar</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 23 Apr 2021 16:38:36 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
-      <title>statscience</title>
-      <link>http://bendeivide.github.io/tag/statscience/</link>
+      <title>rapidinhar</title>
+      <link>http://bendeivide.github.io/tag/rapidinhar/</link>
     </image>
     
     <item>
-      <title>Pacote statscience</title>
-      <link>http://bendeivide.github.io/project/statscience/</link>
-      <pubDate>Fri, 23 Apr 2021 05:36:16 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/statscience/</guid>
+      <title>Rapidinhas do R</title>
+      <link>http://bendeivide.github.io/project/rapidinhasr/</link>
+      <pubDate>Fri, 23 Apr 2021 16:38:36 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/rapidinhasr/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;O projeto do pacote &lt;a href=&#34;https://bendeivide.github.io/statscience/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;statscience&lt;/a&gt; está em fase de desenvolvimento, e tem por objetivo de apresentar as principais técnicas de análises de dados na área da Estatística. Seguem alguns dos tópicos abordados:&lt;/p&gt;
 &lt;ul&gt;
