@@ -63,18 +63,18 @@
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/tag/midrangemcp/</loc>
-    <lastmod>2021-04-23T14:27:41+00:00</lastmod>
+    <loc>http://bendeivide.github.io/project/leem/</loc>
+    <lastmod>2021-04-23T14:53:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/project/midrangemcp/</loc>
-    <lastmod>2021-04-23T14:27:41+00:00</lastmod>
+    <loc>http://bendeivide.github.io/tag/leem/</loc>
+    <lastmod>2021-04-23T14:53:24+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/project/</loc>
-    <lastmod>2021-04-23T14:27:41+00:00</lastmod>
+    <lastmod>2021-04-23T14:53:24+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -89,7 +89,7 @@
   
   <url>
     <loc>http://bendeivide.github.io/tags/</loc>
-    <lastmod>2021-04-23T14:27:41+00:00</lastmod>
+    <lastmod>2021-04-23T14:53:24+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -100,6 +100,16 @@
                 hreflang="pt"
                 href="http://bendeivide.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/midrangemcp/</loc>
+    <lastmod>2021-04-23T14:27:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/midrangemcp/</loc>
+    <lastmod>2021-04-23T14:27:41+00:00</lastmod>
   </url>
   
   <url>
