@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/smr/</link>
       <atom:link href="http://bendeivide.github.io/tag/smr/index.xml" rel="self" type="application/rss+xml" />
     <description>SMR</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 24 Apr 2021 04:55:24 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 24 Apr 2021 15:09:50 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>SMR</title>
@@ -15,9 +15,32 @@
     <item>
       <title>Pacote SMR</title>
       <link>http://bendeivide.github.io/project/smr/</link>
-      <pubDate>Sat, 24 Apr 2021 04:55:24 +0000</pubDate>
+      <pubDate>Sat, 24 Apr 2021 15:09:50 +0000</pubDate>
       <guid>http://bendeivide.github.io/project/smr/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;O pacote &lt;a href=&#34;http://cran.r-project.org/package=SMR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SMR&lt;/a&gt; computa a distribuição (função densidade, função de distribuição, função quantil) da distribuição da &lt;em&gt;midrange&lt;/em&gt; estudentizada externamente de uma população normal, bem como o algoritmo para gerar números aleatórios dessa distribuição.&lt;/p&gt;
+&lt;h2 id=&#34;origem-do-projeto&#34;&gt;Origem do projeto&lt;/h2&gt;
+&lt;p&gt;O pacote &lt;a href=&#34;http://cran.r-project.org/package=SMR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SMR&lt;/a&gt; foi originado como resultado da dissertação intitulada &lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/753/1/DISSERTA%c3%87%c3%83O_Distribui%c3%a7%c3%a3o%20exata%20da%20midrange%20estudentizada%20externamente%20da%20normal%20e%20desenvolvimento%20de%20uma%20biblioteca%20R%20utilizando%20Quadratur.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distribuição exata da midrange estudentizada externamente da normal e desenvolvimento de uma biblioteca R utilizando Quadratura Gaussiana&lt;/a&gt;, de autoria de &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de Oliveira Batista&lt;/a&gt;, orientada pelo Prof. &lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;, pela &lt;a href=&#34;http://ufla.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Universidade Federal de Lavras&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;membros&#34;&gt;Membros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de Oliveira Batista&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;onde-encontrar-o-projeto&#34;&gt;Onde Encontrar o projeto&lt;/h2&gt;
+&lt;p&gt;O pacote se encontra sob o &lt;a href=&#34;http://cran.r-project.org/package=MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt; desde 2014. O repositório GitHub, bem como a página do pacote ainda está sendo desenvolvida.&lt;/p&gt;
+&lt;h2 id=&#34;publicações&#34;&gt;Publicações&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/29962/1/ARTIGO_Externally%20studentized%20normal%20midrange%20distribution.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Artigo da distribuição analítica da estatística &lt;em&gt;midrange&lt;/em&gt; estudentizada externamente de uma normal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://journal.r-project.org/archive/2014/RJ-2014-029/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Artigo do pacote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cran.r-project.org/package=SMR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Publicação do pacote sob o CRAN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contribuições-ainda-a-serem-realizadas&#34;&gt;Contribuições ainda a serem realizadas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GUI para o pacote;&lt;/li&gt;
+&lt;li&gt;Implementar o cálculo da quadratura Gauss-Legendre em C/C++;&lt;/li&gt;
+&lt;li&gt;Implementar o método Newton-Raphson para o cálculo da função quantil em C/C++.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
