@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ufsj0032019 | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/ufsj0032019/</link>
+      <atom:link href="http://bendeivide.github.io/tag/ufsj0032019/index.xml" rel="self" type="application/rss+xml" />
+    <description>ufsj0032019</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 23 Apr 2021 23:40:38 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>ufsj0032019</title>
+      <link>http://bendeivide.github.io/tag/ufsj0032019/</link>
+    </image>
+    
+    <item>
+      <title>Projeto UFSJ 003/2019/PROPE</title>
+      <link>http://bendeivide.github.io/project/projufsj/</link>
+      <pubDate>Fri, 23 Apr 2021 23:40:38 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/projufsj/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Este projeto pretende revisar os PCMs desenvolvidos até o momento na literatura e implementá-los no  pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt;. O pacote terá uma interfacgráfica para facilitar a acessibilidade e utilização. Em toda estrutura de pacotes no &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; há uma página em &lt;em&gt;html&lt;/em&gt; chamada &amp;ldquo;&lt;em&gt;help&lt;/em&gt;&amp;rdquo;. Esta pasta fornece um resumo de como utilizar as funções do pacote. Na página help do pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt; será fornecido as principais características de avaliação de desempenho dos PCMs. Isso proporcionará ao pesquisador uma melhor decisão para a escolha do teste a ser utilizado em sua análise. Portanto, os objetivos desse projeto são:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Revisar os principais procedimentos de comparações múltiplas desenvolvidos até o momento e implementá-los no pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;período-de-execução-e-local&#34;&gt;Período de execução e local&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; O projeto foi desenvolvido durante o período de agosto de 2019 a julho de 2020, pelo Edital 003/2019/PROPE/UFSJ.&lt;/p&gt;
+&lt;h2 id=&#34;membros&#34;&gt;Membros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Orientando: &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur Bispo Justino de Oliveira&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Orientador: &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de Oliveira Batista&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;relatório-final&#34;&gt;Relatório Final&lt;/h2&gt;
+&lt;p&gt;O relatório final do trabalho segue em &lt;a href=&#34;http://bendeivide.github/media/proj003.2019.prope.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;trabalhos-publicados&#34;&gt;Trabalhos publicados&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ufsj.edu.br/wmma/v_wmma.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;V Workshop de Matemática e Matemática aplicada (UFSJ/UFLA)&lt;/a&gt; &lt;a href=&#34;https://ufsj.edu.br/portal2-repositorio/File/wmma/wmma2020/diego.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cran.r-project.org/package=MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pacote publicado sob o CRAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Artigo para o &lt;em&gt;The R Journal&lt;/em&gt; em fase de desenvolvimento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;considerações&#34;&gt;Considerações&lt;/h2&gt;
+&lt;p&gt;Apesar do projeto ter sido finalizado, muito sobre o pacote ainda necessita de contribuição:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Algoritmos dos PCMs;&lt;/li&gt;
+&lt;li&gt;Implementações sobre a GUI, usando linguagem &lt;em&gt;Tcl/tk&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Relatório de análises;&lt;/li&gt;
+&lt;li&gt;Implementações sobre as avaliações de desempenho dos testes via simulação Monte Carlo.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
