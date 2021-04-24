@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/project/</link>
       <atom:link href="http://bendeivide.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 23 Apr 2021 23:50:29 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 24 Apr 2021 05:57:06 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,12 +13,144 @@
     </image>
     
     <item>
+      <title>Pacote MCPtests</title>
+      <link>http://bendeivide.github.io/project/mcptests/</link>
+      <pubDate>Sat, 24 Apr 2021 05:57:06 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/mcptests/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;O pacote &lt;strong&gt;MCPtests&lt;/strong&gt; é uma evolução do pacote &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt;. Além da agregação de gráfico nos resultados dos testes, o tipo de entrada de dados, que é um diferencial com relação a outros pacotes, o &lt;strong&gt;MCPtests&lt;/strong&gt; abrangerá um universo maior de testes, além de poder apresentar avaliação de desempenho dos testes em tempo real, via simulação Monte Carlo. Com isso, o poder de escolha de um teste pelo usuário, poderá ser mais criterioso, do que usar os testes convencionais da literatura sem nenhuma critério de escolha.&lt;/p&gt;
+&lt;p&gt;Algo que ganhará destaque também será a saída. Além das exportações tradicionais encontradas no pacote &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt;, usaremos os recursos do RMarkdown ao nosso favor, incluindo uma tomada de decisão mais intuitiva sobre os testes, bem como, avaliando e apresentando as suas pressuposições.&lt;/p&gt;
+&lt;p&gt;Se o usuário desejar agregar Análise de Variância (ANAVA), também poderá ser utilizada em seus resultados, mas o enfoque é o resultado do PCM, uma vez que a sequência dos resultados da ANAVA e depois PCM é um padrão não obrigatório, e quase todo mundo sempre procedeu dessa forma como se fosse uma obrigatoriedade.&lt;/p&gt;
+&lt;p&gt;Outra vantagem do pacote é que suas teclas de atalho se assemelham com a ambientação do RStudio, tornando-o isso mais intuitivo.&lt;/p&gt;
+&lt;h2 id=&#34;origem-do-projeto&#34;&gt;Origem do projeto&lt;/h2&gt;
+&lt;p&gt;O projeto foi originado de outros dois projetos, o &lt;a href=&#34;https://bendeivide.github.io/project/projufsj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Projeto UFSJ 003/2019/PROPE&lt;/a&gt; e o &lt;a href=&#34;&#34;&gt;Projeto UFSJ 004/2019/PROPE&lt;/a&gt;. Este último foi uma recomendação proposta de artigo de revisão para ser enviado a Revista Ciência e Agrotecnologia, que ainda está em desenvolvimento.&lt;/p&gt;
+&lt;h2 id=&#34;membros&#34;&gt;Membros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur Bispo Justino de Oliveira&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/matheus-fernando-santos-219555b0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matheus Fernando Santos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de Oliveira Batista&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;onde-encontrar-o-projeto&#34;&gt;Onde encontrar o projeto&lt;/h2&gt;
+&lt;p&gt;Uma primeira versão do pacote já se encontra sob o &lt;a href=&#34;http://cran.r-project.org/package=MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;, e suas alterações estão sendo atualizadas no repositório &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;. A página do pacote ainda está sendo desenvolvida.&lt;/p&gt;
+&lt;h2 id=&#34;publicações&#34;&gt;Publicações&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ufsj.edu.br/wmma/v_wmma.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;V Workshop de Matemática e Matemática aplicada (UFSJ/UFLA)&lt;/a&gt; &lt;a href=&#34;https://ufsj.edu.br/portal2-repositorio/File/wmma/wmma2020/diego.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cran.r-project.org/package=MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pacote publicado sob o CRAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Artigo para o &lt;em&gt;The R Journal&lt;/em&gt; em fase de desenvolvimento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contribuições-ainda-a-serem-realizadas&#34;&gt;Contribuições ainda a serem realizadas&lt;/h2&gt;
+&lt;p&gt;Contribuições ainda a serem feitas no pacote:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Página do pacote;&lt;/li&gt;
+&lt;li&gt;Implementação do algoritmo dos PCMs ao pacote;&lt;/li&gt;
+&lt;li&gt;Implementações sobre a GUI, usando linguagem &lt;em&gt;Tcl/tk&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Relatório de análises;&lt;/li&gt;
+&lt;li&gt;Implementações sobre as avaliações de desempenho dos testes via simulação Monte Carlo.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pacote midrangeMCP</title>
+      <link>http://bendeivide.github.io/project/midrangemcp/</link>
+      <pubDate>Sat, 24 Apr 2021 05:50:11 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/midrangemcp/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;O pacote &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; apresenta quatro procedimentos de comparações múltiplas (PCMs), testes TM, SNKM, MGM e MGR. Os três primeiros baseados na &lt;a href=&#34;https://www.scielo.br/scielo.php?script=sci_abstract&amp;amp;pid=S1413-70542017000400378&amp;amp;lng=en&amp;amp;nrm=iso&amp;amp;tlng=pt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;distribuição da &lt;em&gt;midrange&lt;/em&gt; estudentizada externamente de uma população normal&lt;/a&gt;. O último teste é baseado numa distribuição largamente utilizada no desenvolvimento de PCMs, que é a distribuição da amplitude estudentizada de um população normal. A diferença entre os testes que se baseiam nessa distribuição com o teste MGR, é que este teste foi desenvolvido por meio de métodos de agrupamento, e portanto, não apresenta o problema de ambiguidade de resultados como apresentado nos resultados de muitos PCMs.&lt;/p&gt;
+&lt;h2 id=&#34;origem-do-projeto&#34;&gt;Origem do projeto&lt;/h2&gt;
+&lt;p&gt;O projeto foi originado pela teste por uma sequência de trabalhos. A primeira ideia foi originada da dissertação intitulada &lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/753/1/DISSERTA%c3%87%c3%83O_Distribui%c3%a7%c3%a3o%20exata%20da%20midrange%20estudentizada%20externamente%20da%20normal%20e%20desenvolvimento%20de%20uma%20biblioteca%20R%20utilizando%20Quadratur.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distribuição exata da midrange estudentizada externamente da normal e desenvolvimento de uma biblioteca R utilizando Quadratura Gaussiana&lt;/a&gt;, de autoria de &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de Oliveira Batista&lt;/a&gt;, orientada pelo Prof. &lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;. A sequência desse trabalho foi a tese &lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/11466/2/TESE_Testes%20de%20compara%c3%a7%c3%b5es%20m%c3%baltiplas%20baseados%20na%20distribui%c3%a7%c3%a3o%20da%20midrange%20estudentizada%20externamente.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Testes de comparações múltiplas baseados na distribuição da midrange estudentizada externamente&lt;/a&gt;, e que este último teve como um dos objetivos o pacote &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;membros&#34;&gt;Membros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur Bispo Justino de Oliveira&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de Oliveira Batista&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;onde-encontrar-o-projeto&#34;&gt;Onde encontrar o projeto&lt;/h2&gt;
+&lt;p&gt;O pacote se encontra sob o &lt;a href=&#34;http://cran.r-project.org/package=midrangeMCP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;, e suas alterações estão sendo atualizadas no repositório &lt;a href=&#34;https://github.com/bendeivide/midrangeMCP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;. Para maiores detalhes, acesse a &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;página do pacote&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;publicações&#34;&gt;Publicações&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/29962/1/ARTIGO_Externally%20studentized%20normal%20midrange%20distribution.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distribuição da &lt;em&gt;midrange&lt;/em&gt; estudentizada externamente de uma população normal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scielo.br/scielo.php?pid=S1413-70542020000100240&amp;amp;script=sci_arttext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Testes TM e SNKM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cran.r-project.org/package=midrangeMCP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Publicação do pacote no CRAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;O artigo dos testes MGM e MGR estão em desenvolvimento&lt;/li&gt;
+&lt;li&gt;O artigo do pacote ao &lt;em&gt;The R Journal&lt;/em&gt; está em desenvolvimento&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contribuições-ainda-a-serem-realizadas&#34;&gt;Contribuições ainda a serem realizadas&lt;/h2&gt;
+&lt;p&gt;O pacote encontra-se estável, e para finalizá-lo estamos corrigindo alguns &lt;em&gt;bugs&lt;/em&gt; com relação a saída dos gráficos do resultado dos testes na GUI do pacote, bem como alguns acréscimos de programação defensiva também na GUI. Outro ponto que está em fase final é o &lt;em&gt;vignette&lt;/em&gt; do pacote.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pacote SMR</title>
+      <link>http://bendeivide.github.io/project/smr/</link>
+      <pubDate>Sat, 24 Apr 2021 04:55:24 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/smr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pacote meupacoter</title>
+      <link>http://bendeivide.github.io/project/meupacoter/</link>
+      <pubDate>Sat, 24 Apr 2021 04:46:53 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/meupacoter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LEEM</title>
+      <link>http://bendeivide.github.io/project/leem/</link>
+      <pubDate>Sat, 24 Apr 2021 04:45:09 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/leem/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Esse projeto tem por objetivo de criar uma interface gráfica ao usuário no &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, usando o pacote &lt;a href=&#34;https://shiny.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shiny&lt;/a&gt; e o pacote &lt;em&gt;tcltk&lt;/em&gt; da base do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Tentaremos apresentar temas simples e complexos de forma interativa, para que o professor dessas áreas possa abordar o tema de modo mais facilmente.&lt;/p&gt;
+&lt;h2 id=&#34;projetos-integrados&#34;&gt;Projetos integrados&lt;/h2&gt;
+&lt;p&gt;Temos dentro desse projetos, diversos projetos integrados, sendo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Projeto de dissertação PROFMAT/CAP/UFSJ, da orientanda &lt;a href=&#34;http://lattes.cnpq.br/5176118169651142&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Juliane Nassaralla Almeida&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Grupo de Iniciação Científica em Estatística/R:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/amandakellycosta/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amanda Kelly Costa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/l%c3%adviasdias/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lívia Dias de Sá Amorim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/gustavo-dos-rem%c3%a9dios-da-silva-paula-995a04181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gustavo do Remédios da Silva Paula&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;linkedin.com/in/dailon-vinicius-6502a9207&#34;&gt;Dailon Vinicius Barbosa de Fátima&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/andrefdg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;André Felipe Duarte Gonçalves&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;propostas-da-gui&#34;&gt;Propostas da GUI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;GUI 1 (Proposta de Gustavo): &lt;a href=&#34;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&#34;&gt;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GUI 2 (Proposta de Juliane): &lt;a href=&#34;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&#34;&gt;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GUI 3 (Proposta de André Felipe): &lt;a href=&#34;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&#34;&gt;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GUI 4 (Proposta de Dailon): &lt;a href=&#34;images/gui-dailon.jpeg&#34;&gt;Imagem&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CDEC</title>
+      <link>http://bendeivide.github.io/project/cdec/</link>
+      <pubDate>Sat, 24 Apr 2021 04:43:56 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/cdec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Projeto UFSJ 003/2019/PROPE</title>
       <link>http://bendeivide.github.io/project/projufsj/</link>
-      <pubDate>Fri, 23 Apr 2021 23:50:29 +0000</pubDate>
+      <pubDate>Sat, 24 Apr 2021 04:21:55 +0000</pubDate>
       <guid>http://bendeivide.github.io/project/projufsj/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
-&lt;p&gt;Este projeto pretende revisar os PCMs desenvolvidos até o momento na literatura e implementá-los no  pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt;. O pacote terá uma interfacgráfica para facilitar a acessibilidade e utilização. Em toda estrutura de pacotes no &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; há uma página em &lt;em&gt;html&lt;/em&gt; chamada &amp;ldquo;&lt;em&gt;help&lt;/em&gt;&amp;rdquo;. Esta pasta fornece um resumo de como utilizar as funções do pacote. Na página help do pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt; será fornecido as principais características de avaliação de desempenho dos PCMs. Isso proporcionará ao pesquisador uma melhor decisão para a escolha do teste a ser utilizado em sua análise. Portanto, os objetivos desse projeto são:&lt;/p&gt;
+&lt;p&gt;Este projeto pretende revisar os Procedimentos de Comparações Múltiplas (PCMs) desenvolvidos até o momento na literatura e implementá-los no  pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt;. O pacote terá uma interfacgráfica para facilitar a acessibilidade e utilização. Em toda estrutura de pacotes no &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; há uma página em &lt;em&gt;html&lt;/em&gt; chamada &amp;ldquo;&lt;em&gt;help&lt;/em&gt;&amp;rdquo;. Esta pasta fornece um resumo de como utilizar as funções do pacote. Na página help do pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt; será fornecido as principais características de avaliação de desempenho dos PCMs. Isso proporcionará ao pesquisador uma melhor decisão para a escolha do teste a ser utilizado em sua análise. Portanto, os objetivos desse projeto são:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Revisar os principais procedimentos de comparações múltiplas desenvolvidos até o momento e implementá-los no pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -47,14 +179,6 @@
 &lt;li&gt;Implementações sobre as avaliações de desempenho dos testes via simulação Monte Carlo.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Pacote MCPtests</title>
-      <link>http://bendeivide.github.io/project/mcptests/</link>
-      <pubDate>Fri, 23 Apr 2021 16:42:18 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/mcptests/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -96,77 +220,6 @@
 &lt;h2 id=&#34;parcerias&#34;&gt;Parcerias&lt;/h2&gt;
 &lt;p&gt;Estamos buscando parcerias, sempre com a finalidade de propagação de conhecimento. Queremos auxiliar a ciência de um modo geral. Portanto, esse projeto é de código aberto e qualquer um poderá contribuir. Para fazer parte desse projeto, entre em contato por &lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email&lt;/a&gt;, descrevendo a área em que poderá nos auxiliar. Será um imenso prazer compartilharmos as nossas experiências nesse projeto.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>LEEM</title>
-      <link>http://bendeivide.github.io/project/leem/</link>
-      <pubDate>Fri, 23 Apr 2021 15:56:47 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/leem/</guid>
-      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
-&lt;p&gt;Esse projeto tem por objetivo de criar uma interface gráfica ao usuário no &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, usando o pacote &lt;a href=&#34;https://shiny.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shiny&lt;/a&gt; e o pacote &lt;em&gt;tcltk&lt;/em&gt; da base do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Tentaremos apresentar temas simples e complexos de forma interativa, para que o professor dessas áreas possa abordar o tema de modo mais facilmente.&lt;/p&gt;
-&lt;h2 id=&#34;projetos-integrados&#34;&gt;Projetos integrados&lt;/h2&gt;
-&lt;p&gt;Temos dentro desse projetos, diversos projetos integrados, sendo:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Projeto de dissertação PROFMAT/CAP/UFSJ, da orientanda &lt;a href=&#34;http://lattes.cnpq.br/5176118169651142&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Juliane Nassaralla Almeida&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;Grupo de Iniciação Científica em Estatística/R:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/amandakellycosta/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amanda Kelly Costa&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/l%c3%adviasdias/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lívia Dias de Sá Amorim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/gustavo-dos-rem%c3%a9dios-da-silva-paula-995a04181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gustavo do Remédios da Silva Paula&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;linkedin.com/in/dailon-vinicius-6502a9207&#34;&gt;Dailon Vinicius Barbosa de Fátima&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/andrefdg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;André Felipe Duarte Gonçalves&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;propostas-da-gui&#34;&gt;Propostas da GUI&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;GUI 1 (Proposta de Gustavo): &lt;a href=&#34;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&#34;&gt;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GUI 2 (Proposta de Juliane): &lt;a href=&#34;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&#34;&gt;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GUI 3 (Proposta de André Felipe): &lt;a href=&#34;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&#34;&gt;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GUI 4 (Proposta de Dailon): &lt;a href=&#34;images/gui-dailon.jpeg&#34;&gt;Imagem&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CDEC</title>
-      <link>http://bendeivide.github.io/project/cdec/</link>
-      <pubDate>Fri, 23 Apr 2021 15:23:33 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/cdec/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pacote midrangeMCP</title>
-      <link>http://bendeivide.github.io/project/midrangemcp/</link>
-      <pubDate>Fri, 23 Apr 2021 14:27:41 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/midrangemcp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pacote SMR</title>
-      <link>http://bendeivide.github.io/project/smr/</link>
-      <pubDate>Fri, 23 Apr 2021 14:27:27 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/smr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pacote meupacoter</title>
-      <link>http://bendeivide.github.io/project/meupacoter/</link>
-      <pubDate>Fri, 23 Apr 2021 06:06:41 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/meupacoter/</guid>
-      <description></description>
     </item>
     
     <item>

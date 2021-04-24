@@ -63,8 +63,18 @@
   </url>
   
   <url>
+    <loc>http://bendeivide.github.io/tag/mcptests/</loc>
+    <lastmod>2021-04-24T05:57:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/mcptests/</loc>
+    <lastmod>2021-04-24T05:57:06+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bendeivide.github.io/project/</loc>
-    <lastmod>2021-04-23T23:50:29+00:00</lastmod>
+    <lastmod>2021-04-24T05:57:06+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -78,13 +88,8 @@
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/project/projufsj/</loc>
-    <lastmod>2021-04-23T23:50:29+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://bendeivide.github.io/tags/</loc>
-    <lastmod>2021-04-23T23:50:29+00:00</lastmod>
+    <lastmod>2021-04-24T05:57:06+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -98,18 +103,63 @@
   </url>
   
   <url>
+    <loc>http://bendeivide.github.io/tag/midrangemcp/</loc>
+    <lastmod>2021-04-24T05:50:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/midrangemcp/</loc>
+    <lastmod>2021-04-24T05:50:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/smr/</loc>
+    <lastmod>2021-04-24T04:55:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/smr/</loc>
+    <lastmod>2021-04-24T04:55:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/meupacoter/</loc>
+    <lastmod>2021-04-24T04:46:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/meupacoter/</loc>
+    <lastmod>2021-04-24T04:46:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/leem/</loc>
+    <lastmod>2021-04-24T04:45:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/leem/</loc>
+    <lastmod>2021-04-24T04:45:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/cdec/</loc>
+    <lastmod>2021-04-24T04:43:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/cdec/</loc>
+    <lastmod>2021-04-24T04:43:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/project/projufsj/</loc>
+    <lastmod>2021-04-24T04:21:55+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bendeivide.github.io/tag/ufsj0032019/</loc>
-    <lastmod>2021-04-23T23:50:29+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tag/mcptests/</loc>
-    <lastmod>2021-04-23T16:42:18+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/mcptests/</loc>
-    <lastmod>2021-04-23T16:42:18+00:00</lastmod>
+    <lastmod>2021-04-24T04:21:55+00:00</lastmod>
   </url>
   
   <url>
@@ -120,56 +170,6 @@
   <url>
     <loc>http://bendeivide.github.io/project/rapidinhasr/</loc>
     <lastmod>2021-04-23T16:38:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tag/leem/</loc>
-    <lastmod>2021-04-23T15:56:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/leem/</loc>
-    <lastmod>2021-04-23T15:56:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tag/cdec/</loc>
-    <lastmod>2021-04-23T15:23:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/cdec/</loc>
-    <lastmod>2021-04-23T15:23:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tag/midrangemcp/</loc>
-    <lastmod>2021-04-23T14:27:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/midrangemcp/</loc>
-    <lastmod>2021-04-23T14:27:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/smr/</loc>
-    <lastmod>2021-04-23T14:27:27+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tag/smr/</loc>
-    <lastmod>2021-04-23T14:27:27+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/tag/meupacoter/</loc>
-    <lastmod>2021-04-23T06:06:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/project/meupacoter/</loc>
-    <lastmod>2021-04-23T06:06:41+00:00</lastmod>
   </url>
   
   <url>
