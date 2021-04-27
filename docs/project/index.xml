@@ -5,12 +5,20 @@
     <link>http://bendeivide.github.io/project/</link>
       <atom:link href="http://bendeivide.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 24 Apr 2021 15:09:50 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 27 Apr 2021 13:21:35 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>http://bendeivide.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>CDEC</title>
+      <link>http://bendeivide.github.io/project/cdec/</link>
+      <pubDate>Tue, 27 Apr 2021 13:21:35 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/cdec/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Pacote SMR</title>
@@ -194,14 +202,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>CDEC</title>
-      <link>http://bendeivide.github.io/project/cdec/</link>
-      <pubDate>Sat, 24 Apr 2021 04:43:56 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/cdec/</guid>
-      <description></description>
     </item>
     
     <item>

@@ -126,6 +126,37 @@
     </item>
     
     <item>
+      <title></title>
+      <link>http://bendeivide.github.io/dc/</link>
+      <pubDate>Tue, 27 Apr 2021 13:57:11 +0000</pubDate>
+      <guid>http://bendeivide.github.io/dc/</guid>
+      <description>&lt;p&gt;O selo Democratizando Conhecimento (DC) é uma ideia criada por mim, para mostrar a filosofia de trabalho que tento adotar na carreira profissional.&lt;/p&gt;
+&lt;p&gt;Como propagador de conhecimento, sabemos que nem todas as pessoas tem acesso a informação de qualidade e gratuita. Uma sociedade em progresso é aquela que dá direto a informação a todas as pessoas, sem restrição ao poder aquisisto. Dessa forma, devemos pensar sim em nosso reconhecimento profissional e financeiro, mas não podemos esquecer que o acesso a informação é o melhor começo para termos um mundo menos desigual.&lt;/p&gt;
+&lt;p&gt;Assim, todo os meus materiais terão o &lt;strong&gt;selo DC&lt;/strong&gt; para que o acesso de todo esse material seja de livre acesso e que todo o material possa ser utilizado, levando em consideração que dadas as publicações, se faça a referência da mesma, não por questão de ego, mas de registro. Isso vai desde a publicação de livros, apostilas, páginas web, e todo o material produzido por mim. Uma forma de auxiliar a toda a comunidade que busca conhecimento.&lt;/p&gt;
+&lt;p&gt;Assim, meus livros terão a tiragem impresso e sua versão &lt;a href=&#34;https://bookdown.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bookdown&lt;/a&gt;, para que quem não puder comprar ainda assim tenha acesso a informação desse material. Materiais e conteúdos digitais estarão sempre disponíveis em meu repositório &lt;a href=&#34;https://github.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Faça parte também dessa ideia, e seja um propagador de conhecimento livre e acessível, isso é uma liberdade necessária.&lt;/p&gt;
+&lt;p&gt;Para quem desejar inserir o selo DC em seus materiais, deixo aqui a &lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;imagens na versão preta e branca do selo DC&lt;/a&gt;. Temos dois modelos de Selos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pensando no selo na capa de um livro:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-preto2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pensando no selo na lateral do livro:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-preto.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;De todo o modo, o selo DC poderá ser utilizado para qualquer material que tenha essa mesma filosofia profissional.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CDEC</title>
+      <link>http://bendeivide.github.io/project/cdec/</link>
+      <pubDate>Tue, 27 Apr 2021 13:21:35 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/cdec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pacote SMR</title>
       <link>http://bendeivide.github.io/project/smr/</link>
       <pubDate>Sat, 24 Apr 2021 15:09:50 +0000</pubDate>
@@ -307,14 +338,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>CDEC</title>
-      <link>http://bendeivide.github.io/project/cdec/</link>
-      <pubDate>Sat, 24 Apr 2021 04:43:56 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/cdec/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -571,7 +594,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-156847329&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-761524893&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -581,7 +604,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-156847329&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-761524893&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
