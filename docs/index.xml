@@ -126,6 +126,68 @@
     </item>
     
     <item>
+      <title>Auto Multiple Choice</title>
+      <link>http://bendeivide.github.io/handouts/amc/</link>
+      <pubDate>Tue, 27 Apr 2021 19:35:06 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/amc/</guid>
+      <description>&lt;p&gt;Essa apostila ensina como utilizar o programa &lt;em&gt;Auto Multiple Choice&lt;/em&gt; (AMC). Um programa muito eficiente para criação de provas com questões objetivas e abertas. Ao final, após digitalizar as provas, o próprio programa corrige as questões, gabarita e envia o resultado por e-mail aos alunos. Apesar de ser um programa apenas para o Linux, eu ensino como criar uma máquina virtual no SO Windows e utilizá-lo facilmente.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inferência Bayesiana</title>
+      <link>http://bendeivide.github.io/handouts/infbayes/</link>
+      <pubDate>Tue, 27 Apr 2021 19:27:53 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/infbayes/</guid>
+      <description>&lt;p&gt;Essa apostila apresenta alguns fundamentos sobre a Inferência Bayesiana. Foi idealizada durante o mestrado em Estatística na UFLA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inferência Estatística II</title>
+      <link>http://bendeivide.github.io/handouts/infii/</link>
+      <pubDate>Tue, 27 Apr 2021 19:24:12 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/infii/</guid>
+      <description>&lt;p&gt;Essa apostila é referente ao assunto sobre Estatística para grandes amostras, idealizada durante o doutorado em Estatística pela UFLA. Segue o &lt;a href=&#34;media/handout-infII.pdf&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/handouts/epaec/</link>
+      <pubDate>Tue, 27 Apr 2021 18:58:29 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/epaec/</guid>
+      <description>&lt;p&gt;Essa apostila ficou incompleta, pois deu sequência ao desenvolvimento do &lt;a href=&#34;https://bendeivide.github.io/books/EPAEC/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;livro&lt;/a&gt; que está em andamento.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estudando o ambiente R</title>
+      <link>http://bendeivide.github.io/books/eambr/</link>
+      <pubDate>Tue, 27 Apr 2021 18:27:45 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr/</guid>
+      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-eambr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/books/epaec/</link>
+      <pubDate>Tue, 27 Apr 2021 15:04:14 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/epaec/</guid>
+      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;em&gt;bookdown&lt;/em&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CDEC</title>
+      <link>http://bendeivide.github.io/project/cdec/</link>
+      <pubDate>Tue, 27 Apr 2021 14:19:17 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/cdec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Selo DC</title>
       <link>http://bendeivide.github.io/dc/</link>
       <pubDate>Tue, 27 Apr 2021 14:02:29 +0000</pubDate>
@@ -146,14 +208,6 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-preto.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;De todo o modo, o selo DC poderá ser utilizado para qualquer material que tenha essa mesma filosofia profissional.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>CDEC</title>
-      <link>http://bendeivide.github.io/project/cdec/</link>
-      <pubDate>Tue, 27 Apr 2021 13:21:35 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/cdec/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -594,7 +648,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-236871549&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-548621973&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -604,7 +658,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-236871549&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-548621973&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

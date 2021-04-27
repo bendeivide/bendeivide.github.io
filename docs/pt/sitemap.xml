@@ -63,23 +63,98 @@
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/dc/</loc>
-    <lastmod>2021-04-27T14:02:29+00:00</lastmod>
+    <loc>http://bendeivide.github.io/tag/amc/</loc>
+    <lastmod>2021-04-27T19:35:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/handouts/amc/</loc>
+    <lastmod>2021-04-27T19:35:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/handouts/</loc>
+    <lastmod>2021-04-27T19:35:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc>
+    <lastmod>2021-04-27T19:35:06+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://bendeivide.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://bendeivide.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/infbayes/</loc>
+    <lastmod>2021-04-27T19:27:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/handouts/infbayes/</loc>
+    <lastmod>2021-04-27T19:27:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/handouts/infii/</loc>
+    <lastmod>2021-04-27T19:24:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/infii/</loc>
+    <lastmod>2021-04-27T19:24:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/epaec/</loc>
+    <lastmod>2021-04-27T18:58:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/handouts/epaec/</loc>
+    <lastmod>2021-04-27T18:58:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/books/</loc>
+    <lastmod>2021-04-27T18:27:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/eambr/</loc>
+    <lastmod>2021-04-27T18:27:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/books/eambr/</loc>
+    <lastmod>2021-04-27T18:27:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/books/epaec/</loc>
+    <lastmod>2021-04-27T15:04:14+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/tag/cdec/</loc>
-    <lastmod>2021-04-27T13:21:35+00:00</lastmod>
+    <lastmod>2021-04-27T14:19:17+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/project/cdec/</loc>
-    <lastmod>2021-04-27T13:21:35+00:00</lastmod>
+    <lastmod>2021-04-27T14:19:17+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/project/</loc>
-    <lastmod>2021-04-27T13:21:35+00:00</lastmod>
+    <lastmod>2021-04-27T14:19:17+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -93,18 +168,8 @@
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc>
-    <lastmod>2021-04-27T13:21:35+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tags/"
-                />
+    <loc>http://bendeivide.github.io/dc/</loc>
+    <lastmod>2021-04-27T14:02:29+00:00</lastmod>
   </url>
   
   <url>
