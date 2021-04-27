@@ -126,6 +126,15 @@
     </item>
     
     <item>
+      <title>Inferência Estatística II</title>
+      <link>http://bendeivide.github.io/handouts/infii/</link>
+      <pubDate>Tue, 27 Apr 2021 19:42:37 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/infii/</guid>
+      <description>&lt;p&gt;Essa apostila é referente ao assunto sobre Estatística para grandes amostras, idealizada durante o doutorado em Estatística pela UFLA. Segue o &lt;a href=&#34;media/handout-infII.pdf&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Auto Multiple Choice</title>
       <link>http://bendeivide.github.io/handouts/amc/</link>
       <pubDate>Tue, 27 Apr 2021 19:35:06 +0000</pubDate>
@@ -140,15 +149,6 @@
       <pubDate>Tue, 27 Apr 2021 19:27:53 +0000</pubDate>
       <guid>http://bendeivide.github.io/handouts/infbayes/</guid>
       <description>&lt;p&gt;Essa apostila apresenta alguns fundamentos sobre a Inferência Bayesiana. Foi idealizada durante o mestrado em Estatística na UFLA.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Inferência Estatística II</title>
-      <link>http://bendeivide.github.io/handouts/infii/</link>
-      <pubDate>Tue, 27 Apr 2021 19:24:12 +0000</pubDate>
-      <guid>http://bendeivide.github.io/handouts/infii/</guid>
-      <description>&lt;p&gt;Essa apostila é referente ao assunto sobre Estatística para grandes amostras, idealizada durante o doutorado em Estatística pela UFLA. Segue o &lt;a href=&#34;media/handout-infII.pdf&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -648,7 +648,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-548621973&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-864319275&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -658,7 +658,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-548621973&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-864319275&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
