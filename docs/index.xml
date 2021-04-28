@@ -126,6 +126,25 @@
     </item>
     
     <item>
+      <title>Fundamentos de Inferência</title>
+      <link>http://bendeivide.github.io/books/finf/</link>
+      <pubDate>Wed, 28 Apr 2021 09:34:05 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/finf/</guid>
+      <description>&lt;p&gt;Esse livro será uma continuação do livro publicado por &lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;, intitulado &lt;a href=&#34;https://www.editora.ufla.br/produto/225/fundamentos-de-probabilidade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fundamentos de Probabilidade&lt;/a&gt;. Foi uma honra receber o convite do Prof. Daniel para essa parceria, ainda mais quando se está ao lado de uma pessoa que tenho como referência profissional.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Desenvolvimento de Pacotes em R</title>
+      <link>http://bendeivide.github.io/books/dpr/</link>
+      <pubDate>Wed, 28 Apr 2021 09:20:23 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/dpr/</guid>
+      <description>&lt;p&gt;Esse livro é um fruto de toda a minha experiência que venho tendo ao desenvolver pacotes. Tem muito trabalho pela frente, mas ao final, tenho certeza que ficará um grande material referência em desenvolvimento de pacotes em português.&lt;/p&gt;
+&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-dpr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Programação de Interface Gráfica ao Usuário no R</title>
       <link>http://bendeivide.github.io/books/pigur/</link>
       <pubDate>Wed, 28 Apr 2021 09:00:16 +0000</pubDate>
@@ -706,7 +725,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-598762143&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-235478691&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -716,7 +735,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-598762143&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-235478691&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

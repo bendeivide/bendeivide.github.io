@@ -63,23 +63,23 @@
   </url>
   
   <url>
+    <loc>http://bendeivide.github.io/tag/bookfinf/</loc>
+    <lastmod>2021-04-28T09:34:05+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bendeivide.github.io/books/</loc>
-    <lastmod>2021-04-28T09:00:16+00:00</lastmod>
+    <lastmod>2021-04-28T09:34:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bendeivide.github.io/tag/booktcltk/</loc>
-    <lastmod>2021-04-28T09:00:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bendeivide.github.io/books/pigur/</loc>
-    <lastmod>2021-04-28T09:00:16+00:00</lastmod>
+    <loc>http://bendeivide.github.io/books/finf/</loc>
+    <lastmod>2021-04-28T09:34:05+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/tags/</loc>
-    <lastmod>2021-04-28T09:00:16+00:00</lastmod>
+    <lastmod>2021-04-28T09:34:05+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -90,6 +90,26 @@
                 hreflang="pt"
                 href="http://bendeivide.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/bookdpr/</loc>
+    <lastmod>2021-04-28T09:20:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/books/dpr/</loc>
+    <lastmod>2021-04-28T09:20:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/tag/booktcltk/</loc>
+    <lastmod>2021-04-28T09:00:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bendeivide.github.io/books/pigur/</loc>
+    <lastmod>2021-04-28T09:00:16+00:00</lastmod>
   </url>
   
   <url>
