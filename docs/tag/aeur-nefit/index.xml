@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aeur-nefit | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/aeur-nefit/</link>
+      <atom:link href="http://bendeivide.github.io/tag/aeur-nefit/index.xml" rel="self" type="application/rss+xml" />
+    <description>aeur-nefit</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 27 Apr 2021 22:51:43 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>aeur-nefit</title>
+      <link>http://bendeivide.github.io/tag/aeur-nefit/</link>
+    </image>
+    
+    <item>
+      <title>Análise de Experimentos usando o R</title>
+      <link>http://bendeivide.github.io/handouts/aeur-nefit/</link>
+      <pubDate>Tue, 27 Apr 2021 22:51:43 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/aeur-nefit/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -126,20 +126,67 @@
     </item>
     
     <item>
-      <title>Inferência Estatística II</title>
-      <link>http://bendeivide.github.io/handouts/infii/</link>
-      <pubDate>Tue, 27 Apr 2021 19:42:37 +0000</pubDate>
-      <guid>http://bendeivide.github.io/handouts/infii/</guid>
-      <description>&lt;p&gt;Essa apostila é referente ao assunto sobre Estatística para grandes amostras, idealizada durante o doutorado em Estatística pela UFLA. Segue o &lt;a href=&#34;media/handout-infII.pdf&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+      <title>Como desenvolver um pacote R</title>
+      <link>http://bendeivide.github.io/handouts/rpkg/</link>
+      <pubDate>Tue, 27 Apr 2021 23:13:52 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/rpkg/</guid>
+      <description>&lt;p&gt;Esse foi o primeiro material que escrevi sobre desenvolvimento de pacotes em R, do qual os recursos contidos no RStudio não eram tão eficientes quanto é hoje, para rotinas repetitivas sobre criação de pacotes. Esse material uso a função &lt;code&gt;package.skeleton()&lt;/code&gt; para a criação de pacotes, algo que internamente o RStudio faz de modo muito mais fácil hoje. Mas, vale a pena o registro.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise de Experimentos usando o R</title>
+      <link>http://bendeivide.github.io/handouts/aeur-fisio/</link>
+      <pubDate>Tue, 27 Apr 2021 22:58:58 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/aeur-fisio/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise de Experimentos usando o R</title>
+      <link>http://bendeivide.github.io/handouts/aeur-nefit/</link>
+      <pubDate>Tue, 27 Apr 2021 22:51:43 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/aeur-nefit/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Experimental usando SISVAR, R e SAS</title>
+      <link>http://bendeivide.github.io/handouts/estexp/</link>
+      <pubDate>Tue, 27 Apr 2021 22:20:06 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/estexp/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de alguns cursos ministrados na UFLA para departamentos de área aplicada, bem como uma disciplina eletiva ministrado pela UFSJ. Essa apostila tem um cunho aplicado a análise de experimentos usando os programas SISVAR, R e SAS. Para a mesma análise, apresentamos rotinas e passos de como analisar por esses programas. Isso não foi realizado para todos os experimentos, mas apresenta passos iniciais para a utlização dessas três grandes ferramentas na área da Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial sobre o pacote R tcltk</title>
+      <link>http://bendeivide.github.io/handouts/tcltk/</link>
+      <pubDate>Tue, 27 Apr 2021 22:06:06 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/tcltk/</guid>
+      <description>&lt;p&gt;Essa apostila tenta melhorar o &lt;em&gt;help&lt;/em&gt; do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que é uma interface de integração da linguagem Tcl/Tk no ambiente R. Por ser da base de instalação do R, creio que deva ser uma das escolhas nesse ambiente para quem deseja criar GUIs para os seus pacotes. Porém, o documento de ajuda desse pacote é muito pobre e com poucos exemplos.&lt;/p&gt;
+&lt;p&gt;Como eu já vinha criando algumas interfaces para os pacotes que desenvolvo em parceria, resolvi estudar a fundo, e não me limitei a essa apostila, que acabou ficando incompleta, porque surge mais um livro em desenvimento, intitulado &lt;a href=&#34;https://bendeivide.github.io/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programação de Interface Gráfica ao Usuário no R&lt;/a&gt;. Nesse livro, falaremos das linguagens Tcl/Tk, GTK+ e usaremos os recursos do pacote shiny, para criarmos interfaces web para os pacotes, isto é, usar as integrações com as linguagens CSS, JavaScript e HTML.&lt;/p&gt;
+&lt;p&gt;Contudo, para um estudo incial sobre o pacote tcltk, vale a pena a leitura desse material.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Auto Multiple Choice</title>
       <link>http://bendeivide.github.io/handouts/amc/</link>
-      <pubDate>Tue, 27 Apr 2021 19:35:06 +0000</pubDate>
+      <pubDate>Tue, 27 Apr 2021 21:50:43 +0000</pubDate>
       <guid>http://bendeivide.github.io/handouts/amc/</guid>
       <description>&lt;p&gt;Essa apostila ensina como utilizar o programa &lt;em&gt;Auto Multiple Choice&lt;/em&gt; (AMC). Um programa muito eficiente para criação de provas com questões objetivas e abertas. Ao final, após digitalizar as provas, o próprio programa corrige as questões, gabarita e envia o resultado por e-mail aos alunos. Apesar de ser um programa apenas para o Linux, eu ensino como criar uma máquina virtual no SO Windows e utilizá-lo facilmente.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inferência Estatística II</title>
+      <link>http://bendeivide.github.io/handouts/infii/</link>
+      <pubDate>Tue, 27 Apr 2021 19:42:37 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/infii/</guid>
+      <description>&lt;p&gt;Essa apostila é referente ao assunto sobre Estatística para grandes amostras, idealizada durante o doutorado em Estatística pela UFLA. Segue o &lt;a href=&#34;media/handout-infII.pdf&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -648,7 +695,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-864319275&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-564893217&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -658,7 +705,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-864319275&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-564893217&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
