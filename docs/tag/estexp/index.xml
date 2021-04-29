@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/estexp/</link>
       <atom:link href="http://bendeivide.github.io/tag/estexp/index.xml" rel="self" type="application/rss+xml" />
     <description>estexp</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:45:45 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 14:39:29 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>estexp</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Estatística Experimental usando SISVAR, R e SAS</title>
       <link>http://bendeivide.github.io/handouts/estexp/</link>
-      <pubDate>Thu, 29 Apr 2021 09:45:45 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:39:29 +0000</pubDate>
       <guid>http://bendeivide.github.io/handouts/estexp/</guid>
       <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de alguns cursos ministrados na UFLA para departamentos de área aplicada, bem como uma disciplina eletiva ministrado pela UFSJ. Essa apostila tem um cunho aplicado a análise de experimentos usando os programas SISVAR, R e SAS. Para a mesma análise, apresentamos rotinas e passos de como analisar por esses programas. Isso não foi realizado para todos os experimentos, mas apresenta passos iniciais para a utlização dessas três grandes ferramentas na área da Estatística.&lt;/p&gt;
 </description>

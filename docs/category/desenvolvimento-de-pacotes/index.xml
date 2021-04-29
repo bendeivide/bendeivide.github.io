@@ -5,12 +5,22 @@
     <link>http://bendeivide.github.io/category/desenvolvimento-de-pacotes/</link>
       <atom:link href="http://bendeivide.github.io/category/desenvolvimento-de-pacotes/index.xml" rel="self" type="application/rss+xml" />
     <description>Desenvolvimento de pacotes</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:48:26 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 14:34:25 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Desenvolvimento de pacotes</title>
       <link>http://bendeivide.github.io/category/desenvolvimento-de-pacotes/</link>
     </image>
+    
+    <item>
+      <title>Desenvolvimento de Pacotes em R</title>
+      <link>http://bendeivide.github.io/books/dpr/</link>
+      <pubDate>Thu, 29 Apr 2021 14:34:25 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/dpr/</guid>
+      <description>&lt;p&gt;Esse livro é um fruto de toda a minha experiência que venho tendo ao desenvolver pacotes. Tem muito trabalho pela frente, mas ao final, tenho certeza que ficará um grande material referência em desenvolvimento de pacotes em português.&lt;/p&gt;
+&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-dper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Como desenvolver um pacote R</title>

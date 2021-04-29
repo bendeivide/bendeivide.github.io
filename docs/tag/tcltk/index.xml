@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/tcltk/</link>
       <atom:link href="http://bendeivide.github.io/tag/tcltk/index.xml" rel="self" type="application/rss+xml" />
     <description>tcltk</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:49:14 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 14:38:32 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>tcltk</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Tutorial sobre o pacote R tcltk</title>
       <link>http://bendeivide.github.io/handouts/tcltk/</link>
-      <pubDate>Thu, 29 Apr 2021 09:49:14 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:38:32 +0000</pubDate>
       <guid>http://bendeivide.github.io/handouts/tcltk/</guid>
       <description>&lt;p&gt;Essa apostila tenta melhorar o &lt;em&gt;help&lt;/em&gt; do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que é uma interface de integração da linguagem Tcl/Tk no ambiente R. Por ser da base de instalação do R, creio que deva ser uma das escolhas nesse ambiente para quem deseja criar GUIs para os seus pacotes. Porém, o documento de ajuda desse pacote é muito pobre e com poucos exemplos.&lt;/p&gt;
 &lt;p&gt;Como eu já vinha criando algumas interfaces para os pacotes que desenvolvo em parceria, resolvi estudar a fundo, e não me limitei a essa apostila, que acabou ficando incompleta, porque surge mais um livro em desenvimento, intitulado &lt;a href=&#34;https://bendeivide.github.io/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programação de Interface Gráfica ao Usuário no R&lt;/a&gt;. Nesse livro, falaremos das linguagens Tcl/Tk, GTK+ e usaremos os recursos do pacote shiny, para criarmos interfaces web para os pacotes, isto é, usar as integrações com as linguagens CSS, JavaScript e HTML.&lt;/p&gt;

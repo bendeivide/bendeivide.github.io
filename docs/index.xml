@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:51:12 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 14:39:29 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Programação em R (Nível Básico)</title>
       <link>http://bendeivide.github.io/courses/cursor/nbasico/</link>
-      <pubDate>Fri, 23 Apr 2021 05:49:36 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:27:01 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/cursor/nbasico/</guid>
       <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
@@ -77,7 +77,7 @@
     <item>
       <title>Programação em R (Nível Avançado)</title>
       <link>http://bendeivide.github.io/courses/cursor/navancado/</link>
-      <pubDate>Fri, 23 Apr 2021 05:50:06 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:27:10 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/cursor/navancado/</guid>
       <description>&lt;p&gt;Programando em nível avançado o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
@@ -106,13 +106,61 @@
     </item>
     
     <item>
+      <title>Estatística Experimental usando SISVAR, R e SAS</title>
+      <link>http://bendeivide.github.io/handouts/estexp/</link>
+      <pubDate>Thu, 29 Apr 2021 14:39:29 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/estexp/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de alguns cursos ministrados na UFLA para departamentos de área aplicada, bem como uma disciplina eletiva ministrado pela UFSJ. Essa apostila tem um cunho aplicado a análise de experimentos usando os programas SISVAR, R e SAS. Para a mesma análise, apresentamos rotinas e passos de como analisar por esses programas. Isso não foi realizado para todos os experimentos, mas apresenta passos iniciais para a utlização dessas três grandes ferramentas na área da Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tutorial sobre o pacote R tcltk</title>
       <link>http://bendeivide.github.io/handouts/tcltk/</link>
-      <pubDate>Thu, 29 Apr 2021 09:49:14 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:38:32 +0000</pubDate>
       <guid>http://bendeivide.github.io/handouts/tcltk/</guid>
       <description>&lt;p&gt;Essa apostila tenta melhorar o &lt;em&gt;help&lt;/em&gt; do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que é uma interface de integração da linguagem Tcl/Tk no ambiente R. Por ser da base de instalação do R, creio que deva ser uma das escolhas nesse ambiente para quem deseja criar GUIs para os seus pacotes. Porém, o documento de ajuda desse pacote é muito pobre e com poucos exemplos.&lt;/p&gt;
 &lt;p&gt;Como eu já vinha criando algumas interfaces para os pacotes que desenvolvo em parceria, resolvi estudar a fundo, e não me limitei a essa apostila, que acabou ficando incompleta, porque surge mais um livro em desenvimento, intitulado &lt;a href=&#34;https://bendeivide.github.io/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programação de Interface Gráfica ao Usuário no R&lt;/a&gt;. Nesse livro, falaremos das linguagens Tcl/Tk, GTK+ e usaremos os recursos do pacote shiny, para criarmos interfaces web para os pacotes, isto é, usar as integrações com as linguagens CSS, JavaScript e HTML.&lt;/p&gt;
 &lt;p&gt;Contudo, para um estudo incial sobre o pacote tcltk, vale a pena a leitura desse material.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programação de Interface Gráfica ao Usuário no R</title>
+      <link>http://bendeivide.github.io/books/pigur/</link>
+      <pubDate>Thu, 29 Apr 2021 14:37:25 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/pigur/</guid>
+      <description>&lt;p&gt;Esse livro surgiu a partir da ideia que propus ao outro autor desse projeto &lt;a href=&#34;https://henriquealves21.github.io/webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique josé de P. Alves&lt;/a&gt;, quando estávamos desenvolvendo em paralelo dois pacotes, &lt;a href=&#34;https://bendeivide.github.io/project/midrangemcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; e o &lt;strong&gt;TVMM&lt;/strong&gt; ([&lt;a href=&#34;https://cran.r-project.org/package=TVMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;] [&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GUI&lt;/em&gt;&lt;/a&gt;]), e resolvemos deixá-los mais intuitivo para usuário que não tem afinidade com o ambiente &lt;em&gt;R&lt;/em&gt;. De início eu usei o pacote &lt;a href=&#34;https://cran.r-project.org/web/packages/gWidgets/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gWidgets&lt;/a&gt; que tornava mais intuitivo a programação da &lt;em&gt;GUI&lt;/em&gt;. Contudo, após o pacote ter se tornado órfã, resolvemos partir para o uso do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que foi um dos pacote base do pacote &lt;strong&gt;gWidgets&lt;/strong&gt;. Este mesmo pacote também usava uma outra integração de linguagem, &lt;em&gt;GTK+&lt;/em&gt;. Então usar o &lt;strong&gt;gWidgets&lt;/strong&gt; era muito prático, infelizmente foi removido do CRAN. Quando nos aprofundamos nesse pacote, percebemos que seus autores haviam desenvolvido um livro muito interessante, intitulado &lt;a href=&#34;https://books.google.com.br/books?id=VeKEDwAAQBAJ&amp;amp;pg=PA418&amp;amp;lpg=PA418&amp;amp;dq=R&amp;#43;tkmenu&amp;amp;source=bl&amp;amp;ots=V2O2kTRNy3&amp;amp;sig=ACfU3U21CsBJES_jbMhh8JTnerP1FMbxpQ&amp;amp;hl=pt-BR&amp;amp;sa=X&amp;amp;ved=2ahUKEwj5lqOS3pvqAhX2IbkGHRAHClUQ6AEwA3oECAoQAQ#v=onepage&amp;amp;q=R%20tkmenu&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programming Graphical User Interfaces in R&lt;/em&gt;&lt;/a&gt;, um livro que despertou a nossa curiosidade nessa linha de pesquisa para desenvolvimento de pacotes. 
+Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferramenta em nossos pacotes, e agora, estudamos para repassar a nossa experiência por meio do Livro &lt;strong&gt;Programação de Interface Gráfica ao Usuário no R&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/books/epaec/</link>
+      <pubDate>Thu, 29 Apr 2021 14:35:39 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/epaec/</guid>
+      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;em&gt;bookdown&lt;/em&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estudando o ambiente R</title>
+      <link>http://bendeivide.github.io/books/eambr/</link>
+      <pubDate>Thu, 29 Apr 2021 14:34:55 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr/</guid>
+      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-eambr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Desenvolvimento de Pacotes em R</title>
+      <link>http://bendeivide.github.io/books/dpr/</link>
+      <pubDate>Thu, 29 Apr 2021 14:34:25 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/dpr/</guid>
+      <description>&lt;p&gt;Esse livro é um fruto de toda a minha experiência que venho tendo ao desenvolver pacotes. Tem muito trabalho pela frente, mas ao final, tenho certeza que ficará um grande material referência em desenvolvimento de pacotes em português.&lt;/p&gt;
+&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-dper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -140,15 +188,6 @@
       <pubDate>Thu, 29 Apr 2021 09:46:48 +0000</pubDate>
       <guid>http://bendeivide.github.io/handouts/infbayes/</guid>
       <description>&lt;p&gt;Essa apostila apresenta alguns fundamentos sobre a Inferência Bayesiana. Foi idealizada durante o mestrado em Estatística na UFLA.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estatística Experimental usando SISVAR, R e SAS</title>
-      <link>http://bendeivide.github.io/handouts/estexp/</link>
-      <pubDate>Thu, 29 Apr 2021 09:45:45 +0000</pubDate>
-      <guid>http://bendeivide.github.io/handouts/estexp/</guid>
-      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de alguns cursos ministrados na UFLA para departamentos de área aplicada, bem como uma disciplina eletiva ministrado pela UFSJ. Essa apostila tem um cunho aplicado a análise de experimentos usando os programas SISVAR, R e SAS. Para a mesma análise, apresentamos rotinas e passos de como analisar por esses programas. Isso não foi realizado para todos os experimentos, mas apresenta passos iniciais para a utlização dessas três grandes ferramentas na área da Estatística.&lt;/p&gt;
 </description>
     </item>
     
@@ -247,17 +286,6 @@
     </item>
     
     <item>
-      <title>Programação de Interface Gráfica ao Usuário no R</title>
-      <link>http://bendeivide.github.io/books/pigur/</link>
-      <pubDate>Wed, 28 Apr 2021 14:23:49 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/pigur/</guid>
-      <description>&lt;p&gt;Esse livro surgiu a partir da ideia que propus ao outro autor desse projeto &lt;a href=&#34;https://henriquealves21.github.io/webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique josé de P. Alves&lt;/a&gt;, quando estávamos desenvolvendo em paralelo dois pacotes, &lt;a href=&#34;https://bendeivide.github.io/project/midrangemcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; e o &lt;strong&gt;TVMM&lt;/strong&gt; ([&lt;a href=&#34;https://cran.r-project.org/package=TVMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;] [&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GUI&lt;/em&gt;&lt;/a&gt;]), e resolvemos deixá-los mais intuitivo para usuário que não tem afinidade com o ambiente &lt;em&gt;R&lt;/em&gt;. De início eu usei o pacote &lt;a href=&#34;https://cran.r-project.org/web/packages/gWidgets/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gWidgets&lt;/a&gt; que tornava mais intuitivo a programação da &lt;em&gt;GUI&lt;/em&gt;. Contudo, após o pacote ter se tornado órfã, resolvemos partir para o uso do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que foi um dos pacote base do pacote &lt;strong&gt;gWidgets&lt;/strong&gt;. Este mesmo pacote também usava uma outra integração de linguagem, &lt;em&gt;GTK+&lt;/em&gt;. Então usar o &lt;strong&gt;gWidgets&lt;/strong&gt; era muito prático, infelizmente foi removido do CRAN. Quando nos aprofundamos nesse pacote, percebemos que seus autores haviam desenvolvido um livro muito interessante, intitulado &lt;a href=&#34;https://books.google.com.br/books?id=VeKEDwAAQBAJ&amp;amp;pg=PA418&amp;amp;lpg=PA418&amp;amp;dq=R&amp;#43;tkmenu&amp;amp;source=bl&amp;amp;ots=V2O2kTRNy3&amp;amp;sig=ACfU3U21CsBJES_jbMhh8JTnerP1FMbxpQ&amp;amp;hl=pt-BR&amp;amp;sa=X&amp;amp;ved=2ahUKEwj5lqOS3pvqAhX2IbkGHRAHClUQ6AEwA3oECAoQAQ#v=onepage&amp;amp;q=R%20tkmenu&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programming Graphical User Interfaces in R&lt;/em&gt;&lt;/a&gt;, um livro que despertou a nossa curiosidade nessa linha de pesquisa para desenvolvimento de pacotes. 
-Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferramenta em nossos pacotes, e agora, estudamos para repassar a nossa experiência por meio do Livro &lt;strong&gt;Programação de Interface Gráfica ao Usuário no R&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Projeto UFSJ 004/2020/PROPE</title>
       <link>http://bendeivide.github.io/project/projufsj03/</link>
       <pubDate>Wed, 28 Apr 2021 13:54:28 +0000</pubDate>
@@ -350,39 +378,11 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     </item>
     
     <item>
-      <title>Estatística &amp; Probabilidade</title>
-      <link>http://bendeivide.github.io/books/epaec/</link>
-      <pubDate>Wed, 28 Apr 2021 09:47:43 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/epaec/</guid>
-      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;em&gt;bookdown&lt;/em&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estudando o ambiente R</title>
-      <link>http://bendeivide.github.io/books/eambr/</link>
-      <pubDate>Wed, 28 Apr 2021 09:47:31 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/eambr/</guid>
-      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-eambr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Fundamentos de Inferência</title>
       <link>http://bendeivide.github.io/books/finf/</link>
       <pubDate>Wed, 28 Apr 2021 09:34:05 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/finf/</guid>
       <description>&lt;p&gt;Esse livro será uma continuação do livro publicado por &lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;, intitulado &lt;a href=&#34;https://www.editora.ufla.br/produto/225/fundamentos-de-probabilidade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fundamentos de Probabilidade&lt;/a&gt;. Foi uma honra receber o convite do Prof. Daniel para essa parceria, ainda mais quando se está ao lado de uma pessoa que tenho como referência profissional.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Desenvolvimento de Pacotes em R</title>
-      <link>http://bendeivide.github.io/books/dpr/</link>
-      <pubDate>Wed, 28 Apr 2021 09:20:23 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/dpr/</guid>
-      <description>&lt;p&gt;Esse livro é um fruto de toda a minha experiência que venho tendo ao desenvolver pacotes. Tem muito trabalho pela frente, mas ao final, tenho certeza que ficará um grande material referência em desenvolvimento de pacotes em português.&lt;/p&gt;
-&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-dpr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -777,14 +777,6 @@ Three
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Sobre</title>
-      <link>http://bendeivide.github.io/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      <guid>http://bendeivide.github.io/about/</guid>
-      <description></description>
     </item>
     
     <item>
