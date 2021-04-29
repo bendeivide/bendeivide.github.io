@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estatística | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/category/estatistica/</link>
+      <atom:link href="http://bendeivide.github.io/category/estatistica/index.xml" rel="self" type="application/rss+xml" />
+    <description>Estatística</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:47:53 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>Estatística</title>
+      <link>http://bendeivide.github.io/category/estatistica/</link>
+    </image>
+    
+    <item>
+      <title>Inferência Estatística II</title>
+      <link>http://bendeivide.github.io/handouts/infii/</link>
+      <pubDate>Thu, 29 Apr 2021 09:47:53 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/infii/</guid>
+      <description>&lt;p&gt;Essa apostila é referente ao assunto sobre Estatística para grandes amostras, idealizada durante o doutorado em Estatística pela UFLA. Segue o &lt;a href=&#34;media/handout-infII.pdf&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inferência Bayesiana</title>
+      <link>http://bendeivide.github.io/handouts/infbayes/</link>
+      <pubDate>Thu, 29 Apr 2021 09:46:48 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/infbayes/</guid>
+      <description>&lt;p&gt;Essa apostila apresenta alguns fundamentos sobre a Inferência Bayesiana. Foi idealizada durante o mestrado em Estatística na UFLA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Experimental usando SISVAR, R e SAS</title>
+      <link>http://bendeivide.github.io/handouts/estexp/</link>
+      <pubDate>Thu, 29 Apr 2021 09:45:45 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/estexp/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de alguns cursos ministrados na UFLA para departamentos de área aplicada, bem como uma disciplina eletiva ministrado pela UFSJ. Essa apostila tem um cunho aplicado a análise de experimentos usando os programas SISVAR, R e SAS. Para a mesma análise, apresentamos rotinas e passos de como analisar por esses programas. Isso não foi realizado para todos os experimentos, mas apresenta passos iniciais para a utlização dessas três grandes ferramentas na área da Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/handouts/epaec/</link>
+      <pubDate>Thu, 29 Apr 2021 09:45:10 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/epaec/</guid>
+      <description>&lt;p&gt;Essa apostila ficou incompleta, pois deu sequência ao desenvolvimento do &lt;a href=&#34;https://bendeivide.github.io/books/EPAEC/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;livro&lt;/a&gt; que está em andamento.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

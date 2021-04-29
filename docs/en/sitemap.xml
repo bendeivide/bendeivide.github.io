@@ -50,16 +50,6 @@
   <url>
     <loc>http://bendeivide.github.io/en/talk/exemplo-de-palestra/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/talk/exemplo-de-palestra/"
-                />
   </url>
   
   <url>
@@ -175,16 +165,6 @@
   <url>
     <loc>http://bendeivide.github.io/en/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tag/academic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tag/academic/"
-                />
   </url>
   
   <url>
@@ -235,16 +215,6 @@
   <url>
     <loc>http://bendeivide.github.io/en/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/category/demo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/category/demo/"
-                />
   </url>
   
   <url>
@@ -265,91 +235,31 @@
   <url>
     <loc>http://bendeivide.github.io/en/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/post/getting-started/"
-                />
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/en/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/author/%E5%90%B3%E6%81%A9%E9%81%94/"
-                />
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/en/tag/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tag/%E5%BC%80%E6%BA%90/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tag/%E5%BC%80%E6%BA%90/"
-                />
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/en/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/category/%E6%95%99%E7%A8%8B/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/category/%E6%95%99%E7%A8%8B/"
-                />
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/en/post/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/post/2020-12-01-r-rmarkdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/post/2020-12-01-r-rmarkdown/"
-                />
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/en/tag/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tag/plot/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tag/plot/"
-                />
   </url>
   
   <url>
@@ -370,46 +280,16 @@
   <url>
     <loc>http://bendeivide.github.io/en/tag/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tag/r-markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tag/r-markdown/"
-                />
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/en/tag/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/tag/regression/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/tag/regression/"
-                />
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/en/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/post/writing-technical-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/post/writing-technical-content/"
-                />
   </url>
   
   <url>
@@ -490,16 +370,6 @@
   <url>
     <loc>http://bendeivide.github.io/en/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/post/jupyter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/post/jupyter/"
-                />
   </url>
   
   <url>
@@ -535,16 +405,6 @@
   <url>
     <loc>http://bendeivide.github.io/en/post/2016-12-30-hello-markdown/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/post/2016-12-30-hello-markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/post/2016-12-30-hello-markdown/"
-                />
   </url>
   
   <url>
@@ -630,16 +490,6 @@
   <url>
     <loc>http://bendeivide.github.io/en/post/2015-01-01-lorem-ipsum/</loc>
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/post/2015-01-01-lorem-ipsum/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/post/2015-01-01-lorem-ipsum/"
-                />
   </url>
   
   <url>

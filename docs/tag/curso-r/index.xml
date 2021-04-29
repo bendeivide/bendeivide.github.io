@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curso R | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/curso-r/</link>
+      <atom:link href="http://bendeivide.github.io/tag/curso-r/index.xml" rel="self" type="application/rss+xml" />
+    <description>Curso R</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:51:12 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>Curso R</title>
+      <link>http://bendeivide.github.io/tag/curso-r/</link>
+    </image>
+    
+    <item>
+      <title>Curso R - Programação em R (Nível Intermediário)</title>
+      <link>http://bendeivide.github.io/post/cursorni/</link>
+      <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/cursorni/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;Em breve, daremos início ao segundo módulo o Curso R, &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;data-prevista-para-o-início-do-curso&#34;&gt;Data prevista para o início do curso&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 15/07/2021&lt;/p&gt;
+&lt;h2 id=&#34;previsão-para-o-ínicio-das-inscrições&#34;&gt;Previsão para o ínicio das inscrições&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 01/06/2021&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

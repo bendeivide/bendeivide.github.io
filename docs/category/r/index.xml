@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:51:12 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>R</title>
@@ -13,52 +13,56 @@
     </image>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>http://bendeivide.github.io/post/2020-12-01-r-rmarkdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>http://bendeivide.github.io/post/2020-12-01-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://bendeivide.github.io/post/2020-12-01-r-rmarkdown/index_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+      <title>Tutorial sobre o pacote R tcltk</title>
+      <link>http://bendeivide.github.io/handouts/tcltk/</link>
+      <pubDate>Thu, 29 Apr 2021 09:49:14 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/tcltk/</guid>
+      <description>&lt;p&gt;Essa apostila tenta melhorar o &lt;em&gt;help&lt;/em&gt; do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que é uma interface de integração da linguagem Tcl/Tk no ambiente R. Por ser da base de instalação do R, creio que deva ser uma das escolhas nesse ambiente para quem deseja criar GUIs para os seus pacotes. Porém, o documento de ajuda desse pacote é muito pobre e com poucos exemplos.&lt;/p&gt;
+&lt;p&gt;Como eu já vinha criando algumas interfaces para os pacotes que desenvolvo em parceria, resolvi estudar a fundo, e não me limitei a essa apostila, que acabou ficando incompleta, porque surge mais um livro em desenvimento, intitulado &lt;a href=&#34;https://bendeivide.github.io/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programação de Interface Gráfica ao Usuário no R&lt;/a&gt;. Nesse livro, falaremos das linguagens Tcl/Tk, GTK+ e usaremos os recursos do pacote shiny, para criarmos interfaces web para os pacotes, isto é, usar as integrações com as linguagens CSS, JavaScript e HTML.&lt;/p&gt;
+&lt;p&gt;Contudo, para um estudo incial sobre o pacote tcltk, vale a pena a leitura desse material.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Como desenvolver um pacote R</title>
+      <link>http://bendeivide.github.io/handouts/rpkg/</link>
+      <pubDate>Thu, 29 Apr 2021 09:48:26 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/rpkg/</guid>
+      <description>&lt;p&gt;Esse foi o primeiro material que escrevi sobre desenvolvimento de pacotes em R, do qual os recursos contidos no RStudio não eram tão eficientes quanto é hoje, para rotinas repetitivas sobre criação de pacotes. Esse material uso a função &lt;code&gt;package.skeleton()&lt;/code&gt; para a criação de pacotes, algo que internamente o RStudio faz de modo muito mais fácil hoje. Mas, vale a pena o registro.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise de Experimentos usando o R</title>
+      <link>http://bendeivide.github.io/handouts/aeur-nefit/</link>
+      <pubDate>Thu, 29 Apr 2021 09:44:10 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/aeur-nefit/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise de Experimentos usando o R</title>
+      <link>http://bendeivide.github.io/handouts/aeur-fisio/</link>
+      <pubDate>Thu, 29 Apr 2021 09:43:49 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/aeur-fisio/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curso R - Programação em R (Nível Intermediário)</title>
+      <link>http://bendeivide.github.io/post/cursorni/</link>
+      <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/cursorni/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;Em breve, daremos início ao segundo módulo o Curso R, &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;data-prevista-para-o-início-do-curso&#34;&gt;Data prevista para o início do curso&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 15/07/2021&lt;/p&gt;
+&lt;h2 id=&#34;previsão-para-o-ínicio-das-inscrições&#34;&gt;Previsão para o ínicio das inscrições&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 01/06/2021&lt;/p&gt;
 </description>
     </item>
     

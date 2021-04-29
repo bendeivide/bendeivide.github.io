@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Probabilidade | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/category/probabilidade/</link>
+      <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
+    <description>Probabilidade</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:45:10 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>Probabilidade</title>
+      <link>http://bendeivide.github.io/category/probabilidade/</link>
+    </image>
+    
+    <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/handouts/epaec/</link>
+      <pubDate>Thu, 29 Apr 2021 09:45:10 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/epaec/</guid>
+      <description>&lt;p&gt;Essa apostila ficou incompleta, pois deu sequência ao desenvolvimento do &lt;a href=&#34;https://bendeivide.github.io/books/EPAEC/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;livro&lt;/a&gt; que está em andamento.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
