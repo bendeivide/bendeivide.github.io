@@ -53,7 +53,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://bendeivide.github.io/talk/exemplo-de-palestra/"
+                href="http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -645,31 +645,11 @@
   <url>
     <loc>http://bendeivide.github.io/en/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/publication-type/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/publication-type/1/"
-                />
   </url>
   
   <url>
     <loc>http://bendeivide.github.io/en/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://bendeivide.github.io/publication/conference-paper/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://bendeivide.github.io/en/publication/conference-paper/"
-                />
   </url>
   
 </urlset>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ufsj0042020 | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/ufsj0042020/</link>
+      <atom:link href="http://bendeivide.github.io/tag/ufsj0042020/index.xml" rel="self" type="application/rss+xml" />
+    <description>ufsj0042020</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 28 Apr 2021 13:54:28 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>ufsj0042020</title>
+      <link>http://bendeivide.github.io/tag/ufsj0042020/</link>
+    </image>
+    
+    <item>
+      <title>Projeto UFSJ 004/2020/PROPE</title>
+      <link>http://bendeivide.github.io/project/projufsj03/</link>
+      <pubDate>Wed, 28 Apr 2021 13:54:28 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/projufsj03/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Este projeto pretende estudar dois tipos de taxas de erros (por experimento e por comparação) envolvidos nos procedimentos de comparações múltiplas (PCMs). Queremos responder a seguinte indagação: qual das taxas de erro tipo I, por experimento ou por comparação, devemos nos basear para o desenvolvimento de PCMs, de modo que estes controlem o nível de significância global, adotado pelos pesquisadores?&lt;/p&gt;
+&lt;p&gt;Além das simulações que iremos realizar, tem um cunho filosófico muito importante, por trás dessas taxas de erros. E isso, também será discutido no trabalho.&lt;/p&gt;
+&lt;h2 id=&#34;período-de-execução-e-local&#34;&gt;Período de execução e local&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; O projeto foi desenvolvido durante o período de março de 2021 a fevereiro de 2022, pelo Edital 004/2020/PROPE/UFSJ.&lt;/p&gt;
+&lt;h2 id=&#34;membros&#34;&gt;Membros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Orientando: &lt;a href=&#34;https://www.linkedin.com/mwlite/in/vanessa-dourado-621441209&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vanessa Dourado de melo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Orientador: &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de Oliveira Batista&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;relatório-final&#34;&gt;Relatório Final&lt;/h2&gt;
+&lt;p&gt;O projeto ainda está em andamento.&lt;/p&gt;
+&lt;h2 id=&#34;trabalhos-publicados&#34;&gt;Trabalhos publicados&lt;/h2&gt;
+&lt;p&gt;O projeto está em andamento&lt;/p&gt;
+&lt;h2 id=&#34;considerações&#34;&gt;Considerações&lt;/h2&gt;
+&lt;p&gt;Apesar do projeto ter sido finalizado, a revisão ainda continua. O projeto é um complemento do &lt;a href=&#34;https://bendeivide.github.io/project/projufsj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Projeto 003/2019/PROPE/UFSJ&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
