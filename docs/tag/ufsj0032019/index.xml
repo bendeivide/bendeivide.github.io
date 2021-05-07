@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/ufsj0032019/</link>
       <atom:link href="http://bendeivide.github.io/tag/ufsj0032019/index.xml" rel="self" type="application/rss+xml" />
     <description>ufsj0032019</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 28 Apr 2021 11:43:07 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:38:16 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>ufsj0032019</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Projeto UFSJ 003/2019/PROPE</title>
       <link>http://bendeivide.github.io/project/projufsj/</link>
-      <pubDate>Wed, 28 Apr 2021 11:43:07 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:38:16 +0000</pubDate>
       <guid>http://bendeivide.github.io/project/projufsj/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;Este projeto pretende revisar os Procedimentos de Comparações Múltiplas (PCMs) desenvolvidos até o momento na literatura e implementá-los no  pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt;. O pacote terá uma interfacgráfica para facilitar a acessibilidade e utilização. Em toda estrutura de pacotes no &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; há uma página em &lt;em&gt;html&lt;/em&gt; chamada &amp;ldquo;&lt;em&gt;help&lt;/em&gt;&amp;rdquo;. Esta pasta fornece um resumo de como utilizar as funções do pacote. Na página help do pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt; será fornecido as principais características de avaliação de desempenho dos PCMs. Isso proporcionará ao pesquisador uma melhor decisão para a escolha do teste a ser utilizado em sua análise. Portanto, os objetivos desse projeto são:&lt;/p&gt;

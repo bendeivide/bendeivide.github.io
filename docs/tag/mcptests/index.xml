@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/mcptests/</link>
       <atom:link href="http://bendeivide.github.io/tag/mcptests/index.xml" rel="self" type="application/rss+xml" />
     <description>MCPtests</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 24 Apr 2021 05:57:06 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:37:05 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>MCPtests</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Pacote MCPtests</title>
       <link>http://bendeivide.github.io/project/mcptests/</link>
-      <pubDate>Sat, 24 Apr 2021 05:57:06 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:37:05 +0000</pubDate>
       <guid>http://bendeivide.github.io/project/mcptests/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;O pacote &lt;strong&gt;MCPtests&lt;/strong&gt; é uma evolução do pacote &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt;. Além da agregação de gráfico nos resultados dos testes, o tipo de entrada de dados, que é um diferencial com relação a outros pacotes, o &lt;strong&gt;MCPtests&lt;/strong&gt; abrangerá um universo maior de testes, além de poder apresentar avaliação de desempenho dos testes em tempo real, via simulação Monte Carlo. Com isso, o poder de escolha de um teste pelo usuário, poderá ser mais criterioso, do que usar os testes convencionais da literatura sem nenhuma critério de escolha.&lt;/p&gt;

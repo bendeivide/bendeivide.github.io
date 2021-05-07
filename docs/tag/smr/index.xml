@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/smr/</link>
       <atom:link href="http://bendeivide.github.io/tag/smr/index.xml" rel="self" type="application/rss+xml" />
     <description>SMR</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 24 Apr 2021 15:09:50 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:40:04 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>SMR</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Pacote SMR</title>
       <link>http://bendeivide.github.io/project/smr/</link>
-      <pubDate>Sat, 24 Apr 2021 15:09:50 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:40:04 +0000</pubDate>
       <guid>http://bendeivide.github.io/project/smr/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;O pacote &lt;a href=&#34;http://cran.r-project.org/package=SMR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SMR&lt;/a&gt; computa a distribuição (função densidade, função de distribuição, função quantil) da distribuição da &lt;em&gt;midrange&lt;/em&gt; estudentizada externamente de uma população normal, bem como o algoritmo para gerar números aleatórios dessa distribuição.&lt;/p&gt;

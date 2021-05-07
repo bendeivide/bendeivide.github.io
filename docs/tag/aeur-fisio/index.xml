@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/aeur-fisio/</link>
       <atom:link href="http://bendeivide.github.io/tag/aeur-fisio/index.xml" rel="self" type="application/rss+xml" />
     <description>aeur-fisio</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 09:43:49 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:30:52 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>aeur-fisio</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Análise de Experimentos usando o R</title>
       <link>http://bendeivide.github.io/handouts/aeur-fisio/</link>
-      <pubDate>Thu, 29 Apr 2021 09:43:49 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:30:52 +0000</pubDate>
       <guid>http://bendeivide.github.io/handouts/aeur-fisio/</guid>
       <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
 </description>

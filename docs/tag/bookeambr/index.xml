@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/bookeambr/</link>
       <atom:link href="http://bendeivide.github.io/tag/bookeambr/index.xml" rel="self" type="application/rss+xml" />
     <description>bookeambr</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 29 Apr 2021 14:34:55 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:22:35 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>bookeambr</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Estudando o ambiente R</title>
       <link>http://bendeivide.github.io/books/eambr/</link>
-      <pubDate>Thu, 29 Apr 2021 14:34:55 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:22:35 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/eambr/</guid>
       <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-eambr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
