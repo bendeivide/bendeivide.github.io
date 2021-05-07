@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://bendeivide.github.io/en/courses/cursor/python/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/courses/example/python/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/courses/cursor/visualization/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/courses/example/visualization/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/courses/cursor/stats/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/courses/example/stats/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,14 +32,10 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/talk/exemplo-de-palestra/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <xhtml:link
@@ -65,9 +48,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/event/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/project/statscience/</loc>
     <lastmod>2021-04-21T22:17:00+00:00</lastmod>
     <xhtml:link
@@ -80,9 +61,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/project/statscience/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/project/</loc>
     <lastmod>2021-04-21T22:17:00+00:00</lastmod>
     <xhtml:link
@@ -95,9 +74,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/project/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/statscience/</loc>
     <lastmod>2021-04-21T22:17:00+00:00</lastmod>
     <xhtml:link
@@ -110,9 +87,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/tag/statscience/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tags/</loc>
     <lastmod>2021-04-21T22:17:00+00:00</lastmod>
     <xhtml:link
@@ -125,9 +100,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/courses/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -140,9 +113,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/courses/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/courses/cursor/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -155,19 +126,13 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/courses/cursor/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/authors/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -180,9 +145,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/authors/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/author/ben-deivide/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -195,9 +158,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/author/ben-deivide/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -210,14 +171,10 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -230,39 +187,25 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/post/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/category/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <xhtml:link
@@ -275,24 +218,16 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/category/r/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -305,9 +240,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/publication-type/3/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -320,9 +253,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/publication/preprint/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -335,9 +266,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/publication_types/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -350,9 +279,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/publication/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -365,14 +292,10 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/tag/source-themes/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -385,9 +308,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/slides/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -400,34 +321,22 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/slides/example/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/post/2016-12-30-hello-markdown/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -440,9 +349,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/publication-type/2/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -455,9 +362,7 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/publication/journal-article/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/author/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -470,21 +375,14 @@
                 hreflang="en"
                 href="http://bendeivide.github.io/en/author/robert-ford/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/post/2015-01-01-lorem-ipsum/</loc>
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://bendeivide.github.io/en/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
-  
 </urlset>

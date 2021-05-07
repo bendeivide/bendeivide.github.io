@@ -44,37 +44,6 @@
     </item>
     
     <item>
-      <title>Programação em R (Nível Básico)</title>
-      <link>http://bendeivide.github.io/courses/epaec/nbasico/</link>
-      <pubDate>Thu, 29 Apr 2021 14:27:01 +0000</pubDate>
-      <guid>http://bendeivide.github.io/courses/epaec/nbasico/</guid>
-      <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
-&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
-&lt;p&gt;O material encontra-se disponível em &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico&#34;&gt;http://bendeivide.github.io/cursor/nbasico&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
-&lt;p&gt;Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
-&lt;p&gt;Os exercícios do curso, podem ser desenvolvidos via &lt;em&gt;web&lt;/em&gt; em &lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34;&gt;https://bendeivide.shinyapps.io/Curso-R/&lt;/a&gt;, como também é possível baixar todos os &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scripts&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
-  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
       <title>Programação em R (Nível Avançado)</title>
       <link>http://bendeivide.github.io/courses/cursor/navancado/</link>
       <pubDate>Thu, 29 Apr 2021 14:27:10 +0000</pubDate>
