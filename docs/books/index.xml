@@ -5,12 +5,21 @@
     <link>http://bendeivide.github.io/books/</link>
       <atom:link href="http://bendeivide.github.io/books/index.xml" rel="self" type="application/rss+xml" />
     <description>Books</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:24:55 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 07 May 2021 09:25:38 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Books</title>
       <link>http://bendeivide.github.io/books/</link>
     </image>
+    
+    <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/books/epaec/</link>
+      <pubDate>Fri, 07 May 2021 09:25:38 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/epaec/</guid>
+      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;http://bendeivide.github.io/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Programação de Interface Gráfica ao Usuário no R</title>
@@ -29,15 +38,6 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
       <pubDate>Thu, 06 May 2021 23:23:37 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/finf/</guid>
       <description>&lt;p&gt;Esse livro será uma continuação do livro publicado por &lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;, intitulado &lt;a href=&#34;https://www.editora.ufla.br/produto/225/fundamentos-de-probabilidade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fundamentos de Probabilidade&lt;/a&gt;. Foi uma honra receber o convite do Prof. Daniel para essa parceria, ainda mais quando se está ao lado de uma pessoa que tenho como referência profissional.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estatística &amp; Probabilidade</title>
-      <link>http://bendeivide.github.io/books/epaec/</link>
-      <pubDate>Thu, 06 May 2021 23:23:15 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/epaec/</guid>
-      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;em&gt;bookdown&lt;/em&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
