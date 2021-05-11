@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:33:55 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 11 May 2021 16:41:51 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Inferência Estatística</title>
@@ -15,63 +15,353 @@
     <item>
       <title>Ensino Remoto</title>
       <link>http://bendeivide.github.io/courses/epaec/remoto/</link>
-      <pubDate>Fri, 30 Apr 2021 20:23:43 +0000</pubDate>
+      <pubDate>Tue, 11 May 2021 16:41:51 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/remoto/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato ensino remoto pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 14 semanas&lt;/p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 14 semanas (17/05/2021 a 20/08/2021)&lt;/p&gt;
 &lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HSwb29EvCv8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de Engenharia do campus.&lt;/li&gt;
+&lt;li&gt;Todas as nossas aulas serão ao vivo:
+&lt;ul&gt;
+&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Período: 17/05/2021 a 20/08/2021&lt;/li&gt;
+&lt;li&gt;Aulas:
+&lt;ul&gt;
+&lt;li&gt;Teóricas: segunda-feira (7h - 9h)&lt;/li&gt;
+&lt;li&gt;Exercícios resolvidos:
+&lt;ul&gt;
+&lt;li&gt;segunda-feira (13h15min. - 15h05min.)&lt;/li&gt;
+&lt;li&gt;quarta-feira (15h15min. - 17h05min.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34;&gt;Cronograma e Fluxograma do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1mEgSlU8CsOSmrH36PrDVP8A0JokRJX-ZVvZRKqTjWts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fluxograma do curso&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cronograma das aulas
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/document/d/13MF8VGm_Jo-sjd_gH8M9LMOuP3pqrds4no-HyrmIzOc&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
-&lt;p&gt;O material encontra-se disponível em &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico&#34;&gt;http://bendeivide.github.io/cursor/nbasico&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Definições Gerais&lt;/li&gt;
+&lt;li&gt;Técnicas de somatório&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Representação tabular&lt;/li&gt;
+&lt;li&gt;Representação gráfica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE POSIÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Média&lt;/li&gt;
+&lt;li&gt;Mediana&lt;/li&gt;
+&lt;li&gt;Moda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE DISPERSÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amplitude total&lt;/li&gt;
+&lt;li&gt;Variância&lt;/li&gt;
+&lt;li&gt;Desvio Padrão&lt;/li&gt;
+&lt;li&gt;Coeficiente de Variação&lt;/li&gt;
+&lt;li&gt;Erro padrão da Média&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Definições de probabilidades&lt;/li&gt;
+&lt;li&gt;Propriedades&lt;/li&gt;
+&lt;li&gt;Eventos independentes e probabilidade condicional&lt;/li&gt;
+&lt;li&gt;Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função de probabilidade discreta&lt;/li&gt;
+&lt;li&gt;Função de probabilidade contínua&lt;/li&gt;
+&lt;li&gt;Função de distribuição de probabilidade acumulada&lt;/li&gt;
+&lt;li&gt;Esperança matemática e variância&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÕES DE PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuições discretas de probabilidades&lt;/li&gt;
+&lt;li&gt;Distribuições contínuas de probabilidades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amostragem não-probabilística e probabilística&lt;/li&gt;
+&lt;li&gt;Técnicas de amostragem probabilística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÃO DE AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem da média&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de proporções&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de diferença entre médias&lt;/li&gt;
+&lt;li&gt;Distribuições amostrais (qui-quadrado, t e F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA ESTIMAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Tipos de estimativas&lt;/li&gt;
+&lt;li&gt;Propriedades de um estimador&lt;/li&gt;
+&lt;li&gt;Estimação por ponto&lt;/li&gt;
+&lt;li&gt;Estimação por intervalo:
+&lt;ul&gt;
+&lt;li&gt;Intervalo de confiança para a média&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a variância&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dimensionamento de amostras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA DECISÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Erros tipo I e II&lt;/li&gt;
+&lt;li&gt;Teste unilateral e bilateral&lt;/li&gt;
+&lt;li&gt;Passos para a construção de um teste de hipóteses&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a média&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a proporção&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a variância&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Correlação linear:&lt;/li&gt;
+&lt;li&gt;Coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses acerca do coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Regressão linear simples:&lt;/li&gt;
+&lt;li&gt;Modelo&lt;/li&gt;
+&lt;li&gt;Estimação dos parâmetros do modelo&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para o modelo de regressão&lt;/li&gt;
+&lt;li&gt;Medidas de adequação do modelo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
 &lt;p&gt;Nossas aulas serão divididas de acordo com as 14 semanas de aula.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja feito por parte do aluno. Ele será o protagonista. Dessa forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;, criaremos mapas mentais (&lt;a href=&#34;https://app.lucidchart.com&#34;&gt;https://app.lucidchart.com&lt;/a&gt;) para nossas aulas, dentre outras técnicas, para que nesse momento fique mais claro e objetivo o assunto proposto.&lt;/p&gt;
+&lt;p&gt;Nossas aulas serão postadas pelos canais do youtube (&lt;a href=&#34;http://youtube.com/bendeivide&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;), portal didático da disciplina, repositório GitHub (&lt;a href=&#34;http://github.com/bendeivide&#34;&gt;http://github.com/bendeivide&lt;/a&gt;), alocaremos nas páginas (&lt;a href=&#34;http://ufsj.edu.br/bendeivide&#34;&gt;http://ufsj.edu.br/bendeivide&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;), facebook (Ben Deivide), e instagram (&lt;a href=&#34;https://www.instagram.com/bendeivide/&#34;&gt;@bendeivide&lt;/a&gt;). Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas assíncronas&lt;/strong&gt;, e &lt;strong&gt;2 (duas) horas de aulas síncronas&lt;/strong&gt;, &lt;strong&gt;totalizando em 48h de aulas assíncronas e 24h de aulas síncronas, um total de 72h&lt;/strong&gt;. Estas últimas serão destinadas a dúvidas e resolução de exercícios. Usaremos também o canal do youtube (lives), como também o google Meet. Os horários das lives, acordaremos com os alunos, para que marquemos um horário em que grande maioria possa comparecer. De toda forma, gravaremos essas aulas, para que os demais possam também assisti. Todas as demais informações serão repassadas na primeira semana de aula.&lt;/p&gt;
+&lt;p&gt;Irei utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de &lt;code&gt;\(\LaTeX\)&lt;/code&gt;. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que darei todo o suporte para os alunos, de forma que estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
-&lt;h2 id=&#34;semanas&#34;&gt;Semanas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;1ª Avaliação - Seções 1, 2, 3, 4 e  - 30 pontos&lt;/li&gt;
+&lt;li&gt;2ª Avaliação - Seções 5, 6, 7 e 8 - 30 pontos&lt;/li&gt;
+&lt;li&gt;3ª Avaliação - Seções 9, 10 e 11 - 40 pontos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A nota final do aluno será dada pela soma das notas das atividades avaliativas divididas por 10. Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos. O discente que não for aprovado por nota poderá fazer uma avaliação substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações. As datas das avaliações são informadas na primeira semana de aula.&lt;/p&gt;
+&lt;p&gt;Na metodologia &lt;em&gt;aprender por ensinar&lt;/em&gt;, poderemos destinar atividades também pedindo aos alunos que explanem sobre determinado tema específico para determinada aula. Para estes, as atividades da semana serão dispensadas, e atribuídas as notas para a devida atividade da semana, proporcional ao seu desempenho, de exposição do tema, material utilizado para a apresentação, e concordância com o assunto estudado.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;MONTGOMERY, Douglas C.; RUNGER, George C.. &lt;strong&gt;Estatística aplicada e probabilidade para engenheiros&lt;/strong&gt;. 6. ed. Rio de Janeiro: LTC, 2016. 629 p. Tradução de: Verônica Calado.&lt;/li&gt;
+&lt;li&gt;DEVORE, J. L.. &lt;strong&gt;Probabilidade e Estatística&lt;/strong&gt;: para engenharia e ciências. São Paulo: Pioneira Thomson, 2006. 692 p.&lt;/li&gt;
+&lt;li&gt;MORETTIN, Luiz Gonzaga. &lt;strong&gt;Estatística Básica&lt;/strong&gt;: Probabilidade e Inferência. São Paulo: Pearson Prentice Hall, 2010. 375 p.&lt;/li&gt;
+&lt;li&gt;BUSSAB, W. O.; MORETTIN, P.A. &lt;strong&gt;Estatística Básica&lt;/strong&gt;. 5. ed. São Paulo: Saraiva, 2003.&lt;/li&gt;
+&lt;li&gt;COSTA NETO, P. L. O. &lt;strong&gt;Estatística&lt;/strong&gt;. 3. ed. São Paulo: Edgard Blucher, 2007.&lt;/li&gt;
+&lt;li&gt;TRIOLA, M. F. &lt;strong&gt;Introdução à Estatística&lt;/strong&gt;. Rio de janeiro: LTC, 2008.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;material-adotado&#34;&gt;Material adotado&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livro referência: &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Materiais complementares&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;www.leg.ufpr.br/~paulojus/estbas/&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;github.com/talesjfer/Apostila-Estatistica-Aplicada&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA&#34;&gt;Canal Ciência Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Os programas necessários:
+&lt;ul&gt;
+&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34;&gt;OBS Studio&lt;/a&gt;
+OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34;&gt;Modelo&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;semanas-aulas&#34;&gt;Semanas (AULAS)&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Semana 1 (17-21/05/21)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/dgets.html&#34;&gt;Capítulo 1: &lt;em&gt;Definições gerais e técnicas de somatório&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-coad.html&#34;&gt;Capítulo 2: &lt;em&gt;Coleta, organização e apresentação de dados&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1lqP6CwpRPd4FnOvU_EULI4MzwxccrZ7Zo3BsKFwONRk/edit?usp=sharing&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material escrito sobre o assunto&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/dgets.html&#34;&gt;Capítulo 1: &lt;em&gt;Definições gerais e técnicas de somatório&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-coad.html&#34;&gt;Capítulo 2: &lt;em&gt;Coleta, organização e apresentação de dados&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercícios Propostos (&lt;a href=&#34;https://bendeivide.github.io/book-epaec/dgets.html#exerc%C3%ADcios-prospostos&#34;&gt;Cap. 1&lt;/a&gt;, Cap. 2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona, 7h 17/05/2021 - ao vivo)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/jv7ZZ8tWH0Y&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (Aula síncrona, 13h05min. 17/05/2021)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/DZ4PzyY5YYg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (Aula síncrona, 15h15min. 19/05/2021)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xlmWSTrp_SI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;Semana 2 (24-28/05/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;Semana 3 (31/5-4/6)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;Semana 4 (07-11/06/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;Semana 5 (07-11/06/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;Semana 6 (14-18/06/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;Semana 7 (21-25/06/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;Semana 8 (28/6-2/7)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;Semana 9 (12-16/07/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+  &lt;summary&gt;Semana 10 (19-23/07/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+  &lt;summary&gt;Semana 11 (26-30/07/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+  &lt;summary&gt;Semana 12 (02-06/08/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+  &lt;summary&gt;Semana 13 (09-13/08/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+  &lt;summary&gt;Semana 14 (16-20/08/21)&lt;/summary&gt;
+  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
-  &lt;p&gt;Acesse: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
     </item>
     
     <item>
       <title>Ensino normal</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Fri, 30 Apr 2021 19:50:58 +0000</pubDate>
+      <pubDate>Tue, 11 May 2021 09:34:45 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
-&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
-&lt;p&gt;O material encontra-se disponível em &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico&#34;&gt;http://bendeivide.github.io/cursor/nbasico&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
-&lt;p&gt;Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
-&lt;p&gt;Os exercícios do curso, podem ser desenvolvidos via &lt;em&gt;web&lt;/em&gt; em &lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34;&gt;https://bendeivide.shinyapps.io/Curso-R/&lt;/a&gt;, como também é possível baixar todos os &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scripts&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
-  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;</description>
+&lt;h2 id=&#34;em-construção&#34;&gt;Em construção&amp;hellip;&lt;/h2&gt;</description>
     </item>
     
     <item>
