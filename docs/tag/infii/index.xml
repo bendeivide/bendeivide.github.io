@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infII | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/infii/</link>
+      <atom:link href="http://bendeivide.github.io/tag/infii/index.xml" rel="self" type="application/rss+xml" />
+    <description>infII</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:33:55 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>infII</title>
+      <link>http://bendeivide.github.io/tag/infii/</link>
+    </image>
+    
+    <item>
+      <title>Inferência Estatística II</title>
+      <link>http://bendeivide.github.io/handouts/infii/</link>
+      <pubDate>Thu, 06 May 2021 23:33:55 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/infii/</guid>
+      <description>&lt;p&gt;Essa apostila é referente ao assunto sobre Estatística para grandes amostras, idealizada durante o doutorado em Estatística pela UFLA. Segue o &lt;a href=&#34;media/handout-infII.pdf&#34;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

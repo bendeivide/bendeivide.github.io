@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bookfinf | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/bookfinf/</link>
+      <atom:link href="http://bendeivide.github.io/tag/bookfinf/index.xml" rel="self" type="application/rss+xml" />
+    <description>bookfinf</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:23:37 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>bookfinf</title>
+      <link>http://bendeivide.github.io/tag/bookfinf/</link>
+    </image>
+    
+    <item>
+      <title>Fundamentos de Inferência</title>
+      <link>http://bendeivide.github.io/books/finf/</link>
+      <pubDate>Thu, 06 May 2021 23:23:37 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/finf/</guid>
+      <description>&lt;p&gt;Esse livro será uma continuação do livro publicado por &lt;a href=&#34;https://des.ufla.br/~danielff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Furtado Ferreira&lt;/a&gt;, intitulado &lt;a href=&#34;https://www.editora.ufla.br/produto/225/fundamentos-de-probabilidade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fundamentos de Probabilidade&lt;/a&gt;. Foi uma honra receber o convite do Prof. Daniel para essa parceria, ainda mais quando se está ao lado de uma pessoa que tenho como referência profissional.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LEEM | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/leem/</link>
+      <atom:link href="http://bendeivide.github.io/tag/leem/index.xml" rel="self" type="application/rss+xml" />
+    <description>LEEM</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:36:30 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>LEEM</title>
+      <link>http://bendeivide.github.io/tag/leem/</link>
+    </image>
+    
+    <item>
+      <title>LEEM</title>
+      <link>http://bendeivide.github.io/project/leem/</link>
+      <pubDate>Thu, 06 May 2021 23:36:30 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/leem/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Esse projeto tem por objetivo de criar uma interface gráfica ao usuário no &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, usando o pacote &lt;a href=&#34;https://shiny.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shiny&lt;/a&gt; e o pacote &lt;em&gt;tcltk&lt;/em&gt; da base do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Tentaremos apresentar temas simples e complexos de forma interativa, para que o professor dessas áreas possa abordar o tema de modo mais facilmente.&lt;/p&gt;
+&lt;h2 id=&#34;projetos-integrados&#34;&gt;Projetos integrados&lt;/h2&gt;
+&lt;p&gt;Temos dentro desse projetos, diversos projetos integrados, sendo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Projeto de dissertação PROFMAT/CAP/UFSJ, da orientanda &lt;a href=&#34;http://lattes.cnpq.br/5176118169651142&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Juliane Nassaralla Almeida&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Grupo de Iniciação Científica em Estatística/R:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/amandakellycosta/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amanda Kelly Costa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/l%c3%adviasdias/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lívia Dias de Sá Amorim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/gustavo-dos-rem%c3%a9dios-da-silva-paula-995a04181&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gustavo do Remédios da Silva Paula&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;linkedin.com/in/dailon-vinicius-6502a9207&#34;&gt;Dailon Vinicius Barbosa de Fátima&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/andrefdg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;André Felipe Duarte Gonçalves&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;propostas-da-gui&#34;&gt;Propostas da GUI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;GUI 1 (Proposta de Gustavo): &lt;a href=&#34;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&#34;&gt;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GUI 2 (Proposta de Juliane): &lt;a href=&#34;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&#34;&gt;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GUI 3 (Proposta de André Felipe): &lt;a href=&#34;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&#34;&gt;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GUI 4 (Proposta de Dailon): &lt;a href=&#34;images/gui-dailon.jpeg&#34;&gt;Imagem&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

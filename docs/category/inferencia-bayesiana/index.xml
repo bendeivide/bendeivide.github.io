@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inferência Bayesiana | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/category/inferencia-bayesiana/</link>
+      <atom:link href="http://bendeivide.github.io/category/inferencia-bayesiana/index.xml" rel="self" type="application/rss+xml" />
+    <description>Inferência Bayesiana</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:33:29 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <title>Inferência Bayesiana</title>
+      <link>http://bendeivide.github.io/category/inferencia-bayesiana/</link>
+    </image>
+    
+    <item>
+      <title>Inferência Bayesiana</title>
+      <link>http://bendeivide.github.io/handouts/infbayes/</link>
+      <pubDate>Thu, 06 May 2021 23:33:29 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/infbayes/</guid>
+      <description>&lt;p&gt;Essa apostila apresenta alguns fundamentos sobre a Inferência Bayesiana. Foi idealizada durante o mestrado em Estatística na UFLA.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
