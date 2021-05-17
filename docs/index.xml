@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 12 May 2021 19:59:32 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 14 May 2021 16:11:53 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Ensino Remoto</title>
       <link>http://bendeivide.github.io/courses/epaec/remoto/</link>
-      <pubDate>Wed, 12 May 2021 19:59:32 +0000</pubDate>
+      <pubDate>Fri, 14 May 2021 16:11:53 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/remoto/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato ensino remoto pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -214,14 +214,15 @@
 &lt;/details&gt;
 &lt;h2 id=&#34;material-adotado&#34;&gt;Material adotado&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Livro referência: &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
+&lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
   &lt;summary&gt;Materiais complementares&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;www.leg.ufpr.br/~paulojus/estbas/&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;github.com/talesjfer/Apostila-Estatistica-Aplicada&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://leg.ufpr.br/~paulojus/estbas/&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/talesjfer/Apostila-Estatistica-Aplicada&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf&#34;&gt;Introdução à estatística com R (Eric Ferreira &amp;amp; Marcelo Oliveira )&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA&#34;&gt;Canal Ciência Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -281,7 +282,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona, 7h 17/05/2021 - ao vivo)&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/jv7ZZ8tWH0Y&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bVObtgCFISs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;br/&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (Aula síncrona, 13h05min. 17/05/2021)&lt;/p&gt;
