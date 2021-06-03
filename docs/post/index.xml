@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/post/</link>
       <atom:link href="http://bendeivide.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
@@ -14,8 +14,52 @@
     
     <item>
       <title>Curso R - Programação em R (Nível Intermediário)</title>
+      <link>http://bendeivide.github.io/post/copyofcursorni2/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/copyofcursorni2/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;Confirmado o Curso R, &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;data-confirmada-do-curso&#34;&gt;Data confirmada do curso&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 30/07/2021&lt;/p&gt;
+&lt;h2 id=&#34;início-das-inscrições&#34;&gt;Início das inscrições&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 08/06/2021&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incrição (GRATUITA E COM CERTIFICADO - CATEL/UFSJ):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdiZnLPYuu9OWed_ECYrVv1U9L4NxGh9BZjAjAe0KnBEflcWQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1920&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;h2 id=&#34;canal-do-curso&#34;&gt;Canal do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Se inscreva no canal onde será realizado o curso: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Ben Dêivide&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;página-do-curso&#34;&gt;Página do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;materiais-do-curso&#34;&gt;Materiais do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livro do curso: &lt;a href=&#34;&#34;&gt;Estudando o ambiente R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Página: &lt;a href=&#34;https://bendeivide.github.io/courses/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;carga-horária-e-duração-do-curso&#34;&gt;Carga horária e duração do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Carga horária: 40 horas&lt;/li&gt;
+&lt;li&gt;Duração do curso: 30/07/2021 - 30/09/2021&lt;/li&gt;
+&lt;li&gt;30 aulas (4 vídeo-aulas por semana)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;apresentação-do-curso&#34;&gt;Apresentação do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Live (A confirmar!)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curso R - Programação em R (Nível Intermediário)</title>
       <link>http://bendeivide.github.io/post/cursorni/</link>
-      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       <guid>http://bendeivide.github.io/post/cursorni/</guid>
       <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
 &lt;p&gt;Em breve, daremos início ao segundo módulo o Curso R, &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;.&lt;/p&gt;
