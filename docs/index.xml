@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sun, 06 Jun 2021 15:36:47 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Ensino Remoto</title>
       <link>http://bendeivide.github.io/courses/epaec/remoto/</link>
-      <pubDate>Mon, 31 May 2021 06:01:01 +0000</pubDate>
+      <pubDate>Sun, 06 Jun 2021 15:36:47 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/remoto/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato ensino remoto pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -382,7 +382,37 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;Semana 4 (07-11/06/21)&lt;/summary&gt;
-  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introdução ao R (Parte I)&lt;/li&gt;
+&lt;li&gt;Introdução ao R (Parte II)&lt;/li&gt;
+&lt;li&gt;Introdução ao R (Parte III)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1bettPvFN9APOJlVdexkqKejroBKxuzaRESut_6hbNCE/edit?usp=sharing&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material escrito sobre o assunto&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/&#34;&gt;Curso R - Programação em R (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34;&gt;Exercícios Propostos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/nbasico.html#scripts&#34;&gt;Scripts 
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula sobre introdução ao R (Parte I) (Aula assíncrona, 7h 07/06/2021 - ao vivo)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/IIwd05FQa04&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula sobre introdução ao R (Parte II) (Aula assíncrona, 13h15min. 07/06/2021)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/uFvKMDOvccg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula sobre introdução ao R (Parte III) (Aula síncrona, 15h15min. 09/06/2021)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/h1_EGAAHPZY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;Semana 5 (07-11/06/21)&lt;/summary&gt;
@@ -536,6 +566,15 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     </item>
     
     <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/books/epaec/</link>
+      <pubDate>Sun, 06 Jun 2021 12:18:51 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/epaec/</guid>
+      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;http://bendeivide.github.io/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt;, como também sua versão em &lt;a href=&#34;https://github.com/bendeivide/book-epaec/raw/master/docs/book-epaec.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;, e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Curso R - Programação em R (Nível Intermediário)</title>
       <link>http://bendeivide.github.io/post/cursorni2/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
@@ -577,15 +616,6 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Live (A confirmar!)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estatística &amp; Probabilidade</title>
-      <link>http://bendeivide.github.io/books/epaec/</link>
-      <pubDate>Sat, 22 May 2021 16:49:45 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/epaec/</guid>
-      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;http://bendeivide.github.io/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
