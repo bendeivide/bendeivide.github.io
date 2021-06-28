@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/curso/</link>
       <atom:link href="http://bendeivide.github.io/tag/curso/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 23 Jun 2021 16:35:14 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 28 Jun 2021 12:56:16 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Curso</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Ensino Remoto</title>
       <link>http://bendeivide.github.io/courses/epaec/remoto/</link>
-      <pubDate>Wed, 23 Jun 2021 16:35:14 +0000</pubDate>
+      <pubDate>Mon, 28 Jun 2021 12:56:16 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/remoto/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato ensino remoto pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -421,7 +421,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap5.html&#34;&gt;Capítulo 5: &lt;em&gt;Probabilidades&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap6.html&#34;&gt;Capítulo 6: &lt;em&gt;Distribuições de probabilidade&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1qgq5uhQee_-kzsPfcRooZ7gUiZD2X3Yq1tYRqgTeZG0/edit?usp=sharing&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1UvfeLHp8mp7gl_ptxLPlCfws9OWwmZLjBAsppGbVlmM/edit?usp=sharing&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material escrito sobre o assunto&lt;/p&gt;
@@ -480,7 +480,35 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;Semana 7 (28/6-2/7)&lt;/summary&gt;
-  &lt;p&gt;Ainda a ocorrer!&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: 
+- &lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap5.html&#34;&gt;Capítulo 5: &lt;em&gt;Probabilidades&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap6.html&#34;&gt;Capítulo 6: &lt;em&gt;Distribuições de probabilidade&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/14UKbi7EMrnjDxqi1ible6M3idkuni6OE7WKv2Ni4d6Y/edit?usp=sharing&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material escrito sobre o assunto&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap5.html&#34;&gt;Capítulo 5: &lt;em&gt;Probabilidades&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap6.html&#34;&gt;Capítulo 6: &lt;em&gt;Distribuições de probabilidade&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercícios Propostos (&lt;a href=&#34;&#34;&gt;Cap. 6&lt;/a&gt;, &lt;a href=&#34;&#34;&gt;Cap. 7&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona, 13h15min. 28/06/2021 - ao vivo)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/iyJfr8kveM8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos (Aula síncrona, 7h00min. 29/06/2021)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Cr2FzwFSxes&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos (Aula síncrona, 15h15min. 30/06/2021)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/yAbdNyy44QQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;Semana 8 (05-09/07/21)&lt;/summary&gt;
