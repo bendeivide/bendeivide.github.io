@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/probabilidade/</link>
       <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilidade</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 28 Jun 2021 13:08:11 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Jun 2021 15:07:37 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Probabilidade</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Ensino Remoto</title>
       <link>http://bendeivide.github.io/courses/epaec/remoto/</link>
-      <pubDate>Mon, 28 Jun 2021 13:08:11 +0000</pubDate>
+      <pubDate>Wed, 30 Jun 2021 13:33:55 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/remoto/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato ensino remoto pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -493,6 +493,8 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap5.html&#34;&gt;Capítulo 5: &lt;em&gt;Probabilidades&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap6.html&#34;&gt;Capítulo 6: &lt;em&gt;Distribuições de probabilidade&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercícios Propostos (&lt;a href=&#34;&#34;&gt;Cap. 6&lt;/a&gt;, &lt;a href=&#34;&#34;&gt;Cap. 7&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Scripts 
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula21.R&#34; target=&#34;_blank&#34;&gt;Aula21.R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona, 13h15min. 28/06/2021 - ao vivo)&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -548,12 +550,21 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>Ensino normal</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Tue, 11 May 2021 09:34:45 +0000</pubDate>
+      <pubDate>Wed, 30 Jun 2021 15:07:24 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
 &lt;h2 id=&#34;em-construção&#34;&gt;Em construção&amp;hellip;&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Exercícios resolvidos para EPAEC</title>
+      <link>http://bendeivide.github.io/courses/epaec/exerresolvidos/</link>
+      <pubDate>Wed, 30 Jun 2021 15:07:37 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/epaec/exerresolvidos/</guid>
+      <description>&lt;p&gt;Projeto aprender por ensinar, do qual apresentamos vídeo-aulas de exercícios resolvidos pelos nossos alunos e monitores da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
