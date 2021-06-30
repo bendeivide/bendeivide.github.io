@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Jun 2021 16:37:21 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Jun 2021 18:07:00 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Ben Dêivide</title>
@@ -623,11 +623,140 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>Exercícios resolvidos para EPAEC</title>
       <link>http://bendeivide.github.io/courses/epaec/exerresolvidos/</link>
-      <pubDate>Wed, 30 Jun 2021 16:37:21 +0000</pubDate>
+      <pubDate>Wed, 30 Jun 2021 18:07:00 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/exerresolvidos/</guid>
       <description>&lt;p&gt;Projeto aprender por ensinar, do qual apresentamos vídeo-aulas de exercícios resolvidos pelos nossos alunos e monitores da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LPANRN0F4Uo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Definições Gerais&lt;/li&gt;
+&lt;li&gt;Técnicas de somatório&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Representação tabular&lt;/li&gt;
+&lt;li&gt;Representação gráfica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE POSIÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Média&lt;/li&gt;
+&lt;li&gt;Mediana&lt;/li&gt;
+&lt;li&gt;Moda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE DISPERSÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amplitude total&lt;/li&gt;
+&lt;li&gt;Variância&lt;/li&gt;
+&lt;li&gt;Desvio Padrão&lt;/li&gt;
+&lt;li&gt;Coeficiente de Variação&lt;/li&gt;
+&lt;li&gt;Erro padrão da Média&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Definições de probabilidades&lt;/li&gt;
+&lt;li&gt;Propriedades&lt;/li&gt;
+&lt;li&gt;Eventos independentes e probabilidade condicional&lt;/li&gt;
+&lt;li&gt;Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função de probabilidade discreta&lt;/li&gt;
+&lt;li&gt;Função de probabilidade contínua&lt;/li&gt;
+&lt;li&gt;Função de distribuição de probabilidade acumulada&lt;/li&gt;
+&lt;li&gt;Esperança matemática e variância&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÕES DE PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuições discretas de probabilidades&lt;/li&gt;
+&lt;li&gt;Distribuições contínuas de probabilidades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amostragem não-probabilística e probabilística&lt;/li&gt;
+&lt;li&gt;Técnicas de amostragem probabilística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÃO DE AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem da média&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de proporções&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de diferença entre médias&lt;/li&gt;
+&lt;li&gt;Distribuições amostrais (qui-quadrado, t e F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA ESTIMAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Tipos de estimativas&lt;/li&gt;
+&lt;li&gt;Propriedades de um estimador&lt;/li&gt;
+&lt;li&gt;Estimação por ponto&lt;/li&gt;
+&lt;li&gt;Estimação por intervalo:
+&lt;ul&gt;
+&lt;li&gt;Intervalo de confiança para a média&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a variância&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dimensionamento de amostras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA DECISÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Erros tipo I e II&lt;/li&gt;
+&lt;li&gt;Teste unilateral e bilateral&lt;/li&gt;
+&lt;li&gt;Passos para a construção de um teste de hipóteses&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a média&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a proporção&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a variância&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Correlação linear:&lt;/li&gt;
+&lt;li&gt;Coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses acerca do coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Regressão linear simples:&lt;/li&gt;
+&lt;li&gt;Modelo&lt;/li&gt;
+&lt;li&gt;Estimação dos parâmetros do modelo&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para o modelo de regressão&lt;/li&gt;
+&lt;li&gt;Medidas de adequação do modelo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;exercícios-resolvidos-por-assunto&#34;&gt;Exercícios Resolvidos por assunto&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Vídeo-aulas sobre o Capítulo 1&lt;/summary&gt;
+  &lt;p&gt;&lt;h3 id=&#34;er0001---definições-básicas-população-amostra-e-variável&#34;&gt;ER0001 - Definições básicas: População, Amostra e Variável&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MK1_GE5GajM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;exercícios-resolvidos-por-data-de-publicação&#34;&gt;Exercícios Resolvidos por data de publicação&lt;/h2&gt;
+&lt;h3 id=&#34;er0001---definições-básicas-população-amostra-e-variável&#34;&gt;ER0001 - Definições básicas: População, Amostra e Variável&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MK1_GE5GajM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     
