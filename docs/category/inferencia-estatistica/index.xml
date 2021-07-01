@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 01 Jul 2021 11:33:50 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 01 Jul 2021 13:15:58 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Inferência Estatística</title>
@@ -561,7 +561,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>✍️ Exercícios resolvidos para EPAEC</title>
       <link>http://bendeivide.github.io/courses/epaec/exerresolvidos/</link>
-      <pubDate>Thu, 01 Jul 2021 10:46:13 +0000</pubDate>
+      <pubDate>Thu, 01 Jul 2021 13:15:58 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/exerresolvidos/</guid>
       <description>&lt;p&gt;Projeto aprender por ensinar, do qual apresentamos vídeo-aulas de exercícios resolvidos pelos nossos alunos e monitores da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
@@ -699,10 +699,14 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;exercícios-resolvidos-por-data-de-publicação&#34;&gt;Exercícios Resolvidos por data de publicação&lt;/h2&gt;
-&lt;h3 id=&#34;er0001---definições-básicas-população-amostra-e-variável&#34;&gt;ER0001 - Definições básicas: População, Amostra e Variável&lt;/h3&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Vídeo-aulas por data de publicação&lt;/summary&gt;
+  &lt;p&gt;&lt;h3 id=&#34;er0001---definições-básicas-população-amostra-e-variável&#34;&gt;ER0001 - Definições básicas: População, Amostra e Variável&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MK1_GE5GajM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3 id=&#34;er0002---distribuição-bernoulli&#34;&gt;ER0002 - Distribuição Bernoulli&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ThpaNllq7zU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 </description>
     </item>
     
