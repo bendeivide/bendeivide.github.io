@@ -5,69 +5,138 @@
     <link>http://bendeivide.github.io/author/ben-deivide/</link>
       <atom:link href="http://bendeivide.github.io/author/ben-deivide/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 28 Apr 2021 21:09:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://bendeivide.github.io/author/ben-deivide/avatar_hue6cc0766c96d7ef53baa672d4639967d_80217_270x270_fill_lanczos_center_2.png</url>
+      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
       <title>Ben Dêivide</title>
       <link>http://bendeivide.github.io/author/ben-deivide/</link>
     </image>
     
     <item>
-      <title>On the analysis of mortality risk factors for hospitalized COVID-19 patients: A data-driven study using the major Brazilian database</title>
-      <link>http://bendeivide.github.io/publication/art-covid19/</link>
-      <pubDate>Wed, 28 Apr 2021 21:09:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/publication/art-covid19/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Clique no botão &lt;em&gt;Cite&lt;/em&gt; acima para verificar a referência, para que este artigo possa ser citado em seus trabalhos.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A linguagem R como uma ferramenta para a sua profissão</title>
-      <link>http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/</link>
-      <pubDate>Sat, 01 Aug 2020 19:30:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>http://bendeivide.github.io/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example journal article</title>
-      <link>http://bendeivide.github.io/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+      <title>R como uma ferramenta acadêmica</title>
+      <link>http://bendeivide.github.io/slides/ramb-profissao/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/ramb-profissao/</guid>
+      <description>&lt;h1 id=&#34;r-como-uma-ferramenta-acadêmica&#34;&gt;R como uma ferramenta acadêmica&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;nota&#34;&gt;Nota&lt;/h2&gt;
+&lt;p&gt;Essa apresentação terá um viés, pois apesar do poder que a ambiente &lt;code&gt;R&lt;/code&gt; tem, muitos dos exemplos estarão dentro das minhas necessidades/limitações pessoais e profissionais. Portanto, um resultado do que experimento e venho experienciando!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;histórico-sobre-o-ambiente-r&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
+&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
+&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;histórico-sobre-o-ambiente-r-1&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, Licença GNU&lt;/li&gt;
+&lt;li&gt;Repositório &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
+&lt;li&gt;Como instalar o R?
+Como instalar o RStudio?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: &lt;code&gt;\(x + y = z\)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt; 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three 
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
