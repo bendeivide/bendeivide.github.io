@@ -834,6 +834,36 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     </item>
     
     <item>
+      <title>Selo DC</title>
+      <link>http://bendeivide.github.io/dc/</link>
+      <pubDate>Tue, 06 Jul 2021 19:56:40 +0000</pubDate>
+      <guid>http://bendeivide.github.io/dc/</guid>
+      <description>&lt;p&gt;O selo Democratizando Conhecimento (DC) é uma ideia criada por mim, para mostrar a filosofia de trabalho que tento adotar na carreira profissional.&lt;/p&gt;
+&lt;p&gt;Como propagador de conhecimento, sabemos que nem todas as pessoas têm acesso a informação de qualidade e gratuita. Uma sociedade em progresso é aquela que dá direto a informação para todas as pessoas, sem restrição ao poder aquisisto. Dessa forma, devemos pensar sim em nosso reconhecimento profissional e financeiro, mas não podemos esquecer que o acesso a informação é o melhor começo para termos um mundo menos desigual.&lt;/p&gt;
+&lt;p&gt;Assim, todo os meus materiais terão o &lt;strong&gt;selo DC&lt;/strong&gt; para que o acesso de todo esse material seja  livre e que todo o material possa ser utilizado, levando em consideração que dadas as publicações, se faça a referência da mesma, não por questão de ego, mas de registro. Isso vai desde a publicação de livros, apostilas, páginas web, e todo o material produzido por mim. Uma forma de auxiliar a toda a comunidade que busca conhecimento. É claro que em algumas situações, as parcerias de trabalho poderão ocasionar alguma restrição, mas eu farei de tudo para que todo o material seja de livre acesso.&lt;/p&gt;
+&lt;p&gt;Assim, meus livros terão a tiragem impressa e sua versão &lt;a href=&#34;https://bookdown.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bookdown&lt;/a&gt;, para que quem não puder comprar ainda assim tenha acesso a informação desse material. Materiais e conteúdos digitais estarão sempre disponíveis em meu repositório &lt;a href=&#34;https://github.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O &lt;strong&gt;selo DC&lt;/strong&gt; é compatível com a licença Creative Commons CC BY NC 4.0, isto é,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;O usuário é livre para compartilhar, redistribuir, transformar ou adaptar essa obra;&lt;/li&gt;
+&lt;li&gt;O usuário não pode usar o material para uso comercial;&lt;/li&gt;
+&lt;li&gt;Atribua os créditos ao(s) autor(es) desse trabalho.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;CCBYNC.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Faça parte também dessa ideia, e seja um propagador de conhecimento livre e acessível, isso é uma liberdade necessária.&lt;/p&gt;
+&lt;p&gt;Para quem desejar inserir o selo DC em seus materiais, deixo aqui a &lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;imagens na versão preta e branca do selo DC&lt;/a&gt;. Temos dois modelos de Selos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pensando no selo na capa de um livro:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-preto2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pensando no selo na lateral do livro:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-preto.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;De todo o modo, o selo DC poderá ser utilizado para qualquer material que tenha essa mesma filosofia profissional.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Rapidinhas do R</title>
       <link>http://bendeivide.github.io/project/rapidinhasr/</link>
       <pubDate>Wed, 30 Jun 2021 12:26:51 +0000</pubDate>
@@ -1332,36 +1362,6 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
       <pubDate>Thu, 06 May 2021 23:30:52 +0000</pubDate>
       <guid>http://bendeivide.github.io/handouts/aeur-fisio/</guid>
       <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Selo DC</title>
-      <link>http://bendeivide.github.io/dc/</link>
-      <pubDate>Thu, 06 May 2021 23:29:39 +0000</pubDate>
-      <guid>http://bendeivide.github.io/dc/</guid>
-      <description>&lt;p&gt;O selo Democratizando Conhecimento (DC) é uma ideia criada por mim, para mostrar a filosofia de trabalho que tento adotar na carreira profissional.&lt;/p&gt;
-&lt;p&gt;Como propagador de conhecimento, sabemos que nem todas as pessoas tem acesso a informação de qualidade e gratuita. Uma sociedade em progresso é aquela que dá direto a informação a todas as pessoas, sem restrição ao poder aquisisto. Dessa forma, devemos pensar sim em nosso reconhecimento profissional e financeiro, mas não podemos esquecer que o acesso a informação é o melhor começo para termos um mundo menos desigual.&lt;/p&gt;
-&lt;p&gt;Assim, todo os meus materiais terão o &lt;strong&gt;selo DC&lt;/strong&gt; para que o acesso de todo esse material seja de livre acesso e que todo o material possa ser utilizado, levando em consideração que dadas as publicações, se faça a referência da mesma, não por questão de ego, mas de registro. Isso vai desde a publicação de livros, apostilas, páginas web, e todo o material produzido por mim. Uma forma de auxiliar a toda a comunidade que busca conhecimento. É claro que em algumas situações, as parcerias de trabalho poderá ocasionar alguma restrição, mas eu farei de tudo para que todo o material seja de livre acesso.&lt;/p&gt;
-&lt;p&gt;Assim, meus livros terão a tiragem impresso e sua versão &lt;a href=&#34;https://bookdown.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bookdown&lt;/a&gt;, para que quem não puder comprar ainda assim tenha acesso a informação desse material. Materiais e conteúdos digitais estarão sempre disponíveis em meu repositório &lt;a href=&#34;https://github.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;O &lt;strong&gt;selo DC&lt;/strong&gt; é compatível com a licença Creative Commons CC BY NC 4.0, isto é,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;O usuário é livre para compartilhar, redistribuir, transformar ou adaptar essa obra;&lt;/li&gt;
-&lt;li&gt;O usuário não pode usar o material para uso comercial;&lt;/li&gt;
-&lt;li&gt;Atribua os créditos ao(s) autor(es) desse trabalho.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;CCBYNC.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Faça parte também dessa ideia, e seja um propagador de conhecimento livre e acessível, isso é uma liberdade necessária.&lt;/p&gt;
-&lt;p&gt;Para quem desejar inserir o selo DC em seus materiais, deixo aqui a &lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;imagens na versão preta e branca do selo DC&lt;/a&gt;. Temos dois modelos de Selos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pensando no selo na capa de um livro:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-preto2.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;pensando no selo na lateral do livro:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/dc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-preto.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;De todo o modo, o selo DC poderá ser utilizado para qualquer material que tenha essa mesma filosofia profissional.&lt;/p&gt;
 </description>
     </item>
     
