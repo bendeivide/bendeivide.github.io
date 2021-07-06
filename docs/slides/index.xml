@@ -8,11 +8,17 @@
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <item>
       <title>R como uma ferramenta acadêmica</title>
-      <link>http://bendeivide.github.io/slides/ramb-profissao/</link>
+      <link>http://bendeivide.github.io/slides/ramb-academico/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/ramb-profissao/</guid>
+      <guid>http://bendeivide.github.io/slides/ramb-academico/</guid>
       <description>&lt;h1 id=&#34;r-como-uma-ferramenta-acadêmica&#34;&gt;R como uma ferramenta acadêmica&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;apresentação-com-selo-dc&#34;&gt;Apresentação com selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-branco.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;acesso-ao-material-dessa-apresentação&#34;&gt;Acesso ao material dessa apresentação&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/palestras/tree/master/ramb-academico&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;folder.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;nota&#34;&gt;Nota&lt;/h2&gt;
 &lt;p&gt;Essa apresentação terá um viés, pois apesar do poder que a ambiente &lt;code&gt;R&lt;/code&gt; tem, muitos dos exemplos estarão dentro das minhas necessidades/limitações pessoais e profissionais. Portanto, um resultado do que experimento e venho experienciando!&lt;/p&gt;
@@ -31,8 +37,17 @@
 &lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
 &lt;li&gt;Como instalar o R?
 Como instalar o RStudio?&lt;/li&gt;
+&lt;li&gt;Como usar o R?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;curso-r-nível-básico&#34;&gt;Curso R (Nível Básico)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;cursor-nb.png&#34; alt=&#34;Nível Básico&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;curso-r-ni&#34;&gt;Curso R (NI)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/post/cursorni2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;cursor-ni.png&#34; alt=&#34;Nível Intermediário&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rapidinhas-do-r&#34;&gt;Rapidinhas do R&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;rapidinhasr.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
 &lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
