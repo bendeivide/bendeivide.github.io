@@ -69,7 +69,7 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;histórico-sobre-o-ambiente-r-1&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, Licença GNU&lt;/li&gt;
+&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, funcional, metapragmática, Licença GNU&lt;/li&gt;
 &lt;li&gt;Repositório &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
 &lt;li&gt;Como instalar o R?
@@ -86,74 +86,152 @@ Como instalar o RStudio?&lt;/li&gt;
 &lt;h2 id=&#34;rapidinhas-do-r&#34;&gt;Rapidinhas do R&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;rapidinhasr.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: &lt;code&gt;\(x + y = z\)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt; 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three 
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico&#34;&gt;Ferramentas do &lt;code&gt;R&lt;/code&gt; além do fim Estatístico&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;li&gt;Análises Estatísticas ❌&lt;/li&gt;
+&lt;li&gt;Criação e divulgação de materiais científicos:
+&lt;ul&gt;
+&lt;li&gt;Materiais Dinâmicos (HTML, JavaScript, CSS, &lt;code&gt;\(\LaTeX\)&lt;/code&gt;, &lt;code&gt;R&lt;/code&gt;, PDF) ✔️&lt;/li&gt;
+&lt;li&gt;Materiais estatísticos (HTML, PDF, EPUB, WORD, SLIDES) ✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico-1&#34;&gt;Ferramentas do &lt;code&gt;R&lt;/code&gt; além do fim Estatístico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Desenvolvimento de pacotes  ✔️
+&lt;ul&gt;
+&lt;li&gt;Criação de GUIs para pacotes (Pacotes &lt;code&gt;tcltk&lt;/code&gt;, &lt;code&gt;GTK+&lt;/code&gt;, &lt;code&gt;shiny&lt;/code&gt;) ✔️&lt;/li&gt;
+&lt;li&gt;Documentação de pacotes (Vignettes, tutorial de pacote) ✔️&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Divulgação de todos esses materiais ✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Gei-gtBlMos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instalação do &lt;code&gt;R&lt;/code&gt;&lt;/a&gt; e &lt;a href=&#34;https://youtu.be/Gei-gtBlMos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio/Pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rmarkdown&lt;/code&gt; e &lt;code&gt;knitr&lt;/code&gt; - Pacotes mais importantes!&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shiny&lt;/code&gt; - Pacote para criação de materiais dinâmicos&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;devtools&lt;/code&gt; e &lt;code&gt;usethis&lt;/code&gt; - kit de ferramentas&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rsconnect&lt;/code&gt; - Pacote para enviar seu arquivo para &lt;em&gt;shinyapps.io&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-1&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tinytex&lt;/code&gt; - Latex (Caso você não queira instalar o &lt;code&gt;\(\LaTeX\)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rticles&lt;/code&gt; - Escrever Artigos&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;thesisdown&lt;/code&gt; - Escrever Teses&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bookdown&lt;/code&gt; - Escrever Livros (HTML, PDF, ePub, Kindle)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-2&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;blogdown&lt;/code&gt; e &lt;code&gt;distill&lt;/code&gt; - Criação de blogs, websites&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;postcards&lt;/code&gt; - Criação de um cartão de visita&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;learnr&lt;/code&gt; - Criação de tutoriais para aprender R&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pkgdown&lt;/code&gt;(Documentação em HTML para pacotes R) e &lt;code&gt;usethis&lt;/code&gt; ou &lt;code&gt;rmarkdown&lt;/code&gt;(Criação de Vignettes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-3&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tcltk&lt;/code&gt; (Existem muitos outros pacotes!) - GUI&amp;rsquo;s&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;manipulate&lt;/code&gt; e &lt;code&gt;shiny&lt;/code&gt; - gráficos interativos no RStudio e &lt;code&gt;scatterplot3d&lt;/code&gt; - Gráficos em 3d&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exams&lt;/code&gt; - Criação de Provas para disciplinas + MOODLE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\LaTeX\)&lt;/code&gt;, MS Word (ou similares)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown&#34;&gt;&lt;code&gt;R&lt;/code&gt; Markdown&lt;/h2&gt;
+&lt;p&gt;Três componentes básicos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Metadados&lt;/strong&gt;: O corpo do documento&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Texto&lt;/strong&gt;: Assunto dissertado&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Código&lt;/strong&gt;: Linguagem de interesse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;LEMBRETE&lt;/strong&gt;: A extensão de um arquivo R Markdown é: &lt;em&gt;.Rmd&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;material-de-apoio-ao-r-markdown&#34;&gt;Material de apoio ao &lt;code&gt;R&lt;/code&gt; Markdown&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/cdec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;cdec.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;material-de-apoio-ao-r-markdown-1&#34;&gt;Material de apoio ao &lt;code&gt;R&lt;/code&gt; Markdown&lt;/h2&gt;
+&lt;p&gt;O básico no R Markdown:
+&lt;a href=&#34;https://rmarkdown.rstudio.com/authoring_basics.html&#34;&gt;https://rmarkdown.rstudio.com/authoring_basics.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A ideia dos pacotes nos documentos dinâmicos:
+&lt;a href=&#34;https://jreduardo.github.io/semanest-ufpr2017/&#34;&gt;https://jreduardo.github.io/semanest-ufpr2017/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Para leitura:
+&lt;a href=&#34;http://cursos.leg.ufpr.br/prr/capDocDin.html&#34;&gt;http://cursos.leg.ufpr.br/prr/capDocDin.html&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 
-&lt;/aside&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-documentos-estatísticos&#34;&gt;&lt;code&gt;R&lt;/code&gt; Markdown: Documentos estatísticos&lt;/h2&gt;
+&lt;p&gt;Aplicações:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;rstudio.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;h2 id=&#34;r-markdown-documentos-dinâmicos&#34;&gt;&lt;code&gt;R&lt;/code&gt; Markdown: Documentos dinâmicos&lt;/h2&gt;
+&lt;p&gt;Recursos do Shiny:&lt;/p&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://shiny.estatistica.ccet.ufrn.br/srag/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Srag ou Covid-19 (UFRN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shiny.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Trends&lt;/em&gt; do Google (RStudio)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shiny.rstudio.com/gallery/didacting-modeling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Processo de modelagem didática&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;criação-de-websites&#34;&gt;Criação de &lt;em&gt;Websites&lt;/em&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;li&gt;Website (pacote &lt;a href=&#34;https://rstudio.github.io/distill/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;distill&lt;/code&gt;&lt;/a&gt;): &lt;a href=&#34;https://youtu.be/FbTLrfYWQQw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R&lt;/a&gt;, ex. &lt;a href=&#34;https://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website via &lt;a href=&#34;https://pkgs.rstudio.com/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt; e &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Hugo&lt;/code&gt;&lt;/a&gt; (&lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;temas&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;ben.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplos-de-websites&#34;&gt;Exemplos de &lt;em&gt;Websites&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Markdown no RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://robjhyndman.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rob J Hyndman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://amber.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amber Thomas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://emitanaka.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emi Tanaka&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplo-de-postcard&#34;&gt;Exemplo de &lt;em&gt;Postcard&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://bendeivide.github.io/cursor/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplo-de-dashboard&#34;&gt;Exemplo de Dashboard&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.shinyapps.io/RDashboards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;midrangeMCP.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;outros-exemplos-de-dashboards&#34;&gt;Outros exemplos de Dashboards&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eelloo.nl/groepsrapportages-met-infographics/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eelloo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjallaire.shinyapps.io/shiny-crandash/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exemplo usando o &lt;code&gt;shiny&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://shiny.estatistica.ccet.ufrn.br/DashboardDeputados/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Controle de gastos públicos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkgs.rstudio.com/flexdashboard/articles/examples.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Material para usar Dashboards + Shiny&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-relatórios-programados&#34;&gt;R Markdown: Relatórios programados&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://rmarkdown.rstudio.com/articles_mail_merge.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mine Çetinkaya-Rundel&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 
@@ -163,26 +241,116 @@ Three
       data-background-image=&#34;/media/boards.jpg&#34;
   &gt;
 
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;h2 id=&#34;r-markdown-relatórios-programados-aplicação&#34;&gt;R Markdown: Relatórios programados (Aplicação)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nomes dos professores do DEFIM/UFSJ e númerode suas salas;&lt;/li&gt;
+&lt;li&gt;Vamos fazer um documento em PDF, cujo nome desses arquivos serão os nomes dos professores, com algum texto identificando as suas salas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;rstudio.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-livros&#34;&gt;R Markdown: Livros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Site: &lt;a href=&#34;https://bookdown.org/&#34;&gt;https://bookdown.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;, &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EAMBR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-artigos-e-teses&#34;&gt;R Markdown: Artigos e Teses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pacote &lt;code&gt;rticles&lt;/code&gt;: &lt;code&gt;install.packages(&amp;quot;rticles&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pacote &lt;code&gt;thesisdown&lt;/code&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;)) 
+  install.packages(&amp;quot;remotes&amp;quot;, repos = &amp;quot;https://cran.rstudio.org&amp;quot;)
+remotes::install_github(&amp;quot;rstudio/bookdown&amp;quot;)
+remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-livros-aplicações&#34;&gt;R Markdown: Livros (Aplicações)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;rstudio.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-slides-aplicações&#34;&gt;R Markdown: Slides (Aplicações)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;rstudio.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;documentação-para-pacotes&#34;&gt;Documentação para pacotes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;https://pkgdown.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;pkgdown&lt;/code&gt;&lt;/a&gt;: ex.: &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vignettes (Pacote &lt;a href=&#34;https://usethis.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;usethis&lt;/code&gt;&lt;/a&gt;): &lt;code&gt;usethis::use_vignette()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;interface-gráfica-ao-usuário&#34;&gt;Interface Gráfica ao Usuário&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo do pacote &lt;code&gt;tcltk&lt;/code&gt;: &lt;a href=&#34;https://bendeivide.github.io/project/mcptests/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;MCPtests&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;MCPtests.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo do pacote &lt;code&gt;shiny&lt;/code&gt;: &lt;a href=&#34;https://dreamrs.github.io/esquisse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;esquisse&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;documentos-para-aprendizagem-do-r&#34;&gt;Documentos para aprendizagem do &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;https://rstudio.github.io/learnr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;learnr&lt;/code&gt;&lt;/a&gt;: ex.: &lt;a href=&#34;http://bendeivide.shinyapps.io/Est_Exp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Experimental&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;aplicação-de-provas-academia&#34;&gt;Aplicação de provas (Academia)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;http://r-exams.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;exams&lt;/code&gt;&lt;/a&gt; e uso no &lt;a href=&#34;https://moodle.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MOODLE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;gráficos-3d-latex-e-r&#34;&gt;Gráficos 3D ($\LaTeX$ e &lt;code&gt;R&lt;/code&gt;)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;code&gt;scatterplot3d&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;tabelas-com-ilustrações-animadas--sweave&#34;&gt;Tabelas com ilustrações animadas + &lt;code&gt;Sweave&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;rstudio.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;onde-publicamos-esses-materiais&#34;&gt;Onde publicamos esses materiais?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rpubs.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RPubs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rpubs.com/cathydatascience/518692&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Como publicar!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.shinyapps.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shinyapp.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bookdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marcusnunes.me/posts/como-instalar-o-shiny-em-seu-proprio-servidor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Servidor próprio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gomesfellipe.github.io/post/2018-10-27-server-cloud/server-cloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Servidor online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://https://github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R 5 a 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netlify&lt;/a&gt;, &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/blogdown-deploy.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Como publicar!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
