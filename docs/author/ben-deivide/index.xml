@@ -5,63 +5,93 @@
     <link>http://bendeivide.github.io/author/ben-deivide/</link>
       <atom:link href="http://bendeivide.github.io/author/ben-deivide/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 12 Jul 2021 18:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <url>http://bendeivide.github.io/author/ben-deivide/avatar_hue6cc0766c96d7ef53baa672d4639967d_80217_270x270_fill_lanczos_center_2.png</url>
       <title>Ben Dêivide</title>
       <link>http://bendeivide.github.io/author/ben-deivide/</link>
     </image>
     
     <item>
       <title>R como uma ferramenta acadêmica</title>
-      <link>http://bendeivide.github.io/slides/ramb-academico/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/ramb-academico/</guid>
-      <description>&lt;h1 id=&#34;r-como-uma-ferramenta-acadêmica&#34;&gt;R como uma ferramenta acadêmica&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;apresentação-com-selo-dc&#34;&gt;Apresentação com selo DC&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;SeloDC-branco.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;acesso-ao-material-dessa-apresentação&#34;&gt;Acesso ao material dessa apresentação&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/palestras/tree/master/ramb-academico&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;folder.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;nota&#34;&gt;Nota&lt;/h2&gt;
-&lt;p&gt;Essa apresentação terá um viés, pois apesar do poder que a ambiente &lt;code&gt;R&lt;/code&gt; tem, muitos dos exemplos estarão dentro das minhas necessidades/limitações pessoais e profissionais. Portanto, um resultado do que experimento e venho experienciando!&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;histórico-sobre-o-ambiente-r&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
-&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
-&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;histórico-sobre-o-ambiente-r-1&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, Licença GNU&lt;/li&gt;
-&lt;li&gt;Repositório &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
-&lt;li&gt;Como instalar o R?
-Como instalar o RStudio?&lt;/li&gt;
-&lt;li&gt;Como usar o R?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;curso-r-nível-básico&#34;&gt;Curso R (Nível Básico)&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;cursor-nb.png&#34; alt=&#34;Nível Básico&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;curso-r-ni&#34;&gt;Curso R (NI)&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/post/cursorni2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;cursor-ni.png&#34; alt=&#34;Nível Intermediário&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;rapidinhas-do-r&#34;&gt;Rapidinhas do R&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;rapidinhasr.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
+      <link>http://bendeivide.github.io/talk/r-como-uma-ferramenta-academica/</link>
+      <pubDate>Mon, 12 Jul 2021 18:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/r-como-uma-ferramenta-academica/</guid>
+      <description>&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/_43yBb_s-R8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the analysis of mortality risk factors for hospitalized COVID-19 patients: A data-driven study using the major Brazilian database</title>
+      <link>http://bendeivide.github.io/publication/art-covid19/</link>
+      <pubDate>Wed, 28 Apr 2021 21:09:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/art-covid19/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;em&gt;Cite&lt;/em&gt; acima para verificar a referência, para que este artigo possa ser citado em seus trabalhos.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A linguagem R como uma ferramenta para a sua profissão</title>
+      <link>http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/</link>
+      <pubDate>Sat, 01 Aug 2020 19:30:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>http://bendeivide.github.io/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>http://bendeivide.github.io/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
+t;&lt;/pre&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
 &lt;p&gt;In-line math: &lt;code&gt;\(x + y = z\)&lt;/code&gt;&lt;/p&gt;
