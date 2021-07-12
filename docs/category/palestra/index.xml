@@ -226,10 +226,13 @@ Como instalar o RStudio?&lt;/li&gt;
 &lt;h2 id=&#34;r-markdown-artigos-e-teses&#34;&gt;R Markdown: Artigos e Teses&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Pacote &lt;code&gt;rticles&lt;/code&gt;: &lt;code&gt;install.packages(&amp;quot;rticles&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Pacote &lt;code&gt;bookdown&lt;/code&gt; (Tese)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Pacote &lt;code&gt;thesisdown&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Pacote &lt;code&gt;rticles&lt;/code&gt; (Artigo): &lt;code&gt;install.packages(&amp;quot;rticles&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pacote &lt;code&gt;thesisdown&lt;/code&gt; (Tese):&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;)) 
