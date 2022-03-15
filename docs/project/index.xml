@@ -5,12 +5,153 @@
     <link>http://bendeivide.github.io/project/</link>
       <atom:link href="http://bendeivide.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Jun 2021 12:26:51 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sun, 13 Mar 2022 17:58:52 +0000</lastBuildDate>
     <image>
-      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>http://bendeivide.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Projeto UFSJ 005/2021/PROPE</title>
+      <link>http://bendeivide.github.io/project/projufsj04/</link>
+      <pubDate>Sun, 13 Mar 2022 17:58:52 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/projufsj04/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;p&gt;Em 2012 foi publicado a primeira versão do pacote SMR sob o CRAN (BATISTA; FERREIRA, 2014). Em 2014, foram realizadas algumas correções do pacote para a publicação na revista do R &amp;ldquo;The R Journal&amp;rdquo;. Esse pacote tem a finalidade de apresentar a função densidade de probabilidade, função distribuição, função qualtil e o gerador de números aleatórios da &amp;ldquo;midrange&amp;rdquo; estudentizada externamente de uma população normal, do qual a &amp;ldquo;midrange&amp;rdquo; é uma medida de tendência central, calculada pela soma da menor e maior observação em um conjunto de dados, divido por 2.&lt;/p&gt;
+&lt;p&gt;A aplicação desse pacote foi utilizada nos procedimentos de comparações múltiplas (PCM) desenvolvidos por Batista (2016), em sua conclusão de tese. Além do desenvolvimento de quatro PCMs, foi desenvolvido outro pacote R chamado midrangeMCP (2020) para a implementação desses procedimentos, do qual depende do pacote SMR. O grande problema que existe nesses pacotes é que como o R é uma linguagem interpretada, algumas implementações exigem um esforço maior da máquina para o cálculo de quadraturas gaussianas, que foi técnica numérica utilizada para a solução de cálculos de integrais duplas e triplas encontradas na distribuição da &amp;ldquo;midrange&amp;rdquo; estudentizada externamente de uma população normal. Assim, em algumas situações, os resultados obtidos por esses pacotes demoram segundos para a realização do cálculo.&lt;/p&gt;
+&lt;p&gt;Como solução, pensamos em implementar, justamente nesse ponto, o código em C/C++ e integrá-lo no ambiente R usando algumas API&amp;rsquo;s disponíveis no próprio ambiente.&lt;/p&gt;
+&lt;p&gt;Um outro aspecto de abrangência será apresentar a distribuição da &amp;ldquo;midrange&amp;rdquo; estudentizada externamente centrada em qualquer parâmetro &lt;code&gt;\(mu\)&lt;/code&gt; populacional (média populacional), uma vez que os pacotes apresentados anteriormente, foram implementados apenas com essa estatística centrada em 0 em uma população com distribuição normal.&lt;/p&gt;
+&lt;p&gt;Por fim, pensando em uma maior alcance do pacote SMR, será densenvolvido uma interface gráfica ao usuário (IGU), para facilitar a sua utiliza de usuários sem afinidade com o ambiente R, bem como os demais usuários.&lt;/p&gt;
+&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Portanto, os objetivos desse trabalho são:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementar a quadratura gaussiana em código C/C++ e integrá-lo no pacote R SMR;&lt;/li&gt;
+&lt;li&gt;Generalizar a implementação do pacote SMR para ser utilizado as distribuições da estatística &amp;ldquo;midrange&amp;rdquo; estudentizada externamente, em qualquer &lt;code&gt;\(mu\)&lt;/code&gt; de uma população normal;&lt;/li&gt;
+&lt;li&gt;Desenvolver uma IGU para o pacote SMR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;período-de-execução-e-local&#34;&gt;Período de execução e local&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; O projeto foi desenvolvido durante o período de março de 2021 a fevereiro de 2022, pelo Edital 004/2020/PROPE/UFSJ.&lt;/p&gt;
+&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
+&lt;p&gt;Para o desenvolvimento desse trabalho, será revistidado todos os trabalhos que envolveram a implementação do pacote SMR, buscando artigos e códigos. Posteriormente, utilizaremos o ambiente R e pacote Rccp (EDDELBUETTEL; BALAMUTA, 2018) para integrar o código C/C++ no ambiente R. Em um segundo momento, faremos as alterações devidas no pacote SMR para a generalização da distribuição. Por fim, faremos a implementação da sua interface gráfica (IGU) usando o pacote tcltk, uma integração da linguagem Tcl/Tk com o ambiente R, para uma melhor utilização do pacote com usuários não ambientados com o R.&lt;/p&gt;
+&lt;h2 id=&#34;plano-de-trabalho&#34;&gt;Plano de trabalho&lt;/h2&gt;
+&lt;p&gt;Primeira Etapa: Desenvolvimento do algoritmo em C/C++ sobre as quadraturas gaussianas e implmentá-las no pacote SMR ( 4 meses iniciais);&lt;/p&gt;
+&lt;p&gt;Segunda Etapa: Implementação no código do pacote SMR a generalização da distribuição da &amp;ldquo;midrange&amp;rdquo; estudentizada externamente para uma normal com média &lt;code&gt;\(mu\)&lt;/code&gt; (4 meses intermediários);&lt;/p&gt;
+&lt;p&gt;Terceira Etapa: Criação da IGU implmentada em TclTk e integrado no ambiente R (4 meses finais).&lt;/p&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;p&gt;BATISTA, B. D. de O.; FERREIRA, D. F. SMR: Externally Studentized Midrange Distribution. Vienna, Austria, 2014. R package version 2.0. Disponível em: .&lt;/p&gt;
+&lt;p&gt;BATISTA, B. D. de O.; FERREIRA, D. F. midrangeMCP: Multiple comparisons procedures based on
+studentized midrange and range distributions. Vienna, Austria, 2020. R package version 3.1. Disponível em: .&lt;/p&gt;
+&lt;p&gt;BATISTA, B. D. de O. Teste de comparações múltiplas baseados na distribuição da midrange
+estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de Lavras, Lavras, MG,
+2016.&lt;/p&gt;
+&lt;p&gt;EDDELBUETTEL, D.; BALAMUTA, J. J.. Extending R with C++: A Brief Introduction to Rcpp. The American Statistician. 72(1). 2018. URL: &lt;a href=&#34;https://doi.org/10.1080/00031305.2017.1375990&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1080/00031305.2017.1375990&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;R CORE TEAM. R: A language and environment for statistical computing. Vienna, Austria, 2021.&lt;/p&gt;
+&lt;h2 id=&#34;membros&#34;&gt;Membros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Orientando: &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur Bispo Justino de Oliveira&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Orientador: &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide de Oliveira Batista&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;relatório-final&#34;&gt;Relatório Final&lt;/h2&gt;
+&lt;p&gt;O projeto ainda está em andamento.&lt;/p&gt;
+&lt;h2 id=&#34;trabalhos-publicados&#34;&gt;Trabalhos publicados&lt;/h2&gt;
+&lt;p&gt;O projeto está em andamento.&lt;/p&gt;
+&lt;h2 id=&#34;considerações&#34;&gt;Considerações&lt;/h2&gt;
+&lt;p&gt;O projeto está em andamento.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projeto Aprender Por Ensinar (APE)</title>
+      <link>http://bendeivide.github.io/project/projape/</link>
+      <pubDate>Sun, 13 Mar 2022 17:58:44 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/projape/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/t-uhFaz5NKE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;p&gt;O Projeto Aprender Por Ensinar (APE) se destina a auxiliar a disciplina de ESTATÍSTICA &amp;amp; PROBABILIDADE, ministrado pela Universidade Federal de São João del-Rei, campus Alto Paraopeba, Ouro Branco/MG.&lt;/p&gt;
+&lt;p&gt;Para detalhes do curso, acesse: &lt;a href=&#34;https://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/courses/epaec/exerresolvidos/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎓 Projeto Concurseiros da Estatística</title>
+      <link>http://bendeivide.github.io/project/conc_estat/</link>
+      <pubDate>Sun, 13 Mar 2022 17:58:36 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/conc_estat/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;p&gt;Projeto Concurseiros da Estatística vem com o propósito de repassar a minha experiência ao longo dos concursos para o magistério superior na área da Estatística. Disponibilizarei todas as notas desenvolvidas ao longo dos diversos pontos estudados para os mais variados concursos. Repassaremos algumas estratégias experienciadas por mim. Assim, não tome tudo como verdade, seja crítico, aproveite o que for bom, melhore os nossos materiais, e propague conhecimento.&lt;/p&gt;
+&lt;h2 id=&#34;preparação-psicológica&#34;&gt;Preparação psicológica&lt;/h2&gt;
+&lt;h2 id=&#34;estratégias-para-estudo&#34;&gt;Estratégias para estudo&lt;/h2&gt;
+&lt;h2 id=&#34;como-desenvolver-os-pontos-para-prova-escrita-e-didática&#34;&gt;Como desenvolver os pontos para prova escrita e didática&lt;/h2&gt;
+&lt;h2 id=&#34;memorial&#34;&gt;Memorial&lt;/h2&gt;
+&lt;h2 id=&#34;plano-de-ensino&#34;&gt;Plano de Ensino&lt;/h2&gt;
+&lt;h2 id=&#34;tópicos-estudados&#34;&gt;Tópicos estudados&lt;/h2&gt;
+&lt;p&gt;Vamos seguir alguns tópicos que foram amplamente pontos dos mais diversos concursos que participei na área da Estatística&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Tópicos estudados&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;Tópico 1: Conceitos de Probabilidade - Experimento Aleatório; Espaço de Probabilidade; Probabilidade Condicional e Independência. Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Tópico 2: Variável Aleatória&lt;/li&gt;
+&lt;li&gt;Tópico 3: Vetores Aleatórios&lt;/li&gt;
+&lt;li&gt;Tópico 4: Teoremas Limite&lt;/li&gt;
+&lt;li&gt;Tópico 5: Estimação pontual&lt;/li&gt;
+&lt;li&gt;Tópico 6: Estimação intervalar&lt;/li&gt;
+&lt;li&gt;Tópico 7: Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Tópico 8: Regressão Linear&lt;/li&gt;
+&lt;li&gt;Tópico 9: Análise de Séries temporais&lt;/li&gt;
+&lt;li&gt;Tópico 10: Amostragem&lt;/li&gt;
+&lt;li&gt;Tópico 11: Controle Estatístico de Qualidade&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;materiais-desenvolvidos-para-prova-escrita&#34;&gt;Materiais desenvolvidos para prova escrita&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico01.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico02.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico03.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico04.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico05.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico06.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico07.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico08.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico09.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico10.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico11.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 11&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;materiais-desenvolvidos-para-prova-didática&#34;&gt;Materiais desenvolvidos para prova didática&lt;/h2&gt;
+&lt;h2 id=&#34;materiais-complementares&#34;&gt;Materiais complementares&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Um dos materiais durante o mestrado/doutorado que deu gosto de fazer, foram as listas de exercícios do livro &lt;em&gt;Introduction to the Theory of Statistics&lt;/em&gt; (MOOD, A. M.; GRAYBIOLL, F. A.; BOES, D. C., 1974). Para baixar &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/Mood-BenDeivide.pdf&#34; target=&#34;_blank&#34;&gt;clique aqui&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cantando com a Estatística</title>
+      <link>http://bendeivide.github.io/project/cantest/</link>
+      <pubDate>Sun, 13 Mar 2022 17:58:29 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/cantest/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;p&gt;O projeto Cantando com a Estatística tenta trazer, por meio da música, mas uma forma do estudante conseguir assimilar o conteúdo da disciplina de Estatística e Probabilidade, do qual ministro no &lt;em&gt;campus&lt;/em&gt; Alto Paraopeba, UFSJ.&lt;/p&gt;
+&lt;h2 id=&#34;músicas&#34;&gt;Músicas&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HPo1Axt_Gzo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zdCz0KIeXTQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Rapidinhas do R</title>
@@ -332,13 +473,13 @@
 &lt;h2 id=&#34;propostas-da-gui&#34;&gt;Propostas da GUI&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;GUI 1 (Proposta de Gustavo): &lt;a href=&#34;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&#34;&gt;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GUI 1 (Proposta de Gustavo): &lt;a href=&#34;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.figma.com/file/qYH2QntEZcVZDvq1ejp3W7/Untitled?node-id=0%3A1&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;GUI 2 (Proposta de Juliane): &lt;a href=&#34;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&#34;&gt;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GUI 2 (Proposta de Juliane): &lt;a href=&#34;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;amp;scaling=min-zoom&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.figma.com/proto/isRxuZbvduJe4bww0FvlTW/Untitled?node-id=7%3A18&amp;scaling=min-zoom&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;GUI 3 (Proposta de André Felipe): &lt;a href=&#34;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&#34;&gt;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GUI 3 (Proposta de André Felipe): &lt;a href=&#34;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;amp;scaling=contain&amp;amp;page-id=0%3A1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.figma.com/proto/lapHIsabTlxt6NLO0Grsur/Untitled?node-id=13%3A582&amp;scaling=contain&amp;page-id=0%3A1&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;GUI 4 (Proposta de Dailon): &lt;a href=&#34;images/gui-dailon.jpeg&#34;&gt;Imagem&lt;/a&gt;&lt;/p&gt;

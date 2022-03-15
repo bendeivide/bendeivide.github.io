@@ -7,10 +7,21 @@
     <description>Tcl/Tk</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language>
     <image>
-      <url>http://bendeivide.github.io/images/icon_hu567e9fd40a53877e2a27e5c6d2ea0c5f_85119_512x512_fill_lanczos_center_2.png</url>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Tcl/Tk</title>
       <link>http://bendeivide.github.io/category/tcl/tk/</link>
     </image>
+    
+    <item>
+      <title>Programação de Interface Gráfica ao Usuário no R</title>
+      <link>http://bendeivide.github.io/books/pigur/</link>
+      <pubDate>Tue, 31 Aug 2021 10:08:11 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/pigur/</guid>
+      <description>&lt;p&gt;Esse livro surgiu a partir da ideia que propus ao outro autor desse projeto &lt;a href=&#34;https://henriquealves21.github.io/webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique josé de P. Alves&lt;/a&gt;, quando estávamos desenvolvendo em paralelo dois pacotes, &lt;a href=&#34;https://bendeivide.github.io/project/midrangemcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; e o &lt;strong&gt;TVMM&lt;/strong&gt; ([&lt;a href=&#34;https://cran.r-project.org/package=TVMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;] [&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GUI&lt;/em&gt;&lt;/a&gt;]), e resolvemos deixá-los mais intuitivo para usuário que não tem afinidade com o ambiente &lt;em&gt;R&lt;/em&gt;. De início eu usei o pacote &lt;a href=&#34;https://cran.r-project.org/web/packages/gWidgets/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gWidgets&lt;/a&gt; que tornava mais intuitivo a programação da &lt;em&gt;GUI&lt;/em&gt;. Contudo, após o pacote ter se tornado órfã, resolvemos partir para o uso do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que foi um dos pacote base do pacote &lt;strong&gt;gWidgets&lt;/strong&gt;. Este mesmo pacote também usava uma outra integração de linguagem, &lt;em&gt;GTK+&lt;/em&gt;. Então usar o &lt;strong&gt;gWidgets&lt;/strong&gt; era muito prático, infelizmente foi removido do CRAN. Quando nos aprofundamos nesse pacote, percebemos que seus autores haviam desenvolvido um livro muito interessante, intitulado &lt;a href=&#34;https://books.google.com.br/books?id=VeKEDwAAQBAJ&amp;amp;pg=PA418&amp;amp;lpg=PA418&amp;amp;dq=R&amp;#43;tkmenu&amp;amp;source=bl&amp;amp;ots=V2O2kTRNy3&amp;amp;sig=ACfU3U21CsBJES_jbMhh8JTnerP1FMbxpQ&amp;amp;hl=pt-BR&amp;amp;sa=X&amp;amp;ved=2ahUKEwj5lqOS3pvqAhX2IbkGHRAHClUQ6AEwA3oECAoQAQ#v=onepage&amp;amp;q=R%20tkmenu&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programming Graphical User Interfaces in R&lt;/em&gt;&lt;/a&gt;, um livro que despertou a nossa curiosidade nessa linha de pesquisa para desenvolvimento de pacotes. 
+Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferramenta em nossos pacotes, e agora, estudamos para repassar a nossa experiência por meio do Livro &lt;strong&gt;Programação de Interface Gráfica ao Usuário no R&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Tutorial sobre o pacote R tcltk</title>
@@ -20,17 +31,6 @@
       <description>&lt;p&gt;Essa apostila tenta melhorar o &lt;em&gt;help&lt;/em&gt; do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que é uma interface de integração da linguagem Tcl/Tk no ambiente R. Por ser da base de instalação do R, creio que deva ser uma das escolhas nesse ambiente para quem deseja criar GUIs para os seus pacotes. Porém, o documento de ajuda desse pacote é muito pobre e com poucos exemplos.&lt;/p&gt;
 &lt;p&gt;Como eu já vinha criando algumas interfaces para os pacotes que desenvolvo em parceria, resolvi estudar a fundo, e não me limitei a essa apostila, que acabou ficando incompleta, porque surge mais um livro em desenvimento, intitulado &lt;a href=&#34;https://bendeivide.github.io/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programação de Interface Gráfica ao Usuário no R&lt;/a&gt;. Nesse livro, falaremos das linguagens Tcl/Tk, GTK+ e usaremos os recursos do pacote shiny, para criarmos interfaces web para os pacotes, isto é, usar as integrações com as linguagens CSS, JavaScript e HTML.&lt;/p&gt;
 &lt;p&gt;Contudo, para um estudo incial sobre o pacote tcltk, vale a pena a leitura desse material.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Programação de Interface Gráfica ao Usuário no R</title>
-      <link>http://bendeivide.github.io/books/pigur/</link>
-      <pubDate>Thu, 06 May 2021 23:24:55 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/pigur/</guid>
-      <description>&lt;p&gt;Esse livro surgiu a partir da ideia que propus ao outro autor desse projeto &lt;a href=&#34;https://henriquealves21.github.io/webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique josé de P. Alves&lt;/a&gt;, quando estávamos desenvolvendo em paralelo dois pacotes, &lt;a href=&#34;https://bendeivide.github.io/project/midrangemcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; e o &lt;strong&gt;TVMM&lt;/strong&gt; ([&lt;a href=&#34;https://cran.r-project.org/package=TVMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;] [&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GUI&lt;/em&gt;&lt;/a&gt;]), e resolvemos deixá-los mais intuitivo para usuário que não tem afinidade com o ambiente &lt;em&gt;R&lt;/em&gt;. De início eu usei o pacote &lt;a href=&#34;https://cran.r-project.org/web/packages/gWidgets/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gWidgets&lt;/a&gt; que tornava mais intuitivo a programação da &lt;em&gt;GUI&lt;/em&gt;. Contudo, após o pacote ter se tornado órfã, resolvemos partir para o uso do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que foi um dos pacote base do pacote &lt;strong&gt;gWidgets&lt;/strong&gt;. Este mesmo pacote também usava uma outra integração de linguagem, &lt;em&gt;GTK+&lt;/em&gt;. Então usar o &lt;strong&gt;gWidgets&lt;/strong&gt; era muito prático, infelizmente foi removido do CRAN. Quando nos aprofundamos nesse pacote, percebemos que seus autores haviam desenvolvido um livro muito interessante, intitulado &lt;a href=&#34;https://books.google.com.br/books?id=VeKEDwAAQBAJ&amp;amp;pg=PA418&amp;amp;lpg=PA418&amp;amp;dq=R&amp;#43;tkmenu&amp;amp;source=bl&amp;amp;ots=V2O2kTRNy3&amp;amp;sig=ACfU3U21CsBJES_jbMhh8JTnerP1FMbxpQ&amp;amp;hl=pt-BR&amp;amp;sa=X&amp;amp;ved=2ahUKEwj5lqOS3pvqAhX2IbkGHRAHClUQ6AEwA3oECAoQAQ#v=onepage&amp;amp;q=R%20tkmenu&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programming Graphical User Interfaces in R&lt;/em&gt;&lt;/a&gt;, um livro que despertou a nossa curiosidade nessa linha de pesquisa para desenvolvimento de pacotes. 
-Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferramenta em nossos pacotes, e agora, estudamos para repassar a nossa experiência por meio do Livro &lt;strong&gt;Programação de Interface Gráfica ao Usuário no R&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     

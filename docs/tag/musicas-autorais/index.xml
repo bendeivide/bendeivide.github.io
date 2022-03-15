@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Músicas Autorais | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/musicas-autorais/</link>
+      <atom:link href="http://bendeivide.github.io/tag/musicas-autorais/index.xml" rel="self" type="application/rss+xml" />
+    <description>Músicas Autorais</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 14 Mar 2022 22:17:58 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>Músicas Autorais</title>
+      <link>http://bendeivide.github.io/tag/musicas-autorais/</link>
+    </image>
+    
+  </channel>
+</rss>

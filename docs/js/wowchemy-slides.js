@@ -1,9 +1,9 @@
 (() => {
   // ns-params:@params
-  var slides = {highlight_style: "dracula", theme: "black"};
+  var slides = { font: "minimal", highlight_style: "dracula", theme: "moon" };
 
-  // ns-hugo:E:\BEN_PROJ_GIT\bendeivide.github.io\themes\github.com\wowchemy\wowchemy-hugo-modules\wowchemy\assets\js\wowchemy-utils.js
-  function fixMermaid() {
+  // ns-hugo:E:\bendeivide.github.io\themes\github.com\wowchemy\wowchemy-hugo-modules\wowchemy\v5\assets\js\wowchemy-utils.js
+  function fixMermaid(render = false) {
     let mermaids = [];
     [].push.apply(mermaids, document.getElementsByClassName("language-mermaid"));
     for (let i = 0; i < mermaids.length; i++) {
@@ -11,12 +11,18 @@
       let newElement = document.createElement("div");
       newElement.innerHTML = mermaidCodeElement.innerHTML;
       newElement.classList.add("mermaid");
+      if (render) {
+        window.mermaid.mermaidAPI.render(`mermaid-${i}`, newElement.textContent, function(svgCode) {
+          newElement.innerHTML = svgCode;
+        });
+      }
       mermaidCodeElement.parentNode.replaceWith(newElement);
     }
+    console.debug(`Processed ${mermaids.length} Mermaid code blocks`);
   }
 
   // <stdin>
-  var enabledPlugins = [RevealMarkdown, RevealHighlight, RevealSearch, RevealNotes, RevealMath, RevealZoom];
+  var enabledPlugins = [RevealMarkdown, RevealHighlight, RevealSearch, RevealNotes, RevealMath.MathJax3, RevealZoom];
   var isObject = function(o) {
     return o === Object(o) && !isArray(o) && typeof o !== "function";
   };
@@ -91,7 +97,7 @@
     mermaidOptions["startOnLoad"] = false;
     mermaid.initialize(mermaidOptions);
     document.addEventListener("DOMContentLoaded", function() {
-      fixMermaid();
+      fixMermaid(false);
     });
   }
   var mermaidOptions;

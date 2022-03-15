@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>💻 Estatística Computacional (UFSJ) | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/courses/estcomp/</link>
+      <atom:link href="http://bendeivide.github.io/courses/estcomp/index.xml" rel="self" type="application/rss+xml" />
+    <description>💻 Estatística Computacional (UFSJ)</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sun, 13 Mar 2022 17:57:52 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/courses/estcomp/featured.png</url>
+      <title>💻 Estatística Computacional (UFSJ)</title>
+      <link>http://bendeivide.github.io/courses/estcomp/</link>
+    </image>
+    
+    <item>
+      <title>📚 Ensino normal</title>
+      <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
+      <pubDate>Tue, 15 Mar 2022 20:40:33 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
+      <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;Em termos gerais, abordaremos: Introdução ao R; Probabilidade no R; Estatística Básica no R; Regressão linear; Análise de Variância; Noções de Simulação; Otimização.&lt;/p&gt;
+&lt;/br&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-microphone-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- Em desenvolvimento... --&gt;
+&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de Engenharia do campus.&lt;/li&gt;
+&lt;li&gt;Todas as nossas estão gravadas:
+&lt;ul&gt;
+&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Período: 21/03/2022 a 23/07/2022&lt;/li&gt;
+&lt;li&gt;Aulas presenciais:
+&lt;ul&gt;
+&lt;li&gt;segunda-feira (17h05min. - 18h55min.)&lt;/li&gt;
+&lt;li&gt;terça-feira (17h05min. - 18h55min.)&lt;/li&gt;
+&lt;li&gt;quinta-feira (17h05min. - 18h55min.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34;&gt;Cronograma e Fluxograma do curso&lt;/h2&gt;
+&lt;p&gt;Em desenvolvimento&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestre a demanda necessária&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;INTRODUÇÃO AO PROGRAMA R:
+&lt;ul&gt;
+&lt;li&gt;Entrada de dados&lt;/li&gt;
+&lt;li&gt;Transformação de variáveis&lt;/li&gt;
+&lt;li&gt;Ordenamento de dados&lt;/li&gt;
+&lt;li&gt;Procedimentos para análise estatística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DOCUMENTAÇÕES EM R
+&lt;ul&gt;
+&lt;li&gt;Introdução ao Markdown e RMarkdown&lt;/li&gt;
+&lt;li&gt;Introdução ao Shiny&lt;/li&gt;
+&lt;li&gt;Relatórios estatícos&lt;/li&gt;
+&lt;li&gt;Relatorios dinâmicos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADE NO R:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos sobre distribuições de probabilidade&lt;/li&gt;
+&lt;li&gt;Distribuições de probabilidade:
+&lt;ul&gt;
+&lt;li&gt;Distribuição Bernoulli&lt;/li&gt;
+&lt;li&gt;Distribuição Binomial&lt;/li&gt;
+&lt;li&gt;Distribuições Poisson&lt;/li&gt;
+&lt;li&gt;Distribuição Geométrica&lt;/li&gt;
+&lt;li&gt;Distribuições Negativa&lt;/li&gt;
+&lt;li&gt;Distribuição Multinomial&lt;/li&gt;
+&lt;li&gt;Distribuição Normal&lt;/li&gt;
+&lt;li&gt;Distribuição Uniforme&lt;/li&gt;
+&lt;li&gt;Distribuição Exponencial&lt;/li&gt;
+&lt;li&gt;Distribuição Gama&lt;/li&gt;
+&lt;li&gt;Distribuição Gumbel&lt;/li&gt;
+&lt;li&gt;Distribuição Weibull&lt;/li&gt;
+&lt;li&gt;Distribuição t de Student&lt;/li&gt;
+&lt;li&gt;Distribuição Qui-quadrado&lt;/li&gt;
+&lt;li&gt;Distribuição F&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Distribuições amostrais&lt;/li&gt;
+&lt;li&gt;Teorema do limite central&lt;/li&gt;
+&lt;li&gt;Gerador de números aleatórios&lt;/li&gt;
+&lt;li&gt;Aproximações de distribuições&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;ESTATÍSTICA BÁSICA NO R:
+&lt;ul&gt;
+&lt;li&gt;Estatísticas descritivas&lt;/li&gt;
+&lt;li&gt;Estimação de parâmetros:
+&lt;ul&gt;
+&lt;li&gt;Estimação de parâmetros&lt;/li&gt;
+&lt;li&gt;Estimação de Médias, Desvio Padrão e Variâncias&lt;/li&gt;
+&lt;li&gt;Estimação de Coeficientes de Variação&lt;/li&gt;
+&lt;li&gt;Diferença entre duas Médias Independentes&lt;/li&gt;
+&lt;li&gt;Estimação da Diferença de Duas Médias em dados Emparelhados&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses:
+&lt;ul&gt;
+&lt;li&gt;Teste sobre Médias&lt;/li&gt;
+&lt;li&gt;Teste sobre Médias de duas populações Emparelhadas&lt;/li&gt;
+&lt;li&gt;Teste sobre Médias de duas populações independentes&lt;/li&gt;
+&lt;li&gt;Teste de normalidade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;REGRESSÃO LINEAR:
+&lt;ul&gt;
+&lt;li&gt;Método dos Quadrados Mínimos&lt;/li&gt;
+&lt;li&gt;Um exemplo de Regressão&lt;/li&gt;
+&lt;li&gt;A função &lt;code&gt;lm()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Seleção de modelos&lt;/li&gt;
+&lt;li&gt;Diagnóstico em Regressão Linear:
+&lt;ul&gt;
+&lt;li&gt;Análise de resíduos&lt;/li&gt;
+&lt;li&gt;Influência no espaço de variáveis preditoras&lt;/li&gt;
+&lt;li&gt;Influência no vetor de estimativas dos parâmetros&lt;/li&gt;
+&lt;li&gt;Influência no Vetor de Valores preditos&lt;/li&gt;
+&lt;li&gt;Comandos no R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ANÁLISE DE VARIÂNCIA:
+&lt;ul&gt;
+&lt;li&gt;Introdução a Análise de variância&lt;/li&gt;
+&lt;li&gt;A função &lt;code&gt;aov()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delineamento experimentais&lt;/li&gt;
+&lt;li&gt;Delineamento de tratamentos&lt;/li&gt;
+&lt;li&gt;Modelos lineares com mais de um erro&lt;/li&gt;
+&lt;li&gt;Modelos lineares multivariados&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NOÇÕES DE SIMULAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Método Monte Carlo&lt;/li&gt;
+&lt;li&gt;Métodos Bootstrap e jacknife&lt;/li&gt;
+&lt;li&gt;Métodos MCMC: Ideias básicas&lt;/li&gt;
+&lt;li&gt;Algoritmo de Metropolis-Hastings&lt;/li&gt;
+&lt;li&gt;Amostrador de Gibbs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;OTIMIZAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Estimação de funções&lt;/li&gt;
+&lt;li&gt;Maximização/Minimização de funções&lt;/li&gt;
+&lt;li&gt;Método Newton-Raphson&lt;/li&gt;
+&lt;li&gt;Quadratura numérica&lt;/li&gt;
+&lt;li&gt;Paralelismo no R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
+&lt;p&gt;Nossas aulas serão divididas de acordo com as 14 semanas de aula.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja feito por parte do aluno. Ele será o protagonista. Dessa forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;, criaremos mapas mentais (&lt;a href=&#34;https://app.lucidchart.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://app.lucidchart.com&lt;/a&gt;) para nossas aulas, dentre outras técnicas, para que nesse momento fique mais claro e objetivo o assunto proposto.&lt;/p&gt;
+&lt;p&gt;Nossas aulas são postadas pelos canais do youtube (&lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;), portal didático da disciplina, repositório GitHub (&lt;a href=&#34;http://github.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/bendeivide&lt;/a&gt;), alocaremos nas páginas (&lt;a href=&#34;http://ufsj.edu.br/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ufsj.edu.br/bendeivide&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;), facebook (Ben Deivide), e instagram (&lt;a href=&#34;https://www.instagram.com/bendeivide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@bendeivide&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas&lt;/strong&gt;, e &lt;strong&gt;2 (duas) horas de aulas teóricas&lt;/strong&gt; e &lt;strong&gt;2 (duas) horas de aulas práticas&lt;/strong&gt;, &lt;strong&gt;totalizando em 36h de aulas teóricas e 36h de aulas práticas, um total de 72h&lt;/strong&gt;. Estas últimas serão destinadas a dúvidas e resolução de exercícios. Usaremos também o canal do youtube (lives), como também o google Meet. Os horários das lives, acordaremos com os alunos, para que marquemos um horário em que grande maioria possa comparecer. De toda forma, gravaremos essas aulas, para que os demais possam também assisti. Todas as demais informações serão repassadas na primeira semana de aula.&lt;/p&gt;
+&lt;p&gt;Irei utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que darei todo o suporte para os alunos, de forma que estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;1ª Avaliação - Relatórios referentes as Seções 1, 2 e 3 - 30 pontos&lt;/li&gt;
+&lt;li&gt;2ª Avaliação - Relatórios referentes as Seções 4, 5 e 6 - 30 pontos&lt;/li&gt;
+&lt;li&gt;3ª Avaliação - Relatórios referentes as Seções 7 e 8 - 40 pontos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A nota final do aluno será dada pela soma das notas das atividades avaliativas divididas por 10. Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos. O discente que não for aprovado por nota poderá fazer uma avaliação substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações. As datas das avaliações são informadas na primeira semana de aula.&lt;/p&gt;
+&lt;p&gt;Na metodologia &lt;em&gt;aprender por ensinar&lt;/em&gt;, poderemos destinar atividades também pedindo aos alunos que explanem sobre determinado tema específico para determinada aula. Para estes, as atividades da semana serão dispensadas, e atribuídas as notas para a devida atividade da semana, proporcional ao seu desempenho, de exposição do tema, material utilizado para a apresentação, e concordância com o assunto estudado.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estudando o Ambiente R&lt;/strong&gt;. 1. ed. Ouro Branco: [sn], 2022. 1 v. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estatística &amp;amp;  Probabilidade&lt;/strong&gt;: aplicadas às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-epaec/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estatística Computacional&lt;/strong&gt;: aplicada às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-estcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-estcomp/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FERREIRA, DF. &lt;strong&gt;Recursos Computacionais Utilizando R&lt;/strong&gt;: 1ed. Lavras: UFLA, 2013. Disponível em:  &lt;a href=&#34;https://des.ufla.br/~danielff/meusarquivospdf/RRC0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://des.ufla.br/~danielff/meusarquivospdf/RRC0.pdf&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FERREIRA, DF. &lt;strong&gt;Estatística Computacional Utilizando R&lt;/strong&gt;: 1ed. Lavras: UFLA, 2014. Disponível em:  &lt;a href=&#34;https://des.ufla.br/~danielff/meusarquivospdf/apeco.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://des.ufla.br/~danielff/meusarquivospdf/apeco.pdf&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;R DEVELOPMENT CORE TEAM. &lt;strong&gt;R&lt;/strong&gt;: A Language and Environment for Statistical Computing. Vienna, Austria, 2022. Disponível em: &lt;a href=&#34;http://www.R-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.R-project.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;material-adotado&#34;&gt;Material adotado&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livro referência: &lt;a href=&#34;https://bendeivide.github.io/book-estcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESTCOMP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Os programas necessários:
+&lt;ul&gt;
+&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Studio&lt;/a&gt;
+OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;semanas-aulas&#34;&gt;Semanas (AULAS)&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Semana 1 (21/03/2021)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema:&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material escrito sobre o assunto&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exercícios Propostos&lt;/li&gt;
+&lt;li&gt;Scripts
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34;&gt;Aula01.R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona)
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula prática&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
+  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
+  &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
