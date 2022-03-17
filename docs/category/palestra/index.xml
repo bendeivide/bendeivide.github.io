@@ -495,15 +495,9 @@ Como instalar o RStudio?&lt;/li&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;r-markdown-artigos-e-teses&#34;&gt;R Markdown: Artigos e Teses&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Pacote &lt;code&gt;bookdown&lt;/code&gt; (Tese)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Pacote &lt;code&gt;rticles&lt;/code&gt; (Artigo): &lt;code&gt;install.packages(&amp;quot;rticles&amp;quot;)&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Pacote &lt;code&gt;thesisdown&lt;/code&gt; (Tese):&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Pacote &lt;code&gt;bookdown&lt;/code&gt; (Tese)&lt;/li&gt;
+&lt;li&gt;Pacote &lt;code&gt;rticles&lt;/code&gt; (Artigo): &lt;code&gt;install.packages(&amp;quot;rticles&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Pacote &lt;code&gt;thesisdown&lt;/code&gt; (Tese):&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;)) 
   install.packages(&amp;quot;remotes&amp;quot;, repos = &amp;quot;https://cran.rstudio.org&amp;quot;)
@@ -1386,7 +1380,7 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
 &lt;p&gt;Pacote &lt;code&gt;thesisdown&lt;/code&gt; (Tese):&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;)) 
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;))
   install.packages(&amp;quot;remotes&amp;quot;, repos = &amp;quot;https://cran.rstudio.org&amp;quot;)
 remotes::install_github(&amp;quot;rstudio/bookdown&amp;quot;)
 remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
