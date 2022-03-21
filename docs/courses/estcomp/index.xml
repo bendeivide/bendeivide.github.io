@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>📚 Ensino normal</title>
+      <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
-      <pubDate>Wed, 16 Mar 2022 14:42:09 +0000</pubDate>
+      <pubDate>Fri, 18 Mar 2022 15:11:39 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -52,6 +52,7 @@
   &lt;p&gt;&lt;ol&gt;
 &lt;li&gt;INTRODUÇÃO AO PROGRAMA R:
 &lt;ul&gt;
+&lt;li&gt;Sintaxe e semântica&lt;/li&gt;
 &lt;li&gt;Entrada de dados&lt;/li&gt;
 &lt;li&gt;Transformação de variáveis&lt;/li&gt;
 &lt;li&gt;Ordenamento de dados&lt;/li&gt;
@@ -198,7 +199,7 @@
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estudando o Ambiente R&lt;/strong&gt;. 1. ed. Ouro Branco: [sn], 2022. 1 v. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estatística &amp;amp;  Probabilidade&lt;/strong&gt;: aplicadas às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-epaec/&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estatística Computacional&lt;/strong&gt;: aplicada às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-estcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-estcomp/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BATISTA, BDO. &lt;strong&gt;Estatística Computacional&lt;/strong&gt;: aplicada às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-estcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-estcomp/&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;FERREIRA, DF. &lt;strong&gt;Recursos Computacionais Utilizando R&lt;/strong&gt;: 1ed. Lavras: UFLA, 2013. Disponível em:  &lt;a href=&#34;https://des.ufla.br/~danielff/meusarquivospdf/RRC0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://des.ufla.br/~danielff/meusarquivospdf/RRC0.pdf&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;FERREIRA, DF. &lt;strong&gt;Estatística Computacional Utilizando R&lt;/strong&gt;: 1ed. Lavras: UFLA, 2014. Disponível em:  &lt;a href=&#34;https://des.ufla.br/~danielff/meusarquivospdf/apeco.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://des.ufla.br/~danielff/meusarquivospdf/apeco.pdf&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;R DEVELOPMENT CORE TEAM. &lt;strong&gt;R&lt;/strong&gt;: A Language and Environment for Statistical Computing. Vienna, Austria, 2022. Disponível em: &lt;a href=&#34;http://www.R-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.R-project.org/&lt;/a&gt;&lt;/li&gt;
@@ -244,30 +245,35 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;semanas-aulas&#34;&gt;Semanas (AULAS)&lt;/h2&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
-  &lt;summary&gt;Semana 1 (21/03/2021)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema:&lt;/p&gt;
+  &lt;summary&gt;Aula 01 (21/03 e 22/03)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Apresentação do curso&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s01/&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material escrito sobre o assunto&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/13wfRawoF89pchWJNjJPtql6uDbSwm3wNh3cAQM9GE3g/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Exercícios Propostos&lt;/li&gt;
-&lt;li&gt;Scripts
-&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34;&gt;Aula01.R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona)
-&lt;/br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula prática&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de apresentação&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/gIcKgsOkdeI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;br/&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios  --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
+ --&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
