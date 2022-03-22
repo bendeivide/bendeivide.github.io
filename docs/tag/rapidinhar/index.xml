@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rapidinhar | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/rapidinhar/</link>
+      <atom:link href="http://bendeivide.github.io/tag/rapidinhar/index.xml" rel="self" type="application/rss+xml" />
+    <description>rapidinhar</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Jun 2021 12:26:51 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>rapidinhar</title>
+      <link>http://bendeivide.github.io/tag/rapidinhar/</link>
+    </image>
+    
+    <item>
+      <title>Rapidinhas do R</title>
+      <link>http://bendeivide.github.io/project/rapidinhasr/</link>
+      <pubDate>Wed, 30 Jun 2021 12:26:51 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/rapidinhasr/</guid>
+      <description>&lt;h2 id=&#34;abertura-da-série-rapidinhas-do-r&#34;&gt;Abertura da série Rapidinhas do R&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7ThNBHuM_hU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;A ideia da série de vídeos &lt;strong&gt;Rapidinhas do R&lt;/strong&gt; foi criada com o objetivo de compartilharmos nossas experiências sobre o ambiente R.&lt;/p&gt;
+&lt;h2 id=&#34;scripts&#34;&gt;Scripts&lt;/h2&gt;
+&lt;p&gt;Todos os &lt;em&gt;scripts&lt;/em&gt; apresentados na série estão disponíveis em &lt;a href=&#34;https://github.com/bendeivide/rapidinhasdor/tree/main/rapidinhas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diretório de &lt;em&gt;Scripts&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;playlist-da-série-no-youtube&#34;&gt;Playlist da série no Youtube&lt;/h2&gt;
+&lt;p&gt;Segue o link &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR1YPXb12UMmXRsAKelZhzca&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide/RapidinhasR&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;rapidinhas&#34;&gt;Rapidinhas&lt;/h2&gt;
+&lt;h3 id=&#34;rapidinhas-r-0001-operadores-binários&#34;&gt;Rapidinhas R (0001): Operadores binários&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BYzeP0zroGg&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0002-como-desenvolver-seu-operador-pipe-operador-unário&#34;&gt;Rapidinhas R (0002): Como desenvolver seu operador &amp;lsquo;pipe&amp;rsquo; (Operador unário)&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kQqKcDl0wUM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0003--atribuição-ou-superatribuição&#34;&gt;Rapidinhas R (0003):  Atribuição ou superatribuição?&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/66dYCoJH9IM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0004-acessando-funções-internas-de-um-pacote&#34;&gt;Rapidinhas R (0004): Acessando funções internas de um pacote&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VMip8fVUAVc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0005-sincronizando-projeto-rrstudio-ao-github&#34;&gt;Rapidinhas R (0005): Sincronizando Projeto R/RStudio ao GitHub&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/0tYss8T7Mew&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0006-adicionando-comentando-e-enviando-arquivos-ao-repositório-github&#34;&gt;Rapidinhas R (0006): Adicionando, comentando e enviando arquivos ao repositório GitHub&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/f9NUvS6J5DI&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0007-usando-o-terminal-bash-github-no-rstudio&#34;&gt;Rapidinhas R (0007): Usando o terminal Bash GitHub no RStudio&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nYJkO4454Q0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0008-executando-o-comando-pull-github-no-rstudio&#34;&gt;Rapidinhas R (0008): Executando o comando &amp;ldquo;pull&amp;rdquo; GitHub no RStudio&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/YSzS0q6lrgg&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0009-o-que-significa-o-arquivo-gitignore&#34;&gt;Rapidinhas R (0009): O que significa o arquivo &amp;lsquo;.gitignore&amp;rsquo;?&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/C9JtFhdQHLo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0010-clonando-um-repositório-pelo-terminal-github-e-rstudio&#34;&gt;Rapidinhas R (0010): Clonando um repositório pelo terminal GitHub e RStudio&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/A3C5zPC61UY&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0011-clonando-um-repositório-pelo-terminal-github-e-rstudio-parte-ii&#34;&gt;Rapidinhas R (0011): Clonando um repositório pelo terminal GitHub e RStudio (Parte II)&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/0VNFn4rE_Mw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0012-configurando-o-token-do-github-no-rstudio&#34;&gt;Rapidinhas R (0012): Configurando o &amp;lsquo;Token&amp;rsquo; do GitHub no RStudio&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6pVikRF7FQo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0013-configurando-o-token-usando-renviron-githubrstudio&#34;&gt;Rapidinhas R (0013): Configurando o &amp;lsquo;Token&amp;rsquo; usando .Renviron (GitHub/RStudio)&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5FtccvTSbYc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0014-uso-do-pacote-usethis-para-a-criação-de-um-repositório-githubprojeto-rstudio&#34;&gt;Rapidinhas R (0014): Uso do pacote &amp;lsquo;usethis&amp;rsquo; para a criação de um repositório GitHub/projeto RStudio&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/RUDB0Nm3t10&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0015-histórico-de-projeto-no-repositório-github-com-o-rstudio&#34;&gt;Rapidinhas R (0015): Histórico de projeto no repositório GitHub com o RStudio&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MQEubR328po&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0016-branch-e-merge-no-repositório-github-com-o-rstudio&#34;&gt;Rapidinhas R (0016): &amp;ldquo;Branch&amp;rdquo; e &amp;ldquo;Merge&amp;rdquo; no repositório GitHub com o RStudio&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kmO183CNqoE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0017-cuidado-com-o-attach&#34;&gt;Rapidinhas R (0017): Cuidado com o &amp;ldquo;attach()&amp;rdquo;&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/k8rVCr6TzTg&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0018-criando-um-site-com-o-pacote-distill&#34;&gt;Rapidinhas R (0018): Criando um site com o pacote &amp;ldquo;distill&amp;rdquo;&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FbTLrfYWQQw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;rapidinhas-r-0019-acessando-funções-internas-de-um-pacote&#34;&gt;Rapidinhas R (0019): Acessando funções internas de um pacote&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-DOk1_6lphs&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

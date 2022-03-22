@@ -1,0 +1,2274 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ambiente R | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/ambiente-r/</link>
+      <atom:link href="http://bendeivide.github.io/tag/ambiente-r/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ambiente R</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 22 Mar 2022 20:40:00 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>Ambiente R</title>
+      <link>http://bendeivide.github.io/tag/ambiente-r/</link>
+    </image>
+    
+    <item>
+      <title>Clube de Engenharia Assistida por Computador (CEAC)</title>
+      <link>http://bendeivide.github.io/talk/clube-de-engenharia-assistida-por-computador-ceac/</link>
+      <pubDate>Tue, 22 Mar 2022 20:40:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/clube-de-engenharia-assistida-por-computador-ceac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambiente R além das análises estatísticas</title>
+      <link>http://bendeivide.github.io/talk/ambiente-r-alem-das-analises-estatisticas/</link>
+      <pubDate>Mon, 07 Mar 2022 14:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/ambiente-r-alem-das-analises-estatisticas/</guid>
+      <description>&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wnOGptAI5Zs&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R como uma ferramenta acadêmica</title>
+      <link>http://bendeivide.github.io/talk/r-como-uma-ferramenta-academica/</link>
+      <pubDate>Mon, 12 Jul 2021 18:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/r-como-uma-ferramenta-academica/</guid>
+      <description>&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/_43yBb_s-R8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Minicurso - Como desenvolver seu primeiro pacote R</title>
+      <link>http://bendeivide.github.io/talk/minicurso-como-desenvolver-seu-primeiro-pacote-r/</link>
+      <pubDate>Tue, 08 Dec 2020 10:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/minicurso-como-desenvolver-seu-primeiro-pacote-r/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7gUeYv0Os8s&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TB39rqQREw0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A linguagem R como uma ferramenta para a sua profissão</title>
+      <link>http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/</link>
+      <pubDate>Sat, 01 Aug 2020 19:30:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R como uma ferramenta acadêmica</title>
+      <link>http://bendeivide.github.io/slides/ramb-academico/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/ramb-academico/</guid>
+      <description>&lt;h1 id=&#34;r-como-uma-ferramenta-acadêmica&#34;&gt;R como uma ferramenta acadêmica&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;apresentação-com-selo-dc&#34;&gt;Apresentação com selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/ramb-academico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/ramb-academico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;acesso-ao-material-dessa-apresentação&#34;&gt;Acesso ao material dessa apresentação&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/palestras/tree/master/ramb-academico&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/ramb-academico/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/ramb-academico/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;nota&#34;&gt;Nota&lt;/h2&gt;
+&lt;p&gt;Essa apresentação terá um viés, pois apesar do poder que a ambiente &lt;code&gt;R&lt;/code&gt; tem, muitos dos exemplos estarão dentro das minhas necessidades/limitações pessoais e profissionais. Portanto, um resultado do que experimento e venho experienciando!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;histórico-sobre-o-ambiente-r&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
+&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
+&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;histórico-sobre-o-ambiente-r-1&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, funcional, metapragmática, Licença GNU&lt;/li&gt;
+&lt;li&gt;Repositório &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
+&lt;li&gt;Como instalar o R?
+Como instalar o RStudio?&lt;/li&gt;
+&lt;li&gt;Como usar o R?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;curso-r-nível-básico&#34;&gt;Curso R (Nível Básico)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Nível Básico&#34; srcset=&#34;
+               /slides/ramb-academico/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_4b297cb8f0e33e442ebf99b215388034.webp 400w,
+               /slides/ramb-academico/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_f138ba75b6cb4eb62d1ecea4bcae0172.webp 760w,
+               /slides/ramb-academico/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_4b297cb8f0e33e442ebf99b215388034.webp&#34;
+               width=&#34;593&#34;
+               height=&#34;579&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;curso-r-ni&#34;&gt;Curso R (NI)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/post/cursorni2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Nível Intermediário&#34; srcset=&#34;
+               /slides/ramb-academico/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_01ee0fc5dca62b5827c4744b677401e2.webp 400w,
+               /slides/ramb-academico/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_2be287ff636a8ea73ce5b5354154f128.webp 760w,
+               /slides/ramb-academico/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_01ee0fc5dca62b5827c4744b677401e2.webp&#34;
+               width=&#34;593&#34;
+               height=&#34;579&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rapidinhas-do-r&#34;&gt;Rapidinhas do R&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_df46483f285db6db6d908bc356b06e75.webp 400w,
+               /slides/ramb-academico/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_db647e21fc70a6855b86924338dcb47a.webp 760w,
+               /slides/ramb-academico/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_df46483f285db6db6d908bc356b06e75.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;374&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico&#34;&gt;Ferramentas do &lt;code&gt;R&lt;/code&gt; além do fim Estatístico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Análises Estatísticas ❌&lt;/li&gt;
+&lt;li&gt;Criação e divulgação de materiais científicos:
+&lt;ul&gt;
+&lt;li&gt;Materiais Dinâmicos (HTML, JavaScript, CSS, &lt;code&gt;\(\LaTeX\)&lt;/code&gt;, &lt;code&gt;R&lt;/code&gt;, PDF) ✔️&lt;/li&gt;
+&lt;li&gt;Materiais estatísticos (HTML, PDF, EPUB, WORD, SLIDES) ✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico-1&#34;&gt;Ferramentas do &lt;code&gt;R&lt;/code&gt; além do fim Estatístico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Desenvolvimento de pacotes  ✔️
+&lt;ul&gt;
+&lt;li&gt;Criação de GUIs para pacotes (Pacotes &lt;code&gt;tcltk&lt;/code&gt;, &lt;code&gt;GTK+&lt;/code&gt;, &lt;code&gt;shiny&lt;/code&gt;) ✔️&lt;/li&gt;
+&lt;li&gt;Documentação de pacotes (Vignettes, tutorial de pacote) ✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Divulgação de todos esses materiais ✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Gei-gtBlMos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instalação do &lt;code&gt;R&lt;/code&gt;&lt;/a&gt; e &lt;a href=&#34;https://youtu.be/Gei-gtBlMos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio/Pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rmarkdown&lt;/code&gt; e &lt;code&gt;knitr&lt;/code&gt; - Pacotes mais importantes!&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shiny&lt;/code&gt; - Pacote para criação de materiais dinâmicos&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;devtools&lt;/code&gt; e &lt;code&gt;usethis&lt;/code&gt; - kit de ferramentas&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rsconnect&lt;/code&gt; - Pacote para enviar seu arquivo para &lt;em&gt;shinyapps.io&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-1&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tinytex&lt;/code&gt; - Latex (Caso você não queira instalar o &lt;code&gt;\(\LaTeX\)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rticles&lt;/code&gt; - Escrever Artigos&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;thesisdown&lt;/code&gt; - Escrever Teses&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bookdown&lt;/code&gt; - Escrever Livros (HTML, PDF, ePub, Kindle)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-2&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;blogdown&lt;/code&gt; e &lt;code&gt;distill&lt;/code&gt; - Criação de blogs, websites&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;postcards&lt;/code&gt; - Criação de um cartão de visita&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;learnr&lt;/code&gt; - Criação de tutoriais para aprender R&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pkgdown&lt;/code&gt;(Documentação em HTML para pacotes R) e &lt;code&gt;usethis&lt;/code&gt; ou &lt;code&gt;rmarkdown&lt;/code&gt;(Criação de Vignettes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-3&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tcltk&lt;/code&gt; (Existem muitos outros pacotes!) - GUI&amp;rsquo;s&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;manipulate&lt;/code&gt; e &lt;code&gt;shiny&lt;/code&gt; - gráficos interativos no RStudio e &lt;code&gt;scatterplot3d&lt;/code&gt; - Gráficos em 3d&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exams&lt;/code&gt; - Criação de Provas para disciplinas + MOODLE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\LaTeX\)&lt;/code&gt;, MS Word (ou similares)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown&#34;&gt;&lt;code&gt;R&lt;/code&gt; Markdown&lt;/h2&gt;
+&lt;p&gt;Três componentes básicos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Metadados&lt;/strong&gt;: O corpo do documento&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Texto&lt;/strong&gt;: Assunto dissertado&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Código&lt;/strong&gt;: Linguagem de interesse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;LEMBRETE&lt;/strong&gt;: A extensão de um arquivo R Markdown é: &lt;em&gt;.Rmd&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;material-de-apoio-ao-r-markdown&#34;&gt;Material de apoio ao &lt;code&gt;R&lt;/code&gt; Markdown&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/cdec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/cdec_hu891cdc650656200eb98f514c61f934c4_17480_48bcaa36767fa23207c27b820274c199.webp 400w,
+               /slides/ramb-academico/cdec_hu891cdc650656200eb98f514c61f934c4_17480_d7c00888fc771d6909d650596147e429.webp 760w,
+               /slides/ramb-academico/cdec_hu891cdc650656200eb98f514c61f934c4_17480_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/cdec_hu891cdc650656200eb98f514c61f934c4_17480_48bcaa36767fa23207c27b820274c199.webp&#34;
+               width=&#34;226&#34;
+               height=&#34;364&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;material-de-apoio-ao-r-markdown-1&#34;&gt;Material de apoio ao &lt;code&gt;R&lt;/code&gt; Markdown&lt;/h2&gt;
+&lt;p&gt;O básico no R Markdown:
+&lt;a href=&#34;https://rmarkdown.rstudio.com/authoring_basics.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rmarkdown.rstudio.com/authoring_basics.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A ideia dos pacotes nos documentos dinâmicos:
+&lt;a href=&#34;https://jreduardo.github.io/semanest-ufpr2017/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jreduardo.github.io/semanest-ufpr2017/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Para leitura:
+&lt;a href=&#34;http://cursos.leg.ufpr.br/prr/capDocDin.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cursos.leg.ufpr.br/prr/capDocDin.html&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-documentos-estatísticos&#34;&gt;&lt;code&gt;R&lt;/code&gt; Markdown: Documentos estatísticos&lt;/h2&gt;
+&lt;p&gt;Aplicações:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-documentos-dinâmicos&#34;&gt;&lt;code&gt;R&lt;/code&gt; Markdown: Documentos dinâmicos&lt;/h2&gt;
+&lt;p&gt;Recursos do Shiny:&lt;/p&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://shiny.estatistica.ccet.ufrn.br/srag/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Srag ou Covid-19 (UFRN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shiny.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Trends&lt;/em&gt; do Google (RStudio)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shiny.rstudio.com/gallery/didacting-modeling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Processo de modelagem didática&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;criação-de-websites&#34;&gt;Criação de &lt;em&gt;Websites&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Website (pacote &lt;a href=&#34;https://rstudio.github.io/distill/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;distill&lt;/code&gt;&lt;/a&gt;): &lt;a href=&#34;https://youtu.be/FbTLrfYWQQw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R&lt;/a&gt;, ex. &lt;a href=&#34;https://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website via &lt;a href=&#34;https://pkgs.rstudio.com/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt; e &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Hugo&lt;/code&gt;&lt;/a&gt; (&lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;temas&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/ben_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_7e5abe44a987059ffc245fad5b802500.webp 400w,
+               /slides/ramb-academico/ben_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_7191e69c4c5b62592abfeed760168432.webp 760w,
+               /slides/ramb-academico/ben_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/ben_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_7e5abe44a987059ffc245fad5b802500.webp&#34;
+               width=&#34;216&#34;
+               height=&#34;217&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplos-de-websites&#34;&gt;Exemplos de &lt;em&gt;Websites&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Markdown no RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://robjhyndman.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rob J Hyndman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://amber.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amber Thomas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://emitanaka.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emi Tanaka&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplo-de-postcard&#34;&gt;Exemplo de &lt;em&gt;Postcard&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://bendeivide.github.io/cursor/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplo-de-dashboard&#34;&gt;Exemplo de Dashboard&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.shinyapps.io/RDashboards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/midrangeMCP_huf45dc9e9da53fa562b8e5b4d36571394_51649_39352c290d8c5e5a1804a131d2592ce5.webp 400w,
+               /slides/ramb-academico/midrangeMCP_huf45dc9e9da53fa562b8e5b4d36571394_51649_40d47179797e8775f2210bae5d3f9b20.webp 760w,
+               /slides/ramb-academico/midrangeMCP_huf45dc9e9da53fa562b8e5b4d36571394_51649_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/midrangeMCP_huf45dc9e9da53fa562b8e5b4d36571394_51649_39352c290d8c5e5a1804a131d2592ce5.webp&#34;
+               width=&#34;461&#34;
+               height=&#34;534&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;outros-exemplos-de-dashboards&#34;&gt;Outros exemplos de Dashboards&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eelloo.nl/groepsrapportages-met-infographics/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eelloo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjallaire.shinyapps.io/shiny-crandash/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exemplo usando o &lt;code&gt;shiny&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://shiny.estatistica.ccet.ufrn.br/DashboardDeputados/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Controle de gastos públicos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkgs.rstudio.com/flexdashboard/articles/examples.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Material para usar Dashboards + Shiny&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-relatórios-programados&#34;&gt;R Markdown: Relatórios programados&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://rmarkdown.rstudio.com/articles_mail_merge.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mine Çetinkaya-Rundel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-relatórios-programados-aplicação&#34;&gt;R Markdown: Relatórios programados (Aplicação)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nomes dos professores do DEFIM/UFSJ e númerode suas salas;&lt;/li&gt;
+&lt;li&gt;Vamos fazer um documento em PDF, cujo nome desses arquivos serão os nomes dos professores, com algum texto identificando as suas salas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-livros&#34;&gt;R Markdown: Livros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Site: &lt;a href=&#34;https://bookdown.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bookdown.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;, &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EAMBR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-artigos-e-teses&#34;&gt;R Markdown: Artigos e Teses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;code&gt;bookdown&lt;/code&gt; (Tese)&lt;/li&gt;
+&lt;li&gt;Pacote &lt;code&gt;rticles&lt;/code&gt; (Artigo): &lt;code&gt;install.packages(&amp;quot;rticles&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Pacote &lt;code&gt;thesisdown&lt;/code&gt; (Tese):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;)) 
+  install.packages(&amp;quot;remotes&amp;quot;, repos = &amp;quot;https://cran.rstudio.org&amp;quot;)
+remotes::install_github(&amp;quot;rstudio/bookdown&amp;quot;)
+remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-livros-aplicações&#34;&gt;R Markdown: Livros (Aplicações)&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-slides-aplicações&#34;&gt;R Markdown: Slides (Aplicações)&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;documentação-para-pacotes&#34;&gt;Documentação para pacotes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;https://pkgdown.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;pkgdown&lt;/code&gt;&lt;/a&gt;: ex.: &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vignettes (Pacote &lt;a href=&#34;https://usethis.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;usethis&lt;/code&gt;&lt;/a&gt;): &lt;code&gt;usethis::use_vignette()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;interface-gráfica-ao-usuário&#34;&gt;Interface Gráfica ao Usuário&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo do pacote &lt;code&gt;tcltk&lt;/code&gt;: &lt;a href=&#34;https://bendeivide.github.io/project/mcptests/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;MCPtests&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;http://bendeivide.github.io/slides/ramb-academico/MCPtests.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo do pacote &lt;code&gt;shiny&lt;/code&gt;: &lt;a href=&#34;https://dreamrs.github.io/esquisse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;esquisse&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;documentos-para-aprendizagem-do-r&#34;&gt;Documentos para aprendizagem do &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;https://rstudio.github.io/learnr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;learnr&lt;/code&gt;&lt;/a&gt;: ex.: &lt;a href=&#34;http://bendeivide.shinyapps.io/Est_Exp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Experimental&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;aplicação-de-provas-academia&#34;&gt;Aplicação de provas (Academia)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;http://r-exams.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;exams&lt;/code&gt;&lt;/a&gt; e uso no &lt;a href=&#34;https://moodle.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MOODLE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/rexams&amp;#43;moodle_hu90e239b8805e1b03b777d53fd8bd0aea_63184_45a5acf0538bc5ef2ea0500c6d063fe2.webp 400w,
+               /slides/ramb-academico/rexams&amp;#43;moodle_hu90e239b8805e1b03b777d53fd8bd0aea_63184_f19d123669d0c8ec3229ab58813739b8.webp 760w,
+               /slides/ramb-academico/rexams&amp;#43;moodle_hu90e239b8805e1b03b777d53fd8bd0aea_63184_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/rexams&amp;#43;moodle_hu90e239b8805e1b03b777d53fd8bd0aea_63184_45a5acf0538bc5ef2ea0500c6d063fe2.webp&#34;
+               width=&#34;295&#34;
+               height=&#34;155&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;gráficos-3d-latex-e-r&#34;&gt;Gráficos 3D ($\LaTeX$ e &lt;code&gt;R&lt;/code&gt;)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;code&gt;scatterplot3d&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;tabelas-com-ilustrações-animadas--sweave&#34;&gt;Tabelas com ilustrações animadas + &lt;code&gt;Sweave&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-academico/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;onde-publicamos-esses-materiais&#34;&gt;Onde publicamos esses materiais?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rpubs.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RPubs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rpubs.com/cathydatascience/518692&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Como publicar!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.shinyapps.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shinyapp.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bookdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marcusnunes.me/posts/como-instalar-o-shiny-em-seu-proprio-servidor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Servidor próprio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gomesfellipe.github.io/post/2018-10-27-server-cloud/server-cloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Servidor online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://https://github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R 5 a 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netlify&lt;/a&gt;, &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/blogdown-deploy.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Como publicar!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ambiente R  além das análises estatísticas</title>
+      <link>http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;curso_verao.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;ambiente-r--além-das-análises-estatísticas&#34;&gt;Ambiente R  além das análises estatísticas&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/ramb-alem-das-analises-estat/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/ramb-alem-das-analises-estat/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;acesso-a-todo-material&#34;&gt;Acesso a todo material&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/palestras/tree/master/ramb-alem-das-analises-estatisticas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/ramb-alem-das-analises-estat/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/ramb-alem-das-analises-estat/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;nota&#34;&gt;Nota&lt;/h2&gt;
+&lt;p&gt;Essa apresentação terá um viés, pois apesar do poder que a ambiente &lt;code&gt;R&lt;/code&gt; tem, muitos dos exemplos estarão dentro das minhas necessidades/limitações pessoais e profissionais. Portanto, um resultado do que experimento e venho experienciando!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;histórico-sobre-o-ambiente-r&#34;&gt;Histórico sobre o ambiente R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
+&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
+&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;histórico-sobre-o-ambiente-r-1&#34;&gt;Histórico sobre o ambiente R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, funcional, metapragmática, Licença GNU&lt;/li&gt;
+&lt;li&gt;Repositório &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
+&lt;li&gt;Como instalar o R?&lt;/li&gt;
+&lt;li&gt;Como instalar o RStudio?&lt;/li&gt;
+&lt;li&gt;Como usar o R?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;curso-r-nível-básico&#34;&gt;Curso R (Nível Básico)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Nível Básico&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_4b297cb8f0e33e442ebf99b215388034.webp 400w,
+               /slides/ramb-alem-das-analises-estat/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_f138ba75b6cb4eb62d1ecea4bcae0172.webp 760w,
+               /slides/ramb-alem-das-analises-estat/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_4b297cb8f0e33e442ebf99b215388034.webp&#34;
+               width=&#34;593&#34;
+               height=&#34;579&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;curso-r-ni&#34;&gt;Curso R (NI)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/post/cursorni2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Nível Intermediário&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_01ee0fc5dca62b5827c4744b677401e2.webp 400w,
+               /slides/ramb-alem-das-analises-estat/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_2be287ff636a8ea73ce5b5354154f128.webp 760w,
+               /slides/ramb-alem-das-analises-estat/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_01ee0fc5dca62b5827c4744b677401e2.webp&#34;
+               width=&#34;593&#34;
+               height=&#34;579&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rapidinhas-do-r&#34;&gt;Rapidinhas do R&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_df46483f285db6db6d908bc356b06e75.webp 400w,
+               /slides/ramb-alem-das-analises-estat/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_db647e21fc70a6855b86924338dcb47a.webp 760w,
+               /slides/ramb-alem-das-analises-estat/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_df46483f285db6db6d908bc356b06e75.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;374&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;coleção-estudando-o-ambiente-r&#34;&gt;Coleção Estudando o Ambiente R&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/book-eambr01&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/hardcover01_hu6fd2f9a5af792bfbcb973270ac465a56_130113_f7ee7ac1bcb38885ed43ff6283f91281.webp 400w,
+               /slides/ramb-alem-das-analises-estat/hardcover01_hu6fd2f9a5af792bfbcb973270ac465a56_130113_f8257eabb142099dedb529c07f030721.webp 760w,
+               /slides/ramb-alem-das-analises-estat/hardcover01_hu6fd2f9a5af792bfbcb973270ac465a56_130113_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/hardcover01_hu6fd2f9a5af792bfbcb973270ac465a56_130113_f7ee7ac1bcb38885ed43ff6283f91281.webp&#34;
+               width=&#34;248&#34;
+               height=&#34;351&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/hardcover02_hu6fd2f9a5af792bfbcb973270ac465a56_140122_45f619095959daf2295f20cedc96666e.webp 400w,
+               /slides/ramb-alem-das-analises-estat/hardcover02_hu6fd2f9a5af792bfbcb973270ac465a56_140122_bf2cc9d0d398d7bc6c1078f0736f1b29.webp 760w,
+               /slides/ramb-alem-das-analises-estat/hardcover02_hu6fd2f9a5af792bfbcb973270ac465a56_140122_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/hardcover02_hu6fd2f9a5af792bfbcb973270ac465a56_140122_45f619095959daf2295f20cedc96666e.webp&#34;
+               width=&#34;248&#34;
+               height=&#34;351&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/hardcover03_hu6fd2f9a5af792bfbcb973270ac465a56_132421_5d2480d8e0e7c78bda916b4e31c58e8b.webp 400w,
+               /slides/ramb-alem-das-analises-estat/hardcover03_hu6fd2f9a5af792bfbcb973270ac465a56_132421_2a3fcd56ea738f0fa720cfa8ecc1caf6.webp 760w,
+               /slides/ramb-alem-das-analises-estat/hardcover03_hu6fd2f9a5af792bfbcb973270ac465a56_132421_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/hardcover03_hu6fd2f9a5af792bfbcb973270ac465a56_132421_5d2480d8e0e7c78bda916b4e31c58e8b.webp&#34;
+               width=&#34;248&#34;
+               height=&#34;351&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico&#34;&gt;Ferramentas do R além do fim Estatístico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Análises Estatísticas ❌&lt;/li&gt;
+&lt;li&gt;Criação e divulgação de materiais científicos:
+&lt;ul&gt;
+&lt;li&gt;Materiais Dinâmicos (HTML, JavaScript, CSS, &lt;code&gt;\(\LaTeX\)&lt;/code&gt;, &lt;code&gt;R&lt;/code&gt;, PDF) ✔️&lt;/li&gt;
+&lt;li&gt;Materiais estatísticos (HTML, PDF, EPUB, WORD, SLIDES) ✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico-1&#34;&gt;Ferramentas do R além do fim Estatístico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Desenvolvimento de pacotes  ✔️
+&lt;ul&gt;
+&lt;li&gt;Criação de GUIs para pacotes (Pacotes &lt;code&gt;tcltk&lt;/code&gt;, &lt;code&gt;GTK+&lt;/code&gt;, &lt;code&gt;shiny&lt;/code&gt;) ✔️&lt;/li&gt;
+&lt;li&gt;Documentação de pacotes (Vignettes, tutorial de pacote) ✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico-2&#34;&gt;Ferramentas do R além do fim Estatístico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Websites ✔️&lt;/li&gt;
+&lt;li&gt;Blogs ✔️&lt;/li&gt;
+&lt;li&gt;Postcards ✔️&lt;/li&gt;
+&lt;li&gt;Currículos ✔️&lt;/li&gt;
+&lt;li&gt;Dashboards ✔️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Gei-gtBlMos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instalação do &lt;code&gt;R&lt;/code&gt;&lt;/a&gt; e &lt;a href=&#34;https://youtu.be/Gei-gtBlMos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio/Pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rmarkdown&lt;/code&gt; e &lt;code&gt;knitr&lt;/code&gt; - Pacotes mais importantes!&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shiny&lt;/code&gt; - Pacote para criação de materiais dinâmicos&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;devtools&lt;/code&gt; e &lt;code&gt;usethis&lt;/code&gt; - kit de ferramentas&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rsconnect&lt;/code&gt; - Envio para &lt;em&gt;shinyapps.io&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-1&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tinytex&lt;/code&gt; - Latex (Caso você não queira instalar o &lt;code&gt;\(\LaTeX\)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rticles&lt;/code&gt; - Escrever Artigos&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;thesisdown&lt;/code&gt; - Escrever Teses&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bookdown&lt;/code&gt; - Escrever Livros (HTML, PDF, ePub, Kindle)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-2&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;blogdown&lt;/code&gt; e &lt;code&gt;distill&lt;/code&gt; - Criação de blogs, websites&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;postcards&lt;/code&gt; - Criação de um cartão de visita&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;learnr&lt;/code&gt; - Criação de tutoriais para aprender R&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pkgdown&lt;/code&gt;(Documentação para pacotes R) e &lt;code&gt;usethis&lt;/code&gt; ou &lt;code&gt;rmarkdown&lt;/code&gt;(Criação de Vignettes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;o-que-será-necessário-para-usar-essas-ferramentas-3&#34;&gt;O que será necessário para usar essas ferramentas?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No &lt;code&gt;R&lt;/code&gt; &lt;a href=&#34;https://youtu.be/YRSdoyfqp_g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;instalar os pacotes&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tcltk&lt;/code&gt; (Existem muitos outros pacotes!) - GUI&amp;rsquo;s&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;manipulate&lt;/code&gt; e &lt;code&gt;shiny&lt;/code&gt; - gráficos interativos no RStudio e &lt;code&gt;scatterplot3d&lt;/code&gt; - Gráficos em 3d&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exams&lt;/code&gt; - Criação de Provas para disciplinas + MOODLE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\LaTeX\)&lt;/code&gt;, MS Word (ou similares)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown&#34;&gt;R Markdown&lt;/h2&gt;
+&lt;p&gt;Três componentes básicos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Metadados&lt;/strong&gt;: O corpo do documento&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Texto&lt;/strong&gt;: Assunto dissertado&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Código&lt;/strong&gt;: Linguagem de interesse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;LEMBRETE&lt;/strong&gt;: A extensão de um arquivo R Markdown é: &lt;em&gt;.Rmd&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;material-de-apoio-ao-r-markdown&#34;&gt;Material de apoio ao R Markdown&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/cdec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/cdec_hu891cdc650656200eb98f514c61f934c4_17480_48bcaa36767fa23207c27b820274c199.webp 400w,
+               /slides/ramb-alem-das-analises-estat/cdec_hu891cdc650656200eb98f514c61f934c4_17480_d7c00888fc771d6909d650596147e429.webp 760w,
+               /slides/ramb-alem-das-analises-estat/cdec_hu891cdc650656200eb98f514c61f934c4_17480_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/cdec_hu891cdc650656200eb98f514c61f934c4_17480_48bcaa36767fa23207c27b820274c199.webp&#34;
+               width=&#34;226&#34;
+               height=&#34;364&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;material-de-apoio-ao-r-markdown-1&#34;&gt;Material de apoio ao R Markdown&lt;/h2&gt;
+&lt;!-- O básico no R Markdown: --&gt;
+&lt;!-- &lt;https://rmarkdown.rstudio.com/authoring_basics.html&gt; --&gt;
+&lt;!-- A ideia dos pacotes nos documentos dinâmicos: --&gt;
+&lt;!-- &lt;https://jreduardo.github.io/semanest-ufpr2017/&gt; --&gt;
+&lt;p&gt;Livros do RMarkdown (Yihui Xie et al):
+&lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bookdown.org/yihui/rmarkdown/&lt;/a&gt;
+&lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bookdown.org/yihui/rmarkdown-cookbook/&lt;/a&gt;&lt;/p&gt;
+&lt;!-- &lt;http://cursos.leg.ufpr.br/prr/capDocDin.html&gt; --&gt;
+&lt;p&gt;Livro em desenvolvimento&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/hardcover04_huc27295f1b46b005b1578c94370131f01_106286_67a3b1d67ee6b6d3910f5de48fe6dcac.webp 400w,
+               /slides/ramb-alem-das-analises-estat/hardcover04_huc27295f1b46b005b1578c94370131f01_106286_cfe30f79f7393e50b5ff6820365d5d22.webp 760w,
+               /slides/ramb-alem-das-analises-estat/hardcover04_huc27295f1b46b005b1578c94370131f01_106286_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/hardcover04_huc27295f1b46b005b1578c94370131f01_106286_67a3b1d67ee6b6d3910f5de48fe6dcac.webp&#34;
+               width=&#34;174&#34;
+               height=&#34;246&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/open-book3.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-documentos-estatísticos&#34;&gt;R Markdown: Documentos estatísticos&lt;/h2&gt;
+&lt;p&gt;Aplicações:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-documentos-dinâmicos&#34;&gt;R Markdown: Documentos dinâmicos&lt;/h2&gt;
+&lt;p&gt;Recursos do Shiny:&lt;/p&gt;
+&lt;p&gt;Refêrencia:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mastering-shiny.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mastering-shiny.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://shiny.estatistica.ccet.ufrn.br/DashboardDeputados/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reembolso de deputados (UFRN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shiny.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Trends&lt;/em&gt; do Google (RStudio)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shiny.rstudio.com/gallery/didacting-modeling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Processo de modelagem didática&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-documentos-dinâmicos-1&#34;&gt;R Markdown: Documentos dinâmicos&lt;/h2&gt;
+&lt;p&gt;Aplicações:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;criação-de-websites&#34;&gt;Criação de &lt;em&gt;Websites&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Website (pacote &lt;a href=&#34;https://rstudio.github.io/distill/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;distill&lt;/code&gt;&lt;/a&gt;): &lt;a href=&#34;https://youtu.be/FbTLrfYWQQw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R&lt;/a&gt;, ex. &lt;a href=&#34;https://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website via &lt;a href=&#34;https://pkgs.rstudio.com/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt; e &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Hugo&lt;/code&gt;&lt;/a&gt; (&lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;temas&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/ben_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_7e5abe44a987059ffc245fad5b802500.webp 400w,
+               /slides/ramb-alem-das-analises-estat/ben_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_7191e69c4c5b62592abfeed760168432.webp 760w,
+               /slides/ramb-alem-das-analises-estat/ben_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/ben_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_7e5abe44a987059ffc245fad5b802500.webp&#34;
+               width=&#34;216&#34;
+               height=&#34;217&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplos-de-websites&#34;&gt;Exemplos de &lt;em&gt;Websites&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Markdown no RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://robjhyndman.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rob J Hyndman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://amber.rbind.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amber Thomas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website pessoal de &lt;a href=&#34;https://emitanaka.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emi Tanaka&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplo-de-postcard&#34;&gt;Exemplo de &lt;em&gt;Postcard&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://bendeivide.github.io/cursor/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;exemplo-de-dashboard&#34;&gt;Exemplo de Dashboard&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.shinyapps.io/RDashboards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/midrangeMCP_huf45dc9e9da53fa562b8e5b4d36571394_51649_39352c290d8c5e5a1804a131d2592ce5.webp 400w,
+               /slides/ramb-alem-das-analises-estat/midrangeMCP_huf45dc9e9da53fa562b8e5b4d36571394_51649_40d47179797e8775f2210bae5d3f9b20.webp 760w,
+               /slides/ramb-alem-das-analises-estat/midrangeMCP_huf45dc9e9da53fa562b8e5b4d36571394_51649_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/midrangeMCP_huf45dc9e9da53fa562b8e5b4d36571394_51649_39352c290d8c5e5a1804a131d2592ce5.webp&#34;
+               width=&#34;461&#34;
+               height=&#34;534&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;outros-exemplos-de-dashboards&#34;&gt;Outros exemplos de Dashboards&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eelloo.nl/groepsrapportages-met-infographics/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eelloo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjallaire.shinyapps.io/shiny-crandash/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pacotes populares&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://shiny.estatistica.ccet.ufrn.br/DashboardDeputados/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Controle de gastos públicos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkgs.rstudio.com/flexdashboard/articles/examples.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Material para usar Dashboards + Shiny&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-relatórios-programados&#34;&gt;R Markdown: Relatórios programados&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://rmarkdown.rstudio.com/articles_mail_merge.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mine Çetinkaya-Rundel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/open-book3.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-relatórios-programados-aplicação&#34;&gt;R Markdown: Relatórios programados (Aplicação)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nomes dos professores do DEFIM/UFSJ e númerode suas salas;&lt;/li&gt;
+&lt;li&gt;Vamos fazer um documento em PDF: nomes dos professores, número de salas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-livros&#34;&gt;R Markdown: Livros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Site: &lt;a href=&#34;https://bookdown.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bookdown.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exemplo: &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;, &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EAMBR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;r-markdown-artigos-e-teses&#34;&gt;R Markdown: Artigos e Teses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pacote &lt;code&gt;bookdown&lt;/code&gt; (Tese)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pacote &lt;code&gt;rticles&lt;/code&gt; (Artigo): &lt;code&gt;install.packages(&amp;quot;rticles&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pacote &lt;code&gt;thesisdown&lt;/code&gt; (Tese):&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;))
+  install.packages(&amp;quot;remotes&amp;quot;, repos = &amp;quot;https://cran.rstudio.org&amp;quot;)
+remotes::install_github(&amp;quot;rstudio/bookdown&amp;quot;)
+remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/open-book3.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-livros-aplicações&#34;&gt;R Markdown: Livros (Aplicações)&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/open-book3.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;r-markdown-slides-aplicações&#34;&gt;R Markdown: Slides (Aplicações)&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;documentação-para-pacotes&#34;&gt;Documentação para pacotes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;https://pkgdown.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;pkgdown&lt;/code&gt;&lt;/a&gt;: ex.: &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vignettes (Pacote &lt;a href=&#34;https://usethis.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;usethis&lt;/code&gt;&lt;/a&gt;): &lt;code&gt;usethis::use_vignette()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;interface-gráfica-ao-usuário&#34;&gt;Interface Gráfica ao Usuário&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo do pacote &lt;code&gt;tcltk&lt;/code&gt;: &lt;a href=&#34;https://bendeivide.github.io/project/mcptests/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;MCPtests&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/MCPtests.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exemplo do pacote &lt;code&gt;shiny&lt;/code&gt;: &lt;a href=&#34;https://dreamrs.github.io/esquisse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;esquisse&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;documentos-para-aprendizagem-do-r&#34;&gt;Documentos para aprendizagem do R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;https://rstudio.github.io/learnr/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;learnr&lt;/code&gt;&lt;/a&gt;: ex.: &lt;a href=&#34;http://bendeivide.shinyapps.io/Est_Exp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Experimental&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;aplicação-de-provas-academia&#34;&gt;Aplicação de provas (Academia)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;http://r-exams.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;exams&lt;/code&gt;&lt;/a&gt; e uso no &lt;a href=&#34;https://moodle.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MOODLE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/rexams&amp;#43;moodle_hu90e239b8805e1b03b777d53fd8bd0aea_63184_45a5acf0538bc5ef2ea0500c6d063fe2.webp 400w,
+               /slides/ramb-alem-das-analises-estat/rexams&amp;#43;moodle_hu90e239b8805e1b03b777d53fd8bd0aea_63184_f19d123669d0c8ec3229ab58813739b8.webp 760w,
+               /slides/ramb-alem-das-analises-estat/rexams&amp;#43;moodle_hu90e239b8805e1b03b777d53fd8bd0aea_63184_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/rexams&amp;#43;moodle_hu90e239b8805e1b03b777d53fd8bd0aea_63184_45a5acf0538bc5ef2ea0500c6d063fe2.webp&#34;
+               width=&#34;295&#34;
+               height=&#34;155&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/open-book3.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;gráficos-3d-latex-e-r&#34;&gt;Gráficos 3D ($\LaTeX$ e &lt;code&gt;R&lt;/code&gt;)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;code&gt;scatterplot3d&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/open-book3.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;tabelas-com-ilustrações-animadas--sweave&#34;&gt;Tabelas com ilustrações animadas + &lt;code&gt;Sweave&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp 400w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_5bd7ddd151c2f4da3fa79a2fa5972624.webp 760w,
+               /slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/rstudio_hucbfa44c25ae8fec7feb2f58ef04a2141_39544_0cd5d2661e8fc6dbb49dd886a81160b2.webp&#34;
+               width=&#34;170&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;onde-publicamos-esses-materiais&#34;&gt;Onde publicamos esses materiais?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rpubs.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RPubs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rpubs.com/cathydatascience/518692&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Como publicar!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.shinyapps.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shinyapp.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bookdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marcusnunes.me/posts/como-instalar-o-shiny-em-seu-proprio-servidor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Servidor próprio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gomesfellipe.github.io/post/2018-10-27-server-cloud/server-cloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Servidor online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://https://github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R 5 a 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netlify&lt;/a&gt;, &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/blogdown-deploy.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Como publicar!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Computacional</title>
+      <link>http://bendeivide.github.io/slides/ceac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/ceac/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;ceac.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;div align=&#34;right&#34;&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fab fa-instagram  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.instagram.com/ceac_ufsj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@ceac&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;ceac02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;quem-somos&#34;&gt;Quem somos?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Somos um projeto de Pesquisa, Ensino e Extensão&lt;/li&gt;
+&lt;li&gt;Fundado em 2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;ceac02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;objetivos&#34;&gt;Objetivos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Informar e conscientizar sobre uso de ferramentas computacionais&lt;/li&gt;
+&lt;li&gt;Difundir o uso dessas ferramentas dentro das disciplinas do CAP&lt;/li&gt;
+&lt;li&gt;Trabalhar com problemas práticos&lt;/li&gt;
+&lt;li&gt;Experiência das ferramentas computacionais para a inserção no mercado de trabalho&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;ceac02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;membros&#34;&gt;Membros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutores
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;bendeivide.github.io&#34;&gt;Ben Dêivide de O. Batista (DEFIM/UFSJ)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lattes.cnpq.br/4378950347916839&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gabriel de Castro Fonseca (DQBIO)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lattes.cnpq.br/9870727668600291&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jorge David Alguiar Bellido (DEQUI/UFSJ)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lattes.cnpq.br/5150012010823776&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pedro Mitsuo Shiroma (DTECH/UFSJ)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lattes.cnpq.br/0704312140937009&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Telles Timóteo da Silva (DEFIM/UFSJ)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;ceac02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;membros-1&#34;&gt;Membros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Alunos
+&lt;ul&gt;
+&lt;li&gt;Betania Drosdrocky Gonçalves&lt;/li&gt;
+&lt;li&gt;Diego Henrique de Souza Lima Duarte&lt;/li&gt;
+&lt;li&gt;Gabriel Loureiro Barbosa Aguiar&lt;/li&gt;
+&lt;li&gt;Gabriela da Rocha Honorato&lt;/li&gt;
+&lt;li&gt;José Osvaldo Maciel da Rocha Júnior&lt;/li&gt;
+&lt;li&gt;Laís Braga Silva&lt;/li&gt;
+&lt;li&gt;Larissa Emanuelle Lara Silva&lt;/li&gt;
+&lt;li&gt;Letícia Lima Alves&lt;/li&gt;
+&lt;li&gt;Marcos Gomes Machado&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;ceac02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;Dúvidas e Críticas&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.instagram.com/ceac_ufsj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Computacional</title>
+      <link>http://bendeivide.github.io/slides/estcomp/s01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estcomp/s01/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo.jpg&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística computacional&lt;/h1&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;Estatística Computacional&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;section data-background-iframe=&#34;/courses/estcomp&#34; data-background-interactive&gt;
+	&lt;div style=&#34;position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;&#34;&gt;
+		&lt;h2&gt;Material do curso&lt;/h2&gt;
+		&lt;p&gt;Todo o material será disponível na página &lt;a href=&#34;https://bendeivide.github.io/courses/estcomp/&#34;&gt;Ben Dêivide&lt;/a&gt;.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução-e-histórico-sobre-o-ambiente-r&#34;&gt;Introdução e histórico sobre o ambiente R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
+&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
+&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;características-sobre-o-r&#34;&gt;Características sobre o R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, funcional, metapragmática, Licença GNU&lt;/li&gt;
+&lt;li&gt;Repositório &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
+&lt;li&gt;Como instalar o R?&lt;/li&gt;
+&lt;li&gt;Como instalar o RStudio?&lt;/li&gt;
+&lt;li&gt;Como usar o R?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt; Cursos e Playlists &lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s01/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_4b297cb8f0e33e442ebf99b215388034.webp 400w,
+               /slides/estcomp/s01/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_f138ba75b6cb4eb62d1ecea4bcae0172.webp 760w,
+               /slides/estcomp/s01/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s01/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_4b297cb8f0e33e442ebf99b215388034.webp&#34;
+               width=&#34;350&#34;
+               height=&#34;350&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/post/cursorni2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Nível Intermediário&#34; srcset=&#34;
+               /slides/estcomp/s01/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_01ee0fc5dca62b5827c4744b677401e2.webp 400w,
+               /slides/estcomp/s01/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_2be287ff636a8ea73ce5b5354154f128.webp 760w,
+               /slides/estcomp/s01/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s01/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_01ee0fc5dca62b5827c4744b677401e2.webp&#34;
+               width=&#34;593&#34;
+               height=&#34;579&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s01/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_df46483f285db6db6d908bc356b06e75.webp 400w,
+               /slides/estcomp/s01/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_db647e21fc70a6855b86924338dcb47a.webp 760w,
+               /slides/estcomp/s01/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s01/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_df46483f285db6db6d908bc356b06e75.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;374&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section data-background-video=&#34;est&amp;prob.mp4&#34; data-background-color=&#34;#000000&#34;&gt;
+&lt;div style=&#34;background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;&#34;&gt;
+&lt;h2&gt;Playlist de Estatística e Probabilidade&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; youtube/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt; Coleção Estudando o Ambiente R &lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/book-eambr01&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-volume-i&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Volume I&#34; srcset=&#34;
+               /slides/estcomp/s01/hardcover01_hu6fd2f9a5af792bfbcb973270ac465a56_130113_f7ee7ac1bcb38885ed43ff6283f91281.webp 400w,
+               /slides/estcomp/s01/hardcover01_hu6fd2f9a5af792bfbcb973270ac465a56_130113_f8257eabb142099dedb529c07f030721.webp 760w,
+               /slides/estcomp/s01/hardcover01_hu6fd2f9a5af792bfbcb973270ac465a56_130113_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s01/hardcover01_hu6fd2f9a5af792bfbcb973270ac465a56_130113_f7ee7ac1bcb38885ed43ff6283f91281.webp&#34;
+               width=&#34;248&#34;
+               height=&#34;351&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Volume I
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-volume-ii&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Volume II&#34; srcset=&#34;
+               /slides/estcomp/s01/hardcover02_hu6fd2f9a5af792bfbcb973270ac465a56_140122_45f619095959daf2295f20cedc96666e.webp 400w,
+               /slides/estcomp/s01/hardcover02_hu6fd2f9a5af792bfbcb973270ac465a56_140122_bf2cc9d0d398d7bc6c1078f0736f1b29.webp 760w,
+               /slides/estcomp/s01/hardcover02_hu6fd2f9a5af792bfbcb973270ac465a56_140122_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s01/hardcover02_hu6fd2f9a5af792bfbcb973270ac465a56_140122_45f619095959daf2295f20cedc96666e.webp&#34;
+               width=&#34;248&#34;
+               height=&#34;351&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Volume II
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-volume-iii&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Volume III&#34; srcset=&#34;
+               /slides/estcomp/s01/hardcover03_hu6fd2f9a5af792bfbcb973270ac465a56_132421_5d2480d8e0e7c78bda916b4e31c58e8b.webp 400w,
+               /slides/estcomp/s01/hardcover03_hu6fd2f9a5af792bfbcb973270ac465a56_132421_2a3fcd56ea738f0fa720cfa8ecc1caf6.webp 760w,
+               /slides/estcomp/s01/hardcover03_hu6fd2f9a5af792bfbcb973270ac465a56_132421_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s01/hardcover03_hu6fd2f9a5af792bfbcb973270ac465a56_132421_5d2480d8e0e7c78bda916b4e31c58e8b.webp&#34;
+               width=&#34;248&#34;
+               height=&#34;351&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Volume III
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;!-- https://revealjs.com/transitions/ --&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
+  &lt;h1&gt;Próximas aulas...&lt;/h1&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/estcomp&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-bendeividegithubio&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bendeivide.github.io&#34; srcset=&#34;
+               /slides/estcomp/s01/ben06_hu5bea5166adf08203812bfc1c9ed6c2df_379949_62d825484a795f0ad2a5c47f01253c0d.webp 400w,
+               /slides/estcomp/s01/ben06_hu5bea5166adf08203812bfc1c9ed6c2df_379949_0c491b4ea3521509bc21790317b4794e.webp 760w,
+               /slides/estcomp/s01/ben06_hu5bea5166adf08203812bfc1c9ed6c2df_379949_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s01/ben06_hu5bea5166adf08203812bfc1c9ed6c2df_379949_62d825484a795f0ad2a5c47f01253c0d.webp&#34;
+               width=&#34;630&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      bendeivide.github.io
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;!-- &lt;section&gt; --&gt;
+&lt;!--   &lt;h2&gt;Some Slide&lt;/h2&gt; --&gt;
+&lt;!--   &lt;aside class=&#34;notes&#34;&gt; --&gt;
+&lt;!--     Anotações no Visualizador (Clique em S) 📝 --&gt;
+&lt;!--   &lt;/aside&gt; --&gt;
+&lt;!-- &lt;/section&gt; --&gt;
+&lt;!-- ## Animação --&gt;
+&lt;!-- &lt;section data-auto-animate&gt; --&gt;
+&lt;!--   &lt;h1&gt;Auto-Animate&lt;/h1&gt; --&gt;
+&lt;!-- &lt;/section&gt; --&gt;
+&lt;!-- &lt;section data-auto-animate&gt; --&gt;
+&lt;!--   &lt;h1 style=&#34;margin-top: 100px; color: red;&#34;&gt;Auto-Animate&lt;/h1&gt; --&gt;
+&lt;!-- &lt;/section&gt; --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Computacional</title>
+      <link>http://bendeivide.github.io/slides/estcomp/s02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estcomp/s02/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo.jpg&#34;
+  &gt;
+
+&lt;h1 id=&#34;introdução-ao-ambiente-r&#34;&gt;Introdução ao ambiente R&lt;/h1&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;Estatística Computacional&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;acesso-a-todo-material&#34;&gt;Acesso a todo material&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s02/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/estcomp/s02/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/estcomp/s02/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s02/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
+&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
+&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

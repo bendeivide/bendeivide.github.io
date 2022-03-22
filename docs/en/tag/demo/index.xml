@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/en/tag/demo/</link>
+      <atom:link href="http://bendeivide.github.io/en/tag/demo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Demo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>Demo</title>
+      <link>http://bendeivide.github.io/en/tag/demo/</link>
+    </image>
+    
+    <item>
+      <title>External Project</title>
+      <link>http://bendeivide.github.io/en/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/en/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

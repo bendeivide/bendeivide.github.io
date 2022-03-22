@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rpkg | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/rpkg/</link>
+      <atom:link href="http://bendeivide.github.io/tag/rpkg/index.xml" rel="self" type="application/rss+xml" />
+    <description>rpkg</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:34:30 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>rpkg</title>
+      <link>http://bendeivide.github.io/tag/rpkg/</link>
+    </image>
+    
+    <item>
+      <title>Como desenvolver um pacote R</title>
+      <link>http://bendeivide.github.io/handouts/rpkg/</link>
+      <pubDate>Thu, 06 May 2021 23:34:30 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/rpkg/</guid>
+      <description>&lt;p&gt;Esse foi o primeiro material que escrevi sobre desenvolvimento de pacotes em R, do qual os recursos contidos no RStudio não eram tão eficientes quanto é hoje, para rotinas repetitivas sobre criação de pacotes. Esse material uso a função &lt;code&gt;package.skeleton()&lt;/code&gt; para a criação de pacotes, algo que internamente o RStudio faz de modo muito mais fácil hoje. Mas, vale a pena o registro.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/category/r/</link>
+      <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 18 Mar 2022 15:11:39 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>R</title>
+      <link>http://bendeivide.github.io/category/r/</link>
+    </image>
+    
+    <item>
+      <title>📚 Ensino normal 2022.1</title>
+      <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
+      <pubDate>Fri, 18 Mar 2022 15:11:39 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
+      <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;Em termos gerais, abordaremos: Introdução ao R; Probabilidade no R; Estatística Básica no R; Regressão linear; Análise de Variância; Noções de Simulação; Otimização.&lt;/p&gt;
+&lt;/br&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-microphone-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- Em desenvolvimento... --&gt;
+&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de Engenharia do campus.&lt;/li&gt;
+&lt;li&gt;Todas as nossas estão gravadas:
+&lt;ul&gt;
+&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Período: 21/03/2022 a 23/07/2022&lt;/li&gt;
+&lt;li&gt;Aulas presenciais:
+&lt;ul&gt;
+&lt;li&gt;segunda-feira (17h05min. - 18h55min.)&lt;/li&gt;
+&lt;li&gt;terça-feira (17h05min. - 18h55min.)&lt;/li&gt;
+&lt;li&gt;quinta-feira (17h05min. - 18h55min.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34;&gt;Cronograma e Fluxograma do curso&lt;/h2&gt;
+&lt;p&gt;Em desenvolvimento&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestre a demanda necessária&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;INTRODUÇÃO AO PROGRAMA R:
+&lt;ul&gt;
+&lt;li&gt;Sintaxe e semântica&lt;/li&gt;
+&lt;li&gt;Entrada de dados&lt;/li&gt;
+&lt;li&gt;Transformação de variáveis&lt;/li&gt;
+&lt;li&gt;Ordenamento de dados&lt;/li&gt;
+&lt;li&gt;Procedimentos para análise estatística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DOCUMENTAÇÕES EM R
+&lt;ul&gt;
+&lt;li&gt;Introdução ao Markdown e RMarkdown&lt;/li&gt;
+&lt;li&gt;Introdução ao Shiny&lt;/li&gt;
+&lt;li&gt;Relatórios estatícos&lt;/li&gt;
+&lt;li&gt;Relatorios dinâmicos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADE NO R:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos sobre distribuições de probabilidade&lt;/li&gt;
+&lt;li&gt;Distribuições de probabilidade:
+&lt;ul&gt;
+&lt;li&gt;Distribuição Bernoulli&lt;/li&gt;
+&lt;li&gt;Distribuição Binomial&lt;/li&gt;
+&lt;li&gt;Distribuições Poisson&lt;/li&gt;
+&lt;li&gt;Distribuição Geométrica&lt;/li&gt;
+&lt;li&gt;Distribuições Negativa&lt;/li&gt;
+&lt;li&gt;Distribuição Multinomial&lt;/li&gt;
+&lt;li&gt;Distribuição Normal&lt;/li&gt;
+&lt;li&gt;Distribuição Uniforme&lt;/li&gt;
+&lt;li&gt;Distribuição Exponencial&lt;/li&gt;
+&lt;li&gt;Distribuição Gama&lt;/li&gt;
+&lt;li&gt;Distribuição Gumbel&lt;/li&gt;
+&lt;li&gt;Distribuição Weibull&lt;/li&gt;
+&lt;li&gt;Distribuição t de Student&lt;/li&gt;
+&lt;li&gt;Distribuição Qui-quadrado&lt;/li&gt;
+&lt;li&gt;Distribuição F&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Distribuições amostrais&lt;/li&gt;
+&lt;li&gt;Teorema do limite central&lt;/li&gt;
+&lt;li&gt;Gerador de números aleatórios&lt;/li&gt;
+&lt;li&gt;Aproximações de distribuições&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;ESTATÍSTICA BÁSICA NO R:
+&lt;ul&gt;
+&lt;li&gt;Estatísticas descritivas&lt;/li&gt;
+&lt;li&gt;Estimação de parâmetros:
+&lt;ul&gt;
+&lt;li&gt;Estimação de parâmetros&lt;/li&gt;
+&lt;li&gt;Estimação de Médias, Desvio Padrão e Variâncias&lt;/li&gt;
+&lt;li&gt;Estimação de Coeficientes de Variação&lt;/li&gt;
+&lt;li&gt;Diferença entre duas Médias Independentes&lt;/li&gt;
+&lt;li&gt;Estimação da Diferença de Duas Médias em dados Emparelhados&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses:
+&lt;ul&gt;
+&lt;li&gt;Teste sobre Médias&lt;/li&gt;
+&lt;li&gt;Teste sobre Médias de duas populações Emparelhadas&lt;/li&gt;
+&lt;li&gt;Teste sobre Médias de duas populações independentes&lt;/li&gt;
+&lt;li&gt;Teste de normalidade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;REGRESSÃO LINEAR:
+&lt;ul&gt;
+&lt;li&gt;Método dos Quadrados Mínimos&lt;/li&gt;
+&lt;li&gt;Um exemplo de Regressão&lt;/li&gt;
+&lt;li&gt;A função &lt;code&gt;lm()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Seleção de modelos&lt;/li&gt;
+&lt;li&gt;Diagnóstico em Regressão Linear:
+&lt;ul&gt;
+&lt;li&gt;Análise de resíduos&lt;/li&gt;
+&lt;li&gt;Influência no espaço de variáveis preditoras&lt;/li&gt;
+&lt;li&gt;Influência no vetor de estimativas dos parâmetros&lt;/li&gt;
+&lt;li&gt;Influência no Vetor de Valores preditos&lt;/li&gt;
+&lt;li&gt;Comandos no R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ANÁLISE DE VARIÂNCIA:
+&lt;ul&gt;
+&lt;li&gt;Introdução a Análise de variância&lt;/li&gt;
+&lt;li&gt;A função &lt;code&gt;aov()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Delineamento experimentais&lt;/li&gt;
+&lt;li&gt;Delineamento de tratamentos&lt;/li&gt;
+&lt;li&gt;Modelos lineares com mais de um erro&lt;/li&gt;
+&lt;li&gt;Modelos lineares multivariados&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NOÇÕES DE SIMULAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Método Monte Carlo&lt;/li&gt;
+&lt;li&gt;Métodos Bootstrap e jacknife&lt;/li&gt;
+&lt;li&gt;Métodos MCMC: Ideias básicas&lt;/li&gt;
+&lt;li&gt;Algoritmo de Metropolis-Hastings&lt;/li&gt;
+&lt;li&gt;Amostrador de Gibbs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;OTIMIZAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Estimação de funções&lt;/li&gt;
+&lt;li&gt;Maximização/Minimização de funções&lt;/li&gt;
+&lt;li&gt;Método Newton-Raphson&lt;/li&gt;
+&lt;li&gt;Quadratura numérica&lt;/li&gt;
+&lt;li&gt;Paralelismo no R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
+&lt;p&gt;Nossas aulas serão divididas de acordo com as 14 semanas de aula.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja feito por parte do aluno. Ele será o protagonista. Dessa forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;, criaremos mapas mentais (&lt;a href=&#34;https://app.lucidchart.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://app.lucidchart.com&lt;/a&gt;) para nossas aulas, dentre outras técnicas, para que nesse momento fique mais claro e objetivo o assunto proposto.&lt;/p&gt;
+&lt;p&gt;Nossas aulas são postadas pelos canais do youtube (&lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;), portal didático da disciplina, repositório GitHub (&lt;a href=&#34;http://github.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/bendeivide&lt;/a&gt;), alocaremos nas páginas (&lt;a href=&#34;http://ufsj.edu.br/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ufsj.edu.br/bendeivide&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;), facebook (Ben Deivide), e instagram (&lt;a href=&#34;https://www.instagram.com/bendeivide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@bendeivide&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas&lt;/strong&gt;, e &lt;strong&gt;2 (duas) horas de aulas teóricas&lt;/strong&gt; e &lt;strong&gt;2 (duas) horas de aulas práticas&lt;/strong&gt;, &lt;strong&gt;totalizando em 36h de aulas teóricas e 36h de aulas práticas, um total de 72h&lt;/strong&gt;. Estas últimas serão destinadas a dúvidas e resolução de exercícios. Usaremos também o canal do youtube (lives), como também o google Meet. Os horários das lives, acordaremos com os alunos, para que marquemos um horário em que grande maioria possa comparecer. De toda forma, gravaremos essas aulas, para que os demais possam também assisti. Todas as demais informações serão repassadas na primeira semana de aula.&lt;/p&gt;
+&lt;p&gt;Irei utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que darei todo o suporte para os alunos, de forma que estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;1ª Avaliação - Relatórios referentes as Seções 1, 2 e 3 - 30 pontos&lt;/li&gt;
+&lt;li&gt;2ª Avaliação - Relatórios referentes as Seções 4, 5 e 6 - 30 pontos&lt;/li&gt;
+&lt;li&gt;3ª Avaliação - Relatórios referentes as Seções 7 e 8 - 40 pontos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A nota final do aluno será dada pela soma das notas das atividades avaliativas divididas por 10. Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos. O discente que não for aprovado por nota poderá fazer uma avaliação substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações. As datas das avaliações são informadas na primeira semana de aula.&lt;/p&gt;
+&lt;p&gt;Na metodologia &lt;em&gt;aprender por ensinar&lt;/em&gt;, poderemos destinar atividades também pedindo aos alunos que explanem sobre determinado tema específico para determinada aula. Para estes, as atividades da semana serão dispensadas, e atribuídas as notas para a devida atividade da semana, proporcional ao seu desempenho, de exposição do tema, material utilizado para a apresentação, e concordância com o assunto estudado.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estudando o Ambiente R&lt;/strong&gt;. 1. ed. Ouro Branco: [sn], 2022. 1 v. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estatística &amp;amp;  Probabilidade&lt;/strong&gt;: aplicadas às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-epaec/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;BATISTA, BDO. &lt;strong&gt;Estatística Computacional&lt;/strong&gt;: aplicada às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-estcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-estcomp/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FERREIRA, DF. &lt;strong&gt;Recursos Computacionais Utilizando R&lt;/strong&gt;: 1ed. Lavras: UFLA, 2013. Disponível em:  &lt;a href=&#34;https://des.ufla.br/~danielff/meusarquivospdf/RRC0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://des.ufla.br/~danielff/meusarquivospdf/RRC0.pdf&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;FERREIRA, DF. &lt;strong&gt;Estatística Computacional Utilizando R&lt;/strong&gt;: 1ed. Lavras: UFLA, 2014. Disponível em:  &lt;a href=&#34;https://des.ufla.br/~danielff/meusarquivospdf/apeco.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://des.ufla.br/~danielff/meusarquivospdf/apeco.pdf&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;R DEVELOPMENT CORE TEAM. &lt;strong&gt;R&lt;/strong&gt;: A Language and Environment for Statistical Computing. Vienna, Austria, 2022. Disponível em: &lt;a href=&#34;http://www.R-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.R-project.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;material-adotado&#34;&gt;Material adotado&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livro referência: &lt;a href=&#34;https://bendeivide.github.io/book-estcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESTCOMP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Os programas necessários:
+&lt;ul&gt;
+&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Studio&lt;/a&gt;
+OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Aula 01 (21/03 e 22/03)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Apresentação do curso&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s01/&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/13wfRawoF89pchWJNjJPtql6uDbSwm3wNh3cAQM9GE3g/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de apresentação&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/gIcKgsOkdeI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios  --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
+  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
+  &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Programação em R (Nível Básico)</title>
+      <link>http://bendeivide.github.io/courses/cursor/nbasico/</link>
+      <pubDate>Thu, 29 Apr 2021 14:27:01 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/cursor/nbasico/</guid>
+      <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;p&gt;O material encontra-se disponível em &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;p&gt;Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;p&gt;Os exercícios do curso, podem ser desenvolvidos via &lt;em&gt;web&lt;/em&gt; em &lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.shinyapps.io/Curso-R/&lt;/a&gt;, como também é possível baixar todos os &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scripts&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Programação em R (Nível Avançado)</title>
+      <link>http://bendeivide.github.io/courses/cursor/navancado/</link>
+      <pubDate>Thu, 29 Apr 2021 14:27:10 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/cursor/navancado/</guid>
+      <description>&lt;p&gt;Programando em nível avançado o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
+&lt;!-- - O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021. --&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;!-- O material encontra-se disponível em &lt;http://bendeivide.github.io/cursor/nbasico&gt; --&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;!-- Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist [Curso R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O). --&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;!-- Os exercícios do curso, podem ser desenvolvidos via *web* em &lt;https://bendeivide.shinyapps.io/Curso-R/&gt;, como também é possível baixar todos os [scripts](http://bendeivide.github.io/cursor/nbasico#scripts). --&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Acesse: &lt;http://bendeivide.github.io/cursor/nbasico#rwork&gt; --&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Estimação Estatística</title>
+      <link>http://bendeivide.github.io/books/estest/</link>
+      <pubDate>Sun, 13 Mar 2022 17:57:45 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/estest/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ano: 2021&lt;/li&gt;
+&lt;li&gt;ISBN: 978-65-88319-63-5&lt;/li&gt;
+&lt;li&gt;DOI: &lt;a href=&#34;https://doi.org/10.46420/9786588319635&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.46420/9786588319635&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Autor(es): Janilson Pinheiro de Assis, Roberto Pequeno de Sousa, Paulo César Ferreira Linhares, Ben Dêivide de Oliveira Batista e Eudes de Almeida Cardoso&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estudando o ambiente R</title>
+      <link>http://bendeivide.github.io/books/eambr03/</link>
+      <pubDate>Sun, 13 Mar 2022 17:57:37 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr03/</guid>
+      <description>&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
+&lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
+&lt;p&gt;A ideia desse curso foi apresentar algo diferente relacionado a maioria dos cursos em R, que foi sempre apresentar essa ferramenta dentro dos conceitos da área da Estatística. Apesar de uma coisa ser intrínseca a outra, há muitas particularidades no ambiente R que são complexos, e muitas vezes julgados erroneamente. Um dos exemplos clássicos é que &lt;em&gt;loops&lt;/em&gt; em R são lentos e com alto gasto de memória, quando na realiadade, isso ocorre muitas vezes pelo não entendimento do sistema de cópia de objetos nesse ambiente. Ainda mais, o entendimento desses cursos é agravado porque o entendimento sobre a estatística além de um cunho matemático, tem o seu cunho filosófico de como as metodologias foram desenvolvidas, e o entendimento mútuo da Estatística e o ambiente R, podem não ter o conhecimento real que essa potencial ferramenta pode proporcionar, uma vez que muitos assuntos complexos podem estar envolvidos em uma única aula.&lt;/p&gt;
+&lt;p&gt;Assim, desenvolvemos na coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; os três volumes iniciais, referentes a apenas a linguagem R, sendo &lt;em&gt;Volume I: Nível Básico&lt;/em&gt;, &lt;em&gt;Volume II: Nível Intermediário&lt;/em&gt; e &lt;em&gt;Volume III: Nível Avançado&lt;/em&gt;. Fazendo a alusão dos três livros iniciais sobre a linguagem S de John Chambers, faremos uma explanação sobre assuntos de menor complexidade até noções mais complexas sobre o ambiente R, restringindo apenas a sintaxe e semântica da linguagem. Os volumes subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote R&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos&lt;/em&gt;, &lt;em&gt;Funções do pacote base&lt;/em&gt;, dentre outros.&lt;/p&gt;
+&lt;p&gt;Tentando engajar nossos alunos, e agora colegas de trabalho, tenho a parceria no Volume I, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, uma pessoa que tenta se superar a cada desafio e assunto estudado.&lt;/p&gt;
+&lt;p&gt;Esse primeiro volume, que representa o livro corrente, apresenta um breve &lt;strong&gt;histórico&lt;/strong&gt; sobre a linguagem, a sua instalação, bem como os recursos que a &lt;em&gt;IDE&lt;/em&gt;^[Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.] RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
+&lt;p&gt;A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente.&lt;/p&gt;
+&lt;p&gt;Por fim, espero que esse primeiro volume possa servir de referência para os passos iniciais nessa ferramenta tão importante para a área de análise de dados.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estudando o ambiente R</title>
+      <link>http://bendeivide.github.io/books/eambr02/</link>
+      <pubDate>Sun, 13 Mar 2022 17:57:31 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr02/</guid>
+      <description>&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
+&lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
+&lt;p&gt;A ideia desse curso foi apresentar algo diferente relacionado a maioria dos cursos em R, que foi sempre apresentar essa ferramenta dentro dos conceitos da área da Estatística. Apesar de uma coisa ser intrínseca a outra, há muitas particularidades no ambiente R que são complexos, e muitas vezes julgados erroneamente. Um dos exemplos clássicos é que &lt;em&gt;loops&lt;/em&gt; em R são lentos e com alto gasto de memória, quando na realiadade, isso ocorre muitas vezes pelo não entendimento do sistema de cópia de objetos nesse ambiente. Ainda mais, o entendimento desses cursos é agravado porque o entendimento sobre a estatística além de um cunho matemático, tem o seu cunho filosófico de como as metodologias foram desenvolvidas, e o entendimento mútuo da Estatística e o ambiente R, podem não ter o conhecimento real que essa potencial ferramenta pode proporcionar, uma vez que muitos assuntos complexos podem estar envolvidos em uma única aula.&lt;/p&gt;
+&lt;p&gt;Assim, desenvolvemos na coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; os três volumes iniciais, referentes a apenas a linguagem R, sendo &lt;em&gt;Volume I: Nível Básico&lt;/em&gt;, &lt;em&gt;Volume II: Nível Intermediário&lt;/em&gt; e &lt;em&gt;Volume III: Nível Avançado&lt;/em&gt;. Fazendo a alusão dos três livros iniciais sobre a linguagem S de John Chambers, faremos uma explanação sobre assuntos de menor complexidade até noções mais complexas sobre o ambiente R, restringindo apenas a sintaxe e semântica da linguagem. Os volumes subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote R&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos&lt;/em&gt;, &lt;em&gt;Funções do pacote base&lt;/em&gt;, dentre outros.&lt;/p&gt;
+&lt;p&gt;A parceria desse livro está idealizado com o Pesquisador &lt;a href=&#34;https://henriquealves21.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique José de Paula Alves&lt;/a&gt; (IPEA).&lt;/p&gt;
+&lt;p&gt;O volume II é introduzido com uma maior caracterização do ambiente R quanto ao seu &lt;strong&gt;escopo léxico&lt;/strong&gt;, como &lt;strong&gt;linguagem interpretada&lt;/strong&gt;, como &lt;strong&gt;programação funcional&lt;/strong&gt;, como &lt;strong&gt;programação meta-paradigma&lt;/strong&gt;, como &lt;strong&gt;programação dinâmica&lt;/strong&gt;; apresentaremos &lt;strong&gt;manipulações de objetos em mais detalhe&lt;/strong&gt;, bem como o surgimento de alguns outros objetos como &lt;strong&gt;tibble&lt;/strong&gt;, &lt;strong&gt;cópias de objetos&lt;/strong&gt;. Uma característica do ambiente R é que a linguagem pode ser &lt;strong&gt;orientada a objetos&lt;/strong&gt; e isso será estudado nesse módulo. Introduziremos ao &lt;strong&gt;desenvolvimento de pacotes R&lt;/strong&gt;, e aprofundaremos sobre os &lt;strong&gt;ambientes&lt;/strong&gt;. Por fim, mostraremos como desenvolver Projeto do R e integrá-los ao GitHub, e dessa forma, introduziremos sobre o sistema Git.&lt;/p&gt;
+&lt;p&gt;Esse talvez seja o maior volume, dentre os três iniciais, porque apenar de não precisarmos entender mais a ideia dos objetos, que foram retratadas no Volume I, a inserção dos paradigmas da programação para este volume, trará uma maior riqueza de características para o R, mostrando a sua versatilidade. Também, daremos um maior detalhamento como manipular objetos, e as otimizações existentes da linguagem, como por exemplo, a modificação no local, que se entendida, poderá perceber que o &lt;strong&gt;loop&lt;/strong&gt; no ambiente R não é lento quanto parece. Ao final desse volume, falaremos sobre como propagar o seu código com o sistema Git na plataforma GitHub, sincronizado com os projetos do RStudio.&lt;/p&gt;
+&lt;p&gt;Por fim, espero que esse segundo volume, juntamente com o Volume I, possa consolidar os conhecimentos sobre o ambiente R.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estudando o ambiente R</title>
+      <link>http://bendeivide.github.io/books/eambr01/</link>
+      <pubDate>Sun, 13 Mar 2022 17:57:24 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr01/</guid>
+      <description>&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
+&lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
+&lt;p&gt;A ideia desse curso foi apresentar algo diferente relacionado a maioria dos cursos em R, que foi sempre apresentar essa ferramenta dentro dos conceitos da área da Estatística. Apesar de uma coisa ser intrínseca a outra, há muitas particularidades no ambiente R que são complexos, e muitas vezes julgados erroneamente. Um dos exemplos clássicos é que &lt;em&gt;loops&lt;/em&gt; em R são lentos e com alto gasto de memória, quando na realiadade, isso ocorre muitas vezes pelo não entendimento do sistema de cópia de objetos nesse ambiente. Ainda mais, o entendimento desses cursos é agravado porque o entendimento sobre a estatística além de um cunho matemático, tem o seu cunho filosófico de como as metodologias foram desenvolvidas, e o entendimento mútuo da Estatística e o ambiente R, podem não ter o conhecimento real que essa potencial ferramenta pode proporcionar, uma vez que muitos assuntos complexos podem estar envolvidos em uma única aula.&lt;/p&gt;
+&lt;p&gt;Assim, desenvolvemos na coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; os três volumes iniciais, referentes a apenas a linguagem R, sendo &lt;em&gt;Volume I: Nível Básico&lt;/em&gt;, &lt;em&gt;Volume II: Nível Intermediário&lt;/em&gt; e &lt;em&gt;Volume III: Nível Avançado&lt;/em&gt;. Fazendo a alusão dos três livros iniciais sobre a linguagem S de John Chambers, faremos uma explanação sobre assuntos de menor complexidade até noções mais complexas sobre o ambiente R, restringindo apenas a sintaxe e semântica da linguagem. Os volumes subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote R&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos&lt;/em&gt;, &lt;em&gt;Funções do pacote base&lt;/em&gt;, dentre outros.&lt;/p&gt;
+&lt;p&gt;Tentando engajar nossos alunos, e agora colegas de trabalho, tenho a parceria no Volume I, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, uma pessoa que tenta se superar a cada desafio e assunto estudado.&lt;/p&gt;
+&lt;p&gt;Esse primeiro volume, que representa o livro corrente, apresenta um breve &lt;strong&gt;histórico&lt;/strong&gt; sobre a linguagem, a sua instalação, bem como os recursos que a &lt;em&gt;IDE&lt;/em&gt;^[Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.] RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
+&lt;p&gt;A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente.&lt;/p&gt;
+&lt;p&gt;Por fim, espero que esse primeiro volume possa servir de referência para os passos iniciais nessa ferramenta tão importante para a área de análise de dados.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Livro - Estimação Estatística</title>
+      <link>http://bendeivide.github.io/post/book_estest/</link>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/book_estest/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais-sobre-o-livro&#34;&gt;Informações Gerais sobre o Livro&lt;/h2&gt;
+&lt;p&gt;O livro Estatística Matemática é uma obra desenvolvida para auxiliar as aulas de estatística sobre a Inferência Estatística, uma área de grande importância, em que nos dar suporte obter características populacionais a partir de uma amostra.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programação de Interface Gráfica ao Usuário no R</title>
+      <link>http://bendeivide.github.io/books/pigur/</link>
+      <pubDate>Tue, 31 Aug 2021 10:08:11 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/pigur/</guid>
+      <description>&lt;p&gt;Esse livro surgiu a partir da ideia que propus ao outro autor desse projeto &lt;a href=&#34;https://henriquealves21.github.io/webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique josé de P. Alves&lt;/a&gt;, quando estávamos desenvolvendo em paralelo dois pacotes, &lt;a href=&#34;https://bendeivide.github.io/project/midrangemcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; e o &lt;strong&gt;TVMM&lt;/strong&gt; ([&lt;a href=&#34;https://cran.r-project.org/package=TVMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;] [&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GUI&lt;/em&gt;&lt;/a&gt;]), e resolvemos deixá-los mais intuitivo para usuário que não tem afinidade com o ambiente &lt;em&gt;R&lt;/em&gt;. De início eu usei o pacote &lt;a href=&#34;https://cran.r-project.org/web/packages/gWidgets/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gWidgets&lt;/a&gt; que tornava mais intuitivo a programação da &lt;em&gt;GUI&lt;/em&gt;. Contudo, após o pacote ter se tornado órfã, resolvemos partir para o uso do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que foi um dos pacote base do pacote &lt;strong&gt;gWidgets&lt;/strong&gt;. Este mesmo pacote também usava uma outra integração de linguagem, &lt;em&gt;GTK+&lt;/em&gt;. Então usar o &lt;strong&gt;gWidgets&lt;/strong&gt; era muito prático, infelizmente foi removido do CRAN. Quando nos aprofundamos nesse pacote, percebemos que seus autores haviam desenvolvido um livro muito interessante, intitulado &lt;a href=&#34;https://books.google.com.br/books?id=VeKEDwAAQBAJ&amp;amp;pg=PA418&amp;amp;lpg=PA418&amp;amp;dq=R&amp;#43;tkmenu&amp;amp;source=bl&amp;amp;ots=V2O2kTRNy3&amp;amp;sig=ACfU3U21CsBJES_jbMhh8JTnerP1FMbxpQ&amp;amp;hl=pt-BR&amp;amp;sa=X&amp;amp;ved=2ahUKEwj5lqOS3pvqAhX2IbkGHRAHClUQ6AEwA3oECAoQAQ#v=onepage&amp;amp;q=R%20tkmenu&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programming Graphical User Interfaces in R&lt;/em&gt;&lt;/a&gt;, um livro que despertou a nossa curiosidade nessa linha de pesquisa para desenvolvimento de pacotes. 
+Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferramenta em nossos pacotes, e agora, estudamos para repassar a nossa experiência por meio do Livro &lt;strong&gt;Programação de Interface Gráfica ao Usuário no R&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curso R - Programação em R (Nível Intermediário)</title>
+      <link>http://bendeivide.github.io/post/cursorni2/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/cursorni2/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;Confirmado o Curso R, &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;data-confirmada-do-curso&#34;&gt;Data confirmada do curso&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 30/07/2021&lt;/p&gt;
+&lt;h2 id=&#34;início-das-inscrições&#34;&gt;Início das inscrições&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 04/06/2021 - 25/07/2021&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incrição (GRATUITA E COM CERTIFICADO - CATEL/UFSJ):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdiZnLPYuu9OWed_ECYrVv1U9L4NxGh9BZjAjAe0KnBEflcWQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1920&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;h2 id=&#34;canal-do-curso&#34;&gt;Canal do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Se inscreva no canal onde será realizado o curso: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Ben Dêivide&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;página-do-curso&#34;&gt;Página do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;materiais-do-curso&#34;&gt;Materiais do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livro do curso: &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estudando o ambiente R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Página: &lt;a href=&#34;https://bendeivide.github.io/courses/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/nintermediario.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ementa do curso em tópicos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;carga-horária-e-duração-do-curso&#34;&gt;Carga horária e duração do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Carga horária: 40 horas&lt;/li&gt;
+&lt;li&gt;Duração do curso: 30/07/2021 - 30/09/2021&lt;/li&gt;
+&lt;li&gt;30 aulas (4 vídeo-aulas por semana)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;apresentação-do-curso&#34;&gt;Apresentação do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Live (A confirmar!)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/books/epaec/</link>
+      <pubDate>Sun, 06 Jun 2021 12:18:51 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/epaec/</guid>
+      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;http://bendeivide.github.io/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt;, como também sua versão em &lt;a href=&#34;https://github.com/bendeivide/book-epaec/raw/master/docs/book-epaec.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;, e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curso R - Programação em R (Nível Intermediário)</title>
+      <link>http://bendeivide.github.io/post/cursorni/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/cursorni/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;Em breve, daremos início ao segundo módulo o Curso R, &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;data-prevista-para-o-início-do-curso&#34;&gt;Data prevista para o início do curso&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 15/07/2021&lt;/p&gt;
+&lt;h2 id=&#34;previsão-para-o-ínicio-das-inscrições&#34;&gt;Previsão para o ínicio das inscrições&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 01/06/2021&lt;/p&gt;
+&lt;h2 id=&#34;demais-informações&#34;&gt;Demais informações&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Divulgaremos as demais informações pelas redes sociais;&lt;/li&gt;
+&lt;li&gt;Se inscreva no canal aonde será realizado o curso: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Ben Dêivide&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial sobre o pacote R tcltk</title>
+      <link>http://bendeivide.github.io/handouts/tcltk/</link>
+      <pubDate>Thu, 06 May 2021 23:34:42 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/tcltk/</guid>
+      <description>&lt;p&gt;Essa apostila tenta melhorar o &lt;em&gt;help&lt;/em&gt; do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que é uma interface de integração da linguagem Tcl/Tk no ambiente R. Por ser da base de instalação do R, creio que deva ser uma das escolhas nesse ambiente para quem deseja criar GUIs para os seus pacotes. Porém, o documento de ajuda desse pacote é muito pobre e com poucos exemplos.&lt;/p&gt;
+&lt;p&gt;Como eu já vinha criando algumas interfaces para os pacotes que desenvolvo em parceria, resolvi estudar a fundo, e não me limitei a essa apostila, que acabou ficando incompleta, porque surge mais um livro em desenvimento, intitulado &lt;a href=&#34;https://bendeivide.github.io/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programação de Interface Gráfica ao Usuário no R&lt;/a&gt;. Nesse livro, falaremos das linguagens Tcl/Tk, GTK+ e usaremos os recursos do pacote shiny, para criarmos interfaces web para os pacotes, isto é, usar as integrações com as linguagens CSS, JavaScript e HTML.&lt;/p&gt;
+&lt;p&gt;Contudo, para um estudo incial sobre o pacote tcltk, vale a pena a leitura desse material.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Como desenvolver um pacote R</title>
+      <link>http://bendeivide.github.io/handouts/rpkg/</link>
+      <pubDate>Thu, 06 May 2021 23:34:30 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/rpkg/</guid>
+      <description>&lt;p&gt;Esse foi o primeiro material que escrevi sobre desenvolvimento de pacotes em R, do qual os recursos contidos no RStudio não eram tão eficientes quanto é hoje, para rotinas repetitivas sobre criação de pacotes. Esse material uso a função &lt;code&gt;package.skeleton()&lt;/code&gt; para a criação de pacotes, algo que internamente o RStudio faz de modo muito mais fácil hoje. Mas, vale a pena o registro.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Experimental usando SISVAR, R e SAS</title>
+      <link>http://bendeivide.github.io/handouts/estexp/</link>
+      <pubDate>Thu, 06 May 2021 23:33:01 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/estexp/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de alguns cursos ministrados na UFLA para departamentos de área aplicada, bem como uma disciplina eletiva ministrado pela UFSJ. Essa apostila tem um cunho aplicado a análise de experimentos usando os programas SISVAR, R e SAS. Para a mesma análise, apresentamos rotinas e passos de como analisar por esses programas. Isso não foi realizado para todos os experimentos, mas apresenta passos iniciais para a utlização dessas três grandes ferramentas na área da Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise de Experimentos usando o R</title>
+      <link>http://bendeivide.github.io/handouts/aeur-nefit/</link>
+      <pubDate>Thu, 06 May 2021 23:31:31 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/aeur-nefit/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise de Experimentos usando o R</title>
+      <link>http://bendeivide.github.io/handouts/aeur-fisio/</link>
+      <pubDate>Thu, 06 May 2021 23:30:52 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/aeur-fisio/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estudando o ambiente R</title>
+      <link>http://bendeivide.github.io/books/eambr/</link>
+      <pubDate>Thu, 06 May 2021 23:22:35 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr/</guid>
+      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-eambr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Desenvolvimento de Pacotes em R</title>
+      <link>http://bendeivide.github.io/books/dpr/</link>
+      <pubDate>Thu, 06 May 2021 23:20:55 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/dpr/</guid>
+      <description>&lt;p&gt;Esse livro é um fruto de toda a minha experiência que venho tendo ao desenvolver pacotes. Tem muito trabalho pela frente, mas ao final, tenho certeza que ficará um grande material referência em desenvolvimento de pacotes em português.&lt;/p&gt;
+&lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-dper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

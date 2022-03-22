@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estatística Experimental | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/category/estatistica-experimental/</link>
+      <atom:link href="http://bendeivide.github.io/category/estatistica-experimental/index.xml" rel="self" type="application/rss+xml" />
+    <description>Estatística Experimental</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:33:01 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>Estatística Experimental</title>
+      <link>http://bendeivide.github.io/category/estatistica-experimental/</link>
+    </image>
+    
+    <item>
+      <title>Estatística Experimental usando SISVAR, R e SAS</title>
+      <link>http://bendeivide.github.io/handouts/estexp/</link>
+      <pubDate>Thu, 06 May 2021 23:33:01 +0000</pubDate>
+      <guid>http://bendeivide.github.io/handouts/estexp/</guid>
+      <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de alguns cursos ministrados na UFLA para departamentos de área aplicada, bem como uma disciplina eletiva ministrado pela UFSJ. Essa apostila tem um cunho aplicado a análise de experimentos usando os programas SISVAR, R e SAS. Para a mesma análise, apresentamos rotinas e passos de como analisar por esses programas. Isso não foi realizado para todos os experimentos, mas apresenta passos iniciais para a utlização dessas três grandes ferramentas na área da Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
