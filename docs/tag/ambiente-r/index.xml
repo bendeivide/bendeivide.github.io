@@ -2282,7 +2282,7 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
       data-background-image=&#34;cap.png&#34;
   &gt;
 
-&lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística computacional&lt;/h1&gt;
+&lt;h1 id=&#34;estatística-e-probabilidade&#34;&gt;Estatística e Probabilidade&lt;/h1&gt;
 &lt;/br&gt;
 &lt;/br&gt;
 &lt;p&gt;
@@ -2318,11 +2318,18 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;SeloDC-branco.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s01/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp 400w,
+               /slides/estprob/s01/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_28a718b08e0f1b8193cec5ac4d8216a2.webp 760w,
+               /slides/estprob/s01/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s01/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp&#34;
+               width=&#34;384&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;section data-background-iframe=&#34;/courses/estcomp&#34; data-background-interactive&gt;
+&lt;section data-background-iframe=&#34;/courses/epaec&#34; data-background-interactive&gt;
 	&lt;div style=&#34;position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;&#34;&gt;
 		&lt;h2&gt;Material do curso&lt;/h2&gt;
 		&lt;p&gt;Todo o material será disponível na página &lt;a href=&#34;https://bendeivide.github.io/courses/estcomp/&#34;&gt;Ben Dêivide&lt;/a&gt;.&lt;/p&gt;
@@ -2333,195 +2340,7 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;fundo02.png&#34;
-  &gt;
-
-&lt;h2 id=&#34;introdução-e-histórico-sobre-o-ambiente-r&#34;&gt;Introdução e histórico sobre o ambiente R&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
-&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
-&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;fundo02.png&#34;
-  &gt;
-
-&lt;h2 id=&#34;características-sobre-o-r&#34;&gt;Características sobre o R&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, funcional, metapragmática, Licença GNU&lt;/li&gt;
-&lt;li&gt;Repositório &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
-&lt;li&gt;Como instalar o R?&lt;/li&gt;
-&lt;li&gt;Como instalar o RStudio?&lt;/li&gt;
-&lt;li&gt;Como usar o R?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;fundo02.png&#34;
-  &gt;
-
-&lt;section&gt;
-&lt;h2&gt; Cursos e Playlists &lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;cursor-nb.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;350&#34; height=&#34;350&#34; /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/post/cursorni2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;cursor-ni.png&#34; alt=&#34;Nível Intermediário&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;rapidinhasr.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;/section&gt;
-&lt;section data-background-video=&#34;est&amp;prob.mp4&#34; data-background-color=&#34;#000000&#34;&gt;
-&lt;div style=&#34;background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;&#34;&gt;
-&lt;h2&gt;Playlist de Estatística e Probabilidade&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; youtube/bendeivide&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;fundo02.png&#34;
-  &gt;
-
-&lt;section&gt;
-&lt;h2&gt; Coleção Estudando o Ambiente R &lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/book-eambr01&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-volume-i&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;hardcover01.png&#34; alt=&#34;Volume I&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;248&#34; height=&#34;351&#34; /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Volume I
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-volume-ii&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;hardcover02.png&#34; alt=&#34;Volume II&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;248&#34; height=&#34;351&#34; /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Volume II
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/section&gt;
-&lt;section&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-volume-iii&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;hardcover03.png&#34; alt=&#34;Volume III&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;248&#34; height=&#34;351&#34; /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Volume III
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/section&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;fundo02.png&#34;
+      data-background-image=&#34;cap02.png&#34;
   &gt;
 
 &lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
@@ -2556,7 +2375,14 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
 
 &lt;figure  id=&#34;figure-bendeividegithubio&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;ben06.png&#34; alt=&#34;bendeivide.github.io&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;630&#34; height=&#34;480&#34; /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bendeivide.github.io&#34; srcset=&#34;
+               /slides/estprob/s01/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_bb470e83faa8f90b1336a382e99df27d.webp 400w,
+               /slides/estprob/s01/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_6df1b03570c9affce3a58c416af79d7c.webp 760w,
+               /slides/estprob/s01/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s01/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_bb470e83faa8f90b1336a382e99df27d.webp&#34;
+               width=&#34;630&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       bendeivide.github.io
     &lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
