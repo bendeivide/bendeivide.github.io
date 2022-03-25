@@ -1,0 +1,173 @@
+---
+# Display name
+title: Ben Dêivide
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position/tagline
+role: Professor de Estatística
+
+# Organizations/Affiliations to show in About widget
+organizations:
+- name: UFSJ
+  url: https://ufsj.edu.br/
+
+# Short bio (displayed in user profile at end of posts)
+bio: Minhas principais linhas de pesquisa são na área de Estatística Experimental, Estatística e Probabilidade, Estatística computacional, Desenvolvimento de pacotes R
+
+# Interests to show in About widget
+interests:
+- Estatística Computacional
+- Estatística Experimental
+- Ciência de dados
+- Ambiente R
+- Desenvolvimento de pacotes R
+
+# Education to show in About widget
+education:
+  courses:
+  - course: Pós-Doutorado em Estatística e Experimentação Agropecuária
+    institution: Universidade Federal de Lavras (UFLA)
+    year: 2019
+  - course: Doutorado em Estatística e Experimentação Agropecuária
+    institution: Universidade Federal de Lavras (UFLA)
+    year: 2016
+  - course: Mestrado em Estatística e Experimentação Agropecuária
+    institution: Universidade Federal de Lavras (UFLA)
+    year: 2012
+  - course: Bacharelado em Engenharia Agronômica
+    institution: Universidade Federal Rural do Semiárido (UFERSA)
+    year: 2010
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+social:
+- icon: envelope
+  icon_pack: fas
+  link: '/#contact'
+- icon: lattes  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
+  link: http://lattes.cnpq.br/4118572120481367
+- icon: orcid
+  icon_pack: ai
+  link:  https://orcid.org/0000-0001-7019-8794
+- icon: google-scholar-square
+  icon_pack: ai # https://jpswalsh.github.io/academicons/
+  link: https://scholar.google.com.br/citations?user=m3VSZ4gAAAAJ&hl=pt-BR&oi=ao
+- icon: github
+  icon_pack: fab
+  link: https://github.com/bendeivide/
+- icon: linkedin
+  icon_pack: fab
+  link: http://linkedin.com/in/bendeivide/
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Ben-Batista
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/bendeivide/
+  label: Siga-me no Twitter
+- icon: facebook
+  icon_pack: fab
+  link: https://www.facebook.com/bendeivide/
+- icon: instagram
+  icon_pack: fab
+  link: https://www.instagram.com/bendeivide/
+- icon: youtube
+  icon_pack: fab
+  link: https://youtube.com/bendeivide/
+  display:
+    header: true
+
+
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: media/resume.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ""
+
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+---
+
+Sou natural de [Pau dos Ferros](http://pt.wikipedia.org/wiki/Pau_dos_Ferros), RN, que fica a uma distância de 450km da capital, Natal, onde ocorreu minha trajetória estudantil até o ensino médio. Em 2001, no primeiro ano do ensino médio, para conseguir minha bolsa de estudos, trabalhei como monitor de inglês no ensino fundamental na escola Educandário Imaculada Conceição. Descobri nesse período, o prazer em ensinar. Apesar de pouco conhecimento da língua inglesa, a preocupação em dar uma boa aula, me motivava a estudar e mostrava o quanto o ensino era fascinante. Ao término do ensino médio, em 2003, tive outra oportunidade de lecionar
+física e inglês, na Escola Municipal Prof. Severino Bezerra, em Pau dos Ferros/RN, no ensino fundamental II. 
+
+Em 2005, inicio o curso de graduação em Engenharia Agronômica, pela Universidade Federal Rural do Semiárido (UFERSA), antiga ESAM, em Mossoró, RN.
+Em virtude das condições financeiras não serem favoráveis, tive que trabalhar em 2006, paralelamente ao curso de graduação em Agronomia, para compor a renda do mês. Unindo o prazer com o trabalho, consegui uma vaga de Professor para lecionar as disciplinas de
+Física e Inglês na Escola Estadual José Martins de Vasconcelos, em Mossoró/RN, e assim, arcar com custos financeiros. Durante o período acadêmico, me identifiquei com a disciplina
+de Estatística Básica, e no terceiro semestre do curso de Agronomia, concorri a tão sonhada bolsa de monitoria em Estatística Básica. Daí em diante, vi que o caminho da Estatística levava a um mundo extraordinário. Nesse pequeno intervalo, tive também a experiência de
+lecionar em um curso básico de informática, na empresa Ingetec Informática, ainda em Mossoró/RN. Percebi uma outra paixão nos estudos, que era a área de programação.
+
+Em 2010, concluí minha graduação. Nessa ocasião apresentei o trabalho de conclusão do curso de Agronomia, que era intitulado “Modelagem estocástica da temperatura média da cidade de Mossoró, RN”. Sob a orientação do [Prof. Janilson Pinheiro de Assis](https://sigaa.ufersa.edu.br/sigaa/public/docente/portal.jsf?siape=396304), avaliamos
+seis modelos de distribuições (Normal, Log-Normal, Beta, Gama, Log-Pearson, Gumbel e
+Weibull) de probabilidade para verificar qual destes se ajustaria aos dados de temperatura
+média. Para verificar a aderência das distribuições à série de temperatura média foram
+utilizados testes de aderência (Qui-quadrado, Kolmogorov-Smirnov, Cramér-von Mises,
+Anderson-Darling, Kuiper). A distribuição que obteve melhor ajuste aos dados foi a
+distribuição Normal em três escalas utilizadas.
+
+Nesse mesmo ano, prestei concurso temporário ao [IBGE](https://www.ibge.gov.br/), para participar do Censo 2010. Aprovado como supervisor, trabalhei diretamente com 20 recenseadores, do qual minha
+função era averiguar se a coleta de dados feita pelos recenseadores estava correta. Uma
+experiência incrível, pois foi meu primeiro trabalho fora da Universidade que estava ligado
+diretamente com a estatística.
+
+Determinado e focado no que queria, resolvi fazer pós-graduação em Estatística tendo
+como segunda opção a área de Climatologia. Ainda em 2010, prestei concurso para quatro
+instituições de ensino: Universidade Federal de Lavras - UFLA (Pós-Graduação em
+Estatística), Universidade Federal de Viçosa - UFV (duas seleções: Pós-Graduação em Estatística
+Aplicada e Biometria e outra seleção na Pós-Graduação em Meteorologia Aplicada),
+Universidade Federal de Campina Grande - UFCG (Pós-Graduação em Meteorologia),
+UFRN (Pós-Graduação em Matemática Aplicada e Estatística). Fui aprovado em todas
+as seleções, sendo que na UFRN fiz apenas a primeira etapa, devido ter obtido alguns resultados positivos nas demais seleções e já está convicto para onde me destinar, resolvi não prosseguir. Essa escolha, já havia sido tomada bem antes das provas de seleções, quando comecei a ler as obras do Prof.
+[Daniel Furtado Ferreira](https://des.ufla.br/~danielff/), e me vi fascinado com os seus trabalhos, principalmente com o software [SISVAR](https://des.ufla.br/~danielff/programas/sisvar.html). 
+
+Daí, decidi que o local onde iria fazer o mestrado seria a Universidade
+Federal de Lavras, em Minas Gerais.
+Mesmo com muitos desafios, encarei com muita naturalidade esse momento. Houve
+um fato interessante para concorrer à seleção de Pós-Graduação da UFLA. Me deparei
+com a dificuldade em saber como iria fazer a prova, pois nunca havia saído de meu estado
+de origem. Assim, consegui por meio de uma solicitação, que a prova fosse realizada
+na UFRN, em Natal, sendo que o Professor responsável pela aplicação da prova foi Paulo
+César Formiga Ramos. 
+
+Fui aprovado para o mestrado em Estatística e Experimentação
+Agropecuária e, ainda, sob a orientação do Prof. Daniel Furtado. Em 2011, viajo para
+Lavras, com a minha esposa, [Allanna Lopes](https://www.instagram.com/allannadvl/), para a realização de um sonho. Essa fase foi um dos momentos mais difíceis em minha vida, juntamente com a minha esposa. Nunca havíamos saído de nosso estado, RN, e ainda mais dois jovens com 25 e 21 anos, respectivamente, com sonhos diferentes, mas unidos pelo amor. Devo confessar, que ao longo desses anos o melhor presente que recebi foi ter a oportunidade de estar ao lado de Allanna. Em todos esses momentos, depois de estarmos juntos, ela foi a minha fortaleza para suprir a ausência de ter estado longe da minha família, para realizar um sonho. E ainda mais, o sacrifício de Allanna nesse momento foi tão árduo, que teve de abdicar os seus sonhos para está ao meu lado. Tenho a minha eterna gratidão, e o fruto disso, é a nossa linda filha Maria Isabel, a pessoa que nutre o nosso presente. Tenho certeza, que nos conhecemos de outros momentos, e esta existência foi um reencontro. Sou muito feliz por isso.
+
+Confesso que nesse período, sob a orientação do Prof. Daniel, o aprendizado sobre a
+estatística foi fundamental. E ele se torna nesse momento, e até hoje, a minha referência como profissional na área da
+Estatística. Em 2012, concluí o mestrado, intitulado [Distribuição exata da midrange estudentizada externamente da normal e desenvolvimento de uma biblioteca R utilizando Quadratura Gaussiana](http://repositorio.ufla.br/bitstream/1/753/1/DISSERTA%c3%87%c3%83O_Distribui%c3%a7%c3%a3o%20exata%20da%20midrange%20estudentizada%20externamente%20da%20normal%20e%20desenvolvimento%20de%20uma%20biblioteca%20R%20utilizando%20Quadratur.pdf). Trabalhamos no desenvolvimento dessa distribuição com a pretenção de utilização no desenvolvimento de testes de comparações múltiplas. Logo, percebemos que o projeto estava muito extenso, uma vez que encontramos a [dedução analítica da distribuição](http://repositorio.ufla.br/bitstream/1/29962/1/ARTIGO_Externally%20studentized%20normal%20midrange%20distribution.pdf), cujo o resultado finalizava em integrais duplas e triplas. A implementação computacional das características da distribuição, como função densidade de probabilidade, função distribuição, função quantil e gerador de números aleatórios, exigiu o uso de análise numérica. Assim foi feito, usamos quadraturas gaussianas, mais específico a quadratura Gauss-Legendre, com transformação de variável nos limites de integração. Além desse resultado, o trabalho culminou em meu primeiro pacote R, publicado com Daniel, o pacote [SMR](https://journal.r-project.org/archive/2014/RJ-2014-029/index.html).
+
+
+Muitos das ideias nesse momento se concretizavam, que era entender um pouco mais sobre a estatística e a programação, usando o ambiente [R](http://r-project.org/), bem como técnicas de análise numérica, simulação, dentre outros assuntos. Foi muito enriquecedor esse momento.
+
+Além disso, consegui obter uma mudança de
+nível, para o Doutorado no mesmo programa e com a continuação da orientação do Prof. Daniel, sendo finalizado em Maio de 2016, cuja tese foi institulada [Testes de comparações múltiplas baseados na distribuição da midrange estudentizada externamente](http://repositorio.ufla.br/bitstream/1/11466/2/TESE_Testes%20de%20compara%c3%a7%c3%b5es%20m%c3%baltiplas%20baseados%20na%20distribui%c3%a7%c3%a3o%20da%20midrange%20estudentizada%20externamente.pdf). Esse trabalho representou a aplicação da distribuição desenvolvida durante o mestrado. Criamos quatro procedimentos de comparações múltiplas, sendo dois foram publicados no artigo [*Alternative to Tukey test*](https://www.scielo.br/scielo.php?pid=S1413-70542020000100240&script=sci_arttext). O outro artigo está submetido, esperando avaliação. Por fim, criamos mais um pacote para a aplicação desses testes, o pacote [midrangeMCP](https://bendeivide.github.io/midrangeMCP/).
+
+Desde o mestrado, eu vinha estudando juntamente com Prof. Daniel, desenvolvimento de pacotes. No doutorado, os estudos começaram a se aprofundar, do qual, hoje é uma das minhas linhas de pesquisa, desenvolver pacotes para a ciência de dados. Estamos em fase de desenvolvimento de alguns pacotes que já apresentam algumas opções avançadas, tais como, interface gráfica ao usuário, internacionalização, dentre outras opções. Seguem os pacotes via GitHub: [midrangeMCP](http://bendeivide.github.io/midrangeMCP), [statscience](https://bendeivide.github.io/statscience/), [MCPtests](https://github.com/bendeivide/MCPtests). Nossos pacotes disponíveis sob o [CRAN](https://CRAN.R-project.org): [SMR](http://cran.r-project.org/package=SMR), [midrangeMCP](http://cran.r-project.org/package=midrangeMCP), [TVMM](http://cran.r-project.org/package=TVMM), [cppcor](http://cran.r-project.org/package=cppcor) e [MCPtests](http://cran.r-project.org/package=MCPtests).
+
+
+Na sequência, finalizo com o Pós-Doutorado em Estatística, ainda sob a orientação do Prof. Daniel, do qual foi finalizado em 2019, intitulado *Teste Ferbat: Um procedimento de comparação múltipla Monte Carlo com um controle* . O teste Ferbat é uma homenagem aos nossos sobrenomes, Ferreira e Batista. O artigo está submetido sob avaliação.
+
+Em 2016, ingresso na Universidade Federal de São João del-Rei, em São João del-Rei/MG, na carreira de docência no serviço público, como Professor substituto, durante dois anos. Foi uma experiência incrível. Em 2018, ingresso na mesma universidade, agora como professor efetivo no campus Alto Paraopeba, Ouro Branco/MG, do qual estou até hoje. Confesso que a fase de concursos, para mim, foi uma experiência que aprendi muito a trabalhar a condição psicológica. E você que me ler, pode estar nessa fase. O conselho é, acredite em você! Todos irão questionar o seu propósito, mas só você realmente saberá a sua escolha. Insista, persista e acredite. Saiba que em algum momento, você mesmo irá desacreditar. Não se abale, é apenas um momento. Quando esse momento passar, retorne ao seu foco novamente. Disciplina, disciplina e disciplina.
+
+Toda essa história não seria possível se o casal, [Léo Batista](https://www.facebook.com/josealcigeriobatista.alcigerio) e Chica (Pais), não tivesse o esforço para me proporcionar uma estrutura mínima até esse momento. Juntamente, com meu único irmão, [Álefe Batista](https://www.instagram.com/alefebatistareal/), formamos um quarteto mágico, nós nos amamos! Agradeço imensamente, por ter a oportunidade de compartilhar essa existência com vocês.
+
+Aos demais membros da família, agradeço por meio do patriarca Alcides Batista (Avó, *in memoriam*). Por ter convivido com ele intensamente, em toda a minha infância e juventude, é um espelho para mim, desde a sua *gambiarra* até a sabedoria.
+
+Posso não ter externado tudo o que sinto por toda a minha trajetória pessoal e profissional. Porém, com linhas tortas, tento levar a vida sempre fazendo o meu melhor naquilo que acredito, sem objetivos, apenas vivendo mais um dia como se fosse o último!
+
+
+<!--
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+-->
+
+{{< icon name="download" pack="fas" >}} Baixar meu  {{< staticref "media/biografia.pdf" "newtab" >}}Resumo{{< /staticref >}}.

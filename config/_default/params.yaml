@@ -1,0 +1,143 @@
+# https://wowchemy.com/docs/getting-started/customization/
+theme: earth
+day_night: true
+font: ''
+font_size: L
+site_type: Person
+local_business_type: ''
+org_name: ''
+description: ''
+highlight: yes
+highlight_languages:
+  - r
+  - python
+  - latex
+math: yes
+diagram: no
+privacy_pack: yes
+edit_page:
+  content_dir: ''
+  editable:
+    book: no
+    page: no
+    post: no
+  repo_branch: main
+  repo_url: ''
+show_related:
+  book: yes
+  page: no
+  post: yes
+  project: yes
+  publication: yes
+  talk: yes
+email: ben.deivide@ufsj.edu.br
+phone: +55 (31) 37497316
+address:
+  city: Ouro Branco
+  country: Brasil
+  country_code: BR
+  postcode: 364200-000
+  region: MG
+  street: 'Rod.: MG 443, KM 7 Ouro Branco - MG'
+coordinates:
+  latitude: '-20.52206'
+  longitude: '-43.74496'
+directions: CAP/UFSJ, sala 103 bloco 2
+office_hours: []
+contact_links:
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/bendeivide
+    name: Sigma-se!
+  - icon: instagram
+    icon_pack: fab
+    link: https://instagram.com/bendeivide
+    name: Sigma-se!
+  - icon: facebook
+    icon_pack: fab
+    link: https://facebook.com/bendeivide
+    name: Sigma-se!
+  - icon: youtube
+    icon_pack: fab
+    link: https://youtube.com/bendeivide
+    name: Se inscreva!
+  - icon: telegram
+    icon_pack: fab
+    link: https://t.me/bendeivide
+    name: Me telegrame
+sharing_image: ''
+twitter: '@bendeivide'
+date_format: Jan 2, 2006
+time_format: 3:04 PM
+address_format: pt-br
+main_menu:
+  align: l
+  enable: yes
+  highlight_active_link: yes
+  show_day_night: yes
+  show_language: no
+  show_logo: yes
+  show_search: yes
+reading_time: yes
+section_pager: no
+docs_section_pager: yes
+sharing: yes
+copyright_license:
+  allow_commercial: no
+  allow_derivatives: yes
+  enable: yes
+  notice: Este trabalho está sob a licença Creative Commons {license}
+  share_alike: no
+abstract_length: 135
+plugins_js: []
+avatar:
+  gravatar: no
+  shape: circle
+publications:
+  citation_style: apa
+  date_format: January 2006
+projects:
+  post_view: 2
+  publication_view: 2
+  talk_view: 2
+breadcrumb:
+  page_types:
+    book: yes
+comments:
+  commentable:
+    docs: yes
+    page: yes
+    post: yes
+    project: yes
+    publication: yes
+    talk: yes
+  commento:
+    url: ''
+  disqus:
+    shortname: bendeivide
+    show_count: yes
+  engine: 0
+search:
+  provider: wowchemy
+  wowchemy:
+    min_length: 1
+    threshold: 0.3
+  algolia:
+    api_key: ''
+    app_id: ''
+    index_name: ''
+    show_logo: no
+  engine: 1
+map:
+  api_key: ''
+  engine: 2
+  zoom: 15
+marketing:
+  google_analytics: UA-183980834-4
+  google_site_verification: ''
+  google_tag_manager: ''
+cms:
+  netlify_cms: no
+icon:
+  pack:
+    ai: yes

@@ -1,0 +1,46 @@
+---
+title: 💻 Estatística Computacional (UFSJ)
+linkTitle: Est & Comp (UFSJ)
+summary: O curso de Estatística Computacional é voltado para os alunos dos cursos de Engenharias da UFSJ, campus Alto Paraopeba (CAP). 
+date: "2022-03-13 17:57:52"
+type: book
+categories: ["R", "Estatística", "Probabilidade", "Programação"]
+tags: ["Curso"]
+---
+
+{{< figure src="featured.png" >}}
+
+{{< toc hide_on="xl" >}}
+
+## O que você aprenderá
+
+- Ambiente R
+- Estatística Básica
+- Probabilidade
+- Regressão Linear
+- Análise de Variância
+- Simulação 
+- Otimização
+
+## Visão geral do curso
+
+
+## Módulos nesse curso
+
+{{< list_children >}}
+
+## Encontre seu instrutor
+
+{{< mention "admin" >}}
+
+## FAQs
+
+{{< spoiler text="Quais são os pré-requisitos?" >}}
+A disciplina de [Estatística e Probabilidade]({{< relref "/courses/epaec/" >}}).
+{{< /spoiler >}}
+
+{{< spoiler text="Com que frequência os cursos acontecem ?" >}}
+Continuamente, em seu próprio ritmo. 
+{{< /spoiler >}}
+
+{{< cta cta_text="Comece o curso" cta_link="normal" >}}

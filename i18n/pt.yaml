@@ -1,0 +1,262 @@
+# Navigation
+
+- id: toggle_navigation
+  translation: Toggle navigation
+
+- id: table_of_contents
+  translation: Sumário
+
+- id: on_this_page
+  translation: Sumário
+
+- id: back_to_top
+  translation: Back to top
+
+- id: home
+  translation: Biografia
+
+- id: close
+  translation: Close
+
+- id: languages
+  translation: Languages
+
+# General
+
+- id: related
+  translation: Relacionado
+
+- id: minute_read
+  translation: min read
+
+- id: previous
+  translation: Anterior
+
+- id: next
+  translation: Próximo
+
+- id: figure
+  translation: 'Figure %d:'
+
+- id: edit_page
+  translation: Edit this page
+
+# Themes
+
+- id: theme_selector
+  translation: Display preferences
+
+- id: theme_light
+  translation: Light
+
+- id: theme_dark
+  translation: Dark
+
+- id: theme_auto
+  translation: Automatic
+
+# Buttons
+
+- id: btn_preprint
+  translation: Preprint
+
+- id: btn_pdf
+  translation: PDF
+
+- id: btn_cite
+  translation: Cite
+
+- id: btn_slides
+  translation: Slides
+
+- id: btn_video
+  translation: Video
+
+- id: btn_code
+  translation: Code
+
+- id: btn_dataset
+  translation: Dataset
+
+- id: btn_project
+  translation: Project
+
+- id: btn_poster
+  translation: Poster
+
+- id: btn_source
+  translation: Source Document
+
+- id: btn_copy
+  translation: Copy
+
+- id: btn_download
+  translation: Download
+
+# About widget
+
+- id: interests
+  translation: Interesses
+
+- id: education
+  translation: Educação
+
+- id: user_profile_latest
+  translation: Latest
+
+# Accomplishments widget
+
+- id: see_certificate
+  translation: Veja certificado
+
+# Experience widget
+
+- id: present
+  translation: Present
+
+# Pages widget
+
+- id: more_pages
+  translation: Tudo
+
+- id: more_posts
+  translation: See all posts
+
+- id: more_talks
+  translation: See all events
+
+- id: more_publications
+  translation: See all publications
+
+# Contact widget
+
+- id: contact_name
+  translation: Nome
+
+- id: contact_email
+  translation: Email
+
+- id: contact_message
+  translation: Mensagem
+
+- id: contact_send
+  translation: Enviar
+
+- id: book_appointment
+  translation: Book an appointment
+
+# Publication/Event details
+
+- id: abstract
+  translation: Resumo
+
+- id: publication
+  translation: Publicação
+
+- id: publication_type
+  translation: Tipo
+
+- id: date
+  translation: Data
+
+- id: last_updated
+  translation: Última atualização em
+
+- id: event
+  translation: Evento
+
+- id: location
+  translation: Localização
+
+- id: pub_uncat
+  translation: Sem categoria
+
+- id: pub_conf
+  translation: Trabalhos de congresso
+
+- id: pub_journal
+  translation: Artigos
+
+- id: pub_preprint
+  translation: Preprint
+
+- id: pub_report
+  translation: Relatório
+
+- id: pub_book
+  translation: Livros
+
+- id: pub_book_section
+  translation: Capítulo de livro
+
+- id: pub_thesis
+  translation: Tese
+
+- id: pub_patent
+  translation: Patente
+
+# Project details
+
+- id: open_project_site
+  translation: Vá para  site do projeto
+
+# Content types for default archive page titles and search results
+
+- id: posts
+  translation: Postagens
+
+- id: publications
+  translation: Publicações
+
+- id: talks
+  translation: Eventos
+
+- id: projects
+  translation: Projetos
+
+- id: slides
+  translation: Slides
+
+- id: authors
+  translation: Autores
+
+# Search
+
+- id: search
+  translation: Pesquisa
+
+- id: search_placeholder
+  translation: Pesquisa...
+
+- id: search_results
+  translation: results found
+
+- id: search_no_results
+  translation: No results found
+
+- id: search_common_queries
+  translation: Common searches
+
+# Error 404
+
+- id: page_not_found
+  translation: Page not found
+
+- id: 404_recommendations
+  translation: Perhaps you were looking for one of these?
+
+# Cookie consent
+
+- id: cookie_message
+  translation: This website uses cookies to ensure you get the best experience on our website.
+
+- id: cookie_dismiss
+  translation: Got it!
+
+- id: cookie_learn
+  translation: Learn more
+
+# Published with
+
+- id: published_with
+  translation: Published with {wowchemy} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.

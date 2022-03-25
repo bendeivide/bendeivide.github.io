@@ -1,0 +1,43 @@
+---
+title: 💻 Curso R
+linkTitle: Curso R
+summary: O curso R não tem como objetivo principal de ensinar análise de dados. Mas sim, proporcionar a você um conhecimento sobre a linguagem R, de modo que consiga usufruir todos os recursos que ela possa lhe proporcionar.
+date: "`r format(Sys.time())`"
+type: book
+categories: ["R", "Curso R"]
+tags: ["Curso R"]
+---
+
+{{< figure src="featured.jpg" >}}
+
+{{< toc hide_on="xl" >}}
+
+## O que você aprenderá
+
+- Tudo que existe no [R](http://r-project.org) é um objeto;
+- Tudo que acontece no [R](http://r-project.org) é uma chamada de função;
+- Interfaces para outros programas são parte do [R](http://r-project.org).
+
+## Visão geral do curso
+
+O primeiro módulo compreenderá um breve **histórico** sobre a linguagem, o conhecimento da **sintaxe** e **semântica** da linguagem `R`, compreendendo as estruturas bases da linguagem, sobre o que é um **objeto** e como construir uma **função**, o entendimento sobre **fluxos de controle**. O que é um **pacote**, **carregar** e **anexar** um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. **Caminhos de busca**, **ambientes** e *namespaces*, teremos noções básicas. Algo muito interessante, que pode mudar a sua vida como programação em `R` são as **boas práticas para a escrita de um código R**, tema também abordado nesse módulo.
+
+## Módulos nesse curso
+
+{{< list_children >}}
+
+## Encontre seu instrutor
+
+{{< mention "admin" >}}
+
+## FAQs
+
+{{< spoiler text="Quais são os pré-requisitos?" >}}
+Não há pré-requisito para o curso.
+{{< /spoiler >}}
+
+{{< spoiler text="Com que frequência os cursos acontecem ?" >}}
+Continuamente, em seu próprio ritmo. 
+{{< /spoiler >}}
+
+{{< cta cta_text="Comece o curso" cta_link="nbasico" >}}

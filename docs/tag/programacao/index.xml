@@ -140,8 +140,8 @@
   &gt;
 
 &lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística computacional&lt;/h1&gt;
-&lt;/br&gt;
-&lt;/br&gt;
+&lt;p&gt;Aula 01 - Apresentação do curso
+&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
   &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
@@ -624,8 +624,8 @@
   &gt;
 
 &lt;h1 id=&#34;estatística-e-probabilidade&#34;&gt;Estatística e Probabilidade&lt;/h1&gt;
-&lt;/br&gt;
-&lt;/br&gt;
+&lt;p&gt;Aula 01 - Apresentação do curso
+&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
   &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
@@ -692,7 +692,7 @@
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;fundo02.png&#34;
+      data-background-image=&#34;cap02.png&#34;
   &gt;
 
 &lt;!-- https://revealjs.com/transitions/ --&gt;
@@ -700,7 +700,7 @@
   &lt;h1&gt;Próximas aulas...&lt;/h1&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/estcomp&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34;&gt;
 
 
 
@@ -740,6 +740,614 @@
 &lt;!-- &lt;/section&gt; --&gt;
 &lt;!-- &lt;section data-auto-animate&gt; --&gt;
 &lt;!--   &lt;h1 style=&#34;margin-top: 100px; color: red;&#34;&gt;Auto-Animate&lt;/h1&gt; --&gt;
+&lt;!-- &lt;/section&gt; --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística e Probabilidade</title>
+      <link>http://bendeivide.github.io/slides/estprob/s02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estprob/s02/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-e-probabilidade&#34;&gt;Estatística e Probabilidade&lt;/h1&gt;
+&lt;p&gt;Aula 02 - Definições gerais e técnicas de somatório
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34;&gt;Estatística e Probabilidade&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s02/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp 400w,
+               /slides/estprob/s02/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_28a718b08e0f1b8193cec5ac4d8216a2.webp 760w,
+               /slides/estprob/s02/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp&#34;
+               width=&#34;384&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;!-- https://revealjs.com/transitions/ --&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
+  &lt;h2&gt;Introdução&lt;/h2&gt;
+  &lt;p&gt; Nossa vida atual é assim hoje ... &lt;/p&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_0769bc3bdb3596bca3f6a01e3f6b0394.webp 400w,
+               /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_198182e3dda60929a57504574af4d842.webp 760w,
+               /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_0769bc3bdb3596bca3f6a01e3f6b0394.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Introdução&lt;/h2&gt;
+&lt;p&gt; Nossa vida atual é assim hoje ... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/dados_hu887ba6b7f9c0e641f75b5f82feacab54_163105_453a07f9082a2771b97ce6d020dc4ec8.webp 400w,
+               /slides/estprob/s02/dados_hu887ba6b7f9c0e641f75b5f82feacab54_163105_1d078c7aaef4a058d23d40388727b8be.webp 760w,
+               /slides/estprob/s02/dados_hu887ba6b7f9c0e641f75b5f82feacab54_163105_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/dados_hu887ba6b7f9c0e641f75b5f82feacab54_163105_453a07f9082a2771b97ce6d020dc4ec8.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Introdução&lt;/h2&gt;
+&lt;p&gt; Usamos para tudo ... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/emojis_huf8050f69e6ce2d326df2bbe686aea7ea_72356_5f58a4399a031452fdf2f7b4567ce22a.webp 400w,
+               /slides/estprob/s02/emojis_huf8050f69e6ce2d326df2bbe686aea7ea_72356_ea8f7f14ad53afdff9b10b7854945999.webp 760w,
+               /slides/estprob/s02/emojis_huf8050f69e6ce2d326df2bbe686aea7ea_72356_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/emojis_huf8050f69e6ce2d326df2bbe686aea7ea_72356_5f58a4399a031452fdf2f7b4567ce22a.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Introdução&lt;/h2&gt;
+&lt;p&gt; Pesquisar ... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/searching_hu749c487df7c6eff3fe551052b606a39d_94218_979a7958ebfc5597f19575ecd9f05006.webp 400w,
+               /slides/estprob/s02/searching_hu749c487df7c6eff3fe551052b606a39d_94218_4f5e7490b68d33a29e8fb42d353e8930.webp 760w,
+               /slides/estprob/s02/searching_hu749c487df7c6eff3fe551052b606a39d_94218_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/searching_hu749c487df7c6eff3fe551052b606a39d_94218_979a7958ebfc5597f19575ecd9f05006.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Introdução&lt;/h2&gt;
+&lt;p&gt; Contratempos ... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/quebrando_pc_hub4a3ac35862bea0b486522facdebe990_189986_dd3a418c0515058ffb1d8bd7f924ff87.webp 400w,
+               /slides/estprob/s02/quebrando_pc_hub4a3ac35862bea0b486522facdebe990_189986_d8e1aa3e09274d0d674507d64e36b02f.webp 760w,
+               /slides/estprob/s02/quebrando_pc_hub4a3ac35862bea0b486522facdebe990_189986_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/quebrando_pc_hub4a3ac35862bea0b486522facdebe990_189986_dd3a418c0515058ffb1d8bd7f924ff87.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;!-- https://revealjs.com/transitions/ --&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
+  &lt;h2&gt;Dados&lt;/h2&gt;
+  &lt;p&gt; Em meio a tudo isso, uma coisa acontece ... &lt;/p&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_7684bd630a966bea4c66d8f3e27710af.webp 400w,
+               /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_88e47f38d0b957e637a120fc53fed28d.webp 760w,
+               /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_7684bd630a966bea4c66d8f3e27710af.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Dados&lt;/h2&gt;
+&lt;p&gt; Essas informações são processadas ... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/infra_comp_hub6808cefc104d832c78f51c1fe99f225_205407_d992efe6d9441dba596dd57504563239.webp 400w,
+               /slides/estprob/s02/infra_comp_hub6808cefc104d832c78f51c1fe99f225_205407_cc5813b7ab49e6ce51f87ec864d8bd40.webp 760w,
+               /slides/estprob/s02/infra_comp_hub6808cefc104d832c78f51c1fe99f225_205407_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/infra_comp_hub6808cefc104d832c78f51c1fe99f225_205407_d992efe6d9441dba596dd57504563239.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Dados&lt;/h2&gt;
+&lt;p&gt; Analisadas ... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/exp_user_hu8f5c0e0d7f084260f0d10501891b1393_29133_6ef8d184a5fe1679c0d6b7abc1011d81.webp 400w,
+               /slides/estprob/s02/exp_user_hu8f5c0e0d7f084260f0d10501891b1393_29133_87aaaa3da49d73051be18accb8582e5a.webp 760w,
+               /slides/estprob/s02/exp_user_hu8f5c0e0d7f084260f0d10501891b1393_29133_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/exp_user_hu8f5c0e0d7f084260f0d10501891b1393_29133_6ef8d184a5fe1679c0d6b7abc1011d81.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Dados&lt;/h2&gt;
+&lt;p&gt; E assim, todos esses dados ... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/analise02_hu9ea620b0e1d37040944340d01dd78f2b_515291_8778f4bc4322cd248911f541b900c98e.webp 400w,
+               /slides/estprob/s02/analise02_hu9ea620b0e1d37040944340d01dd78f2b_515291_7a54132dfe8825d6cab37da7f5bfd4ed.webp 760w,
+               /slides/estprob/s02/analise02_hu9ea620b0e1d37040944340d01dd78f2b_515291_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/analise02_hu9ea620b0e1d37040944340d01dd78f2b_515291_8778f4bc4322cd248911f541b900c98e.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Dados&lt;/h2&gt;
+&lt;p&gt; ... que os usuários repassam ... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+               /slides/estprob/s02/analise03_hub2e1dffd2cc65cb9ada91baab78eae39_412393_ecbf33cd9eab19e34cbc14286fd53e75.webp 400w,
+               /slides/estprob/s02/analise03_hub2e1dffd2cc65cb9ada91baab78eae39_412393_6104309efe8272d3b6d06f70cad0b52b.webp 760w,
+               /slides/estprob/s02/analise03_hub2e1dffd2cc65cb9ada91baab78eae39_412393_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/analise03_hub2e1dffd2cc65cb9ada91baab78eae39_412393_ecbf33cd9eab19e34cbc14286fd53e75.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: gratispng.com
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h1&gt;Dados &gt; \$&lt;/h1&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Dados&lt;/h2&gt;
+&lt;p&gt; E aí, o Vale do silício é o que tem que ser! &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagens-oficinadanetcombr&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: oficinadanet.com.br&#34; srcset=&#34;
+               /slides/estprob/s02/vale_silicio_hu2e878ae56d4a55650a6917f7b07e2ae0_84455_e4d52bf7f5244f20b8c1cbb9bbc42621.webp 400w,
+               /slides/estprob/s02/vale_silicio_hu2e878ae56d4a55650a6917f7b07e2ae0_84455_927ece7d5689dccd421079d10c92cf95.webp 760w,
+               /slides/estprob/s02/vale_silicio_hu2e878ae56d4a55650a6917f7b07e2ae0_84455_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/vale_silicio_hu2e878ae56d4a55650a6917f7b07e2ae0_84455_e4d52bf7f5244f20b8c1cbb9bbc42621.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagens: oficinadanet.com.br
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;!-- https://revealjs.com/transitions/ --&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
+  &lt;h2&gt;Motivação inicial&lt;/h2&gt;
+  &lt;p&gt; Definições gerais da estatística... &lt;/p&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-exemplo-do-livro-epaec&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Exemplo do livro EPAEC&#34; srcset=&#34;
+               /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp 400w,
+               /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_2422affad744e4d2bee6a7971f41e9ec.webp 760w,
+               /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp&#34;
+               width=&#34;830&#34;
+               height=&#34;420&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Exemplo do livro EPAEC
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Motivação inicial&lt;/h2&gt;
+&lt;p&gt; Definições gerais da estatística... &lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-imagem-livro-epaec&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagem: Livro EPAEC&#34; srcset=&#34;
+               /slides/estprob/s02/prodcons_hu5910991e216a6cca12abe1fdcd74a6f7_5529_41d76642fcdda6f48ac510a3ac9a6405.webp 400w,
+               /slides/estprob/s02/prodcons_hu5910991e216a6cca12abe1fdcd74a6f7_5529_18a6dc64c476a8c99164f36faf38e895.webp 760w,
+               /slides/estprob/s02/prodcons_hu5910991e216a6cca12abe1fdcd74a6f7_5529_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/prodcons_hu5910991e216a6cca12abe1fdcd74a6f7_5529_41d76642fcdda6f48ac510a3ac9a6405.webp&#34;
+               width=&#34;530&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Imagem: Livro EPAEC
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;método-científico&#34;&gt;Método Científico&lt;/h2&gt;
+&lt;iframe width=&#34;760&#34; height=&#34;515&#34; src=&#34;https://www.youtube.com/embed/QPeS1v7l6yk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;!-- https://revealjs.com/transitions/ --&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
+  &lt;h2&gt;Definições Gerais da Estatística&lt;/h2&gt;
+  &lt;aside class=&#34;notes&#34;&gt;
+    📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+  &lt;/aside&gt;
+  &lt;iframe width=&#34;760&#34; height=&#34;515&#34; src=&#34;https://www.youtube.com/embed/mASLUwyaC5Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Definições Gerais da Estatística&lt;/h2&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+    📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+  &lt;/aside&gt;
+&lt;iframe width=&#34;760&#34; height=&#34;515&#34; src=&#34;https://www.youtube.com/embed/xvORKHMVUr8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;natureza-das-variáveis&#34;&gt;Natureza das variáveis&lt;/h2&gt;
+&lt;iframe width=&#34;760&#34; height=&#34;515&#34; src=&#34;https://www.youtube.com/embed/LIg6uLzCRmU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;técnicas-de-somatório&#34;&gt;Técnicas de Somatório&lt;/h2&gt;
+  &lt;aside class=&#34;notes&#34;&gt;
+    📝 Fazer alguns exemplos na sala digital (Smoothdraw)
+  &lt;/aside&gt;
+&lt;iframe width=&#34;760&#34; height=&#34;515&#34; src=&#34;https://www.youtube.com/embed/tWCxCyZZHes&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;!-- https://revealjs.com/transitions/ --&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
+  &lt;h2&gt;Próximas aulas...&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-bendeividegithubio&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bendeivide.github.io&#34; srcset=&#34;
+               /slides/estprob/s02/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_9874465d53bdf0497f3fca0b3e4f7def.webp 400w,
+               /slides/estprob/s02/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_6df1b03570c9affce3a58c416af79d7c.webp 760w,
+               /slides/estprob/s02/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_9874465d53bdf0497f3fca0b3e4f7def.webp&#34;
+               width=&#34;630&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      bendeivide.github.io
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;!-- &lt;section&gt; --&gt;
+&lt;!--   &lt;h2&gt;Some Slide&lt;/h2&gt; --&gt;
+&lt;!--   &lt;aside class=&#34;notes&#34;&gt; --&gt;
+&lt;!--     Anotações no Visualizador (Clique em S) 📝 --&gt;
+&lt;!--   &lt;/aside&gt; --&gt;
+&lt;!-- &lt;/section&gt; --&gt;
+&lt;!-- ## Animação --&gt;
+&lt;!-- &lt;section data-auto-animate&gt; --&gt;
+&lt;!--   &lt;h2&gt;Auto-Animate&lt;/h2&gt; --&gt;
+&lt;!-- &lt;/section&gt; --&gt;
+&lt;!-- &lt;section data-auto-animate&gt; --&gt;
+&lt;!--   &lt;h2 style=&#34;margin-top: 100px; color: red;&#34;&gt;Auto-Animate&lt;/h2&gt; --&gt;
 &lt;!-- &lt;/section&gt; --&gt;
 </description>
     </item>

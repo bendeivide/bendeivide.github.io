@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 22 Mar 2022 14:09:23 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 22 Mar 2022 23:06:31 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
-      <pubDate>Tue, 22 Mar 2022 08:14:52 +0000</pubDate>
+      <pubDate>Tue, 22 Mar 2022 23:06:31 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -177,11 +177,11 @@
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
-&lt;p&gt;Nossas aulas serão divididas de acordo com as 14 semanas de aula.&lt;/p&gt;
+&lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula.&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
   &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja feito por parte do aluno. Ele será o protagonista. Dessa forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;, criaremos mapas mentais (&lt;a href=&#34;https://app.lucidchart.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://app.lucidchart.com&lt;/a&gt;) para nossas aulas, dentre outras técnicas, para que nesse momento fique mais claro e objetivo o assunto proposto.&lt;/p&gt;
-&lt;p&gt;Nossas aulas são postadas pelos canais do youtube (&lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;), portal didático da disciplina, repositório GitHub (&lt;a href=&#34;http://github.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/bendeivide&lt;/a&gt;), alocaremos nas páginas (&lt;a href=&#34;http://ufsj.edu.br/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ufsj.edu.br/bendeivide&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;), facebook (Ben Deivide), e instagram (&lt;a href=&#34;https://www.instagram.com/bendeivide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@bendeivide&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Nossas aulas estão disponíveis pelos canais do youtube (&lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;), portal didático da disciplina, repositório GitHub (&lt;a href=&#34;http://github.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/bendeivide&lt;/a&gt;), alocaremos nas páginas (&lt;a href=&#34;http://ufsj.edu.br/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ufsj.edu.br/bendeivide&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;), facebook (Ben Deivide), e instagram (&lt;a href=&#34;https://www.instagram.com/bendeivide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@bendeivide&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas&lt;/strong&gt;, e &lt;strong&gt;2 (duas) horas de aulas teóricas&lt;/strong&gt; e &lt;strong&gt;2 (duas) horas de aulas práticas&lt;/strong&gt;, &lt;strong&gt;totalizando em 36h de aulas teóricas e 36h de aulas práticas, um total de 72h&lt;/strong&gt;. Estas últimas serão destinadas a dúvidas e resolução de exercícios. Usaremos também o canal do youtube (lives), como também o google Meet. Os horários das lives, acordaremos com os alunos, para que marquemos um horário em que grande maioria possa comparecer. De toda forma, gravaremos essas aulas, para que os demais possam também assisti. Todas as demais informações serão repassadas na primeira semana de aula.&lt;/p&gt;
 &lt;p&gt;Irei utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que darei todo o suporte para os alunos, de forma que estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
 &lt;/p&gt;

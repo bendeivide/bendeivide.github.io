@@ -1,0 +1,89 @@
+---
+title: Pacote midrangeMCP
+summary: Um pacote R que apresenta quatros procedimentos de comparações múltiplas baseadas na distribuição da midrange estudentizada externamente
+tags:
+- midrangeMCP
+date: "`r format(Sys.time())`"
+
+# Optional external URL for project (replaces project detail page).
+#external_link: "https://bendeivide.github.io/midrangeMCP/"
+
+
+image:
+  caption: Foto criada por Ben Dêivide
+  focal_point: Smart
+
+links:
+- icon: github
+  icon_pack: fab
+  name: Acesse o projeto
+  url: https://github.com/bendeivide/midrangeMCP
+- icon: r-project
+  icon_pack: fab
+  name: Acesse-o no CRAN
+  url: http://cran.r-project.org/package=midrangeMCP
+- icon: twitter
+  icon_pack: fab
+  name: Siga-me
+  url: https://twitter.com/bendeivide
+- icon: facebook
+  icon_pack: fab
+  name: Siga-me
+  url: https://facebook.com/bendeivide
+- icon: instagram
+  icon_pack: fab
+  name: Siga-me
+  url: https://instagram.com/bendeivide
+- icon: youtube
+  icon_pack: fab
+  name: Se inscreva
+  url: https://youtube.com/bendeivide
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+#slides: example
+slides: ""
+
+# Remove various "share" icons for portfolio widget
+# Eles ficam em theme/starter-academic/data/page_sharer.toml
+# Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
+share: true
+---
+
+## Objetivo
+
+O pacote [midrangeMCP](https://bendeivide.github.io/midrangeMCP/) apresenta quatro procedimentos de comparações múltiplas (PCMs), testes TM, SNKM, MGM e MGR. Os três primeiros baseados na [distribuição da *midrange* estudentizada externamente de uma população normal](https://www.scielo.br/scielo.php?script=sci_abstract&pid=S1413-70542017000400378&lng=en&nrm=iso&tlng=pt). O último teste é baseado numa distribuição largamente utilizada no desenvolvimento de PCMs, que é a distribuição da amplitude estudentizada de um população normal. A diferença entre os testes que se baseiam nessa distribuição com o teste MGR, é que este teste foi desenvolvido por meio de métodos de agrupamento, e portanto, não apresenta o problema de ambiguidade de resultados como apresentado nos resultados de muitos PCMs.
+
+## Origem do projeto
+
+O projeto foi originado pela teste por uma sequência de trabalhos. A primeira ideia foi originada da dissertação intitulada [Distribuição exata da midrange estudentizada externamente da normal e desenvolvimento de uma biblioteca R utilizando Quadratura Gaussiana](http://repositorio.ufla.br/bitstream/1/753/1/DISSERTA%c3%87%c3%83O_Distribui%c3%a7%c3%a3o%20exata%20da%20midrange%20estudentizada%20externamente%20da%20normal%20e%20desenvolvimento%20de%20uma%20biblioteca%20R%20utilizando%20Quadratur.pdf), de autoria de [Ben Dêivide de Oliveira Batista](http://bendeivide.github.io/), orientada pelo Prof. [Daniel Furtado Ferreira](https://des.ufla.br/~danielff/). A sequência desse trabalho foi a tese [Testes de comparações múltiplas baseados na distribuição da midrange estudentizada externamente](http://repositorio.ufla.br/bitstream/1/11466/2/TESE_Testes%20de%20compara%c3%a7%c3%b5es%20m%c3%baltiplas%20baseados%20na%20distribui%c3%a7%c3%a3o%20da%20midrange%20estudentizada%20externamente.pdf), e que este último teve como um dos objetivos o pacote [midrangeMCP](https://bendeivide.github.io/midrangeMCP/). Todo esse trabalho foi realidado durante a Pós-Graduação feita pela [Universidade Federal de Lavras](http://ufla.br/)
+
+## Membros
+
+- [Diego Arthur Bispo Justino de Oliveira](https://digoarthur.github.io/)
+- [Ben Dêivide de Oliveira Batista](http://bendeivide.github.io/)
+- [Daniel Furtado Ferreira](https://des.ufla.br/~danielff/)
+
+## Onde encontrar o projeto
+
+O pacote se encontra sob o [CRAN](http://cran.r-project.org/package=midrangeMCP), e suas alterações estão sendo atualizadas no repositório [GitHub](https://github.com/bendeivide/midrangeMCP). Para maiores detalhes, acesse a [página do pacote](https://bendeivide.github.io/midrangeMCP/).
+
+## Publicações
+
+- [Distribuição da *midrange* estudentizada externamente de uma população normal](http://repositorio.ufla.br/bitstream/1/29962/1/ARTIGO_Externally%20studentized%20normal%20midrange%20distribution.pdf)
+- [Testes TM e SNKM](https://www.scielo.br/scielo.php?pid=S1413-70542020000100240&script=sci_arttext)
+- [Publicação do pacote no CRAN](http://cran.r-project.org/package=midrangeMCP)
+- O artigo dos testes MGM e MGR estão em desenvolvimento
+- O artigo do pacote ao *The R Journal* está em desenvolvimento
+
+## Contribuições ainda a serem realizadas
+
+O pacote encontra-se estável, e para finalizá-lo estamos corrigindo alguns *bugs* com relação a saída dos gráficos do resultado dos testes na GUI do pacote, bem como alguns acréscimos de programação defensiva também na GUI. Outro ponto que está em fase final é o *vignette* do pacote. 

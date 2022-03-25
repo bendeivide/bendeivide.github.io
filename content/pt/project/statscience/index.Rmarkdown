@@ -1,0 +1,87 @@
+---
+title: Pacote statscience
+summary: Um pacote R para análise de dados
+tags:
+- statscience
+date: "`r format(Sys.time())`"
+
+# Optional external URL for project (replaces project detail page).
+#external_link: "https://bendeivide.github.io/statscience/"
+external_link: ""
+
+image:
+  caption: Foto criada por Ben Dêivide
+  focal_point: Smart
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Siga-me
+  url: https://twitter.com/bendeivide
+- icon: facebook
+  icon_pack: fab
+  name: Siga-me
+  url: https://facebook.com/bendeivide
+- icon: instagram
+  icon_pack: fab
+  name: Siga-me
+  url: https://instagram.com/bendeivide
+- icon: github
+  icon_pack: fab
+  name: Acesse o projeto
+  url: https://github.com/bendeivide/statscience
+- icon: youtube
+  icon_pack: fab
+  name: Se inscreva
+  url: https://youtube.com/bendeivide
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+#slides: example
+slides: ""
+
+# Remove various "share" icons for portfolio widget
+# Eles ficam em theme/starter-academic/data/page_sharer.toml
+# Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
+share: true
+---
+
+## Objetivo 
+
+O projeto do pacote [statscience](https://bendeivide.github.io/statscience/) está em fase de desenvolvimento, e tem por objetivo de apresentar as principais técnicas de análises de dados na área da Estatística. Seguem alguns dos tópicos abordados:
+
+- Estatística Experimental;
+- Procedimento de Comparações múltiplas;
+- Modelos de Regressão linear e Não Linear;
+- Modelos Lineares Generalizado;
+- Estatística Multivariada;
+- Estatística Espacial;
+- Análise Bayesiana;
+- Análise exploratória de dados;
+- Dentre outros temas
+
+O projeto está baseado no ambiente [R](http://r-project.org) de programação, isto é, toda a programação na análise de dados. Contudo, queremos deixar o pacote intuitivo para não programadores, e sim, usuários da ferramenta estatistica. Para isso, criaremos duas interfaces gráficas ao usuário, uma baseada na linguagem [Tcl/Tk](http://tcl.tk/) e outra via *web* (usando o [React](https://pt-br.reactjs.org/)). Para esse último, a ideia é tornar o usuário totalmente independente de instalação e sistema operacional, do qual só será necessário ter internet e acessar o link do projeto. A escolha da linguagem [Tcl/Tk](http://tcl.tk/) é devido a integramação com o [R](http://r-project.org), uma vez que já existe o pacote `tcltk` integrada na base de instalação do prórpio ambiente. 
+
+## Membros do projeto
+
+Os membros do projeto se distribui de acordo com as demandas de trabalho:
+
+- Implementação dos algoritmos para as análises estatísticas:
+  - [Ben Dêivide de O. Batista (UFSJ)](http://bendeivide.github.io/) (Estatística Experimental e Procedimentos de Comparações múltiplas)
+  - [Henrique  josé de Paula Alves (IPEA)](http://lattes.cnpq.br/1676599123972157) (Estatística Espacial)
+  - ...
+- Interface Gráfica ao usuário:
+  - [Fernando Augusto Teixeira (UFSJ)](http://lattes.cnpq.br/5103890188106141) (*Frontend* usando o [React](https://pt-br.reactjs.org/))
+  - ...
+
+## Parcerias
+
+Estamos buscando parcerias, sempre com a finalidade de propagação de conhecimento. Queremos auxiliar a ciência de um modo geral. Portanto, esse projeto é de código aberto e qualquer um poderá contribuir. Para fazer parte desse projeto, entre em contato por [email](https://bendeivide.github.io/#contact), descrevendo a área em que poderá nos auxiliar. Será um imenso prazer compartilharmos as nossas experiências nesse projeto.

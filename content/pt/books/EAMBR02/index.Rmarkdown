@@ -1,0 +1,81 @@
+---
+title: Estudando o ambiente R
+subtitle: Volume II - Nível Intermediário
+summary: Livro em desenvolvimento
+tags:
+- bookeambr
+categories: ["R"]
+date: "`r format(Sys.time())`"
+
+# Optional external URL for project (replaces project detail page).
+# external_link: "https://bendeivide.github.io/cdec/"
+external_link: ""
+
+image:
+  caption: Foto criada por Ben Dêivide
+  focal_point: Smart
+
+links:
+- icon: book-open
+  icon_pack: fas
+  name: Bookdown
+  url: https://bendeivide.github.io/book-eambr02/
+- icon: file-pdf
+  icon_pack: fas
+  name: PDF
+  url: https://bendeivide.github.io/book-eambr02/book-eambr02.pdf
+- icon: github
+  icon_pack: fab
+  name: Acesse o projeto
+  url: https://github.com/bendeivide/book-eambr02
+- icon: twitter
+  icon_pack: fab
+  name: Siga-me
+  url: https://twitter.com/bendeivide
+- icon: facebook
+  icon_pack: fab
+  name: Siga-me
+  url: https://facebook.com/bendeivide
+- icon: instagram
+  icon_pack: fab
+  name: Siga-me
+  url: https://instagram.com/bendeivide
+- icon: youtube
+  icon_pack: fab
+  name: Se inscreva
+  url: https://youtube.com/bendeivide
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+#slides: example
+slides: ""
+
+# Remove various "share" icons for portfolio widget
+# Eles ficam em theme/starter-academic/data/page_sharer.toml
+# Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
+share: true
+---
+
+A coleção *Estudando o ambiente R* é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.
+
+Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que *aprender por ensinar*. E assim, lotado no Departamento de Estatística, Física e Matemática ([DEFIM](http://defim.ufsj.edu.br/), campus Alto Paraopeba, pela Universidade Federal de São João del-Rei ([UFSJ](https://www.ufsj.edu.br/)), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.
+
+A ideia desse curso foi apresentar algo diferente relacionado a maioria dos cursos em R, que foi sempre apresentar essa ferramenta dentro dos conceitos da área da Estatística. Apesar de uma coisa ser intrínseca a outra, há muitas particularidades no ambiente R que são complexos, e muitas vezes julgados erroneamente. Um dos exemplos clássicos é que *loops* em R são lentos e com alto gasto de memória, quando na realiadade, isso ocorre muitas vezes pelo não entendimento do sistema de cópia de objetos nesse ambiente. Ainda mais, o entendimento desses cursos é agravado porque o entendimento sobre a estatística além de um cunho matemático, tem o seu cunho filosófico de como as metodologias foram desenvolvidas, e o entendimento mútuo da Estatística e o ambiente R, podem não ter o conhecimento real que essa potencial ferramenta pode proporcionar, uma vez que muitos assuntos complexos podem estar envolvidos em uma única aula.
+
+Assim, desenvolvemos na coleção *Estudando o ambiente R* os três volumes iniciais, referentes a apenas a linguagem R, sendo *Volume I: Nível Básico*, *Volume II: Nível Intermediário* e *Volume III: Nível Avançado*. Fazendo a alusão dos três livros iniciais sobre a linguagem S de John Chambers, faremos uma explanação sobre assuntos de menor complexidade até noções mais complexas sobre o ambiente R, restringindo apenas a sintaxe e semântica da linguagem. Os volumes subsequentes serão destinados a *Documentações no R*, *Desenvolvimento de pacote R*, *Gráficos*, *Banco de dados*, *Interface Gráfica ao Usuário*, *Interface R com outras linguagens*, *Programação Orientada a Objetos*, *Funções do pacote base*, dentre outros.
+
+A parceria desse livro está idealizado com o Pesquisador [Henrique José de Paula Alves](https://henriquealves21.github.io/) (IPEA).
+
+O volume II é introduzido com uma maior caracterização do ambiente R quanto ao seu __escopo léxico__, como __linguagem interpretada__, como __programação funcional__, como __programação meta-paradigma__, como __programação dinâmica__; apresentaremos __manipulações de objetos em mais detalhe__, bem como o surgimento de alguns outros objetos como __tibble__, __cópias de objetos__. Uma característica do ambiente R é que a linguagem pode ser __orientada a objetos__ e isso será estudado nesse módulo. Introduziremos ao __desenvolvimento de pacotes R__, e aprofundaremos sobre os __ambientes__. Por fim, mostraremos como desenvolver Projeto do R e integrá-los ao GitHub, e dessa forma, introduziremos sobre o sistema Git.
+
+Esse talvez seja o maior volume, dentre os três iniciais, porque apenar de não precisarmos entender mais a ideia dos objetos, que foram retratadas no Volume I, a inserção dos paradigmas da programação para este volume, trará uma maior riqueza de características para o R, mostrando a sua versatilidade. Também, daremos um maior detalhamento como manipular objetos, e as otimizações existentes da linguagem, como por exemplo, a modificação no local, que se entendida, poderá perceber que o __loop__ no ambiente R não é lento quanto parece. Ao final desse volume, falaremos sobre como propagar o seu código com o sistema Git na plataforma GitHub, sincronizado com os projetos do RStudio.
+
+Por fim, espero que esse segundo volume, juntamente com o Volume I, possa consolidar os conhecimentos sobre o ambiente R.

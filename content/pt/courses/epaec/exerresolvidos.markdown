@@ -1,0 +1,271 @@
+---
+title: ✍️ Exercícios resolvidos para EPAEC
+date: "2021-12-09 14:05:32"
+type: book
+weight: 30
+categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
+tags: ["Curso"]
+draft: false
+---
+
+Projeto aprender por ensinar, do qual apresentamos vídeo-aulas de exercícios resolvidos pelos nossos alunos e monitores da disciplina de **Estatística e Probabilidade** aplicadas às Engenharias e Ciências da [UFSJ](http://ufsj.edu.br).
+
+## Apresentação
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LPANRN0F4Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Ementa
+
+Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ
+
+{{< spoiler text="Acesse a ementa do curso">}}
+1. DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
+   - Introdução
+   - Definições Gerais
+   - Técnicas de somatório
+2. COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
+   - Introdução
+   - Representação tabular
+   - Representação gráfica
+3. MEDIDAS DE POSIÇÃO:
+   - Introdução
+   - Média
+   - Mediana
+   - Moda
+4. MEDIDAS DE DISPERSÃO:
+   - Introdução
+   - Amplitude total
+   - Variância
+   - Desvio Padrão
+   - Coeficiente de Variação
+   - Erro padrão da Média
+5. PROBABILIDADES:
+   - Conceitos básicos
+   - Definições de probabilidades
+   - Propriedades
+   - Eventos independentes e probabilidade condicional
+   - Teorema de Bayes
+   - Função de probabilidade discreta
+   - Função de probabilidade contínua
+   - Função de distribuição de probabilidade acumulada
+   - Esperança matemática e variância
+6. DISTRIBUIÇÕES DE PROBABILIDADES:
+   - Introdução
+   - Distribuições discretas de probabilidades
+   - Distribuições contínuas de probabilidades
+7. AMOSTRAGEM:
+   - Introdução
+   - Amostragem não-probabilística e probabilística
+   - Técnicas de amostragem probabilística
+8. DISTRIBUIÇÃO DE AMOSTRAGEM:
+   - Introdução
+   - Distribuição de amostragem da média
+   - Distribuição de amostragem de proporções
+   - Distribuição de amostragem de diferença entre médias
+   - Distribuições amostrais (qui-quadrado, t e F)
+9. TEORIA DA ESTIMAÇÃO:
+   - Introdução
+   - Conceitos básicos
+   - Tipos de estimativas
+   - Propriedades de um estimador
+   - Estimação por ponto
+   - Estimação por intervalo:
+     - Intervalo de confiança para a média
+     - Intervalo de confiança para a variância
+     - Intervalo de confiança para a diferença entre médias
+   - Dimensionamento de amostras
+10. TEORIA DA DECISÃO:
+    - Introdução
+    - Testes de hipóteses
+    - Erros tipo I e II
+    - Teste unilateral e bilateral
+    - Passos para a construção de um teste de hipóteses
+    - Teste de hipóteses para a média
+    - Teste de hipóteses para a proporção
+    - Teste de hipóteses para a variância
+    - Teste de hipóteses para a diferença entre médias
+11. CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
+    - Introdução
+    - Correlação linear:
+    - Coeficiente de correlação linear
+    - Teste de hipóteses acerca do coeficiente de correlação linear
+    - Regressão linear simples:
+    - Modelo
+    - Estimação dos parâmetros do modelo
+    - Teste de hipóteses para o modelo de regressão
+    - Medidas de adequação do modelo
+{{< /spoiler >}}
+
+## Exercícios Resolvidos por assunto
+
+{{< spoiler text="Vídeo-aulas sobre o Capítulo 1">}}
+
+### ER0001 - Definições básicas: População, Amostra e Variável
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MK1_GE5GajM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0003 - Técnicas de somatório
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dfpBtvWn-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0013 - Tabulação e técnicas de somatório
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fk9MH7qHAYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Vídeo-aulas sobre o Capítulo 2">}}
+
+### ER0004 - Distribuições de frequência
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/__rHs-Lqq1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Vídeo-aulas sobre o Capítulo 3">}}
+
+### ER0005 - Medidas de Posição
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l8b5g1ELAw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Vídeo-aulas sobre o Capítulo 4">}}
+### ER0006 - Medidas de Dispersão: Amplitude
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jMhxClWoJTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0009 - Medidas de dispersão
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q67RgKF_Kd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Vídeo-aulas sobre o Capítulo 5">}}
+### ER0007 - Probabilidade
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7mCx1StP6xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0008 - Probabilidade (Parte II)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oynHT8CFKuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0014 - Probabilidade (Parte III)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4d5jD0mN4W0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0016 - Probabilidade (Parte IV)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vo3_Fe4WL4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0017 - Probabilidade (Parte V)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6Knw57qU8PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /spoiler >}}
+
+
+
+{{< spoiler text="Vídeo-aulas sobre o Capítulo 6">}}
+
+### ER0002 - Distribuição Bernoulli
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ThpaNllq7zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0011 - Distribuição Binomial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JWxiKiETuEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0012 - Distribuições de probabilidade
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5jRbR9yExS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0015 - Distribuição Normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sbXV_n-Qr1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Vídeo-aulas sobre o Capítulo 7">}}
+
+### ER0010 - Amostragem sem reposição
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ixb-hjWn0GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /spoiler >}}
+
+## Exercícios Resolvidos por data de publicação
+
+{{< spoiler text="Vídeo-aulas por data de publicação">}}
+
+### ER0001 - Definições básicas: População, Amostra e Variável
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MK1_GE5GajM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0002 - Distribuição Bernoulli
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ThpaNllq7zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0003 - Técnicas de somatório
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-dfpBtvWn-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0004 - Distribuições de frequência
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/__rHs-Lqq1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0005 - Medidas de Posição
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l8b5g1ELAw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0006 - Medidas de Dispersão: Amplitude
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jMhxClWoJTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0007 - Probabilidade
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7mCx1StP6xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0008 - Probabilidade (Parte II)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oynHT8CFKuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0009 - Medidas de dispersão
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q67RgKF_Kd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0010 - Amostragem sem reposição
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ixb-hjWn0GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0011 - Distribuição Binomial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JWxiKiETuEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0012 - Distribuições de probabilidade
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5jRbR9yExS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0013 - Tabulação e técnicas de somatório
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fk9MH7qHAYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0014 - Probabilidade (Parte III)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4d5jD0mN4W0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0015 - Distribuição normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sbXV_n-Qr1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0016 - Probabilidade (Parte IV)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vo3_Fe4WL4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0017 - Probabilidade (Parte V)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6Knw57qU8PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+{{< /spoiler >}}

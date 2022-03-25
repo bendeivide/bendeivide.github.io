@@ -1,0 +1,150 @@
+---
+title: Rapidinhas do R
+summary: Uma série de vídeos com dicas sobre o ambiente R
+tags:
+- rapidinhar
+date: "2021-06-30 12:26:51"
+
+# Optional external URL for project (replaces project detail page).
+# external_link: "https://bendeivide.github.io/rapidinhasdor/"
+#external_link: ""
+
+image:
+  caption: Foto criada por Ben Dêivide
+  focal_point: Smart
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Siga-me
+  url: https://twitter.com/bendeivide
+- icon: facebook
+  icon_pack: fab
+  name: Siga-me
+  url: https://facebook.com/bendeivide
+- icon: instagram
+  icon_pack: fab
+  name: Siga-me
+  url: https://instagram.com/bendeivide
+- icon: github
+  icon_pack: fab
+  name: Acesse o projeto
+  url: https://github.com/bendeivide/rapidinhasdor
+- icon: youtube
+  icon_pack: fab
+  name: Se inscreva
+  url: https://youtube.com/bendeivide
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+#slides: example
+slides: ""
+
+# Remove various "share" icons for portfolio widget
+# Eles ficam em theme/starter-academic/data/page_sharer.toml
+# Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
+share: true
+---
+
+## Abertura da série Rapidinhas do R
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7ThNBHuM_hU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Objetivo 
+
+A ideia da série de vídeos **Rapidinhas do R** foi criada com o objetivo de compartilharmos nossas experiências sobre o ambiente R.
+
+## Scripts
+
+Todos os *scripts* apresentados na série estão disponíveis em [Diretório de *Scripts*](https://github.com/bendeivide/rapidinhasdor/tree/main/rapidinhas).
+
+## Playlist da série no Youtube
+
+Segue o link [youtube.com/bendeivide/RapidinhasR](https://youtube.com/playlist?list=PL-20Z1XFWKR1YPXb12UMmXRsAKelZhzca).
+
+## Rapidinhas
+
+### Rapidinhas R (0001): Operadores binários
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BYzeP0zroGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0002): Como desenvolver seu operador 'pipe' (Operador unário)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kQqKcDl0wUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0003):  Atribuição ou superatribuição?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/66dYCoJH9IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0004): Acessando funções internas de um pacote
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VMip8fVUAVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0005): Sincronizando Projeto R/RStudio ao GitHub
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0tYss8T7Mew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0006): Adicionando, comentando e enviando arquivos ao repositório GitHub
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f9NUvS6J5DI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0007): Usando o terminal Bash GitHub no RStudio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nYJkO4454Q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0008): Executando o comando "pull" GitHub no RStudio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YSzS0q6lrgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0009): O que significa o arquivo '.gitignore'?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C9JtFhdQHLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0010): Clonando um repositório pelo terminal GitHub e RStudio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A3C5zPC61UY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0011): Clonando um repositório pelo terminal GitHub e RStudio (Parte II)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0VNFn4rE_Mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0012): Configurando o 'Token' do GitHub no RStudio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6pVikRF7FQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0013): Configurando o 'Token' usando .Renviron (GitHub/RStudio)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5FtccvTSbYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0014): Uso do pacote 'usethis' para a criação de um repositório GitHub/projeto RStudio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RUDB0Nm3t10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0015): Histórico de projeto no repositório GitHub com o RStudio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MQEubR328po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0016): "Branch" e "Merge" no repositório GitHub com o RStudio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kmO183CNqoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0017): Cuidado com o "attach()"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k8rVCr6TzTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rapidinhas R (0018): Criando um site com o pacote "distill"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FbTLrfYWQQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Rapidinhas R (0019): Acessando funções internas de um pacote
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-DOk1_6lphs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

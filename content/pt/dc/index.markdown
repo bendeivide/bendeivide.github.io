@@ -1,0 +1,62 @@
+---
+title: Selo DC
+summary: Apresentamos um selo para a liberdade do conhecimento
+date: "2021-12-10 09:31:59"
+type: ""
+
+# Featured image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  caption: Selo criado por Ben Dêivide
+  focal_point: Smart
+
+
+
+# Optional header image (relative to `assets/media/` folder).
+header:
+  caption: ""
+  image: ""
+
+  
+# Remove various "share" icons for portfolio widget
+# Eles ficam em theme/starter-academic/data/page_sharer.toml
+# Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
+share: true
+---
+
+
+
+O selo Democratizando Conhecimento (DC) é uma ideia criada por mim, para mostrar a filosofia de trabalho que tento adotar na carreira profissional. 
+
+Como propagador de conhecimento, sabemos que nem todas as pessoas têm acesso a informação de qualidade e gratuita. Uma sociedade em progresso é aquela que dá direto a informação para todas as pessoas, sem restrição ao poder aquisisto. Dessa forma, devemos pensar sim em nosso reconhecimento profissional e financeiro, mas não podemos esquecer que o acesso a informação é o melhor começo para termos um mundo menos desigual.
+
+Assim, todos os meus materiais terão o **selo DC** para que o acesso de todo esse material seja  livre e que todo o material possa ser utilizado, levando em consideração que dadas as publicações, se faça a referência da mesma, não por questão de ego, mas de registro. Isso vai desde a publicação de livros, apostilas, páginas web, e todo o material produzido por mim. Uma forma de auxiliar a toda a comunidade que busca conhecimento. É claro que em algumas situações, as parcerias de trabalho poderão ocasionar alguma restrição, mas eu farei de tudo para que todo o material seja de livre acesso.
+
+Assim, meus livros terão a tiragem impressa e sua versão [Bookdown](https://bookdown.org/), para que quem não puder comprar ainda assim tenha acesso a informação desse material. Materiais e conteúdos digitais estarão sempre disponíveis em meu repositório [GitHub](https://github.com/bendeivide).
+
+O **selo DC** é compatível com a licença Creative Commons CC BY NC 4.0, isto é,
+
+- O usuário é livre para compartilhar, redistribuir, transformar ou adaptar essa obra;
+- O usuário não pode usar o material para uso comercial;
+- Atribua os créditos ao(s) autor(es) desse trabalho.
+
+[![](CCBYNC.png)](http://creativecommons.org/licenses/by-nc/4.0/)
+
+
+
+Faça parte também dessa ideia, e seja um propagador de conhecimento livre e acessível, isso é uma liberdade necessária.
+
+Para quem desejar inserir o selo DC em seus materiais, deixo aqui a [imagens na versão preta e branca do selo DC](https://github.com/bendeivide/dc). Temos dois modelos de Selos:
+
+- Pensando no selo na capa de um livro:
+
+[![](SeloDC-preto2.png)](https://github.com/bendeivide/dc)
+
+- pensando no selo na lateral do livro:
+
+[![](SeloDC-preto.png)](https://github.com/bendeivide/dc)
+
+De todo o modo, o selo DC poderá ser utilizado para qualquer material que tenha essa mesma filosofia profissional.
