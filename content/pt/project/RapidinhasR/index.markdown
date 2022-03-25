@@ -3,7 +3,7 @@ title: Rapidinhas do R
 summary: Uma série de vídeos com dicas sobre o ambiente R
 tags:
 - rapidinhar
-date: "2021-06-30 12:26:51"
+date: "2022-03-25 16:30:54"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/rapidinhasdor/"
@@ -148,3 +148,8 @@ Segue o link [youtube.com/bendeivide/RapidinhasR](https://youtube.com/playlist?l
 ### Rapidinhas R (0019): Acessando funções internas de um pacote
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-DOk1_6lphs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Rapidinhas R (0020): Criando um site via blogdown + Hugo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J4wJ5cK8KkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -2887,8 +2887,8 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
 
 &lt;!-- https://revealjs.com/transitions/ --&gt;
 &lt;section data-transition=&#34;zoom&#34;&gt;
-  &lt;h2&gt;Motivação inicial&lt;/h2&gt;
-  &lt;p&gt; Definições gerais da estatística... &lt;/p&gt;
+  &lt;h2&gt;Motivação inicial &lt;/h2&gt;
+  &lt;p&gt; Definições gerais da estatística (Exemplo do livro EPAEC) &lt;/p&gt;
   
 
 
@@ -2903,9 +2903,9 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
 
 
 
-&lt;figure  id=&#34;figure-exemplo-do-livro-epaec&#34;&gt;
+&lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Exemplo do livro EPAEC&#34; srcset=&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
                /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp 400w,
                /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_2422affad744e4d2bee6a7971f41e9ec.webp 760w,
                /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
@@ -2913,9 +2913,7 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
                width=&#34;830&#34;
                height=&#34;420&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Exemplo do livro EPAEC
-    &lt;/figcaption&gt;&lt;/figure&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
 &lt;h2&gt;Motivação inicial&lt;/h2&gt;

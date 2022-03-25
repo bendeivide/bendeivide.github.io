@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-03-22 22:47:30"
+date: "2022-03-25 12:29:10"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -192,6 +192,7 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 - [Estatística e Probabilidade (UECE)](http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf)
 - [Estimação Estatística (Assis, et. al. 2021)](https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf)
 - [Introdução à estatística com R (Eric Ferreira & Marcelo Oliveira )](http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf)
+- [Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria & João Parga)](https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica)
 - [Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)](https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf)
 - [Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)](https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf)
 - [Canal Ciência Estatística](https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA)
@@ -248,40 +249,20 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 
 {{< spoiler text="Aula 2 (22/03/2022)">}}
-- Em desenvolvimento...
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema:  -->
-<!--    - [Capítulo 1: *Definições gerais e técnicas de somatório*](https://bendeivide.github.io/book-epaec/dgets.html) -->
-<!--    - [Capítulo 2: *Coleta, organização e apresentação de dados*](https://bendeivide.github.io/book-epaec/chap-coad.html) -->
-<!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1lqP6CwpRPd4FnOvU_EULI4MzwxccrZ7Zo3BsKFwONRk/edit?usp=sharing) -->
-<!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
-<!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
 
-<!-- <iframe src="https://open.spotify.com/embed/episode/00QWz0x2xOdXCdC2uLCvbU" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
-<!-- </br> -->
-<!-- <iframe src="https://open.spotify.com/embed/show/0NhBadqLICDJjoYRGNgrxv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
-<!-- </br> -->
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s01/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - [Notas de aula]()
+   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
 
-
-<!-- {{< icon name="book-reader" pack="fas" >}} Material escrito sobre o assunto -->
-<!--    - [Capítulo 1: *Definições gerais e técnicas de somatório*](https://bendeivide.github.io/book-epaec/dgets.html) -->
-<!--    - [Capítulo 2: *Coleta, organização e apresentação de dados*](https://bendeivide.github.io/book-epaec/chap-coad.html) -->
-<!--    - Exercícios Propostos ([Cap. 1](https://bendeivide.github.io/book-epaec/dgets.html#exerc%C3%ADcios-prospostos), [Cap. 2](https://bendeivide.github.io/book-epaec/dgets.html#exerc%C3%ADcios-propostos)) -->
-<!--    - Scripts {{< icon name="r-project" pack="fab" >}} {{% staticref "r-scripts/aula01.R" "newtab" %}}Aula01.R{{% /staticref %}} -->
-
-
-<!-- {{< icon name="youtube" pack="fab" >}} Aula teórica (Aula assíncrona) -->
-<!-- {{< youtube bVObtgCFISs >}} -->
-
-<!-- </br> -->
-
-<!-- {{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (Aula assíncrona) -->
-
-<!-- {{< youtube DZ4PzyY5YYg >}} -->
-<!-- <br/> -->
-
-<!-- {{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (Aula assíncrona) -->
-
-<!-- {{< youtube xlmWSTrp_SI >}} -->
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula
+{{< youtube 0KPuZplRwtU >}}
 
 {{< /spoiler >}}
 

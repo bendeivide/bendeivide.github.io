@@ -157,9 +157,9 @@ Aula 02 - Definições gerais e técnicas de somatório
 
 <!-- https://revealjs.com/transitions/ -->
 <section data-transition="zoom">
-  <h2>Motivação inicial</h2>
-  <p> Definições gerais da estatística... </p>
-  {{< figure src="epaec_exerc5.19.png" title="Exemplo do livro EPAEC" width="830" height="420" >}}
+  <h2>Motivação inicial </h2>
+  <p> Definições gerais da estatística (Exemplo do livro EPAEC) </p>
+  {{< figure src="epaec_exerc5.19.png" title="" width="830" height="420" >}}
   
 </section>
 
