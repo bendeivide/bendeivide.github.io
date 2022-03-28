@@ -33,7 +33,7 @@ slides:
 
 
 
-{{< slide background-image="fundo.jpg" >}}
+{{< slide background-image="fundo03.jpg" >}}
 
 # Estatística computacional
 Aula 01 - Apresentação do curso

@@ -24,7 +24,7 @@
 
   <title>Estatística Computacional | Ben Dêivide</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/night.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/black.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
 
   
   
@@ -55,10 +55,12 @@
 <section data-noprocess data-shortcode-slide
   
       
-      data-background-image="fundo.jpg"
+      data-background-image="fundo03.jpg"
   >
 
-<h1 id="introdução-ao-ambiente-r">Introdução ao ambiente R</h1>
+<h1 id="estatística-computacional">Estatística Computacional</h1>
+<p>Aula 02 - Introdução ao ambiente R
+</br></p>
 <p>
   <i class="fas fa-user-tie  pr-1 fa-fw"></i> <a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Ben Dêivide</a> | 
   <i class="fas fa-school  pr-1 fa-fw"></i> <a href="https://www.ufsj.edu.br/" target="_blank" rel="noopener">UFSJ</a>
@@ -168,12 +170,223 @@
       data-background-image="fundo02.png"
   >
 
-<h2 id="introdução">Introdução</h2>
+<h2 id="instalação-do-r-e-rstudio">Instalação do R e RStudio</h2>
 <ul>
-<li>Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993</li>
-<li>Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)</li>
-<li>Atualmente é mantida por colaboradores voluntários em todo o mundo</li>
+<li><a href="https://bendeivide.github.io/cursor/#so-windows" target="_blank" rel="noopener">SO Win</a></li>
+<li><a href="https://bendeivide.github.io/cursor/#so-linux-ubuntu" target="_blank" rel="noopener">SO UNIX</a></li>
+<li><a href="https://bendeivide.github.io/cursor/#so-mac" target="_blank" rel="noopener">SO MAC</a></li>
 </ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<!-- https://revealjs.com/transitions/ -->
+<section data-transition="zoom">
+  <h2>Diferença entre o R e RStudio</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp 400w,
+               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_6bda6b5a62566d76d4072feffbfb2d62.webp 760w,
+               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp"
+               width="730"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Diferença entre o R e RStudio</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estcomp/s02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_331fc9d22477f5928f2c04f7579e6c9c.webp 400w,
+               /slides/estcomp/s02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_df692b5b51b2b661dd286218b18ebe82.webp 760w,
+               /slides/estcomp/s02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estcomp/s02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_331fc9d22477f5928f2c04f7579e6c9c.webp"
+               width="730"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="como-o-r-trabalha">Como o R trabalha</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estcomp/s02/rworks_hu2a76007f72e3bedcabac0678f5e95e66_304968_a0d97525785d3775fe573c3d581d2b44.webp 400w,
+               /slides/estcomp/s02/rworks_hu2a76007f72e3bedcabac0678f5e95e66_304968_92444b1f46d65a684a309aa5b4156881.webp 760w,
+               /slides/estcomp/s02/rworks_hu2a76007f72e3bedcabac0678f5e95e66_304968_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estcomp/s02/rworks_hu2a76007f72e3bedcabac0678f5e95e66_304968_a0d97525785d3775fe573c3d581d2b44.webp"
+               width="730"
+               height="480"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<section data-auto-animate>
+  <h2 data-id="code-title">Console e Prompt de comando</h2>
+	<pre data-id="code-animation">
+	  <code class="hljs" data-trim data-line-numbers="|1|2-3">
+	    <script type="text/template">
+        options(prompt = "R> ")
+        # Toda vez que o console iniciar, começarar por 'R>'
+        10
+	    </script>
+	  </code>
+	</pre>
+</section>
+<section>
+<h2 data-id="code-title">Resultado da execução</h2>
+<pre><code class="language-r">R&gt; options(prompt = &quot;R&gt; &quot;)
+R&gt; # Toda vez que o console iniciar, começarar por 'R&gt;'
+R&gt; 10
+</code></pre>
+<pre><code>## [1] 10
+</code></pre>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<section>
+<h2> Comandos elementares </h2>
+<pre><code class="language-r">10 + 15
+</code></pre>
+<pre><code>## [1] 25
+</code></pre>
+</br>
+<pre><code class="language-r">10,5 + 15,5
+</code></pre>
+<pre><code>## Error: &lt;text&gt;:1:3: ',' inesperado
+## 1: 10,
+##       ^
+</code></pre>
+</section>
+<section>
+<h2> Comandos elementares </h2>
+<pre><code class="language-r"># Foi criado um objeto do tipo caractere e o nome &quot;meu_nome&quot; foi associado a ele
+# O 'R' avalia essa expressão, mas não imprime no console!
+meu_nome &lt;- &quot;Ben&quot;
+
+# Para imprimir o resultado da expressão, digitamos o nome &quot;meu_nome&quot; no console
+# e apertamos o botão ENTER do teclado!
+meu_nome
+</code></pre>
+<pre><code>## [1] &quot;Ben&quot;
+</code></pre>
+</section>
+<section>
+<p>A escolha do nome associado a um objeto tem algumas regras:</p>
+<ul>
+<li>Deve consistir em letras, dígitos, <code>.</code> e <code>_</code>;</li>
+<li>Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, isto é, Ex.: <code>.123</code>, <code>1n</code>, dentre outros;</li>
+<li>As letras maiúsculas se distinguem das letras minúsculas;</li>
+</ul>
+</section>
+<section>
+<ul>
+<li>Não pode inicia por <code>_</code> ou dígito, é retornado um erro no console caso isso ocorra;</li>
+<li>Não pode usar qualquer uma das palavras reservadas pela linguagem, isto é, <code>TRUE</code>, <code>FALSE</code>, <code>if</code>, <code>for</code>, dentre outras, que pode ser consultado usando o comando <code>?Reserved()</code>.</li>
+</ul>
+</section>
+<section>
+<h2> Nomes não sintátitos  </h2>
+<pre><code class="language-r"># Nome nao sintatico
+.123 &lt;- 50
+## Error in 0.123 &lt;- 50 : lado esquerdo da atribuicao inválida (do_set)
+
+# Qual a sugestao de nome sintatico para '.123'?
+make.names(.123)
+[1] &quot;X0.123&quot;
+</code></pre>
+</section>
 
     </section>
     

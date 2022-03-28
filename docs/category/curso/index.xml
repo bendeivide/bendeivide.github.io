@@ -136,7 +136,7 @@
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;fundo.jpg&#34;
+      data-background-image=&#34;fundo03.jpg&#34;
   &gt;
 
 &lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística computacional&lt;/h1&gt;
@@ -499,10 +499,12 @@
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;fundo.jpg&#34;
+      data-background-image=&#34;fundo03.jpg&#34;
   &gt;
 
-&lt;h1 id=&#34;introdução-ao-ambiente-r&#34;&gt;Introdução ao ambiente R&lt;/h1&gt;
+&lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística Computacional&lt;/h1&gt;
+&lt;p&gt;Aula 02 - Introdução ao ambiente R
+&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
   &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
@@ -591,12 +593,193 @@
       data-background-image=&#34;fundo02.png&#34;
   &gt;
 
-&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;h2 id=&#34;instalação-do-r-e-rstudio&#34;&gt;Instalação do R e RStudio&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
-&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
-&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/#so-windows&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SO Win&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/#so-linux-ubuntu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SO UNIX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/#so-mac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SO MAC&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;!-- https://revealjs.com/transitions/ --&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
+  &lt;h2&gt;Diferença entre o R e RStudio&lt;/h2&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp 400w,
+               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_6bda6b5a62566d76d4072feffbfb2d62.webp 760w,
+               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp&#34;
+               width=&#34;730&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Diferença entre o R e RStudio&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_331fc9d22477f5928f2c04f7579e6c9c.webp 400w,
+               /slides/estcomp/s02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_df692b5b51b2b661dd286218b18ebe82.webp 760w,
+               /slides/estcomp/s02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_331fc9d22477f5928f2c04f7579e6c9c.webp&#34;
+               width=&#34;730&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;como-o-r-trabalha&#34;&gt;Como o R trabalha&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s02/rworks_hu2a76007f72e3bedcabac0678f5e95e66_304968_a0d97525785d3775fe573c3d581d2b44.webp 400w,
+               /slides/estcomp/s02/rworks_hu2a76007f72e3bedcabac0678f5e95e66_304968_92444b1f46d65a684a309aa5b4156881.webp 760w,
+               /slides/estcomp/s02/rworks_hu2a76007f72e3bedcabac0678f5e95e66_304968_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s02/rworks_hu2a76007f72e3bedcabac0678f5e95e66_304968_a0d97525785d3775fe573c3d581d2b44.webp&#34;
+               width=&#34;730&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section data-auto-animate&gt;
+  &lt;h2 data-id=&#34;code-title&#34;&gt;Console e Prompt de comando&lt;/h2&gt;
+	&lt;pre data-id=&#34;code-animation&#34;&gt;
+	  &lt;code class=&#34;hljs&#34; data-trim data-line-numbers=&#34;|1|2-3&#34;&gt;
+	    &lt;script type=&#34;text/template&#34;&gt;
+        options(prompt = &#34;R&gt; &#34;)
+        # Toda vez que o console iniciar, começarar por &#39;R&gt;&#39;
+        10
+	    &lt;/script&gt;
+	  &lt;/code&gt;
+	&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2 data-id=&#34;code-title&#34;&gt;Resultado da execução&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;R&amp;gt; options(prompt = &amp;quot;R&amp;gt; &amp;quot;)
+R&amp;gt; # Toda vez que o console iniciar, começarar por &#39;R&amp;gt;&#39;
+R&amp;gt; 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h2&gt; Comandos elementares &lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;10 + 15
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 25
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/br&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;10,5 + 15,5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Error: &amp;lt;text&amp;gt;:1:3: &#39;,&#39; inesperado
+## 1: 10,
+##       ^
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Comandos elementares &lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Foi criado um objeto do tipo caractere e o nome &amp;quot;meu_nome&amp;quot; foi associado a ele
+# O &#39;R&#39; avalia essa expressão, mas não imprime no console!
+meu_nome &amp;lt;- &amp;quot;Ben&amp;quot;
+
+# Para imprimir o resultado da expressão, digitamos o nome &amp;quot;meu_nome&amp;quot; no console
+# e apertamos o botão ENTER do teclado!
+meu_nome
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Ben&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;p&gt;A escolha do nome associado a um objeto tem algumas regras:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deve consistir em letras, dígitos, &lt;code&gt;.&lt;/code&gt; e &lt;code&gt;_&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, isto é, Ex.: &lt;code&gt;.123&lt;/code&gt;, &lt;code&gt;1n&lt;/code&gt;, dentre outros;&lt;/li&gt;
+&lt;li&gt;As letras maiúsculas se distinguem das letras minúsculas;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;ul&gt;
+&lt;li&gt;Não pode inicia por &lt;code&gt;_&lt;/code&gt; ou dígito, é retornado um erro no console caso isso ocorra;&lt;/li&gt;
+&lt;li&gt;Não pode usar qualquer uma das palavras reservadas pela linguagem, isto é, &lt;code&gt;TRUE&lt;/code&gt;, &lt;code&gt;FALSE&lt;/code&gt;, &lt;code&gt;if&lt;/code&gt;, &lt;code&gt;for&lt;/code&gt;, dentre outras, que pode ser consultado usando o comando &lt;code&gt;?Reserved()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Nomes não sintátitos  &lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Nome nao sintatico
+.123 &amp;lt;- 50
+## Error in 0.123 &amp;lt;- 50 : lado esquerdo da atribuicao inválida (do_set)
+
+# Qual a sugestao de nome sintatico para &#39;.123&#39;?
+make.names(.123)
+[1] &amp;quot;X0.123&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide

@@ -15,7 +15,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 :root {
   --r-background-color: #111;
   --r-main-font: Open Sans, sans-serif;
-  --r-main-font-size: 40px;
+  --r-main-font-size: 30px;
   --r-main-color: #eee;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;

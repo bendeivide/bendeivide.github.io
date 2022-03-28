@@ -1,13 +1,13 @@
 ---
 title: Estatística Computacional
-summary: Aula 01
+summary: Aula 02
 authors: [Ben Dêivide]
 tags: [Estatística Computacional, Ambiente R, Programação]
 categories: [Curso]
 slides:
 # Choose a theme from https://github.com/hakimel/reveal.js#theming
 # https://revealjs.com/themes/
-  theme: night
+  theme: ''
 # Choose a code highlighting style (if highlighting enabled in `params.toml`)
 # Light style: github. Dark style: dracula (default).
   highlight_style: dracula
@@ -23,9 +23,12 @@ slides:
 # - [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
 ---
 
-{{< slide background-image="fundo.jpg" >}}
+{{< slide background-image="fundo03.jpg" >}}
 
-# Introdução ao ambiente R
+# Estatística Computacional
+Aula 02 - Introdução ao ambiente R
+</br>
+
 
 {{< icon name="user-tie" pack="fas" >}} [Ben Dêivide](https://bendeivide.github.io/) | {{< icon name="school" pack="fas" >}} [UFSJ](https://www.ufsj.edu.br/)
 </br>
@@ -52,11 +55,153 @@ slides:
 
 {{< slide background-image="fundo02.png" >}}
 
-## Introdução 
+## Instalação do R e RStudio
 
-- Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993
-- Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)
-- Atualmente é mantida por colaboradores voluntários em todo o mundo
+- [SO Win](https://bendeivide.github.io/cursor/#so-windows)
+- [SO UNIX](https://bendeivide.github.io/cursor/#so-linux-ubuntu)
+- [SO MAC](https://bendeivide.github.io/cursor/#so-mac)
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+
+<!-- https://revealjs.com/transitions/ -->
+<section data-transition="zoom">
+  <h2>Diferença entre o R e RStudio</h2>
+  {{< figure src="promptr.png" title="" width="730" height="380" >}}
+  
+</section>
+
+<section data-transition-speed="fast">
+<h2>Diferença entre o R e RStudio</h2>
+{{< figure src="ide_rstudio.png" title="" width="730" height="380" >}}
+
+</section>
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+## Como o R trabalha
+
+{{< figure src="rworks.png" title="" width="730" height="480" >}}
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+<section data-auto-animate>
+  <h2 data-id="code-title">Console e Prompt de comando</h2>
+	<pre data-id="code-animation">
+	  <code class="hljs" data-trim data-line-numbers="|1|2-3">
+	    <script type="text/template">
+        options(prompt = "R> ")
+        # Toda vez que o console iniciar, começarar por 'R>'
+        10
+	    </script>
+	  </code>
+	</pre>
+</section>
+
+<section>
+<h2 data-id="code-title">Resultado da execução</h2>
+
+
+```r
+R> options(prompt = "R> ")
+R> # Toda vez que o console iniciar, começarar por 'R>'
+R> 10
+```
+
+```
+## [1] 10
+```
+</section>
+
+---
+
+<section>
+<h2> Comandos elementares </h2>
+
+
+```r
+10 + 15
+```
+
+```
+## [1] 25
+```
+</br>
+
+
+```r
+10,5 + 15,5
+```
+
+```
+## Error: <text>:1:3: ',' inesperado
+## 1: 10,
+##       ^
+```
+
+</section>
+
+<section>
+
+<h2> Comandos elementares </h2>
+
+
+```r
+# Foi criado um objeto do tipo caractere e o nome "meu_nome" foi associado a ele
+# O 'R' avalia essa expressão, mas não imprime no console!
+meu_nome <- "Ben"
+
+# Para imprimir o resultado da expressão, digitamos o nome "meu_nome" no console
+# e apertamos o botão ENTER do teclado!
+meu_nome
+```
+
+```
+## [1] "Ben"
+```
+
+</section>
+
+<section>
+
+A escolha do nome associado a um objeto tem algumas regras:
+
+- Deve consistir em letras, dígitos, `.` e `_`;
+- Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, isto é, Ex.: `.123`, `1n`, dentre outros;
+- As letras maiúsculas se distinguem das letras minúsculas;
+
+
+</section>
+
+<section>
+
+- Não pode inicia por `_` ou dígito, é retornado um erro no console caso isso ocorra;
+- Não pode usar qualquer uma das palavras reservadas pela linguagem, isto é, `TRUE`, `FALSE`, `if`, `for`, dentre outras, que pode ser consultado usando o comando `?Reserved()`.
+
+</section>
+
+<section>
+
+<h2> Nomes não sintátitos  </h2>
+
+
+```r
+# Nome nao sintatico
+.123 <- 50
+## Error in 0.123 <- 50 : lado esquerdo da atribuicao inválida (do_set)
+
+# Qual a sugestao de nome sintatico para '.123'?
+make.names(.123)
+[1] "X0.123"
+```
+
+</section>
 
 ---
 
