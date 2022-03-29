@@ -170,7 +170,7 @@ meu_nome
 
 <section>
 
-A escolha do nome associado a um objeto tem algumas regras:
+<h2> Nomes e objetos </h2>
 
 - Deve consistir em letras, dígitos, `.` e `_`;
 - Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, isto é, Ex.: `.123`, `1n`, dentre outros;
@@ -188,7 +188,7 @@ A escolha do nome associado a um objeto tem algumas regras:
 
 <section>
 
-<h2> Nomes não sintátitos  </h2>
+<h2> Nomes não sintáticos  </h2>
 
 
 ```r
@@ -202,6 +202,109 @@ make.names(.123)
 ```
 
 </section>
+
+---
+
+<section>
+<h2> Correção de comandos no R </h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0MRPmVsPvk4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section>
+
+<section>
+<h2> Correção de comandos no RStudio </h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KL3WAB_GFNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section>
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+<section data-auto-animate>
+  <h2 data-id="code-title">Ambiente global</h2>
+	<pre data-id="code-animation">
+	  <code class="hljs" data-trim data-line-numbers="|4">
+	    <script type="text/template">
+       # Nomes criados no ambiente 
+       x <- 10 - 6; y <- 10 + 4; w <- "Maria Isabel"
+       # Verificando o nomes contidos no ambiente global
+       ls()
+	    </script>
+	  </code>
+	</pre>
+	
+
+```
+## [1] "meu_nome" "w"        "x"        "y"
+```
+	
+</section>
+
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+## Criando e salvando um script
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ETreeG5HK60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<section>
+<h2> Objetos </h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6t9h9zgWyTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section>
+
+<section data-auto-animate>
+<h2> Entendimento dos nomes e objetos </h2>
+	<pre data-id="code-animation">
+	  <code class="hljs" data-trim data-line-numbers="|2;5|3;6">
+	    <script type="text/template">
+       x <- 10
+       lobstr::obj_addr(x)
+       ## [1] "0xf8a104fc20"
+       y <- x
+       lobstr::obj_addr(y)
+       ## [1] "0xf8a104fc20"
+	    </script>
+	  </code>
+	</pre>
+</section>
+
+<section>
+
+<h2> Ilustração </h2>
+
+{{< figure src="y=x=10.png" title="" width="730" height="380" >}}
+
+</section>
+
+<section>
+
+<h2> Objeto e Ambiente </h2>
+
+{{< figure src="objamb.png" title="" width="730" height="380" >}}
+
+</section>
+
+<section>
+
+<h2> Para um melhor entendimento sobre objetos </h2>
+
+
+
+</section>
+
+---
+
+## Importação de dados
+
 
 ---
 
