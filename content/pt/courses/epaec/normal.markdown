@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-03-28 17:41:38"
+date: "2022-03-30 15:32:16"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -248,7 +248,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 2 (22/03/2022)">}}
+{{< spoiler text="Aula 2 (22-23/03/2022)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s02/index" >}})
@@ -284,10 +284,10 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
-{{< spoiler text="Aula 4 (06/04/2022)">}}
+{{< spoiler text="Aula 4 (29-30/04/2022)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 04]({{< relref "" >}})
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 04]({{< relref "/slides/estprob/s04/index" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
