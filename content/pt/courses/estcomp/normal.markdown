@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-03-22 23:06:31"
+date: "2022-03-30 10:31:45"
 type: book
 weight: 10
 categories: ["R", "Estatística", "Probabilidade", "Programação"]
@@ -205,6 +205,28 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< icon name="youtube" pack="fab" >}} Aula de apresentação
 
 {{< youtube  gIcKgsOkdeI>}}
+<br/>
+
+<!-- {{< icon name="youtube" pack="fab" >}} Aula de exercícios  -->
+
+<!-- {{< youtube  >}} -->
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 02 (28/03 e 29/03)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Introdução ao ambiente R
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estcomp/s02/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1tAp46QNuQ6K3eqTf3ZodgR8tjRIU7p1EP-Qa-gH5B4o/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Introdução ao ambiente R
+
+{{< youtube  0Qv5_xzx0WQ>}}
 <br/>
 
 <!-- {{< icon name="youtube" pack="fab" >}} Aula de exercícios  -->

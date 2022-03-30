@@ -276,14 +276,57 @@ ls()
 
 <h2> Para um melhor entendimento sobre objetos </h2>
 
-
+<https://bendeivide.github.io/cursor/nbasico#objetos>
 
 </section>
 
 ---
 
-## Importação de dados
+<section>
+<h2> Importação de dados </h2>
 
+<h3> Importação de dados </h3>
+
+{{< figure src="banco_dados.png" title="" width="730" height="380" >}}
+
+
+</section>
+
+<section>
+
+<h3> Importação com o RStudio </h3>
+
+{{< figure src="imp-exp.png" title="" width="730" height="380" >}}
+
+
+</section>
+
+<section>
+
+<h3> Importação com o RStudio </h3>
+
+{{< figure src="imp-exp2.png" title="" width="730" height="380" >}}
+
+
+</section>
+
+<section>
+
+<h3> Importação com o RStudio </h3>
+
+{{< figure src="imp-exp3.png" title="" width="730" height="380" >}}
+
+
+</section>
+
+<section>
+
+<h3> Importação com o RStudio </h3>
+
+{{< figure src="imp-exp4.png" title="" width="730" height="380" >}}
+
+
+</section>
 
 ---
 
