@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-03-30 10:31:45"
+date: "2022-03-30 14:40:41"
 type: book
 weight: 10
 categories: ["R", "Estatística", "Probabilidade", "Programação"]
@@ -38,7 +38,8 @@ Em termos gerais, abordaremos: Introdução ao R; Probabilidade no R; Estatísti
 
 ## Cronograma e Fluxograma do curso {#cronograma}
 
-Em desenvolvimento...
+- [Cronograma de aulas](https://docs.google.com/document/d/1C0UmfyMqwNmMowwhwHcvGVwiYHaS0L-uofsz894nUds/edit?usp=sharing):
+{{< gdocs src="https://docs.google.com/document/d/1C0UmfyMqwNmMowwhwHcvGVwiYHaS0L-uofsz894nUds/edit?usp=sharing" >}}
 
 ## Ementa
 

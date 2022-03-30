@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Mar 2022 10:31:45 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Mar 2022 14:40:41 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estatística</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
-      <pubDate>Wed, 30 Mar 2022 10:31:45 +0000</pubDate>
+      <pubDate>Wed, 30 Mar 2022 14:40:41 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -49,10 +49,15 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;cronograma&#34;&gt;Cronograma e Fluxograma do curso&lt;/h2&gt;
-&lt;p&gt;Em desenvolvimento&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1C0UmfyMqwNmMowwhwHcvGVwiYHaS0L-uofsz894nUds/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de aulas&lt;/a&gt;:
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/document/d/1C0UmfyMqwNmMowwhwHcvGVwiYHaS0L-uofsz894nUds/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestre a demanda necessária&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
   &lt;p&gt;&lt;ol&gt;
 &lt;li&gt;INTRODUÇÃO AO PROGRAMA R:
@@ -178,7 +183,7 @@
 &lt;/details&gt;
 &lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
 &lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula.&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
   &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja feito por parte do aluno. Ele será o protagonista. Dessa forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;, criaremos mapas mentais (&lt;a href=&#34;https://app.lucidchart.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://app.lucidchart.com&lt;/a&gt;) para nossas aulas, dentre outras técnicas, para que nesse momento fique mais claro e objetivo o assunto proposto.&lt;/p&gt;
 &lt;p&gt;Nossas aulas estão disponíveis pelos canais do youtube (&lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;), portal didático da disciplina, repositório GitHub (&lt;a href=&#34;http://github.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/bendeivide&lt;/a&gt;), alocaremos nas páginas (&lt;a href=&#34;http://ufsj.edu.br/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ufsj.edu.br/bendeivide&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;), facebook (Ben Deivide), e instagram (&lt;a href=&#34;https://www.instagram.com/bendeivide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@bendeivide&lt;/a&gt;).&lt;/p&gt;
@@ -187,7 +192,7 @@
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;1ª Avaliação - Relatórios referentes as Seções 1, 2 e 3 - 30 pontos&lt;/li&gt;
@@ -199,7 +204,7 @@
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. &lt;strong&gt;Estudando o Ambiente R&lt;/strong&gt;. 1. ed. Ouro Branco: [sn], 2022. 1 v. Disponível em &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;.&lt;/li&gt;
@@ -216,7 +221,7 @@
 &lt;li&gt;Livro referência: &lt;a href=&#34;https://bendeivide.github.io/book-estcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESTCOMP&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
@@ -234,7 +239,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
   &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
@@ -242,7 +247,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
@@ -251,7 +256,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
   &lt;summary&gt;Aula 01 (21/03 e 22/03)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Apresentação do curso&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s01/&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
@@ -260,9 +265,9 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/13wfRawoF89pchWJNjJPtql6uDbSwm3wNh3cAQM9GE3g/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
 &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
@@ -281,7 +286,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
  --&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;Aula 02 (28/03 e 29/03)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Introdução ao ambiente R&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s02/&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
@@ -290,9 +295,9 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1tAp46QNuQ6K3eqTf3ZodgR8tjRIU7p1EP-Qa-gH5B4o/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
 &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
@@ -312,11 +317,11 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
   &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
@@ -595,7 +600,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/dgets.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 1: &lt;em&gt;Definições gerais e técnicas de somatório&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-coad.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 2: &lt;em&gt;Coleta, organização e apresentação de dados&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercícios Propostos (&lt;a href=&#34;https://bendeivide.github.io/book-epaec/dgets.html#exerc%C3%ADcios-prospostos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cap. 1&lt;/a&gt;, &lt;a href=&#34;https://bendeivide.github.io/book-epaec/dgets.html#exerc%C3%ADcios-propostos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cap. 2&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Scripts
+&lt;li&gt;Scripts 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula01.R&#34; target=&#34;_blank&#34;&gt;Aula01.R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona)&lt;/p&gt;
@@ -706,7 +711,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R - Programação em R (Nível Básico)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exercícios Propostos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/nbasico.html#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scripts
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/nbasico.html#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scripts 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula sobre introdução ao R (Parte I)&lt;/p&gt;
@@ -804,7 +809,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap5.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 5: &lt;em&gt;Probabilidades&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cap6.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 6: &lt;em&gt;Distribuições de probabilidade&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercícios Propostos (&lt;a href=&#34;&#34;&gt;Cap. 6&lt;/a&gt;, &lt;a href=&#34;&#34;&gt;Cap. 7&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Scripts
+&lt;li&gt;Scripts 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula21.R&#34; target=&#34;_blank&#34;&gt;Aula21.R&lt;/a&gt;,&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona)&lt;/p&gt;
@@ -838,7 +843,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R - Programação em R (Nível Básico)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exercícios Propostos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/nbasico.html#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scripts
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/nbasico.html#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scripts 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula sobre introdução ao R (Parte IV)&lt;/p&gt;
@@ -870,7 +875,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-teoest.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 9: &lt;em&gt;Teoria da Estimação&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercícios Propostos (&lt;a href=&#34;&#34;&gt;Cap. 9&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Scripts
+&lt;li&gt;Scripts 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula25.R&#34; target=&#34;_blank&#34;&gt;Aula25.R&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula27.R&#34; target=&#34;_blank&#34;&gt;Aula27.R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona)&lt;/p&gt;
@@ -902,9 +907,9 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-teodec.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 10: &lt;em&gt;Teoria da Decisão&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercícios Propostos (&lt;a href=&#34;&#34;&gt;Cap. 10&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Scripts
+&lt;li&gt;Scripts 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula28.R&#34; target=&#34;_blank&#34;&gt;Aula28.R&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula29.R&#34; target=&#34;_blank&#34;&gt;Aula29.R&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula30.R&#34; target=&#34;_blank&#34;&gt;Aula30.R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Shiny
+&lt;li&gt;Shiny 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.shinyapps.io/Est_Exp/#section-revis%C3%A3o-sobre-teste-de-hip%C3%B3teses&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Revisão sobre testes de Hipóteses&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona)&lt;/p&gt;
@@ -936,7 +941,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cor-reg.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 11: &lt;em&gt;Regressão Linear Simples&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercícios Propostos (&lt;a href=&#34;&#34;&gt;Cap. 11&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Scripts
+&lt;li&gt;Scripts 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula31.R&#34; target=&#34;_blank&#34;&gt;Aula31.R&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula32.R&#34; target=&#34;_blank&#34;&gt;Aula32.R&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/r-scripts/aula33.R&#34; target=&#34;_blank&#34;&gt;Aula33.R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona)&lt;/p&gt;
@@ -970,7 +975,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R - Programação em R (Nível Básico)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exercícios Propostos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/nbasico.html#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scripts
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/cursor/nbasico.html#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scripts 
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula sobre introdução ao R (Parte VII)&lt;/p&gt;
