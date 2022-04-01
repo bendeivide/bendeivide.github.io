@@ -192,7 +192,7 @@ knitr::kable(
 </section>
 
 <section>
-<h3>Frequência percentual</h3>
+<h3>Tabela completa</h3>
 
 | Número de erros $(x_i)$ |  $f_i$ | $f_{r_i}$ | $f_{\%_i}$ | $f_{ac\downarrow_i}$ | $f_{ac\uparrow_i}$ |
 | :----: | :----: | :----: | :----: | :----: | :----: | 
