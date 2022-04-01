@@ -32,7 +32,8 @@ slides:
 # - [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
 
 # Para desenhar, inserir:
-# <link rel="stylesheet" href="css/drawer.css" />
+# <link rel="stylesheet" href="css/drawer.css"/>
+# <link rel="stylesheet" href="css/pointer.css" />
 # no slide .html
 ---
 
