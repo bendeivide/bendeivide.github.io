@@ -3,7 +3,7 @@ title: 🎓 Projeto Concurseiros da Estatística
 summary: Repassarei a minha experiência em concursos para o magistério superior na área da Estatística
 tags:
 - conc_estat
-date: "2022-03-13 17:58:36"
+date: "2022-04-04 20:22:11"
 
 # Optional external URL for project (replaces project detail page).
 #external_link: "https://bendeivide.github.io/statscience/"
@@ -62,6 +62,9 @@ Projeto Concurseiros da Estatística vem com o propósito de repassar a minha ex
 
 ## Plano de Ensino
 
+- {{< icon name="person-chalkboard" pack="fas" >}} {{% staticref "concurseiros_estatistica/plano_aula.pdf" "newtab" %}}Plano de aula (PDF){{% /staticref %}}
+- {{< icon name="person-chalkboard" pack="fas" >}} {{% staticref "concurseiros_estatistica/plano_aula.tex" "newtab" %}}Plano de aula ( $ \LaTeX $ ){{% /staticref %}}
+
 ## Tópicos estudados
 
 Vamos seguir alguns tópicos que foram amplamente pontos dos mais diversos concursos que participei na área da Estatística
@@ -94,9 +97,21 @@ Vamos seguir alguns tópicos que foram amplamente pontos dos mais diversos concu
 - {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/topico09.pdf" "newtab" %}}Tópico 9{{% /staticref %}}
 - {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/topico10.pdf" "newtab" %}}Tópico 10{{% /staticref %}}
 - {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/topico11.pdf" "newtab" %}}Tópico 11{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/topico12.pdf" "newtab" %}}Tópico 12{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/topico13.pdf" "newtab" %}}Tópico 13{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/topico14.pdf" "newtab" %}}Tópico 14{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/topico13.pdf" "newtab" %}}Tópico 15{{% /staticref %}}
 
 ## Materiais desenvolvidos para prova didática
 
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/slide01.pdf" "newtab" %}}Slide 01{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/slide02.pdf" "newtab" %}}Slide 02{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/slide03.pdf" "newtab" %}}Slide 03{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/slide04.pdf" "newtab" %}}Slide 04{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/slide05.pdf" "newtab" %}}Slide 05{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/slide06.pdf" "newtab" %}}Slide 06{{% /staticref %}}
+- {{< icon name="user-edit" pack="fas" >}} {{% staticref "concurseiros_estatistica/slide07.pdf" "newtab" %}}Slide 07{{% /staticref %}}
+
 ## Materiais complementares
 
-- Um dos materiais durante o mestrado/doutorado que deu gosto de fazer, foram as listas de exercícios do livro *Introduction to the Theory of Statistics* (MOOD, A. M.; GRAYBIOLL, F. A.; BOES, D. C., 1974). Para baixar {{% staticref "concurseiros_estatistica/Mood-BenDeivide.pdf" "newtab" %}}clique aqui{{% /staticref %}}.
+<!-- - Um dos materiais durante o mestrado/doutorado que deu gosto de fazer, foram as listas de exercícios do livro *Introduction to the Theory of Statistics* (MOOD, A. M.; GRAYBIOLL, F. A.; BOES, D. C., 1974). Para baixar {{% staticref "concurseiros_estatistica/Mood-BenDeivide.pdf" "newtab" %}}clique aqui{{% /staticref %}}. -->

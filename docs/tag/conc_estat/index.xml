@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/conc_estat/</link>
       <atom:link href="http://bendeivide.github.io/tag/conc_estat/index.xml" rel="self" type="application/rss+xml" />
     <description>conc_estat</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sun, 13 Mar 2022 17:58:36 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 04 Apr 2022 20:22:11 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>conc_estat</title>
@@ -15,7 +15,7 @@
     <item>
       <title>🎓 Projeto Concurseiros da Estatística</title>
       <link>http://bendeivide.github.io/project/conc_estat/</link>
-      <pubDate>Sun, 13 Mar 2022 17:58:36 +0000</pubDate>
+      <pubDate>Mon, 04 Apr 2022 20:22:11 +0000</pubDate>
       <guid>http://bendeivide.github.io/project/conc_estat/</guid>
       <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
 &lt;p&gt;Projeto Concurseiros da Estatística vem com o propósito de repassar a minha experiência ao longo dos concursos para o magistério superior na área da Estatística. Disponibilizarei todas as notas desenvolvidas ao longo dos diversos pontos estudados para os mais variados concursos. Repassaremos algumas estratégias experienciadas por mim. Assim, não tome tudo como verdade, seja crítico, aproveite o que for bom, melhore os nossos materiais, e propague conhecimento.&lt;/p&gt;
@@ -24,9 +24,15 @@
 &lt;h2 id=&#34;como-desenvolver-os-pontos-para-prova-escrita-e-didática&#34;&gt;Como desenvolver os pontos para prova escrita e didática&lt;/h2&gt;
 &lt;h2 id=&#34;memorial&#34;&gt;Memorial&lt;/h2&gt;
 &lt;h2 id=&#34;plano-de-ensino&#34;&gt;Plano de Ensino&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-person-chalkboard  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/plano_aula.pdf&#34; target=&#34;_blank&#34;&gt;Plano de aula (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-person-chalkboard  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/plano_aula.tex&#34; target=&#34;_blank&#34;&gt;Plano de aula ( $ \LaTeX $ )&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;tópicos-estudados&#34;&gt;Tópicos estudados&lt;/h2&gt;
 &lt;p&gt;Vamos seguir alguns tópicos que foram amplamente pontos dos mais diversos concursos que participei na área da Estatística&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
   &lt;summary&gt;Tópicos estudados&lt;/summary&gt;
   &lt;p&gt;&lt;ol&gt;
 &lt;li&gt;Tópico 1: Conceitos de Probabilidade - Experimento Aleatório; Espaço de Probabilidade; Probabilidade Condicional e Independência. Teorema de Bayes&lt;/li&gt;
@@ -67,12 +73,34 @@
   &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico10.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 10&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
   &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico11.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico12.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico13.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico14.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico13.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 15&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;materiais-desenvolvidos-para-prova-didática&#34;&gt;Materiais desenvolvidos para prova didática&lt;/h2&gt;
-&lt;h2 id=&#34;materiais-complementares&#34;&gt;Materiais complementares&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Um dos materiais durante o mestrado/doutorado que deu gosto de fazer, foram as listas de exercícios do livro &lt;em&gt;Introduction to the Theory of Statistics&lt;/em&gt; (MOOD, A. M.; GRAYBIOLL, F. A.; BOES, D. C., 1974). Para baixar &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/Mood-BenDeivide.pdf&#34; target=&#34;_blank&#34;&gt;clique aqui&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide01.pdf&#34; target=&#34;_blank&#34;&gt;Slide 01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide02.pdf&#34; target=&#34;_blank&#34;&gt;Slide 02&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide03.pdf&#34; target=&#34;_blank&#34;&gt;Slide 03&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide04.pdf&#34; target=&#34;_blank&#34;&gt;Slide 04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide05.pdf&#34; target=&#34;_blank&#34;&gt;Slide 05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide06.pdf&#34; target=&#34;_blank&#34;&gt;Slide 06&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide07.pdf&#34; target=&#34;_blank&#34;&gt;Slide 07&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;materiais-complementares&#34;&gt;Materiais complementares&lt;/h2&gt;
+&lt;!-- - Um dos materiais durante o mestrado/doutorado que deu gosto de fazer, foram as listas de exercícios do livro *Introduction to the Theory of Statistics* (MOOD, A. M.; GRAYBIOLL, F. A.; BOES, D. C., 1974). Para baixar &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/Mood-BenDeivide.pdf&#34; target=&#34;_blank&#34;&gt;clique aqui&lt;/a&gt;. --&gt;
 </description>
     </item>
     

@@ -32,9 +32,17 @@ slides:
 # - [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
 
 # Para desenhar, inserir:
+# site: https://github.com/burnpiro/reveal-pointer
+#       https://github.com/burnpiro/reveal-drawer
+# head:
 # <link rel="stylesheet" href="css/drawer.css"/>
 # <link rel="stylesheet" href="css/pointer.css" />
 # no slide .html
+# No final:
+# <script src="scr-pointer/plugin.js" crossorigin="anonymous"></script>
+# <script src="scr-drawer/plugin.js" crossorigin="anonymous"></script>
+# <script src="/js/pointer.js"></script>
+# <script src="/js/drawer.js"></script>
 ---
 
 
@@ -487,39 +495,22 @@ Aula 04 - Coleta, organização e apresentação de dados
   
 
 ```
-##                 Classe Fi      PM   Fr Fac1 Fac2 Fp Fac1p Fac2p
-## 1  -55.89 |---  -45.32  2 -50.605 0.00    2 1000  0   0.2 100.0
-## 2  -45.32 |---  -34.75  0 -40.035 0.00    2  998  0   0.2  99.8
-## 3  -34.75 |---  -24.18  2 -29.465 0.00    4  998  0   0.4  99.8
-## 4  -24.18 |---  -13.61  6 -18.895 0.01   10  996  1   1.0  99.6
-## 5   -13.61 |---  -3.04  7  -8.325 0.01   17  990  1   1.7  99.0
-## 6     -3.04 |---  7.53 12   2.245 0.01   29  983  1   2.9  98.3
-## 7      7.53 |---  18.1 17  12.815 0.02   46  971  2   4.6  97.1
-## 8     18.1 |---  28.67 33  23.385 0.03   79  954  3   7.9  95.4
-## 9    28.67 |---  39.24 36  33.955 0.04  115  921  4  11.5  92.1
-## 10   39.24 |---  49.81 46  44.525 0.05  161  885  5  16.1  88.5
-## 11   49.81 |---  60.38 43  55.095 0.04  204  839  4  20.4  83.9
-## 12   60.38 |---  70.95 79  65.665 0.08  283  796  8  28.3  79.6
-## 13   70.95 |---  81.52 68  76.235 0.07  351  717  7  35.1  71.7
-## 14   81.52 |---  92.09 94  86.805 0.09  445  649  9  44.5  64.9
-## 15  92.09 |---  102.66 72  97.375 0.07  517  555  7  51.7  55.5
-## 16 102.66 |---  113.23 74 107.945 0.07  591  483  7  59.1  48.3
-## 17  113.23 |---  123.8 68 118.515 0.07  659  409  7  65.9  40.9
-## 18  123.8 |---  134.37 76 129.085 0.08  735  341  8  73.5  34.1
-## 19 134.37 |---  144.94 70 139.655 0.07  805  265  7  80.5  26.5
-## 20 144.94 |---  155.51 62 150.225 0.06  867  195  6  86.7  19.5
-## 21 155.51 |---  166.08 59 160.795 0.06  926  133  6  92.6  13.3
-## 22 166.08 |---  176.65 25 171.365 0.03  951   74  3  95.1   7.4
-## 23 176.65 |---  187.22 15 181.935 0.01  966   49  1  96.6   4.9
-## 24 187.22 |---  197.79  6 192.505 0.01  972   34  1  97.2   3.4
-## 25 197.79 |---  208.36 12 203.075 0.01  984   28  1  98.4   2.8
-## 26 208.36 |---  218.93  6 213.645 0.01  990   16  1  99.0   1.6
-## 27  218.93 |---  229.5  5 224.215 0.00  995   10  0  99.5   1.0
-## 28  229.5 |---  240.07  3 234.785 0.00  998    5  0  99.8   0.5
-## 29 240.07 |---  250.64  0 245.355 0.00  998    2  0  99.8   0.2
-## 30 250.64 |---  261.21  1 255.925 0.00  999    2  0  99.9   0.2
-## 31 261.21 |---  271.78  0 266.495 0.00  999    1  0  99.9   0.1
-## 32 271.78 |---| 282.35  1 277.065 0.00 1000    1  0 100.0   0.1
+##                 Classe  Fi     PM   Fr Fac1 Fac2 Fp Fac1p Fac2p
+## 1  -62.31 |---  -38.91   2 -50.61 0.00    2 1000  0   0.2 100.0
+## 2  -38.91 |---  -15.51   7 -27.21 0.01    9  998  1   0.9  99.8
+## 3    -15.51 |---  7.89  21  -3.81 0.02   30  991  2   3.0  99.1
+## 4     7.89 |---  31.29  59  19.59 0.06   89  970  6   8.9  97.0
+## 5    31.29 |---  54.69  86  42.99 0.09  175  911  9  17.5  91.1
+## 6    54.69 |---  78.09 147  66.39 0.15  322  825 15  32.2  82.5
+## 7   78.09 |---  101.49 188  89.79 0.19  510  678 19  51.0  67.8
+## 8  101.49 |---  124.89 156 113.19 0.16  666  490 16  66.6  49.0
+## 9  124.89 |---  148.29 160 136.59 0.16  826  334 16  82.6  33.4
+## 10 148.29 |---  171.69 114 159.99 0.11  940  174 11  94.0  17.4
+## 11 171.69 |---  195.09  31 183.39 0.03  971   60  3  97.1   6.0
+## 12 195.09 |---  218.49  19 206.79 0.02  990   29  2  99.0   2.9
+## 13 218.49 |---  241.89   8 230.19 0.01  998   10  1  99.8   1.0
+## 14 241.89 |---  265.29   1 253.59 0.00  999    2  0  99.9   0.2
+## 15 265.29 |---| 288.69   1 276.99 0.00 1000    1  0 100.0   0.1
 ```
   
 </section>
@@ -565,7 +556,7 @@ Dados elaborados sobre o número de erros encontrados em 20 conjunto de caracter
 
 {{< slide background-image="cap02.png" >}}
 
-<section>
+<section data-transition="zoom">
 <h2> Distribuição de frequência </h2>
 <h3>Frequência absoluta</h3>
 
@@ -579,7 +570,7 @@ Dados elaborados sobre o número de erros encontrados em 20 conjunto de caracter
                  |Total |    20|
                  
 </section>
-<section>
+<section data-transition="fast">
 <h3>Frequência relativa</h3>
 
 |Número de erros `\((x_i)\)` | `\(f_i\)` | `\(f_{r_i}\)` |
@@ -592,7 +583,7 @@ Dados elaborados sobre o número de erros encontrados em 20 conjunto de caracter
                  
 </section>
 
-<section>
+<section data-transition="fast">
 <h3>Frequência percentual</h3>
 
 |Número de erros `\((x_i)\)` |  `\(f_i\)` | `\(f_{r_i}\)` | `\(f_{\%_i}\)`|
@@ -612,10 +603,85 @@ Dados elaborados sobre o número de erros encontrados em 20 conjunto de caracter
 | Número de erros `\((x_i)\)` |  `\(f_i\)` | `\(f_{r_i}\)` | `\(f_{\%_i}\)` | `\(f_{ac\downarrow_i}\)` | `\(f_{ac\uparrow_i}\)` |
 | :----: | :----: | :----: | :----: | :----: | :----: | 
 | `\(0\)`     |  `\(3\)` |  `\(0,15\)` | `\(15\)` | `\(3\)` | `\(20\)`|
-    `\(1\)`     |  `\(7\)` | `\(0,35\)` | `\(35\)` | `\(10\)` | `\(7 + 4 + 5 + 1 = 20 - 3 = 17\)`|
-    `\(2\)`     |  `\(4\)` | `\(0,20\)` | `\(35\)` | `\(14\)` | `\(4 + 5 + 1 = 17 -  7 = 10\)`|
-    `\(3\)`     |  `\(5\)` | `\(0,25\)` | `\(25\)` | `\(19\)` | `\(5 + 1 = 10 - 4 = 6\)`|
-    `\(4\)`     |  `\(1\)` | `\(0,05\)` | `\(5\)` | `\(20\)` | `\(1 = 6 - 5 = 1\)`|
+    `\(1\)`     |  `\(7\)` | `\(0,35\)` | `\(35\)` | `\(10\)` | `\(17\)`|
+    `\(2\)`     |  `\(4\)` | `\(0,20\)` | `\(35\)` | `\(14\)` | `\(10\)`|
+    `\(3\)`     |  `\(5\)` | `\(0,25\)` | `\(25\)` | `\(19\)` | `\(6\)`|
+    `\(4\)`     |  `\(1\)` | `\(0,05\)` | `\(5\)` | `\(20\)` | `\(1\)`|
 Total |  `\(20\)` | `\(1\)` | `\(100\)` | - | - |
                  
 </section>
+
+---
+
+{{< slide background-image="cap02.png" >}}
+
+<section data-transition="zoom">
+<h2>Tabela para V. contínua (Algoritmo) </h2>
+
+| Classe                           | $ F_i $    |
+| :----:                           | :----:     |
+| $ Li_{1a} \vdash  Ls_{2a} $      |  $ f_1 $   |
+| $ Li_{2a} \vdash  Ls_{2a} $        |  $ f_2 $   |
+|    $ \vdots $                    | $ \vdots $ |
+| $ Li_{ka}  \vdash Ls_{ka} $       | $ f_k $    |
+
+</section>
+
+<section data-transition="fast">
+
+<pre> 1º Passo - Número de classes </pre>
+
+`\begin{align}
+  k & \approx \left\{\begin{array}{ll}
+          \sqrt{\textrm{número de elementos}}, & n \leq 100 \\
+          5log_{10}(\textrm{número de elementos}), & n > 100
+        \end{array}\right. 
+\end{align}`
+
+<pre> 2º Passo - Amplitude total </pre>
+
+`\begin{align}
+  A_t & = \max_i(X_i) - \min_i(X_i), 
+\end{align}`
+para `\(i \in \mathbb{N}^{+}\)`.
+
+</section>
+
+
+<section data-transition="fast">
+
+<pre> 3º Passo - Amplitude de classe </pre>
+
+`\begin{align}
+  c & = \left\{\begin{array}{ll}
+           \frac{A_t}{k - 1}, & \textrm{Amostra} \\
+           \frac{A_t}{k}, & \textrm{População}.
+        \end{array}\right. 
+\end{align}`
+
+<pre> 4º Passo - LI da primeira classe </pre>
+
+`\begin{align}
+Li_{1a} & = \left\{\begin{array}{ll}
+           X_{(1)} - c / 2, & \textrm{Amostra} \\
+           X_{(1)}, & \textrm{População}.
+        \end{array}\right. 
+\end{align}`
+
+</section>
+
+<section data-transition="fast">
+
+<h2> Em resumo... </h2>
+
+- Calcular `\(k\)`,
+- Calcular `\(A_t\)`,
+- Calcular `\(c\)`,
+- Calcular `\(Li_{1a}\)`,
+- Determinar as classes,
+- Calcular o ponto médio, e
+- Calcular as frequências como apresentadas no início dessa seção.
+
+</section>
+
+

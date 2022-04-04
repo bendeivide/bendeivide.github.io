@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Mar 2022 15:32:16 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 04 Apr 2022 20:22:11 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -1751,6 +1751,98 @@ Período de 30/07/2021 a 30/09/2021&lt;/p&gt;
     </item>
     
     <item>
+      <title>🎓 Projeto Concurseiros da Estatística</title>
+      <link>http://bendeivide.github.io/project/conc_estat/</link>
+      <pubDate>Mon, 04 Apr 2022 20:22:11 +0000</pubDate>
+      <guid>http://bendeivide.github.io/project/conc_estat/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;p&gt;Projeto Concurseiros da Estatística vem com o propósito de repassar a minha experiência ao longo dos concursos para o magistério superior na área da Estatística. Disponibilizarei todas as notas desenvolvidas ao longo dos diversos pontos estudados para os mais variados concursos. Repassaremos algumas estratégias experienciadas por mim. Assim, não tome tudo como verdade, seja crítico, aproveite o que for bom, melhore os nossos materiais, e propague conhecimento.&lt;/p&gt;
+&lt;h2 id=&#34;preparação-psicológica&#34;&gt;Preparação psicológica&lt;/h2&gt;
+&lt;h2 id=&#34;estratégias-para-estudo&#34;&gt;Estratégias para estudo&lt;/h2&gt;
+&lt;h2 id=&#34;como-desenvolver-os-pontos-para-prova-escrita-e-didática&#34;&gt;Como desenvolver os pontos para prova escrita e didática&lt;/h2&gt;
+&lt;h2 id=&#34;memorial&#34;&gt;Memorial&lt;/h2&gt;
+&lt;h2 id=&#34;plano-de-ensino&#34;&gt;Plano de Ensino&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-person-chalkboard  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/plano_aula.pdf&#34; target=&#34;_blank&#34;&gt;Plano de aula (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-person-chalkboard  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/plano_aula.tex&#34; target=&#34;_blank&#34;&gt;Plano de aula ( $ \LaTeX $ )&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tópicos-estudados&#34;&gt;Tópicos estudados&lt;/h2&gt;
+&lt;p&gt;Vamos seguir alguns tópicos que foram amplamente pontos dos mais diversos concursos que participei na área da Estatística&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Tópicos estudados&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;Tópico 1: Conceitos de Probabilidade - Experimento Aleatório; Espaço de Probabilidade; Probabilidade Condicional e Independência. Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Tópico 2: Variável Aleatória&lt;/li&gt;
+&lt;li&gt;Tópico 3: Vetores Aleatórios&lt;/li&gt;
+&lt;li&gt;Tópico 4: Teoremas Limite&lt;/li&gt;
+&lt;li&gt;Tópico 5: Estimação pontual&lt;/li&gt;
+&lt;li&gt;Tópico 6: Estimação intervalar&lt;/li&gt;
+&lt;li&gt;Tópico 7: Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Tópico 8: Regressão Linear&lt;/li&gt;
+&lt;li&gt;Tópico 9: Análise de Séries temporais&lt;/li&gt;
+&lt;li&gt;Tópico 10: Amostragem&lt;/li&gt;
+&lt;li&gt;Tópico 11: Controle Estatístico de Qualidade&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;materiais-desenvolvidos-para-prova-escrita&#34;&gt;Materiais desenvolvidos para prova escrita&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico01.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico02.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico03.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico04.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico05.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico06.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico07.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico08.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico09.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico10.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico11.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico12.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico13.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico14.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico13.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;materiais-desenvolvidos-para-prova-didática&#34;&gt;Materiais desenvolvidos para prova didática&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide01.pdf&#34; target=&#34;_blank&#34;&gt;Slide 01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide02.pdf&#34; target=&#34;_blank&#34;&gt;Slide 02&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide03.pdf&#34; target=&#34;_blank&#34;&gt;Slide 03&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide04.pdf&#34; target=&#34;_blank&#34;&gt;Slide 04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide05.pdf&#34; target=&#34;_blank&#34;&gt;Slide 05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide06.pdf&#34; target=&#34;_blank&#34;&gt;Slide 06&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/slide07.pdf&#34; target=&#34;_blank&#34;&gt;Slide 07&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;materiais-complementares&#34;&gt;Materiais complementares&lt;/h2&gt;
+&lt;!-- - Um dos materiais durante o mestrado/doutorado que deu gosto de fazer, foram as listas de exercícios do livro *Introduction to the Theory of Statistics* (MOOD, A. M.; GRAYBIOLL, F. A.; BOES, D. C., 1974). Para baixar &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/Mood-BenDeivide.pdf&#34; target=&#34;_blank&#34;&gt;clique aqui&lt;/a&gt;. --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Rapidinhas do R</title>
       <link>http://bendeivide.github.io/project/rapidinhasr/</link>
       <pubDate>Fri, 25 Mar 2022 16:30:54 +0000</pubDate>
@@ -1876,70 +1968,6 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
 &lt;/center&gt;
 &lt;p&gt;O Projeto Aprender Por Ensinar (APE) se destina a auxiliar a disciplina de ESTATÍSTICA &amp;amp; PROBABILIDADE, ministrado pela Universidade Federal de São João del-Rei, campus Alto Paraopeba, Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;Para detalhes do curso, acesse: &lt;a href=&#34;https://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/courses/epaec/exerresolvidos/&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>🎓 Projeto Concurseiros da Estatística</title>
-      <link>http://bendeivide.github.io/project/conc_estat/</link>
-      <pubDate>Sun, 13 Mar 2022 17:58:36 +0000</pubDate>
-      <guid>http://bendeivide.github.io/project/conc_estat/</guid>
-      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
-&lt;p&gt;Projeto Concurseiros da Estatística vem com o propósito de repassar a minha experiência ao longo dos concursos para o magistério superior na área da Estatística. Disponibilizarei todas as notas desenvolvidas ao longo dos diversos pontos estudados para os mais variados concursos. Repassaremos algumas estratégias experienciadas por mim. Assim, não tome tudo como verdade, seja crítico, aproveite o que for bom, melhore os nossos materiais, e propague conhecimento.&lt;/p&gt;
-&lt;h2 id=&#34;preparação-psicológica&#34;&gt;Preparação psicológica&lt;/h2&gt;
-&lt;h2 id=&#34;estratégias-para-estudo&#34;&gt;Estratégias para estudo&lt;/h2&gt;
-&lt;h2 id=&#34;como-desenvolver-os-pontos-para-prova-escrita-e-didática&#34;&gt;Como desenvolver os pontos para prova escrita e didática&lt;/h2&gt;
-&lt;h2 id=&#34;memorial&#34;&gt;Memorial&lt;/h2&gt;
-&lt;h2 id=&#34;plano-de-ensino&#34;&gt;Plano de Ensino&lt;/h2&gt;
-&lt;h2 id=&#34;tópicos-estudados&#34;&gt;Tópicos estudados&lt;/h2&gt;
-&lt;p&gt;Vamos seguir alguns tópicos que foram amplamente pontos dos mais diversos concursos que participei na área da Estatística&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
-  &lt;summary&gt;Tópicos estudados&lt;/summary&gt;
-  &lt;p&gt;&lt;ol&gt;
-&lt;li&gt;Tópico 1: Conceitos de Probabilidade - Experimento Aleatório; Espaço de Probabilidade; Probabilidade Condicional e Independência. Teorema de Bayes&lt;/li&gt;
-&lt;li&gt;Tópico 2: Variável Aleatória&lt;/li&gt;
-&lt;li&gt;Tópico 3: Vetores Aleatórios&lt;/li&gt;
-&lt;li&gt;Tópico 4: Teoremas Limite&lt;/li&gt;
-&lt;li&gt;Tópico 5: Estimação pontual&lt;/li&gt;
-&lt;li&gt;Tópico 6: Estimação intervalar&lt;/li&gt;
-&lt;li&gt;Tópico 7: Testes de hipóteses&lt;/li&gt;
-&lt;li&gt;Tópico 8: Regressão Linear&lt;/li&gt;
-&lt;li&gt;Tópico 9: Análise de Séries temporais&lt;/li&gt;
-&lt;li&gt;Tópico 10: Amostragem&lt;/li&gt;
-&lt;li&gt;Tópico 11: Controle Estatístico de Qualidade&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;materiais-desenvolvidos-para-prova-escrita&#34;&gt;Materiais desenvolvidos para prova escrita&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico01.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico02.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico03.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico04.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico05.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico06.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico07.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico08.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 8&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico09.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico10.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-user-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/topico11.pdf&#34; target=&#34;_blank&#34;&gt;Tópico 11&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;materiais-desenvolvidos-para-prova-didática&#34;&gt;Materiais desenvolvidos para prova didática&lt;/h2&gt;
-&lt;h2 id=&#34;materiais-complementares&#34;&gt;Materiais complementares&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Um dos materiais durante o mestrado/doutorado que deu gosto de fazer, foram as listas de exercícios do livro &lt;em&gt;Introduction to the Theory of Statistics&lt;/em&gt; (MOOD, A. M.; GRAYBIOLL, F. A.; BOES, D. C., 1974). Para baixar &lt;a href=&#34;http://bendeivide.github.io/concurseiros_estatistica/Mood-BenDeivide.pdf&#34; target=&#34;_blank&#34;&gt;clique aqui&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -6912,7 +6940,7 @@ make.names(.123)
       data-background-image=&#34;cap02.png&#34;
   &gt;
 
-&lt;section&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
 &lt;h2&gt; Distribuição de frequência &lt;/h2&gt;
 &lt;h3&gt;Frequência absoluta&lt;/h3&gt;
 &lt;table&gt;
@@ -6950,7 +6978,7 @@ make.names(.123)
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/section&gt;
-&lt;section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
 &lt;h3&gt;Frequência relativa&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -6989,7 +7017,7 @@ make.names(.123)
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/section&gt;
-&lt;section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
 &lt;h3&gt;Frequência percentual&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -6997,7 +7025,7 @@ make.names(.123)
 &lt;th style=&#34;text-align:center&#34;&gt;Número de erros &lt;code&gt;\((x_i)\)&lt;/code&gt;&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(f_i\)&lt;/code&gt;&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(f_{r_i}\)&lt;/code&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;%&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(f_{\%_i}\)&lt;/code&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -7041,7 +7069,7 @@ make.names(.123)
 &lt;/table&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;h3&gt;Frequência percentual&lt;/h3&gt;
+&lt;h3&gt;Tabela completa&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -7060,39 +7088,39 @@ make.names(.123)
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,15\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(15\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 + 4 + 5 + 1 = 20\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(20\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(1\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(7\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,35\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(35\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 = 10\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(7 + 4 + 5 + 1 = 20 - 3 = 17\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(10\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(17\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(2\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(4\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,20\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(35\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 + 4 = 14\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(4 + 5 + 1 = 17 -  7 = 10\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(14\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(10\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(5\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,25\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(25\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 + 4 + 5 = 19\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(5 + 1 = 10 - 4 = 6\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(19\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(6\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(4\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(1\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,05\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(5\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 + 4 + 5 + 1 = 20\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(1 = 6 - 5 = 1\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(20\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(1\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;Total&lt;/td&gt;
@@ -7104,6 +7132,68 @@ make.names(.123)
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;section data-transition=&#34;zoom&#34;&gt;
+&lt;h2&gt;Tabela para V. contínua (Algoritmo) &lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Classe&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;$ F_i $&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ Li_{1a} \vdash  Ls_{2a} $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ f_1 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ Li_{2a} \vdash  Ls_{2a} $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ f_2 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ \vdots $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ \vdots $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ Li_{ka}  \vdash Ls_{ka} $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ f_k $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
+&lt;pre&gt; 1º Passo - Número de classes &lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;\begin{align} k &amp;amp; \approx \left\{\begin{array}{ll} \sqrt{\textrm{número de elementos}}, &amp;amp; n \leq 100 \\ 5log_{10}(\textrm{número de elementos}), &amp;amp; n &amp;gt; 100 \end{array}\right.  \end{align}&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt; 2º Passo - Amplitude total &lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;\begin{align} A_t &amp;amp; = \max_i(X_i) - \min_i(X_i),  \end{align}&lt;/code&gt;
+para &lt;code&gt;\(i \in \mathbb{N}^{+}\)&lt;/code&gt;.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
+&lt;pre&gt; 3º Passo - Amplitude de classe &lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;\begin{align} c &amp;amp; = \left\{\begin{array}{ll} \frac{A_t}{k - 1}, &amp;amp; \textrm{Amostra} \\ \frac{A_t}{k}, &amp;amp; \textrm{População}. \end{array}\right.  \end{align}&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt; 4º Passo - LI da primeira classe &lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;\begin{align} Li_{1a} &amp;amp; = \left\{\begin{array}{ll} X_{(1)} - c / 2, &amp;amp; \textrm{Amostra} \\ X_{(1)}, &amp;amp; \textrm{População}. \end{array}\right.  \end{align}&lt;/code&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
+&lt;h2&gt; Em resumo... &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calcular &lt;code&gt;\(k\)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;Calcular &lt;code&gt;\(A_t\)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;Calcular &lt;code&gt;\(c\)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;Calcular &lt;code&gt;\(Li_{1a}\)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;Determinar as classes,&lt;/li&gt;
+&lt;li&gt;Calcular o ponto médio, e&lt;/li&gt;
+&lt;li&gt;Calcular as frequências como apresentadas no início dessa seção.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/section&gt;
 </description>
     </item>

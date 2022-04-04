@@ -4067,7 +4067,7 @@ make.names(.123)
       data-background-image=&#34;cap02.png&#34;
   &gt;
 
-&lt;section&gt;
+&lt;section data-transition=&#34;zoom&#34;&gt;
 &lt;h2&gt; Distribuição de frequência &lt;/h2&gt;
 &lt;h3&gt;Frequência absoluta&lt;/h3&gt;
 &lt;table&gt;
@@ -4105,7 +4105,7 @@ make.names(.123)
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/section&gt;
-&lt;section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
 &lt;h3&gt;Frequência relativa&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -4144,7 +4144,7 @@ make.names(.123)
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/section&gt;
-&lt;section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
 &lt;h3&gt;Frequência percentual&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -4152,7 +4152,7 @@ make.names(.123)
 &lt;th style=&#34;text-align:center&#34;&gt;Número de erros &lt;code&gt;\((x_i)\)&lt;/code&gt;&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(f_i\)&lt;/code&gt;&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(f_{r_i}\)&lt;/code&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;%&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(f_{\%_i}\)&lt;/code&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -4196,7 +4196,7 @@ make.names(.123)
 &lt;/table&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;h3&gt;Frequência percentual&lt;/h3&gt;
+&lt;h3&gt;Tabela completa&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -4215,39 +4215,39 @@ make.names(.123)
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,15\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(15\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 + 4 + 5 + 1 = 20\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(20\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(1\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(7\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,35\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(35\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 = 10\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(7 + 4 + 5 + 1 = 20 - 3 = 17\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(10\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(17\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(2\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(4\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,20\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(35\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 + 4 = 14\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(4 + 5 + 1 = 17 -  7 = 10\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(14\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(10\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(5\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,25\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(25\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 + 4 + 5 = 19\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(5 + 1 = 10 - 4 = 6\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(19\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(6\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(4\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(1\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(0,05\)&lt;/code&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(5\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(3 + 7 + 4 + 5 + 1 = 20\)&lt;/code&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(1 = 6 - 5 = 1\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(20\)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;\(1\)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;Total&lt;/td&gt;
@@ -4259,6 +4259,68 @@ make.names(.123)
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;section data-transition=&#34;zoom&#34;&gt;
+&lt;h2&gt;Tabela para V. contínua (Algoritmo) &lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Classe&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;$ F_i $&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ Li_{1a} \vdash  Ls_{2a} $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ f_1 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ Li_{2a} \vdash  Ls_{2a} $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ f_2 $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ \vdots $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ \vdots $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ Li_{ka}  \vdash Ls_{ka} $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ f_k $&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
+&lt;pre&gt; 1º Passo - Número de classes &lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;\begin{align} k &amp;amp; \approx \left\{\begin{array}{ll} \sqrt{\textrm{número de elementos}}, &amp;amp; n \leq 100 \\ 5log_{10}(\textrm{número de elementos}), &amp;amp; n &amp;gt; 100 \end{array}\right.  \end{align}&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt; 2º Passo - Amplitude total &lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;\begin{align} A_t &amp;amp; = \max_i(X_i) - \min_i(X_i),  \end{align}&lt;/code&gt;
+para &lt;code&gt;\(i \in \mathbb{N}^{+}\)&lt;/code&gt;.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
+&lt;pre&gt; 3º Passo - Amplitude de classe &lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;\begin{align} c &amp;amp; = \left\{\begin{array}{ll} \frac{A_t}{k - 1}, &amp;amp; \textrm{Amostra} \\ \frac{A_t}{k}, &amp;amp; \textrm{População}. \end{array}\right.  \end{align}&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt; 4º Passo - LI da primeira classe &lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;\begin{align} Li_{1a} &amp;amp; = \left\{\begin{array}{ll} X_{(1)} - c / 2, &amp;amp; \textrm{Amostra} \\ X_{(1)}, &amp;amp; \textrm{População}. \end{array}\right.  \end{align}&lt;/code&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section data-transition=&#34;fast&#34;&gt;
+&lt;h2&gt; Em resumo... &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calcular &lt;code&gt;\(k\)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;Calcular &lt;code&gt;\(A_t\)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;Calcular &lt;code&gt;\(c\)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;Calcular &lt;code&gt;\(Li_{1a}\)&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;Determinar as classes,&lt;/li&gt;
+&lt;li&gt;Calcular o ponto médio, e&lt;/li&gt;
+&lt;li&gt;Calcular as frequências como apresentadas no início dessa seção.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/section&gt;
 </description>
     </item>

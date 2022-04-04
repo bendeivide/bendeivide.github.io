@@ -13,9 +13,9 @@ tabfreq <- function(dados, k = NULL){
   if (is.null(k)) {
     # Numero de classes
     if (n <= 100) {
-      k <- round(sqrt(n))
-    # OBS.: O valor de k nao necessariamente precisa ser
-    #       sqrt(n). Esse eh um valor base
+      k <- round(sqrt(n)); k
+      # OBS.: O valor de k nao necessariamente precisa ser
+      #       sqrt(n). Esse eh um valor base
     } 
     if (n > 100) {
       k <- 5 * log10(n)

@@ -12,9 +12,14 @@ tabfreq <- function(dados, k = NULL){
   
   if (is.null(k)) {
     # Numero de classes
-    k <- round(sqrt(n)); k
-    # OBS.: O valor de k nao necessariamente precisa ser
-    #       sqrt(n). Esse eh um valor base
+    if (n <= 100) {
+      k <- round(sqrt(n)); k
+      # OBS.: O valor de k nao necessariamente precisa ser
+      #       sqrt(n). Esse eh um valor base
+    } 
+    if (n > 100) {
+      k <- 5 * log10(n)
+    } 
   } else {
     if(!is.numeric(k)) stop("O argumento deve ser numérico!")
   } 
