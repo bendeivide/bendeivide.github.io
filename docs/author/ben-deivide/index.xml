@@ -5,203 +5,183 @@
     <link>http://bendeivide.github.io/author/ben-deivide/</link>
       <atom:link href="http://bendeivide.github.io/author/ben-deivide/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 22 Mar 2022 20:40:00 +0000</lastBuildDate>
     <image>
-      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <url>http://bendeivide.github.io/author/ben-deivide/avatar_hue6cc0766c96d7ef53baa672d4639967d_80217_270x270_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
       <link>http://bendeivide.github.io/author/ben-deivide/</link>
     </image>
     
     <item>
+      <title>Clube de Engenharia Assistida por Computador (CEAC)</title>
+      <link>http://bendeivide.github.io/talk/clube-de-engenharia-assistida-por-computador-ceac/</link>
+      <pubDate>Tue, 22 Mar 2022 20:40:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/clube-de-engenharia-assistida-por-computador-ceac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambiente R além das análises estatísticas</title>
+      <link>http://bendeivide.github.io/talk/ambiente-r-alem-das-analises-estatisticas/</link>
+      <pubDate>Mon, 07 Mar 2022 14:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/ambiente-r-alem-das-analises-estatisticas/</guid>
+      <description>&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wnOGptAI5Zs&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Incidence and lethality of covid-19 clusters in Brazil via circular scan method</title>
+      <link>http://bendeivide.github.io/publication/art-covid21-2/</link>
+      <pubDate>Tue, 07 Dec 2021 20:10:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/art-covid21-2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;em&gt;Cite&lt;/em&gt; acima para verificar a referência, para que este artigo possa ser citado em seus trabalhos.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Local Moran Index: an application in epidemiological coefficients of the COVID-19 pandemic in Brazil </title>
+      <link>http://bendeivide.github.io/publication/art-covid21/</link>
+      <pubDate>Tue, 07 Dec 2021 19:37:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/art-covid21/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;em&gt;Cite&lt;/em&gt; acima para verificar a referência, para que este artigo possa ser citado em seus trabalhos.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spatio-temporal geostatistical modeling of Gneiting applied to surface albedo (Brazil) </title>
+      <link>http://bendeivide.github.io/publication/albedo2021/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/albedo2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;em&gt;Código&lt;/em&gt; para acessar os códigos R do artigo.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelagem Matemática para Previsão de Jogos de Futebol </title>
+      <link>http://bendeivide.github.io/publication/futebol2021/</link>
+      <pubDate>Tue, 13 Jul 2021 14:54:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/futebol2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;em&gt;Código&lt;/em&gt; para acessar os códigos R do artigo.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R como uma ferramenta acadêmica</title>
-      <link>http://bendeivide.github.io/slides/ramb-academico/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/ramb-academico/</guid>
-      <description>&lt;h1 id=&#34;r-como-uma-ferramenta-acadêmica&#34;&gt;R como uma ferramenta acadêmica&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;apresentação-com-selo-dc&#34;&gt;Apresentação com selo DC&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/ramb-academico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
-               /slides/ramb-academico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
-               /slides/ramb-academico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/ramb-academico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
-               width=&#34;385&#34;
-               height=&#34;406&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;acesso-ao-material-dessa-apresentação&#34;&gt;Acesso ao material dessa apresentação&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/palestras/tree/master/ramb-academico&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/ramb-academico/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
-               /slides/ramb-academico/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
-               /slides/ramb-academico/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/ramb-academico/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
-               width=&#34;607&#34;
-               height=&#34;471&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;nota&#34;&gt;Nota&lt;/h2&gt;
-&lt;p&gt;Essa apresentação terá um viés, pois apesar do poder que a ambiente &lt;code&gt;R&lt;/code&gt; tem, muitos dos exemplos estarão dentro das minhas necessidades/limitações pessoais e profissionais. Portanto, um resultado do que experimento e venho experienciando!&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;histórico-sobre-o-ambiente-r&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Criadores Ross Ihaka e por Robert Gentleman (Nova Zelândia), 1993&lt;/li&gt;
-&lt;li&gt;Baseado na linguagem S, criado por John Chambers e colaboradores (Primeira versão 1976)&lt;/li&gt;
-&lt;li&gt;Atualmente é mantida por colaboradores voluntários em todo o mundo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;histórico-sobre-o-ambiente-r-1&#34;&gt;Histórico sobre o ambiente &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Linguagem pode ser orientada a objetos, Código aberto, funcional, metapragmática, Licença GNU&lt;/li&gt;
-&lt;li&gt;Repositório &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Popularidade com o &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt; (Joseph J. Allaire)&lt;/li&gt;
-&lt;li&gt;Como instalar o R?
-Como instalar o RStudio?&lt;/li&gt;
-&lt;li&gt;Como usar o R?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;curso-r-nível-básico&#34;&gt;Curso R (Nível Básico)&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Nível Básico&#34; srcset=&#34;
-               /slides/ramb-academico/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_4b297cb8f0e33e442ebf99b215388034.webp 400w,
-               /slides/ramb-academico/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_f138ba75b6cb4eb62d1ecea4bcae0172.webp 760w,
-               /slides/ramb-academico/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/ramb-academico/cursor-nb_hu8cbf2d1b9b5244f1524037e4474c538e_69900_4b297cb8f0e33e442ebf99b215388034.webp&#34;
-               width=&#34;593&#34;
-               height=&#34;579&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;curso-r-ni&#34;&gt;Curso R (NI)&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/post/cursorni2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Nível Intermediário&#34; srcset=&#34;
-               /slides/ramb-academico/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_01ee0fc5dca62b5827c4744b677401e2.webp 400w,
-               /slides/ramb-academico/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_2be287ff636a8ea73ce5b5354154f128.webp 760w,
-               /slides/ramb-academico/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/ramb-academico/cursor-ni_hua909e2f7dc5b7deac580280a2231351e_70067_01ee0fc5dca62b5827c4744b677401e2.webp&#34;
-               width=&#34;593&#34;
-               height=&#34;579&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;rapidinhas-do-r&#34;&gt;Rapidinhas do R&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/ramb-academico/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_df46483f285db6db6d908bc356b06e75.webp 400w,
-               /slides/ramb-academico/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_db647e21fc70a6855b86924338dcb47a.webp 760w,
-               /slides/ramb-academico/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/ramb-academico/rapidinhasr_huf4c584a0ea803c0b4fded9f2abc27f53_510973_df46483f285db6db6d908bc356b06e75.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;374&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico&#34;&gt;Ferramentas do &lt;code&gt;R&lt;/code&gt; além do fim Estatístico&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Análises Estatísticas ❌&lt;/li&gt;
-&lt;li&gt;Criação e divulgação de materiais científicos:
-&lt;ul&gt;
-&lt;li&gt;Materiais Dinâmicos (HTML, JavaScript, CSS, &lt;code&gt;\(\LaTeX\)&lt;/code&gt;, &lt;code&gt;R&lt;/code&gt;, PDF) ✔️&lt;/li&gt;
-&lt;li&gt;Materiais estatísticos (HTML, PDF, EPUB, WORD, SLIDES) ✔️&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;ferramentas-do-r-além-do-fim-estatístico-1&#34;&gt;Ferramentas do &lt;code&gt;R&lt;/code&gt; além do fim Estatístico&lt;/h2&gt;
+      <link>http://bendeivide.github.io/talk/r-como-uma-ferramenta-academica/</link>
+      <pubDate>Mon, 12 Jul 2021 18:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/r-como-uma-ferramenta-academica/</guid>
+      <description>&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/_43yBb_s-R8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the analysis of mortality risk factors for hospitalized COVID-19 patients: A data-driven study using the major Brazilian database</title>
+      <link>http://bendeivide.github.io/publication/art-covid19/</link>
+      <pubDate>Wed, 28 Apr 2021 21:09:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/art-covid19/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;em&gt;Cite&lt;/em&gt; acima para verificar a referência, para que este artigo possa ser citado em seus trabalhos.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Minicurso - Como desenvolver seu primeiro pacote R</title>
+      <link>http://bendeivide.github.io/talk/minicurso-como-desenvolver-seu-primeiro-pacote-r/</link>
+      <pubDate>Tue, 08 Dec 2020 10:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/minicurso-como-desenvolver-seu-primeiro-pacote-r/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7gUeYv0Os8s&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TB39rqQREw0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A linguagem R como uma ferramenta para a sua profissão</title>
+      <link>http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/</link>
+      <pubDate>Sat, 01 Aug 2020 19:30:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/a-linguagem-r-como-uma-ferramenta-para-a-sua-profissao/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>http://bendeivide.github.io/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>http://bendeivide.github.io/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
+t;code&gt;R&lt;/code&gt; além do fim Estatístico&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Desenvolvimento de pacotes  ✔️
 &lt;ul&gt;

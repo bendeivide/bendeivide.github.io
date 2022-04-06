@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-03-30 15:32:16"
+date: "2022-04-06 17:10:02"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -254,6 +254,13 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s02/index" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
+
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/11X4IQ9wz-95j1-fJWtWaibRv2S7E44-CaEkIJuIlX6Q/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
    - [Notas de aula]()
@@ -268,7 +275,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< spoiler text="Aula 3 (28/03/2022)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 1
 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "/slides/estprob/s02/index" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
@@ -288,6 +295,63 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados
 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 04]({{< relref "/slides/estprob/s04/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - [Notas de aula]()
+   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 5 (04/04/2022)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 2
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 05]({{< relref "/slides/estprob/s04/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - [Notas de aula]()
+   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 6 (05-06/04/2022)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de posição
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 06]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1LylGqj86UjAkzKnCXR61oHCrIxpLKjPjPzkTGbTtELk/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - [Notas de aula]()
+   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 7 (11/04/2022)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 3
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 06]({{< relref "/slides/estprob/s04/index" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
