@@ -13,7 +13,7 @@ highlight_languages:
   - python
   - latex
 math: yes
-diagram: no
+diagram: yes
 privacy_pack: yes
 edit_page:
   content_dir: ''

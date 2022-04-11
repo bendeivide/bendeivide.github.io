@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-04-06 17:10:02"
+date: "2022-04-11 10:50:44"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -276,7 +276,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< spoiler text="Aula 3 (28/03/2022)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 1
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "/slides/estprob/s02/index" >}})
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/11X4IQ9wz-95j1-fJWtWaibRv2S7E44-CaEkIJuIlX6Q/edit?usp=sharing)
@@ -315,7 +315,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< spoiler text="Aula 5 (04/04/2022)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 2
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 05]({{< relref "/slides/estprob/s04/index" >}})
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 05]({{< relref "" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
@@ -338,7 +338,6 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1LylGqj86UjAkzKnCXR61oHCrIxpLKjPjPzkTGbTtELk/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Notas de aula]()
    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
    - [Curso R](courses/cursor/)
    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
@@ -351,12 +350,11 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< spoiler text="Aula 7 (11/04/2022)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 3
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 06]({{< relref "/slides/estprob/s04/index" >}})
+{{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 07](https://docs.google.com/document/d/1oHTAZYqv3sRZPIqY2CaO039Oa1v9inUDQEMgCNviPls/edit?usp=sharing)
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Notas de aula]()
    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
    - [Curso R](courses/cursor/)
    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})

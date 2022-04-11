@@ -1,0 +1,207 @@
+<p>{{&lt; slide background-image=“fundo03.jpg” &gt;}}</p>
+<div id="estatística-computacional" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Estatística
+Computacional</h1>
+<p>Aula 02 - Introdução ao ambiente R </br></p>
+<p>{{&lt; icon name=“user-tie” pack=“fas” &gt;}} <a
+href="https://bendeivide.github.io/">Ben Dêivide</a> | {{&lt; icon
+name=“school” pack=“fas” &gt;}} <a
+href="https://www.ufsj.edu.br/">UFSJ</a> </br> {{&lt; icon name=“book”
+pack=“fas” &gt;}} <a href="#estatística-computacional">Estatística
+Computacional</a>({{&lt; relref “/courses/estcomp” &gt;}})</p>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+<div id="selo-dc" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Selo DC</h2>
+<p><a href="https://bendeivide.github.io/dc/"><img
+src="SeloDC-branco.png" /></a></p>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+</div>
+<div id="acesso-a-todo-material" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Acesso a todo
+material</h2>
+<p>[<img src="folder.png" />]({{&lt; relref “/courses/estcomp”
+&gt;}})</p>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+</div>
+<div id="instalação-do-r-e-rstudio" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Instalação do R e
+RStudio</h2>
+<ul>
+<li><a href="https://bendeivide.github.io/cursor/#so-windows">SO
+Win</a></li>
+<li><a href="https://bendeivide.github.io/cursor/#so-linux-ubuntu">SO
+UNIX</a></li>
+<li><a href="https://bendeivide.github.io/cursor/#so-mac">SO
+MAC</a></li>
+</ul>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+<!-- https://revealjs.com/transitions/ -->
+<section data-transition="zoom">
+<h2>
+Diferença entre o R e RStudio
+</h2>
+<p>{{&lt; figure src=“promptr.png” title=“” width=“730” height=“380”
+&gt;}}</p>
+</section>
+<section data-transition-speed="fast">
+<h2>
+Diferença entre o R e RStudio
+</h2>
+<p>{{&lt; figure src=“ide_rstudio.png” title=“” width=“730” height=“380”
+&gt;}}</p>
+</section>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+</div>
+<div id="como-o-r-trabalha" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Como o R
+trabalha</h2>
+<p>{{&lt; figure src=“rworks.png” title=“” width=“730” height=“480”
+&gt;}}</p>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+<section data-auto-animate>
+<h2 data-id="code-title">
+Console e Prompt de comando
+</h2>
+<pre data-id="code-animation">
+      <code class="hljs" data-trim data-line-numbers="|1|2-3">
+        <script type="text/template">
+        options(prompt = "R> ")
+        # Toda vez que o console iniciar, começarar por 'R>'
+        10
+        </script>
+      </code>
+    </pre>
+</section>
+<section>
+<h2 data-id="code-title">
+Resultado da execução
+</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>R<span class="sc">&gt;</span> <span class="fu">options</span>(<span class="at">prompt =</span> <span class="st">&quot;R&gt; &quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>R<span class="sc">&gt;</span> <span class="co"># Toda vez que o console iniciar, começarar por &#39;R&gt;&#39;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>R<span class="sc">&gt;</span> <span class="dv">10</span></span></code></pre></div>
+<pre><code>## [1] 10</code></pre>
+</section>
+<hr />
+<section>
+<h2>
+Comandos elementares
+</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span> <span class="sc">+</span> <span class="dv">15</span></span></code></pre></div>
+<pre><code>## [1] 25</code></pre>
+<p></br></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span>,<span class="dv">5</span> <span class="sc">+</span> <span class="dv">15</span>,<span class="dv">5</span></span></code></pre></div>
+<pre><code>## Error: &lt;text&gt;:1:3: &#39;,&#39; inesperado
+## 1: 10,
+##       ^</code></pre>
+</section>
+<section>
+<h2>
+Comandos elementares
+</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Foi criado um objeto do tipo caractere e o nome &quot;meu_nome&quot; foi associado a ele</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># O &#39;R&#39; avalia essa expressão, mas não imprime no console!</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>meu_nome <span class="ot">&lt;-</span> <span class="st">&quot;Ben&quot;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Para imprimir o resultado da expressão, digitamos o nome &quot;meu_nome&quot; no console</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co"># e apertamos o botão ENTER do teclado!</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>meu_nome</span></code></pre></div>
+<pre><code>## [1] &quot;Ben&quot;</code></pre>
+</section>
+<section>
+<h2>
+Nomes e objetos
+</h2>
+<ul>
+<li>Deve consistir em letras, dígitos, <code>.</code> e
+<code>_</code>;</li>
+<li>Os nomes devem ser iniciado por uma letra ou um ponto não seguido de
+um número, isto é, Ex.: <code>.123</code>, <code>1n</code>, dentre
+outros;</li>
+<li>As letras maiúsculas se distinguem das letras minúsculas;</li>
+</ul>
+</section>
+<section>
+<ul>
+<li>Não pode inicia por <code>_</code> ou dígito, é retornado um erro no
+console caso isso ocorra;</li>
+<li>Não pode usar qualquer uma das palavras reservadas pela linguagem,
+isto é, <code>TRUE</code>, <code>FALSE</code>, <code>if</code>,
+<code>for</code>, dentre outras, que pode ser consultado usando o
+comando <code>?Reserved()</code>.</li>
+</ul>
+</section>
+<section>
+<h2>
+Nomes não sintáticos
+</h2>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Nome nao sintatico</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>.<span class="dv">123</span> <span class="ot">&lt;-</span> <span class="dv">50</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="do">## Error in 0.123 &lt;- 50 : lado esquerdo da atribuicao inválida (do_set)</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Qual a sugestao de nome sintatico para &#39;.123&#39;?</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">make.names</span>(.<span class="dv">123</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="st">&quot;X0.123&quot;</span></span></code></pre></div>
+</section>
+<hr />
+<section>
+<h2>
+Correção de comandos no R
+</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0MRPmVsPvk4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</section>
+<section>
+<h2>
+Correção de comandos no RStudio
+</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KL3WAB_GFNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</section>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+<section data-auto-animate>
+<h2 data-id="code-title">
+Ambiente global
+</h2>
+<pre data-id="code-animation">
+      <code class="hljs" data-trim data-line-numbers="|4">
+        <script type="text/template">
+       # Nomes criados no ambiente 
+       x <- 10 - 6; y <- 10 + 4; w <- "Maria Isabel"
+       # Verificando o nomes contidos no ambiente global
+       ls()
+        </script>
+      </code>
+    </pre>
+<pre><code>## [1] &quot;meu_nome&quot; &quot;w&quot;        &quot;x&quot;        &quot;y&quot;</code></pre>
+</section>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+</div>
+<div id="criando-e-salvando-um-script" class="section level2"
+number="1.5">
+<h2><span class="header-section-number">1.5</span> Criando e salvando um
+script</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ETreeG5HK60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<hr />
+</div>
+<div id="objetos" class="section level2" number="1.6">
+<h2><span class="header-section-number">1.6</span> Objetos</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6t9h9zgWyTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<hr />
+<p>{{&lt; slide background-image=“fundo02.png” &gt;}}</p>
+</div>
+</div>
+<div id="questões" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Questões?</h1>
+<p><a href="https://bendeivide.github.io/">Dúvidas e Sugestões</a></p>
+<p><a href="https://bendeivide.github.io/#contact">Contato</a></p>
+</div>

@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-03-30 14:40:41"
+date: "2022-04-09 12:36:28"
 type: book
 weight: 10
 categories: ["R", "Estatística", "Probabilidade", "Programação"]
@@ -48,15 +48,14 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< spoiler text="Acesse a ementa do curso">}}
 1. INTRODUÇÃO AO PROGRAMA R:
    - Sintaxe e semântica
-   - Entrada de dados
-   - Transformação de variáveis
-   - Ordenamento de dados
-   - Procedimentos para análise estatística
+   - Como o R trabalha
+   - Objetos
+   - Importação e manipulação de dados
 2. DOCUMENTAÇÕES EM R
    - Introdução ao Markdown e RMarkdown
-   - Introdução ao Shiny
-   - Relatórios estatícos
-   - Relatorios dinâmicos
+   - Como desenvolver relatórios de seus scripts
+   - Sincronizando projetos RStudio com o GitHub
+   - Criando relatórios para a disciplina Estatística Computacional
 3. PROBABILIDADE NO R:
    - Conceitos básicos sobre distribuições de probabilidade
    - Distribuições de probabilidade:
@@ -194,7 +193,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< spoiler text="Aula 01 (21/03 e 22/03)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 01]({{< relref "/slides/estcomp/s01/index" >}})
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 01]({{< relref "slides/estcomp/s01/index" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/13wfRawoF89pchWJNjJPtql6uDbSwm3wNh3cAQM9GE3g/edit?usp=sharing)
@@ -208,15 +207,11 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< youtube  gIcKgsOkdeI>}}
 <br/>
 
-<!-- {{< icon name="youtube" pack="fab" >}} Aula de exercícios  -->
-
-<!-- {{< youtube  >}} -->
-
 {{< /spoiler >}}
 
-{{< spoiler text="Aula 02 (28/03 e 29/03)">}}
+{{< spoiler text="Aula 02 (24/03)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Introdução ao ambiente R
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estcomp/s02/index" >}})
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "slides/estcomp/s02/index" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1tAp46QNuQ6K3eqTf3ZodgR8tjRIU7p1EP-Qa-gH5B4o/edit?usp=sharing)
@@ -230,12 +225,94 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< youtube  0Qv5_xzx0WQ>}}
 <br/>
 
-<!-- {{< icon name="youtube" pack="fab" >}} Aula de exercícios  -->
-
-<!-- {{< youtube  >}} -->
 
 {{< /spoiler >}}
 
+{{< spoiler text="Aula 03 (28/03 e 29/03)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Como o R trabalha
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 04 (31/03)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Objetos
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 05 (04-05/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Importação e manipulação de dados
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 06 (07/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Documentações em R (Visão geral ao Markdown e RMarkdown)
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 06]({{< relref "slides/estcomp/s06/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Visão Geral ao Markdown e RMarkdown
+
+{{< youtube  >}}
+<br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 07 (11-12/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Introdução ao Markdown
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 07]({{< relref "slides/estcomp/s07/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1o7PuXcS-5Exy6xtZgBUueZatjwS2U6dWY-qs7zCGLXI/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Introdução ao Markdown
+
+{{< youtube  >}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 08 (13/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Introdução ao RMarkdown
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 08]({{< relref "slides/estcomp/s06/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Introdução ao RMarkdown
+
+{{< youtube  >}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 09 (18-19/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Sincronizando projetos RStudio com o GitHub
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 09]({{< relref "slides/estcomp/s06/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
 
 
 ## Quiz

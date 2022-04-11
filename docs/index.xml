@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 06 Apr 2022 17:10:02 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 11 Apr 2022 10:50:44 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
-      <pubDate>Wed, 30 Mar 2022 14:40:41 +0000</pubDate>
+      <pubDate>Sat, 09 Apr 2022 12:36:28 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -63,18 +63,17 @@
 &lt;li&gt;INTRODUÇÃO AO PROGRAMA R:
 &lt;ul&gt;
 &lt;li&gt;Sintaxe e semântica&lt;/li&gt;
-&lt;li&gt;Entrada de dados&lt;/li&gt;
-&lt;li&gt;Transformação de variáveis&lt;/li&gt;
-&lt;li&gt;Ordenamento de dados&lt;/li&gt;
-&lt;li&gt;Procedimentos para análise estatística&lt;/li&gt;
+&lt;li&gt;Como o R trabalha&lt;/li&gt;
+&lt;li&gt;Objetos&lt;/li&gt;
+&lt;li&gt;Importação e manipulação de dados&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;DOCUMENTAÇÕES EM R
 &lt;ul&gt;
 &lt;li&gt;Introdução ao Markdown e RMarkdown&lt;/li&gt;
-&lt;li&gt;Introdução ao Shiny&lt;/li&gt;
-&lt;li&gt;Relatórios estatícos&lt;/li&gt;
-&lt;li&gt;Relatorios dinâmicos&lt;/li&gt;
+&lt;li&gt;Como desenvolver relatórios de seus scripts&lt;/li&gt;
+&lt;li&gt;Sincronizando projetos RStudio com o GitHub&lt;/li&gt;
+&lt;li&gt;Criando relatórios para a disciplina Estatística Computacional&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;PROBABILIDADE NO R:
@@ -277,17 +276,10 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/gIcKgsOkdeI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;br/&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios  --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
-  &lt;summary&gt;Aula 02 (28/03 e 29/03)&lt;/summary&gt;
+  &lt;summary&gt;Aula 02 (24/03)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Introdução ao ambiente R&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s02/&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
@@ -307,21 +299,113 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/0Qv5_xzx0WQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;br/&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios  --&gt;
-&lt;!-- 
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;Aula 03 (28/03 e 29/03)&lt;/summary&gt;
+  &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Como o R trabalha&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;Aula 04 (31/03)&lt;/summary&gt;
+  &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Objetos&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;Aula 05 (04-05/04)&lt;/summary&gt;
+  &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Importação e manipulação de dados&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;Aula 06 (07/04)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Documentações em R (Visão geral ao Markdown e RMarkdown)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s06/&#34;&gt;Aula 06&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Visão Geral ao Markdown e RMarkdown&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
- --&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;Aula 07 (11-12/04)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Introdução ao Markdown&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s07/&#34;&gt;Aula 07&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1o7PuXcS-5Exy6xtZgBUueZatjwS2U6dWY-qs7zCGLXI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Introdução ao Markdown&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;Aula 08 (13/04)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Introdução ao RMarkdown&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s06/&#34;&gt;Aula 08&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Introdução ao RMarkdown&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;Aula 09 (18-19/04)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Sincronizando projetos RStudio com o GitHub&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estcomp/s06/&#34;&gt;Aula 09&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
   &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
@@ -1060,7 +1144,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Wed, 06 Apr 2022 17:10:02 +0000</pubDate>
+      <pubDate>Mon, 11 Apr 2022 10:50:44 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -1394,7 +1478,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;Aula 3 (28/03/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 1&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s02/&#34;&gt;Aula 03&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;&#34;&gt;Aula 03&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/11X4IQ9wz-95j1-fJWtWaibRv2S7E44-CaEkIJuIlX6Q/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
@@ -1435,7 +1519,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;Aula 5 (04/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 2&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s04/&#34;&gt;Aula 05&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;&#34;&gt;Aula 05&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
@@ -1461,7 +1545,6 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1LylGqj86UjAkzKnCXR61oHCrIxpLKjPjPzkTGbTtELk/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Notas de aula&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
@@ -1475,13 +1558,12 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;Aula 7 (11/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 3&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s04/&#34;&gt;Aula 06&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: &lt;a href=&#34;https://docs.google.com/document/d/1oHTAZYqv3sRZPIqY2CaO039Oa1v9inUDQEMgCNviPls/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aula 07&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Notas de aula&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
@@ -5640,6 +5722,521 @@ make.names(.123)
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Computacional</title>
+      <link>http://bendeivide.github.io/slides/estcomp/s06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estcomp/s06/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo03.jpg&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística Computacional&lt;/h1&gt;
+&lt;p&gt;Aula 06 - Introdução ao Markdown no R
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;Estatística Computacional&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s06/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s06/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s06/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s06/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;acesso-a-todo-material&#34;&gt;Acesso a todo material&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s06/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/estcomp/s06/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/estcomp/s06/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s06/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;visão-geral-sobre-o-markdown-e-rmarkdown&#34;&gt;Visão geral sobre o Markdown e RMarkdown&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown: Linguagem de marcação
+&lt;ul&gt;
+&lt;li&gt;Exemplos de linguagem de marcação: $ \LaTeX $, HTML, XML, etc.&lt;/li&gt;
+&lt;li&gt;Objetivo principal: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Criador: John Gruber&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;rmarkdown-pacote-r&#34;&gt;RMarkdown: Pacote R&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução-ao-markdown&#34;&gt;Introdução ao Markdown&lt;/h2&gt;
+&lt;h2 id=&#34;criando-seções&#34;&gt;Criando Seções&lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;style&gt;
+.container{
+  display: grid;
+  grid-auto-flow: column;
+}
+&lt;/style&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;h1 id=&#34;título-1&#34;&gt;Título 1&lt;/h1&gt;
+&lt;h2 id=&#34;título-2&#34;&gt;Título 2&lt;/h2&gt;
+&lt;h3 id=&#34;título-3&#34;&gt;Título 3&lt;/h3&gt;
+&lt;h4 id=&#34;título-4&#34;&gt;Título 4&lt;/h4&gt;
+&lt;h5 id=&#34;título-5&#34;&gt;Título 5&lt;/h5&gt;
+&lt;h6 id=&#34;título-6&#34;&gt;Título 6&lt;/h6&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução-ao-rmarkdown&#34;&gt;Introdução ao RMarkdown&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Computacional</title>
+      <link>http://bendeivide.github.io/slides/estcomp/s07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estcomp/s07/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo03.jpg&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística Computacional&lt;/h1&gt;
+&lt;p&gt;Aula 07 - Introdução ao Markdown no R
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;Estatística Computacional&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;acesso-a-todo-material&#34;&gt;Acesso a todo material&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt; Introdução ao Markdown &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown é uma ferramenta de conversão de texto para HTML para escritores da web (&lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John Gruber&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Objetivo: &lt;code&gt;Markdown =&amp;gt; HTML&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Criador: &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John Gruber&lt;/a&gt;, em 2004&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Introdução ao Markdown &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A ideia do Markdown:
+&lt;ul&gt;
+&lt;li&gt;Texto de escrita simples&lt;/li&gt;
+&lt;li&gt;Ferramenta escrita na linguagem &lt;code&gt;Perl&lt;/code&gt;, que converte o código para &lt;code&gt;HTML&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;extensão do arquivo: &lt;code&gt;.md&lt;/code&gt; ou &lt;code&gt;.markdown&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Introdução ao Markdown &lt;/h2&gt;
+&lt;p&gt;A ideia da linguagem de marcação é:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Escrito em &lt;code&gt;HTML&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;p&amp;gt;Este é um parágrafo com uma palavra em &amp;lt;b&amp;gt;negrito&amp;lt;/b&amp;gt; e outra em &amp;lt;i&amp;gt;itálico&amp;lt;/i&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Escrito em &lt;code&gt;Markdown&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Renderização:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Este é um parágrafo com uma palavra em &lt;strong&gt;negrito&lt;/strong&gt; e outra em &lt;em&gt;itálico&lt;/em&gt;.&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;style&gt;
+.container{
+  display: grid;
+  text-align: left;
+  grid-auto-flow: column;
+}
+&lt;/style&gt;
+&lt;section&gt;
+&lt;h1&gt; Sintaxe &lt;/h1&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Criando Seções &lt;/h2&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;h1 id=&#34;título-1&#34;&gt;Título 1&lt;/h1&gt;
+&lt;h2 id=&#34;título-2&#34;&gt;Título 2&lt;/h2&gt;
+&lt;h3 id=&#34;título-3&#34;&gt;Título 3&lt;/h3&gt;
+&lt;h4 id=&#34;título-4&#34;&gt;Título 4&lt;/h4&gt;
+&lt;h5 id=&#34;título-5&#34;&gt;Título 5&lt;/h5&gt;
+&lt;h6 id=&#34;título-6&#34;&gt;Título 6&lt;/h6&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Criando Seções &lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;Título 1
+========
+
+Título 2
+--------
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;h1 id=&#34;título-1-1&#34;&gt;Título 1&lt;/h1&gt;
+&lt;h2 id=&#34;título-2-1&#34;&gt;Título 2&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Parágrafos &lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;Texto do primeiro parágrafo.
+
+Texto do segundo parágrafo.
+Este ainda é o texto do segundo parágrafo.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt;Texto do primeiro parágrafo.&lt;/p&gt;
+&lt;p&gt;Texto do segundo parágrafo.
+Este ainda é o texto do segundo parágrafo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Listas não ordenadas &lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;- Primeiro item da lista 1
+- Segundo item da lista 1
+
++ Primeiro item da lista 2
++ Segundo item da lista 2
+
+* Primeiro item da lista 3
+* Segundo item da lista 3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;?
+&lt;ul&gt;
+&lt;li&gt;Primeiro item da lista 1&lt;/li&gt;
+&lt;li&gt;Segundo item da lista 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Primeiro item da lista 2&lt;/li&gt;
+&lt;li&gt;Segundo item da lista 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Primeiro item da lista 3&lt;/li&gt;
+&lt;li&gt;Segundo item da lista 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Listas ordenadas &lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;
+1. Primeiro 
+2. Segundo 
+3. Terceiro
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;?
+&lt;p&gt;1.Primeiro&lt;/p&gt;
+&lt;p&gt;2.Segundo&lt;/p&gt;
+&lt;p&gt;3.Terceiro&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Citações &lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+&amp;gt; A melhor linguagem é a que você domina!
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote cite=&#34;https://bendeivide.github.io/book-eambr01/ep%C3%ADgrafe.html&#34;&gt;
+A melhor linguagem é a que você domina!
+&lt;/blockquote&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução-ao-rmarkdown&#34;&gt;Introdução ao RMarkdown&lt;/h2&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide

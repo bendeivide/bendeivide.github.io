@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  
+  
+
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.4.0 for Hugo">
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="http://bendeivide.github.io/slides/estcomp/s07/">
+
+  <title>Estatística Computacional | Ben Dêivide</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/black.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo03.jpg"
+  >
+
+<h1 id="estatística-computacional">Estatística Computacional</h1>
+<p>Aula 07 - Introdução ao Markdown no R
+</br></p>
+<p>
+  <i class="fas fa-user-tie  pr-1 fa-fw"></i> <a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Ben Dêivide</a> | 
+  <i class="fas fa-school  pr-1 fa-fw"></i> <a href="https://www.ufsj.edu.br/" target="_blank" rel="noopener">UFSJ</a>
+</br>
+
+  <i class="fas fa-book  pr-1 fa-fw"></i> <a href="/courses/estcomp/">Estatística Computacional</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="selo-dc">Selo DC</h2>
+<p><a href="https://bendeivide.github.io/dc/" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp"
+               width="385"
+               height="406"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="acesso-a-todo-material">Acesso a todo material</h2>
+<p><a href="/courses/estcomp/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp"
+               width="607"
+               height="471"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<section>
+<h2> Introdução ao Markdown </h2>
+<ul>
+<li>Markdown é uma ferramenta de conversão de texto para HTML para escritores da web (<a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">John Gruber</a>)</li>
+<li>Objetivo: <code>Markdown =&gt; HTML</code></li>
+<li>Criador: <a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">John Gruber</a>, em 2004</li>
+</ul>
+</section>
+<section>
+<h2> Introdução ao Markdown </h2>
+<ul>
+<li>A ideia do Markdown:
+<ul>
+<li>Texto de escrita simples</li>
+<li>Ferramenta escrita na linguagem <code>Perl</code>, que converte o código para <code>HTML</code></li>
+<li>extensão do arquivo: <code>.md</code> ou <code>.markdown</code></li>
+</ul>
+</li>
+</ul>
+</section>
+<section>
+<h2> Introdução ao Markdown </h2>
+<p>A ideia da linguagem de marcação é:</p>
+<ul>
+<li>Escrito em <code>HTML</code>:</li>
+</ul>
+<pre><code class="language-html">&lt;p&gt;Este é um parágrafo com uma palavra em &lt;b&gt;negrito&lt;/b&gt; e outra em &lt;i&gt;itálico&lt;/i&gt;.&lt;/p&gt;
+</code></pre>
+<ul>
+<li>Escrito em <code>Markdown</code>:</li>
+</ul>
+<pre><code class="language-md">Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
+</code></pre>
+<ul>
+<li>Renderização:</li>
+</ul>
+<p>Este é um parágrafo com uma palavra em <strong>negrito</strong> e outra em <em>itálico</em>.</p>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<style>
+.container{
+  display: grid;
+  text-align: left;
+  grid-auto-flow: column;
+}
+</style>
+<section>
+<h1> Sintaxe </h1>
+</section>
+<section>
+<h2> Criando Seções </h2>
+<div class="container">
+<div class="col">
+<pre><code># Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+</code></pre>
+</div>
+<div class="col">
+<h1 id="título-1">Título 1</h1>
+<h2 id="título-2">Título 2</h2>
+<h3 id="título-3">Título 3</h3>
+<h4 id="título-4">Título 4</h4>
+<h5 id="título-5">Título 5</h5>
+<h6 id="título-6">Título 6</h6>
+</div>
+</div>
+</section>
+<section>
+<h2> Criando Seções </h2>
+<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
+<!-- <style> -->
+<!-- .container{ -->
+<!--   display: flex; -->
+<!-- } -->
+<!-- .col { -->
+<!--   flex: 1; -->
+<!-- } -->
+<!-- </style> -->
+<div class="container">
+<div class="col">
+<pre><code>Título 1
+========
+
+Título 2
+--------
+</code></pre>
+</div>
+<div class="col">
+<h1 id="título-1-1">Título 1</h1>
+<h2 id="título-2-1">Título 2</h2>
+</div>
+</div>
+</section>
+<section>
+<h2> Parágrafos </h2>
+<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
+<!-- <style> -->
+<!-- .container{ -->
+<!--   display: flex; -->
+<!-- } -->
+<!-- .col { -->
+<!--   flex: 1; -->
+<!-- } -->
+<!-- </style> -->
+<div class="container">
+<div class="col">
+<pre><code>Texto do primeiro parágrafo.
+
+Texto do segundo parágrafo.
+Este ainda é o texto do segundo parágrafo.
+</code></pre>
+</div>
+<div class="col">
+<p>Texto do primeiro parágrafo.</p>
+<p>Texto do segundo parágrafo.
+Este ainda é o texto do segundo parágrafo.</p>
+</div>
+</div>
+</section>
+<section>
+<h2> Listas não ordenadas </h2>
+<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
+<!-- <style> -->
+<!-- .container{ -->
+<!--   display: flex; -->
+<!-- } -->
+<!-- .col { -->
+<!--   flex: 1; -->
+<!-- } -->
+<!-- </style> -->
+<div class="container">
+<div class="col">
+<pre><code>- Primeiro item da lista 1
+- Segundo item da lista 1
+
++ Primeiro item da lista 2
++ Segundo item da lista 2
+
+* Primeiro item da lista 3
+* Segundo item da lista 3
+</code></pre>
+</div>
+<div class="col"?
+<ul>
+<li>Primeiro item da lista 1</li>
+<li>Segundo item da lista 1</li>
+</ul>
+<ul>
+<li>Primeiro item da lista 2</li>
+<li>Segundo item da lista 2</li>
+</ul>
+<ul>
+<li>Primeiro item da lista 3</li>
+<li>Segundo item da lista 3</li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<h2> Listas ordenadas </h2>
+<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
+<!-- <style> -->
+<!-- .container{ -->
+<!--   display: flex; -->
+<!-- } -->
+<!-- .col { -->
+<!--   flex: 1; -->
+<!-- } -->
+<!-- </style> -->
+<div class="container">
+<div class="col">
+<pre><code>
+1. Primeiro 
+2. Segundo 
+3. Terceiro
+
+</code></pre>
+</div>
+<div class="col"?
+<p>1.Primeiro</p>
+<p>2.Segundo</p>
+<p>3.Terceiro</p>
+</div>
+</div>
+</section>
+<section>
+<h2> Citações </h2>
+<pre><code>
+&gt; A melhor linguagem é a que você domina!
+
+</code></pre>
+<blockquote cite="https://bendeivide.github.io/book-eambr01/ep%C3%ADgrafe.html">
+A melhor linguagem é a que você domina!
+</blockquote>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="introdução-ao-rmarkdown">Introdução ao RMarkdown</h2>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h1 id="questões">Questões?</h1>
+<p><a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Dúvidas e Sugestões</a></p>
+<p><a href="https://bendeivide.github.io/#contact" target="_blank" rel="noopener">Contato</a></p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/highlight/highlight.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

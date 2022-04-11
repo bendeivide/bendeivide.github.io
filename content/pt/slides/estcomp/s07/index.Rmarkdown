@@ -1,0 +1,347 @@
+---
+title: Estatística Computacional
+summary: Aula 07
+authors: [Ben Dêivide]
+tags: [Estatística Computacional, Ambiente R, Programação]
+categories: [Curso]
+slides:
+# Choose a theme from https://github.com/hakimel/reveal.js#theming
+# https://revealjs.com/themes/
+  theme: ''
+# Choose a code highlighting style (if highlighting enabled in `params.toml`)
+# Light style: github. Dark style: dracula (default).
+  highlight_style: dracula
+# Como controlar a apresentacao:
+# - Next: `Right Arrow` or `Space`
+# - Previous: `Left Arrow`
+# - Start: `Home`
+# - Finish: `End`
+# - Overview: `Esc`
+# - Speaker notes: `S`
+# - Fullscreen: `F`
+# - Zoom: `Alt + Click`
+# - [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
+---
+
+```{r setup, include=FALSE}
+#install.packages("DiagrammeR")
+library(DiagrammeR)
+knitr::opts_chunk$set(cache=FALSE)
+```
+
+{{< slide background-image="fundo03.jpg" >}}
+
+# Estatística Computacional
+Aula 07 - Introdução ao Markdown no R
+</br>
+
+
+{{< icon name="user-tie" pack="fas" >}} [Ben Dêivide](https://bendeivide.github.io/) | {{< icon name="school" pack="fas" >}} [UFSJ](https://www.ufsj.edu.br/)
+</br>
+{{< icon name="book" pack="fas" >}} [Estatística Computacional]({{< relref "/courses/estcomp" >}})
+
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+## Selo DC
+
+[![](SeloDC-branco.png)](https://bendeivide.github.io/dc/)
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+## Acesso a todo material
+
+[![](folder.png)]({{< relref "/courses/estcomp" >}})
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+<section>
+
+<h2> Introdução ao Markdown </h2>
+
+- Markdown é uma ferramenta de conversão de texto para HTML para escritores da web ([John Gruber](https://daringfireball.net/projects/markdown/))
+- Objetivo: `Markdown => HTML`
+- Criador: [John Gruber](https://daringfireball.net/projects/markdown/), em 2004
+</section>
+<section>
+<h2> Introdução ao Markdown </h2>
+
+- A ideia do Markdown:
+  - Texto de escrita simples
+  - Ferramenta escrita na linguagem `Perl`, que converte o código para `HTML`
+  - extensão do arquivo: `.md` ou `.markdown`
+
+</section>
+<section>
+<h2> Introdução ao Markdown </h2>
+
+A ideia da linguagem de marcação é:
+
+- Escrito em `HTML`:
+
+```{html}
+<p>Este é um parágrafo com uma palavra em <b>negrito</b> e outra em <i>itálico</i>.</p>
+```
+- Escrito em `Markdown`:
+```{md}
+Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
+```
+- Renderização:
+
+Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
+
+</section>
+
+  
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+<style>
+.container{
+  display: grid;
+  text-align: left;
+  grid-auto-flow: column;
+}
+</style>
+
+<section>
+<h1> Sintaxe </h1>
+</section>
+<section>
+<h2> Criando Seções </h2>
+
+<div class="container">
+
+<div class="col">
+
+```
+# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+```
+
+</div>
+
+<div class="col">
+
+# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+
+</div>
+
+</div>
+
+</section>
+<section>
+<h2> Criando Seções </h2>
+
+<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
+
+<!-- <style> -->
+<!-- .container{ -->
+<!--   display: flex; -->
+<!-- } -->
+<!-- .col { -->
+<!--   flex: 1; -->
+<!-- } -->
+<!-- </style> -->
+
+<div class="container">
+
+<div class="col">
+
+```
+Título 1
+========
+
+Título 2
+--------
+```
+
+</div>
+
+<div class="col">
+
+Título 1
+========
+
+Título 2
+--------
+
+</div>
+
+</div>
+
+</section>
+<section>
+<h2> Parágrafos </h2>
+
+<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
+
+<!-- <style> -->
+<!-- .container{ -->
+<!--   display: flex; -->
+<!-- } -->
+<!-- .col { -->
+<!--   flex: 1; -->
+<!-- } -->
+<!-- </style> -->
+
+<div class="container">
+
+<div class="col">
+
+```
+Texto do primeiro parágrafo.
+
+Texto do segundo parágrafo.
+Este ainda é o texto do segundo parágrafo.
+```
+
+</div>
+
+<div class="col">
+
+Texto do primeiro parágrafo.
+
+Texto do segundo parágrafo.
+Este ainda é o texto do segundo parágrafo.
+
+</div>
+
+</div>
+
+</section>
+<section>
+<h2> Listas não ordenadas </h2>
+
+<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
+
+<!-- <style> -->
+<!-- .container{ -->
+<!--   display: flex; -->
+<!-- } -->
+<!-- .col { -->
+<!--   flex: 1; -->
+<!-- } -->
+<!-- </style> -->
+
+<div class="container">
+
+<div class="col">
+
+```
+- Primeiro item da lista 1
+- Segundo item da lista 1
+
++ Primeiro item da lista 2
++ Segundo item da lista 2
+
+* Primeiro item da lista 3
+* Segundo item da lista 3
+```
+
+</div>
+
+<div class="col"?
+
+- Primeiro item da lista 1
+- Segundo item da lista 1
+
++ Primeiro item da lista 2
++ Segundo item da lista 2
+
+* Primeiro item da lista 3
+* Segundo item da lista 3
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2> Listas ordenadas </h2>
+
+<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
+
+<!-- <style> -->
+<!-- .container{ -->
+<!--   display: flex; -->
+<!-- } -->
+<!-- .col { -->
+<!--   flex: 1; -->
+<!-- } -->
+<!-- </style> -->
+
+<div class="container">
+
+<div class="col">
+
+```
+
+1. Primeiro 
+2. Segundo 
+3. Terceiro
+
+```
+
+</div>
+
+<div class="col"?
+
+1.Primeiro 
+
+2.Segundo 
+
+3.Terceiro
+
+</div>
+</div>
+
+</section>
+<section>
+<h2> Citações </h2>
+
+```
+
+> A melhor linguagem é a que você domina!
+
+```
+<blockquote cite="https://bendeivide.github.io/book-eambr01/ep%C3%ADgrafe.html">
+A melhor linguagem é a que você domina!
+</blockquote>
+
+</section>
+
+
+---
+
+
+{{< slide background-image="fundo02.png" >}}
+
+## Introdução ao RMarkdown
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+# Questões?
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/)
+
+[Contato](https://bendeivide.github.io/#contact)

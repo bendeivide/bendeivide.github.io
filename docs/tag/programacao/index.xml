@@ -1059,6 +1059,521 @@ make.names(.123)
     </item>
     
     <item>
+      <title>Estatística Computacional</title>
+      <link>http://bendeivide.github.io/slides/estcomp/s06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estcomp/s06/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo03.jpg&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística Computacional&lt;/h1&gt;
+&lt;p&gt;Aula 06 - Introdução ao Markdown no R
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;Estatística Computacional&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s06/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s06/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s06/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s06/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;acesso-a-todo-material&#34;&gt;Acesso a todo material&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s06/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/estcomp/s06/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/estcomp/s06/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s06/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;visão-geral-sobre-o-markdown-e-rmarkdown&#34;&gt;Visão geral sobre o Markdown e RMarkdown&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown: Linguagem de marcação
+&lt;ul&gt;
+&lt;li&gt;Exemplos de linguagem de marcação: $ \LaTeX $, HTML, XML, etc.&lt;/li&gt;
+&lt;li&gt;Objetivo principal: &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Criador: John Gruber&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;rmarkdown-pacote-r&#34;&gt;RMarkdown: Pacote R&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução-ao-markdown&#34;&gt;Introdução ao Markdown&lt;/h2&gt;
+&lt;h2 id=&#34;criando-seções&#34;&gt;Criando Seções&lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;style&gt;
+.container{
+  display: grid;
+  grid-auto-flow: column;
+}
+&lt;/style&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;h1 id=&#34;título-1&#34;&gt;Título 1&lt;/h1&gt;
+&lt;h2 id=&#34;título-2&#34;&gt;Título 2&lt;/h2&gt;
+&lt;h3 id=&#34;título-3&#34;&gt;Título 3&lt;/h3&gt;
+&lt;h4 id=&#34;título-4&#34;&gt;Título 4&lt;/h4&gt;
+&lt;h5 id=&#34;título-5&#34;&gt;Título 5&lt;/h5&gt;
+&lt;h6 id=&#34;título-6&#34;&gt;Título 6&lt;/h6&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução-ao-rmarkdown&#34;&gt;Introdução ao RMarkdown&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Computacional</title>
+      <link>http://bendeivide.github.io/slides/estcomp/s07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estcomp/s07/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo03.jpg&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística Computacional&lt;/h1&gt;
+&lt;p&gt;Aula 07 - Introdução ao Markdown no R
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;Estatística Computacional&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s07/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;acesso-a-todo-material&#34;&gt;Acesso a todo material&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s07/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt; Introdução ao Markdown &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown é uma ferramenta de conversão de texto para HTML para escritores da web (&lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John Gruber&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Objetivo: &lt;code&gt;Markdown =&amp;gt; HTML&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Criador: &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John Gruber&lt;/a&gt;, em 2004&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Introdução ao Markdown &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A ideia do Markdown:
+&lt;ul&gt;
+&lt;li&gt;Texto de escrita simples&lt;/li&gt;
+&lt;li&gt;Ferramenta escrita na linguagem &lt;code&gt;Perl&lt;/code&gt;, que converte o código para &lt;code&gt;HTML&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;extensão do arquivo: &lt;code&gt;.md&lt;/code&gt; ou &lt;code&gt;.markdown&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Introdução ao Markdown &lt;/h2&gt;
+&lt;p&gt;A ideia da linguagem de marcação é:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Escrito em &lt;code&gt;HTML&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;p&amp;gt;Este é um parágrafo com uma palavra em &amp;lt;b&amp;gt;negrito&amp;lt;/b&amp;gt; e outra em &amp;lt;i&amp;gt;itálico&amp;lt;/i&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Escrito em &lt;code&gt;Markdown&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Renderização:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Este é um parágrafo com uma palavra em &lt;strong&gt;negrito&lt;/strong&gt; e outra em &lt;em&gt;itálico&lt;/em&gt;.&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;style&gt;
+.container{
+  display: grid;
+  text-align: left;
+  grid-auto-flow: column;
+}
+&lt;/style&gt;
+&lt;section&gt;
+&lt;h1&gt; Sintaxe &lt;/h1&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Criando Seções &lt;/h2&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;h1 id=&#34;título-1&#34;&gt;Título 1&lt;/h1&gt;
+&lt;h2 id=&#34;título-2&#34;&gt;Título 2&lt;/h2&gt;
+&lt;h3 id=&#34;título-3&#34;&gt;Título 3&lt;/h3&gt;
+&lt;h4 id=&#34;título-4&#34;&gt;Título 4&lt;/h4&gt;
+&lt;h5 id=&#34;título-5&#34;&gt;Título 5&lt;/h5&gt;
+&lt;h6 id=&#34;título-6&#34;&gt;Título 6&lt;/h6&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Criando Seções &lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;Título 1
+========
+
+Título 2
+--------
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;h1 id=&#34;título-1-1&#34;&gt;Título 1&lt;/h1&gt;
+&lt;h2 id=&#34;título-2-1&#34;&gt;Título 2&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Parágrafos &lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;Texto do primeiro parágrafo.
+
+Texto do segundo parágrafo.
+Este ainda é o texto do segundo parágrafo.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt;Texto do primeiro parágrafo.&lt;/p&gt;
+&lt;p&gt;Texto do segundo parágrafo.
+Este ainda é o texto do segundo parágrafo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Listas não ordenadas &lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;- Primeiro item da lista 1
+- Segundo item da lista 1
+
++ Primeiro item da lista 2
++ Segundo item da lista 2
+
+* Primeiro item da lista 3
+* Segundo item da lista 3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;?
+&lt;ul&gt;
+&lt;li&gt;Primeiro item da lista 1&lt;/li&gt;
+&lt;li&gt;Segundo item da lista 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Primeiro item da lista 2&lt;/li&gt;
+&lt;li&gt;Segundo item da lista 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Primeiro item da lista 3&lt;/li&gt;
+&lt;li&gt;Segundo item da lista 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Listas ordenadas &lt;/h2&gt;
+&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
+&lt;!-- &lt;style&gt; --&gt;
+&lt;!-- .container{ --&gt;
+&lt;!--   display: flex; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- .col { --&gt;
+&lt;!--   flex: 1; --&gt;
+&lt;!-- } --&gt;
+&lt;!-- &lt;/style&gt; --&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code&gt;
+1. Primeiro 
+2. Segundo 
+3. Terceiro
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;?
+&lt;p&gt;1.Primeiro&lt;/p&gt;
+&lt;p&gt;2.Segundo&lt;/p&gt;
+&lt;p&gt;3.Terceiro&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Citações &lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+&amp;gt; A melhor linguagem é a que você domina!
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote cite=&#34;https://bendeivide.github.io/book-eambr01/ep%C3%ADgrafe.html&#34;&gt;
+A melhor linguagem é a que você domina!
+&lt;/blockquote&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução-ao-rmarkdown&#34;&gt;Introdução ao RMarkdown&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Estatística e Probabilidade</title>
       <link>http://bendeivide.github.io/slides/estprob/s01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
