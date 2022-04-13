@@ -201,7 +201,7 @@
 <ul>
 <li>Escrito em <code>Markdown</code>:</li>
 </ul>
-<pre><code class="language-md">Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
+<pre><code class="language-markdown">Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 </code></pre>
 <ul>
 <li>Renderização:</li>
@@ -237,7 +237,7 @@
 <h2> Criando Seções </h2>
 <div class="container">
 <div class="col">
-<pre><code># Título 1
+<pre><code class="language-markdown"># Título 1
 ## Título 2
 ### Título 3
 #### Título 4
@@ -268,7 +268,7 @@
 <!-- </style> -->
 <div class="container">
 <div class="col">
-<pre><code>Título 1
+<pre><code class="language-markdown">Título 1
 ========
 
 Título 2
@@ -278,6 +278,28 @@ Título 2
 <div class="col">
 <h1 id="título-1-1">Título 1</h1>
 <h2 id="título-2-1">Título 2</h2>
+</div>
+</div>
+</section>
+<section>
+<h2> Texto </h2>
+<div class="container">
+<div class="col">
+<pre><code class="language-markdown">Texto em **negrito**!\
+Texto em __negrito__!\
+Texto em *itálico*\
+Texto em _itálico_ \
+Texto ~~taxado~~
+
+Alinhamento
+</code></pre>
+</div>
+<div class="col">
+<p>Texto em <strong>negrito</strong>!<br>
+Texto em <strong>negrito</strong>!<br>
+Texto em <em>itálico</em>!<br>
+Texto em <em>itálico</em> <br>
+Texto <del>taxado</del> \</p>
 </div>
 </div>
 </section>
@@ -294,16 +316,22 @@ Título 2
 <!-- </style> -->
 <div class="container">
 <div class="col">
-<pre><code>Texto do primeiro parágrafo.
-
+<pre><code class="language-markdown">Texto do primeiro parágrafo. \
 Texto do segundo parágrafo.
-Este ainda é o texto do segundo parágrafo.
+
+Ou ainda o parágrafo pode 
+ser separado por espaço.
+&lt;/br&gt;
+Ou ainda separado por `&lt;/br&gt;`!
 </code></pre>
 </div>
 <div class="col">
-<p>Texto do primeiro parágrafo.</p>
-<p>Texto do segundo parágrafo.
-Este ainda é o texto do segundo parágrafo.</p>
+<p>Texto do primeiro parágrafo. <br>
+Texto do segundo parágrafo.</p>
+<p>Ou ainda separado por espaço,
+com espaçamento maior.
+</br>
+Ou ainda separado por <code>&lt;/br&gt;</code>!</p>
 </div>
 </div>
 </section>
@@ -320,7 +348,7 @@ Este ainda é o texto do segundo parágrafo.</p>
 <!-- </style> -->
 <div class="container">
 <div class="col">
-<pre><code>- Primeiro item da lista 1
+<pre><code class="language-markdown">- Primeiro item da lista 1
 - Segundo item da lista 1
 
 + Primeiro item da lista 2
@@ -330,7 +358,7 @@ Este ainda é o texto do segundo parágrafo.</p>
 * Segundo item da lista 3
 </code></pre>
 </div>
-<div class="col"?
+<div class="col">
 <ul>
 <li>Primeiro item da lista 1</li>
 <li>Segundo item da lista 1</li>
@@ -347,41 +375,104 @@ Este ainda é o texto do segundo parágrafo.</p>
 </div>
 </section>
 <section>
-<h2> Listas ordenadas </h2>
-<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
-<!-- <style> -->
-<!-- .container{ -->
-<!--   display: flex; -->
-<!-- } -->
-<!-- .col { -->
-<!--   flex: 1; -->
-<!-- } -->
-<!-- </style> -->
+<h2> Listas com checagem </h2>
 <div class="container">
 <div class="col">
-<pre><code>
-1. Primeiro 
-2. Segundo 
-3. Terceiro
+<pre><code class="language-markdown">- [X] Primeiro OK!
+- [ ] Segundo pendente
+- [ ] Segundo também
+
 
 </code></pre>
 </div>
-<div class="col"?
-<p>1.Primeiro</p>
-<p>2.Segundo</p>
-<p>3.Terceiro</p>
+<div class="col">
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Primeiro OK!</li>
+<li><input disabled="" type="checkbox"> Segundo pendente</li>
+<li><input disabled="" type="checkbox"> Segundo também</li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<h2> Listas e sublistas não ordenadas </h2>
+<div class="container">
+<div class="col">
+<pre><code class="language-markdown">- Lista 1
+  - Sublista 1.1
+  - Sublista 1.2
+    - Subsublista 1.2.1
+- Lista 2
+  - Sublista 2.1
+  - Sublista 2.2
+    - Subsublista 2.2.1
+</code></pre>
+</div>
+<div class="col">
+<ul>
+<li>Lista 1
+<ul>
+<li>Sublista 1.1</li>
+<li>Sublista 1.2
+<ul>
+<li>Subsublista 1.2.1</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Lista 2
+<ul>
+<li>Sublista 2.1</li>
+<li>Sublista 2.2
+<ul>
+<li>Subsublista 2.2.1</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<h2> Listas ordenadas </h2>
+<div class="container">
+<div class="col">
+<pre><code class="language-markdown">1. Primeiro 
+2. Segundo 
+3. Terceiro
+</code></pre>
+</div>
+<div class="col">
+<ol>
+<li>Primeiro</li>
+<li>Segundo</li>
+<li>Terceiro</li>
+</ol>
 </div>
 </div>
 </section>
 <section>
 <h2> Citações </h2>
-<pre><code>
-&gt; A melhor linguagem é a que você domina!
-
+<div class="container">
+<div class="col">
+<pre><code class="language-markdown">&gt; Citação em nível 1
+&gt;&gt; Citação em nível 2
+&gt;&gt;&gt; Citação em nível 3
 </code></pre>
-<blockquote cite="https://bendeivide.github.io/book-eambr01/ep%C3%ADgrafe.html">
-A melhor linguagem é a que você domina!
+</div>
+<div class="col">
+<blockquote>
+<p>Citação em nível 1</p>
+<blockquote>
+<p>Citação em nível 2</p>
+<blockquote>
+<p>Citação em nível 3</p>
 </blockquote>
+</blockquote>
+</blockquote>
+</div>
+</div>
 </section>
 
     </section>

@@ -81,13 +81,11 @@ A ideia da linguagem de marcação é:
 
 - Escrito em `HTML`:
 
-
 ```html
 <p>Este é um parágrafo com uma palavra em <b>negrito</b> e outra em <i>itálico</i>.</p>
 ```
 - Escrito em `Markdown`:
-
-```md
+```markdown
 Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 ```
 - Renderização:
@@ -119,7 +117,7 @@ Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 
 <div class="col">
 
-```
+```markdown
 # Título 1
 ## Título 2
 ### Título 3
@@ -162,7 +160,7 @@ Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 
 <div class="col">
 
-```
+```markdown
 Título 1
 ========
 
@@ -185,6 +183,38 @@ Título 2
 </div>
 
 </section>
+
+<section>
+<h2> Texto </h2>
+<div class="container">
+<div class="col">
+
+```markdown
+Texto em **negrito**!\
+Texto em __negrito__!\
+Texto em *itálico*\
+Texto em _itálico_ \
+Texto ~~taxado~~
+
+Alinhamento
+```
+
+</div>
+
+<div class="col">
+
+Texto em **negrito**!\
+Texto em __negrito__!\
+Texto em *itálico*!\
+Texto em _itálico_ \
+Texto ~~taxado~~ \
+
+</div>
+
+</div>
+
+</section>
+
 <section>
 <h2> Parágrafos </h2>
 
@@ -203,21 +233,27 @@ Título 2
 
 <div class="col">
 
-```
-Texto do primeiro parágrafo.
-
+```markdown
+Texto do primeiro parágrafo. \
 Texto do segundo parágrafo.
-Este ainda é o texto do segundo parágrafo.
+
+Ou ainda o parágrafo pode 
+ser separado por espaço.
+</br>
+Ou ainda separado por `</br>`!
 ```
 
 </div>
 
 <div class="col">
 
-Texto do primeiro parágrafo.
-
+Texto do primeiro parágrafo. \
 Texto do segundo parágrafo.
-Este ainda é o texto do segundo parágrafo.
+
+Ou ainda separado por espaço,
+com espaçamento maior.
+</br>
+Ou ainda separado por `</br>`!
 
 </div>
 
@@ -242,7 +278,7 @@ Este ainda é o texto do segundo parágrafo.
 
 <div class="col">
 
-```
+```markdown
 - Primeiro item da lista 1
 - Segundo item da lista 1
 
@@ -255,7 +291,7 @@ Este ainda é o texto do segundo parágrafo.
 
 </div>
 
-<div class="col"?
+<div class="col">
 
 - Primeiro item da lista 1
 - Segundo item da lista 1
@@ -266,6 +302,68 @@ Este ainda é o texto do segundo parágrafo.
 * Primeiro item da lista 3
 * Segundo item da lista 3
 
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2> Listas com checagem </h2>
+<div class="container">
+<div class="col">
+
+```markdown
+- [X] Primeiro OK!
+- [ ] Segundo pendente
+- [ ] Segundo também
+
+
+```
+
+</div>
+
+<div class="col">
+
+- [X] Primeiro OK!
+- [ ] Segundo pendente
+- [ ] Segundo também
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2> Listas e sublistas não ordenadas </h2>
+<div class="container">
+<div class="col">
+
+```markdown
+- Lista 1
+  - Sublista 1.1
+  - Sublista 1.2
+    - Subsublista 1.2.1
+- Lista 2
+  - Sublista 2.1
+  - Sublista 2.2
+    - Subsublista 2.2.1
+```
+
+</div>
+
+<div class="col">
+
+- Lista 1
+  - Sublista 1.1
+  - Sublista 1.2
+    - Subsublista 1.2.1
+- Lista 2
+  - Sublista 2.1
+  - Sublista 2.2
+    - Subsublista 2.2.1
+    
 </div>
 
 </div>
@@ -274,57 +372,59 @@ Este ainda é o texto do segundo parágrafo.
 
 <section>
 <h2> Listas ordenadas </h2>
-
-<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
-
-<!-- <style> -->
-<!-- .container{ -->
-<!--   display: flex; -->
-<!-- } -->
-<!-- .col { -->
-<!--   flex: 1; -->
-<!-- } -->
-<!-- </style> -->
-
 <div class="container">
-
 <div class="col">
 
+```markdown
+1. Primeiro 
+2. Segundo 
+3. Terceiro
 ```
+
+</div>
+
+<div class="col">
 
 1. Primeiro 
 2. Segundo 
 3. Terceiro
-
-```
-
+    
 </div>
 
-<div class="col"?
-
-1.Primeiro 
-
-2.Segundo 
-
-3.Terceiro
-
-</div>
 </div>
 
 </section>
+
 <section>
 <h2> Citações </h2>
+<div class="container">
+<div class="col">
 
+```markdown
+> Citação em nível 1
+>> Citação em nível 2
+>>> Citação em nível 3
 ```
 
-> A melhor linguagem é a que você domina!
+</div>
 
-```
-<blockquote cite="https://bendeivide.github.io/book-eambr01/ep%C3%ADgrafe.html">
-A melhor linguagem é a que você domina!
-</blockquote>
+<div class="col">
+
+> Citação em nível 1
+>> Citação em nível 2
+>>> Citação em nível 3
+
+
+    
+</div>
+
+</div>
 
 </section>
+
+
+
+
 
 
 ---

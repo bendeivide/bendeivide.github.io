@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/courses/estcomp/</link>
       <atom:link href="http://bendeivide.github.io/courses/estcomp/index.xml" rel="self" type="application/rss+xml" />
     <description>💻 Estatística Computacional (UFSJ)</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sun, 13 Mar 2022 17:57:52 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 12 Apr 2022 20:54:54 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/courses/estcomp/featured.png</url>
       <title>💻 Estatística Computacional (UFSJ)</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
-      <pubDate>Sat, 09 Apr 2022 12:36:28 +0000</pubDate>
+      <pubDate>Tue, 12 Apr 2022 20:57:08 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -190,6 +190,8 @@
 &lt;p&gt;Irei utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que darei todo o suporte para os alunos, de forma que estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
+&lt;h2 id=&#34;modelo-de-relatório-para-a-disciplina&#34;&gt;Modelo de Relatório para a disciplina&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/discestcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Relatório&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;

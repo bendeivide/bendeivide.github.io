@@ -2,7 +2,7 @@
 title: 💻 Estatística Computacional (UFSJ)
 linkTitle: Est & Comp (UFSJ)
 summary: O curso de Estatística Computacional é voltado para os alunos dos cursos de Engenharias da UFSJ, campus Alto Paraopeba (CAP). 
-date: "2022-03-13 17:57:52"
+date: "2022-04-12 20:54:54"
 type: book
 categories: ["R", "Estatística", "Probabilidade", "Programação"]
 tags: ["Curso"]
@@ -32,6 +32,10 @@ tags: ["Curso"]
 ## Encontre seu instrutor
 
 {{< mention "admin" >}}
+
+## Encontre nossos alunos e desfrutem de suas experiênicas
+
+[Nossos alunos](https://bendeivide.github.io/estcompalunos/)
 
 ## FAQs
 

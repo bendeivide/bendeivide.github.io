@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 11 Apr 2022 10:50:44 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 12 Apr 2022 20:57:08 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
-      <pubDate>Sat, 09 Apr 2022 12:36:28 +0000</pubDate>
+      <pubDate>Tue, 12 Apr 2022 20:57:08 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -190,6 +190,8 @@
 &lt;p&gt;Irei utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que darei todo o suporte para os alunos, de forma que estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
+&lt;h2 id=&#34;modelo-de-relatório-para-a-disciplina&#34;&gt;Modelo de Relatório para a disciplina&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/discestcomp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Relatório&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
@@ -6053,7 +6055,7 @@ make.names(.123)
 &lt;ul&gt;
 &lt;li&gt;Escrito em &lt;code&gt;Markdown&lt;/code&gt;:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;Renderização:&lt;/li&gt;
@@ -6082,7 +6084,7 @@ make.names(.123)
 &lt;h2&gt; Criando Seções &lt;/h2&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;pre&gt;&lt;code&gt;# Título 1
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# Título 1
 ## Título 2
 ### Título 3
 #### Título 4
@@ -6113,7 +6115,7 @@ make.names(.123)
 &lt;!-- &lt;/style&gt; --&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;pre&gt;&lt;code&gt;Título 1
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Título 1
 ========
 
 Título 2
@@ -6123,6 +6125,28 @@ Título 2
 &lt;div class=&#34;col&#34;&gt;
 &lt;h1 id=&#34;título-1-1&#34;&gt;Título 1&lt;/h1&gt;
 &lt;h2 id=&#34;título-2-1&#34;&gt;Título 2&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Texto &lt;/h2&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Texto em **negrito**!\
+Texto em __negrito__!\
+Texto em *itálico*\
+Texto em _itálico_ \
+Texto ~~taxado~~
+
+Alinhamento
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt;Texto em &lt;strong&gt;negrito&lt;/strong&gt;!&lt;br&gt;
+Texto em &lt;strong&gt;negrito&lt;/strong&gt;!&lt;br&gt;
+Texto em &lt;em&gt;itálico&lt;/em&gt;!&lt;br&gt;
+Texto em &lt;em&gt;itálico&lt;/em&gt; &lt;br&gt;
+Texto &lt;del&gt;taxado&lt;/del&gt; \&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -6139,16 +6163,22 @@ Título 2
 &lt;!-- &lt;/style&gt; --&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;pre&gt;&lt;code&gt;Texto do primeiro parágrafo.
-
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Texto do primeiro parágrafo. \
 Texto do segundo parágrafo.
-Este ainda é o texto do segundo parágrafo.
+
+Ou ainda o parágrafo pode 
+ser separado por espaço.
+&amp;lt;/br&amp;gt;
+Ou ainda separado por `&amp;lt;/br&amp;gt;`!
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;p&gt;Texto do primeiro parágrafo.&lt;/p&gt;
-&lt;p&gt;Texto do segundo parágrafo.
-Este ainda é o texto do segundo parágrafo.&lt;/p&gt;
+&lt;p&gt;Texto do primeiro parágrafo. &lt;br&gt;
+Texto do segundo parágrafo.&lt;/p&gt;
+&lt;p&gt;Ou ainda separado por espaço,
+com espaçamento maior.
+&lt;/br&gt;
+Ou ainda separado por &lt;code&gt;&amp;lt;/br&amp;gt;&lt;/code&gt;!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -6165,7 +6195,7 @@ Este ainda é o texto do segundo parágrafo.&lt;/p&gt;
 &lt;!-- &lt;/style&gt; --&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;pre&gt;&lt;code&gt;- Primeiro item da lista 1
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- Primeiro item da lista 1
 - Segundo item da lista 1
 
 + Primeiro item da lista 2
@@ -6175,7 +6205,7 @@ Este ainda é o texto do segundo parágrafo.&lt;/p&gt;
 * Segundo item da lista 3
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;div class=&#34;col&#34;?
+&lt;div class=&#34;col&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;Primeiro item da lista 1&lt;/li&gt;
 &lt;li&gt;Segundo item da lista 1&lt;/li&gt;
@@ -6192,41 +6222,104 @@ Este ainda é o texto do segundo parágrafo.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;h2&gt; Listas ordenadas &lt;/h2&gt;
-&lt;!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js --&gt;
-&lt;!-- &lt;style&gt; --&gt;
-&lt;!-- .container{ --&gt;
-&lt;!--   display: flex; --&gt;
-&lt;!-- } --&gt;
-&lt;!-- .col { --&gt;
-&lt;!--   flex: 1; --&gt;
-&lt;!-- } --&gt;
-&lt;!-- &lt;/style&gt; --&gt;
+&lt;h2&gt; Listas com checagem &lt;/h2&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;pre&gt;&lt;code&gt;
-1. Primeiro 
-2. Segundo 
-3. Terceiro
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [X] Primeiro OK!
+- [ ] Segundo pendente
+- [ ] Segundo também
+
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;div class=&#34;col&#34;?
-&lt;p&gt;1.Primeiro&lt;/p&gt;
-&lt;p&gt;2.Segundo&lt;/p&gt;
-&lt;p&gt;3.Terceiro&lt;/p&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Primeiro OK!&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Segundo pendente&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Segundo também&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Listas e sublistas não ordenadas &lt;/h2&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- Lista 1
+  - Sublista 1.1
+  - Sublista 1.2
+    - Subsublista 1.2.1
+- Lista 2
+  - Sublista 2.1
+  - Sublista 2.2
+    - Subsublista 2.2.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Lista 1
+&lt;ul&gt;
+&lt;li&gt;Sublista 1.1&lt;/li&gt;
+&lt;li&gt;Sublista 1.2
+&lt;ul&gt;
+&lt;li&gt;Subsublista 1.2.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Lista 2
+&lt;ul&gt;
+&lt;li&gt;Sublista 2.1&lt;/li&gt;
+&lt;li&gt;Sublista 2.2
+&lt;ul&gt;
+&lt;li&gt;Subsublista 2.2.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Listas ordenadas &lt;/h2&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;1. Primeiro 
+2. Segundo 
+3. Terceiro
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;Primeiro&lt;/li&gt;
+&lt;li&gt;Segundo&lt;/li&gt;
+&lt;li&gt;Terceiro&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
 &lt;section&gt;
 &lt;h2&gt; Citações &lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;
-&amp;gt; A melhor linguagem é a que você domina!
-
+&lt;div class=&#34;container&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;gt; Citação em nível 1
+&amp;gt;&amp;gt; Citação em nível 2
+&amp;gt;&amp;gt;&amp;gt; Citação em nível 3
 &lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote cite=&#34;https://bendeivide.github.io/book-eambr01/ep%C3%ADgrafe.html&#34;&gt;
-A melhor linguagem é a que você domina!
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Citação em nível 1&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Citação em nível 2&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Citação em nível 3&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 

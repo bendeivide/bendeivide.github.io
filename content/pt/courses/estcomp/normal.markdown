@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-04-09 12:36:28"
+date: "2022-04-12 20:57:08"
 type: book
 weight: 10
 categories: ["R", "Estatística", "Probabilidade", "Programação"]
@@ -140,6 +140,10 @@ Nossas aulas terão **4 (quatro) horas semanais de aulas**, e **2 (duas) horas d
 
 Irei utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o *overlief* para usuários de LaTeX. Com a linguagem *R*, mostraremos documentos dinâmicos, usando o *R Markdown* e o *shiny*, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que darei todo o suporte para os alunos, de forma que estejam capacitados a utilizar todas as ferramentas quando necessário.
 {{< /spoiler >}}
+
+## Modelo de Relatório para a disciplina
+
+[Modelo de Relatório](https://bendeivide.github.io/discestcomp/)
 
 ## Avaliação {#avaliacao}
 
