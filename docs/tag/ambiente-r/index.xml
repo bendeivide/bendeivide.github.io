@@ -2719,6 +2719,537 @@ make.names(.123)
     
     <item>
       <title>Estatística Computacional</title>
+      <link>http://bendeivide.github.io/slides/estcomp/s03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estcomp/s03/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo03.jpg&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-computacional&#34;&gt;Estatística Computacional&lt;/h1&gt;
+&lt;p&gt;Aula 03 - Objetos em R
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;Estatística Computacional&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;acesso-a-todo-material&#34;&gt;Acesso a todo material&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s03/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/estcomp/s03/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/estcomp/s03/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s03/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;p&gt;John Chambers (Criador da linguagem S) afirma:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Princípio do Objeto&lt;/strong&gt;: Tudo que existe em &lt;code&gt;R&lt;/code&gt; é um objeto&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Definimos um objeto como uma entidade no ambiente &lt;code&gt;R&lt;/code&gt; com características internas contendo informações necessárias para interpretar sua estrutura e conteúdo
+&lt;ul&gt;
+&lt;li&gt;Atributos&lt;/li&gt;
+&lt;li&gt;Atributos intrínsecos: &lt;strong&gt;modo&lt;/strong&gt; e &lt;strong&gt;comprimento&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;associando-o-nome-a-um-objeto&#34;&gt;Associando o nome a um objeto&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; x &amp;lt;- 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Comandos de atribuição&lt;/li&gt;
+&lt;li&gt;Use: &lt;code&gt;&amp;lt;-&lt;/code&gt;, isto é, &lt;code&gt;&amp;lt;&lt;/code&gt; + &lt;code&gt;-&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Evite: &lt;code&gt;=&lt;/code&gt;, use apenas para definir argumentos em uma função&lt;/li&gt;
+&lt;li&gt;Nomes sintáticos e nomes não sintáticos;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Nomes sintáticos e não sintáticos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;3&#34;&gt;
+&lt;p&gt;Deve consistir em letras, dígitos, &lt;code&gt;.&lt;/code&gt; e &lt;code&gt;_&lt;/code&gt; ;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;1&#34;&gt;
+&lt;p&gt;Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, Ex.: &lt;code&gt;.123&lt;/code&gt;;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;2&#34;&gt;
+&lt;p&gt;Letras maiúsculas e minúsculas são diferentes;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;5&#34;&gt;
+&lt;p&gt;Não pode inicia por &lt;code&gt;_&lt;/code&gt; ou dígito;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;4&#34;&gt;
+&lt;p&gt;Não pode usar palavras reservadas: &lt;code&gt;?Reserved()&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Nomes sintáticos e não sintáticos&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Nome nao sintatico
+.123 &amp;lt;- 50
+## Error in 0.123 &amp;lt;- 50 : lado esquerdo da atribuicao inválida (do_set)
+
+# Qual a sugestao de nome sintatico para &#39;.123&#39;?
+make.names(.123)
+[1] &amp;quot;X0.123&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Associando um nome ao objeto&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; x &amp;lt;- 10 # Ou 10 -&amp;gt; x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;x=10.png&#34; width=&#34;60%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; lobstr::obj_addr(x)
+&amp;gt; # [1] &amp;quot;0xf8a104fc20&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Associando um nome ao objeto&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; y &amp;lt;- x
+&amp;gt; lobstr::obj_addr(y)
+&amp;gt; # [1] &amp;quot;0xf8a104fc20&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;y=x=10.png&#34; width=&#34;60%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Associando um nome ao objeto e ambiente global&lt;/h2&gt;
+&lt;img src=&#34;objamb.png&#34; width=&#34;60%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Associando um nome ao objeto&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; lobstr::obj_addr(x)
+&amp;gt; # [1] &amp;quot;0xf8a104fc20&amp;quot;
+&amp;gt; x &amp;lt;- 30
+&amp;gt; lobstr::obj_addr(x)
+&amp;gt; # [1] &amp;quot;0x42db6dbb50&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;atributos-e-classes&#34;&gt;Atributos e Classes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;atributos intrínsecos:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;modo&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;mode()&lt;/code&gt; baseado na linguagem &lt;code&gt;S&lt;/code&gt; e&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;typeof()&lt;/code&gt; baseado na linguagem &lt;code&gt;C&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;comprimento&lt;/strong&gt;: &lt;code&gt;length()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Demais atributos: &lt;code&gt;attributes()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Classe: &lt;code&gt;class()&lt;/code&gt; e &lt;code&gt;sloop::s3_class()&lt;/code&gt; e atributo classe por &lt;code&gt;attributes()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Atributo intrínseco de modo (Vetores)&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto modo caractere
+&amp;gt; x &amp;lt;- &amp;quot;Ben&amp;quot;; mode(x)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;character&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto modo logico
+&amp;gt; z &amp;lt;- TRUE; mode(z)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;logical&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto modo complexo
+&amp;gt; w &amp;lt;- 1i; mode(w)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;complex&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Atributo intrínseco de modo (Vetores)&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto modo numerico
+&amp;gt; y &amp;lt;- 10L; mode(y); y2 &amp;lt;- 10; mode(y2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;numeric&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;numeric&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # y eh igual a y2? # y eh identico y2?
+&amp;gt; y == y2; identical(y, y2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Atributo intrínseco de modo (Vetores)&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto modo caractere
+&amp;gt; x &amp;lt;- &amp;quot;Ben&amp;quot;; typeof(x)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;character&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto modo logico
+&amp;gt; z &amp;lt;- TRUE; typeof(z)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;logical&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto modo complexo
+&amp;gt; w &amp;lt;- 1i; typeof(w)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;complex&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Atributo intrínseco de modo (Vetores)&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto modo numerico
+&amp;gt; y &amp;lt;- 10L; typeof(y); y2 &amp;lt;- 10; typeof(y2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;integer&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;double&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # y eh igual a y2? # y eh identico y2?
+&amp;gt; y == y2; identical(y, y2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;resumo-do-modo-em-vetores-atômicos&#34;&gt;Resumo do modo em vetores atômicos&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;typeof&lt;/code&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;mode&lt;/code&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;logical&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;logical&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;integer&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;numeric&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;double&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;numeric&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;complex&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;complex&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;character&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;character&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;raw&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;raw&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Comprimento&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Vetor de comprimento 5
+&amp;gt; v1 &amp;lt;- 1:5
+&amp;gt; # Vetor de comprimento 3
+&amp;gt; v2 &amp;lt;- c(&amp;quot;Ben&amp;quot;, &amp;quot;Maria&amp;quot;, &amp;quot;Lana&amp;quot;)
+&amp;gt; # Vetor de comprimento quatro
+&amp;gt; v3 &amp;lt;- c(TRUE, FALSE, TRUE, TRUE)
+&amp;gt; # Vejamos o comprimento dos vetores
+&amp;gt; length(v1); length(v2); length(v3)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Comprimento&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estcomp/s03/v1v2v3_huccf721c4a70307ba5fe5e442b4161bdc_260782_0ab2220e12cdb6726c1f0d0db5b82299.webp 400w,
+               /slides/estcomp/s03/v1v2v3_huccf721c4a70307ba5fe5e442b4161bdc_260782_e5f12f3f374b191ede089d0d26dbc394.webp 760w,
+               /slides/estcomp/s03/v1v2v3_huccf721c4a70307ba5fe5e442b4161bdc_260782_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estcomp/s03/v1v2v3_huccf721c4a70307ba5fe5e442b4161bdc_260782_0ab2220e12cdb6726c1f0d0db5b82299.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;265&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;resumo&#34;&gt;Resumo&lt;/h2&gt;
+&lt;p&gt;Um resumo as funções mensionadas podem ser refletidas com as seguintes indagações:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;base::class()&lt;/code&gt; e &lt;code&gt;loop::c3_class()&lt;/code&gt;:  Qual o tipo de objeto?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;base::mode()&lt;/code&gt;: Qual o tipo de dados baseados na linguagem &lt;code&gt;S&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;base::typeof()&lt;/code&gt;: Qual o tipo de dados baseados na linguagem &lt;code&gt;C&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;base::attributes()&lt;/code&gt;: O objeto tem atributos?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;base::length()&lt;/code&gt;: Qual o comprimento do objeto?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sintaxe: &lt;code&gt;pacote::nome_função()&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;classes&#34;&gt;Classes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Objetos que armazenam &amp;ldquo;dados&amp;rdquo;, pensando em análises:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;numeric&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;logical&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;character&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;list&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;matrix&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;array&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;factor&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;data.frame&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Coersão do R&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Criando um objeto x e imprimindo o seu resultado
+&amp;gt; x &amp;lt;- c(&amp;quot;Nome&amp;quot;, 3, 4, 5);x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Nome&amp;quot; &amp;quot;3&amp;quot;    &amp;quot;4&amp;quot;    &amp;quot;5&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;coersao.png&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Coersão imposta pelo usuário&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Objeto de modo numerico
+&amp;gt; minha_idade &amp;lt;- 35; mode(minha_idade)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;numeric&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Coersão do objeto para modo caractere (`string`)
+&amp;gt; minha_idade &amp;lt;- as.character(minha_idade) 
+&amp;gt; mode(minha_idade)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;character&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;gt; # Verificando se o objeto tem modo &#39;character&#39;
+&amp;gt; is.character(minha_idade)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] TRUE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Tipo de objetos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Vetores atômicos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lógicos, Numéricos e Caracteres;&lt;/li&gt;
+&lt;li&gt;Matrizes unidimensionais (&lt;em&gt;Matrix&lt;/em&gt;) e multidimensionais (&lt;em&gt;Arrays&lt;/em&gt;);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vetores em listas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Listas (&lt;em&gt;Lists&lt;/em&gt;);&lt;/li&gt;
+&lt;li&gt;Quadro de dados (&lt;em&gt;Data frames&lt;/em&gt;);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Existem outros, mas para esse módulo, exploraremos estes nas seções seguintes&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Computacional</title>
       <link>http://bendeivide.github.io/slides/estcomp/s06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://bendeivide.github.io/slides/estcomp/s06/</guid>

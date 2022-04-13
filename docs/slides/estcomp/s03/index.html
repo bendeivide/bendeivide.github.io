@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  
+  
+
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.4.0 for Hugo">
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="http://bendeivide.github.io/slides/estcomp/s03/">
+
+  <title>Estatística Computacional | Ben Dêivide</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/black.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo03.jpg"
+  >
+
+<h1 id="estatística-computacional">Estatística Computacional</h1>
+<p>Aula 03 - Objetos em R
+</br></p>
+<p>
+  <i class="fas fa-user-tie  pr-1 fa-fw"></i> <a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Ben Dêivide</a> | 
+  <i class="fas fa-school  pr-1 fa-fw"></i> <a href="https://www.ufsj.edu.br/" target="_blank" rel="noopener">UFSJ</a>
+</br>
+
+  <i class="fas fa-book  pr-1 fa-fw"></i> <a href="/courses/estcomp/">Estatística Computacional</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="selo-dc">Selo DC</h2>
+<p><a href="https://bendeivide.github.io/dc/" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estcomp/s03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estcomp/s03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estcomp/s03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estcomp/s03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp"
+               width="385"
+               height="406"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="acesso-a-todo-material">Acesso a todo material</h2>
+<p><a href="/courses/estcomp/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estcomp/s03/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/estcomp/s03/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/estcomp/s03/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estcomp/s03/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp"
+               width="607"
+               height="471"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="introdução">Introdução</h2>
+<p>John Chambers (Criador da linguagem S) afirma:</p>
+<blockquote>
+<p><strong>Princípio do Objeto</strong>: Tudo que existe em <code>R</code> é um objeto</p>
+</blockquote>
+<ul>
+<li>Definimos um objeto como uma entidade no ambiente <code>R</code> com características internas contendo informações necessárias para interpretar sua estrutura e conteúdo
+<ul>
+<li>Atributos</li>
+<li>Atributos intrínsecos: <strong>modo</strong> e <strong>comprimento</strong></li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="associando-o-nome-a-um-objeto">Associando o nome a um objeto</h2>
+<pre><code class="language-r">&gt; x &lt;- 10
+</code></pre>
+<ul>
+<li>Comandos de atribuição</li>
+<li>Use: <code>&lt;-</code>, isto é, <code>&lt;</code> + <code>-</code></li>
+<li>Evite: <code>=</code>, use apenas para definir argumentos em uma função</li>
+<li>Nomes sintáticos e nomes não sintáticos;</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<section>
+<h2>Nomes sintáticos e não sintáticos</h2>
+<ul>
+<li class="fragment" data-fragment-index="3">
+<p>Deve consistir em letras, dígitos, <code>.</code> e <code>_</code> ;</p>
+</li>
+<li class="fragment" data-fragment-index="1">
+<p>Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, Ex.: <code>.123</code>;</p>
+</li>
+<li class="fragment" data-fragment-index="2">
+<p>Letras maiúsculas e minúsculas são diferentes;</p>
+</li>
+<li class="fragment" data-fragment-index="5">
+<p>Não pode inicia por <code>_</code> ou dígito;</p>
+</li>
+<li class="fragment" data-fragment-index="4">
+<p>Não pode usar palavras reservadas: <code>?Reserved()</code>.</p>
+</li>
+</ul>
+</section>
+<section>
+<h2>Nomes sintáticos e não sintáticos</h2>
+<pre><code class="language-r"># Nome nao sintatico
+.123 &lt;- 50
+## Error in 0.123 &lt;- 50 : lado esquerdo da atribuicao inválida (do_set)
+
+# Qual a sugestao de nome sintatico para '.123'?
+make.names(.123)
+[1] &quot;X0.123&quot;
+</code></pre>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<section>
+<h2>Associando um nome ao objeto</h2>
+<pre><code class="language-r">&gt; x &lt;- 10 # Ou 10 -&gt; x
+</code></pre>
+<img src="x=10.png" width="60%" style="display: block; margin: auto;" />
+<pre><code class="language-r">&gt; lobstr::obj_addr(x)
+&gt; # [1] &quot;0xf8a104fc20&quot;
+</code></pre>
+</section>
+<section>
+<h2>Associando um nome ao objeto</h2>
+<pre><code class="language-r">&gt; y &lt;- x
+&gt; lobstr::obj_addr(y)
+&gt; # [1] &quot;0xf8a104fc20&quot;
+</code></pre>
+<img src="y=x=10.png" width="60%" style="display: block; margin: auto;" />
+</section>
+<section>
+<h2>Associando um nome ao objeto e ambiente global</h2>
+<img src="objamb.png" width="60%" style="display: block; margin: auto;" />
+</section>
+<section>
+<h2>Associando um nome ao objeto</h2>
+<pre><code class="language-r">&gt; lobstr::obj_addr(x)
+&gt; # [1] &quot;0xf8a104fc20&quot;
+&gt; x &lt;- 30
+&gt; lobstr::obj_addr(x)
+&gt; # [1] &quot;0x42db6dbb50&quot;
+</code></pre>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="atributos-e-classes">Atributos e Classes</h2>
+<ul>
+<li>atributos intrínsecos:
+<ul>
+<li><strong>modo</strong>:
+<ul>
+<li><code>mode()</code> baseado na linguagem <code>S</code> e</li>
+<li><code>typeof()</code> baseado na linguagem <code>C</code></li>
+</ul>
+</li>
+<li><strong>comprimento</strong>: <code>length()</code></li>
+</ul>
+</li>
+<li>Demais atributos: <code>attributes()</code></li>
+<li>Classe: <code>class()</code> e <code>sloop::s3_class()</code> e atributo classe por <code>attributes()</code></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<section>
+<h2>Atributo intrínseco de modo (Vetores)</h2>
+<pre><code class="language-r">&gt; # Objeto modo caractere
+&gt; x &lt;- &quot;Ben&quot;; mode(x)
+</code></pre>
+<pre><code>## [1] &quot;character&quot;
+</code></pre>
+<pre><code class="language-r">&gt; # Objeto modo logico
+&gt; z &lt;- TRUE; mode(z)
+</code></pre>
+<pre><code>## [1] &quot;logical&quot;
+</code></pre>
+<pre><code class="language-r">&gt; # Objeto modo complexo
+&gt; w &lt;- 1i; mode(w)
+</code></pre>
+<pre><code>## [1] &quot;complex&quot;
+</code></pre>
+</section>
+<section>
+<h2>Atributo intrínseco de modo (Vetores)</h2>
+<pre><code class="language-r">&gt; # Objeto modo numerico
+&gt; y &lt;- 10L; mode(y); y2 &lt;- 10; mode(y2)
+</code></pre>
+<pre><code>## [1] &quot;numeric&quot;
+</code></pre>
+<pre><code>## [1] &quot;numeric&quot;
+</code></pre>
+<pre><code class="language-r">&gt; # y eh igual a y2? # y eh identico y2?
+&gt; y == y2; identical(y, y2)
+</code></pre>
+<pre><code>## [1] TRUE
+</code></pre>
+<pre><code>## [1] FALSE
+</code></pre>
+</section>
+<section>
+<h2>Atributo intrínseco de modo (Vetores)</h2>
+<pre><code class="language-r">&gt; # Objeto modo caractere
+&gt; x &lt;- &quot;Ben&quot;; typeof(x)
+</code></pre>
+<pre><code>## [1] &quot;character&quot;
+</code></pre>
+<pre><code class="language-r">&gt; # Objeto modo logico
+&gt; z &lt;- TRUE; typeof(z)
+</code></pre>
+<pre><code>## [1] &quot;logical&quot;
+</code></pre>
+<pre><code class="language-r">&gt; # Objeto modo complexo
+&gt; w &lt;- 1i; typeof(w)
+</code></pre>
+<pre><code>## [1] &quot;complex&quot;
+</code></pre>
+</section>
+<section>
+<h2>Atributo intrínseco de modo (Vetores)</h2>
+<pre><code class="language-r">&gt; # Objeto modo numerico
+&gt; y &lt;- 10L; typeof(y); y2 &lt;- 10; typeof(y2)
+</code></pre>
+<pre><code>## [1] &quot;integer&quot;
+</code></pre>
+<pre><code>## [1] &quot;double&quot;
+</code></pre>
+<pre><code class="language-r">&gt; # y eh igual a y2? # y eh identico y2?
+&gt; y == y2; identical(y, y2)
+</code></pre>
+<pre><code>## [1] TRUE
+</code></pre>
+<pre><code>## [1] FALSE
+</code></pre>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="resumo-do-modo-em-vetores-atômicos">Resumo do modo em vetores atômicos</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><code>typeof</code></th>
+<th style="text-align:center"><code>mode</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>logical</code></td>
+<td style="text-align:center"><code>logical</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>integer</code></td>
+<td style="text-align:center"><code>numeric</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>double</code></td>
+<td style="text-align:center"><code>numeric</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>complex</code></td>
+<td style="text-align:center"><code>complex</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>character</code></td>
+<td style="text-align:center"><code>character</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>raw</code></td>
+<td style="text-align:center"><code>raw</code></td>
+</tr>
+</tbody>
+</table>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<section>
+<h2>Comprimento</h2>
+<pre><code class="language-r">&gt; # Vetor de comprimento 5
+&gt; v1 &lt;- 1:5
+&gt; # Vetor de comprimento 3
+&gt; v2 &lt;- c(&quot;Ben&quot;, &quot;Maria&quot;, &quot;Lana&quot;)
+&gt; # Vetor de comprimento quatro
+&gt; v3 &lt;- c(TRUE, FALSE, TRUE, TRUE)
+&gt; # Vejamos o comprimento dos vetores
+&gt; length(v1); length(v2); length(v3)
+</code></pre>
+<pre><code>## [1] 5
+</code></pre>
+<pre><code>## [1] 3
+</code></pre>
+<pre><code>## [1] 4
+</code></pre>
+</section>
+<section>
+<h2>Comprimento</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estcomp/s03/v1v2v3_huccf721c4a70307ba5fe5e442b4161bdc_260782_0ab2220e12cdb6726c1f0d0db5b82299.webp 400w,
+               /slides/estcomp/s03/v1v2v3_huccf721c4a70307ba5fe5e442b4161bdc_260782_e5f12f3f374b191ede089d0d26dbc394.webp 760w,
+               /slides/estcomp/s03/v1v2v3_huccf721c4a70307ba5fe5e442b4161bdc_260782_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estcomp/s03/v1v2v3_huccf721c4a70307ba5fe5e442b4161bdc_260782_0ab2220e12cdb6726c1f0d0db5b82299.webp"
+               width="760"
+               height="265"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="resumo">Resumo</h2>
+<p>Um resumo as funções mensionadas podem ser refletidas com as seguintes indagações:</p>
+<ul>
+<li><code>base::class()</code> e <code>loop::c3_class()</code>:  Qual o tipo de objeto?</li>
+<li><code>base::mode()</code>: Qual o tipo de dados baseados na linguagem <code>S</code>?</li>
+<li><code>base::typeof()</code>: Qual o tipo de dados baseados na linguagem <code>C</code>?</li>
+<li><code>base::attributes()</code>: O objeto tem atributos?</li>
+<li><code>base::length()</code>: Qual o comprimento do objeto?</li>
+</ul>
+<p>Sintaxe: <code>pacote::nome_função()</code></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h2 id="classes">Classes</h2>
+<ul>
+<li>Objetos que armazenam &ldquo;dados&rdquo;, pensando em análises:
+<ul>
+<li><code>numeric</code></li>
+<li><code>logical</code></li>
+<li><code>character</code></li>
+<li><code>list</code></li>
+<li><code>matrix</code></li>
+<li><code>array</code></li>
+<li><code>factor</code></li>
+<li><code>data.frame</code></li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<section>
+<h2>Coersão do R</h2>
+<pre><code class="language-r">&gt; # Criando um objeto x e imprimindo o seu resultado
+&gt; x &lt;- c(&quot;Nome&quot;, 3, 4, 5);x
+</code></pre>
+<pre><code>## [1] &quot;Nome&quot; &quot;3&quot;    &quot;4&quot;    &quot;5&quot;
+</code></pre>
+<img src="coersao.png" width="30%" style="display: block; margin: auto;" />
+</section>
+<section>
+<h2>Coersão imposta pelo usuário</h2>
+<pre><code class="language-r">&gt; # Objeto de modo numerico
+&gt; minha_idade &lt;- 35; mode(minha_idade)
+</code></pre>
+<pre><code>## [1] &quot;numeric&quot;
+</code></pre>
+<pre><code class="language-r">&gt; # Coersão do objeto para modo caractere (`string`)
+&gt; minha_idade &lt;- as.character(minha_idade) 
+&gt; mode(minha_idade)
+</code></pre>
+<pre><code>## [1] &quot;character&quot;
+</code></pre>
+<pre><code class="language-r">&gt; # Verificando se o objeto tem modo 'character'
+&gt; is.character(minha_idade)
+</code></pre>
+<pre><code>## [1] TRUE
+</code></pre>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<section>
+<h2>Tipo de objetos</h2>
+<ul>
+<li>
+<p>Vetores atômicos:</p>
+<ul>
+<li>Lógicos, Numéricos e Caracteres;</li>
+<li>Matrizes unidimensionais (<em>Matrix</em>) e multidimensionais (<em>Arrays</em>);</li>
+</ul>
+</li>
+<li>
+<p>Vetores em listas:</p>
+<ul>
+<li>Listas (<em>Lists</em>);</li>
+<li>Quadro de dados (<em>Data frames</em>);</li>
+</ul>
+</li>
+</ul>
+<p>Existem outros, mas para esse módulo, exploraremos estes nas seções seguintes</p>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h1 id="questões">Questões?</h1>
+<p><a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Dúvidas e Sugestões</a></p>
+<p><a href="https://bendeivide.github.io/#contact" target="_blank" rel="noopener">Contato</a></p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/highlight/highlight.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>
