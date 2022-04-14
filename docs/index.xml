@@ -8527,5 +8527,28 @@ para &lt;code&gt;\(i \in \mathbb{N}^{+}\)&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Linhas de Pesquisa</title>
+      <link>http://bendeivide.github.io/slides/linhapesquisa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/linhapesquisa/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;fundo.jpg&#34;
+  &gt;
+
+&lt;h1 id=&#34;linha-de-pesquisa&#34;&gt;Linha de Pesquisa&lt;/h1&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/estcomp/&#34;&gt;Estatística Computacional&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
