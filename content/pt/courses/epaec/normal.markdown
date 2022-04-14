@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-04-11 10:50:44"
+date: "2022-04-13 18:36:20"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -350,10 +350,42 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< spoiler text="Aula 7 (11/04/2022)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 3
-{{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 07](https://docs.google.com/document/d/1oHTAZYqv3sRZPIqY2CaO039Oa1v9inUDQEMgCNviPls/edit?usp=sharing)
+{{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 07]()
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1oHTAZYqv3sRZPIqY2CaO039Oa1v9inUDQEMgCNviPls/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula
+{{< youtube ozgmfZGkE8k >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 8 (12-13/04/2022)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de dispersão
+{{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 08]()
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1oTE0jEAYka92PmYh7EjV630D49iP4lepKyF9BdI7ljw/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 9 (18/04/2022)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão  sobre Medidas de dispersão
+{{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 09]()
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/12Qnz-AhPkRriqlpYFQWA5S8EAprTA3QrY0VQ5M3Tj_I/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
    - [Curso R](courses/cursor/)
