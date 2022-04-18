@@ -109,8 +109,9 @@ Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 
 <section>
 <h1> Sintaxe </h1>
-</section>
-<section>
+
+----
+
 <h2> Criando Seções </h2>
 
 <div class="container">
@@ -141,20 +142,9 @@ Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 
 </div>
 
-</section>
-<section>
-<h2> Criando Seções </h2>
+----
 
-<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
-
-<!-- <style> -->
-<!-- .container{ -->
-<!--   display: flex; -->
-<!-- } -->
-<!-- .col { -->
-<!--   flex: 1; -->
-<!-- } -->
-<!-- </style> -->
+<h2> Outra forma </h2>
 
 <div class="container">
 
@@ -182,9 +172,8 @@ Título 2
 
 </div>
 
-</section>
+----
 
-<section>
 <h2> Texto </h2>
 <div class="container">
 <div class="col">
@@ -195,8 +184,6 @@ Texto em __negrito__!\
 Texto em *itálico*\
 Texto em _itálico_ \
 Texto ~~taxado~~
-
-Alinhamento
 ```
 
 </div>
@@ -213,21 +200,10 @@ Texto ~~taxado~~ \
 
 </div>
 
-</section>
+----
 
-<section>
 <h2> Parágrafos </h2>
 
-<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
-
-<!-- <style> -->
-<!-- .container{ -->
-<!--   display: flex; -->
-<!-- } -->
-<!-- .col { -->
-<!--   flex: 1; -->
-<!-- } -->
-<!-- </style> -->
 
 <div class="container">
 
@@ -238,9 +214,9 @@ Texto do primeiro parágrafo. \
 Texto do segundo parágrafo.
 
 Ou ainda o parágrafo pode 
-ser separado por espaço.
-</br>
-Ou ainda separado por `</br>`!
+ser separado acrescentando 
+dois espaços na última linha
+
 ```
 
 </div>
@@ -250,29 +226,17 @@ Ou ainda separado por `</br>`!
 Texto do primeiro parágrafo. \
 Texto do segundo parágrafo.
 
-Ou ainda separado por espaço,
-com espaçamento maior.
-</br>
-Ou ainda separado por `</br>`!
+Ou ainda o parágrafo pode 
+ser separado acrescentando 
+dois espaços na última linha
 
 </div>
 
 </div>
 
-</section>
-<section>
+----
+
 <h2> Listas não ordenadas </h2>
-
-<!-- https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js -->
-
-<!-- <style> -->
-<!-- .container{ -->
-<!--   display: flex; -->
-<!-- } -->
-<!-- .col { -->
-<!--   flex: 1; -->
-<!-- } -->
-<!-- </style> -->
 
 <div class="container">
 
@@ -306,9 +270,8 @@ Ou ainda separado por `</br>`!
 
 </div>
 
-</section>
+----
 
-<section>
 <h2> Listas com checagem </h2>
 <div class="container">
 <div class="col">
@@ -333,9 +296,8 @@ Ou ainda separado por `</br>`!
 
 </div>
 
-</section>
+----
 
-<section>
 <h2> Listas e sublistas não ordenadas </h2>
 <div class="container">
 <div class="col">
@@ -368,9 +330,8 @@ Ou ainda separado por `</br>`!
 
 </div>
 
-</section>
+----
 
-<section>
 <h2> Listas ordenadas </h2>
 <div class="container">
 <div class="col">
@@ -393,9 +354,8 @@ Ou ainda separado por `</br>`!
 
 </div>
 
-</section>
+----
 
-<section>
 <h2> Citações </h2>
 <div class="container">
 <div class="col">
@@ -414,25 +374,251 @@ Ou ainda separado por `</br>`!
 >> Citação em nível 2
 >>> Citação em nível 3
 
+</div>
 
+</div>
+
+----
+
+<h2>Linhas horizontais</h2>
+
+Três ou quatro traços (ou asteriscos), formam uma linha:
+
+```markdown
+Primeira linha:
+
+----
+
+Segunda Linha:
+
+****
+```
+
+----
+
+<h2> Links </h2>
+<div class="container">
+<div class="col">
+
+```markdown
+- [Ben Dêivide](https://bendeivide.github.io/)
+- Outra forma: [Ben Dêivide][link01]
+
+   [link01]: https://bendeivide.github.io/
+   
+- Outra forma: [Ben Dêivide]
+
+   [Ben Dêivide]: https://bendeivide.github.io/
+   
+```
+
+</div>
+
+<div class="col">
+
+- [Ben Dêivide](https://bendeivide.github.io/)
+
+- Outra forma: [Ben Dêivide][link01]
+   
+   [link01]: https://bendeivide.github.io/
+   
+- Outra forma: [Ben Dêivide]
+
+   [Ben Dêivide]: https://bendeivide.github.io/
     
 </div>
 
 </div>
 
+----
+
+<h2> Imagem sem Nome </h2>
+<div class="container">
+<div class="col">
+
+```markdown
+
+![](./imagens/rstudio.png)
+   
+```
+
+</div>
+
+<div class="col">
+
+![](rstudio.png)
+
+
+</div>
+
+</div>
+
+----
+
+<h2> Imagem com Nome </h2>
+<div class="container">
+<div class="col">
+
+```markdown
+
+![](./imagens/rstudio.png "IDE RStudio")
+   
+```
+
+</div>
+
+<div class="col">
+
+![](rstudio.png "IDE RStudio")
+
+
+</div>
+
+----
+
+<h2> Imagem estilo de referênica </h2>
+<div class="container">
+<div class="col">
+
+```markdown
+
+![][rstudio]
+
+  [rstudio]: ./imagens/rstudio.png "IDE RStudio"
+   
+```
+
+</div>
+
+<div class="col">
+
+![][rstudio]
+
+  [rstudio]: rstudio.png "IDE RStudio"
+
+
+</div>
+
+</div>
+
+----
+
+<h2> Códigos </h2>
+<div class="container">
+<div class="col">
+
+````markdown
+
+```python
+print('Ola, Mundo!')
+```
+
+```r
+print('Ola, Mundo!')
+```
+
+```html
+<p> Isso está em <i>negrito</i> ! </p>
+```
+
+````
+
+</div>
+
+<div class="col">
+
+- Código `python`:
+
+```python
+print('Ola, Mundo!')
+```
+
+- Código `R`:
+
+```r
+print('Ola, Mundo!')
+```
+
+- Código `html`:
+
+```html
+<p> Isso está em <i>negrito</i> ! </p>
+```
+
+
+</div>
+
+</div>
+
+----
+
+<h2> Tabelas </h2>
+<div class="container">
+<div class="col">
+
+```markdown
+
+| Col1     | Col2     |   Col3   |
+|:---------|:--------:|---------:|
+| Direita  | centro   | esquerda |
+| B        |     D    |        F |
+
+   
+```
+
+</div>
+
+<div class="col">
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:20px 20px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:13px 13px;word-break:normal;}
+.tg .tg-z4i2{border-color:#ffffff;text-align:left;vertical-align:middle}
+.tg .tg-wl5s{background-color:#eee8d5;border-color:#ffffff;text-align:left;vertical-align:middle}
+.tg .tg-i2ob{background-color:#eee8d5;border-color:#ffffff;text-align:right;vertical-align:middle}
+.tg .tg-44qx{border-color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-0w69{border-color:#ffffff;text-align:right;vertical-align:middle}
+.tg .tg-2eyt{border-color:#ffffff;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-ung0{border-color:#ffffff;font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-ttci{background-color:#eee8d5;border-color:#ffffff;text-align:center;vertical-align:middle}
+.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-2eyt">Col1</th>
+    <th class="tg-44qx">Col2</th>
+    <th class="tg-ung0">Col3</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-wl5s">Direita</td>
+    <td class="tg-ttci">centro</td>
+    <td class="tg-i2ob">esquerda</td>
+  </tr>
+  <tr>
+    <td class="tg-z4i2">B</td>
+    <td class="tg-v0mg">D</td>
+    <td class="tg-0w69">F</td>
+  </tr>
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+
+
 </section>
 
 
-
-
-
-
----
-
-
-{{< slide background-image="fundo02.png" >}}
-
-## Introdução ao RMarkdown
 
 ---
 

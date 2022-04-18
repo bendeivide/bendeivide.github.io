@@ -16,7 +16,7 @@ slides:
 # https://github.com/dzello/reveal-hugo
 # https://github.com/rstudio/revealjs
 # Esse componente serve apenas para os temas oficiais
-  theme: 'solarized'
+  theme: ''
 # Choose a code highlighting style (if highlighting enabled in `params.toml`)
 # Light style: github. Dark style: dracula (default).
   highlight_style: dracula
@@ -29,24 +29,7 @@ slides:
 # - Speaker notes: `S`
 # - Fullscreen: `F`
 # - Zoom: `Alt + Click`
-# - [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
-
-# Para desenhar, inserir:
-# site: https://github.com/burnpiro/reveal-pointer
-#       https://github.com/burnpiro/reveal-drawer
-# head:
-# <link rel="stylesheet" href="css/drawer.css"/>
-# <link rel="stylesheet" href="css/pointer.css" />
-# no slide .html
-# No final:
-# <script src="scr-pointer/plugin.js" crossorigin="anonymous"></script>
-# <script src="scr-drawer/plugin.js" crossorigin="anonymous"></script>
-# <script src="/js/pointer.js"></script>
-# <script src="/js/drawer.js"></script>
 ---
-
-
-
 
 {{< slide background-image="cap.png" >}}
 
@@ -71,7 +54,7 @@ Aula 04 - Coleta, organização e apresentação de dados
 
 {{< slide background-image="cap02.png" >}}
 
-<section data-transition="zoom">
+<section>
   <h2>Motivação inicial</h2>
   <h3> Dados (Primeiro tipo) </h3>
   
@@ -80,36 +63,34 @@ set.seed(10)
 rnorm(1000, 100, 50)
 ```
   
-</section>
 
-<section data-transition-speed="fast">
-  <h3> Dados (Segundo tipo) </h3>
+----
+
+<h3> Dados (Segundo tipo) </h3>
   
 ```{r echo=FALSE, warning=FALSE}
 set.seed(10)
 sort(rnorm(1000, 100, 50))
 ```
   
-</section>
+----
 
-<section data-transition-speed="fast">
-  <h3> Dados (Terceiro tipo) </h3>
+<h3> Dados (Terceiro tipo) </h3>
   
 ```{r echo=FALSE, warning=FALSE}
-source("https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/r-scripts/tabfreq.R")
 set.seed(10)
-tabfreq(rnorm(1000, 100, 50))
+x <- leem::new_leem(rnorm(1000, 100, 50), variable = "continuous")
+leem::tabfreq(x)
 ```
   
-</section>
+----
 
-<section data-transition-speed="fast">
-  <h3> Dados (Quarto tipo) </h3>
+<h3> Dados (Quarto tipo) </h3>
   
 ```{r echo=FALSE, warning=FALSE}
-set.seed(10)
-hist(rnorm(1000, 100, 50), nclass = 15, col = heat.colors(15), ylab = "Frequência", xlab = "Classes", 
-     main = "Histograma de frequências", bg = NA)
+leem:::hist.leem(x, main = "Histograma de frequências",
+                 xlab = "Classes", ylab = "Frequência",
+                 barcol = heat.colors(15))
 ```
   
 </section>
@@ -158,21 +139,21 @@ knitr::kable(
 
 {{< slide background-image="cap02.png" >}}
 
-<section data-transition="zoom">
+<section>
 <h2> Distribuição de frequência </h2>
 <h3>Frequência absoluta</h3>
 
 |Número de erros $(x_i)$ | Frequência simples ($f_i$) |
 | :--------------------: | :------------------------: |
 |        0               |            3               |
-                     |1|    7|
+|        1               |            7               |
                      |2 |   4|
                      |3  |  5|
                     | 4  |  1|
                  |Total |    20|
                  
-</section>
-<section data-transition="fast">
+----
+
 <h3>Frequência relativa</h3>
 
 |Número de erros $(x_i)$ | $f_i$ | $f_{r_i}$ |
@@ -183,9 +164,9 @@ knitr::kable(
    | $3$     |  $5$ | $5 / 20 = 0,25$|
   |  $4$     |  $1$ | $1 / 20 = 0,05$|
                  
-</section>
 
-<section data-transition="fast">
+----
+
 <h3>Frequência percentual</h3>
 
 |Número de erros $(x_i)$ |  $f_i$ | $f_{r_i}$ | $f_{\%_i}$|
@@ -197,9 +178,9 @@ knitr::kable(
     $4$     |  $1$ | $0,05$ | $0,05 \times 100 = 5$|
     Total |  $20$ | $1$ | $100$|
                  
-</section>
 
-<section>
+----
+
 <h3>Tabela completa</h3>
 
 | Número de erros $(x_i)$ |  $f_i$ | $f_{r_i}$ | $f_{\%_i}$ | $f_{ac\downarrow_i}$ | $f_{ac\uparrow_i}$ |
@@ -211,13 +192,14 @@ knitr::kable(
     $4$     |  $1$ | $0,05$ | $5$ | $20$ | $1$|
 Total |  $20$ | $1$ | $100$ | - | - |
                  
+
 </section>
 
 ---
 
 {{< slide background-image="cap02.png" >}}
 
-<section data-transition="zoom">
+<section>
 <h2>Tabela para V. contínua (Algoritmo) </h2>
 
 | Classe                           | $ F_i $    |
@@ -227,9 +209,7 @@ Total |  $20$ | $1$ | $100$ | - | - |
 |    $ \vdots $                    | $ \vdots $ |
 | $ Li_{ka}  \vdash Ls_{ka} $       | $ f_k $    |
 
-</section>
-
-<section data-transition="fast">
+----
 
 <pre> 1º Passo - Número de classes </pre>
 
@@ -247,10 +227,7 @@ Total |  $20$ | $1$ | $100$ | - | - |
 \end{align}
 para $i \in \mathbb{N}^{+}$.
 
-</section>
-
-
-<section data-transition="fast">
+----
 
 <pre> 3º Passo - Amplitude de classe </pre>
 
@@ -270,9 +247,7 @@ Li_{1a} & = \left\{\begin{array}{ll}
         \end{array}\right. 
 \end{align}
 
-</section>
-
-<section data-transition="fast">
+----
 
 <h2> Em resumo... </h2>
 
@@ -286,4 +261,218 @@ Li_{1a} & = \left\{\begin{array}{ll}
 
 </section>
 
+---
 
+{{< slide background-image="cap02.png" >}}
+
+## Gráficos
+
+- Gráfico de Haste ou bastão
+- Gráfico de barras
+- Gráfico de Pizza
+- Histograma de frequências 
+- Ogivas
+
+---
+
+{{< slide background-image="cap02.png" >}}
+
+<section> 
+<h2> Uso do pacote <code>leem</code> </h2>
+
+{{< figure src="leem.png" title="" width="150" height="150" >}}
+
+Instalação
+
+```{r eval=FALSE}
+
+install.packages("devtools")
+devtools::install_github("bendeivide/leem")
+```
+
+----
+
+<h2> Funções </h2>
+
+<!-- | Função     | Finalidade                  | -->
+<!-- |:-----------|:----------------------------| -->
+<!-- | new_leem() | Construtor da classe *leem* | -->
+<!-- | tabfreq()  | Disatribuição de frequência | -->
+<!-- | hist()     | Hitograma de frequência     | -->
+<!-- | ogive()    | Ogivas                      | -->
+<!-- | polyfreq() | Polígono de frequências     | -->
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-5lw0{background-color:#eee8d5;border-color:#ffffff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;text-align:left;
+  vertical-align:middle}
+.tg .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
+  text-align:left;vertical-align:middle}
+.tg .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-vqs5">Função</th>
+    <th class="tg-vqs5">Finalidade</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-5lw0"> <code>new_leem()</code>  </td>
+    <td class="tg-5lw0">Construtor da classe <i>leem</i> </td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>tabfreq()</code>  </td>
+    <td class="tg-xzvq">Distribuição de frequência</td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>hist()</code> </td>
+    <td class="tg-5lw0">Hitograma de frequência</td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>ogive()</code> </td>
+    <td class="tg-xzvq">Ogivas</td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>polyfreq()</code> </td>
+    <td class="tg-5lw0">Polígono de frequências</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+----
+
+<h2> Exemplo </h2>
+
+1. Considere a distribuição de frequência do número de erros encontrados em 20 conjunto de carac-  teres monitorado em um canal de comunicação
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-j4p1{background-color:#eee8d5;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:28px;font-style:italic;font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-1bo1{background-color:#ffffff;border-color:#fdf6e3;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;font-style:italic;
+  font-weight:bold;text-align:right;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">4</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">1</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">2</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">3</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">1</td>
+  </tr>
+</tbody>
+</table>
+
+----
+
+<h2>Exemplo</h2>
+
+2. Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-61io{background-color:#eee8d5;color:#191919;font-size:28px;font-style:italic;font-weight:bold;text-align:left;
+  vertical-align:middle}
+.tg .tg-8svn{background-color:#fdf6e3;color:#191919;font-size:28px;font-style:italic;font-weight:bold;text-align:left;
+  vertical-align:middle}
+.tg .tg-aete{background-color:#fdf6e3;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:28px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-4ynv{background-color:#eee8d5;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:28px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-uika{color:#191919;font-size:28px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-aete">84</th>
+    <th class="tg-aete">49</th>
+    <th class="tg-aete">61</th>
+    <th class="tg-aete">40</th>
+    <th class="tg-aete">83</th>
+    <th class="tg-aete">67</th>
+    <th class="tg-aete">45</th>
+    <th class="tg-aete">66</th>
+    <th class="tg-aete">70</th>
+    <th class="tg-aete">69</th>
+    <th class="tg-8svn">80</th>
+    <th class="tg-8svn">58</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-4ynv">68</td>
+    <td class="tg-4ynv">60</td>
+    <td class="tg-4ynv">67</td>
+    <td class="tg-4ynv">72</td>
+    <td class="tg-4ynv">73</td>
+    <td class="tg-4ynv">70</td>
+    <td class="tg-4ynv">57</td>
+    <td class="tg-4ynv">63</td>
+    <td class="tg-4ynv">70</td>
+    <td class="tg-4ynv">78</td>
+    <td class="tg-61io">52</td>
+    <td class="tg-61io">67</td>
+  </tr>
+  <tr>
+    <td class="tg-uika">53</td>
+    <td class="tg-uika">67</td>
+    <td class="tg-uika">75</td>
+    <td class="tg-uika">61</td>
+    <td class="tg-uika">70</td>
+    <td class="tg-uika">81</td>
+    <td class="tg-uika">76</td>
+    <td class="tg-uika">79</td>
+    <td class="tg-uika">75</td>
+    <td class="tg-uika">76</td>
+    <td class="tg-uika">58</td>
+    <td class="tg-uika">31</td>
+  </tr>
+</tbody>
+</table>
+
+</section>

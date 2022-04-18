@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-04-13 18:36:20"
+date: "2022-04-18 12:05:58"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -149,6 +149,8 @@ Irei utilizar diversas ferramentas do google como os seus editores de textos, pl
 
 ## Avaliação {#avaliacao}
 
+
+
 {{< spoiler text="Segue um detalhamento das nossas avaliações">}}
 Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:
 
@@ -170,6 +172,18 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 - Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas;
 - Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.
 {{< /spoiler >}}
+
+
+## Contrato {#contrato}
+
+Contrato feito para a disciplina de Estatística e Probabilidade, como meio de substituir as avaliações tradicionais para uso de metodologias ativas como método de avaliação. Paralelo a disciplina, o aluno irá acompanhando as aulas e desenvolvendo demandas semanais, como forma de ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda semana o aluno é acompanhado e avaliado pelo professor.
+
+{{< spoiler text="Abra o contrato aqui!">}}
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQwTFw47p8SHeZeK4eXORDqTuYFcxq6vaaV20gn4qyqKu9SA/viewform?embedded=true" width="640" height="2211" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
+{{< /spoiler >}}
+
 
 ## Bibliografia adotada para a disciplina
 
