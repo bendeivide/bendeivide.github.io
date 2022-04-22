@@ -31,6 +31,13 @@ slides:
 # - Zoom: `Alt + Click`
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+
+
 {{< slide background-image="cap.png" >}}
 
 # Estatística e Probabilidade
@@ -48,7 +55,7 @@ Aula 04 - Coleta, organização e apresentação de dados
 
 ## Selo DC
 
-[![](SeloDC-preto.png)](https://bendeivide.github.io/dc/)
+[![](SeloDC-branco.png)](https://bendeivide.github.io/dc/)
 
 ---
 
@@ -173,7 +180,7 @@ knitr::kable(
 | :---: | :----: | :----: | :----: |
     $0$     |  $3$ |  $0,15$ | $0,15 \times 100 = 15$|
     $1$     |  $7$ | $0,35$ | $0,35 \times 100 = 35$|
-    $2$     |  $4$ | $0,20$ | $0,20 \times 100 = 35$|
+    $2$     |  $4$ | $0,20$ | $0,20 \times 100 = 20$|
     $3$     |  $5$ | $0,25$ | $0,25 \times 100 = 25$|
     $4$     |  $1$ | $0,05$ | $0,05 \times 100 = 5$|
     Total |  $20$ | $1$ | $100$|
@@ -290,6 +297,13 @@ install.packages("devtools")
 devtools::install_github("bendeivide/leem")
 ```
 
+Anexando e carregando
+
+```{r eval=FALSE}
+
+library(leem)
+```
+
 ----
 
 <h2> Funções </h2>
@@ -327,6 +341,10 @@ devtools::install_github("bendeivide/leem")
 </thead>
 <tbody>
   <tr>
+    <td class="tg-5lw0"> <code>base::sort()</code>  </td>
+    <td class="tg-5lw0">Dados em rol </td>
+  </tr>                               
+  <tr>
     <td class="tg-5lw0"> <code>new_leem()</code>  </td>
     <td class="tg-5lw0">Construtor da classe <i>leem</i> </td>
   </tr>
@@ -345,6 +363,10 @@ devtools::install_github("bendeivide/leem")
   <tr>
     <td class="tg-5lw0"> <code>polyfreq()</code> </td>
     <td class="tg-5lw0">Polígono de frequências</td>
+  </tr>
+   <tr>
+    <td class="tg-5lw0"> <code>stickplot()</code> </td>
+    <td class="tg-5lw0">Gráfico de hastes ou bastão</td>
   </tr>
 </tbody>
 </table>
@@ -476,3 +498,595 @@ devtools::install_github("bendeivide/leem")
 </table>
 
 </section>
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+<style>
+.container{
+  display: grid;
+  text-align: left;
+  grid-auto-flow: column;
+}
+.col {
+  width: 500px;
+  height: 300px;
+  border: 3px solid #0094ff;
+}
+.col2 {
+  width: 500px;
+  height: 500px;
+  border: 3px solid #0094ff;
+}
+.col3 {
+  width: 500px;
+  height: 400px;
+  border: 3px solid #0094ff;
+}
+
+</style>
+
+<section>
+
+<h1> <code>leem</code> em ação </h1>
+
+
+---
+
+<h2> Importando os dados </h2>
+
+<div class="container">
+
+<div class="col">
+
+```r
+# Numero de erros
+d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/nerros.txt", h = TRUE)
+(d1 <- d1$erros)
+
+# Temperatura do foguete Challenger
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/challenger.txt", h = TRUE)
+(d2 <- d2$chal)
+
+```
+
+</div>
+<div>
+
+```{r echo=FALSE}
+# Numero de erros
+d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/nerros.txt", h = TRUE); d1 <- d1$erros; d1
+
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/challenger.txt",
+                 h = T); (d2 <- d2$chal)
+```
+
+</div>
+</div>
+
+---
+
+<h2> Dados em rol </h2>
+
+<div class="container">
+
+<div class="col">
+
+```r
+sort(d1)
+sort(d2)
+```
+
+</div>
+
+<div class="col">
+
+```{r echo=FALSE}
+sort(d1)
+sort(d2)
+```
+
+</div>
+</div>
+
+---
+
+
+
+<h2> Distribuição de frequências </h2>
+
+<div class="container">
+
+<div class="col2">
+
+```r
+## Forma convencional:
+aux <- new_leem(d1, 1)
+tabd1 <- tabfreq(aux); tabd1
+#-----
+aux <- new_leem(d2, 2)
+tabd2 <- tabfreq(aux); tabd2 
+## Usando o operador 'pipe' nativo
+d1 |> new_leem(variable = 1) |> tabfreq() 
+d2 |> new_leem(variable = 2) |> tabfreq() 
+```
+
+</div>
+
+<div class="col2">
+
+```{r echo=FALSE}
+d1 |> new_leem(variable = 1) |> tabfreq() 
+d2 |> new_leem(variable = 2) |> tabfreq() 
+
+```
+
+</div>
+</div>
+
+---
+
+<h2> Apresentação gráfica </h2>
+
+<h3>Gráfico de hastes ou bastão</h3>
+
+<div class="container">
+
+<div class="col2">
+
+```r
+# Forma convencional:
+aux1 <- new_leem(d1, variable = "discrete")
+aux2 <- tabfreq(aux1)
+stickplot(aux2, 
+          lwd=3, # largura da linha
+          pcol = "red", # cor da linha
+          bgcol = "lightgray", # cor do fundo
+          panel.first = grid(col = "white") # inserindo grid e sua cor
+)
+# Usando o pipe
+d1 |> 
+  new_leem(variable = "discrete") |> 
+  tabfreq() |> 
+  stickplot(lwd=3, # largura da linha
+            pcol = "red", # cor da linha
+            bgcol = "lightgray", # cor do fundo
+            panel.first = grid(col = "white") # inserindo grid e sua cor
+            )
+```
+
+</div>
+
+<div class="col2">
+
+```{r echo=FALSE}
+d1 |> 
+  new_leem(variable = "discrete") |> 
+  tabfreq() |> 
+  stickplot(lwd=3, # largura da linha
+            pcol = "red", # cor da linha
+            bgcol = "lightgray", # cor do fundo
+            panel.first = grid(col = "white") # inserindo grid e sua cor
+            )
+```
+
+</div>
+</div>
+
+---
+
+<h3>Gráfico de barras</h3>
+
+<div class="container">
+
+<div class="col2">
+
+```r
+# Forma convencional:
+aux1 <- new_leem(d1, variable = 1)
+aux2 <- tabfreq(aux1)
+barplot(aux2, barcol = heat.colors(5))
+# Usando o pipe
+d1 |> 
+  new_leem(variable = 1) |> 
+    tabfreq() |> 
+      barplot(barcol = heat.colors(5))
+```
+
+</div>
+
+<div class="col2">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d1 |> 
+  new_leem(variable = 1) |> 
+    tabfreq() |> 
+      barplot(barcol = heat.colors(5))
+
+# Forma convencional:
+aux1 <- new_leem(d1, variable = 1)
+aux2 <- tabfreq(aux1)
+barplot(aux2, barcol = heat.colors(5))
+```
+
+</div>
+</div>
+
+---
+
+<h3>Histograma de frequências</h3>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+# Usando o pipe:
+d2 |> 
+  new_leem(variable = 2) |> 
+    tabfreq() |> 
+      hist(barcol = heat.colors(6))
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d2 |> 
+  new_leem(variable = 2) |> 
+    tabfreq() |> 
+      hist(barcol = heat.colors(6))
+```
+
+</div>
+</div>
+
+---
+
+<h3>Polígono</h3>
+<h4>Dados discretos</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+# Usando o pipe:
+d1 |> 
+  new_leem(variable = 1) |> 
+    tabfreq() |> 
+      polyfreq(barcol = heat.colors(5),
+           main = "Polígono de frequências e
+Histograma de frequências")
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d1 |> 
+  new_leem(variable = 1) |> 
+    tabfreq() |> 
+      polyfreq(barcol = heat.colors(5),
+           main = "Polígono de frequências e
+Histograma de frequências")
+```
+
+</div>
+</div>
+
+---
+
+<h3>Polígono</h3>
+<h4>Dados contínuos</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+# Usando o pipe:
+d2 |> 
+  new_leem(variable = 2) |> 
+    tabfreq() |> 
+      polyfreq(barcol = heat.colors(5),
+           main = "Polígono de frequências e
+Histograma de frequências")
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d2 |> 
+  new_leem(variable = 2) |> 
+    tabfreq() |> 
+      polyfreq(barcol = heat.colors(5),
+           main = "Polígono de frequências e
+Histograma de frequências")
+```
+
+</div>
+</div>
+
+---
+
+<h3>Polígono</h3>
+<h4>Sem as barras</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+# Usando o pipe:
+d2 |> 
+  new_leem(variable = 2) |> 
+    tabfreq() |> 
+      polyfreq(bars = FALSE)
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d2 |> 
+  new_leem(variable = 2) |> 
+    tabfreq() |> 
+      polyfreq(bars = FALSE)
+```
+
+</div>
+</div>
+
+---
+
+<h3>Ogivas</h3>
+<h4>Dados discretos (Crescente)</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+# Usando o pipe:
+d1 |> 
+  new_leem(variable = 1) |> 
+    tabfreq() |> 
+      ogive(bars = TRUE, barcol = "red")
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d1 |> 
+  new_leem(variable = 1) |> 
+    tabfreq() |> 
+      ogive(bars = TRUE, barcol = "red")
+```
+
+</div>
+</div>
+
+---
+
+<h3>Ogivas</h3>
+<h4>Dados discretos (Decrescente)</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+d1 |> 
+  new_leem(variable = 1) |> 
+   tabfreq() |> 
+    ogive(decreasing = TRUE, 
+        bars = TRUE, barcol = "yellow")
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d1 |> 
+  new_leem(variable = 1) |> 
+   tabfreq() |> 
+    ogive(decreasing = TRUE, 
+        bars = TRUE, barcol = "yellow")
+```
+
+</div>
+</div>
+
+---
+
+<h3>Ogivas</h3>
+<h4>Dados discretos (Ambos)</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+d1 |> 
+  new_leem(variable = 1) |> 
+  tabfreq() |> 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"))
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d1 |> 
+  new_leem(variable = 1) |> 
+  tabfreq() |> 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"))
+```
+
+</div>
+</div>
+
+---
+
+<h3>Ogivas</h3>
+<h4>Dados contínuos (Crescente)</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+d2 |> 
+  new_leem(variable = 2) |> 
+  tabfreq() |> 
+  ogive(bars = TRUE, barcol = "red")
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d2 |> 
+  new_leem(variable = 2) |> 
+  tabfreq() |> 
+  ogive(bars = TRUE, barcol = "red")
+```
+
+</div>
+</div>
+
+---
+
+<h3>Ogivas</h3>
+<h4>Dados contínuos (Decrescente)</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+d2 |> 
+  new_leem(variable = 2) |> 
+  tabfreq() |> 
+  ogive(decreasing = TRUE, 
+        bars = TRUE, barcol = "yellow")
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d2 |> 
+  new_leem(variable = 2) |> 
+  tabfreq() |> 
+  ogive(decreasing = TRUE, 
+        bars = TRUE, barcol = "yellow")
+```
+
+</div>
+</div>
+
+---
+
+<h3>Ogivas</h3>
+<h4>Dados contínuos (Ambos)</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+d2 |> 
+  new_leem(variable = 2) |> 
+  tabfreq() |> 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"))
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d2 |> 
+  new_leem(variable = 2) |> 
+  tabfreq() |> 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"))
+```
+
+</div>
+</div>
+
+---
+
+<h3>Ogivas</h3>
+<h4>Dados contínuos (Ambos + Histograma)</h4>
+
+<div class="container">
+
+<div class="col3">
+
+```r
+d2 |> 
+  new_leem(variable = 2) |> 
+  tabfreq() |> 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"), # cor da barra das duas ogivas
+        histogram = TRUE, # incluindo o histograma
+        histcol = gray.colors(6), # cor do histograma
+        bgcol = "purple") # cor do fundo
+```
+
+</div>
+
+<div class="col3">
+
+```{r echo=FALSE}
+d2 |> 
+  new_leem(variable = 2) |> 
+  tabfreq() |> 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"), # cor da barra das duas ogivas
+        histogram = TRUE, # incluindo o histograma
+        histcol = gray.colors(6), # cor do histograma
+        bgcol = "purple") # cor do fundo
+```
+
+</div>
+</div>
+
+
+</section>
+
+---
+
+{{< slide background-image="fundo02.png" >}}
+
+# Questões?
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/)
+
+[Contato](https://bendeivide.github.io/#contact)

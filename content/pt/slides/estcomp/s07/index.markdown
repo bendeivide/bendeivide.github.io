@@ -118,13 +118,12 @@ Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 
 <div class="col">
 
-```markdown
-# Título 1
-## Título 2
-### Título 3
-#### Título 4
-##### Título 5
-###### Título 6
+```r
+# Conjunto de dados iniciais
+## Dados elaborados sobre o número de erros encontrados em 
+## 20 conjunto de caracteres monitorado em um canal de comunicação
+d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/nerros.txt",
+                 h = T); d1 <- d1$erros
 ```
 
 </div>
@@ -573,7 +572,7 @@ print('Ola, Mundo!')
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
 .tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:20px 20px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:13px 13px;
   word-break:normal;}
 .tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
   border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;

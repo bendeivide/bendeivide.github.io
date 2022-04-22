@@ -122,25 +122,22 @@ Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 
 <div class="col">
 
-```markdown
-# Título 1
-## Título 2
-### Título 3
-#### Título 4
-##### Título 5
-###### Título 6
+```r
+# Conjunto de dados iniciais
+## Dados elaborados sobre o número de erros encontrados em 
+## 20 conjunto de caracteres monitorado em um canal de comunicação
+d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/nerros.txt",
+                 h = T)
 ```
 
 </div>
 
 <div class="col">
 
-# Título 1
-## Título 2
-### Título 3
-#### Título 4
-##### Título 5
-###### Título 6
+```{r}
+d1 <- d1$erros
+```
+
 
 </div>
 

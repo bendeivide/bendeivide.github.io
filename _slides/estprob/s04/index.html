@@ -24,7 +24,7 @@
 
   <title>Estatística e Probabilidade | Ben Dêivide</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/solarized.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/black.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
 
   
   
@@ -102,11 +102,11 @@
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="" srcset="
-               /slides/estprob/s04/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp 400w,
-               /slides/estprob/s04/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_28a718b08e0f1b8193cec5ac4d8216a2.webp 760w,
-               /slides/estprob/s04/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/slides/estprob/s04/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp"
-               width="384"
+               /slides/estprob/s04/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estprob/s04/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estprob/s04/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estprob/s04/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp"
+               width="385"
                height="406"
                loading="lazy" data-zoomable /></div>
   </div></figure>
@@ -126,7 +126,7 @@
       data-background-image="cap02.png"
   >
 
-<section data-transition="zoom">
+<section>
   <h2>Motivação inicial</h2>
   <h3> Dados (Primeiro tipo) </h3>
 <pre><code>##    [1] 100.93730855  90.78737290  31.43347250  70.04161421 114.72725633
@@ -330,9 +330,17 @@
 ##  [991] 189.00548763 133.29738410  99.46330902  39.94726968  67.83011078
 ##  [996] 139.86461552 126.41241372 114.18348694  99.39303476  90.40431113
 </code></pre>
-</section>
-<section data-transition-speed="fast">
-  <h3> Dados (Segundo tipo) </h3>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3> Dados (Segundo tipo) </h3>
 <pre><code>##    [1] -50.60818918 -50.07156532 -32.19248839 -25.91675268 -21.83078022
 ##    [6] -20.00012703 -17.05280013 -16.49397725 -16.05085152 -14.83662617
 ##   [11] -13.02391316 -10.27358754 -10.19665626  -9.26434191  -7.91348400
@@ -534,9 +542,17 @@
 ##  [991] 219.64564735 219.95774326 220.53732134 221.49551593 224.15813357
 ##  [996] 232.22439961 235.00377654 235.03183115 250.64528733 277.05701388
 </code></pre>
-</section>
-<section data-transition-speed="fast">
-  <h3> Dados (Terceiro tipo) </h3>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3> Dados (Terceiro tipo) </h3>
 <pre><code>##                 Classe  Fi     PM   Fr Fac1 Fac2 Fp Fac1p Fac2p
 ## 1  -62.31 |---  -38.91   2 -50.61 0.00    2 1000  0   0.2 100.0
 ## 2  -38.91 |---  -15.51   7 -27.21 0.01    9  998  1   0.9  99.8
@@ -552,11 +568,19 @@
 ## 12 195.09 |---  218.49  19 206.79 0.02  990   29  2  99.0   2.9
 ## 13 218.49 |---  241.89   8 230.19 0.01  998   10  1  99.8   1.0
 ## 14 241.89 |---  265.29   1 253.59 0.00  999    2  0  99.9   0.2
-## 15 265.29 |---| 288.69   1 276.99 0.00 1000    1  0 100.0   0.1
+## 15 265.29 |---  288.69   1 276.99 0.00 1000    1  0 100.0   0.1
 </code></pre>
-</section>
-<section data-transition-speed="fast">
-  <h3> Dados (Quarto tipo) </h3>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3> Dados (Quarto tipo) </h3>
 <img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
 </section>
 
@@ -692,7 +716,7 @@
       data-background-image="cap02.png"
   >
 
-<section data-transition="zoom">
+<section>
 <h2> Distribuição de frequência </h2>
 <h3>Frequência absoluta</h3>
 <table>
@@ -729,8 +753,16 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section data-transition="fast">
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <h3>Frequência relativa</h3>
 <table>
 <thead>
@@ -768,8 +800,16 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section data-transition="fast">
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <h3>Frequência percentual</h3>
 <table>
 <thead>
@@ -797,7 +837,7 @@
 <td style="text-align:center"><code>\(2\)</code></td>
 <td style="text-align:center"><code>\(4\)</code></td>
 <td style="text-align:center"><code>\(0,20\)</code></td>
-<td style="text-align:center"><code>\(0,20 \times 100 = 35\)</code></td>
+<td style="text-align:center"><code>\(0,20 \times 100 = 20\)</code></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>\(3\)</code></td>
@@ -819,8 +859,16 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <h3>Tabela completa</h3>
 <table>
 <thead>
@@ -900,7 +948,7 @@
       data-background-image="cap02.png"
   >
 
-<section data-transition="zoom">
+<section>
 <h2>Tabela para V. contínua (Algoritmo) </h2>
 <table>
 <thead>
@@ -928,8 +976,16 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section data-transition="fast">
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <pre> 1º Passo - Número de classes </pre>
 <p><code>\begin{align}
  k &amp; \approx \left\{\begin{array}{ll}
@@ -942,8 +998,16 @@
  A_t &amp; = \max_i(X_i) - \min_i(X_i), 
  \end{align}</code>
 para <code>\(i \in \mathbb{N}^{+}\)</code>.</p>
-</section>
-<section data-transition="fast">
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <pre> 3º Passo - Amplitude de classe </pre>
 <p><code>\begin{align}
  c &amp; = \left\{\begin{array}{ll}
@@ -958,8 +1022,16 @@ para <code>\(i \in \mathbb{N}^{+}\)</code>.</p>
  X_{(1)}, &amp; \textrm{População}.
  \end{array}\right. 
  \end{align}</code></p>
-</section>
-<section data-transition="fast">
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
 <h2> Em resumo... </h2>
 <ul>
 <li>Calcular <code>\(k\)</code>,</li>
@@ -971,6 +1043,795 @@ para <code>\(i \in \mathbb{N}^{+}\)</code>.</p>
 <li>Calcular as frequências como apresentadas no início dessa seção.</li>
 </ul>
 </section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<h2 id="gráficos">Gráficos</h2>
+<ul>
+<li>Gráfico de Haste ou bastão</li>
+<li>Gráfico de barras</li>
+<li>Gráfico de Pizza</li>
+<li>Histograma de frequências</li>
+<li>Ogivas</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<section> 
+<h2> Uso do pacote <code>leem</code> </h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/estprob/s04/leem_hu7b1031bcd7f556bee541df85c0c5375e_34750_3761f4b815fffe33ceb7dbc21c169f83.webp 400w,
+               /slides/estprob/s04/leem_hu7b1031bcd7f556bee541df85c0c5375e_34750_3705f9ee693abc73a6049df605c75df5.webp 760w,
+               /slides/estprob/s04/leem_hu7b1031bcd7f556bee541df85c0c5375e_34750_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/estprob/s04/leem_hu7b1031bcd7f556bee541df85c0c5375e_34750_3761f4b815fffe33ceb7dbc21c169f83.webp"
+               width="150"
+               height="150"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+<p>Instalação</p>
+<pre><code class="language-r">install.packages(&quot;devtools&quot;)
+devtools::install_github(&quot;bendeivide/leem&quot;)
+</code></pre>
+<p>Anexando e carregando</p>
+<pre><code class="language-r">library(leem)
+</code></pre>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2> Funções </h2>
+<!-- | Função     | Finalidade                  | -->
+<!-- |:-----------|:----------------------------| -->
+<!-- | new_leem() | Construtor da classe *leem* | -->
+<!-- | tabfreq()  | Disatribuição de frequência | -->
+<!-- | hist()     | Hitograma de frequência     | -->
+<!-- | ogive()    | Ogivas                      | -->
+<!-- | polyfreq() | Polígono de frequências     | -->
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-5lw0{background-color:#eee8d5;border-color:#ffffff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;text-align:left;
+  vertical-align:middle}
+.tg .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
+  text-align:left;vertical-align:middle}
+.tg .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-vqs5">Função</th>
+    <th class="tg-vqs5">Finalidade</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-5lw0"> <code>base::sort()</code>  </td>
+    <td class="tg-5lw0">Dados em rol </td>
+  </tr>                               
+  <tr>
+    <td class="tg-5lw0"> <code>new_leem()</code>  </td>
+    <td class="tg-5lw0">Construtor da classe <i>leem</i> </td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>tabfreq()</code>  </td>
+    <td class="tg-xzvq">Distribuição de frequência</td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>hist()</code> </td>
+    <td class="tg-5lw0">Hitograma de frequência</td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>ogive()</code> </td>
+    <td class="tg-xzvq">Ogivas</td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>polyfreq()</code> </td>
+    <td class="tg-5lw0">Polígono de frequências</td>
+  </tr>
+   <tr>
+    <td class="tg-5lw0"> <code>stickplot()</code> </td>
+    <td class="tg-5lw0">Gráfico de hastes ou bastão</td>
+  </tr>
+</tbody>
+</table>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2> Exemplo </h2>
+<ol>
+<li>Considere a distribuição de frequência do número de erros encontrados em 20 conjunto de carac-  teres monitorado em um canal de comunicação</li>
+</ol>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-j4p1{background-color:#eee8d5;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:28px;font-style:italic;font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-1bo1{background-color:#ffffff;border-color:#fdf6e3;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;font-style:italic;
+  font-weight:bold;text-align:right;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">4</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">1</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">2</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">3</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">1</td>
+  </tr>
+</tbody>
+</table>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2>Exemplo</h2>
+<ol start="2">
+<li>Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger.</li>
+</ol>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-61io{background-color:#eee8d5;color:#191919;font-size:28px;font-style:italic;font-weight:bold;text-align:left;
+  vertical-align:middle}
+.tg .tg-8svn{background-color:#fdf6e3;color:#191919;font-size:28px;font-style:italic;font-weight:bold;text-align:left;
+  vertical-align:middle}
+.tg .tg-aete{background-color:#fdf6e3;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:28px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-4ynv{background-color:#eee8d5;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:28px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-uika{color:#191919;font-size:28px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-aete">84</th>
+    <th class="tg-aete">49</th>
+    <th class="tg-aete">61</th>
+    <th class="tg-aete">40</th>
+    <th class="tg-aete">83</th>
+    <th class="tg-aete">67</th>
+    <th class="tg-aete">45</th>
+    <th class="tg-aete">66</th>
+    <th class="tg-aete">70</th>
+    <th class="tg-aete">69</th>
+    <th class="tg-8svn">80</th>
+    <th class="tg-8svn">58</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-4ynv">68</td>
+    <td class="tg-4ynv">60</td>
+    <td class="tg-4ynv">67</td>
+    <td class="tg-4ynv">72</td>
+    <td class="tg-4ynv">73</td>
+    <td class="tg-4ynv">70</td>
+    <td class="tg-4ynv">57</td>
+    <td class="tg-4ynv">63</td>
+    <td class="tg-4ynv">70</td>
+    <td class="tg-4ynv">78</td>
+    <td class="tg-61io">52</td>
+    <td class="tg-61io">67</td>
+  </tr>
+  <tr>
+    <td class="tg-uika">53</td>
+    <td class="tg-uika">67</td>
+    <td class="tg-uika">75</td>
+    <td class="tg-uika">61</td>
+    <td class="tg-uika">70</td>
+    <td class="tg-uika">81</td>
+    <td class="tg-uika">76</td>
+    <td class="tg-uika">79</td>
+    <td class="tg-uika">75</td>
+    <td class="tg-uika">76</td>
+    <td class="tg-uika">58</td>
+    <td class="tg-uika">31</td>
+  </tr>
+</tbody>
+</table>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<style>
+.container{
+  display: grid;
+  text-align: left;
+  grid-auto-flow: column;
+}
+.col {
+  width: 500px;
+  height: 300px;
+  border: 3px solid #0094ff;
+}
+.col2 {
+  width: 500px;
+  height: 500px;
+  border: 3px solid #0094ff;
+}
+.col3 {
+  width: 500px;
+  height: 400px;
+  border: 3px solid #0094ff;
+}
+
+</style>
+<section>
+<h1> <code>leem</code> em ação </h1>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2> Importando os dados </h2>
+<div class="container">
+<div class="col">
+<pre><code class="language-r"># Numero de erros
+d1 &lt;- read.table(&quot;https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/nerros.txt&quot;, h = TRUE)
+(d1 &lt;- d1$erros)
+
+# Temperatura do foguete Challenger
+d2 &lt;- read.table(&quot;https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/challenger.txt&quot;, h = TRUE)
+(d2 &lt;- d2$chal)
+
+</code></pre>
+</div>
+<div>
+<pre><code>##  [1] 3 1 0 1 3 2 4 1 3 1 1 1 2 3 3 2 0 2 0 1
+</code></pre>
+<pre><code>##  [1] 84 49 61 40 83 67 45 66 70 69 80 58 68 60 67 72 73 70 57 63 70 78 52 67 53
+## [26] 67 75 61 70 81 76 79 75 76 58 31
+</code></pre>
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2> Dados em rol </h2>
+<div class="container">
+<div class="col">
+<pre><code class="language-r">sort(d1)
+sort(d2)
+</code></pre>
+</div>
+<div class="col">
+<pre><code>##  [1] 0 0 0 1 1 1 1 1 1 1 2 2 2 2 3 3 3 3 3 4
+</code></pre>
+<pre><code>##  [1] 31 40 45 49 52 53 57 58 58 60 61 61 63 66 67 67 67 67 68 69 70 70 70 70 72
+## [26] 73 75 75 76 76 78 79 80 81 83 84
+</code></pre>
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2> Distribuição de frequências </h2>
+<div class="container">
+<div class="col2">
+<pre><code class="language-r">## Forma convencional:
+aux &lt;- new_leem(d1, 1)
+tabd1 &lt;- tabfreq(aux); tabd1
+#-----
+aux &lt;- new_leem(d2, 2)
+tabd2 &lt;- tabfreq(aux); tabd2 
+## Usando o operador 'pipe' nativo
+d1 |&gt; new_leem(variable = 1) |&gt; tabfreq() 
+d2 |&gt; new_leem(variable = 2) |&gt; tabfreq() 
+</code></pre>
+</div>
+<div class="col2">
+<pre><code>##   Groups Fi   Fr Fac1 Fac2 Fp Fac1p Fac2p
+## 1      0  3 0.15    3   20 15    15   100
+## 2      1  7 0.35   10   17 35    50    85
+## 3      2  4 0.20   14   10 20    70    50
+## 4      3  5 0.25   19    6 25    95    30
+## 5      4  1 0.05   20    1  5   100     5
+</code></pre>
+<pre><code>##            Classe Fi   PM   Fr Fac1 Fac2 Fp  Fac1p  Fac2p
+## 1 25.7 |---  36.3  1 31.0 0.03    1   36  3   2.78 100.00
+## 2 36.3 |---  46.9  2 41.6 0.06    3   35  6   8.33  97.22
+## 3 46.9 |---  57.5  4 52.2 0.11    7   33 11  19.44  91.67
+## 4 57.5 |---  68.1 12 62.8 0.33   19   29 33  52.78  80.56
+## 5 68.1 |---  78.7 12 73.4 0.33   31   17 33  86.11  47.22
+## 6 78.7 |---  89.3  5 84.0 0.14   36    5 14 100.00  13.89
+</code></pre>
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2> Apresentação gráfica </h2>
+<h3>Gráfico de hastes ou bastão</h3>
+<div class="container">
+<div class="col2">
+<pre><code class="language-r"># Forma convencional:
+aux1 &lt;- new_leem(d1, variable = &quot;discrete&quot;)
+aux2 &lt;- tabfreq(aux1)
+stickplot(aux2, 
+          lwd=3, # largura da linha
+          pcol = &quot;red&quot;, # cor da linha
+          bgcol = &quot;lightgray&quot;, # cor do fundo
+          panel.first = grid(col = &quot;white&quot;) # inserindo grid e sua cor
+)
+# Usando o pipe
+d1 |&gt; 
+  new_leem(variable = &quot;discrete&quot;) |&gt; 
+  tabfreq() |&gt; 
+  stickplot(lwd=3, # largura da linha
+            pcol = &quot;red&quot;, # cor da linha
+            bgcol = &quot;lightgray&quot;, # cor do fundo
+            panel.first = grid(col = &quot;white&quot;) # inserindo grid e sua cor
+            )
+</code></pre>
+</div>
+<div class="col2">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-11-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Gráfico de barras</h3>
+<div class="container">
+<div class="col2">
+<pre><code class="language-r"># Forma convencional:
+aux1 &lt;- new_leem(d1, variable = 1)
+aux2 &lt;- tabfreq(aux1)
+barplot(aux2, barcol = heat.colors(5))
+# Usando o pipe
+d1 |&gt; 
+  new_leem(variable = 1) |&gt; 
+    tabfreq() |&gt; 
+      barplot(barcol = heat.colors(5))
+</code></pre>
+</div>
+<div class="col2">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Histograma de frequências</h3>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r"># Usando o pipe:
+d2 |&gt; 
+  new_leem(variable = 2) |&gt; 
+    tabfreq() |&gt; 
+      hist(barcol = heat.colors(6))
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-13-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Polígono</h3>
+<h4>Dados discretos</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r"># Usando o pipe:
+d1 |&gt; 
+  new_leem(variable = 1) |&gt; 
+    tabfreq() |&gt; 
+      polyfreq(barcol = heat.colors(5),
+           main = &quot;Polígono de frequências e
+Histograma de frequências&quot;)
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-14-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Polígono</h3>
+<h4>Dados contínuos</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r"># Usando o pipe:
+d2 |&gt; 
+  new_leem(variable = 2) |&gt; 
+    tabfreq() |&gt; 
+      polyfreq(barcol = heat.colors(5),
+           main = &quot;Polígono de frequências e
+Histograma de frequências&quot;)
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-15-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Polígono</h3>
+<h4>Sem as barras</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r"># Usando o pipe:
+d2 |&gt; 
+  new_leem(variable = 2) |&gt; 
+    tabfreq() |&gt; 
+      polyfreq(bars = FALSE)
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-16-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Ogivas</h3>
+<h4>Dados discretos (Crescente)</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r"># Usando o pipe:
+d1 |&gt; 
+  new_leem(variable = 1) |&gt; 
+    tabfreq() |&gt; 
+      ogive(bars = TRUE, barcol = &quot;red&quot;)
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-17-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Ogivas</h3>
+<h4>Dados discretos (Decrescente)</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r">d1 |&gt; 
+  new_leem(variable = 1) |&gt; 
+   tabfreq() |&gt; 
+    ogive(decreasing = TRUE, 
+        bars = TRUE, barcol = &quot;yellow&quot;)
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-18-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Ogivas</h3>
+<h4>Dados discretos (Ambos)</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r">d1 |&gt; 
+  new_leem(variable = 1) |&gt; 
+  tabfreq() |&gt; 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c(&quot;red&quot;, &quot;yellow&quot;))
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-19-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Ogivas</h3>
+<h4>Dados contínuos (Crescente)</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r">d2 |&gt; 
+  new_leem(variable = 2) |&gt; 
+  tabfreq() |&gt; 
+  ogive(bars = TRUE, barcol = &quot;red&quot;)
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-20-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Ogivas</h3>
+<h4>Dados contínuos (Decrescente)</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r">d2 |&gt; 
+  new_leem(variable = 2) |&gt; 
+  tabfreq() |&gt; 
+  ogive(decreasing = TRUE, 
+        bars = TRUE, barcol = &quot;yellow&quot;)
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-21-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Ogivas</h3>
+<h4>Dados contínuos (Ambos)</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r">d2 |&gt; 
+  new_leem(variable = 2) |&gt; 
+  tabfreq() |&gt; 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c(&quot;red&quot;, &quot;yellow&quot;))
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-22-1.png" width="672" />
+</div>
+</div>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3>Ogivas</h3>
+<h4>Dados contínuos (Ambos + Histograma)</h4>
+<div class="container">
+<div class="col3">
+<pre><code class="language-r">d2 |&gt; 
+  new_leem(variable = 2) |&gt; 
+  tabfreq() |&gt; 
+  ogive(both = TRUE, # ambas ogivas 
+        bars = TRUE, # barras
+        barcol = c(&quot;red&quot;, &quot;yellow&quot;), # cor da barra das duas ogivas
+        histogram = TRUE, # incluindo o histograma
+        histcol = gray.colors(6), # cor do histograma
+        bgcol = &quot;purple&quot;) # cor do fundo
+</code></pre>
+</div>
+<div class="col3">
+<img src="http://bendeivide.github.io/slides/estprob/s04/index_files/figure-html/unnamed-chunk-23-1.png" width="672" />
+</div>
+</div>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="fundo02.png"
+  >
+
+<h1 id="questões">Questões?</h1>
+<p><a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Dúvidas e Sugestões</a></p>
+<p><a href="https://bendeivide.github.io/#contact" target="_blank" rel="noopener">Contato</a></p>
 
     </section>
     
