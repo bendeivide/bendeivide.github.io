@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-04-18 12:05:58"
+date: "2022-04-27 18:02:21"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -400,6 +400,42 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/12Qnz-AhPkRriqlpYFQWA5S8EAprTA3QrY0VQ5M3Tj_I/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 10 (19-20/04/2022)">}}
+Prova!
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 11  (25/04/2022)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Probabilidades (Parte I)
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 11]({{< relref "/slides/estprob/s11/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1XMB0GMtU_zm7hS4qQgHodmPiRJWZt-yhbva6N7OGP4E/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 12  (26-27/04/2022)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Probabilidades (Parte II)
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 12]({{< relref "/slides/estprob/s12/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1saAcZYSVLoMT6azuxZlHVb5Aj2rzpo-B-rg0r4gEXKY/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
    - [Curso R](courses/cursor/)

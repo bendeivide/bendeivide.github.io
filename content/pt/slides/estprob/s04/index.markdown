@@ -606,7 +606,7 @@ Total |  `\(20\)` | `\(1\)` | `\(100\)` | - | - |
 
 | Classe                           | $ F_i $    |
 | :----:                           | :----:     |
-| $ Li_{1a} \vdash  Ls_{2a} $      |  $ f_1 $   |
+| $ Li_{1a} \vdash  Ls_{1a} $      |  $ f_1 $   |
 | $ Li_{2a} \vdash  Ls_{2a} $        |  $ f_2 $   |
 |    $ \vdots $                    | $ \vdots $ |
 | $ Li_{ka}  \vdash Ls_{ka} $       | $ f_k $    |

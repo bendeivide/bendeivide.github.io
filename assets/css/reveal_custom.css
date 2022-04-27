@@ -1,4 +1,185 @@
 .reveal section h1,
 .reveal section h2,
 .reveal section h3,
-.reveal code
+.reveal code,
+
+body {
+  /* Set "cont-cap" to 0 */
+  counter-reset: cont-def cont-exem cont-teo cont-prova cont-exerprop;
+}
+
+.definicao {
+  display: block;
+  font-style: italic;
+  text-align: left;
+  font-size: 18px;
+  font-family: "sans-serif";
+  color: black;
+  border-radius: 10px;
+  background-color: rgb(238,248,253);
+  box-shadow: 5px 10px 8px #888888;
+}
+.definicao[cap][titulo]::before {
+  /* Increment "cont-cap" by 1 */
+  counter-increment: cont-def ;
+  content: "Definição: " attr(titulo) " "; 
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  width: -webkit-fill-available;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 5px 5px 15px;
+  background-color: rgb(82,111,125);
+}
+.definicao p {
+  padding: 15px 15px 15px 15px;
+}
+
+/* Modelo de definicao
+
+<div id="def:prob" class="definicao" cap=1 titulo="(Método científico)">
+Um conjunto de regras e procedimentos para a obtenção de resultados, isto é, uma conclusão, sobre um determinado problema de uma pesquisa científica, é denominado de Método científico.
+</div>
+
+*/
+
+.exemplo {
+  display: block;
+  font-style: italic;
+  text-align: left;
+  font-size: 18px;
+  font-family: "sans-serif";
+  color: black;
+  border-radius: 10px;
+  background-color: rgb(255,255,255);
+  box-shadow: 5px 10px 8px #888888;
+}
+.exemplo[cap][titulo]::before {
+  /* Increment "cont-cap" by 1 */
+  counter-increment: cont-exem ;
+  content: "Exemplo: " attr(titulo) " ";
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  width: -webkit-fill-available;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 5px 5px 15px;
+  background-color: rgb(128,65,36);
+}
+.exemplo p {
+  padding: 15px 15px 15px 15px;
+}
+
+/*
+<div id="exm:MGbarragens" class="exemplo" cap=1 titulo="Trajédia das barragens de rejeito">
+  No Estado de Minas Gerais houveram dois acidentes, de grandes proporções nos últimos anos, envolvendo barragens que armazenam rejeitos de mineração. Os acidentes ocorreram na cidade de Mariana e Brumadinho, vitimando centenas de pessoas e um impacto ambiental imenso com o arrombamentos dessas barragens. Indagamos...
+</div>
+*/
+
+
+.teorema {
+  display: block;
+  font-style: italic;
+  font-size: 18px;
+  text-align: left;
+  font-family: "Times New Roman";
+  color: black;
+  border-radius: 10px;
+  background-color: rgb(161,181,181);
+  box-shadow: 5px 10px 8px #888888;
+}
+.teorema[cap][titulo]::before {
+  /* Increment "cont-cap" by 1 */
+  counter-increment: cont-teo ;
+  content: "Teorema: " attr(titulo) " ";
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  width: -webkit-fill-available;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 5px 5px 15px;
+  background-color: rgb(38,38,38);
+}
+.teorema p {
+  padding: 15px 15px 15px 15px;
+}
+
+/*
+<div id="thm:PropSom" class="teorema" cap=1 titulo="Propriedades de somatório">
+Considere $a$, $b$ e $k$ constantes, e que $X$ e $Y$ são variáveis quantitativas, então as seguintes propriedades envolvendo somatório são válidas:
+  
+</div>
+*/
+
+
+.prova {
+  display: block;
+  font-style: italic;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Times New Roman";
+  color: black;
+  border-radius: 10px;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 5px 10px 8px #888888;
+}
+.prova[cap][titulo]::before {
+  /* Increment "cont-cap" by 1 */
+  counter-increment: cont-prova ;
+  /* content: "Prova:" attr(cap) "." counter(cont-prova) " " attr(titulo) " "; */
+  content: "Prova:";
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  width: -webkit-fill-available;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 5px 5px 15px;
+  background-color: rgb(38,38,38);
+}
+.prova p {
+  padding: 15px 15px 15px 15px;
+}
+
+/*
+<div id="prova:PropSom" class="prova" cap=1 titulo="">
+
+</div>
+*/
+
+
+.exerprop {
+  display: block;
+  font-style: italic;
+  font-size: 18px;
+  font-family: "Times New Roman";
+  color: black;
+  border-radius: 10px;
+  background-color: rgb(255,253,229);
+  box-shadow: 5px 10px 8px #888888;
+}
+.exerprop[cap][titulo]::before {
+  /* Increment "cont-cap" by 1 */
+  counter-increment: cont-exerprop ;
+  content: "Exercício " attr(cap) "." counter(cont-exerprop) " " attr(titulo) " ";
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  width: -webkit-fill-available;
+  color: black;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 5px 5px 15px;
+  background-color: rgb(255,143,28);
+}
+.exerprop p {
+  padding: 15px 15px 15px 15px;
+}
+
+/*
+<div id="exprop:ex1.10" class="exerprop" cap=1 titulo="">
+Considere a expressão $\displaystyle \sum_{i = 1}^{n}(X_i - A)^2$. Qual o valor de $A$ para que essa expressão seja minizada?
+</div>
+*/

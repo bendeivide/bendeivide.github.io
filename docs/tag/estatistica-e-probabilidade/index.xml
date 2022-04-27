@@ -1568,7 +1568,7 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$ Li_{1a} \vdash  Ls_{2a} $&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$ Li_{1a} \vdash  Ls_{1a} $&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;$ f_1 $&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -2193,6 +2193,928 @@ d1 |&amp;gt;
   
       
       data-background-image=&#34;fundo02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística e Probabilidade</title>
+      <link>http://bendeivide.github.io/slides/estprob/s11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estprob/s11/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-e-probabilidade&#34;&gt;Estatística e Probabilidade&lt;/h1&gt;
+&lt;p&gt;Aula 11 - Probabilidades
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34;&gt;Estatística e Probabilidade&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s11/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp 400w,
+               /slides/estprob/s11/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_28a718b08e0f1b8193cec5ac4d8216a2.webp 760w,
+               /slides/estprob/s11/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s11/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp&#34;
+               width=&#34;384&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Teoria de conjuntos no contexto probabilístico
+&lt;/h2&gt;
+&lt;div id=&#34;def:expaleatorio&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Experimento Aleatório)&#34;&gt;
+&lt;p&gt;Todo experimento cujo resultado não pode ser previsto antes de sua execução, é chamado de experimento aleatório.&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplos&lt;/h2&gt;
+&lt;div id=&#34;exem:espamos1&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;Espaço amostral&#34;&gt;
+&lt;p&gt;Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exem:espamos2&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;Espaço amostral&#34;&gt;
+&lt;p&gt;Observar o número de chamadas telefônicas que chegam a uma central telefônica em um determinado intervalo de tempo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div &lt;div id=&#34;exem:espamos2&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;Espaço amostral&#34;&gt;
+&lt;p&gt;Para a escolha ao acaso de uma lâmpada que acabou de sair do processo de fabricação, verificar o tempo de duração da lâmpada em funcionamento.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Experimento aleatório&lt;/h2&gt;
+&lt;p&gt;Em um contexto aplicado, podemos estar interessados em estudar a resistência de um fio de cobre a uma determinada corrente&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s11/expaleatorio_hu5a0b4df49306a6ef742584dc0fd72a48_101457_689ca7e4b39dd65b6cfdf93a7cced401.webp 400w,
+               /slides/estprob/s11/expaleatorio_hu5a0b4df49306a6ef742584dc0fd72a48_101457_93c7f3ea0b91359b2e0af9511a60874d.webp 760w,
+               /slides/estprob/s11/expaleatorio_hu5a0b4df49306a6ef742584dc0fd72a48_101457_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s11/expaleatorio_hu5a0b4df49306a6ef742584dc0fd72a48_101457_689ca7e4b39dd65b6cfdf93a7cced401.webp&#34;
+               width=&#34;630&#34;
+               height=&#34;220&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Espaço amostral&lt;/h2&gt;
+&lt;div id=&#34;def:espamostral&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Espaço amostral)&#34;&gt;
+&lt;p&gt;O conjunto de todos os resultados possíveis de um experimento, denotado por $ \Omega $, é chamado de espaço amostral.&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;ul&gt;
+&lt;li&gt;Cada um dos elementos do espaço amostral é representado por &lt;code&gt;\(\omega\)&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Relações:
+&lt;ul&gt;
+&lt;li&gt;Pertinência: &lt;code&gt;\(\omega \in \Omega\)&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Continência: &lt;code&gt;\(A \subset B \Leftrightarrow \omega \in A \Rightarrow \omega \in B\)&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Equivalência: &lt;code&gt;\(A = B \Leftrightarrow A \subset B \textrm{ e } B \subset A\)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Espaços amostrais discretos e contínuos&lt;/h2&gt;
+&lt;div id=&#34;def:espdisccont&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Espaços amostrais discretos e contínuos)&#34;&gt;
+&lt;p&gt;Um espaço amostral é discreto se o conjunto dos possíveis resultados são finito ou infinito contável (ou enumerável). Um espaço amostral é dito contínuo se o conjunto dos possíveis resultados são infinitos não contável (ou não enumerável). &lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;exem:espdisccont&#34; class=&#34;exemplo&#34; font-size: &#34;12px&#34; cap=5 titulo=&#34;Câmera Flash&#34;&gt;
+&lt;p&gt;Considere um experimento em que você seleciona uma câmera de telefone celular e registra o tempo de recarga de um &lt;i&gt;flash&lt;/i&gt;. Os resultados possíveis para o tempo dependem da resolução do temporizador e dos tempos máximo e mínimo de recarga. Entretanto, podemos definir inicialmente o espaço amostral em termos da reta real positiva ($\mathbb{R}_+$), isto é,&lt;/p&gt;
+\begin{align*}
+  \Omega = \mathbb{R}_+  &amp; = \{ x ~:~ x &gt; 0\}.
+\end{align*}
+&lt;p&gt;Se soubermos que os tempos de recarga estão entre $ 1,5 $ e $ 5 $ segundos, podemos definir o espaço amostral da seguinte forma:&lt;/p&gt;
+\begin{align*}
+  \Omega  &amp; = \{ x ~:~ 1,5 \leq x \leq 5\}.
+\end{align*}
+&lt;p&gt;Caso, consideremos o tempo de recarga como &#34;baixo&#34;, &#34;médio&#34; ou &#34;alto&#34;, reescrevemos o espaço amostral como:&lt;/p&gt;
+\begin{align*}
+  \Omega &amp; =  \{ \textrm{baixo}, \textrm{médio}, \textrm{alto} \}.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo (continuação...)&lt;/h2&gt;
+&lt;div id=&#34;exem:espdisccont&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;Câmera Flash&#34;&gt;
+&lt;p&gt;Por fim, podemos considerar apenas o fato da câmera satisfazer ou não as especificações do tempo de recarga mínimo, e assim, podemos assumir como resultados para esse espaço amostral: &#34;sim&#34; ou não&#34;, isto é,&lt;/p&gt;
+\begin{align*}
+  \Omega &amp; =  \{\textrm{sim},~\textrm{não}\}.
+\end{align*}
+&lt;p&gt;Para as duas primeiras situações, temos exemplos de espaços amostrais contínuos, e nos dois últimos, exemplos de espaços amostrais discretos.&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Subconjunto&lt;/h2&gt;
+&lt;div id=&#34;def:subcj&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Subconjunto)&#34;&gt;
+&lt;p&gt;Se todo elemento do conjunto A é também elemento do conjunto B, então A é definido como um subconjunto de B, sendo representado $ A\subset B $ ou $ B\supset A $ (A está contido em B ou B contém A), em notação dizemos que:&lt;/p&gt;
+\begin{align*}
+  A \subset B \Leftrightarrow A \subseteq B \textrm{ e } A \neq B.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Essa definição pode ser aplicada também a subconjuntos de $ \Omega $, como apresentado no Exemplo sobre subconjuntos, a seguir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;exem:subconjunto&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Sejam os subconjuntos de $ \Omega $ do experimento aleatório apresentado no Exemplo sobre espaços amostrais, dos quais temos:&lt;/p&gt;
+\begin{align*}
+B=\{ 1,2,3,4 \} \ \mbox{ e } \ A= \{ 1,2,3 \},
+\end{align*}
+&lt;p&gt;então A é um subconjunto de B, pois, os elementos que contém em A, também contém em B.&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Evento&lt;/h2&gt;
+&lt;div id=&#34;def:subcj&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento)&#34;&gt;
+&lt;/br&gt;
+&lt;p&gt;Se todo elemento do conjunto A é também elemento do conjunto B, então A é definido como um subconjunto de B, sendo representado $ A\subset B $ ou $ B\supset A $ (A está contido em B ou B contém A), em notação dizemos que:&lt;/p&gt;
+\begin{align*}
+  A \subset B \Leftrightarrow A \subseteq B \textrm{ e } A \neq B.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;exem:subcj2&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Um experimento lança três moedas honestas, e deseja-se verificar a face superior dessas moedas. Sabe-se que cada moeda apresenta duas faces: cara (H) e coroa (T). Dessa forma, o espaço amostral é dado por:&lt;/p&gt;
+\begin{align*}
+\Omega = &amp;\{(H,H,H),(H,H,T),(H,T,H),(H,T,T),\\
+       &amp; (T,H,H),(T,H,T),(T,T,H),(T,T,T)\}.
+\end{align*}
+&lt;p&gt;Um evento retirado desse espaço amostral seria $ A=\{(H,H,H) $, $ (H,H,T) $, $ (H,T,T) \} $, ou seja, o evento em que dos três arremessos de moedas, tenha saído &#34;cara&#34; na primeira moeda.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Evento certo, impossível e elementar&lt;/h2&gt;
+&lt;div id=&#34;def:eventosbasicos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento certo, impossível e elementar)&#34;&gt;
+&lt;p&gt;Seja $ \Omega $ o espaço amostral do experimento. Então dizemos que $ \Omega $ é o evento certo, e $ \emptyset $ é o evento impossível, e o evento $ \{\omega\} $ é dito elementar.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Conjunto vazio&lt;/h2&gt;
+&lt;div id=&#34;def:conjvazio&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Conjunto vazio)&#34;&gt;
+&lt;p&gt;Se o conjunto A não contém nenhum elemento, então A é chamado de conjunto nulo ou conjunto vazio, ou seja, $ A=\varnothing $ ou $ A=\{ \ \} $, isto é,&lt;/p&gt;
+\begin{align*}
+  A &amp; = \{\omega \in \Omega: \omega \neq \omega \}.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;União de dois eventos&lt;/h2&gt;
+&lt;div id=&#34;def:udoisevt&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(União de dois eventos)&#34;&gt;
+&lt;p&gt;Sejam A e B, dois eventos quaisquer de $ \Omega $, então o conjunto de todos os elementos que estão em A ou B ou em ambos, é definido como o conjunto união de A e B, denotado por $ A\cup B $, tal que,&lt;/p&gt;
+\begin{align*}
+  A\cup B &amp; = \{\omega \in \Omega: ~\omega \in A \textrm{ ou } \omega \in B\}.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;exem:udoisevt&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Sejam os conjuntos:&lt;/p&gt;
+\begin{align*}
+  A &amp; =\{1,2,3\} \ \mbox{e} \ B=\{3,4,5,6\},
+\end{align*}
+&lt;p&gt;então&lt;/p&gt;
+\begin{align*}
+  A\cup B &amp; =\{1,2,3,4,5,6\}.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Interseção de dois eventos&lt;/h2&gt;
+&lt;div id=&#34;def_inteventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Interseção de dois eventos)&#34;&gt;
+&lt;p&gt;Sejam A e B, dois eventos quaisquer de $ \Omega $, então o conjunto que contém todos os elementos que estão em A e B, é definido como a interseção de A e B, denotado por $ A\cap B $ ou $ AB $, tal que,&lt;/p&gt;
+\begin{align*}
+  A \cap B &amp; = \{\omega \in \Omega: ~\omega \in A \textrm{ e } \omega \in B\}.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Do Exemplo sobre união de eventos, temos que a intersecção de $ AB = {3} $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Eventos Disjuntos ou multuamente exclusivos&lt;/h2&gt;
+&lt;div id=&#34;def:disjeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Eventos Disjuntos ou multuamente exclusivos)&#34;&gt;
+&lt;p&gt;Sejam A e B, dois eventos quaisquer de $ \Omega $, então estes são disjuntos ou mutuamente exclusivos quando não existir elementos em comum entre A e B, isto é, $ A\cap B = \emptyset $.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;exem:disjeventos&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Sejam os eventos $ A=\{1,2,3,4\} $ e $ B=\{5,6\} $, então $ A\cap B=\varnothing $.&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Eventos equivalentes&lt;/h2&gt;
+&lt;div id=&#34;def:equieventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Eventos equivalentes)&#34;&gt;
+&lt;p&gt;Dois eventos $ A $ e $ B $ são definidos equivalentes, ou iguais, se $ A\subseteq B $ e $ B \subseteq A $.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;exem:equieventos&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Sejam os eventos $ A=\{1,2,3,4\} $ e $ B=\{5,6\} $, então $ A\cap B=\varnothing $.&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Evento complementar&lt;/h2&gt;
+&lt;div id=&#34;def:compevento&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Eventos equivalentes)&#34;&gt;
+&lt;p&gt;Seja $ A $ um evento de $ \Omega $. Então o complemento do evento A com respeito a $ \Omega $, denotado por $ \overline{A} $, $ A^c $, ou $ \Omega-A $, é o subconjunto dos elementos de $ \Omega $ exceto os elementos do evento A, isto é,&lt;/p&gt;
+\begin{align*}\label{compeventos}
+  A^c &amp; = \{\omega \in \Omega: ~ \omega \notin A\}.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;exem:compevento&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Seja o espaço amostral  $ \Omega $ do experimento que consiste em arremessar três moedas honestas. Diremos que $ H $ consiste na face superior da moeda ser cara, e $ T $ coroa. Assim,&lt;/p&gt;
+\begin{align*}
+\Omega = &amp;\{(H,H,H),(H,H,T),(H,T,H),(H,T,T),\\
+&amp; (T,H,H),(T,H,T),(T,T,H),(T,T,T)\}.
+\end{align*}
+&lt;p&gt;e um subconjunto de $ \Omega $, cujo evento será aparecer cara na primeira moeda, dado por&lt;/p&gt;
+$$ A=\{(H,H,H),(H,H,T),(H,T,H), (H,T,T)\}. $$
+&lt;p&gt;Então o complemento de A será:&lt;/p&gt;
+$$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Diferença de dois eventos&lt;/h2&gt;
+&lt;div id=&#34;def:difeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Eventos equivalentes)&#34;&gt;
+&lt;p&gt;Sejam A e B dois eventos de $ \Omega $. O conjunto de todos os elementos de $ A $ que não estão em $ B $, serão denotados por $ A-B $ ou $ A\setminus B $, sendo definido por conjunto diferença, isto é,&lt;/p&gt;
+\begin{align*}
+  A - B &amp; = \{\omega \in \Omega: ~\omega \in A \textrm{ e } \omega \notin B\}.
+\end{align*}
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  📝 A Definição  de diferença de conjuntos pode ser confundida com a Definição evento complementar, porém esta última se remete ao espaço amostral, e a diferença entre dois eventos se refere apenas a existência dos elementos de um evento que não estão em outro evento. Vejamos o Exemplo diferença de evendos, e depois compare com o Exemplo de evento complementar, para elucidar essas duas definições.
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;exem:compevento&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt; Sejam os conjuntos $ A=\{1,2,3,4\} $ e $ B =\{3,4\} $, então $ A-B=\{1,2\} $. &lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Partição&lt;/h2&gt;
+&lt;div id=&#34;def:particao&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Partição)&#34;&gt;
+&lt;p&gt;Considerando uma sequência de eventos $ A_1 $, $ A_2 $, $ \ldots $, $ A_n $, não vazios, é uma partição do evento $ A $, se e somente se,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ A = \bigcup_{i = 1}^{n}A_i $;&lt;/li&gt;
+&lt;li&gt;$ A_1 $, $ A_2 $, $ \ldots $, $ A_n $ são multuamente disjuntos, tais que $ A_i \cap A_j, ~\forall i \neq j $.
+&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Leis na teoria de conjuntos&lt;/h2&gt;
+&lt;div id=&#34;def:leiconj&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Leis na teoria de conjuntos)&#34;&gt;
+&lt;p&gt;Considere três eventos $ A $, $ B $, e $ C $ definidos em $ \Omega $, então segue que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lei comutativa: $ A\cup B = B \cup A$ e  $A\cap B = B \cap A $;&lt;/li&gt;
+&lt;li&gt;Lei associativa: $ A \cup (B\cup C)=(A\cup B)\cup C $;&lt;/li&gt;
+&lt;li&gt;Lei distributiva: $ A \cup (B \cap C)=(A\cup B)\cap (A\cup C) $ e $ A \cap (B \cup C)=(A\cap B)\cup (A\cap C) $;&lt;/li&gt;
+&lt;li&gt;Lei DeMorgan: $ (A \cup B)^c = A^c \cap B^c $ e $( A \cap B)^c = A^c \cup B^c $.
+&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;div id=&#34;prova:leiconj&#34; class=&#34;prova&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Ver livro &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34;&gt;EPAEC&lt;/a&gt;!. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Identidades em conjuntos&lt;/h2&gt;
+&lt;div id=&#34;def:identconj&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Identidade em conjuntos)&#34;&gt;
+&lt;p&gt;Sejam os eventos $ A $ e $ B $ definidos no espaço amostral  $ \Omega $, não vazio. Então, apresentamos as seguintes identidades:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ A\cap A^c = \emptyset $;&lt;/li&gt;
+&lt;li&gt;$ A \cup A^c = \Omega $;&lt;/li&gt;
+&lt;li&gt;$ \Omega^c = \emptyset $;&lt;/li&gt;
+&lt;li&gt;$ \emptyset^c = \Omega $;&lt;/li&gt;
+&lt;li&gt;$ (A^C)^C=\overline{(\overline{A})}=A $, em outras palavras, o complemento de $ \overline{A} $ é igual a $ A $;&lt;/li&gt;
+&lt;li&gt;$ A\Omega=A $ (Elemento neutro);&lt;/li&gt;
+&lt;li&gt;$ A\cup \Omega=\Omega $;&lt;/li&gt;
+&lt;li&gt;$ A \cap A = A $ (Idempotência);&lt;/li&gt;
+&lt;li&gt;$ A\varnothing=\varnothing $ (Elemento absorvente);&lt;/li&gt;
+&lt;li&gt;$ A\cup \varnothing = A $;&lt;/li&gt;
+&lt;li&gt;$ A - B = A - (A \cap B) = A \cap B^c $;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(B = (B \cap A) \cup (B \cap A^c)\)&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(B - A = B \cap A^c\)&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(A \cup B = A \cup (B \cap A^c)\)&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(A \cup B = (A^c \cap B)\cup (A \cap B) \cup (A \cap B^c)\)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística e Probabilidade</title>
+      <link>http://bendeivide.github.io/slides/estprob/s12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estprob/s12/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-e-probabilidade&#34;&gt;Estatística e Probabilidade&lt;/h1&gt;
+&lt;p&gt;Aula 12 - Probabilidades (Parte II)
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34;&gt;Estatística e Probabilidade&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s12/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp 400w,
+               /slides/estprob/s12/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_28a718b08e0f1b8193cec5ac4d8216a2.webp 760w,
+               /slides/estprob/s12/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s12/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp&#34;
+               width=&#34;384&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;section data-transition=&#34;zoom&#34;&gt;
+&lt;h2&gt;Motivação&lt;/h2&gt;
+&lt;p&gt; Na &lt;a href=&#34;https://bendeivide.github.io/slides/estprob/s02/&#34; target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt; vimos como uma das motivações...&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s12/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp 400w,
+               /slides/estprob/s12/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_2422affad744e4d2bee6a7971f41e9ec.webp 760w,
+               /slides/estprob/s12/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s12/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp&#34;
+               width=&#34;830&#34;
+               height=&#34;420&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section data-transition-speed=&#34;fast&#34;&gt;
+&lt;h2&gt;Motivação&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Veremos que por meio de algumas &lt;strong&gt;propriedades da probabilidade&lt;/strong&gt;, poderemos chegar a algumas soluções para esse problema&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Definições de probabilidades&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.considerando que esse dado é equilibrado, e o evento $ A\subset \Omega $, então podemos calcular a chance de $ A $ ocorrer pela la medida de probabilidade, da seguinte forma:&lt;/p&gt;
+`\begin{align*}
+  P(A) &amp; = \frac{\#A}{6} = \frac{\textrm{número de resultados favoráveis a A}}{\textrm{número de resultados possíveis}}.
+\end{align*}`
+&lt;/br&gt;
+&lt;p class=&#34;fragment&#34;&gt; Essa é a conhecida a probabilidade clássica!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Evento aleatório&lt;/h2&gt;
+&lt;div id=&#34;def:aleateventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento aleatório)&#34;&gt;
+&lt;p&gt;Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório.&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Medida de probabilidade&lt;/h2&gt;
+&lt;div id=&#34;def:medprob&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Medida de probabilidade)&#34;&gt;
+&lt;p&gt;Seja `\(\Omega\)` o espaço amostral, então uma função `\(P\)`, tal que `\(P:\Omega \to \mathbb{R}\)`, é chamada de medida de probabilidade ou probabilidade, aos eventos do espaço amostral satisfazendo os seguintes axiomas de Kolmogorov:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ P(\Omega) = 1 $;&lt;/li&gt;
+&lt;li&gt;$ 0\leq  P(A) \leq 1$, $ \forall \ A \subset \Omega $;&lt;/li&gt;
+&lt;li&gt;$ P(A_1 \cup A_2) = P(A_1) + P(A_2)$, com $A_1 \cap A_2 = \emptyset $, para $ A_1, ~A_2 \subset \Omega $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Uma peça moldada de injeção é igualmente provável de ser obtida, a partir de qualquer  uma das oito cavidades de um molde.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Qual é o espaço amostral?&lt;/li&gt;
+&lt;li&gt;Qual é a probabilidade de a peça ser proveniente da cavidade 1 ou 2?&lt;/li&gt;
+&lt;li&gt;Qual é a probabilidade de a peça não ser proveniente nem da cavidade 3 nem da 4?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nesse caso, (a) o espaço amostral é $ \Omega = \{1, 2, 3, 4, 5, 6, 7, 8\} $. Como a peça moldada de injeção é igualmente provável, então (b) a probabilidade de a peça ser proveniente da cavidade 1 ou 2, é dada por:&lt;/p&gt;
+\[\begin{aligned}
+  P(\{1\} \cup \{2\}) &amp;amp; = P(\{1\}) + P(\{2\}), \quad \textrm{(Eventos disjuntos)}\\
+                      &amp;amp; = 1 / 8 + 1 / 8\\
+                      &amp;amp; = 2 / 8.
+\end{aligned}\]
+&lt;p&gt;Por fim, (c) a probabilidade de a peça não ser proveniente nem da cavidade 3 nem da 4, é dada por:&lt;/p&gt;
+\[\begin{aligned}
+  P(\{3\}^c \cap \{4\}^c) &amp;amp; = P[(\{3\} \cap \{4\})^c], \quad \textrm{(Lei DeMorgan)}\\
+                          &amp;amp; = 1 - P(\{3\} \cap \{4\}), \quad \textrm{(Evento complementar)}\\
+                          &amp;amp; = 1 - [P(\{3\}) + P( \{4\})], \quad \textrm{(Eventos disjuntos)}\\
+                          &amp;amp; = 1 - [1 / 8 + 1 /8]\\
+                          &amp;amp; = 1 - 2 /8\\
+                          &amp;amp; = 6 / 8.
+\end{aligned}\]
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo (continuação...)&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Por fim, (c) a probabilidade de a peça não ser proveniente nem da cavidade 3 nem da 4, é dada por:&lt;/p&gt;
+\[\begin{aligned}
+  P(\{3\}^c \cap \{4\}^c) &amp;amp; = P[(\{3\} \cap \{4\})^c], \quad \textrm{(Lei DeMorgan)}\\
+                          &amp;amp; = 1 - P(\{3\} \cap \{4\}), \quad \textrm{(Evento complementar)}\\
+                          &amp;amp; = 1 - [P(\{3\}) + P( \{4\})], \quad \textrm{(Eventos disjuntos)}\\
+                          &amp;amp; = 1 - [1 / 8 + 1 /8]\\
+                          &amp;amp; = 1 - 2 /8\\
+                          &amp;amp; = 6 / 8.
+\end{aligned}\]
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Propriedades da medida de probabilidade&lt;/h2&gt;
+&lt;div id=&#34;teo:propadicao&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Regra da adição de probabilidades)&#34;&gt;
+&lt;p&gt;Considere um espaço amostral e dois eventos não vazios $ A $ e $ B $, então a probabilidade de ocorrência do evento $ A $ ou do evento $ B $ é igual a:&lt;/p&gt;
+`\begin{align*}
+P(A\cup B)&amp; = P(A)+P(B)-P(A\cap B).
+\end{align*}`
+&lt;p&gt;Caso os eventos $ A $ e $ B $ sejam mutuamente exclusivos, isto é, $ P(A\cap B)=0 $, então:&lt;/p&gt;
+`\begin{align*}
+P(A\cup B)=P(A)+P(B).
+\end{align*}`
+&lt;p&gt;Essa regra pode ser estendida para $ n $ eventos mutuamente exclusivos:
+$ A_1 $, $ A_2 $, $ \ldots $, $ A_n $, isto é,&lt;/p&gt;
+`\begin{align*}
+P(A_1\cup A_2\cup \ldots \cup A_n)= P(A_1)+P(A_2)+\ldots+P(A_n).
+\end{align*}`
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;style&gt;
+    ol.alphaList {list-style-type: lower-alpha;}
+&lt;/style&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;
+Uma empresa de eletricidade oferece uma taxa vitalícia de energia a qualquer lar cuja utilização de energia esteja abaixo de $ 240 $ kWh durante um determinado mês. Represente por $ A $ o evento de um lar selecionado aleatoriamente em um comunidade que não excede a utilização da taxa vitalícia em janeiro e por $ B $ o evento análogo para o mês de julho ($ A $ e $ B $ se referem ao mesmo lar). Suponha que $ P(A) = 0,8 $, $ P(B) = 0,7 $ e $ P(A \cup B) = 0,9 $. Calcule:
+&lt;ol type=&#34;a&#34; class=&#34;alphaList&#34;&gt;
+  &lt;li&gt;$ P(A \cap B) $;&lt;/li&gt;
+  &lt;li&gt;A probabilidade de a quantia da taxa vitalícia ser excedida em exatamente um dos dois meses. Descreva esse evento em termos de $ A $ e $ B $. &lt;/li&gt;
+&lt;/ol&gt;
+Considere,
+\[\begin{aligned}
+  A &amp;amp; = \{\omega \in \Omega: \omega = \textrm{``lar X que não excede 240kWh em janeiro&#39;&#39;}\}, \\
+  B &amp;amp; = \{\omega \in \Omega: \omega = \textrm{``lar X que não excede 240kWh em julho&#39;&#39;}\}.\\
+\end{aligned}\] 
+Então, para o primeiro ítem (a), temos que:
+\[\begin{aligned}
+  P(A\cup B &amp;amp; = P(A) + P(B) - P(A \cap B). 
+\end{aligned}\]
+&lt;/p&gt;  
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo (continuação... )&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;
+Isso ocorre porque os eventos não são disjuntos, uma vez que os dois eventos consistem no mesmo &lt;i&gt;lar X&lt;/i&gt;, em ser selecionado. Assim, podemos obter $ P(A \cap B) $, dado por:  
+\[\begin{aligned}
+  P(A\cap B) &amp;amp; = P(A) + P(B) - P(A \cup B) \\
+             &amp;amp; =  0,8 + 0,7 - 0,9 \\
+             &amp;amp; = 0,6.
+\end{aligned}\]
+No caso do ítem (b), o evento que representa o &lt;i&gt;lar X de a quantia vitalícia ser excedida em exatamente um dos dois meses&lt;/i&gt; por ser representado por: $ (A^c \cap B) \cup (A \cap B^c) $, uma vez que,&lt;/p&gt;
+`\begin{align*}
+  A^c  = \{\omega \in \Omega: \omega = \textrm{``lar X que exceder 240kWh em janeiro&#39;&#39;}\}, \\
+  B^c  = \{\omega \in \Omega: \omega = \textrm{``lar X que exceder 240kWh em julho&#39;&#39;}\}.\\
+\end{align*}`
+&lt;p&gt;Podemos ainda observar que $ A \cup B = (A^c \cap B)\cup (A \cap B) \cup (A \cap B^c) $, e que cada um dos eventos dentro do parêntese são disjuntos dois a dois, logo,&lt;/p&gt;
+`\begin{align*}
+  P(A \cap B) &amp; = P[(A^c \cap B)\cup (A \cap B) \cup (A \cap B^c)]\\
+              &amp; = P[(A^c \cap B) \cup (A \cap B^c)] + P(A \cap B).
+\end{align*}`
+&lt;p&gt;Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cap B) - P(A \cap B) $, logo,&lt;/p&gt;
+`\begin{align*}
+  P[(A^c \cap B) \cup (A \cap B^c)] &amp; = 0,9 - 0,6 = 0,3.
+\end{align*}`
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo (continuação... )&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cap B) - P(A \cap B) $, logo,&lt;/p&gt;
+`\begin{align*}
+  P[(A^c \cap B) \cup (A \cap B^c)] &amp; = 0,9 - 0,6 = 0,3.
+\end{align*}`
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Probabilidade de um evento complementar&lt;/h2&gt;
+&lt;div id=&#34;teo:propcomplementar&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Probabilidade de um evento complementar)&#34;&gt;
+&lt;p&gt;
+Considere um espaço amostral e o evento, não vazio, $ A $, então a probabilidade do evento complementar $ A^c $ ocorrer, é dado por:
+\[\begin{aligned}
+P(A^C)=1-P(A).
+\end{aligned}\]
+Essa situação é consequência da regra da adição para $ A\subset\Omega $, e substituindo $ B $ por $ A^C $, temos
+\[\begin{aligned}
+P(A\cup A^C) &amp;amp; = P(A)+P(A^C)-P(A\cap A^C),\\
+P(\Omega)    &amp;amp; = P(A)+P(A^C)-0,\\
+1            &amp;amp; = P(A)+P(A^C),
+\end{aligned}\]
+logo segue a expressão anterior.
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Usando os resultados do Exemplo anterior, podemos calcular a probabilidade de $ A^c $, como: 
+&lt;p&gt;&lt;code&gt;\begin{align*} P(A^c) &amp;amp; = 1 - 0,8 = 0,2. \end{align*}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Isso representa a chance do &lt;i&gt;lar X&lt;/i&gt; exceder a energia acima de 240kWh, em janeiro.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Eventos independentes e probabilidade condicional&lt;/h2&gt;
+&lt;div id=&#34;def:probcond&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Probabilidade condicional)&#34;&gt;
+&lt;p&gt;
+Dados dois eventos $ A $ e $ B $ definidos em  $ \Omega $, então a probabilidade condicional do evento $ A $ dado que ocorreu o evento $ B $, denotado por $ P(A|B) $, é definida por:
+`\begin{align*}
+	P(A|B) = \frac{P(A \cap B)}{P(B)},
+\end{align*}`
+para $ P(B) &gt; 0 $.
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo (Motivação)&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Baseado no problema de Paulo, denotaremos os eventos:
+&lt;ul&gt;
+  &lt;li&gt;evento $ D $ as sandálias produzidas com defeitos pela empresa;&lt;/li&gt;
+  &lt;li&gt;$ M_1 $ o evento que representa as sandálias produzidas pela máquina $ M_1 $;&lt;/li&gt;
+  &lt;li&gt;$ M_2 $ o evento que representa as sandálias produzidas pela máquina $ M_2 $, e;&lt;/li&gt;
+  &lt;li&gt;$ M_3 $ o evento que representa as sandálias produzidas pela máquina $ M_3 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Desse modo podemos representar, a probabilidade desses defeitos da seguinte forma: $ P(D|M_1) = 0,01 $, $ P(D|M_2) = 0,02 $, e $ P(D|M_3) = 0,03 $. Assim, percebemos que a probabilidade do evento $ D $ não pode ser observada facilmente, pois o defeito dos produtos produzidos pelas máquinas está condicionado a cada máquina.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+📝 Enfatizar: 
+&lt;ul&gt;
+&lt;li&gt;Essas probabilidades apresentam uma alteração no espaço amostral para cada evento, porque esses resultados mostram a chance de defeito do produto, dado o conhecimento de que máquina foi produzido, é o que chamamos de restrição do espaço amostral.&lt;/li&gt;
+&lt;li&gt;$ P(A|B) $ é uma medida de probabilidade?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/aside&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Regra do produto de probabilidade&lt;/h2&gt;
+&lt;div id=&#34;teo:regprodprob&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Regra do produto de probabilidade)&#34;&gt;
+&lt;p&gt;
+Seja os eventos não vazios $ A_1,A_2,\ldots,A_n $ em $ \Omega $, com $ P(\bigcap^{n}_{i=1}A_i)&gt;0 $, então a probabilidade do produto desses eventos é dado por
+&lt;p&gt;$$ P(A_1\cap A_2\cap \ldots \cap A_n)=P(A_1)P(A_2|A_1)\ldots P(A_n|A_1\cap A_2 \cap \ldots \cap A_{n-1}). $$&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Partição de $ \Omega $&lt;/h2&gt;
+&lt;div id=&#34;def:partomega&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Partição do espaço amostral)&#34;&gt;
+&lt;p&gt;
+Se a sequência $ A_1, A_2, \ldots, $ são disjuntos dois a dois, não vazios, e $ \bigcup^{\infty}_{i=1}A_i=\Omega $, então dizemos que essa sequência forma uma partição de $ \Omega $.
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Teorema da probabilidade total&lt;/h2&gt;
+&lt;div id=&#34;teo:probtotal&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Teorema da probabilidade total)&#34;&gt;
+&lt;p&gt;
+Seja uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $, disjuntos, tal que $ \bigcup^{n}_{i = 1}A_i = \Omega $, e $ B $ um evento de $ \Omega $, não vazio, então a probabilidade de $ B $ é dada por:
+`\begin{align*}
+	P(B) = \sum_{i = 1}^{n}P(B|A_i)P(A_i),
+\end{align*}`
+para $ P(A_i) &gt; 0 $, sendo $ i = 1, 2, \ldots, n $.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo (Motivação)&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Voltando ao problema de Paulo, como $ P(M_1) = 0,50 $, $ P(M_2) = 0,40) $ e $ P(M_3) = 0,10 $, então a probabilidade de uma sandália ter defeito é
+`\begin{align*}
+	P(D) = &amp; \sum_{i = 1}^{3}P(D|M_i)P(M_i)\\
+	= &amp; P(D|M_1)P(M_1) + P(D|M_2)P(M_2) + P(D|M_3)P(M_3)\\
+	= &amp; 0,01 \times 0,50 + 0,02 \times 0,40 + 0,03 \times 0,10\\
+	= &amp; 0,016.
+\end{align*}`
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Independência de dois eventos&lt;/h2&gt;
+&lt;div id=&#34;def:partomega&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Independência de dois eventos)&#34;&gt;
+&lt;p&gt;
+Considere o espaço amostral $ \Omega $. Dois eventos $ A $ e $ B $ de $ \Omega $ são independentes se satisfaz ao menos uma das seguintes condições:
+&lt;ol type=&#34;a&#34; class=&#34;alphaList&#34;&gt;
+  &lt;li&gt;$ P(A \cap B) = P(A)P(B) $;&lt;/li&gt;
+  &lt;li&gt;$ P(A|B) = P(A) $, para $ P(B) &gt; 0 $; &lt;/li&gt;
+  &lt;li&gt;$ P(B|A) = P(B) $, para $ P(A) &gt; 0 $. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;continuação...&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+É fácil mostrar que (I) implica em (II), (II) implica em (III), e (III) implica em (I).
+&lt;ul&gt;
+&lt;li&gt;$ (i) \to (ii) $: Se $ P(AB) = P(A)P(B) $, então:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;\begin{align*} P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) &amp;gt; 0; \end{align*}&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ (ii) \to (iii) $: Se $ P(A|B) = P(A) $, então:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;\begin{align*} P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) &amp;gt; 0; \end{align*}&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ (iii) \to (i) $: Se $ P(B|A) = P(B) $, então:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;\begin{align*} P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) &amp;gt; 0. \end{align*}&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;continuação...&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+A intuição para independência fica justificada pelo fato de que $ A $ é independente de $ B $ tanto na ocorrência quanto a não ocorrência de $ B $ e isso não muda em nada a probabilidade da ocorrência de $ A $, isto é, $ P(A|B) = P(A) $ e  $ P(A|B^c) = P( A) $. Essas duas expressões significam que
+`\begin{align*}
+  P(A\cap B) &amp; = P(B)P(A|B) = P(B)P(A)\\
+  P(A\cap B^c) &amp; = P(B^c)P(A|B^c) = P(B^c)P(A).
+\end{align*}`
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Teorema de independência de dois eventos&lt;/h2&gt;
+&lt;div id=&#34;teo:probtotal&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Teorema de independência de dois eventos)&#34;&gt;
+Se A e B são eventos independentes, não vazio, definidos em $ \Omega $, então
+&lt;ul &gt;
+  &lt;li&gt;$ A $ e $ B^c $ também são independentes;&lt;/li&gt;
+  &lt;li&gt;$ A^c $ e $ B $ também são independentes; &lt;/li&gt;
+  &lt;li&gt;$ A^c $ e $ B^c $ também são independentes. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Sejam os resultados possíveis de um dado honesto, cujo espaço amostral é $ \Omega = \{1, 2, 3, 4, 5, 6\} $. Considere um evento que representa o conjunto dos números ímpares desse espaço amostral, $ A = \{1, 3, 5\} $, e outro evento que consite nos múltiplos de 3, $ B = \{3, 6\} $. A probabilidade de $ A $ é $ P(A) = 1/2 $, a probabilidade de B é $ P(B) = 1/3 $, e a probabilidade da interseção entre A e B é $ P(A \cap B) = 1/6 $. Veja que dado que o evento B ocorra, ou não ocorra $ B^c = \{1, 2, 4, 5\} $, a probabilidade do evento A é a mesma, veja:
+`\begin{align*}
+  P(A|B) &amp; = \frac{1/6}{1/3} = 1/2\\
+  P(A|B^c) &amp; = \frac{2/6}{4/6} = 1/2.
+\end{align*}`
+Que é o mesmo que entender que $ P(A) \times P(B) = 1/6 = P(A\cap B) $. Logo, $ A $ e $ B $ são eventos independentes.
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Seja um experimento cujo objetivo é verificar a face superior de um tetraedro, isto é, `\(\Omega = \{1, 2, 3, 4\}\)`. Sejam os eventos em $ \Omega $, $ A = \{1, 4\} $, $ B = \{2, 4\} $ e $ C = \{3, 4\} $. Considerando o tetraedro honesto e que cada valor é equiprovável, assim $ P(A) = P(B) = P(C) = 1/2 $. Observamos que estes eventos são independentes dois a dois, isto é, $ P(A\cap B) = 1/4 = P(A)P(B) $, $ P(A\cap C) = 1/4 = P(A)P(C) $ e $ P(B\cap C) = 1/4 = P(B)P(C) $. Porém, $ P(A\cap B \cap C) = 1/4 \neq P(A) P(B) P(C) $. Logo, os eventos A, B e C não são independentes três a três.
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Independência de uma sequência de eventos&lt;/h2&gt;
+&lt;div id=&#34;def:indseqeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Independência de uma sequência de eventos)&#34;&gt;
+&lt;p&gt;
+Considere o espaço amostral $ \Omega $. Uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $ são independentes se e somente se:
+`\begin{align*}
+	P(A_i \cap A_j) &amp; = P(A_i)P(A_j), \quad \textrm{para } i \neq j; \\
+	P(A_i \cap A_j \cap A_k) &amp; = P(A_i)P(A_j)P(A_k), \quad \textrm{para } i \neq j \neq k; \\
+	\vdots &amp;  \nonumber\\
+	P(\cap_{i = 1}^{n} A_i) &amp; = \prod_{i = 1}^{n}P(A_i).
+\end{align*}`
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo (Motivação)&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou dependentes. Contudo, pela Definição \ref{def:ind2}, temos que
+`\begin{align*}
+P(D|M_i) &amp; \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, para } i = 1, 2, 3,
+\end{align*}`
+logo, não são independentes.
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Teorema de Bayes&lt;/h2&gt;
+&lt;div id=&#34;teo:teobayes&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Teorema de Bayes)&#34;&gt;
+Considere o espaço amostral $ \Omega $. Considere uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $, disjuntos, tal que $ \bigcup^{n}_{i = 1}A_i = \Omega $, e $ B $ um evento de $ \Omega $, então a probabilidade de $ A_k $, para $ k = 1, 2, \ldots, n $, dado que ocorreu o evento $ B $,  denotado por $ P(A_k|B) $, é dado por:
+`\begin{align*}
+	P(A_k|B) = \frac{P(B|A_k)P(A_k)}{\sum_{i = 1}^{n}P(B|A_i)P(A_i)}, \qquad k = 1, 2, \ldots, n,
+\end{align*}`
+	para $ P(A_k) &gt; 0 $ e $ P(A_i) &gt; 0 $, sendo $ i = 1, 2, \ldots, n $.
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Exemplo (Motivação)&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Com esse resultado, Paulo agora pode tomar uma decisão mais plausível, isto é, dado um defeito numa determinada sandália produzida na fábrica, qual a probabilidade desta ter sido produzida em cada uma das máquinas?
+`\begin{align*}
+    P(M_1|D) = \frac{0,01 \times 0,50}{0,016} = 0,3125\\
+    P(M_2|D) = \frac{0,02 \times 0,40}{0,016} = 0,5000\\
+    P(M_3|D) = \frac{0,03 \times 0,10}{0,016} = 0,1875\\
+\end{align*}`
+A tomada de decisão será substituir a máquina $ M_2 $. Poderíamos ter tomado uma decisão equivocada se não fosse o teorema de Bayes.
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
   &gt;
 
 &lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;

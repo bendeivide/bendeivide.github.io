@@ -118,24 +118,26 @@ Este é um parágrafo com uma palavra em **negrito** e outra em *itálico*.
 
 <div class="col">
 
-```r
-# Conjunto de dados iniciais
-## Dados elaborados sobre o número de erros encontrados em 
-## 20 conjunto de caracteres monitorado em um canal de comunicação
-d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/nerros.txt",
-                 h = T); d1 <- d1$erros
+```markdown
+# Seção 1
+## Subseção 1
+### Subsubseção 1
+#### Subsubsubseção 2
+##### ...
 ```
 
 </div>
 
 <div class="col">
 
-# Título 1
-## Título 2
-### Título 3
-#### Título 4
-##### Título 5
-###### Título 6
+
+# Seção 1
+## Subseção 1
+### Subsubseção 1
+#### Subsubsubseção 2
+##### ...
+
+
 
 </div>
 
@@ -150,11 +152,11 @@ d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master
 <div class="col">
 
 ```markdown
-Título 1
+Seção 1
 ========
 
-Título 2
---------
+Subseção 1
+----------
 ```
 
 </div>

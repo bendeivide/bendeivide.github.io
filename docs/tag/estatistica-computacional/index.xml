@@ -1934,36 +1934,35 @@ make.names(.123)
 &lt;h2&gt; Criando Seções &lt;/h2&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Conjunto de dados iniciais
-## Dados elaborados sobre o número de erros encontrados em 
-## 20 conjunto de caracteres monitorado em um canal de comunicação
-d1 &amp;lt;- read.table(&amp;quot;https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/nerros.txt&amp;quot;,
-                 h = T); d1 &amp;lt;- d1$erros
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# Seção 1
+## Subseção 1
+### Subsubseção 1
+#### Subsubsubseção 2
+##### ...
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;h1 id=&#34;título-1&#34;&gt;Título 1&lt;/h1&gt;
-&lt;h2 id=&#34;título-2&#34;&gt;Título 2&lt;/h2&gt;
-&lt;h3 id=&#34;título-3&#34;&gt;Título 3&lt;/h3&gt;
-&lt;h4 id=&#34;título-4&#34;&gt;Título 4&lt;/h4&gt;
-&lt;h5 id=&#34;título-5&#34;&gt;Título 5&lt;/h5&gt;
-&lt;h6 id=&#34;título-6&#34;&gt;Título 6&lt;/h6&gt;
+&lt;h1 id=&#34;seção-1&#34;&gt;Seção 1&lt;/h1&gt;
+&lt;h2 id=&#34;subseção-1&#34;&gt;Subseção 1&lt;/h2&gt;
+&lt;h3 id=&#34;subsubseção-1&#34;&gt;Subsubseção 1&lt;/h3&gt;
+&lt;h4 id=&#34;subsubsubseção-2&#34;&gt;Subsubsubseção 2&lt;/h4&gt;
+&lt;h5 id=&#34;heading&#34;&gt;&amp;hellip;&lt;/h5&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h2&gt; Outra forma &lt;/h2&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Título 1
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Seção 1
 ========
 
-Título 2
---------
+Subseção 1
+----------
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class=&#34;col&#34;&gt;
-&lt;h1 id=&#34;título-1-1&#34;&gt;Título 1&lt;/h1&gt;
-&lt;h2 id=&#34;título-2-1&#34;&gt;Título 2&lt;/h2&gt;
+&lt;h1 id=&#34;título-1&#34;&gt;Título 1&lt;/h1&gt;
+&lt;h2 id=&#34;título-2&#34;&gt;Título 2&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
