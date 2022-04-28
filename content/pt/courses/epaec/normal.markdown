@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-04-27 18:02:21"
+date: "2022-04-27 18:42:34"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -439,7 +439,7 @@ Prova!
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
    - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}){target="_blank"}
 
 {{< icon name="youtube" pack="fab" >}} Vídeo-aula
 {{< youtube  >}}

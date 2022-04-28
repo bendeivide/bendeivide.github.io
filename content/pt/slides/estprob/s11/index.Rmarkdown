@@ -346,7 +346,7 @@ B=\{ 1,2,3,4 \} \ \mbox{ e } \ A= \{ 1,2,3 \},
 
 <h2>Evento complementar</h2>
 
-<div id="def:compevento" class="definicao" cap=5 titulo="(Eventos equivalentes)">
+<div id="def:compevento" class="definicao" cap=5 titulo="(Evento Complementar)">
 <p>Seja $ A $ um evento de $ \Omega $. Então o complemento do evento A com respeito a $ \Omega $, denotado por $ \overline{A} $, $ A^c $, ou $ \Omega-A $, é o subconjunto dos elementos de $ \Omega $ exceto os elementos do evento A, isto é,</p>
 \begin{align*}\label{compeventos}
   A^c & = \{\omega \in \Omega: ~ \omega \notin A\}.
@@ -379,7 +379,7 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
 
 <h2>Diferença de dois eventos</h2>
 
-<div id="def:difeventos" class="definicao" cap=5 titulo="(Eventos equivalentes)">
+<div id="def:difeventos" class="definicao" cap=5 titulo="(Diferença de dois eventos)">
 <p>Sejam A e B dois eventos de $ \Omega $. O conjunto de todos os elementos de $ A $ que não estão em $ B $, serão denotados por $ A-B $ ou $ A\setminus B $, sendo definido por conjunto diferença, isto é,</p>
 \begin{align*}
   A - B & = \{\omega \in \Omega: ~\omega \in A \textrm{ e } \omega \notin B\}.

@@ -6548,7 +6548,7 @@ B=\{ 1,2,3,4 \} \ \mbox{ e } \ A= \{ 1,2,3 \},
 &lt;/section&gt;
 &lt;section&gt;
 &lt;h2&gt;Evento complementar&lt;/h2&gt;
-&lt;div id=&#34;def:compevento&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Eventos equivalentes)&#34;&gt;
+&lt;div id=&#34;def:compevento&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento Complementar)&#34;&gt;
 &lt;p&gt;Seja $ A $ um evento de $ \Omega $. Então o complemento do evento A com respeito a $ \Omega $, denotado por $ \overline{A} $, $ A^c $, ou $ \Omega-A $, é o subconjunto dos elementos de $ \Omega $ exceto os elementos do evento A, isto é,&lt;/p&gt;
 \begin{align*}\label{compeventos}
   A^c &amp; = \{\omega \in \Omega: ~ \omega \notin A\}.
@@ -6573,7 +6573,7 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
 &lt;/section&gt;
 &lt;section&gt;
 &lt;h2&gt;Diferença de dois eventos&lt;/h2&gt;
-&lt;div id=&#34;def:difeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Eventos equivalentes)&#34;&gt;
+&lt;div id=&#34;def:difeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Diferença de dois eventos)&#34;&gt;
 &lt;p&gt;Sejam A e B dois eventos de $ \Omega $. O conjunto de todos os elementos de $ A $ que não estão em $ B $, serão denotados por $ A-B $ ou $ A\setminus B $, sendo definido por conjunto diferença, isto é,&lt;/p&gt;
 \begin{align*}
   A - B &amp; = \{\omega \in \Omega: ~\omega \in A \textrm{ e } \omega \notin B\}.

@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 27 Apr 2022 18:02:21 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 27 Apr 2022 18:42:34 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -1146,7 +1146,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Wed, 27 Apr 2022 18:02:21 +0000</pubDate>
+      <pubDate>Wed, 27 Apr 2022 18:42:34 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -1655,7 +1655,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios resolvidos&lt;/a&gt;{target=&amp;quot;_blank&amp;quot;}&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -9662,7 +9662,7 @@ B=\{ 1,2,3,4 \} \ \mbox{ e } \ A= \{ 1,2,3 \},
 &lt;/section&gt;
 &lt;section&gt;
 &lt;h2&gt;Evento complementar&lt;/h2&gt;
-&lt;div id=&#34;def:compevento&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Eventos equivalentes)&#34;&gt;
+&lt;div id=&#34;def:compevento&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento Complementar)&#34;&gt;
 &lt;p&gt;Seja $ A $ um evento de $ \Omega $. Então o complemento do evento A com respeito a $ \Omega $, denotado por $ \overline{A} $, $ A^c $, ou $ \Omega-A $, é o subconjunto dos elementos de $ \Omega $ exceto os elementos do evento A, isto é,&lt;/p&gt;
 \begin{align*}\label{compeventos}
   A^c &amp; = \{\omega \in \Omega: ~ \omega \notin A\}.
@@ -9687,7 +9687,7 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
 &lt;/section&gt;
 &lt;section&gt;
 &lt;h2&gt;Diferença de dois eventos&lt;/h2&gt;
-&lt;div id=&#34;def:difeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Eventos equivalentes)&#34;&gt;
+&lt;div id=&#34;def:difeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Diferença de dois eventos)&#34;&gt;
 &lt;p&gt;Sejam A e B dois eventos de $ \Omega $. O conjunto de todos os elementos de $ A $ que não estão em $ B $, serão denotados por $ A-B $ ou $ A\setminus B $, sendo definido por conjunto diferença, isto é,&lt;/p&gt;
 \begin{align*}
   A - B &amp; = \{\omega \in \Omega: ~\omega \in A \textrm{ e } \omega \notin B\}.
