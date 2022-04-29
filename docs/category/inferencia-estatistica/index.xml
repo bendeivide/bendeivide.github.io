@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 27 Apr 2022 18:42:34 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 29 Apr 2022 18:07:33 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Inferência Estatística</title>
@@ -1241,11 +1241,15 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>✍️ Exercícios resolvidos para EPAEC</title>
       <link>http://bendeivide.github.io/courses/epaec/exerresolvidos/</link>
-      <pubDate>Thu, 09 Dec 2021 14:05:32 +0000</pubDate>
+      <pubDate>Fri, 29 Apr 2022 18:07:33 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/exerresolvidos/</guid>
       <description>&lt;p&gt;Projeto aprender por ensinar, do qual apresentamos vídeo-aulas de exercícios resolvidos pelos nossos alunos e monitores da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LPANRN0F4Uo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;planilha-dos-exercícios-resolvidos-do-epaec&#34;&gt;Planilha dos exercícios resolvidos do EPAEC&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1AkOILKiRmYviyoQEqnZLOVSdWc8cDuF02q6bmq-5_tU/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Planilha&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
@@ -1408,6 +1412,20 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vo3_Fe4WL4A&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3 id=&#34;er0017---probabilidade-parte-v&#34;&gt;ER0017 - Probabilidade (Parte V)&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6Knw57qU8PQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0018---probabilidades&#34;&gt;ER0018 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/dllk1uXLw1U&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0019---probabilidades&#34;&gt;ER0019 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/NH3Die7xJOk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0020---probabilidades&#34;&gt;ER0020 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/AS6o8r254mQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0021---probabilidades&#34;&gt;ER0021 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/41sA9qmXwoc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0022---probabilidades&#34;&gt;ER0022 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/M6Pl2iSYJcA&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0023---probabilidades&#34;&gt;ER0023 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vT6qsCa5di4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0024---probabilidades&#34;&gt;ER0024 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VQdSN4pmvjk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
@@ -1457,14 +1475,28 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5jRbR9yExS8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3 id=&#34;er0013---tabulação-e-técnicas-de-somatório&#34;&gt;ER0013 - Tabulação e técnicas de somatório&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Fk9MH7qHAYk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3 id=&#34;er0014---probabilidade-parte-iii&#34;&gt;ER0014 - Probabilidade (Parte III)&lt;/h3&gt;
+&lt;h3 id=&#34;er0014---probabilidades&#34;&gt;ER0014 - Probabilidades&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/4d5jD0mN4W0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3 id=&#34;er0015---distribuição-normal&#34;&gt;ER0015 - Distribuição normal&lt;/h3&gt;
+&lt;h3 id=&#34;er0015---distribuições-de-probabilidade&#34;&gt;ER0015 - Distribuições de probabilidade&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sbXV_n-Qr1s&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3 id=&#34;er0016---probabilidade-parte-iv&#34;&gt;ER0016 - Probabilidade (Parte IV)&lt;/h3&gt;
+&lt;h3 id=&#34;er0016---probabilidades&#34;&gt;ER0016 - Probabilidades&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vo3_Fe4WL4A&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h3 id=&#34;er0017---probabilidade-parte-v&#34;&gt;ER0017 - Probabilidade (Parte V)&lt;/h3&gt;
+&lt;h3 id=&#34;er0017---probabilidades&#34;&gt;ER0017 - Probabilidades&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6Knw57qU8PQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0018---probabilidades&#34;&gt;ER0018 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/dllk1uXLw1U&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0019---probabilidades&#34;&gt;ER0019 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/NH3Die7xJOk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0020---probabilidades&#34;&gt;ER0020 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/AS6o8r254mQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0021---probabilidades&#34;&gt;ER0021 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/41sA9qmXwoc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0022---probabilidades&#34;&gt;ER0022 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/M6Pl2iSYJcA&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0023---probabilidades&#34;&gt;ER0023 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vT6qsCa5di4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;er0024---probabilidades&#34;&gt;ER0024 - Probabilidades&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VQdSN4pmvjk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 </description>

@@ -2720,18 +2720,12 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
   &gt;
 
 &lt;h2 id=&#34;definições-de-probabilidades&#34;&gt;Definições de probabilidades&lt;/h2&gt;
-&lt;!-- &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt; --&gt;
-&lt;!-- &lt;p&gt;Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.considerando que esse dado é equilibrado, e o evento $ A\subset \Omega $, então podemos calcular a chance de $ A $ ocorrer pela la medida de probabilidade, da seguinte forma:&lt;/p&gt; --&gt;
-&lt;!-- \begin{align*} --&gt;
-&lt;!--   P(A) &amp; = \frac{\#A}{6} = \frac{\textrm{número de resultados favoráveis a A}}{\textrm{número de resultados possíveis}}. --&gt;
-&lt;!-- \end{align*} --&gt;
-&lt;!-- &lt;/br&gt; --&gt;
-&lt;!-- &lt;p class=&#34;fragment&#34;&gt; Essa é a conhecida a probabilidade clássica!&lt;/p&gt; --&gt;
-&lt;!-- &lt;/div&gt; --&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 &lt;p&gt;Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.considerando que esse dado é equilibrado, e o evento $ A\subset \Omega $, então podemos calcular a chance de $ A $ ocorrer pela la medida de probabilidade, da seguinte forma:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;\begin{align*} P(A) &amp;amp; = \frac{\#A}{6} = \frac{\textrm{número de resultados favoráveis a A}}{\textrm{número de resultados possíveis}}. \end{align*}&lt;/code&gt;
 &lt;/br&gt;&lt;/p&gt;
 &lt;p class=&#34;fragment&#34;&gt; Essa é a conhecida a probabilidade clássica!&lt;/p&gt;
+&lt;/div&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -2741,12 +2735,11 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
   &gt;
 
 &lt;h2 id=&#34;evento-aleatório&#34;&gt;Evento aleatório&lt;/h2&gt;
-&lt;!-- &lt;div id=&#34;def:aleateventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento aleatório)&#34;&gt; --&gt;
-&lt;!-- &lt;p&gt; Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório. &lt;/p&gt; --&gt;
-&lt;!-- &lt;/br&gt; --&gt;
-&lt;!-- &lt;/div&gt; --&gt;
-&lt;!-- &lt;/br&gt; --&gt;
+&lt;div id=&#34;def:aleateventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento aleatório)&#34;&gt;
 &lt;p&gt; Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório. &lt;/p&gt;
+&lt;/br&gt;
+&lt;/div&gt;
+&lt;/br&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -2887,7 +2880,7 @@ No caso do ítem (b), o evento que representa o &lt;i&gt;lar X de a quantia vita
 \end{aligned}\]
 &lt;p&gt;Podemos ainda observar que $ A \cup B = (A^c \cap B)\cup (A \cap B) \cup (A \cap B^c) $, e que cada um dos eventos dentro do parêntese são disjuntos dois a dois, logo,&lt;/p&gt;
 \[\begin{aligned}
-  P(A \cap B) &amp;amp; = P[(A^c \cap B)\cup (A \cap B) \cup (A \cap B^c)]\\
+  P(A \cup B) &amp;amp; = P[(A^c \cap B)\cup (A \cap B) \cup (A \cap B^c)]\\
               &amp;amp; = P[(A^c \cap B) \cup (A \cap B^c)] + P(A \cap B).
 \end{aligned}\]
 &lt;/div&gt;
@@ -2901,7 +2894,7 @@ No caso do ítem (b), o evento que representa o &lt;i&gt;lar X de a quantia vita
 
 &lt;h2 id=&#34;exemplo-continuação-&#34;&gt;Exemplo (continuação&amp;hellip; )&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
-Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cap B) - P(A \cap B) $, logo,
+Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cup B) - P(A \cap B) $, logo,
 \[\begin{aligned}
   P[(A^c \cap B) \cup (A \cap B^c)] &amp;amp; = 0,9 - 0,6 = 0,3.
 \end{aligned}\]

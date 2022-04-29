@@ -80,16 +80,7 @@ Aula 12 - Probabilidades (Parte II)
 
 ## Definições de probabilidades
 
-<!-- <div id="" class="exemplo" cap=5 titulo=""> -->
-<!-- <p>Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.considerando que esse dado é equilibrado, e o evento $ A\subset \Omega $, então podemos calcular a chance de $ A $ ocorrer pela la medida de probabilidade, da seguinte forma:</p> -->
-
-<!-- \begin{align*} -->
-<!--   P(A) & = \frac{\#A}{6} = \frac{\textrm{número de resultados favoráveis a A}}{\textrm{número de resultados possíveis}}. -->
-<!-- \end{align*} -->
-<!-- </br> -->
-<!-- <p class="fragment"> Essa é a conhecida a probabilidade clássica!</p> -->
-<!-- </div> -->
-
+<div id="" class="exemplo" cap=5 titulo="">
 <p>Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.considerando que esse dado é equilibrado, e o evento $ A\subset \Omega $, então podemos calcular a chance de $ A $ ocorrer pela la medida de probabilidade, da seguinte forma:</p>
 
 `\begin{align*}
@@ -97,6 +88,9 @@ Aula 12 - Probabilidades (Parte II)
 \end{align*}`
 </br>
 <p class="fragment"> Essa é a conhecida a probabilidade clássica!</p>
+</div>
+
+
 
 
 
@@ -106,14 +100,11 @@ Aula 12 - Probabilidades (Parte II)
 
 ## Evento aleatório
 
-<!-- <div id="def:aleateventos" class="definicao" cap=5 titulo="(Evento aleatório)"> -->
-<!-- <p> Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório. </p> -->
-<!-- </br> -->
-<!-- </div> -->
-<!-- </br> -->
-
+<div id="def:aleateventos" class="definicao" cap=5 titulo="(Evento aleatório)">
 <p> Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório. </p>
-
+</br>
+</div>
+</br>
 
 
 ---
@@ -131,13 +122,6 @@ Aula 12 - Probabilidades (Parte II)
 
 </br>
 </div>
-
-
-
-
-
-
-
 
 
 ---
@@ -161,8 +145,6 @@ Aula 12 - Probabilidades (Parte II)
 \end{aligned}\]
 
 </div>
-
-
 
 
 ---
@@ -263,7 +245,7 @@ No caso do ítem (b), o evento que representa o <i>lar X de a quantia vitalícia
 \end{aligned}\]
 <p>Podemos ainda observar que $ A \cup B = (A^c \cap B)\cup (A \cap B) \cup (A \cap B^c) $, e que cada um dos eventos dentro do parêntese são disjuntos dois a dois, logo,</p>
 \[\begin{aligned}
-  P(A \cap B) &amp; = P[(A^c \cap B)\cup (A \cap B) \cup (A \cap B^c)]\\
+  P(A \cup B) &amp; = P[(A^c \cap B)\cup (A \cap B) \cup (A \cap B^c)]\\
               &amp; = P[(A^c \cap B) \cup (A \cap B^c)] + P(A \cap B).
 \end{aligned}\]
 </div>
@@ -277,7 +259,7 @@ No caso do ítem (b), o evento que representa o <i>lar X de a quantia vitalícia
 ## Exemplo (continuação... )
 
 <div id="" class="exemplo" cap=5 titulo="">
-Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cap B) - P(A \cap B) $, logo,
+Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cup B) - P(A \cap B) $, logo,
 \[\begin{aligned}
   P[(A^c \cap B) \cup (A \cap B^c)] &amp; = 0,9 - 0,6 = 0,3.
 \end{aligned}\]

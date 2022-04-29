@@ -1,6 +1,6 @@
 ---
 title: ✍️ Exercícios resolvidos para EPAEC
-date: "2021-12-09 14:05:32"
+date: "2022-04-29 18:07:33"
 type: book
 weight: 30
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
@@ -13,6 +13,10 @@ Projeto aprender por ensinar, do qual apresentamos vídeo-aulas de exercícios r
 ## Apresentação
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LPANRN0F4Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Planilha dos exercícios resolvidos do EPAEC
+
+- [Planilha](https://docs.google.com/spreadsheets/d/1AkOILKiRmYviyoQEqnZLOVSdWc8cDuF02q6bmq-5_tU/edit?usp=sharing)
 
 ## Ementa
 
@@ -163,6 +167,34 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Knw57qU8PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### ER0018 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dllk1uXLw1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0019 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NH3Die7xJOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0020 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AS6o8r254mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0021 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/41sA9qmXwoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0022 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M6Pl2iSYJcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0023 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vT6qsCa5di4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0024 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VQdSN4pmvjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 {{< /spoiler >}}
 
 
@@ -251,21 +283,49 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fk9MH7qHAYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### ER0014 - Probabilidade (Parte III)
+### ER0014 - Probabilidades
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4d5jD0mN4W0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### ER0015 - Distribuição normal
+### ER0015 - Distribuições de probabilidade
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sbXV_n-Qr1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### ER0016 - Probabilidade (Parte IV)
+### ER0016 - Probabilidades
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vo3_Fe4WL4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### ER0017 - Probabilidade (Parte V)
+### ER0017 - Probabilidades
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Knw57qU8PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0018 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dllk1uXLw1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0019 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NH3Die7xJOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0020 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AS6o8r254mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0021 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/41sA9qmXwoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0022 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M6Pl2iSYJcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0023 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vT6qsCa5di4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0024 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VQdSN4pmvjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 {{< /spoiler >}}
