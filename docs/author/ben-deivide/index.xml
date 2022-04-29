@@ -6652,8 +6652,7 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
       data-background-image=&#34;cap02.png&#34;
   &gt;
 
-&lt;section data-transition=&#34;zoom&#34;&gt;
-&lt;h2&gt;Motivação&lt;/h2&gt;
+&lt;h2 id=&#34;motivação&#34;&gt;Motivação&lt;/h2&gt;
 &lt;p&gt; Na &lt;a href=&#34;https://bendeivide.github.io/slides/estprob/s02/&#34; target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt; vimos como uma das motivações...&lt;/p&gt;
 
 
@@ -6680,13 +6679,6 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
                height=&#34;420&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
-&lt;/section&gt;
-&lt;section data-transition-speed=&#34;fast&#34;&gt;
-&lt;h2&gt;Motivação&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Veremos que por meio de algumas &lt;strong&gt;propriedades da probabilidade&lt;/strong&gt;, poderemos chegar a algumas soluções para esse problema&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -6695,25 +6687,55 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
       data-background-image=&#34;cap02.png&#34;
   &gt;
 
-&lt;section&gt;
-&lt;h2&gt;Definições de probabilidades&lt;/h2&gt;
-&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;h2 id=&#34;motivação-1&#34;&gt;Motivação&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Veremos que por meio de algumas &lt;strong&gt;propriedades da probabilidade&lt;/strong&gt;, poderemos chegar a algumas soluções para esse problema&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;definições-de-probabilidades&#34;&gt;Definições de probabilidades&lt;/h2&gt;
+&lt;!-- &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt; --&gt;
+&lt;!-- &lt;p&gt;Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.considerando que esse dado é equilibrado, e o evento $ A\subset \Omega $, então podemos calcular a chance de $ A $ ocorrer pela la medida de probabilidade, da seguinte forma:&lt;/p&gt; --&gt;
+&lt;!-- \begin{align*} --&gt;
+&lt;!--   P(A) &amp; = \frac{\#A}{6} = \frac{\textrm{número de resultados favoráveis a A}}{\textrm{número de resultados possíveis}}. --&gt;
+&lt;!-- \end{align*} --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- &lt;p class=&#34;fragment&#34;&gt; Essa é a conhecida a probabilidade clássica!&lt;/p&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
 &lt;p&gt;Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.considerando que esse dado é equilibrado, e o evento $ A\subset \Omega $, então podemos calcular a chance de $ A $ ocorrer pela la medida de probabilidade, da seguinte forma:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;\begin{align*} P(A) &amp;amp; = \frac{\#A}{6} = \frac{\textrm{número de resultados favoráveis a A}}{\textrm{número de resultados possíveis}}. \end{align*}&lt;/code&gt;
 &lt;/br&gt;&lt;/p&gt;
 &lt;p class=&#34;fragment&#34;&gt; Essa é a conhecida a probabilidade clássica!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Evento aleatório&lt;/h2&gt;
-&lt;div id=&#34;def:aleateventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento aleatório)&#34;&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;evento-aleatório&#34;&gt;Evento aleatório&lt;/h2&gt;
+&lt;!-- &lt;div id=&#34;def:aleateventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Evento aleatório)&#34;&gt; --&gt;
+&lt;!-- &lt;p&gt; Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório. &lt;/p&gt; --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
 &lt;p&gt; Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório. &lt;/p&gt;
-&lt;/br&gt;
-&lt;/div&gt;
-&lt;/br&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Medida de probabilidade&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;medida-de-probabilidade&#34;&gt;Medida de probabilidade&lt;/h2&gt;
 &lt;div id=&#34;def:medprob&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Medida de probabilidade)&#34;&gt;
 &lt;p&gt;Seja $ \Omega $ o espaço amostral, então uma função $ P $, tal que $ P:\Omega \to \mathbb{R} $, é chamada de medida de probabilidade ou probabilidade, aos eventos do espaço amostral satisfazendo os seguintes axiomas de Kolmogorov:&lt;/p&gt;
 &lt;ol&gt;
@@ -6723,10 +6745,15 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
 &lt;/ol&gt;
 &lt;/br&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo&#34;&gt;Exemplo&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 &lt;p&gt;Uma peça moldada de injeção é igualmente provável de ser obtida, a partir de qualquer  uma das oito cavidades de um molde.&lt;/p&gt;
 &lt;ul&gt;
@@ -6740,41 +6767,36 @@ $$ \overline{A}=\{(T,H,H),(T,H,T), (T,T,H), (T,T,T)\}. $$
                       &amp;amp; = 1 / 8 + 1 / 8\\
                       &amp;amp; = 2 / 8.
 \end{aligned}\]
-&lt;p&gt;Por fim, (c) a probabilidade de a peça não ser proveniente nem da cavidade 3 nem da 4, é dada por:&lt;/p&gt;
-\[\begin{aligned}
-  P(\{3\}^c \cap \{4\}^c) &amp;amp; = P[(\{3\} \cap \{4\})^c], \quad \textrm{(Lei DeMorgan)}\\
-                          &amp;amp; = 1 - P(\{3\} \cap \{4\}), \quad \textrm{(Evento complementar)}\\
-                          &amp;amp; = 1 - [P(\{3\}) + P( \{4\})], \quad \textrm{(Eventos disjuntos)}\\
-                          &amp;amp; = 1 - [1 / 8 + 1 /8]\\
-                          &amp;amp; = 1 - 2 /8\\
-                          &amp;amp; = 6 / 8.
-\end{aligned}\]
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo (continuação...)&lt;/h2&gt;
-&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
-&lt;p&gt;Por fim, (c) a probabilidade de a peça não ser proveniente nem da cavidade 3 nem da 4, é dada por:&lt;/p&gt;
-\[\begin{aligned}
-  P(\{3\}^c \cap \{4\}^c) &amp;amp; = P[(\{3\} \cap \{4\})^c], \quad \textrm{(Lei DeMorgan)}\\
-                          &amp;amp; = 1 - P(\{3\} \cap \{4\}), \quad \textrm{(Evento complementar)}\\
-                          &amp;amp; = 1 - [P(\{3\}) + P( \{4\})], \quad \textrm{(Eventos disjuntos)}\\
-                          &amp;amp; = 1 - [1 / 8 + 1 /8]\\
-                          &amp;amp; = 1 - 2 /8\\
-                          &amp;amp; = 6 / 8.
-\end{aligned}\]
-&lt;/div&gt;
-&lt;/section&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;cap.png&#34;
+      data-background-image=&#34;cap02.png&#34;
   &gt;
 
-&lt;section&gt;
-&lt;h2&gt;Propriedades da medida de probabilidade&lt;/h2&gt;
+&lt;h2 id=&#34;exemplo-continuação&#34;&gt;Exemplo (continuação&amp;hellip;)&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+&lt;p&gt;Por fim, (c) a probabilidade de a peça não ser proveniente nem da cavidade 3 nem da 4, é dada por:&lt;/p&gt;
+\[\begin{aligned}
+  P(\{3\}^c \cap \{4\}^c) &amp;amp; = P[(\{3\} \cup \{4\})^c], \quad \textrm{(Lei DeMorgan)}\\
+                          &amp;amp; = 1 - P(\{3\} \cup \{4\}), \quad \textrm{(Evento complementar)}\\
+                          &amp;amp; = 1 - [P(\{3\}) + P( \{4\})], \quad \textrm{(Eventos disjuntos)}\\
+                          &amp;amp; = 1 - [1 / 8 + 1 /8]\\
+                          &amp;amp; = 1 - 2 /8\\
+                          &amp;amp; = 6 / 8.
+\end{aligned}\]
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap2.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;propriedades-da-medida-de-probabilidade&#34;&gt;Propriedades da medida de probabilidade&lt;/h2&gt;
 &lt;div id=&#34;teo:propadicao&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Regra da adição de probabilidades)&#34;&gt;
 Considere um espaço amostral e dois eventos não vazios $ A $ e $ B $, então a probabilidade de ocorrência do evento $ A $ ou do evento $ B $ é igual a:
 \[\begin{aligned}
@@ -6791,12 +6813,18 @@ P(A_1\cup A_2\cup \ldots \cup A_n)= P(A_1)+P(A_2)+\ldots+P(A_n).
 \end{aligned}\]
 &lt;/br&gt;
 &lt;/div&gt;
-&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
 &lt;style&gt;
     ol.alphaList {list-style-type: lower-alpha;}
 &lt;/style&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo&lt;/h2&gt;
+&lt;h2 id=&#34;exemplo-1&#34;&gt;Exemplo&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 &lt;p&gt;
 Uma empresa de eletricidade oferece uma taxa vitalícia de energia a qualquer lar cuja utilização de energia esteja abaixo de $ 240 $ kWh durante um determinado mês. Represente por $ A $ o evento de um lar selecionado aleatoriamente em um comunidade que não excede a utilização da taxa vitalícia em janeiro e por $ B $ o evento análogo para o mês de julho ($ A $ e $ B $ se referem ao mesmo lar). Suponha que $ P(A) = 0,8 $, $ P(B) = 0,7 $ e $ P(A \cup B) = 0,9 $. Calcule:
@@ -6808,19 +6836,25 @@ Considere,
 \[\begin{aligned}
   A &amp;amp; = \{\omega \in \Omega: \omega = \textrm{``lar X que não excede 240kWh em janeiro&#39;&#39;}\}, \\
   B &amp;amp; = \{\omega \in \Omega: \omega = \textrm{``lar X que não excede 240kWh em julho&#39;&#39;}\}.\\
-\end{aligned}\] 
+\end{aligned}\]
 Então, para o primeiro ítem (a), temos que:
 \[\begin{aligned}
-  P(A\cup B &amp;amp; = P(A) + P(B) - P(A \cap B). 
+  P(A\cup B) &amp;amp; = P(A) + P(B) - P(A \cap B).
 \end{aligned}\]
-&lt;/p&gt;  
+&lt;/p&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo (continuação... )&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo-continuação-1&#34;&gt;Exemplo (continuação&amp;hellip;)&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 &lt;p&gt;
-Isso ocorre porque os eventos não são disjuntos, uma vez que os dois eventos consistem no mesmo &lt;i&gt;lar X&lt;/i&gt;, em ser selecionado. Assim, podemos obter $ P(A \cap B) $, dado por:  
+Isso ocorre porque os eventos não são disjuntos, uma vez que os dois eventos consistem no mesmo &lt;i&gt;lar X&lt;/i&gt;, em ser selecionado. Assim, podemos obter $ P(A \cap B) $, dado por:
 \[\begin{aligned}
   P(A\cap B) &amp;amp; = P(A) + P(B) - P(A \cup B) \\
              &amp;amp; =  0,8 + 0,7 - 0,9 \\
@@ -6837,18 +6871,30 @@ No caso do ítem (b), o evento que representa o &lt;i&gt;lar X de a quantia vita
               &amp;amp; = P[(A^c \cap B) \cup (A \cap B^c)] + P(A \cap B).
 \end{aligned}\]
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo (continuação... )&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo-continuação-&#34;&gt;Exemplo (continuação&amp;hellip; )&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cap B) - P(A \cap B) $, logo,
 \[\begin{aligned}
   P[(A^c \cap B) \cup (A \cap B^c)] &amp;amp; = 0,9 - 0,6 = 0,3.
 \end{aligned}\]
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Probabilidade de um evento complementar&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap2.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;probabilidade-de-um-evento-complementar&#34;&gt;Probabilidade de um evento complementar&lt;/h2&gt;
 &lt;div id=&#34;teo:propcomplementar&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Probabilidade de um evento complementar)&#34;&gt;
 &lt;p&gt;
 Considere um espaço amostral e o evento, não vazio, $ A $, então a probabilidade do evento complementar $ A^c $ ocorrer, é dado por:
@@ -6862,40 +6908,50 @@ P(\Omega)    &amp;amp; = P(A)+P(A^C)-0,\\
 1            &amp;amp; = P(A)+P(A^C),
 \end{aligned}\]
 logo segue a expressão anterior.
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo&lt;/h2&gt;
-&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
-Usando os resultados do Exemplo anterior, podemos calcular a probabilidade de $ A^c $, como: 
-\[\begin{aligned}
-  P(A^c) &amp;amp = 1 - 0,8 = 0,2.
-\end{aligned}\]
-Isso representa a chance do &lt;i&gt;lar X&lt;/i&gt; exceder a energia acima de 240kWh, em janeiro.
-&lt;/div&gt;
-&lt;/section&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;cap.png&#34;
+      data-background-image=&#34;cap02.png&#34;
   &gt;
 
-&lt;section&gt;
-&lt;h2&gt;Eventos independentes e probabilidade condicional&lt;/h2&gt;
+&lt;h2 id=&#34;exemplo-2&#34;&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Usando os resultados do Exemplo anterior, podemos calcular a probabilidade de $ A^c $, como:
+\[\begin{aligned}
+  P(A^c) &amp;amp = 1 - 0,8 = 0,2.
+\end{aligned}\]
+Isso representa a chance do &lt;i&gt;lar X&lt;/i&gt; exceder a energia acima de 240kWh, em janeiro.
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap2.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;probabilidade-condicional&#34;&gt;Probabilidade condicional&lt;/h2&gt;
 &lt;div id=&#34;def:probcond&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Probabilidade condicional)&#34;&gt;
 &lt;p&gt;
 Dados dois eventos $ A $ e $ B $ definidos em  $ \Omega $, então a probabilidade condicional do evento $ A $ dado que ocorreu o evento $ B $, denotado por $ P(A|B) $, é definida por:
-`\begin{align*}
+\[\begin{aligned}
 	P(A|B) = \frac{P(A \cap B)}{P(B)},
-\end{align*}`
+\end{aligned}\]
 para $ P(B) &gt; 0 $.
 &lt;/p&gt;
 &lt;/br&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo (Motivação)&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo-motivação&#34;&gt;Exemplo (Motivação)&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 &lt;p&gt;Baseado no problema de Paulo, denotaremos os eventos:
 &lt;ul&gt;
@@ -6908,58 +6964,88 @@ para $ P(B) &gt; 0 $.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;aside class=&#34;notes&#34;&gt;
-📝 Enfatizar: 
+📝 Enfatizar:
 &lt;ul&gt;
 &lt;li&gt;Essas probabilidades apresentam uma alteração no espaço amostral para cada evento, porque esses resultados mostram a chance de defeito do produto, dado o conhecimento de que máquina foi produzido, é o que chamamos de restrição do espaço amostral.&lt;/li&gt;
 &lt;li&gt;$ P(A|B) $ é uma medida de probabilidade?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/aside&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Regra do produto de probabilidade&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap2.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;regra-do-produto-de-probabilidade&#34;&gt;Regra do produto de probabilidade&lt;/h2&gt;
 &lt;div id=&#34;teo:regprodprob&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Regra do produto de probabilidade)&#34;&gt;
 &lt;p&gt;
 Seja os eventos não vazios $ A_1,A_2,\ldots,A_n $ em $ \Omega $, com $ P(\bigcap^{n}_{i=1}A_i)&gt;0 $, então a probabilidade do produto desses eventos é dado por
 &lt;p&gt;$$ P(A_1\cap A_2\cap \ldots \cap A_n)=P(A_1)P(A_2|A_1)\ldots P(A_n|A_1\cap A_2 \cap \ldots \cap A_{n-1}). $$&lt;/p&gt;
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Partição de $ \Omega $&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap2.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;partição-de--omega-&#34;&gt;Partição de $ \Omega $&lt;/h2&gt;
 &lt;div id=&#34;def:partomega&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Partição do espaço amostral)&#34;&gt;
 &lt;p&gt;
 Se a sequência $ A_1, A_2, \ldots, $ são disjuntos dois a dois, não vazios, e $ \bigcup^{\infty}_{i=1}A_i=\Omega $, então dizemos que essa sequência forma uma partição de $ \Omega $.
 &lt;/p&gt;
 &lt;/br&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Teorema da probabilidade total&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;teorema-da-probabilidade-total&#34;&gt;Teorema da probabilidade total&lt;/h2&gt;
 &lt;div id=&#34;teo:probtotal&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Teorema da probabilidade total)&#34;&gt;
 &lt;p&gt;
 Seja uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $, disjuntos, tal que $ \bigcup^{n}_{i = 1}A_i = \Omega $, e $ B $ um evento de $ \Omega $, não vazio, então a probabilidade de $ B $ é dada por:
-`\begin{align*}
+\[\begin{aligned}
 	P(B) = \sum_{i = 1}^{n}P(B|A_i)P(A_i),
-\end{align*}`
+\end{aligned}\]
 para $ P(A_i) &gt; 0 $, sendo $ i = 1, 2, \ldots, n $.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo (Motivação)&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo-motivação-1&#34;&gt;Exemplo (Motivação)&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 &lt;p&gt;Voltando ao problema de Paulo, como $ P(M_1) = 0,50 $, $ P(M_2) = 0,40) $ e $ P(M_3) = 0,10 $, então a probabilidade de uma sandália ter defeito é
-`\begin{align*}
+\[\begin{aligned}
 	P(D) = &amp; \sum_{i = 1}^{3}P(D|M_i)P(M_i)\\
 	= &amp; P(D|M_1)P(M_1) + P(D|M_2)P(M_2) + P(D|M_3)P(M_3)\\
 	= &amp; 0,01 \times 0,50 + 0,02 \times 0,40 + 0,03 \times 0,10\\
 	= &amp; 0,016.
-\end{align*}`
+\end{aligned}\]
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Independência de dois eventos&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap2.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;independência-de-dois-eventos&#34;&gt;Independência de dois eventos&lt;/h2&gt;
 &lt;div id=&#34;def:partomega&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Independência de dois eventos)&#34;&gt;
 &lt;p&gt;
 Considere o espaço amostral $ \Omega $. Dois eventos $ A $ e $ B $ de $ \Omega $ são independentes se satisfaz ao menos uma das seguintes condições:
@@ -6971,77 +7057,51 @@ Considere o espaço amostral $ \Omega $. Dois eventos $ A $ e $ B $ de $ \Omega 
 &lt;/p&gt;
 &lt;/br&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;continuação...&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;continuação&#34;&gt;continuação&amp;hellip;&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 É fácil mostrar que (I) implica em (II), (II) implica em (III), e (III) implica em (I).
 &lt;ul&gt;
 &lt;li&gt;$ (i) \to (ii) $: Se $ P(AB) = P(A)P(B) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;\begin{align*} P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) &amp;gt; 0; \end{align*}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[\begin{aligned}
+P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) &amp;gt; 0;
+\end{aligned}]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$ (ii) \to (iii) $: Se $ P(A|B) = P(A) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;\begin{align*} P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) &amp;gt; 0; \end{align*}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[\begin{aligned}
+P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) &amp;gt; 0;
+\end{aligned}]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$ (iii) \to (i) $: Se $ P(B|A) = P(B) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;\begin{align*} P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) &amp;gt; 0. \end{align*}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[\begin{aligned}
+P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) &amp;gt; 0.
+\end{aligned}]&lt;/p&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;continuação...&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;continuação-1&#34;&gt;continuação&amp;hellip;&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 A intuição para independência fica justificada pelo fato de que $ A $ é independente de $ B $ tanto na ocorrência quanto a não ocorrência de $ B $ e isso não muda em nada a probabilidade da ocorrência de $ A $, isto é, $ P(A|B) = P(A) $ e  $ P(A|B^c) = P( A) $. Essas duas expressões significam que
-`\begin{align*}
+\[\begin{aligned}
   P(A\cap B) &amp; = P(B)P(A|B) = P(B)P(A)\\
   P(A\cap B^c) &amp; = P(B^c)P(A|B^c) = P(B^c)P(A).
-\end{align*}`
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Teorema de independência de dois eventos&lt;/h2&gt;
-&lt;div id=&#34;teo:probtotal&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Teorema de independência de dois eventos)&#34;&gt;
-Se A e B são eventos independentes, não vazio, definidos em $ \Omega $, então
-&lt;ul &gt;
-  &lt;li&gt;$ A $ e $ B^c $ também são independentes;&lt;/li&gt;
-  &lt;li&gt;$ A^c $ e $ B $ também são independentes; &lt;/li&gt;
-  &lt;li&gt;$ A^c $ e $ B^c $ também são independentes. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo&lt;/h2&gt;
-&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
-Sejam os resultados possíveis de um dado honesto, cujo espaço amostral é $ \Omega = \{1, 2, 3, 4, 5, 6\} $. Considere um evento que representa o conjunto dos números ímpares desse espaço amostral, $ A = \{1, 3, 5\} $, e outro evento que consite nos múltiplos de 3, $ B = \{3, 6\} $. A probabilidade de $ A $ é $ P(A) = 1/2 $, a probabilidade de B é $ P(B) = 1/3 $, e a probabilidade da interseção entre A e B é $ P(A \cap B) = 1/6 $. Veja que dado que o evento B ocorra, ou não ocorra $ B^c = \{1, 2, 4, 5\} $, a probabilidade do evento A é a mesma, veja:
-`\begin{align*}
-  P(A|B) &amp; = \frac{1/6}{1/3} = 1/2\\
-  P(A|B^c) &amp; = \frac{2/6}{4/6} = 1/2.
-\end{align*}`
-Que é o mesmo que entender que $ P(A) \times P(B) = 1/6 = P(A\cap B) $. Logo, $ A $ e $ B $ são eventos independentes.
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo&lt;/h2&gt;
-&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
-Seja um experimento cujo objetivo é verificar a face superior de um tetraedro, isto é, `\(\Omega = \{1, 2, 3, 4\}\)`. Sejam os eventos em $ \Omega $, $ A = \{1, 4\} $, $ B = \{2, 4\} $ e $ C = \{3, 4\} $. Considerando o tetraedro honesto e que cada valor é equiprovável, assim $ P(A) = P(B) = P(C) = 1/2 $. Observamos que estes eventos são independentes dois a dois, isto é, $ P(A\cap B) = 1/4 = P(A)P(B) $, $ P(A\cap C) = 1/4 = P(A)P(C) $ e $ P(B\cap C) = 1/4 = P(B)P(C) $. Porém, $ P(A\cap B \cap C) = 1/4 \neq P(A) P(B) P(C) $. Logo, os eventos A, B e C não são independentes três a três.
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Independência de uma sequência de eventos&lt;/h2&gt;
-&lt;div id=&#34;def:indseqeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Independência de uma sequência de eventos)&#34;&gt;
-&lt;p&gt;Considere o espaço amostral $ \Omega $. Uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $ são independentes se e somente se:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;\begin{align*} P(A_i \cap A_j) &amp;amp; = P(A_i)P(A_j), \quad \textrm{para } i \neq j; \\ P(A_i \cap A_j \cap A_k) &amp;amp; = P(A_i)P(A_j)P(A_k), \quad \textrm{para } i \neq j \neq k; \\ \vdots &amp;amp;  \nonumber\\ P(\cap_{i = 1}^{n} A_i) &amp;amp; = \prod_{i = 1}^{n}P(A_i). \end{align*}&lt;/code&gt;
-&lt;/br&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo (Motivação)&lt;/h2&gt;
-&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
-Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou dependentes. Contudo, pela Definição \ref{def:ind2}, temos que
-&lt;p&gt;&lt;code&gt;\begin{align*} P(D|M_i) &amp;amp; \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, para } i = 1, 2, 3, \end{align*}&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;logo, não são independentes.&lt;/p&gt;
+\end{aligned}\]
 &lt;/div&gt;
 &lt;/section&gt;
 &lt;hr&gt;
@@ -7052,8 +7112,91 @@ Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou depen
       data-background-image=&#34;cap02.png&#34;
   &gt;
 
-&lt;section&gt;
-&lt;h2&gt;Teorema de Bayes&lt;/h2&gt;
+&lt;h2 id=&#34;teorema-de-independência-de-dois-eventos&#34;&gt;Teorema de independência de dois eventos&lt;/h2&gt;
+&lt;div id=&#34;teo:probtotal&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Teorema de independência de dois eventos)&#34;&gt;
+&lt;p&gt;Se A e B são eventos independentes, não vazio, definidos em $ \Omega $, então&lt;/p&gt;
+&lt;ul &gt;
+  &lt;li&gt;$ A $ e $ B^c $ também são independentes;&lt;/li&gt;
+  &lt;li&gt;$ A^c $ e $ B $ também são independentes; &lt;/li&gt;
+  &lt;li&gt;$ A^c $ e $ B^c $ também são independentes. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo-3&#34;&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Sejam os resultados possíveis de um dado honesto, cujo espaço amostral é $ \Omega = \{1, 2, 3, 4, 5, 6\} $. Considere um evento que representa o conjunto dos números ímpares desse espaço amostral, $ A = \{1, 3, 5\} $, e outro evento que consite nos múltiplos de 3, $ B = \{3, 6\} $. A probabilidade de $ A $ é $ P(A) = 1/2 $, a probabilidade de B é $ P(B) = 1/3 $, e a probabilidade da interseção entre A e B é $ P(A \cap B) = 1/6 $. Veja que dado que o evento B ocorra, ou não ocorra $ B^c = \{1, 2, 4, 5\} $, a probabilidade do evento A é a mesma, veja:
+&lt;p&gt;[\begin{aligned}
+P(A|B) &amp;amp; = \frac{1/6}{1/3} = 1/2\
+P(A|B^c) &amp;amp; = \frac{2/6}{4/6} = 1/2.
+\end{aligned}]&lt;/p&gt;
+&lt;p&gt;Que é o mesmo que entender que $ P(A) \times P(B) = 1/6 = P(A\cap B) $. Logo, $ A $ e $ B $ são eventos independentes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo-4&#34;&gt;Exemplo&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Seja um experimento cujo objetivo é verificar a face superior de um tetraedro, isto é, $ \Omega = \{1, 2, 3, 4\} $. Sejam os eventos em $ \Omega $, $ A = \{1, 4\} $, $ B = \{2, 4\} $ e $ C = \{3, 4\} $. Considerando o tetraedro honesto e que cada valor é equiprovável, assim $ P(A) = P(B) = P(C) = 1/2 $. Observamos que estes eventos são independentes dois a dois, isto é, $ P(A\cap B) = 1/4 = P(A)P(B) $, $ P(A\cap C) = 1/4 = P(A)P(C) $ e $ P(B\cap C) = 1/4 = P(B)P(C) $. Porém, $ P(A\cap B \cap C) = 1/4 \neq P(A) P(B) P(C) $. Logo, os eventos A, B e C não são independentes três a três.
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;independência-de-uma-sequência-de-eventos&#34;&gt;Independência de uma sequência de eventos&lt;/h2&gt;
+&lt;div id=&#34;def:indseqeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Independência de uma sequência de eventos)&#34;&gt;
+&lt;p&gt;Considere o espaço amostral $ \Omega $. Uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $ são independentes se e somente se:&lt;/p&gt;
+&lt;p&gt;[\begin{aligned}
+P(A_i \cap A_j) &amp;amp; = P(A_i)P(A_j), \quad \textrm{para } i \neq j; \
+P(A_i \cap A_j \cap A_k) &amp;amp; = P(A_i)P(A_j)P(A_k), \quad \textrm{para } i \neq j \neq k; \
+\vdots &amp;amp;  \nonumber\
+P(\cap_{i = 1}^{n} A_i) &amp;amp; = \prod_{i = 1}^{n}P(A_i).
+\end{aligned} ]
+&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo-motivação-2&#34;&gt;Exemplo (Motivação)&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou dependentes. Contudo, pela Definição \ref{def:ind2}, temos que
+&lt;p&gt;[\begin{aligned}
+P(D|M_i) &amp;amp; \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, para } i = 1, 2, 3,
+\end{aligned}]&lt;/p&gt;
+&lt;p&gt;logo, não são independentes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;teorema-de-bayes&#34;&gt;Teorema de Bayes&lt;/h2&gt;
 &lt;div id=&#34;teo:teobayes&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Teorema de Bayes)&#34;&gt;
 Considere o espaço amostral $ \Omega $. Considere uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $, disjuntos, tal que $ \bigcup^{n}_{i = 1}A_i = \Omega $, e $ B $ um evento de $ \Omega $, então a probabilidade de $ A_k $, para $ k = 1, 2, \ldots, n $, dado que ocorreu o evento $ B $,  denotado por $ P(A_k|B) $, é dado por:
 &lt;p&gt;[\begin{aligned}
@@ -7061,15 +7204,24 @@ P(A_k|B) = \frac{P(B|A_k)P(A_k)}{\sum_{i = 1}^{n}P(B|A_i)P(A_i)}, \qquad k = 1, 
 \end{aligned}]&lt;/p&gt;
 &lt;p&gt;para $ P(A_k) &amp;gt; 0 $ e $ P(A_i) &amp;gt; 0 $, sendo $ i = 1, 2, \ldots, n $.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h2&gt;Exemplo (Motivação)&lt;/h2&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;exemplo-motivação-3&#34;&gt;Exemplo (Motivação)&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 Com esse resultado, Paulo agora pode tomar uma decisão mais plausível, isto é, dado um defeito numa determinada sandália produzida na fábrica, qual a probabilidade desta ter sido produzida em cada uma das máquinas?
-&lt;p&gt;&lt;code&gt;\begin{align*} P(M_1|D) = \frac{0,01 \times 0,50}{0,016} = 0,3125\\ P(M_2|D) = \frac{0,02 \times 0,40}{0,016} = 0,5000\\ P(M_3|D) = \frac{0,03 \times 0,10}{0,016} = 0,1875\\ \end{align*}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[\begin{aligned}
+P(M_1|D) = \frac{0,01 \times 0,50}{0,016} = 0,3125\
+P(M_2|D) = \frac{0,02 \times 0,40}{0,016} = 0,5000\
+P(M_3|D) = \frac{0,03 \times 0,10}{0,016} = 0,1875\
+\end{aligned}]&lt;/p&gt;
 &lt;p&gt;A tomada de decisão será substituir a máquina $ M_2 $. Poderíamos ter tomado uma decisão equivocada se não fosse o teorema de Bayes.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/section&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
