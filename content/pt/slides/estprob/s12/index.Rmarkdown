@@ -81,6 +81,7 @@ Aula 12 - Probabilidades (Parte II)
 
 <div id="" class="exemplo" cap=5 titulo="">
 <p>Lançar um dado equilibrado e observar o resultado obtido na face superior do dado.considerando que esse dado é equilibrado, e o evento $ A\subset \Omega $, então podemos calcular a chance de $ A $ ocorrer pela la medida de probabilidade, da seguinte forma:</p>
+
 \begin{align*}
   P(A) & = \frac{\#A}{6} = \frac{\textrm{número de resultados favoráveis a A}}{\textrm{número de resultados possíveis}}.
 \end{align*}
@@ -94,7 +95,7 @@ Aula 12 - Probabilidades (Parte II)
 <h2>Evento aleatório</h2>
 
 <div id="def:aleateventos" class="definicao" cap=5 titulo="(Evento aleatório)">
-<p>Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório.</p>
+<p> Todo evento de $ \Omega $ que podemos atribuir uma probabilidade, chamamos de evento aleatório. </p>
 </br>
 </div>
 </br>
@@ -105,7 +106,7 @@ Aula 12 - Probabilidades (Parte II)
 <h2>Medida de probabilidade</h2>
 
 <div id="def:medprob" class="definicao" cap=5 titulo="(Medida de probabilidade)">
-<p>Seja $\Omega$ o espaço amostral, então uma função $P$, tal que $P:\Omega \to \mathbb{R}$, é chamada de medida de probabilidade ou probabilidade, aos eventos do espaço amostral satisfazendo os seguintes axiomas de Kolmogorov:</p>
+<p>Seja $ \Omega $ o espaço amostral, então uma função $ P $, tal que $ P:\Omega \to \mathbb{R} $, é chamada de medida de probabilidade ou probabilidade, aos eventos do espaço amostral satisfazendo os seguintes axiomas de Kolmogorov:</p>
 
 1. $ P(\Omega) = 1 $;
 2. $ 0\leq  P(A) \leq 1$, $ \forall \ A \subset \Omega $;
@@ -172,19 +173,20 @@ Aula 12 - Probabilidades (Parte II)
 <h2>Propriedades da medida de probabilidade</h2>
 
 <div id="teo:propadicao" class="teorema" cap=5 titulo="(Regra da adição de probabilidades)">
-<p>Considere um espaço amostral e dois eventos não vazios $ A $ e $ B $, então a probabilidade de ocorrência do evento $ A $ ou do evento $ B $ é igual a:</p>
-\begin{align*}
-P(A\cup B)& = P(A)+P(B)-P(A\cap B).
-\end{align*}
-<p>Caso os eventos $ A $ e $ B $ sejam mutuamente exclusivos, isto é, $ P(A\cap B)=0 $, então:</p>
-\begin{align*}
-P(A\cup B)=P(A)+P(B).
-\end{align*}
-<p>Essa regra pode ser estendida para $ n $ eventos mutuamente exclusivos:
-$ A_1 $, $ A_2 $, $ \ldots $, $ A_n $, isto é,</p>
-\begin{align*}
+Considere um espaço amostral e dois eventos não vazios $ A $ e $ B $, então a probabilidade de ocorrência do evento $ A $ ou do evento $ B $ é igual a:
+\[\begin{aligned}
+P(A\cup B) &amp;  = P(A)+P(B)-P(A\cap B).
+\end{aligned}\]
+Caso os eventos $ A $ e $ B $ sejam mutuamente exclusivos, isto é, $ P(A\cap B)=0 $, então:
+\[\begin{aligned}
+P(A\cup B) &amp; = P(A)+P(B).
+\end{aligned}\]
+Essa regra pode ser estendida para $ n $ eventos mutuamente exclusivos:
+$ A_1 $, $ A_2 $, $ \ldots $, $ A_n $, isto é,
+\[\begin{aligned}
 P(A_1\cup A_2\cup \ldots \cup A_n)= P(A_1)+P(A_2)+\ldots+P(A_n).
-\end{align*}
+\end{aligned}\]
+</br>
 </div>
 </section>
 
@@ -226,19 +228,15 @@ Isso ocorre porque os eventos não são disjuntos, uma vez que os dois eventos c
              &amp; = 0,6.
 \end{aligned}\]
 No caso do ítem (b), o evento que representa o <i>lar X de a quantia vitalícia ser excedida em exatamente um dos dois meses</i> por ser representado por: $ (A^c \cap B) \cup (A \cap B^c) $, uma vez que,</p>
-\begin{align*}
+\[\begin{aligned}
   A^c  = \{\omega \in \Omega: \omega = \textrm{``lar X que exceder 240kWh em janeiro''}\}, \\
   B^c  = \{\omega \in \Omega: \omega = \textrm{``lar X que exceder 240kWh em julho''}\}.\\
-\end{align*}
+\end{aligned}\]
 <p>Podemos ainda observar que $ A \cup B = (A^c \cap B)\cup (A \cap B) \cup (A \cap B^c) $, e que cada um dos eventos dentro do parêntese são disjuntos dois a dois, logo,</p>
-\begin{align*}
-  P(A \cap B) & = P[(A^c \cap B)\cup (A \cap B) \cup (A \cap B^c)]\\
-              & = P[(A^c \cap B) \cup (A \cap B^c)] + P(A \cap B).
-\end{align*}
-<p>Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cap B) - P(A \cap B) $, logo,</p>
-\begin{align*}
-  P[(A^c \cap B) \cup (A \cap B^c)] & = 0,9 - 0,6 = 0,3.
-\end{align*}
+\[\begin{aligned}
+  P(A \cap B) &amp; = P[(A^c \cap B)\cup (A \cap B) \cup (A \cap B^c)]\\
+              &amp; = P[(A^c \cap B) \cup (A \cap B^c)] + P(A \cap B).
+\end{aligned}\]
 </div>
 
 </section>
@@ -246,10 +244,10 @@ No caso do ítem (b), o evento que representa o <i>lar X de a quantia vitalícia
 <section>
 <h2>Exemplo (continuação... )</h2>
 <div id="" class="exemplo" cap=5 titulo="">
-<p>Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cap B) - P(A \cap B) $, logo,</p>
-\begin{align*}
-  P[(A^c \cap B) \cup (A \cap B^c)] & = 0,9 - 0,6 = 0,3.
-\end{align*}
+Desse modo, percebemos que $ P[(A^c \cap B) \cup (A \cap B^c)] = P(A \cap B) - P(A \cap B) $, logo,
+\[\begin{aligned}
+  P[(A^c \cap B) \cup (A \cap B^c)] &amp; = 0,9 - 0,6 = 0,3.
+\end{aligned}\]
 </div>
 
 </section>
@@ -277,11 +275,9 @@ logo segue a expressão anterior.
 <h2>Exemplo</h2>
 <div id="" class="exemplo" cap=5 titulo="">
 Usando os resultados do Exemplo anterior, podemos calcular a probabilidade de $ A^c $, como: 
-
-\begin{align*}
-  P(A^c) & = 1 - 0,8 = 0,2.
-\end{align*}
-
+\[\begin{aligned}
+  P(A^c) &amp = 1 - 0,8 = 0,2.
+\end{aligned}\]
 Isso representa a chance do <i>lar X</i> exceder a energia acima de 240kWh, em janeiro.
 </div>
 
@@ -466,15 +462,15 @@ Seja um experimento cujo objetivo é verificar a face superior de um tetraedro, 
 <section>
 <h2>Independência de uma sequência de eventos</h2>
 <div id="def:indseqeventos" class="definicao" cap=5 titulo="(Independência de uma sequência de eventos)">
-<p>
+
 Considere o espaço amostral $ \Omega $. Uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $ são independentes se e somente se:
+
 \begin{align*}
 	P(A_i \cap A_j) & = P(A_i)P(A_j), \quad \textrm{para } i \neq j; \\
 	P(A_i \cap A_j \cap A_k) & = P(A_i)P(A_j)P(A_k), \quad \textrm{para } i \neq j \neq k; \\
 	\vdots &  \nonumber\\
 	P(\cap_{i = 1}^{n} A_i) & = \prod_{i = 1}^{n}P(A_i).
 \end{align*}
-</p>
 </br>
 </div>
 </section>
@@ -483,9 +479,11 @@ Considere o espaço amostral $ \Omega $. Uma sequência de eventos $ A_1, A_2, \
 <h2>Exemplo (Motivação)</h2>
 <div id="" class="exemplo" cap=5 titulo="">
 Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou dependentes. Contudo, pela Definição \ref{def:ind2}, temos que
+
 \begin{align*}
 P(D|M_i) & \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, para } i = 1, 2, 3,
 \end{align*}
+
 logo, não são independentes.
 </div>
 </section>
@@ -498,10 +496,12 @@ logo, não são independentes.
 <h2>Teorema de Bayes</h2>
 <div id="teo:teobayes" class="teorema" cap=5 titulo="(Teorema de Bayes)">
 Considere o espaço amostral $ \Omega $. Considere uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $, disjuntos, tal que $ \bigcup^{n}_{i = 1}A_i = \Omega $, e $ B $ um evento de $ \Omega $, então a probabilidade de $ A_k $, para $ k = 1, 2, \ldots, n $, dado que ocorreu o evento $ B $,  denotado por $ P(A_k|B) $, é dado por:
-\begin{align*}
+
+\[\begin{aligned}
 	P(A_k|B) = \frac{P(B|A_k)P(A_k)}{\sum_{i = 1}^{n}P(B|A_i)P(A_i)}, \qquad k = 1, 2, \ldots, n,
-\end{align*}
-	para $ P(A_k) > 0 $ e $ P(A_i) > 0 $, sendo $ i = 1, 2, \ldots, n $.
+\end{aligned}\]
+
+para $ P(A_k) > 0 $ e $ P(A_i) > 0 $, sendo $ i = 1, 2, \ldots, n $.
 </div>
 </section>
 
@@ -509,11 +509,13 @@ Considere o espaço amostral $ \Omega $. Considere uma sequência de eventos $ A
 <h2>Exemplo (Motivação)</h2>
 <div id="" class="exemplo" cap=5 titulo="">
 Com esse resultado, Paulo agora pode tomar uma decisão mais plausível, isto é, dado um defeito numa determinada sandália produzida na fábrica, qual a probabilidade desta ter sido produzida em cada uma das máquinas?
+
 \begin{align*}
     P(M_1|D) = \frac{0,01 \times 0,50}{0,016} = 0,3125\\
     P(M_2|D) = \frac{0,02 \times 0,40}{0,016} = 0,5000\\
     P(M_3|D) = \frac{0,03 \times 0,10}{0,016} = 0,1875\\
 \end{align*}
+
 A tomada de decisão será substituir a máquina $ M_2 $. Poderíamos ter tomado uma decisão equivocada se não fosse o teorema de Bayes.
 </div>
 </section>
