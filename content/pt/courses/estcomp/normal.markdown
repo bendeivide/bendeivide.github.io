@@ -1,13 +1,13 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-04-12 20:57:08"
+date: "2022-05-05 23:25:05"
 type: book
 weight: 10
 categories: ["R", "Estatística", "Probabilidade", "Programação"]
 tags: ["Curso", "Remoto"]
 ---
 
-Curso de Estatística Computacional oferecido no formato presencial pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba ([CAP](http://ufsj.edu.br/cap/)), Ouro Branco/MG.
+Curso de Estatística Computacional oferecido no formato presencial pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba ([CAP](http://ufsj.edu.br/cap/)), Ouro Brnewleemanco/MG.
 
 <!--more-->
 
@@ -233,13 +233,13 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 03 (28/03 e 29/03)">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Como o R trabalha
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Objetos em R
 
 
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 04 (31/03)">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Objetos
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Pacotes
 
 {{< /spoiler >}}
 
@@ -317,6 +317,120 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
    - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
 
 {{< /spoiler >}}
+
+{{< spoiler text="Aula 10 (20/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Conceitos básicos sobre distribuições de probabilidade
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 10]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 11 (25-26/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Distribuições de probabilidade
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 11]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 12 (28/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Distribuições amostrais e TLC
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 12]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - {{% staticref "r-scripts/estcomp/aula13.R" "newtab" %}} {{< icon name="r-project" pack="fab" >}} Aula12.R {{% /staticref %}}
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 13 (02-03/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Aproximações de distribuições e geradores de números aleatórios
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 13]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+ 
+- {{% staticref "r-scripts/estcomp/aula13.R" "newtab" %}}  {{< icon name="r-project" pack="fab" >}}  aula13.R  {{% /staticref %}}
+- {{% staticref "media/quadgauss.pdf" "newtab" %}}  {{< icon name="file-pdf" pack="fa" >}}  Quadratura Gauss-Legendre  {{% /staticref %}}
+- {{% staticref "media/pol_ort.pdf" "newtab" %}}  {{< icon name="file-pdf" pack="fa" >}}  Apresentação sobre Quadratura Gauss-Legendre  {{% /staticref %}}
+- {{% staticref "media/dis_ben.pdf" "newtab" %}} {{< icon name="file-pdf" pack="fa" >}} Dissertação (Ben Dêivide)  {{% /staticref %}}
+- [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+- [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+- [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 14 (05/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Estatística Básica no R - Estatística descritiva 
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 14]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 15 (09-10/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Estatística Básica no R - Estimação de parâmetros
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 15]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 16 (09-10/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Estatística Básica no R - Teste de hipóteses (Parte I)
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 16]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 17 (16-17/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Estatística Básica no R - Teste de hipóteses (Parte II)
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 17]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+
+
 
 
 ## Quiz

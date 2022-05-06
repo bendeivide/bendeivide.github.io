@@ -7189,21 +7189,15 @@ Considere o espaço amostral $ \Omega $. Dois eventos $ A $ e $ B $ de $ \Omega 
 &lt;ul&gt;
 &lt;li&gt;$ (i) \to (ii) $: Se $ P(AB) = P(A)P(B) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;[\begin{aligned}
-P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) &amp;gt; 0;
-\end{aligned}]&lt;/p&gt;
+&lt;p&gt;$$ P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) &amp;gt; 0; $$&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$ (ii) \to (iii) $: Se $ P(A|B) = P(A) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;[\begin{aligned}
-P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) &amp;gt; 0;
-\end{aligned}]&lt;/p&gt;
+&lt;p&gt;$$  P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) &amp;gt; 0; $$&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$ (iii) \to (i) $: Se $ P(B|A) = P(B) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;[\begin{aligned}
-P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) &amp;gt; 0.
-\end{aligned}]&lt;/p&gt;
+&lt;p&gt;$$ P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) &amp;gt; 0. $$&lt;/p&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 
@@ -7251,10 +7245,7 @@ A intuição para independência fica justificada pelo fato de que $ A $ é inde
 &lt;h2 id=&#34;exemplo-3&#34;&gt;Exemplo&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 Sejam os resultados possíveis de um dado honesto, cujo espaço amostral é $ \Omega = \{1, 2, 3, 4, 5, 6\} $. Considere um evento que representa o conjunto dos números ímpares desse espaço amostral, $ A = \{1, 3, 5\} $, e outro evento que consite nos múltiplos de 3, $ B = \{3, 6\} $. A probabilidade de $ A $ é $ P(A) = 1/2 $, a probabilidade de B é $ P(B) = 1/3 $, e a probabilidade da interseção entre A e B é $ P(A \cap B) = 1/6 $. Veja que dado que o evento B ocorra, ou não ocorra $ B^c = \{1, 2, 4, 5\} $, a probabilidade do evento A é a mesma, veja:
-&lt;p&gt;[\begin{aligned}
-P(A|B) &amp;amp; = \frac{1/6}{1/3} = 1/2\
-P(A|B^c) &amp;amp; = \frac{2/6}{4/6} = 1/2.
-\end{aligned}]&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\begin{align*} P(A|B) &amp;amp; = \frac{1/6}{1/3} = 1/2\\ P(A|B^c) &amp;amp; = \frac{2/6}{4/6} = 1/2. \end{align*}&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Que é o mesmo que entender que $ P(A) \times P(B) = 1/6 = P(A\cap B) $. Logo, $ A $ e $ B $ são eventos independentes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -7270,7 +7261,6 @@ P(A|B^c) &amp;amp; = \frac{2/6}{4/6} = 1/2.
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 Seja um experimento cujo objetivo é verificar a face superior de um tetraedro, isto é, $ \Omega = \{1, 2, 3, 4\} $. Sejam os eventos em $ \Omega $, $ A = \{1, 4\} $, $ B = \{2, 4\} $ e $ C = \{3, 4\} $. Considerando o tetraedro honesto e que cada valor é equiprovável, assim $ P(A) = P(B) = P(C) = 1/2 $. Observamos que estes eventos são independentes dois a dois, isto é, $ P(A\cap B) = 1/4 = P(A)P(B) $, $ P(A\cap C) = 1/4 = P(A)P(C) $ e $ P(B\cap C) = 1/4 = P(B)P(C) $. Porém, $ P(A\cap B \cap C) = 1/4 \neq P(A) P(B) P(C) $. Logo, os eventos A, B e C não são independentes três a três.
 &lt;/div&gt;
-&lt;/section&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -7282,12 +7272,7 @@ Seja um experimento cujo objetivo é verificar a face superior de um tetraedro, 
 &lt;h2 id=&#34;independência-de-uma-sequência-de-eventos&#34;&gt;Independência de uma sequência de eventos&lt;/h2&gt;
 &lt;div id=&#34;def:indseqeventos&#34; class=&#34;definicao&#34; cap=5 titulo=&#34;(Independência de uma sequência de eventos)&#34;&gt;
 &lt;p&gt;Considere o espaço amostral $ \Omega $. Uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $ são independentes se e somente se:&lt;/p&gt;
-&lt;p&gt;[\begin{aligned}
-P(A_i \cap A_j) &amp;amp; = P(A_i)P(A_j), \quad \textrm{para } i \neq j; \
-P(A_i \cap A_j \cap A_k) &amp;amp; = P(A_i)P(A_j)P(A_k), \quad \textrm{para } i \neq j \neq k; \
-\vdots &amp;amp;  \nonumber\
-P(\cap_{i = 1}^{n} A_i) &amp;amp; = \prod_{i = 1}^{n}P(A_i).
-\end{aligned} ]
+&lt;p&gt;&lt;code&gt;\begin{align*} P(A_i \cap A_j) &amp;amp; = P(A_i)P(A_j), \quad \textrm{para } i \neq j; \\ P(A_i \cap A_j \cap A_k) &amp;amp; = P(A_i)P(A_j)P(A_k), \quad \textrm{para } i \neq j \neq k; \\ \vdots &amp;amp;  \nonumber\\ P(\cap_{i = 1}^{n} A_i) &amp;amp; = \prod_{i = 1}^{n}P(A_i). \end{align*}&lt;/code&gt;
 &lt;/br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -7300,10 +7285,8 @@ P(\cap_{i = 1}^{n} A_i) &amp;amp; = \prod_{i = 1}^{n}P(A_i).
 
 &lt;h2 id=&#34;exemplo-motivação-2&#34;&gt;Exemplo (Motivação)&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
-Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou dependentes. Contudo, pela Definição \ref{def:ind2}, temos que
-&lt;p&gt;[\begin{aligned}
-P(D|M_i) &amp;amp; \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, para } i = 1, 2, 3,
-\end{aligned}]&lt;/p&gt;
+Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou dependentes. Contudo, pela Definição de independência, temos que
+&lt;p&gt;&lt;code&gt;\begin{align*} P(D|M_i) &amp;amp; \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, para } i = 1, 2, 3, \end{align*}&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;logo, não são independentes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -7317,9 +7300,7 @@ P(D|M_i) &amp;amp; \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, pa
 &lt;h2 id=&#34;teorema-de-bayes&#34;&gt;Teorema de Bayes&lt;/h2&gt;
 &lt;div id=&#34;teo:teobayes&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Teorema de Bayes)&#34;&gt;
 Considere o espaço amostral $ \Omega $. Considere uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $, disjuntos, tal que $ \bigcup^{n}_{i = 1}A_i = \Omega $, e $ B $ um evento de $ \Omega $, então a probabilidade de $ A_k $, para $ k = 1, 2, \ldots, n $, dado que ocorreu o evento $ B $,  denotado por $ P(A_k|B) $, é dado por:
-&lt;p&gt;[\begin{aligned}
-P(A_k|B) = \frac{P(B|A_k)P(A_k)}{\sum_{i = 1}^{n}P(B|A_i)P(A_i)}, \qquad k = 1, 2, \ldots, n,
-\end{aligned}]&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\begin{aligned} P(A_k|B) = \frac{P(B|A_k)P(A_k)}{\sum_{i = 1}^{n}P(B|A_i)P(A_i)}, \qquad k = 1, 2, \ldots, n, \end{aligned}&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;para $ P(A_k) &amp;gt; 0 $ e $ P(A_i) &amp;gt; 0 $, sendo $ i = 1, 2, \ldots, n $.&lt;/p&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -7333,12 +7314,122 @@ P(A_k|B) = \frac{P(B|A_k)P(A_k)}{\sum_{i = 1}^{n}P(B|A_i)P(A_i)}, \qquad k = 1, 
 &lt;h2 id=&#34;exemplo-motivação-3&#34;&gt;Exemplo (Motivação)&lt;/h2&gt;
 &lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
 Com esse resultado, Paulo agora pode tomar uma decisão mais plausível, isto é, dado um defeito numa determinada sandália produzida na fábrica, qual a probabilidade desta ter sido produzida em cada uma das máquinas?
-&lt;p&gt;[\begin{aligned}
-P(M_1|D) = \frac{0,01 \times 0,50}{0,016} = 0,3125\
-P(M_2|D) = \frac{0,02 \times 0,40}{0,016} = 0,5000\
-P(M_3|D) = \frac{0,03 \times 0,10}{0,016} = 0,1875\
-\end{aligned}]&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\begin{aligned} P(M_1|D) = \frac{0,01 \times 0,50}{0,016} = 0,3125\\ P(M_2|D) = \frac{0,02 \times 0,40}{0,016} = 0,5000\\ P(M_3|D) = \frac{0,03 \times 0,10}{0,016} = 0,1875\\ \end{aligned}&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;A tomada de decisão será substituir a máquina $ M_2 $. Poderíamos ter tomado uma decisão equivocada se não fosse o teorema de Bayes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística e Probabilidade</title>
+      <link>http://bendeivide.github.io/slides/estprob/s14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estprob/s14/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;estatística-e-probabilidade&#34;&gt;Estatística e Probabilidade&lt;/h1&gt;
+&lt;p&gt;Aula 14 - Variáveis aleatórias e Distribuições de probabilidades discretas
+&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34;&gt;Estatística e Probabilidade&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;selo-dc&#34;&gt;Selo DC&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s14/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp 400w,
+               /slides/estprob/s14/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_28a718b08e0f1b8193cec5ac4d8216a2.webp 760w,
+               /slides/estprob/s14/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s14/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp&#34;
+               width=&#34;384&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;motivação&#34;&gt;Motivação&lt;/h2&gt;
+&lt;div id=&#34;&#34; class=&#34;exemplo&#34; cap=5 titulo=&#34;&#34;&gt;
+Para explicar a definição de uma variável aleatória será considerado o exemplo, no qual duas variedades de uma espécie $ A $ ( $ A_1 $, $ A_2 $ ) e três de outra espécie $ E $ ( $ E_1 $, $ E_2 $ e $ E_3 $ ) são disponibilizados para uma pesquisa. Uma amostra de duas variedades ($ n=2 $) é extraída. O espaço amostral dos resultados desse experimento, segue,
+&lt;p&gt;&lt;code&gt;\begin{aligned} \Omega =  \{(A_1,A_2), (A_1,E_1), (A_1,E_2), (A_1,E_3), (A_2,E_1), (A_2,E_2), (A_2,E_3), (E_1,E_2),  (E_1,E_3), (E_2,E_3) \} \end{aligned}&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;cap02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;experimento-1&#34;&gt;Experimento 1&lt;/h2&gt;
+&lt;div class=&#34;r-stack&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom1.png&#34; data-fragment-index=&#34;1&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom2.png&#34; data-fragment-index=&#34;2&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom3.png&#34;  data-fragment-index=&#34;3&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom4.png&#34; data-fragment-index=&#34;4&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom5.png&#34; data-fragment-index=&#34;5&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom6.png&#34;  data-fragment-index=&#34;6&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom7.png&#34; data-fragment-index=&#34;7&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom8.png&#34; data-fragment-index=&#34;8&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom9.png&#34; data-fragment-index=&#34;9&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom10.png&#34; data-fragment-index=&#34;10&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom11.png&#34; data-fragment-index=&#34;11&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom12.png&#34; data-fragment-index=&#34;12&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom13.png&#34; data-fragment-index=&#34;13&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom14.png&#34; data-fragment-index=&#34;14&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom15.png&#34; data-fragment-index=&#34;15&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment fade-in-then-out&#34; src=&#34;binom16.png&#34;  data-fragment-index=&#34;16&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment current-visible&#34; src=&#34;binom17.png&#34; data-fragment-index=&#34;17&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
+  &lt;img class=&#34;fragment&#34; src=&#34;binom18.png&#34; width=&#34;650&#34; height=&#34;500&#34;&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 

@@ -441,21 +441,16 @@ Considere o espaço amostral $ \Omega $. Dois eventos $ A $ e $ B $ de $ \Omega 
 
 - $ (i) \to (ii) $: Se $ P(AB) = P(A)P(B) $, então:
 
-\[\begin{aligned}
-  P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) > 0;
-\end{aligned}\]
+$$ P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) > 0; $$
 
 - $ (ii) \to (iii) $: Se $ P(A|B) = P(A) $, então:
 
-\[\begin{aligned}
-  P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) > 0;
-\end{aligned}\]
+$$  P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) > 0; $$
 
 - $ (iii) \to (i) $: Se $ P(B|A) = P(B) $, então:
 
-\[\begin{aligned}
-  P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) > 0.
-\end{aligned}\]
+$$ P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) > 0. $$
+
 </div>
 
 
@@ -499,10 +494,10 @@ A intuição para independência fica justificada pelo fato de que $ A $ é inde
 <div id="" class="exemplo" cap=5 titulo="">
 Sejam os resultados possíveis de um dado honesto, cujo espaço amostral é $ \Omega = \{1, 2, 3, 4, 5, 6\} $. Considere um evento que representa o conjunto dos números ímpares desse espaço amostral, $ A = \{1, 3, 5\} $, e outro evento que consite nos múltiplos de 3, $ B = \{3, 6\} $. A probabilidade de $ A $ é $ P(A) = 1/2 $, a probabilidade de B é $ P(B) = 1/3 $, e a probabilidade da interseção entre A e B é $ P(A \cap B) = 1/6 $. Veja que dado que o evento B ocorra, ou não ocorra $ B^c = \{1, 2, 4, 5\} $, a probabilidade do evento A é a mesma, veja:
 
-\[\begin{aligned}
-  P(A|B) &amp; = \frac{1/6}{1/3} = 1/2\\
-  P(A|B^c) &amp; = \frac{2/6}{4/6} = 1/2.
-\end{aligned}\]
+\begin{align*}
+  P(A|B) & = \frac{1/6}{1/3} = 1/2\\
+  P(A|B^c) & = \frac{2/6}{4/6} = 1/2.
+\end{align*}
 
 Que é o mesmo que entender que $ P(A) \times P(B) = 1/6 = P(A\cap B) $. Logo, $ A $ e $ B $ são eventos independentes.
 </div>
@@ -517,7 +512,7 @@ Que é o mesmo que entender que $ P(A) \times P(B) = 1/6 = P(A\cap B) $. Logo, $
 <div id="" class="exemplo" cap=5 titulo="">
 Seja um experimento cujo objetivo é verificar a face superior de um tetraedro, isto é, $ \Omega = \{1, 2, 3, 4\} $. Sejam os eventos em $ \Omega $, $ A = \{1, 4\} $, $ B = \{2, 4\} $ e $ C = \{3, 4\} $. Considerando o tetraedro honesto e que cada valor é equiprovável, assim $ P(A) = P(B) = P(C) = 1/2 $. Observamos que estes eventos são independentes dois a dois, isto é, $ P(A\cap B) = 1/4 = P(A)P(B) $, $ P(A\cap C) = 1/4 = P(A)P(C) $ e $ P(B\cap C) = 1/4 = P(B)P(C) $. Porém, $ P(A\cap B \cap C) = 1/4 \neq P(A) P(B) P(C) $. Logo, os eventos A, B e C não são independentes três a três.
 </div>
-</section>
+
 
 ---
 
@@ -529,12 +524,12 @@ Seja um experimento cujo objetivo é verificar a face superior de um tetraedro, 
 
 Considere o espaço amostral $ \Omega $. Uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $ são independentes se e somente se:
 
-\[\begin{aligned}
+\begin{align*}
 	P(A_i \cap A_j) & = P(A_i)P(A_j), \quad \textrm{para } i \neq j; \\
 	P(A_i \cap A_j \cap A_k) & = P(A_i)P(A_j)P(A_k), \quad \textrm{para } i \neq j \neq k; \\
 	\vdots &  \nonumber\\
 	P(\cap_{i = 1}^{n} A_i) & = \prod_{i = 1}^{n}P(A_i).
-\end{aligned} \]
+\end{align*}
 </br>
 </div>
 
@@ -546,11 +541,11 @@ Considere o espaço amostral $ \Omega $. Uma sequência de eventos $ A_1, A_2, \
 ## Exemplo (Motivação)
 
 <div id="" class="exemplo" cap=5 titulo="">
-Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou dependentes. Contudo, pela Definição \ref{def:ind2}, temos que
+Paulo poderia indagar, se os eventos $ M_i $ e $ D $ são independentes ou dependentes. Contudo, pela Definição de independência, temos que
 
-\[\begin{aligned}
-P(D|M_i) &amp; \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, para } i = 1, 2, 3,
-\end{aligned}\]
+\begin{align*}
+P(D|M_i) & \neq P(D) = 0,016 \Rightarrow D \textrm{ e } M_i \textrm{, para } i = 1, 2, 3,
+\end{align*}
 
 logo, não são independentes.
 </div>
@@ -564,9 +559,9 @@ logo, não são independentes.
 <div id="teo:teobayes" class="teorema" cap=5 titulo="(Teorema de Bayes)">
 Considere o espaço amostral $ \Omega $. Considere uma sequência de eventos $ A_1, A_2, \ldots, A_n $ de $ \Omega $, disjuntos, tal que $ \bigcup^{n}_{i = 1}A_i = \Omega $, e $ B $ um evento de $ \Omega $, então a probabilidade de $ A_k $, para $ k = 1, 2, \ldots, n $, dado que ocorreu o evento $ B $,  denotado por $ P(A_k|B) $, é dado por:
 
-\[\begin{aligned}
+\begin{aligned}
 	P(A_k|B) = \frac{P(B|A_k)P(A_k)}{\sum_{i = 1}^{n}P(B|A_i)P(A_i)}, \qquad k = 1, 2, \ldots, n,
-\end{aligned}\]
+\end{aligned}
 
 para $ P(A_k) > 0 $ e $ P(A_i) > 0 $, sendo $ i = 1, 2, \ldots, n $.
 </div>
@@ -580,11 +575,11 @@ para $ P(A_k) > 0 $ e $ P(A_i) > 0 $, sendo $ i = 1, 2, \ldots, n $.
 <div id="" class="exemplo" cap=5 titulo="">
 Com esse resultado, Paulo agora pode tomar uma decisão mais plausível, isto é, dado um defeito numa determinada sandália produzida na fábrica, qual a probabilidade desta ter sido produzida em cada uma das máquinas?
 
-\[\begin{aligned}
+\begin{aligned}
     P(M_1|D) = \frac{0,01 \times 0,50}{0,016} = 0,3125\\
     P(M_2|D) = \frac{0,02 \times 0,40}{0,016} = 0,5000\\
     P(M_3|D) = \frac{0,03 \times 0,10}{0,016} = 0,1875\\
-\end{aligned}\]
+\end{aligned}
 
 A tomada de decisão será substituir a máquina $ M_2 $. Poderíamos ter tomado uma decisão equivocada se não fosse o teorema de Bayes.
 </div>
