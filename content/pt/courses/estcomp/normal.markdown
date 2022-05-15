@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-05-05 23:25:05"
+date: "2022-05-05 23:43:59"
 type: book
 weight: 10
 categories: ["R", "Estatística", "Probabilidade", "Programação"]
@@ -365,7 +365,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< icon name="headphones" pack="fas" >}} Podcast
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
- 
+
 - {{% staticref "r-scripts/estcomp/aula13.R" "newtab" %}}  {{< icon name="r-project" pack="fab" >}}  aula13.R  {{% /staticref %}}
 - {{% staticref "media/quadgauss.pdf" "newtab" %}}  {{< icon name="file-pdf" pack="fa" >}}  Quadratura Gauss-Legendre  {{% /staticref %}}
 - {{% staticref "media/pol_ort.pdf" "newtab" %}}  {{< icon name="file-pdf" pack="fa" >}}  Apresentação sobre Quadratura Gauss-Legendre  {{% /staticref %}}

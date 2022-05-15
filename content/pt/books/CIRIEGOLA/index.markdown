@@ -4,7 +4,7 @@ summary: Livro publicado
 tags:
 - bookciriegola
 categories: ["Misticismo", "Poesia", "Música"]
-date: "2022-03-13 17:57:16"
+date: "2022-05-15 16:51:58"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -15,6 +15,10 @@ image:
   focal_point: Smart
 
 links:
+- icon: amazon
+  icon_pack: fab
+  name: Amazon
+  url: https://www.amazon.com/-/pt/dp/650035611X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1VD7CCOPFVNQ7&keywords=Ben+D%C3%AAivide&qid=1652644020&s=books&sprefix=ben+d%C3%AAivid%2Cstripbooks-intl-ship%2C270&sr=1-1
 - icon: book-open
   icon_pack: fas
   name: Bookdown

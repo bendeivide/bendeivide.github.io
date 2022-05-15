@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 05 May 2022 23:25:05 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sun, 15 May 2022 16:51:58 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
-      <pubDate>Thu, 05 May 2022 23:25:05 +0000</pubDate>
+      <pubDate>Thu, 05 May 2022 23:43:59 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Brnewleemanco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -2172,6 +2172,19 @@ Período de 30/07/2021 a 30/09/2021&lt;/p&gt;
     </item>
     
     <item>
+      <title>Pelos Caminhos de Ciriégola</title>
+      <link>http://bendeivide.github.io/books/ciriegola/</link>
+      <pubDate>Sun, 15 May 2022 16:51:58 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/ciriegola/</guid>
+      <description>&lt;h2 id=&#34;prefácio&#34;&gt;Prefácio&lt;/h2&gt;
+&lt;p&gt;Alegra-nos o coração a presente iniciativa e boa vontade do jovem Ben Dêivide de Oliveira Batista em deixar grafado um pouco do trabalho deixado por seu pai, José Alcigério Batista, mais conhecido como Léo Batista. Quanto ao seu genitor temos vivido juntos com esse buscador por mais de seis décadas e ninguém mais, ninguém melhor do que “nós” sabe a trajetória desta alma velha inexoravelmente apaixonada pela imortalidade de suas convicções inusitadas e apaixonado pelas pessoas humildes e simples do seu tempo nas escolas públicas. Trouxe na sua genética os traços funcionais do seu pai, construtor de açude, o mestre Alcides Batista, e o jeito mágico de ver as coisas da professora de alfabetização Dona Josélia Batista, sua genitora. O material contido neste opúsculo é o resultado dos arquivos esquecidos de Léo e garimpados por Ben Dêivide ao longo de muitos anos. Jamais foi o desejo do professor tornar público seu pensamento em forma de prosa, verso ou música, tendo em vista a má interpretação e má uso daqueles conceitos pelas mentalidades jovens e dessa forma gerar “causa e efeito” negativo na sua própria trajetória encarnatória como aconteceu num pretérito não muito distante de nós. Estes excertos são todos carregados de magia e misticismo como assim foi e é a existência desse operário da educação, não estão sujeitos ao tempo de nosso tempo e foram moldados de forma anárquica e antisectária, não foram confeccionados com um fim de publicidade egóica, mas como um registro pessoal do seu “instante” ao entendimento da sua geração filial futura. Nós que acompanhamos “na pele” a trajetória deste mensageiro sabemos quão sofrida é a missão de quem vem para este orbe com a CONSCIÊNCIA aflorada para além do seu tempo e isto está marcado nos seus solilóquios que aqui foram grafados, é evidente que esta essência não se encaixe na compreensão de muitos, posto que não se pode ver qualidades nos outros quando não se tem as mesmas no arquivo interior. Ademais, o leitor com um pouco de sagácia será atraído pelo mistério que existe na arte literária modesta deste visionário artesão do verbo. Congratulamo-nos com o professor Ben Dêivide pela iniciativa da sua intenção em publicar parte da obra mandingueira do seu pai e amigo. Lembremos sempre que “O AMOR é a FONTE, a ALEGRIA é o PODER e a Vida é a CELEBRAÇÃO”.&lt;/p&gt;
+&lt;div align=&#34;right&#34; &gt;
+Alice Iorg, Glícia Ero, Crol Iagie, Ciriégola, Grilo Caié...
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Rapidinhas do R</title>
       <link>http://bendeivide.github.io/project/rapidinhasr/</link>
       <pubDate>Thu, 14 Apr 2022 07:54:13 +0000</pubDate>
@@ -2468,19 +2481,6 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
 &lt;p&gt;Esse primeiro volume, que representa o livro corrente, apresenta um breve &lt;strong&gt;histórico&lt;/strong&gt; sobre a linguagem, a sua instalação, bem como os recursos que a &lt;em&gt;IDE&lt;/em&gt;^[Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.] RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
 &lt;p&gt;A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente.&lt;/p&gt;
 &lt;p&gt;Por fim, espero que esse primeiro volume possa servir de referência para os passos iniciais nessa ferramenta tão importante para a área de análise de dados.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pelos Caminhos de Ciriégola</title>
-      <link>http://bendeivide.github.io/books/ciriegola/</link>
-      <pubDate>Sun, 13 Mar 2022 17:57:16 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/ciriegola/</guid>
-      <description>&lt;h2 id=&#34;prefácio&#34;&gt;Prefácio&lt;/h2&gt;
-&lt;p&gt;Alegra-nos o coração a presente iniciativa e boa vontade do jovem Ben Dêivide de Oliveira Batista em deixar grafado um pouco do trabalho deixado por seu pai, José Alcigério Batista, mais conhecido como Léo Batista. Quanto ao seu genitor temos vivido juntos com esse buscador por mais de seis décadas e ninguém mais, ninguém melhor do que “nós” sabe a trajetória desta alma velha inexoravelmente apaixonada pela imortalidade de suas convicções inusitadas e apaixonado pelas pessoas humildes e simples do seu tempo nas escolas públicas. Trouxe na sua genética os traços funcionais do seu pai, construtor de açude, o mestre Alcides Batista, e o jeito mágico de ver as coisas da professora de alfabetização Dona Josélia Batista, sua genitora. O material contido neste opúsculo é o resultado dos arquivos esquecidos de Léo e garimpados por Ben Dêivide ao longo de muitos anos. Jamais foi o desejo do professor tornar público seu pensamento em forma de prosa, verso ou música, tendo em vista a má interpretação e má uso daqueles conceitos pelas mentalidades jovens e dessa forma gerar “causa e efeito” negativo na sua própria trajetória encarnatória como aconteceu num pretérito não muito distante de nós. Estes excertos são todos carregados de magia e misticismo como assim foi e é a existência desse operário da educação, não estão sujeitos ao tempo de nosso tempo e foram moldados de forma anárquica e antisectária, não foram confeccionados com um fim de publicidade egóica, mas como um registro pessoal do seu “instante” ao entendimento da sua geração filial futura. Nós que acompanhamos “na pele” a trajetória deste mensageiro sabemos quão sofrida é a missão de quem vem para este orbe com a CONSCIÊNCIA aflorada para além do seu tempo e isto está marcado nos seus solilóquios que aqui foram grafados, é evidente que esta essência não se encaixe na compreensão de muitos, posto que não se pode ver qualidades nos outros quando não se tem as mesmas no arquivo interior. Ademais, o leitor com um pouco de sagácia será atraído pelo mistério que existe na arte literária modesta deste visionário artesão do verbo. Congratulamo-nos com o professor Ben Dêivide pela iniciativa da sua intenção em publicar parte da obra mandingueira do seu pai e amigo. Lembremos sempre que “O AMOR é a FONTE, a ALEGRIA é o PODER e a Vida é a CELEBRAÇÃO”.&lt;/p&gt;
-&lt;div align=&#34;right&#34; &gt;
-Alice Iorg, Glícia Ero, Crol Iagie, Ciriégola, Grilo Caié...
-&lt;/div&gt;
 </description>
     </item>
     
@@ -10694,6 +10694,32 @@ Para explicar a definição de uma variável aleatória será considerado o exem
       <link>http://bendeivide.github.io/slides/linhapesquisa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://bendeivide.github.io/slides/linhapesquisa/</guid>
+      <description>&lt;h1 id=&#34;linha-de-pesquisa&#34;&gt;Linha de Pesquisa&lt;/h1&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Estudo Estatística computacional, mais especificamente, o ambiente R. Estudos na área de Estatística Experimental e Probabilidade, como também no ensino da Estatística, Professor, Adjunto, C1. Atualmente trabalho na Universidade Federal de São João del-Rei (UFSJ), campus Alto Paraopeba, Ouro Branco/MG.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;linha-de-pesquisa-1&#34;&gt;Linha de Pesquisa&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Estatística computacional com ênfase em desenvolvimento de pacotes estatísticos&lt;/li&gt;
+&lt;li&gt;Estatística Experimental&lt;/li&gt;
+&lt;li&gt;Procedimentos de Comparações Múltiplas&lt;/li&gt;
+&lt;li&gt;Ensino da estatística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;contato&#34;&gt;Contato&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Profissional&lt;/a&gt; | &lt;a href=&#34;https://ufsj.edu.br/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institucional&lt;/a&gt; | &lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;E-mail&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Relatórios e slides otimizados</title>
+      <link>http://bendeivide.github.io/slides/smartalk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/smartalk/</guid>
       <description>&lt;h1 id=&#34;linha-de-pesquisa&#34;&gt;Linha de Pesquisa&lt;/h1&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
