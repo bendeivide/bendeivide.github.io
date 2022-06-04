@@ -1,15 +1,19 @@
 ---
 title: 📚 Ensino normal 2022.1
-date: "2022-04-27 18:42:34"
+date: "2022-06-04 00:55:12"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
 tags: ["Curso"]
 draft: false
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
-
-Curso de Estatística e Probabilidade oferecido no formato presencial pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba ([CAP](http://ufsj.edu.br/cap/)), Ouro Branco/MG.
+Curso de Estatística e Probabilidade oferecido no formato presencial
+pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba
+([CAP](http://ufsj.edu.br/cap/)), Ouro Branco/MG.
 
 <!--more-->
 
@@ -17,34 +21,39 @@ Curso de Estatística e Probabilidade oferecido no formato presencial pela [UFSJ
 
 ## Apresentação
 
-Definições gerais. Coleta, organização de dados. Medidas de posição. Medidas de dispersão. Probabilidades. Distribuições de probabilidade. Amostragem. Teoria da estimação. Teoria da decisão. Correlação e regressão linear simples.
+Definições gerais. Coleta, organização de dados. Medidas de posição.
+Medidas de dispersão. Probabilidades. Distribuições de probabilidade.
+Amostragem. Teoria da estimação. Teoria da decisão. Correlação e
+regressão linear simples.
 
 ## Onde?
 
-- O curso é ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba ([CAP](http://ufsj.edu.br/cap/)), para todos os cursos de Engenharia do campus.
-- Todas as nossas estão gravadas:
-  - canal: <http://youtube.com/bendeivide>
-  - Período: 21/03/2022 a 23/07/2022
-  - Aulas presenciais:
-    - Engenheria de Telecomunicações:
-      - segunda-feira (13h15min - 15h05min.)
-      - terça-feira (13h15min - 15h05min.)
-    - Engenharia Química:
-      - segunda-feira (21h - 22h50min.)
-      - quarta-feira (19h - 20h50min.)
-   - Retransmissão pelo youtube:
-      - quarta-feira 14h10min.
+-   O curso é ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
+    Paraopeba ([CAP](http://ufsj.edu.br/cap/)), para todos os cursos de
+    Engenharia do campus.
+-   Todas as nossas estão gravadas:
+    -   canal: <http://youtube.com/bendeivide>
+    -   Período: 21/03/2022 a 23/07/2022
+    -   Aulas presenciais:
+        -   Engenheria de Telecomunicações:
+            -   segunda-feira (13h15min - 15h05min.)
+            -   terça-feira (13h15min - 15h05min.)
+        -   Engenharia Química:
+            -   segunda-feira (21h - 22h50min.)
+            -   quarta-feira (19h - 20h50min.)
+    -   Retransmissão pelo youtube:
+        -   quarta-feira 14h10min.
 
 ## Cronograma {#cronograma}
 
-
-- [Cronograma de aulas](https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing):
-{{< gdocs src="https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing" >}}
-
+-   [Cronograma de
+    aulas](https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing):
+    {{< gdocs src="https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing" >}}
 
 ## Ementa
 
-Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ
+Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
+CAP/UFSJ
 
 {{< spoiler text="Acesse a ementa do curso">}}
 1. DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
@@ -126,18 +135,22 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 ## Metodologia
 
-Nossas aulas serão divididas de acordo com as 18 semanas de aula. As aulas serão expositivas e  dialogadas com os alunos presencialmente ou via portal didático, constituída pela seguinte estratégia de ensino:
+Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
+aulas serão expositivas e dialogadas com os alunos presencialmente ou
+via portal didático, constituída pela seguinte estratégia de ensino:
 
-- Motivação:
-  - Levantamento do conhecimento prévio dos alunos em relação ao tema;
-  - Apresentação de algumas situações práticas para a compreensão dos tópicos a serem abordados;
-  - Exposição dos objetivos da aula.
-- Desenvolvimento:
-  - Introdução ao assunto abordado;
-  - Apresentação de definições e teoremas envolvidos;
-  - Aplicação de softwares estatísticos, quando for pertinente;
-  - Exemplos e aplicações na estatística e área do curso, do assunto abordado.
-
+-   Motivação:
+    -   Levantamento do conhecimento prévio dos alunos em relação ao
+        tema;
+    -   Apresentação de algumas situações práticas para a compreensão
+        dos tópicos a serem abordados;
+    -   Exposição dos objetivos da aula.
+-   Desenvolvimento:
+    -   Introdução ao assunto abordado;
+    -   Apresentação de definições e teoremas envolvidos;
+    -   Aplicação de softwares estatísticos, quando for pertinente;
+    -   Exemplos e aplicações na estatística e área do curso, do assunto
+        abordado.
 
 {{< spoiler text="Detalhamento da metodologia">}}
 As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Dessa forma, traremos métodos de aprendizagem do tipo "ensinar por aprender".
@@ -148,8 +161,6 @@ Irei utilizar diversas ferramentas do google como os seus editores de textos, pl
 {{< /spoiler >}}
 
 ## Avaliação {#avaliacao}
-
-
 
 {{< spoiler text="Segue um detalhamento das nossas avaliações">}}
 Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:
@@ -173,17 +184,27 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 - Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.
 {{< /spoiler >}}
 
+## Como as provas serão corrigidas
+
+-   {{% staticref "media/critprova.pdf" "newtab" %}}Critérios de
+    avaliação{{% /staticref %}}
 
 ## Contrato {#contrato}
 
-Contrato feito para a disciplina de Estatística e Probabilidade, como meio de substituir as avaliações tradicionais para uso de metodologias ativas como método de avaliação. Paralelo a disciplina, o aluno irá acompanhando as aulas e desenvolvendo demandas semanais, como forma de ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda semana o aluno é acompanhado e avaliado pelo professor.
+Contrato feito para a disciplina de Estatística e Probabilidade, como
+meio de substituir as avaliações tradicionais para uso de metodologias
+ativas como método de avaliação. Paralelo a disciplina, o aluno irá
+acompanhando as aulas e desenvolvendo demandas semanais, como forma de
+ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
+semana o aluno é acompanhado e avaliado pelo professor.
 
 {{< spoiler text="Abra o contrato aqui!">}}
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQwTFw47p8SHeZeK4eXORDqTuYFcxq6vaaV20gn4qyqKu9SA/viewform?embedded=true" width="640" height="2211" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQwTFw47p8SHeZeK4eXORDqTuYFcxq6vaaV20gn4qyqKu9SA/viewform?embedded=true" width="640" height="2211" frameborder="0" marginheight="0" marginwidth="0">
+
+Carregando...</iframe>
 
 {{< /spoiler >}}
-
 
 ## Bibliografia adotada para a disciplina
 
@@ -198,19 +219,8 @@ Contrato feito para a disciplina de Estatística e Probabilidade, como meio de s
 
 ## Material adotado
 
-- Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
-{{< spoiler text="Materiais complementares">}}
-- [Estatística Básica (Departamento de Estatística, UFPR)](http://leg.ufpr.br/~paulojus/estbas/)
-- [Estatística Aplicada (Tales Jesus Fernandes, UFLA)](http://github.com/talesjfer/Apostila-Estatistica-Aplicada)
-- [Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)](http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf)
-- [Estatística e Probabilidade (UECE)](http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf)
-- [Estimação Estatística (Assis, et. al. 2021)](https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf)
-- [Introdução à estatística com R (Eric Ferreira & Marcelo Oliveira )](http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf)
-- [Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria & João Parga)](https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica)
-- [Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)](https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf)
-- [Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)](https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf)
-- [Canal Ciência Estatística](https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA)
-{{< /spoiler >}}
+-   Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
+    31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFkAZwBBADIAQQBEAFUAQQBZAGcAQQAxAEEARABnAEEAWgBnAEIAawBBAEMAMABBAFoAQQBBADMAQQBEAEEAQQBOAHcAQQB0AEEARABRAEEAWQB3AEEAegBBAEQAQQBBAEwAUQBBADQAQQBHAE0AQQBPAFEAQQAzAEEAQwAwAEEATQB3AEIAawBBAEQAawBBAE8AUQBCAGgAQQBHAE0AQQBaAGcAQQA1AEEARwBFAEEATQBRAEEAMQBBAEQAYwBBAAoAcABvAHMAaQB0AGkAbwBuADoATQBRAEEAeABBAEQATQBBAE0AUQBBAHkAQQBBAD0APQAKAHAAcgBlAGYAaQB4ADoACgBzAG8AdQByAGMAZQA6AGUAdwBCADcAQQBEAHcAQQBJAEEAQgB6AEEASABBAEEAYgB3AEIAcABBAEcAdwBBAFoAUQBCAHkAQQBDAEEAQQBkAEEAQgBsAEEASABnAEEAZABBAEEAOQBBAEMASQBBAFQAUQBCAGgAQQBIAFEAQQBaAFEAQgB5AEEARwBrAEEAWQBRAEIAcABBAEgATQBBAEkAQQBCAGoAQQBHADgAQQBiAFEAQgB3AEEARwB3AEEAWgBRAEIAdABBAEcAVQBBAGIAZwBCADAAQQBHAEUAQQBjAGcAQgBsAEEASABNAEEASQBnAEEAKwBBAEgAMABBAGYAUQBBAEsAQQBDADAAQQBJAEEAQgBiAEEARQBVAEEAYwB3AEIAMABBAEcARQBBAGQAQQBEAHQAQQBIAE0AQQBkAEEAQgBwAEEARwBNAEEAWQBRAEEAZwBBAEUASQBBADQAUQBCAHoAQQBHAGsAQQBZAHcAQgBoAEEAQwBBAEEASwBBAEIARQBBAEcAVQBBAGMAQQBCAGgAQQBIAEkAQQBkAEEAQgBoAEEARwAwAEEAWgBRAEIAdQBBAEgAUQBBAGIAdwBBAGcAQQBHAFEAQQBaAFEAQQBnAEEARQBVAEEAYwB3AEIAMABBAEcARQBBAGQAQQBEAHQAQQBIAE0AQQBkAEEAQgBwAEEARwBNAEEAWQBRAEEAcwBBAEMAQQBBAFYAUQBCAEcAQQBGAEEAQQBVAGcAQQBwAEEARgAwAEEASwBBAEIAbwBBAEgAUQBBAGQAQQBCAHcAQQBEAG8AQQBMAHcAQQB2AEEARwB3AEEAWgBRAEIAbgBBAEMANABBAGQAUQBCAG0AQQBIAEEAQQBjAGcAQQB1AEEARwBJAEEAYwBnAEEAdgBBAEgANABBAGMAQQBCAGgAQQBIAFUAQQBiAEEAQgB2AEEARwBvAEEAZABRAEIAegBBAEMAOABBAFoAUQBCAHoAQQBIAFEAQQBZAGcAQgBoAEEASABNAEEATAB3AEEAcABBAEEAbwBBAEwAUQBBAGcAQQBGAHMAQQBSAFEAQgB6AEEASABRAEEAWQBRAEIAMABBAE8AMABBAGMAdwBCADAAQQBHAGsAQQBZAHcAQgBoAEEAQwBBAEEAUQBRAEIAdwBBAEcAdwBBAGEAUQBCAGoAQQBHAEUAQQBaAEEAQgBoAEEAQwBBAEEASwBBAEIAVQBBAEcARQBBAGIAQQBCAGwAQQBIAE0AQQBJAEEAQgBLAEEARwBVAEEAYwB3AEIAMQBBAEgATQBBAEkAQQBCAEcAQQBHAFUAQQBjAGcAQgB1AEEARwBFAEEAYgBnAEIAawBBAEcAVQBBAGMAdwBBAHMAQQBDAEEAQQBWAFEAQgBHAEEARQB3AEEAUQBRAEEAcABBAEYAMABBAEsAQQBCAG8AQQBIAFEAQQBkAEEAQgB3AEEARABvAEEATAB3AEEAdgBBAEcAYwBBAGEAUQBCADAAQQBHAGcAQQBkAFEAQgBpAEEAQwA0AEEAWQB3AEIAdgBBAEcAMABBAEwAdwBCADAAQQBHAEUAQQBiAEEAQgBsAEEASABNAEEAYQBnAEIAbQBBAEcAVQBBAGMAZwBBAHYAQQBFAEUAQQBjAEEAQgB2AEEASABNAEEAZABBAEIAcABBAEcAdwBBAFkAUQBBAHQAQQBFAFUAQQBjAHcAQgAwAEEARwBFAEEAZABBAEIAcABBAEgATQBBAGQAQQBCAHAAQQBHAE0AQQBZAFEAQQB0AEEARQBFAEEAYwBBAEIAcwBBAEcAawBBAFkAdwBCAGgAQQBHAFEAQQBZAFEAQQBwAEEAQQBvAEEATABRAEEAZwBBAEYAcwBBAFUAZwBCAGwAQQBIAE0AQQBkAFEAQgB0AEEARwA4AEEASQBBAEIAawBBAEcAOABBAEkAQQBCAE0AQQBHAGsAQQBkAGcAQgB5AEEARwA4AEEASQBBAEIARgBBAEgATQBBAGQAQQBCAGgAQQBIAFEAQQA3AFEAQgB6AEEASABRAEEAYQBRAEIAagBBAEcARQBBAEkAQQBCAEMAQQBPAEUAQQBjAHcAQgBwAEEARwBNAEEAWQBRAEEAZwBBAEMAZwBBAFIAQQBCAGgAQQBHADQAQQBhAFEAQgBsAEEARwB3AEEASQBBAEIARwBBAEgAVQBBAGMAZwBCADAAQQBHAEUAQQBaAEEAQgB2AEEAQwB3AEEASQBBAEIAVgBBAEUAWQBBAFQAQQBCAEIAQQBDAGsAQQBYAFEAQQBvAEEARwBnAEEAZABBAEIAMABBAEgAQQBBAE8AZwBBAHYAQQBDADgAQQBjAGcAQgBsAEEASABBAEEAYgB3AEIAegBBAEcAawBBAGQAQQBCAHYAQQBIAEkAQQBhAFEAQgB2AEEAQwA0AEEAZABRAEIAbQBBAEcAdwBBAFkAUQBBAHUAQQBHAEkAQQBjAGcAQQB2AEEARwBJAEEAYQBRAEIAMABBAEgATQBBAGQAQQBCAHkAQQBHAFUAQQBZAFEAQgB0AEEAQwA4AEEATQBRAEEAdgBBAEQAUQBBAE0AUQBBAHoAQQBEAFEAQQBOAEEAQQB2AEEARABFAEEATAB3AEIASABBAEcAVQBBAGUAQQBBAHgAQQBEAEUAQQBNAGcAQgBmAEEARABBAEEATABnAEIAdwBBAEcAUQBBAFoAZwBBAHAAQQBBAG8AQQBMAFEAQQBnAEEARgBzAEEAUgBRAEIAegBBAEgAUQBBAFkAUQBCADAAQQBPADAAQQBjAHcAQgAwAEEARwBrAEEAWQB3AEIAaABBAEMAQQBBAFoAUQBBAGcAQQBGAEEAQQBjAGcAQgB2AEEARwBJAEEAWQBRAEIAaQBBAEcAawBBAGIAQQBCAHAAQQBHAFEAQQBZAFEAQgBrAEEARwBVAEEASQBBAEEAbwBBAEYAVQBBAFIAUQBCAEQAQQBFAFUAQQBLAFEAQgBkAEEAQwBnAEEAYQBBAEIAMABBAEgAUQBBAGMAQQBBADYAQQBDADgAQQBMAHcAQgBsAEEARwBRAEEAZABRAEIAagBBAEcARQBBAGMAQQBCAGwAQQBIAE0AQQBMAGcAQgBqAEEARwBFAEEAYwBBAEIAbABBAEgATQBBAEwAZwBCAG4AQQBHADgAQQBkAGcAQQB1AEEARwBJAEEAYwBnAEEAdgBBAEcASQBBAGEAUQBCADAAQQBIAE0AQQBkAEEAQgB5AEEARwBVAEEAWQBRAEIAdABBAEMAOABBAFkAdwBCAGgAQQBIAEEAQQBaAFEAQgB6AEEAQwA4AEEATgBBAEEAegBBAEQASQBBAE0AZwBBAHcAQQBEAGMAQQBMAHcAQQB5AEEAQwA4AEEAVABBAEIAcABBAEgAWQBBAGMAZwBCAHYAQQBGADgAQQBSAFEAQgB6AEEASABRAEEAWQBRAEIAMABBAEcAawBBAGMAdwBCADAAQQBHAGsAQQBZAHcAQgBoAEEAQwBVAEEATQBnAEEAdwBBAEcAVQBBAEoAUQBBAHkAQQBEAEEAQQBVAEEAQgB5AEEARwA4AEEAWQBnAEIAaABBAEcASQBBAGEAUQBCAHMAQQBHAGsAQQBaAEEAQgBoAEEARwBRAEEAWgBRAEEAdQBBAEgAQQBBAFoAQQBCAG0AQQBDAGsAQQBDAGcAQQB0AEEAQwBBAEEAVwB3AEIARgBBAEgATQBBAGQAQQBCAHAAQQBHADAAQQBZAFEARABuAEEATwBNAEEAYgB3AEEAZwBBAEUAVQBBAGMAdwBCADAAQQBHAEUAQQBkAEEARAB0AEEASABNAEEAZABBAEIAcABBAEcATQBBAFkAUQBBAGcAQQBDAGcAQQBRAFEAQgB6AEEASABNAEEAYQBRAEIAegBBAEMAdwBBAEkAQQBCAGwAQQBIAFEAQQBMAGcAQQBnAEEARwBFAEEAYgBBAEEAdQBBAEMAQQBBAE0AZwBBAHcAQQBEAEkAQQBNAFEAQQBwAEEARgAwAEEASwBBAEIAbwBBAEgAUQBBAGQAQQBCAHcAQQBIAE0AQQBPAGcAQQB2AEEAQwA4AEEAZAB3AEIAMwBBAEgAYwBBAEwAZwBCAGwAQQBHAFEAQQBhAFEAQgAwAEEARwA4AEEAYwBnAEIAaABBAEgAQQBBAFkAUQBCAHUAQQBIAFEAQQBZAFEAQgB1AEEARwBFAEEAYgBBAEEAdQBBAEcATQBBAGIAdwBCAHQAQQBDADQAQQBZAGcAQgB5AEEAQwA4AEEAWgBRAEIAaQBBAEcAOABBAGIAdwBCAHIAQQBIAE0AQQBMAHcAQQB5AEEARABBAEEATQBnAEEAeABBAEMAOABBAFoAUQBCAHoAQQBIAFEAQQBhAFEAQgB0AEEARwBFAEEAWQB3AEIAaABBAEcAOABBAEwAUQBCAGwAQQBIAE0AQQBkAEEAQgBoAEEASABRAEEAYQBRAEIAegBBAEgAUQBBAGEAUQBCAGoAQQBHAEUAQQBMAHcAQgBsAEEARwBJAEEAYgB3AEIAdgBBAEcAcwBBAEwAZwBCAHcAQQBHAFEAQQBaAGcAQQBwAEEAQQBvAEEATABRAEEAZwBBAEYAcwBBAFMAUQBCAHUAQQBIAFEAQQBjAGcAQgB2AEEARwBRAEEAZABRAEQAbgBBAE8ATQBBAGIAdwBBAGcAQQBPAEEAQQBJAEEAQgBsAEEASABNAEEAZABBAEIAaABBAEgAUQBBADcAUQBCAHoAQQBIAFEAQQBhAFEAQgBqAEEARwBFAEEASQBBAEIAagBBAEcAOABBAGIAUQBBAGcAQQBGAEkAQQBJAEEAQQBvAEEARQBVAEEAYwBnAEIAcABBAEcATQBBAEkAQQBCAEcAQQBHAFUAQQBjAGcAQgB5AEEARwBVAEEAYQBRAEIAeQBBAEcARQBBAEkAQQBBAG0AQQBDAEEAQQBUAFEAQgBoAEEASABJAEEAWQB3AEIAbABBAEcAdwBBAGIAdwBBAGcAQQBFADgAQQBiAEEAQgBwAEEASABZAEEAWgBRAEIAcABBAEgASQBBAFkAUQBBAGcAQQBDAGsAQQBYAFEAQQBvAEEARwBnAEEAZABBAEIAMABBAEgAQQBBAE8AZwBBAHYAQQBDADgAQQBkAHcAQgAzAEEASABjAEEATABnAEIAMQBBAEcANABBAGEAUQBCAG0AQQBHAEUAQQBiAEEAQQB0AEEARwAwAEEAWgB3AEEAdQBBAEcAVQBBAFoAQQBCADEAQQBDADQAQQBZAGcAQgB5AEEAQwA4AEEAWQBnAEIAcABBAEcASQBBAGIAQQBCAHAAQQBHADgAQQBkAEEAQgBsAEEARwBNAEEAWQBRAEIAegBBAEMAOABBAGMAdwBCADUAQQBIAE0AQQBkAEEAQgBsAEEARwAwAEEATAB3AEIAbQBBAEcAawBBAGIAQQBCAGwAQQBIAE0AQQBMAHcAQgBwAEEARwAwAEEAWQB3AEIAbABBAEMAOABBAFIAUQBCAEMAQQBGAEkAQQBYAHcAQgBWAEEARwA0AEEAYQBRAEIAbQBBAEcARQBBAGIAQQBBAHUAQQBIAEEAQQBaAEEAQgBtAEEAQwBrAEEAQwBnAEEAdABBAEMAQQBBAFcAdwBCAEoAQQBHADQAQQBkAEEAQgB5AEEARwA4AEEAWgBBAEIAMQBBAE8AYwBBADQAdwBCAHYAQQBDAEEAQQBZAFEAQQBnAEEARwB3AEEAYQBRAEIAdQBBAEcAYwBBAGQAUQBCAGgAQQBHAGMAQQBaAFEAQgB0AEEAQwBBAEEAVQBnAEEANgBBAEMAQQBBAGMAdwBCAGwAQQBIAFUAQQBjAHcAQQBnAEEARwBZAEEAZABRAEIAdQBBAEcAUQBBAFkAUQBCAHQAQQBHAFUAQQBiAGcAQgAwAEEARwA4AEEAYwB3AEEAZwBBAEcAVQBBAEkAQQBCAHcAQQBIAEkAQQA0AFEAQgAwAEEARwBrAEEAWQB3AEIAaABBAEgATQBBAEkAQQBBAG8AQQBGAEEAQQBaAFEAQgBrAEEASABJAEEAYgB3AEEAZwBBAEUAWQBBAFkAUQBCAHkAQQBHAGsAQQBZAFEAQQBnAEEAQwBZAEEASQBBAEIASwBBAEcAOABBADQAdwBCAHYAQQBDAEEAQQBVAEEAQgBoAEEASABJAEEAWgB3AEIAaABBAEMAawBBAFgAUQBBAG8AQQBHAGcAQQBkAEEAQgAwAEEASABBAEEAYwB3AEEANgBBAEMAOABBAEwAdwBCADMAQQBIAGMAQQBkAHcAQQB1AEEASABJAEEAWgBRAEIAegBBAEcAVQBBAFkAUQBCAHkAQQBHAE0AQQBhAEEAQgBuAEEARwBFAEEAZABBAEIAbABBAEMANABBAGIAZwBCAGwAQQBIAFEAQQBMAHcAQgB3AEEASABVAEEAWQBnAEIAcwBBAEcAawBBAFkAdwBCAGgAQQBIAFEAQQBhAFEAQgB2AEEARwA0AEEATAB3AEEAegBBAEQAUQBBAE4AUQBBADUAQQBEAGcAQQBOAFEAQQB3AEEARABnAEEATQBnAEIAZgBBAEUAawBBAGIAZwBCADAAQQBIAEkAQQBiAHcAQgBrAEEASABVAEEAWQB3AEIAaABBAEcAOABBAFgAdwBCAGgAQQBGADgAQQBUAEEAQgBwAEEARwA0AEEAWgB3AEIAMQBBAEcARQBBAFoAdwBCAGwAQQBHADAAQQBYAHcAQgBTAEEARgA4AEEAYwB3AEIAbABBAEgAVQBBAGMAdwBCAGYAQQBHAFkAQQBkAFEAQgB1AEEARwBRAEEAWQBRAEIAdABBAEcAVQBBAGIAZwBCADAAQQBHADgAQQBjAHcAQgBmAEEARwBVAEEAWAB3AEIAegBBAEgAVQBBAFkAUQBCAGYAQQBIAEEAQQBjAGcAQgBoAEEASABRAEEAYQBRAEIAagBBAEcARQBBAEsAUQBBAEsAQQBDADAAQQBJAEEAQgBiAEEARgBRAEEAWgBRAEIAegBBAEgAUQBBAFoAUQBBAGcAQQBHAFEAQQBaAFEAQQBnAEEARQBnAEEAYQBRAEIAdwBBAFAATQBBAGQAQQBCAGwAQQBIAE0AQQBaAFEAQgB6AEEAQwBBAEEAUgBRAEIAegBBAEgAUQBBAFkAUQBCADAAQQBPADAAQQBjAHcAQgAwAEEARwBrAEEAWQB3AEIAaABBAEgATQBBAEkAQQBBAG8AQQBFAG8AQQBZAFEAQgB1AEEARwBrAEEAYgBBAEIAegBBAEcAOABBAGIAZwBBAGcAQQBGAEEAQQBhAFEAQgB1AEEARwBnAEEAWgBRAEIAcABBAEgASQBBAGIAdwBBAGcAQQBHAFEAQQBaAFEAQQBnAEEARQBFAEEAYwB3AEIAegBBAEcAawBBAGMAdwBBAGcAQQBHAFUAQQBkAEEAQQB1AEEAQwBBAEEAWQBRAEIAcwBBAEMANABBAEwAQQBBAGcAQQBGAFUAQQBSAGcAQgBGAEEARgBJAEEAVQB3AEIAQgBBAEMAawBBAFgAUQBBAG8AQQBHAGcAQQBkAEEAQgAwAEEASABBAEEAYwB3AEEANgBBAEMAOABBAEwAdwBCAHMAQQBHAGsAQQBkAGcAQgB5AEEARwBFAEEAYwBnAEIAcABBAEcARQBBAEwAZwBCADEAQQBHAFkAQQBaAFEAQgB5AEEASABNAEEAWQBRAEEAdQBBAEcAVQBBAFoAQQBCADEAQQBDADQAQQBZAGcAQgB5AEEAQwA4AEEAZAB3AEIAdwBBAEMAMABBAFkAdwBCAHYAQQBHADQAQQBkAEEAQgBsAEEARwA0AEEAZABBAEEAdgBBAEgAVQBBAGMAQQBCAHMAQQBHADgAQQBZAFEAQgBrAEEASABNAEEATAB3AEIAegBBAEcAawBBAGQAQQBCAGwAQQBIAE0AQQBMAHcAQQB4AEEARABZAEEATgBRAEEAdgBBAEQASQBBAE0AQQBBAHkAQQBEAEEAQQBMAHcAQQB3AEEARABnAEEATAB3AEIAMABBAEcAVQBBAGMAdwBCADAAQQBHAFUAQQBjAHcAQQB0AEEARwBRAEEAWgBRAEEAdABBAEcAZwBBAGEAUQBCAHcAQQBHADgAQQBkAEEAQgBsAEEASABNAEEAWgBRAEIAegBBAEMAMABBAFoAUQBCAHoAQQBIAFEAQQBZAFEAQgAwAEEARwBrAEEAYwB3AEIAMABBAEcAawBBAFkAdwBCAGgAQQBIAE0AQQBMAFEAQgBsAEEARwBRAEEAZABRAEIAbQBBAEcAVQBBAGMAZwBCAHoAQQBHAEUAQQBMAGcAQgB3AEEARwBRAEEAWgBnAEEAcABBAEEAbwBBAEwAUQBBAGcAQQBGAHMAQQBSAHcAQgBzAEEARwA4AEEAYwB3AEIAegBBAE8ARQBBAGMAZwBCAHAAQQBHADgAQQBJAEEAQgBrAEEARwBVAEEASQBBAEIARgBBAEgATQBBAGQAQQBCAGgAQQBIAFEAQQA3AFEAQgB6AEEASABRAEEAYQBRAEIAagBBAEcARQBBAEkAQQBBAG8AQQBFAG8AQQBZAFEAQgB1AEEARwBrAEEAYgBBAEIAegBBAEcAOABBAGIAZwBBAGcAQQBGAEEAQQBhAFEAQgB1AEEARwBnAEEAWgBRAEIAcABBAEgASQBBAGIAdwBBAGcAQQBHAFEAQQBaAFEAQQBnAEEARQBFAEEAYwB3AEIAegBBAEcAawBBAGMAdwBBAHMAQQBDAEEAQQBWAFEAQgBHAEEARQBVAEEAVQBnAEIAVABBAEUARQBBAEsAUQBCAGQAQQBDAGcAQQBhAEEAQgAwAEEASABRAEEAYwBBAEIAegBBAEQAbwBBAEwAdwBBAHYAQQBHAHcAQQBhAFEAQgAyAEEASABJAEEAWQBRAEIAeQBBAEcAawBBAFkAUQBBAHUAQQBIAFUAQQBaAGcAQgBsAEEASABJAEEAYwB3AEIAaABBAEMANABBAFoAUQBCAGsAQQBIAFUAQQBMAGcAQgBpAEEASABJAEEATAB3AEIAMwBBAEgAQQBBAEwAUQBCAGoAQQBHADgAQQBiAGcAQgAwAEEARwBVAEEAYgBnAEIAMABBAEMAOABBAGQAUQBCAHcAQQBHAHcAQQBiAHcAQgBoAEEARwBRAEEAYwB3AEEAdgBBAEgATQBBAGEAUQBCADAAQQBHAFUAQQBjAHcAQQB2AEEARABFAEEATgBnAEEAMQBBAEMAOABBAE0AZwBBAHcAQQBEAEUAQQBPAFEAQQB2AEEARABBAEEATgB3AEEAdgBBAEUAYwBBAGIAQQBCAHYAQQBIAE0AQQBjAHcAQgBoAEEASABJAEEAYQBRAEIAdgBBAEMAMABBAFoAQQBCAGwAQQBDADAAQQBSAFEAQgB6AEEASABRAEEAWQBRAEIAMABBAEcAawBBAGMAdwBCADAAQQBHAGsAQQBZAHcAQgBoAEEARgA4AEEATQBnAEEAdwBBAEQARQBBAE8AUQBBAHQAQQBEAEUAQQBMAGcAQgB3AEEARwBRAEEAWgBnAEEAcABBAEEAbwBBAEwAUQBBAGcAQQBGAHMAQQBRAHcAQgBoAEEARwA0AEEAWQBRAEIAcwBBAEMAQQBBAFEAdwBCAHAAQQBPAG8AQQBiAGcAQgBqAEEARwBrAEEAWQBRAEEAZwBBAEUAVQBBAGMAdwBCADAAQQBHAEUAQQBkAEEARAB0AEEASABNAEEAZABBAEIAcABBAEcATQBBAFkAUQBCAGQAQQBDAGcAQQBhAEEAQgAwAEEASABRAEEAYwBBAEIAegBBAEQAbwBBAEwAdwBBAHYAQQBIAGMAQQBkAHcAQgAzAEEAQwA0AEEAZQBRAEIAdgBBAEgAVQBBAGQAQQBCADEAQQBHAEkAQQBaAFEAQQB1AEEARwBNAEEAYgB3AEIAdABBAEMAOABBAFkAdwBCAG8AQQBHAEUAQQBiAGcAQgB1AEEARwBVAEEAYgBBAEEAdgBBAEYAVQBBAFEAdwBCAHYAQQBFAHcAQQBOAHcAQgBKAEEARwBjAEEAZQBRAEIATABBAEYASQBBAFcAZwBBADIAQQBFAG8AQQBRAGcAQgB2AEEARwBjAEEATgB3AEEAeABBAEUAdwBBAGIAZwBCAHYAQQBFAGMAQQBlAGcAQgBCAEEAQwBrAEEAQwBnAEIANwBBAEgAcwBBAFAAQQBBAGcAQQBDADgAQQBjAHcAQgB3AEEARwA4AEEAYQBRAEIAcwBBAEcAVQBBAGMAZwBBAGcAQQBEADQAQQBmAFEAQgA5AEEAQQA9AD0ACgBzAHUAZgBmAGkAeAA6AA==:31b8e172-b470-440e-83d8-e6b185028602
 
 ## Metodologias ativas
 
@@ -240,9 +250,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< youtube noXqEGIZak8>}}
 {{< /spoiler >}}
 
-
-
-##  Aulas
+## Aulas
 
 {{< spoiler text="Aula 1 (21/03/2022)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
@@ -261,120 +269,111 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
-
 {{< spoiler text="Aula 2 (22-23/03/2022)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s02/index" >}})
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s02/index" >}}) {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast
 
-<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u" height="102px" width="400px" frameborder="0" scrolling="no">
 
-<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+</iframe>
 
-<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1" height="102px" width="400px" frameborder="0" scrolling="no">
 
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/11X4IQ9wz-95j1-fJWtWaibRv2S7E44-CaEkIJuIlX6Q/edit?usp=sharing)
-{{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Notas de aula]()
-   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-   - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+</iframe>
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aula
-{{< youtube 0KPuZplRwtU >}}
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2" height="102px" width="400px" frameborder="0" scrolling="no">
+
+</iframe>
+
+{{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta
+
+-   [Notas de aula]()
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube 0KPuZplRwtU >}}
 
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 3 (28/03/2022)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 1
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "" >}})
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/11X4IQ9wz-95j1-fJWtWaibRv2S7E44-CaEkIJuIlX6Q/edit?usp=sharing)
-{{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Notas de aula]()
-   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-   - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 1 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "" >}}) {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast {{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aula
-{{< youtube 0KPuZplRwtU >}}
+-   [Notas de aula]()
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube 0KPuZplRwtU >}}
 
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 4 (29-30/04/2022)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 04]({{< relref "/slides/estprob/s04/index" >}})
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 04]({{< relref "/slides/estprob/s04/index" >}}) {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast
 
-<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0" height="102px" width="400px" frameborder="0" scrolling="no">
 
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
-{{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Notas de aula]()
-   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-   - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+</iframe>
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aula
-{{< youtube  >}}
+{{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta
+
+-   [Notas de aula]()
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube >}}
 
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 5 (04/04/2022)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 2
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 05]({{< relref "" >}})
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
-{{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Notas de aula]()
-   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-   - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 2 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 05]({{< relref "" >}}) {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast {{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aula
-{{< youtube  >}}
+-   [Notas de aula]()
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube >}}
 
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 6 (05-06/04/2022)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de posição
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 06]({{< relref "" >}})
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1LylGqj86UjAkzKnCXR61oHCrIxpLKjPjPzkTGbTtELk/edit?usp=sharing)
-{{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-   - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de posição {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 06]({{< relref "" >}}) {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast {{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aula
-{{< youtube  >}}
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube >}}
 
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 7 (11/04/2022)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 3
-{{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 07]()
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1oHTAZYqv3sRZPIqY2CaO039Oa1v9inUDQEMgCNviPls/edit?usp=sharing)
-{{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-   - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 3 {{< icon name="eye" pack="fas" >}} Notas de aula: Aula 07 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast {{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aula
-{{< youtube ozgmfZGkE8k >}}
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube ozgmfZGkE8k >}}
 
 {{< /spoiler >}}
 
@@ -439,19 +438,15 @@ Prova!
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
    - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}){target="_blank"}
+   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
 
 {{< icon name="youtube" pack="fab" >}} Vídeo-aula
 {{< youtube  >}}
 
 {{< /spoiler >}}
 
-
 ## Quiz
 
 {{< spoiler text="Quais as datas de avaliação?">}}
 Acessem: [Avaliação](#avaliacao) e [Cronograma](#cronograma)
 {{< /spoiler >}}
-
-
-
