@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 04 Jun 2022 00:55:12 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 14 Jun 2022 22:02:59 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Inferência Estatística</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>📺 Ensino Remoto 2022.2</title>
+      <title>📺 Ensino Remoto 2022.1</title>
       <link>http://bendeivide.github.io/courses/epaec/remoto2022.1/</link>
-      <pubDate>Mon, 23 May 2022 20:37:39 +0000</pubDate>
+      <pubDate>Tue, 14 Jun 2022 21:41:22 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/remoto2022.1/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato ensino remoto pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -321,7 +321,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;Semana 11 (30/05 - 3/06)&lt;/summary&gt;
+  &lt;summary&gt;Semana 11 (30/05 - 3/06/22)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Semana da prova 2&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Prova dia 02/06/2022, aberto durante o dia, porém prova com 2h de duração, uma vez sendo aberta (Via portal didático)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Estudo complementar para a semana:&lt;/p&gt;
@@ -347,7 +347,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
-  &lt;summary&gt;Semana 12 (06-10/06)&lt;/summary&gt;
+  &lt;summary&gt;Semana 12 (06-10/06/22)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-teoest.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 9: &lt;em&gt;Teoria da Estimação&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -379,7 +379,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
-  &lt;summary&gt;Semana 13 (13-17/06)&lt;/summary&gt;
+  &lt;summary&gt;Semana 13 (13-17/06/22)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-teodec.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 10: &lt;em&gt;Teoria da Decisão&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -413,7 +413,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
-  &lt;summary&gt;Semana 14 (20-24/06)&lt;/summary&gt;
+  &lt;summary&gt;Semana 14 (20-24/06/22)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/chap-cor-reg.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 11: &lt;em&gt;Regressão Linear Simples&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
@@ -442,8 +442,10 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/EjjSCbDiOY4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
-  &lt;summary&gt;Semana 15 (27/07 - 08/07)&lt;/summary&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;Semana 15 (27/07 - 08/07/22)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Revisão para prova 3 e:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Introdução ao R (Parte VII)&lt;/li&gt;
@@ -476,8 +478,8 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
-  &lt;summary&gt;Semana 16 (04-08/07)&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;Semana 16 (04-08/07/22)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Semana da prova 3&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Prova dia 07/07/2022, aberto durante o dia, porém prova com 2h de duração, uma vez sendo aberta (Via portal didático)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Conteúdo complementar durante a semana:&lt;/p&gt;
@@ -489,8 +491,8 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
-  &lt;summary&gt;Semana 17 (11-15/2022)&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+  &lt;summary&gt;Semana 17 (11-15/07/22)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Segunda Chamada&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Prova dia 14/07/2022, aberto durante o dia, porém prova com 2h de duração, uma vez sendo aberta (Via portal didático)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Conteúdo complementar durante a semana:&lt;/p&gt;
@@ -502,8 +504,9 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;p&gt;{&amp;lt; spoiler text=&amp;ldquo;Semana 18 (18-22/07/2022)&amp;quot;&amp;gt;}}&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Prova substitutiva&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+  &lt;summary&gt;Semana 18 (18-22/07/22)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Prova substitutiva&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Prova dia 21/07/2022, aberto durante o dia, porém prova com 2h de duração, uma vez sendo aberta (Via portal didático)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Conteúdo complementar durante a semana:&lt;/p&gt;
 &lt;ul&gt;
@@ -515,11 +518,11 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;Onde ocorrem as aulas síncronas?&lt;/summary&gt;
   &lt;p&gt;Acesse o portal didático, e verifique no bloco &lt;strong&gt;Informações Gerais&lt;/strong&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
@@ -1227,7 +1230,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Sat, 04 Jun 2022 00:55:12 +0000</pubDate>
+      <pubDate>Tue, 14 Jun 2022 22:02:59 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -1485,11 +1488,26 @@ semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;material-adotado&#34;&gt;Material adotado&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
-31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFkAZwBBADIAQQBEAFUAQQBZAGcAQQAxAEEARABnAEEAWgBnAEIAawBBAEMAMABBAFoAQQBBADMAQQBEAEEAQQBOAHcAQQB0AEEARABRAEEAWQB3AEEAegBBAEQAQQBBAEwAUQBBADQAQQBHAE0AQQBPAFEAQQAzAEEAQwAwAEEATQB3AEIAawBBAEQAawBBAE8AUQBCAGgAQQBHAE0AQQBaAGcAQQA1AEEARwBFAEEATQBRAEEAMQBBAEQAYwBBAAoAcABvAHMAaQB0AGkAbwBuADoATQBRAEEAeABBAEQATQBBAE0AUQBBAHkAQQBBAD0APQAKAHAAcgBlAGYAaQB4ADoACgBzAG8AdQByAGMAZQA6AGUAdwBCADcAQQBEAHcAQQBJAEEAQgB6AEEASABBAEEAYgB3AEIAcABBAEcAdwBBAFoAUQBCAHkAQQBDAEEAQQBkAEEAQgBsAEEASABnAEEAZABBAEEAOQBBAEMASQBBAFQAUQBCAGgAQQBIAFEAQQBaAFEAQgB5AEEARwBrAEEAWQBRAEIAcABBAEgATQBBAEkAQQBCAGoAQQBHADgAQQBiAFEAQgB3AEEARwB3AEEAWgBRAEIAdABBAEcAVQBBAGIAZwBCADAAQQBHAEUAQQBjAGcAQgBsAEEASABNAEEASQBnAEEAKwBBAEgAMABBAGYAUQBBAEsAQQBDADAAQQBJAEEAQgBiAEEARQBVAEEAYwB3AEIAMABBAEcARQBBAGQAQQBEAHQAQQBIAE0AQQBkAEEAQgBwAEEARwBNAEEAWQBRAEEAZwBBAEUASQBBADQAUQBCAHoAQQBHAGsAQQBZAHcAQgBoAEEAQwBBAEEASwBBAEIARQBBAEcAVQBBAGMAQQBCAGgAQQBIAEkAQQBkAEEAQgBoAEEARwAwAEEAWgBRAEIAdQBBAEgAUQBBAGIAdwBBAGcAQQBHAFEAQQBaAFEAQQBnAEEARQBVAEEAYwB3AEIAMABBAEcARQBBAGQAQQBEAHQAQQBIAE0AQQBkAEEAQgBwAEEARwBNAEEAWQBRAEEAcwBBAEMAQQBBAFYAUQBCAEcAQQBGAEEAQQBVAGcAQQBwAEEARgAwAEEASwBBAEIAbwBBAEgAUQBBAGQAQQBCAHcAQQBEAG8AQQBMAHcAQQB2AEEARwB3AEEAWgBRAEIAbgBBAEMANABBAGQAUQBCAG0AQQBIAEEAQQBjAGcAQQB1AEEARwBJAEEAYwBnAEEAdgBBAEgANABBAGMAQQBCAGgAQQBIAFUAQQBiAEEAQgB2AEEARwBvAEEAZABRAEIAegBBAEMAOABBAFoAUQBCAHoAQQBIAFEAQQBZAGcAQgBoAEEASABNAEEATAB3AEEAcABBAEEAbwBBAEwAUQBBAGcAQQBGAHMAQQBSAFEAQgB6AEEASABRAEEAWQBRAEIAMABBAE8AMABBAGMAdwBCADAAQQBHAGsAQQBZAHcAQgBoAEEAQwBBAEEAUQBRAEIAdwBBAEcAdwBBAGEAUQBCAGoAQQBHAEUAQQBaAEEAQgBoAEEAQwBBAEEASwBBAEIAVQBBAEcARQBBAGIAQQBCAGwAQQBIAE0AQQBJAEEAQgBLAEEARwBVAEEAYwB3AEIAMQBBAEgATQBBAEkAQQBCAEcAQQBHAFUAQQBjAGcAQgB1AEEARwBFAEEAYgBnAEIAawBBAEcAVQBBAGMAdwBBAHMAQQBDAEEAQQBWAFEAQgBHAEEARQB3AEEAUQBRAEEAcABBAEYAMABBAEsAQQBCAG8AQQBIAFEAQQBkAEEAQgB3AEEARABvAEEATAB3AEEAdgBBAEcAYwBBAGEAUQBCADAAQQBHAGcAQQBkAFEAQgBpAEEAQwA0AEEAWQB3AEIAdgBBAEcAMABBAEwAdwBCADAAQQBHAEUAQQBiAEEAQgBsAEEASABNAEEAYQBnAEIAbQBBAEcAVQBBAGMAZwBBAHYAQQBFAEUAQQBjAEEAQgB2AEEASABNAEEAZABBAEIAcABBAEcAdwBBAFkAUQBBAHQAQQBFAFUAQQBjAHcAQgAwAEEARwBFAEEAZABBAEIAcABBAEgATQBBAGQAQQBCAHAAQQBHAE0AQQBZAFEAQQB0AEEARQBFAEEAYwBBAEIAcwBBAEcAawBBAFkAdwBCAGgAQQBHAFEAQQBZAFEAQQBwAEEAQQBvAEEATABRAEEAZwBBAEYAcwBBAFUAZwBCAGwAQQBIAE0AQQBkAFEAQgB0AEEARwA4AEEASQBBAEIAawBBAEcAOABBAEkAQQBCAE0AQQBHAGsAQQBkAGcAQgB5AEEARwA4AEEASQBBAEIARgBBAEgATQBBAGQAQQBCAGgAQQBIAFEAQQA3AFEAQgB6AEEASABRAEEAYQBRAEIAagBBAEcARQBBAEkAQQBCAEMAQQBPAEUAQQBjAHcAQgBwAEEARwBNAEEAWQBRAEEAZwBBAEMAZwBBAFIAQQBCAGgAQQBHADQAQQBhAFEAQgBsAEEARwB3AEEASQBBAEIARwBBAEgAVQBBAGMAZwBCADAAQQBHAEUAQQBaAEEAQgB2AEEAQwB3AEEASQBBAEIAVgBBAEUAWQBBAFQAQQBCAEIAQQBDAGsAQQBYAFEAQQBvAEEARwBnAEEAZABBAEIAMABBAEgAQQBBAE8AZwBBAHYAQQBDADgAQQBjAGcAQgBsAEEASABBAEEAYgB3AEIAegBBAEcAawBBAGQAQQBCAHYAQQBIAEkAQQBhAFEAQgB2AEEAQwA0AEEAZABRAEIAbQBBAEcAdwBBAFkAUQBBAHUAQQBHAEkAQQBjAGcAQQB2AEEARwBJAEEAYQBRAEIAMABBAEgATQBBAGQAQQBCAHkAQQBHAFUAQQBZAFEAQgB0AEEAQwA4AEEATQBRAEEAdgBBAEQAUQBBAE0AUQBBAHoAQQBEAFEAQQBOAEEAQQB2AEEARABFAEEATAB3AEIASABBAEcAVQBBAGUAQQBBAHgAQQBEAEUAQQBNAGcAQgBmAEEARABBAEEATABnAEIAdwBBAEcAUQBBAFoAZwBBAHAAQQBBAG8AQQBMAFEAQQBnAEEARgBzAEEAUgBRAEIAegBBAEgAUQBBAFkAUQBCADAAQQBPADAAQQBjAHcAQgAwAEEARwBrAEEAWQB3AEIAaABBAEMAQQBBAFoAUQBBAGcAQQBGAEEAQQBjAGcAQgB2AEEARwBJAEEAWQBRAEIAaQBBAEcAawBBAGIAQQBCAHAAQQBHAFEAQQBZAFEAQgBrAEEARwBVAEEASQBBAEEAbwBBAEYAVQBBAFIAUQBCAEQAQQBFAFUAQQBLAFEAQgBkAEEAQwBnAEEAYQBBAEIAMABBAEgAUQBBAGMAQQBBADYAQQBDADgAQQBMAHcAQgBsAEEARwBRAEEAZABRAEIAagBBAEcARQBBAGMAQQBCAGwAQQBIAE0AQQBMAGcAQgBqAEEARwBFAEEAYwBBAEIAbABBAEgATQBBAEwAZwBCAG4AQQBHADgAQQBkAGcAQQB1AEEARwBJAEEAYwBnAEEAdgBBAEcASQBBAGEAUQBCADAAQQBIAE0AQQBkAEEAQgB5AEEARwBVAEEAWQBRAEIAdABBAEMAOABBAFkAdwBCAGgAQQBIAEEAQQBaAFEAQgB6AEEAQwA4AEEATgBBAEEAegBBAEQASQBBAE0AZwBBAHcAQQBEAGMAQQBMAHcAQQB5AEEAQwA4AEEAVABBAEIAcABBAEgAWQBBAGMAZwBCAHYAQQBGADgAQQBSAFEAQgB6AEEASABRAEEAWQBRAEIAMABBAEcAawBBAGMAdwBCADAAQQBHAGsAQQBZAHcAQgBoAEEAQwBVAEEATQBnAEEAdwBBAEcAVQBBAEoAUQBBAHkAQQBEAEEAQQBVAEEAQgB5AEEARwA4AEEAWQBnAEIAaABBAEcASQBBAGEAUQBCAHMAQQBHAGsAQQBaAEEAQgBoAEEARwBRAEEAWgBRAEEAdQBBAEgAQQBBAFoAQQBCAG0AQQBDAGsAQQBDAGcAQQB0AEEAQwBBAEEAVwB3AEIARgBBAEgATQBBAGQAQQBCAHAAQQBHADAAQQBZAFEARABuAEEATwBNAEEAYgB3AEEAZwBBAEUAVQBBAGMAdwBCADAAQQBHAEUAQQBkAEEARAB0AEEASABNAEEAZABBAEIAcABBAEcATQBBAFkAUQBBAGcAQQBDAGcAQQBRAFEAQgB6AEEASABNAEEAYQBRAEIAegBBAEMAdwBBAEkAQQBCAGwAQQBIAFEAQQBMAGcAQQBnAEEARwBFAEEAYgBBAEEAdQBBAEMAQQBBAE0AZwBBAHcAQQBEAEkAQQBNAFEAQQBwAEEARgAwAEEASwBBAEIAbwBBAEgAUQBBAGQAQQBCAHcAQQBIAE0AQQBPAGcAQQB2AEEAQwA4AEEAZAB3AEIAMwBBAEgAYwBBAEwAZwBCAGwAQQBHAFEAQQBhAFEAQgAwAEEARwA4AEEAYwBnAEIAaABBAEgAQQBBAFkAUQBCAHUAQQBIAFEAQQBZAFEAQgB1AEEARwBFAEEAYgBBAEEAdQBBAEcATQBBAGIAdwBCAHQAQQBDADQAQQBZAGcAQgB5AEEAQwA4AEEAWgBRAEIAaQBBAEcAOABBAGIAdwBCAHIAQQBIAE0AQQBMAHcAQQB5AEEARABBAEEATQBnAEEAeABBAEMAOABBAFoAUQBCAHoAQQBIAFEAQQBhAFEAQgB0AEEARwBFAEEAWQB3AEIAaABBAEcAOABBAEwAUQBCAGwAQQBIAE0AQQBkAEEAQgBoAEEASABRAEEAYQBRAEIAegBBAEgAUQBBAGEAUQBCAGoAQQBHAEUAQQBMAHcAQgBsAEEARwBJAEEAYgB3AEIAdgBBAEcAcwBBAEwAZwBCAHcAQQBHAFEAQQBaAGcAQQBwAEEAQQBvAEEATABRAEEAZwBBAEYAcwBBAFMAUQBCAHUAQQBIAFEAQQBjAGcAQgB2AEEARwBRAEEAZABRAEQAbgBBAE8ATQBBAGIAdwBBAGcAQQBPAEEAQQBJAEEAQgBsAEEASABNAEEAZABBAEIAaABBAEgAUQBBADcAUQBCAHoAQQBIAFEAQQBhAFEAQgBqAEEARwBFAEEASQBBAEIAagBBAEcAOABBAGIAUQBBAGcAQQBGAEkAQQBJAEEAQQBvAEEARQBVAEEAYwBnAEIAcABBAEcATQBBAEkAQQBCAEcAQQBHAFUAQQBjAGcAQgB5AEEARwBVAEEAYQBRAEIAeQBBAEcARQBBAEkAQQBBAG0AQQBDAEEAQQBUAFEAQgBoAEEASABJAEEAWQB3AEIAbABBAEcAdwBBAGIAdwBBAGcAQQBFADgAQQBiAEEAQgBwAEEASABZAEEAWgBRAEIAcABBAEgASQBBAFkAUQBBAGcAQQBDAGsAQQBYAFEAQQBvAEEARwBnAEEAZABBAEIAMABBAEgAQQBBAE8AZwBBAHYAQQBDADgAQQBkAHcAQgAzAEEASABjAEEATABnAEIAMQBBAEcANABBAGEAUQBCAG0AQQBHAEUAQQBiAEEAQQB0AEEARwAwAEEAWgB3AEEAdQBBAEcAVQBBAFoAQQBCADEAQQBDADQAQQBZAGcAQgB5AEEAQwA4AEEAWQBnAEIAcABBAEcASQBBAGIAQQBCAHAAQQBHADgAQQBkAEEAQgBsAEEARwBNAEEAWQBRAEIAegBBAEMAOABBAGMAdwBCADUAQQBIAE0AQQBkAEEAQgBsAEEARwAwAEEATAB3AEIAbQBBAEcAawBBAGIAQQBCAGwAQQBIAE0AQQBMAHcAQgBwAEEARwAwAEEAWQB3AEIAbABBAEMAOABBAFIAUQBCAEMAQQBGAEkAQQBYAHcAQgBWAEEARwA0AEEAYQBRAEIAbQBBAEcARQBBAGIAQQBBAHUAQQBIAEEAQQBaAEEAQgBtAEEAQwBrAEEAQwBnAEEAdABBAEMAQQBBAFcAdwBCAEoAQQBHADQAQQBkAEEAQgB5AEEARwA4AEEAWgBBAEIAMQBBAE8AYwBBADQAdwBCAHYAQQBDAEEAQQBZAFEAQQBnAEEARwB3AEEAYQBRAEIAdQBBAEcAYwBBAGQAUQBCAGgAQQBHAGMAQQBaAFEAQgB0AEEAQwBBAEEAVQBnAEEANgBBAEMAQQBBAGMAdwBCAGwAQQBIAFUAQQBjAHcAQQBnAEEARwBZAEEAZABRAEIAdQBBAEcAUQBBAFkAUQBCAHQAQQBHAFUAQQBiAGcAQgAwAEEARwA4AEEAYwB3AEEAZwBBAEcAVQBBAEkAQQBCAHcAQQBIAEkAQQA0AFEAQgAwAEEARwBrAEEAWQB3AEIAaABBAEgATQBBAEkAQQBBAG8AQQBGAEEAQQBaAFEAQgBrAEEASABJAEEAYgB3AEEAZwBBAEUAWQBBAFkAUQBCAHkAQQBHAGsAQQBZAFEAQQBnAEEAQwBZAEEASQBBAEIASwBBAEcAOABBADQAdwBCAHYAQQBDAEEAQQBVAEEAQgBoAEEASABJAEEAWgB3AEIAaABBAEMAawBBAFgAUQBBAG8AQQBHAGcAQQBkAEEAQgAwAEEASABBAEEAYwB3AEEANgBBAEMAOABBAEwAdwBCADMAQQBIAGMAQQBkAHcAQQB1AEEASABJAEEAWgBRAEIAegBBAEcAVQBBAFkAUQBCAHkAQQBHAE0AQQBhAEEAQgBuAEEARwBFAEEAZABBAEIAbABBAEMANABBAGIAZwBCAGwAQQBIAFEAQQBMAHcAQgB3AEEASABVAEEAWQBnAEIAcwBBAEcAawBBAFkAdwBCAGgAQQBIAFEAQQBhAFEAQgB2AEEARwA0AEEATAB3AEEAegBBAEQAUQBBAE4AUQBBADUAQQBEAGcAQQBOAFEAQQB3AEEARABnAEEATQBnAEIAZgBBAEUAawBBAGIAZwBCADAAQQBIAEkAQQBiAHcAQgBrAEEASABVAEEAWQB3AEIAaABBAEcAOABBAFgAdwBCAGgAQQBGADgAQQBUAEEAQgBwAEEARwA0AEEAWgB3AEIAMQBBAEcARQBBAFoAdwBCAGwAQQBHADAAQQBYAHcAQgBTAEEARgA4AEEAYwB3AEIAbABBAEgAVQBBAGMAdwBCAGYAQQBHAFkAQQBkAFEAQgB1AEEARwBRAEEAWQBRAEIAdABBAEcAVQBBAGIAZwBCADAAQQBHADgAQQBjAHcAQgBmAEEARwBVAEEAWAB3AEIAegBBAEgAVQBBAFkAUQBCAGYAQQBIAEEAQQBjAGcAQgBoAEEASABRAEEAYQBRAEIAagBBAEcARQBBAEsAUQBBAEsAQQBDADAAQQBJAEEAQgBiAEEARgBRAEEAWgBRAEIAegBBAEgAUQBBAFoAUQBBAGcAQQBHAFEAQQBaAFEAQQBnAEEARQBnAEEAYQBRAEIAdwBBAFAATQBBAGQAQQBCAGwAQQBIAE0AQQBaAFEAQgB6AEEAQwBBAEEAUgBRAEIAegBBAEgAUQBBAFkAUQBCADAAQQBPADAAQQBjAHcAQgAwAEEARwBrAEEAWQB3AEIAaABBAEgATQBBAEkAQQBBAG8AQQBFAG8AQQBZAFEAQgB1AEEARwBrAEEAYgBBAEIAegBBAEcAOABBAGIAZwBBAGcAQQBGAEEAQQBhAFEAQgB1AEEARwBnAEEAWgBRAEIAcABBAEgASQBBAGIAdwBBAGcAQQBHAFEAQQBaAFEAQQBnAEEARQBFAEEAYwB3AEIAegBBAEcAawBBAGMAdwBBAGcAQQBHAFUAQQBkAEEAQQB1AEEAQwBBAEEAWQBRAEIAcwBBAEMANABBAEwAQQBBAGcAQQBGAFUAQQBSAGcAQgBGAEEARgBJAEEAVQB3AEIAQgBBAEMAawBBAFgAUQBBAG8AQQBHAGcAQQBkAEEAQgAwAEEASABBAEEAYwB3AEEANgBBAEMAOABBAEwAdwBCAHMAQQBHAGsAQQBkAGcAQgB5AEEARwBFAEEAYwBnAEIAcABBAEcARQBBAEwAZwBCADEAQQBHAFkAQQBaAFEAQgB5AEEASABNAEEAWQBRAEEAdQBBAEcAVQBBAFoAQQBCADEAQQBDADQAQQBZAGcAQgB5AEEAQwA4AEEAZAB3AEIAdwBBAEMAMABBAFkAdwBCAHYAQQBHADQAQQBkAEEAQgBsAEEARwA0AEEAZABBAEEAdgBBAEgAVQBBAGMAQQBCAHMAQQBHADgAQQBZAFEAQgBrAEEASABNAEEATAB3AEIAegBBAEcAawBBAGQAQQBCAGwAQQBIAE0AQQBMAHcAQQB4AEEARABZAEEATgBRAEEAdgBBAEQASQBBAE0AQQBBAHkAQQBEAEEAQQBMAHcAQQB3AEEARABnAEEATAB3AEIAMABBAEcAVQBBAGMAdwBCADAAQQBHAFUAQQBjAHcAQQB0AEEARwBRAEEAWgBRAEEAdABBAEcAZwBBAGEAUQBCAHcAQQBHADgAQQBkAEEAQgBsAEEASABNAEEAWgBRAEIAegBBAEMAMABBAFoAUQBCAHoAQQBIAFEAQQBZAFEAQgAwAEEARwBrAEEAYwB3AEIAMABBAEcAawBBAFkAdwBCAGgAQQBIAE0AQQBMAFEAQgBsAEEARwBRAEEAZABRAEIAbQBBAEcAVQBBAGMAZwBCAHoAQQBHAEUAQQBMAGcAQgB3AEEARwBRAEEAWgBnAEEAcABBAEEAbwBBAEwAUQBBAGcAQQBGAHMAQQBSAHcAQgBzAEEARwA4AEEAYwB3AEIAegBBAE8ARQBBAGMAZwBCAHAAQQBHADgAQQBJAEEAQgBrAEEARwBVAEEASQBBAEIARgBBAEgATQBBAGQAQQBCAGgAQQBIAFEAQQA3AFEAQgB6AEEASABRAEEAYQBRAEIAagBBAEcARQBBAEkAQQBBAG8AQQBFAG8AQQBZAFEAQgB1AEEARwBrAEEAYgBBAEIAegBBAEcAOABBAGIAZwBBAGcAQQBGAEEAQQBhAFEAQgB1AEEARwBnAEEAWgBRAEIAcABBAEgASQBBAGIAdwBBAGcAQQBHAFEAQQBaAFEAQQBnAEEARQBFAEEAYwB3AEIAegBBAEcAawBBAGMAdwBBAHMAQQBDAEEAQQBWAFEAQgBHAEEARQBVAEEAVQBnAEIAVABBAEUARQBBAEsAUQBCAGQAQQBDAGcAQQBhAEEAQgAwAEEASABRAEEAYwBBAEIAegBBAEQAbwBBAEwAdwBBAHYAQQBHAHcAQQBhAFEAQgAyAEEASABJAEEAWQBRAEIAeQBBAEcAawBBAFkAUQBBAHUAQQBIAFUAQQBaAGcAQgBsAEEASABJAEEAYwB3AEIAaABBAEMANABBAFoAUQBCAGsAQQBIAFUAQQBMAGcAQgBpAEEASABJAEEATAB3AEIAMwBBAEgAQQBBAEwAUQBCAGoAQQBHADgAQQBiAGcAQgAwAEEARwBVAEEAYgBnAEIAMABBAEMAOABBAGQAUQBCAHcAQQBHAHcAQQBiAHcAQgBoAEEARwBRAEEAYwB3AEEAdgBBAEgATQBBAGEAUQBCADAAQQBHAFUAQQBjAHcAQQB2AEEARABFAEEATgBnAEEAMQBBAEMAOABBAE0AZwBBAHcAQQBEAEUAQQBPAFEAQQB2AEEARABBAEEATgB3AEEAdgBBAEUAYwBBAGIAQQBCAHYAQQBIAE0AQQBjAHcAQgBoAEEASABJAEEAYQBRAEIAdgBBAEMAMABBAFoAQQBCAGwAQQBDADAAQQBSAFEAQgB6AEEASABRAEEAWQBRAEIAMABBAEcAawBBAGMAdwBCADAAQQBHAGsAQQBZAHcAQgBoAEEARgA4AEEATQBnAEEAdwBBAEQARQBBAE8AUQBBAHQAQQBEAEUAQQBMAGcAQgB3AEEARwBRAEEAWgBnAEEAcABBAEEAbwBBAEwAUQBBAGcAQQBGAHMAQQBRAHcAQgBoAEEARwA0AEEAWQBRAEIAcwBBAEMAQQBBAFEAdwBCAHAAQQBPAG8AQQBiAGcAQgBqAEEARwBrAEEAWQBRAEEAZwBBAEUAVQBBAGMAdwBCADAAQQBHAEUAQQBkAEEARAB0AEEASABNAEEAZABBAEIAcABBAEcATQBBAFkAUQBCAGQAQQBDAGcAQQBhAEEAQgAwAEEASABRAEEAYwBBAEIAegBBAEQAbwBBAEwAdwBBAHYAQQBIAGMAQQBkAHcAQgAzAEEAQwA0AEEAZQBRAEIAdgBBAEgAVQBBAGQAQQBCADEAQQBHAEkAQQBaAFEAQQB1AEEARwBNAEEAYgB3AEIAdABBAEMAOABBAFkAdwBCAG8AQQBHAEUAQQBiAGcAQgB1AEEARwBVAEEAYgBBAEEAdgBBAEYAVQBBAFEAdwBCAHYAQQBFAHcAQQBOAHcAQgBKAEEARwBjAEEAZQBRAEIATABBAEYASQBBAFcAZwBBADIAQQBFAG8AQQBRAGcAQgB2AEEARwBjAEEATgB3AEEAeABBAEUAdwBBAGIAZwBCAHYAQQBFAGMAQQBlAGcAQgBCAEEAQwBrAEEAQwBnAEIANwBBAEgAcwBBAFAAQQBBAGcAQQBDADgAQQBjAHcAQgB3AEEARwA4AEEAYQBRAEIAcwBBAEcAVQBBAGMAZwBBAGcAQQBEADQAQQBmAFEAQgA5AEEAQQA9AD0ACgBzAHUAZgBmAGkAeAA6AA==:31b8e172-b470-440e-83d8-e6b185028602&lt;/li&gt;
+&lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Materiais complementares&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://leg.ufpr.br/~paulojus/estbas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/talesjfer/Apostila-Estatistica-Aplicada&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estimação Estatística (Assis, et. al. 2021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução à estatística com R (Eric Ferreira &amp;amp; Marcelo Oliveira )&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria &amp;amp; João Parga)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canal Ciência Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
@@ -1507,7 +1525,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
   &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
@@ -1515,7 +1533,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
@@ -1524,7 +1542,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1532,7 +1550,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;Aula 1 (21/03/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Apresentação do curso&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s01/&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
@@ -1551,7 +1569,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;Aula 2 (22-23/03/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da estatística e técnicas de somatório
 &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s02/&#34;&gt;Aula 02&lt;/a&gt;
@@ -1579,7 +1597,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;Aula 3 (28/03/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 1
 &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;&#34;&gt;Aula 03&lt;/a&gt;
@@ -1601,7 +1619,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;Aula 4 (29-30/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Coleta, organização e apresentação de dados
 &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s04/&#34;&gt;Aula 04&lt;/a&gt;
@@ -1625,7 +1643,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;Aula 5 (04/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 2
 &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;&#34;&gt;Aula 05&lt;/a&gt;
@@ -1647,7 +1665,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;Aula 6 (05-06/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de posição
 &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;&#34;&gt;Aula 06&lt;/a&gt;
@@ -1668,7 +1686,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;Aula 7 (11/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 3
 &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: Aula 07
@@ -1689,7 +1707,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;Aula 8 (12-13/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de dispersão&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: &lt;a href=&#34;&#34;&gt;Aula 08&lt;/a&gt;&lt;/p&gt;
@@ -1708,7 +1726,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;Aula 9 (18/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão  sobre Medidas de dispersão&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: &lt;a href=&#34;&#34;&gt;Aula 09&lt;/a&gt;&lt;/p&gt;
@@ -1727,11 +1745,11 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;Aula 10 (19-20/04/2022)&lt;/summary&gt;
   &lt;p&gt;Prova!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;Aula 11  (25/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Probabilidades (Parte I)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s11/&#34;&gt;Aula 11&lt;/a&gt;&lt;/p&gt;
@@ -1750,7 +1768,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;Aula 12  (26-27/04/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Probabilidades (Parte II)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s12/&#34;&gt;Aula 12&lt;/a&gt;&lt;/p&gt;
@@ -1769,8 +1787,37 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
+  &lt;summary&gt;Aula 26  (15-16/06/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Teoria da Estimação&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação:&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/wOePk5UupBY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos (Aula assíncrona)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hsFQ2MEZYIY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos (Aula assíncrona)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/wk46c8ocOew&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>

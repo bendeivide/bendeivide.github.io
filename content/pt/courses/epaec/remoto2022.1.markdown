@@ -1,6 +1,6 @@
 ---
-title: 📺 Ensino Remoto 2022.2
-date: "2022-05-23 20:37:39"
+title: 📺 Ensino Remoto 2022.1
+date: "2022-06-14 21:41:22"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
@@ -248,7 +248,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
-{{< spoiler text="Semana 11 (30/05 - 3/06)">}}
+{{< spoiler text="Semana 11 (30/05 - 3/06/22)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Semana da prova 2
 {{< icon name="clock" pack="fas" >}} Prova dia 02/06/2022, aberto durante o dia, porém prova com 2h de duração, uma vez sendo aberta (Via portal didático)
 {{< icon name="pen-fancy" pack="fas" >}} Estudo complementar para a semana:
@@ -275,7 +275,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 
 
-{{< spoiler text="Semana 12 (06-10/06)">}}
+{{< spoiler text="Semana 12 (06-10/06/22)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema:
    - [Capítulo 9: *Teoria da Estimação*](https://bendeivide.github.io/book-epaec/chap-teoest.html)
 
@@ -305,7 +305,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< youtube  wk46c8ocOew>}}
 {{< /spoiler >}}
 
-{{< spoiler text="Semana 13 (13-17/06)">}}
+{{< spoiler text="Semana 13 (13-17/06/22)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema:
    - [Capítulo 10: *Teoria da Decisão*](https://bendeivide.github.io/book-epaec/chap-teodec.html)
 
@@ -336,7 +336,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< youtube  K3vNKV1tFfY>}}
 {{< /spoiler >}}
 
-{{< spoiler text="Semana 14 (20-24/06)">}}
+{{< spoiler text="Semana 14 (20-24/06/22)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema:
    - [Capítulo 11: *Regressão Linear Simples*](https://bendeivide.github.io/book-epaec/chap-cor-reg.html)
 
@@ -364,8 +364,11 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< youtube  EjjSCbDiOY4>}}
 
-{{< spoiler text="Semana 15 (27/07 - 08/07)">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Revisão para prova 3 e: 
+{{< /spoiler >}}
+
+
+{{< spoiler text="Semana 15 (27/07 - 08/07/22)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Revisão para prova 3 e:
    - Introdução ao R (Parte VII)
    - Introdução ao R (Parte VIII)
    - Introdução ao R (Parte IX)
@@ -376,53 +379,62 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< icon name="book-reader" pack="fas" >}} Material escrito sobre o assunto
    - [Curso R - Programação em R (Nível Básico)](https://bendeivide.github.io/cursor/)
-   - [Exercícios Propostos](https://bendeivide.shinyapps.io/Curso-R/) 
-   - [Scripts {{< icon name="r-project" pack="fab" >}}](https://bendeivide.github.io/cursor/nbasico.html#scripts) 
+   - [Exercícios Propostos](https://bendeivide.shinyapps.io/Curso-R/)
+   - [Scripts {{< icon name="r-project" pack="fab" >}}](https://bendeivide.github.io/cursor/nbasico.html#scripts)
 
 
-{{< icon name="youtube" pack="fab" >}} Aula sobre introdução ao R (Parte VII) 
+{{< icon name="youtube" pack="fab" >}} Aula sobre introdução ao R (Parte VII)
 
 {{< youtube 7tpe_1_RC_E >}}
 
 </br>
 
-{{< icon name="youtube" pack="fab" >}} Aula sobre introdução ao R (Parte VIII) 
+{{< icon name="youtube" pack="fab" >}} Aula sobre introdução ao R (Parte VIII)
 
 {{< youtube pqLyntw_iB4 >}}
 <br/>
 
-{{< icon name="youtube" pack="fab" >}} Aula sobre introdução ao R (Parte IX) 
+{{< icon name="youtube" pack="fab" >}} Aula sobre introdução ao R (Parte IX)
 
 {{< youtube lMFFKqcJxcI >}}
+
 {{< /spoiler >}}
 
-{{< spoiler text="Semana 16 (04-08/07)">}}
+
+{{< spoiler text="Semana 16 (04-08/07/22)">}}
+
 {{< icon name="pen-fancy" pack="fas" >}} Semana da prova 3
 {{< icon name="clock" pack="fas" >}} Prova dia 07/07/2022, aberto durante o dia, porém prova com 2h de duração, uma vez sendo aberta (Via portal didático)
 {{< icon name="pen-fancy" pack="fas" >}} Conteúdo complementar durante a semana:
    - Reapresentação da palestra intitulada **"R como uma ferramenta acadêmica"**, realizada na UFPI
 
 {{< youtube _43yBb_s-R8 >}}
+
 {{< /spoiler >}}
 
-{{< spoiler text="Semana 17 (11-15/2022)">}}
+
+{{< spoiler text="Semana 17 (11-15/07/22)">}}
+
 {{< icon name="pen-fancy" pack="fas" >}} Segunda Chamada
 {{< icon name="clock" pack="fas" >}} Prova dia 14/07/2022, aberto durante o dia, porém prova com 2h de duração, uma vez sendo aberta (Via portal didático)
 {{< icon name="pen-fancy" pack="fas" >}} Conteúdo complementar durante a semana:
    - Reapresentação da palestra intitulada **"Desenvolvimento de pacotes R"**, realizada nos [Seminários - Café com Matemática - DEMAT/UFSJ](https://ufsj.edu.br/demat/scm.php)
 
 {{< youtube mGUY6Cxzr58 >}}
+
 {{< /spoiler >}}
 
-{< spoiler text="Semana 18 (18-22/07/2022)">}}
+
+{{< spoiler text="Semana 18 (18-22/07/22)">}}
+
 {{< icon name="pen-fancy" pack="fas" >}} Prova substitutiva
 {{< icon name="clock" pack="fas" >}} Prova dia 21/07/2022, aberto durante o dia, porém prova com 2h de duração, uma vez sendo aberta (Via portal didático)
 {{< icon name="pen-fancy" pack="fas" >}} Conteúdo complementar durante a semana:
    - Reapresentação da palestra intitulada **"R além das análises estatísticas"**, realizada nos [Programa de Verão DES/ICET/UFLA, 2022](https://youtu.be/wnOGptAI5Zs)
 
 {{< youtube wnOGptAI5Zs >}}
-{{< /spoiler >}}
 
+{{< /spoiler >}}
 
 
 
