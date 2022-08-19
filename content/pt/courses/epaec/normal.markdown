@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.2
-date: "2022-08-18 18:38:06"
+date: "2022-08-19 13:25:49"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -35,12 +35,12 @@ regressão linear simples.
     -   canal: <http://youtube.com/bendeivide>
     -   Período: 15/08/2022 a 23/12/2022
     -   Aulas presenciais:
-        -   Engenheria de Telecomunicações (Sala 202.5):
+        -   Engenheria de Telecomunicações (Sala 201.6):
             -   quinta-feira (19h - 21h)
             -   sexta-feira (21h - 22h50min)
-        -   Engenharia Mecatrônica (201.6):
-            -   segunda-feira (13h15min. - )
-            -   quarta-feira (19h - 20h50min.)
+        -   Engenharia Mecatrônica (202.5):
+            -   terça-feira (13h15min. - 15h)
+            -   sexta-feira (15h:05min - 17h)
 
 ## Cronograma {#cronograma}
 
