@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.2
-date: "2022-08-19 13:25:49"
+date: "2022-08-23 12:37:14"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -47,6 +47,10 @@ regressão linear simples.
 -   [Cronograma de
     aulas](https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing):
     {{< gdocs src="https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing" >}}
+    
+## Preenchimento de dados para as avaliações
+
+- [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8)
 
 ## Ementa
 
@@ -264,7 +268,7 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 
 ## Aulas
 
-{{< spoiler text="Aula 1 (16/08 e 18/08)">}}
+{{< spoiler text="Aula 1 (16/08 e 18/08/2022)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 01]({{< relref "/slides/estprob/s01/index" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
@@ -281,7 +285,7 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 
 {{< /spoiler >}}
 
-{{< spoiler text="Aula 2 (19/08)">}}
+{{< spoiler text="Aula 2 (19/08/2022)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório 
 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s02/index" >}}) 
@@ -300,7 +304,8 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 
 </iframe>
 
-{{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/11X4IQ9wz-95j1-fJWtWaibRv2S7E44-CaEkIJuIlX6Q/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
 
 -   [Notas de aula]()
 -   [Estatística e Probabilidade (Ensino
@@ -313,20 +318,25 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 
 {{< /spoiler >}}
 
-<!-- {{< spoiler text="Aula 3 (28/03/2022)">}} -->
+{{< spoiler text="Aula 3 (23/08/2022)">}}
 
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 1 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "" >}}) {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast {{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 1 
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "" >}}) 
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. 
+{{< icon name="headphones" pack="fas" >}} Podcast 
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1AaDylASKe0dfO_Mnmu6CKKK3GU-_51Iz9-k7fNvWzwA/edit?usp=sharing) 
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
 
-<!-- -   [Notas de aula]() -->
-<!-- -   \[Estatística e Probabilidade (Ensino -->
-<!--     Remoto)\]({{< relref "courses/epaec/remoto/index" >}}) -->
-<!-- -   [Curso R](courses/cursor/) -->
-<!-- -   \[Exercícios -->
-<!--     resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
+-   [Notas de aula]()
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
 
-<!-- {{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube 0KPuZplRwtU >}} -->
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube 0KPuZplRwtU >}}
 
-<!-- {{< /spoiler >}} -->
+{{< /spoiler >}}
 
 <!-- {{< spoiler text="Aula 4 (29-30/04/2022)">}} -->
 

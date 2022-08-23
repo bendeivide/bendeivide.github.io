@@ -29,7 +29,7 @@ design:
     padding: ["20px", "0", "20px", "0"]
 ---
 
-Aprecie todo o material contido nesse site, como se fosse seu. Zele, propague, critique, contribua. Será um prazer compartilharmos nossas experiências.
+Aprecie todo o material contido nesse site, como se fosse seu. Zele, propague, critique, contribua. Será um prazer compartilhar as nossas experiências.
 
 
 {{% callout note %}}
