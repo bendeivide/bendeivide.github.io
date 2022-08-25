@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.2
-date: "2022-08-23 12:37:14"
+date: "2022-08-24 12:52:39"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -51,6 +51,7 @@ regressão linear simples.
 ## Preenchimento de dados para as avaliações
 
 - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8)
+- [Formulário - Engenharia de Telecomunicações](https://forms.gle/SyBkB5jqSJkv4eVm9)
 
 ## Ementa
 
