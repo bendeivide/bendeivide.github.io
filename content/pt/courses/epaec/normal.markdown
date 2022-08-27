@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.2
-date: "2022-08-24 12:52:39"
+date: "2022-08-26 22:30:21"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -175,7 +175,7 @@ Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:
 - 3ª Avaliação - Seções 9, 10 e 11 - 30 pontos;
 - Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos;
 
-<!-- Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina. -->
+Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina.
 
 Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações.
 
@@ -194,22 +194,20 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 -   {{% staticref "media/critprova.pdf" "newtab" %}}Critérios de
     avaliação{{% /staticref %}}
 
-<!-- ## Contrato {#contrato} -->
+## Contrato {#contrato}
 
-<!-- Contrato feito para a disciplina de Estatística e Probabilidade, como -->
-<!-- meio de substituir as avaliações tradicionais para uso de metodologias -->
-<!-- ativas como método de avaliação. Paralelo a disciplina, o aluno irá -->
-<!-- acompanhando as aulas e desenvolvendo demandas semanais, como forma de -->
-<!-- ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda -->
-<!-- semana o aluno é acompanhado e avaliado pelo professor. -->
+Contrato feito para a disciplina de Estatística e Probabilidade, como
+meio de substituir as avaliações tradicionais para uso de metodologias
+ativas como método de avaliação. Paralelo a disciplina, o aluno irá
+acompanhando as aulas e desenvolvendo demandas semanais, como forma de
+ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
+semana o aluno é acompanhado e avaliado pelo professor.
 
-<!-- {{< spoiler text="Abra o contrato aqui!">}} -->
+{{< spoiler text="Abra o contrato aqui!">}}
 
-<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQwTFw47p8SHeZeK4eXORDqTuYFcxq6vaaV20gn4qyqKu9SA/viewform?embedded=true" width="640" height="2211" frameborder="0" marginheight="0" marginwidth="0"> -->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
-<!-- Carregando...</iframe> -->
-
-<!-- {{< /spoiler >}} -->
+{{< /spoiler >}}
 
 ## Bibliografia adotada para a disciplina
 

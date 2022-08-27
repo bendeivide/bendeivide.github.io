@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/probabilidade/</link>
       <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilidade</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 24 Aug 2022 12:52:39 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 26 Aug 2022 22:30:21 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Probabilidade</title>
@@ -1785,7 +1785,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2022.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Wed, 24 Aug 2022 12:52:39 +0000</pubDate>
+      <pubDate>Fri, 26 Aug 2022 22:30:21 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -2000,7 +2000,7 @@ abordado.&lt;/li&gt;
 &lt;li&gt;3ª Avaliação - Seções 9, 10 e 11 - 30 pontos;&lt;/li&gt;
 &lt;li&gt;Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina. --&gt;
+&lt;p&gt;Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o &lt;a href=&#34;http://bendeivide.github.io/project/ProjAPE&#34;&gt;Aprender por ensinar&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/LEEM&#34;&gt;LEEM&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/statscience&#34;&gt;statscience&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/RapidinhasR&#34;&gt;Rapidinhas do R&lt;/a&gt;, dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina.&lt;/p&gt;
 &lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações.&lt;/p&gt;
 &lt;p&gt;O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria.&lt;/p&gt;
 &lt;p&gt;A perda de alguma avaliação deverá ser apresentado justificativa. Observações:&lt;/p&gt;
@@ -2017,20 +2017,18 @@ abordado.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/critprova.pdf&#34; target=&#34;_blank&#34;&gt;Critérios de
 avaliação&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- ## Contrato {#contrato} --&gt;
-&lt;!-- Contrato feito para a disciplina de Estatística e Probabilidade, como --&gt;
-&lt;!-- meio de substituir as avaliações tradicionais para uso de metodologias --&gt;
-&lt;!-- ativas como método de avaliação. Paralelo a disciplina, o aluno irá --&gt;
-&lt;!-- acompanhando as aulas e desenvolvendo demandas semanais, como forma de --&gt;
-&lt;!-- ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda --&gt;
-&lt;!-- semana o aluno é acompanhado e avaliado pelo professor. --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+&lt;h2 id=&#34;contrato&#34;&gt;Contrato&lt;/h2&gt;
+&lt;p&gt;Contrato feito para a disciplina de Estatística e Probabilidade, como
+meio de substituir as avaliações tradicionais para uso de metodologias
+ativas como método de avaliação. Paralelo a disciplina, o aluno irá
+acompanhando as aulas e desenvolvendo demandas semanais, como forma de
+ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
+semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
   &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLScQwTFw47p8SHeZeK4eXORDqTuYFcxq6vaaV20gn4qyqKu9SA/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2211&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt; --&gt;
-&lt;!-- Carregando...&lt;/iframe&gt; --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
+  &lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
