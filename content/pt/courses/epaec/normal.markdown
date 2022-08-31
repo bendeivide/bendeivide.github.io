@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.2
-date: "2022-08-26 22:30:21"
+date: "2022-08-31 13:51:30"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -272,7 +272,7 @@ semana o aluno é acompanhado e avaliado pelo professor.
 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 01]({{< relref "/slides/estprob/s01/index" >}})
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1O3BNrqHIFjPqGp8_g72-RnZD-QyycxAx5OIBXiBz00k/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
    - [Curso R](courses/cursor/)
@@ -303,10 +303,10 @@ semana o aluno é acompanhado e avaliado pelo professor.
 
 </iframe>
 
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/11X4IQ9wz-95j1-fJWtWaibRv2S7E44-CaEkIJuIlX6Q/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
 
--   [Notas de aula]()
+-   Notas de aula
 -   [Estatística e Probabilidade (Ensino
     Remoto)]({{< relref "courses/epaec/remoto/index" >}})
 -   [Curso R](courses/cursor/)
@@ -317,64 +317,78 @@ semana o aluno é acompanhado e avaliado pelo professor.
 
 {{< /spoiler >}}
 
-{{< spoiler text="Aula 3 (23/08/2022)">}}
+{{< spoiler text="Aula 3 (23 e 25/08/2022)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 1 
 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "" >}}) 
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. 
 {{< icon name="headphones" pack="fas" >}} Podcast 
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1AaDylASKe0dfO_Mnmu6CKKK3GU-_51Iz9-k7fNvWzwA/edit?usp=sharing) 
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1mpCA-ny1U8lUaUHICaCsJnrbdD5x28hlWiCiMK6BeN0/edit?usp=sharing) 
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
 
--   [Notas de aula]()
--   \[Estatística e Probabilidade (Ensino
-    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   Notas de aula
+-   [Estatística e Probabilidade (Ensino
+    Remoto)]({{< relref "courses/epaec/remoto/index" >}})
 -   [Curso R](courses/cursor/)
--   \[Exercícios
-    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+-   [Exercícios
+    resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
 
 {{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube 0KPuZplRwtU >}}
 
 {{< /spoiler >}}
 
-<!-- {{< spoiler text="Aula 4 (29-30/04/2022)">}} -->
+{{< spoiler text="Aula 4 (26/08/2022)">}}
 
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados  -->
-<!-- {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 04]({{< relref "/slides/estprob/s04/index" >}})  -->
-<!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.  -->
-<!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 04]({{< relref "/slides/estprob/s04/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
 
-<!-- <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0" height="102px" width="400px" frameborder="0" scrolling="no"> -->
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0" height="102px" width="400px" frameborder="0" scrolling="no">
 
-<!-- </iframe> -->
+</iframe>
 
-<!-- {{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing) 
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
 
-<!-- -   [Notas de aula]() -->
-<!-- -   \[Estatística e Probabilidade (Ensino -->
-<!--     Remoto)\]({{< relref "courses/epaec/remoto/index" >}}) -->
-<!-- -   [Curso R](courses/cursor/) -->
-<!-- -   \[Exercícios -->
-<!--     resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
+-   Notas de aula
+-   [Estatística e Probabilidade (Ensino
+    Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   [Exercícios
+    resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
 
-<!-- {{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube >}} -->
+{{< icon name="youtube" pack="fab" >}} Aula teórica (Aula assíncrona 2021.1)
+{{< youtube bVObtgCFISs >}}
 
-<!-- {{< /spoiler >}} -->
+</br>
 
-<!-- {{< spoiler text="Aula 5 (04/04/2022)">}} -->
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (Aula assíncrona 2021.1)
 
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 2 {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 05]({{< relref "" >}}) {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast {{< icon name="book-reader" pack="fas" >}} Plano de aula {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+{{< youtube DZ4PzyY5YYg >}}
+<br/>
 
-<!-- -   [Notas de aula]() -->
-<!-- -   \[Estatística e Probabilidade (Ensino -->
-<!--     Remoto)\]({{< relref "courses/epaec/remoto/index" >}}) -->
-<!-- -   [Curso R](courses/cursor/) -->
-<!-- -   \[Exercícios -->
-<!--     resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
+{{< /spoiler >}}
 
-<!-- {{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube >}} -->
+{{< spoiler text="Aula 5 (30/08/2022)">}}
 
-<!-- {{< /spoiler >}} -->
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 2 
+{{< icon name="eye" pack="fas" >}} Apresentação: Em sala! 
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. 
+{{< icon name="headphones" pack="fas" >}} Podcast 
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1IAmDa7quaUwhRW7UDNUTjSsQlbXs5knlHi4F1P0BMHw/edit?usp=sharing) 
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+
+-   Notas de aula
+-   [Estatística e Probabilidade (Ensino
+    Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   [Exercícios
+    resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube >}}
+
+{{< /spoiler >}}
 
 <!-- {{< spoiler text="Aula 6 (05-06/04/2022)">}} -->
 
