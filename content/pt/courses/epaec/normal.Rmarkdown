@@ -363,11 +363,6 @@ semana o aluno é acompanhado e avaliado pelo professor.
 
 </br>
 
-{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (Aula assíncrona 2021.1)
-
-{{< youtube DZ4PzyY5YYg >}}
-<br/>
-
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 5 (30/08/2022)">}}
@@ -386,7 +381,10 @@ semana o aluno é acompanhado e avaliado pelo professor.
 -   [Exercícios
     resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube >}}
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (Aula assíncrona 2021.1)
+
+{{< youtube DZ4PzyY5YYg >}}
+<br/>
 
 {{< /spoiler >}}
 
