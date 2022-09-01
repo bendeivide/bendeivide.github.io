@@ -1,6 +1,6 @@
 ---
 title: ✍️ Exercícios resolvidos para EPAEC
-date: "2022-05-25 18:59:18"
+date: "2022-09-01 07:58:44"
 type: book
 weight: 30
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
@@ -99,6 +99,10 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
     - Teste de hipóteses para o modelo de regressão
     - Medidas de adequação do modelo
 {{< /spoiler >}}
+
+## *Link* da *playlist* de exercícios resolvidos
+
+- [Playlist - PAPE](https://youtube.com/playlist?list=PL-20Z1XFWKR1DfCJHuB3_FLwsPwUe66R0) 
 
 ## Exercícios Resolvidos por assunto
 
@@ -259,7 +263,9 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NxOteDbeDDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### ER0037 - Probabilidades
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TxYTH11ZVtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -451,6 +457,10 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g0amWvWQa6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### ER0037 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TxYTH11ZVtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### ER0038 - Probabilidades
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqEJzYHVhS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -476,5 +486,36 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NxOteDbeDDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### ER0044 - Distribuição normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MXMHN3P7M5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0045 - Probabilidades
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sac-oJoH1PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0046 - Esperança matemática
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-hKMR31cj_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0047 - Distribuição binomial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6zTzHOXAIlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0048 - Distribuição Binomial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NOzY5I5QYDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0049 - Distribuição Poisson
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4gRTq9hgEXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0050 - Distribuição Poisson
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VnK0UsRBJig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0051 - Distribuição Poisson
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DZicoEcJ2yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{< /spoiler >}}
