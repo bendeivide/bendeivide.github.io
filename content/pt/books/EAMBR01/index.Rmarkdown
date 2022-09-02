@@ -1,5 +1,5 @@
 ---
-title: R Básico
+title: R básico
 subtitle: Coleção Estudando o Ambiente R (Volume I)
 summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
@@ -23,7 +23,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: https://bendeivide.github.io/book-eambr01/book-eambr01.pdf
+  url: 
 - icon: github
   icon_pack: fab
   name: Acesse o projeto
@@ -80,7 +80,11 @@ Assim, desenvolvemos na coleção *Estudando o ambiente R* os três volumes inic
 
 Tentando engajar nossos alunos, e agora colegas de trabalho, tenho a parceria no Volume I, de [Diego Arthur](https://digoarthur.github.io/), uma pessoa que tenta se superar a cada desafio e assunto estudado.
 
-Esse primeiro volume, que representa o livro corrente, apresenta um breve __histórico__ sobre a linguagem, a sua instalação, bem como os recursos que a *IDE*^[Do inglês, *Integrated Development Environment*, que significa ambiente de desenvolvimento integrado.] RStudio, o conhecimento da __sintaxe__ e __semântica__ da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um __objeto__ e como construir uma __função__, o entendimento sobre __fluxos de controle__. O que é um __pacote__, __carregar__ e __anexar__ um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. __Caminho de busca__, __ambientes__ e __namespaces__, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as __boas práticas para a escrita de um código__, tema também abordado nesse módulo.
+Esse primeiro volume, que representa o livro corrente, apresenta um breve __histórico__ sobre a linguagem, a sua instalação, bem como os recursos que a *IDE*[^1]
+
+[^1]: Do inglês, *Integrated Development Environment*, que significa ambiente de desenvolvimento integrado.
+
+RStudio, o conhecimento da __sintaxe__ e __semântica__ da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um __objeto__ e como construir uma __função__, o entendimento sobre __fluxos de controle__. O que é um __pacote__, __carregar__ e __anexar__ um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. __Caminho de busca__, __ambientes__ e __namespaces__, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as __boas práticas para a escrita de um código__, tema também abordado nesse módulo.
 
 A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente. 
 

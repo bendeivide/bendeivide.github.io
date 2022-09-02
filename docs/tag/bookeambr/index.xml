@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/bookeambr/</link>
       <atom:link href="http://bendeivide.github.io/tag/bookeambr/index.xml" rel="self" type="application/rss+xml" />
     <description>bookeambr</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 02 Sep 2022 06:34:53 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 02 Sep 2022 07:12:10 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>bookeambr</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>R Básico</title>
+      <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Fri, 02 Sep 2022 06:34:53 +0000</pubDate>
+      <pubDate>Fri, 02 Sep 2022 07:12:10 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -25,9 +25,18 @@
 &lt;p&gt;A ideia desse curso foi apresentar algo diferente relacionado a maioria dos cursos em R, que foi sempre apresentar essa ferramenta dentro dos conceitos da área da Estatística. Apesar de uma coisa ser intrínseca a outra, há muitas particularidades no ambiente R que são complexos, e muitas vezes julgados erroneamente. Um dos exemplos clássicos é que &lt;em&gt;loops&lt;/em&gt; em R são lentos e com alto gasto de memória, quando na realiadade, isso ocorre muitas vezes pelo não entendimento do sistema de cópia de objetos nesse ambiente. Ainda mais, o entendimento desses cursos é agravado porque o entendimento sobre a estatística além de um cunho matemático, tem o seu cunho filosófico de como as metodologias foram desenvolvidas, e o entendimento mútuo da Estatística e o ambiente R, podem não ter o conhecimento real que essa potencial ferramenta pode proporcionar, uma vez que muitos assuntos complexos podem estar envolvidos em uma única aula.&lt;/p&gt;
 &lt;p&gt;Assim, desenvolvemos na coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; os três volumes iniciais, referentes a apenas a linguagem R, sendo &lt;em&gt;Volume I: Nível Básico&lt;/em&gt;, &lt;em&gt;Volume II: Nível Intermediário&lt;/em&gt; e &lt;em&gt;Volume III: Nível Avançado&lt;/em&gt;. Fazendo a alusão dos três livros iniciais sobre a linguagem S de John Chambers, faremos uma explanação sobre assuntos de menor complexidade até noções mais complexas sobre o ambiente R, restringindo apenas a sintaxe e semântica da linguagem. Os volumes subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote R&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos&lt;/em&gt;, &lt;em&gt;Funções do pacote base&lt;/em&gt;, dentre outros.&lt;/p&gt;
 &lt;p&gt;Tentando engajar nossos alunos, e agora colegas de trabalho, tenho a parceria no Volume I, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, uma pessoa que tenta se superar a cada desafio e assunto estudado.&lt;/p&gt;
-&lt;p&gt;Esse primeiro volume, que representa o livro corrente, apresenta um breve &lt;strong&gt;histórico&lt;/strong&gt; sobre a linguagem, a sua instalação, bem como os recursos que a &lt;em&gt;IDE&lt;/em&gt;^[Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.] RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
+&lt;p&gt;Esse primeiro volume, que representa o livro corrente, apresenta um breve &lt;strong&gt;histórico&lt;/strong&gt; sobre a linguagem, a sua instalação, bem como os recursos que a &lt;em&gt;IDE&lt;/em&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
 &lt;p&gt;A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente.&lt;/p&gt;
 &lt;p&gt;Por fim, espero que esse primeiro volume possa servir de referência para os passos iniciais nessa ferramenta tão importante para a área de análise de dados.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
