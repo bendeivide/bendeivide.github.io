@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 01 Sep 2022 14:06:26 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 02 Sep 2022 06:39:39 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -1816,7 +1816,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2022.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Wed, 31 Aug 2022 15:20:48 +0000</pubDate>
+      <pubDate>Fri, 02 Sep 2022 06:39:39 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -2075,7 +2075,11 @@ semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;material-adotado&#34;&gt;Material adotado&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
   &lt;summary&gt;Materiais complementares&lt;/summary&gt;
@@ -2906,11 +2910,44 @@ Período de 30/07/2021 a 30/09/2021&lt;/p&gt;
     </item>
     
     <item>
+      <title>Estatística &amp; Probabilidade</title>
+      <link>http://bendeivide.github.io/books/epaec/</link>
+      <pubDate>Fri, 02 Sep 2022 06:36:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/epaec/</guid>
+      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
+&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;detalhes-sobre-o-livro&#34;&gt;Detalhes sobre o livro&lt;/h2&gt;
+&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;http://bendeivide.github.io/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt;, como também sua versão em &lt;a href=&#34;https://github.com/bendeivide/book-epaec/raw/master/docs/book-epaec.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;, e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Básico</title>
+      <link>http://bendeivide.github.io/books/eambr01/</link>
+      <pubDate>Fri, 02 Sep 2022 06:34:53 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr01/</guid>
+      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
+&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
+&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
+&lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
+&lt;p&gt;A ideia desse curso foi apresentar algo diferente relacionado a maioria dos cursos em R, que foi sempre apresentar essa ferramenta dentro dos conceitos da área da Estatística. Apesar de uma coisa ser intrínseca a outra, há muitas particularidades no ambiente R que são complexos, e muitas vezes julgados erroneamente. Um dos exemplos clássicos é que &lt;em&gt;loops&lt;/em&gt; em R são lentos e com alto gasto de memória, quando na realiadade, isso ocorre muitas vezes pelo não entendimento do sistema de cópia de objetos nesse ambiente. Ainda mais, o entendimento desses cursos é agravado porque o entendimento sobre a estatística além de um cunho matemático, tem o seu cunho filosófico de como as metodologias foram desenvolvidas, e o entendimento mútuo da Estatística e o ambiente R, podem não ter o conhecimento real que essa potencial ferramenta pode proporcionar, uma vez que muitos assuntos complexos podem estar envolvidos em uma única aula.&lt;/p&gt;
+&lt;p&gt;Assim, desenvolvemos na coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; os três volumes iniciais, referentes a apenas a linguagem R, sendo &lt;em&gt;Volume I: Nível Básico&lt;/em&gt;, &lt;em&gt;Volume II: Nível Intermediário&lt;/em&gt; e &lt;em&gt;Volume III: Nível Avançado&lt;/em&gt;. Fazendo a alusão dos três livros iniciais sobre a linguagem S de John Chambers, faremos uma explanação sobre assuntos de menor complexidade até noções mais complexas sobre o ambiente R, restringindo apenas a sintaxe e semântica da linguagem. Os volumes subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote R&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos&lt;/em&gt;, &lt;em&gt;Funções do pacote base&lt;/em&gt;, dentre outros.&lt;/p&gt;
+&lt;p&gt;Tentando engajar nossos alunos, e agora colegas de trabalho, tenho a parceria no Volume I, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, uma pessoa que tenta se superar a cada desafio e assunto estudado.&lt;/p&gt;
+&lt;p&gt;Esse primeiro volume, que representa o livro corrente, apresenta um breve &lt;strong&gt;histórico&lt;/strong&gt; sobre a linguagem, a sua instalação, bem como os recursos que a &lt;em&gt;IDE&lt;/em&gt;^[Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.] RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
+&lt;p&gt;A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente.&lt;/p&gt;
+&lt;p&gt;Por fim, espero que esse primeiro volume possa servir de referência para os passos iniciais nessa ferramenta tão importante para a área de análise de dados.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Pelos Caminhos de Ciriégola</title>
       <link>http://bendeivide.github.io/books/ciriegola/</link>
-      <pubDate>Sun, 15 May 2022 16:51:58 +0000</pubDate>
+      <pubDate>Fri, 02 Sep 2022 06:28:24 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/ciriegola/</guid>
-      <description>&lt;h2 id=&#34;prefácio&#34;&gt;Prefácio&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
+&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;prefácio&#34;&gt;Prefácio&lt;/h2&gt;
 &lt;p&gt;Alegra-nos o coração a presente iniciativa e boa vontade do jovem Ben Dêivide de Oliveira Batista em deixar grafado um pouco do trabalho deixado por seu pai, José Alcigério Batista, mais conhecido como Léo Batista. Quanto ao seu genitor temos vivido juntos com esse buscador por mais de seis décadas e ninguém mais, ninguém melhor do que “nós” sabe a trajetória desta alma velha inexoravelmente apaixonada pela imortalidade de suas convicções inusitadas e apaixonado pelas pessoas humildes e simples do seu tempo nas escolas públicas. Trouxe na sua genética os traços funcionais do seu pai, construtor de açude, o mestre Alcides Batista, e o jeito mágico de ver as coisas da professora de alfabetização Dona Josélia Batista, sua genitora. O material contido neste opúsculo é o resultado dos arquivos esquecidos de Léo e garimpados por Ben Dêivide ao longo de muitos anos. Jamais foi o desejo do professor tornar público seu pensamento em forma de prosa, verso ou música, tendo em vista a má interpretação e má uso daqueles conceitos pelas mentalidades jovens e dessa forma gerar “causa e efeito” negativo na sua própria trajetória encarnatória como aconteceu num pretérito não muito distante de nós. Estes excertos são todos carregados de magia e misticismo como assim foi e é a existência desse operário da educação, não estão sujeitos ao tempo de nosso tempo e foram moldados de forma anárquica e antisectária, não foram confeccionados com um fim de publicidade egóica, mas como um registro pessoal do seu “instante” ao entendimento da sua geração filial futura. Nós que acompanhamos “na pele” a trajetória deste mensageiro sabemos quão sofrida é a missão de quem vem para este orbe com a CONSCIÊNCIA aflorada para além do seu tempo e isto está marcado nos seus solilóquios que aqui foram grafados, é evidente que esta essência não se encaixe na compreensão de muitos, posto que não se pode ver qualidades nos outros quando não se tem as mesmas no arquivo interior. Ademais, o leitor com um pouco de sagácia será atraído pelo mistério que existe na arte literária modesta deste visionário artesão do verbo. Congratulamo-nos com o professor Ben Dêivide pela iniciativa da sua intenção em publicar parte da obra mandingueira do seu pai e amigo. Lembremos sempre que “O AMOR é a FONTE, a ALEGRIA é o PODER e a Vida é a CELEBRAÇÃO”.&lt;/p&gt;
 &lt;div align=&#34;right&#34; &gt;
 Alice Iorg, Glícia Ero, Crol Iagie, Ciriégola, Grilo Caié...
@@ -3203,22 +3240,6 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     </item>
     
     <item>
-      <title>Estudando o ambiente R</title>
-      <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Sun, 13 Mar 2022 17:57:24 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/eambr01/</guid>
-      <description>&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
-&lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
-&lt;p&gt;A ideia desse curso foi apresentar algo diferente relacionado a maioria dos cursos em R, que foi sempre apresentar essa ferramenta dentro dos conceitos da área da Estatística. Apesar de uma coisa ser intrínseca a outra, há muitas particularidades no ambiente R que são complexos, e muitas vezes julgados erroneamente. Um dos exemplos clássicos é que &lt;em&gt;loops&lt;/em&gt; em R são lentos e com alto gasto de memória, quando na realiadade, isso ocorre muitas vezes pelo não entendimento do sistema de cópia de objetos nesse ambiente. Ainda mais, o entendimento desses cursos é agravado porque o entendimento sobre a estatística além de um cunho matemático, tem o seu cunho filosófico de como as metodologias foram desenvolvidas, e o entendimento mútuo da Estatística e o ambiente R, podem não ter o conhecimento real que essa potencial ferramenta pode proporcionar, uma vez que muitos assuntos complexos podem estar envolvidos em uma única aula.&lt;/p&gt;
-&lt;p&gt;Assim, desenvolvemos na coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; os três volumes iniciais, referentes a apenas a linguagem R, sendo &lt;em&gt;Volume I: Nível Básico&lt;/em&gt;, &lt;em&gt;Volume II: Nível Intermediário&lt;/em&gt; e &lt;em&gt;Volume III: Nível Avançado&lt;/em&gt;. Fazendo a alusão dos três livros iniciais sobre a linguagem S de John Chambers, faremos uma explanação sobre assuntos de menor complexidade até noções mais complexas sobre o ambiente R, restringindo apenas a sintaxe e semântica da linguagem. Os volumes subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote R&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos&lt;/em&gt;, &lt;em&gt;Funções do pacote base&lt;/em&gt;, dentre outros.&lt;/p&gt;
-&lt;p&gt;Tentando engajar nossos alunos, e agora colegas de trabalho, tenho a parceria no Volume I, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, uma pessoa que tenta se superar a cada desafio e assunto estudado.&lt;/p&gt;
-&lt;p&gt;Esse primeiro volume, que representa o livro corrente, apresenta um breve &lt;strong&gt;histórico&lt;/strong&gt; sobre a linguagem, a sua instalação, bem como os recursos que a &lt;em&gt;IDE&lt;/em&gt;^[Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.] RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
-&lt;p&gt;A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente.&lt;/p&gt;
-&lt;p&gt;Por fim, espero que esse primeiro volume possa servir de referência para os passos iniciais nessa ferramenta tão importante para a área de análise de dados.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Livro - Estimação Estatística</title>
       <link>http://bendeivide.github.io/post/book_estest/</link>
       <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
@@ -3480,15 +3501,6 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
   &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estatística &amp; Probabilidade</title>
-      <link>http://bendeivide.github.io/books/epaec/</link>
-      <pubDate>Sun, 06 Jun 2021 12:18:51 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/epaec/</guid>
-      <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;http://bendeivide.github.io/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt;, como também sua versão em &lt;a href=&#34;https://github.com/bendeivide/book-epaec/raw/master/docs/book-epaec.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;, e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

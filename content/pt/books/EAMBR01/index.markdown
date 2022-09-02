@@ -1,11 +1,11 @@
 ---
-title: Estudando o ambiente R
-subtitle: Volume I - Nível Básico
-summary: Livro em desenvolvimento
+title: R Básico
+subtitle: Coleção Estudando o Ambiente R (Volume I)
+summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
 - bookeambr
 categories: ["R"]
-date: "2022-03-13 17:57:24"
+date: "2022-09-02 06:34:53"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -63,6 +63,12 @@ slides: ""
 # Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
 share: true
 ---
+
+## Sugestões e críticas
+
+Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
+
+## Sinopse
 
 A coleção *Estudando o ambiente R* é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.
 

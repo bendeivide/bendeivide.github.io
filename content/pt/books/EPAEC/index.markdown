@@ -1,11 +1,11 @@
 ---
 title: Estatística & Probabilidade
 subtitle: aplicadas às Engenharias e Ciências
-summary: Livro em desenvolvimento
+summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
 - bookepaec
 categories: ["R", "Estatística", "Probabilidade"]
-date: "2021-06-06 12:18:51"
+date: "2022-09-02 06:36:00"
 
 commentable: true
 
@@ -65,5 +65,11 @@ slides: ""
 # Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
 share: true
 ---
+
+## Sugestões e críticas
+
+Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
+
+## Detalhes sobre o livro
 
 O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um [*bookdown*](http://bendeivide.github.io/book-epaec), como também sua versão em [PDF](https://github.com/bendeivide/book-epaec/raw/master/docs/book-epaec.pdf), e o projeto encontra-se no repositório [GitHub](https://github.com/bendeivide/book-epaec).

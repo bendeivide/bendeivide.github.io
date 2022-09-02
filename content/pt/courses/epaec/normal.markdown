@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.2
-date: "2022-08-31 15:20:48"
+date: "2022-09-02 06:39:39"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -223,6 +223,7 @@ semana o aluno é acompanhado e avaliado pelo professor.
 ## Material adotado
 
  - Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
+   - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
  
  {{< spoiler text="Materiais complementares">}}
 - [Estatística Básica (Departamento de Estatística, UFPR)](http://leg.ufpr.br/~paulojus/estbas/)

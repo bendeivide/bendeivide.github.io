@@ -1,10 +1,10 @@
 ---
 title: Pelos Caminhos de Ciriégola
-summary: Livro publicado
+summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
 - bookciriegola
 categories: ["Misticismo", "Poesia", "Música"]
-date: "2022-05-15 16:51:58"
+date: "2022-09-02 06:28:24"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -62,6 +62,10 @@ slides: ""
 # Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
 share: true
 ---
+
+## Sugestões e críticas
+
+Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
 
 ## Prefácio
 
