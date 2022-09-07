@@ -1,6 +1,6 @@
 ---
 title: ✍️ Exercícios resolvidos para EPAEC
-date: "2022-09-01 14:06:26"
+date: "2022-09-07 15:49:10"
 type: book
 weight: 30
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
@@ -517,5 +517,222 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 ### ER0051 - Distribuição Poisson
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DZicoEcJ2yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0052 - Distribuição Normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7fJY-I7k6vI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0053 - Distribuição Normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P9emPPRYspE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0054 - Distribuição Normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aVls8wTZVeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0055 - Função densidade de probabilidade
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cFE5cXUcMxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0056 - Função densidade de probabilidade
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EmPqDriTaSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0057 - Distribuição normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cGzrAeoBaQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0058 - Distribuição normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v34XqnJrb3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0059 - Distribuição de amostragem (Média de uma normal)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EGpzBfVY8Z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0060 - Distribuição de amostragem (t de Student)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vRPuMiDBbDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0061 - Distribuição de amostragem (Média de uma normal)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YMqbV41-m8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0062 - DIstribuição amostral
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gsyhTTnHSb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0063 - Distribuições de amostragem: Aproximação da binomal à normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EphtlSdZ890" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0064 - Distribuições de amostragem: Aproximação da Poisson à normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yeUKCZllIRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0065 - Amostragem: Tamanho amostral baseado em um IC para proporções
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hdI_Oc3JKfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0066 - Estimação intervalar: IC para o parâmetro proporção
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BLAPLnBnrOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0067 - Estimação intervalar: IC para proporção
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GzzupIidReI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0068 - Estimação pontual para proporção
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIoJ6p9cJyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0069 - Estimação pontual
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xFzI_pxi2xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0070 - Teoria da decisão para a média populacional de uma normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-EzBV-MXqHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0071 - Estimação intervalar para média de uma população normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JxN14V93-4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0072 - Tamanho amostral de uma normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2N6KT-T69Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0073 - Tamanho amostral de uma população normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PXUpF8898ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0074 - Estimação intervalar para a variância populacional de uma normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SdxdjGYAhbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0075 - Estimação intervalar e tamanho amostral
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yB6l0wUEG3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0076 - Estimação intervalar para a proporcão populacional
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K0mVHBdEYTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0077 - Estimação intervalar para a média populacional
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cy_fzbY_n3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0078 - Teoria de decisão para a média populacional de uma normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lgg66pLAIq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0079 - Teoria de decisã para diferença de médias populacionais normais independentes
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uI_44_rQjco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0080 - Estimação intervalar para a média populacional normal com variância pop. desconhecida
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-zeJznUEYA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0081 - Estimação intervalar para média pop. normal com variância pop. desconhecida
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Cfzo6VUe_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0082 - Tamanho amostral baseado no IC para proporção populacional
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ku5-Ld1VNoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0083 - Estimação intervalar para a diferença entre médias pop. normais independentes
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b2kQkdaewN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0084 - Teoria da decisão para a média pop. normal com variância pop. desconhecida
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5NKbjx91RrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0085 - Teoria da decisão para média pop. normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CETKiNIw2kU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0086 - Teoria de decisão para a média pop. normal com variância pop. desconhecida
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ORrINGDbe2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0087 - Estimação intervalar para a média pop. normal com variância pop. desconhecida
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0QCSb9NZBF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0088 - Teoria da decisão: Elaboração das hipóteses complementares (H0 e H1)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gwrPCt7B6PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0089 - Teoria de decisão: Cálculo da probabilidade do Erro tipo I e II, em hipóteses simples
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jszRgugoQ2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0090 - Cálculo das probabilidades do erro tipo I e II
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iTrOZFQS47g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0091 - Estimação intervalar p ara média de uma pop normal com variância pop. desconhecida
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UQEqwZ4GrDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0092 - estimação intervalar para a média populacional normal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fgwl3gmHW1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0093 - Teoria de decisão para duas médias pop. ind. normais com variâncias homocedásticas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/06IsSZJpWg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0094 - Teoria de decisão para duas médias pop. ind. normais com variâncias homocedásticas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0Dspbr2XiGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0095 - Teoria de decisão para duas médias pop. ind. normais com variâncias homocedásticas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CciW23UmiTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0096 - Teoria de decisão para duas médias pop. ind. normais com variâncias homocedásticas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1vDPcD_BIU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0097 - Teoria de decisão para uma média populacional normal com variância pop. desconhecida
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K-yfne_tizg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### ER0098 - Teoria de decisão para uma média populacional normal com variância pop. desconhecida
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0IpVJjjMfkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0099 - Teoria de decisão para duas médias pop. ind. normais com variâncias heterocedásticas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f4bXo9JW6IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### ER0100 - Teoria de decisão para duas médias pop. ind. normais com variâncias heterocedásticas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bCpqM38K2do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
 
 {{< /spoiler >}}
