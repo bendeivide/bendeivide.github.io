@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.2
-date: "2022-09-13 15:10:21"
+date: "2022-09-13 18:20:35"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]

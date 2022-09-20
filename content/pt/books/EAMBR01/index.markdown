@@ -1,11 +1,11 @@
 ---
 title: R básico
 subtitle: Coleção Estudando o Ambiente R (Volume I)
-summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
+summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
 - bookeambr
 categories: ["R"]
-date: "2022-09-02 07:12:10"
+date: "2022-09-20 07:56:21"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -16,6 +16,10 @@ image:
   focal_point: Smart
 
 links:
+- icon: amazon
+  icon_pack: fab
+  name: Amazon
+  url: https://www.amazon.com/dp/6500515994
 - icon: book-open
   icon_pack: fas
   name: Bookdown
@@ -23,7 +27,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf
 - icon: github
   icon_pack: fab
   name: Acesse o projeto
@@ -67,6 +71,10 @@ share: true
 ## Sugestões e críticas
 
 Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
+
+## Diretório de *scripts*
+
+O diretório de todos os *scripts* do livro se encontram em: [link](https://github.com/bendeivide/book-eambr01/tree/main/scripts)
 
 ## Sinopse
 
