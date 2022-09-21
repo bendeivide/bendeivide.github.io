@@ -3,7 +3,7 @@ title: "Curso R - Programação em R (Nível Intermediário)"
 date: "2021-05-10T00:00:00Z"
 categories: ["R", "Curso R"]
 tags: ["Curso R"]
-summary: Em breve!
+summary: Ocorrido!
 share: false
 ---
 
