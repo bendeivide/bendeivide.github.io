@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ben Dêivide e Diego Arthur | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/author/ben-deivide-e-diego-arthur/</link>
+      <atom:link href="http://bendeivide.github.io/author/ben-deivide-e-diego-arthur/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ben Dêivide e Diego Arthur</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>Ben Dêivide e Diego Arthur</title>
+      <link>http://bendeivide.github.io/author/ben-deivide-e-diego-arthur/</link>
+    </image>
+    
+    <item>
+      <title>Lançamento do livro R básico</title>
+      <link>http://bendeivide.github.io/slides/lancamentorbasico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/lancamentorbasico/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;r-básico&#34;&gt;R Básico&lt;/h1&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Como foi o início?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;1&#34;&gt;
+&lt;p&gt;Pandemia (2020-2021)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;2&#34;&gt;
+&lt;p&gt;Catel/UFSJ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;3&#34;&gt;
+&lt;p&gt;Cursos sobre a &lt;a href=&#34;https://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;linguagem R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;4&#34;&gt;
+&lt;p&gt;Parceria com &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;5&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Projeto aprender por ensinar (PAPE)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;coleção-ear&#34;&gt;Coleção EAR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;R básico (Volume I)&lt;/li&gt;
+&lt;li&gt;R intermediário (Volume II)&lt;/li&gt;
+&lt;li&gt;R avançado (Volume III)&lt;/li&gt;
+&lt;li&gt;Documentações em R (Volume IV)&lt;/li&gt;
+&lt;li&gt;Desenvolvimento de pacotes R (Volume V)&lt;/li&gt;
+&lt;li&gt;Gráficos (Volume VI)&lt;/li&gt;
+&lt;li&gt;Banco de dados (Volume VII)&lt;/li&gt;
+&lt;li&gt;IGU (Volume VIII)&lt;/li&gt;
+&lt;li&gt;POO no R (Volume IX)&lt;/li&gt;
+&lt;li&gt;Funções do pacote &lt;code&gt;base&lt;/code&gt; (Volume X)&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;curiosidades-do-r-básico&#34;&gt;Curiosidades do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tempo: 1 ano&lt;/li&gt;
+&lt;li&gt;Escrito em &lt;code&gt;\(\LaTeX\)&lt;/code&gt; (PDF)
+&lt;ul&gt;
+&lt;li&gt;classe &lt;em&gt;memoir&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Escrito com o pacote &lt;a href=&#34;https://bookdown.org/yihui/bookdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bookdown&lt;/a&gt; (Versão em HTML)
+&lt;ul&gt;
+&lt;li&gt;Ultrapassou as 2500 linhas de comando&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;124 exercícios propostos&lt;/li&gt;
+&lt;li&gt;$&amp;gt;$120 Códigos R numerados, sem contabilizar os não numerados&lt;/li&gt;
+&lt;li&gt;339 páginas e 321 numeradas&lt;/li&gt;
+&lt;li&gt;Publicado em 28/08/2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Estrutura do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Objetivo: Sintaxe e semântica do R (Introdutório)&lt;/li&gt;
+&lt;li&gt;11 capítulos
+&lt;ul&gt;
+&lt;li&gt;Capítulo 1: Entendendo a coleção EAR&lt;/li&gt;
+&lt;li&gt;Capítulo 2: História e instalação do R&lt;/li&gt;
+&lt;li&gt;Capítulo 3: Como o R trabalha&lt;/li&gt;
+&lt;li&gt;Capítulo 4: Objetos e estruturas de dados&lt;/li&gt;
+&lt;li&gt;Capítulo 5: Importação e exportação de dados&lt;/li&gt;
+&lt;li&gt;Capítulo 6: Funções no R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Estrutura do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;11 capítulos
+&lt;ul&gt;
+&lt;li&gt;Capítulo 7: Boas práticas de como escrever um código&lt;/li&gt;
+&lt;li&gt;Capítulo 8: Pacotes&lt;/li&gt;
+&lt;li&gt;Capítulo 9: Ambientes e caminho de busca&lt;/li&gt;
+&lt;li&gt;Capítulo 10: Interfaces com outras linguagens&lt;/li&gt;
+&lt;li&gt;Capítulo 11: Considerações e preparação para o Volume II&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Capa/lateral/fundo&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/lancamentorbasico/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_00da4cf45303c5812d852b1a6a7f785f.webp 400w,
+               /slides/lancamentorbasico/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_2d3c75e90137881f78d6463e7dd9815d.webp 760w,
+               /slides/lancamentorbasico/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/lancamentorbasico/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_00da4cf45303c5812d852b1a6a7f785f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;521&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/lancamentorbasico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e7d989885f53b139516d528532ba7d54.webp 400w,
+               /slides/lancamentorbasico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/lancamentorbasico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/lancamentorbasico/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e7d989885f53b139516d528532ba7d54.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;mais-sobre-o-r-básico&#34;&gt;Mais sobre o R básico&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Página do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;obrigado&#34;&gt;Obrigado!&lt;/h1&gt;
+&lt;p&gt;Sugestões, perguntas, críticas&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
