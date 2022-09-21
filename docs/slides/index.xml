@@ -7501,7 +7501,7 @@ Para explicar a definição de uma variável aleatória será considerado o exem
 
 &lt;h2 id=&#34;coleção-ear&#34;&gt;Coleção EAR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;R básico (Volume I)&lt;/li&gt;
+&lt;li&gt;R básico (Volume I) ❌&lt;/li&gt;
 &lt;li&gt;R intermediário (Volume II)&lt;/li&gt;
 &lt;li&gt;R avançado (Volume III)&lt;/li&gt;
 &lt;li&gt;Documentações em R (Volume IV)&lt;/li&gt;
@@ -7513,6 +7513,41 @@ Para explicar a definição de uma variável aleatória será considerado o exem
 &lt;li&gt;Funções do pacote &lt;code&gt;base&lt;/code&gt; (Volume X)&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Agradecimentos &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rodrigo Ronchi Rossi Costa (UFSJ)&lt;/li&gt;
+&lt;li&gt;Fernando Augusto Teixeira (UFSJ)&lt;/li&gt;
+&lt;li&gt;Sérgio de Oliveira (UFSJ)&lt;/li&gt;
+&lt;li&gt;Jose Eloy Ottoni (UFSJ)&lt;/li&gt;
+&lt;li&gt;Daniel Furtado Ferreira (UFLA)&lt;/li&gt;
+&lt;li&gt;Janilson Pinheiro de Assis (UFERSA)&lt;/li&gt;
+&lt;li&gt;Wesley de Oliveira Santos (UFERSA)&lt;/li&gt;
+&lt;li&gt;Allanna Darlene  Vilaça (UNIFACVEST)&lt;/li&gt;
+&lt;li&gt;Tiago Olivoto (UFSC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Agradecimentos &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Felipe Andrade  Velozo (UNIFAL)&lt;/li&gt;
+&lt;li&gt;Julio Cezar Gonçalves de Freitas (UFPA)&lt;/li&gt;
+&lt;li&gt;Regina Albanese Pose (USCS)&lt;/li&gt;
+&lt;li&gt;Dulcídia Carlos Guezimane Ernesto (UFLA)&lt;/li&gt;
+&lt;li&gt;José Edimar Vieira Costa Júnior (UFLA)&lt;/li&gt;
+&lt;li&gt;André da Silva Pereira (UPF)&lt;/li&gt;
+&lt;li&gt;Miguel Angel Acosta Chinchilla (&lt;em&gt;Alliance Bioversity&lt;/em&gt; - CIAT)&lt;/li&gt;
+&lt;li&gt;Daniel Vicente Batista (Univesp)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -7607,6 +7642,13 @@ Para explicar a definição de uma variável aleatória será considerado o exem
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section data-background-iframe=&#34;/books/eambr01&#34; data-background-interactive&gt;
+	&lt;div style=&#34;position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;&#34;&gt;
+		&lt;h2&gt;Página do livro R básico&lt;/h2&gt;
+		&lt;p&gt;Todo o material do livro está disponível na página: &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34;&gt;https://bendeivide.github.io/books/eambr01/&lt;/a&gt;.&lt;/p&gt;
+	&lt;/div&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 

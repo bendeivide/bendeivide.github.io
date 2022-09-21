@@ -18,8 +18,12 @@ image:
 links:
 - icon: amazon
   icon_pack: fab
-  name: Amazon
+  name: Amazon (Colorido)
   url: https://www.amazon.com/dp/6500515994
+- icon: amazon 
+  icon_pack: fab
+  name: Amazon (Preto e branco)
+  url: https://www.amazon.com/dp/6500531914
 - icon: book-open
   icon_pack: fas
   name: Bookdown
@@ -72,9 +76,22 @@ share: true
 
 Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
 
-## Diretório de *scripts*
+## Onde consigo a versão em PDF?
+
+[Livro R básico (PDF)](https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf)
+
+## Onde consigo a versão em HTML?
+
+[Livro R básico (HTML)](https://bendeivide.github.io/book-eambr01/)
+
+## Onde consigo todos os *scripts* do livro?
 
 O diretório de todos os *scripts* do livro se encontram em: [link](https://github.com/bendeivide/book-eambr01/tree/main/scripts)
+
+## Onde consigo comprar o livro físico?
+
+- [Versão colorida e capa simples (Amazon)](https://www.amazon.com/dp/6500515994)
+- [Versão preto e branco e capa simples (Amazon)](https://www.amazon.com/dp/6500531914) (Mais em conta!)
 
 ## Sinopse
 

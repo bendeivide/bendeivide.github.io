@@ -84,7 +84,7 @@ Parceria com [Diego](https://digoarthur.github.io/)
 
 ## Coleção EAR
 
-- R básico (Volume I)
+- R básico (Volume I) ❌
 - R intermediário (Volume II)
 - R avançado (Volume III)
 - Documentações em R (Volume IV)
@@ -98,6 +98,37 @@ Parceria com [Diego](https://digoarthur.github.io/)
 
 ---
 
+{{< slide background-image="hardcover.png" >}}
+
+<section>
+<h2>Agradecimentos </h2>
+
+  - Rodrigo Ronchi Rossi Costa (UFSJ)
+  - Fernando Augusto Teixeira (UFSJ) 
+  - Sérgio de Oliveira (UFSJ)
+  - Jose Eloy Ottoni (UFSJ)
+  - Daniel Furtado Ferreira (UFLA)
+  - Janilson Pinheiro de Assis (UFERSA)
+  - Wesley de Oliveira Santos (UFERSA)
+  - Allanna Darlene  Vilaça (UNIFACVEST)
+  - Tiago Olivoto (UFSC)
+
+</section>
+<section>
+<h2>Agradecimentos </h2>
+
+  - Felipe Andrade  Velozo (UNIFAL)
+  - Julio Cezar Gonçalves de Freitas (UFPA)
+  - Regina Albanese Pose (USCS)
+  - Dulcídia Carlos Guezimane Ernesto (UFLA)
+  - José Edimar Vieira Costa Júnior (UFLA)
+  - André da Silva Pereira (UPF)
+  - Miguel Angel Acosta Chinchilla (*Alliance Bioversity* - CIAT) 
+  - Daniel Vicente Batista (Univesp) 
+  
+</section>
+
+---
 
 {{< slide background-image="hardcover.png" >}}
 
@@ -148,6 +179,15 @@ Parceria com [Diego](https://digoarthur.github.io/)
 
 ![](cover-back-front.png)
 
+</section>
+
+---
+
+<section data-background-iframe="/books/eambr01" data-background-interactive>
+	<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+		<h2>Página do livro R básico</h2>
+		<p>Todo o material do livro está disponível na página: <a href="https://bendeivide.github.io/books/eambr01/">https://bendeivide.github.io/books/eambr01/</a>.</p>
+	</div>
 </section>
 
 ---

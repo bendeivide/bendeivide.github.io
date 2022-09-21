@@ -1,19 +1,19 @@
 ---
-title: "Lançamento do livro R básico"
-date: "2022-09-28"
-categories: ["Livro", "R", "Palestra"]
-tags: ["Curso R"]
-summary: Em breve!
-share: true
-#slides: example
+title: 'Lançamento do livro R básico'
+date: "2022-09-21"
+categories: ['Livro', 'R', 'Palestra']
+tags: ['Curso R']
+summary: 'Em breve!'
 links:
-- name: Se inscreva para o sorteio de R básico
-  url: https://forms.gle/2iV7CuJX2Z6MoXJN8
+- name: Inscrição de sorteio
+  url: https://forms.gle/GC5uiXAoWNJAiRyK7
 - name: Palestra
-  url: https://bendeivide.github.io/event/rbasico/
+  url: https://bendeivide.github.io/talk/lancamento-do-livro-r-basico
 - name: Canal da palestra (Inscreva-se!)
-  url: https://youtube.com/bendeivide
+  url: https://youtube.com/bendeivide/
+
 ---
+
 
 
 
@@ -25,36 +25,25 @@ O lançamento do Livro [R básico](https://bendeivide.github.io/books/eambr01/) 
 
 {{< icon name="calendar-day" pack="fas" >}} 28/09/2022, 19h (Horário de Brasília)
 
-{{< icon name="youtube" pack="fab" >}} [https://youtu.be/wsdUz44Tfw4](https://youtu.be/wsdUz44Tfw4) 
+{{< icon name="youtube" pack="fab" >}} [https://youtu.be/wsdUz44Tfw4](https://youtu.be/wsdUz44Tfw4)
+
+## Link da palestra
+
+- [Palestra do livro R básico]()
+
 
 ## Inscrições para o sorteio de um livro R básico
 
+
 {{< icon name="calendar-check" pack="far" >}} 28/09/2022 (19h - 19h30min.)
+
 - Incrição no horário da live (GRATUITA):
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSddYENXWOrw232TP3j2lGuvEYKAKHkhrrAEnKBdQ40hzOTwpw/viewform?embedded=true" width="640" height="1415" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
-## Canal do curso
 
-- Se inscreva no canal onde será realizado o curso: [{{< icon name="youtube" pack="fab" >}} Ben Dêivide](https://youtube.com/bendeivide).
+## Página do R básico
 
-## Página do curso
-
-- [Programação em R (Nível Intermediário)]({{<ref "courses/cursor/nintermediario/index.md">}})
+- [R básico](https://bendeivide.github.io/books/eambr01/)
 
 
-## Materiais do curso
-
-- Livro do curso: [Estudando o ambiente R](https://bendeivide.github.io/book-eambr/)
-- Página: [Curso R](https://bendeivide.github.io/courses/cursor/)
-- [Ementa do curso em tópicos](https://bendeivide.github.io/cursor/nintermediario.html)
-
-## Carga horária e duração do curso
-
-- Carga horária: 40 horas
-- Duração do curso: 30/07/2021 - 30/09/2021
-- 30 aulas (4 vídeo-aulas por semana)
-
-## Apresentação do curso
-
-- Live (A confirmar!)

@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 20 Sep 2022 07:56:21 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 21 Sep 2022 16:33:02 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -632,12 +632,21 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Tue, 20 Sep 2022 07:56:21 +0000</pubDate>
+      <pubDate>Wed, 21 Sep 2022 16:33:02 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;diretório-de-scripts&#34;&gt;Diretório de &lt;em&gt;scripts&lt;/em&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Livro R básico (HTML)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
 &lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/tree/main/scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500515994&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Versão colorida e capa simples (Amazon)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Versão preto e branco e capa simples (Amazon)&lt;/a&gt; (Mais em conta!)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
 &lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
 &lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
@@ -656,6 +665,36 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lançamento do livro R básico</title>
+      <link>http://bendeivide.github.io/post/rbasico/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/rbasico/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;data-horário-e-link&#34;&gt;Data, horário e link&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022, 19h (Horário de Brasília)&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtu.be/wsdUz44Tfw4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/wsdUz44Tfw4&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Palestra do livro R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inscrições-para-o-sorteio-de-um-livro-r-básico&#34;&gt;Inscrições para o sorteio de um livro R básico&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022 (19h - 19h30min.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incrição no horário da live (GRATUITA):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSddYENXWOrw232TP3j2lGuvEYKAKHkhrrAEnKBdQ40hzOTwpw/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1415&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;h2 id=&#34;página-do-r-básico&#34;&gt;Página do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

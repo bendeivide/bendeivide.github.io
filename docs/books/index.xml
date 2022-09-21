@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/books/</link>
       <atom:link href="http://bendeivide.github.io/books/index.xml" rel="self" type="application/rss+xml" />
     <description>Books</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 20 Sep 2022 07:56:21 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 21 Sep 2022 16:33:02 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Books</title>
@@ -15,12 +15,21 @@
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Tue, 20 Sep 2022 07:56:21 +0000</pubDate>
+      <pubDate>Wed, 21 Sep 2022 16:33:02 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;diretório-de-scripts&#34;&gt;Diretório de &lt;em&gt;scripts&lt;/em&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Livro R básico (HTML)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
 &lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/tree/main/scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500515994&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Versão colorida e capa simples (Amazon)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Versão preto e branco e capa simples (Amazon)&lt;/a&gt; (Mais em conta!)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
 &lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
 &lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
