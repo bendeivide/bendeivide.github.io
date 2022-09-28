@@ -5,7 +5,7 @@ summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser e
 tags:
 - bookeambr
 categories: ["R"]
-date: "2022-09-21 16:33:02"
+date: "2022-09-27 21:11:24"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -79,6 +79,10 @@ Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.
 ## Onde consigo a versão em PDF?
 
 [Livro R básico (PDF)](https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf)
+
+### Estatísticas de *donwload* do PDF?
+
+[Estatísticas do R básico](http://dstats.net/show/https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf)
 
 ## Onde consigo a versão em HTML?
 

@@ -62,7 +62,11 @@
       href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2022-09-21T19:19:08+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tag/bookeambr/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -71,6 +75,10 @@
       hreflang="pt"
       href="http://bendeivide.github.io/categories/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/eambr01/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2022-09-21T19:19:08+00:00</lastmod></url>
   <url>
@@ -91,14 +99,6 @@
     <loc>http://bendeivide.github.io/category/probabilidade/</loc><lastmod>2022-09-21T19:19:08+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/teoria-de-decisao/</loc><lastmod>2022-09-21T19:19:08+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/bookeambr/</loc><lastmod>2022-09-21T16:33:02+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/</loc><lastmod>2022-09-21T16:33:02+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2022-09-21T16:33:02+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/eambr01/</loc><lastmod>2022-09-21T16:33:02+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso-r/</loc><lastmod>2022-09-21T00:00:00+00:00</lastmod></url>
   <url>

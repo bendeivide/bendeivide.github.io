@@ -84,7 +84,7 @@ Parceria com [Diego](https://digoarthur.github.io/)
 
 ## Coleção EAR
 
-- R básico (Volume I) ❌
+- R básico (Volume I) ✔
 - R intermediário (Volume II)
 - R avançado (Volume III)
 - Documentações em R (Volume IV)
