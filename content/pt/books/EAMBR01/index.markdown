@@ -5,7 +5,7 @@ summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser e
 tags:
 - bookeambr
 categories: ["R"]
-date: "2022-09-27 21:11:24"
+date: "2022-10-07 16:04:32"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -15,7 +15,12 @@ image:
   caption: Foto criada por Ben Dêivide
   focal_point: Smart
 
+# https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/
 links:
+- icon: 
+  icon_pack: fas
+  name: Mercado livre (Preto e branco)
+  url: https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM
 - icon: amazon
   icon_pack: fab
   name: Amazon (Colorido)

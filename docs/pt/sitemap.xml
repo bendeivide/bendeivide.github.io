@@ -20,6 +20,44 @@
   <url>
     <loc>http://bendeivide.github.io/courses/cursor/navancado/</loc><lastmod>2021-04-29T14:27:10+00:00</lastmod></url>
   <url>
+    <loc>http://bendeivide.github.io/</loc><lastmod>2022-10-07T16:04:32+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/bookeambr/</loc><lastmod>2022-10-07T16:04:32+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/</loc><lastmod>2022-10-07T16:04:32+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2022-10-07T16:04:32+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/categories/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2022-10-07T16:04:32+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/eambr01/</loc><lastmod>2022-10-07T16:04:32+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2022-10-07T16:04:32+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
+    /></url>
+  <url>
     <loc>http://bendeivide.github.io/tag/ambiente-r/</loc><lastmod>2022-09-28T19:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
@@ -28,16 +66,6 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/tag/ambiente-r/"
-    /></url>
-  <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2022-09-28T19:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/talk/lancamento-do-livro-r-basico/</loc><lastmod>2022-09-28T19:00:00+00:00</lastmod></url>
@@ -51,34 +79,6 @@
       hreflang="pt"
       href="http://bendeivide.github.io/event/"
     /></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2022-09-28T19:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/bookeambr/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/categories/"
-    /></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/eambr01/</loc><lastmod>2022-09-27T21:11:24+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2022-09-21T19:19:08+00:00</lastmod></url>
   <url>

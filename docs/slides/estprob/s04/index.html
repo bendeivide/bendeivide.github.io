@@ -28,7 +28,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+  <link rel="stylesheet" href="/css/solarized.css">
 </head>
 <body>
 
@@ -987,9 +987,16 @@
     
       
 <pre> 1º Passo - Número de classes </pre>
-<p><code>\begin{align} k &amp; \approx \left\{\begin{array}{ll} \sqrt{\textrm{número de elementos}}, &amp; n \leq 100 \\ 5log_{10}(\textrm{número de elementos}), &amp; n &gt; 100 \end{array}\right.  \end{align}</code></p>
+<p><code>\begin{align}
+ k &amp; \approx \left\{\begin{array}{ll}
+ \sqrt{\textrm{número de elementos}}, &amp; n \leq 100 \\
+ 5log_{10}(\textrm{número de elementos}), &amp; n &gt; 100
+ \end{array}\right. 
+ \end{align}</code></p>
 <pre> 2º Passo - Amplitude total </pre>
-<p><code>\begin{align} A_t &amp; = \max_i(X_i) - \min_i(X_i),  \end{align}</code>
+<p><code>\begin{align}
+ A_t &amp; = \max_i(X_i) - \min_i(X_i), 
+ \end{align}</code>
 para <code>\(i \in \mathbb{N}^{+}\)</code>.</p>
 
     </section>
@@ -1002,9 +1009,19 @@ para <code>\(i \in \mathbb{N}^{+}\)</code>.</p>
     
       
 <pre> 3º Passo - Amplitude de classe </pre>
-<p><code>\begin{align} c &amp; = \left\{\begin{array}{ll} \frac{A_t}{k - 1}, &amp; \textrm{Amostra} \\ \frac{A_t}{k}, &amp; \textrm{População}. \end{array}\right.  \end{align}</code></p>
+<p><code>\begin{align}
+ c &amp; = \left\{\begin{array}{ll}
+ \frac{A_t}{k - 1}, &amp; \textrm{Amostra} \\
+ \frac{A_t}{k}, &amp; \textrm{População}.
+ \end{array}\right. 
+ \end{align}</code></p>
 <pre> 4º Passo - LI da primeira classe </pre>
-<p><code>\begin{align} Li_{1a} &amp; = \left\{\begin{array}{ll} X_{(1)} - c / 2, &amp; \textrm{Amostra} \\ X_{(1)}, &amp; \textrm{População}. \end{array}\right.  \end{align}</code></p>
+<p><code>\begin{align}
+ Li_{1a} &amp; = \left\{\begin{array}{ll}
+ X_{(1)} - c / 2, &amp; \textrm{Amostra} \\
+ X_{(1)}, &amp; \textrm{População}.
+ \end{array}\right. 
+ \end{align}</code></p>
 
     </section>
     
