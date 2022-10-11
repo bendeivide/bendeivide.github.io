@@ -4,7 +4,7 @@ summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser e
 tags:
 - bookciriegola
 categories: ["Misticismo", "Poesia", "Música"]
-date: "2022-09-02 06:28:24"
+date: "2022-10-11 08:11:01"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -15,10 +15,18 @@ image:
   focal_point: Smart
 
 links:
+- icon: shopify
+  icon_pack: fab
+  name: Shopee (Preto e branco)
+  url: https://shopee.com.br/product/880978340/14993816937/
+- icon: 
+  icon_pack: fab
+  name: Mercado livre
+  url: https://produto.mercadolivre.com.br/MLB-2844606023-livro-pelos-caminhos-de-ciriegola-capa-triplex-brilhosa-impresso-interna-preto-e-branco-_JM
 - icon: amazon
   icon_pack: fab
   name: Amazon
-  url: https://www.amazon.com/-/pt/dp/650035611X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1VD7CCOPFVNQ7&keywords=Ben+D%C3%AAivide&qid=1652644020&s=books&sprefix=ben+d%C3%AAivid%2Cstripbooks-intl-ship%2C270&sr=1-1
+  url: https://www.amazon.com/dp/650035611X
 - icon: book-open
   icon_pack: fas
   name: Bookdown

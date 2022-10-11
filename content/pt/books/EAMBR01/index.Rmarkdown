@@ -17,6 +17,10 @@ image:
 
 # https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/
 links:
+- icon: shopify
+  icon_pack: fab
+  name: Shopee (Preto e branco)
+  url: https://shopee.com.br/product/880978340/20053618529/
 - icon: 
   icon_pack: fas
   name: Mercado livre (Preto e branco)

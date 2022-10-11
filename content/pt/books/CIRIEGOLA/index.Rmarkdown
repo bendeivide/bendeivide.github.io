@@ -15,6 +15,14 @@ image:
   focal_point: Smart
 
 links:
+- icon: shopify
+  icon_pack: fab
+  name: Shopee (Preto e branco)
+  url: https://shopee.com.br/product/880978340/14993816937/
+- icon: 
+  icon_pack: fab
+  name: Mercado livre
+  url: https://produto.mercadolivre.com.br/MLB-2844606023-livro-pelos-caminhos-de-ciriegola-capa-triplex-brilhosa-impresso-interna-preto-e-branco-_JM
 - icon: amazon
   icon_pack: fab
   name: Amazon

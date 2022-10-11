@@ -5,7 +5,7 @@ summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser e
 tags:
 - bookeambr
 categories: ["R"]
-date: "2022-10-07 16:04:32"
+date: "2022-10-11 08:05:05"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -17,6 +17,10 @@ image:
 
 # https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/
 links:
+- icon: shopify
+  icon_pack: fab
+  name: Shopee (Preto e branco)
+  url: https://shopee.com.br/product/880978340/20053618529/
 - icon: 
   icon_pack: fas
   name: Mercado livre (Preto e branco)
