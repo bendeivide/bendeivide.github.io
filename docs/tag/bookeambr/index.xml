@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/bookeambr/</link>
       <atom:link href="http://bendeivide.github.io/tag/bookeambr/index.xml" rel="self" type="application/rss+xml" />
     <description>bookeambr</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 11 Oct 2022 08:05:05 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 11 Oct 2022 08:41:29 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>bookeambr</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Tue, 11 Oct 2022 08:05:05 +0000</pubDate>
+      <pubDate>Tue, 11 Oct 2022 08:41:29 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -29,8 +29,10 @@
 &lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/tree/main/scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500515994&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Versão colorida e capa simples (Amazon)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Versão preto e branco e capa simples (Amazon)&lt;/a&gt; (Mais em conta!)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercado livre (Capa comum triplex brilhosa; impressão interna preto e branco)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shopee.com.br/product/880978340/20053618529/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shopee (Capa comum triplex brilhosa; impressão interna preto e branco)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500515994&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon (Capa comum triplex brilhosa; impressão interna colorida)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon (Capa comum triplex brilhosa; impressão interna preto e branco)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
 &lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;

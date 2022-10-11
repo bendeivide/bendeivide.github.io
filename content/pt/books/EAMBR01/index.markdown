@@ -5,7 +5,7 @@ summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser e
 tags:
 - bookeambr
 categories: ["R"]
-date: "2022-10-11 08:05:05"
+date: "2022-10-11 08:41:29"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -103,8 +103,10 @@ O diretório de todos os *scripts* do livro se encontram em: [link](https://gith
 
 ## Onde consigo comprar o livro físico?
 
-- [Versão colorida e capa simples (Amazon)](https://www.amazon.com/dp/6500515994)
-- [Versão preto e branco e capa simples (Amazon)](https://www.amazon.com/dp/6500531914) (Mais em conta!)
+- [Mercado livre (Capa comum triplex brilhosa; impressão interna preto e branco)](https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM)
+- [Shopee (Capa comum triplex brilhosa; impressão interna preto e branco)](https://shopee.com.br/product/880978340/20053618529/)
+- [Amazon (Capa comum triplex brilhosa; impressão interna colorida)](https://www.amazon.com/dp/6500515994)
+- [Amazon (Capa comum triplex brilhosa; impressão interna preto e branco)](https://www.amazon.com/dp/6500531914) 
 
 ## Sinopse
 
