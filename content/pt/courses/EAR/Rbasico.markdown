@@ -1,0 +1,51 @@
+---
+title: R básico
+date: "2022-10-13 19:01:45"
+type: book
+weight: 10
+categories: ["R", "Curso R"]
+tags: ["Curso R"]
+---
+
+Programando em nível básico o [R](http://r-project.org).
+
+<!--more-->
+
+{{< icon name="clock" pack="fas" >}} 25 horas em por 2 semanas
+
+## Apresentação
+
+## Ementa
+
+## Livro de apoio
+
+- Versão Física:
+  - Shopee
+  - Mercado livre
+  - {{< icon name="amazon" pack="fab" >}} [Amazon](https://www.amazon.com/dp/6500531914)
+  - Instagram
+- Versão digital:
+  - {{< icon name="file-pdf" pack="fas" >}} [R básico (PDF)](https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf)
+  - {{< icon name="book-reader" pack="fas" >}} [R básico (Bookdown)](https://bendeivide.github.io/book-eambr01/)
+
+## Aulas
+
+{{< spoiler text="Aula 01 - Introdução" >}}
+
+{{< /spoiler >}}
+
+
+
+
+
+## Quiz
+
+{{< spoiler text="Livro de apoio?" >}}
+Acesse: <http://bendeivide.github.io/cursor/nbasico#rwork>
+{{< /spoiler >}}
+
+{{< spoiler text="Playlist do curso" >}}
+Acesse: <http://bendeivide.github.io/cursor/nbasico#rwork>
+{{< /spoiler >}}
+
+

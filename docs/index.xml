@@ -5,12 +5,58 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 11 Oct 2022 08:41:29 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
       <link>http://bendeivide.github.io/</link>
     </image>
+    
+    <item>
+      <title>R básico</title>
+      <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
+      <pubDate>Thu, 13 Oct 2022 19:01:45 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
+      <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 25 horas em por 2 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;h2 id=&#34;livro-de-apoio&#34;&gt;Livro de apoio&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Versão Física:
+&lt;ul&gt;
+&lt;li&gt;Shopee&lt;/li&gt;
+&lt;li&gt;Mercado livre&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-amazon  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Instagram&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Versão digital:
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (Bookdown)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Aula 01 - Introdução&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Livro de apoio?&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Playlist do curso&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
     
     <item>
       <title>📺 Ensino Remoto 2022.1</title>
@@ -2537,6 +2583,58 @@ Período de 30/07/2021 a 30/09/2021&lt;/p&gt;
     </item>
     
     <item>
+      <title>Programação em R (Nível Intermediário)</title>
+      <link>http://bendeivide.github.io/courses/ear/nintermediario/</link>
+      <pubDate>Thu, 29 Jul 2021 21:18:41 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/ear/nintermediario/</guid>
+      <description>&lt;p&gt;Programando em nível intermediário o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 5 horas por semana, por 8 semanas
+Período de 30/07/2021 a 30/09/2021&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;Esse módulo terá o objetivo de detalhar o ambiente R, caracterizando melhor a sua linguagem, aprofundando &lt;strong&gt;manipulações de objetos&lt;/strong&gt;, &lt;strong&gt;cópias de objetos&lt;/strong&gt;, bem como &lt;strong&gt;ambientes&lt;/strong&gt;. Falaremos sobre a criação de gráficos e &lt;strong&gt;documentações em R&lt;/strong&gt;. Complementaremos também, sobre assuntos mais aprofundados como &lt;strong&gt;programação funcional&lt;/strong&gt;, &lt;strong&gt;programação orientada a objetos&lt;/strong&gt;, &lt;strong&gt;metaprogramação&lt;/strong&gt; e uma introdução sobre &lt;strong&gt;desenvolvimento de pacotes&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h2 id=&#34;lembrete-do-curso&#34;&gt;Lembrete do Curso&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/iLE_afepQuk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;live-de-apresentação-do-curso&#34;&gt;&lt;em&gt;Live&lt;/em&gt; de Apresentação do Curso&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/tegLquZ1jsw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;inscricao&#34;&gt;Como fazer a inscrição?&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 04/06/2021 - 25/07/2021&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incrição (GRATUITA E COM CERTIFICADO - CATEL/UFSJ):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Inscrição Aqui!&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdiZnLPYuu9OWed_ECYrVv1U9L4NxGh9BZjAjAe0KnBEflcWQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1920&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;onde-será-ministrado&#34;&gt;Onde será ministrado?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso será ministrado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube/Ben Dêivide&lt;/a&gt;. Se inscreva no canal e ative o sininho, pois disponibilizaremos as vídeo-aulas toda semana (30/07/2021 a 30/09/2021).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;p&gt;O material encontra-se disponível em &lt;a href=&#34;http://bendeivide.github.io/cursor/nintermediario&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nintermediario&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;p&gt;Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR2K-rWoInwE1WnwtBiulX2S&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;p&gt;Os exercícios do curso, podem ser desenvolvidos via &lt;em&gt;web&lt;/em&gt; em &lt;a href=&#34;https://bendeivide.shinyapps.io/Curso-R/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.shinyapps.io/Curso-R/&lt;/a&gt;, como também é possível baixar todos os &lt;a href=&#34;http://bendeivide.github.io/cursor/nintermediario#scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scripts&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Como encontrar o módulo Básico do curso R?&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Onde faço a inscrição?&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
       <title>✍️ Exercícios resolvidos para EPAEC</title>
       <link>http://bendeivide.github.io/courses/epaec/exerresolvidos/</link>
       <pubDate>Wed, 07 Sep 2022 15:49:10 +0000</pubDate>
@@ -3026,6 +3124,90 @@ Período de 30/07/2021 a 30/09/2021&lt;/p&gt;
     </item>
     
     <item>
+      <title>Programação em R (Nível Avançado)</title>
+      <link>http://bendeivide.github.io/courses/ear/navancado/</link>
+      <pubDate>Thu, 29 Apr 2021 14:27:10 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/ear/navancado/</guid>
+      <description>&lt;p&gt;Programando em nível avançado o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
+&lt;!-- - O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021. --&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;!-- O material encontra-se disponível em &lt;http://bendeivide.github.io/cursor/nbasico&gt; --&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;!-- Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist [Curso R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O). --&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;!-- Os exercícios do curso, podem ser desenvolvidos via *web* em &lt;https://bendeivide.shinyapps.io/Curso-R/&gt;, como também é possível baixar todos os [scripts](http://bendeivide.github.io/cursor/nbasico#scripts). --&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Acesse: &lt;http://bendeivide.github.io/cursor/nbasico#rwork&gt; --&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lançamento do livro R básico (Unifal/MG)</title>
+      <link>http://bendeivide.github.io/post/rbasico-unifal/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/rbasico-unifal/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;, na UNIFAL/MG.&lt;/p&gt;
+&lt;h2 id=&#34;data-horário-e-link&#34;&gt;Data, horário e link&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 19/10/2022, 14h (Horário de Brasília)&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtu.be/PqtafpsBpKs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/PqtafpsBpKs&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/slides/rbasico-unifal/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Palestra do livro R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;página-do-r-básico&#34;&gt;Página do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lançamento do livro R básico</title>
+      <link>http://bendeivide.github.io/post/rbasico/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/rbasico/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;data-horário-e-link&#34;&gt;Data, horário e link&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022, 19h (Horário de Brasília)&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtu.be/wsdUz44Tfw4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/wsdUz44Tfw4&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/slides/rbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Palestra do livro R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inscrições-para-o-sorteio-de-um-livro-r-básico&#34;&gt;Inscrições para o sorteio de um livro R básico&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022 (19h - 19h30min.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incrição no horário da live (GRATUITA):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSddYENXWOrw232TP3j2lGuvEYKAKHkhrrAEnKBdQ40hzOTwpw/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1415&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;h2 id=&#34;página-do-r-básico&#34;&gt;Página do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
       <pubDate>Tue, 11 Oct 2022 08:41:29 +0000</pubDate>
@@ -3093,36 +3275,6 @@ Alice Iorg, Glícia Ero, Crol Iagie, Ciriégola, Grilo Caié...
     Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
   &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lançamento do livro R básico</title>
-      <link>http://bendeivide.github.io/post/rbasico/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/post/rbasico/</guid>
-      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
-&lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;data-horário-e-link&#34;&gt;Data, horário e link&lt;/h2&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022, 19h (Horário de Brasília)&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtu.be/wsdUz44Tfw4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/wsdUz44Tfw4&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Palestra do livro R básico&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;inscrições-para-o-sorteio-de-um-livro-r-básico&#34;&gt;Inscrições para o sorteio de um livro R básico&lt;/h2&gt;
-&lt;p&gt;
-  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022 (19h - 19h30min.)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Incrição no horário da live (GRATUITA):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSddYENXWOrw232TP3j2lGuvEYKAKHkhrrAEnKBdQ40hzOTwpw/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1415&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
-&lt;h2 id=&#34;página-do-r-básico&#34;&gt;Página do R básico&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -11860,6 +12012,337 @@ Para explicar a definição de uma variável aleatória será considerado o exem
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;mais-sobre-o-r-básico&#34;&gt;Mais sobre o R básico&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Página do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;obrigado&#34;&gt;Obrigado!&lt;/h1&gt;
+&lt;p&gt;Sugestões, perguntas, críticas&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lançamento do livro R básico (UNIFAL/MG)</title>
+      <link>http://bendeivide.github.io/slides/lancamentorbasico-unifal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/lancamentorbasico-unifal/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;r-básico&#34;&gt;R Básico&lt;/h1&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Como foi o início?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;1&#34;&gt;
+&lt;p&gt;Pandemia (2020-2021)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;2&#34;&gt;
+&lt;p&gt;Catel/UFSJ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;3&#34;&gt;
+&lt;p&gt;Cursos sobre a &lt;a href=&#34;https://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;linguagem R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;4&#34;&gt;
+&lt;p&gt;Parceria com &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;fragment&#34; data-fragment-index=&#34;5&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Projeto aprender por ensinar (PAPE)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;coleção-ear&#34;&gt;Coleção EAR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;R básico (Volume I) ✔&lt;/li&gt;
+&lt;li&gt;R intermediário (Volume II)&lt;/li&gt;
+&lt;li&gt;R avançado (Volume III)&lt;/li&gt;
+&lt;li&gt;Documentações em R (Volume IV)&lt;/li&gt;
+&lt;li&gt;Desenvolvimento de pacotes R (Volume V)&lt;/li&gt;
+&lt;li&gt;Gráficos (Volume VI)&lt;/li&gt;
+&lt;li&gt;Banco de dados (Volume VII)&lt;/li&gt;
+&lt;li&gt;IGU (Volume VIII)&lt;/li&gt;
+&lt;li&gt;POO no R (Volume IX)&lt;/li&gt;
+&lt;li&gt;Funções do pacote &lt;code&gt;base&lt;/code&gt; (Volume X)&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- --- --&gt;
+&lt;!-- 
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+ --&gt;
+&lt;!-- &lt;section&gt; --&gt;
+&lt;!-- &lt;h2&gt;Agradecimentos &lt;/h2&gt; --&gt;
+&lt;!--   - Rodrigo Ronchi Rossi Costa (UFSJ) --&gt;
+&lt;!--   - Fernando Augusto Teixeira (UFSJ)  --&gt;
+&lt;!--   - Sérgio de Oliveira (UFSJ) --&gt;
+&lt;!--   - Jose Eloy Ottoni (UFSJ) --&gt;
+&lt;!--   - Daniel Furtado Ferreira (UFLA) --&gt;
+&lt;!--   - Janilson Pinheiro de Assis (UFERSA) --&gt;
+&lt;!--   - Wesley de Oliveira Santos (UFERSA) --&gt;
+&lt;!--   - Allanna Darlene  Vilaça (UNIFACVEST) --&gt;
+&lt;!--   - Tiago Olivoto (UFSC) --&gt;
+&lt;!-- &lt;/section&gt; --&gt;
+&lt;!-- &lt;section&gt; --&gt;
+&lt;!-- &lt;h2&gt;Agradecimentos &lt;/h2&gt; --&gt;
+&lt;!--   - Felipe Andrade  Velozo (UNIFAL) --&gt;
+&lt;!--   - Julio Cezar Gonçalves de Freitas (UFPA) --&gt;
+&lt;!--   - Regina Albanese Pose (USCS) --&gt;
+&lt;!--   - Dulcídia Carlos Guezimane Ernesto (UFLA) --&gt;
+&lt;!--   - José Edimar Vieira Costa Júnior (UFLA) --&gt;
+&lt;!--   - André da Silva Pereira (UPF) --&gt;
+&lt;!--   - Miguel Angel Acosta Chinchilla (*Alliance Bioversity* - CIAT)  --&gt;
+&lt;!--   - Daniel Vicente Batista (Univesp)  --&gt;
+&lt;!-- &lt;/section&gt; --&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;curiosidades-do-r-básico&#34;&gt;Curiosidades do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tempo: 1 ano&lt;/li&gt;
+&lt;li&gt;Escrito em &lt;code&gt;\(\LaTeX\)&lt;/code&gt; (PDF)
+&lt;ul&gt;
+&lt;li&gt;classe &lt;em&gt;memoir&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Escrito com o pacote &lt;a href=&#34;https://bookdown.org/yihui/bookdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bookdown&lt;/a&gt; (Versão em HTML)
+&lt;ul&gt;
+&lt;li&gt;Ultrapassou as 2500 linhas de comando&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;124 exercícios propostos&lt;/li&gt;
+&lt;li&gt;$&amp;gt;$120 Códigos R numerados, sem contabilizar os não numerados&lt;/li&gt;
+&lt;li&gt;339 páginas e 321 numeradas&lt;/li&gt;
+&lt;li&gt;Publicado em 28/08/2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Estrutura do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Objetivo: Sintaxe e semântica do R (Introdutório)&lt;/li&gt;
+&lt;li&gt;11 capítulos
+&lt;ul&gt;
+&lt;li&gt;Capítulo 1: Entendendo a coleção EAR&lt;/li&gt;
+&lt;li&gt;Capítulo 2: História e instalação do R&lt;/li&gt;
+&lt;li&gt;Capítulo 3: Como o R trabalha&lt;/li&gt;
+&lt;li&gt;Capítulo 4: Objetos e estruturas de dados&lt;/li&gt;
+&lt;li&gt;Capítulo 5: Importação e exportação de dados&lt;/li&gt;
+&lt;li&gt;Capítulo 6: Funções no R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Estrutura do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;11 capítulos
+&lt;ul&gt;
+&lt;li&gt;Capítulo 7: Boas práticas de como escrever um código&lt;/li&gt;
+&lt;li&gt;Capítulo 8: Pacotes&lt;/li&gt;
+&lt;li&gt;Capítulo 9: Ambientes e caminho de busca&lt;/li&gt;
+&lt;li&gt;Capítulo 10: Interfaces com outras linguagens&lt;/li&gt;
+&lt;li&gt;Capítulo 11: Considerações e preparação para o Volume II&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;O que veremos no livro?&lt;/h2&gt;
+&lt;pre data-id=&#34;code-animation&#34;&gt;
+&lt;code class=&#34;hljs&#34; data-trim data-line-numbers=&#34;|2,5|1-6&#34;&gt;
+&lt;script type=&#34;text/template&#34;&gt;
+  x &lt;- 10
+  lobstr::obj_addr(x)
+  ## [1] &#34;0xf8a104fc20&#34;
+  y &lt;- x
+  lobstr::obj_addr(y)
+  ## [1] &#34;0xf8a104fc20&#34;
+&lt;/script&gt;
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Ilustração &lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/lancamentorbasico-unifal/y=x=10_hud064575b8f0af6084abdce16d604d280_35386_68692ec504b290b034f8c838fb8db20a.webp 400w,
+               /slides/lancamentorbasico-unifal/y=x=10_hud064575b8f0af6084abdce16d604d280_35386_15c6873244455d4c68831bc1ac435847.webp 760w,
+               /slides/lancamentorbasico-unifal/y=x=10_hud064575b8f0af6084abdce16d604d280_35386_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/lancamentorbasico-unifal/y=x=10_hud064575b8f0af6084abdce16d604d280_35386_68692ec504b290b034f8c838fb8db20a.webp&#34;
+               width=&#34;730&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Objeto e Ambiente &lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/lancamentorbasico-unifal/objamb_hu90f54417d64275fdfd02177500a3edb8_84634_8708be3b7e9712bbc8c049d901b3c1d9.webp 400w,
+               /slides/lancamentorbasico-unifal/objamb_hu90f54417d64275fdfd02177500a3edb8_84634_1d82851f0dcb635bd55f6ee452d5eee4.webp 760w,
+               /slides/lancamentorbasico-unifal/objamb_hu90f54417d64275fdfd02177500a3edb8_84634_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/lancamentorbasico-unifal/objamb_hu90f54417d64275fdfd02177500a3edb8_84634_8708be3b7e9712bbc8c049d901b3c1d9.webp&#34;
+               width=&#34;730&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Capa/lateral/fundo&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/lancamentorbasico-unifal/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_00da4cf45303c5812d852b1a6a7f785f.webp 400w,
+               /slides/lancamentorbasico-unifal/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_2d3c75e90137881f78d6463e7dd9815d.webp 760w,
+               /slides/lancamentorbasico-unifal/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/lancamentorbasico-unifal/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_00da4cf45303c5812d852b1a6a7f785f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;521&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/lancamentorbasico-unifal/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/lancamentorbasico-unifal/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/lancamentorbasico-unifal/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/lancamentorbasico-unifal/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;section data-background-iframe=&#34;/books/eambr01&#34; data-background-interactive&gt;
+	&lt;div style=&#34;position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;&#34;&gt;
+		&lt;h2&gt;Página do livro R básico&lt;/h2&gt;
+		&lt;p&gt;Todo o material do livro está disponível na página: &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34;&gt;https://bendeivide.github.io/books/eambr01/&lt;/a&gt;.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide

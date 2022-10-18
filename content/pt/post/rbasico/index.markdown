@@ -1,9 +1,9 @@
 ---
 title: 'Lançamento do livro R básico'
-date: "2022-09-21"
+date: "2022-10-17"
 categories: ['Livro', 'R', 'Palestra']
 tags: ['Curso R']
-summary: 'Em breve!'
+summary: 'Realizado!'
 links:
 - name: Inscrição de sorteio
   url: https://forms.gle/GC5uiXAoWNJAiRyK7
@@ -11,7 +11,6 @@ links:
   url: https://bendeivide.github.io/talk/lancamento-do-livro-r-basico
 - name: Canal da palestra (Inscreva-se!)
   url: https://youtube.com/bendeivide/
-
 ---
 
 
@@ -29,7 +28,7 @@ O lançamento do Livro [R básico](https://bendeivide.github.io/books/eambr01/) 
 
 ## Link da palestra
 
-- [Palestra do livro R básico]()
+- [Palestra do livro R básico](https://bendeivide.github.io/slides/rbasico/)
 
 
 ## Inscrições para o sorteio de um livro R básico

@@ -3,7 +3,7 @@ title: 'Lançamento do livro R básico'
 date: "`r Sys.Date()`"
 categories: ['Livro', 'R', 'Palestra']
 tags: ['Curso R']
-summary: 'Em breve!'
+summary: 'Realizado!'
 links:
 - name: Inscrição de sorteio
   url: https://forms.gle/GC5uiXAoWNJAiRyK7
@@ -30,7 +30,7 @@ O lançamento do Livro [R básico](https://bendeivide.github.io/books/eambr01/) 
 
 ## Link da palestra
 
-- [Palestra do livro R básico]()
+- [Palestra do livro R básico](https://bendeivide.github.io/slides/rbasico/)
 
 
 ## Inscrições para o sorteio de um livro R básico

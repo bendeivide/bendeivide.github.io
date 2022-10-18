@@ -5,12 +5,58 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 11 Oct 2022 08:41:29 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
       <link>http://bendeivide.github.io/category/r/</link>
     </image>
+    
+    <item>
+      <title>R básico</title>
+      <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
+      <pubDate>Thu, 13 Oct 2022 19:01:45 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
+      <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 25 horas em por 2 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;h2 id=&#34;livro-de-apoio&#34;&gt;Livro de apoio&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Versão Física:
+&lt;ul&gt;
+&lt;li&gt;Shopee&lt;/li&gt;
+&lt;li&gt;Mercado livre&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-amazon  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Instagram&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Versão digital:
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (Bookdown)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Aula 01 - Introdução&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Livro de apoio?&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Playlist do curso&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
     
     <item>
       <title>📚 Ensino normal 2022.1</title>
@@ -630,6 +676,90 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     </item>
     
     <item>
+      <title>Programação em R (Nível Avançado)</title>
+      <link>http://bendeivide.github.io/courses/ear/navancado/</link>
+      <pubDate>Thu, 29 Apr 2021 14:27:10 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/ear/navancado/</guid>
+      <description>&lt;p&gt;Programando em nível avançado o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
+&lt;!-- - O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021. --&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;!-- O material encontra-se disponível em &lt;http://bendeivide.github.io/cursor/nbasico&gt; --&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;!-- Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist [Curso R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O). --&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;!-- Os exercícios do curso, podem ser desenvolvidos via *web* em &lt;https://bendeivide.shinyapps.io/Curso-R/&gt;, como também é possível baixar todos os [scripts](http://bendeivide.github.io/cursor/nbasico#scripts). --&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Acesse: &lt;http://bendeivide.github.io/cursor/nbasico#rwork&gt; --&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lançamento do livro R básico (Unifal/MG)</title>
+      <link>http://bendeivide.github.io/post/rbasico-unifal/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/rbasico-unifal/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;, na UNIFAL/MG.&lt;/p&gt;
+&lt;h2 id=&#34;data-horário-e-link&#34;&gt;Data, horário e link&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 19/10/2022, 14h (Horário de Brasília)&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtu.be/PqtafpsBpKs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/PqtafpsBpKs&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/slides/rbasico-unifal/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Palestra do livro R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;página-do-r-básico&#34;&gt;Página do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lançamento do livro R básico</title>
+      <link>http://bendeivide.github.io/post/rbasico/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/rbasico/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;data-horário-e-link&#34;&gt;Data, horário e link&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022, 19h (Horário de Brasília)&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtu.be/wsdUz44Tfw4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/wsdUz44Tfw4&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/slides/rbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Palestra do livro R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inscrições-para-o-sorteio-de-um-livro-r-básico&#34;&gt;Inscrições para o sorteio de um livro R básico&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022 (19h - 19h30min.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incrição no horário da live (GRATUITA):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSddYENXWOrw232TP3j2lGuvEYKAKHkhrrAEnKBdQ40hzOTwpw/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1415&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;h2 id=&#34;página-do-r-básico&#34;&gt;Página do R básico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
       <pubDate>Tue, 11 Oct 2022 08:41:29 +0000</pubDate>
@@ -669,36 +799,6 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lançamento do livro R básico</title>
-      <link>http://bendeivide.github.io/post/rbasico/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/post/rbasico/</guid>
-      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
-&lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;data-horário-e-link&#34;&gt;Data, horário e link&lt;/h2&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022, 19h (Horário de Brasília)&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtu.be/wsdUz44Tfw4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/wsdUz44Tfw4&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Palestra do livro R básico&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;inscrições-para-o-sorteio-de-um-livro-r-básico&#34;&gt;Inscrições para o sorteio de um livro R básico&lt;/h2&gt;
-&lt;p&gt;
-  &lt;i class=&#34;far fa-calendar-check  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 28/09/2022 (19h - 19h30min.)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Incrição no horário da live (GRATUITA):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSddYENXWOrw232TP3j2lGuvEYKAKHkhrrAEnKBdQ40hzOTwpw/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1415&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
-&lt;h2 id=&#34;página-do-r-básico&#34;&gt;Página do R básico&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
