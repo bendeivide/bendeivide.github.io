@@ -1,12 +1,12 @@
 ---
 title: 'Lançamento do livro R básico (Unifal/MG)'
-date: "2022-10-18"
+date: "2022-10-19"
 categories: ['Livro', 'R', 'Palestra']
 tags: ['Curso R']
 summary: 'Em breve!'
 links:
-- name: Palestra
-  url: https://bendeivide.github.io/talk/lancamento-do-livro-r-basico
+- name: Slide
+  url: https://bendeivide.github.io/slides/lancamentorbasico-unifal
 - name: Canal da palestra (Inscreva-se!)
   url: https://youtube.com/bendeivide/
 - name: Link da palestra
