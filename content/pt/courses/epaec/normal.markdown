@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2022.2
-date: "2022-09-21 19:19:08"
+date: "2022-11-16 17:04:49"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -167,8 +167,8 @@ Iremos utilizar diversas ferramentas do google como os seus editores de textos, 
 
 ## Avaliação {#avaliacao}
 
-- [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1xFzArkm8ULVG_5qxfISVgKwvirJyK01aRK_h1FEbgVg/edit?usp=sharing)
-- [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1b3LYj0KtdnW4qxFwGty5-R6F2XX7t1O2OkS6eiQeQiQ/edit?usp=sharing)
+- [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing)
+- [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0)
 
 
 {{< spoiler text="Segue um detalhamento das nossas avaliações">}}
