@@ -5,7 +5,7 @@ summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser e
 tags:
 - bookeambr
 categories: ["R"]
-date: "2022-10-11 08:41:29"
+date: "2022-11-16 19:24:13"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -17,6 +17,10 @@ image:
 
 # https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/
 links:
+- icon: whatsapp
+  icon_pack: fab
+  name: Allanna Lopes (Rep. comercial)
+  url: https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!
 - icon: shopify
   icon_pack: fab
   name: Shopee (Preto e branco)

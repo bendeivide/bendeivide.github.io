@@ -1,0 +1,44 @@
+---
+title: 💻 Desenvolvendo meupacoter
+linkTitle: Desenvolvendo meupacoter
+summary: Como desenvolver meu primeiro pacote R
+date: "`r format(Sys.time())`"
+type: book
+categories: ["R"]
+tags: ["EAR"]
+---
+
+{{< figure src="featured.jpg" >}}
+
+{{< toc hide_on="xl" >}}
+
+## O que você aprenderá
+
+- Fundamentação de pacotes **R**
+- Ferramentas do **RStudio** para desenvolver pacotes
+- Vantagens de um pacote
+- Publicação do pacote ao *CRAN*
+
+## Visão geral do curso
+
+Apresentaremos algumas funções criadas em **R**, como por exemplo, as operações artiméticas, sendo implementadas em um pacote. O nosso pacote se chamará `meupacoter`, e a partir dele entenderemos as noções básicas de como se desenvolver um pacote.
+
+## Módulos nesse curso
+
+{{< list_children >}}
+
+## Encontre seu instrutor
+
+{{< mention "admin" >}}
+
+## FAQs
+
+{{< spoiler text="Quais são os pré-requisitos?" >}}
+Ter conhecimento do curso [R básico]({{< relref "courses/EAR/" >}})
+{{< /spoiler >}}
+
+{{< spoiler text="Quanto tempo o curso?" >}}
+Depende da forma de como ele é explorado. Tempo mínimo de 3h a 10h.
+{{< /spoiler >}}
+
+<!-- {{< cta cta_text="Comece o curso" cta_link="nbasico" >}} -->

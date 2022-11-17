@@ -1,0 +1,68 @@
+---
+title: Como desenvolver o primeiro pacote R
+date: "2022-18-11T00:00:00Z"
+summary: ''
+authors: [Admin]
+tags: [R, Pacotes R]
+categories: [Minicurso]
+slides:
+#  css: night
+# https://github.com/hakimel/reveal.js/tree/master/css/theme/source
+# Choose a theme from https://github.com/hakimel/reveal.js#theming
+# https://revealjs.com/themes/
+# https://github.com/wowchemy/wowchemy-hugo-themes/issues/796
+# https://bookdown.org/yihui/rmarkdown/revealjs.html
+# https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware
+# Tentativas:
+# https://github.com/dzello/reveal-hugo
+  theme: ''
+# Choose a code highlighting style (if highlighting enabled in `params.toml`)
+# Light style: github. Dark style: dracula (default).
+  highlight_style: dracula
+# Como controlar a apresentacao:
+# - Next: `Right Arrow` or `Space`
+# - Previous: `Left Arrow`
+# - Start: `Home`
+# - Finish: `End`
+# - Overview: `Esc`
+# - Speaker notes: `S`
+# - Fullscreen: `F`
+# - Zoom: `Alt + Click`
+# - [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
+
+---
+
+
+{{< slide background-image="hardcover.png" >}}
+# Como desenvolver o primeiro pacote R
+{{< icon name="user-tie" pack="fas" >}} [Ben Dêivide](https://bendeivide.github.io/) | 
+{{< icon name="school" pack="fas" >}} [UFSJ](https://www.ufsj.edu.br/) 
+
+---
+
+{{< slide background-image="hardcover.png" >}}
+
+## Livros em desenvolvimento
+
+
+```{r echo=FALSE,out.width="100%", out.height="100%",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("livro.png"))
+``` 
+
+---
+
+## Pacotes estatísticos publicados
+
+- [SMR](https://doi.org/10.32614/RJ-2014-029) (BATISTA; FERREIRA, 2014)
+- [midrangeMCP](https://bendeivide.github.io/midrangeMCP/) (BATISTA; FERREIRA, 2020)
+  - [Alternative Tukey test](https://doi.org/10.1590/1413-7054202044008020)
+- [TVMM](https://rpubs.com/Henriqueufla/617206) (ALVES; FERREIRA; BATISTA, 2020)
+- [cppcor](https://cran.r-project.org/web/packages/cppcor/index.html) (RIBEIRO; BATISTA; MARTINS; OLIVEIRA, 2020)
+
+---
+
+{{< slide background-image="hardcover.png" >}}
+
+# Obrigado! 
+
+Sugestões, perguntas, críticas...
