@@ -34,9 +34,20 @@ slides:
 
 
 {{< slide background-image="hardcover.png" >}}
+
 ## Como desenvolver o primeiro pacote R
 {{< icon name="user-tie" pack="fas" >}} [Ben Dêivide](https://bendeivide.github.io/) | 
 {{< icon name="school" pack="fas" >}} [UFSJ](https://www.ufsj.edu.br/) 
+
+<img src="logo.png" width="40%" height="70%" style="display: block; margin: auto;" />
+
+---
+
+{{< slide background-image="hardcover.png" >}}
+
+## Selo DC
+
+<img src="SeloDC-branco.png" width="40%" height="70%" style="display: block; margin: auto;" />
 
 ---
 
