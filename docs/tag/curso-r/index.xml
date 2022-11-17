@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/curso-r/</link>
       <atom:link href="http://bendeivide.github.io/tag/curso-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 17 Nov 2022 06:50:18 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 17 Nov 2022 08:20:47 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso R</title>
@@ -15,33 +15,17 @@
     <item>
       <title>GEMS-R: Como desenvolver o primeiro pacote R</title>
       <link>http://bendeivide.github.io/courses/meupacoter/gems-ufs/</link>
-      <pubDate>Thu, 17 Nov 2022 06:50:18 +0000</pubDate>
+      <pubDate>Thu, 17 Nov 2022 08:20:47 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/meupacoter/gems-ufs/</guid>
       <description>&lt;p&gt;Minicurso ministrado ao Grupo de Estudos em Melhoramento Vegetal do Semiárido, pela Universidade Federal de Sergipe, no dia 18 de novembro de 2022.&lt;/p&gt;
+&lt;h2 id=&#34;local-data-e-horário&#34;&gt;Local, data e horário&lt;/h2&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 3 horas&lt;/p&gt;
+  &lt;i class=&#34;fas fa-globe  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Via meet (Enviado pelo GEMS-UFS) | 
+  &lt;i class=&#34;fas fa-calendar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 18/11/2022 | 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 17h - 20h:30&lt;/p&gt;
+&lt;h2 id=&#34;inscrição-gratuita&#34;&gt;Inscrição (Gratuita)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://linktr.ee/gemsufs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://linktr.ee/gemsufs&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;card_event.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
 &lt;p&gt;Nesta apresentação, daremos o enfoco no desenvolvimento de um pacote &lt;strong&gt;R&lt;/strong&gt; básico, isto é, apresentando a estrutura mínima que um pacote deve ter até a sua publicação.&lt;/p&gt;
 &lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
 &lt;ol&gt;
@@ -59,7 +43,7 @@
 &lt;p&gt;
   &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/meupacoter-gems-ufs/&#34;&gt;GEMS-R: Como desenvolver o primeiro pacote R&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;MeupacoteR: &lt;a href=&#34;https://bendeivide.github.io/meupacoter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/meupacoter/&lt;/a&gt;&lt;/li&gt;

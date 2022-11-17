@@ -1,6 +1,6 @@
 ---
 title: "GEMS-R: Como desenvolver o primeiro pacote R" 
-date: "2022-11-17 08:04:18"
+date: "2022-11-17 08:20:47"
 type: book
 weight: 10
 categories: ["R", "Curso R"]

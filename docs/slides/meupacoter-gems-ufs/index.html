@@ -58,7 +58,7 @@
       data-background-image="hardcover.png"
   >
 
-<h1 id="r-básico">R Básico</h1>
+<h2 id="como-desenvolver-o-primeiro-pacote-r">Como desenvolver o primeiro pacote R</h2>
 <p>
   <i class="fas fa-user-tie  pr-1 fa-fw"></i> <a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Ben Dêivide</a> | 
 
@@ -78,24 +78,245 @@
       data-background-image="hardcover.png"
   >
 
-<section>
-<h2>Como foi o início?</h2>
+<h2 id="livros-em-desenvolvimento">Livros em desenvolvimento</h2>
+<img src="livro.png" width="100%" height="100%" style="display: block; margin: auto;" />
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<h2 id="pacotes-estatísticos-publicados">Pacotes estatísticos publicados</h2>
 <ul>
-<li class="fragment" data-fragment-index="1">
-<p>Pandemia (2020-2021)</p>
+<li><a href="https://doi.org/10.32614/RJ-2014-029" target="_blank" rel="noopener">SMR</a> (BATISTA; FERREIRA, 2014)</li>
+<li><a href="https://bendeivide.github.io/midrangeMCP/" target="_blank" rel="noopener">midrangeMCP</a> (BATISTA; FERREIRA; OLIVEIRA, 2020)
+<ul>
+<li><a href="https://doi.org/10.1590/1413-7054202044008020" target="_blank" rel="noopener">Alternative Tukey test</a></li>
+</ul>
 </li>
-<li class="fragment" data-fragment-index="2">
-<p>Catel/UFSJ</p>
+<li><a href="https://github.com/bendeivide/MCPtests" target="_blank" rel="noopener">MCPtests</a> (BATISTA; FERREIRA; OLIVEIRA; SANTOS, 2020)</li>
+<li><a href="https://rpubs.com/Henriqueufla/617206" target="_blank" rel="noopener">TVMM</a> (ALVES; FERREIRA; BATISTA, 2020)</li>
+<li><a href="https://cran.r-project.org/web/packages/cppcor/index.html" target="_blank" rel="noopener">cppcor</a> (RIBEIRO; BATISTA; MARTINS; OLIVEIRA, 2020)</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<h2 id="pacotes-em-desenvolvimento">Pacotes em desenvolvimento</h2>
+<ul>
+<li><a href="https://github.com/bendeivide/leem" target="_blank" rel="noopener">leem</a></li>
+<li><a href="https://github.com/bendeivide/statscience" target="_blank" rel="noopener">statscience</a></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<h2 id="o-que-é-necessário">O que é necessário?</h2>
+<ul>
+<li>Conhecer o ambiente R (<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" rel="noopener">R básico</a>)</li>
+<li>A linguagem R instalada:
+<ul>
+<li>Pacote <a href="https://devtools.r-lib.org/" target="_blank" rel="noopener">devtools</a> e <a href="https://usethis.r-lib.org/" target="_blank" rel="noopener">usethis</a> (Kit de ferramentas)</li>
+<li>Pacote <a href="https://roxygen2.r-lib.org/" target="_blank" rel="noopener">roxygen2</a> (Documentação R);</li>
+</ul>
 </li>
-<li class="fragment" data-fragment-index="3">
-<p>Cursos sobre a <a href="https://bendeivide.github.io/cursor/" target="_blank" rel="noopener">linguagem R</a></p>
+<li>RStudio (Opcional) <a href="https://rstudio.com/" target="_blank" rel="noopener">https://rstudio.com/</a></li>
+<li>Rtools (Windows) <a href="https://cran.r-project.org/bin/windows/Rtools/" target="_blank" rel="noopener">https://cran.r-project.org/bin/windows/Rtools/</a></li>
+<li><code>\(\LaTeX\)</code> <a href="https://miktex.org/download" target="_blank" rel="noopener">https://miktex.org/download</a>
+<ul>
+<li>Alternativa: instalar o pacote <a href="https://yihui.org/tinytex/" target="_blank" rel="noopener">tinytex</a></li>
+</ul>
 </li>
-<li class="fragment" data-fragment-index="4">
-<p>Parceria com <a href="https://digoarthur.github.io/" target="_blank" rel="noopener">Diego</a></p>
-</li>
-<li class="fragment" data-fragment-index="5">
-<p><a href="https://bendeivide.github.io/project/projape/" target="_blank" rel="noopener">Projeto aprender por ensinar (PAPE)</a></p>
-</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<h3 id="conhecendo-a-estrutura-básica-de-um-pacote">Conhecendo a estrutura básica de um pacote</h3>
+<img src="est_pacote01.png" width="40%" height="70%" style="display: block; margin: auto;" />
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<h3 id="criando-um-pacote-com-o-rstudio">Criando um pacote com o RStudio</h3>
+<iframe width="660" height="415" src="https://www.youtube.com/embed/aq4OL8IDRJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<section>
+<h2>aritmetica.R </h2>
+<pre><code class="language-r"># Operacoes basicas da matematica
+aritmetica &lt;- function (a, b, op) {
+           # op: divisi, multi, soma, subtra
+           if (op == &quot;divisi&quot;) x &lt;- divisi(a, b)
+           if (op == &quot;multi&quot;) x &lt;- multi(a,b)
+           if (op == &quot;soma&quot;) x &lt;- soma(a,b)
+           if (op == &quot;subtra&quot;) x &lt;- subtra(a,b)
+           return(x)
+         }
+</code></pre>
+</section>
+<section>
+<h2>auxiliar.R </h2>
+<pre><code class="language-r">soma &lt;- function (a, b) { # Soma
+          calculo &lt;- a + b
+          return(calculo)}
+subtra &lt;- function (a, b) { #Subtracao
+            calculo &lt;- a - b
+            return(calculo)}
+multi &lt;- function (a, b) { # Multiplicacao
+           calculo &lt;- a * b
+           return(calculo)}
+divisi &lt;- function (a, b) { # Divisao
+            calculo &lt;- a / b
+            return(calculo)}
+</code></pre>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<h3 id="local-para-inserir-aritmeticar-e-auxiliarr">Local para inserir <code>aritmetica.R</code> e <code>auxiliar.R</code></h3>
+<img src="est_pacote02.png" width="40%" height="70%" style="display: block; margin: auto;" />
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<section>
+<h2>Editando o DESCRIPTION</h2>
+<img src="est_pacote03.png" width="40%" height="70%" style="display: block; margin: auto;" />
+</section>
+<section>
+<h2>Arquivo DESCRIPTION</h2>
+<pre><code class="language-{}">Package: meupacoter
+Type: Package
+Title: Funcoes Aritmeticas Basicas
+Version: 1.0
+Date: 2022-11-18
+Author: Ben Deivide
+Maintainer: Ben Deivide &lt;ben.deivide@ufsj.edu.br&gt;
+Description: Este pacote realiza operacoes aritmeticas basicas utilizando dois numeros.
+License: GPL (&gt;= 2)
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+</code></pre>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="hardcover.png"
+  >
+
+<section>
+<h2>Editando o NAMESPACE</h2>
+<img src="est_pacote04.png" width="40%" height="70%" style="display: block; margin: auto;" />
+</section>
+<section>
+<h2>Arquivo NAMESPACE</h2>
+<pre><code class="language-{}">exportPattern(&quot;^[[:alpha:]]+&quot;)
+</code></pre>
+</section>
+<section>
+<h2> Importante </h2>
+<ul>
+<li>O que nós vamos fazer é deletar o arquivo <strong>NAMESPACE</strong></li>
+<li>Vamos deixar para que o pacote <code>roxygen2</code> gere-o.</li>
 </ul>
 </section>
 
@@ -113,20 +334,8 @@
       data-background-image="hardcover.png"
   >
 
-<h2 id="coleção-ear">Coleção EAR</h2>
-<ul>
-<li>R básico (Volume I) ✔</li>
-<li>R intermediário (Volume II)</li>
-<li>R avançado (Volume III)</li>
-<li>Documentações em R (Volume IV)</li>
-<li>Desenvolvimento de pacotes R (Volume V)</li>
-<li>Gráficos (Volume VI)</li>
-<li>Banco de dados (Volume VII)</li>
-<li>IGU (Volume VIII)</li>
-<li>POO no R (Volume IX)</li>
-<li>Funções do pacote <code>base</code> (Volume X)</li>
-<li>&hellip;</li>
-</ul>
+<h2 id="configurando-o-roxygen2">Configurando o <code>roxygen2</code></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nw8ZBlmy3Yw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </section>
     
@@ -143,31 +352,68 @@
   >
 
 <section>
-<h2>Agradecimentos </h2>
-<ul>
-<li>Rodrigo Ronchi Rossi Costa (UFSJ)</li>
-<li>Fernando Augusto Teixeira (UFSJ)</li>
-<li>Sérgio de Oliveira (UFSJ)</li>
-<li>Jose Eloy Ottoni (UFSJ)</li>
-<li>Daniel Furtado Ferreira (UFLA)</li>
-<li>Janilson Pinheiro de Assis (UFERSA)</li>
-<li>Wesley de Oliveira Santos (UFERSA)</li>
-<li>Allanna Darlene  Vilaça (UNIFACVEST)</li>
-<li>Tiago Olivoto (UFSC)</li>
-</ul>
+<h2>Criando a documentação básica do pacote</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YcPRWE6oD1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 <section>
-<h2>Agradecimentos </h2>
-<ul>
-<li>Felipe Andrade  Velozo (UNIFAL)</li>
-<li>Julio Cezar Gonçalves de Freitas (UFPA)</li>
-<li>Regina Albanese Pose (USCS)</li>
-<li>Dulcídia Carlos Guezimane Ernesto (UFLA)</li>
-<li>José Edimar Vieira Costa Júnior (UFLA)</li>
-<li>André da Silva Pereira (UPF)</li>
-<li>Miguel Angel Acosta Chinchilla (<em>Alliance Bioversity</em> - CIAT)</li>
-<li>Daniel Vicente Batista (Univesp)</li>
-</ul>
+<h2>Estrutura da documentação</h2>
+<pre><code class="language-{}">\name{meupacoter-package}
+\alias{meupacoter-package}
+\alias{meupacoter}
+\docType{package}
+\name{aritmetica}
+\alias{aritmetica}
+\title{Operacoes Matematicas Basicas}
+\description{
+O pacote resolve operacoes como: soma, subtracao, divisao e multiplicacao.
+}
+\usage{
+aritmetica(a, b, op)
+}
+\arguments{
+\item{a}{primeiro numero}
+\item{b}{segundo numero}
+\item{op}{operacao matematica}
+}
+\details{
+A função \code{aritmetica} realiza as quatro operacoes basicas. A opcoes para o argumento
+\code{op} sao &quot;soma&quot;, &quot;divisi&quot;, &quot;multi&quot;, &quot;subtra&quot;
+}
+\examples{
+aritmetica(8, 4, op = &quot;divisi&quot;)
+}
+</code></pre>
+</section>
+<section>
+<h2>Usando o roxygen2 em aritmetica.R</h2>
+<img src="est_pacote05.png" width="40%" height="70%" style="display: block; margin: auto;" />
+</section>
+<section>
+<h2>Estrutura da documentação pelo roxygen2</h2>
+<pre><code class="language-r">#' Operacoes Matematicas Basicas
+#'
+#' \code{aritmetica} resolve operacoes como: soma, subtracao,
+#'     divisao e multiplicacao.
+#' @param a primeiro numero
+#' @param b segundo numero
+#' @param op operacao matematica
+#' @return A função \code{aritmetica} realiza as quatro operacoes basicas. A opcoes para o argumento
+#'     \code{op} sao &quot;soma&quot;, &quot;divisi&quot;, &quot;multi&quot;, &quot;subtra&quot;
+#' @examples
+#' # Loading package
+#' library(meupacoter)
+#' aritmetica(8, 4, op = &quot;divisi&quot;)
+# @import &quot;nomes de pacotes importados&quot;
+# @importFrom &quot;Pacotes&quot; &quot;funcoes&quot;
+#' @export
+aritmetica &lt;- function (a, b, op) {
+           # op: divisi, multi, soma, subtra
+           if (op == &quot;divisi&quot;) x &lt;- divisi(a, b)
+           if (op == &quot;multi&quot;) x &lt;- multi(a,b)
+           if (op == &quot;soma&quot;) x &lt;- soma(a,b)
+           if (op == &quot;subtra&quot;) x &lt;- subtra(a,b)
+           return(x)}
+</code></pre>
 </section>
 
     </section>
@@ -184,24 +430,12 @@
       data-background-image="hardcover.png"
   >
 
-<h2 id="curiosidades-do-r-básico">Curiosidades do R básico</h2>
+<h3 id="organizando-os-arquivos">Organizando os arquivos</h3>
 <ul>
-<li>Tempo: 1 ano</li>
-<li>Escrito em <code>\(\LaTeX\)</code> (PDF)
-<ul>
-<li>classe <em>memoir</em></li>
+<li>Antes de compilarmos o pacote, vamos excluir o arquivo <strong>NAMESPACE</strong>, e todos os arquivos <strong>./Man/~.Rd</strong>;</li>
+<li>O diretório do pacote ficará assim:</li>
 </ul>
-</li>
-<li>Escrito com o pacote <a href="https://bookdown.org/yihui/bookdown/" target="_blank" rel="noopener">bookdown</a> (Versão em HTML)
-<ul>
-<li>Ultrapassou as 2500 linhas de comando</li>
-</ul>
-</li>
-<li>124 exercícios propostos</li>
-<li>$&gt;$120 Códigos R numerados, sem contabilizar os não numerados</li>
-<li>339 páginas e 321 numeradas</li>
-<li>Publicado em 28/08/2022</li>
-</ul>
+<img src="est_pacote06.png" width="40%" height="70%" style="display: block; margin: auto;" />
 
     </section>
     
@@ -217,83 +451,8 @@
       data-background-image="hardcover.png"
   >
 
-<section>
-<h2>Estrutura do R básico</h2>
-<ul>
-<li>Objetivo: Sintaxe e semântica do R (Introdutório)</li>
-<li>11 capítulos
-<ul>
-<li>Capítulo 1: Entendendo a coleção EAR</li>
-<li>Capítulo 2: História e instalação do R</li>
-<li>Capítulo 3: Como o R trabalha</li>
-<li>Capítulo 4: Objetos e estruturas de dados</li>
-<li>Capítulo 5: Importação e exportação de dados</li>
-<li>Capítulo 6: Funções no R</li>
-</ul>
-</li>
-</ul>
-</section>
-<section>
-<h2>Estrutura do R básico</h2>
-<ul>
-<li>11 capítulos
-<ul>
-<li>Capítulo 7: Boas práticas de como escrever um código</li>
-<li>Capítulo 8: Pacotes</li>
-<li>Capítulo 9: Ambientes e caminho de busca</li>
-<li>Capítulo 10: Interfaces com outras linguagens</li>
-<li>Capítulo 11: Considerações e preparação para o Volume II</li>
-</ul>
-</li>
-</ul>
-</section>
-<section>
-<h2>Capa/lateral/fundo</h2>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="" srcset="
-               /slides/meupacoter-gems-ufs/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_00da4cf45303c5812d852b1a6a7f785f.webp 400w,
-               /slides/meupacoter-gems-ufs/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_2d3c75e90137881f78d6463e7dd9815d.webp 760w,
-               /slides/meupacoter-gems-ufs/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/slides/meupacoter-gems-ufs/cover-back-front_hu3ce330fa360ba6e4db62da5bce0917e8_4645749_00da4cf45303c5812d852b1a6a7f785f.webp"
-               width="760"
-               height="521"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-</section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<section data-background-iframe="/books/eambr01" data-background-interactive>
-	<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-		<h2>Página do livro R básico</h2>
-		<p>Todo o material do livro está disponível na página: <a href="https://bendeivide.github.io/books/eambr01/">https://bendeivide.github.io/books/eambr01/</a>.</p>
-	</div>
-</section>
+<h3 id="atualizando-o-pacote-com-o-roxigen2">Atualizando o pacote com o <code>roxigen2</code></h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c7C9nSCGoPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </section>
     
@@ -309,35 +468,8 @@
       data-background-image="hardcover.png"
   >
 
-<h2 id="filosofia-de-publicação-selo-dc">Filosofia de publicação (Selo DC)</h2>
-<p><a href="https://bendeivide.github.io/dc/" target="_blank" rel="noopener">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="" srcset="
-               /slides/meupacoter-gems-ufs/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
-               /slides/meupacoter-gems-ufs/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
-               /slides/meupacoter-gems-ufs/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/slides/meupacoter-gems-ufs/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp"
-               width="385"
-               height="406"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-</a></p>
+<h3 id="checando-o-pacote">Checando o pacote</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pv98iNiOgqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </section>
     
@@ -353,8 +485,9 @@
       data-background-image="hardcover.png"
   >
 
-<h2 id="mais-sobre-o-r-básico">Mais sobre o R básico</h2>
-<p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" rel="noopener">Página do R básico</a></p>
+<h3 id="submetendo-ao-cran">Submetendo ao CRAN</h3>
+<p><a href="https://cran.r-project.org/submit.html" target="_blank" rel="noopener">https://cran.r-project.org/submit.html</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ou20KCmxSZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </section>
     

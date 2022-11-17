@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pacotes R | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/pacotes-r/</link>
+      <atom:link href="http://bendeivide.github.io/tag/pacotes-r/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pacotes R</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>Pacotes R</title>
+      <link>http://bendeivide.github.io/tag/pacotes-r/</link>
+    </image>
+    
+    <item>
+      <title>Como desenvolver o primeiro pacote R</title>
+      <link>http://bendeivide.github.io/slides/meupacoter-gems-ufs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/meupacoter-gems-ufs/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;como-desenvolver-o-primeiro-pacote-r&#34;&gt;Como desenvolver o primeiro pacote R&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;livros-em-desenvolvimento&#34;&gt;Livros em desenvolvimento&lt;/h2&gt;
+&lt;img src=&#34;livro.png&#34; width=&#34;100%&#34; height=&#34;100%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;pacotes-estatísticos-publicados&#34;&gt;Pacotes estatísticos publicados&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.32614/RJ-2014-029&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SMR&lt;/a&gt; (BATISTA; FERREIRA, 2014)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; (BATISTA; FERREIRA; OLIVEIRA, 2020)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1590/1413-7054202044008020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alternative Tukey test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt; (BATISTA; FERREIRA; OLIVEIRA; SANTOS, 2020)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVMM&lt;/a&gt; (ALVES; FERREIRA; BATISTA, 2020)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/cppcor/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cppcor&lt;/a&gt; (RIBEIRO; BATISTA; MARTINS; OLIVEIRA, 2020)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;pacotes-em-desenvolvimento&#34;&gt;Pacotes em desenvolvimento&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bendeivide/leem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bendeivide/statscience&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;statscience&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;o-que-é-necessário&#34;&gt;O que é necessário?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Conhecer o ambiente R (&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;A linguagem R instalada:
+&lt;ul&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;https://devtools.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;devtools&lt;/a&gt; e &lt;a href=&#34;https://usethis.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;usethis&lt;/a&gt; (Kit de ferramentas)&lt;/li&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;https://roxygen2.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;roxygen2&lt;/a&gt; (Documentação R);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;RStudio (Opcional) &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rstudio.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rtools (Windows) &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/bin/windows/Rtools/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\LaTeX\)&lt;/code&gt; &lt;a href=&#34;https://miktex.org/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miktex.org/download&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternativa: instalar o pacote &lt;a href=&#34;https://yihui.org/tinytex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tinytex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h3 id=&#34;conhecendo-a-estrutura-básica-de-um-pacote&#34;&gt;Conhecendo a estrutura básica de um pacote&lt;/h3&gt;
+&lt;img src=&#34;est_pacote01.png&#34; width=&#34;40%&#34; height=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h3 id=&#34;criando-um-pacote-com-o-rstudio&#34;&gt;Criando um pacote com o RStudio&lt;/h3&gt;
+&lt;iframe width=&#34;660&#34; height=&#34;415&#34; src=&#34;https://www.youtube.com/embed/aq4OL8IDRJ0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;aritmetica.R &lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Operacoes basicas da matematica
+aritmetica &amp;lt;- function (a, b, op) {
+           # op: divisi, multi, soma, subtra
+           if (op == &amp;quot;divisi&amp;quot;) x &amp;lt;- divisi(a, b)
+           if (op == &amp;quot;multi&amp;quot;) x &amp;lt;- multi(a,b)
+           if (op == &amp;quot;soma&amp;quot;) x &amp;lt;- soma(a,b)
+           if (op == &amp;quot;subtra&amp;quot;) x &amp;lt;- subtra(a,b)
+           return(x)
+         }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;auxiliar.R &lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;soma &amp;lt;- function (a, b) { # Soma
+          calculo &amp;lt;- a + b
+          return(calculo)}
+subtra &amp;lt;- function (a, b) { #Subtracao
+            calculo &amp;lt;- a - b
+            return(calculo)}
+multi &amp;lt;- function (a, b) { # Multiplicacao
+           calculo &amp;lt;- a * b
+           return(calculo)}
+divisi &amp;lt;- function (a, b) { # Divisao
+            calculo &amp;lt;- a / b
+            return(calculo)}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h3 id=&#34;local-para-inserir-aritmeticar-e-auxiliarr&#34;&gt;Local para inserir &lt;code&gt;aritmetica.R&lt;/code&gt; e &lt;code&gt;auxiliar.R&lt;/code&gt;&lt;/h3&gt;
+&lt;img src=&#34;est_pacote02.png&#34; width=&#34;40%&#34; height=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Editando o DESCRIPTION&lt;/h2&gt;
+&lt;img src=&#34;est_pacote03.png&#34; width=&#34;40%&#34; height=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Arquivo DESCRIPTION&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{}&#34;&gt;Package: meupacoter
+Type: Package
+Title: Funcoes Aritmeticas Basicas
+Version: 1.0
+Date: 2022-11-18
+Author: Ben Deivide
+Maintainer: Ben Deivide &amp;lt;ben.deivide@ufsj.edu.br&amp;gt;
+Description: Este pacote realiza operacoes aritmeticas basicas utilizando dois numeros.
+License: GPL (&amp;gt;= 2)
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Editando o NAMESPACE&lt;/h2&gt;
+&lt;img src=&#34;est_pacote04.png&#34; width=&#34;40%&#34; height=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Arquivo NAMESPACE&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{}&#34;&gt;exportPattern(&amp;quot;^[[:alpha:]]+&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Importante &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O que nós vamos fazer é deletar o arquivo &lt;strong&gt;NAMESPACE&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Vamos deixar para que o pacote &lt;code&gt;roxygen2&lt;/code&gt; gere-o.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;configurando-o-roxygen2&#34;&gt;Configurando o &lt;code&gt;roxygen2&lt;/code&gt;&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Nw8ZBlmy3Yw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Criando a documentação básica do pacote&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/YcPRWE6oD1E&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Estrutura da documentação&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{}&#34;&gt;\name{meupacoter-package}
+\alias{meupacoter-package}
+\alias{meupacoter}
+\docType{package}
+\name{aritmetica}
+\alias{aritmetica}
+\title{Operacoes Matematicas Basicas}
+\description{
+O pacote resolve operacoes como: soma, subtracao, divisao e multiplicacao.
+}
+\usage{
+aritmetica(a, b, op)
+}
+\arguments{
+\item{a}{primeiro numero}
+\item{b}{segundo numero}
+\item{op}{operacao matematica}
+}
+\details{
+A função \code{aritmetica} realiza as quatro operacoes basicas. A opcoes para o argumento
+\code{op} sao &amp;quot;soma&amp;quot;, &amp;quot;divisi&amp;quot;, &amp;quot;multi&amp;quot;, &amp;quot;subtra&amp;quot;
+}
+\examples{
+aritmetica(8, 4, op = &amp;quot;divisi&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Usando o roxygen2 em aritmetica.R&lt;/h2&gt;
+&lt;img src=&#34;est_pacote05.png&#34; width=&#34;40%&#34; height=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Estrutura da documentação pelo roxygen2&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;#&#39; Operacoes Matematicas Basicas
+#&#39;
+#&#39; \code{aritmetica} resolve operacoes como: soma, subtracao,
+#&#39;     divisao e multiplicacao.
+#&#39; @param a primeiro numero
+#&#39; @param b segundo numero
+#&#39; @param op operacao matematica
+#&#39; @return A função \code{aritmetica} realiza as quatro operacoes basicas. A opcoes para o argumento
+#&#39;     \code{op} sao &amp;quot;soma&amp;quot;, &amp;quot;divisi&amp;quot;, &amp;quot;multi&amp;quot;, &amp;quot;subtra&amp;quot;
+#&#39; @examples
+#&#39; # Loading package
+#&#39; library(meupacoter)
+#&#39; aritmetica(8, 4, op = &amp;quot;divisi&amp;quot;)
+# @import &amp;quot;nomes de pacotes importados&amp;quot;
+# @importFrom &amp;quot;Pacotes&amp;quot; &amp;quot;funcoes&amp;quot;
+#&#39; @export
+aritmetica &amp;lt;- function (a, b, op) {
+           # op: divisi, multi, soma, subtra
+           if (op == &amp;quot;divisi&amp;quot;) x &amp;lt;- divisi(a, b)
+           if (op == &amp;quot;multi&amp;quot;) x &amp;lt;- multi(a,b)
+           if (op == &amp;quot;soma&amp;quot;) x &amp;lt;- soma(a,b)
+           if (op == &amp;quot;subtra&amp;quot;) x &amp;lt;- subtra(a,b)
+           return(x)}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h3 id=&#34;organizando-os-arquivos&#34;&gt;Organizando os arquivos&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Antes de compilarmos o pacote, vamos excluir o arquivo &lt;strong&gt;NAMESPACE&lt;/strong&gt;, e todos os arquivos &lt;strong&gt;./Man/~.Rd&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;O diretório do pacote ficará assim:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;est_pacote06.png&#34; width=&#34;40%&#34; height=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h3 id=&#34;atualizando-o-pacote-com-o-roxigen2&#34;&gt;Atualizando o pacote com o &lt;code&gt;roxigen2&lt;/code&gt;&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/c7C9nSCGoPQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h3 id=&#34;checando-o-pacote&#34;&gt;Checando o pacote&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pv98iNiOgqg&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h3 id=&#34;submetendo-ao-cran&#34;&gt;Submetendo ao CRAN&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/submit.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/submit.html&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ou20KCmxSZ0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;hardcover.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;obrigado&#34;&gt;Obrigado!&lt;/h1&gt;
+&lt;p&gt;Sugestões, perguntas, críticas&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
