@@ -611,30 +611,30 @@
 &lt;section data-transition=&#34;zoom&#34;&gt;
   &lt;h2&gt;Diferença entre o R e RStudio&lt;/h2&gt;
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp 400w,
-               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_6bda6b5a62566d76d4072feffbfb2d62.webp 760w,
-               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp&#34;
-               width=&#34;730&#34;
-               height=&#34;380&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;figure  &gt;
+    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                 /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp 400w,
+                 /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_6bda6b5a62566d76d4072feffbfb2d62.webp 760w,
+                 /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+                 src=&#34;http://bendeivide.github.io/slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp&#34;
+                 width=&#34;730&#34;
+                 height=&#34;380&#34;
+                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
 &lt;h2&gt;Diferença entre o R e RStudio&lt;/h2&gt;
@@ -2000,8 +2000,8 @@ dois espaços na última linha
 &lt;div class=&#34;col&#34;&gt;
 &lt;p&gt;Texto do primeiro parágrafo. &lt;br&gt;
 Texto do segundo parágrafo.&lt;/p&gt;
-&lt;p&gt;Ou ainda o parágrafo pode 
-ser separado acrescentando 
+&lt;p&gt;Ou ainda o parágrafo pode
+ser separado acrescentando
 dois espaços na última linha&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;

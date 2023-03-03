@@ -44,14 +44,14 @@
 &lt;p&gt;RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
 &lt;p&gt;A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente.&lt;/p&gt;
 &lt;p&gt;Por fim, espero que esse primeiro volume possa servir de referência para os passos iniciais nessa ferramenta tão importante para a área de análise de dados.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     

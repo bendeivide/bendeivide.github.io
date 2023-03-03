@@ -5,12 +5,100 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 17 Nov 2022 08:20:47 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 02 Feb 2023 15:22:43 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
       <link>http://bendeivide.github.io/</link>
     </image>
+    
+    <item>
+      <title>R básico</title>
+      <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
+      <pubDate>Thu, 02 Feb 2023 15:22:43 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
+      <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 25 horas em por 2 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre a linguagem &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, bem como colaborações e estudos ao longo dos anos. Em 2005, quando ingressei no curso de Engenharia Agronômica, fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, obtive o primeiro contato com o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; pouco mais de 9 anos de seu lançamento e redistribuição. Naquela época, haviam poucos materiais em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para a compreensão. À época, inclusive, até sonhei em chegar neste dia, qua seja, o dia do lançamento de uma obra como esta.&lt;/p&gt;
+&lt;p&gt;Hoje, no ano de 2022, usuário há mais de 16 anos dessa linguagem, percebi um sentimento inquietante somente na posição de usuário do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Eu posso reafirmar que uma estratégia muito poderosa de ensino/aprendizagem é a técnica &lt;em&gt;aprender por ensinar&lt;/em&gt;, particularmente, porque além de democratizar o conhecimento  perpetuando-o, aprendo mais e mais sobre determinado assunto. Dessa forma, lotado no Departamento de Estatística, Física e Matemática &lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt; desde 2018, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), comecei a planejar diversos &lt;a href=&#34;http://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cursos sobre a linguagem R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Com o apoio do Centro Acadêmico de Engenharia de Telecomunicações (Catel/UFSJ), iniciei, no ano de 2021, o primeiro curso para o módulo Básico, e na sequência foi realizado o módulo intermediário. Todos no formato &lt;em&gt;online&lt;/em&gt;, para que o conhecimento ultrapassasse as fronteiras da Universidade. Até o presente momento, o módulo avançado que seria o último curso, está em fase de desenvolvimento. A ideia deu tanto certo, que apesar do momento de pandemia e situação difícil para o mundo, foi realizada mais de 1.000 inscrições, tanto de alunos da UFSJ, como também de alunos da América do Sul, Moçambique, Angola, dentre outros países e outros estados do Brasil. Tudo isso, realizado de forma gratuita e com emissão de certificados emitidos pelo Catel.&lt;/p&gt;
+&lt;p&gt;%A ideia desse curso foi apresentar algo diferente relacionado a maioria dos cursos em &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, que foi sempre apresentar essa ferramenta dentro dos conceitos da área da Estatística.
+%Apesar da Estatística e &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; estarem intimamente relacionados, há muitas particularidades na aprendizagem sobre esses dois assuntos. Por exemplo, há muitos assuntos no ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;  complexos, como os &lt;em&gt;loops&lt;/em&gt;, julgados como um processo lento e com alto gasto de memória; quando na realidade, o que  ocorre é o mau entendimento do sistema de cópia de objetos. Ainda mais, essa complexidade pode aumentar quando é necessário introduzir assuntos em estatística, em que há uma necessidade matemático, tem o seu cunho filosófico de como as metodologias foram desenvolvidas. Dessa forma, o entendimento mútuo da Estatística e o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, pode não ter o conhecimento real que essa potencial ferramenta pode proporcionar, uma vez que muitos assuntos complexos podem estar envolvidos em uma única aula.&lt;/p&gt;
+&lt;p&gt;Os cursos ministrados sobre o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; tentaram de forma simplificada, apresentar as ideias básicas sobre a sintaxe e semântica da linguagem, sendo criado três módulos, o nível básico, intermediário e avançado. No primeiro contato do aluno com o &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; nos cursos, não se aborda situações complexas, mas sim, o fundamental para uso como ferramenta básica. À medida que a aprendizagem nos módulos se avança, os problemas se tornam mais complexos, e a introdução de ferramentas tecnológicas é utilizada para auxiliar os alunos no entendimento sobre a linguagem. O resultado dessa experiência ficará registrada, em forma de conhecimento, na coleção apresentada a seguir.&lt;/p&gt;
+&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;&lt;/em&gt; apresenta três &lt;em&gt;Volumes&lt;/em&gt; iniciais, intitulados por:  o &lt;em&gt;R básico&lt;/em&gt; (&lt;em&gt;Volume I&lt;/em&gt;), o &lt;em&gt;R intermediário&lt;/em&gt;  (&lt;em&gt;Volume II&lt;/em&gt;) e o &lt;em&gt;R avançado&lt;/em&gt; (&lt;em&gt;Volume III&lt;/em&gt;). Fazendo a alusão aos três livros iniciais sobre a linguagem &lt;code&gt;S&lt;/code&gt; desenvolvidos por John Chambers e colaboradores, é realizado uma explanação desde assuntos mais simples até noções mais complexas sobre o &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, restringindo apenas a sintaxe e semântica da linguagem. Os &lt;em&gt;Volumes&lt;/em&gt; subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos no R&lt;/em&gt;, &lt;em&gt;Funções do pacote &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;base&lt;/a&gt;&lt;/em&gt;, dentre outros.&lt;/p&gt;
+&lt;p&gt;Tentando engajar os alunos para que se tornem protagonistas do processo de aprendizagem, e agora colegas de trabalho, tenho a parceria no &lt;em&gt;Volume I&lt;/em&gt;, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, um ex-orientando, e agora um profissional que tenta se superar a cada desafio e assunto estudado. Por isso, tenho a imensa satisfação de ter a sua contribuição e experiência neste material.&lt;/p&gt;
+&lt;p&gt;Por fim, espero que este primeiro &lt;em&gt;Volume&lt;/em&gt; sirva de referência aos passos iniciais nessa ferramenta tão importante para a análise de dados.&lt;/p&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;h2 id=&#34;livro-de-apoio&#34;&gt;Livro de apoio&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Versão Física:
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shopee.com.br/product/880978340/20053618529/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shopee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercado livre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-amazon  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-instagram  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.instagram.com/democratizando_conhecimento_/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Versão digital:
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (Bookdown)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Aula 01 - Introdução&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Apresentação do curso&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s01/&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo:&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Livro: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Exercícios propostos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Livro de apoio?&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Curso anterior!&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Playlist do youtube (cursos anteriores)&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;https://www.youtube.com/watch?v=_JqtU3X101E&amp;amp;list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=_JqtU3X101E&amp;list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Adquira o Livro físico &lt;strong&gt;R básico&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://shopee.com.br/product/880978340/20053618529/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shopee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
     
     <item>
       <title>GEMS-R: Como desenvolver o primeiro pacote R</title>
@@ -50,52 +138,6 @@
 &lt;li&gt;Livro R básico: &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/books/eambr01/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>R básico</title>
-      <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Thu, 13 Oct 2022 19:01:45 +0000</pubDate>
-      <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
-      <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 25 horas em por 2 semanas&lt;/p&gt;
-&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
-&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
-&lt;h2 id=&#34;livro-de-apoio&#34;&gt;Livro de apoio&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Versão Física:
-&lt;ul&gt;
-&lt;li&gt;Shopee&lt;/li&gt;
-&lt;li&gt;Mercado livre&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fab fa-amazon  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Instagram&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Versão digital:
-&lt;ul&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (Bookdown)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary&gt;Aula 01 - Introdução&lt;/summary&gt;
-  &lt;p&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
-  &lt;summary&gt;Livro de apoio?&lt;/summary&gt;
-  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;Playlist do curso&lt;/summary&gt;
-  &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
     </item>
     
@@ -1070,11 +1112,11 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/r-scripts/estcomp/aula13.R&#34; target=&#34;_blank&#34;&gt;&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt;  aula13.R&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/r-scripts/estcomp/aula13.R&#34; target=&#34;_blank&#34;&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;i class=&amp;quot;fab fa-r-project  pr-1 fa-fw&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;  aula13.R  &lt;/code&gt;&lt;/pre&gt;
 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/quadgauss.pdf&#34; target=&#34;_blank&#34;&gt;&lt;p&gt;&lt;i class=&#34;fa fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt;  Quadratura Gauss-Legendre&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/quadgauss.pdf&#34; target=&#34;_blank&#34;&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;i class=&amp;quot;fa fa-file-pdf  pr-1 fa-fw&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;  Quadratura Gauss-Legendre  &lt;/code&gt;&lt;/pre&gt;
 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/pol_ort.pdf&#34; target=&#34;_blank&#34;&gt;&lt;p&gt;&lt;i class=&#34;fa fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt;  Apresentação sobre Quadratura Gauss-Legendre&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/pol_ort.pdf&#34; target=&#34;_blank&#34;&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;i class=&amp;quot;fa fa-file-pdf  pr-1 fa-fw&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;  Apresentação sobre Quadratura Gauss-Legendre  &lt;/code&gt;&lt;/pre&gt;
 &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/dis_ben.pdf&#34; target=&#34;_blank&#34;&gt;&lt;p&gt;&lt;i class=&#34;fa fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Dissertação (Ben Dêivide)&lt;/p&gt;
 &lt;/a&gt;&lt;/li&gt;
@@ -1948,8 +1990,8 @@ Engenharia do campus.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
 aulas&lt;/a&gt;:
 &lt;div class=&#34;responsive-wrap&#34;&gt;
-  &lt;iframe src=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/li&gt;
+      &lt;iframe src=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;preenchimento-de-dados-para-as-avaliações&#34;&gt;Preenchimento de dados para as avaliações&lt;/h2&gt;
 &lt;ul&gt;
@@ -3227,14 +3269,14 @@ Período de 30/07/2021 a 30/09/2021&lt;/p&gt;
 &lt;p&gt;RStudio, o conhecimento da &lt;strong&gt;sintaxe&lt;/strong&gt; e &lt;strong&gt;semântica&lt;/strong&gt; da linguagem R, compreendendo as estruturas bases da linguagem, sobre o que é um &lt;strong&gt;objeto&lt;/strong&gt; e como construir uma &lt;strong&gt;função&lt;/strong&gt;, o entendimento sobre &lt;strong&gt;fluxos de controle&lt;/strong&gt;. O que é um &lt;strong&gt;pacote&lt;/strong&gt;, &lt;strong&gt;carregar&lt;/strong&gt; e &lt;strong&gt;anexar&lt;/strong&gt; um pacote, e quem são as pessoas que fazem parte da manutenção dessa linguagem, também serão assuntos desse primeiro módulo. &lt;strong&gt;Caminho de busca&lt;/strong&gt;, &lt;strong&gt;ambientes&lt;/strong&gt; e &lt;strong&gt;namespaces&lt;/strong&gt;, teremos noções básicas. Algo muito interessante, que pode mudar a vida de um programador em R são as &lt;strong&gt;boas práticas para a escrita de um código&lt;/strong&gt;, tema também abordado nesse módulo.&lt;/p&gt;
 &lt;p&gt;A ideia desse volume é proporcionar um entendimento básico, um primeiro contato com a linguagem, fazendo com que o leitor possa dar os primeiros passos, executando as primeiras linhas de comando. Mas também, dando o enfoque com erros tão recorrentes, como o entendimento sobre um objeto, ou o anexo de um pacote no caminho de busca. Temas como esses, dentre outros, serão a forma inicial que encontramos, para que posteriormente, seja dado um aprofundamento sobre a estrutura de um objeto R bem como a sua manipulação, e adicionado a isso, a inserção de como são os paradigmas da programação nesse ambiente.&lt;/p&gt;
 &lt;p&gt;Por fim, espero que esse primeiro volume possa servir de referência para os passos iniciais nessa ferramenta tão importante para a área de análise de dados.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;Do inglês, &lt;em&gt;Integrated Development Environment&lt;/em&gt;, que significa ambiente de desenvolvimento integrado.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -3798,7 +3840,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
       <link>http://bendeivide.github.io/books/pigur/</link>
       <pubDate>Tue, 31 Aug 2021 10:08:11 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/pigur/</guid>
-      <description>&lt;p&gt;Esse livro surgiu a partir da ideia que propus ao outro autor desse projeto &lt;a href=&#34;https://henriquealves21.github.io/webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique josé de P. Alves&lt;/a&gt;, quando estávamos desenvolvendo em paralelo dois pacotes, &lt;a href=&#34;https://bendeivide.github.io/project/midrangemcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; e o &lt;strong&gt;TVMM&lt;/strong&gt; ([&lt;a href=&#34;https://cran.r-project.org/package=TVMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;] [&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GUI&lt;/em&gt;&lt;/a&gt;]), e resolvemos deixá-los mais intuitivo para usuário que não tem afinidade com o ambiente &lt;em&gt;R&lt;/em&gt;. De início eu usei o pacote &lt;a href=&#34;https://cran.r-project.org/web/packages/gWidgets/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gWidgets&lt;/a&gt; que tornava mais intuitivo a programação da &lt;em&gt;GUI&lt;/em&gt;. Contudo, após o pacote ter se tornado órfã, resolvemos partir para o uso do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que foi um dos pacote base do pacote &lt;strong&gt;gWidgets&lt;/strong&gt;. Este mesmo pacote também usava uma outra integração de linguagem, &lt;em&gt;GTK+&lt;/em&gt;. Então usar o &lt;strong&gt;gWidgets&lt;/strong&gt; era muito prático, infelizmente foi removido do CRAN. Quando nos aprofundamos nesse pacote, percebemos que seus autores haviam desenvolvido um livro muito interessante, intitulado &lt;a href=&#34;https://books.google.com.br/books?id=VeKEDwAAQBAJ&amp;amp;pg=PA418&amp;amp;lpg=PA418&amp;amp;dq=R&amp;#43;tkmenu&amp;amp;source=bl&amp;amp;ots=V2O2kTRNy3&amp;amp;sig=ACfU3U21CsBJES_jbMhh8JTnerP1FMbxpQ&amp;amp;hl=pt-BR&amp;amp;sa=X&amp;amp;ved=2ahUKEwj5lqOS3pvqAhX2IbkGHRAHClUQ6AEwA3oECAoQAQ#v=onepage&amp;amp;q=R%20tkmenu&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programming Graphical User Interfaces in R&lt;/em&gt;&lt;/a&gt;, um livro que despertou a nossa curiosidade nessa linha de pesquisa para desenvolvimento de pacotes. 
+      <description>&lt;p&gt;Esse livro surgiu a partir da ideia que propus ao outro autor desse projeto &lt;a href=&#34;https://henriquealves21.github.io/webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique josé de P. Alves&lt;/a&gt;, quando estávamos desenvolvendo em paralelo dois pacotes, &lt;a href=&#34;https://bendeivide.github.io/project/midrangemcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; e o &lt;strong&gt;TVMM&lt;/strong&gt; ([&lt;a href=&#34;https://cran.r-project.org/package=TVMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;] [&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GUI&lt;/em&gt;&lt;/a&gt;]), e resolvemos deixá-los mais intuitivo para usuário que não tem afinidade com o ambiente &lt;em&gt;R&lt;/em&gt;. De início eu usei o pacote &lt;a href=&#34;https://cran.r-project.org/web/packages/gWidgets/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gWidgets&lt;/a&gt; que tornava mais intuitivo a programação da &lt;em&gt;GUI&lt;/em&gt;. Contudo, após o pacote ter se tornado órfã, resolvemos partir para o uso do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que foi um dos pacote base do pacote &lt;strong&gt;gWidgets&lt;/strong&gt;. Este mesmo pacote também usava uma outra integração de linguagem, &lt;em&gt;GTK+&lt;/em&gt;. Então usar o &lt;strong&gt;gWidgets&lt;/strong&gt; era muito prático, infelizmente foi removido do CRAN. Quando nos aprofundamos nesse pacote, percebemos que seus autores haviam desenvolvido um livro muito interessante, intitulado &lt;a href=&#34;https://books.google.com.br/books?id=VeKEDwAAQBAJ&amp;amp;pg=PA418&amp;amp;lpg=PA418&amp;amp;dq=R&amp;#43;tkmenu&amp;amp;source=bl&amp;amp;ots=V2O2kTRNy3&amp;amp;sig=ACfU3U21CsBJES_jbMhh8JTnerP1FMbxpQ&amp;amp;hl=pt-BR&amp;amp;sa=X&amp;amp;ved=2ahUKEwj5lqOS3pvqAhX2IbkGHRAHClUQ6AEwA3oECAoQAQ#v=onepage&amp;amp;q=R%20tkmenu&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programming Graphical User Interfaces in R&lt;/em&gt;&lt;/a&gt;, um livro que despertou a nossa curiosidade nessa linha de pesquisa para desenvolvimento de pacotes.
 Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferramenta em nossos pacotes, e agora, estudamos para repassar a nossa experiência por meio do Livro &lt;strong&gt;Programação de Interface Gráfica ao Usuário no R&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
 </description>
@@ -6094,6 +6136,657 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
     </item>
     
     <item>
+      <title>Aula 01 - Apresentação do curso</title>
+      <link>http://bendeivide.github.io/slides/rbasico/slide01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/rbasico/slide01/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;ear-r-básico&#34;&gt;EAR: R Básico&lt;/h1&gt;
+&lt;p&gt;Aula 01 - Apresentação do curso
+&lt;/br&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;encarte&#34;&gt;Encarte&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide01/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_47830d7c9a2b739bfcedd5c362b607b1.webp 400w,
+               /slides/rbasico/slide01/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_f18213b9175994807ba29040d04d3575.webp 760w,
+               /slides/rbasico/slide01/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide01/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_47830d7c9a2b739bfcedd5c362b607b1.webp&#34;
+               width=&#34;729&#34;
+               height=&#34;517&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/rbasico/slide01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/rbasico/slide01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;objetivo-do-curso&#34;&gt;Objetivo do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O EAR: R básico &lt;strong&gt;não&lt;/strong&gt; tem como objetivo principal de &lt;strong&gt;ensinar análise de dados&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mas &lt;strong&gt;sim&lt;/strong&gt;, proporcionar o &lt;strong&gt;conhecimento sobre a linguagem R&lt;/strong&gt; (sintaxe e semântica), de modo que se consiga usufruir todos os recursos da linguagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;section data-background-iframe=&#34;/courses/ear/rbasico&#34; data-background-interactive&gt;
+	&lt;div style=&#34;position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;&#34;&gt;
+		&lt;h2&gt;Material do curso&lt;/h2&gt;
+		&lt;p&gt;R básico &lt;a href=&#34;https://bendeivide.github.io/&#34;&gt;Ben Dêivide&lt;/a&gt;.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;mais-sobre-o-r-básico&#34;&gt;Mais sobre o R básico&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Página do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;obrigado&#34;&gt;Obrigado!&lt;/h1&gt;
+&lt;p&gt;Sugestões, perguntas, críticas&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide01/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_9000caf266bfbf38209189728865ff73.webp 400w,
+               /slides/rbasico/slide01/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_242171c7485bfc49da68d8a8bdee0179.webp 760w,
+               /slides/rbasico/slide01/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide01/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_9000caf266bfbf38209189728865ff73.webp&#34;
+               width=&#34;375&#34;
+               height=&#34;266&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aula 02 - História e Instalação do R</title>
+      <link>http://bendeivide.github.io/slides/rbasico/slide02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/rbasico/slide02/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;ear-r-básico&#34;&gt;EAR: R Básico&lt;/h1&gt;
+&lt;p&gt;Aula 02 - Entendendo a coleção Estudando o Ambiente R (EAR)
+&lt;/br&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;encarte&#34;&gt;Encarte&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide02/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_47830d7c9a2b739bfcedd5c362b607b1.webp 400w,
+               /slides/rbasico/slide02/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_f18213b9175994807ba29040d04d3575.webp 760w,
+               /slides/rbasico/slide02/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide02/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_47830d7c9a2b739bfcedd5c362b607b1.webp&#34;
+               width=&#34;729&#34;
+               height=&#34;517&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/rbasico/slide02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/rbasico/slide02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;objetivo-do-curso&#34;&gt;Objetivo do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O EAR: R básico &lt;strong&gt;não&lt;/strong&gt; tem como objetivo principal de &lt;strong&gt;ensinar análise de dados&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mas &lt;strong&gt;sim&lt;/strong&gt;, proporcionar o &lt;strong&gt;conhecimento sobre a linguagem R&lt;/strong&gt; (sintaxe e semântica), de modo que se consiga usufruir todos os recursos da linguagem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;section data-background-iframe=&#34;/courses/ear/rbasico&#34; data-background-interactive&gt;
+	&lt;div style=&#34;position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;&#34;&gt;
+		&lt;h2&gt;Material do curso&lt;/h2&gt;
+		&lt;p&gt;R básico &lt;a href=&#34;https://bendeivide.github.io/&#34;&gt;Ben Dêivide&lt;/a&gt;.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;mais-sobre-o-r-básico&#34;&gt;Mais sobre o R básico&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Página do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;obrigado&#34;&gt;Obrigado!&lt;/h1&gt;
+&lt;p&gt;Sugestões, perguntas, críticas&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide02/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_9000caf266bfbf38209189728865ff73.webp 400w,
+               /slides/rbasico/slide02/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_242171c7485bfc49da68d8a8bdee0179.webp 760w,
+               /slides/rbasico/slide02/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide02/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_9000caf266bfbf38209189728865ff73.webp&#34;
+               width=&#34;375&#34;
+               height=&#34;266&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Como criar uma website via R</title>
+      <link>http://bendeivide.github.io/slides/websiter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/websiter/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;como-criar-uma-website-via-r&#34;&gt;Como criar uma website via R&lt;/h1&gt;
+&lt;p&gt;EAR: R Documentações
+&lt;/br&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;encarte&#34;&gt;Encarte&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;verao2023ufla-ben.png&#34; 
+width=&#34;400&#34; 
+height=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/websiter/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/websiter/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/websiter/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/websiter/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt; Pré-requisitos &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ambiente R (&lt;a href=&#34;http://localhost:4321/courses/ear/rbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Instalação de pacotes R:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkgs.rstudio.com/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;R&amp;gt; install.packages(&amp;quot;blogdown&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://posit.co/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gerador de site (&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;) &lt;a href=&#34;https://themes.gohugo.io/themes/starter-hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Acadêmico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;R&amp;gt; blogdown::install_hugo()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt; Pré-requisitos &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Conhecimento básico sobre a linguagem &lt;code&gt;YAML&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Conversor de documentos &lt;a href=&#34;https://pandoc.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;RStudio e Github via &lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R (5-16)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pacote &lt;a href=&#34;&#34;&gt;usethis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;RMarkdown e Markdown&lt;/li&gt;
+&lt;li&gt;Use: &lt;code&gt;&amp;lt;&amp;gt;.Rmarkdown&lt;/code&gt; ao invés de &lt;code&gt;&amp;lt;&amp;gt;.rmd&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;material-de-apoio&#34;&gt;Material de apoio&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/bendeivide/websiter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/websiter/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/websiter/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/websiter/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/websiter/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp&#34;
+               width=&#34;607&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;mão-na-massa&#34;&gt;Mão na massa!&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Criar uma página web apenas com o R (Hugo Academico)&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Melhor customização: HTML, CSS, JavaScript, etc (Fora do escopo!)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Chamaremos via GitHub o projeto: Hugo Academico&lt;/li&gt;
+&lt;li&gt;Configurar a página criada&lt;/li&gt;
+&lt;li&gt;Subiremos o projeto ao GitHub&lt;/li&gt;
+&lt;li&gt;Ativar a página!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;ideias-sobre-_website_-no-r&#34;&gt;Ideias sobre &lt;em&gt;website&lt;/em&gt; no R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Páginas estáticas e Páginas dinâmicas&lt;/li&gt;
+&lt;li&gt;Servidor local (Desenvolvimento)&lt;/li&gt;
+&lt;li&gt;Servidor da página (GitHub)
+&lt;ul&gt;
+&lt;li&gt;Raiz (&lt;code&gt;./&lt;/code&gt;) ou &lt;code&gt;docs/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;index.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Arquivos YAML: &lt;code&gt;&amp;lt;&amp;gt;.yaml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;projetos-de-páginas&#34;&gt;Projetos de páginas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Padrão RStudio (Yihui Xie):
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yihui/hugo-lithiumc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/yihui/hugo-lithiumc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wowchemy/starter-hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/wowchemy/starter-hugo-academic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/caressofsteel/hugo-story&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/caressofsteel/hugo-story&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Livro &lt;em&gt;bookdown&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;referências-de-livros&#34;&gt;Referências de livros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bookdown.org/yihui/rmarkdown/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bookdown.org/yihui/rmarkdown-cookbook/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkgs.rstudio.com/bookdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pkgs.rstudio.com/bookdown/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;revisando-o-rmarkdown&#34;&gt;Revisando o &lt;em&gt;RMarkdown&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;rmarkdown.png&#34; 
+width=&#34;400&#34; 
+height=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;section&gt;
+ &lt;h2&gt; Github + RStudio + Pacote usethis &lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;github.png&#34; 
+width=&#34;200&#34; 
+height=&#34;200&#34; /&gt;
++
+&lt;img src=&#34;rstudio.png&#34; 
+width=&#34;200&#34; 
+height=&#34;200&#34; /&gt;
++
+&lt;img src=&#34;usethis.png&#34; 
+width=&#34;200&#34; 
+height=&#34;200&#34; /&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+ &lt;h2&gt;&#34;Push&#34; ao Github&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;R&amp;gt; usethis::use_git()
+R&amp;gt; usethis::use_github()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;section&gt;
+  &lt;h2&gt; Usando o blogdown &lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;blogdown.svg&#34; 
+width=&#34;400&#34; 
+height=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+  &lt;h2&gt; Usando o bookdown &lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;bookdown.png&#34; 
+width=&#34;400&#34; 
+height=&#34;400&#34; /&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;dicas&#34;&gt;Dicas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sites mais simples: pacote &lt;a href=&#34;https://rstudio.github.io/distill/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;distill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Outros temas do Hugo:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Temas Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sites para pacotes R: &lt;a href=&#34;https://pkgdown.r-lib.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pkgdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rdoc-background.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;obrigado&#34;&gt;Obrigado!&lt;/h1&gt;
+&lt;p&gt;Sugestões, perguntas, críticas&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;EAR-rdoc.png&#34; 
+width=&#34;500&#34; 
+height=&#34;400&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Como desenvolver o primeiro pacote R</title>
       <link>http://bendeivide.github.io/slides/meupacoter-gems-ufs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6107,7 +6800,7 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
 
 &lt;h2 id=&#34;como-desenvolver-o-primeiro-pacote-r&#34;&gt;Como desenvolver o primeiro pacote R&lt;/h2&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; |
 
   &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
 &lt;img src=&#34;logo.png&#34; width=&#34;40%&#34; height=&#34;70%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
@@ -7046,30 +7739,30 @@ aritmetica &amp;lt;- function (a, b, op) {
 &lt;section data-transition=&#34;zoom&#34;&gt;
   &lt;h2&gt;Diferença entre o R e RStudio&lt;/h2&gt;
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp 400w,
-               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_6bda6b5a62566d76d4072feffbfb2d62.webp 760w,
-               /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp&#34;
-               width=&#34;730&#34;
-               height=&#34;380&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;figure  &gt;
+    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                 /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp 400w,
+                 /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_6bda6b5a62566d76d4072feffbfb2d62.webp 760w,
+                 /slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+                 src=&#34;http://bendeivide.github.io/slides/estcomp/s02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp&#34;
+                 width=&#34;730&#34;
+                 height=&#34;380&#34;
+                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
 &lt;h2&gt;Diferença entre o R e RStudio&lt;/h2&gt;
@@ -8435,8 +9128,8 @@ dois espaços na última linha
 &lt;div class=&#34;col&#34;&gt;
 &lt;p&gt;Texto do primeiro parágrafo. &lt;br&gt;
 Texto do segundo parágrafo.&lt;/p&gt;
-&lt;p&gt;Ou ainda o parágrafo pode 
-ser separado acrescentando 
+&lt;p&gt;Ou ainda o parágrafo pode
+ser separado acrescentando
 dois espaços na última linha&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -9041,32 +9734,32 @@ print(&#39;Ola, Mundo!&#39;)
   &lt;h2&gt;Introdução&lt;/h2&gt;
   &lt;p&gt; Nossa vida atual é assim hoje ... &lt;/p&gt;
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
-               /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_0769bc3bdb3596bca3f6a01e3f6b0394.webp 400w,
-               /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_198182e3dda60929a57504574af4d842.webp 760w,
-               /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_0769bc3bdb3596bca3f6a01e3f6b0394.webp&#34;
-               width=&#34;530&#34;
-               height=&#34;380&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Imagens: gratispng.com
-    &lt;/figcaption&gt;&lt;/figure&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+                 /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_0769bc3bdb3596bca3f6a01e3f6b0394.webp 400w,
+                 /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_198182e3dda60929a57504574af4d842.webp 760w,
+                 /slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+                 src=&#34;http://bendeivide.github.io/slides/estprob/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_0769bc3bdb3596bca3f6a01e3f6b0394.webp&#34;
+                 width=&#34;530&#34;
+                 height=&#34;380&#34;
+                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;figcaption&gt;
+        Imagens: gratispng.com
+      &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
 &lt;h2&gt;Introdução&lt;/h2&gt;
@@ -9205,32 +9898,32 @@ print(&#39;Ola, Mundo!&#39;)
   &lt;h2&gt;Dados&lt;/h2&gt;
   &lt;p&gt; Em meio a tudo isso, uma coisa acontece ... &lt;/p&gt;
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
-               /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_7684bd630a966bea4c66d8f3e27710af.webp 400w,
-               /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_88e47f38d0b957e637a120fc53fed28d.webp 760w,
-               /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_7684bd630a966bea4c66d8f3e27710af.webp&#34;
-               width=&#34;530&#34;
-               height=&#34;380&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Imagens: gratispng.com
-    &lt;/figcaption&gt;&lt;/figure&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;figure  id=&#34;figure-imagens-gratispngcom&#34;&gt;
+    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Imagens: gratispng.com&#34; srcset=&#34;
+                 /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_7684bd630a966bea4c66d8f3e27710af.webp 400w,
+                 /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_88e47f38d0b957e637a120fc53fed28d.webp 760w,
+                 /slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+                 src=&#34;http://bendeivide.github.io/slides/estprob/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_7684bd630a966bea4c66d8f3e27710af.webp&#34;
+                 width=&#34;530&#34;
+                 height=&#34;380&#34;
+                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;figcaption&gt;
+        Imagens: gratispng.com
+      &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
 &lt;h2&gt;Dados&lt;/h2&gt;
@@ -9403,30 +10096,30 @@ print(&#39;Ola, Mundo!&#39;)
   &lt;h2&gt;Motivação inicial &lt;/h2&gt;
   &lt;p&gt; Definições gerais da estatística (Exemplo do livro EPAEC) &lt;/p&gt;
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp 400w,
-               /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_2422affad744e4d2bee6a7971f41e9ec.webp 760w,
-               /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp&#34;
-               width=&#34;830&#34;
-               height=&#34;420&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;figure  &gt;
+    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                 /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp 400w,
+                 /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_2422affad744e4d2bee6a7971f41e9ec.webp 760w,
+                 /slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+                 src=&#34;http://bendeivide.github.io/slides/estprob/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp&#34;
+                 width=&#34;830&#34;
+                 height=&#34;420&#34;
+                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;/figure&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
 &lt;h2&gt;Motivação inicial&lt;/h2&gt;
@@ -12444,7 +13137,7 @@ Para explicar a definição de uma variável aleatória será considerado o exem
 
 &lt;h1 id=&#34;r-básico&#34;&gt;R Básico&lt;/h1&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; |
 
   &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;

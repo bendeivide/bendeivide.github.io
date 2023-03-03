@@ -983,11 +983,11 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/r-scripts/estcomp/aula13.R&#34; target=&#34;_blank&#34;&gt;&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt;  aula13.R&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/r-scripts/estcomp/aula13.R&#34; target=&#34;_blank&#34;&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;i class=&amp;quot;fab fa-r-project  pr-1 fa-fw&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;  aula13.R  &lt;/code&gt;&lt;/pre&gt;
 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/quadgauss.pdf&#34; target=&#34;_blank&#34;&gt;&lt;p&gt;&lt;i class=&#34;fa fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt;  Quadratura Gauss-Legendre&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/quadgauss.pdf&#34; target=&#34;_blank&#34;&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;i class=&amp;quot;fa fa-file-pdf  pr-1 fa-fw&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;  Quadratura Gauss-Legendre  &lt;/code&gt;&lt;/pre&gt;
 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/pol_ort.pdf&#34; target=&#34;_blank&#34;&gt;&lt;p&gt;&lt;i class=&#34;fa fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt;  Apresentação sobre Quadratura Gauss-Legendre&lt;/p&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/pol_ort.pdf&#34; target=&#34;_blank&#34;&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;i class=&amp;quot;fa fa-file-pdf  pr-1 fa-fw&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;  Apresentação sobre Quadratura Gauss-Legendre  &lt;/code&gt;&lt;/pre&gt;
 &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/dis_ben.pdf&#34; target=&#34;_blank&#34;&gt;&lt;p&gt;&lt;i class=&#34;fa fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Dissertação (Ben Dêivide)&lt;/p&gt;
 &lt;/a&gt;&lt;/li&gt;
@@ -1830,8 +1830,8 @@ Engenharia do campus.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
 aulas&lt;/a&gt;:
 &lt;div class=&#34;responsive-wrap&#34;&gt;
-  &lt;iframe src=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/li&gt;
+      &lt;iframe src=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;preenchimento-de-dados-para-as-avaliações&#34;&gt;Preenchimento de dados para as avaliações&lt;/h2&gt;
 &lt;ul&gt;

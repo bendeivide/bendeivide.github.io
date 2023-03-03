@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  
+  
+
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.4.0 for Hugo">
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="http://bendeivide.github.io/slides/websiter/">
+
+  <title>Como criar uma website via R | Ben Dêivide</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/black.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h1 id="como-criar-uma-website-via-r">Como criar uma website via R</h1>
+<p>EAR: R Documentações
+</br>
+</br>
+
+  <i class="fas fa-user-tie  pr-1 fa-fw"></i> <a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Ben Dêivide</a> | 
+  <i class="fas fa-school  pr-1 fa-fw"></i> <a href="https://www.ufsj.edu.br/" target="_blank" rel="noopener">UFSJ</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h2 id="encarte">Encarte</h2>
+<p><img src="verao2023ufla-ben.png" 
+width="400" 
+height="400" /></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h2 id="filosofia-de-publicação-selo-dc">Filosofia de publicação (Selo DC)</h2>
+<p><a href="https://bendeivide.github.io/dc/" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/websiter/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/websiter/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/websiter/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/websiter/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp"
+               width="385"
+               height="406"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<section>
+<h2> Pré-requisitos </h2>
+<ul>
+<li>Ambiente R (<a href="http://localhost:4321/courses/ear/rbasico/" target="_blank" rel="noopener">R básico</a>)</li>
+<li>Instalação de pacotes R:
+<ul>
+<li><a href="https://pkgs.rstudio.com/blogdown/" target="_blank" rel="noopener">blogdown</a>
+<ul>
+<li><code>R&gt; install.packages(&quot;blogdown&quot;)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://posit.co/downloads/" target="_blank" rel="noopener">RStudio</a></li>
+<li>Gerador de site (<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>) <a href="https://themes.gohugo.io/themes/starter-hugo-academic/" target="_blank" rel="noopener">Acadêmico</a></li>
+<li><code>R&gt; blogdown::install_hugo()</code></li>
+</ul>
+</section>
+<section>
+<h2> Pré-requisitos </h2>
+<ul>
+<li>Conhecimento básico sobre a linguagem <code>YAML</code></li>
+<li>Conversor de documentos <a href="https://pandoc.org" target="_blank" rel="noopener">Pandoc</a></li>
+<li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+<ul>
+<li>RStudio e Github via <a href="https://bendeivide.github.io/project/rapidinhasr/" target="_blank" rel="noopener">Rapidinhas do R (5-16)</a></li>
+<li>Pacote <a href="">usethis</a></li>
+</ul>
+</li>
+<li>RMarkdown e Markdown</li>
+<li>Use: <code>&lt;&gt;.Rmarkdown</code> ao invés de <code>&lt;&gt;.rmd</code></li>
+</ul>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="material-de-apoio">Material de apoio</h2>
+<p><a href="https://github.com/bendeivide/websiter" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/websiter/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp 400w,
+               /slides/websiter/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_81e4eb609876936d8a5e708f395fd9b9.webp 760w,
+               /slides/websiter/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/websiter/folder_hu84ae0d30d5154d1e73aaf9945c348d03_20466_620e1c48e451842e2f4135b7117821ad.webp"
+               width="607"
+               height="471"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h2 id="mão-na-massa">Mão na massa!</h2>
+<ol>
+<li>Criar uma página web apenas com o R (Hugo Academico)</li>
+</ol>
+  <ul>
+    <ul>
+      <li>Melhor customização: HTML, CSS, JavaScript, etc (Fora do escopo!)</li>
+    </ul>
+  </ul>
+<ol start="2">
+<li>Chamaremos via GitHub o projeto: Hugo Academico</li>
+<li>Configurar a página criada</li>
+<li>Subiremos o projeto ao GitHub</li>
+<li>Ativar a página!</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h2 id="ideias-sobre-_website_-no-r">Ideias sobre <em>website</em> no R</h2>
+<ul>
+<li>Páginas estáticas e Páginas dinâmicas</li>
+<li>Servidor local (Desenvolvimento)</li>
+<li>Servidor da página (GitHub)
+<ul>
+<li>Raiz (<code>./</code>) ou <code>docs/</code></li>
+<li><code>index.html</code></li>
+</ul>
+</li>
+<li>Arquivos YAML: <code>&lt;&gt;.yaml</code></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h2 id="projetos-de-páginas">Projetos de páginas</h2>
+<ul>
+<li>Padrão RStudio (Yihui Xie):
+<ul>
+<li><a href="https://github.com/yihui/hugo-lithiumc" target="_blank" rel="noopener">https://github.com/yihui/hugo-lithiumc</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">https://github.com/wowchemy/starter-hugo-academic</a></li>
+<li><a href="https://github.com/caressofsteel/hugo-story" target="_blank" rel="noopener">https://github.com/caressofsteel/hugo-story</a></li>
+<li>Livro <em>bookdown</em></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h2 id="referências-de-livros">Referências de livros</h2>
+<ul>
+<li><a href="https://bookdown.org/yihui/rmarkdown/" target="_blank" rel="noopener">https://bookdown.org/yihui/rmarkdown/</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown-cookbook/" target="_blank" rel="noopener">https://bookdown.org/yihui/rmarkdown-cookbook/</a></li>
+<li><a href="https://pkgs.rstudio.com/bookdown/" target="_blank" rel="noopener">https://pkgs.rstudio.com/bookdown/</a></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h2 id="revisando-o-rmarkdown">Revisando o <em>RMarkdown</em></h2>
+<p><img src="rmarkdown.png" 
+width="400" 
+height="400" /></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<section>
+ <h2> Github + RStudio + Pacote usethis </h2>
+<p><img src="github.png" 
+width="200" 
+height="200" />
++
+<img src="rstudio.png" 
+width="200" 
+height="200" />
++
+<img src="usethis.png" 
+width="200" 
+height="200" /></p>
+</section>
+<section>
+ <h2>"Push" ao Github</h2>
+<pre><code class="language-r">R&gt; usethis::use_git()
+R&gt; usethis::use_github()
+</code></pre>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<section>
+  <h2> Usando o blogdown </h2>
+<p><img src="blogdown.svg" 
+width="400" 
+height="400" /></p>
+</section>
+<section>
+  <h2> Usando o bookdown </h2>
+<p><img src="bookdown.png" 
+width="400" 
+height="400" /></p>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h2 id="dicas">Dicas</h2>
+<ul>
+<li>Sites mais simples: pacote <a href="https://rstudio.github.io/distill/" target="_blank" rel="noopener">distill</a></li>
+<li>Outros temas do Hugo:
+<ul>
+<li><a href="https://themes.gohugo.io/" target="_blank" rel="noopener">Temas Hugo</a></li>
+</ul>
+</li>
+<li>Sites para pacotes R: <a href="https://pkgdown.r-lib.org/" target="_blank" rel="noopener">pkgdown</a></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+
+<h1 id="obrigado">Obrigado!</h1>
+<p>Sugestões, perguntas, críticas&hellip;</p>
+<p><img src="EAR-rdoc.png" 
+width="500" 
+height="400" /></p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/highlight/highlight.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>

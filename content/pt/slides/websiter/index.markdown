@@ -1,0 +1,244 @@
+---
+title: Como criar uma website via R
+summary: ''
+authors: [Ben Dêivide]
+tags: [Rbásico]
+categories: [curso]
+slides:
+#  css: night
+# https://github.com/hakimel/reveal.js/tree/master/css/theme/source
+# Choose a theme from https://github.com/hakimel/reveal.js#theming
+# https://revealjs.com/themes/
+# https://github.com/wowchemy/wowchemy-hugo-themes/issues/796
+# https://bookdown.org/yihui/rmarkdown/revealjs.html
+# https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware
+# Tentativas:
+# https://github.com/dzello/reveal-hugo
+  theme: ''
+# Choose a code highlighting style (if highlighting enabled in `params.toml`)
+# Light style: github. Dark style: dracula (default).
+  highlight_style: dracula
+# Como controlar a apresentacao:
+# - Next: `Right Arrow` or `Space`
+# - Previous: `Left Arrow`
+# - Start: `Home`
+# - Finish: `End`
+# - Overview: `Esc`
+# - Speaker notes: `S`
+# - Fullscreen: `F`
+# - Zoom: `Alt + Click`
+# - [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
+
+---
+
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+# Como criar uma website via R
+EAR: R Documentações
+</br>
+</br>
+{{< icon name="user-tie" pack="fas" >}} [Ben Dêivide](https://bendeivide.github.io/) | {{< icon name="school" pack="fas" >}} [UFSJ](https://www.ufsj.edu.br/) 
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+## Encarte
+
+<img src="verao2023ufla-ben.png" 
+     width="400" 
+     height="400" />
+
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+## Filosofia de publicação (Selo DC)
+
+[![](SeloDC-branco.png)](https://bendeivide.github.io/dc/)
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+<section>
+
+<h2> Pré-requisitos </h2>
+
+ - Ambiente R ([R básico](http://localhost:4321/courses/ear/rbasico/))
+ - Instalação de pacotes R:
+   - [blogdown](https://pkgs.rstudio.com/blogdown/)    
+     - `R> install.packages("blogdown")`
+ - [RStudio](https://posit.co/downloads/)
+ - Gerador de site ([Hugo](https://gohugo.io/)) [Acadêmico](https://themes.gohugo.io/themes/starter-hugo-academic/)
+  - `R> blogdown::install_hugo()`
+
+</section>
+
+<section>
+
+<h2> Pré-requisitos </h2>
+
+ - Conhecimento básico sobre a linguagem `YAML`
+ - Conversor de documentos [Pandoc](https://pandoc.org)
+ - [GitHub](https://github.com/)
+   - RStudio e Github via [Rapidinhas do R (5-16)](https://bendeivide.github.io/project/rapidinhasr/)
+   - Pacote [usethis]()
+- RMarkdown e Markdown
+ - Use: `<>.Rmarkdown` ao invés de `<>.rmd`
+
+</section>
+
+
+---
+
+## Material de apoio
+
+[![](folder.png)](https://github.com/bendeivide/websiter)
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+## Mão na massa!
+
+  1) Criar uma página web apenas com o R (Hugo Academico)
+  
+  <ul>
+    <ul>
+      <li>Melhor customização: HTML, CSS, JavaScript, etc (Fora do escopo!)</li>
+    </ul>
+  </ul>
+  
+  2) Chamaremos via GitHub o projeto: Hugo Academico
+  3) Configurar a página criada
+  4) Subiremos o projeto ao GitHub
+  5) Ativar a página!
+  
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+## Ideias sobre _website_ no R
+
+- Páginas estáticas e Páginas dinâmicas
+- Servidor local (Desenvolvimento)
+- Servidor da página (GitHub)
+  - Raiz (`./`) ou `docs/`
+  - `index.html`
+- Arquivos YAML: `<>.yaml`
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+## Projetos de páginas
+
+- Padrão RStudio (Yihui Xie):
+  - <https://github.com/yihui/hugo-lithiumc>
+- <https://github.com/wowchemy/starter-hugo-academic>
+- <https://github.com/caressofsteel/hugo-story>
+- Livro *bookdown*
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+## Referências de livros
+
+- <https://bookdown.org/yihui/rmarkdown/>
+- <https://bookdown.org/yihui/rmarkdown-cookbook/>
+- <https://pkgs.rstudio.com/bookdown/>
+
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+## Revisando o *RMarkdown*
+
+
+<img src="rmarkdown.png" 
+     width="400" 
+     height="400" />
+     
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+<section>
+ <h2> Github + RStudio + Pacote usethis </h2>
+ 
+ <img src="github.png" 
+     width="200" 
+     height="200" />
++
+<img src="rstudio.png" 
+     width="200" 
+     height="200" />
++
+<img src="usethis.png" 
+     width="200" 
+     height="200" />
+     
+</section>
+
+<section>
+ <h2>"Push" ao Github</h2>
+ 
+```r
+R> usethis::use_git()
+R> usethis::use_github()
+```
+ 
+</section>
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+
+<section>
+  <h2> Usando o blogdown </h2>
+  
+  <img src="blogdown.svg" 
+     width="400" 
+     height="400" />
+
+</section>
+
+<section>
+  <h2> Usando o bookdown </h2>
+  
+  <img src="bookdown.png" 
+     width="400" 
+     height="400" />
+
+</section>
+
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+## Dicas
+
+- Sites mais simples: pacote [distill](https://rstudio.github.io/distill/)
+- Outros temas do Hugo:
+  - [Temas Hugo](https://themes.gohugo.io/)
+- Sites para pacotes R: [pkgdown](https://pkgdown.r-lib.org/)
+
+---
+
+{{< slide background-image="EAR-rdoc-background.png" >}}
+
+# Obrigado! 
+
+Sugestões, perguntas, críticas...
+
+
+<img src="EAR-rdoc.png" 
+     width="500" 
+     height="400" />
