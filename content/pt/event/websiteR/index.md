@@ -1,12 +1,12 @@
 ---
 title: Como criar uma website via R
 event: XIV Programa de Verão do Departamento de Estatística
-date: "2022-09-28T19:00:00Z"
+date: "2023-03-07T14:00:00Z"
 location: Youtube
 summary: A propagação de conhecimento necessita cada vez mais de um maior alcance, seja apresentando os nossos materiais didáticos, vídeo aulas ou a publicidade de nossas pesquisas. Pensando nisso, nada melhor do que criar uma página pessoal e/ou profissional para alimentar todo esse material, para divulgação. Isso indiretamente é uma publicidade de nosso perfil profissional. Para a criação dessa página web, propomos apenas o conhecimento no ambiente R, sem necessidade de conhecimento de outra linguagem. Juntamente com a IDE RStudio, deixaremos tudo mais intuitivo e fácil de ser criado.
 abstract: A propagação de conhecimento necessita cada vez mais de um maior alcance, seja apresentando os nossos materiais didáticos, vídeo aulas ou a publicidade de nossas pesquisas. Pensando nisso, nada melhor do que criar uma página pessoal e/ou profissional para alimentar todo esse material, para divulgação. Isso indiretamente é uma publicidade de nosso perfil profissional. Para a criação dessa página web, propomos apenas o conhecimento no ambiente R, sem necessidade de conhecimento de outra linguagem. Juntamente com a IDE RStudio, deixaremos tudo mais intuitivo e fácil de ser criado.
 event_url: https://youtu.be/wsdUz44Tfw4
-date_end: "2023-03-07T14:00:00Z"
+date_end: "2023-03-07T16:00:00Z"
 all_day: no
 publishDate: "2023-03-01T15:00:00Z"
 tags: Ambiente R

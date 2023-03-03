@@ -28,7 +28,17 @@
   <url>
     <loc>http://bendeivide.github.io/courses/ear/navancado/</loc><lastmod>2021-04-29T14:27:10+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2023-02-02T15:22:43+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tag/ambiente-r/</loc><lastmod>2023-03-07T14:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tag/ambiente-r/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tag/ambiente-r/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/</loc><lastmod>2023-03-07T14:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -36,6 +46,28 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/talk/como-criar-uma-website-via-r/</loc><lastmod>2023-03-07T14:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/event/</loc><lastmod>2023-03-07T14:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/event/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/event/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2023-03-07T14:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/categories/</loc><lastmod>2023-02-02T15:22:43+00:00</lastmod><xhtml:link
@@ -63,16 +95,6 @@
     /></url>
   <url>
     <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2023-02-02T15:22:43+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2023-02-02T15:22:43+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/courses/meupacoter/</loc><lastmod>2022-11-17T06:46:21+00:00</lastmod></url>
   <url>
@@ -124,29 +146,7 @@
   <url>
     <loc>http://bendeivide.github.io/category/poesia/</loc><lastmod>2022-10-11T08:11:01+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/ambiente-r/</loc><lastmod>2022-09-28T19:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tag/ambiente-r/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tag/ambiente-r/"
-    /></url>
-  <url>
-    <loc>http://bendeivide.github.io/talk/como-criar-uma-website-via-r/</loc><lastmod>2022-09-28T19:00:00+00:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/talk/lancamento-do-livro-r-basico/</loc><lastmod>2022-09-28T19:00:00+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/event/</loc><lastmod>2022-09-28T19:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/event/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/event/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/bookepaec/</loc><lastmod>2022-09-02T06:36:00+00:00</lastmod></url>
   <url>
