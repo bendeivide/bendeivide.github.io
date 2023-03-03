@@ -8,7 +8,7 @@ abstract: A propagação de conhecimento necessita cada vez mais de um maior alc
 event_url: https://youtu.be/wsdUz44Tfw4
 date_end: "2023-03-07T14:00:00Z"
 all_day: no
-publishDate: "2028-03-01T15:00:00Z"
+publishDate: "2023-03-01T15:00:00Z"
 tags: Ambiente R
 featured: yes
 image:
