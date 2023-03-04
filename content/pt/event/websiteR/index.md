@@ -37,7 +37,7 @@ links:
   url: https://twitter.com/bendeivide
 url_code: 'https://github.com/bendeivide/websiter'
 url_slides: ''
-url_video: https://www.youtube.com/channel/UCrTkQXwa3Q9kjZ734mRX7mQ
+url_video: https://www.youtube.com/watch?v=t_z31YIMDx0
 slides: websiter
 share: yes
 ---
