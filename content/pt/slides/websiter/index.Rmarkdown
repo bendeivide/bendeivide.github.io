@@ -68,10 +68,10 @@ EAR: R Documentações
 
  - Ambiente R ([R básico](http://localhost:4321/courses/ear/rbasico/))
  - Instalação de pacotes R:
-   - [blogdown](https://pkgs.rstudio.com/blogdown/)    
+   - [blogdown](https://pkgs.rstudio.com/blogdown/)
      - `R> install.packages("blogdown")`
- - [RStudio](https://posit.co/downloads/)
- - Gerador de site ([Hugo](https://gohugo.io/)) [Acadêmico](https://themes.gohugo.io/themes/starter-hugo-academic/)
+- [RStudio](https://posit.co/downloads/)
+- Gerador de site ([Hugo](https://gohugo.io/)) [Lithium](https://github.com/yihui/hugo-lithium)
   - `R> blogdown::install_hugo()`
 
 </section>
@@ -85,8 +85,10 @@ EAR: R Documentações
  - [GitHub](https://github.com/)
    - RStudio e Github via [Rapidinhas do R (5-16)](https://bendeivide.github.io/project/rapidinhasr/)
    - Pacote [usethis]()
-- RMarkdown e Markdown
+- [RMarkdown](https://rmarkdown.rstudio.com/) e [Markdown](https://www.markdownguide.org/)
+- [Bookdown](https://pkgs.rstudio.com/bookdown/)
  - Use: `<>.Rmarkdown` ao invés de `<>.rmd`
+- Diretório do projeto: `docs`
 
 </section>
 
@@ -136,10 +138,10 @@ EAR: R Documentações
 ## Projetos de páginas
 
 - Padrão RStudio (Yihui Xie):
-  - <https://github.com/yihui/hugo-lithiumc>
-- <https://github.com/wowchemy/starter-hugo-academic>
-- <https://github.com/caressofsteel/hugo-story>
-- Livro *bookdown*
+  - [Hugo-Lithium](https://github.com/yihui/hugo-lithium)
+- [Hugo-Acadêmico](https://github.com/wowchemy/starter-hugo-academic)
+- [Hugo-Story](https://github.com/caressofsteel/hugo-story)
+- Livro [bookdown](https://pkgs.rstudio.com/bookdown/)
 
 ---
 
@@ -147,22 +149,46 @@ EAR: R Documentações
 
 ## Referências de livros
 
-- <https://bookdown.org/yihui/rmarkdown/>
-- <https://bookdown.org/yihui/rmarkdown-cookbook/>
-- <https://pkgs.rstudio.com/bookdown/>
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+- [Pacote bookdown](https://pkgs.rstudio.com/bookdown/)
 
+
+<!-- --- -->
+
+<!-- {{< slide background-image="EAR-rdoc-background.png" >}} -->
+
+<!-- ## Revisando o *RMarkdown* -->
+
+
+<!-- <img src="rmarkdown.png"  -->
+<!--      width="400"  -->
+<!--      height="400" /> -->
+     
 
 ---
 
 {{< slide background-image="EAR-rdoc-background.png" >}}
 
-## Revisando o *RMarkdown*
 
-
-<img src="rmarkdown.png" 
+<section>
+  <h2> Usando o blogdown </h2>
+  
+  <img src="blogdown.svg" 
      width="400" 
      height="400" />
-     
+
+</section>
+
+<section>
+  <h2> Usando o bookdown </h2>
+  
+  <img src="bookdown.png" 
+     width="400" 
+     height="400" />
+
+</section>
+
 
 ---
 
@@ -194,30 +220,6 @@ R> usethis::use_github()
 ```
  
 </section>
-
----
-
-{{< slide background-image="EAR-rdoc-background.png" >}}
-
-
-<section>
-  <h2> Usando o blogdown </h2>
-  
-  <img src="blogdown.svg" 
-     width="400" 
-     height="400" />
-
-</section>
-
-<section>
-  <h2> Usando o bookdown </h2>
-  
-  <img src="bookdown.png" 
-     width="400" 
-     height="400" />
-
-</section>
-
 
 ---
 

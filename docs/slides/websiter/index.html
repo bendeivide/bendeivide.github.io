@@ -157,8 +157,11 @@ height="400" /></p>
 </ul>
 </li>
 <li><a href="https://posit.co/downloads/" target="_blank" rel="noopener">RStudio</a></li>
-<li>Gerador de site (<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>) <a href="https://themes.gohugo.io/themes/starter-hugo-academic/" target="_blank" rel="noopener">Acadêmico</a></li>
+<li>Gerador de site (<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>) <a href="https://github.com/yihui/hugo-lithium" target="_blank" rel="noopener">Lithium</a>
+<ul>
 <li><code>R&gt; blogdown::install_hugo()</code></li>
+</ul>
+</li>
 </ul>
 </section>
 <section>
@@ -172,8 +175,10 @@ height="400" /></p>
 <li>Pacote <a href="">usethis</a></li>
 </ul>
 </li>
-<li>RMarkdown e Markdown</li>
+<li><a href="https://rmarkdown.rstudio.com/" target="_blank" rel="noopener">RMarkdown</a> e <a href="https://www.markdownguide.org/" target="_blank" rel="noopener">Markdown</a></li>
+<li><a href="https://pkgs.rstudio.com/bookdown/" target="_blank" rel="noopener">Bookdown</a></li>
 <li>Use: <code>&lt;&gt;.Rmarkdown</code> ao invés de <code>&lt;&gt;.rmd</code></li>
+<li>Diretório do projeto: <code>docs</code></li>
 </ul>
 </section>
 
@@ -291,12 +296,12 @@ height="400" /></p>
 <ul>
 <li>Padrão RStudio (Yihui Xie):
 <ul>
-<li><a href="https://github.com/yihui/hugo-lithiumc" target="_blank" rel="noopener">https://github.com/yihui/hugo-lithiumc</a></li>
+<li><a href="https://github.com/yihui/hugo-lithium" target="_blank" rel="noopener">Hugo-Lithium</a></li>
 </ul>
 </li>
-<li><a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">https://github.com/wowchemy/starter-hugo-academic</a></li>
-<li><a href="https://github.com/caressofsteel/hugo-story" target="_blank" rel="noopener">https://github.com/caressofsteel/hugo-story</a></li>
-<li>Livro <em>bookdown</em></li>
+<li><a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">Hugo-Acadêmico</a></li>
+<li><a href="https://github.com/caressofsteel/hugo-story" target="_blank" rel="noopener">Hugo-Story</a></li>
+<li>Livro <a href="https://pkgs.rstudio.com/bookdown/" target="_blank" rel="noopener">bookdown</a></li>
 </ul>
 
     </section>
@@ -315,10 +320,22 @@ height="400" /></p>
 
 <h2 id="referências-de-livros">Referências de livros</h2>
 <ul>
-<li><a href="https://bookdown.org/yihui/rmarkdown/" target="_blank" rel="noopener">https://bookdown.org/yihui/rmarkdown/</a></li>
-<li><a href="https://bookdown.org/yihui/rmarkdown-cookbook/" target="_blank" rel="noopener">https://bookdown.org/yihui/rmarkdown-cookbook/</a></li>
-<li><a href="https://pkgs.rstudio.com/bookdown/" target="_blank" rel="noopener">https://pkgs.rstudio.com/bookdown/</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown/" target="_blank" rel="noopener">R Markdown: The Definitive Guide</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown-cookbook/" target="_blank" rel="noopener">R Markdown Cookbook</a></li>
+<li><a href="https://pkgs.rstudio.com/bookdown/" target="_blank" rel="noopener">Pacote bookdown</a></li>
 </ul>
+<!-- --- -->
+<!-- 
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="EAR-rdoc-background.png"
+  >
+ -->
+<!-- ## Revisando o *RMarkdown* -->
+<!-- <img src="rmarkdown.png"  -->
+<!--      width="400"  -->
+<!--      height="400" /> -->
 
     </section>
     
@@ -334,10 +351,18 @@ height="400" /></p>
       data-background-image="EAR-rdoc-background.png"
   >
 
-<h2 id="revisando-o-rmarkdown">Revisando o <em>RMarkdown</em></h2>
-<p><img src="rmarkdown.png" 
+<section>
+  <h2> Usando o blogdown </h2>
+<p><img src="blogdown.svg" 
 width="400" 
 height="400" /></p>
+</section>
+<section>
+  <h2> Usando o bookdown </h2>
+<p><img src="bookdown.png" 
+width="400" 
+height="400" /></p>
+</section>
 
     </section>
     
@@ -372,33 +397,6 @@ height="200" /></p>
 <pre><code class="language-r">R&gt; usethis::use_git()
 R&gt; usethis::use_github()
 </code></pre>
-</section>
-
-    </section>
-    
-
-    
-    
-    
-      
-
-<section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image="EAR-rdoc-background.png"
-  >
-
-<section>
-  <h2> Usando o blogdown </h2>
-<p><img src="blogdown.svg" 
-width="400" 
-height="400" /></p>
-</section>
-<section>
-  <h2> Usando o bookdown </h2>
-<p><img src="bookdown.png" 
-width="400" 
-height="400" /></p>
 </section>
 
     </section>
