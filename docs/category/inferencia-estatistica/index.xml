@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 08 Mar 2023 09:13:03 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 08 Mar 2023 15:08:33 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Inferência Estatística</title>
@@ -1230,7 +1230,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2023.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Wed, 08 Mar 2023 09:13:03 +0000</pubDate>
+      <pubDate>Wed, 08 Mar 2023 15:08:33 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -1265,11 +1265,17 @@ Engenharia do campus.&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;cronograma&#34;&gt;Cronograma&lt;/h2&gt;
-&lt;!-- -   [Cronograma de --&gt;
-&lt;!--     aulas](https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing): --&gt;
-&lt;!--     &lt;div class=&#34;responsive-wrap&#34;&gt;
-  &lt;iframe src=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt; --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
+aulas&lt;/a&gt;:
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+      &lt;iframe src=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grupo-de-whatsapp&#34;&gt;Grupo de Whatsapp&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chat.whatsapp.com/KFoVppuSnjbC8kwiGJVCQI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;preenchimento-de-dados-para-as-avaliações&#34;&gt;Preenchimento de dados para as avaliações&lt;/h2&gt;
 &lt;!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) --&gt;
 &lt;!-- - [Formulário - Engenharia de Telecomunicações](https://forms.gle/SyBkB5jqSJkv4eVm9) --&gt;
@@ -1394,30 +1400,37 @@ CAP/UFSJ&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
-&lt;!-- Nossas aulas serão divididas de acordo com as 18 semanas de aula. As --&gt;
-&lt;!-- aulas serão expositivas e dialogadas com os alunos presencialmente ou --&gt;
-&lt;!-- via portal didático, constituída pela seguinte estratégia de ensino: --&gt;
-&lt;!-- -   Motivação: --&gt;
-&lt;!--     -   Levantamento do conhecimento prévio dos alunos em relação ao --&gt;
-&lt;!--         tema; --&gt;
-&lt;!--     -   Apresentação de algumas situações práticas para a compreensão --&gt;
-&lt;!--         dos tópicos a serem abordados; --&gt;
-&lt;!--     -   Exposição dos objetivos da aula. --&gt;
-&lt;!-- -   Desenvolvimento: --&gt;
-&lt;!--     -   Introdução ao assunto abordado; --&gt;
-&lt;!--     -   Apresentação de definições e teoremas envolvidos; --&gt;
-&lt;!--     -   Aplicação de softwares estatísticos, quando for pertinente; --&gt;
-&lt;!--     -   Exemplos e aplicações na estatística e área do curso, do assunto --&gt;
-&lt;!--         abordado. --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+&lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
+aulas serão expositivas e dialogadas com os alunos presencialmente ou
+via portal didático, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Motivação:
+&lt;ul&gt;
+&lt;li&gt;Levantamento do conhecimento prévio dos alunos em relação ao
+tema;&lt;/li&gt;
+&lt;li&gt;Apresentação de algumas situações práticas para a compreensão
+dos tópicos a serem abordados;&lt;/li&gt;
+&lt;li&gt;Exposição dos objetivos da aula.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Desenvolvimento:
+&lt;ul&gt;
+&lt;li&gt;Introdução ao assunto abordado;&lt;/li&gt;
+&lt;li&gt;Apresentação de definições e teoremas envolvidos;&lt;/li&gt;
+&lt;li&gt;Aplicação de softwares estatísticos, quando for pertinente;&lt;/li&gt;
+&lt;li&gt;Exemplos e aplicações na estatística e área do curso, do assunto
+abordado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
   &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
-  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo &#34;ensinar por aprender&#34;. --&gt;
-&lt;!-- Nossas aulas estarão disponíveis em &lt;http://bendeivide.github.io/&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **4 (quatro) horas semanais de aulas presenciais**, um total de 72h**.  --&gt;
-&lt;!-- &lt;!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube &lt;https://youtube.com/bendeivide&gt;. --&gt; --&gt;
-&lt;!-- Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o *overlief* para usuários de LaTeX. Com a linguagem *R*, mostraremos documentos dinâmicos, usando o *R Markdown* e o *shiny*, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário. --&gt;
-&lt;!--&lt;/p&gt;
-&lt;/details&gt; --&gt;
+  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 72h**.&lt;/p&gt;
+&lt;!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube &lt;https://youtube.com/bendeivide&gt;. --&gt;
+&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
 &lt;!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) --&gt;
 &lt;!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) --&gt;

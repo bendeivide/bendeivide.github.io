@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-08 09:13:03"
+date: "2023-03-08 15:08:33"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -42,10 +42,15 @@ regressão linear simples.
 
 ## Cronograma {#cronograma}
 
-<!-- -   [Cronograma de -->
-<!--     aulas](https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing): -->
-<!--     {{< gdocs src="https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing" >}} -->
+-   [Cronograma de
+    aulas](https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing):
+    {{< gdocs src="https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing" >}}
     
+
+## Grupo de Whatsapp
+
+- [Link](https://chat.whatsapp.com/KFoVppuSnjbC8kwiGJVCQI)
+
 ## Preenchimento de dados para as avaliações
 
 <!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) -->
@@ -136,32 +141,32 @@ CAP/UFSJ
 
 ## Metodologia
 
-<!-- Nossas aulas serão divididas de acordo com as 18 semanas de aula. As -->
-<!-- aulas serão expositivas e dialogadas com os alunos presencialmente ou -->
-<!-- via portal didático, constituída pela seguinte estratégia de ensino: -->
+Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
+aulas serão expositivas e dialogadas com os alunos presencialmente ou
+via portal didático, constituída pela seguinte estratégia de ensino:
 
-<!-- -   Motivação: -->
-<!--     -   Levantamento do conhecimento prévio dos alunos em relação ao -->
-<!--         tema; -->
-<!--     -   Apresentação de algumas situações práticas para a compreensão -->
-<!--         dos tópicos a serem abordados; -->
-<!--     -   Exposição dos objetivos da aula. -->
-<!-- -   Desenvolvimento: -->
-<!--     -   Introdução ao assunto abordado; -->
-<!--     -   Apresentação de definições e teoremas envolvidos; -->
-<!--     -   Aplicação de softwares estatísticos, quando for pertinente; -->
-<!--     -   Exemplos e aplicações na estatística e área do curso, do assunto -->
-<!--         abordado. -->
+-   Motivação:
+    -   Levantamento do conhecimento prévio dos alunos em relação ao
+        tema;
+    -   Apresentação de algumas situações práticas para a compreensão
+        dos tópicos a serem abordados;
+    -   Exposição dos objetivos da aula.
+-   Desenvolvimento:
+    -   Introdução ao assunto abordado;
+    -   Apresentação de definições e teoremas envolvidos;
+    -   Aplicação de softwares estatísticos, quando for pertinente;
+    -   Exemplos e aplicações na estatística e área do curso, do assunto
+        abordado.
 
-<!-- {{< spoiler text="Detalhamento da metodologia">}} -->
-<!-- As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo "ensinar por aprender". -->
+{{< spoiler text="Detalhamento da metodologia">}}
+As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo "ensinar por aprender".
 
-<!-- Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **4 (quatro) horas semanais de aulas presenciais**, um total de 72h**.  -->
+Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **4 (quatro) horas semanais de aulas presenciais**, um total de 72h**.
 
-<!-- <!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube <https://youtube.com/bendeivide>. --> -->
+<!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube <https://youtube.com/bendeivide>. -->
 
-<!-- Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o *overlief* para usuários de LaTeX. Com a linguagem *R*, mostraremos documentos dinâmicos, usando o *R Markdown* e o *shiny*, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário. -->
-<!-- {{< /spoiler >}} -->
+Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o *overlief* para usuários de LaTeX. Com a linguagem *R*, mostraremos documentos dinâmicos, usando o *R Markdown* e o *shiny*, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.
+{{< /spoiler >}}
 
 ## Avaliação {#avaliacao}
 
