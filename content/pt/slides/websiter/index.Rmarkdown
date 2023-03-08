@@ -105,7 +105,7 @@ EAR: R Documentações
 
 ## Mão na massa!
 
-  1) Criar uma página web apenas com o R (Hugo Academico)
+  1) Criar uma página web apenas com o R (Hugo Lithium)
   
   <ul>
     <ul>
@@ -113,7 +113,7 @@ EAR: R Documentações
     </ul>
   </ul>
   
-  2) Chamaremos via GitHub o projeto: Hugo Academico
+  2) Chamaremos via GitHub o projeto: Hugo Lithium
   3) Configurar a página criada
   4) Subiremos o projeto ao GitHub
   5) Ativar a página!

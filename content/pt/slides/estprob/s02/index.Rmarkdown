@@ -16,7 +16,7 @@ slides:
 # https://github.com/dzello/reveal-hugo
 # https://github.com/rstudio/revealjs
 # Esse componente serve apenas para os temas oficiais
-  theme: 'solarized'
+  theme: ''
 # Choose a code highlighting style (if highlighting enabled in `params.toml`)
 # Light style: github. Dark style: dracula (default).
   highlight_style: dracula
@@ -52,7 +52,7 @@ Aula 02 - Definições gerais e técnicas de somatório
 
 ## Selo DC
 
-[![](SeloDC-preto.png)](https://bendeivide.github.io/dc/)
+[![](SeloDC-branco.png)](https://bendeivide.github.io/dc/)
 
 ---
 
@@ -235,14 +235,24 @@ Aula 02 - Definições gerais e técnicas de somatório
 {{< slide background-image="cap02.png" >}}
 <!-- https://revealjs.com/transitions/ -->
 <section data-transition="zoom">
-  <h2>Próximas aulas...</h2>
+  <h1>Próximas aulas...</h1>
 </section>
 
 <section data-transition-speed="fast">
 
-[{{< figure src="ben05.png" title="bendeivide.github.io" width="630" height="480" >}}](/courses/epaec/)
+
+<a href="/courses/epaec" target="_blank">
+
+{{< figure src="ben.png" title="" width="630" height="480" >}}
+
+</a>
+
+<a href="/courses/epaec" target="_blank">bendeivide.github.io/courses/epaec</a>
+
 
 </section>
+
+
 
 <!-- <section> -->
 <!--   <h2>Some Slide</h2> -->
@@ -256,8 +266,8 @@ Aula 02 - Definições gerais e técnicas de somatório
 <!-- ## Animação -->
 
 <!-- <section data-auto-animate> -->
-<!--   <h2>Auto-Animate</h2> -->
+<!--   <h1>Auto-Animate</h1> -->
 <!-- </section> -->
 <!-- <section data-auto-animate> -->
-<!--   <h2 style="margin-top: 100px; color: red;">Auto-Animate</h2> -->
+<!--   <h1 style="margin-top: 100px; color: red;">Auto-Animate</h1> -->
 <!-- </section> -->

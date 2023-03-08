@@ -2451,11 +2451,11 @@ print(&#39;Ola, Mundo!&#39;)
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/estprob/s01/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp 400w,
-               /slides/estprob/s01/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_28a718b08e0f1b8193cec5ac4d8216a2.webp 760w,
-               /slides/estprob/s01/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estprob/s01/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp&#34;
-               width=&#34;384&#34;
+               /slides/estprob/s01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estprob/s01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estprob/s01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s01/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
                height=&#34;406&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
@@ -2491,7 +2491,7 @@ print(&#39;Ola, Mundo!&#39;)
   &lt;h1&gt;Próximas aulas...&lt;/h1&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34;&gt;
+&lt;!-- [
 
 
 
@@ -2505,19 +2505,45 @@ print(&#39;Ola, Mundo!&#39;)
 
 
 
-&lt;figure  id=&#34;figure-bendeividegithubio&#34;&gt;
+&lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bendeivide.github.io&#34; srcset=&#34;
-               /slides/estprob/s01/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_9874465d53bdf0497f3fca0b3e4f7def.webp 400w,
-               /slides/estprob/s01/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_6df1b03570c9affce3a58c416af79d7c.webp 760w,
-               /slides/estprob/s01/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estprob/s01/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_9874465d53bdf0497f3fca0b3e4f7def.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s01/ben_hu087225affb9399e037f09661c4d0adbd_219224_5c10d459c8ddc0416f506a4ad838a085.webp 400w,
+               /slides/estprob/s01/ben_hu087225affb9399e037f09661c4d0adbd_219224_29ebba9a3e515b23ea411bffea18d2f1.webp 760w,
+               /slides/estprob/s01/ben_hu087225affb9399e037f09661c4d0adbd_219224_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s01/ben_hu087225affb9399e037f09661c4d0adbd_219224_5c10d459c8ddc0416f506a4ad838a085.webp&#34;
                width=&#34;630&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      bendeivide.github.io
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;&lt;/figure&gt;](/courses/epaec/) --&gt;
+&lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s01/ben_hu087225affb9399e037f09661c4d0adbd_219224_5c10d459c8ddc0416f506a4ad838a085.webp 400w,
+               /slides/estprob/s01/ben_hu087225affb9399e037f09661c4d0adbd_219224_29ebba9a3e515b23ea411bffea18d2f1.webp 760w,
+               /slides/estprob/s01/ben_hu087225affb9399e037f09661c4d0adbd_219224_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s01/ben_hu087225affb9399e037f09661c4d0adbd_219224_5c10d459c8ddc0416f506a4ad838a085.webp&#34;
+               width=&#34;630&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;bendeivide.github.io/courses/epaec&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;!-- &lt;section&gt; --&gt;
 &lt;!--   &lt;h2&gt;Some Slide&lt;/h2&gt; --&gt;
@@ -2584,11 +2610,11 @@ print(&#39;Ola, Mundo!&#39;)
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/estprob/s02/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp 400w,
-               /slides/estprob/s02/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_28a718b08e0f1b8193cec5ac4d8216a2.webp 760w,
-               /slides/estprob/s02/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estprob/s02/SeloDC-preto_hu7eace1d7dbb403f37b46437825b208a2_37049_1f8e03062ff2fd4b85b7997b55db9e55.webp&#34;
-               width=&#34;384&#34;
+               /slides/estprob/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/estprob/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/estprob/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
                height=&#34;406&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
@@ -3094,10 +3120,10 @@ print(&#39;Ola, Mundo!&#39;)
 
 &lt;!-- https://revealjs.com/transitions/ --&gt;
 &lt;section data-transition=&#34;zoom&#34;&gt;
-  &lt;h2&gt;Próximas aulas...&lt;/h2&gt;
+  &lt;h1&gt;Próximas aulas...&lt;/h1&gt;
 &lt;/section&gt;
 &lt;section data-transition-speed=&#34;fast&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34;&gt;
+&lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;
 
 
 
@@ -3111,19 +3137,20 @@ print(&#39;Ola, Mundo!&#39;)
 
 
 
-&lt;figure  id=&#34;figure-bendeividegithubio&#34;&gt;
+
+&lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bendeivide.github.io&#34; srcset=&#34;
-               /slides/estprob/s02/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_9874465d53bdf0497f3fca0b3e4f7def.webp 400w,
-               /slides/estprob/s02/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_6df1b03570c9affce3a58c416af79d7c.webp 760w,
-               /slides/estprob/s02/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://bendeivide.github.io/slides/estprob/s02/ben05_hu5bea5166adf08203812bfc1c9ed6c2df_467492_9874465d53bdf0497f3fca0b3e4f7def.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/estprob/s02/ben_hu087225affb9399e037f09661c4d0adbd_219224_5c10d459c8ddc0416f506a4ad838a085.webp 400w,
+               /slides/estprob/s02/ben_hu087225affb9399e037f09661c4d0adbd_219224_29ebba9a3e515b23ea411bffea18d2f1.webp 760w,
+               /slides/estprob/s02/ben_hu087225affb9399e037f09661c4d0adbd_219224_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/estprob/s02/ben_hu087225affb9399e037f09661c4d0adbd_219224_5c10d459c8ddc0416f506a4ad838a085.webp&#34;
                width=&#34;630&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      bendeivide.github.io
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;bendeivide.github.io/courses/epaec&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;
 &lt;!-- &lt;section&gt; --&gt;
 &lt;!--   &lt;h2&gt;Some Slide&lt;/h2&gt; --&gt;
@@ -3133,10 +3160,10 @@ print(&#39;Ola, Mundo!&#39;)
 &lt;!-- &lt;/section&gt; --&gt;
 &lt;!-- ## Animação --&gt;
 &lt;!-- &lt;section data-auto-animate&gt; --&gt;
-&lt;!--   &lt;h2&gt;Auto-Animate&lt;/h2&gt; --&gt;
+&lt;!--   &lt;h1&gt;Auto-Animate&lt;/h1&gt; --&gt;
 &lt;!-- &lt;/section&gt; --&gt;
 &lt;!-- &lt;section data-auto-animate&gt; --&gt;
-&lt;!--   &lt;h2 style=&#34;margin-top: 100px; color: red;&#34;&gt;Auto-Animate&lt;/h2&gt; --&gt;
+&lt;!--   &lt;h1 style=&#34;margin-top: 100px; color: red;&#34;&gt;Auto-Animate&lt;/h1&gt; --&gt;
 &lt;!-- &lt;/section&gt; --&gt;
 </description>
     </item>
