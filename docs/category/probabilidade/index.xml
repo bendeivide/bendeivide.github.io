@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/probabilidade/</link>
       <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilidade</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 08 Mar 2023 15:08:33 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 08 Mar 2023 15:51:51 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Probabilidade</title>
@@ -1785,7 +1785,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2023.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Wed, 08 Mar 2023 15:08:33 +0000</pubDate>
+      <pubDate>Wed, 08 Mar 2023 15:51:51 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -1989,40 +1989,44 @@ abordado.&lt;/li&gt;
 &lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
 &lt;!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) --&gt;
 &lt;!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
-  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma: --&gt;
-&lt;!-- - 1ª Avaliação - Seções 1, 2, 3, e 4 - 20 pontos; --&gt;
-&lt;!-- - 2ª Avaliação - Seções 5, 6, 7 e 8 - 30 pontos; --&gt;
-&lt;!-- - 3ª Avaliação - Seções 9, 10 e 11 - 30 pontos; --&gt;
-&lt;!-- - Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos; --&gt;
-&lt;!-- Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina. --&gt;
-&lt;!-- Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações. --&gt;
-&lt;!-- O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria. --&gt;
-&lt;!-- A perda de alguma avaliação deverá ser apresentado justificativa. Observações: --&gt;
-&lt;!-- - São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID; --&gt;
-&lt;!-- - Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica; --&gt;
-&lt;!-- - Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas; --&gt;
-&lt;!-- - Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento. --&gt;
-&lt;!--&lt;/p&gt;
-&lt;/details&gt; --&gt;
+  &lt;p&gt;&lt;p&gt;Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1ª Avaliação - Seções 1, 2, 3, e 4 - 20 pontos;&lt;/li&gt;
+&lt;li&gt;2ª Avaliação - Seções 5, 6, 7 e 8 - 30 pontos;&lt;/li&gt;
+&lt;li&gt;3ª Avaliação - Seções 9, 10 e 11 - 30 pontos;&lt;/li&gt;
+&lt;li&gt;Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o &lt;a href=&#34;http://bendeivide.github.io/project/ProjAPE&#34;&gt;Aprender por ensinar&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/LEEM&#34;&gt;LEEM&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/statscience&#34;&gt;statscience&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/RapidinhasR&#34;&gt;Rapidinhas do R&lt;/a&gt;, dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina.&lt;/p&gt;
+&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações.&lt;/p&gt;
+&lt;p&gt;O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria.&lt;/p&gt;
+&lt;p&gt;A perda de alguma avaliação deverá ser apresentado justificativa. Observações:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID;&lt;/li&gt;
+&lt;li&gt;Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica;&lt;/li&gt;
+&lt;li&gt;Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas;&lt;/li&gt;
+&lt;li&gt;Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;como-as-provas-serão-corrigidas&#34;&gt;Como as provas serão corrigidas?&lt;/h2&gt;
-&lt;!-- -   &lt;a href=&#34;http://bendeivide.github.io/media/critprova.pdf&#34; target=&#34;_blank&#34;&gt;Critérios de --&gt;
-&lt;!--     avaliação&lt;/a&gt; --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/critprova.pdf&#34; target=&#34;_blank&#34;&gt;Critérios de
+avaliação&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;contrato&#34;&gt;Contrato&lt;/h2&gt;
-&lt;!-- Contrato feito para a disciplina de Estatística e Probabilidade, como --&gt;
-&lt;!-- meio de substituir as avaliações tradicionais para uso de metodologias --&gt;
-&lt;!-- ativas como método de avaliação. Paralelo a disciplina, o aluno irá --&gt;
-&lt;!-- acompanhando as aulas e desenvolvendo demandas semanais, como forma de --&gt;
-&lt;!-- ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda --&gt;
-&lt;!-- semana o aluno é acompanhado e avaliado pelo professor. --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+&lt;p&gt;Contrato feito para a disciplina de Estatística e Probabilidade, como
+meio de substituir as avaliações tradicionais para uso de metodologias
+ativas como método de avaliação. Paralelo a disciplina, o aluno irá
+acompanhando as aulas e desenvolvendo demandas semanais, como forma de
+ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
+semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
   &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt; --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
+  &lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
@@ -2036,11 +2040,11 @@ abordado.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;material-adotado&#34;&gt;Material adotado&lt;/h2&gt;
+&lt;h2 id=&#34;matadotado&#34;&gt;Material adotado&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -2061,22 +2065,24 @@ abordado.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- - [Modelo de Arquivo em power point](https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing) --&gt;
-&lt;!-- - [Resultado em vídeo](https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing) --&gt;
-&lt;!-- - Os programas necessários: --&gt;
-&lt;!--   - Editor de Slides: o MS Power Point (Instalado previamente no Windows); [LibreOffice](https://www.libreoffice.org/download/download/); --&gt;
-&lt;!--   - Gravador de tela e de seu áudio: [OBS Studio](https://obsproject.com/pt-br/download) --&gt;
-&lt;!-- OBS.: Os programas são esses. Qualquer dúvida, favor me procurar. --&gt;
-&lt;!-- 
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Os programas necessários:
+&lt;ul&gt;
+&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Studio&lt;/a&gt;
+OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
   &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
@@ -2121,42 +2127,35 @@ abordado.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;Aula 2 (19/08/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da estatística e técnicas de somatório  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 02](/slides/estprob/s02/)  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
-&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt; --&gt;
-&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
-&lt;!-- &lt;/iframe&gt; --&gt;
-&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
-&lt;!-- &lt;/iframe&gt; --&gt;
-&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
-&lt;!-- &lt;/iframe&gt; --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!-- -   Notas de aula --&gt;
-&lt;!-- -   [Estatística e Probabilidade (Ensino --&gt;
-&lt;!--     Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!-- -   [Curso R](courses/cursor/) --&gt;
-&lt;!-- -   [Exercícios --&gt;
-&lt;!--     resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula 
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;Aula 2 (10/03/2023)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da estatística e técnicas de somatório&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s02/&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
+&lt;/iframe&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
+&lt;/iframe&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notas de aula&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Estatística e Probabilidade (Ensino
+Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios
+resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aulas (Anteriores)&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/0KPuZplRwtU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;Aula 3 (23 e 25/08/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
@@ -2522,6 +2521,17 @@ abordado.&lt;/li&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+  &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
 &lt;/details&gt;</description>
     </item>
     

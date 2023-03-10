@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-08 15:08:33"
+date: "2023-03-08 15:51:51"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -174,47 +174,47 @@ Iremos utilizar diversas ferramentas do google como os seus editores de textos, 
 <!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) -->
 
 
-<!-- {{< spoiler text="Segue um detalhamento das nossas avaliações">}} -->
-<!-- Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma: -->
+{{< spoiler text="Segue um detalhamento das nossas avaliações">}}
+Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:
 
-<!-- - 1ª Avaliação - Seções 1, 2, 3, e 4 - 20 pontos; -->
-<!-- - 2ª Avaliação - Seções 5, 6, 7 e 8 - 30 pontos; -->
-<!-- - 3ª Avaliação - Seções 9, 10 e 11 - 30 pontos; -->
-<!-- - Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos; -->
+- 1ª Avaliação - Seções 1, 2, 3, e 4 - 20 pontos;
+- 2ª Avaliação - Seções 5, 6, 7 e 8 - 30 pontos;
+- 3ª Avaliação - Seções 9, 10 e 11 - 30 pontos;
+- Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos;
 
-<!-- Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina. -->
+Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina.
 
-<!-- Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações. -->
+Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações.
 
-<!-- O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria. -->
+O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria.
 
-<!-- A perda de alguma avaliação deverá ser apresentado justificativa. Observações: -->
+A perda de alguma avaliação deverá ser apresentado justificativa. Observações:
 
-<!-- - São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID; -->
-<!-- - Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica; -->
-<!-- - Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas; -->
-<!-- - Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento. -->
-<!-- {{< /spoiler >}} -->
+- São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID;
+- Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica;
+- Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas;
+- Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.
+{{< /spoiler >}}
 
 ## Como as provas serão corrigidas?
 
-<!-- -   {{% staticref "media/critprova.pdf" "newtab" %}}Critérios de -->
-<!--     avaliação{{% /staticref %}} -->
+-   {{% staticref "media/critprova.pdf" "newtab" %}}Critérios de
+    avaliação{{% /staticref %}}
 
 ## Contrato {#contrato}
 
-<!-- Contrato feito para a disciplina de Estatística e Probabilidade, como -->
-<!-- meio de substituir as avaliações tradicionais para uso de metodologias -->
-<!-- ativas como método de avaliação. Paralelo a disciplina, o aluno irá -->
-<!-- acompanhando as aulas e desenvolvendo demandas semanais, como forma de -->
-<!-- ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda -->
-<!-- semana o aluno é acompanhado e avaliado pelo professor. -->
+Contrato feito para a disciplina de Estatística e Probabilidade, como
+meio de substituir as avaliações tradicionais para uso de metodologias
+ativas como método de avaliação. Paralelo a disciplina, o aluno irá
+acompanhando as aulas e desenvolvendo demandas semanais, como forma de
+ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
+semana o aluno é acompanhado e avaliado pelo professor.
 
-<!-- {{< spoiler text="Abra o contrato aqui!">}} -->
+{{< spoiler text="Abra o contrato aqui!">}}
 
-<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe> -->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
-<!-- {{< /spoiler >}} -->
+{{< /spoiler >}}
 
 ## Bibliografia adotada para a disciplina
 
@@ -227,10 +227,10 @@ Iremos utilizar diversas ferramentas do google como os seus editores de textos, 
 - TRIOLA, M. F. **Introdução à Estatística**. Rio de janeiro: LTC, 2008.
 {{< /spoiler >}}
 
-## Material adotado
+## Material adotado {#matadotado}
 
  - Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
-   - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
+   - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com)
  
  {{< spoiler text="Materiais complementares">}}
 - [Estatística Básica (Departamento de Estatística, UFPR)](http://leg.ufpr.br/~paulojus/estbas/)
@@ -247,15 +247,15 @@ Iremos utilizar diversas ferramentas do google como os seus editores de textos, 
 
 ## Metodologias ativas
 
-<!-- {{< spoiler text="Aprender por ensinar">}} -->
-<!-- - [Modelo de Arquivo em power point](https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing) -->
-<!-- - [Resultado em vídeo](https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing) -->
-<!-- - Os programas necessários: -->
-<!--   - Editor de Slides: o MS Power Point (Instalado previamente no Windows); [LibreOffice](https://www.libreoffice.org/download/download/); -->
-<!--   - Gravador de tela e de seu áudio: [OBS Studio](https://obsproject.com/pt-br/download) -->
-<!-- OBS.: Os programas são esses. Qualquer dúvida, favor me procurar. -->
-<!-- {{< youtube YqMQix2P1oU >}} -->
-<!-- {{< /spoiler >}} -->
+{{< spoiler text="Aprender por ensinar">}}
+- [Modelo de Arquivo em power point](https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing)
+- [Resultado em vídeo](https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing)
+- Os programas necessários:
+  - Editor de Slides: o MS Power Point (Instalado previamente no Windows); [LibreOffice](https://www.libreoffice.org/download/download/);
+  - Gravador de tela e de seu áudio: [OBS Studio](https://obsproject.com/pt-br/download)
+OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
+{{< youtube YqMQix2P1oU >}}
+{{< /spoiler >}}
 
 {{< spoiler text="Mapas Mentais">}}
 - Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;
@@ -292,40 +292,40 @@ Iremos utilizar diversas ferramentas do google como os seus editores de textos, 
 
 {{< /spoiler >}}
 
-<!-- {{< spoiler text="Aula 2 (19/08/2022)">}} -->
+{{< spoiler text="Aula 2 (10/03/2023)">}}
 
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório  -->
-<!-- {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s02/index" >}})  -->
-<!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.  -->
-<!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s02/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
 
-<!-- <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7" height="102px" width="400px" frameborder="0" scrolling="no"></iframe> -->
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
-<!-- <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u" height="102px" width="400px" frameborder="0" scrolling="no"> -->
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u" height="102px" width="400px" frameborder="0" scrolling="no">
 
-<!-- </iframe> -->
+</iframe>
 
-<!-- <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1" height="102px" width="400px" frameborder="0" scrolling="no"> -->
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1" height="102px" width="400px" frameborder="0" scrolling="no">
 
-<!-- </iframe> -->
+</iframe>
 
-<!-- <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2" height="102px" width="400px" frameborder="0" scrolling="no"> -->
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2" height="102px" width="400px" frameborder="0" scrolling="no">
 
-<!-- </iframe> -->
+</iframe>
 
-<!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing) -->
-<!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
 
-<!-- -   Notas de aula -->
-<!-- -   [Estatística e Probabilidade (Ensino -->
-<!--     Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
-<!-- -   [Curso R](courses/cursor/) -->
-<!-- -   [Exercícios -->
-<!--     resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
+-   Notas de aula
+-   [Estatística e Probabilidade (Ensino
+    Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   [Exercícios
+    resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
 
-<!-- {{< icon name="youtube" pack="fab" >}} Vídeo-aula {{< youtube 0KPuZplRwtU >}} -->
+{{< icon name="youtube" pack="fab" >}} Vídeo-aulas (Anteriores) {{< youtube 0KPuZplRwtU >}}
 
-<!-- {{< /spoiler >}} -->
+{{< /spoiler >}}
 
 <!-- {{< spoiler text="Aula 3 (23 e 25/08/2022)">}} -->
 
@@ -583,4 +583,9 @@ Iremos utilizar diversas ferramentas do google como os seus editores de textos, 
 
 {{< spoiler text="Quais as datas de avaliação?">}}
 Acessem: [Avaliação](#avaliacao) e [Cronograma](#cronograma)
+{{< /spoiler >}}
+
+{{< spoiler text="Como acessar o material de apoio?">}}
+- Acessem: [Livro EPAEC](#matadotado)
+  - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
 {{< /spoiler >}}
