@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-08 15:51:51"
+date: "2023-03-11 13:57:03"
 type: book
 weight: 20
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -243,6 +243,7 @@ semana o aluno é acompanhado e avaliado pelo professor.
 - [Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)](https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf)
 - [Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)](https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf)
 - [Canal Ciência Estatística](https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA)
+- [Estatística e Probabilidade: Exercícios (Assis et. al., 2023)](https://editorapantanal.com.br/ebooks/2023/probabilidade-e-estatistica-exercicios/ebook.pdf)
 {{< /spoiler >}}
 
 ## Metodologias ativas
