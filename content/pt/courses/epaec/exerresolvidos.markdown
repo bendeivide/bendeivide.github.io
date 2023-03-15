@@ -1,8 +1,8 @@
 ---
 title: ✍️ Exercícios resolvidos para EPAEC
-date: "2022-09-07 15:49:10"
+date: "2023-03-14 13:16:48"
 type: book
-weight: 30
+weight: 40
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
 tags: ["Curso"]
 draft: false

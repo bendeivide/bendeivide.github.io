@@ -2,7 +2,7 @@
 title: 📺 Ensino Remoto 2021.2
 date: "`r format(Sys.time())`"
 type: book
-weight: 10
+weight: 30
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
 tags: ["Curso"]
 commentable: true

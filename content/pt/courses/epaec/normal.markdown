@@ -1,8 +1,8 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-11 13:57:03"
+date: "2023-03-15 08:30:24"
 type: book
-weight: 20
+weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
 tags: ["Curso"]
 draft: false
@@ -278,14 +278,17 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< spoiler text="Aula 1 (08/03/2023)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 01]({{< relref "/slides/estprob/s01/index" >}})
+{{< icon name="eye" pack="fas" >}} Apresentação: 
+<a href="{{< relref "/slides/estprob/s01/index" >}}" target="_blank">Aula 01</a>
+
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing" target="_blank">Plano de aula</a>
+
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-   - [Curso R](courses/cursor/)
-   - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+   - <a href="{{< relref "courses/epaec/remoto/index" >}}" target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+   - <a href="{{< relref "courses/cursor/">}}" target="_blank">Curso R</a>
+   - <a href="{{< relref "courses/epaec/exerresolvidos/index">}}" target="_blank">Exercícios resolvidos</a>
 
 {{< icon name="youtube" pack="fab" >}} Vídeo-aula
 {{< youtube TqnAYt89ElI >}}
@@ -296,7 +299,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< spoiler text="Aula 2 (10/03/2023)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "/slides/estprob/s02/index" >}})
+{{< icon name="eye" pack="fas" >}} Apresentação: <a href="{{< relref "/slides/estprob/s02/index" >}}" target="_blank">Aula 02</a>
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
 
@@ -314,7 +317,47 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 </iframe>
 
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing" target="_blank">Plano de aula</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+   - <a href="{{< relref "courses/epaec/remoto/index" >}}" target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+   - <a href="{{< relref "courses/cursor/">}}" target="_blank">Curso R</a>
+   - <a href="{{< relref "courses/epaec/exerresolvidos/index">}}" target="_blank">Exercícios resolvidos</a>
+   
+</br>
+
+{{< icon name="youtube" pack="fab" >}} Aula teórica (ER 2022.1)
+
+{{< youtube 0KPuZplRwtU >}}
+
+</br>
+
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER 2022.1)
+
+{{< youtube ozgmfZGkE8k >}}
+
+</br>
+
+
+
+{{< /spoiler >}}
+
+
+
+{{< spoiler text="Aula 3 (15/03/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados
+{{< icon name="eye" pack="fas" >}} Apresentação: <a href="{{< relref "/slides/estprob/s03/index" >}}" target="_blank">Aula 03</a>
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP02-2022-2---Coleta--organizao-e-apresentao-de-dados-e1ngk7b" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0" height="102px" width="400px" frameborder="0" scrolling="no">
+
+</iframe>
+
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
 
 -   Notas de aula
@@ -323,63 +366,27 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 -   [Curso R](courses/cursor/)
 -   [Exercícios
     resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+- Scripts {{< icon name="r-project" pack="fab" >}} {{% staticref "r-scripts/epaec/aula03/aula03.R" "newtab" %}}Aula03.R{{% /staticref %}} 
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aulas (Anteriores) {{< youtube 0KPuZplRwtU >}}
+</br>
+
+{{< icon name="youtube" pack="fab" >}} Aula teórica (Aula assíncrona 2021.1)
+{{< youtube bVObtgCFISs >}}
+
+</br>
+
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER 2022.1)
+
+{{< youtube DZ4PzyY5YYg >}}
+<br/>
+
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER 2022.1)
+
+{{< youtube xlmWSTrp_SI >}}
+
+</br>
 
 {{< /spoiler >}}
-
-<!-- {{< spoiler text="Aula 3 (23 e 25/08/2022)">}} -->
-
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 1  -->
-<!-- {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 03]({{< relref "" >}})  -->
-<!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.  -->
-<!-- {{< icon name="headphones" pack="fas" >}} Podcast  -->
-<!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1mpCA-ny1U8lUaUHICaCsJnrbdD5x28hlWiCiMK6BeN0/edit?usp=sharing)  -->
-<!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
-
-<!-- -   Notas de aula -->
-<!-- -   [Estatística e Probabilidade (Ensino -->
-<!--     Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
-<!-- -   [Curso R](courses/cursor/) -->
-<!-- -   [Exercícios -->
-<!--     resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
-
-<!-- </br> -->
-<!-- {{< icon name="youtube" pack="fab" >}} Vídeo-aula  -->
-
-<!-- {{< youtube ozgmfZGkE8k >}} -->
-
-<!-- {{< /spoiler >}} -->
-
-<!-- {{< spoiler text="Aula 4 (26/08/2022)">}} -->
-
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados -->
-<!-- {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 04]({{< relref "/slides/estprob/s04/index" >}}) -->
-<!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
-<!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
-
-<!-- <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP02-2022-2---Coleta--organizao-e-apresentao-de-dados-e1ngk7b" height="102px" width="400px" frameborder="0" scrolling="no"></iframe> -->
-
-<!-- <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0" height="102px" width="400px" frameborder="0" scrolling="no"> -->
-
-<!-- </iframe> -->
-
-<!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing)  -->
-<!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
-
-<!-- -   Notas de aula -->
-<!-- -   [Estatística e Probabilidade (Ensino -->
-<!--     Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
-<!-- -   [Curso R](courses/cursor/) -->
-<!-- -   [Exercícios -->
-<!--     resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
-
-<!-- {{< icon name="youtube" pack="fab" >}} Aula teórica (Aula assíncrona 2021.1) -->
-<!-- {{< youtube bVObtgCFISs >}} -->
-
-<!-- </br> -->
-
-<!-- {{< /spoiler >}} -->
 
 <!-- {{< spoiler text="Aula 5 (30/08 e 01/09/2022)">}} -->
 

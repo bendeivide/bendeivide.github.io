@@ -1,8 +1,8 @@
 ---
 title: 📺 Ensino Remoto 2021.2
-date: "2022-03-22 13:36:48"
+date: "2023-03-14 13:18:51"
 type: book
-weight: 10
+weight: 30
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
 tags: ["Curso"]
 commentable: true

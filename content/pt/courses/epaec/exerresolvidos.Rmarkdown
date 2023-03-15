@@ -2,7 +2,7 @@
 title: ✍️ Exercícios resolvidos para EPAEC
 date: "`r format(Sys.time())`"
 type: book
-weight: 30
+weight: 40
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
 tags: ["Curso"]
 draft: false
