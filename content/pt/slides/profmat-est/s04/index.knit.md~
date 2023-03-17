@@ -1,0 +1,35 @@
+---
+title: Estatística e Probabilidade
+summary: Aula 04
+authors: [Ben Dêivide]
+tags: [Estatística e Probabilidade, Ambiente R, Programação]
+categories: [Curso]
+slides:
+#  css: night
+# https://github.com/hakimel/reveal.js/tree/master/css/theme/source
+# Choose a theme from https://github.com/hakimel/reveal.js#theming
+# https://revealjs.com/themes/
+# https://github.com/wowchemy/wowchemy-hugo-themes/issues/796
+# https://bookdown.org/yihui/rmarkdown/revealjs.html
+# https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware
+# Tentativas:
+# https://github.com/dzello/reveal-hugo
+# https://github.com/rstudio/revealjs
+# Esse componente serve apenas para os temas oficiais
+  theme: ''
+# Choose a code highlighting style (if highlighting enabled in `params.toml`)
+# Light style: github. Dark style: dracula (default).
+  highlight_style: dracula
+# Como controlar a apresentacao:
+# - Next: `Right Arrow` or `Space`
+# - Previous: `Left Arrow`
+# - Start: `Home`
+# - Finish: `End`
+# - Overview: `Esc`
+# - Speaker notes: `S`
+# - Fullscreen: `F`
+# - Zoom: `Alt + Click`
+---
+
+
+

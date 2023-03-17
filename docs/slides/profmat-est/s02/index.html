@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  
+  
+
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.4.0 for Hugo">
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="http://bendeivide.github.io/slides/profmat-est/s02/">
+
+  <title>Estatística e Probabilidade | Ben Dêivide</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/black.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap.png"
+  >
+
+<h1 id="estatística-e-probabilidade">Estatística e Probabilidade</h1>
+<p>Aula 02 - Definições gerais e técnicas de somatório
+</br></p>
+<p>
+  <i class="fas fa-user-tie  pr-1 fa-fw"></i> <a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Ben Dêivide</a> | 
+  <i class="fas fa-school  pr-1 fa-fw"></i> <a href="https://www.ufsj.edu.br/" target="_blank" rel="noopener">UFSJ</a>
+</br>
+
+  <i class="fas fa-book  pr-1 fa-fw"></i> <a href="/courses/epaec/">Estatística e Probabilidade</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<h2 id="selo-dc">Selo DC</h2>
+<p><a href="https://bendeivide.github.io/dc/" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/profmat-est/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/profmat-est/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/profmat-est/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp"
+               width="385"
+               height="406"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<!-- https://revealjs.com/transitions/ -->
+<section data-transition="zoom">
+  <h2>Introdução</h2>
+  <p> Nossa vida atual é assim hoje ... </p>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <figure  id="figure-imagens-gratispngcom">
+    <div class="d-flex justify-content-center">
+      <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+                 /slides/profmat-est/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_0769bc3bdb3596bca3f6a01e3f6b0394.webp 400w,
+                 /slides/profmat-est/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_198182e3dda60929a57504574af4d842.webp 760w,
+                 /slides/profmat-est/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+                 src="/slides/profmat-est/s02/programador_hu85c5d9c20779881f2ae8deae4e3d792a_590442_0769bc3bdb3596bca3f6a01e3f6b0394.webp"
+                 width="530"
+                 height="380"
+                 loading="lazy" data-zoomable /></div>
+    </div><figcaption>
+        Imagens: gratispng.com
+      </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Introdução</h2>
+<p> Nossa vida atual é assim hoje ... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-gratispngcom">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+               /slides/profmat-est/s02/dados_hu887ba6b7f9c0e641f75b5f82feacab54_163105_453a07f9082a2771b97ce6d020dc4ec8.webp 400w,
+               /slides/profmat-est/s02/dados_hu887ba6b7f9c0e641f75b5f82feacab54_163105_1d078c7aaef4a058d23d40388727b8be.webp 760w,
+               /slides/profmat-est/s02/dados_hu887ba6b7f9c0e641f75b5f82feacab54_163105_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/dados_hu887ba6b7f9c0e641f75b5f82feacab54_163105_453a07f9082a2771b97ce6d020dc4ec8.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: gratispng.com
+    </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Introdução</h2>
+<p> Usamos para tudo ... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-gratispngcom">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+               /slides/profmat-est/s02/emojis_huf8050f69e6ce2d326df2bbe686aea7ea_72356_5f58a4399a031452fdf2f7b4567ce22a.webp 400w,
+               /slides/profmat-est/s02/emojis_huf8050f69e6ce2d326df2bbe686aea7ea_72356_ea8f7f14ad53afdff9b10b7854945999.webp 760w,
+               /slides/profmat-est/s02/emojis_huf8050f69e6ce2d326df2bbe686aea7ea_72356_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/emojis_huf8050f69e6ce2d326df2bbe686aea7ea_72356_5f58a4399a031452fdf2f7b4567ce22a.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: gratispng.com
+    </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Introdução</h2>
+<p> Pesquisar ... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-gratispngcom">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+               /slides/profmat-est/s02/searching_hu749c487df7c6eff3fe551052b606a39d_94218_979a7958ebfc5597f19575ecd9f05006.webp 400w,
+               /slides/profmat-est/s02/searching_hu749c487df7c6eff3fe551052b606a39d_94218_4f5e7490b68d33a29e8fb42d353e8930.webp 760w,
+               /slides/profmat-est/s02/searching_hu749c487df7c6eff3fe551052b606a39d_94218_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/searching_hu749c487df7c6eff3fe551052b606a39d_94218_979a7958ebfc5597f19575ecd9f05006.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: gratispng.com
+    </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Introdução</h2>
+<p> Contratempos ... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-gratispngcom">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+               /slides/profmat-est/s02/quebrando_pc_hub4a3ac35862bea0b486522facdebe990_189986_dd3a418c0515058ffb1d8bd7f924ff87.webp 400w,
+               /slides/profmat-est/s02/quebrando_pc_hub4a3ac35862bea0b486522facdebe990_189986_d8e1aa3e09274d0d674507d64e36b02f.webp 760w,
+               /slides/profmat-est/s02/quebrando_pc_hub4a3ac35862bea0b486522facdebe990_189986_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/quebrando_pc_hub4a3ac35862bea0b486522facdebe990_189986_dd3a418c0515058ffb1d8bd7f924ff87.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: gratispng.com
+    </figcaption></figure>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<!-- https://revealjs.com/transitions/ -->
+<section data-transition="zoom">
+  <h2>Dados</h2>
+  <p> Em meio a tudo isso, uma coisa acontece ... </p>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <figure  id="figure-imagens-gratispngcom">
+    <div class="d-flex justify-content-center">
+      <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+                 /slides/profmat-est/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_7684bd630a966bea4c66d8f3e27710af.webp 400w,
+                 /slides/profmat-est/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_88e47f38d0b957e637a120fc53fed28d.webp 760w,
+                 /slides/profmat-est/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+                 src="/slides/profmat-est/s02/dados02_huaa69fdfff67864a40a8e5e6a627be466_18369921_7684bd630a966bea4c66d8f3e27710af.webp"
+                 width="530"
+                 height="380"
+                 loading="lazy" data-zoomable /></div>
+    </div><figcaption>
+        Imagens: gratispng.com
+      </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Dados</h2>
+<p> Essas informações são processadas ... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-gratispngcom">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+               /slides/profmat-est/s02/infra_comp_hub6808cefc104d832c78f51c1fe99f225_205407_d992efe6d9441dba596dd57504563239.webp 400w,
+               /slides/profmat-est/s02/infra_comp_hub6808cefc104d832c78f51c1fe99f225_205407_cc5813b7ab49e6ce51f87ec864d8bd40.webp 760w,
+               /slides/profmat-est/s02/infra_comp_hub6808cefc104d832c78f51c1fe99f225_205407_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/infra_comp_hub6808cefc104d832c78f51c1fe99f225_205407_d992efe6d9441dba596dd57504563239.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: gratispng.com
+    </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Dados</h2>
+<p> Analisadas ... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-gratispngcom">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+               /slides/profmat-est/s02/exp_user_hu8f5c0e0d7f084260f0d10501891b1393_29133_6ef8d184a5fe1679c0d6b7abc1011d81.webp 400w,
+               /slides/profmat-est/s02/exp_user_hu8f5c0e0d7f084260f0d10501891b1393_29133_87aaaa3da49d73051be18accb8582e5a.webp 760w,
+               /slides/profmat-est/s02/exp_user_hu8f5c0e0d7f084260f0d10501891b1393_29133_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/exp_user_hu8f5c0e0d7f084260f0d10501891b1393_29133_6ef8d184a5fe1679c0d6b7abc1011d81.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: gratispng.com
+    </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Dados</h2>
+<p> E assim, todos esses dados ... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-gratispngcom">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+               /slides/profmat-est/s02/analise02_hu9ea620b0e1d37040944340d01dd78f2b_515291_8778f4bc4322cd248911f541b900c98e.webp 400w,
+               /slides/profmat-est/s02/analise02_hu9ea620b0e1d37040944340d01dd78f2b_515291_7a54132dfe8825d6cab37da7f5bfd4ed.webp 760w,
+               /slides/profmat-est/s02/analise02_hu9ea620b0e1d37040944340d01dd78f2b_515291_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/analise02_hu9ea620b0e1d37040944340d01dd78f2b_515291_8778f4bc4322cd248911f541b900c98e.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: gratispng.com
+    </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Dados</h2>
+<p> ... que os usuários repassam ... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-gratispngcom">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: gratispng.com" srcset="
+               /slides/profmat-est/s02/analise03_hub2e1dffd2cc65cb9ada91baab78eae39_412393_ecbf33cd9eab19e34cbc14286fd53e75.webp 400w,
+               /slides/profmat-est/s02/analise03_hub2e1dffd2cc65cb9ada91baab78eae39_412393_6104309efe8272d3b6d06f70cad0b52b.webp 760w,
+               /slides/profmat-est/s02/analise03_hub2e1dffd2cc65cb9ada91baab78eae39_412393_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/analise03_hub2e1dffd2cc65cb9ada91baab78eae39_412393_ecbf33cd9eab19e34cbc14286fd53e75.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: gratispng.com
+    </figcaption></figure>
+</section>
+<section data-transition-speed="fast">
+<h1>Dados > \$</h1>
+</section>
+<section data-transition-speed="fast">
+<h2>Dados</h2>
+<p> E aí, o Vale do silício é o que tem que ser! </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagens-oficinadanetcombr">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagens: oficinadanet.com.br" srcset="
+               /slides/profmat-est/s02/vale_silicio_hu2e878ae56d4a55650a6917f7b07e2ae0_84455_e4d52bf7f5244f20b8c1cbb9bbc42621.webp 400w,
+               /slides/profmat-est/s02/vale_silicio_hu2e878ae56d4a55650a6917f7b07e2ae0_84455_927ece7d5689dccd421079d10c92cf95.webp 760w,
+               /slides/profmat-est/s02/vale_silicio_hu2e878ae56d4a55650a6917f7b07e2ae0_84455_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/slides/profmat-est/s02/vale_silicio_hu2e878ae56d4a55650a6917f7b07e2ae0_84455_e4d52bf7f5244f20b8c1cbb9bbc42621.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagens: oficinadanet.com.br
+    </figcaption></figure>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<!-- https://revealjs.com/transitions/ -->
+<section data-transition="zoom">
+  <h2>Motivação inicial </h2>
+  <p> Definições gerais da estatística (Exemplo do livro EPAEC) </p>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <figure  >
+    <div class="d-flex justify-content-center">
+      <div class="w-100" ><img alt="" srcset="
+                 /slides/profmat-est/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp 400w,
+                 /slides/profmat-est/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_2422affad744e4d2bee6a7971f41e9ec.webp 760w,
+                 /slides/profmat-est/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+                 src="/slides/profmat-est/s02/epaec_exerc5.19_huf42f90654072e146aede07d81ef72130_118873_d2eb6c328bbca59128eb008a44841e3c.webp"
+                 width="830"
+                 height="420"
+                 loading="lazy" data-zoomable /></div>
+    </div></figure>
+</section>
+<section data-transition-speed="fast">
+<h2>Motivação inicial</h2>
+<p> Definições gerais da estatística... </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-imagem-livro-epaec">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Imagem: Livro EPAEC" srcset="
+               /slides/profmat-est/s02/prodcons_hu5910991e216a6cca12abe1fdcd74a6f7_5529_41d76642fcdda6f48ac510a3ac9a6405.webp 400w,
+               /slides/profmat-est/s02/prodcons_hu5910991e216a6cca12abe1fdcd74a6f7_5529_18a6dc64c476a8c99164f36faf38e895.webp 760w,
+               /slides/profmat-est/s02/prodcons_hu5910991e216a6cca12abe1fdcd74a6f7_5529_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/prodcons_hu5910991e216a6cca12abe1fdcd74a6f7_5529_41d76642fcdda6f48ac510a3ac9a6405.webp"
+               width="530"
+               height="380"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Imagem: Livro EPAEC
+    </figcaption></figure>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<h2 id="método-científico">Método Científico</h2>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/QPeS1v7l6yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<!-- https://revealjs.com/transitions/ -->
+<section data-transition="zoom">
+  <h2>Definições Gerais da Estatística</h2>
+  <aside class="notes">
+    📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+  </aside>
+  <iframe width="760" height="515" src="https://www.youtube.com/embed/mASLUwyaC5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<section data-transition-speed="fast">
+<h2>Definições Gerais da Estatística</h2>
+<aside class="notes">
+    📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+  </aside>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/xvORKHMVUr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="natureza-das-variáveis">Natureza das variáveis</h2>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/LIg6uLzCRmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<h2 id="técnicas-de-somatório">Técnicas de Somatório</h2>
+  <aside class="notes">
+    📝 Fazer alguns exemplos na sala digital (Smoothdraw)
+  </aside>
+<iframe width="760" height="515" src="https://www.youtube.com/embed/tWCxCyZZHes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<h1 id="questões">Questões?</h1>
+<p><a href="https://bendeivide.github.io/" target="_blank" rel="noopener">Dúvidas e Sugestões</a></p>
+<p><a href="https://bendeivide.github.io/#contact" target="_blank" rel="noopener">Contato</a></p>
+
+    </section>
+    
+
+    
+    
+    
+      
+
+<section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image="cap02.png"
+  >
+
+<!-- https://revealjs.com/transitions/ -->
+<section data-transition="zoom">
+  <h1>Próximas aulas...</h1>
+</section>
+<section data-transition-speed="fast">
+<a href="/courses/epaec" target="_blank">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /slides/profmat-est/s02/ben_hu087225affb9399e037f09661c4d0adbd_219224_5c10d459c8ddc0416f506a4ad838a085.webp 400w,
+               /slides/profmat-est/s02/ben_hu087225affb9399e037f09661c4d0adbd_219224_29ebba9a3e515b23ea411bffea18d2f1.webp 760w,
+               /slides/profmat-est/s02/ben_hu087225affb9399e037f09661c4d0adbd_219224_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/slides/profmat-est/s02/ben_hu087225affb9399e037f09661c4d0adbd_219224_5c10d459c8ddc0416f506a4ad838a085.webp"
+               width="630"
+               height="480"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</a>
+<p><a href="/courses/epaec" target="_blank">bendeivide.github.io/courses/epaec</a></p>
+</section>
+<!-- <section> -->
+<!--   <h2>Some Slide</h2> -->
+<!--   <aside class="notes"> -->
+<!--     Anotações no Visualizador (Clique em S) 📝 -->
+<!--   </aside> -->
+<!-- </section> -->
+<!-- ## Animação -->
+<!-- <section data-auto-animate> -->
+<!--   <h1>Auto-Animate</h1> -->
+<!-- </section> -->
+<!-- <section data-auto-animate> -->
+<!--   <h1 style="margin-top: 100px; color: red;">Auto-Animate</h1> -->
+<!-- </section> -->
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/highlight/highlight.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>
