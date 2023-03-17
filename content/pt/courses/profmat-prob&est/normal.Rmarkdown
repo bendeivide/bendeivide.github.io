@@ -47,6 +47,10 @@ A Natureza da estatística. Tratamento da informação. Distribuições de frequ
 
 - [Link]()
 
+## Turma para criação do livro
+
+- [Link](https://github.com/users/bendeivide/projects/2/views/1?layout=board)
+
 ## Preenchimento de dados para as avaliações
 
 <!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) -->
@@ -230,7 +234,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< spoiler text="Aula 1 (17/03/2023)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
 {{< icon name="eye" pack="fas" >}} Apresentação: 
-<a href="{{< relref "/slides/estprob/s01/index" >}}" target="_blank">Aula 01</a>
+<a href="{{< relref "/slides/profmat-est/s01/index" >}}" target="_blank">Aula 01</a>
 
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
@@ -247,6 +251,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
+<!--
 {{< spoiler text="Aula 2 (10/03/2023)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
@@ -338,6 +343,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 </br>
 
 {{< /spoiler >}}
+-->
 
 <!-- {{< spoiler text="Aula 5 (30/08 e 01/09/2022)">}} -->
 

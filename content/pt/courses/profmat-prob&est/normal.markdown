@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-17 08:10:41"
+date: "2023-03-17 16:51:29"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -46,6 +46,10 @@ A Natureza da estatística. Tratamento da informação. Distribuições de frequ
 ## Grupo de Whatsapp
 
 - [Link]()
+
+## Turma para criação do livro
+
+- [Link](https://github.com/users/bendeivide/projects/2/views/1?layout=board)
 
 ## Preenchimento de dados para as avaliações
 
@@ -172,7 +176,7 @@ semana o aluno é acompanhado e avaliado pelo professor.
 
 {{< spoiler text="Bibliografia detalhada">}}
 
-- CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. **Análise combinatória e probabilidade**. SBM, 2005 (Capítulo 5).
+- [CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. **Análise combinatória e probabilidade**. SBM, 2005 (Capítulo 5).](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj)
 - BUSSABW, MORETTIN, W. **Estatística básica**. Editora Saraiva, 2010.
 - PINHEIRO, R; CUNHA, G. **Probabilidade e estatística**: quantificando a incerteza. Editora Campus, 2012.
 
@@ -230,7 +234,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 {{< spoiler text="Aula 1 (17/03/2023)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
 {{< icon name="eye" pack="fas" >}} Apresentação: 
-<a href="{{< relref "/slides/estprob/s01/index" >}}" target="_blank">Aula 01</a>
+<a href="{{< relref "/slides/profmat-est/s01/index" >}}" target="_blank">Aula 01</a>
 
 {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
@@ -247,6 +251,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
+<!--
 {{< spoiler text="Aula 2 (10/03/2023)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
@@ -338,6 +343,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 </br>
 
 {{< /spoiler >}}
+-->
 
 <!-- {{< spoiler text="Aula 5 (30/08 e 01/09/2022)">}} -->
 
