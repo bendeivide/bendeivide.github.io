@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-17 16:50:55"
+date: "2023-03-20 06:13:02"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -54,8 +54,7 @@ regressão linear simples.
 
 ## Preenchimento de dados para as avaliações
 
-<!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) -->
-<!-- - [Formulário - Engenharia de Telecomunicações](https://forms.gle/SyBkB5jqSJkv4eVm9) -->
+{{< gdocs src="https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link">}}
 
 ## Ementa
 
