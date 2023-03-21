@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-20 06:13:02"
+date: "2023-03-21 16:53:22"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -388,25 +388,65 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
-<!-- {{< spoiler text="Aula 5 (30/08 e 01/09/2022)">}} -->
+{{< spoiler text="Aula 4 (22/03/2023)">}}
+Em aula...
 
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 2  -->
-<!-- {{< icon name="eye" pack="fas" >}} Apresentação: Em sala!  -->
-<!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.  -->
-<!-- {{< icon name="headphones" pack="fas" >}} Podcast  -->
-<!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1IAmDa7quaUwhRW7UDNUTjSsQlbXs5knlHi4F1P0BMHw/edit?usp=sharing)  -->
-<!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER 2022.1)
 
-<!-- - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
-<!-- - [Curso R](courses/cursor/) -->
-<!-- - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
+{{< youtube xlmWSTrp_SI >}}
 
-<!-- {{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (Aula assíncrona 2021.1) -->
+</br>
 
-<!-- {{< youtube DZ4PzyY5YYg >}} -->
-<!-- <br/> -->
+{{< /spoiler >}}
 
-<!-- {{< /spoiler >}} -->
+
+
+{{< spoiler text="Aula 5 (22/03/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de posição
+{{< icon name="eye" pack="fas" >}} Apresentação: <a href="{{< relref "/slides/estprob/s05/index" >}}" target="_blank">Aula 05</a>
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1k0FEDbccPa9tQF36roxYo_wclJ7cSG-g2Z9chSbaoLU/edit?usp=sharing" target="_blank">Plano de aula</a>
+
+
+- [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+- [Curso R](courses/cursor/)
+- [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+
+{{< icon name="youtube" pack="fab" >}} Aula (Aula assíncrona 2021.1)
+
+{{< youtube s-yrirgOA8A >}}
+
+<br/>
+
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 6 (02/09/2022)">}}
+
+Em aula....
+
+</br>
+
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios (Aula assíncrona 2021.1)
+
+{{< youtube 7V34LUYrlxY >}}
+
+
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios (Aula assíncrona 2021.1)
+
+{{< youtube l2yBewnBkdE >}}
+
+</br>
+
+{{< /spoiler >}}
+
+
+
+
+
 
 <!-- {{< spoiler text="Aula 6 (02/09/2022)">}} -->
 

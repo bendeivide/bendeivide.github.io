@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 20 Mar 2023 06:13:02 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 21 Mar 2023 16:53:22 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Inferência Estatística</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2023.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Mon, 20 Mar 2023 06:13:02 +0000</pubDate>
+      <pubDate>Tue, 21 Mar 2023 16:53:22 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -432,35 +432,57 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
-  &lt;summary&gt;Aula 5 (30/08 e 01/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 2  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: Em sala!  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1IAmDa7quaUwhRW7UDNUTjSsQlbXs5knlHi4F1P0BMHw/edit?usp=sharing)  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!-- - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!-- - [Curso R](courses/cursor/) --&gt;
-&lt;!-- - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (Aula assíncrona 2021.1) --&gt;
-&lt;!-- 
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;Aula 4 (22/03/2023)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Em aula&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/DZ4PzyY5YYg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xlmWSTrp_SI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
- --&gt;
-&lt;!-- &lt;br/&gt; --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;/br&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;Aula 5 (22/03/2023)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de posição&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s05/&#34; target=&#34;_blank&#34;&gt;Aula 05&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1k0FEDbccPa9tQF36roxYo_wclJ7cSG-g2Z9chSbaoLU/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula (Aula assíncrona 2021.1)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s-yrirgOA8A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;Aula 6 (02/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Em aula&amp;hellip;.&lt;/p&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios (Aula assíncrona 2021.1)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/7V34LUYrlxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios (Aula assíncrona 2021.1)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/l2yBewnBkdE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;Aula 6 (02/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -501,7 +523,7 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;!-- &lt;br/&gt; --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;Aula 7 (06-09/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -530,7 +552,7 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;Aula 8 (09/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -557,7 +579,7 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;Aula 9 (13-15/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -591,13 +613,13 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;Aula 10 (16/09/2022)&lt;/summary&gt;
   &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- Prova! --&gt;
 &lt;!--&lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
   &lt;summary&gt;Aula 11  (20-22/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -624,7 +646,7 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
   &lt;summary&gt;Aula 12  (23/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -651,7 +673,7 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
   &lt;summary&gt;Aula 13  (27-29/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -685,7 +707,7 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
   &lt;summary&gt;Aula 26  (15-16/06/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -729,11 +751,11 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
