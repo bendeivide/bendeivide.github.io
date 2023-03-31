@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 21 Mar 2023 16:53:22 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 31 Mar 2023 14:53:50 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Inferência Estatística</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2023.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Tue, 21 Mar 2023 16:53:22 +0000</pubDate>
+      <pubDate>Fri, 31 Mar 2023 14:53:50 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -65,6 +65,8 @@ aulas&lt;/a&gt;:
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/18cQBWElhhWnozZZ-d2t3txiS_eCsHAKuOTmEirDnZ6M/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
 CAP/UFSJ&lt;/p&gt;
@@ -475,6 +477,7 @@ resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/7V34LUYrlxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
+&lt;/br&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios (Aula assíncrona 2021.1)&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/l2yBewnBkdE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;

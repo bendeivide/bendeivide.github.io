@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-21 16:53:22"
+date: "2023-03-31 14:53:50"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -55,6 +55,11 @@ regressão linear simples.
 ## Preenchimento de dados para as avaliações
 
 {{< gdocs src="https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link">}}
+
+
+## Notas
+
+[Link](https://docs.google.com/spreadsheets/d/18cQBWElhhWnozZZ-d2t3txiS_eCsHAKuOTmEirDnZ6M/edit?usp=sharing)
 
 ## Ementa
 
@@ -434,6 +439,7 @@ Em aula....
 
 {{< youtube 7V34LUYrlxY >}}
 
+</br>
 
 {{< icon name="youtube" pack="fab" >}} Aula de exercícios (Aula assíncrona 2021.1)
 
