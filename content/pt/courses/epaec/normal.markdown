@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-31 14:53:50"
+date: "2023-04-03 08:37:40"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -429,7 +429,7 @@ Em aula...
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 6 (02/09/2022)">}}
+{{< spoiler text="Aula 6 (24/03/2023)">}}
 
 Em aula....
 
@@ -446,6 +446,43 @@ Em aula....
 {{< youtube l2yBewnBkdE >}}
 
 </br>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 7 (29/03/2023)">}}
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 8 (31/03/2023)">}}
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 9 [EXTRA] (03/04/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de dispersão e Revisão para P1
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 09]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+
+{{< icon name="book-reader" pack="fas" >}} Plano de aula
+{{< icon name="book-reader" pack="fas" >}} Material para consulta
+- [Capítulo 4: *Medidas de Dispersão*](https://bendeivide.github.io/book-epaec/md.html#md)
+- [Estatística e Probabilidade (Ensino
+    Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+- [Curso R](courses/cursor/)
+- Exercícios Propostos ([Cap. 3](https://bendeivide.github.io/book-epaec/mp.html#exerc%C3%ADcios-propostos-2)
+- [Exercícios
+    resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+- Scripts {{< icon name="r-project" pack="fab" >}} {{% staticref "r-scripts/epaec/aula09/aula09.R" "newtab" %}}Aula09.R{{% /staticref %}} 
+
+{{< icon name="youtube" pack="fab" >}} Aula teórica 2023.1 (Aula síncrona)
+
+{{< youtube rgVSNqe8mY0 >}}
+
+</br>
+
 
 {{< /spoiler >}}
 
