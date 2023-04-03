@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-04-03 08:37:40"
+date: "2023-04-03 12:53:27"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -476,6 +476,7 @@ Em aula....
 - [Exercícios
     resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
 - Scripts {{< icon name="r-project" pack="fab" >}} {{% staticref "r-scripts/epaec/aula09/aula09.R" "newtab" %}}Aula09.R{{% /staticref %}} 
+- Notas de aula: {{< icon name="paperclip" pack="fas" >}} {{% staticref "epaec/2023.1/NotaAula09.png" "newtab" %}}NotaAula09.R{{% /staticref %}} 
 
 {{< icon name="youtube" pack="fab" >}} Aula teórica 2023.1 (Aula síncrona)
 

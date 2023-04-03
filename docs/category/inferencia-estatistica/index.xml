@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 03 Apr 2023 08:37:40 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 03 Apr 2023 12:53:27 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Inferência Estatística</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2023.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Mon, 03 Apr 2023 08:37:40 +0000</pubDate>
+      <pubDate>Mon, 03 Apr 2023 12:53:27 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -522,6 +522,10 @@ resolvidos&lt;/a&gt;&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Scripts
 &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/epaec/aula09/aula09.R&#34; target=&#34;_blank&#34;&gt;Aula09.R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notas de aula:
+&lt;i class=&#34;fas fa-paperclip  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2023.1/NotaAula09.png&#34; target=&#34;_blank&#34;&gt;NotaAula09.R&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica 2023.1 (Aula síncrona)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
