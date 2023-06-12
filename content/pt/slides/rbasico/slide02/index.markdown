@@ -1,5 +1,5 @@
 ---
-title: Aula 02 - História e Instalação do R
+title: Aula 02 - Passos iniciais para a utilização do R e do RStudio
 summary: ''
 authors: [Ben Dêivide]
 tags: [Rbásico]
@@ -34,7 +34,7 @@ slides:
 
 {{< slide background-image="EAR-rbasico-background.png" >}}
 # EAR: R Básico
-Aula 02 - Entendendo a coleção Estudando o Ambiente R (EAR)
+Aula 02 - Passos iniciais para a utilização do R e do RStudio
 </br>
 </br>
 {{< icon name="user-tie" pack="fas" >}} [Ben Dêivide](https://bendeivide.github.io/) | {{< icon name="school" pack="fas" >}} [UFSJ](https://www.ufsj.edu.br/) 
@@ -59,25 +59,20 @@ Aula 02 - Entendendo a coleção Estudando o Ambiente R (EAR)
 
 {{< slide background-image="EAR-rbasico-background-02.png" >}}
 
-## Objetivo do curso
+## Relembrando a aula anterior
 
- - O EAR: R básico **não** tem como objetivo principal de **ensinar análise de dados**.
- - Mas **sim**, proporcionar o **conhecimento sobre a linguagem R** (sintaxe e semântica), de modo que se consiga usufruir todos os recursos da linguagem.
+
+![](promptr.png){width="80%"}
 
 
 ---
 
 {{< slide background-image="EAR-rbasico-background-02.png" >}}
 
-<section data-background-iframe="/courses/ear/rbasico" data-background-interactive>
-	<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-		<h2>Material do curso</h2>
-		<p>R básico <a href="https://bendeivide.github.io/">Ben Dêivide</a>.</p>
-	</div>
-</section>
+## Relembrando a aula anterior
 
 
-
+![](ide_rstudio.png)
 
 
 ---

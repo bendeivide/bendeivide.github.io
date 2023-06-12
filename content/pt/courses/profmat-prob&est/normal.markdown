@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.1
-date: "2023-03-17 16:51:29"
+date: "2023-04-03 14:00:31"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -46,6 +46,10 @@ A Natureza da estatística. Tratamento da informação. Distribuições de frequ
 ## Grupo de Whatsapp
 
 - [Link]()
+
+## Demandas e Notas
+
+- [Link](https://docs.google.com/spreadsheets/d/1ER_H6_dx6yJUGQFBmng0Uouuhw9uMw--49RY9prEMp0/edit?usp=sharing)
 
 ## Turma para criação do livro
 

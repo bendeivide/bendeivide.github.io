@@ -5,12 +5,668 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 03 Apr 2023 12:53:27 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 03 Apr 2023 14:00:31 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
       <link>http://bendeivide.github.io/</link>
     </image>
+    
+    <item>
+      <title>📚 Ensino normal 2023.1</title>
+      <link>http://bendeivide.github.io/courses/profmat-probest/normal/</link>
+      <pubDate>Mon, 03 Apr 2023 14:00:31 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/profmat-probest/normal/</guid>
+      <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
+pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática em Rede Nacional, campus Alto Paraopeba
+(&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;A Natureza da estatística. Tratamento da informação. Distribuições de frequência e gráficos. Medidas. Conceitos básicos em probabilidade. Probabilidade condicional e Independência. Variáveis aleatórias discretas e contínuas. Função de distribuição acumulada. Esperança e variância de variáveis aleatórias. Modelos Bernoulli, binomial e geométrico. Modelo uniforme e modelo normal. Distribuição assintótica da média amostral. Introdução à inferência estatística.&lt;/p&gt;
+&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de
+Engenharia do campus.&lt;/li&gt;
+&lt;li&gt;Todas as nossas estão gravadas:
+&lt;ul&gt;
+&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Período:&lt;/li&gt;
+&lt;li&gt;Aulas presenciais:
+&lt;ul&gt;
+&lt;li&gt;PROFMAT (Sala 202.6):
+&lt;ul&gt;
+&lt;li&gt;sexta-feira (09:00 - 11:00)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34;&gt;Cronograma&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
+aulas&lt;/a&gt;:
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+      &lt;iframe src=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grupo-de-whatsapp&#34;&gt;Grupo de Whatsapp&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;demandas-e-notas&#34;&gt;Demandas e Notas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1ER_H6_dx6yJUGQFBmng0Uouuhw9uMw--49RY9prEMp0/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;turma-para-criação-do-livro&#34;&gt;Turma para criação do livro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/users/bendeivide/projects/2/views/1?layout=board&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;preenchimento-de-dados-para-as-avaliações&#34;&gt;Preenchimento de dados para as avaliações&lt;/h2&gt;
+&lt;!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) --&gt;
+&lt;!-- - [Formulário - Engenharia de Telecomunicações](https://forms.gle/SyBkB5jqSJkv4eVm9) --&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
+CAP/UFSJ&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
+&lt;li&gt;Tabelas e gráficos&lt;/li&gt;
+&lt;li&gt;Medidas de posição&lt;/li&gt;
+&lt;li&gt;Medidas de dispersão e desenho esquemático (Box Plot)&lt;/li&gt;
+&lt;li&gt;Probabilidade: conceitos básicos, definições e propriedades&lt;/li&gt;
+&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade total e teorema de
+Bayes&lt;/li&gt;
+&lt;li&gt;Função e distribuição de probabilidade de uma variável aleatória discreta&lt;/li&gt;
+&lt;li&gt;Características numéricas de uma variável aleatória discreta&lt;/li&gt;
+&lt;li&gt;Função densidade de probabilidade de uma variável aleatória contínua&lt;/li&gt;
+&lt;li&gt;Características numéricas de uma variável aleatória contínua&lt;/li&gt;
+&lt;li&gt;Principais modelos probabilísticos discretos: uniforme, Bernoulli, binomial, geométrico,
+Poisson e hipergeométrico&lt;/li&gt;
+&lt;li&gt;Modelos probabilísticos contínuos. Principais modelos probabilísticos contínuos: uniforme,
+exponencial e normal&lt;/li&gt;
+&lt;li&gt;Teorema central do limite&lt;/li&gt;
+&lt;li&gt;Aproximação da distribuição binomial pela normal&lt;/li&gt;
+&lt;li&gt;Introdução à inferência estatística: primeiras ideias; propriedades dos estimadores&lt;/li&gt;
+&lt;li&gt;Erro quadrático médio e erro absoluto de estimação&lt;/li&gt;
+&lt;li&gt;Estimação pontual de parâmetros: estimadores de momentos; estimadores de mínimos
+quadrados&lt;/li&gt;
+&lt;li&gt;Estimadores de máxima verossimilhança&lt;/li&gt;
+&lt;li&gt;Distribuição amostral da média e proporção; dimensionamento da amostra&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a média populacional e para proporção populacional&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
+&lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
+aulas serão expositivas e dialogadas com os alunos presencialmente ou
+via portal didático, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Motivação:
+&lt;ul&gt;
+&lt;li&gt;Levantamento do conhecimento prévio dos alunos em relação ao
+tema;&lt;/li&gt;
+&lt;li&gt;Apresentação de algumas situações práticas para a compreensão
+dos tópicos a serem abordados;&lt;/li&gt;
+&lt;li&gt;Exposição dos objetivos da aula.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Desenvolvimento:
+&lt;ul&gt;
+&lt;li&gt;Introdução ao assunto abordado;&lt;/li&gt;
+&lt;li&gt;Apresentação de definições e teoremas envolvidos;&lt;/li&gt;
+&lt;li&gt;Aplicação de softwares estatísticos, quando for pertinente;&lt;/li&gt;
+&lt;li&gt;Exemplos e aplicações na estatística e área do curso, do assunto
+abordado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;3 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 72h**.&lt;/p&gt;
+&lt;p&gt;Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
+&lt;!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) --&gt;
+&lt;!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1ª Avaliação - Tópicos 1, 2, 3, 4, 5, 6 - 30 pontos;&lt;/li&gt;
+&lt;li&gt;2ª Avaliação - Tópicos 7, 8, 9, 10, 11, 12, 13, 14 - 30 pontos;&lt;/li&gt;
+&lt;li&gt;3ª Avaliação - Tópicos 15, 16, 17, 18, 19, 20 - 40 pontos;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- - Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos; --&gt;
+&lt;p&gt;Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o &lt;a href=&#34;http://bendeivide.github.io/project/ProjAPE&#34;&gt;Aprender por ensinar&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/LEEM&#34;&gt;LEEM&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/statscience&#34;&gt;statscience&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/RapidinhasR&#34;&gt;Rapidinhas do R&lt;/a&gt;, dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina.&lt;/p&gt;
+&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações.&lt;/p&gt;
+&lt;p&gt;O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria.&lt;/p&gt;
+&lt;p&gt;A perda de alguma avaliação deverá ser apresentado justificativa. Observações:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID;&lt;/li&gt;
+&lt;li&gt;Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica;&lt;/li&gt;
+&lt;li&gt;Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas;&lt;/li&gt;
+&lt;li&gt;Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!--
+## Como as provas serão corrigidas?
+
+-   &lt;a href=&#34;http://bendeivide.github.io/media/critprova.pdf&#34; target=&#34;_blank&#34;&gt;Critérios de
+    avaliação&lt;/a&gt;
+
+## Contrato {#contrato}
+
+Contrato feito para a disciplina de Estatística e Probabilidade, como
+meio de substituir as avaliações tradicionais para uso de metodologias
+ativas como método de avaliação. Paralelo a disciplina, o aluno irá
+acompanhando as aulas e desenvolvendo demandas semanais, como forma de
+ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
+semana o aluno é acompanhado e avaliado pelo professor.
+
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+--&gt;
+&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&amp;amp;url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&amp;amp;usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. &lt;strong&gt;Análise combinatória e probabilidade&lt;/strong&gt;. SBM, 2005 (Capítulo 5).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUSSABW, MORETTIN, W. &lt;strong&gt;Estatística básica&lt;/strong&gt;. Editora Saraiva, 2010.&lt;/li&gt;
+&lt;li&gt;PINHEIRO, R; CUNHA, G. &lt;strong&gt;Probabilidade e estatística&lt;/strong&gt;: quantificando a incerteza. Editora Campus, 2012.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;matadotado&#34;&gt;Material adotado&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Materiais complementares&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://leg.ufpr.br/~paulojus/estbas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/talesjfer/Apostila-Estatistica-Aplicada&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estimação Estatística (Assis, et. al. 2021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução à estatística com R (Eric Ferreira &amp;amp; Marcelo Oliveira )&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria &amp;amp; João Parga)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canal Ciência Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://editorapantanal.com.br/ebooks/2023/probabilidade-e-estatistica-exercicios/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade: Exercícios (Assis et. al., 2023)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Os programas necessários:
+&lt;ul&gt;
+&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Studio&lt;/a&gt;
+OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;Aula 1 (17/03/2023)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Apresentação do curso&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação:
+&lt;a href=&#34;http://bendeivide.github.io/slides/profmat-est/s01/&#34; target=&#34;_blank&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/cursor/&#34; target=&#34;_blank&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/TqnAYt89ElI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!--
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;Aula 2 (10/03/2023)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da estatística e técnicas de somatório&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s02/&#34; target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
+&lt;/iframe&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
+&lt;/iframe&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/cursor/&#34; target=&#34;_blank&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (ER 2022.1)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0KPuZplRwtU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ozgmfZGkE8k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+
+
+
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;Aula 3 (15/03/2023)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Coleta, organização e apresentação de dados&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s03/&#34; target=&#34;_blank&#34;&gt;Aula 03&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP02-2022-2---Coleta--organizao-e-apresentao-de-dados-e1ngk7b&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notas de aula&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Estatística e Probabilidade (Ensino
+Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios
+resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Scripts
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/epaec/aula03/aula03.R&#34; target=&#34;_blank&#34;&gt;Aula03.R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona 2021.1)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bVObtgCFISs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/DZ4PzyY5YYg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xlmWSTrp_SI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+--&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;Aula 5 (30/08 e 01/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 2  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: Em sala!  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1IAmDa7quaUwhRW7UDNUTjSsQlbXs5knlHi4F1P0BMHw/edit?usp=sharing)  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!-- - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!-- - [Curso R](courses/cursor/) --&gt;
+&lt;!-- - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (Aula assíncrona 2021.1) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/DZ4PzyY5YYg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;br/&gt; --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;Aula 6 (02/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de posição  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 06]()  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP03-2022-2---Medidas-de-posio-e1nu48g&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Plano de aula  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!-- - [Capítulo 3: *Medidas de Posição*](https://bendeivide.github.io/book-epaec/chap-mp.html) --&gt;
+&lt;!-- - [Estatística e Probabilidade (Ensino --&gt;
+&lt;!--     Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!-- - [Curso R](courses/cursor/) --&gt;
+&lt;!-- - Exercícios Propostos ([Cap. 3](https://bendeivide.github.io/book-epaec/chap-mp.html#exerc%C3%ADcios-propostos-2) --&gt;
+&lt;!-- - [Exercícios --&gt;
+&lt;!--     resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica 2021.2 (Aula assíncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s-yrirgOA8A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.2 (Aula assíncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/7V34LUYrlxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;br/&gt; --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;Aula 7 (06-09/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 3  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: Aula 07  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Plano de aula  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!--  - [Estatística e Probabilidade (Ensino --&gt;
+&lt;!--     Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!--  - [Curso R](courses/cursor/) --&gt;
+&lt;!--  - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.2 (Aula assíncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/l2yBewnBkdE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;Aula 8 (09/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de dispersão --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: [Aula 08]() --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1oTE0jEAYka92PmYh7EjV630D49iP4lepKyF9BdI7ljw/edit?usp=sharing) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!--    - [Curso R](courses/cursor/) --&gt;
+&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.1 (Aula síncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s-yrirgOA8A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+  &lt;summary&gt;Aula 9 (13-15/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão  sobre Medidas de dispersão e revisão sobre os Caps. 1, 2, 3 e 4 --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: [Aula 09]() --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/12Qnz-AhPkRriqlpYFQWA5S8EAprTA3QrY0VQ5M3Tj_I/edit?usp=sharing) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!--    - [Curso R](courses/cursor/) --&gt;
+&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.2 (Aula síncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/UaHIdoTk2mI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.1 (Aula síncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/7V34LUYrlxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+  &lt;summary&gt;Aula 10 (16/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Prova! --&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+  &lt;summary&gt;Aula 11  (20-22/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Probabilidades (Parte I) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 11](/slides/estprob/s11/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1XMB0GMtU_zm7hS4qQgHodmPiRJWZt-yhbva6N7OGP4E/edit?usp=sharing) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!--    - [Curso R](courses/cursor/) --&gt;
+&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Hp27xiGDTy0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+  &lt;summary&gt;Aula 12  (23/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Probabilidades (Parte II) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 12](/slides/estprob/s12/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1saAcZYSVLoMT6azuxZlHVb5Aj2rzpo-B-rg0r4gEXKY/edit?usp=sharing) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!--    - [Curso R](courses/cursor/) --&gt;
+&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Hp27xiGDTy0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+  &lt;summary&gt;Aula 13  (27-29/09/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Revisão/exercícios sobre Probabilidades --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 13]() --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula]() --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!--    - [Curso R](courses/cursor/) --&gt;
+&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/NrwKFwsDNbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/UpevhEkRaoE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
+  &lt;summary&gt;Aula 26  (15-16/06/2022)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Teoria da Estimação --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação:  --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula]() --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!--    - [Curso R](courses/cursor/) --&gt;
+&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/wOePk5UupBY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos (Aula assíncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hsFQ2MEZYIY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;br/&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos (Aula assíncrona) --&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/wk46c8ocOew&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
+  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+  &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
     
     <item>
       <title>📚 Ensino normal 2023.1</title>
@@ -809,658 +1465,6 @@ resolvidos&lt;/a&gt;&lt;/p&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
-  &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>📚 Ensino normal 2023.1</title>
-      <link>http://bendeivide.github.io/courses/profmat-probest/normal/</link>
-      <pubDate>Fri, 17 Mar 2023 16:51:29 +0000</pubDate>
-      <guid>http://bendeivide.github.io/courses/profmat-probest/normal/</guid>
-      <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
-pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática em Rede Nacional, campus Alto Paraopeba
-(&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
-&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
-&lt;p&gt;A Natureza da estatística. Tratamento da informação. Distribuições de frequência e gráficos. Medidas. Conceitos básicos em probabilidade. Probabilidade condicional e Independência. Variáveis aleatórias discretas e contínuas. Função de distribuição acumulada. Esperança e variância de variáveis aleatórias. Modelos Bernoulli, binomial e geométrico. Modelo uniforme e modelo normal. Distribuição assintótica da média amostral. Introdução à inferência estatística.&lt;/p&gt;
-&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
-Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de
-Engenharia do campus.&lt;/li&gt;
-&lt;li&gt;Todas as nossas estão gravadas:
-&lt;ul&gt;
-&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Período:&lt;/li&gt;
-&lt;li&gt;Aulas presenciais:
-&lt;ul&gt;
-&lt;li&gt;PROFMAT (Sala 202.6):
-&lt;ul&gt;
-&lt;li&gt;sexta-feira (09:00 - 11:00)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;cronograma&#34;&gt;Cronograma&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
-aulas&lt;/a&gt;:
-&lt;div class=&#34;responsive-wrap&#34;&gt;
-      &lt;iframe src=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;grupo-de-whatsapp&#34;&gt;Grupo de Whatsapp&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;turma-para-criação-do-livro&#34;&gt;Turma para criação do livro&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/users/bendeivide/projects/2/views/1?layout=board&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;preenchimento-de-dados-para-as-avaliações&#34;&gt;Preenchimento de dados para as avaliações&lt;/h2&gt;
-&lt;!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) --&gt;
-&lt;!-- - [Formulário - Engenharia de Telecomunicações](https://forms.gle/SyBkB5jqSJkv4eVm9) --&gt;
-&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
-&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
-CAP/UFSJ&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
-  &lt;p&gt;&lt;ol&gt;
-&lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
-&lt;li&gt;Tabelas e gráficos&lt;/li&gt;
-&lt;li&gt;Medidas de posição&lt;/li&gt;
-&lt;li&gt;Medidas de dispersão e desenho esquemático (Box Plot)&lt;/li&gt;
-&lt;li&gt;Probabilidade: conceitos básicos, definições e propriedades&lt;/li&gt;
-&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade total e teorema de
-Bayes&lt;/li&gt;
-&lt;li&gt;Função e distribuição de probabilidade de uma variável aleatória discreta&lt;/li&gt;
-&lt;li&gt;Características numéricas de uma variável aleatória discreta&lt;/li&gt;
-&lt;li&gt;Função densidade de probabilidade de uma variável aleatória contínua&lt;/li&gt;
-&lt;li&gt;Características numéricas de uma variável aleatória contínua&lt;/li&gt;
-&lt;li&gt;Principais modelos probabilísticos discretos: uniforme, Bernoulli, binomial, geométrico,
-Poisson e hipergeométrico&lt;/li&gt;
-&lt;li&gt;Modelos probabilísticos contínuos. Principais modelos probabilísticos contínuos: uniforme,
-exponencial e normal&lt;/li&gt;
-&lt;li&gt;Teorema central do limite&lt;/li&gt;
-&lt;li&gt;Aproximação da distribuição binomial pela normal&lt;/li&gt;
-&lt;li&gt;Introdução à inferência estatística: primeiras ideias; propriedades dos estimadores&lt;/li&gt;
-&lt;li&gt;Erro quadrático médio e erro absoluto de estimação&lt;/li&gt;
-&lt;li&gt;Estimação pontual de parâmetros: estimadores de momentos; estimadores de mínimos
-quadrados&lt;/li&gt;
-&lt;li&gt;Estimadores de máxima verossimilhança&lt;/li&gt;
-&lt;li&gt;Distribuição amostral da média e proporção; dimensionamento da amostra&lt;/li&gt;
-&lt;li&gt;Intervalo de confiança para a média populacional e para proporção populacional&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
-&lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
-aulas serão expositivas e dialogadas com os alunos presencialmente ou
-via portal didático, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Motivação:
-&lt;ul&gt;
-&lt;li&gt;Levantamento do conhecimento prévio dos alunos em relação ao
-tema;&lt;/li&gt;
-&lt;li&gt;Apresentação de algumas situações práticas para a compreensão
-dos tópicos a serem abordados;&lt;/li&gt;
-&lt;li&gt;Exposição dos objetivos da aula.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Desenvolvimento:
-&lt;ul&gt;
-&lt;li&gt;Introdução ao assunto abordado;&lt;/li&gt;
-&lt;li&gt;Apresentação de definições e teoremas envolvidos;&lt;/li&gt;
-&lt;li&gt;Aplicação de softwares estatísticos, quando for pertinente;&lt;/li&gt;
-&lt;li&gt;Exemplos e aplicações na estatística e área do curso, do assunto
-abordado.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;3 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 72h**.&lt;/p&gt;
-&lt;p&gt;Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
-&lt;!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) --&gt;
-&lt;!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1ª Avaliação - Tópicos 1, 2, 3, 4, 5, 6 - 30 pontos;&lt;/li&gt;
-&lt;li&gt;2ª Avaliação - Tópicos 7, 8, 9, 10, 11, 12, 13, 14 - 30 pontos;&lt;/li&gt;
-&lt;li&gt;3ª Avaliação - Tópicos 15, 16, 17, 18, 19, 20 - 40 pontos;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- - Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos; --&gt;
-&lt;p&gt;Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o &lt;a href=&#34;http://bendeivide.github.io/project/ProjAPE&#34;&gt;Aprender por ensinar&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/LEEM&#34;&gt;LEEM&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/statscience&#34;&gt;statscience&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/RapidinhasR&#34;&gt;Rapidinhas do R&lt;/a&gt;, dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina.&lt;/p&gt;
-&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações.&lt;/p&gt;
-&lt;p&gt;O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria.&lt;/p&gt;
-&lt;p&gt;A perda de alguma avaliação deverá ser apresentado justificativa. Observações:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID;&lt;/li&gt;
-&lt;li&gt;Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica;&lt;/li&gt;
-&lt;li&gt;Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas;&lt;/li&gt;
-&lt;li&gt;Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!--
-## Como as provas serão corrigidas?
-
--   &lt;a href=&#34;http://bendeivide.github.io/media/critprova.pdf&#34; target=&#34;_blank&#34;&gt;Critérios de
-    avaliação&lt;/a&gt;
-
-## Contrato {#contrato}
-
-Contrato feito para a disciplina de Estatística e Probabilidade, como
-meio de substituir as avaliações tradicionais para uso de metodologias
-ativas como método de avaliação. Paralelo a disciplina, o aluno irá
-acompanhando as aulas e desenvolvendo demandas semanais, como forma de
-ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
-semana o aluno é acompanhado e avaliado pelo professor.
-
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
-  &lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Carregando…&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/details&gt;
---&gt;
-&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
-  &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&amp;amp;url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&amp;amp;usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. &lt;strong&gt;Análise combinatória e probabilidade&lt;/strong&gt;. SBM, 2005 (Capítulo 5).&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;BUSSABW, MORETTIN, W. &lt;strong&gt;Estatística básica&lt;/strong&gt;. Editora Saraiva, 2010.&lt;/li&gt;
-&lt;li&gt;PINHEIRO, R; CUNHA, G. &lt;strong&gt;Probabilidade e estatística&lt;/strong&gt;: quantificando a incerteza. Editora Campus, 2012.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;matadotado&#34;&gt;Material adotado&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
-  &lt;summary&gt;Materiais complementares&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://leg.ufpr.br/~paulojus/estbas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://github.com/talesjfer/Apostila-Estatistica-Aplicada&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estimação Estatística (Assis, et. al. 2021)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução à estatística com R (Eric Ferreira &amp;amp; Marcelo Oliveira )&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria &amp;amp; João Parga)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canal Ciência Estatística&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://editorapantanal.com.br/ebooks/2023/probabilidade-e-estatistica-exercicios/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade: Exercícios (Assis et. al., 2023)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
-  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Os programas necessários:
-&lt;ul&gt;
-&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Studio&lt;/a&gt;
-OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
-  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
-  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
-  &lt;summary&gt;Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
-  &lt;summary&gt;Aula 1 (17/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Apresentação do curso&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação:
-&lt;a href=&#34;http://bendeivide.github.io/slides/profmat-est/s01/&#34; target=&#34;_blank&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/cursor/&#34; target=&#34;_blank&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/TqnAYt89ElI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!--
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;Aula 2 (10/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da estatística e técnicas de somatório&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s02/&#34; target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/cursor/&#34; target=&#34;_blank&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (ER 2022.1)&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/0KPuZplRwtU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/ozgmfZGkE8k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/br&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-
-
-
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
-  &lt;summary&gt;Aula 3 (15/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Coleta, organização e apresentação de dados&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s03/&#34; target=&#34;_blank&#34;&gt;Aula 03&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP02-2022-2---Coleta--organizao-e-apresentao-de-dados-e1ngk7b&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Notas de aula&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;&gt;Estatística e Probabilidade (Ensino
-Remoto)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;&gt;Exercícios
-resolvidos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Scripts
-&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/r-scripts/epaec/aula03/aula03.R&#34; target=&#34;_blank&#34;&gt;Aula03.R&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona 2021.1)&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/bVObtgCFISs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/DZ4PzyY5YYg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;br/&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/xlmWSTrp_SI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/br&gt;
-&lt;/p&gt;
-&lt;/details&gt;
---&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
-  &lt;summary&gt;Aula 5 (30/08 e 01/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 2  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: Em sala!  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1IAmDa7quaUwhRW7UDNUTjSsQlbXs5knlHi4F1P0BMHw/edit?usp=sharing)  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!-- - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!-- - [Curso R](courses/cursor/) --&gt;
-&lt;!-- - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (Aula assíncrona 2021.1) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/DZ4PzyY5YYg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;br/&gt; --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
-  &lt;summary&gt;Aula 6 (02/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de posição  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 06]()  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
-&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP03-2022-2---Medidas-de-posio-e1nu48g&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt; --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Plano de aula  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!-- - [Capítulo 3: *Medidas de Posição*](https://bendeivide.github.io/book-epaec/chap-mp.html) --&gt;
-&lt;!-- - [Estatística e Probabilidade (Ensino --&gt;
-&lt;!--     Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!-- - [Curso R](courses/cursor/) --&gt;
-&lt;!-- - Exercícios Propostos ([Cap. 3](https://bendeivide.github.io/book-epaec/chap-mp.html#exerc%C3%ADcios-propostos-2) --&gt;
-&lt;!-- - [Exercícios --&gt;
-&lt;!--     resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica 2021.2 (Aula assíncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/s-yrirgOA8A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/br&gt; --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.2 (Aula assíncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/7V34LUYrlxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;br/&gt; --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
-  &lt;summary&gt;Aula 7 (06-09/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão do Capítulo 3  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: Aula 07  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Plano de aula  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!--  - [Estatística e Probabilidade (Ensino --&gt;
-&lt;!--     Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!--  - [Curso R](courses/cursor/) --&gt;
-&lt;!--  - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- &lt;/br&gt; --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.2 (Aula assíncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/l2yBewnBkdE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
-  &lt;summary&gt;Aula 8 (09/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de dispersão --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: [Aula 08]() --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1oTE0jEAYka92PmYh7EjV630D49iP4lepKyF9BdI7ljw/edit?usp=sharing) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!--    - [Curso R](courses/cursor/) --&gt;
-&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.1 (Aula síncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/s-yrirgOA8A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
-  &lt;summary&gt;Aula 9 (13-15/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Exercícios/Revisão  sobre Medidas de dispersão e revisão sobre os Caps. 1, 2, 3 e 4 --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Notas de aula: [Aula 09]() --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/12Qnz-AhPkRriqlpYFQWA5S8EAprTA3QrY0VQ5M3Tj_I/edit?usp=sharing) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!--    - [Curso R](courses/cursor/) --&gt;
-&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.2 (Aula síncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/UaHIdoTk2mI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos 2021.1 (Aula síncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/7V34LUYrlxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
-  &lt;summary&gt;Aula 10 (16/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- Prova! --&gt;
-&lt;!--&lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
-  &lt;summary&gt;Aula 11  (20-22/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Probabilidades (Parte I) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 11](/slides/estprob/s11/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1XMB0GMtU_zm7hS4qQgHodmPiRJWZt-yhbva6N7OGP4E/edit?usp=sharing) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!--    - [Curso R](courses/cursor/) --&gt;
-&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/Hp27xiGDTy0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
-  &lt;summary&gt;Aula 12  (23/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Probabilidades (Parte II) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 12](/slides/estprob/s12/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula](https://docs.google.com/document/d/1saAcZYSVLoMT6azuxZlHVb5Aj2rzpo-B-rg0r4gEXKY/edit?usp=sharing) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!--    - [Curso R](courses/cursor/) --&gt;
-&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/Hp27xiGDTy0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
-  &lt;summary&gt;Aula 13  (27-29/09/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Revisão/exercícios sobre Probabilidades --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula 13]() --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula]() --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!--    - [Curso R](courses/cursor/) --&gt;
-&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/NrwKFwsDNbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/UpevhEkRaoE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
-  &lt;summary&gt;Aula 26  (15-16/06/2022)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Teoria da Estimação --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação:  --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de aula]() --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
-&lt;!--    - [Estatística e Probabilidade (Ensino Remoto)](/courses/epaec/remoto/) --&gt;
-&lt;!--    - [Curso R](courses/cursor/) --&gt;
-&lt;!--    - [Exercícios resolvidos](/courses/epaec/exerresolvidos/) --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/wOePk5UupBY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/br&gt; --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos (Aula assíncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/hsFQ2MEZYIY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;br/&gt; --&gt;
-&lt;!-- 
-  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica e de exercícios resolvidos (Aula assíncrona) --&gt;
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/wk46c8ocOew&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;/p&gt;
-&lt;/details&gt; --&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
-  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
-  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
@@ -6058,6 +6062,1784 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title></title>
+      <link>http://bendeivide.github.io/slides/rbasico/apresentacao/apres_files/libs/revealjs/plugin/notes/speaker-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/rbasico/apresentacao/apres_files/libs/revealjs/plugin/notes/speaker-view/</guid>
+      <description>
+&lt;html lang=&#34;en&#34;&gt;
+	&lt;head&gt;
+		&lt;meta charset=&#34;utf-8&#34;&gt;
+
+		&lt;title&gt;reveal.js - Speaker View&lt;/title&gt;
+
+		&lt;style&gt;
+			body {
+				font-family: Helvetica;
+				font-size: 18px;
+			}
+
+			#current-slide,
+			#upcoming-slide,
+			#speaker-controls {
+				padding: 6px;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+			}
+
+			#current-slide iframe,
+			#upcoming-slide iframe {
+				width: 100%;
+				height: 100%;
+				border: 1px solid #ddd;
+			}
+
+			#current-slide .label,
+			#upcoming-slide .label {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				z-index: 2;
+			}
+
+			#connection-status {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 20;
+				padding: 30% 20% 20% 20%;
+				font-size: 18px;
+				color: #222;
+				background: #fff;
+				text-align: center;
+				box-sizing: border-box;
+				line-height: 1.4;
+			}
+
+			.overlay-element {
+				height: 34px;
+				line-height: 34px;
+				padding: 0 10px;
+				text-shadow: none;
+				background: rgba( 220, 220, 220, 0.8 );
+				color: #222;
+				font-size: 14px;
+			}
+
+			.overlay-element.interactive:hover {
+				background: rgba( 220, 220, 220, 1 );
+			}
+
+			#current-slide {
+				position: absolute;
+				width: 60%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				padding-right: 0;
+			}
+
+			#upcoming-slide {
+				position: absolute;
+				width: 40%;
+				height: 40%;
+				right: 0;
+				top: 0;
+			}
+
+			/* Speaker controls */
+			#speaker-controls {
+				position: absolute;
+				top: 40%;
+				right: 0;
+				width: 40%;
+				height: 60%;
+				overflow: auto;
+				font-size: 18px;
+			}
+
+				.speaker-controls-time.hidden,
+				.speaker-controls-notes.hidden {
+					display: none;
+				}
+
+				.speaker-controls-time .label,
+				.speaker-controls-pace .label,
+				.speaker-controls-notes .label {
+					text-transform: uppercase;
+					font-weight: normal;
+					font-size: 0.66em;
+					color: #666;
+					margin: 0;
+				}
+
+				.speaker-controls-time, .speaker-controls-pace {
+					border-bottom: 1px solid rgba( 200, 200, 200, 0.5 );
+					margin-bottom: 10px;
+					padding: 10px 16px;
+					padding-bottom: 20px;
+					cursor: pointer;
+				}
+
+				.speaker-controls-time .reset-button {
+					opacity: 0;
+					float: right;
+					color: #666;
+					text-decoration: none;
+				}
+				.speaker-controls-time:hover .reset-button {
+					opacity: 1;
+				}
+
+				.speaker-controls-time .timer,
+				.speaker-controls-time .clock {
+					width: 50%;
+				}
+
+				.speaker-controls-time .timer,
+				.speaker-controls-time .clock,
+				.speaker-controls-time .pacing .hours-value,
+				.speaker-controls-time .pacing .minutes-value,
+				.speaker-controls-time .pacing .seconds-value {
+					font-size: 1.9em;
+				}
+
+				.speaker-controls-time .timer {
+					float: left;
+				}
+
+				.speaker-controls-time .clock {
+					float: right;
+					text-align: right;
+				}
+
+				.speaker-controls-time span.mute {
+					opacity: 0.3;
+				}
+
+				.speaker-controls-time .pacing-title {
+					margin-top: 5px;
+				}
+
+				.speaker-controls-time .pacing.ahead {
+					color: blue;
+				}
+
+				.speaker-controls-time .pacing.on-track {
+					color: green;
+				}
+
+				.speaker-controls-time .pacing.behind {
+					color: red;
+				}
+
+				.speaker-controls-notes {
+					padding: 10px 16px;
+				}
+
+				.speaker-controls-notes .value {
+					margin-top: 5px;
+					line-height: 1.4;
+					font-size: 1.2em;
+				}
+
+			/* Layout selector */
+			#speaker-layout {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				color: #222;
+				z-index: 10;
+			}
+				#speaker-layout select {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					border: 0;
+					box-shadow: 0;
+					cursor: pointer;
+					opacity: 0;
+
+					font-size: 1em;
+					background-color: transparent;
+
+					-moz-appearance: none;
+					-webkit-appearance: none;
+					-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+				}
+
+				#speaker-layout select:focus {
+					outline: none;
+					box-shadow: none;
+				}
+
+			.clear {
+				clear: both;
+			}
+
+			/* Speaker layout: Wide */
+			body[data-speaker-layout=&#34;wide&#34;] #current-slide,
+			body[data-speaker-layout=&#34;wide&#34;] #upcoming-slide {
+				width: 50%;
+				height: 45%;
+				padding: 6px;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #current-slide {
+				top: 0;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #upcoming-slide {
+				top: 0;
+				left: 50%;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #speaker-controls {
+				top: 45%;
+				left: 0;
+				width: 100%;
+				height: 50%;
+				font-size: 1.25em;
+			}
+
+			/* Speaker layout: Tall */
+			body[data-speaker-layout=&#34;tall&#34;] #current-slide,
+			body[data-speaker-layout=&#34;tall&#34;] #upcoming-slide {
+				width: 45%;
+				height: 50%;
+				padding: 6px;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #current-slide {
+				top: 0;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #upcoming-slide {
+				top: 50%;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #speaker-controls {
+				padding-top: 40px;
+				top: 0;
+				left: 45%;
+				width: 55%;
+				height: 100%;
+				font-size: 1.25em;
+			}
+
+			/* Speaker layout: Notes only */
+			body[data-speaker-layout=&#34;notes-only&#34;] #current-slide,
+			body[data-speaker-layout=&#34;notes-only&#34;] #upcoming-slide {
+				display: none;
+			}
+
+			body[data-speaker-layout=&#34;notes-only&#34;] #speaker-controls {
+				padding-top: 40px;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				font-size: 1.25em;
+			}
+
+			@media screen and (max-width: 1080px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 16px;
+				}
+			}
+
+			@media screen and (max-width: 900px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 14px;
+				}
+			}
+
+			@media screen and (max-width: 800px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 12px;
+				}
+			}
+
+		&lt;/style&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+
+		&lt;div id=&#34;connection-status&#34;&gt;Loading speaker view...&lt;/div&gt;
+
+		&lt;div id=&#34;current-slide&#34;&gt;&lt;/div&gt;
+		&lt;div id=&#34;upcoming-slide&#34;&gt;&lt;span class=&#34;overlay-element label&#34;&gt;Upcoming&lt;/span&gt;&lt;/div&gt;
+		&lt;div id=&#34;speaker-controls&#34;&gt;
+			&lt;div class=&#34;speaker-controls-time&#34;&gt;
+				&lt;h4 class=&#34;label&#34;&gt;Time &lt;span class=&#34;reset-button&#34;&gt;Click to Reset&lt;/span&gt;&lt;/h4&gt;
+				&lt;div class=&#34;clock&#34;&gt;
+					&lt;span class=&#34;clock-value&#34;&gt;0:00 AM&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;timer&#34;&gt;
+					&lt;span class=&#34;hours-value&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;minutes-value&#34;&gt;:00&lt;/span&gt;&lt;span class=&#34;seconds-value&#34;&gt;:00&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+				&lt;h4 class=&#34;label pacing-title&#34; style=&#34;display: none&#34;&gt;Pacing – Time to finish current slide&lt;/h4&gt;
+				&lt;div class=&#34;pacing&#34; style=&#34;display: none&#34;&gt;
+					&lt;span class=&#34;hours-value&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;minutes-value&#34;&gt;:00&lt;/span&gt;&lt;span class=&#34;seconds-value&#34;&gt;:00&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&#34;speaker-controls-notes hidden&#34;&gt;
+				&lt;h4 class=&#34;label&#34;&gt;Notes&lt;/h4&gt;
+				&lt;div class=&#34;value&#34;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&#34;speaker-layout&#34; class=&#34;overlay-element interactive&#34;&gt;
+			&lt;span class=&#34;speaker-layout-label&#34;&gt;&lt;/span&gt;
+			&lt;select class=&#34;speaker-layout-dropdown&#34;&gt;&lt;/select&gt;
+		&lt;/div&gt;
+
+		&lt;script&gt;
+
+			(function() {
+
+				var notes,
+					notesValue,
+					currentState,
+					currentSlide,
+					upcomingSlide,
+					layoutLabel,
+					layoutDropdown,
+					pendingCalls = {},
+					lastRevealApiCallId = 0,
+					connected = false,
+					whitelistedWindows = [window.opener];
+
+				var SPEAKER_LAYOUTS = {
+					&#39;default&#39;: &#39;Default&#39;,
+					&#39;wide&#39;: &#39;Wide&#39;,
+					&#39;tall&#39;: &#39;Tall&#39;,
+					&#39;notes-only&#39;: &#39;Notes only&#39;
+				};
+
+				setupLayout();
+
+				var connectionStatus = document.querySelector( &#39;#connection-status&#39; );
+				var connectionTimeout = setTimeout( function() {
+					connectionStatus.innerHTML = &#39;Error connecting to main window.&lt;br&gt;Please try closing and reopening the speaker view.&#39;;
+				}, 5000 );
+;
+				window.addEventListener( &#39;message&#39;, function( event ) {
+
+					// Validate the origin of this message to prevent XSS
+					if( window.location.origin !== event.origin &amp;&amp; whitelistedWindows.indexOf( event.source ) === -1 ) {
+						return;
+					}
+
+					clearTimeout( connectionTimeout );
+					connectionStatus.style.display = &#39;none&#39;;
+
+					var data = JSON.parse( event.data );
+
+					// The overview mode is only useful to the reveal.js instance
+					// where navigation occurs so we don&#39;t sync it
+					if( data.state ) delete data.state.overview;
+
+					// Messages sent by the notes plugin inside of the main window
+					if( data &amp;&amp; data.namespace === &#39;reveal-notes&#39; ) {
+						if( data.type === &#39;connect&#39; ) {
+							handleConnectMessage( data );
+						}
+						else if( data.type === &#39;state&#39; ) {
+							handleStateMessage( data );
+						}
+						else if( data.type === &#39;return&#39; ) {
+							pendingCalls[data.callId](data.result);
+							delete pendingCalls[data.callId];
+						}
+					}
+					// Messages sent by the reveal.js inside of the current slide preview
+					else if( data &amp;&amp; data.namespace === &#39;reveal&#39; ) {
+						if( /ready/.test( data.eventName ) ) {
+							// Send a message back to notify that the handshake is complete
+							window.opener.postMessage( JSON.stringify({ namespace: &#39;reveal-notes&#39;, type: &#39;connected&#39;} ), &#39;*&#39; );
+						}
+						else if( /slidechanged|fragmentshown|fragmenthidden|paused|resumed/.test( data.eventName ) &amp;&amp; currentState !== JSON.stringify( data.state ) ) {
+
+							dispatchStateToMainWindow( data.state );
+
+						}
+					}
+
+				} );
+
+				/**
+				 * Updates the presentation in the main window to match the state
+				 * of the presentation in the notes window.
+				 */
+				const dispatchStateToMainWindow = debounce(( state ) =&gt; {
+					window.opener.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ state ]} ), &#39;*&#39; );
+				}, 500);
+
+				/**
+				 * Asynchronously calls the Reveal.js API of the main frame.
+				 */
+				function callRevealApi( methodName, methodArguments, callback ) {
+
+					var callId = ++lastRevealApiCallId;
+					pendingCalls[callId] = callback;
+					window.opener.postMessage( JSON.stringify( {
+						namespace: &#39;reveal-notes&#39;,
+						type: &#39;call&#39;,
+						callId: callId,
+						methodName: methodName,
+						arguments: methodArguments
+					} ), &#39;*&#39; );
+
+				}
+
+				/**
+				 * Called when the main window is trying to establish a
+				 * connection.
+				 */
+				function handleConnectMessage( data ) {
+
+					if( connected === false ) {
+						connected = true;
+
+						setupIframes( data );
+						setupKeyboard();
+						setupNotes();
+						setupTimer();
+						setupHeartbeat();
+					}
+
+				}
+
+				/**
+				 * Called when the main window sends an updated state.
+				 */
+				function handleStateMessage( data ) {
+
+					// Store the most recently set state to avoid circular loops
+					// applying the same state
+					currentState = JSON.stringify( data.state );
+
+					// No need for updating the notes in case of fragment changes
+					if ( data.notes ) {
+						notes.classList.remove( &#39;hidden&#39; );
+						notesValue.style.whiteSpace = data.whitespace;
+						if( data.markdown ) {
+							notesValue.innerHTML = marked( data.notes );
+						}
+						else {
+							notesValue.innerHTML = data.notes;
+						}
+					}
+					else {
+						notes.classList.add( &#39;hidden&#39; );
+					}
+
+					// Update the note slides
+					currentSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ data.state ] }), &#39;*&#39; );
+					upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ data.state ] }), &#39;*&#39; );
+					upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;next&#39; }), &#39;*&#39; );
+
+				}
+
+				// Limit to max one state update per X ms
+				handleStateMessage = debounce( handleStateMessage, 200 );
+
+				/**
+				 * Forward keyboard events to the current slide window.
+				 * This enables keyboard events to work even if focus
+				 * isn&#39;t set on the current slide iframe.
+				 *
+				 * Block F5 default handling, it reloads and disconnects
+				 * the speaker notes window.
+				 */
+				function setupKeyboard() {
+
+					document.addEventListener( &#39;keydown&#39;, function( event ) {
+						if( event.keyCode === 116 || ( event.metaKey &amp;&amp; event.keyCode === 82 ) ) {
+							event.preventDefault();
+							return false;
+						}
+						currentSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;triggerKey&#39;, args: [ event.keyCode ] }), &#39;*&#39; );
+					} );
+
+				}
+
+				/**
+				 * Creates the preview iframes.
+				 */
+				function setupIframes( data ) {
+
+					var params = [
+						&#39;receiver&#39;,
+						&#39;progress=false&#39;,
+						&#39;history=false&#39;,
+						&#39;transition=none&#39;,
+						&#39;autoSlide=0&#39;,
+						&#39;backgroundTransition=none&#39;
+					].join( &#39;&amp;&#39; );
+
+					var urlSeparator = /\?/.test(data.url) ? &#39;&amp;&#39; : &#39;?&#39;;
+					var hash = &#39;#/&#39; + data.state.indexh + &#39;/&#39; + data.state.indexv;
+					var currentURL = data.url + urlSeparator + params + &#39;&amp;postMessageEvents=true&#39; + hash;
+					var upcomingURL = data.url + urlSeparator + params + &#39;&amp;controls=false&#39; + hash;
+
+					currentSlide = document.createElement( &#39;iframe&#39; );
+					currentSlide.setAttribute( &#39;width&#39;, 1280 );
+					currentSlide.setAttribute( &#39;height&#39;, 1024 );
+					currentSlide.setAttribute( &#39;src&#39;, currentURL );
+					document.querySelector( &#39;#current-slide&#39; ).appendChild( currentSlide );
+
+					upcomingSlide = document.createElement( &#39;iframe&#39; );
+					upcomingSlide.setAttribute( &#39;width&#39;, 640 );
+					upcomingSlide.setAttribute( &#39;height&#39;, 512 );
+					upcomingSlide.setAttribute( &#39;src&#39;, upcomingURL );
+					document.querySelector( &#39;#upcoming-slide&#39; ).appendChild( upcomingSlide );
+
+					whitelistedWindows.push( currentSlide.contentWindow, upcomingSlide.contentWindow );
+
+				}
+
+				/**
+				 * Setup the notes UI.
+				 */
+				function setupNotes() {
+
+					notes = document.querySelector( &#39;.speaker-controls-notes&#39; );
+					notesValue = document.querySelector( &#39;.speaker-controls-notes .value&#39; );
+
+				}
+
+				/**
+				 * We send out a heartbeat at all times to ensure we can
+				 * reconnect with the main presentation window after reloads.
+				 */
+				function setupHeartbeat() {
+
+					setInterval( () =&gt; {
+						window.opener.postMessage( JSON.stringify({ namespace: &#39;reveal-notes&#39;, type: &#39;heartbeat&#39;} ), &#39;*&#39; );
+					}, 1000 );
+
+				}
+
+				function getTimings( callback ) {
+
+					callRevealApi( &#39;getSlidesAttributes&#39;, [], function ( slideAttributes ) {
+						callRevealApi( &#39;getConfig&#39;, [], function ( config ) {
+							var totalTime = config.totalTime;
+							var minTimePerSlide = config.minimumTimePerSlide || 0;
+							var defaultTiming = config.defaultTiming;
+							if ((defaultTiming == null) &amp;&amp; (totalTime == null)) {
+								callback(null);
+								return;
+							}
+							// Setting totalTime overrides defaultTiming
+							if (totalTime) {
+								defaultTiming = 0;
+							}
+							var timings = [];
+							for ( var i in slideAttributes ) {
+								var slide = slideAttributes[ i ];
+								var timing = defaultTiming;
+								if( slide.hasOwnProperty( &#39;data-timing&#39; )) {
+									var t = slide[ &#39;data-timing&#39; ];
+									timing = parseInt(t);
+									if( isNaN(timing) ) {
+										console.warn(&#34;Could not parse timing &#39;&#34; + t + &#34;&#39; of slide &#34; + i + &#34;; using default of &#34; + defaultTiming);
+										timing = defaultTiming;
+									}
+								}
+								timings.push(timing);
+							}
+							if ( totalTime ) {
+								// After we&#39;ve allocated time to individual slides, we summarize it and
+								// subtract it from the total time
+								var remainingTime = totalTime - timings.reduce( function(a, b) { return a + b; }, 0 );
+								// The remaining time is divided by the number of slides that have 0 seconds
+								// allocated at the moment, giving the average time-per-slide on the remaining slides
+								var remainingSlides = (timings.filter( function(x) { return x == 0 }) ).length
+								var timePerSlide = Math.round( remainingTime / remainingSlides, 0 )
+								// And now we replace every zero-value timing with that average
+								timings = timings.map( function(x) { return (x==0 ? timePerSlide : x) } );
+							}
+							var slidesUnderMinimum = timings.filter( function(x) { return (x &lt; minTimePerSlide) } ).length
+							if ( slidesUnderMinimum ) {
+								message = &#34;The pacing time for &#34; + slidesUnderMinimum + &#34; slide(s) is under the configured minimum of &#34; + minTimePerSlide + &#34; seconds. Check the data-timing attribute on individual slides, or consider increasing the totalTime or minimumTimePerSlide configuration options (or removing some slides).&#34;;
+								alert(message);
+							}
+							callback( timings );
+						} );
+					} );
+
+				}
+
+				/**
+				 * Return the number of seconds allocated for presenting
+				 * all slides up to and including this one.
+				 */
+				function getTimeAllocated( timings, callback ) {
+
+					callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+						var allocated = 0;
+						for (var i in timings.slice(0, currentSlide + 1)) {
+							allocated += timings[i];
+						}
+						callback( allocated );
+					} );
+
+				}
+
+				/**
+				 * Create the timer and clock and start updating them
+				 * at an interval.
+				 */
+				function setupTimer() {
+
+					var start = new Date(),
+					timeEl = document.querySelector( &#39;.speaker-controls-time&#39; ),
+					clockEl = timeEl.querySelector( &#39;.clock-value&#39; ),
+					hoursEl = timeEl.querySelector( &#39;.hours-value&#39; ),
+					minutesEl = timeEl.querySelector( &#39;.minutes-value&#39; ),
+					secondsEl = timeEl.querySelector( &#39;.seconds-value&#39; ),
+					pacingTitleEl = timeEl.querySelector( &#39;.pacing-title&#39; ),
+					pacingEl = timeEl.querySelector( &#39;.pacing&#39; ),
+					pacingHoursEl = pacingEl.querySelector( &#39;.hours-value&#39; ),
+					pacingMinutesEl = pacingEl.querySelector( &#39;.minutes-value&#39; ),
+					pacingSecondsEl = pacingEl.querySelector( &#39;.seconds-value&#39; );
+
+					var timings = null;
+					getTimings( function ( _timings ) {
+
+						timings = _timings;
+						if (_timings !== null) {
+							pacingTitleEl.style.removeProperty(&#39;display&#39;);
+							pacingEl.style.removeProperty(&#39;display&#39;);
+						}
+
+						// Update once directly
+						_updateTimer();
+
+						// Then update every second
+						setInterval( _updateTimer, 1000 );
+
+					} );
+
+
+					function _resetTimer() {
+
+						if (timings == null) {
+							start = new Date();
+							_updateTimer();
+						}
+						else {
+							// Reset timer to beginning of current slide
+							getTimeAllocated( timings, function ( slideEndTimingSeconds ) {
+								var slideEndTiming = slideEndTimingSeconds * 1000;
+								callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+									var currentSlideTiming = timings[currentSlide] * 1000;
+									var previousSlidesTiming = slideEndTiming - currentSlideTiming;
+									var now = new Date();
+									start = new Date(now.getTime() - previousSlidesTiming);
+									_updateTimer();
+								} );
+							} );
+						}
+
+					}
+
+					timeEl.addEventListener( &#39;click&#39;, function() {
+						_resetTimer();
+						return false;
+					} );
+
+					function _displayTime( hrEl, minEl, secEl, time) {
+
+						var sign = Math.sign(time) == -1 ? &#34;-&#34; : &#34;&#34;;
+						time = Math.abs(Math.round(time / 1000));
+						var seconds = time % 60;
+						var minutes = Math.floor( time / 60 ) % 60 ;
+						var hours = Math.floor( time / ( 60 * 60 )) ;
+						hrEl.innerHTML = sign + zeroPadInteger( hours );
+						if (hours == 0) {
+							hrEl.classList.add( &#39;mute&#39; );
+						}
+						else {
+							hrEl.classList.remove( &#39;mute&#39; );
+						}
+						minEl.innerHTML = &#39;:&#39; + zeroPadInteger( minutes );
+						if (hours == 0 &amp;&amp; minutes == 0) {
+							minEl.classList.add( &#39;mute&#39; );
+						}
+						else {
+							minEl.classList.remove( &#39;mute&#39; );
+						}
+						secEl.innerHTML = &#39;:&#39; + zeroPadInteger( seconds );
+					}
+
+					function _updateTimer() {
+
+						var diff, hours, minutes, seconds,
+						now = new Date();
+
+						diff = now.getTime() - start.getTime();
+
+						clockEl.innerHTML = now.toLocaleTimeString( &#39;en-US&#39;, { hour12: true, hour: &#39;2-digit&#39;, minute:&#39;2-digit&#39; } );
+						_displayTime( hoursEl, minutesEl, secondsEl, diff );
+						if (timings !== null) {
+							_updatePacing(diff);
+						}
+
+					}
+
+					function _updatePacing(diff) {
+
+						getTimeAllocated( timings, function ( slideEndTimingSeconds ) {
+							var slideEndTiming = slideEndTimingSeconds * 1000;
+
+							callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+								var currentSlideTiming = timings[currentSlide] * 1000;
+								var timeLeftCurrentSlide = slideEndTiming - diff;
+								if (timeLeftCurrentSlide &lt; 0) {
+									pacingEl.className = &#39;pacing behind&#39;;
+								}
+								else if (timeLeftCurrentSlide &lt; currentSlideTiming) {
+									pacingEl.className = &#39;pacing on-track&#39;;
+								}
+								else {
+									pacingEl.className = &#39;pacing ahead&#39;;
+								}
+								_displayTime( pacingHoursEl, pacingMinutesEl, pacingSecondsEl, timeLeftCurrentSlide );
+							} );
+						} );
+					}
+
+				}
+
+				/**
+				 * Sets up the speaker view layout and layout selector.
+				 */
+				function setupLayout() {
+
+					layoutDropdown = document.querySelector( &#39;.speaker-layout-dropdown&#39; );
+					layoutLabel = document.querySelector( &#39;.speaker-layout-label&#39; );
+
+					// Render the list of available layouts
+					for( var id in SPEAKER_LAYOUTS ) {
+						var option = document.createElement( &#39;option&#39; );
+						option.setAttribute( &#39;value&#39;, id );
+						option.textContent = SPEAKER_LAYOUTS[ id ];
+						layoutDropdown.appendChild( option );
+					}
+
+					// Monitor the dropdown for changes
+					layoutDropdown.addEventListener( &#39;change&#39;, function( event ) {
+
+						setLayout( layoutDropdown.value );
+
+					}, false );
+
+					// Restore any currently persisted layout
+					setLayout( getLayout() );
+
+				}
+
+				/**
+				 * Sets a new speaker view layout. The layout is persisted
+				 * in local storage.
+				 */
+				function setLayout( value ) {
+
+					var title = SPEAKER_LAYOUTS[ value ];
+
+					layoutLabel.innerHTML = &#39;Layout&#39; + ( title ? ( &#39;: &#39; + title ) : &#39;&#39; );
+					layoutDropdown.value = value;
+
+					document.body.setAttribute( &#39;data-speaker-layout&#39;, value );
+
+					// Persist locally
+					if( supportsLocalStorage() ) {
+						window.localStorage.setItem( &#39;reveal-speaker-layout&#39;, value );
+					}
+
+				}
+
+				/**
+				 * Returns the ID of the most recently set speaker layout
+				 * or our default layout if none has been set.
+				 */
+				function getLayout() {
+
+					if( supportsLocalStorage() ) {
+						var layout = window.localStorage.getItem( &#39;reveal-speaker-layout&#39; );
+						if( layout ) {
+							return layout;
+						}
+					}
+
+					// Default to the first record in the layouts hash
+					for( var id in SPEAKER_LAYOUTS ) {
+						return id;
+					}
+
+				}
+
+				function supportsLocalStorage() {
+
+					try {
+						localStorage.setItem(&#39;test&#39;, &#39;test&#39;);
+						localStorage.removeItem(&#39;test&#39;);
+						return true;
+					}
+					catch( e ) {
+						return false;
+					}
+
+				}
+
+				function zeroPadInteger( num ) {
+
+					var str = &#39;00&#39; + parseInt( num );
+					return str.substring( str.length - 2 );
+
+				}
+
+				/**
+				 * Limits the frequency at which a function can be called.
+				 */
+				function debounce( fn, ms ) {
+
+					var lastTime = 0,
+						timeout;
+
+					return function() {
+
+						var args = arguments;
+						var context = this;
+
+						clearTimeout( timeout );
+
+						var timeSinceLastCall = Date.now() - lastTime;
+						if( timeSinceLastCall &gt; ms ) {
+							fn.apply( context, args );
+							lastTime = Date.now();
+						}
+						else {
+							timeout = setTimeout( function() {
+								fn.apply( context, args );
+								lastTime = Date.now();
+							}, ms - timeSinceLastCall );
+						}
+
+					}
+
+				}
+
+			})();
+
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://bendeivide.github.io/slides/rbasico/apresentacao/index_files/libs/revealjs/plugin/notes/speaker-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/rbasico/apresentacao/index_files/libs/revealjs/plugin/notes/speaker-view/</guid>
+      <description>
+&lt;html lang=&#34;en&#34;&gt;
+	&lt;head&gt;
+		&lt;meta charset=&#34;utf-8&#34;&gt;
+
+		&lt;title&gt;reveal.js - Speaker View&lt;/title&gt;
+
+		&lt;style&gt;
+			body {
+				font-family: Helvetica;
+				font-size: 18px;
+			}
+
+			#current-slide,
+			#upcoming-slide,
+			#speaker-controls {
+				padding: 6px;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+			}
+
+			#current-slide iframe,
+			#upcoming-slide iframe {
+				width: 100%;
+				height: 100%;
+				border: 1px solid #ddd;
+			}
+
+			#current-slide .label,
+			#upcoming-slide .label {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				z-index: 2;
+			}
+
+			#connection-status {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 20;
+				padding: 30% 20% 20% 20%;
+				font-size: 18px;
+				color: #222;
+				background: #fff;
+				text-align: center;
+				box-sizing: border-box;
+				line-height: 1.4;
+			}
+
+			.overlay-element {
+				height: 34px;
+				line-height: 34px;
+				padding: 0 10px;
+				text-shadow: none;
+				background: rgba( 220, 220, 220, 0.8 );
+				color: #222;
+				font-size: 14px;
+			}
+
+			.overlay-element.interactive:hover {
+				background: rgba( 220, 220, 220, 1 );
+			}
+
+			#current-slide {
+				position: absolute;
+				width: 60%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				padding-right: 0;
+			}
+
+			#upcoming-slide {
+				position: absolute;
+				width: 40%;
+				height: 40%;
+				right: 0;
+				top: 0;
+			}
+
+			/* Speaker controls */
+			#speaker-controls {
+				position: absolute;
+				top: 40%;
+				right: 0;
+				width: 40%;
+				height: 60%;
+				overflow: auto;
+				font-size: 18px;
+			}
+
+				.speaker-controls-time.hidden,
+				.speaker-controls-notes.hidden {
+					display: none;
+				}
+
+				.speaker-controls-time .label,
+				.speaker-controls-pace .label,
+				.speaker-controls-notes .label {
+					text-transform: uppercase;
+					font-weight: normal;
+					font-size: 0.66em;
+					color: #666;
+					margin: 0;
+				}
+
+				.speaker-controls-time, .speaker-controls-pace {
+					border-bottom: 1px solid rgba( 200, 200, 200, 0.5 );
+					margin-bottom: 10px;
+					padding: 10px 16px;
+					padding-bottom: 20px;
+					cursor: pointer;
+				}
+
+				.speaker-controls-time .reset-button {
+					opacity: 0;
+					float: right;
+					color: #666;
+					text-decoration: none;
+				}
+				.speaker-controls-time:hover .reset-button {
+					opacity: 1;
+				}
+
+				.speaker-controls-time .timer,
+				.speaker-controls-time .clock {
+					width: 50%;
+				}
+
+				.speaker-controls-time .timer,
+				.speaker-controls-time .clock,
+				.speaker-controls-time .pacing .hours-value,
+				.speaker-controls-time .pacing .minutes-value,
+				.speaker-controls-time .pacing .seconds-value {
+					font-size: 1.9em;
+				}
+
+				.speaker-controls-time .timer {
+					float: left;
+				}
+
+				.speaker-controls-time .clock {
+					float: right;
+					text-align: right;
+				}
+
+				.speaker-controls-time span.mute {
+					opacity: 0.3;
+				}
+
+				.speaker-controls-time .pacing-title {
+					margin-top: 5px;
+				}
+
+				.speaker-controls-time .pacing.ahead {
+					color: blue;
+				}
+
+				.speaker-controls-time .pacing.on-track {
+					color: green;
+				}
+
+				.speaker-controls-time .pacing.behind {
+					color: red;
+				}
+
+				.speaker-controls-notes {
+					padding: 10px 16px;
+				}
+
+				.speaker-controls-notes .value {
+					margin-top: 5px;
+					line-height: 1.4;
+					font-size: 1.2em;
+				}
+
+			/* Layout selector */
+			#speaker-layout {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				color: #222;
+				z-index: 10;
+			}
+				#speaker-layout select {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					border: 0;
+					box-shadow: 0;
+					cursor: pointer;
+					opacity: 0;
+
+					font-size: 1em;
+					background-color: transparent;
+
+					-moz-appearance: none;
+					-webkit-appearance: none;
+					-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+				}
+
+				#speaker-layout select:focus {
+					outline: none;
+					box-shadow: none;
+				}
+
+			.clear {
+				clear: both;
+			}
+
+			/* Speaker layout: Wide */
+			body[data-speaker-layout=&#34;wide&#34;] #current-slide,
+			body[data-speaker-layout=&#34;wide&#34;] #upcoming-slide {
+				width: 50%;
+				height: 45%;
+				padding: 6px;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #current-slide {
+				top: 0;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #upcoming-slide {
+				top: 0;
+				left: 50%;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #speaker-controls {
+				top: 45%;
+				left: 0;
+				width: 100%;
+				height: 50%;
+				font-size: 1.25em;
+			}
+
+			/* Speaker layout: Tall */
+			body[data-speaker-layout=&#34;tall&#34;] #current-slide,
+			body[data-speaker-layout=&#34;tall&#34;] #upcoming-slide {
+				width: 45%;
+				height: 50%;
+				padding: 6px;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #current-slide {
+				top: 0;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #upcoming-slide {
+				top: 50%;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #speaker-controls {
+				padding-top: 40px;
+				top: 0;
+				left: 45%;
+				width: 55%;
+				height: 100%;
+				font-size: 1.25em;
+			}
+
+			/* Speaker layout: Notes only */
+			body[data-speaker-layout=&#34;notes-only&#34;] #current-slide,
+			body[data-speaker-layout=&#34;notes-only&#34;] #upcoming-slide {
+				display: none;
+			}
+
+			body[data-speaker-layout=&#34;notes-only&#34;] #speaker-controls {
+				padding-top: 40px;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				font-size: 1.25em;
+			}
+
+			@media screen and (max-width: 1080px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 16px;
+				}
+			}
+
+			@media screen and (max-width: 900px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 14px;
+				}
+			}
+
+			@media screen and (max-width: 800px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 12px;
+				}
+			}
+
+		&lt;/style&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+
+		&lt;div id=&#34;connection-status&#34;&gt;Loading speaker view...&lt;/div&gt;
+
+		&lt;div id=&#34;current-slide&#34;&gt;&lt;/div&gt;
+		&lt;div id=&#34;upcoming-slide&#34;&gt;&lt;span class=&#34;overlay-element label&#34;&gt;Upcoming&lt;/span&gt;&lt;/div&gt;
+		&lt;div id=&#34;speaker-controls&#34;&gt;
+			&lt;div class=&#34;speaker-controls-time&#34;&gt;
+				&lt;h4 class=&#34;label&#34;&gt;Time &lt;span class=&#34;reset-button&#34;&gt;Click to Reset&lt;/span&gt;&lt;/h4&gt;
+				&lt;div class=&#34;clock&#34;&gt;
+					&lt;span class=&#34;clock-value&#34;&gt;0:00 AM&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;timer&#34;&gt;
+					&lt;span class=&#34;hours-value&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;minutes-value&#34;&gt;:00&lt;/span&gt;&lt;span class=&#34;seconds-value&#34;&gt;:00&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+				&lt;h4 class=&#34;label pacing-title&#34; style=&#34;display: none&#34;&gt;Pacing – Time to finish current slide&lt;/h4&gt;
+				&lt;div class=&#34;pacing&#34; style=&#34;display: none&#34;&gt;
+					&lt;span class=&#34;hours-value&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;minutes-value&#34;&gt;:00&lt;/span&gt;&lt;span class=&#34;seconds-value&#34;&gt;:00&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&#34;speaker-controls-notes hidden&#34;&gt;
+				&lt;h4 class=&#34;label&#34;&gt;Notes&lt;/h4&gt;
+				&lt;div class=&#34;value&#34;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&#34;speaker-layout&#34; class=&#34;overlay-element interactive&#34;&gt;
+			&lt;span class=&#34;speaker-layout-label&#34;&gt;&lt;/span&gt;
+			&lt;select class=&#34;speaker-layout-dropdown&#34;&gt;&lt;/select&gt;
+		&lt;/div&gt;
+
+		&lt;script&gt;
+
+			(function() {
+
+				var notes,
+					notesValue,
+					currentState,
+					currentSlide,
+					upcomingSlide,
+					layoutLabel,
+					layoutDropdown,
+					pendingCalls = {},
+					lastRevealApiCallId = 0,
+					connected = false,
+					whitelistedWindows = [window.opener];
+
+				var SPEAKER_LAYOUTS = {
+					&#39;default&#39;: &#39;Default&#39;,
+					&#39;wide&#39;: &#39;Wide&#39;,
+					&#39;tall&#39;: &#39;Tall&#39;,
+					&#39;notes-only&#39;: &#39;Notes only&#39;
+				};
+
+				setupLayout();
+
+				var connectionStatus = document.querySelector( &#39;#connection-status&#39; );
+				var connectionTimeout = setTimeout( function() {
+					connectionStatus.innerHTML = &#39;Error connecting to main window.&lt;br&gt;Please try closing and reopening the speaker view.&#39;;
+				}, 5000 );
+;
+				window.addEventListener( &#39;message&#39;, function( event ) {
+
+					// Validate the origin of this message to prevent XSS
+					if( window.location.origin !== event.origin &amp;&amp; whitelistedWindows.indexOf( event.source ) === -1 ) {
+						return;
+					}
+
+					clearTimeout( connectionTimeout );
+					connectionStatus.style.display = &#39;none&#39;;
+
+					var data = JSON.parse( event.data );
+
+					// The overview mode is only useful to the reveal.js instance
+					// where navigation occurs so we don&#39;t sync it
+					if( data.state ) delete data.state.overview;
+
+					// Messages sent by the notes plugin inside of the main window
+					if( data &amp;&amp; data.namespace === &#39;reveal-notes&#39; ) {
+						if( data.type === &#39;connect&#39; ) {
+							handleConnectMessage( data );
+						}
+						else if( data.type === &#39;state&#39; ) {
+							handleStateMessage( data );
+						}
+						else if( data.type === &#39;return&#39; ) {
+							pendingCalls[data.callId](data.result);
+							delete pendingCalls[data.callId];
+						}
+					}
+					// Messages sent by the reveal.js inside of the current slide preview
+					else if( data &amp;&amp; data.namespace === &#39;reveal&#39; ) {
+						if( /ready/.test( data.eventName ) ) {
+							// Send a message back to notify that the handshake is complete
+							window.opener.postMessage( JSON.stringify({ namespace: &#39;reveal-notes&#39;, type: &#39;connected&#39;} ), &#39;*&#39; );
+						}
+						else if( /slidechanged|fragmentshown|fragmenthidden|paused|resumed/.test( data.eventName ) &amp;&amp; currentState !== JSON.stringify( data.state ) ) {
+
+							dispatchStateToMainWindow( data.state );
+
+						}
+					}
+
+				} );
+
+				/**
+				 * Updates the presentation in the main window to match the state
+				 * of the presentation in the notes window.
+				 */
+				const dispatchStateToMainWindow = debounce(( state ) =&gt; {
+					window.opener.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ state ]} ), &#39;*&#39; );
+				}, 500);
+
+				/**
+				 * Asynchronously calls the Reveal.js API of the main frame.
+				 */
+				function callRevealApi( methodName, methodArguments, callback ) {
+
+					var callId = ++lastRevealApiCallId;
+					pendingCalls[callId] = callback;
+					window.opener.postMessage( JSON.stringify( {
+						namespace: &#39;reveal-notes&#39;,
+						type: &#39;call&#39;,
+						callId: callId,
+						methodName: methodName,
+						arguments: methodArguments
+					} ), &#39;*&#39; );
+
+				}
+
+				/**
+				 * Called when the main window is trying to establish a
+				 * connection.
+				 */
+				function handleConnectMessage( data ) {
+
+					if( connected === false ) {
+						connected = true;
+
+						setupIframes( data );
+						setupKeyboard();
+						setupNotes();
+						setupTimer();
+						setupHeartbeat();
+					}
+
+				}
+
+				/**
+				 * Called when the main window sends an updated state.
+				 */
+				function handleStateMessage( data ) {
+
+					// Store the most recently set state to avoid circular loops
+					// applying the same state
+					currentState = JSON.stringify( data.state );
+
+					// No need for updating the notes in case of fragment changes
+					if ( data.notes ) {
+						notes.classList.remove( &#39;hidden&#39; );
+						notesValue.style.whiteSpace = data.whitespace;
+						if( data.markdown ) {
+							notesValue.innerHTML = marked( data.notes );
+						}
+						else {
+							notesValue.innerHTML = data.notes;
+						}
+					}
+					else {
+						notes.classList.add( &#39;hidden&#39; );
+					}
+
+					// Update the note slides
+					currentSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ data.state ] }), &#39;*&#39; );
+					upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ data.state ] }), &#39;*&#39; );
+					upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;next&#39; }), &#39;*&#39; );
+
+				}
+
+				// Limit to max one state update per X ms
+				handleStateMessage = debounce( handleStateMessage, 200 );
+
+				/**
+				 * Forward keyboard events to the current slide window.
+				 * This enables keyboard events to work even if focus
+				 * isn&#39;t set on the current slide iframe.
+				 *
+				 * Block F5 default handling, it reloads and disconnects
+				 * the speaker notes window.
+				 */
+				function setupKeyboard() {
+
+					document.addEventListener( &#39;keydown&#39;, function( event ) {
+						if( event.keyCode === 116 || ( event.metaKey &amp;&amp; event.keyCode === 82 ) ) {
+							event.preventDefault();
+							return false;
+						}
+						currentSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;triggerKey&#39;, args: [ event.keyCode ] }), &#39;*&#39; );
+					} );
+
+				}
+
+				/**
+				 * Creates the preview iframes.
+				 */
+				function setupIframes( data ) {
+
+					var params = [
+						&#39;receiver&#39;,
+						&#39;progress=false&#39;,
+						&#39;history=false&#39;,
+						&#39;transition=none&#39;,
+						&#39;autoSlide=0&#39;,
+						&#39;backgroundTransition=none&#39;
+					].join( &#39;&amp;&#39; );
+
+					var urlSeparator = /\?/.test(data.url) ? &#39;&amp;&#39; : &#39;?&#39;;
+					var hash = &#39;#/&#39; + data.state.indexh + &#39;/&#39; + data.state.indexv;
+					var currentURL = data.url + urlSeparator + params + &#39;&amp;postMessageEvents=true&#39; + hash;
+					var upcomingURL = data.url + urlSeparator + params + &#39;&amp;controls=false&#39; + hash;
+
+					currentSlide = document.createElement( &#39;iframe&#39; );
+					currentSlide.setAttribute( &#39;width&#39;, 1280 );
+					currentSlide.setAttribute( &#39;height&#39;, 1024 );
+					currentSlide.setAttribute( &#39;src&#39;, currentURL );
+					document.querySelector( &#39;#current-slide&#39; ).appendChild( currentSlide );
+
+					upcomingSlide = document.createElement( &#39;iframe&#39; );
+					upcomingSlide.setAttribute( &#39;width&#39;, 640 );
+					upcomingSlide.setAttribute( &#39;height&#39;, 512 );
+					upcomingSlide.setAttribute( &#39;src&#39;, upcomingURL );
+					document.querySelector( &#39;#upcoming-slide&#39; ).appendChild( upcomingSlide );
+
+					whitelistedWindows.push( currentSlide.contentWindow, upcomingSlide.contentWindow );
+
+				}
+
+				/**
+				 * Setup the notes UI.
+				 */
+				function setupNotes() {
+
+					notes = document.querySelector( &#39;.speaker-controls-notes&#39; );
+					notesValue = document.querySelector( &#39;.speaker-controls-notes .value&#39; );
+
+				}
+
+				/**
+				 * We send out a heartbeat at all times to ensure we can
+				 * reconnect with the main presentation window after reloads.
+				 */
+				function setupHeartbeat() {
+
+					setInterval( () =&gt; {
+						window.opener.postMessage( JSON.stringify({ namespace: &#39;reveal-notes&#39;, type: &#39;heartbeat&#39;} ), &#39;*&#39; );
+					}, 1000 );
+
+				}
+
+				function getTimings( callback ) {
+
+					callRevealApi( &#39;getSlidesAttributes&#39;, [], function ( slideAttributes ) {
+						callRevealApi( &#39;getConfig&#39;, [], function ( config ) {
+							var totalTime = config.totalTime;
+							var minTimePerSlide = config.minimumTimePerSlide || 0;
+							var defaultTiming = config.defaultTiming;
+							if ((defaultTiming == null) &amp;&amp; (totalTime == null)) {
+								callback(null);
+								return;
+							}
+							// Setting totalTime overrides defaultTiming
+							if (totalTime) {
+								defaultTiming = 0;
+							}
+							var timings = [];
+							for ( var i in slideAttributes ) {
+								var slide = slideAttributes[ i ];
+								var timing = defaultTiming;
+								if( slide.hasOwnProperty( &#39;data-timing&#39; )) {
+									var t = slide[ &#39;data-timing&#39; ];
+									timing = parseInt(t);
+									if( isNaN(timing) ) {
+										console.warn(&#34;Could not parse timing &#39;&#34; + t + &#34;&#39; of slide &#34; + i + &#34;; using default of &#34; + defaultTiming);
+										timing = defaultTiming;
+									}
+								}
+								timings.push(timing);
+							}
+							if ( totalTime ) {
+								// After we&#39;ve allocated time to individual slides, we summarize it and
+								// subtract it from the total time
+								var remainingTime = totalTime - timings.reduce( function(a, b) { return a + b; }, 0 );
+								// The remaining time is divided by the number of slides that have 0 seconds
+								// allocated at the moment, giving the average time-per-slide on the remaining slides
+								var remainingSlides = (timings.filter( function(x) { return x == 0 }) ).length
+								var timePerSlide = Math.round( remainingTime / remainingSlides, 0 )
+								// And now we replace every zero-value timing with that average
+								timings = timings.map( function(x) { return (x==0 ? timePerSlide : x) } );
+							}
+							var slidesUnderMinimum = timings.filter( function(x) { return (x &lt; minTimePerSlide) } ).length
+							if ( slidesUnderMinimum ) {
+								message = &#34;The pacing time for &#34; + slidesUnderMinimum + &#34; slide(s) is under the configured minimum of &#34; + minTimePerSlide + &#34; seconds. Check the data-timing attribute on individual slides, or consider increasing the totalTime or minimumTimePerSlide configuration options (or removing some slides).&#34;;
+								alert(message);
+							}
+							callback( timings );
+						} );
+					} );
+
+				}
+
+				/**
+				 * Return the number of seconds allocated for presenting
+				 * all slides up to and including this one.
+				 */
+				function getTimeAllocated( timings, callback ) {
+
+					callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+						var allocated = 0;
+						for (var i in timings.slice(0, currentSlide + 1)) {
+							allocated += timings[i];
+						}
+						callback( allocated );
+					} );
+
+				}
+
+				/**
+				 * Create the timer and clock and start updating them
+				 * at an interval.
+				 */
+				function setupTimer() {
+
+					var start = new Date(),
+					timeEl = document.querySelector( &#39;.speaker-controls-time&#39; ),
+					clockEl = timeEl.querySelector( &#39;.clock-value&#39; ),
+					hoursEl = timeEl.querySelector( &#39;.hours-value&#39; ),
+					minutesEl = timeEl.querySelector( &#39;.minutes-value&#39; ),
+					secondsEl = timeEl.querySelector( &#39;.seconds-value&#39; ),
+					pacingTitleEl = timeEl.querySelector( &#39;.pacing-title&#39; ),
+					pacingEl = timeEl.querySelector( &#39;.pacing&#39; ),
+					pacingHoursEl = pacingEl.querySelector( &#39;.hours-value&#39; ),
+					pacingMinutesEl = pacingEl.querySelector( &#39;.minutes-value&#39; ),
+					pacingSecondsEl = pacingEl.querySelector( &#39;.seconds-value&#39; );
+
+					var timings = null;
+					getTimings( function ( _timings ) {
+
+						timings = _timings;
+						if (_timings !== null) {
+							pacingTitleEl.style.removeProperty(&#39;display&#39;);
+							pacingEl.style.removeProperty(&#39;display&#39;);
+						}
+
+						// Update once directly
+						_updateTimer();
+
+						// Then update every second
+						setInterval( _updateTimer, 1000 );
+
+					} );
+
+
+					function _resetTimer() {
+
+						if (timings == null) {
+							start = new Date();
+							_updateTimer();
+						}
+						else {
+							// Reset timer to beginning of current slide
+							getTimeAllocated( timings, function ( slideEndTimingSeconds ) {
+								var slideEndTiming = slideEndTimingSeconds * 1000;
+								callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+									var currentSlideTiming = timings[currentSlide] * 1000;
+									var previousSlidesTiming = slideEndTiming - currentSlideTiming;
+									var now = new Date();
+									start = new Date(now.getTime() - previousSlidesTiming);
+									_updateTimer();
+								} );
+							} );
+						}
+
+					}
+
+					timeEl.addEventListener( &#39;click&#39;, function() {
+						_resetTimer();
+						return false;
+					} );
+
+					function _displayTime( hrEl, minEl, secEl, time) {
+
+						var sign = Math.sign(time) == -1 ? &#34;-&#34; : &#34;&#34;;
+						time = Math.abs(Math.round(time / 1000));
+						var seconds = time % 60;
+						var minutes = Math.floor( time / 60 ) % 60 ;
+						var hours = Math.floor( time / ( 60 * 60 )) ;
+						hrEl.innerHTML = sign + zeroPadInteger( hours );
+						if (hours == 0) {
+							hrEl.classList.add( &#39;mute&#39; );
+						}
+						else {
+							hrEl.classList.remove( &#39;mute&#39; );
+						}
+						minEl.innerHTML = &#39;:&#39; + zeroPadInteger( minutes );
+						if (hours == 0 &amp;&amp; minutes == 0) {
+							minEl.classList.add( &#39;mute&#39; );
+						}
+						else {
+							minEl.classList.remove( &#39;mute&#39; );
+						}
+						secEl.innerHTML = &#39;:&#39; + zeroPadInteger( seconds );
+					}
+
+					function _updateTimer() {
+
+						var diff, hours, minutes, seconds,
+						now = new Date();
+
+						diff = now.getTime() - start.getTime();
+
+						clockEl.innerHTML = now.toLocaleTimeString( &#39;en-US&#39;, { hour12: true, hour: &#39;2-digit&#39;, minute:&#39;2-digit&#39; } );
+						_displayTime( hoursEl, minutesEl, secondsEl, diff );
+						if (timings !== null) {
+							_updatePacing(diff);
+						}
+
+					}
+
+					function _updatePacing(diff) {
+
+						getTimeAllocated( timings, function ( slideEndTimingSeconds ) {
+							var slideEndTiming = slideEndTimingSeconds * 1000;
+
+							callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+								var currentSlideTiming = timings[currentSlide] * 1000;
+								var timeLeftCurrentSlide = slideEndTiming - diff;
+								if (timeLeftCurrentSlide &lt; 0) {
+									pacingEl.className = &#39;pacing behind&#39;;
+								}
+								else if (timeLeftCurrentSlide &lt; currentSlideTiming) {
+									pacingEl.className = &#39;pacing on-track&#39;;
+								}
+								else {
+									pacingEl.className = &#39;pacing ahead&#39;;
+								}
+								_displayTime( pacingHoursEl, pacingMinutesEl, pacingSecondsEl, timeLeftCurrentSlide );
+							} );
+						} );
+					}
+
+				}
+
+				/**
+				 * Sets up the speaker view layout and layout selector.
+				 */
+				function setupLayout() {
+
+					layoutDropdown = document.querySelector( &#39;.speaker-layout-dropdown&#39; );
+					layoutLabel = document.querySelector( &#39;.speaker-layout-label&#39; );
+
+					// Render the list of available layouts
+					for( var id in SPEAKER_LAYOUTS ) {
+						var option = document.createElement( &#39;option&#39; );
+						option.setAttribute( &#39;value&#39;, id );
+						option.textContent = SPEAKER_LAYOUTS[ id ];
+						layoutDropdown.appendChild( option );
+					}
+
+					// Monitor the dropdown for changes
+					layoutDropdown.addEventListener( &#39;change&#39;, function( event ) {
+
+						setLayout( layoutDropdown.value );
+
+					}, false );
+
+					// Restore any currently persisted layout
+					setLayout( getLayout() );
+
+				}
+
+				/**
+				 * Sets a new speaker view layout. The layout is persisted
+				 * in local storage.
+				 */
+				function setLayout( value ) {
+
+					var title = SPEAKER_LAYOUTS[ value ];
+
+					layoutLabel.innerHTML = &#39;Layout&#39; + ( title ? ( &#39;: &#39; + title ) : &#39;&#39; );
+					layoutDropdown.value = value;
+
+					document.body.setAttribute( &#39;data-speaker-layout&#39;, value );
+
+					// Persist locally
+					if( supportsLocalStorage() ) {
+						window.localStorage.setItem( &#39;reveal-speaker-layout&#39;, value );
+					}
+
+				}
+
+				/**
+				 * Returns the ID of the most recently set speaker layout
+				 * or our default layout if none has been set.
+				 */
+				function getLayout() {
+
+					if( supportsLocalStorage() ) {
+						var layout = window.localStorage.getItem( &#39;reveal-speaker-layout&#39; );
+						if( layout ) {
+							return layout;
+						}
+					}
+
+					// Default to the first record in the layouts hash
+					for( var id in SPEAKER_LAYOUTS ) {
+						return id;
+					}
+
+				}
+
+				function supportsLocalStorage() {
+
+					try {
+						localStorage.setItem(&#39;test&#39;, &#39;test&#39;);
+						localStorage.removeItem(&#39;test&#39;);
+						return true;
+					}
+					catch( e ) {
+						return false;
+					}
+
+				}
+
+				function zeroPadInteger( num ) {
+
+					var str = &#39;00&#39; + parseInt( num );
+					return str.substring( str.length - 2 );
+
+				}
+
+				/**
+				 * Limits the frequency at which a function can be called.
+				 */
+				function debounce( fn, ms ) {
+
+					var lastTime = 0,
+						timeout;
+
+					return function() {
+
+						var args = arguments;
+						var context = this;
+
+						clearTimeout( timeout );
+
+						var timeSinceLastCall = Date.now() - lastTime;
+						if( timeSinceLastCall &gt; ms ) {
+							fn.apply( context, args );
+							lastTime = Date.now();
+						}
+						else {
+							timeout = setTimeout( function() {
+								fn.apply( context, args );
+								lastTime = Date.now();
+							}, ms - timeSinceLastCall );
+						}
+
+					}
+
+				}
+
+			})();
+
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
       <title>Ambiente R  além das análises estatísticas</title>
       <link>http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7110,7 +8892,7 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
     </item>
     
     <item>
-      <title>Aula 02 - História e Instalação do R</title>
+      <title>Aula 02 - Passos iniciais para a utilização do R e do RStudio</title>
       <link>http://bendeivide.github.io/slides/rbasico/slide02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://bendeivide.github.io/slides/rbasico/slide02/</guid>
@@ -7122,7 +8904,7 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
   &gt;
 
 &lt;h1 id=&#34;ear-r-básico&#34;&gt;EAR: R Básico&lt;/h1&gt;
-&lt;p&gt;Aula 02 - Entendendo a coleção Estudando o Ambiente R (EAR)
+&lt;p&gt;Aula 02 - Passos iniciais para a utilização do R e do RStudio
 &lt;/br&gt;
 &lt;/br&gt;
 
@@ -7210,11 +8992,35 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
       data-background-image=&#34;EAR-rbasico-background-02.png&#34;
   &gt;
 
-&lt;h2 id=&#34;objetivo-do-curso&#34;&gt;Objetivo do curso&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;O EAR: R básico &lt;strong&gt;não&lt;/strong&gt; tem como objetivo principal de &lt;strong&gt;ensinar análise de dados&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Mas &lt;strong&gt;sim&lt;/strong&gt;, proporcionar o &lt;strong&gt;conhecimento sobre a linguagem R&lt;/strong&gt; (sintaxe e semântica), de modo que se consiga usufruir todos os recursos da linguagem.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;relembrando-a-aula-anterior&#34;&gt;Relembrando a aula anterior&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp 400w,
+               /slides/rbasico/slide02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_6bda6b5a62566d76d4072feffbfb2d62.webp 760w,
+               /slides/rbasico/slide02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide02/promptr_hu69ee0da2f97395ac428921f37b80459a_472001_9b85968bc29f885dace2270c24039079.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;440&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{width=&amp;ldquo;80%&amp;rdquo;}&lt;/p&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -7223,12 +9029,35 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
       data-background-image=&#34;EAR-rbasico-background-02.png&#34;
   &gt;
 
-&lt;section data-background-iframe=&#34;/courses/ear/rbasico&#34; data-background-interactive&gt;
-	&lt;div style=&#34;position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;&#34;&gt;
-		&lt;h2&gt;Material do curso&lt;/h2&gt;
-		&lt;p&gt;R básico &lt;a href=&#34;https://bendeivide.github.io/&#34;&gt;Ben Dêivide&lt;/a&gt;.&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/section&gt;
+&lt;h2 id=&#34;relembrando-a-aula-anterior-1&#34;&gt;Relembrando a aula anterior&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_331fc9d22477f5928f2c04f7579e6c9c.webp 400w,
+               /slides/rbasico/slide02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_df692b5b51b2b661dd286218b18ebe82.webp 760w,
+               /slides/rbasico/slide02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide02/ide_rstudio_huab3737ec9cc2208441583b4930800e4d_307696_331fc9d22477f5928f2c04f7579e6c9c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;450&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -7277,6 +9106,462 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aula 03 - Hitória do R</title>
+      <link>http://bendeivide.github.io/slides/rbasico/slide03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/rbasico/slide03/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;ear-r-básico&#34;&gt;EAR: R Básico&lt;/h1&gt;
+&lt;p&gt;Aula 03 - Hitória do R
+&lt;/br&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;encarte&#34;&gt;Encarte&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide03/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_47830d7c9a2b739bfcedd5c362b607b1.webp 400w,
+               /slides/rbasico/slide03/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_f18213b9175994807ba29040d04d3575.webp 760w,
+               /slides/rbasico/slide03/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide03/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_47830d7c9a2b739bfcedd5c362b607b1.webp&#34;
+               width=&#34;729&#34;
+               height=&#34;517&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/rbasico/slide03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/rbasico/slide03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide03/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;Criadores do R&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide03/criadores_r_hu062cec55804b866f1052a183e83f78da_846973_b166469d6d018485513b0a2e0d862691.webp 400w,
+               /slides/rbasico/slide03/criadores_r_hu062cec55804b866f1052a183e83f78da_846973_9aebb57b1abc516242fa323cc3d213cd.webp 760w,
+               /slides/rbasico/slide03/criadores_r_hu062cec55804b866f1052a183e83f78da_846973_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide03/criadores_r_hu062cec55804b866f1052a183e83f78da_846973_b166469d6d018485513b0a2e0d862691.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;487&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{width=&amp;ldquo;30%&amp;rdquo;}&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Criadores do R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Em 1991, nasce o projeto da criação do &lt;code&gt;R&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Os Professores da Universidade de Auckland, Nova Zelândia, Robert Gentleman e Ross Ihaka, buscam uma alternativa a linguagem &lt;code&gt;S&lt;/code&gt; para análises estatísticas;&lt;/li&gt;
+&lt;li&gt;Como alternativa a linguagem &lt;code&gt;S&lt;/code&gt;, eles se baseiam na semântica de outra linguagem, &lt;code&gt;Scheme&lt;/code&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;Criadores do R&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Em 1993, o projeto é lançado e em 1995, o como Software livre;&lt;/li&gt;
+&lt;li&gt;Em 1997 é criado o &lt;em&gt;R Core Team&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Em 1997, mas precisamente em 23 de abril, o CRAN (Comprehensive R Archive Network) foi ofialmente lançado;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;versão-100-do-r&#34;&gt;Versão 1.0.0 do &lt;code&gt;R&lt;/code&gt;&lt;/h2&gt;
+&lt;img src=&#34;rversao1.png&#34; width=&#34;40%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;section&gt;
+&lt;h2&gt;O que é o R?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O &lt;code&gt;R&lt;/code&gt; é uma linguagem e ambiente de computação estatística e gráficos (&lt;a href=&#34;http://r-project.org/about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://r-project.org/about&lt;/a&gt;), (&amp;hellip;)
+&lt;ul&gt;
+&lt;li&gt;Baseado no dialeto &lt;code&gt;S&lt;/code&gt; e semântica &lt;code&gt;Scheme&lt;/code&gt; (&lt;a href=&#34;https://bendeivide.github.io/cursor/scripts/script03.txt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Escopo Léxico&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Sintaxe simples e intuitiva;&lt;/li&gt;
+&lt;li&gt;Está disponível como Software livre sob os termos da licença GNU, em forma de código fonte;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;O que é o R?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Linguagem interpretada: &lt;code&gt;S&lt;/code&gt;, &lt;code&gt;C&lt;/code&gt;, &lt;code&gt;C++&lt;/code&gt; e &lt;code&gt;FORTRAN&lt;/code&gt;;
+&lt;ul&gt;
+&lt;li&gt;Análises estatísticas: &lt;code&gt;S&lt;/code&gt; e o próprio &lt;code&gt;R&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Computação intensiva: &lt;code&gt;C&lt;/code&gt;, &lt;code&gt;C++&lt;/code&gt; e &lt;code&gt;FORTRAN&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;Duvidou? Segue o código fonte: &lt;a href=&#34;https://cran.r-project.org/sources.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/sources.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;O que é o R?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O termo &amp;ldquo;ambiente&amp;rdquo; é preferível a software, pois:
+&lt;ul&gt;
+&lt;li&gt;Ambiente: Sistema totalmente planejado e coerente;&lt;/li&gt;
+&lt;li&gt;Software: Incremento de ferramentas muito específicas e inflexíveis;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;mais-sobre-o-r-básico&#34;&gt;Mais sobre o R básico&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Página do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;obrigado&#34;&gt;Obrigado!&lt;/h1&gt;
+&lt;p&gt;Sugestões, perguntas, críticas&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide03/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_9000caf266bfbf38209189728865ff73.webp 400w,
+               /slides/rbasico/slide03/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_242171c7485bfc49da68d8a8bdee0179.webp 760w,
+               /slides/rbasico/slide03/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide03/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_9000caf266bfbf38209189728865ff73.webp&#34;
+               width=&#34;375&#34;
+               height=&#34;266&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aula 04 - Como o R trabalha?</title>
+      <link>http://bendeivide.github.io/slides/rbasico/slide04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/rbasico/slide04/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;ear-r-básico&#34;&gt;EAR: R Básico&lt;/h1&gt;
+&lt;p&gt;Aula 04 - Como o R trabalha?
+&lt;/br&gt;
+&lt;/br&gt;
+
+  &lt;i class=&#34;fas fa-user-tie  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Dêivide&lt;/a&gt; | 
+  &lt;i class=&#34;fas fa-school  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;section data-markdown&gt;
+  &lt;script type=&#34;text/template&#34;&gt;
+    - Item 1 &lt;!-- .element: class=&#34;fragment&#34; data-fragment-index=&#34;2&#34; --&gt;
+    - Item 2 &lt;!-- .element: class=&#34;fragment&#34; data-fragment-index=&#34;1&#34; --&gt;
+  &lt;/script&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;encarte&#34;&gt;Encarte&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide04/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_47830d7c9a2b739bfcedd5c362b607b1.webp 400w,
+               /slides/rbasico/slide04/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_f18213b9175994807ba29040d04d3575.webp 760w,
+               /slides/rbasico/slide04/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide04/EAR-rbasico_hu8fa7adb7e441d01d4507dafd7b8aa4a3_70585_47830d7c9a2b739bfcedd5c362b607b1.webp&#34;
+               width=&#34;729&#34;
+               height=&#34;517&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide04/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp 400w,
+               /slides/rbasico/slide04/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_e3124639f3c96b16d12396d9954194c3.webp 760w,
+               /slides/rbasico/slide04/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide04/SeloDC-branco_huae8c12316a547ca332088bbaf622ec6b_34348_57f4d021c573f1cdb22f5303fccfacd9.webp&#34;
+               width=&#34;385&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 data-background-iframe=&#34;bib.html&#34; id=&#34;livro-de-apoio&#34;&gt;Livro de Apoio&lt;/h2&gt;
+&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide04/hardcover01_hufab7679424d3ef353b3fb05ee6b8a40a_1298031_0302fcf6a0e64bbc4fecb73949d578c5.webp 400w,
+               /slides/rbasico/slide04/hardcover01_hufab7679424d3ef353b3fb05ee6b8a40a_1298031_ce1f5092abeaf1a8926994979a56273e.webp 760w,
+               /slides/rbasico/slide04/hardcover01_hufab7679424d3ef353b3fb05ee6b8a40a_1298031_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide04/hardcover01_hufab7679424d3ef353b3fb05ee6b8a40a_1298031_0302fcf6a0e64bbc4fecb73949d578c5.webp&#34;
+               width=&#34;350&#34;
+               height=&#34;500&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;três-princípios-do-r&#34;&gt;Três princípios do R&lt;/h2&gt;
+&lt;p&gt;Segundo Chambers ^[CHAMBERS, J. M. &lt;strong&gt;Extending R&lt;/strong&gt;. Boca Raton, Florida: Chapman and Hall/CRC, 2016. 364 p. (The R Series).] (2016), o &lt;code&gt;R&lt;/code&gt; tem três princípios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tudo que existe em &lt;code&gt;R&lt;/code&gt; é um objeto;&lt;/li&gt;
+&lt;li&gt;Tudo que acontece no &lt;code&gt;R&lt;/code&gt; é uma chamada de função;&lt;/li&gt;
+&lt;li&gt;Interfaces para outros programas são parte do &lt;code&gt;R&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;mais-sobre-o-r-básico&#34;&gt;Mais sobre o R básico&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Página do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;EAR-rbasico-background-02.png&#34;
+  &gt;
+
+&lt;h1 id=&#34;obrigado&#34;&gt;Obrigado!&lt;/h1&gt;
+&lt;p&gt;Sugestões, perguntas, críticas&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/rbasico/slide04/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_9000caf266bfbf38209189728865ff73.webp 400w,
+               /slides/rbasico/slide04/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_242171c7485bfc49da68d8a8bdee0179.webp 760w,
+               /slides/rbasico/slide04/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/slides/rbasico/slide04/EAR-rbasico02_hu400dfff8b35c1fef08e0a3c0b3275ce1_32858_9000caf266bfbf38209189728865ff73.webp&#34;
+               width=&#34;375&#34;
+               height=&#34;266&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 </description>
     </item>
     
