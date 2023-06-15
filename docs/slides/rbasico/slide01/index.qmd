@@ -1,0 +1,102 @@
+---
+title: "EAR: R Básico"
+subtitle: "Aula 01 - Apresentação do curso"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    theme: dark
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 5 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: visual
+---
+
+## Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+------------------------------------------------------------------------
+
+## Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+------------------------------------------------------------------------
+
+## Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos \@batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "400">
+
+</a>
+
+------------------------------------------------------------------------
+
+## Objetivo do curso {background-image="EAR-rbasico-background-02.png"}
+
+-   O EAR: R básico **não** tem como objetivo principal de **ensinar análise de dados**.
+-   Mas **sim**, proporcionar o **conhecimento sobre a linguagem R** (sintaxe e semântica), de modo que se consiga usufruir todos os recursos da linguagem.
+
+------------------------------------------------------------------------
+
+## {data-background-interactive="true" data-background-iframe="<https://bendeivide.github.io/courses/ear/>"}
+
+Página do curso
+
+------------------------------------------------------------------------
+
+## Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+------------------------------------------------------------------------
+
+## Referências {background-image="EAR-rbasico-background-02.png"}
