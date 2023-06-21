@@ -1,0 +1,344 @@
+---
+title: "EAR: R Básico"
+subtitle: "Aula 08 - Objetos"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+css: hscroll.css
+lang: pt-BR
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: dark
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 5 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: visual
+---
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos \@batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+# Retornando a afirmação de John Chambers{background-image="EAR-rbasico-background-02.png"}
+
+-   **Princípio do Objeto**: Tudo que existe em `R` é um objeto
+-   Definimos um objeto como uma entidade no ambiente `R` com características internas contendo informações necessárias para interpretar sua estrutura e conteúdo
+    -   Atributos
+    -   Atributos intrínsecos: **modo** e **comprimento**
+
+# Associando o nome a um objeto{background-image="EAR-rbasico-background-02.png"}
+
+```{r primeiro_codigo, echo=TRUE, , prompt=TRUE}
+x <- 10
+```
+
+-   Comandos de atribuição
+-   Use: `<-`, isto é, `<` + `-`
+-   Evite: `=`, use apenas para definir argumentos em uma função
+-   Nomes sintáticos e nomes não sintáticos;
+
+# Nomes sintáticos e não sintáticos{background-image="EAR-rbasico-background-02.png"}
+
+-   Deve consistir em letras, dígitos, `.` e `_`;
+-   Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, isto é, Ex.: `.123`, `1n`, dentre outros;
+-   As letras maiúsculas se distinguem das letras minúsculas;
+
+
+# Nomes sintáticos e não sintáticos{background-image="EAR-rbasico-background-02.png"}
+
+-   Não pode inicia por `_` ou dígito, é retornado um erro no console caso isso ocorra;
+-   Não pode usar qualquer uma das palavras reservadas pela linguagem, isto é, `TRUE`, `FALSE`, `if`, `for`, dentre outras, que pode ser consultado usando o comando `?Reserved()`.
+
+
+## Nomes sintáticos e não sintáticos{background-image="EAR-rbasico-background-02.png"}
+
+```{r, echo=TRUE, eval=FALSE}
+# Nome nao sintatico
+.123 <- 50
+## Error in 0.123 <- 50 : lado esquerdo da atribuicao inválida (do_set)
+
+# Qual a sugestao de nome sintatico para '.123'?
+make.names(.123)
+[1] "X0.123"
+```
+
+# Associando um nome ao objeto{background-image="EAR-rbasico-background-02.png"}
+
+```{r, echo=TRUE, , prompt=TRUE}
+x <- 10 # Ou 10 -> x
+```
+
+```{r, fig.cap = "", out.width="50%", fig.align='center'}
+knitr::include_graphics("x=10.png")
+```
+
+```{r id_primeiro_codigo, echo=TRUE, eval=FALSE, prompt=TRUE}
+lobstr::obj_addr(x)
+# [1] "0xf8a104fc20"
+```
+
+## Associando um nome ao objeto{background-image="EAR-rbasico-background-02.png"}
+
+```{r segundo_codigo, echo=TRUE, eval=FALSE, prompt=TRUE}
+y <- x
+lobstr::obj_addr(y)
+# [1] "0xf8a104fc20"
+```
+
+```{r objxy, fig.cap = "", out.width="80%", fig.align='center'}
+knitr::include_graphics("y=x=10.png")
+```
+
+# Associando um nome ao objeto e ambiente global{background-image="EAR-rbasico-background-02.png"}
+
+```{r objxyglobalenv, fig.cap = "", out.width="90%", fig.align='center'}
+knitr::include_graphics("y=x=10_globalenv.png")
+```
+
+# Associando um nome ao objeto{background-image="EAR-rbasico-background-02.png"}
+
+```{r quarto_codigo, echo=TRUE, eval=FALSE, prompt=TRUE}
+lobstr::obj_addr(x)
+# [1] "0xf8a104fc20"
+x <- 30
+lobstr::obj_addr(x)
+# [1] "0x42db6dbb50"
+```
+
+# Atributos e Classes {background-image="EAR-rbasico-background-02.png"}
+
+- atributos intrínsecos:
+  - **modo**: 
+    - `mode()` baseado na linguagem `S` e      
+    - `typeof()` baseado na linguagem `C`
+  - **comprimento**: `length()`
+- Demais atributos: `attributes()`
+- Classe: `class()` e `sloop::s3_class()` e atributo classe por `attributes()`
+
+
+# Atributo intrínseco de modo (Vetores) {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Objeto modo caractere
+x <- "Ben"; mode(x)
+
+# Objeto modo logico
+z <- TRUE; mode(z)
+
+# Objeto modo complexo
+w <- 1i; mode(w)
+```
+
+## Atributo intrínseco de modo (Vetores) {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Objeto modo numerico
+y <- 10L; mode(y); y2 <- 10; mode(y2)
+
+# y eh igual a y2? # y eh identico y2?
+y == y2; identical(y, y2)
+```
+
+## Atributo intrínseco de modo (Vetores) {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Objeto modo caractere
+x <- "Ben"; typeof(x)
+
+# Objeto modo logico
+z <- TRUE; typeof(z)
+
+# Objeto modo complexo
+w <- 1i; typeof(w)
+```
+
+## Atributo intrínseco de modo (Vetores) {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Objeto modo numerico
+y <- 10L; typeof(y); y2 <- 10; typeof(y2)
+
+# y eh igual a y2? # y eh identico y2?
+y == y2; identical(y, y2)
+```
+
+## Resumo do modo em vetores atômicos {background-image="EAR-rbasico-background-02.png"}
+
+| _typeof_  | _mode_ |
+|:---------:|:------:|
+| `logical` | `logical` |
+| `integer` | `numeric` |
+| `double`  | `numeric` |
+| `complex` | `complex` |
+| `character` | `character` |
+| `raw`     |  `raw`  |
+
+# Comprimento {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Vetor de comprimento 5
+v1 <- 1:5
+# Vetor de comprimento 3
+v2 <- c("Ben", "Maria", "Lana")
+# Vetor de comprimento quatro
+v3 <- c(TRUE, FALSE, TRUE, TRUE)
+# Vejamos o comprimento dos vetores
+length(v1); length(v2); length(v3)
+```
+
+## Comprimento {background-image="EAR-rbasico-background-02.png"}
+
+![](v1v2v3.png){width="105%"}
+
+## Resumo {background-image="EAR-rbasico-background-02.png"}
+
+Um resumo as funções mensionadas podem ser refletidas com as seguintes indagações:
+
+- `base::class()` e `loop::c3_class()`:  Qual o tipo de objeto?
+- `base::mode()`: Qual o tipo de dados baseados na linguagem `S`?
+- `base::typeof()`: Qual o tipo de dados baseados na linguagem `C`?
+
+
+## Resumo {background-image="EAR-rbasico-background-02.png"}
+
+Um resumo as funções mensionadas podem ser refletidas com as seguintes indagações:
+
+- `base::attributes()`: O objeto tem atributos?
+- `base::length()`: Qual o comprimento do objeto?
+Sintaxe: `pacote::nome_função()`
+
+
+# Classes
+
+- Objetos que armazenam "dados", pensando em análises:
+  - `numeric`
+  - `logical`
+  - `character`
+  - `list`
+  - `matrix`
+  - `array`
+  - `factor`
+  - `data.frame`
+
+# Coersão do R
+
+```{r echo=TRUE, prompt=TRUE}
+# Criando um objeto x e imprimindo o seu resultado
+x <- c("Nome", 3, 4, 5);x
+```
+
+<center>
+![](coersao.png){width="50%"}
+</center>
+
+## Coersão imposta pelo usuário
+
+```{r echo=TRUE, prompt=TRUE}
+# Objeto de modo numerico
+minha_idade <- 35; mode(minha_idade)
+# Coersão do objeto para modo caractere (`string`)
+minha_idade <- as.character(minha_idade) 
+mode(minha_idade)
+# Verificando se o objeto tem modo 'character'
+is.character(minha_idade)
+```
+
+# Tipo de objetos
+
+- Vetores atômicos:
+  - Lógicos, Numéricos e Caracteres;
+  - Matrizes unidimensionais (*Matrix*) e multidimensionais (*Arrays*);
+  
+- Vetores em listas:
+  - Listas (*Lists*);
+  - Quadro de dados (*Data frames*);
+  
+Existem outros, mas para esse módulo, exploraremos estes nas seções seguintes
+
+## Tipos de Objetos {.hscroll .scrollable}
+
+| Objeto | Classe | Modo | São possíveis vários modos no mesmo objeto?|
+|:------:|:------:|:----:|:------------------------------------------:|
+|Vetor   | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` | Não |
+|Matriz | `matrix` | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` | Não |
+
+
+
+## Tipos de Objetos {.hscroll .scrollable}
+
+| Objeto | Classe | Modo | São possíveis vários modos no mesmo objeto?|
+|:------:|:------:|:----:|:------------------------------------------:|
+| Array |`array` | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` | Não |
+| lista | `list` | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw`, `expression`, `function` | Sim |
+
+
+## Tipos de Objetos {.hscroll .scrollable}
+
+| Objeto | Classe | Modo | São possíveis vários modos no mesmo objeto?|
+|:------:|:------:|:----:|:------------------------------------------:|
+| Quadro de dados | `data.frame` |`numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` | Sim |
+
+
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

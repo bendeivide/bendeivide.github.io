@@ -69,7 +69,6 @@ Usaremos @batista2021:
 
 </a>
 
-
 # R {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, out.width = "100%", fig.align='center'}
@@ -81,7 +80,6 @@ knitr::include_graphics("R-Rdata_Rhistory.png")
 ```{r, out.width = "100%", fig.align='center'}
 knitr::include_graphics("Rdata_Rhistory.png")
 ```
-
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 

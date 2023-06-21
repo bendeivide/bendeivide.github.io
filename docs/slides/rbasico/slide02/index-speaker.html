@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="pt-br"><head>
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/tabby.min.js"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
@@ -29,6 +29,25 @@
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
+    }
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
     }
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
@@ -355,7 +374,7 @@
 </section>
 <section id="livro-de-apoio" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Livro de Apoio</h2>
-<p>Usaremos @batista2021:</p>
+<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
 <p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 <p><img src="hardcover01.png" width="400"></p>
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
@@ -375,11 +394,16 @@
 <p><img src="EAR-rbasico02.png" width="400"></p>
 </a><p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;"></a></p>
 </section>
-<section id="referências" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<section id="referências" class="slide level2 smaller scrollable" data-background-image="EAR-rbasico-background-02.png">
 <h2>Referências</h2>
 
 <img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
+</div>
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-batista2021" class="csl-entry" role="doc-biblioentry">
+BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+</div>
 </div>
 </section>
     </div>
@@ -637,12 +661,12 @@
         // flash "checked"
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
+        button.setAttribute("title", "Copiada");
         let tooltip;
         if (window.bootstrap) {
           button.setAttribute("data-bs-toggle", "tooltip");
           button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
+          button.setAttribute("data-bs-title", "Copiada");
           tooltip = new bootstrap.Tooltip(button, 
             { trigger: "manual", 
               customClass: "code-copy-button-tooltip",
