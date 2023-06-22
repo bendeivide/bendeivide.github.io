@@ -7,8 +7,6 @@ title-slide-attributes:
 author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
 bibliography: biblio.bib
 link-citations: true
-csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
-lang: "pt-br"
 
 format: 
   revealjs:
@@ -65,7 +63,7 @@ editor: visual
 
 ## Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
-Usaremos @batista2021:
+Usaremos \@batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
@@ -77,13 +75,17 @@ Usaremos @batista2021:
 
 ## Relembrando a aula anterior {background-image="EAR-rbasico-background-02.png"}
 
+
 ![](promptr.png){width="80%"}
 
-------------------------------------------------------------------------
+
+---
 
 ## Relembrando a aula anterior {background-image="EAR-rbasico-background-02.png"}
 
+
 ![](ide_rstudio.png)
+
 
 ------------------------------------------------------------------------
 
