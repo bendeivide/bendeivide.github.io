@@ -70,18 +70,18 @@ Usaremos @batista2021:
 
 </a>
 
-# Introdução
+# Introdução {background-image="EAR-rbasico-background-02.png"}
 
 As listas **são como vetores atômicos**, porém **mais complexos**, isto é, os elementos de uma lista são vetores atômicos, como também outras listas, funções, expressões. Esta última é o que chamamos de **objetos recursivos**. A forma de se obter uma lista é pela função `list()`.
 
-# Criando uma lista
+# Criando uma lista {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando uma lista 
 (l0 <- list(1:3, letters[5], list(1, 2)))
 ```
 
-# Indexação de uma lista
+# Indexação de uma lista {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Primeiro elemento (objeto)
@@ -90,7 +90,7 @@ l0[[1]]
 l0[[1]][1]
 ```
 
-## Outra forma de indexação de uma lista
+## Outra forma de indexação de uma lista {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando uma lista
@@ -102,7 +102,6 @@ l0$l01
 # Imprimindo o segundo
 l0$l02
 ```
-
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 

@@ -70,13 +70,13 @@ Usaremos @batista2021:
 
 </a>
 
-# Introdução
+# Introdução {background-image="EAR-rbasico-background-02.png"}
 
 A apresentação dos próximos objetos daqui pra frente, desde matrizes até quadro de dados (*data frame*) não é apresentar todas as manipulações possíveis sobre esses objetos
 
-- Matriz = atributo `dim` + vetor atômico
+-   Matriz = atributo `dim` + vetor atômico
 
-# Vetor bidimensional
+# Vetor bidimensional {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando um vetor atomico
@@ -89,7 +89,7 @@ attributes(x)
 sloop::s3_class(x)
 ```
 
-# Vetor bidimensional
+# Vetor bidimensional {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Adicionando o atributo dim (ou attr(x, "dim") <- c(2, 3))
@@ -98,14 +98,14 @@ attributes(x) # Verificando novamente 'x'
 sloop::s3_class(x) # Verificando a classe do objeto
 ```
 
-# Matriz bidimensional
+# Matriz bidimensional {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando uma matriz
 matrix(1:6, 2, 3)
 ```
 
-# Indexação de matrizes
+# Indexação de matrizes {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 x <- matrix(1:6, 2, 3, byrow = TRUE);x # Criando uma matriz

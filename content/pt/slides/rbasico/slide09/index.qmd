@@ -70,7 +70,7 @@ Usaremos @batista2021:
 
 </a>
 
-# Introdução
+# Introdução {background-image="EAR-rbasico-background-02.png"}
 
 Podemos dizer que existem três tipos principais de **vetores atômicos**:
 
@@ -82,12 +82,12 @@ Podemos dizer que existem três tipos principais de **vetores atômicos**:
 
 Existem dois tipos raros que são os complexos (`complex`) e brutos (`raw`), que falaremos no módulo seguinte.
 
-# Escalares
+# Escalares {background-image="EAR-rbasico-background-02.png"}
 
 -   Vetor de comprimento 1;
 -   Sintaxe para valores especiais: `TRUE`, `FALSE`, `Inf`, `-Inf`, `NaN`, `NA`;
 
-## Escalares
+## Escalares {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # divisao de um numero por zero (+ infinito)
@@ -98,13 +98,13 @@ x <- 50 / 0; x
 x - x
 ```
 
-## Escalares
+## Escalares {background-image="EAR-rbasico-background-02.png"}
 
 -   os vetores numéricos do tipo `double` podem ser representados de forma decima (`0.123`), científica (`1.23e5`), ou hexadecimal (`3E0A`);
 -   os vetores numéricos do tipo `integer` são representados pela letra `L` ao final do **número inteiro**, isto é, `1L`, `1.23e5L`, etc.;
 -   os caracteres são representados pelas palavras, letras, números ou caracteres especiais entre aspas, isto é, `"Ben"`, `"a"`. Pode ser utilizado também uma aspa, `'Ben'`, `'a'`, etc.
 
-# Vetores longos
+# Vetores longos {background-image="EAR-rbasico-background-02.png"}
 
 -   Funções:
     -   concatenar `c()`
@@ -115,7 +115,7 @@ x - x
 vetor.num <- c(1, 2, 3, 4, 5); vetor.num; typeof(vetor.num)
 ```
 
-## Vetores longos
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
 
 -   Funções:
     -   concatenar `c()`
@@ -126,7 +126,7 @@ vetor.num <- c(1, 2, 3, 4, 5); vetor.num; typeof(vetor.num)
 vetor.num3 <- 1:5; vetor.num3; typeof(vetor.num3)
 ```
 
-## Vetores longos
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 vetor.num <- c(1, 2, 3, 4, 5); vetor.num2 <- c(1L, 2L, 3L, 4L, 5L)
@@ -137,14 +137,14 @@ vetor.num == vetor.num3
 vetor.num2 == vetor.num3
 ```
 
-## Vetores longos
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Modo do objeto:
 typeof(vetor.num); typeof(vetor.num2); typeof(vetor.num3)
 ```
 
-## Vetores longos
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Memoria:
@@ -153,7 +153,7 @@ lobstr::obj_size(vetor.num2)
 lobstr::obj_size(1:5)
 ```
 
-## Vetores longos
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Tamanho de memoria dos objetos
@@ -162,7 +162,7 @@ lobstr::obj_size(1:10000)
 lobstr::obj_size(1:1000000)
 ```
 
-## Vetores longos
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Tamanho de memoria dos objetos
@@ -171,7 +171,7 @@ lobstr::obj_size(c(1:10000))
 lobstr::obj_size(c(1:1000000))
 ```
 
-# Manipulando vetores
+# Manipulando vetores {background-image="EAR-rbasico-background-02.png"}
 
 -   Vetor de comprimento zero
 
@@ -181,7 +181,7 @@ v2 <- character(0); length(v2)
 v3 <- logical(0); length(v2)
 ```
 
-## Manipulando vetores
+## Manipulando vetores {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Vetor numerico de comprimento 0
@@ -192,7 +192,7 @@ v3 <- logical(0)
 v1[1] <- 5; v1[2] <- 3; v1[3] <- 10; v1; length(v1)
 ```
 
-## Manipulando vetores
+## Manipulando vetores {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Vetor numerico de comprimento 0
@@ -205,7 +205,7 @@ v1[1]
 v1[2:3]; v1[c(2, 3)]
 ```
 
-# Aritmética e outras operações
+# Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Soma de dois vetores
@@ -214,7 +214,7 @@ v1[2:3]; v1[c(2, 3)]
 `+`(2, 3)
 ```
 
-## Aritmética e outras operações
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Subtracao de dois vetores
@@ -223,7 +223,7 @@ v1[2:3]; v1[c(2, 3)]
 `-`(3, 2)
 ```
 
-## Aritmética e outras operações
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Multiplicacao de dois vetores
@@ -232,7 +232,7 @@ v1[2:3]; v1[c(2, 3)]
 `*`(3, 2)
 ```
 
-## Aritmética e outras operações
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Divisao de dois vetores
@@ -241,7 +241,7 @@ v1[2:3]; v1[c(2, 3)]
 `/`(3, 2)
 ```
 
-## Aritmética e outras operações
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 c(4, 5, 6) + c(1, 2, 3) # Soma de vetores
@@ -250,7 +250,7 @@ c(4, 5, 6) * c(1, 2, 3) # Multiplicacao dois vetores
 c(4, 5, 6) / c(1, 2, 3) # Divisao de dois vetores
 ```
 
-## Aritmética e outras operações
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Soma de vetores de comprimento diferente
@@ -258,7 +258,7 @@ c(4, 5, 6) / c(1, 2, 3) # Divisao de dois vetores
 # (1+3) (2+4) (3+5) ... (8+10) (9+3) (10+4)
 ```
 
-## Aritmética e outras operações {.hscroll .scrollable}
+## Aritmética e outras operações {.hscroll .scrollable background-image="EAR-rbasico-background-02.png"} 
 
 | Função (Ou operador) |                   Finalidade                   |
 |:--------------------:|:----------------------------------------------:|
@@ -270,7 +270,7 @@ c(4, 5, 6) / c(1, 2, 3) # Divisao de dois vetores
 |       `sqrt()`       |    Raiz quadrada dos elementos de um vetor     |
 |       `log()`        |           Função Logaritmo neperiano           |
 
-## Aritmética e outras operações {.hscroll .scrollable}
+## Aritmética e outras operações {.hscroll .scrollable background-image="EAR-rbasico-background-02.png"} 
 
 | Função (Ou operador) |               Finalidade                |
 |:--------------------:|:---------------------------------------:|
@@ -280,10 +280,10 @@ c(4, 5, 6) / c(1, 2, 3) # Divisao de dois vetores
 |       `var()`        |   Variância dos elementos de um vetor   |
 |      `median()`      |    Mediana dos elementos de um vetor    |
 
-## Operadores lógicos {.hscroll .scrollable}
+## Operadores lógicos {.hscroll .scrollable background-image="EAR-rbasico-background-02.png"}
 
 | Operador Lógico |           Sintaxe           |                      Pergunta                      |
-|:------------------------------:|:----------------:|:---------------------:|
+|:---------------:|:------------------:|:----------------------------------:|
 |       `<`       |           `a < b`           |                `a` é menor que `b`?                |
 |       `>`       |           `a > b`           |                `a` é maior que `b`?                |
 |      `==`       |          `a == b`           |                  `a` é igual `b`?                  |
@@ -292,10 +292,10 @@ c(4, 5, 6) / c(1, 2, 3) # Divisao de dois vetores
 |      `<=`       |          `a <= b`           |            `a` é menor ou igual a `b`?             |
 |     `%in%`      | `"a" %in% c("a", "b", "c")` | O elemento `"a"` está no vetor `c("a", "b", "c")`? |
 
-# Operadores Booleanos {.hscroll .scrollable}
+# Operadores Booleanos {.hscroll .scrollable background-image="EAR-rbasico-background-02.png"}
 
 | Operador Booleano (ou Função) |         Sintaxe          |                  Pergunta                   |
-|:--------------------:|:-------------------------------:|:--------------:|
+|:--------------------:|:-----------------:|:-----------------------------:|
 |          `&` ou `&&`          |     `cond1 & cond2`      |    As `cond1` e `cond2` são verdadeiras?    |
 |          `|` ou `||`          |     `cond1 | cond2`      |     A `cond1` ou `cond2` é verdadeira?      |
 |            `xor()`            |   `xor(cond1, cond2)`    | Apenas a `cond1` ou a `cond2` é verdadeiro? |
@@ -303,7 +303,7 @@ c(4, 5, 6) / c(1, 2, 3) # Divisao de dois vetores
 |            `any()`            | `any(cond1, cond2, ...)` |    Alguma das condições são verdadeiras?    |
 |            `all()`            | `all(cond1, cond2, ...)` |     Todas as condições são verdadeiras?     |
 
-## Operadores Booleanos
+## Operadores Booleanos {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando objetos

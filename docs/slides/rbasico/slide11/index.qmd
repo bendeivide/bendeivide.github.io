@@ -70,7 +70,7 @@ Usaremos @batista2021:
 
 </a>
 
-# Introdução
+# Introdução {background-image="EAR-rbasico-background-02.png"}
 
 A ideia do objeto matriz multidimencional (ou *array*) é similar ao da matriz, a diferença é que agora é um vetor atômico de mais de duas dimensões. Vejamos,
 
@@ -80,26 +80,28 @@ attributes(x) # Verificando o atributo de x
 sloop::s3_class(x) #Classe do objeto x
 ```
 
-# Criando um *Array*
+# Criando um *Array* {background-image="EAR-rbasico-background-02.png"}
+
 ```{r echo=TRUE, prompt=TRUE}
 # Adicionando o atributo dim
 dim(x) <- c(2, 3, 2); x # 2 x 3 x 2 = 12 (Comp do vetor x)
 ```
 
-## Criando um *Array*
+## Criando um *Array* {background-image="EAR-rbasico-background-02.png"}
+
 ```{r echo=TRUE, prompt=TRUE}
 attributes(x) # Atributo de x
 sloop::s3_class(x) #classe do objeto
 ```
 
-# Outra forma de criar um *Array*
+# Outra forma de criar um *Array* {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando um array
 array(1:12, c(2, 3, 2))
 ```
 
-# Indexação de *Array*
+# Indexação de *Array* {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 x <- array(1:12, c(2, 3, 2)) # Criando um array
