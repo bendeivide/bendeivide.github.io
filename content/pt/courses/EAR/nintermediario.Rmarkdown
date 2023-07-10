@@ -3,6 +3,7 @@ title: Programação em R (Nível Intermediário)
 date: "`r format(Sys.time())`"
 type: book
 weight: 20
+share: false
 ---
 
 Programando em nível intermediário o [R](http://r-project.org).

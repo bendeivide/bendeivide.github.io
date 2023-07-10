@@ -4,11 +4,11 @@
   
   
   <url>
+    <loc>http://bendeivide.github.io/courses/epaec/normal/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/courses/ear/rbasico/</loc><lastmod>2023-07-10T05:52:52+00:00</lastmod></url>
+  <url>
     <loc>http://bendeivide.github.io/courses/profmat-probest/normal/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/courses/epaec/normal/</loc><lastmod>2023-04-03T12:53:27+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/courses/ear/rbasico/</loc><lastmod>2023-02-02T15:22:43+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/meupacoter/gems-ufs/</loc><lastmod>2022-11-17T08:20:47+00:00</lastmod></url>
   <url>
@@ -20,17 +20,13 @@
   <url>
     <loc>http://bendeivide.github.io/courses/cursor/nintermediario/</loc><lastmod>2021-07-29T21:18:41+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/ear/nintermediario/</loc><lastmod>2021-07-29T21:18:41+00:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/courses/epaec/remoto/</loc><lastmod>2023-03-14T13:18:51+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/cursor/navancado/</loc><lastmod>2021-04-29T14:27:10+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/ear/navancado/</loc><lastmod>2021-04-29T14:27:10+00:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/courses/epaec/exerresolvidos/</loc><lastmod>2023-03-14T13:16:48+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -40,7 +36,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -50,9 +46,9 @@
       href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/courses/"
@@ -62,13 +58,13 @@
       href="http://bendeivide.github.io/courses/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/estatistica/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/estatistica/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/inferencia-estatistica/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/inferencia-estatistica/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/probabilidade/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/probabilidade/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/tags/"
@@ -78,11 +74,15 @@
       href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/teoria-de-decisao/</loc><lastmod>2023-04-03T14:00:31+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/teoria-de-decisao/</loc><lastmod>2023-07-10T14:40:24+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/curso-r/</loc><lastmod>2023-07-10T05:52:52+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/curso-r/</loc><lastmod>2023-07-10T05:52:52+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2023-07-10T05:52:52+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/profmat-probest/</loc><lastmod>2023-03-17T07:25:10+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2023-03-17T07:25:10+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/ambiente-r/</loc><lastmod>2023-03-07T14:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -105,10 +105,6 @@
       hreflang="pt"
       href="http://bendeivide.github.io/event/"
     /></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/curso-r/</loc><lastmod>2023-02-02T15:22:43+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/curso-r/</loc><lastmod>2023-02-02T15:22:43+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/meupacoter/</loc><lastmod>2022-11-17T06:46:21+00:00</lastmod></url>
   <url>
@@ -576,9 +572,21 @@
       href="http://bendeivide.github.io/author/robert-ford/"
     /></url>
   <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide00/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide00/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
     <loc>http://bendeivide.github.io/slides/rbasico/slide01/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/slides/rbasico/slide01/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide02/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide02/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide03/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide03/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/slides/rbasico/slide04/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
   <url>
@@ -640,11 +648,35 @@
   <url>
     <loc>http://bendeivide.github.io/slides/rbasico/slide18/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
   <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide19/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide19/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide20/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide20/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide21/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide21/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide22/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide22/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide23/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide23/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide24/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide24/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide25/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/rbasico/slide25/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
     <loc>http://bendeivide.github.io/slides/ramb-alem-das-analises-estat/</loc></url>
-  <url>
-    <loc>http://bendeivide.github.io/slides/rbasico/slide02/</loc></url>
-  <url>
-    <loc>http://bendeivide.github.io/slides/rbasico/slide03/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/author/ben-deivide-e-diego-arthur/</loc></url>
   <url>

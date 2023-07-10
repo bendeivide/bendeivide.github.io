@@ -70,7 +70,7 @@ cran <- "[CRAN](http://cran.r-project.org/){target='_blank'}"
 
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
-Usaremos @batista2021:
+Usaremos \@batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
@@ -93,13 +93,13 @@ Uma primeira ferramenta que pode ser configurada para quem usa o `rstudio` é ac
 -   `Tools > Global options > Code > Display`, Marque todas as opções;
 -   `Tools > Global options > Code > Diagnostics`. Marque todas as opções em `R Diagnostics`.
 
-# Usando o pacote [styler](https://styler.r-lib.org) {background-image="EAR-rbasico-background-02.png"}
+# Usando o pacote [styler](https://styler.r-lib.org) {background-image="EAR-rbasico-background-02.png"} {background-image="EAR-rbasico-background-02.png"}
 
 ```{r stylecode, fig.cap = "Estilo de código com o pacote [styler](https://styler.r-lib.org).", out.width="70%", fig.align='center'}
 knitr::include_graphics("stylecode.gif")
 ```
 
-# Nomes de arquivos {background-image="EAR-rbasico-background-02.png"}
+# Nomes de arquivos {background-image="EAR-rbasico-background-02.png"} {background-image="EAR-rbasico-background-02.png"}
 
 ```         
 Boa escolha:

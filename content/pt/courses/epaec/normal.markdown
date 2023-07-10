@@ -1,6 +1,6 @@
 ---
-title: 📚 Ensino normal 2023.1
-date: "2023-04-03 12:53:27"
+title: 📚 Ensino normal 2023.2
+date: "2023-07-10 14:40:24"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -33,29 +33,32 @@ regressão linear simples.
     Engenharia do campus.
 -   Todas as nossas estão gravadas:
     -   canal: <http://youtube.com/bendeivide>
-    -   Período: 
+    -   Período:
     -   Aulas presenciais:
-        -   Engenheria Civil (Sala 104.1):
-            -   quarta-feira (13:15 - 15:05)
-            -   sexta-feira (15:15 - 17:05)
-        
+        -   Engenheria Química:
+            -   segunda-feira (15:05 - 17:00, sala 201.5)
+            -   quarta-feira (15:15 - 17:05, sala 208.4)
+        -   Engenharia Mecatrônica:
+            -   segunda-feira (13:15 - 15:00, sala XXX.X)
+            -   terça-feira (13:15 - 15:00, sala XXX.X)
 
-## Cronograma {#cronograma}
+## Calendário e Cronograma {#cronograma}
+
+-   Calendário
+
+<img src="/pt/courses/epaec/normal_files/figure-html/unnamed-chunk-1-1.png" width="672" /><img src="/pt/courses/epaec/normal_files/figure-html/unnamed-chunk-1-2.png" width="672" />
 
 -   [Cronograma de
     aulas](https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing):
     {{< gdocs src="https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing" >}}
-    
 
 ## Grupo de Whatsapp
 
-- [Link]()
-
+-   [Link]()
 
 ## Preenchimento de dados para as avaliações
 
 {{< gdocs src="https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link">}}
-
 
 ## Notas
 
@@ -176,8 +179,8 @@ Iremos utilizar diversas ferramentas do google como os seus editores de textos, 
 ## Avaliação {#avaliacao}
 
 <!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) -->
-<!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) -->
 
+<!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) -->
 
 {{< spoiler text="Segue um detalhamento das nossas avaliações">}}
 Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:
@@ -217,7 +220,9 @@ semana o aluno é acompanhado e avaliado pelo professor.
 
 {{< spoiler text="Abra o contrato aqui!">}}
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0">
+
+Carregando...</iframe>
 
 {{< /spoiler >}}
 
@@ -234,10 +239,11 @@ semana o aluno é acompanhado e avaliado pelo professor.
 
 ## Material adotado {#matadotado}
 
- - Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
-   - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com)
- 
- {{< spoiler text="Materiais complementares">}}
+-   Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
+    -   Sugestões e críticas sobre o livro podem ser enviadas para
+        [livrosdeben\@gmail.com](mailto:livrosdeben@gmail.com)
+
+{{< spoiler text="Materiais complementares">}}
 - [Estatística Básica (Departamento de Estatística, UFPR)](http://leg.ufpr.br/~paulojus/estbas/)
 - [Estatística Aplicada (Tales Jesus Fernandes, UFLA)](http://github.com/talesjfer/Apostila-Estatistica-Aplicada)
 - [Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)](http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf)
@@ -303,12 +309,15 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< spoiler text="Aula 2 (10/03/2023)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da estatística e técnicas de somatório
-{{< icon name="eye" pack="fas" >}} Apresentação: <a href="{{< relref "/slides/estprob/s02/index" >}}" target="_blank">Aula 02</a>
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da
+estatística e técnicas de somatório {{< icon name="eye" pack="fas" >}}
+Apresentação: \<a href="{{< relref"/slides/estprob/s02/index" >}}"
+target="\_blank"\>Aula 02</a> {{< icon name="clock" pack="fas" >}}
+Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast
 
-<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7" height="102px" width="400px" frameborder="0" scrolling="no">
+
+</iframe>
 
 <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u" height="102px" width="400px" frameborder="0" scrolling="no">
 
@@ -322,13 +331,19 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 </iframe>
 
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing" target="_blank">Plano de aula</a>
+{{< icon name="book-reader" pack="fas" >}}
+<a href="https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing" target="_blank">Plano
+de aula</a>
 
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
-   - <a href="{{< relref "courses/epaec/remoto/index" >}}" target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
-   - <a href="{{< relref "courses/cursor/">}}" target="_blank">Curso R</a>
-   - <a href="{{< relref "courses/epaec/exerresolvidos/index">}}" target="_blank">Exercícios resolvidos</a>
-   
+
+-   \<a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="\_blank"\>Estatística e Probabilidade (Ensino Remoto)</a>
+-   \<a href="{{< relref"courses/cursor/">}}" target="\_blank"\>Curso
+    R</a>
+-   \<a href="{{< relref"courses/epaec/exerresolvidos/index">}}"
+    target="\_blank"\>Exercícios resolvidos</a>
+
 </br>
 
 {{< icon name="youtube" pack="fab" >}} Aula teórica (ER 2022.1)
@@ -337,55 +352,58 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 </br>
 
-{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER 2022.1)
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER
+2022.1)
 
 {{< youtube ozgmfZGkE8k >}}
 
 </br>
 
-
-
 {{< /spoiler >}}
-
-
 
 {{< spoiler text="Aula 3 (15/03/2023)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e apresentação de dados
-{{< icon name="eye" pack="fas" >}} Apresentação: <a href="{{< relref "/slides/estprob/s03/index" >}}" target="_blank">Aula 03</a>
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Coleta, organização e
+apresentação de dados {{< icon name="eye" pack="fas" >}} Apresentação:
+\<a href="{{< relref"/slides/estprob/s03/index" >}}"
+target="\_blank"\>Aula 03</a> {{< icon name="clock" pack="fas" >}}
+Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast
 
-<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP02-2022-2---Coleta--organizao-e-apresentao-de-dados-e1ngk7b" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP02-2022-2---Coleta--organizao-e-apresentao-de-dados-e1ngk7b" height="102px" width="400px" frameborder="0" scrolling="no">
+
+</iframe>
 
 <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0" height="102px" width="400px" frameborder="0" scrolling="no">
 
 </iframe>
 
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} [Plano de
+aula](https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
 
 -   Notas de aula
--   [Estatística e Probabilidade (Ensino
-    Remoto)]({{< relref "courses/epaec/remoto/index" >}})
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
 -   [Curso R](courses/cursor/)
--   [Exercícios
-    resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
-- Scripts {{< icon name="r-project" pack="fab" >}} {{% staticref "r-scripts/epaec/aula03/aula03.R" "newtab" %}}Aula03.R{{% /staticref %}} 
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+-   Scripts {{< icon name="r-project" pack="fab" >}}
+    {{% staticref "r-scripts/epaec/aula03/aula03.R" "newtab" %}}Aula03.R{{% /staticref %}}
 
 </br>
 
-{{< icon name="youtube" pack="fab" >}} Aula teórica (Aula assíncrona 2021.1)
-{{< youtube bVObtgCFISs >}}
+{{< icon name="youtube" pack="fab" >}} Aula teórica (Aula assíncrona
+2021.1) {{< youtube bVObtgCFISs >}}
 
 </br>
 
-{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER 2022.1)
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER
+2022.1)
 
-{{< youtube DZ4PzyY5YYg >}}
-<br/>
+{{< youtube DZ4PzyY5YYg >}} 
 
-{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER 2022.1)
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios resolvidos (ER
+2022.1)
 
 {{< youtube xlmWSTrp_SI >}}
 
@@ -404,20 +422,22 @@ Em aula...
 
 {{< /spoiler >}}
 
-
-
 {{< spoiler text="Aula 5 (22/03/2023)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de posição
-{{< icon name="eye" pack="fas" >}} Apresentação: <a href="{{< relref "/slides/estprob/s05/index" >}}" target="_blank">Aula 05</a>
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="eye" pack="fas" >}} Apresentação: \<a
+href="{{< relref"/slides/estprob/s05/index" >}}" target="\_blank"\>Aula
+05</a> {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
 {{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1k0FEDbccPa9tQF36roxYo_wclJ7cSG-g2Z9chSbaoLU/edit?usp=sharing" target="_blank">Plano de aula</a>
+{{< icon name="book-reader" pack="fas" >}}
+<a href="https://docs.google.com/document/d/1k0FEDbccPa9tQF36roxYo_wclJ7cSG-g2Z9chSbaoLU/edit?usp=sharing" target="_blank">Plano
+de aula</a>
 
-
-- [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-- [Curso R](courses/cursor/)
-- [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
 
 {{< icon name="youtube" pack="fab" >}} Aula (Aula assíncrona 2021.1)
 
@@ -425,9 +445,7 @@ Em aula...
 
 <br/>
 
-
 {{< /spoiler >}}
-
 
 {{< spoiler text="Aula 6 (24/03/2023)">}}
 
@@ -435,13 +453,15 @@ Em aula....
 
 </br>
 
-{{< icon name="youtube" pack="fab" >}} Aula de exercícios (Aula assíncrona 2021.1)
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios (Aula
+assíncrona 2021.1)
 
 {{< youtube 7V34LUYrlxY >}}
 
 </br>
 
-{{< icon name="youtube" pack="fab" >}} Aula de exercícios (Aula assíncrona 2021.1)
+{{< icon name="youtube" pack="fab" >}} Aula de exercícios (Aula
+assíncrona 2021.1)
 
 {{< youtube l2yBewnBkdE >}}
 
@@ -451,68 +471,76 @@ Em aula....
 
 {{< spoiler text="Aula 7 (29/03/2023)">}}
 
-
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 8 (31/03/2023)">}}
-
 
 {{< /spoiler >}}
 
 {{< spoiler text="Aula 9 [EXTRA] (03/04/2023)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de dispersão e Revisão para P1
-{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 09]({{< relref "" >}})
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de dispersão e
+Revisão para P1 {{< icon name="eye" pack="fas" >}} Apresentação: \[Aula
+09\]({{< relref "" >}}) {{< icon name="clock" pack="fas" >}} Tempo: 1h
+50min. {{< icon name="headphones" pack="fas" >}} Podcast
 
 {{< icon name="book-reader" pack="fas" >}} Plano de aula
 {{< icon name="book-reader" pack="fas" >}} Material para consulta
-- [Capítulo 4: *Medidas de Dispersão*](https://bendeivide.github.io/book-epaec/md.html#md)
-- [Estatística e Probabilidade (Ensino
-    Remoto)]({{< relref "courses/epaec/remoto/index" >}})
-- [Curso R](courses/cursor/)
-- Exercícios Propostos ([Cap. 3](https://bendeivide.github.io/book-epaec/mp.html#exerc%C3%ADcios-propostos-2)
-- [Exercícios
-    resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}})
-- Scripts {{< icon name="r-project" pack="fab" >}} {{% staticref "r-scripts/epaec/aula09/aula09.R" "newtab" %}}Aula09.R{{% /staticref %}} 
-- Notas de aula: {{< icon name="paperclip" pack="fas" >}} {{% staticref "epaec/2023.1/NotaAula09.png" "newtab" %}}NotaAula09.R{{% /staticref %}} 
 
-{{< icon name="youtube" pack="fab" >}} Aula teórica 2023.1 (Aula síncrona)
+-   [Capítulo 4: *Medidas de
+    Dispersão*](https://bendeivide.github.io/book-epaec/md.html#md)
+-   \[Estatística e Probabilidade (Ensino
+    Remoto)\]({{< relref "courses/epaec/remoto/index" >}})
+-   [Curso R](courses/cursor/)
+-   Exercícios Propostos ([Cap.
+    3](https://bendeivide.github.io/book-epaec/mp.html#exerc%C3%ADcios-propostos-2)
+-   \[Exercícios
+    resolvidos\]({{< relref "courses/epaec/exerresolvidos/index" >}})
+-   Scripts {{< icon name="r-project" pack="fab" >}}
+    {{% staticref "r-scripts/epaec/aula09/aula09.R" "newtab" %}}Aula09.R{{% /staticref %}}
+-   Notas de aula: {{< icon name="paperclip" pack="fas" >}}
+    {{% staticref "epaec/2023.1/NotaAula09.png" "newtab" %}}NotaAula09.R{{% /staticref %}}
+
+{{< icon name="youtube" pack="fab" >}} Aula teórica 2023.1 (Aula
+síncrona)
 
 {{< youtube rgVSNqe8mY0 >}}
 
 </br>
 
-
 {{< /spoiler >}}
-
-
-
-
-
 
 <!-- {{< spoiler text="Aula 6 (02/09/2022)">}} -->
 
 <!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de posição  -->
+
 <!-- {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 06]({{< relref "" >}})  -->
+
 <!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.  -->
+
 <!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
 
 <!-- <iframe src="https://anchor.fm/ben-deivide/embed/episodes/EP03-2022-2---Medidas-de-posio-e1nu48g" height="102px" width="400px" frameborder="0" scrolling="no"></iframe> -->
 
 <!-- {{< icon name="book-reader" pack="fas" >}} Plano de aula  -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+
 <!-- - [Capítulo 3: *Medidas de Posição*](https://bendeivide.github.io/book-epaec/chap-mp.html) -->
+
 <!-- - [Estatística e Probabilidade (Ensino -->
+
 <!--     Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
+
 <!-- - [Curso R](courses/cursor/) -->
+
 <!-- - Exercícios Propostos ([Cap. 3](https://bendeivide.github.io/book-epaec/chap-mp.html#exerc%C3%ADcios-propostos-2) -->
+
 <!-- - [Exercícios -->
+
 <!--     resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Aula teórica 2021.2 (Aula assíncrona) -->
-
 
 <!-- {{< youtube s-yrirgOA8A >}} -->
 
@@ -521,6 +549,7 @@ Em aula....
 <!-- {{< icon name="youtube" pack="fab" >}} Aula teórica e de exercícios resolvidos 2021.2 (Aula assíncrona) -->
 
 <!-- {{< youtube 7V34LUYrlxY >}} -->
+
 <!-- <br/> -->
 
 <!-- {{< /spoiler >}} -->
@@ -528,15 +557,23 @@ Em aula....
 <!-- {{< spoiler text="Aula 7 (06-09/09/2022)">}} -->
 
 <!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão do Capítulo 3  -->
+
 <!-- {{< icon name="eye" pack="fas" >}} Notas de aula: Aula 07  -->
+
 <!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.  -->
+
 <!-- {{< icon name="headphones" pack="fas" >}} Podcast  -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} Plano de aula  -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
 
 <!--  - [Estatística e Probabilidade (Ensino -->
+
 <!--     Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
+
 <!--  - [Curso R](courses/cursor/) -->
+
 <!--  - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
 <!-- </br> -->
@@ -548,34 +585,50 @@ Em aula....
 <!-- {{< /spoiler >}} -->
 
 <!-- {{< spoiler text="Aula 8 (09/09/2022)">}} -->
+
 <!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Medidas de dispersão -->
+
 <!-- {{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 08]() -->
+
 <!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
+
 <!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1oTE0jEAYka92PmYh7EjV630D49iP4lepKyF9BdI7ljw/edit?usp=sharing) -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+
 <!--    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
+
 <!--    - [Curso R](courses/cursor/) -->
+
 <!--    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Aula teórica e de exercícios resolvidos 2021.1 (Aula síncrona) -->
 
 <!-- {{< youtube s-yrirgOA8A >}} -->
 
-
 <!-- {{< /spoiler >}} -->
 
 <!-- {{< spoiler text="Aula 9 (13-15/09/2022)">}} -->
-<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão  sobre Medidas de dispersão e revisão sobre os Caps. 1, 2, 3 e 4 -->
-<!-- {{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 09]() -->
-<!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
-<!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
-<!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/12Qnz-AhPkRriqlpYFQWA5S8EAprTA3QrY0VQ5M3Tj_I/edit?usp=sharing) -->
-<!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
-<!--    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
-<!--    - [Curso R](courses/cursor/) -->
-<!--    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
+<!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Exercícios/Revisão  sobre Medidas de dispersão e revisão sobre os Caps. 1, 2, 3 e 4 -->
+
+<!-- {{< icon name="eye" pack="fas" >}} Notas de aula: [Aula 09]() -->
+
+<!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
+
+<!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
+
+<!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/12Qnz-AhPkRriqlpYFQWA5S8EAprTA3QrY0VQ5M3Tj_I/edit?usp=sharing) -->
+
+<!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+
+<!--    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
+
+<!--    - [Curso R](courses/cursor/) -->
+
+<!--    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Aula teórica e de exercícios resolvidos 2021.2 (Aula síncrona) -->
 
@@ -588,50 +641,81 @@ Em aula....
 <!-- {{< /spoiler >}} -->
 
 <!-- {{< spoiler text="Aula 10 (16/09/2022)">}} -->
+
 <!-- Prova! -->
+
 <!-- {{< /spoiler >}} -->
 
 <!-- {{< spoiler text="Aula 11  (20-22/09/2022)">}} -->
+
 <!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Probabilidades (Parte I) -->
+
 <!-- {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 11]({{< relref "/slides/estprob/s11/index" >}}) -->
+
 <!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
+
 <!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1XMB0GMtU_zm7hS4qQgHodmPiRJWZt-yhbva6N7OGP4E/edit?usp=sharing) -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+
 <!--    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
+
 <!--    - [Curso R](courses/cursor/) -->
+
 <!--    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Vídeo-aula -->
+
 <!-- {{< youtube  Hp27xiGDTy0 >}} -->
 
 <!-- {{< /spoiler >}} -->
 
 <!-- {{< spoiler text="Aula 12  (23/09/2022)">}} -->
+
 <!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Probabilidades (Parte II) -->
+
 <!-- {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 12]({{< relref "/slides/estprob/s12/index" >}}) -->
+
 <!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
+
 <!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1saAcZYSVLoMT6azuxZlHVb5Aj2rzpo-B-rg0r4gEXKY/edit?usp=sharing) -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+
 <!--    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
+
 <!--    - [Curso R](courses/cursor/) -->
+
 <!--    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Vídeo-aula -->
+
 <!-- {{< youtube  Hp27xiGDTy0 >}} -->
 
 <!-- {{< /spoiler >}} -->
 
 <!-- {{< spoiler text="Aula 13  (27-29/09/2022)">}} -->
+
 <!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Revisão/exercícios sobre Probabilidades -->
+
 <!-- {{< icon name="eye" pack="fas" >}} Apresentação: [Aula 13]() -->
+
 <!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
+
 <!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula]() -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+
 <!--    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
+
 <!--    - [Curso R](courses/cursor/) -->
+
 <!--    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Vídeo-aula -->
@@ -645,30 +729,41 @@ Em aula....
 <!-- {{< /spoiler >}} -->
 
 <!-- {{< spoiler text="Aula 26  (15-16/06/2022)">}} -->
+
 <!-- {{< icon name="pen-fancy" pack="fas" >}} Tema: Teoria da Estimação -->
+
 <!-- {{< icon name="eye" pack="fas" >}} Apresentação:  -->
+
 <!-- {{< icon name="clock" pack="fas" >}} Tempo: 1h 50min. -->
+
 <!-- {{< icon name="headphones" pack="fas" >}} Podcast -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} [Plano de aula]() -->
+
 <!-- {{< icon name="book-reader" pack="fas" >}} Material para consulta -->
+
 <!--    - [Estatística e Probabilidade (Ensino Remoto)]({{< relref "courses/epaec/remoto/index" >}}) -->
+
 <!--    - [Curso R](courses/cursor/) -->
+
 <!--    - [Exercícios resolvidos]({{< relref "courses/epaec/exerresolvidos/index" >}}) -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Aula teórica (Aula assíncrona) -->
-<!-- {{< youtube wOePk5UupBY >}} -->
 
+<!-- {{< youtube wOePk5UupBY >}} -->
 
 <!-- </br> -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Aula teórica e de exercícios resolvidos (Aula assíncrona) -->
 
 <!-- {{< youtube hsFQ2MEZYIY >}} -->
+
 <!-- <br/> -->
 
 <!-- {{< icon name="youtube" pack="fab" >}} Aula teórica e de exercícios resolvidos (Aula assíncrona) -->
 
 <!-- {{< youtube  wk46c8ocOew>}} -->
+
 <!-- {{< /spoiler >}} -->
 
 ## Quiz

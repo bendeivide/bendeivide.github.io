@@ -1,6 +1,6 @@
 ---
 title: "EAR: R Básico"
-subtitle: "Aula 01 - Apresentação do curso"
+subtitle: "Aula 00 - Apresentação do curso"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -64,7 +64,7 @@ editor: visual
 
 ## Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
-Usaremos \@batista2021:
+Usaremos @batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
@@ -81,7 +81,7 @@ Usaremos \@batista2021:
 
 ------------------------------------------------------------------------
 
-## {data-background-interactive="true" data-background-iframe="<https://bendeivide.github.io/courses/ear/>"}
+## {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/ear/"}
 
 Página do curso
 
