@@ -11,6 +11,10 @@ editor_options:
     wrap: 72
 ---
 
+{{< toc hide_on="xl" >}}
+
+## <i class="fas fa-chalkboard-teacher"></i>  Apresentação {id="apresentacao" title="Clique aqui!"}
+
 Curso de Estatística e Probabilidade oferecido no formato presencial
 pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba
 ([CAP](http://ufsj.edu.br/cap/)), Ouro Branco/MG.
@@ -19,14 +23,14 @@ pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba
 
 {{< icon name="clock" pack="fas" >}} 4 horas por semana, por 18 semanas
 
-## Apresentação
+## <i class="fas fa-map"></i>  Tópicos abordados {id="topicos" title="Clique aqui!"}
 
 Definições gerais. Coleta, organização de dados. Medidas de posição.
 Medidas de dispersão. Probabilidades. Distribuições de probabilidade.
 Amostragem. Teoria da estimação. Teoria da decisão. Correlação e
 regressão linear simples.
 
-## Onde?
+## <i class="fa fa-globe"></i> Onde? {id="onde" title="Clique aqui!"}
 
 -   O curso é ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
     Paraopeba ([CAP](http://ufsj.edu.br/cap/)), para todos os cursos de
@@ -42,7 +46,7 @@ regressão linear simples.
             -   segunda-feira (13:15 - 15:00, sala XXX.X)
             -   terça-feira (13:15 - 15:00, sala XXX.X)
 
-## Calendário e Cronograma {#cronograma}
+## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
 
 -   Calendário
 
@@ -149,19 +153,19 @@ calendR(year = 2023,
     aulas](https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing):
     {{< gdocs src="https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing" >}}
 
-## Grupo de Whatsapp
+## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
 
 -   [Link]()
 
-## Preenchimento de dados para as avaliações
+## <i class="fas fa-file-contract"></i> Preenchimento de dados para as avaliações {id="formulario" title="Clique aqui!"} 
 
 {{< gdocs src="https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link">}}
 
-## Notas
+## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"} 
 
 [Link](https://docs.google.com/spreadsheets/d/18cQBWElhhWnozZZ-d2t3txiS_eCsHAKuOTmEirDnZ6M/edit?usp=sharing)
 
-## Ementa
+## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
 Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
 CAP/UFSJ
@@ -244,7 +248,7 @@ CAP/UFSJ
     - Medidas de adequação do modelo
 {{< /spoiler >}}
 
-## Metodologia
+## <i class="fab fa-readme"></i> Metodologia {id="metodologia" title="Clique aqui!"}
 
 Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
 aulas serão expositivas e dialogadas com os alunos presencialmente ou
@@ -273,7 +277,7 @@ Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os al
 Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o *overlief* para usuários de LaTeX. Com a linguagem *R*, mostraremos documentos dinâmicos, usando o *R Markdown* e o *shiny*, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.
 {{< /spoiler >}}
 
-## Avaliação {#avaliacao}
+## <i class="fas fa-award"></i> Avaliação {id="avaliacao" title="Clique aqui!"}
 
 <!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) -->
 
@@ -301,12 +305,12 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 - Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.
 {{< /spoiler >}}
 
-## Como as provas serão corrigidas?
+## <i class="fas fa-check"></i> Como as provas serão corrigidas? {id="correcao" title="Clique aqui!"}
 
 -   {{% staticref "media/critprova.pdf" "newtab" %}}Critérios de
     avaliação{{% /staticref %}}
 
-## Contrato {#contrato}
+## <i class="fas fa-file-signature"></i> Contrato {id="contrato" title="Clique aqui!"}
 
 Contrato feito para a disciplina de Estatística e Probabilidade, como
 meio de substituir as avaliações tradicionais para uso de metodologias
@@ -325,7 +329,7 @@ Carregando...
 
 {{< /spoiler >}}
 
-## Bibliografia adotada para a disciplina
+## <i class="fa fa-book"></i> Bibliografia adotada para a disciplina {id="bibiografia" title="Clique aqui!"}
 
 {{< spoiler text="Bibliografia detalhada">}}
 
@@ -338,7 +342,7 @@ Carregando...
 
 {{< /spoiler >}}
 
-## Material adotado {#matadotado}
+## <i class="fas fa-book-open"></i> Material adotado {id="matadotado" title="Clique aqui!"}
 
 -   Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
     -   Sugestões e críticas sobre o livro podem ser enviadas para
@@ -358,7 +362,7 @@ Carregando...
 - [Estatística e Probabilidade: Exercícios (Assis et. al., 2023)](https://editorapantanal.com.br/ebooks/2023/probabilidade-e-estatistica-exercicios/ebook.pdf)
 {{< /spoiler >}}
 
-## Metodologias ativas
+## <i class="fas fa-chalkboard"></i> Metodologias ativas {id="mativas" title="Clique aqui!"}
 
 {{< spoiler text="Aprender por ensinar">}}
 
@@ -387,7 +391,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
-## Como estudar e aprender
+## <i class="fab fa-leanpub"></i> Como estudar e aprender {id="aprender" title="Clique aqui!"}
 
 {{< spoiler text="Vídeoaula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)">}}
 
@@ -395,9 +399,9 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
-## Aulas
+## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
 
-{{< spoiler text="Aula 1 (07/08/2023)">}}
+{{< spoiler text="🎓 Aula 1 (07/08/2023)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Apresentação do curso
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ 
@@ -879,7 +883,21 @@ síncrona)
 
 <!-- {{< /spoiler >}} -->
 
-## Quiz
+
+## <i class="fas fa-eye"></i> Veja também {id="vejatbmn" title="Clique aqui!"}
+
+- {{< icon name="tv" pack="fas" >}} <a href="{{< relref "courses/epaec/remoto/index.html" >}}" target="_blank">Ensino remoto 2021.2</a>
+- {{< icon name="tv" pack="fas" >}} <a href="{{< relref "courses/epaec/remoto2022.1/index.html" >}}" target="_blank">Ensino remoto 2022.1</a>
+- {{< icon name="podcast" pack="fas" >}} <a href="{{< relref "courses/epaec/podcasts/index.html" >}}" target="_blank">Podcasts</a>
+- {{< icon name="feather" pack="fas" >}} <a href="{{< relref "courses/epaec/exerresolvidos/index.html" >}}" target="_blank">Exercícios resolvidos</a>
+- {{< icon name="r-project" pack="fab" >}} <a href="{{< relref "courses/ear/Rbasico/index" >}}" target="_blank">Curso EAR: R básico</a>
+- {{< icon name="guitar" pack="fas" >}} <a href="{{< relref "project/cantest/index" >}}" target="_blank">Cantando com a Estatística</a>
+- {{< icon name="video" pack="fas" >}} <a href="{{< relref "courses/epaec/videoaulas/index" >}}" target="_blank">Vídeos</a>
+- {{< icon name="file" pack="fas" >}} <a href="{{< relref "courses/epaec/resest/index.html" >}}" target="_blank">Resumos da Estatística</a>
+
+
+
+## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
 
 {{< spoiler text="Quais as datas de avaliação?">}}
 Acessem: [Avaliação](#avaliacao) e [Cronograma](#cronograma)

@@ -744,3 +744,4 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 - {{< icon name="r-project" pack="fab" >}} <a href="{{< relref "courses/ear/Rbasico/index" >}}" target="_blank">Curso EAR: R básico</a>
 - {{< icon name="video" pack="fas" >}} <a href="{{< relref "courses/epaec/videoaulas/index" >}}" target="_blank">Vídeos</a>
 - {{< icon name="guitar" pack="fas" >}} <a href="{{< relref "project/cantest/index" >}}" target="_blank">Cantando com a Estatística</a>
+- {{< icon name="file" pack="fas" >}} <a href="{{< relref "courses/epaec/resest/index.html" >}}" target="_blank">Resumos da Estatística</a>

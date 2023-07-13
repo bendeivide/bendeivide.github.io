@@ -1,6 +1,6 @@
 ---
 title: 🎸 Cantando com a Estatística
-date: "2023-07-12 16:43:20"
+date: "2023-07-13 07:22:24"
 type: book
 weight: 55
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
@@ -15,7 +15,7 @@ draft: false
 O projeto Cantando com a Estatística da disciplina de **Estatística e Probabilidade** aplicadas às Engenharias e Ciências (EPAEC) da [UFSJ](http://ufsj.edu.br), ministradas pelo Prof. {{< mention "admin" >}}. Para mais informações acesse a página do projeto: <a href="{{< relref "project/cantest/index" >}}" target="_blank">Cantando com a Estatística</a>. Esse trabalho está vinculado ao <a href="{{< relref "project/ProjAPE" >}}" target="_blank"> Projeto Aprender Por Ensinar (PAPE)</a>.
 
 
-## <i class="fas fa-eye"></i> Veja também
+## <i class="fas fa-eye"></i> Veja também {id="vejatbmn" title="Clique aqui!"}
 
 - {{< icon name="podcast" pack="fas" >}} <a href="{{< relref "courses/epaec/podcasts/index.html" >}}" target="_blank">Podcasts</a>
 - {{< icon name="feather" pack="fas" >}} <a href="{{< relref "courses/epaec/exerresolvidos/index.html" >}}" target="_blank">Exercícios resolvidos</a>

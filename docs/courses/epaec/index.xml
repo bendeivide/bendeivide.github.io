@@ -15,19 +15,47 @@
     <item>
       <title>📚 Ensino normal 2023.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Tue, 11 Jul 2023 05:35:10 +0000</pubDate>
+      <pubDate>Thu, 13 Jul 2023 08:24:24 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
-      <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#topicos&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#onde&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#cronograma&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#whatsapp&#34;&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; Grupo de Whatsapp&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#formulario&#34;&gt;&lt;i class=&#34;fas fa-file-contract&#34;&gt;&lt;/i&gt; Preenchimento de dados para as avaliações&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#notas&#34;&gt;&lt;i class=&#34;fas fa-file-alt&#34;&gt;&lt;/i&gt; Notas&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ementa&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#metodologia&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Metodologia&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#avaliacao&#34;&gt;&lt;i class=&#34;fas fa-award&#34;&gt;&lt;/i&gt; Avaliação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#correcao&#34;&gt;&lt;i class=&#34;fas fa-check&#34;&gt;&lt;/i&gt; Como as provas serão corrigidas?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#contrato&#34;&gt;&lt;i class=&#34;fas fa-file-signature&#34;&gt;&lt;/i&gt; Contrato&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#bibiografia&#34;&gt;&lt;i class=&#34;fa fa-book&#34;&gt;&lt;/i&gt; Bibliografia adotada para a disciplina&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#matadotado&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Material adotado&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#mativas&#34;&gt;&lt;i class=&#34;fas fa-chalkboard&#34;&gt;&lt;/i&gt; Metodologias ativas&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#aprender&#34;&gt;&lt;i class=&#34;fab fa-leanpub&#34;&gt;&lt;/i&gt; Como estudar e aprender&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#quiz&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
+&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
 (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
-&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;h2 id=&#34;topicos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/h2&gt;
 &lt;p&gt;Definições gerais. Coleta, organização de dados. Medidas de posição.
 Medidas de dispersão. Probabilidades. Distribuições de probabilidade.
 Amostragem. Teoria da estimação. Teoria da decisão. Correlação e
 regressão linear simples.&lt;/p&gt;
-&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
+&lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
 Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de
@@ -55,7 +83,7 @@ Engenharia do campus.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;cronograma&#34;&gt;Calendário e Cronograma&lt;/h2&gt;
+&lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Calendário&lt;/li&gt;
 &lt;/ul&gt;
@@ -67,20 +95,20 @@ aulas&lt;/a&gt;:
       &lt;iframe src=&#34;https://docs.google.com/document/d/1DP-9WJ_WiPURwRlOFyY1NKBFlBflDqnWDqcMllMJnxI/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;grupo-de-whatsapp&#34;&gt;Grupo de Whatsapp&lt;/h2&gt;
+&lt;h2 id=&#34;whatsapp&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; Grupo de Whatsapp&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;preenchimento-de-dados-para-as-avaliações&#34;&gt;Preenchimento de dados para as avaliações&lt;/h2&gt;
+&lt;h2 id=&#34;formulario&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-contract&#34;&gt;&lt;/i&gt; Preenchimento de dados para as avaliações&lt;/h2&gt;
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;h2 id=&#34;notas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-alt&#34;&gt;&lt;/i&gt; Notas&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/18cQBWElhhWnozZZ-d2t3txiS_eCsHAKuOTmEirDnZ6M/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
 CAP/UFSJ&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
   &lt;p&gt;&lt;ol&gt;
 &lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
@@ -197,7 +225,7 @@ CAP/UFSJ&lt;/p&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
+&lt;h2 id=&#34;metodologia&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Metodologia&lt;/h2&gt;
 &lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
 aulas serão expositivas e dialogadas com os alunos presencialmente ou
 via portal didático, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
@@ -221,7 +249,7 @@ abordado.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 72h**.&lt;/p&gt;
@@ -229,10 +257,10 @@ abordado.&lt;/li&gt;
 &lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
+&lt;h2 id=&#34;avaliacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-award&#34;&gt;&lt;/i&gt; Avaliação&lt;/h2&gt;
 &lt;!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) --&gt;
 &lt;!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:&lt;/p&gt;
 &lt;ul&gt;
@@ -253,27 +281,27 @@ abordado.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;como-as-provas-serão-corrigidas&#34;&gt;Como as provas serão corrigidas?&lt;/h2&gt;
+&lt;h2 id=&#34;correcao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-check&#34;&gt;&lt;/i&gt; Como as provas serão corrigidas?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/critprova.pdf&#34; target=&#34;_blank&#34;&gt;Critérios de
 avaliação&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;contrato&#34;&gt;Contrato&lt;/h2&gt;
+&lt;h2 id=&#34;contrato&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-signature&#34;&gt;&lt;/i&gt; Contrato&lt;/h2&gt;
 &lt;p&gt;Contrato feito para a disciplina de Estatística e Probabilidade, como
 meio de substituir as avaliações tradicionais para uso de metodologias
 ativas como método de avaliação. Paralelo a disciplina, o aluno irá
 acompanhando as aulas e desenvolvendo demandas semanais, como forma de
 ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
 semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
   &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
   &lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;
 &lt;p&gt;Carregando&amp;hellip;&lt;/p&gt;
 &lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+&lt;h2 id=&#34;bibiografia&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-book&#34;&gt;&lt;/i&gt; Bibliografia adotada para a disciplina&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;MONTGOMERY, Douglas C.; RUNGER, George C.. &lt;strong&gt;Estatística aplicada e probabilidade para engenheiros&lt;/strong&gt;. 6. ed. Rio de Janeiro: LTC, 2016. 629 p. Tradução de: Verônica Calado.&lt;/li&gt;
@@ -285,7 +313,7 @@ semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;matadotado&#34;&gt;Material adotado&lt;/h2&gt;
+&lt;h2 id=&#34;matadotado&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Material adotado&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Livro referência: &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
 &lt;ul&gt;
@@ -294,7 +322,7 @@ semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
   &lt;summary&gt;Materiais complementares&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://leg.ufpr.br/~paulojus/estbas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
@@ -311,8 +339,8 @@ semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+&lt;h2 id=&#34;mativas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard&#34;&gt;&lt;/i&gt; Metodologias ativas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
@@ -330,7 +358,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
@@ -338,7 +366,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
@@ -346,17 +374,17 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;h2 id=&#34;aprender&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-leanpub&#34;&gt;&lt;/i&gt; Como estudar e aprender&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;Vídeoaula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;Aula 1 (07/08/2023)&lt;/summary&gt;
+&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;🎓 Aula 1 (07/08/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Apresentação do curso&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt;
 &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s01/&#34; target=&#34;_blank&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
@@ -375,7 +403,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;Aula 2 (10/03/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da
 estatística e técnicas de somatório&lt;/p&gt;
@@ -418,7 +446,7 @@ target=&amp;quot;_blank&amp;quot;&amp;gt;Exercícios resolvidos&lt;/a&gt;&lt;/li
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;Aula 3 (15/03/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Coleta, organização e
 apresentação de dados
@@ -466,7 +494,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;Aula 4 (22/03/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;Em aula&amp;hellip;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
@@ -476,7 +504,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;Aula 5 (22/03/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de posição&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &amp;lt;a
@@ -501,7 +529,7 @@ resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
 &lt;br/&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;Aula 6 (24/03/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;Em aula&amp;hellip;.&lt;/p&gt;
 &lt;/br&gt;
@@ -519,15 +547,15 @@ assíncrona 2021.1)&lt;/p&gt;
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;Aula 7 (29/03/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;Aula 8 (31/03/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;Aula 9 [EXTRA] (03/04/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de dispersão e
 Revisão para P1
@@ -563,7 +591,7 @@ síncrona)&lt;/p&gt;
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;Aula 6 (02/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -604,7 +632,7 @@ síncrona)&lt;/p&gt;
 &lt;!-- &lt;br/&gt; --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
   &lt;summary&gt;Aula 7 (06-09/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -633,7 +661,7 @@ síncrona)&lt;/p&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
   &lt;summary&gt;Aula 8 (09/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -660,7 +688,7 @@ síncrona)&lt;/p&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
   &lt;summary&gt;Aula 9 (13-15/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -694,13 +722,13 @@ síncrona)&lt;/p&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
   &lt;summary&gt;Aula 10 (16/09/2022)&lt;/summary&gt;
   &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- Prova! --&gt;
 &lt;!--&lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
   &lt;summary&gt;Aula 11  (20-22/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -727,7 +755,7 @@ síncrona)&lt;/p&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
   &lt;summary&gt;Aula 12  (23/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -754,7 +782,7 @@ síncrona)&lt;/p&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
   &lt;summary&gt;Aula 13  (27-29/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -788,7 +816,7 @@ síncrona)&lt;/p&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
   &lt;summary&gt;Aula 26  (15-16/06/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- 
@@ -831,12 +859,31 @@ síncrona)&lt;/p&gt;
  --&gt;
 &lt;!-- &lt;/p&gt;
 &lt;/details&gt; --&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
+&lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; target=&#34;_blank&#34;&gt;Ensino remoto 2021.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto2022.1/&#34; target=&#34;_blank&#34;&gt;Ensino remoto 2022.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34; target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34; target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-49&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-50&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
@@ -2713,21 +2760,21 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>🎸 Cantando com a Estatística</title>
       <link>http://bendeivide.github.io/courses/epaec/cantest/</link>
-      <pubDate>Wed, 12 Jul 2023 16:43:20 +0000</pubDate>
+      <pubDate>Thu, 13 Jul 2023 07:22:24 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/cantest/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
    &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
    &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-eyei-veja-também&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
  &lt;/details&gt;
 
 &lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
 &lt;p&gt;O projeto Cantando com a Estatística da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências (EPAEC) da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, ministradas pelo Prof. &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt;. Para mais informações acesse a página do projeto: &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;. Esse trabalho está vinculado ao &lt;a href=&#34;http://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34;&gt; Projeto Aprender Por Ensinar (PAPE)&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;i-classfas-fa-eyei-veja-também&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
+&lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
   &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34; target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
