@@ -1,24 +1,28 @@
 ---
-title: ✍️ Exercícios resolvidos para EPAEC
-date: "2023-03-14 13:16:48"
+title: ✍️ Exercícios resolvidos
+date: "2023-07-12 16:34:32"
 type: book
 weight: 40
 categories: ["Estatística", "Probabilidade", "Inferência Estatística"]
-tags: ["Curso"]
+tags: ["Vídeos"]
 draft: false
 ---
 
-Projeto aprender por ensinar, do qual apresentamos vídeo-aulas de exercícios resolvidos pelos nossos alunos e monitores da disciplina de **Estatística e Probabilidade** aplicadas às Engenharias e Ciências da [UFSJ](http://ufsj.edu.br).
+ {{< toc hide_on="xl" >}}
+ 
 
-## Apresentação
+Exercícios resolvidos da disciplina de **Estatística e Probabilidade** aplicadas às Engenharias e Ciências (EPAEC) da [UFSJ](http://ufsj.edu.br), ministradas pelo Prof. {{< mention "admin" >}}. Para mais informações sobre a disciplina, acesse o curso: <a href="{{< relref "courses/epaec/" >}}" target="_blank"> Estatística e Probabilidade (UFSJ) </a>. Esse trabalho está vinculado ao <a href="{{< relref "project/ProjAPE" >}}" target="_blank"> Projeto Aprender Por Ensinar (PAPE)</a>.
+
+## <i class="fas fa-chalkboard-teacher"></i>  Apresentação {id="apresentacao" title="Clique aqui!"}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LPANRN0F4Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Planilha dos exercícios resolvidos do EPAEC
 
-- [Planilha](https://docs.google.com/spreadsheets/d/1AkOILKiRmYviyoQEqnZLOVSdWc8cDuF02q6bmq-5_tU/edit?usp=sharing)
+## <i class="fas fa-file-excel"></i> Planilha dos exercícios resolvidos {id="planilha" title="Clique aqui!"}
 
-## Ementa
+- [Planilha](https://docs.google.com/spreadsheets/d/1RBRDmeQB3i0Gt3ofwpH4_9YdWEiCiBV9mcyflggbqoc/edit?usp=sharing)
+
+## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
 Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ
 
@@ -100,13 +104,15 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
     - Medidas de adequação do modelo
 {{< /spoiler >}}
 
-## *Link* da *playlist* de exercícios resolvidos
+## <i class="fa fa-link"></i> *Link* da *playlist* de vídeos dos exercícios resolvidos {id="playlist" title="Clique aqui!"}
 
 - [Playlist - PAPE](https://youtube.com/playlist?list=PL-20Z1XFWKR1DfCJHuB3_FLwsPwUe66R0) 
 
-## Exercícios Resolvidos por assunto
 
-{{< spoiler text="Vídeo-aulas sobre o Capítulo 1">}}
+
+## <i class="fas fa-pen"></i> Exercícios Resolvidos por assunto {id="exercporassunto" title="Clique aqui!"}
+
+{{< spoiler text="Vídeoaulas sobre o Capítulo 1">}}
 
 ### ER0001 - Definições básicas: População, Amostra e Variável
 
@@ -126,7 +132,7 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 {{< /spoiler >}}
 
-{{< spoiler text="Vídeo-aulas sobre o Capítulo 2">}}
+{{< spoiler text="Vídeoaulas sobre o Capítulo 2">}}
 
 ### ER0004 - Distribuições de frequência
 
@@ -134,7 +140,7 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 {{< /spoiler >}}
 
-{{< spoiler text="Vídeo-aulas sobre o Capítulo 3">}}
+{{< spoiler text="Vídeoaulas sobre o Capítulo 3">}}
 
 ### ER0005 - Medidas de Posição
 
@@ -142,7 +148,7 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 {{< /spoiler >}}
 
-{{< spoiler text="Vídeo-aulas sobre o Capítulo 4">}}
+{{< spoiler text="Vídeoaulas sobre o Capítulo 4">}}
 ### ER0006 - Medidas de Dispersão: Amplitude
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jMhxClWoJTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -154,7 +160,7 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 {{< /spoiler >}}
 
 
-{{< spoiler text="Vídeo-aulas sobre o Capítulo 5">}}
+{{< spoiler text="Vídeoaulas sobre o Capítulo 5">}}
 ### ER0007 - Probabilidade
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mCx1StP6xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -273,7 +279,7 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 
 
-{{< spoiler text="Vídeo-aulas sobre o Capítulo 6">}}
+{{< spoiler text="Vídeoaulas sobre o Capítulo 6">}}
 
 ### ER0002 - Distribuição Bernoulli
 
@@ -301,7 +307,7 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 {{< /spoiler >}}
 
-{{< spoiler text="Vídeo-aulas sobre o Capítulo 7">}}
+{{< spoiler text="Vídeoaulas sobre o Capítulo 7">}}
 
 ### ER0010 - Amostragem sem reposição
 
@@ -309,9 +315,9 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 {{< /spoiler >}}
 
-## Exercícios Resolvidos por data de publicação
+## <i class="fas fa-calendar"></i> Exercícios Resolvidos por data de publicação {id="exerpublicacao" title="Clique aqui!"}
 
-{{< spoiler text="Vídeo-aulas por data de publicação">}}
+{{< spoiler text="Vídeoaulas por data de publicação">}}
 
 ### ER0001 - Definições básicas: População, Amostra e Variável
 
@@ -729,10 +735,12 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/U
 
 
 
-
-
-
-
-
-
 {{< /spoiler >}}
+
+
+## <i class="fas fa-eye"></i> Veja também {id="vejatbmn" title="Clique aqui!"}
+
+- {{< icon name="podcast" pack="fas" >}} <a href="{{< relref "courses/epaec/podcasts/index.html" >}}" target="_blank">Podcasts</a>
+- {{< icon name="r-project" pack="fab" >}} <a href="{{< relref "courses/ear/Rbasico/index" >}}" target="_blank">Curso EAR: R básico</a>
+- {{< icon name="video" pack="fas" >}} <a href="{{< relref "courses/epaec/videoaulas/index" >}}" target="_blank">Vídeos</a>
+- {{< icon name="guitar" pack="fas" >}} <a href="{{< relref "project/cantest/index" >}}" target="_blank">Cantando com a Estatística</a>

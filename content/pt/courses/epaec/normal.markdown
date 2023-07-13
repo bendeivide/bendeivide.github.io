@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.2
-date: "2023-07-10 14:40:24"
+date: "2023-07-11 05:35:10"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -222,19 +222,23 @@ semana o aluno é acompanhado e avaliado pelo professor.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0">
 
-Carregando...</iframe>
+Carregando...
+
+</iframe>
 
 {{< /spoiler >}}
 
 ## Bibliografia adotada para a disciplina
 
 {{< spoiler text="Bibliografia detalhada">}}
+
 - MONTGOMERY, Douglas C.; RUNGER, George C.. **Estatística aplicada e probabilidade para engenheiros**. 6. ed. Rio de Janeiro: LTC, 2016. 629 p. Tradução de: Verônica Calado.
 - DEVORE, J. L.. **Probabilidade e Estatística**: para engenharia e ciências. São Paulo: Pioneira Thomson, 2006. 692 p.
 - MORETTIN, Luiz Gonzaga. **Estatística Básica**: Probabilidade e Inferência. São Paulo: Pearson Prentice Hall, 2010. 375 p.
 - BUSSAB, W. O.; MORETTIN, P.A. **Estatística Básica**. 5. ed. São Paulo: Saraiva, 2003.
 - COSTA NETO, P. L. O. **Estatística**. 3. ed. São Paulo: Edgard Blucher, 2007.
 - TRIOLA, M. F. **Introdução à Estatística**. Rio de janeiro: LTC, 2008.
+
 {{< /spoiler >}}
 
 ## Material adotado {#matadotado}
@@ -260,58 +264,70 @@ Carregando...</iframe>
 ## Metodologias ativas
 
 {{< spoiler text="Aprender por ensinar">}}
+
 - [Modelo de Arquivo em power point](https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing)
 - [Resultado em vídeo](https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing)
 - Os programas necessários:
   - Editor de Slides: o MS Power Point (Instalado previamente no Windows); [LibreOffice](https://www.libreoffice.org/download/download/);
   - Gravador de tela e de seu áudio: [OBS Studio](https://obsproject.com/pt-br/download)
 OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
+
 {{< youtube YqMQix2P1oU >}}
+
 {{< /spoiler >}}
 
 {{< spoiler text="Mapas Mentais">}}
+
 - Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;
 - [Modelo](https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing)
+
 {{< /spoiler >}}
 
 {{< spoiler text="Resumo de Cornell">}}
+
 - Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;
 - [Modelo](https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing)
+
 {{< /spoiler >}}
 
 ## Como estudar e aprender
 
-{{< spoiler text="Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)">}}
+{{< spoiler text="Vídeoaula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)">}}
+
 {{< youtube noXqEGIZak8>}}
+
 {{< /spoiler >}}
 
 ## Aulas
 
-{{< spoiler text="Aula 1 (08/03/2023)">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
-{{< icon name="eye" pack="fas" >}} Apresentação: 
+{{< spoiler text="Aula 1 (07/08/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Apresentação do curso
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ 
 <a href="{{< relref "/slides/estprob/s01/index" >}}" target="_blank">Aula 01</a>
 
-{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
-{{< icon name="headphones" pack="fas" >}} Podcast
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing" target="_blank">Plano de aula</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 1h 50min.
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing" target="_blank"> __Plano de aula__ </a>
 
-{{< icon name="book-reader" pack="fas" >}} Material para consulta
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
    - <a href="{{< relref "courses/epaec/remoto/index" >}}" target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
-   - <a href="{{< relref "courses/cursor/">}}" target="_blank">Curso R</a>
+   - <a href="{{< relref "courses/EAR/Rbasico/index">}}" target="_blank"> Curso EAR: R básico</a>
    - <a href="{{< relref "courses/epaec/exerresolvidos/index">}}" target="_blank">Exercícios resolvidos</a>
 
-{{< icon name="youtube" pack="fab" >}} Vídeo-aula
-{{< youtube TqnAYt89ElI >}}
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aulas__
+
+- <a href="{{< relref "courses/epaec/videoaulas/index">}}" target="_blank">Vídeoaulas</a>
 
 
 {{< /spoiler >}}
 
+
 {{< spoiler text="Aula 2 (10/03/2023)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Definições gerais da
-estatística e técnicas de somatório {{< icon name="eye" pack="fas" >}}
-Apresentação: \<a href="{{< relref"/slides/estprob/s02/index" >}}"
+estatística e técnicas de somatório 
+{{< icon name="eye" pack="fas" >}} Apresentação: <a href="{{< relref"/slides/estprob/s02/index" >}}"
 target="\_blank"\>Aula 02</a> {{< icon name="clock" pack="fas" >}}
 Tempo: 1h 50min. {{< icon name="headphones" pack="fas" >}} Podcast
 

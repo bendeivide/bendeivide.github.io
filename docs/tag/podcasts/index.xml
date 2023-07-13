@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcasts | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/podcasts/</link>
+      <atom:link href="http://bendeivide.github.io/tag/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Podcasts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 12 Jul 2023 16:39:46 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>Podcasts</title>
+      <link>http://bendeivide.github.io/tag/podcasts/</link>
+    </image>
+    
+    <item>
+      <title>🎤 Podcasts</title>
+      <link>http://bendeivide.github.io/courses/epaec/podcasts/</link>
+      <pubDate>Wed, 12 Jul 2023 16:39:46 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/epaec/podcasts/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+   &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#planilha&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha da sequência dos podcasts&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ementa&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#podcasts&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; &lt;em&gt;Link&lt;/em&gt; da &lt;em&gt;playlist&lt;/em&gt; dos &lt;em&gt;podcasts&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;/details&gt;
+
+&lt;p&gt;&lt;em&gt;Podcasts&lt;/em&gt; da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências (EPAEC) da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, ministradas pelo Prof. &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt;. Para mais informações sobre a disciplina, acesse o curso: &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34; target=&#34;_blank&#34;&gt; Estatística e Probabilidade (UFSJ) &lt;/a&gt;. Esse trabalho está vinculado ao &lt;a href=&#34;http://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34;&gt; Projeto Aprender Por Ensinar (PAPE)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Inserir vídeo&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;planilha&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha da sequência dos podcasts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1bEf5YLRpOPjhfGm6BvUvzz8MkmF4fAWSv72MdzrIQv0/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Planilha&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ para embasarmos a organização dos vídeos&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Definições Gerais&lt;/li&gt;
+&lt;li&gt;Técnicas de somatório&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Representação tabular&lt;/li&gt;
+&lt;li&gt;Representação gráfica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE POSIÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Média&lt;/li&gt;
+&lt;li&gt;Mediana&lt;/li&gt;
+&lt;li&gt;Moda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE DISPERSÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amplitude total&lt;/li&gt;
+&lt;li&gt;Variância&lt;/li&gt;
+&lt;li&gt;Desvio Padrão&lt;/li&gt;
+&lt;li&gt;Coeficiente de Variação&lt;/li&gt;
+&lt;li&gt;Erro padrão da Média&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Definições de probabilidades&lt;/li&gt;
+&lt;li&gt;Propriedades&lt;/li&gt;
+&lt;li&gt;Eventos independentes e probabilidade condicional&lt;/li&gt;
+&lt;li&gt;Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função de probabilidade discreta&lt;/li&gt;
+&lt;li&gt;Função de probabilidade contínua&lt;/li&gt;
+&lt;li&gt;Função de distribuição de probabilidade acumulada&lt;/li&gt;
+&lt;li&gt;Esperança matemática e variância&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÕES DE PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuições discretas de probabilidades&lt;/li&gt;
+&lt;li&gt;Distribuições contínuas de probabilidades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amostragem não-probabilística e probabilística&lt;/li&gt;
+&lt;li&gt;Técnicas de amostragem probabilística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÃO DE AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem da média&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de proporções&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de diferença entre médias&lt;/li&gt;
+&lt;li&gt;Distribuições amostrais (qui-quadrado, t e F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA ESTIMAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Tipos de estimativas&lt;/li&gt;
+&lt;li&gt;Propriedades de um estimador&lt;/li&gt;
+&lt;li&gt;Estimação por ponto&lt;/li&gt;
+&lt;li&gt;Estimação por intervalo:
+&lt;ul&gt;
+&lt;li&gt;Intervalo de confiança para a média&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a variância&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dimensionamento de amostras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA DECISÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Erros tipo I e II&lt;/li&gt;
+&lt;li&gt;Teste unilateral e bilateral&lt;/li&gt;
+&lt;li&gt;Passos para a construção de um teste de hipóteses&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a média&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a proporção&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a variância&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Correlação linear:&lt;/li&gt;
+&lt;li&gt;Coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses acerca do coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Regressão linear simples:&lt;/li&gt;
+&lt;li&gt;Modelo&lt;/li&gt;
+&lt;li&gt;Estimação dos parâmetros do modelo&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para o modelo de regressão&lt;/li&gt;
+&lt;li&gt;Medidas de adequação do modelo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;podcasts&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; &lt;em&gt;Link&lt;/em&gt; da &lt;em&gt;playlist&lt;/em&gt; dos &lt;em&gt;podcasts&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3M4laONv5FlvyKF8tLAHE4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Podcast2022.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR2KApqCAJ02WdCKNtZ06zqD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Podcast(EP-ER)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3_b1GgyRctQbEsoD-sZkZU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-spotify  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://open.spotify.com/show/0NhBadqLICDJjoYRGNgrxv?si=93911ccff6de4ce7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e minhas experiências&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-google  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zNzcwNWZhOC9wb2RjYXN0L3Jzcw?hl=pt-br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google podcast: Estatística e minhas experiências&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34; target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

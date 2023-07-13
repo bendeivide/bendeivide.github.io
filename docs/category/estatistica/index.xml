@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 10 Jul 2023 14:40:24 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 12 Jul 2023 16:43:20 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estatística</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2023.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Mon, 10 Jul 2023 14:40:24 +0000</pubDate>
+      <pubDate>Tue, 11 Jul 2023 05:35:10 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
@@ -268,7 +268,9 @@ semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
   &lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;
-&lt;p&gt;Carregando&amp;hellip;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Carregando&amp;hellip;&lt;/p&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
@@ -346,7 +348,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
-  &lt;summary&gt;Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
+  &lt;summary&gt;Vídeoaula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -354,31 +356,30 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;Aula 1 (08/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Apresentação do curso&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação:
+  &lt;summary&gt;Aula 1 (07/08/2023)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Apresentação do curso&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt;
 &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s01/&#34; target=&#34;_blank&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt; &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/cursor/&#34; target=&#34;_blank&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt; Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo-aula&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/TqnAYt89ElI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo-aulas&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;Aula 2 (10/03/2023)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da
-estatística e técnicas de somatório
-&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-Apresentação: &amp;lt;a href=&amp;quot;/slides/estprob/s02/&amp;quot;
+estatística e técnicas de somatório&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &amp;lt;a href=&amp;quot;/slides/estprob/s02/&amp;quot;
 target=&amp;quot;_blank&amp;quot;&amp;gt;Aula 02&lt;/a&gt;
 &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
 Tempo: 1h 50min.
@@ -3275,20 +3276,35 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     </item>
     
     <item>
-      <title>✍️ Exercícios resolvidos para EPAEC</title>
+      <title>✍️ Exercícios resolvidos</title>
       <link>http://bendeivide.github.io/courses/epaec/exerresolvidos/</link>
-      <pubDate>Tue, 14 Mar 2023 13:16:48 +0000</pubDate>
+      <pubDate>Wed, 12 Jul 2023 16:34:32 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/exerresolvidos/</guid>
-      <description>&lt;p&gt;Projeto aprender por ensinar, do qual apresentamos vídeo-aulas de exercícios resolvidos pelos nossos alunos e monitores da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+   &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#planilha&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha dos exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ementa&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#playlist&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; &lt;em&gt;Link&lt;/em&gt; da &lt;em&gt;playlist&lt;/em&gt; de vídeos dos exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#exercporassunto&#34;&gt;&lt;i class=&#34;fas fa-pen&#34;&gt;&lt;/i&gt; Exercícios Resolvidos por assunto&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#exerpublicacao&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt; Exercícios Resolvidos por data de publicação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;/details&gt;
+
+&lt;p&gt;Exercícios resolvidos da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências (EPAEC) da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, ministradas pelo Prof. &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt;. Para mais informações sobre a disciplina, acesse o curso: &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34; target=&#34;_blank&#34;&gt; Estatística e Probabilidade (UFSJ) &lt;/a&gt;. Esse trabalho está vinculado ao &lt;a href=&#34;http://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34;&gt; Projeto Aprender Por Ensinar (PAPE)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LPANRN0F4Uo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h2 id=&#34;planilha-dos-exercícios-resolvidos-do-epaec&#34;&gt;Planilha dos exercícios resolvidos do EPAEC&lt;/h2&gt;
+&lt;h2 id=&#34;planilha&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha dos exercícios resolvidos&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1AkOILKiRmYviyoQEqnZLOVSdWc8cDuF02q6bmq-5_tU/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Planilha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1RBRDmeQB3i0Gt3ofwpH4_9YdWEiCiBV9mcyflggbqoc/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Planilha&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
   &lt;p&gt;&lt;ol&gt;
 &lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
@@ -3405,13 +3421,13 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;link-da-playlist-de-exercícios-resolvidos&#34;&gt;&lt;em&gt;Link&lt;/em&gt; da &lt;em&gt;playlist&lt;/em&gt; de exercícios resolvidos&lt;/h2&gt;
+&lt;h2 id=&#34;playlist&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; &lt;em&gt;Link&lt;/em&gt; da &lt;em&gt;playlist&lt;/em&gt; de vídeos dos exercícios resolvidos&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR1DfCJHuB3_FLwsPwUe66R0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Playlist - PAPE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;exercícios-resolvidos-por-assunto&#34;&gt;Exercícios Resolvidos por assunto&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
-  &lt;summary&gt;Vídeo-aulas sobre o Capítulo 1&lt;/summary&gt;
+&lt;h2 id=&#34;exercporassunto&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pen&#34;&gt;&lt;/i&gt; Exercícios Resolvidos por assunto&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Vídeoaulas sobre o Capítulo 1&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;er0001---definições-básicas-população-amostra-e-variável&#34;&gt;ER0001 - Definições básicas: População, Amostra e Variável&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MK1_GE5GajM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3 id=&#34;er0003---técnicas-de-somatório&#34;&gt;ER0003 - Técnicas de somatório&lt;/h3&gt;
@@ -3422,28 +3438,28 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/9LOlpGN_XGo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;Vídeo-aulas sobre o Capítulo 2&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Vídeoaulas sobre o Capítulo 2&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;er0004---distribuições-de-frequência&#34;&gt;ER0004 - Distribuições de frequência&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/__rHs-Lqq1k&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Vídeo-aulas sobre o Capítulo 3&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Vídeoaulas sobre o Capítulo 3&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;er0005---medidas-de-posição&#34;&gt;ER0005 - Medidas de Posição&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/l8b5g1ELAw0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary&gt;Vídeo-aulas sobre o Capítulo 4&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Vídeoaulas sobre o Capítulo 4&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;er0006---medidas-de-dispersão-amplitude&#34;&gt;ER0006 - Medidas de Dispersão: Amplitude&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jMhxClWoJTo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3 id=&#34;er0009---medidas-de-dispersão&#34;&gt;ER0009 - Medidas de dispersão&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/q67RgKF_Kd0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
-  &lt;summary&gt;Vídeo-aulas sobre o Capítulo 5&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Vídeoaulas sobre o Capítulo 5&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;er0007---probabilidade&#34;&gt;ER0007 - Probabilidade&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7mCx1StP6xQ&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3 id=&#34;er0008---probabilidade-parte-ii&#34;&gt;ER0008 - Probabilidade (Parte II)&lt;/h3&gt;
@@ -3502,8 +3518,8 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TxYTH11ZVtU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;Vídeo-aulas sobre o Capítulo 6&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Vídeoaulas sobre o Capítulo 6&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;er0002---distribuição-bernoulli&#34;&gt;ER0002 - Distribuição Bernoulli&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ThpaNllq7zU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3 id=&#34;er0011---distribuição-binomial&#34;&gt;ER0011 - Distribuição Binomial&lt;/h3&gt;
@@ -3518,15 +3534,15 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/1-Bix-lz2q8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
-  &lt;summary&gt;Vídeo-aulas sobre o Capítulo 7&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Vídeoaulas sobre o Capítulo 7&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;er0010---amostragem-sem-reposição&#34;&gt;ER0010 - Amostragem sem reposição&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Ixb-hjWn0GE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;exercícios-resolvidos-por-data-de-publicação&#34;&gt;Exercícios Resolvidos por data de publicação&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
-  &lt;summary&gt;Vídeo-aulas por data de publicação&lt;/summary&gt;
+&lt;h2 id=&#34;exerpublicacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt; Exercícios Resolvidos por data de publicação&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;Vídeoaulas por data de publicação&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;er0001---definições-básicas-população-amostra-e-variável&#34;&gt;ER0001 - Definições básicas: População, Amostra e Variável&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MK1_GE5GajM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h3 id=&#34;er0002---distribuição-bernoulli&#34;&gt;ER0002 - Distribuição Bernoulli&lt;/h3&gt;
@@ -3729,6 +3745,545 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/bCpqM38K2do&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/details&gt;
+&lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34; target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎥 Vídeoaulas</title>
+      <link>http://bendeivide.github.io/courses/epaec/videoaulas/</link>
+      <pubDate>Wed, 12 Jul 2023 16:38:26 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/epaec/videoaulas/</guid>
+      <description>&lt;p&gt;Vídeoaulas da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências (EPAEC) da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, ministradas pelo Prof. &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt;. Para mais informações sobre a disciplina, acesse o curso: &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34; target=&#34;_blank&#34;&gt; Estatística e Probabilidade (UFSJ) &lt;/a&gt;. Esse trabalho está vinculado ao &lt;a href=&#34;http://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34;&gt; Projeto Aprender Por Ensinar (PAPE)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Inserir vídeo&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;planilha&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha da sequência das vídeoaulas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1bEf5YLRpOPjhfGm6BvUvzz8MkmF4fAWSv72MdzrIQv0/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Planilha&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ para embasarmos a organização dos vídeos&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Definições Gerais&lt;/li&gt;
+&lt;li&gt;Técnicas de somatório&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Representação tabular&lt;/li&gt;
+&lt;li&gt;Representação gráfica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE POSIÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Média&lt;/li&gt;
+&lt;li&gt;Mediana&lt;/li&gt;
+&lt;li&gt;Moda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE DISPERSÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amplitude total&lt;/li&gt;
+&lt;li&gt;Variância&lt;/li&gt;
+&lt;li&gt;Desvio Padrão&lt;/li&gt;
+&lt;li&gt;Coeficiente de Variação&lt;/li&gt;
+&lt;li&gt;Erro padrão da Média&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Definições de probabilidades&lt;/li&gt;
+&lt;li&gt;Propriedades&lt;/li&gt;
+&lt;li&gt;Eventos independentes e probabilidade condicional&lt;/li&gt;
+&lt;li&gt;Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função de probabilidade discreta&lt;/li&gt;
+&lt;li&gt;Função de probabilidade contínua&lt;/li&gt;
+&lt;li&gt;Função de distribuição de probabilidade acumulada&lt;/li&gt;
+&lt;li&gt;Esperança matemática e variância&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÕES DE PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuições discretas de probabilidades&lt;/li&gt;
+&lt;li&gt;Distribuições contínuas de probabilidades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amostragem não-probabilística e probabilística&lt;/li&gt;
+&lt;li&gt;Técnicas de amostragem probabilística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÃO DE AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem da média&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de proporções&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de diferença entre médias&lt;/li&gt;
+&lt;li&gt;Distribuições amostrais (qui-quadrado, t e F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA ESTIMAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Tipos de estimativas&lt;/li&gt;
+&lt;li&gt;Propriedades de um estimador&lt;/li&gt;
+&lt;li&gt;Estimação por ponto&lt;/li&gt;
+&lt;li&gt;Estimação por intervalo:
+&lt;ul&gt;
+&lt;li&gt;Intervalo de confiança para a média&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a variância&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dimensionamento de amostras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA DECISÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Erros tipo I e II&lt;/li&gt;
+&lt;li&gt;Teste unilateral e bilateral&lt;/li&gt;
+&lt;li&gt;Passos para a construção de um teste de hipóteses&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a média&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a proporção&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a variância&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Correlação linear:&lt;/li&gt;
+&lt;li&gt;Coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses acerca do coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Regressão linear simples:&lt;/li&gt;
+&lt;li&gt;Modelo&lt;/li&gt;
+&lt;li&gt;Estimação dos parâmetros do modelo&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para o modelo de regressão&lt;/li&gt;
+&lt;li&gt;Medidas de adequação do modelo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;playlist&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; &lt;em&gt;Link&lt;/em&gt; da &lt;em&gt;playlist&lt;/em&gt; das vídeoaulas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3GUJ0ylUqUFNWtGQryVoLm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Playlist - Estatística e Probabilidade 2023.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR1OAedZqTh2zWab3R8Byw4f&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Playlist - Estatística e Probabilidade 2022.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR1JGnotqkqH98I2xMrVqpv-&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Playlist - Estatística e Probabilidade 2021.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0Hj73LFn8DOO1IIJ0DkzYm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resumos da Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vejatbm&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34; target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34; target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎸 Cantando com a Estatística</title>
+      <link>http://bendeivide.github.io/courses/epaec/cantest/</link>
+      <pubDate>Wed, 12 Jul 2023 16:43:20 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/epaec/cantest/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+   &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-eyei-veja-também&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;/details&gt;
+
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
+&lt;p&gt;O projeto Cantando com a Estatística da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências (EPAEC) da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, ministradas pelo Prof. &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt;. Para mais informações acesse a página do projeto: &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;. Esse trabalho está vinculado ao &lt;a href=&#34;http://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34;&gt; Projeto Aprender Por Ensinar (PAPE)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;i-classfas-fa-eyei-veja-também&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34; target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34; target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎤 Podcasts</title>
+      <link>http://bendeivide.github.io/courses/epaec/podcasts/</link>
+      <pubDate>Wed, 12 Jul 2023 16:39:46 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/epaec/podcasts/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+   &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#planilha&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha da sequência dos podcasts&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ementa&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#podcasts&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; &lt;em&gt;Link&lt;/em&gt; da &lt;em&gt;playlist&lt;/em&gt; dos &lt;em&gt;podcasts&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;/details&gt;
+
+&lt;p&gt;&lt;em&gt;Podcasts&lt;/em&gt; da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências (EPAEC) da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, ministradas pelo Prof. &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt;. Para mais informações sobre a disciplina, acesse o curso: &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/&#34; target=&#34;_blank&#34;&gt; Estatística e Probabilidade (UFSJ) &lt;/a&gt;. Esse trabalho está vinculado ao &lt;a href=&#34;http://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34;&gt; Projeto Aprender Por Ensinar (PAPE)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Inserir vídeo&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;planilha&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha da sequência dos podcasts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1bEf5YLRpOPjhfGm6BvUvzz8MkmF4fAWSv72MdzrIQv0/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Planilha&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ para embasarmos a organização dos vídeos&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Definições Gerais&lt;/li&gt;
+&lt;li&gt;Técnicas de somatório&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Representação tabular&lt;/li&gt;
+&lt;li&gt;Representação gráfica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE POSIÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Média&lt;/li&gt;
+&lt;li&gt;Mediana&lt;/li&gt;
+&lt;li&gt;Moda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE DISPERSÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amplitude total&lt;/li&gt;
+&lt;li&gt;Variância&lt;/li&gt;
+&lt;li&gt;Desvio Padrão&lt;/li&gt;
+&lt;li&gt;Coeficiente de Variação&lt;/li&gt;
+&lt;li&gt;Erro padrão da Média&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Definições de probabilidades&lt;/li&gt;
+&lt;li&gt;Propriedades&lt;/li&gt;
+&lt;li&gt;Eventos independentes e probabilidade condicional&lt;/li&gt;
+&lt;li&gt;Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função de probabilidade discreta&lt;/li&gt;
+&lt;li&gt;Função de probabilidade contínua&lt;/li&gt;
+&lt;li&gt;Função de distribuição de probabilidade acumulada&lt;/li&gt;
+&lt;li&gt;Esperança matemática e variância&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÕES DE PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuições discretas de probabilidades&lt;/li&gt;
+&lt;li&gt;Distribuições contínuas de probabilidades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amostragem não-probabilística e probabilística&lt;/li&gt;
+&lt;li&gt;Técnicas de amostragem probabilística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÃO DE AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem da média&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de proporções&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de diferença entre médias&lt;/li&gt;
+&lt;li&gt;Distribuições amostrais (qui-quadrado, t e F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA ESTIMAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Tipos de estimativas&lt;/li&gt;
+&lt;li&gt;Propriedades de um estimador&lt;/li&gt;
+&lt;li&gt;Estimação por ponto&lt;/li&gt;
+&lt;li&gt;Estimação por intervalo:
+&lt;ul&gt;
+&lt;li&gt;Intervalo de confiança para a média&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a variância&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dimensionamento de amostras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA DECISÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Erros tipo I e II&lt;/li&gt;
+&lt;li&gt;Teste unilateral e bilateral&lt;/li&gt;
+&lt;li&gt;Passos para a construção de um teste de hipóteses&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a média&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a proporção&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a variância&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Correlação linear:&lt;/li&gt;
+&lt;li&gt;Coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses acerca do coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Regressão linear simples:&lt;/li&gt;
+&lt;li&gt;Modelo&lt;/li&gt;
+&lt;li&gt;Estimação dos parâmetros do modelo&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para o modelo de regressão&lt;/li&gt;
+&lt;li&gt;Medidas de adequação do modelo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;podcasts&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; &lt;em&gt;Link&lt;/em&gt; da &lt;em&gt;playlist&lt;/em&gt; dos &lt;em&gt;podcasts&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3M4laONv5FlvyKF8tLAHE4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Podcast2022.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR2KApqCAJ02WdCKNtZ06zqD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Podcast(EP-ER)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3_b1GgyRctQbEsoD-sZkZU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-spotify  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://open.spotify.com/show/0NhBadqLICDJjoYRGNgrxv?si=93911ccff6de4ce7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e minhas experiências&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-google  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zNzcwNWZhOC9wb2RjYXN0L3Jzcw?hl=pt-br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google podcast: Estatística e minhas experiências&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34; target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📋 Resumos da Estatística</title>
+      <link>http://bendeivide.github.io/courses/epaec/resest/</link>
+      <pubDate>Wed, 12 Jul 2023 16:30:29 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/epaec/resest/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+   &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#planilha&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha da sequência das vídeoaulas&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ementa&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-eyei-veja-também&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+ &lt;/details&gt;
+
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
+&lt;p&gt;Resumos da Estatística  representa uma séries de vídeos curtos mostrando uma ideia geral sobre cada assunto da disciplina de &lt;strong&gt;Estatística e Probabilidade&lt;/strong&gt; aplicadas às Engenharias e Ciências (EPAEC) da &lt;a href=&#34;http://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, ministradas pelo Prof. &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt;. Esse trabalho está vinculado ao &lt;a href=&#34;http://bendeivide.github.io/project/projape/&#34; target=&#34;_blank&#34;&gt; Projeto Aprender Por Ensinar (PAPE)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;planilha&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-excel&#34;&gt;&lt;/i&gt; Planilha da sequência das vídeoaulas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1bEf5YLRpOPjhfGm6BvUvzz8MkmF4fAWSv72MdzrIQv0/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Planilha&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da CAP/UFSJ para embasarmos a organização dos vídeos&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Definições Gerais&lt;/li&gt;
+&lt;li&gt;Técnicas de somatório&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Representação tabular&lt;/li&gt;
+&lt;li&gt;Representação gráfica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE POSIÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Média&lt;/li&gt;
+&lt;li&gt;Mediana&lt;/li&gt;
+&lt;li&gt;Moda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE DISPERSÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amplitude total&lt;/li&gt;
+&lt;li&gt;Variância&lt;/li&gt;
+&lt;li&gt;Desvio Padrão&lt;/li&gt;
+&lt;li&gt;Coeficiente de Variação&lt;/li&gt;
+&lt;li&gt;Erro padrão da Média&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Definições de probabilidades&lt;/li&gt;
+&lt;li&gt;Propriedades&lt;/li&gt;
+&lt;li&gt;Eventos independentes e probabilidade condicional&lt;/li&gt;
+&lt;li&gt;Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função de probabilidade discreta&lt;/li&gt;
+&lt;li&gt;Função de probabilidade contínua&lt;/li&gt;
+&lt;li&gt;Função de distribuição de probabilidade acumulada&lt;/li&gt;
+&lt;li&gt;Esperança matemática e variância&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÕES DE PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuições discretas de probabilidades&lt;/li&gt;
+&lt;li&gt;Distribuições contínuas de probabilidades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amostragem não-probabilística e probabilística&lt;/li&gt;
+&lt;li&gt;Técnicas de amostragem probabilística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÃO DE AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem da média&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de proporções&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de diferença entre médias&lt;/li&gt;
+&lt;li&gt;Distribuições amostrais (qui-quadrado, t e F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA ESTIMAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Tipos de estimativas&lt;/li&gt;
+&lt;li&gt;Propriedades de um estimador&lt;/li&gt;
+&lt;li&gt;Estimação por ponto&lt;/li&gt;
+&lt;li&gt;Estimação por intervalo:
+&lt;ul&gt;
+&lt;li&gt;Intervalo de confiança para a média&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a variância&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dimensionamento de amostras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA DECISÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Erros tipo I e II&lt;/li&gt;
+&lt;li&gt;Teste unilateral e bilateral&lt;/li&gt;
+&lt;li&gt;Passos para a construção de um teste de hipóteses&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a média&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a proporção&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a variância&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Correlação linear:&lt;/li&gt;
+&lt;li&gt;Coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses acerca do coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Regressão linear simples:&lt;/li&gt;
+&lt;li&gt;Modelo&lt;/li&gt;
+&lt;li&gt;Estimação dos parâmetros do modelo&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para o modelo de regressão&lt;/li&gt;
+&lt;li&gt;Medidas de adequação do modelo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;i-classfas-fa-eyei-veja-também&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34; target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
