@@ -1,6 +1,7 @@
 ---
-title: R básico
-date: "2023-07-13 07:03:47"
+title:  R básico
+icon: fab fa-r-project
+date: "2023-07-25 08:43:18"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -13,10 +14,10 @@ Programando o [R](http://r-project.org) em nível básico.
 
 <!--more-->
 
-{{< icon name="clock" pack="fas" >}} 25 horas em 2 semanas
+{{< icon name="clock" pack="fas" >}} 30 horas em 3 semanas
 
 
-## Apresentação
+## <i class="fas fa-chalkboard-teacher"></i>  Apresentação {id="apresentacao" title="Clique aqui!"}
 
 A coleção *Estudando o ambiente R* é fruto de cursos ministrados sobre a linguagem [R](http://r-project.org/), bem como colaborações e estudos ao longo dos anos. Em 2005, quando ingressei no curso de Engenharia Agronômica, fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, obtive o primeiro contato com o ambiente [R](http://r-project.org/) pouco mais de 9 anos de seu lançamento e redistribuição. Naquela época, haviam poucos materiais em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para a compreensão. À época, inclusive, até sonhei em chegar neste dia, qua seja, o dia do lançamento de uma obra como esta.
 
@@ -32,23 +33,39 @@ Tentando engajar os alunos para que se tornem protagonistas do processo de apren
 
 Por fim, espero que este primeiro *Volume* sirva de referência aos passos iniciais nessa ferramenta tão importante para a análise de dados.
 
-## Ementa
+## <i class="fas fa-map"></i>  Tópicos abordados {id="topicos" title="Clique aqui!"}
 
-## Livro de apoio
+Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
+
+## <i class="fa fa-globe"></i> Onde? {id="onde" title="Clique aqui!"}
+
+-   <i class="fas fa-route"></i> O curso será ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
+    Paraopeba ([CAP](http://ufsj.edu.br/cap/)), de forma presencial e também com retransmissão via Youtube, pelo canal <http://youtube.com/bendeivide>
+- <i class="fas fa-calendar-day"></i> Data: **A definir!**
+
+## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
+
+-   Calendário
+
+<img src="/pt/courses/EAR/Rbasico_files/figure-html/unnamed-chunk-2-1.png" width="672" />
+
+
+## <i class="fab fa-readme"></i> Ementa
+
+## <i class="fas fa-swatchbook"></i> Livro de apoio
 
 - Versão Física:
   - {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!)
   - [Shopee](https://shopee.com.br/product/880978340/20053618529/)
   - [Mercado livre](https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM)
   - {{< icon name="amazon" pack="fab" >}} [Amazon](https://www.amazon.com/dp/6500531914)
-  - {{< icon name="instagram" pack="fab" >}} [Instagram](https://www.instagram.com/democratizando_conhecimento_/)
 - Versão digital:
   - {{< icon name="file-pdf" pack="fas" >}} [R básico (PDF)](https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf)
   - {{< icon name="book-reader" pack="fas" >}} [R básico (Bookdown)](https://bendeivide.github.io/book-eambr01/)
 
-## Aulas
+## <i class="fab fa-r-project"></i> Aulas
 
-{{< spoiler text="Aula 00 - Apresentação do curso" >}}
+{{< spoiler text=":blue_book: Aula 00 - Apresentação do curso" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Apresentação do curso
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide00/index.html" target="_blank">Aula 00</a>
@@ -65,7 +82,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 
 {{< /spoiler >}}
 
-{{< spoiler text="Aula 01 - Entendendo o curso EAR: R básico" >}}
+{{< spoiler text=":blue_book: Aula 01 - Entendendo o curso EAR: R básico" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Entendendo o curso EAR: R básico
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide01/index.html" target="_blank">Aula 01</a>
@@ -83,7 +100,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 02 - Passos iniciais para a utilização do R e do RStudio" >}}
+{{< spoiler text=":blue_book: Aula 02 - Passos iniciais para a utilização do R e do RStudio" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Passos iniciais para a utilização do R e do RStudio
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide02/index.html" target="_blank">Aula 02</a>
@@ -101,7 +118,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 03 - Hitória do R" >}}
+{{< spoiler text=":blue_book: Aula 03 - Hitória do R" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Hitória do R
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide03/index.html" target="_blank">Aula 03</a>
@@ -119,7 +136,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 04 - Como o R trabalha?" >}}
+{{< spoiler text=":blue_book: Aula 04 - Como o R trabalha?" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Como o R trabalha?
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide04/index.html" target="_blank">Aula 04</a>
@@ -137,7 +154,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 05 - Comandos no R e Ambiente Global" >}}
+{{< spoiler text=":blue_book: Aula 05 - Comandos no R e Ambiente Global" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Comandos no R e Ambiente Global
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide05/index.html" target="_blank">Aula 05</a>
@@ -155,7 +172,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 06 - Arquivos `.RData` e `.Rhistory`" >}}
+{{< spoiler text=":blue_book: Aula 06 - Arquivos `.RData` e `.Rhistory`" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Arquivos `.RData` e `.Rhistory`
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide06/index.html" target="_blank">Aula 06</a>
@@ -173,7 +190,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 07 - Criando e salvando um *Script* " >}}
+{{< spoiler text=":blue_book: Aula 07 - Criando e salvando um *Script* " >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Criando e salvando um `Script`
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide07/index.html" target="_blank">Aula 07</a>
@@ -191,7 +208,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 08 - Objetos" >}}
+{{< spoiler text=":blue_book: Aula 08 - Objetos" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Objetos
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide08/index.html" target="_blank">Aula 08</a>
@@ -209,7 +226,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 09 - Vetores" >}}
+{{< spoiler text=":blue_book: Aula 09 - Vetores" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Vetores
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide09/index.html" target="_blank">Aula 09</a>
@@ -227,7 +244,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 10 - Matrizes bidimensionais" >}}
+{{< spoiler text=":blue_book: Aula 10 - Matrizes bidimensionais" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Matrizes bidimensionais
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide10/index.html" target="_blank">Aula 10</a>
@@ -245,7 +262,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 11 - `Arrays` (Matrizes multidimensionais)" >}}
+{{< spoiler text=":blue_book: Aula 11 - `Arrays` (Matrizes multidimensionais)" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ `Arrays` (Matrizes multidimensionais)
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide11/index.html" target="_blank">Aula 11</a>
@@ -263,7 +280,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 12 - Listas " >}}
+{{< spoiler text=":blue_book: Aula 12 - Listas " >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Listas
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide12/index.html" target="_blank">Aula 12</a>
@@ -283,7 +300,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 
 
 
-{{< spoiler text="Aula 13 - Quadro de dados " >}}
+{{< spoiler text=":blue_book: Aula 13 - Quadro de dados " >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Quadro de dados
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide13/index.html" target="_blank">Aula 13</a>
@@ -301,7 +318,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 14 - Importanto e Exportando dados " >}}
+{{< spoiler text=":blue_book: Aula 14 - Importanto e Exportando dados " >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Importando e Exportando dados
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide14/index.html" target="_blank">Aula 14</a>
@@ -319,7 +336,7 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 {{< /spoiler >}}
 
 
-{{< spoiler text="Aula 15 - Funções " >}}
+{{< spoiler text=":blue_book: Aula 15 - Funções " >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Funções
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide15/index.html" target="_blank">Aula 15</a>
@@ -339,21 +356,21 @@ Por fim, espero que este primeiro *Volume* sirva de referência aos passos inici
 
 
 
-## Quiz
+## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
 
-{{< spoiler text="Livro de apoio?" >}}
+{{< spoiler text=":open_book: Livro de apoio?" >}}
 Acesse: <https://bendeivide.github.io/book-eambr01/>
 {{< /spoiler >}}
 
-{{< spoiler text="Curso anterior!" >}}
+{{< spoiler text=":file_folder: Curso anterior!" >}}
 Acesse: <http://bendeivide.github.io/cursor/nbasico#rwork>
 {{< /spoiler >}}
 
-{{< spoiler text="Playlist do youtube (cursos anteriores)" >}}
-Acesse: <https://www.youtube.com/watch?v=_JqtU3X101E&list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O>
+{{< spoiler text=":clapper: Playlist do youtube (cursos anteriores)" >}}
+Acesse: [Curso R - Nível Básico](https://www.youtube.com/watch?v=_JqtU3X101E&list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O)
 {{< /spoiler >}}
 
-{{< spoiler text="Adquira o Livro físico **R básico**" >}}
+{{< spoiler text=":books: Adquira o Livro físico **R básico**" >}}
 - {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!)
   - [Shopee](https://shopee.com.br/product/880978340/20053618529/)
 {{< /spoiler >}}

@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/curso-r/</link>
       <atom:link href="http://bendeivide.github.io/tag/curso-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 13 Jul 2023 07:03:47 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 25 Jul 2023 08:43:18 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso R</title>
@@ -15,12 +15,12 @@
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Thu, 13 Jul 2023 07:03:47 +0000</pubDate>
+      <pubDate>Tue, 25 Jul 2023 08:43:18 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;p&gt;Programando o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; em nível básico.&lt;/p&gt;
 &lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 25 horas em 2 semanas&lt;/p&gt;
-&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 30 horas em 3 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
 &lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre a linguagem &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, bem como colaborações e estudos ao longo dos anos. Em 2005, quando ingressei no curso de Engenharia Agronômica, fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, obtive o primeiro contato com o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; pouco mais de 9 anos de seu lançamento e redistribuição. Naquela época, haviam poucos materiais em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para a compreensão. À época, inclusive, até sonhei em chegar neste dia, qua seja, o dia do lançamento de uma obra como esta.&lt;/p&gt;
 &lt;p&gt;Hoje, no ano de 2022, usuário há mais de 16 anos dessa linguagem, percebi um sentimento inquietante somente na posição de usuário do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Eu posso reafirmar que uma estratégia muito poderosa de ensino/aprendizagem é a técnica &lt;em&gt;aprender por ensinar&lt;/em&gt;, particularmente, porque além de democratizar o conhecimento  perpetuando-o, aprendo mais e mais sobre determinado assunto. Dessa forma, lotado no Departamento de Estatística, Física e Matemática &lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt; desde 2018, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), comecei a planejar diversos &lt;a href=&#34;http://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cursos sobre a linguagem R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Com o apoio do Centro Acadêmico de Engenharia de Telecomunicações (Catel/UFSJ), iniciei, no ano de 2021, o primeiro curso para o módulo Básico, e na sequência foi realizado o módulo intermediário. Todos no formato &lt;em&gt;online&lt;/em&gt;, para que o conhecimento ultrapassasse as fronteiras da Universidade. Até o presente momento, o módulo avançado que seria o último curso, está em fase de desenvolvimento. A ideia deu tanto certo, que apesar do momento de pandemia e situação difícil para o mundo, foi realizada mais de 1.000 inscrições, tanto de alunos da UFSJ, como também de alunos da América do Sul, Moçambique, Angola, dentre outros países e outros estados do Brasil. Tudo isso, realizado de forma gratuita e com emissão de certificados emitidos pelo Catel. Hoje, temos a parceria do &lt;a href=&#34;https://www.instagram.com/ceac_ufsj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEAC&lt;/a&gt; (Clube de Engenharia Assistida por Computador/UFSJ) para o suporte nos cursos do EAR.&lt;/p&gt;
@@ -28,8 +28,21 @@
 &lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;&lt;/em&gt; apresenta três &lt;em&gt;Volumes&lt;/em&gt; iniciais, intitulados por:  o &lt;em&gt;R básico&lt;/em&gt; (&lt;em&gt;Volume I&lt;/em&gt;), o &lt;em&gt;R intermediário&lt;/em&gt;  (&lt;em&gt;Volume II&lt;/em&gt;) e o &lt;em&gt;R avançado&lt;/em&gt; (&lt;em&gt;Volume III&lt;/em&gt;). Fazendo a alusão aos três livros iniciais sobre a linguagem &lt;code&gt;S&lt;/code&gt; desenvolvidos por John Chambers e colaboradores, é realizado uma explanação desde assuntos mais simples até noções mais complexas sobre o &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, restringindo apenas a sintaxe e semântica da linguagem. Os &lt;em&gt;Volumes&lt;/em&gt; subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos no R&lt;/em&gt;, &lt;em&gt;Funções do pacote &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;base&lt;/a&gt;&lt;/em&gt;, dentre outros.&lt;/p&gt;
 &lt;p&gt;Tentando engajar os alunos para que se tornem protagonistas do processo de aprendizagem, e agora colegas de trabalho, tenho a parceria no &lt;em&gt;Volume I&lt;/em&gt;, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, um ex-orientando, e agora um profissional que tenta se superar a cada desafio e assunto estudado. Por isso, tenho a imensa satisfação de ter a sua contribuição e experiência neste material.&lt;/p&gt;
 &lt;p&gt;Por fim, espero que este primeiro &lt;em&gt;Volume&lt;/em&gt; sirva de referência aos passos iniciais nessa ferramenta tão importante para a análise de dados.&lt;/p&gt;
-&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
-&lt;h2 id=&#34;livro-de-apoio&#34;&gt;Livro de apoio&lt;/h2&gt;
+&lt;h2 id=&#34;topicos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/h2&gt;
+&lt;p&gt;Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.&lt;/p&gt;
+&lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-route&#34;&gt;&lt;/i&gt; O curso será ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), de forma presencial e também com retransmissão via Youtube, pelo canal &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; Data: &lt;strong&gt;A definir!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calendário&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;http://bendeivide.github.io/pt/courses/EAR/Rbasico_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;h2 id=&#34;i-classfab-fa-readmei-ementa&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
+&lt;h2 id=&#34;i-classfas-fa-swatchbooki-livro-de-apoio&#34;&gt;&lt;i class=&#34;fas fa-swatchbook&#34;&gt;&lt;/i&gt; Livro de apoio&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Versão Física:
 &lt;ul&gt;
@@ -39,8 +52,6 @@
 &lt;li&gt;&lt;a href=&#34;https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercado livre&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
   &lt;i class=&#34;fab fa-amazon  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fab fa-instagram  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.instagram.com/democratizando_conhecimento_/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Versão digital:
@@ -52,9 +63,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;Aula 00 - Apresentação do curso&lt;/summary&gt;
+&lt;h2 id=&#34;i-classfab-fa-r-projecti-aulas&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;📘 Aula 00 - Apresentação do curso&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Apresentação do curso&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide00/index.html&#34; target=&#34;_blank&#34;&gt;Aula 00&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 30 minutos&lt;/p&gt;
@@ -72,8 +83,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
-  &lt;summary&gt;Aula 01 - Entendendo o curso EAR: R básico&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;📘 Aula 01 - Entendendo o curso EAR: R básico&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Entendendo o curso EAR: R básico&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide01/index.html&#34; target=&#34;_blank&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -91,8 +102,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
-  &lt;summary&gt;Aula 02 - Passos iniciais para a utilização do R e do RStudio&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;📘 Aula 02 - Passos iniciais para a utilização do R e do RStudio&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Passos iniciais para a utilização do R e do RStudio&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide02/index.html&#34; target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -110,8 +121,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
-  &lt;summary&gt;Aula 03 - Hitória do R&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;📘 Aula 03 - Hitória do R&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Hitória do R&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide03/index.html&#34; target=&#34;_blank&#34;&gt;Aula 03&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -129,8 +140,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
-  &lt;summary&gt;Aula 04 - Como o R trabalha?&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;📘 Aula 04 - Como o R trabalha?&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Como o R trabalha?&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide04/index.html&#34; target=&#34;_blank&#34;&gt;Aula 04&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -148,8 +159,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
-  &lt;summary&gt;Aula 05 - Comandos no R e Ambiente Global&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;📘 Aula 05 - Comandos no R e Ambiente Global&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Comandos no R e Ambiente Global&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide05/index.html&#34; target=&#34;_blank&#34;&gt;Aula 05&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -167,8 +178,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
-  &lt;summary&gt;Aula 06 - Arquivos &lt;code&gt;.RData&lt;/code&gt; e &lt;code&gt;.Rhistory&lt;/code&gt;&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;📘 Aula 06 - Arquivos &lt;code&gt;.RData&lt;/code&gt; e &lt;code&gt;.Rhistory&lt;/code&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Arquivos &lt;code&gt;.RData&lt;/code&gt; e &lt;code&gt;.Rhistory&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide06/index.html&#34; target=&#34;_blank&#34;&gt;Aula 06&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -186,8 +197,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
-  &lt;summary&gt;Aula 07 - Criando e salvando um &lt;em&gt;Script&lt;/em&gt;&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;📘 Aula 07 - Criando e salvando um &lt;em&gt;Script&lt;/em&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Criando e salvando um &lt;code&gt;Script&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide07/index.html&#34; target=&#34;_blank&#34;&gt;Aula 07&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -205,8 +216,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;Aula 08 - Objetos&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;📘 Aula 08 - Objetos&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Objetos&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide08/index.html&#34; target=&#34;_blank&#34;&gt;Aula 08&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -224,8 +235,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
-  &lt;summary&gt;Aula 09 - Vetores&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;📘 Aula 09 - Vetores&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Vetores&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide09/index.html&#34; target=&#34;_blank&#34;&gt;Aula 09&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -243,8 +254,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
-  &lt;summary&gt;Aula 10 - Matrizes bidimensionais&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;📘 Aula 10 - Matrizes bidimensionais&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Matrizes bidimensionais&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide10/index.html&#34; target=&#34;_blank&#34;&gt;Aula 10&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -262,8 +273,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
-  &lt;summary&gt;Aula 11 - &lt;code&gt;Arrays&lt;/code&gt; (Matrizes multidimensionais)&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;📘 Aula 11 - &lt;code&gt;Arrays&lt;/code&gt; (Matrizes multidimensionais)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; &lt;code&gt;Arrays&lt;/code&gt; (Matrizes multidimensionais)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide11/index.html&#34; target=&#34;_blank&#34;&gt;Aula 11&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -281,8 +292,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
-  &lt;summary&gt;Aula 12 - Listas&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;📘 Aula 12 - Listas&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Listas&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide12/index.html&#34; target=&#34;_blank&#34;&gt;Aula 12&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -300,8 +311,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
-  &lt;summary&gt;Aula 13 - Quadro de dados&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;📘 Aula 13 - Quadro de dados&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Quadro de dados&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide13/index.html&#34; target=&#34;_blank&#34;&gt;Aula 13&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -319,8 +330,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
-  &lt;summary&gt;Aula 14 - Importanto e Exportando dados&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;📘 Aula 14 - Importanto e Exportando dados&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Importando e Exportando dados&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide14/index.html&#34; target=&#34;_blank&#34;&gt;Aula 14&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -338,8 +349,8 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
-  &lt;summary&gt;Aula 15 - Funções&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+  &lt;summary&gt;📘 Aula 15 - Funções&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Funções&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide15/index.html&#34; target=&#34;_blank&#34;&gt;Aula 15&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
@@ -357,21 +368,21 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
-  &lt;summary&gt;Livro de apoio?&lt;/summary&gt;
+&lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+  &lt;summary&gt;📖 Livro de apoio?&lt;/summary&gt;
   &lt;p&gt;Acesse: &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
-  &lt;summary&gt;Curso anterior!&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+  &lt;summary&gt;📁 Curso anterior!&lt;/summary&gt;
   &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
-  &lt;summary&gt;Playlist do youtube (cursos anteriores)&lt;/summary&gt;
-  &lt;p&gt;Acesse: &lt;a href=&#34;https://www.youtube.com/watch?v=_JqtU3X101E&amp;amp;list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=_JqtU3X101E&amp;list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&lt;/a&gt;&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+  &lt;summary&gt;🎬 Playlist do youtube (cursos anteriores)&lt;/summary&gt;
+  &lt;p&gt;Acesse: &lt;a href=&#34;https://www.youtube.com/watch?v=_JqtU3X101E&amp;amp;list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R - Nível Básico&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
-  &lt;summary&gt;Adquira o Livro físico &lt;strong&gt;R básico&lt;/strong&gt;&lt;/summary&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+  &lt;summary&gt;📚 Adquira o Livro físico &lt;strong&gt;R básico&lt;/strong&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;
 &lt;ul&gt;
