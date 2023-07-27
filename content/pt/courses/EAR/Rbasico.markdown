@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-07-25 15:04:11"
+date: "2023-07-27 06:50:22"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -42,11 +42,9 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 -   <i class="fas fa-route"></i> O curso será ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
     Paraopeba ([CAP](http://ufsj.edu.br/cap/)), de forma presencial e também com retransmissão via Youtube, pelo canal <http://youtube.com/bendeivide>
-- <i class="fas fa-calendar-day"></i> Data: **A definir!**
+- <i class="fas fa-calendar-day"></i> Data: **Início: 13/09/2023  Término: 29/09/2023**
 
 ## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
-
--   Calendário
 
 <img src="/pt/courses/EAR/Rbasico_files/figure-html/unnamed-chunk-2-1.png" width="672" />
 
@@ -512,7 +510,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< /spoiler >}}
 
-{{< spoiler text=":blue_book: Aula 25 - Considerações e Preparação para a Programação em R (R Intermediário)" >}}
+{{< spoiler text=":blue_book: Aula 25 - Considerações e Preparação para o curso **R Intermediário** " >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Considerações e Preparação para a Programação em R (R Intermediário)
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide25/index.html" target="_blank">Aula 25</a>
