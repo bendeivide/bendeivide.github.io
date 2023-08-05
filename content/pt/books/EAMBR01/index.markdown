@@ -5,7 +5,7 @@ summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser e
 tags:
 - bookeambr
 categories: ["R"]
-date: "2022-11-16 19:24:13"
+date: "2023-08-05 08:39:19"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -20,7 +20,7 @@ links:
 - icon: whatsapp
   icon_pack: fab
   name: Allanna Lopes (Rep. comercial)
-  url: https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!
+  url: https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20115%2C00%20para%20qualquer%20local%20do%20Brasil!
 - icon: shopify
   icon_pack: fab
   name: Shopee (Preto e branco)
@@ -107,6 +107,7 @@ O diretório de todos os *scripts* do livro se encontram em: [link](https://gith
 
 ## Onde consigo comprar o livro físico?
 
+- <i class="fab fa-whatsapp"></i> [Allanna Lopes (Rep. comercial - compra direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20115%2C00%20para%20qualquer%20local%20do%20Brasil!)
 - [Mercado livre (Capa comum triplex brilhosa; impressão interna preto e branco)](https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM)
 - [Shopee (Capa comum triplex brilhosa; impressão interna preto e branco)](https://shopee.com.br/product/880978340/20053618529/)
 - [Amazon (Capa comum triplex brilhosa; impressão interna colorida)](https://www.amazon.com/dp/6500515994)

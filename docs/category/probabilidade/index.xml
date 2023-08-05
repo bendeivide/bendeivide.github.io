@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/probabilidade/</link>
       <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilidade</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 13 Jul 2023 08:24:24 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 05 Aug 2023 09:36:32 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Probabilidade</title>
@@ -15,14 +15,14 @@
     <item>
       <title>📚 Ensino normal 2023.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Thu, 13 Jul 2023 08:24:24 +0000</pubDate>
+      <pubDate>Sat, 05 Aug 2023 09:36:32 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#topicos&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#topicos&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt; Tópicos abordados&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#onde&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#cronograma&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#whatsapp&#34;&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; Grupo de Whatsapp&lt;/a&gt;&lt;/li&gt;
@@ -44,13 +44,13 @@
 &lt;/nav&gt;
 &lt;/details&gt;
 
-&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/h2&gt;
 &lt;p&gt;Curso de Estatística e Probabilidade oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba
 (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
-&lt;h2 id=&#34;topicos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/h2&gt;
+&lt;h2 id=&#34;topicos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt; Tópicos abordados&lt;/h2&gt;
 &lt;p&gt;Definições gerais. Coleta, organização de dados. Medidas de posição.
 Medidas de dispersão. Probabilidades. Distribuições de probabilidade.
 Amostragem. Teoria da estimação. Teoria da decisão. Correlação e
@@ -74,8 +74,8 @@ Engenharia do campus.&lt;/li&gt;
 &lt;/li&gt;
 &lt;li&gt;Engenharia Mecatrônica:
 &lt;ul&gt;
-&lt;li&gt;segunda-feira (13:15 - 15:00, sala XXX.X)&lt;/li&gt;
-&lt;li&gt;terça-feira (13:15 - 15:00, sala XXX.X)&lt;/li&gt;
+&lt;li&gt;segunda-feira (13:15 - 15:00, sala 209.4)&lt;/li&gt;
+&lt;li&gt;terça-feira (13:15 - 15:00, sala 209.4)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -104,7 +104,12 @@ aulas&lt;/a&gt;:
   &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;notas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-alt&#34;&gt;&lt;/i&gt; Notas&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/18cQBWElhhWnozZZ-d2t3txiS_eCsHAKuOTmEirDnZ6M/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Engenharia Mecatrônica
+&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1yjCmuiOHERcgDJMeRHMrkeNwTN3IuzTadbymSWctbMg/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Engenharia Química
+&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1DiZC7zh3Ln43ydTW_tS_zeQ7ys5uFLztq-Ru5wDY9G0/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
 CAP/UFSJ&lt;/p&gt;
@@ -304,12 +309,19 @@ semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;MONTGOMERY, Douglas C.; RUNGER, George C.. &lt;strong&gt;Estatística aplicada e probabilidade para engenheiros&lt;/strong&gt;. 6. ed. Rio de Janeiro: LTC, 2016. 629 p. Tradução de: Verônica Calado.&lt;/li&gt;
-&lt;li&gt;DEVORE, J. L.. &lt;strong&gt;Probabilidade e Estatística&lt;/strong&gt;: para engenharia e ciências. São Paulo: Pioneira Thomson, 2006. 692 p.&lt;/li&gt;
-&lt;li&gt;MORETTIN, Luiz Gonzaga. &lt;strong&gt;Estatística Básica&lt;/strong&gt;: Probabilidade e Inferência. São Paulo: Pearson Prentice Hall, 2010. 375 p.&lt;/li&gt;
-&lt;li&gt;BUSSAB, W. O.; MORETTIN, P.A. &lt;strong&gt;Estatística Básica&lt;/strong&gt;. 5. ed. São Paulo: Saraiva, 2003.&lt;/li&gt;
-&lt;li&gt;COSTA NETO, P. L. O. &lt;strong&gt;Estatística&lt;/strong&gt;. 3. ed. São Paulo: Edgard Blucher, 2007.&lt;/li&gt;
-&lt;li&gt;TRIOLA, M. F. &lt;strong&gt;Introdução à Estatística&lt;/strong&gt;. Rio de janeiro: LTC, 2008.&lt;/li&gt;
+&lt;li&gt;MONTGOMERY, Douglas C.; RUNGER, George C.. &lt;strong&gt;Estatística aplicada e
+probabilidade para engenheiros&lt;/strong&gt;. 6. ed. Rio de Janeiro: LTC, 2016.
+629 p. Tradução de: Verônica Calado.&lt;/li&gt;
+&lt;li&gt;DEVORE, J. L.. &lt;strong&gt;Probabilidade e Estatística&lt;/strong&gt;: para engenharia e
+ciências. São Paulo: Pioneira Thomson, 2006. 692 p.&lt;/li&gt;
+&lt;li&gt;MORETTIN, Luiz Gonzaga. &lt;strong&gt;Estatística Básica&lt;/strong&gt;: Probabilidade e
+Inferência. São Paulo: Pearson Prentice Hall, 2010. 375 p.&lt;/li&gt;
+&lt;li&gt;BUSSAB, W. O.; MORETTIN, P.A. &lt;strong&gt;Estatística Básica&lt;/strong&gt;. 5. ed. São
+Paulo: Saraiva, 2003.&lt;/li&gt;
+&lt;li&gt;COSTA NETO, P. L. O. &lt;strong&gt;Estatística&lt;/strong&gt;. 3. ed. São Paulo: Edgard
+Blucher, 2007.&lt;/li&gt;
+&lt;li&gt;TRIOLA, M. F. &lt;strong&gt;Introdução à Estatística&lt;/strong&gt;. Rio de janeiro: LTC,
+2008.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
@@ -343,13 +355,18 @@ semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power
+point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em
+vídeo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Os programas necessários:
 &lt;ul&gt;
-&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Studio&lt;/a&gt;
-OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
+&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no
+Windows);
+&lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS
+Studio&lt;/a&gt; OBS.: Os
+programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -361,7 +378,8 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
+vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -369,7 +387,8 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
+vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -385,212 +404,263 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 1 (07/08/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Apresentação do curso&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt;
-&lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s01/&#34; target=&#34;_blank&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação do
+curso e Definições gerais da estatística e técnicas de somatório
+(Capítulo 1)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s01/&#34; target=&#34;_blank&#34;&gt; Aula
+01&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt; &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
+&lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt; Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
+target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34;
+target=&#34;_blank&#34;&gt; Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;
+target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo-aulas&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34;
+target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;Aula 2 (10/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da
-estatística e técnicas de somatório&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &amp;lt;a href=&amp;quot;/slides/estprob/s02/&amp;quot;
-target=&amp;quot;_blank&amp;quot;&amp;gt;Aula 02&lt;/a&gt;
-&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-Tempo: 1h 50min.
-&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-&lt;a href=&#34;https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano
-de aula&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;lt;a href=&amp;quot;/courses/epaec/remoto/&amp;quot;
-target=&amp;quot;_blank&amp;quot;&amp;gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;lt;a href=&amp;quot;/courses/cursor/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Curso
-R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;lt;a href=&amp;quot;/courses/epaec/exerresolvidos/&amp;quot;
-target=&amp;quot;_blank&amp;quot;&amp;gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (ER 2022.1)&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Definições gerais da --&gt;
+&lt;!-- estatística e técnicas de somatório 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; --&gt;
+&lt;!-- Apresentação: &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s02/&#34; --&gt;
+&lt;!-- target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt; 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; --&gt;
+&lt;!-- Tempo: 1h 50min. 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP01-2022-2---Denfinies-gerais-da-Estatstica-e1niip7&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
+&lt;!-- &lt;/iframe&gt; --&gt;
+&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER01---Definies-gerais-da-Estatstica-e113u2u&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
+&lt;!-- &lt;/iframe&gt; --&gt;
+&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP03---Natureza-das-variveis-estatsticas-epd8g1&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
+&lt;!-- &lt;/iframe&gt; --&gt;
+&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP04---Tcnicas-de-Somatrio-ekgja2&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
+&lt;!-- &lt;/iframe&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; --&gt;
+&lt;!-- &lt;a href=&#34;https://docs.google.com/document/d/1egl6q3BTK3N-JHXtemgWSQ6bwZRQbSR88itME71IUfo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano --&gt;
+&lt;!-- de aula&lt;/a&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!-- -   &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; --&gt;
+&lt;!--     target=&#34;\_blank&#34;\&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt; --&gt;
+&lt;!-- -   &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/&#34; target=&#34;_blank&#34;&gt;Curso --&gt;
+&lt;!--     R&lt;/a&gt; --&gt;
+&lt;!-- -   &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; --&gt;
+&lt;!--     target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt; --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (ER 2022.1) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/0KPuZplRwtU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER
-2022.1)&lt;/p&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER --&gt;
+&lt;!-- 2022.1) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/ozgmfZGkE8k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;Aula 3 (15/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Coleta, organização e
-apresentação de dados
-&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação:
-&amp;lt;a href=&amp;quot;/slides/estprob/s03/&amp;quot;
-target=&amp;quot;_blank&amp;quot;&amp;gt;Aula 03&lt;/a&gt;
-&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-Tempo: 1h 50min.
-&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP02-2022-2---Coleta--organizao-e-apresentao-de-dados-e1ngk7b&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de
-aula&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Notas de aula&lt;/li&gt;
-&lt;li&gt;[Estatística e Probabilidade (Ensino
-Remoto)](/courses/epaec/remoto/)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Exercícios
-resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
-&lt;li&gt;Scripts
-&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-&lt;a href=&#34;http://bendeivide.github.io/r-scripts/epaec/aula03/aula03.R&#34; target=&#34;_blank&#34;&gt;Aula03.R&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona
-2021.1)&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Coleta, organização e --&gt;
+&lt;!-- apresentação de dados 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: --&gt;
+&lt;!-- &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s03/&#34; --&gt;
+&lt;!-- target=&#34;_blank&#34;&gt;Aula 03&lt;/a&gt; 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; --&gt;
+&lt;!-- Tempo: 1h 50min. 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP02-2022-2---Coleta--organizao-e-apresentao-de-dados-e1ngk7b&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
+&lt;!-- &lt;/iframe&gt; --&gt;
+&lt;!-- &lt;iframe src=&#34;https://anchor.fm/ben-deivide/embed/episodes/EP-ER02---Coleta--Organizao-e-Apresentao-de-dados-e11l0o0&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt; --&gt;
+&lt;!-- &lt;/iframe&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; [Plano de --&gt;
+&lt;!-- aula](https://docs.google.com/document/d/1YKv3cKXHXTIAT3IR90H9QgmflZdPFUITpyBUT9iQ3BU/edit?usp=sharing) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!-- -   Notas de aula --&gt;
+&lt;!-- -   [Estatística e Probabilidade (Ensino --&gt;
+&lt;!--     Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!-- -   [Curso R](courses/cursor/) --&gt;
+&lt;!-- -   [Exercícios --&gt;
+&lt;!--     resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- -   Scripts 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; --&gt;
+&lt;!--     &lt;a href=&#34;http://bendeivide.github.io/r-scripts/epaec/aula03/aula03.R&#34; target=&#34;_blank&#34;&gt;Aula03.R&lt;/a&gt; --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica (Aula assíncrona --&gt;
+&lt;!-- 2021.1) 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/bVObtgCFISs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER
-2022.1)&lt;/p&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER --&gt;
+&lt;!-- 2022.1) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/DZ4PzyY5YYg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER
-2022.1)&lt;/p&gt;
+ --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER --&gt;
+&lt;!-- 2022.1) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/xlmWSTrp_SI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;Aula 4 (22/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Em aula&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1)&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Em aula... --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios resolvidos (ER 2022.1) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/xlmWSTrp_SI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;Aula 5 (22/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de posição&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &amp;lt;a
-href=&amp;quot;/slides/estprob/s05/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Aula
-05&lt;/a&gt;
-&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min.&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-&lt;a href=&#34;https://docs.google.com/document/d/1k0FEDbccPa9tQF36roxYo_wclJ7cSG-g2Z9chSbaoLU/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano
-de aula&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[Estatística e Probabilidade (Ensino
-Remoto)](/courses/epaec/remoto/)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Exercícios
-resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula (Aula assíncrona 2021.1)&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de posição --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: &lt;a --&gt;
+&lt;!-- href=&#34;http://bendeivide.github.io/slides/estprob/s05/&#34; target=&#34;_blank&#34;\&gt;Aula --&gt;
+&lt;!-- 05&lt;/a&gt; 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h 50min. --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; --&gt;
+&lt;!-- &lt;a href=&#34;https://docs.google.com/document/d/1k0FEDbccPa9tQF36roxYo_wclJ7cSG-g2Z9chSbaoLU/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Plano --&gt;
+&lt;!-- de aula&lt;/a&gt; --&gt;
+&lt;!-- -   [Estatística e Probabilidade (Ensino --&gt;
+&lt;!--     Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!-- -   [Curso R](courses/cursor/) --&gt;
+&lt;!-- -   [Exercícios --&gt;
+&lt;!--     resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula (Aula assíncrona 2021.1) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/s-yrirgOA8A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;br/&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+ --&gt;
+&lt;!-- &lt;br/&gt; --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;Aula 6 (24/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Em aula&amp;hellip;.&lt;/p&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios (Aula
-assíncrona 2021.1)&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Em aula.... --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios (Aula --&gt;
+&lt;!-- assíncrona 2021.1) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/7V34LUYrlxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios (Aula
-assíncrona 2021.1)&lt;/p&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula de exercícios (Aula --&gt;
+&lt;!-- assíncrona 2021.1) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/l2yBewnBkdE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;Aula 7 (29/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;Aula 8 (31/03/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;Aula 9 [EXTRA] (03/04/2023)&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de dispersão e
-Revisão para P1
-&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula
-09]()
-&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h
-50min.
-&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Plano de aula&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-epaec/md.html#md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 4: &lt;em&gt;Medidas de
-Dispersão&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Estatística e Probabilidade (Ensino
-Remoto)](/courses/epaec/remoto/)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Exercícios Propostos (&lt;a href=&#34;https://bendeivide.github.io/book-epaec/mp.html#exerc%C3%ADcios-propostos-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cap.
-3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Exercícios
-resolvidos](/courses/epaec/exerresolvidos/)&lt;/li&gt;
-&lt;li&gt;Scripts
-&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-&lt;a href=&#34;http://bendeivide.github.io/r-scripts/epaec/aula09/aula09.R&#34; target=&#34;_blank&#34;&gt;Aula09.R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Notas de aula:
-&lt;i class=&#34;fas fa-paperclip  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-&lt;a href=&#34;http://bendeivide.github.io/epaec/2023.1/NotaAula09.png&#34; target=&#34;_blank&#34;&gt;NotaAula09.R&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica 2023.1 (Aula
-síncrona)&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema: Medidas de dispersão e --&gt;
+&lt;!-- Revisão para P1 
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apresentação: [Aula --&gt;
+&lt;!-- 09]() 
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tempo: 1h --&gt;
+&lt;!-- 50min. 
+  &lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Plano de aula --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material para consulta --&gt;
+&lt;!-- -   [Capítulo 4: *Medidas de --&gt;
+&lt;!--     Dispersão*](https://bendeivide.github.io/book-epaec/md.html#md) --&gt;
+&lt;!-- -   [Estatística e Probabilidade (Ensino --&gt;
+&lt;!--     Remoto)](/courses/epaec/remoto/) --&gt;
+&lt;!-- -   [Curso R](courses/cursor/) --&gt;
+&lt;!-- -   Exercícios Propostos ([Cap. --&gt;
+&lt;!--     3](https://bendeivide.github.io/book-epaec/mp.html#exerc%C3%ADcios-propostos-2) --&gt;
+&lt;!-- -   [Exercícios --&gt;
+&lt;!--     resolvidos](/courses/epaec/exerresolvidos/) --&gt;
+&lt;!-- -   Scripts 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; --&gt;
+&lt;!--     &lt;a href=&#34;http://bendeivide.github.io/r-scripts/epaec/aula09/aula09.R&#34; target=&#34;_blank&#34;&gt;Aula09.R&lt;/a&gt; --&gt;
+&lt;!-- -   Notas de aula: 
+   &lt;i class=&#34;fas fa-paperclip  pr-1 fa-fw&#34;&gt;&lt;/i&gt; --&gt;
+&lt;!--     &lt;a href=&#34;http://bendeivide.github.io/epaec/2023.1/NotaAula09.png&#34; target=&#34;_blank&#34;&gt;NotaAula09.R&lt;/a&gt; --&gt;
+&lt;!-- 
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aula teórica 2023.1 (Aula --&gt;
+&lt;!-- síncrona) --&gt;
+&lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/rgVSNqe8mY0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/br&gt;
-&lt;/p&gt;
-&lt;/details&gt;
+ --&gt;
+&lt;!-- &lt;/br&gt; --&gt;
+&lt;!-- &lt;/p&gt;
+&lt;/details&gt; --&gt;
 &lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;Aula 6 (02/09/2022)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
@@ -862,21 +932,37 @@ síncrona)&lt;/p&gt;
 &lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34; target=&#34;_blank&#34;&gt;Ensino remoto 2021.2&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
+target=&#34;_blank&#34;&gt;Ensino remoto 2021.2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto2022.1/&#34; target=&#34;_blank&#34;&gt;Ensino remoto 2022.1&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;http://bendeivide.github.io/courses/epaec/remoto2022.1/&#34;
+target=&#34;_blank&#34;&gt;Ensino remoto 2022.1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34; target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34;
+target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34; target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;
+target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34;
+target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/project/cantest/&#34; target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;http://bendeivide.github.io/project/cantest/&#34;
+target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34;
+target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fas fa-file  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34; target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fas fa-file  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
+target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-49&#34;&gt;
