@@ -53,7 +53,7 @@ editor: visual
 
 # Livro de Apoio {background-image="cap02.png"}
 
-Usaremos \@batista2023:
+Usaremos @batista2023:
 
 <a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
 
@@ -61,9 +61,10 @@ Usaremos \@batista2023:
 
 </a>
 
-<!-- ## {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/epaec/"} -->
+# {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/epaec/"}
 
-<!-- Página do curso -->
+Página do curso
+
 
 # Capítulo 1 - Definições gerais da estatística e técnicas de somatório {background-image="cap02.png"}
 
@@ -74,13 +75,17 @@ Usaremos \@batista2023:
 ::: {.nonincremental}
 
 -   Introdução
-    -   Nossa vida atual é assim hoje! :::
+    -   Nossa vida atual é assim hoje! 
+
+:::
 
 :::
 
 ::: {.column width="40%"}
 
-<img src="programador.png" title="Imagens: gratispng.com" width = "400"> :::
+<img src="programador.png" title="Imagens: gratispng.com" width = "400"> 
+
+:::
 
 ::::
 
@@ -99,7 +104,9 @@ Usaremos \@batista2023:
 
 ::: {.column width="60%"}
 
-<img src="dados.png" title="Imagens: gratispng.com" width = "400"> :::
+<img src="dados.png" title="Imagens: gratispng.com" width = "400"> 
+
+:::
 
 ::::
 
@@ -112,13 +119,17 @@ Usaremos \@batista2023:
 ::: {.nonincremental}
 
 -   Introdução
-    -   Usamos para tudo! :::
+    -   Usamos para tudo! 
+
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="emojis.png" title="Imagens: gratispng.com" width = "500"> :::
+<img src="emojis.png" title="Imagens: gratispng.com" width = "500"> 
+
+:::
 
 ::::
 
@@ -131,13 +142,17 @@ Usaremos \@batista2023:
 ::: {.nonincremental}
 
 -   Introdução
-    -   Pesquisar! :::
+    -   Pesquisar! 
+    
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="searching.png" title="Imagens: gratispng.com" width = "500"> :::
+<img src="searching.png" title="Imagens: gratispng.com" width = "500"> 
+
+:::
 
 ::::
 
@@ -150,13 +165,17 @@ Usaremos \@batista2023:
 ::: {.nonincremental}
 
 -   Introdução
-    -   Metaverso! :::
+    -   Metaverso! 
+    
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="metaverso.png" title="Imagens: br.freepik.com" width = "700"> :::
+<img src="metaverso.png" title="Imagens: br.freepik.com" width = "700"> 
+
+:::
 
 ::::
 
@@ -169,13 +188,17 @@ Usaremos \@batista2023:
 ::: {.nonincremental}
 
 -   Introdução
-    -   *Chips* cerebrais! :::
+    -   *Chips* cerebrais! 
+    
+:::
 
 :::
 
 ::: {.column width="70%"}
 
-<img src="chipellanmusk02.png" title="Imagens: www.uu.nl" width = "800"> :::
+<img src="chipellanmusk02.png" title="Imagens: www.uu.nl" width = "800"> 
+
+:::
 
 ::::
 
@@ -188,13 +211,17 @@ Usaremos \@batista2023:
 ::: {.nonincremental}
 
 -   Introdução
-    -   Engenharia reversa :::
+    -   Engenharia reversa 
+
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="engreversa.png" title="Imagens: pngwing.com" width = "600"> :::
+<img src="engreversa.png" title="Imagens: pngwing.com" width = "600"> 
+
+:::
 
 ::::
 
@@ -206,13 +233,17 @@ Usaremos \@batista2023:
 
 ::: {.nonincremental}
 
--   Em meio a tudo isso, uma coisa acontece! :::
+-   Em meio a tudo isso, uma coisa acontece! 
+
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="dados02.png" title="Imagens: gratispng.com" width = "700"> :::
+<img src="dados02.png" title="Imagens: gratispng.com" width = "700"> 
+
+:::
 
 ::::
 
@@ -224,7 +255,9 @@ Usaremos \@batista2023:
 
 ::: {.nonincremental}
 
--   Essas informações são processadas! :::
+-   Essas informações são processadas! 
+
+:::
 
 :::
 
@@ -242,7 +275,9 @@ Usaremos \@batista2023:
 
 ::: {.nonincremental}
 
--   Analisadas! :::
+-   Analisadas! 
+
+:::
 
 :::
 
@@ -260,13 +295,17 @@ Usaremos \@batista2023:
 
 ::: {.nonincremental}
 
--   E assim, os dados ... :::
+-   E assim, os dados ... 
+
+:::
 
 :::
 
 ::: {.column width="70%"}
 
-<img src="analise03.png" title="Imagens: pngwing.com" width = "800"> :::
+<img src="analise03.png" title="Imagens: pngwing.com" width = "800"> 
+
+:::
 
 ::::
 
@@ -278,13 +317,17 @@ Usaremos \@batista2023:
 
 ::: {.nonincremental}
 
--   ... que os usuários repassam ... :::
+-   ... que os usuários repassam ... 
+
+:::
 
 :::
 
 ::: {.column width="70%"}
 
-<img src="analise04.png" title="Imagens: pngwing.com" width = "800"> :::
+<img src="analise04.png" title="Imagens: pngwing.com" width = "800"> 
+
+:::
 
 ::::
 
@@ -296,13 +339,17 @@ Usaremos \@batista2023:
 
 ::: {.nonincremental}
 
--   Dados \> $ :::
+-   Dados \> $ 
+
+:::
 
 :::
 
 ::: {.column width="70%"}
 
-<img src="dadosmoney.png" title="Imagens: pngwing.com" width = "500"> :::
+<img src="dadosmoney.png" title="Imagens: pngwing.com" width = "500"> 
+
+:::
 
 ::::
 
@@ -314,17 +361,21 @@ Usaremos \@batista2023:
 
 ::: {.nonincremental}
 
--   E aí, o Vale do silício é o que tem que ser! :::
+-   E aí, o Vale do silício é o que tem que ser! 
+
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="vale_silicio.jpg" title="Imagens: oficinadanet.com.br" width = "500"> :::
+<img src="vale_silicio.jpg" title="Imagens: oficinadanet.com.br" width = "500"> 
+
+:::
 
 ::::
 
-# Motivação inicial
+# Motivação inicial {background-image="cap02.png"}
 
 :::: {.columns}
 
@@ -332,17 +383,21 @@ Usaremos \@batista2023:
 
 ::: {.nonincremental}
 
--   Definições gerais da estatística (Exemplo do livro EPAEC) :::
+-   Definições gerais da estatística (Exemplo do livro EPAEC) 
+
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="epaec_exerc5.19.png" title="Imagens: Livro EPAEC" width = "500"> :::
+<img src="epaec_exerc5.19.png" title="Imagens: Livro EPAEC" width = "500"> 
+
+:::
 
 ::::
 
-## Motivação inicial
+## Motivação inicial {background-image="cap02.png"}
 
 ::: {.notes} 📝 EPAEC - Página 4
 
@@ -356,67 +411,116 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 ::: {.nonincremental}
 
--   Definições gerais da estatística... :::
+-   Definições gerais da estatística... 
+
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="prodcons.png" title="Imagens: Livro EPAEC" width = "500"> :::
+<img src="prodcons.png" title="Imagens: Livro EPAEC" width = "500"> 
+
+:::
 
 ::::
 
-## Motivação inicial
+## Motivação inicial {background-image="cap02.png"}
 
 :::: {.columns}
 
 ::: {.column width="60%"}
 
-::: {.nonincremental} Tentando verificar a eficiência de um robô desenvolvido para o mercado de ações, supondo que esse robô tem como estratégia operar apenas comprando. Para isso, aplicamos um experimento para o robô sobre 10 ativos. Será que ele está adivinhando na compra desses ativos? :::
+::: {.nonincremental} Tentando verificar a eficiência de um robô desenvolvido para o mercado de ações, supondo que esse robô tem como estratégia operar apenas comprando. Para isso, aplicamos um experimento para o robô sobre 10 ativos. Será que ele está adivinhando na compra desses ativos? 
+
+:::
 
 :::
 
 ::: {.column width="40%"}
 
-<img src="roboinvest.jpg" title="Imagens: br.freepik.com" width = "500"> :::
+<img src="roboinvest.jpg" title="Imagens: br.freepik.com" width = "500"> 
+
+:::
 
 ::::
 
-# Método Científico
+# Método Científico {background-image="cap02.png"}
 
 <iframe width="1000" height="515" src="https://www.youtube.com/embed/QPeS1v7l6yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe>
 
-# Definições Gerais da Estatística
+# Definições Gerais da Estatística {background-image="cap02.png"}
 
-::: {.notes} 📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw) :::
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw) 
+
+:::
 
 <iframe width="1000" height="515" src="https://www.youtube.com/embed/mASLUwyaC5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe>
 
-## Definições Gerais da Estatística
+## Definições Gerais da Estatística {background-image="cap02.png"}
 
-::: {.notes} 📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw) :::
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw) 
+
+:::
 
 <iframe width="1000" height="515" src="https://www.youtube.com/embed/xvORKHMVUr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe>
 
-# Natureza das variáveis
+# Natureza das variáveis {background-image="cap02.png"}
 
 <iframe width="1000" height="515" src="https://www.youtube.com/embed/LIg6uLzCRmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe>
 
-# Técnicas de Somatório
+# Técnicas de Somatório {background-image="cap02.png"}
 
-::: {.notes} 📝 Fazer alguns exemplos na sala digital (Smoothdraw) :::
+::: {.notes} 
+
+📝 Fazer alguns exemplos na sala digital (Smoothdraw) 
+
+:::
 
 <iframe width="1000" height="515" src="https://www.youtube.com/embed/tWCxCyZZHes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
 </iframe>
+
+
+# Pacote `leem` {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- Como instalar?
+ - Instalar o R (Obrigatório) e RStudio (Não obrigatório)
+ - Pacote leem:
+   - [CRAN](https://cran.r-project.org/web/packages/leem/index.html) (Incompleto)
+   - [Github](https://github.com/bendeivide/leem) (Completo)
+
+:::
+
+::: {.column width="40%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
 
 # Questões? {background-image="cap02.png"}
 

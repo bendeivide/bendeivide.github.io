@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.2
-date: "2023-08-05 09:36:32"
+date: "2023-08-06 19:50:49"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -58,7 +58,7 @@ regressão linear simples.
 
 ## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
 
--   [Link]()
+-   [Link](https://chat.whatsapp.com/EzPBESx93hS0bj7TKqjDbv)
 
 ## <i class="fas fa-file-contract"></i> Preenchimento de dados para as avaliações {id="formulario" title="Clique aqui!"}
 
