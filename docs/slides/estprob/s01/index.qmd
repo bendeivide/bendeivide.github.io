@@ -65,12 +65,34 @@ Usaremos @batista2023:
 
 Página do curso
 
-
 # Capítulo 1 - Definições gerais da estatística e técnicas de somatório {background-image="cap02.png"}
 
 :::: {.columns}
 
 ::: {.column width="60%"}
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+:::
+
+::: {.column width="40%"}
+
+<img src="programador.png" title="Imagens: gratispng.com" width = "400">
+
+:::
+
+::::
+
+## Introdução (continuação...) {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="40%"}
 
 ::: {.nonincremental}
 
@@ -81,9 +103,9 @@ Página do curso
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="60%"}
 
-<img src="programador.png" title="Imagens: gratispng.com" width = "400"> 
+<img src="dados.png" title="Imagens: gratispng.com" width = "400">
 
 :::
 
@@ -98,13 +120,15 @@ Página do curso
 ::: {.nonincremental}
 
 -   Introdução
-    -   Nossa vida atual é assim hoje! :::
+    -   Usamos para tudo!
+
+:::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="dados.png" title="Imagens: gratispng.com" width = "400"> 
+<img src="emojis.png" title="Imagens: gratispng.com" width = "500">
 
 :::
 
@@ -119,7 +143,7 @@ Página do curso
 ::: {.nonincremental}
 
 -   Introdução
-    -   Usamos para tudo! 
+    -   Pesquisar!
 
 :::
 
@@ -127,7 +151,7 @@ Página do curso
 
 ::: {.column width="60%"}
 
-<img src="emojis.png" title="Imagens: gratispng.com" width = "500"> 
+<img src="searching.png" title="Imagens: gratispng.com" width = "500">
 
 :::
 
@@ -142,38 +166,15 @@ Página do curso
 ::: {.nonincremental}
 
 -   Introdução
-    -   Pesquisar! 
-    
-:::
+    -   Metaverso!
 
-:::
-
-::: {.column width="60%"}
-
-<img src="searching.png" title="Imagens: gratispng.com" width = "500"> 
-
-:::
-
-::::
-
-## Introdução (continuação...) {background-image="cap02.png"}
-
-:::: {.columns}
-
-::: {.column width="40%"}
-
-::: {.nonincremental}
-
--   Introdução
-    -   Metaverso! 
-    
 :::
 
 :::
 
 ::: {.column width="60%"}
 
-<img src="metaverso.png" title="Imagens: br.freepik.com" width = "700"> 
+<img src="metaverso.png" title="Imagens: br.freepik.com" width = "700">
 
 :::
 
@@ -188,15 +189,15 @@ Página do curso
 ::: {.nonincremental}
 
 -   Introdução
-    -   *Chips* cerebrais! 
-    
+    -   *Chips* cerebrais!
+
 :::
 
 :::
 
 ::: {.column width="70%"}
 
-<img src="chipellanmusk02.png" title="Imagens: www.uu.nl" width = "800"> 
+<img src="chipellanmusk02.png" title="Imagens: www.uu.nl" width = "800">
 
 :::
 
@@ -211,7 +212,7 @@ Página do curso
 ::: {.nonincremental}
 
 -   Introdução
-    -   Engenharia reversa 
+    -   Engenharia reversa
 
 :::
 
@@ -219,7 +220,7 @@ Página do curso
 
 ::: {.column width="60%"}
 
-<img src="engreversa.png" title="Imagens: pngwing.com" width = "600"> 
+<img src="engreversa.png" title="Imagens: pngwing.com" width = "600">
 
 :::
 
@@ -233,7 +234,7 @@ Página do curso
 
 ::: {.nonincremental}
 
--   Em meio a tudo isso, uma coisa acontece! 
+-   Em meio a tudo isso, uma coisa acontece!
 
 :::
 
@@ -241,7 +242,7 @@ Página do curso
 
 ::: {.column width="60%"}
 
-<img src="dados02.png" title="Imagens: gratispng.com" width = "700"> 
+<img src="dados02.png" title="Imagens: gratispng.com" width = "700">
 
 :::
 
@@ -255,7 +256,7 @@ Página do curso
 
 ::: {.nonincremental}
 
--   Essas informações são processadas! 
+-   Essas informações são processadas!
 
 :::
 
@@ -263,47 +264,7 @@ Página do curso
 
 ::: {.column width="40%"}
 
-<img src="analise02.png" title="Imagens: pngwing.com" width = "600"> :::
-
-::::
-
-## Dados {background-image="cap02.png"}
-
-:::: {.columns}
-
-::: {.column width="30%"}
-
-::: {.nonincremental}
-
--   Analisadas! 
-
-:::
-
-:::
-
-::: {.column width="70%"}
-
-<img src="exp_user2.png" title="Imagens: pngwing.com" width = "1000"> :::
-
-::::
-
-## Dados {background-image="cap02.png"}
-
-:::: {.columns}
-
-::: {.column width="30%"}
-
-::: {.nonincremental}
-
--   E assim, os dados ... 
-
-:::
-
-:::
-
-::: {.column width="70%"}
-
-<img src="analise03.png" title="Imagens: pngwing.com" width = "800"> 
+<img src="analise02.png" title="Imagens: pngwing.com" width = "600"> 
 
 :::
 
@@ -317,7 +278,7 @@ Página do curso
 
 ::: {.nonincremental}
 
--   ... que os usuários repassam ... 
+-   Analisadas!
 
 :::
 
@@ -325,7 +286,7 @@ Página do curso
 
 ::: {.column width="70%"}
 
-<img src="analise04.png" title="Imagens: pngwing.com" width = "800"> 
+<img src="exp_user2.png" title="Imagens: pngwing.com" width = "1000"> 
 
 :::
 
@@ -339,7 +300,7 @@ Página do curso
 
 ::: {.nonincremental}
 
--   Dados \> $ 
+-   E assim, os dados ...
 
 :::
 
@@ -347,7 +308,51 @@ Página do curso
 
 ::: {.column width="70%"}
 
-<img src="dadosmoney.png" title="Imagens: pngwing.com" width = "500"> 
+<img src="analise03.png" title="Imagens: pngwing.com" width = "800">
+
+:::
+
+::::
+
+## Dados {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+::: {.nonincremental}
+
+-   ... que os usuários repassam ...
+
+:::
+
+:::
+
+::: {.column width="70%"}
+
+<img src="analise04.png" title="Imagens: pngwing.com" width = "800">
+
+:::
+
+::::
+
+## Dados {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+::: {.nonincremental}
+
+-   Dados \> $
+
+:::
+
+:::
+
+::: {.column width="70%"}
+
+<img src="dadosmoney.png" title="Imagens: pngwing.com" width = "500">
 
 :::
 
@@ -361,7 +366,7 @@ Página do curso
 
 ::: {.nonincremental}
 
--   E aí, o Vale do silício é o que tem que ser! 
+-   E aí, o Vale do silício é o que tem que ser!
 
 :::
 
@@ -369,7 +374,7 @@ Página do curso
 
 ::: {.column width="60%"}
 
-<img src="vale_silicio.jpg" title="Imagens: oficinadanet.com.br" width = "500"> 
+<img src="vale_silicio.jpg" title="Imagens: oficinadanet.com.br" width = "500">
 
 :::
 
@@ -383,7 +388,7 @@ Página do curso
 
 ::: {.nonincremental}
 
--   Definições gerais da estatística (Exemplo do livro EPAEC) 
+-   Definições gerais da estatística (Exemplo do livro EPAEC)
 
 :::
 
@@ -391,7 +396,7 @@ Página do curso
 
 ::: {.column width="60%"}
 
-<img src="epaec_exerc5.19.png" title="Imagens: Livro EPAEC" width = "500"> 
+<img src="epaec_exerc5.19.png" title="Imagens: Livro EPAEC" width = "500">
 
 :::
 
@@ -399,7 +404,9 @@ Página do curso
 
 ## Motivação inicial {background-image="cap02.png"}
 
-::: {.notes} 📝 EPAEC - Página 4
+::: {.notes} 
+
+📝 EPAEC - Página 4
 
 O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria para o consumo, de tal modo que a produção é 27,71% a menos do que o consumo. Isso explica o porquê do Brasil como grande produtor de petróleo, ainda assim, necessita importar essa fonte de energia. Contudo, o gráfico não apresenta um resumo perfeito. Por exemplo, mesmo a produção de petróleo sendo mais baixa do que o consumo, o coeficiente de variação (assunto abordado no Capítulo \ref{chap:md}) dessas dessas duas variáveis, são 12,99% e 10,93%, respectivamente, calculados de acordo com a Tabela \ref{tab:prodcons}. Isso implica, que as variações da produção de petróleo são maiores do que as do consumo, no Brasil. Observe que essas últimas informações não podem ser vistas facilmente na Figura \ref{fig:prodcons}, mas juntamente com o auxílio das medidas numéricas (medidas de posição e dispersão) e as medidas gráficas, podemos complementar as informações, e assim, obter uma melhor descrição sobre essas informações.
 
@@ -411,7 +418,7 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 ::: {.nonincremental}
 
--   Definições gerais da estatística... 
+-   Definições gerais da estatística...
 
 :::
 
@@ -419,7 +426,7 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 ::: {.column width="60%"}
 
-<img src="prodcons.png" title="Imagens: Livro EPAEC" width = "500"> 
+<img src="prodcons.png" title="Imagens: Livro EPAEC" width = "500">
 
 :::
 
@@ -431,7 +438,9 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 ::: {.column width="60%"}
 
-::: {.nonincremental} Tentando verificar a eficiência de um robô desenvolvido para o mercado de ações, supondo que esse robô tem como estratégia operar apenas comprando. Para isso, aplicamos um experimento para o robô sobre 10 ativos. Será que ele está adivinhando na compra desses ativos? 
+::: {.nonincremental} 
+
+Tentando verificar a eficiência de um robô desenvolvido para o mercado de ações, supondo que esse robô tem como estratégia operar apenas comprando. Para isso, aplicamos um experimento para o robô sobre 10 ativos. Será que ele está adivinhando na compra desses ativos?
 
 :::
 
@@ -439,7 +448,7 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 ::: {.column width="40%"}
 
-<img src="roboinvest.jpg" title="Imagens: br.freepik.com" width = "500"> 
+<img src="roboinvest.jpg" title="Imagens: br.freepik.com" width = "500">
 
 :::
 
@@ -453,9 +462,9 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 # Definições Gerais da Estatística {background-image="cap02.png"}
 
-::: {.notes} 
+::: {.notes}
 
-📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw) 
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
 
 :::
 
@@ -465,9 +474,9 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 ## Definições Gerais da Estatística {background-image="cap02.png"}
 
-::: {.notes} 
+::: {.notes}
 
-📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw) 
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
 
 :::
 
@@ -483,9 +492,9 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 # Técnicas de Somatório {background-image="cap02.png"}
 
-::: {.notes} 
+::: {.notes}
 
-📝 Fazer alguns exemplos na sala digital (Smoothdraw) 
+📝 Fazer alguns exemplos na sala digital (Smoothdraw)
 
 :::
 
@@ -493,18 +502,17 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 </iframe>
 
-
 # Pacote `leem` {background-image="cap02.png"}
 
 :::: {.columns}
 
 ::: {.column width="60%"}
 
-- Como instalar?
- - Instalar o R (Obrigatório) e RStudio (Não obrigatório)
- - Pacote leem:
-   - [CRAN](https://cran.r-project.org/web/packages/leem/index.html) (Incompleto)
-   - [Github](https://github.com/bendeivide/leem) (Completo)
+-   Como instalar?
+-   Instalar o R (Obrigatório) e RStudio (Não obrigatório)
+-   Pacote leem:
+    -   [CRAN](https://cran.r-project.org/web/packages/leem/index.html) (Incompleto)
+    -   [Github](https://github.com/bendeivide/leem) (Completo)
 
 :::
 
@@ -519,8 +527,6 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 :::
 
 ::::
-
-
 
 # Questões? {background-image="cap02.png"}
 
