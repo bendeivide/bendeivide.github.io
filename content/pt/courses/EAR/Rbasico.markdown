@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-07-27 06:50:22"
+date: "2023-08-10 16:01:57"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -18,7 +18,20 @@ Programando o [R](http://r-project.org) em nível básico.
 {{< icon name="clock" pack="fas" >}} 30 horas em 3 semanas
 
 
+## <i class="fas fa-bullhorn"></i>  Vídeo de lançamento do curso {id="lancamento" title="Clique aqui!"}
+ 
+- <i class="fas fa-calendar-day"></i> 17/08/2023 <i class="fas fa-clock"></i> 14h
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4Bo-4qYMjTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
 ## <i class="fas fa-chalkboard-teacher"></i>  Apresentação {id="apresentacao" title="Clique aqui!"}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pJmhR9MumAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 A coleção *Estudando o ambiente R* é fruto de cursos ministrados sobre a linguagem [R](http://r-project.org/), bem como colaborações e estudos ao longo dos anos. Em 2005, quando ingressei no curso de Engenharia Agronômica, fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, obtive o primeiro contato com o ambiente [R](http://r-project.org/) pouco mais de 9 anos de seu lançamento e redistribuição. Naquela época, haviam poucos materiais em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para a compreensão. À época, inclusive, até sonhei em chegar neste dia, qua seja, o dia do lançamento de uma obra como esta.
 
@@ -32,7 +45,7 @@ A coleção *Estudando o ambiente [R](http://r-project.org/)* apresenta três *V
 
 Tentando engajar os alunos para que se tornem protagonistas do processo de aprendizagem, e agora colegas de trabalho, tenho a parceria no *Volume I*, de [Diego Arthur](https://digoarthur.github.io/), um ex-orientando, e agora um profissional que tenta se superar a cada desafio e assunto estudado. Por isso, tenho a imensa satisfação de ter a sua contribuição e experiência neste material.
 
-Por fim, espero que este primeiro *Volume* sirva de referência aos passos iniciais nessa ferramenta tão importante para a análise de dados.
+Por fim, espero que este primeiro *curso* sirva de referência aos passos iniciais nessa ferramenta tão importante para a análise de dados.
 
 ## <i class="fas fa-map"></i>  Tópicos abordados {id="topicos" title="Clique aqui!"}
 
@@ -41,8 +54,14 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 ## <i class="fa fa-globe"></i> Onde? {id="onde" title="Clique aqui!"}
 
 -   <i class="fas fa-route"></i> O curso será ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
-    Paraopeba ([CAP](http://ufsj.edu.br/cap/)), de forma presencial e também com retransmissão via Youtube, pelo canal <http://youtube.com/bendeivide>
+    Paraopeba ([CAP](http://ufsj.edu.br/cap/)), no formato *online* via Youtube, pelo canal <http://youtube.com/bendeivide>
 - <i class="fas fa-calendar-day"></i> Data: **Início: 13/09/2023  Término: 29/09/2023**
+
+## <i class="fa fa-link"></i> Inscrição do curso
+
+- <i class="fas fa-calendar-day"></i> Período de nscrição: **Início: 10/09/2023  Término: 12/09/2023**
+
+{{< gdocs src="https://forms.gle/PMaMhtPRDoa6F1kF9">}}
 
 ## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
 
