@@ -1,0 +1,422 @@
+---
+title: "Estatística e Probabilidade"
+subtitle: "Aula 03 - Coleta, organização e apresentação de dados"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EPAEC](https://bendeivide.github.io/courses/epaec/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 5 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2023:
+
+<a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Motivação inicial {background-image="cap02.png"}
+
+
+
+::: {.nonincremental}
+
+- Dados (Primeiro tipo)
+
+:::
+
+```{r echo=FALSE, warning=FALSE}
+set.seed(10)
+rnorm(1000, 100, 50)
+```
+
+## Motivação inicial {background-image="cap02.png"}
+
+
+
+::: {.nonincremental}
+
+- Dados (Segundo tipo)
+
+:::
+
+```{r echo=FALSE, warning=FALSE}
+set.seed(10)
+sort(rnorm(1000, 100, 50))
+```
+
+## Motivação inicial {background-image="cap02.png"}
+
+
+
+::: {.nonincremental}
+
+- Dados (Terceiro tipo)
+
+:::
+
+```{r echo=FALSE, warning=FALSE}
+set.seed(10)
+x <- leem::new_leem(rnorm(1000, 100, 50), variable = "continuous")
+leem::tabfreq(x)
+```
+
+## Motivação inicial {background-image="cap02.png"}
+
+
+
+::: {.nonincremental}
+
+- Dados (Quarto tipo)
+
+:::
+
+```{r echo=FALSE, warning=FALSE}
+set.seed(10)
+leem::new_leem(rnorm(1000, 100, 50), variable = "continuous") |>
+  tabfreq(k = 10) |>
+  hist(main = "Histograma de frequências",
+                 xlab = "Classes", ylab = "Frequência",
+                 barcol = heat.colors(10))
+```
+
+# Coleta (Dados brutos) {background-image="cap02.png"}
+
+Dados elaborados sobre o número de erros encontrados em 20 conjunto de caracteres monitorado em um canal de comunicação:
+
+```{r erroscanal, echo=FALSE, warning=FALSE}
+dados <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados <- matrix(dados, 2, 10)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+## Dados em rol ou elaborados {background-image="cap02.png"}
+
+Dados elaborados sobre o número de erros encontrados em 20 conjunto de caracteres monitorado em um canal de comunicação:
+
+```{r echo=FALSE, warning=FALSE}
+dados <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados <- matrix(sort(dados), 2, 10, byrow = TRUE)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+# Distribuição de frequência {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+-   Frequência absoluta
+
+:::
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-bottom-width:1px;border-color:#9ABAD9;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#444;font-family:Arial, sans-serif;font-size:40px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#409cff;border-bottom-width:1px;border-color:#9ABAD9;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fff;font-family:Arial, sans-serif;font-size:40px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-44qx{border-color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-44qx">Número de erros $(x_i)$</th>
+    <th class="tg-44qx">Frequência simples ($f_i$)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-v0mg">0</td>
+    <td class="tg-v0mg">3</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">1</td>
+    <td class="tg-v0mg">7</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">2</td>
+    <td class="tg-v0mg">4</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">3</td>
+    <td class="tg-v0mg">5</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">4</td>
+    <td class="tg-v0mg">1</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">Total</td>
+    <td class="tg-v0mg">20</td>
+  </tr>
+</tbody>
+</table>
+
+## Distribuição de frequência {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+-   Frequência relativa
+
+:::
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:25px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:25px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-km2t{border-color:#ffffff;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-8jgo{border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-44qx{border-color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-44qx">Número de erros $(x_i)$</th>
+    <th class="tg-44qx">Frequência simples ($f_i$)</th>
+    <th class="tg-km2t">Frequência relativa ($f_{r_i}$)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-v0mg">0</td>
+    <td class="tg-v0mg">3</td>
+    <td class="tg-8jgo">$3/20 = 0,15$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">1</td>
+    <td class="tg-v0mg">7</td>
+    <td class="tg-8jgo">$7/20 = 0,35$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">2</td>
+    <td class="tg-v0mg">4</td>
+    <td class="tg-8jgo">$4/20 = 0,20$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">3</td>
+    <td class="tg-v0mg">5</td>
+    <td class="tg-8jgo">$5/20 = 0,25$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">4</td>
+    <td class="tg-v0mg">1</td>
+    <td class="tg-8jgo">$1/20 = 0,05$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">Total</td>
+    <td class="tg-v0mg">20</td>
+    <td class="tg-8jgo">1</td>
+  </tr>
+</tbody>
+</table>
+
+## Distribuição de frequência {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+-   Frequência percentual
+
+:::
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:25px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:25px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-8jgo{border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-44qx{border-color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-aw21{border-color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-44qx">Número de erros $(x_i)$</th>
+    <th class="tg-44qx">Frequência simples ($f_i$)</th>
+    <th class="tg-aw21">Frequência relativa ($f_{r_i}$)</th>
+    <th class="tg-aw21">Frequência percentual $(f_{\%_i})$</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-v0mg">0</td>
+    <td class="tg-v0mg">3</td>
+    <td class="tg-8jgo">$0,15$</td>
+    <td class="tg-8jgo">$0,15 \times 100 = 15$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">1</td>
+    <td class="tg-v0mg">7</td>
+    <td class="tg-8jgo">$0,35$</td>
+    <td class="tg-8jgo">$0,35 \times 100 = 35$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">2</td>
+    <td class="tg-v0mg">4</td>
+    <td class="tg-8jgo">$0,20$</td>
+    <td class="tg-8jgo">$0,20 \times 100 = 20$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">3</td>
+    <td class="tg-v0mg">5</td>
+    <td class="tg-8jgo">$0,25$</td>
+    <td class="tg-8jgo">$0,25 \times 100 = 25$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">4</td>
+    <td class="tg-v0mg">1</td>
+    <td class="tg-8jgo">$0,05$</td>
+    <td class="tg-8jgo">$0,05 \times 100 = 5$</td>
+  </tr>
+  <tr>
+    <td class="tg-v0mg">Total</td>
+    <td class="tg-v0mg">20</td>
+    <td class="tg-8jgo">1</td>
+    <td class="tg-8jgo">$100$</td>
+  </tr>
+</tbody>
+</table>
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
+
+# Referências {background-image="cap02.png"}
+
+
+
+
+<!-- 
+
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="90%"}
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atot |>
+  new_leem(variable = 2) # ou new_leem(variable = "continuous")
+```
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
+atotleem
+class(atotleem)
+```
+
+:::
+
+::: {.column width="10%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+
+-->

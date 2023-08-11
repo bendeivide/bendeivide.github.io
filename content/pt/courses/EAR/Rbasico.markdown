@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-08-10 16:01:57"
+date: "2023-08-11 20:21:54"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -10,6 +10,8 @@ tags: ["Curso R"]
 
 
 {{< toc hide_on="xl" >}}
+
+{{< figure src="EAR-rbasico.png" width="70%" >}}
 
 Programando o [R](http://r-project.org) em nível básico.
 
@@ -22,9 +24,17 @@ Programando o [R](http://r-project.org) em nível básico.
  
 - <i class="fas fa-calendar-day"></i> 17/08/2023 <i class="fas fa-clock"></i> 14h
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Bo-4qYMjTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 
+## <i class="fas fa-brain"></i> Apoio
+
+- <a href="/slides/ceac/index.html" target="_blank">CEAC/UFSJ: Clube de Engenharia Assistida por Computador</a>
+  - <i class="fab fa-instagram"></i> [@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+{{< figure src="ceac.png" width="50%" >}}
 
 
 ## <i class="fas fa-chalkboard-teacher"></i>  Apresentação {id="apresentacao" title="Clique aqui!"}
@@ -73,7 +83,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 ## <i class="fas fa-swatchbook"></i> Livro de apoio
 
 - Versão Física:
-  - {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!)
+  - {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20115%2C00%20para%20qualquer%20local%20do%20Brasil!)
   - [Shopee](https://shopee.com.br/product/880978340/20053618529/)
   - [Mercado livre](https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM)
   - {{< icon name="amazon" pack="fab" >}} [Amazon](https://www.amazon.com/dp/6500531914)
