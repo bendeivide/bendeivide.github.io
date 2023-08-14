@@ -344,6 +344,1393 @@ knitr::kable(
 </tbody>
 </table>
 
+## Distribuição de frequência {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+-   Frequência acumulada (abaixo de)
+
+:::
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-bottom-width:1px;border-color:#9ABAD9;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#444;font-family:Arial, sans-serif;font-size:25px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#409cff;border-bottom-width:1px;border-color:#9ABAD9;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fff;font-family:Arial, sans-serif;font-size:25px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-8jgo{border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-aw21{border-color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-aw21">Número de erros $(x_i)$</th>
+    <th class="tg-aw21">$f_i$</th>
+    <th class="tg-aw21">$f_{r_i}$</th>
+    <th class="tg-aw21">$f_{\%_i}$</th>
+    <th class="tg-aw21">$f_{ac\downarrow_i}$</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-8jgo">0</td>
+    <td class="tg-8jgo">3</td>
+    <td class="tg-8jgo">$0,15$</td>
+    <td class="tg-8jgo">$15$</td>
+    <td class="tg-8jgo">$3$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">1</td>
+    <td class="tg-8jgo">7</td>
+    <td class="tg-8jgo">$0,35$</td>
+    <td class="tg-8jgo">$35$</td>
+    <td class="tg-8jgo">$3+7 = 10$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">2</td>
+    <td class="tg-8jgo">4</td>
+    <td class="tg-8jgo">$0,20$</td>
+    <td class="tg-8jgo">$20$</td>
+    <td class="tg-8jgo">$3 + 7 + 4 = 14$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">3</td>
+    <td class="tg-8jgo">5</td>
+    <td class="tg-8jgo">$0,25$</td>
+    <td class="tg-8jgo">$25$</td>
+    <td class="tg-8jgo">$3 + 7 + 4 + 5 = 19$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">4</td>
+    <td class="tg-8jgo">1</td>
+    <td class="tg-8jgo">$0,05$</td>
+    <td class="tg-8jgo">$5$</td>
+    <td class="tg-8jgo">$3 + 7 + 4 + 5 + 1 = 20$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">Total</td>
+    <td class="tg-8jgo">20</td>
+    <td class="tg-8jgo">1</td>
+    <td class="tg-8jgo">$100$</td>
+    <td class="tg-8jgo">-</td>
+  </tr>
+</tbody>
+</table>
+
+
+## Distribuição de frequência {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+-   Frequência acumulada (acima de)
+
+:::
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:25px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:25px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-8jgo{border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-aw21{border-color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-aw21">Número de erros $(x_i)$</th>
+    <th class="tg-aw21">$f_i$</th>
+    <th class="tg-aw21">$f_{r_i}$</th>
+    <th class="tg-aw21">$f_{\%_i}$</th>
+    <th class="tg-aw21">$f_{ac\downarrow_i}$</th>
+    <th class="tg-aw21">$f_{ac\uparrow_i}$</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-8jgo">0</td>
+    <td class="tg-8jgo">3</td>
+    <td class="tg-8jgo">$0,15$</td>
+    <td class="tg-8jgo">$15$</td>
+    <td class="tg-8jgo">$3$</td>
+    <td class="tg-8jgo">$3 + 7 + 4 + 5 + 1 = 20$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">1</td>
+    <td class="tg-8jgo">7</td>
+    <td class="tg-8jgo">$0,35$</td>
+    <td class="tg-8jgo">$35$</td>
+    <td class="tg-8jgo">$3+7 = 10$</td>
+    <td class="tg-8jgo">$7 + 4 + 5 + 1 = 20 - 3 = 17$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">2</td>
+    <td class="tg-8jgo">4</td>
+    <td class="tg-8jgo">$0,20$</td>
+    <td class="tg-8jgo">$20$</td>
+    <td class="tg-8jgo">$3 + 7 + 4 = 14$</td>
+    <td class="tg-8jgo">$4 + 5 + 1 = 17 - 7 = 10$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">3</td>
+    <td class="tg-8jgo">5</td>
+    <td class="tg-8jgo">$0,25$</td>
+    <td class="tg-8jgo">$25$</td>
+    <td class="tg-8jgo">$3 + 7 + 4 + 5 = 19$</td>
+    <td class="tg-8jgo">$5 + 1 = 10 - 4 = 6$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">4</td>
+    <td class="tg-8jgo">1</td>
+    <td class="tg-8jgo">$0,05$</td>
+    <td class="tg-8jgo">$5$</td>
+    <td class="tg-8jgo">$3 + 7 + 4 + 5 + 1 = 20$</td>
+    <td class="tg-8jgo">$5 + 1 = 10 - 4 = 6$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">Total</td>
+    <td class="tg-8jgo">20</td>
+    <td class="tg-8jgo">1</td>
+    <td class="tg-8jgo">$100$</td>
+    <td class="tg-8jgo">-</td>
+    <td class="tg-8jgo">-</td>
+  </tr>
+</tbody>
+</table>
+
+
+# Tabela para V. contínua (Algoritmo) {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+<font size="+1">
+
+1º Passo - Número de classes </pre>
+
+\begin{align}
+  k & \approx \left\{\begin{array}{ll}
+          \sqrt{\textrm{número de elementos}}, & n \leq 100 \\
+          5log_{10}(\textrm{número de elementos}), & n > 100
+        \end{array}\right.
+\end{align}
+
+2º Passo - Amplitude total </pre>
+
+\begin{align}
+  A_t & = \max_i(X_i) - \min_i(X_i),~\textrm{para } i \in \mathbb{N}^{+}.
+\end{align}
+
+3º Passo - Amplitude de classe </pre>
+
+\begin{align}
+  c & = \left\{\begin{array}{ll}
+           \frac{A_t}{k - 1}, & \textrm{Amostra} \\
+           \frac{A_t}{k}, & \textrm{População}.
+        \end{array}\right.
+\end{align}
+
+4º Passo - LI da primeira classe </pre>
+
+\begin{align}
+Li_{1a} & = \left\{\begin{array}{ll}
+           X_{(1)} - c / 2, & \textrm{Amostra} \\
+           X_{(1)}, & \textrm{População}.
+        \end{array}\right.
+\end{align}
+
+</font>
+
+
+:::
+
+::: {.column width="30%"}
+
+<style type="text/css">
+.tg2  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg2 td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:40px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg2 th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:40px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.t2g .tg-8jgo{border-color:#ffffff;text-align:center;vertical-align:top}
+.t2g .tg-aw21{border-color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg2">
+<thead>
+  <tr>
+    <th class="tg-aw21">Classe</th>
+    <th class="tg-aw21">$F_i$</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-8jgo">$Li_{1a} \vdash  Ls_{1a}$</td>
+    <td class="tg-8jgo">$f_1$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">$Li_{2a} \vdash  Ls_{2a}$</td>
+    <td class="tg-8jgo">$f_2$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">$\vdots$</td>
+    <td class="tg-8jgo">$\vdots$</td>
+  </tr>
+  <tr>
+    <td class="tg-8jgo">$Li_{ka}  \vdash Ls_{ka}$</td>
+    <td class="tg-8jgo">$f_k$</td>
+  </tr>
+</tbody>
+</table>
+
+:::
+
+::::
+
+## Em resumo... {background-image="cap02.png"}
+
+- Calcular $k$,
+- Calcular $A_t$,
+- Calcular $c$,
+- Calcular $Li_{1a}$,
+- Determinar as classes,
+- Calcular o ponto médio, e
+- Calcular as frequências como apresentadas anteriormente.
+
+
+# Gráficos {background-image="cap02.png"}
+
+- Gráfico de Haste ou bastão
+- Gráfico de barras
+- Gráfico de Pizza
+- Histograma de frequências
+- Ogivas
+
+
+# Uso do pacote `leem` {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Instalação (Github)
+
+:::
+
+```{r eval=FALSE}
+
+# Instalar os pacotes dependentes
+pkgs <- c("manipulate", "tkRplotR", "tkrplot", "crayon")
+install.packages(pkgs)
+# install.packages("devtools")
+devtools::install_github("bendeivide/leem")
+```
+
+## Funções `leem` {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-5lw0{background-color:#eee8d5;border-color:#ffffff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;text-align:left;
+  vertical-align:middle}
+.tg .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
+  text-align:left;vertical-align:middle}
+.tg .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-vqs5">Função</th>
+    <th class="tg-vqs5">Finalidade</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-5lw0"> <code>base::sort()</code>  </td>
+    <td class="tg-5lw0">Dados em rol </td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>new_leem()</code>  </td>
+    <td class="tg-5lw0">Construtor da classe <i>leem</i> </td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>tabfreq()</code>  </td>
+    <td class="tg-xzvq">Distribuição de frequência</td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>hist()</code> </td>
+    <td class="tg-5lw0">Hitograma de frequência</td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>ogive()</code> </td>
+    <td class="tg-xzvq">Ogivas</td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>polyfreq()</code> </td>
+    <td class="tg-5lw0">Polígono de frequências</td>
+  </tr>
+   <tr>
+    <td class="tg-5lw0"> <code>stickchart()</code> </td>
+    <td class="tg-5lw0">Gráfico de hastes ou bastão</td>
+  </tr>
+   <tr>
+    <td class="tg-5lw0"> <code>piechart()</code> </td>
+    <td class="tg-5lw0">Gráfico pizza ou de setores</td>
+  </tr>
+</tbody>
+</table>
+
+:::
+
+::: {.column width="40%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+# Exemplos {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+1. Considere a distribuição de frequência do número de erros encontrados em 20 conjunto de caracteres monitorado em um canal de comunicação
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-j4p1{background-color:#eee8d5;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:14px;font-style:italic;font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-1bo1{background-color:#ffffff;border-color:#fdf6e3;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:14px;font-style:italic;
+  font-weight:bold;text-align:right;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">4</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">1</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">2</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">1</td>
+    <td class="tg-1bo1">3</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">2</td>
+    <td class="tg-1bo1">1</td>
+  </tr>
+</tbody>
+</table>
+
+2. Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg .tg-61io{background-color:#eee8d5;color:#191919;font-size:14px;font-style:italic;font-weight:bold;text-align:left;
+  vertical-align:middle}
+.tg .tg-8svn{background-color:#fdf6e3;color:#191919;font-size:14px;font-style:italic;font-weight:bold;text-align:left;
+  vertical-align:middle}
+.tg .tg-aete{background-color:#fdf6e3;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:14px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-4ynv{background-color:#eee8d5;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+  font-size:14px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-uika{color:#191919;font-size:14px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-aete">84</th>
+    <th class="tg-aete">49</th>
+    <th class="tg-aete">61</th>
+    <th class="tg-aete">40</th>
+    <th class="tg-aete">83</th>
+    <th class="tg-aete">67</th>
+    <th class="tg-aete">45</th>
+    <th class="tg-aete">66</th>
+    <th class="tg-aete">70</th>
+    <th class="tg-aete">69</th>
+    <th class="tg-8svn">80</th>
+    <th class="tg-8svn">58</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-4ynv">68</td>
+    <td class="tg-4ynv">60</td>
+    <td class="tg-4ynv">67</td>
+    <td class="tg-4ynv">72</td>
+    <td class="tg-4ynv">73</td>
+    <td class="tg-4ynv">70</td>
+    <td class="tg-4ynv">57</td>
+    <td class="tg-4ynv">63</td>
+    <td class="tg-4ynv">70</td>
+    <td class="tg-4ynv">78</td>
+    <td class="tg-61io">52</td>
+    <td class="tg-61io">67</td>
+  </tr>
+  <tr>
+    <td class="tg-uika">53</td>
+    <td class="tg-uika">67</td>
+    <td class="tg-uika">75</td>
+    <td class="tg-uika">61</td>
+    <td class="tg-uika">70</td>
+    <td class="tg-uika">81</td>
+    <td class="tg-uika">76</td>
+    <td class="tg-uika">79</td>
+    <td class="tg-uika">75</td>
+    <td class="tg-uika">76</td>
+    <td class="tg-uika">58</td>
+    <td class="tg-uika">31</td>
+  </tr>
+</tbody>
+</table>
+
+:::
+
+
+# `leem` em ação {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Importando os dados
+
+:::
+
+```{r echo=TRUE, eval = TRUE}
+# Numero de erros
+d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/tabela2.1.txt", h = TRUE)
+(d1 <- d1$erros)
+
+# Temperatura do foguete Challenger
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+(d2 <- d2$chal)
+```
+
+## `leem` em ação  {background-image="cap02.png"}
+
+
+::: {.nonincremental}
+
+- Dados em rol
+
+:::
+
+```{r echo=TRUE, eval = TRUE}
+sort(d1)
+sort(d2)
+```
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Distribuição de frequência (Código)
+
+:::
+
+```r
+## Forma convencional:
+aux <- new_leem(d1, 1)
+tabd1 <- tabfreq(aux); tabd1
+#-----
+aux <- new_leem(d2, 2)
+tabd2 <- tabfreq(aux); tabd2
+## Usando o operador 'pipe' nativo
+d1 |> new_leem(variable = 1) |> tabfreq()
+d2 |> new_leem(variable = 2) |> tabfreq()
+```
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Distribuição de frequência (Saída de `d1`)
+
+:::
+
+```{r echo=FALSE}
+d1 |> new_leem(variable = 1) |> tabfreq()
+```
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Distribuição de frequência (Saída de `d2`)
+
+:::
+
+```{r echo=FALSE}
+d2 |> new_leem(variable = 2) |> tabfreq()
+```
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Hastes ou bastão
+
+:::
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+3">
+
+```{.r code-line-numbers="4|14|1-18"}
+# Forma convencional:
+aux1 <- new_leem(d1, variable = "discrete")
+aux2 <- tabfreq(aux1)
+stickchart(aux2,
+          lwd=3, # largura da linha
+          pcol = "red", # cor da linha
+          bgcol = "lightgray", # cor do fundo
+          panel.first = grid(col = "white") # inserindo grid e sua cor
+         )
+# Usando o pipe
+d1 |>
+  new_leem(variable = "discrete") |>
+  tabfreq() |>
+  stickchart(lwd=3, # largura da linha
+            pcol = "red", # cor da linha
+            bgcol = "lightgray", # cor do fundo
+            panel.first = grid(col = "white") # inserindo grid e sua cor
+            )
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10%;
+  width: 100%;">
+
+```{r echo=FALSE}
+d1 |>
+  new_leem(variable = "discrete") |>
+  tabfreq() |>
+  stickchart(lwd=3, # largura da linha
+            pcol = "red", # cor da linha
+            bgcol = "lightgray", # cor do fundo
+            panel.first = grid(col = "white") # inserindo grid e sua cor
+            )
+```
+
+</div>
+
+
+:::
+
+::::
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Barras
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="4|9|1-9"}
+# Forma convencional:
+aux1 <- new_leem(d1, variable = 1)
+aux2 <- tabfreq(aux1)
+barplot(aux2, barcol = heat.colors(5))
+# Usando o pipe
+d1 |>
+  new_leem(variable = 1) |>
+    tabfreq() |>
+      barplot(barcol = heat.colors(5))
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5%;
+  width: 100%;">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+    tabfreq() |>
+      barplot(barcol = heat.colors(5))
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Histograma de frequências
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="5|1-5"}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+    tabfreq() |>
+      hist(barcol = heat.colors(6))
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+    tabfreq() |>
+      hist(barcol = heat.colors(6))
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Polígono
+  - Dados discretos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="5|1-7"}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+    tabfreq() |>
+      polyfreq(barcol = heat.colors(5),
+           main = "Polígono de frequências e
+Histograma de frequências")
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+    tabfreq() |>
+      polyfreq(barcol = heat.colors(5),
+           main = "Polígono de frequências e
+Histograma de frequências")
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Polígono
+  - Dados contínuos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="3|5|1-7"}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+    tabfreq() |>
+      polyfreq(barcol = heat.colors(5),
+           main = "Polígono de frequências e
+Histograma de frequências")
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+    tabfreq() |>
+      polyfreq(barcol = heat.colors(5),
+           main = "Polígono de frequências e
+Histograma de frequências")
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Polígono sem as barras
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="5|1-5"}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+    tabfreq() |>
+      polyfreq(bars = FALSE)
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+    tabfreq() |>
+      polyfreq(bars = FALSE)
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Ogiva (crescente)
+  - Dados discretos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="5|1-5"}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+    tabfreq() |>
+      ogive(bars = TRUE, barcol = "red")
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+    tabfreq() |>
+      ogive(bars = TRUE, barcol = "red")
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Ogiva (decrescente)
+  - Dados discretos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="3|5|1-6"}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+   tabfreq() |>
+    ogive(decreasing = TRUE,
+        bars = TRUE, barcol = "yellow")
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+   tabfreq() |>
+    ogive(decreasing = TRUE,
+        bars = TRUE, barcol = "yellow")
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Ogiva (ambos)
+  - Dados discretos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="5|1-7"}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  ogive(both = TRUE, # ambas ogivas
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"))
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  ogive(both = TRUE, # ambas ogivas
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"))
+```
+
+</div>
+
+
+:::
+
+::::
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Ogiva (crescente)
+  - Dados contínuos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="3|5|1-5"}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  ogive(bars = TRUE, barcol = "red")
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE }
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  ogive(bars = TRUE, barcol = "red")
+```
+
+</div>
+
+
+:::
+
+::::
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Ogiva (decrescente)
+  - Dados contínuos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="5|1-6"}
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d2 <- d2$chal
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  ogive(decreasing = TRUE,
+        bars = TRUE, barcol = "yellow")
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE }
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  ogive(decreasing = TRUE,
+        bars = TRUE, barcol = "yellow")
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Ogiva (Ambos)
+  - Dados contínuos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="5|1-7"}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  ogive(both = TRUE, # ambas ogivas
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"))
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE }
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  ogive(both = TRUE, # ambas ogivas
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"))
+```
+
+</div>
+
+
+:::
+
+::::
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Ogiva (Ambos + Histograma)
+  - Dados contínuos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="5|8|1-10"}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  ogive(both = TRUE, # ambas ogivas
+        bars = FALSE, # barras
+        barcol = c("red", "yellow"), # cor da barra das duas ogivas
+        histogram = TRUE, # incluindo o histograma
+        histcol = gray.colors(6), # cor do histograma
+        bgcol = "purple") # cor do fundo
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE }
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  ogive(both = TRUE, # ambas ogivas
+        bars = TRUE, # barras
+        barcol = c("red", "yellow"), # cor da barra das duas ogivas
+        histogram = TRUE, # incluindo o histograma
+        histcol = gray.colors(6), # cor do histograma
+        bgcol = "purple") # cor do fundo
+```
+
+</div>
+
+
+:::
+
+::::
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Pizza ou setores
+  - Dados discretos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="3|5|1-5"}
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  piechart()
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE }
+# Usando o pipe:
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  piechart()
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+## `leem` em ação  {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Apresentação gráfica: Pizza ou setores
+  - Dados contínuos
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+4">
+
+```{.r code-line-numbers="3|5|1-5"}
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  piechart()
+```
+
+</font>
+
+:::
+
+
+::: {.column width="50%"}
+
+<div style="display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0%;
+  width: 100%;">
+
+```{r echo=FALSE }
+# Usando o pipe:
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  piechart()
+```
+
+</div>
+
+
+:::
+
+::::
+
+
+
+
 
 # Questões? {background-image="cap02.png"}
 
