@@ -12,7 +12,7 @@ lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: [ben-slide.scss]
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -23,7 +23,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: ben.png
 #   slide-tone: true # som na transicao dos slides
@@ -40,7 +40,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 ```{r setup, include=FALSE}
@@ -505,7 +505,7 @@ knitr::kable(
 
 :::: {.columns}
 
-::: {.column width="70%"}
+::: {.column width="60%"}
 
 <font size="+1">
 
@@ -547,7 +547,7 @@ Li_{1a} & = \left\{\begin{array}{ll}
 
 :::
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 
 <style type="text/css">
 .tg2  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
@@ -633,22 +633,22 @@ devtools::install_github("bendeivide/leem")
 ::: {.column width="60%"}
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
-.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+.tg7  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg7 td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
   border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
   word-break:normal;}
-.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+.tg7 th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
   border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
   padding:10px 5px;word-break:normal;}
-.tg .tg-5lw0{background-color:#eee8d5;border-color:#ffffff;
+.tg7 .tg-5lw0{background-color:#eee8d5;border-color:#ffffff;
   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;text-align:left;
   vertical-align:middle}
-.tg .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
+.tg7 .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
   text-align:left;vertical-align:middle}
-.tg .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
+.tg7 .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:28px;
   font-weight:bold;text-align:left;vertical-align:middle}
 </style>
-<table class="tg">
+<table class="tg7">
 <thead>
   <tr>
     <th class="tg-vqs5">Função</th>
@@ -710,121 +710,40 @@ devtools::install_github("bendeivide/leem")
 
 ::: {.nonincremental}
 
-1. Considere a distribuição de frequência do número de erros encontrados em 20 conjunto de caracteres monitorado em um canal de comunicação
+<font size="+3">
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
-.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
-  word-break:normal;}
-.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
-  padding:10px 5px;word-break:normal;}
-.tg .tg-j4p1{background-color:#eee8d5;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
-  font-size:14px;font-style:italic;font-weight:bold;text-align:right;vertical-align:middle}
-.tg .tg-1bo1{background-color:#ffffff;border-color:#fdf6e3;
-  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:14px;font-style:italic;
-  font-weight:bold;text-align:right;vertical-align:middle}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">4</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">1</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">2</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">3</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
-    <th class="tg-j4p1"><span style="font-weight:700">0</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-1bo1">1</td>
-    <td class="tg-1bo1">1</td>
-    <td class="tg-1bo1">2</td>
-    <td class="tg-1bo1">1</td>
-    <td class="tg-1bo1">1</td>
-    <td class="tg-1bo1">1</td>
-    <td class="tg-1bo1">3</td>
-    <td class="tg-1bo1">2</td>
-    <td class="tg-1bo1">2</td>
-    <td class="tg-1bo1">1</td>
-  </tr>
-</tbody>
-</table>
+1. Considere a distribuição de frequência do número de erros encontrados em 20 conjunto de caracteres monitorado em um canal de comunicação:
+
+
+
+```{r, echo=FALSE, warning=FALSE}
+dados <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados <- matrix(dados, 2, 10)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+
 
 2. Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
-.tg td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
-  word-break:normal;}
-.tg th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;
-  padding:10px 5px;word-break:normal;}
-.tg .tg-61io{background-color:#eee8d5;color:#191919;font-size:14px;font-style:italic;font-weight:bold;text-align:left;
-  vertical-align:middle}
-.tg .tg-8svn{background-color:#fdf6e3;color:#191919;font-size:14px;font-style:italic;font-weight:bold;text-align:left;
-  vertical-align:middle}
-.tg .tg-aete{background-color:#fdf6e3;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
-  font-size:14px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
-.tg .tg-4ynv{background-color:#eee8d5;color:#191919;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
-  font-size:14px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
-.tg .tg-uika{color:#191919;font-size:14px;font-style:italic;font-weight:bold;text-align:left;vertical-align:middle}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-aete">84</th>
-    <th class="tg-aete">49</th>
-    <th class="tg-aete">61</th>
-    <th class="tg-aete">40</th>
-    <th class="tg-aete">83</th>
-    <th class="tg-aete">67</th>
-    <th class="tg-aete">45</th>
-    <th class="tg-aete">66</th>
-    <th class="tg-aete">70</th>
-    <th class="tg-aete">69</th>
-    <th class="tg-8svn">80</th>
-    <th class="tg-8svn">58</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-4ynv">68</td>
-    <td class="tg-4ynv">60</td>
-    <td class="tg-4ynv">67</td>
-    <td class="tg-4ynv">72</td>
-    <td class="tg-4ynv">73</td>
-    <td class="tg-4ynv">70</td>
-    <td class="tg-4ynv">57</td>
-    <td class="tg-4ynv">63</td>
-    <td class="tg-4ynv">70</td>
-    <td class="tg-4ynv">78</td>
-    <td class="tg-61io">52</td>
-    <td class="tg-61io">67</td>
-  </tr>
-  <tr>
-    <td class="tg-uika">53</td>
-    <td class="tg-uika">67</td>
-    <td class="tg-uika">75</td>
-    <td class="tg-uika">61</td>
-    <td class="tg-uika">70</td>
-    <td class="tg-uika">81</td>
-    <td class="tg-uika">76</td>
-    <td class="tg-uika">79</td>
-    <td class="tg-uika">75</td>
-    <td class="tg-uika">76</td>
-    <td class="tg-uika">58</td>
-    <td class="tg-uika">31</td>
-  </tr>
-</tbody>
-</table>
+
+
+```{r, echo=FALSE, warning=FALSE, }
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d3 <- d2$chal
+dados <- matrix(d3, 3, 12)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+</font>
 
 :::
 

@@ -23,7 +23,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: ben.png
 #   slide-tone: true # som na transicao dos slides
@@ -40,7 +40,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source 
 ---
 
 # Filosofia de publicação (Selo DC) {background-image="cap02.png"}
@@ -61,7 +61,7 @@ Usaremos @batista2023:
 
 </a>
 
-# {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/epaec/"}
+# {data-background-interactive="true" data-background-iframe="<https://bendeivide.github.io/courses/epaec/>"}
 
 Página do curso
 
@@ -97,7 +97,7 @@ Página do curso
 ::: {.nonincremental}
 
 -   Introdução
-    -   Nossa vida atual é assim hoje! 
+    -   Nossa vida atual é assim hoje!
 
 :::
 
@@ -264,7 +264,7 @@ Página do curso
 
 ::: {.column width="40%"}
 
-<img src="analise02.png" title="Imagens: pngwing.com" width = "600"> 
+<img src="analise02.png" title="Imagens: pngwing.com" width = "600">
 
 :::
 
@@ -286,7 +286,7 @@ Página do curso
 
 ::: {.column width="70%"}
 
-<img src="exp_user2.png" title="Imagens: pngwing.com" width = "1000"> 
+<img src="exp_user2.png" title="Imagens: pngwing.com" width = "1000">
 
 :::
 
@@ -404,7 +404,7 @@ Página do curso
 
 ## Motivação inicial {background-image="cap02.png"}
 
-::: {.notes} 
+::: {.notes}
 
 📝 EPAEC - Página 4
 
@@ -438,7 +438,7 @@ O gráfico nos revela que o Brasil produz petróleo abaixo do que necessitaria p
 
 ::: {.column width="60%"}
 
-::: {.nonincremental} 
+::: {.nonincremental}
 
 Tentando verificar a eficiência de um robô desenvolvido para o mercado de ações, supondo que esse robô tem como estratégia operar apenas comprando. Para isso, aplicamos um experimento para o robô sobre 10 ativos. Será que ele está adivinhando na compra desses ativos?
 

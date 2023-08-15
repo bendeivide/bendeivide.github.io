@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/curso-r/</link>
       <atom:link href="http://bendeivide.github.io/category/curso-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 11 Aug 2023 20:21:54 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 15 Aug 2023 16:06:37 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso R</title>
@@ -745,6 +745,37 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
   &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
   &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Programação em R (Nível Avançado)</title>
+      <link>http://bendeivide.github.io/courses/ear/navancado/</link>
+      <pubDate>Tue, 15 Aug 2023 16:06:37 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/ear/navancado/</guid>
+      <description>&lt;p&gt;Programando em nível avançado o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 6-7 horas por semana, por 4 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_JqtU3X101E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h2 id=&#34;onde-foi-ministrado&#34;&gt;Onde foi ministrado?&lt;/h2&gt;
+&lt;!-- - O curso foi ministrado pela UFSJ, em parceria com o Centro Acadêmico de Engenharia de Telecomunicações (CATEL), no período de 18/02/2021 a 19/03/2021. --&gt;
+&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
+&lt;!-- O material encontra-se disponível em &lt;http://bendeivide.github.io/cursor/nbasico&gt; --&gt;
+&lt;h2 id=&#34;vídeo-aulas&#34;&gt;Vídeo-aulas&lt;/h2&gt;
+&lt;!-- Todas as vídeo-aulas encontram-se no material informado anteriormente, como também pela playlist [Curso R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O). --&gt;
+&lt;h2 id=&#34;exercícios&#34;&gt;Exercícios&lt;/h2&gt;
+&lt;!-- Os exercícios do curso, podem ser desenvolvidos via *web* em &lt;https://bendeivide.shinyapps.io/Curso-R/&gt;, como também é possível baixar todos os [scripts](http://bendeivide.github.io/cursor/nbasico#scripts). --&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Acesse: &lt;http://bendeivide.github.io/cursor/nbasico#rwork&gt; --&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;</description>
     </item>
     
     <item>
