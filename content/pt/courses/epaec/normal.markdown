@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.2
-date: "2023-08-16 15:11:33"
+date: "2023-08-16 15:17:44"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -422,6 +422,11 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="book-reader" pack="fas" >}}
 <a href="https://docs.google.com/document/d/1go3LMsYDs2z2OWHFoZ5EFhVh6Efeb6iNyTIkPTK7lQk/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2023.2/r-scripts/aula04.R" target="_blank">*Script* Aula 4</a>
+    
+
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
