@@ -1,0 +1,2 @@
+# Eliminar o commit local
+git reset --hard HEAD~1
