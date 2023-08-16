@@ -12,7 +12,7 @@ lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: [ben-slide.scss]
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade

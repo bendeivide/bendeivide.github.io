@@ -22,7 +22,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
@@ -39,7 +39,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 ## Encarte {background-image="EAR-rbasico-background-02.png"}
@@ -81,7 +81,7 @@ Usaremos @batista2021:
 
 ------------------------------------------------------------------------
 
-## {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/ear/"}
+## {data-background-interactive="true" data-background-iframe="<https://bendeivide.github.io/courses/ear/>"}
 
 Página do curso
 

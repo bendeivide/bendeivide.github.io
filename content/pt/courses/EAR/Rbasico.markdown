@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-08-11 20:21:54"
+date: "2023-08-16 13:20:08"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -23,6 +23,8 @@ Programando o [R](http://r-project.org) em nível básico.
 ## <i class="fas fa-bullhorn"></i>  Vídeo de lançamento do curso {id="lancamento" title="Clique aqui!"}
  
 - <i class="fas fa-calendar-day"></i> 17/08/2023 <i class="fas fa-clock"></i> 14h
+c
+- {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/lancamento/index.html" target="_blank">*Slide* de lançamento</a>
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Bo-4qYMjTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -42,6 +44,8 @@ Programando o [R](http://r-project.org) em nível básico.
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pJmhR9MumAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
+
+
 
 A coleção *Estudando o ambiente R* é fruto de cursos ministrados sobre a linguagem [R](http://r-project.org/), bem como colaborações e estudos ao longo dos anos. Em 2005, quando ingressei no curso de Engenharia Agronômica, fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, obtive o primeiro contato com o ambiente [R](http://r-project.org/) pouco mais de 9 anos de seu lançamento e redistribuição. Naquela época, haviam poucos materiais em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para a compreensão. À época, inclusive, até sonhei em chegar neste dia, qua seja, o dia do lançamento de uma obra como esta.
 
@@ -67,9 +71,9 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
     Paraopeba ([CAP](http://ufsj.edu.br/cap/)), no formato *online* via Youtube, pelo canal <http://youtube.com/bendeivide>
 - <i class="fas fa-calendar-day"></i> Data: **Início: 13/09/2023  Término: 29/09/2023**
 
-## <i class="fa fa-link"></i> Inscrição do curso
+## <i class="fa fa-link"></i> Inscrição do curso {id="inscricao" title="Clique aqui!"}
 
-- <i class="fas fa-calendar-day"></i> Período de nscrição: **Início: 10/09/2023  Término: 12/09/2023**
+- <i class="fas fa-calendar-day"></i> Período de nscrição: **Início: 10/09/2023  Término: 12/09/2023** 
 
 {{< gdocs src="https://forms.gle/PMaMhtPRDoa6F1kF9">}}
 
@@ -78,9 +82,9 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 <img src="/pt/courses/EAR/Rbasico_files/figure-html/unnamed-chunk-2-1.png" width="672" />
 
 
-## <i class="fab fa-readme"></i> Ementa
+## <i class="fab fa-readme"></i> Ementa {id="ementa" title="Clique aqui!"}
 
-## <i class="fas fa-swatchbook"></i> Livro de apoio
+## <i class="fas fa-swatchbook"></i> Livro de apoio {id="livro" title="Clique aqui!"}
 
 - Versão Física:
   - {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20115%2C00%20para%20qualquer%20local%20do%20Brasil!)
