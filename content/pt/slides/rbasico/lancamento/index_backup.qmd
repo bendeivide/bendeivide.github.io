@@ -1,0 +1,149 @@
+---
+title: "EAR: R Básico"
+subtitle: "Lançamento do curso"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Apoio CEAC {background-image="EAR-rbasico-background-02.png"}
+
+::: {.nonincremental}
+
+- <a href="/slides/ceac/index.html" target="_blank">CEAC/UFSJ: Clube de Engenharia Assistida por Computador</a>
+  - <i class="fab fa-instagram"></i> [@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="30%"}
+</center>
+
+
+# Como surgiu o Curso EAR? {background-image="EAR-rbasico-background-02.png"}
+
+- Pandemia da Covid-19
+- Motivação:
+  - Osciosidade discente (sem aulas presenciais)
+  - Adequação a nova forma de ensino público (aulas *online*)
+- Prazer em estudar o `R`
+  - Nada melhor do **aprender por ensinar**!
+- Conhecimento é uma liberdade necessária!
+
+# Histórico do Curso EAR? {background-image="EAR-rbasico-background-02.png"}
+
+- Curso EAR (níveis fundamentais)
+  - R básico ✔ (Em 2021, +900 inscritos)
+    - Livro R básico (2022)
+    - Agora para 2023, temos +300 inscritos!!
+  - R intermediário ✔ (+450 inscritos)
+  - R avançado ❎
+  
+## Histórico do Curso EAR? {background-image="EAR-rbasico-background-02.png"}
+
+- Em todas as vezes ministrado, sempre:
+  - Gratuito 🔓 
+  - Certificado 📜
+- Ministrado uma vez por ano!
+
+  
+# O que é o Curso EAR? {background-image="EAR-rbasico-background-02.png"}
+
+- EAR: Estudando o Ambiente R
+- Objetivo: 
+  - Ensinar a linguagem R sem o uso da Estatística
+  - Sintaxe e Semântica
+- Estrutura dos cursos iniciais:
+  - R básico
+  - R intermediário
+  - R avançado
+
+  
+# Informações sobre o EAR: R básico (2023)? {background-image="EAR-rbasico-background-02.png"}
+
+- Onde: [link](https://bendeivide.github.io/courses/ear/)
+- Incrição: [link](https://bendeivide.github.io/courses/ear/rbasico/#inscricao)
+- Calendário:  [link](https://bendeivide.github.io/courses/ear/rbasico/#cronograma)
+  - 📅 13/09 a 29/09
+  - ⏰ Quarta, quinta e sexta-feira
+
+## Informações sobre o EAR: R básico (2023)? {background-image="EAR-rbasico-background-02.png"}
+
+- 🔖 Ementa: [link](https://bendeivide.github.io/courses/ear/rbasico/#ementa)
+- 🎥 Canal de Youtube: <https://youtube.com/bendeivide>
+- 📖 Livro de apoio: [link](https://bendeivide.github.io/courses/ear/rbasico/#livro) [@batista2021]
+- Duração: ⏱ 30 horas
+
+# Detalhamento das aulas {background-image="EAR-rbasico-background-02.png"}
+
+- A divulgação das vídeo-aulas ocorrerão sempre nos dias mencionados anteriormente, via [Youtube](https://youtube.com/bendeivide);
+- Cada vídeo publicado, vocês receberão um email de informação e/ou mensagem via Whatsapp;
+- Começaremos dia 13/09/2022;
+- O curso terá duração de 3 semanas (13/09 - 29/09/2023);
+- Para cada dia disponibilizaremos no mínimo dois vídeos;
+
+
+## Detalhamento das aulas {background-image="EAR-rbasico-background-02.png"}
+
+- As aulas podem ser gravados e/ou ao vivo;
+- A cada 5 aulas, faremos uma live de dúvidas;
+- A emissão dos certificados serão disponibilizados para os inscritos que tiverem frequência em 80% das aulas;
+- A frequência de cada aula estará disponível no chat/descrição do vídeo, durante 3 dias, contados a partir da data da publicação do vídeo;
+- O aluno não é obrigado a assistir a aula em tempo real.
+
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

@@ -20,6 +20,11 @@ library(leem)
 # Criar a tabela de frequencias
 dado |>
   new_leem(variable = 1) |> # construtor de objeto da classe leem
+  tabfreq() 
+
+# Criar o gráfico de pizza
+dado |>
+  new_leem(variable = 1) |> # construtor de objeto da classe leem
   tabfreq() |> # tabela de frequencia
   piechart() # grafico de pizza
 
@@ -44,6 +49,23 @@ dado2 |>
   new_leem(variable = 2) |>
   tabfreq() 
 
+## Recuperar o resultado
+res <- dado2 |>
+  new_leem(variable = 2) |>
+  tabfreq()
+
+## Alterando o valor de k
+dado2 |>
+  new_leem(variable = 2) |>
+  tabfreq(k = 6)
+
+
+# Grafico de histograma
+dado2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  hist() 
+
 # Grafico de ogiva
 dado2 |>
   new_leem(variable = 2) |>
@@ -51,8 +73,7 @@ dado2 |>
   ogive(bars = TRUE, both = TRUE,
         histogram = TRUE,
         histcol = "red"
-  ) |>
-  insert(type = "median")
+  ) 
 
 # Intersecao das ogivas (mediana)
 dado2 |>
