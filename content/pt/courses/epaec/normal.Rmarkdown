@@ -523,8 +523,6 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="r-project" pack="fab" >}} <a
     href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2023.2/r-scripts/aula04.R" target="_blank">*Script* Aula 4</a>
     
-
-
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
 -   <a href="{{< relref"courses/epaec/remoto/index" >}}"
@@ -540,6 +538,41 @@ curso e Definições gerais da estatística e técnicas de somatório
     target="_blank">Vídeoaulas</a>
 
 {{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 5 (21/08/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Medidas de posição
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s05/" target="_blank"> Aula
+05</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="" target="_blank"> **Plano de aula** </a>
+
+<i class="fas fa-pen"></i> {{% staticref "/epaec/2023.2/qbranco/aula05.png" "newtab" %}}Quadro branco - Aula 05{{% /staticref %}}
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 5</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
+
+{{< /spoiler >}}
+
+
+
 
 
 
