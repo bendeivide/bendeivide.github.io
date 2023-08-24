@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 16 Aug 2023 15:06:21 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Aug 2023 16:57:47 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2023.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Wed, 16 Aug 2023 15:06:21 +0000</pubDate>
+      <pubDate>Mon, 21 Aug 2023 16:57:47 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -510,6 +510,33 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;🎓 Aula 5 (21/08/2023)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Medidas de posição&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s05/&#34; target=&#34;_blank&#34;&gt; Aula
+05&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;&#34; target=&#34;_blank&#34;&gt; &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2023.2/qbranco/aula05.png&#34; target=&#34;_blank&#34;&gt;quadro branco - Aula 05&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
+target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34;
+target=&#34;_blank&#34;&gt; Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;
+target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo-aulas&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34;
+target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -546,11 +573,11 @@ href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
 target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
@@ -567,7 +594,7 @@ target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Wed, 16 Aug 2023 13:20:08 +0000</pubDate>
+      <pubDate>Thu, 17 Aug 2023 07:31:05 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -688,6 +715,38 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
 &lt;img src=&#34;http://bendeivide.github.io/pt/courses/EAR/Rbasico_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;Apresentação do Curso&lt;/li&gt;
+&lt;li&gt;Instalação do R e do RStudio&lt;/li&gt;
+&lt;li&gt;Passos iniciais para a utilização do R e do RStudio&lt;/li&gt;
+&lt;li&gt;História do R&lt;/li&gt;
+&lt;li&gt;Como o R trabalha&lt;/li&gt;
+&lt;li&gt;Comandos no R e Ambiente Global&lt;/li&gt;
+&lt;li&gt;Arquivos .RData e .Rhistory&lt;/li&gt;
+&lt;li&gt;Criando e salvando um Script&lt;/li&gt;
+&lt;li&gt;Objetos&lt;/li&gt;
+&lt;li&gt;Vetores&lt;/li&gt;
+&lt;li&gt;Matrizes&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Arrays&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Listas&lt;/li&gt;
+&lt;li&gt;Quadro de dados (&lt;em&gt;Data frames&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Importando dados&lt;/li&gt;
+&lt;li&gt;Funções&lt;/li&gt;
+&lt;li&gt;Estruturas de controle&lt;/li&gt;
+&lt;li&gt;Como criar funções&lt;/li&gt;
+&lt;li&gt;Boas práticas de como escrever um código&lt;/li&gt;
+&lt;li&gt;Pacotes&lt;/li&gt;
+&lt;li&gt;Carregando e Anexando pacotes&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;NAMESPACE&lt;/em&gt; de um pacote&lt;/li&gt;
+&lt;li&gt;Quando devemos utilizar os operadores &lt;code&gt;::&lt;/code&gt; e &lt;code&gt;:::&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ambientes e Caminhos de busca&lt;/li&gt;
+&lt;li&gt;Interface com outras linguagens&lt;/li&gt;
+&lt;li&gt;Considerações e Preparação para o curso &lt;strong&gt;R intermediário&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;livro&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-swatchbook&#34;&gt;&lt;/i&gt; Livro de apoio&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Versão Física:
@@ -710,7 +769,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;i-classfab-fa-r-projecti-aulas&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;📘 Aula 00 - Apresentação do curso&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Apresentação do curso&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide00/index.html&#34; target=&#34;_blank&#34;&gt;Aula 00&lt;/a&gt;&lt;/p&gt;
@@ -729,7 +788,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;📘 Aula 01 - Entendendo o curso EAR: R básico&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Entendendo o curso EAR: R básico&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide01/index.html&#34; target=&#34;_blank&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
@@ -748,7 +807,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;📘 Aula 02 - Passos iniciais para a utilização do R e do RStudio&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Passos iniciais para a utilização do R e do RStudio&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide02/index.html&#34; target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
@@ -767,7 +826,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;📘 Aula 03 - Hitória do R&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Hitória do R&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide03/index.html&#34; target=&#34;_blank&#34;&gt;Aula 03&lt;/a&gt;&lt;/p&gt;
@@ -786,7 +845,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;📘 Aula 04 - Como o R trabalha?&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Como o R trabalha?&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide04/index.html&#34; target=&#34;_blank&#34;&gt;Aula 04&lt;/a&gt;&lt;/p&gt;
@@ -805,7 +864,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;📘 Aula 05 - Comandos no R e Ambiente Global&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Comandos no R e Ambiente Global&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide05/index.html&#34; target=&#34;_blank&#34;&gt;Aula 05&lt;/a&gt;&lt;/p&gt;
@@ -824,7 +883,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;📘 Aula 06 - Arquivos &lt;code&gt;.RData&lt;/code&gt; e &lt;code&gt;.Rhistory&lt;/code&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Arquivos &lt;code&gt;.RData&lt;/code&gt; e &lt;code&gt;.Rhistory&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide06/index.html&#34; target=&#34;_blank&#34;&gt;Aula 06&lt;/a&gt;&lt;/p&gt;
@@ -843,7 +902,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;📘 Aula 07 - Criando e salvando um &lt;em&gt;Script&lt;/em&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Criando e salvando um &lt;code&gt;Script&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide07/index.html&#34; target=&#34;_blank&#34;&gt;Aula 07&lt;/a&gt;&lt;/p&gt;
@@ -862,7 +921,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;📘 Aula 08 - Objetos&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Objetos&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide08/index.html&#34; target=&#34;_blank&#34;&gt;Aula 08&lt;/a&gt;&lt;/p&gt;
@@ -881,7 +940,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;📘 Aula 09 - Vetores&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Vetores&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide09/index.html&#34; target=&#34;_blank&#34;&gt;Aula 09&lt;/a&gt;&lt;/p&gt;
@@ -900,7 +959,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;📘 Aula 10 - Matrizes bidimensionais&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Matrizes bidimensionais&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide10/index.html&#34; target=&#34;_blank&#34;&gt;Aula 10&lt;/a&gt;&lt;/p&gt;
@@ -919,7 +978,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;📘 Aula 11 - &lt;code&gt;Arrays&lt;/code&gt; (Matrizes multidimensionais)&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; &lt;code&gt;Arrays&lt;/code&gt; (Matrizes multidimensionais)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide11/index.html&#34; target=&#34;_blank&#34;&gt;Aula 11&lt;/a&gt;&lt;/p&gt;
@@ -938,7 +997,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;📘 Aula 12 - Listas&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Listas&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide12/index.html&#34; target=&#34;_blank&#34;&gt;Aula 12&lt;/a&gt;&lt;/p&gt;
@@ -957,7 +1016,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;📘 Aula 13 - Quadro de dados&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Quadro de dados&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide13/index.html&#34; target=&#34;_blank&#34;&gt;Aula 13&lt;/a&gt;&lt;/p&gt;
@@ -976,7 +1035,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
   &lt;summary&gt;📘 Aula 14 - Importanto e Exportando dados&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Importando e Exportando dados&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide14/index.html&#34; target=&#34;_blank&#34;&gt;Aula 14&lt;/a&gt;&lt;/p&gt;
@@ -995,7 +1054,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
   &lt;summary&gt;📘 Aula 15 - Funções&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Funções&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide15/index.html&#34; target=&#34;_blank&#34;&gt;Aula 15&lt;/a&gt;&lt;/p&gt;
@@ -1014,7 +1073,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
   &lt;summary&gt;📘 Aula 16 - Estruturas de controle&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Estruturas de controle&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide16/index.html&#34; target=&#34;_blank&#34;&gt;Aula 16&lt;/a&gt;&lt;/p&gt;
@@ -1033,7 +1092,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
   &lt;summary&gt;📘 Aula 17 - Como criar funções&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Como criar funções&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide17/index.html&#34; target=&#34;_blank&#34;&gt;Aula 17&lt;/a&gt;&lt;/p&gt;
@@ -1052,7 +1111,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
   &lt;summary&gt;📘 Aula 18 - Boas práticas de como escrever um código&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Boas práticas de como escrever um código&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide18/index.html&#34; target=&#34;_blank&#34;&gt;Aula 18&lt;/a&gt;&lt;/p&gt;
@@ -1071,7 +1130,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
   &lt;summary&gt;📘 Aula 19 - Boas práticas de como escrever um código&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Boas práticas de como escrever um código&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide19/index.html&#34; target=&#34;_blank&#34;&gt;Aula 19&lt;/a&gt;&lt;/p&gt;
@@ -1090,7 +1149,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
   &lt;summary&gt;📘 Aula 20 - Carregando e anexando pacotes&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Carregando e anexando pacotes&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide20/index.html&#34; target=&#34;_blank&#34;&gt;Aula 20&lt;/a&gt;&lt;/p&gt;
@@ -1109,7 +1168,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
   &lt;summary&gt;📘 Aula 21 - &lt;em&gt;NAMESPACE&lt;/em&gt; de um pacote&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; &lt;em&gt;NAMESPACE&lt;/em&gt; de um pacote&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide21/index.html&#34; target=&#34;_blank&#34;&gt;Aula 21&lt;/a&gt;&lt;/p&gt;
@@ -1128,7 +1187,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
   &lt;summary&gt;📘 Aula 22 - Quando devemos utilizar os operadores &lt;code&gt;::&lt;/code&gt; e &lt;code&gt;:::&lt;/code&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Quando devemos utilizar os operadores &lt;code&gt;::&lt;/code&gt; e &lt;code&gt;:::&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide22/index.html&#34; target=&#34;_blank&#34;&gt;Aula 22&lt;/a&gt;&lt;/p&gt;
@@ -1147,7 +1206,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
   &lt;summary&gt;📘 Aula 23 - Ambientes e caminho de busca&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Ambientes e caminho de busca&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide23/index.html&#34; target=&#34;_blank&#34;&gt;Aula 23&lt;/a&gt;&lt;/p&gt;
@@ -1166,7 +1225,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
   &lt;summary&gt;📘 Aula 24 - Interface com outras linguagens&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Interface com outras linguagens&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide24/index.html&#34; target=&#34;_blank&#34;&gt;Aula 24&lt;/a&gt;&lt;/p&gt;
@@ -1185,7 +1244,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
   &lt;summary&gt;📘 Aula 25 - Considerações e Preparação para o curso &lt;strong&gt;R Intermediário&lt;/strong&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Considerações e Preparação para a Programação em R (R Intermediário)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide25/index.html&#34; target=&#34;_blank&#34;&gt;Aula 25&lt;/a&gt;&lt;/p&gt;
@@ -1205,19 +1264,19 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
   &lt;summary&gt;📖 Livro de apoio?&lt;/summary&gt;
   &lt;p&gt;Acesse: &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-38&#34;&gt;
   &lt;summary&gt;📁 Curso anterior!&lt;/summary&gt;
   &lt;p&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-38&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-39&#34;&gt;
   &lt;summary&gt;🎬 Playlist do youtube (cursos anteriores)&lt;/summary&gt;
   &lt;p&gt;Acesse: &lt;a href=&#34;https://www.youtube.com/watch?v=_JqtU3X101E&amp;amp;list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso R - Nível Básico&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-39&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-40&#34;&gt;
   &lt;summary&gt;📚 Adquira o Livro físico &lt;strong&gt;R básico&lt;/strong&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;
@@ -4447,6 +4506,38 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;li&gt;
   &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R básico - manual de soluções</title>
+      <link>http://bendeivide.github.io/books/eambr01sol/</link>
+      <pubDate>Thu, 17 Aug 2023 07:10:08 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
+      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
+&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;estatísticas-de-donwload-do-pdf&#34;&gt;Estatísticas de &lt;em&gt;donwload&lt;/em&gt; do PDF?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Estatísticas do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico: manual de soluções (HTML)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
+&lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=558499819606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
+&lt;p&gt;O R básico: Manual de Soluções vem com o propósito de detalhar
+as estratégias de como resolver os exercícios do livro R básico,
+enfatizando as estratégias com que as soluções podem ser desenvolvidas.
+Mostraremos mecanismos não apenas de como resolveremos
+os problemas, mas como eles podem ser abordados de forma didática
+para cursos ou disciplinas que utilizem o R básico.
+Por fim, este livro vem complementar todo assunto introdutório
+do R , para o entendimento via exercícios resolvidos, e esperamos que
+o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-08-16 13:20:08"
+date: "2023-08-17 07:31:05"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -83,6 +83,36 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 
 ## <i class="fab fa-readme"></i> Ementa {id="ementa" title="Clique aqui!"}
+
+{{< spoiler text="Acesse a ementa do curso">}}
+00. Apresentação do Curso
+01. Instalação do R e do RStudio
+02. Passos iniciais para a utilização do R e do RStudio
+03. História do R
+04. Como o R trabalha
+05. Comandos no R e Ambiente Global
+06. Arquivos .RData e .Rhistory
+07. Criando e salvando um Script
+08. Objetos
+09. Vetores
+10. Matrizes
+11. *Arrays*
+12. Listas
+13. Quadro de dados (*Data frames*)
+14. Importando dados
+15. Funções
+16. Estruturas de controle
+17. Como criar funções
+18. Boas práticas de como escrever um código
+19. Pacotes
+20. Carregando e Anexando pacotes
+21. *NAMESPACE* de um pacote
+22. Quando devemos utilizar os operadores `::` e `:::`
+23. Ambientes e Caminhos de busca
+24. Interface com outras linguagens
+25. Considerações e Preparação para o curso **R intermediário**
+
+{{< /spoiler >}}
 
 ## <i class="fas fa-swatchbook"></i> Livro de apoio {id="livro" title="Clique aqui!"}
 
