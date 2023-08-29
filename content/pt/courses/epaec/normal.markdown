@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.2
-date: "2023-08-28 07:58:24"
+date: "2023-08-29 01:47:44"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -535,6 +535,35 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
+{{< spoiler text="🎓 Aula 8 (29-30/08/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Medidas de dispersão
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s08/" target="_blank"> Aula
+08</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1-IyLZTU8DV9SlSxem8wxewqfPR51l8wWP3D0moBHmlE/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 8</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
+
+{{< /spoiler >}}
 
 
 

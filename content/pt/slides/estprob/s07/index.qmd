@@ -69,24 +69,22 @@ Usaremos @batista2023:
 # Motivação inicial {background-image="cap02.png"}
 
 ```{r, echo = TRUE, eval = TRUE}
-# Semente de simulação
-# set.seed(10)
-
 # Dados dos grupos gerados
 set.seed(10); gA <- rnorm(10, mean = 10, sd = 2)
 set.seed(10); gB <- rnorm(9, mean = 10, sd = 4)
-set.seed(10); gC <- rnorm(9, mean = 10, sd = 6)
+gC <- c(4.706090, 4.772017, 6.404994, 7.338766, 
+        7.817944, 8.372813, 8.894485, 10.112477, 
+        11.767271, 20.000000)
 
 # Media do grupo gA
 (media.gA <- mean(gA))
 
 # gerando gB[10] e media de gB
-gB[10] <- gB10 <- length(gA) * media.gA - sum(gB)
+gB[10] <- length(gA) * media.gA - sum(gB)
 (media.gB <- mean(gB))
 
 
 # gerando gC[10] e media de gC
-gC[10] <- gc10 <- length(gA) * media.gA - sum(gC)
 (media.gC <- mean(gC))
 ```
 
@@ -402,7 +400,7 @@ d2 |>
   </tr>
   <tr>
     <td class="tg-c3ow">gC</td>
-    <td class="tg-c3ow">$A = 28,0874035 - 0,2399639 = 15,29391~und.$</td>
+    <td class="tg-c3ow">$A = 20 - 4,706090 = 15,29391~und.$</td>
   </tr>
 </tbody>
 </table>
@@ -435,8 +433,8 @@ d2 |>
 
 > **Teorema:** Baseado na Definição da amplitude amostral, e considerando $c$ uma constante, então:
 >
-> - Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$, a amplitude é dada por $A_X = X_{(n)} - X_{(1)}$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$,  a nova amplitude não se altera, isto é, $A_Y = A_X$.
-> - Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$, a amplitude é dada por $A_X = X_{(n)} - X_{(1)}$, então para uma transformação de $Y_i = X_i \times c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova amplitude é dada por $A_Y = A_X \times c$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
+> - Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, a amplitude é dada por $A_X = X_{(n)} - X_{(1)}$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$,  a nova amplitude não se altera, isto é, $A_Y = A_X$.
+> - Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, a amplitude é dada por $A_X = X_{(n)} - X_{(1)}$, então para uma transformação de $Y_i = X_i \times c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova amplitude é dada por $A_Y = A_X \times c$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
 
 </font>
 
@@ -510,7 +508,7 @@ e
 
 Percebemos que a soma de quadrados amostral pode ser também expressa por:
 \begin{align}
-  SQ & = \displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} \sum_{i = 1}^{n}X_i^2,
+  SQ & = \displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} \left(\sum_{i = 1}^{n}X_i\right)^2,
 \end{align}
 
 
@@ -530,7 +528,7 @@ em que $SQ_p$ é dado pela expressão anterior, ou de forma similar,
 . . .
 
 \begin{align}
-    \sigma^2 & = \frac{\displaystyle\sum_{i = 1}^{N}X_i^2 - \frac{1}{N} \sum_{i = 1}^{N}X_i^2}{N}.
+    \sigma^2 & = \frac{\displaystyle\sum_{i = 1}^{N}X_i^2 - \frac{1}{N} \left(\sum_{i = 1}^{N}X_i\right)^2}{N}.
 \end{align}
 
 . . .
@@ -556,7 +554,7 @@ em que $SQ$ é dado pela expressão anterior, ou de forma similar,
 . . .
 
 \begin{align}\label{eq:varamost3}
-    S^2 & = \frac{\displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} \sum_{i = 1}^{n}X_i^2}{n - 1}.
+    S^2 & = \frac{\displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} ~\left(\sum_{i = 1}^{n}X_i\right)^2}{n - 1}.
 \end{align}
 
 </font>
@@ -570,8 +568,8 @@ em que $SQ$ é dado pela expressão anterior, ou de forma similar,
 . . .
 
 \begin{align*}
-    S^2_{\textrm{gA}} & = \frac{10,037492^2 + \ldots + 9,487043^2 - 1 / 10 \times \left(10,037492 +  \ldots + 9,487043 \right)^2}{10 - 1}\\
-                    & = \frac{831,0017 - 8133.67 / 10}{9}\\
+    S^2_{\textrm{gA}} & = \frac{6,746655 + \ldots + 10,779589^2 - 1 / 10 \times \left(6,746655 +  \ldots + 10,779589 \right)^2}{10 - 1}\\
+                    & = \frac{831,0017 - 8133,67 / 10}{9}\\
                     & = 1,959404~und^2
 \end{align*}
 
@@ -583,8 +581,8 @@ em que $SQ$ é dado pela expressão anterior, ou de forma similar,
 
 
 \begin{align*}
-    S^2_{\textrm{gB}} & = \frac{10,074985^2 + \ldots + 18,787223^2 - 1 / 10 \times \left(10,074985 +  \ldots + 18,787223 \right)^2}{10 - 1}\\
-                    & = \frac{988,9577 - 8133.67 / 10}{9}\\
+    S^2_{\textrm{gB}} & = \frac{3,493309^2 + \ldots + 18,787223^2 - 1 / 10 \times \left(3,493309 +  \ldots + 18,787223 \right)^2}{10 - 1}\\
+                    & = \frac{988,9577 - 8133,67 / 10}{9}\\
                     & = 19,51007~und^2
 \end{align*}
 
@@ -597,9 +595,9 @@ em que $SQ$ é dado pela expressão anterior, ou de forma similar,
 . . .
 
 \begin{align*}
-    S^2_{\textrm{gC}} & = \frac{10,1124770^2 + \ldots + 28,0874035^2 - 1 / 10 \times \left(10,1124770 +  \ldots + 28,0874035 \right)^2}{10 - 1}\\
-                    & = \frac{1373,903 - 8133.67 / 10}{9}\\
-                    & = 62,28176~und^2
+    S^2_{\textrm{gC}} & = \frac{4,706090^2 + \ldots + 20,000000^2 - 1 / 10 \times \left(4,706090 +  \ldots + 20,000000 \right)^2}{10 - 1}\\
+                    & = \frac{990,8678 - 8133.67 / 10}{9}\\
+                    & = 19,72232~und^2
   \end{align*}
 
 </font>
@@ -624,7 +622,7 @@ sendo $\tilde{X}_{i}$ o ponto médio das classes, $\bar{X} = \sum_{i = 1}^{k} X_
 
 <font size="+3">
 
-**Definição (Variância p/ dados agrupados):**: ou se forma similar,
+**Definição (Variância p/ dados agrupados):** ou se forma similar,
   \begin{align}\label{eq:varagrupados2}
     S^2 & = \left\{\begin{array}{ll}
                   \frac{\sum_{i = 1}^{k}X_i^2\times F_i - \frac{1}{\sum_{i = 1}^{k} F_i}(\sum_{i = 1}^{k} X_iF_i)^2}{\sum_{i = 1}^{k}F_i - 1}, &  \textrm{agrup. s/ intervalo de classe}, \\
@@ -723,7 +721,7 @@ Exemplo 1: Dados não agrupados
 
 . . . 
 
-```{.r code-line-numbers="7|1-7"}
+```{.r code-line-numbers="4|1-4"}
 # Variancia - Dados nao agrupados
 d1 |> 
   new_leem(variable = 1) |> 
@@ -801,7 +799,7 @@ d2 |>
 </font>
 
 
-# Características da variância {background-image="cap02.png"}
+## Características da variância {background-image="cap02.png"}
 
 - A unidade da variância está na escala ao quadrado da unidade da variável;
 - limitada apenas as variáveis quantitativas;
@@ -815,7 +813,7 @@ d2 |>
 - uma vez que a média é sensível aos dados, a variância também é sensível, uma vez que esta depende da média.
 
 
-# Propriedades da variância {background-image="cap02.png"}
+## Propriedades da variância {background-image="cap02.png"}
 
 <font size="+3">
 
@@ -830,7 +828,7 @@ d2 |>
 # Desvio padrão {background-image="cap02.png"}
 
 - A variância apesar de ter resolvido alguns dos problemas, apresenta sua unidade ao quadrado da unidade da variável em estudo;
-- isso significa que se tivermos usando uma variável na escala de metros, a dispersão dada pela variância estará na escala de área;
+- isso significa que se tivermos usando uma variável na escala de comprimento, por exemplo, a dispersão dada pela variância estará na escala de área;
 - torna-se difícil a percepção de dispersão quando observamos os dados. 
 
 
@@ -838,7 +836,7 @@ d2 |>
 
 <font size="+3">
 
-**Definição (Desvio padrão):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de uma população $X_1$, $X_2$, \ldots, $X_N$, de tamanhos $n$ e $N$, respectivamente, com parâmetro  $\mu = \sum_{i = 1}^{N} X_i / N$ e seu estimador $\bar{X} = \sum_{i = 1}^{n} X_i / n$, então o desvio padrão é definido por:
+**Definição (Desvio padrão):** O desvio padrão é definido por:
   \begin{align}\label{eq:desvpad1}
     \sigma & = \sqrt{\sigma^2}, \quad \textrm{(População)}
   \end{align}
@@ -878,7 +876,7 @@ Retornando ao Exemplo motivacional, podemos então calcular os desvios padrões 
 . . .
 
 \begin{align*}
-   S_{\textrm{gC}} & = \sqrt{62,28176} = 7,89188~und.
+   S_{\textrm{gC}} & = \sqrt{19,72232} = 4,440982~und.
 \end{align*}
 
 - Considerando que as unidades dos grupos são iguais, bem como as suas médias, podemos concluir que o grupo gA apresenta menor dispersão;
@@ -1005,11 +1003,11 @@ Limitações da variância e desvio padrão:
 - Os grupos de observações devem estar na mesma unidade de mensuração;
 - A média desses grupos devem ser iguais.
 
-## Coeficiente de variação {background-image="cap02.png"}
+## Coeficiente de variação (CV) {background-image="cap02.png"}
 
 <font size="+3">
 
-**Definição (Coef. de variação):** Seja uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, de uma população $X_1$, $X_2$, $\ldots$, $X_N$, de tamanhos $n$ e $N$, respectivamente, com parâmetros  $\mu = \sum_{i = 1}^{N} X_i / N$ e $\sigma^2 = \sum_{i = 1}^{N}(X_i - \mu)^2 / (N - 1)$ e seus estimadores $\bar{X} = \sum_{i = 1}^{n} X_i / n$ e $S = \sqrt{\sum_{i = 1}^{n}(X_i - \bar{X})^2 / (n - 1)}$, respectivamente. Então o coeficiente de variação é definido por:
+**Definição (CV):** O coeficiente de variação é definido por:
   \begin{align}\label{eq:cvpop}
     CV_p & = \frac{\sigma}{\mu} \times 100, \quad \textrm{(População)}
   \end{align}
@@ -1110,7 +1108,7 @@ Retornando ao Exemplo de motivação, podemos então calcular os erros padrões 
   \end{align*}
 - Erro padrão da média amostral para o grupo gC:
   \begin{align*}
-   S_{\bar{X}_{\textrm{gC}}} & = 7,89188 / \sqrt{10} = 2,495632~und.
+   S_{\bar{X}_{\textrm{gC}}} & = 4,440982 / \sqrt{10} = 1,404362~und.
   \end{align*}
 </font>
 

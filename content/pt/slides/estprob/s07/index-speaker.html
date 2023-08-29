@@ -443,28 +443,26 @@
 <section id="motivação-inicial" class="title-slide slide level1 center" data-background-image="cap02.png">
 <h1>Motivação inicial</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Semente de simulação</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="co"># set.seed(10)</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="co"># Dados dos grupos gerados</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="fu">set.seed</span>(<span class="dv">10</span>); gA <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">2</span>)</span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="fu">set.seed</span>(<span class="dv">10</span>); gB <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">9</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">4</span>)</span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="fu">set.seed</span>(<span class="dv">10</span>); gC <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">9</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">6</span>)</span>
-<span id="cb1-8"><a href="#cb1-8"></a></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="co"># Media do grupo gA</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a>(media.gA <span class="ot">&lt;-</span> <span class="fu">mean</span>(gA))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Dados dos grupos gerados</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">set.seed</span>(<span class="dv">10</span>); gA <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">2</span>)</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">set.seed</span>(<span class="dv">10</span>); gB <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">9</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">4</span>)</span>
+<span id="cb1-4"><a href="#cb1-4"></a>gC <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">4.706090</span>, <span class="fl">4.772017</span>, <span class="fl">6.404994</span>, <span class="fl">7.338766</span>, </span>
+<span id="cb1-5"><a href="#cb1-5"></a>        <span class="fl">7.817944</span>, <span class="fl">8.372813</span>, <span class="fl">8.894485</span>, <span class="fl">10.112477</span>, </span>
+<span id="cb1-6"><a href="#cb1-6"></a>        <span class="fl">11.767271</span>, <span class="fl">20.000000</span>)</span>
+<span id="cb1-7"><a href="#cb1-7"></a></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="co"># Media do grupo gA</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a>(media.gA <span class="ot">&lt;-</span> <span class="fu">mean</span>(gA))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 9.018686</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># gerando gB[10] e media de gB</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>gB[<span class="dv">10</span>] <span class="ot">&lt;-</span> gB10 <span class="ot">&lt;-</span> <span class="fu">length</span>(gA) <span class="sc">*</span> media.gA <span class="sc">-</span> <span class="fu">sum</span>(gB)</span>
+<span id="cb3-2"><a href="#cb3-2"></a>gB[<span class="dv">10</span>] <span class="ot">&lt;-</span> <span class="fu">length</span>(gA) <span class="sc">*</span> media.gA <span class="sc">-</span> <span class="fu">sum</span>(gB)</span>
 <span id="cb3-3"><a href="#cb3-3"></a>(media.gB <span class="ot">&lt;-</span> <span class="fu">mean</span>(gB))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 9.018686</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># gerando gC[10] e media de gC</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a>gC[<span class="dv">10</span>] <span class="ot">&lt;-</span> gc10 <span class="ot">&lt;-</span> <span class="fu">length</span>(gA) <span class="sc">*</span> media.gA <span class="sc">-</span> <span class="fu">sum</span>(gC)</span>
-<span id="cb5-3"><a href="#cb5-3"></a>(media.gC <span class="ot">&lt;-</span> <span class="fu">mean</span>(gC))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-2"><a href="#cb5-2"></a>(media.gC <span class="ot">&lt;-</span> <span class="fu">mean</span>(gC))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 9.018686</code></pre>
 </div>
@@ -476,17 +474,17 @@
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># Apresentando os dados</span></span>
 <span id="cb7-2"><a href="#cb7-2"></a><span class="fu">cbind</span>(<span class="fu">sort</span>(gA), <span class="fu">sort</span>(gB), <span class="fu">sort</span>(gC))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>           [,1]      [,2]       [,3]
- [1,]  6.746655  3.493309  0.2399639
- [2,]  7.257339  4.514678  1.7720167
- [3,]  7.583848  5.167695  2.7515429
- [4,]  8.801665  7.603329  6.4049937
- [5,]  9.272648  8.545296  7.8179439
- [6,]  9.487043  9.262990  8.8944847
- [7,]  9.631495 10.074985 10.1124770
- [8,] 10.037492 11.178181 11.7672708
- [9,] 10.589090 11.559177 12.3387658
-[10,] 10.779589 18.787223 28.0874035</code></pre>
+<pre><code>           [,1]      [,2]      [,3]
+ [1,]  6.746655  3.493309  4.706090
+ [2,]  7.257339  4.514678  4.772017
+ [3,]  7.583848  5.167695  6.404994
+ [4,]  8.801665  7.603329  7.338766
+ [5,]  9.272648  8.545296  7.817944
+ [6,]  9.487043  9.262990  8.372813
+ [7,]  9.631495 10.074985  8.894485
+ [8,] 10.037492 11.178181 10.112477
+ [9,] 10.589090 11.559177 11.767271
+[10,] 10.779589 18.787223 20.000000</code></pre>
 </div>
 </div>
 </section></section>
@@ -839,7 +837,7 @@ gB
 gC
 </td>
 <td class="tg-c3ow">
-<span class="math inline">\(A = 28,0874035 - 0,2399639 = 15,29391~und.\)</span>
+<span class="math inline">\(A = 20 - 4,706090 = 15,29391~und.\)</span>
 </td>
 </tr>
 </tbody>
@@ -880,8 +878,8 @@ gC
 <blockquote>
 <p><strong>Teorema:</strong> Baseado na Definição da amplitude amostral, e considerando <span class="math inline">\(c\)</span> uma constante, então:</p>
 <ul>
-<li class="fragment">Se para uma amostra <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, , <span class="math inline">\(X_n\)</span>, a amplitude é dada por <span class="math inline">\(A_X = X_{(n)} - X_{(1)}\)</span>, então para uma transformação de <span class="math inline">\(Y_i = X_i \pm c\)</span>, para <span class="math inline">\(i\)</span> <span class="math inline">\(=\)</span> <span class="math inline">\(1\)</span>, <span class="math inline">\(2\)</span>, <span class="math inline">\(\ldots\)</span>, <span class="math inline">\(n\)</span>, a nova amplitude não se altera, isto é, <span class="math inline">\(A_Y = A_X\)</span>.</li>
-<li class="fragment">Se para uma amostra <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, , <span class="math inline">\(X_n\)</span>, a amplitude é dada por <span class="math inline">\(A_X = X_{(n)} - X_{(1)}\)</span>, então para uma transformação de <span class="math inline">\(Y_i = X_i \times c\)</span>, para <span class="math inline">\(i\)</span> <span class="math inline">\(=\)</span> <span class="math inline">\(1\)</span>, <span class="math inline">\(2\)</span>, <span class="math inline">\(\ldots\)</span>, <span class="math inline">\(n\)</span>, a nova amplitude é dada por <span class="math inline">\(A_Y = A_X \times c\)</span>. Esse resultado vale também para a transformação <span class="math inline">\(Y_i = X_i / m\)</span>, sendo <span class="math inline">\(m\)</span> também uma constante. Basta usar <span class="math inline">\(c = 1 / m\)</span> e o resultado é o mesmo.</li>
+<li class="fragment">Se para uma amostra <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, <span class="math inline">\(\ldots\)</span>, <span class="math inline">\(X_n\)</span>, a amplitude é dada por <span class="math inline">\(A_X = X_{(n)} - X_{(1)}\)</span>, então para uma transformação de <span class="math inline">\(Y_i = X_i \pm c\)</span>, para <span class="math inline">\(i\)</span> <span class="math inline">\(=\)</span> <span class="math inline">\(1\)</span>, <span class="math inline">\(2\)</span>, <span class="math inline">\(\ldots\)</span>, <span class="math inline">\(n\)</span>, a nova amplitude não se altera, isto é, <span class="math inline">\(A_Y = A_X\)</span>.</li>
+<li class="fragment">Se para uma amostra <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, <span class="math inline">\(\ldots\)</span>, <span class="math inline">\(X_n\)</span>, a amplitude é dada por <span class="math inline">\(A_X = X_{(n)} - X_{(1)}\)</span>, então para uma transformação de <span class="math inline">\(Y_i = X_i \times c\)</span>, para <span class="math inline">\(i\)</span> <span class="math inline">\(=\)</span> <span class="math inline">\(1\)</span>, <span class="math inline">\(2\)</span>, <span class="math inline">\(\ldots\)</span>, <span class="math inline">\(n\)</span>, a nova amplitude é dada por <span class="math inline">\(A_Y = A_X \times c\)</span>. Esse resultado vale também para a transformação <span class="math inline">\(Y_i = X_i / m\)</span>, sendo <span class="math inline">\(m\)</span> também uma constante. Basta usar <span class="math inline">\(c = 1 / m\)</span> e o resultado é o mesmo.</li>
 </ul>
 </blockquote>
 </font><p><font size="+3"></font></p>
@@ -935,7 +933,7 @@ gC
 </div>
 </font><div class="fragment"><font size="+2">
 <p>Percebemos que a soma de quadrados amostral pode ser também expressa por: <span class="math display">\[\begin{align}
-  SQ &amp; = \displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} \sum_{i = 1}^{n}X_i^2,
+  SQ &amp; = \displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} \left(\sum_{i = 1}^{n}X_i\right)^2,
 \end{align}\]</span></p>
 </font><p><font size="+2"></font></p>
 </div>
@@ -948,7 +946,7 @@ gC
 \end{align}\]</span> em que <span class="math inline">\(SQ_p\)</span> é dado pela expressão anterior, ou de forma similar,</p>
 <div class="fragment">
 <p><span class="math display">\[\begin{align}
-    \sigma^2 &amp; = \frac{\displaystyle\sum_{i = 1}^{N}X_i^2 - \frac{1}{N} \sum_{i = 1}^{N}X_i^2}{N}.
+    \sigma^2 &amp; = \frac{\displaystyle\sum_{i = 1}^{N}X_i^2 - \frac{1}{N} \left(\sum_{i = 1}^{N}X_i\right)^2}{N}.
 \end{align}\]</span></p>
 </div>
 </font><div class="fragment"><font size="+2">
@@ -967,7 +965,7 @@ gC
   \end{align}\]</span> em que <span class="math inline">\(SQ\)</span> é dado pela expressão anterior, ou de forma similar,</p>
 </font><div class="fragment"><font size="+3">
 <p><span class="math display">\[\begin{align}\label{eq:varamost3}
-    S^2 &amp; = \frac{\displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} \sum_{i = 1}^{n}X_i^2}{n - 1}.
+    S^2 &amp; = \frac{\displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} ~\left(\sum_{i = 1}^{n}X_i\right)^2}{n - 1}.
 \end{align}\]</span></p>
 </font><p><font size="+3"></font></p>
 </div>
@@ -980,8 +978,8 @@ gC
 </ul>
 <div class="fragment">
 <p><span class="math display">\[\begin{align*}
-    S^2_{\textrm{gA}} &amp; = \frac{10,037492^2 + \ldots + 9,487043^2 - 1 / 10 \times \left(10,037492 +  \ldots + 9,487043 \right)^2}{10 - 1}\\
-                    &amp; = \frac{831,0017 - 8133.67 / 10}{9}\\
+    S^2_{\textrm{gA}} &amp; = \frac{6,746655 + \ldots + 10,779589^2 - 1 / 10 \times \left(6,746655 +  \ldots + 10,779589 \right)^2}{10 - 1}\\
+                    &amp; = \frac{831,0017 - 8133,67 / 10}{9}\\
                     &amp; = 1,959404~und^2
 \end{align*}\]</span></p>
 </div>
@@ -992,8 +990,8 @@ gC
 </div>
 <div class="fragment">
 <p><span class="math display">\[\begin{align*}
-    S^2_{\textrm{gB}} &amp; = \frac{10,074985^2 + \ldots + 18,787223^2 - 1 / 10 \times \left(10,074985 +  \ldots + 18,787223 \right)^2}{10 - 1}\\
-                    &amp; = \frac{988,9577 - 8133.67 / 10}{9}\\
+    S^2_{\textrm{gB}} &amp; = \frac{3,493309^2 + \ldots + 18,787223^2 - 1 / 10 \times \left(3,493309 +  \ldots + 18,787223 \right)^2}{10 - 1}\\
+                    &amp; = \frac{988,9577 - 8133,67 / 10}{9}\\
                     &amp; = 19,51007~und^2
 \end{align*}\]</span></p>
 </div>
@@ -1005,9 +1003,9 @@ gC
 </ul>
 </font><div class="fragment"><font size="+2">
 <p><span class="math display">\[\begin{align*}
-    S^2_{\textrm{gC}} &amp; = \frac{10,1124770^2 + \ldots + 28,0874035^2 - 1 / 10 \times \left(10,1124770 +  \ldots + 28,0874035 \right)^2}{10 - 1}\\
-                    &amp; = \frac{1373,903 - 8133.67 / 10}{9}\\
-                    &amp; = 62,28176~und^2
+    S^2_{\textrm{gC}} &amp; = \frac{4,706090^2 + \ldots + 20,000000^2 - 1 / 10 \times \left(4,706090 +  \ldots + 20,000000 \right)^2}{10 - 1}\\
+                    &amp; = \frac{990,8678 - 8133.67 / 10}{9}\\
+                    &amp; = 19,72232~und^2
   \end{align*}\]</span></p>
 </font><p><font size="+2"></font></p>
 </div>
@@ -1027,7 +1025,7 @@ gC
 <section id="variância-dados-agrupados-1" class="slide level2" data-background-image="cap02.png">
 <h2>Variância (Dados agrupados)</h2>
 <p><font size="+3"></font></p><font size="+3">
-<p><strong>Definição (Variância p/ dados agrupados):</strong>: ou se forma similar, <span class="math display">\[\begin{align}\label{eq:varagrupados2}
+<p><strong>Definição (Variância p/ dados agrupados):</strong> ou se forma similar, <span class="math display">\[\begin{align}\label{eq:varagrupados2}
     S^2 &amp; = \left\{\begin{array}{ll}
                   \frac{\sum_{i = 1}^{k}X_i^2\times F_i - \frac{1}{\sum_{i = 1}^{k} F_i}(\sum_{i = 1}^{k} X_iF_i)^2}{\sum_{i = 1}^{k}F_i - 1}, &amp;  \textrm{agrup. s/ intervalo de classe}, \\
                   &amp; \\
@@ -1134,7 +1132,7 @@ S^2 &amp; = \frac{31^2 + \ldots + 84^2 - (1/36) \times (31 + \ldots + 84)^2}{36 
 <p><font size="+3"></font></p><font size="+3">
 <p>Exemplo 1: Dados não agrupados</p>
 <div class="fragment">
-<div class="sourceCode" id="cb22" data-code-line-numbers="7|1-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="co"># Variancia - Dados nao agrupados</span></span>
+<div class="sourceCode" id="cb22" data-code-line-numbers="4|1-4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="co"># Variancia - Dados nao agrupados</span></span>
 <span id="cb22-2"><a href="#cb22-2"></a>d1 <span class="sc">|&gt;</span> </span>
 <span id="cb22-3"><a href="#cb22-3"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span> </span>
 <span id="cb22-4"><a href="#cb22-4"></a>  <span class="fu">variance</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1190,10 +1188,9 @@ S^2 &amp; = \frac{31^2 + \ldots + 84^2 - (1/36) \times (31 + \ldots + 84)^2}{36 
 </div>
 </font><p><font size="+3"></font></p>
 </div>
-</section></section>
-<section>
-<section id="características-da-variância" class="title-slide slide level1 center" data-background-image="cap02.png">
-<h1>Características da variância</h1>
+</section>
+<section id="características-da-variância" class="slide level2" data-background-image="cap02.png">
+<h2>Características da variância</h2>
 <ul>
 <li class="fragment">A unidade da variância está na escala ao quadrado da unidade da variável;</li>
 <li class="fragment">limitada apenas as variáveis quantitativas;</li>
@@ -1207,9 +1204,9 @@ S^2 &amp; = \frac{31^2 + \ldots + 84^2 - (1/36) \times (31 + \ldots + 84)^2}{36 
 <li class="fragment">devido as suas propriedades matemáticas, algumas mencionadas anteriormente, bem como a quantidade de técnicas estatísticas que empregam essa medida, a torna como a mais conhecida dentre as medidas de dispersão;</li>
 <li class="fragment">uma vez que a média é sensível aos dados, a variância também é sensível, uma vez que esta depende da média.</li>
 </ul>
-</section></section>
-<section id="propriedades-da-variância" class="title-slide slide level1 center" data-background-image="cap02.png">
-<h1>Propriedades da variância</h1>
+</section>
+<section id="propriedades-da-variância" class="slide level2" data-background-image="cap02.png">
+<h2>Propriedades da variância</h2>
 <p><font size="+3"></font></p><font size="+3">
 <blockquote>
 <p><strong>Teorema:</strong> Baseado na Definição sobre a variância, e considerando <span class="math inline">\(c\)</span> uma constante, então:</p>
@@ -1219,21 +1216,20 @@ S^2 &amp; = \frac{31^2 + \ldots + 84^2 - (1/36) \times (31 + \ldots + 84)^2}{36 
 </ol>
 </blockquote>
 </font><p><font size="+3"></font></p>
-</section>
-
+</section></section>
 <section>
 <section id="desvio-padrão" class="title-slide slide level1 center" data-background-image="cap02.png">
 <h1>Desvio padrão</h1>
 <ul>
 <li class="fragment">A variância apesar de ter resolvido alguns dos problemas, apresenta sua unidade ao quadrado da unidade da variável em estudo;</li>
-<li class="fragment">isso significa que se tivermos usando uma variável na escala de metros, a dispersão dada pela variância estará na escala de área;</li>
+<li class="fragment">isso significa que se tivermos usando uma variável na escala de comprimento, por exemplo, a dispersão dada pela variância estará na escala de área;</li>
 <li class="fragment">torna-se difícil a percepção de dispersão quando observamos os dados.</li>
 </ul>
 </section>
 <section id="desvio-padrão-1" class="slide level2" data-background-image="cap02.png">
 <h2>Desvio padrão</h2>
 <p><font size="+3"></font></p><font size="+3">
-<p><strong>Definição (Desvio padrão):</strong> Seja uma amostra <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, , <span class="math inline">\(X_n\)</span>, de uma população <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, , <span class="math inline">\(X_N\)</span>, de tamanhos <span class="math inline">\(n\)</span> e <span class="math inline">\(N\)</span>, respectivamente, com parâmetro <span class="math inline">\(\mu = \sum_{i = 1}^{N} X_i / N\)</span> e seu estimador <span class="math inline">\(\bar{X} = \sum_{i = 1}^{n} X_i / n\)</span>, então o desvio padrão é definido por: <span class="math display">\[\begin{align}\label{eq:desvpad1}
+<p><strong>Definição (Desvio padrão):</strong> O desvio padrão é definido por: <span class="math display">\[\begin{align}\label{eq:desvpad1}
     \sigma &amp; = \sqrt{\sigma^2}, \quad \textrm{(População)}
   \end{align}\]</span> em que <span class="math inline">\(\sigma\)</span> é apresentado anteriormente, <span class="math display">\[\begin{align}\label{eq:desvpad2}
     S &amp; = \sqrt{S^2}, \quad \textrm{(Amostra)}
@@ -1268,7 +1264,7 @@ S^2 &amp; = \frac{31^2 + \ldots + 84^2 - (1/36) \times (31 + \ldots + 84)^2}{36 
 </ul>
 <div class="fragment">
 <p><span class="math display">\[\begin{align*}
-   S_{\textrm{gC}} &amp; = \sqrt{62,28176} = 7,89188~und.
+   S_{\textrm{gC}} &amp; = \sqrt{19,72232} = 4,440982~und.
 \end{align*}\]</span></p>
 <ul>
 <li class="fragment">Considerando que as unidades dos grupos são iguais, bem como as suas médias, podemos concluir que o grupo gA apresenta menor dispersão;</li>
@@ -1377,10 +1373,10 @@ S^2 &amp; = \frac{31^2 + \ldots + 84^2 - (1/36) \times (31 + \ldots + 84)^2}{36 
 </ul>
 </div>
 </section>
-<section id="coeficiente-de-variação" class="slide level2" data-background-image="cap02.png">
-<h2>Coeficiente de variação</h2>
+<section id="coeficiente-de-variação-cv-1" class="slide level2" data-background-image="cap02.png">
+<h2>Coeficiente de variação (CV)</h2>
 <p><font size="+3"></font></p><font size="+3">
-<p><strong>Definição (Coef. de variação):</strong> Seja uma amostra <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, <span class="math inline">\(\ldots\)</span>, <span class="math inline">\(X_n\)</span>, de uma população <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>, <span class="math inline">\(\ldots\)</span>, <span class="math inline">\(X_N\)</span>, de tamanhos <span class="math inline">\(n\)</span> e <span class="math inline">\(N\)</span>, respectivamente, com parâmetros <span class="math inline">\(\mu = \sum_{i = 1}^{N} X_i / N\)</span> e <span class="math inline">\(\sigma^2 = \sum_{i = 1}^{N}(X_i - \mu)^2 / (N - 1)\)</span> e seus estimadores <span class="math inline">\(\bar{X} = \sum_{i = 1}^{n} X_i / n\)</span> e <span class="math inline">\(S = \sqrt{\sum_{i = 1}^{n}(X_i - \bar{X})^2 / (n - 1)}\)</span>, respectivamente. Então o coeficiente de variação é definido por: <span class="math display">\[\begin{align}\label{eq:cvpop}
+<p><strong>Definição (CV):</strong> O coeficiente de variação é definido por: <span class="math display">\[\begin{align}\label{eq:cvpop}
     CV_p &amp; = \frac{\sigma}{\mu} \times 100, \quad \textrm{(População)}
   \end{align}\]</span> e <span class="math display">\[\begin{align}\label{eq:cvamost}
     CV &amp; = \frac{S}{\bar{X}} \times 100. \quad \textrm{(Amostra)}
@@ -1492,7 +1488,7 @@ S^2 &amp; = \frac{31^2 + \ldots + 84^2 - (1/36) \times (31 + \ldots + 84)^2}{36 
   S_{\bar{X}_{\textrm{gB}}} &amp; = 4,41702 / \sqrt{10} = 1,396784~und.
 \end{align*}\]</span></li>
 </font><li class="fragment"><font size="+2">Erro padrão da média amostral para o grupo gC: <span class="math display">\[\begin{align*}
-S_{\bar{X}_{\textrm{gC}}} &amp; = 7,89188 / \sqrt{10} = 2,495632~und.
+S_{\bar{X}_{\textrm{gC}}} &amp; = 4,440982 / \sqrt{10} = 1,404362~und.
 \end{align*}\]</span> </font></li>
 </ul>
 <div class="fragment">
@@ -1519,7 +1515,7 @@ S_{\bar{X}_{\textrm{gC}}} &amp; = 7,89188 / \sqrt{10} = 2,495632~und.
 <span id="cb46-2"><a href="#cb46-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
 <span id="cb46-3"><a href="#cb46-3"></a>  <span class="fu">mstde</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>, <span class="at">rounding =</span> <span class="dv">6</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 2.495632</code></pre>
+<pre><code>[1] 1.404362</code></pre>
 </div>
 </div>
 </section></section>
