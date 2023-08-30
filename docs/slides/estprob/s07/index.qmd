@@ -568,7 +568,7 @@ em que $SQ$ é dado pela expressão anterior, ou de forma similar,
 . . .
 
 \begin{align*}
-    S^2_{\textrm{gA}} & = \frac{6,746655 + \ldots + 10,779589^2 - 1 / 10 \times \left(6,746655 +  \ldots + 10,779589 \right)^2}{10 - 1}\\
+    S^2_{\textrm{gA}} & = \frac{6,746655^2 + \ldots + 10,779589^2 - 1 / 10 \times \left(6,746655 +  \ldots + 10,779589 \right)^2}{10 - 1}\\
                     & = \frac{831,0017 - 8133,67 / 10}{9}\\
                     & = 1,959404~und^2
 \end{align*}
@@ -596,7 +596,7 @@ em que $SQ$ é dado pela expressão anterior, ou de forma similar,
 
 \begin{align*}
     S^2_{\textrm{gC}} & = \frac{4,706090^2 + \ldots + 20,000000^2 - 1 / 10 \times \left(4,706090 +  \ldots + 20,000000 \right)^2}{10 - 1}\\
-                    & = \frac{990,8678 - 8133.67 / 10}{9}\\
+                    & = \frac{990,8678 - 8133,67 / 10}{9}\\
                     & = 19,72232~und^2
   \end{align*}
 
