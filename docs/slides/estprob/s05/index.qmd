@@ -66,7 +66,37 @@ Usaremos @batista2023:
 
 </a>
 
-# Tipos de medidas {background-image="cap02.png"}
+# Ideia sobre medidas de posição {background-image="cap02.png"}
+
+Vamos usar o `leem`!
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```r
+library(leem)
+showpar()
+```
+
+:::
+
+::: {.column width="50%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+# Tipos de medidas de posição {background-image="cap02.png"}
 
 - Média aritmética
 - Mediana

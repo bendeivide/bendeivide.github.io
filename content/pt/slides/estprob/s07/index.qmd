@@ -1,0 +1,1217 @@
+---
+title: "Estatística e Probabilidade"
+subtitle: "Aula 07 - Medidas de dispersão"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EPAEC](https://bendeivide.github.io/courses/epaec/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2023:
+
+<a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Motivação inicial {background-image="cap02.png"}
+
+```{r, echo = TRUE, eval = TRUE}
+# Dados dos grupos gerados
+set.seed(10); gA <- rnorm(10, mean = 10, sd = 2)
+set.seed(10); gB <- rnorm(9, mean = 10, sd = 4)
+gC <- c(4.706090, 4.772017, 6.404994, 7.338766, 
+        7.817944, 8.372813, 8.894485, 10.112477, 
+        11.767271, 20.000000)
+
+# Media do grupo gA
+(media.gA <- mean(gA))
+
+# gerando gB[10] e media de gB
+gB[10] <- length(gA) * media.gA - sum(gB)
+(media.gB <- mean(gB))
+
+
+# gerando gC[10] e media de gC
+(media.gC <- mean(gC))
+```
+
+## Motivação inicial {background-image="cap02.png"}
+
+
+```{r, echo = TRUE, eval = TRUE}
+# Apresentando os dados
+cbind(sort(gA), sort(gB), sort(gC))
+```
+
+# Ideia sobre medidas de dispersão {background-image="cap02.png"}
+
+Vamos usar o `leem`!
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```r
+library(leem)
+showpar()
+```
+
+:::
+
+::: {.column width="50%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+# Tipos de medidas de dispersão {background-image="cap02.png"}
+
+- Amplitude
+- Desvio médio
+- Módulo do desvio
+- Soma de quadrado dos desvios
+- Variância
+- Desvio padrão
+- Coeficiente de variação
+- Erro padrão da média
+
+
+# Exemplos: Dados não agrupados {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+<font size="+3">
+
+1. Considere a distribuição de frequência do número de erros encontrados em 20 conjunto de caracteres monitorado em um canal de comunicação:
+
+
+
+```{r, echo=FALSE, warning=FALSE}
+d1 <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados <- matrix(sort(d1), 2, 10, byrow = TRUE)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+
+
+2. Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger.
+
+
+
+```{r, echo=FALSE, warning=FALSE, }
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d3 <- d2$chal
+dados <- matrix(sort(d3), 3, 12, byrow = TRUE)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+</font>
+
+:::
+
+## Exemplos: Dados agrupados {background-image="cap02.png"}
+
+<font size="+2">
+
+:::: {.columns}
+::: {.column width="50%"}
+Exemplo 1
+
+```{r, echo = FALSE, eval = TRUE}
+## Usando o operador 'pipe' nativo
+d1 |> new_leem(variable = 1) |> tabfreq()
+```
+:::
+::: {.column width="50%"}
+Exemplo 2
+
+```{r, echo = FALSE, eval = TRUE}
+## Usando o operador 'pipe' nativo
+d3 |> new_leem(variable = 2) |> tabfreq()
+```
+:::
+
+::::
+
+</font>
+
+
+
+
+# Amplitude (Dados não agrupados) {background-image="cap02.png"}
+
+> **Definição (Amplitude):** Seja uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, de tamanho $n$, e em ordem crescente de magnitude temos $X_{(1)} = \min\limits_{i}(X_i)$, $X_{(2)}$, $\ldots$, $X_{(n)} = \max\limits_{i}(X_i)$, para $i$ $=$ $1$, $2$, $\ldots$, $n$. Então a amplitude de uma população, denotada por $A$, é definida por:
+  \begin{align}
+    A & = X_{(n)} - X_{(1)}.
+  \end{align}
+
+## Amplitude (Dados agrupados) {background-image="cap02.png"}
+
+<font size="+3">
+
+> **Definição (Amplitude):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de tamanho $n$, agrupados em $k$ grupos com variáveis $X_i$ e $F_i$ frequências, ou $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a amplitude de uma amostra, denotada por $A$, é definida por:
+\begin{align}
+    A & = \left\{\begin{array}{ll}
+                   X_{(k)} - X_{(1)}, &  \textrm{Agrupados sem intervalo de classe}, \\
+                   \tilde{X}_{(k)} - \tilde{X}_{(1)}, & \textrm{Agrupados com intervalo de classe},\\
+                 \end{array}\right.
+  \end{align}
+em que $X_{(k)} = \max\limits_{i}(X_i)$, $X_{(1)} = \min\limits_{i}(X_i)$, $\tilde{X}_{(k)} = \max\limits_{i}(\tilde{X}_{i})$, $\tilde{X}_{(1)} = \min\limits_{i}(\tilde{X}_{i})$, sendo $\tilde{X}_{i}$ o ponto médio das classes.
+  
+</font>
+
+
+## Aplicação {background-image="cap02.png"}
+
+
+
+Exemplo 1:
+
+. . . 
+
+Dados não agrupados
+\begin{align*}
+  A = 4 - 0 = 4~\textrm{erros}.
+\end{align*}
+
+Dados agrupados
+\begin{align*}
+  A = 4 - 0 = 4~\textrm{erros}.
+\end{align*}
+
+
+## Aplicação {background-image="cap02.png"}
+
+Exemplo 2:
+
+. . . 
+
+Dados não agrupados
+\begin{align*}
+  A = 84,0 - 31,0 = 53,0~\textrm{°F}.
+\end{align*}
+
+Dados agrupados
+\begin{align*}
+  A = 84,0 - 31,0 = 53,0~\textrm{°F}.
+\end{align*}
+
+OBS.: Apesar dos valores iguais, isso nem sempre ocorre!
+
+## Usando o `leem` {background-image="cap02.png"}
+
+<font size="+3">
+
+Exemplo 1: Dados não agrupados
+
+. . . 
+
+```{.r code-line-numbers="7|1-7"}
+# Dados não agrupados
+d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/tabela2.1.txt", header = TRUE)
+d1 <- d1$erros
+# Amplitude
+d1 |> 
+  new_leem(variable = 1) |> 
+  amplitude(grouped = FALSE)
+```
+```{r echo=FALSE}
+# Dados não agrupados
+d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/tabela2.1.txt", header = TRUE)
+d1 <- d1$erros
+# Amplitude
+d1 |> 
+  new_leem(variable = 1) |> 
+  amplitude(grouped = FALSE)
+```
+
+. . .
+
+Exemplos 1: Dados agrupados
+
+. . .
+
+```{.r code-line-numbers="4|1-4"}
+# Amplitude: Dados agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  amplitude(grouped = TRUE)
+```
+```{r, echo=FALSE}
+# Dados não agrupados
+d1 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/tabela2.1.txt", header = TRUE)
+d1 <- d1$erros
+# Amplitude
+d1 |> 
+  new_leem(variable = 1) |> 
+  amplitude(grouped = TRUE)
+```
+
+</font>
+
+
+## Usando o `leem` {background-image="cap02.png"}
+
+<font size="+3">
+
+Exemplo 2: Dados não agrupados
+
+. . . 
+
+```{.r code-line-numbers="7|1-7"}
+# Dados não agrupados
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", header = TRUE)
+d2 <- d2$challenger
+# Amplitude
+d2 |> 
+  new_leem(variable = 2) |> 
+  amplitude(grouped = FALSE)
+```
+```{r echo=FALSE}
+# Dados não agrupados
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", header = TRUE)
+d2 <- d2$challenger
+# Amplitude
+d2 |> 
+  new_leem(variable = 2) |> 
+  amplitude(grouped = FALSE)
+```
+
+. . .
+
+Exemplos 2: Dados agrupados
+
+. . .
+
+```{.r code-line-numbers="4|1-4"}
+# Amplitude: Dados agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  amplitude(grouped = TRUE)
+```
+```{r, echo=FALSE}
+# Dados agrupados
+# Amplitude
+d2 |> 
+  new_leem(variable = 2) |> 
+  amplitude(grouped = TRUE)
+```
+
+</font>
+
+## Retornando a motivação {background-image="cap02.png"}
+</br>
+</br>
+</br>
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:30px;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:30px;font-weight:normal;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lvop{background-color:#34cdf9;border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-lvop">Grupo</th>
+    <th class="tg-lvop">Amplitude</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">gA</td>
+    <td class="tg-c3ow">$A = 10,77959 - 6,746655 = 4,032934~und.$</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">gB</td>
+    <td class="tg-c3ow">$A = 18,787223 - 3,493309 = 15,29391~und.$</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">gC</td>
+    <td class="tg-c3ow">$A = 20 - 4,706090 = 15,29391~und.$</td>
+  </tr>
+</tbody>
+</table>
+
+## Características da amplitude {background-image="cap02.png"}
+
+- O resultado da amplitude é dado na mesma unidade da variável em estudo;
+-  Uma medida de dispersão facilmente calculada;
+- Limitada apenas as variáveis quantitativas;
+- Essa medida é muito utilizada em comparações múltiplas, cartas de controle em estatística de qualidade, dentre outras áreas;
+
+## Características da amplitude (continuação...) {background-image="cap02.png"}
+
+- A amplitude pode ser utilizada como medida de dispersão para comparar a variabilidade de dados de dois ou mais grupos diferentes;
+- A amplitude é sensível a dados discrepantes\footnote{Entendemos por dados discrepantes, as observações que estão distantes da massa de dados (maior parte dos dados). Esses dados quando influenciam as análises estatísticas, dizemos que estes dados são influentes.};
+
+## Características da amplitude (continuação...) {background-image="cap02.png"}
+
+- A amplitude é limitada por levar em consideração apenas os valores extremos, e nada sobre as demais observações. Nesse caso, podem ocorrer situações como os apresentados no Exemplo de motivação, em que poderíamos erroneamente concluir que os grupos de dados \code{gB} e \code{gC} são iguais, uma vez que apresentam amplitude e média aritmética iguais;
+
+## Características da amplitude (continuação...) {background-image="cap02.png"}
+
+- Segundo @Ferreira2009, a amplitude amostral, substima a amplitude populacional, uma vez que é pouco provável que uma amostra contenha os valores mínimo e máximo da população, portanto, a amplitude amostral é um estimador^[Entendemos por estimador uma função que depende apenas dos dados amostrais e que irá representar um parâmetro (característica populacional) desconhecida.] viesado^[Dizemos que um estimador é viesado se a esperança matemática desse estimador é diferente do parâmetro de interesse.] e ineficiente.
+
+
+
+## Propriedades da amplitude {background-image="cap02.png"}
+
+<font size="+3">
+
+> **Teorema:** Baseado na Definição da amplitude amostral, e considerando $c$ uma constante, então:
+>
+> - Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, a amplitude é dada por $A_X = X_{(n)} - X_{(1)}$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$,  a nova amplitude não se altera, isto é, $A_Y = A_X$.
+> - Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, a amplitude é dada por $A_X = X_{(n)} - X_{(1)}$, então para uma transformação de $Y_i = X_i \times c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova amplitude é dada por $A_Y = A_X \times c$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
+
+</font>
+
+# Variância {background-image="cap02.png"}
+
+<font size="+3">
+
+Considerando uma população $X_1$, $X_2$, $\ldots$, $X_N$ e sua respectiva amostra $X_1$, $X_2$, $\ldots$, $X_n$, podemos considerar inicialmente o desvio médio como outra medida de dispersão, dada por:
+
+. . .
+
+\begin{align}
+  DM_p & = \sum_{i = 1}^{N} \left(X_i - \mu \right), \quad \textrm{(Populacional)}
+\end{align}
+em que $\mu = \sum_{i = 1}^{N} X_i / N$, e seu respectivo estimador é dado por:
+
+. . .
+
+\begin{align}
+  DM & = \sum_{i = 1}^{n} \left(X_i - \bar{X} \right), \quad \textrm{(Amostral)}
+\end{align}
+em que $\bar{X} = \sum_{i = 1}^{n} X_i / n$.
+
+</font>
+
+## Variância {background-image="cap02.png"}
+
+<font size="+3">
+
+As expressões anteriores apresentam alguns problemas práticos!!!
+
+. . .
+
+Para isso, podemos contornar essa situação inserindo uma função modular nessa medida anterior, e criar o módulo do desvio, dada por:
+
+. . . 
+
+\begin{align}
+  S_{|\mu|} & = \sum_{i = 1}^{N} \left|X_i - \mu \right|, \quad \textrm{(Populacional)}
+\end{align}
+e
+
+. . .
+
+\begin{align}
+  S_{|\bar{X}|} & = \sum_{i = 1}^{n} \left|X_i - \bar{X} \right|. \quad \textrm{(Amostral)}
+\end{align}
+
+
+</font>
+
+
+## Variância {background-image="cap02.png"}
+
+<font size="+2">
+
+As expressões anteriores apresentam alguns problemas práticos!!!
+
+. . .
+
+Daí, surge uma outra medida de variabilidade que é a soma de quadrados, dada por:
+\begin{align}\label{eq:desvquadpop}
+  SQ_{p} & = \sum_{i = 1}^{N} \left(X_i - \mu \right)^2, \quad \textrm{(Populacional)}
+\end{align}
+e
+\begin{align}
+  SQ & = \sum_{i = 1}^{n} \left(X_i - \bar{X} \right)^2. \quad \textrm{(Amostral)}
+\end{align}
+
+. . .
+
+Percebemos que a soma de quadrados amostral pode ser também expressa por:
+\begin{align}
+  SQ & = \displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} \left(\sum_{i = 1}^{n}X_i\right)^2,
+\end{align}
+
+
+</font>
+
+
+## Variância {background-image="cap02.png"}
+
+<font size="+2">
+
+**Definição (Variância populacional): ** Seja uma população $X_1$, $X_2$, $\ldots$, $X_N$, de tamanho $N$, com parâmetro conhecido $\mu = \sum_{i = 1}^{N} X_i / N$, então a variância populacional, denotada por $\sigma^2$, é definida por:
+\begin{align}
+  \sigma^2 & = \frac{SQ_p}{N},
+\end{align}
+em que $SQ_p$ é dado pela expressão anterior, ou de forma similar,
+
+. . .
+
+\begin{align}
+    \sigma^2 & = \frac{\displaystyle\sum_{i = 1}^{N}X_i^2 - \frac{1}{N} \left(\sum_{i = 1}^{N}X_i\right)^2}{N}.
+\end{align}
+
+. . .
+
+Intuitivamente, poderíamos pensar para a condição amostral:
+
+\begin{align}
+  \hat{\sigma}^2 & = \frac{SQ}{n}.
+\end{align}
+
+</font>
+
+## Variância {background-image="cap02.png"}
+
+<font size="+3">
+
+**Definição (Variância amostral):** Seja uma população $X_1$, $X_2$, \ldots, $X_n$, de tamanho $n$, com $\bar{X} = \sum_{i = 1}^{n} X_i / n$, então a variância amostral, denotada por $S^2$, é definida como:
+  \begin{align}\label{eq:varamost2}
+    S^2 & = \frac{SQ}{n - 1},
+  \end{align}
+em que $SQ$ é dado pela expressão anterior, ou de forma similar, 
+
+. . .
+
+\begin{align}\label{eq:varamost3}
+    S^2 & = \frac{\displaystyle\sum_{i = 1}^{n}X_i^2 - \frac{1}{n} ~\left(\sum_{i = 1}^{n}X_i\right)^2}{n - 1}.
+\end{align}
+
+</font>
+
+## Exemplo motivacional {background-image="cap02.png"}
+
+<font size="+2">
+
+- Variância amostral para o grupo gA:
+
+. . .
+
+\begin{align*}
+    S^2_{\textrm{gA}} & = \frac{6,746655^2 + \ldots + 10,779589^2 - 1 / 10 \times \left(6,746655 +  \ldots + 10,779589 \right)^2}{10 - 1}\\
+                    & = \frac{831,0017 - 8133,67 / 10}{9}\\
+                    & = 1,959404~und^2
+\end{align*}
+
+. . . 
+
+- Variância amostral para o grupo gB:
+
+. . .
+
+
+\begin{align*}
+    S^2_{\textrm{gB}} & = \frac{3,493309^2 + \ldots + 18,787223^2 - 1 / 10 \times \left(3,493309 +  \ldots + 18,787223 \right)^2}{10 - 1}\\
+                    & = \frac{988,9577 - 8133,67 / 10}{9}\\
+                    & = 19,51007~und^2
+\end{align*}
+
+
+## Exemplo motivacional {background-image="cap02.png"}
+
+
+- Variância amostral para o grupo gC:
+
+. . .
+
+\begin{align*}
+    S^2_{\textrm{gC}} & = \frac{4,706090^2 + \ldots + 20,000000^2 - 1 / 10 \times \left(4,706090 +  \ldots + 20,000000 \right)^2}{10 - 1}\\
+                    & = \frac{990,8678 - 8133,67 / 10}{9}\\
+                    & = 19,72232~und^2
+  \end{align*}
+
+</font>
+
+## Variância (Dados agrupados) {background-image="cap02.png"}
+
+<font size="+3">
+
+**Definição (Variância p/ dados agrupados):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de tamanho $n$, agrupados em $k$ grupos com variáveis $X_i$ e frequência $F_i$, ou $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a variância de uma amostra, denotada por $S^2$, é definida por:
+  \begin{align}\label{eq:varagrupados}
+    S^2 & = \left\{\begin{array}{ll}
+                   \frac{\sum_{i = 1}^{k}(X_i - \bar{X})^2\times F_i}{\sum_{i = 1}^{k}F_i - 1}, &  \textrm{agrupados sem intervalo de classe}, \\
+                   &\\
+                   \frac{\sum_{i = 1}^{k}(\tilde{X}_i - \bar{\tilde{X}})^2\times F_i}{\sum_{i = 1}^{k}F_i - 1}, &  \textrm{agrupados com intervalo de classe},\\
+                 \end{array}\right.
+  \end{align}
+sendo $\tilde{X}_{i}$ o ponto médio das classes, $\bar{X} = \sum_{i = 1}^{k} X_iF_i / \sum_{i = 1}^{k}F_i$ e $\bar{\tilde{X}} = \sum_{i = 1}^{k} \tilde{X}_iF_i / \sum_{i = 1}^{k}F_i$, 
+
+</font>
+
+## Variância (Dados agrupados) {background-image="cap02.png"}
+
+<font size="+3">
+
+**Definição (Variância p/ dados agrupados):** ou se forma similar,
+  \begin{align}\label{eq:varagrupados2}
+    S^2 & = \left\{\begin{array}{ll}
+                  \frac{\sum_{i = 1}^{k}X_i^2\times F_i - \frac{1}{\sum_{i = 1}^{k} F_i}(\sum_{i = 1}^{k} X_iF_i)^2}{\sum_{i = 1}^{k}F_i - 1}, &  \textrm{agrup. s/ intervalo de classe}, \\
+                  & \\
+                  \frac{\sum_{i = 1}^{k}\tilde{X}_i^2\times F_i - \frac{1}{\sum_{i = 1}^{k} F_i}(\sum_{i = 1}^{k} \tilde{X}_iF_i)^2}{\sum_{i = 1}^{k}F_i - 1}, &  \textrm{agrup. c/ intervalo de classe}. \\
+                 \end{array}\right.
+  \end{align}
+
+</font>
+
+## Aplicação {background-image="cap02.png"}
+
+Exemplo 1:
+
+. . .
+
+<font size="+2">
+
+:::: {.columns}
+::: {.column width="40%"}
+
+
+```{r, echo = FALSE, eval = TRUE}
+## Usando o operador 'pipe' nativo
+d1 |> new_leem(variable = 1) |> tabfreq()
+```
+:::
+::: {.column width="60%"}
+
+<font size="+2">
+
+\begin{align}
+S^2 & = \frac{0^2 \times 3 + \ldots + 4^2 \times 1 - (1/20) \times (0 \times 3 + \ldots + 4 \times 1)^2}{20 - 1}\\
+    & = 1,38~\textrm{unid.}^2
+\end{align}
+
+</font>
+
+:::
+
+::::
+
+</font>
+
+## Aplicação {background-image="cap02.png"}
+
+Exemplo 2:
+
+. . .
+
+<font size="+2">
+
+:::: {.columns}
+::: {.column width="50%"}
+
+
+```{r, echo = FALSE, eval = TRUE}
+## Usando o operador 'pipe' nativo
+d2 |> new_leem(variable = 2) |> tabfreq()
+```
+:::
+::: {.column width="50%"}
+
+
+<font size="+1">
+
+Dados agrupados
+
+\begin{align}
+S^2 & = \frac{31^2 \times 1 + \ldots + 84^2 \times 5 - (1/36) \times (31 \times 1 + \ldots + 84 \times 5)^2}{36 - 1}\\
+    & = 159,355~\textrm{unid.}^2
+\end{align}
+
+
+Dados não agrupados
+
+\begin{align}
+S^2 & = \frac{31^2 + \ldots + 84^2 - (1/36) \times (31 + \ldots + 84)^2}{36 - 1}\\
+    & = 147,84~\textrm{unid.}^2
+\end{align}
+
+</font>
+
+:::
+
+::::
+
+</font>
+
+
+## Usando o `leem` {background-image="cap02.png"}
+
+<font size="+3">
+
+Exemplo 1: Dados não agrupados
+
+. . . 
+
+```{.r code-line-numbers="4|1-4"}
+# Variancia - Dados nao agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  variance(grouped = FALSE)
+```
+```{r echo=FALSE}
+# Variancia - Dados nao agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  variance(grouped = FALSE)
+```
+
+. . .
+
+Exemplos 1: Dados agrupados
+
+. . .
+
+```{.r code-line-numbers="4|1-4"}
+# Variance: Dados agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  variance(grouped = TRUE)
+```
+```{r, echo=FALSE}
+# Variance - Dados nao agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  variance(grouped = TRUE)
+```
+
+</font>
+
+
+## Usando o `leem` {background-image="cap02.png"}
+
+<font size="+3">
+
+Exemplo 2: Dados não agrupados
+
+. . . 
+
+```{.r code-line-numbers="4|1-4"}
+# Variancia - Dados não agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  variance(grouped = FALSE)
+```
+```{r echo=FALSE}
+# Variancia - Dados não agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  variance(grouped = FALSE)
+```
+
+. . .
+
+Exemplos 2: Dados agrupados
+
+. . .
+
+```{.r code-line-numbers="4|1-4"}
+# Variancia: Dados agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  variance(grouped = TRUE)
+```
+```{r, echo=FALSE}
+# Variancia - Dados agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  variance(grouped = TRUE)
+```
+
+</font>
+
+
+## Características da variância {background-image="cap02.png"}
+
+- A unidade da variância está na escala ao quadrado da unidade da variável;
+- limitada apenas as variáveis quantitativas;
+- a variância é sempre uma medida positiva, exceto quando todos os valores são iguais que resultam em uma variância nula;
+- quanto mais próximo de zero a variância for, mas concentrado os dados estão em torno da média, ao passo que, à medida que a variância se distancia de zero, mas disperso os dados estão em torno da média;
+
+## Características da variância {background-image="cap02.png"}
+
+
+- devido as suas propriedades matemáticas, algumas mencionadas anteriormente, bem como a quantidade de técnicas estatísticas que empregam essa medida, a torna como a mais conhecida dentre as medidas de dispersão;
+- uma vez que a média é sensível aos dados, a variância também é sensível, uma vez que esta depende da média.
+
+
+## Propriedades da variância {background-image="cap02.png"}
+
+<font size="+3">
+
+>**Teorema:** Baseado na Definição sobre a variância, e considerando $c$ uma constante, então:
+>
+>I) Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, a variância é dada por $S^2_X$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, então a nova variância não se altera, isto é, $S^2_Y = S^2_X$.
+>
+>II) Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, a variância é dada por $S^2_X$, então para uma transformação de $Y_i = X_i \times c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, então a nova variância é dada por $S^2_Y = c^2\times S^2_X$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
+
+</font>
+
+# Desvio padrão {background-image="cap02.png"}
+
+- A variância apesar de ter resolvido alguns dos problemas, apresenta sua unidade ao quadrado da unidade da variável em estudo;
+- isso significa que se tivermos usando uma variável na escala de comprimento, por exemplo, a dispersão dada pela variância estará na escala de área;
+- torna-se difícil a percepção de dispersão quando observamos os dados. 
+
+
+## Desvio padrão {background-image="cap02.png"}
+
+<font size="+3">
+
+**Definição (Desvio padrão):** O desvio padrão é definido por:
+  \begin{align}\label{eq:desvpad1}
+    \sigma & = \sqrt{\sigma^2}, \quad \textrm{(População)}
+  \end{align}
+  em que $\sigma$ é apresentado anteriormente,
+  \begin{align}\label{eq:desvpad2}
+    S & = \sqrt{S^2}, \quad \textrm{(Amostra)}
+  \end{align}
+  em que $S$ é apresentado anteriormente.
+
+</font>
+
+## Exemplo motivacional {background-image="cap02.png"}
+
+Retornando ao Exemplo motivacional, podemos então calcular os desvios padrões dos grupos, que segue:
+
+. . .
+
+- Desvio padrão amostral para o grupo gA:
+
+. . . 
+
+\begin{align*}
+    S_{\textrm{gA}} & = \sqrt{1,959404} = 1,399787~unid.
+\end{align*}
+
+. . . 
+
+- Desvio padrão amostral para o grupo gB:
+  \begin{align*}
+    S_{\textrm{gB}} & = \sqrt{19,51007} = 4,41702~und.
+  \end{align*}
+
+## Exemplo motivacional {background-image="cap02.png"}
+
+- Desvio padrão amostral para o grupo gC:
+
+. . .
+
+\begin{align*}
+   S_{\textrm{gC}} & = \sqrt{19,72232} = 4,440982~und.
+\end{align*}
+
+- Considerando que as unidades dos grupos são iguais, bem como as suas médias, podemos concluir que o grupo gA apresenta menor dispersão;
+- Claro que esse resultado, poderia ter sido observado pela variância. A diferença é que conseguimos entender na unidade da variável essa dispersão.
+
+## Usando o `leem` {background-image="cap02.png"}
+
+<font size="+3">
+
+Exemplo 1: Dados não agrupados
+
+. . . 
+
+```{.r code-line-numbers="7|1-7"}
+# Desvio padrao - Dados nao agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  sdev(grouped = FALSE)
+```
+```{r echo=FALSE}
+# Desvio padrao - Dados nao agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  sdev(grouped = FALSE)
+```
+
+. . .
+
+Exemplos 1: Dados agrupados
+
+. . .
+
+```{.r code-line-numbers="4|1-4"}
+# Desvio padrao: Dados agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  sdev(grouped = TRUE)
+```
+```{r, echo=FALSE}
+# Desvio padrao - Dados nao agrupados
+d1 |> 
+  new_leem(variable = 1) |> 
+  sdev(grouped = TRUE)
+```
+
+</font>
+
+
+## Usando o `leem` {background-image="cap02.png"}
+
+<font size="+3">
+
+Exemplo 2: Dados não agrupados
+
+. . . 
+
+```{.r code-line-numbers="4|1-4"}
+# Desvio padrao - Dados não agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  sdev(grouped = FALSE)
+```
+```{r echo=FALSE}
+# Desvio padrao - Dados não agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  sdev(grouped = FALSE)
+```
+
+. . .
+
+Exemplos 2: Dados agrupados
+
+. . .
+
+```{.r code-line-numbers="4|1-4"}
+# Desvio padrao: Dados agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  sdev(grouped = TRUE)
+```
+```{r, echo=FALSE}
+# Desvio padrao - Dados agrupados
+d2 |> 
+  new_leem(variable = 2) |> 
+  sdev(grouped = TRUE)
+```
+
+</font>
+
+
+
+## Características do desvio padrão {background-image="cap02.png"}
+
+- a unidade do desvio padrão está na mesma escala da unidade da variável em estudo;
+- limitada apenas as variáveis quantitativas;
+- uma vez que a média é sensível aos dados, o desvio padrão também é sensível, uma vez que esta depende da média;
+- embora a variância amostral, $S^2$ seja um estimador não viesado para a variância populacional $\sigma^2$, o desvio padrão amostral $S$, que é derivado de $S^2$, é um estimador viesado do desvio padrão populacional $\sigma$;
+
+## Características do desvio padrão {background-image="cap02.png"}
+
+- assim como a variância, o desvio padrão é sempre uma medida positiva, exceto quando todos os valores são iguais que resultam em uma variância nula;
+- assim como na variância, quanto mais próximo de zero o desvio padrão for, mas concentrado os dados estão em torno da média, ao passo que, à medida que o desvio padrão se distancia de zero, mas disperso os dados estão em torno da média.
+
+
+## Propriedades do desvio padrão {background-image="cap02.png"}
+
+<font size="+3">
+
+>**Teorema:** Baseado na Definição sobre o desvio padrão, e considerando $c$ uma constante, então:
+>
+>- Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, o desvio padrão é dado por $S_X$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, então o novo desvio padrão não se altera, isto é, $S_Y = S_X$.
+>
+>- Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$, o desvio padrão é dado por $S_X$, então para uma transformação de $Y_i = X_i \times c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, então o novo desvio padrão é dado por $S_Y = S_X \times c$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
+
+</font>
+
+# Coeficiente de variação (CV) {background-image="cap02.png"}
+
+Limitações da variância e desvio padrão:
+
+. . .
+
+- Os grupos de observações devem estar na mesma unidade de mensuração;
+- A média desses grupos devem ser iguais.
+
+## Coeficiente de variação (CV) {background-image="cap02.png"}
+
+<font size="+3">
+
+**Definição (CV):** O coeficiente de variação é definido por:
+  \begin{align}\label{eq:cvpop}
+    CV_p & = \frac{\sigma}{\mu} \times 100, \quad \textrm{(População)}
+  \end{align}
+  e
+  \begin{align}\label{eq:cvamost}
+    CV & = \frac{S}{\bar{X}} \times 100. \quad \textrm{(Amostra)}
+  \end{align}
+
+</font>
+
+## Exemplo Coeficiente de variação {background-image="cap02.png"}
+
+</br>
+</br>
+
+|Dados | Coeficiente de Variação ($CV$)|
+|:----:|:-----------------------------:|
+|gA | $CV_{\textrm{gA}} = \frac{1,399787}{9,018686} \times 100 = 15,52\%$|
+| Número de erros |  $CV_{e} = \frac{1,174286}{1,7} \times 100 = 69,08\%$|
+
+## Usando o `leem` {background-image="cap02.png"}
+
+</br>
+</br>
+
+
+```{r, echo = TRUE, eval = TRUE}
+gA |>
+  new_leem(variable = 2) |>
+  cv(grouped = FALSE)
+
+d1 |>
+  new_leem(variable = 1) |>
+  cv(grouped = FALSE)
+
+```
+
+## Características do CV {background-image="cap02.png"}
+
+- O $CV$ é adimensional e uma medida de dispersão relativa;
+- Essa medida pode ser utilizada para comparar a dispersão entre grupos diferentes de dados;
+- Como o $CV$ é uma medida de dispersão relativa, isto é, o desvio padrão ponderado pela média. Isso significa que o $CV$ calcula o quanto representa a dispersão (o desvio padrão) representa à média. Dessa forma, o $CV$ se torna limitado a variáveis em que a escala de mensuração das observações em que fornece um zero absoluto ou uma origem significativa;
+
+## Características do CV {background-image="cap02.png"}
+
+- O $CV$ pode superar o 100\%. Isso ocorre quando o desvio padrão é maior do a média. Dizemos que esses superdispersos, um exemplo, são dados de contagem que seguem uma distribuição de Poisson.
+
+
+## Propriedades do CV
+
+<font size="+3">
+
+>**Teorema:** Com relação as propriedades do Coeficiente de Variação (CV), temos que:
+>
+>- Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, o coeficiente de variação, Definição anterior, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$ e $c$ uma constante, então o novo coeficiente de variação é igual a $CV_Y = S_X / (\bar{X} \pm c) \times 100$, em que $\bar{X}$ e $S_X$ são a média e o desvio padrão de $X_i$, $i = 1, 2, \ldots, n$;
+>- Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, o coeficiente de variação, Definição anterior, então para uma transformação de $Y_i = X_i \times c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$ e $c$ uma constante, então o novo coeficiente de variação não se altera, isto é $CV_Y = CV_X$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
+
+</font>
+
+
+# Erro padrão da média {background-image="cap02.png"}
+
+- População:
+
+. . .
+
+**Definição:** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de uma população cujos parâmetros $\mu$ e $\sigma$, representam a média e o desvio padrão populacional, respectivamente, então o erro padrão da média, denotada por $\sigma_{\bar{X}}$, é definido como:
+\begin{align}
+    \sigma_{\bar{X}} & = \frac{\sigma}{\sqrt{n}},
+\end{align}
+em que $n$ representa o tamanho da amostra.
+
+## Erro padrão da média {background-image="cap02.png"}
+
+- Amostra:
+
+. . .
+
+**Definição:** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de uma população cujos parâmetros $\mu$ e $\sigma$, representam a média e o desvio padrão populacional, respectivamente, então o erro padrão da média, denotada por $\sigma_{\bar{X}}$, é definido como:
+\begin{align}
+    S_{\bar{X}} & = \frac{S}{\sqrt{n}},
+\end{align}
+em que $n$ representa o tamanho da amostra, e $S$ é o desvio padrão da Definição anterior.
+
+## Exemplo {background-image="cap02.png"}
+
+<font size="+2">
+
+Retornando ao Exemplo de motivação, podemos então calcular os erros padrões da média para as três amostras, que segue:
+
+- Erro padrão da média amostral para o grupo gA:
+  \begin{align*}
+    S_{\bar{X}_{\textrm{gA}}} & = 1,399787 / \sqrt{10} = 0,442652~unid.
+  \end{align*}
+- Erro padrão da média amostral para o grupo gB:
+  \begin{align*}
+    S_{\bar{X}_{\textrm{gB}}} & = 4,41702 / \sqrt{10} = 1,396784~und.
+  \end{align*}
+- Erro padrão da média amostral para o grupo gC:
+  \begin{align*}
+   S_{\bar{X}_{\textrm{gC}}} & = 4,440982 / \sqrt{10} = 1,404362~und.
+  \end{align*}
+</font>
+
+. . .
+
+<font size="+2">
+Percebemos que a média de gA estima melhor o parâmetro $\mu$, uma vez que o erro padrão da média foi o menor dentre os demais.
+</font>
+
+## Usando o `leem` {background-image="cap02.png"}
+
+</br>
+</br>
+
+
+```{r, echo = TRUE, eval = TRUE}
+gA |>
+  new_leem(variable = 2) |>
+  mstde(grouped = FALSE, rounding = 6)
+
+gB |>
+  new_leem(variable = 2) |>
+  mstde(grouped = FALSE, rounding = 6)
+
+gC |>
+  new_leem(variable = 2) |>
+  mstde(grouped = FALSE, rounding = 6)
+
+```
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
+
+# Referências {background-image="cap02.png"}
+
+
+
+
+<!-- 
+
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="90%"}
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atot |>
+  new_leem(variable = 2) # ou new_leem(variable = "continuous")
+```
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
+atotleem
+class(atotleem)
+```
+
+:::
+
+::: {.column width="10%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+
+-->

@@ -38,7 +38,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 ## Encarte {background-image="EAR-rbasico-background-02.png"}

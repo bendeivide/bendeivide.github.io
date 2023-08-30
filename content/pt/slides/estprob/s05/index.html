@@ -439,8 +439,25 @@
 </a><p><a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;"></a></p>
 </section>
 
-<section id="tipos-de-medidas" class="title-slide slide level1 center" data-background-image="cap02.png">
-<h1>Tipos de medidas</h1>
+<section id="ideia-sobre-medidas-de-posição" class="title-slide slide level1 center" data-background-image="cap02.png">
+<h1>Ideia sobre medidas de posição</h1>
+<p>Vamos usar o <code>leem</code>!</p>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">library</span>(leem)</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">showpar</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<center>
+<p><img src="leem.png" title="Imagens: Logo leem" width="500"></p>
+</center>
+</div>
+</div>
+</div>
+</section>
+
+<section id="tipos-de-medidas-de-posição" class="title-slide slide level1 center" data-background-image="cap02.png">
+<h1>Tipos de medidas de posição</h1>
 <ul>
 <li class="fragment">Média aritmética</li>
 <li class="fragment">Mediana</li>
@@ -665,35 +682,35 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <li>Funções: <code>new_leem()</code>, <code>tabfreq()</code>, <code>mean()</code>, <code>insert()</code></li>
 </ul>
 </div>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>dado <span class="sc">|&gt;</span> <span class="co"># Entrada dos dados</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>  <span class="fu">new_leem</span>() <span class="sc">|&gt;</span> <span class="co"># Estruturando os dados a classe leem</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a>  <span class="co"># Opções:</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a>  <span class="co">#   new_leem(variable = 1) # =&gt; variável discreta</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a>  <span class="co">#   new_leem(variable = 2) # =&gt; variável contínua</span></span>
-<span id="cb3-6"><a href="#cb3-6"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span> <span class="co"># Distribuição de frequência</span></span>
-<span id="cb3-7"><a href="#cb3-7"></a>  <span class="fu">mean</span>() <span class="co"># Cálculo da média</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a>  <span class="co"># Opções:</span></span>
-<span id="cb3-9"><a href="#cb3-9"></a>  <span class="co">#   mean(grouped = TRUE) # =&gt; Dados agrupados (Padrão)</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a>  <span class="co">#   mean(grouped = FALSE) # =&gt; Dados não agrupados</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>dado <span class="sc">|&gt;</span> <span class="co"># Entrada dos dados</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>  <span class="fu">new_leem</span>() <span class="sc">|&gt;</span> <span class="co"># Estruturando os dados a classe leem</span></span>
+<span id="cb4-3"><a href="#cb4-3"></a>  <span class="co"># Opções:</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a>  <span class="co">#   new_leem(variable = 1) # =&gt; variável discreta</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a>  <span class="co">#   new_leem(variable = 2) # =&gt; variável contínua</span></span>
+<span id="cb4-6"><a href="#cb4-6"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span> <span class="co"># Distribuição de frequência</span></span>
+<span id="cb4-7"><a href="#cb4-7"></a>  <span class="fu">mean</span>() <span class="co"># Cálculo da média</span></span>
+<span id="cb4-8"><a href="#cb4-8"></a>  <span class="co"># Opções:</span></span>
+<span id="cb4-9"><a href="#cb4-9"></a>  <span class="co">#   mean(grouped = TRUE) # =&gt; Dados agrupados (Padrão)</span></span>
+<span id="cb4-10"><a href="#cb4-10"></a>  <span class="co">#   mean(grouped = FALSE) # =&gt; Dados não agrupados</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="usando-o-leem-continuação" class="slide level2" data-background-image="cap02.png">
 <h2>Usando o <code>leem</code> (continuação…)</h2>
 <p>Exemplo 1 - Com agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>d1 <span class="sc">|&gt;</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
-<span id="cb4-3"><a href="#cb4-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb4-4"><a href="#cb4-4"></a>  <span class="fu">mean</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>d1 <span class="sc">|&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-3"><a href="#cb5-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4"></a>  <span class="fu">mean</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.7</code></pre>
 </div>
 </div>
 <p>Exemplo 1 - Sem agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>d1 <span class="sc">|&gt;</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
-<span id="cb6-3"><a href="#cb6-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb6-4"><a href="#cb6-4"></a>  <span class="fu">mean</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a>d1 <span class="sc">|&gt;</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb7-3"><a href="#cb7-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb7-4"><a href="#cb7-4"></a>  <span class="fu">mean</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.7</code></pre>
 </div>
@@ -703,20 +720,20 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <h2>Usando o <code>leem</code> (continuação…)</h2>
 <p>Exemplo 2 - Com agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb8-2"><a href="#cb8-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb8-3"><a href="#cb8-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb8-4"><a href="#cb8-4"></a>  <span class="fu">mean</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb9-4"><a href="#cb9-4"></a>  <span class="fu">mean</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 66.04</code></pre>
 </div>
 </div>
 <p>Exemplo 2 - Sem agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb10-2"><a href="#cb10-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb10-3"><a href="#cb10-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb10-4"><a href="#cb10-4"></a>  <span class="fu">mean</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb11-2"><a href="#cb11-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb11-3"><a href="#cb11-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb11-4"><a href="#cb11-4"></a>  <span class="fu">mean</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 65.86</code></pre>
 </div>
@@ -727,11 +744,11 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <p>Verificando a mediana no histograma:</p>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb12-2"><a href="#cb12-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb12-3"><a href="#cb12-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb12-4"><a href="#cb12-4"></a>  <span class="fu">hist</span>() <span class="sc">|&gt;</span></span>
-<span id="cb12-5"><a href="#cb12-5"></a>  <span class="fu">insert</span>(<span class="at">type =</span> <span class="st">"mean"</span>, <span class="at">side =</span> <span class="st">"left"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb13-2"><a href="#cb13-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb13-3"><a href="#cb13-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb13-4"><a href="#cb13-4"></a>  <span class="fu">hist</span>() <span class="sc">|&gt;</span></span>
+<span id="cb13-5"><a href="#cb13-5"></a>  <span class="fu">insert</span>(<span class="at">type =</span> <span class="st">"mean"</span>, <span class="at">side =</span> <span class="st">"left"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -1062,35 +1079,35 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <li>Funções: <code>new_leem()</code>, <code>tabfreq()</code>, <code>median()</code>, <code>insert()</code></li>
 </ul>
 </div>
-<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a>dado <span class="sc">|&gt;</span> <span class="co"># Entrada dos dados</span></span>
-<span id="cb14-2"><a href="#cb14-2"></a>  <span class="fu">new_leem</span>() <span class="sc">|&gt;</span> <span class="co"># Estruturando os dados a classe leem</span></span>
-<span id="cb14-3"><a href="#cb14-3"></a>  <span class="co"># Opções:</span></span>
-<span id="cb14-4"><a href="#cb14-4"></a>  <span class="co">#   new_leem(variable = 1) # =&gt; variável discreta</span></span>
-<span id="cb14-5"><a href="#cb14-5"></a>  <span class="co">#   new_leem(variable = 2) # =&gt; variável contínua</span></span>
-<span id="cb14-6"><a href="#cb14-6"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span> <span class="co"># Distribuição de frequência</span></span>
-<span id="cb14-7"><a href="#cb14-7"></a>  <span class="fu">median</span>() <span class="co"># Cálculo da mediana</span></span>
-<span id="cb14-8"><a href="#cb14-8"></a>  <span class="co"># Opções:</span></span>
-<span id="cb14-9"><a href="#cb14-9"></a>  <span class="co">#   median(grouped = TRUE) # =&gt; Dados agrupados (Padrão)</span></span>
-<span id="cb14-10"><a href="#cb14-10"></a>  <span class="co">#   median(grouped = FALSE) # =&gt; Dados não agrupados</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a>dado <span class="sc">|&gt;</span> <span class="co"># Entrada dos dados</span></span>
+<span id="cb15-2"><a href="#cb15-2"></a>  <span class="fu">new_leem</span>() <span class="sc">|&gt;</span> <span class="co"># Estruturando os dados a classe leem</span></span>
+<span id="cb15-3"><a href="#cb15-3"></a>  <span class="co"># Opções:</span></span>
+<span id="cb15-4"><a href="#cb15-4"></a>  <span class="co">#   new_leem(variable = 1) # =&gt; variável discreta</span></span>
+<span id="cb15-5"><a href="#cb15-5"></a>  <span class="co">#   new_leem(variable = 2) # =&gt; variável contínua</span></span>
+<span id="cb15-6"><a href="#cb15-6"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span> <span class="co"># Distribuição de frequência</span></span>
+<span id="cb15-7"><a href="#cb15-7"></a>  <span class="fu">median</span>() <span class="co"># Cálculo da mediana</span></span>
+<span id="cb15-8"><a href="#cb15-8"></a>  <span class="co"># Opções:</span></span>
+<span id="cb15-9"><a href="#cb15-9"></a>  <span class="co">#   median(grouped = TRUE) # =&gt; Dados agrupados (Padrão)</span></span>
+<span id="cb15-10"><a href="#cb15-10"></a>  <span class="co">#   median(grouped = FALSE) # =&gt; Dados não agrupados</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="usando-o-leem-continuação-3" class="slide level2" data-background-image="cap02.png">
 <h2>Usando o <code>leem</code> (continuação…)</h2>
 <p>Exemplo 1 - Com agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a>d1 <span class="sc">|&gt;</span></span>
-<span id="cb15-2"><a href="#cb15-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
-<span id="cb15-3"><a href="#cb15-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb15-4"><a href="#cb15-4"></a>  <span class="fu">median</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a>d1 <span class="sc">|&gt;</span></span>
+<span id="cb16-2"><a href="#cb16-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb16-3"><a href="#cb16-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb16-4"><a href="#cb16-4"></a>  <span class="fu">median</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.5</code></pre>
 </div>
 </div>
 <p>Exemplo 1 - Sem agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a>d1 <span class="sc">|&gt;</span></span>
-<span id="cb17-2"><a href="#cb17-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
-<span id="cb17-3"><a href="#cb17-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb17-4"><a href="#cb17-4"></a>  <span class="fu">median</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a>d1 <span class="sc">|&gt;</span></span>
+<span id="cb18-2"><a href="#cb18-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb18-3"><a href="#cb18-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb18-4"><a href="#cb18-4"></a>  <span class="fu">median</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.5</code></pre>
 </div>
@@ -1100,20 +1117,20 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <h2>Usando o <code>leem</code> (continuação…)</h2>
 <p>Exemplo 2 - Com agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb19-2"><a href="#cb19-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb19-3"><a href="#cb19-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb19-4"><a href="#cb19-4"></a>  <span class="fu">median</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb20-2"><a href="#cb20-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb20-3"><a href="#cb20-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb20-4"><a href="#cb20-4"></a>  <span class="fu">median</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 67.22</code></pre>
 </div>
 </div>
 <p>Exemplo 2 - Sem agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb21-2"><a href="#cb21-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb21-3"><a href="#cb21-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb21-4"><a href="#cb21-4"></a>  <span class="fu">median</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb22-2"><a href="#cb22-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb22-3"><a href="#cb22-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb22-4"><a href="#cb22-4"></a>  <span class="fu">median</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 67.5</code></pre>
 </div>
@@ -1124,11 +1141,11 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <p>Verificando a mediana no histograma:</p>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb23-2"><a href="#cb23-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb23-3"><a href="#cb23-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb23-4"><a href="#cb23-4"></a>  <span class="fu">hist</span>() <span class="sc">|&gt;</span></span>
-<span id="cb23-5"><a href="#cb23-5"></a>  <span class="fu">insert</span>(<span class="at">type =</span> <span class="st">"median"</span>, <span class="at">side =</span> <span class="st">"left"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb24-2"><a href="#cb24-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb24-3"><a href="#cb24-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb24-4"><a href="#cb24-4"></a>  <span class="fu">hist</span>() <span class="sc">|&gt;</span></span>
+<span id="cb24-5"><a href="#cb24-5"></a>  <span class="fu">insert</span>(<span class="at">type =</span> <span class="st">"median"</span>, <span class="at">side =</span> <span class="st">"left"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -1396,35 +1413,35 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <li>Funções: <code>new_leem()</code>, <code>tabfreq()</code>, <code>mfreq()</code>, <code>insert()</code></li>
 </ul>
 </div>
-<div class="sourceCode" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a>dado <span class="sc">|&gt;</span> <span class="co"># Entrada dos dados</span></span>
-<span id="cb25-2"><a href="#cb25-2"></a>  <span class="fu">new_leem</span>() <span class="sc">|&gt;</span> <span class="co"># Estruturando os dados a classe leem</span></span>
-<span id="cb25-3"><a href="#cb25-3"></a>  <span class="co"># Opções:</span></span>
-<span id="cb25-4"><a href="#cb25-4"></a>  <span class="co">#   new_leem(variable = 1) # =&gt; variável discreta</span></span>
-<span id="cb25-5"><a href="#cb25-5"></a>  <span class="co">#   new_leem(variable = 2) # =&gt; variável contínua</span></span>
-<span id="cb25-6"><a href="#cb25-6"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span> <span class="co"># Distribuição de frequência</span></span>
-<span id="cb25-7"><a href="#cb25-7"></a>  <span class="fu">mfreq</span>() <span class="co"># Cálculo da média</span></span>
-<span id="cb25-8"><a href="#cb25-8"></a>  <span class="co"># Opções:</span></span>
-<span id="cb25-9"><a href="#cb25-9"></a>  <span class="co">#   mfreq(grouped = TRUE) # =&gt; Dados agrupados (Padrão)</span></span>
-<span id="cb25-10"><a href="#cb25-10"></a>  <span class="co">#   mfreq(grouped = FALSE) # =&gt; Dados não agrupados</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a>dado <span class="sc">|&gt;</span> <span class="co"># Entrada dos dados</span></span>
+<span id="cb26-2"><a href="#cb26-2"></a>  <span class="fu">new_leem</span>() <span class="sc">|&gt;</span> <span class="co"># Estruturando os dados a classe leem</span></span>
+<span id="cb26-3"><a href="#cb26-3"></a>  <span class="co"># Opções:</span></span>
+<span id="cb26-4"><a href="#cb26-4"></a>  <span class="co">#   new_leem(variable = 1) # =&gt; variável discreta</span></span>
+<span id="cb26-5"><a href="#cb26-5"></a>  <span class="co">#   new_leem(variable = 2) # =&gt; variável contínua</span></span>
+<span id="cb26-6"><a href="#cb26-6"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span> <span class="co"># Distribuição de frequência</span></span>
+<span id="cb26-7"><a href="#cb26-7"></a>  <span class="fu">mfreq</span>() <span class="co"># Cálculo da média</span></span>
+<span id="cb26-8"><a href="#cb26-8"></a>  <span class="co"># Opções:</span></span>
+<span id="cb26-9"><a href="#cb26-9"></a>  <span class="co">#   mfreq(grouped = TRUE) # =&gt; Dados agrupados (Padrão)</span></span>
+<span id="cb26-10"><a href="#cb26-10"></a>  <span class="co">#   mfreq(grouped = FALSE) # =&gt; Dados não agrupados</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="usando-o-leem-continuação-6" class="slide level2" data-background-image="cap02.png">
 <h2>Usando o <code>leem</code> (continuação…)</h2>
 <p>Exemplo 1 - Com agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a>d1 <span class="sc">|&gt;</span></span>
-<span id="cb26-2"><a href="#cb26-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
-<span id="cb26-3"><a href="#cb26-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb26-4"><a href="#cb26-4"></a>  <span class="fu">mfreq</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a>d1 <span class="sc">|&gt;</span></span>
+<span id="cb27-2"><a href="#cb27-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb27-3"><a href="#cb27-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb27-4"><a href="#cb27-4"></a>  <span class="fu">mfreq</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1</code></pre>
 </div>
 </div>
 <p>Exemplo 1 - Sem agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1"></a>d1 <span class="sc">|&gt;</span></span>
-<span id="cb28-2"><a href="#cb28-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
-<span id="cb28-3"><a href="#cb28-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb28-4"><a href="#cb28-4"></a>  <span class="fu">mfreq</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1"></a>d1 <span class="sc">|&gt;</span></span>
+<span id="cb29-2"><a href="#cb29-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb29-3"><a href="#cb29-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb29-4"><a href="#cb29-4"></a>  <span class="fu">mfreq</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1</code></pre>
 </div>
@@ -1434,20 +1451,20 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <h2>Usando o <code>leem</code> (continuação…)</h2>
 <p>Exemplo 2 - Com agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb30-2"><a href="#cb30-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb30-3"><a href="#cb30-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb30-4"><a href="#cb30-4"></a>  <span class="fu">mfreq</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb31-2"><a href="#cb31-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb31-3"><a href="#cb31-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb31-4"><a href="#cb31-4"></a>  <span class="fu">mfreq</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 68.1 68.1</code></pre>
 </div>
 </div>
 <p>Exemplo 2 - Sem agrupamento</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb32-2"><a href="#cb32-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb32-3"><a href="#cb32-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb32-4"><a href="#cb32-4"></a>  <span class="fu">mfreq</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb33-2"><a href="#cb33-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb33-3"><a href="#cb33-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb33-4"><a href="#cb33-4"></a>  <span class="fu">mfreq</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 67 70</code></pre>
 </div>
@@ -1458,11 +1475,11 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <p>Verificando a moda no histograma:</p>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb34-2"><a href="#cb34-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb34-3"><a href="#cb34-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb34-4"><a href="#cb34-4"></a>  <span class="fu">hist</span>() <span class="sc">|&gt;</span></span>
-<span id="cb34-5"><a href="#cb34-5"></a>  <span class="fu">insert</span>(<span class="at">type =</span> <span class="st">"mode"</span>, <span class="at">side =</span> <span class="st">"left"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb35-2"><a href="#cb35-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb35-3"><a href="#cb35-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb35-4"><a href="#cb35-4"></a>  <span class="fu">hist</span>() <span class="sc">|&gt;</span></span>
+<span id="cb35-5"><a href="#cb35-5"></a>  <span class="fu">insert</span>(<span class="at">type =</span> <span class="st">"mode"</span>, <span class="at">side =</span> <span class="st">"left"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -1481,9 +1498,9 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <div class="column" style="width:50%;">
 <p><font size="+2"></font></p><font size="+2">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb35-2"><a href="#cb35-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb35-3"><a href="#cb35-3"></a>  <span class="fu">tabfreq</span>(<span class="at">k =</span> <span class="dv">5</span>) <span class="co"># Apenas com 5 classes</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb36-2"><a href="#cb36-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb36-3"><a href="#cb36-3"></a>  <span class="fu">tabfreq</span>(<span class="at">k =</span> <span class="dv">5</span>) <span class="co"># Apenas com 5 classes</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Tabela de frequência 
@@ -1553,11 +1570,11 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <p>Inserindo as três medidas no histograma:</p>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1"></a>d2 <span class="sc">|&gt;</span></span>
-<span id="cb37-2"><a href="#cb37-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb37-3"><a href="#cb37-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
-<span id="cb37-4"><a href="#cb37-4"></a>  <span class="fu">hist</span>() <span class="sc">|&gt;</span></span>
-<span id="cb37-5"><a href="#cb37-5"></a>  <span class="fu">insert</span>(<span class="at">type =</span> <span class="st">"all"</span>, <span class="at">larrow =</span> <span class="fl">0.4</span>, <span class="at">lcol =</span> <span class="fu">c</span>(<span class="st">"red"</span>, <span class="st">"blue"</span>, <span class="st">"black"</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1"></a>d2 <span class="sc">|&gt;</span></span>
+<span id="cb38-2"><a href="#cb38-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb38-3"><a href="#cb38-3"></a>  <span class="fu">tabfreq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb38-4"><a href="#cb38-4"></a>  <span class="fu">hist</span>() <span class="sc">|&gt;</span></span>
+<span id="cb38-5"><a href="#cb38-5"></a>  <span class="fu">insert</span>(<span class="at">type =</span> <span class="st">"all"</span>, <span class="at">larrow =</span> <span class="fl">0.4</span>, <span class="at">lcol =</span> <span class="fu">c</span>(<span class="st">"red"</span>, <span class="st">"blue"</span>, <span class="st">"black"</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
