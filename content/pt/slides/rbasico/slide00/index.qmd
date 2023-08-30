@@ -11,7 +11,8 @@ csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 lang: "pt-br"
 format: 
   revealjs:
-    theme: dark
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -42,7 +43,7 @@ revealjs-plugins:
 editor: source
 ---
 
-## Encarte {background-image="EAR-rbasico-background-02.png"}
+# Encarte {background-image="EAR-rbasico-background-02.png"}
 
 <center>
 
@@ -50,9 +51,8 @@ editor: source
 
 </center>
 
-------------------------------------------------------------------------
 
-## Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
@@ -60,9 +60,46 @@ editor: source
 
 </a>
 
-------------------------------------------------------------------------
+# Apoio CEAC {background-image="EAR-rbasico-background-02.png"}
 
-## Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
 Usaremos @batista2021:
 
@@ -72,22 +109,19 @@ Usaremos @batista2021:
 
 </a>
 
-------------------------------------------------------------------------
 
-## Objetivo do curso {background-image="EAR-rbasico-background-02.png"}
+# Objetivo do curso {background-image="EAR-rbasico-background-02.png"}
 
 -   O EAR: R básico **não** tem como objetivo principal de **ensinar análise de dados**.
 -   Mas **sim**, proporcionar o **conhecimento sobre a linguagem R** (sintaxe e semântica), de modo que se consiga usufruir todos os recursos da linguagem.
 
-------------------------------------------------------------------------
 
-## {data-background-interactive="true" data-background-iframe="<https://bendeivide.github.io/courses/ear/>"}
+# {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/ear/"}
 
 Página do curso
 
-------------------------------------------------------------------------
 
-## Obrigado {background-image="EAR-rbasico-background-02.png"}
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
 
 Sugestões, perguntas, críticas...
 
@@ -97,6 +131,4 @@ Sugestões, perguntas, críticas...
 
 </a>
 
-------------------------------------------------------------------------
-
-## Referências {background-image="EAR-rbasico-background-02.png"}
+# Referências {background-image="EAR-rbasico-background-02.png"}

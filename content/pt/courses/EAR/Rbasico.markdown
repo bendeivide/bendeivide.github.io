@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-08-17 07:31:05"
+date: "2023-08-30 14:52:16"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -35,8 +35,24 @@ c
 
 - <a href="/slides/ceac/index.html" target="_blank">CEAC/UFSJ: Clube de Engenharia Assistida por Computador</a>
   - <i class="fab fa-instagram"></i> [@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+- [UFSJ](https://ufsj.edu.br)
 
-{{< figure src="ceac.png" width="50%" >}}
+<div class="row">
+  <div class="col-md-8" markdown="1">
+  
+  {{< figure src="ceac.png" width="60%" >}}
+  
+  </div>
+  <div class="col-md-4" markdown="1">
+  
+  <!-- ![Alt Text](../img/folder/blah.jpg) -->
+  {{< figure src="ufsj.png" width="100%" >}}
+  
+  </div>
+</div>
+
+
+
 
 
 ## <i class="fas fa-chalkboard-teacher"></i>  Apresentação {id="apresentacao" title="Clique aqui!"}
@@ -73,7 +89,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 ## <i class="fa fa-link"></i> Inscrição do curso {id="inscricao" title="Clique aqui!"}
 
-- <i class="fas fa-calendar-day"></i> Período de nscrição: **Início: 10/09/2023  Término: 12/09/2023** 
+- <i class="fas fa-calendar-day"></i> Período de nscrição: **Início: 09/08/2023  Término: 12/09/2023** 
 
 {{< gdocs src="https://forms.gle/PMaMhtPRDoa6F1kF9">}}
 
@@ -466,9 +482,9 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< /spoiler >}}
 
-{{< spoiler text=":blue_book: Aula 19 - Boas práticas de como escrever um código" >}}
+{{< spoiler text=":blue_book: Aula 19 - Pacotes" >}}
 
-{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Boas práticas de como escrever um código
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Pacotes
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide19/index.html" target="_blank">Aula 19</a>
 {{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
 {{< icon name="headphones" pack="fas" >}} __Podcast__
