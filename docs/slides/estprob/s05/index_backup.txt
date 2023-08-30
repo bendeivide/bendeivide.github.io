@@ -1,0 +1,256 @@
+---
+title: "Estatística e Probabilidade"
+subtitle: "Aula 04 - Exercícios sobre Coleta, organização e apresentação de dados"
+title-slide-attributes:
+    data-background-image: cap.png
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EPAEC](https://bendeivide.github.io/courses/epaec/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2023:
+
+<a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+
+# Exemplos {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+<font size="+3">
+1. Exemplo [@devore2005, p. 18]: Cada membro de uma amostra de 120 individuos proprietarios de motocicletas foi indagado sobre a marca de sua moto. A distribuicao de freqencia dos dados resultantes é fornecida nos dados abaixo:
+
+<font size="+1">
+```{r, echo=FALSE, warning=FALSE}
+dado <- c(rep("honda", 41), rep("yamaha", 27),
+          rep("kawasaki", 20), 
+          rep("harley-davidson", 18), rep("bmw", 3),
+          rep("outro", 11))
+dados <- matrix(dado, 4, 30)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+</font>
+
+</font>
+
+:::
+
+
+## Exemplos {background-image="cap02.png"}
+
+
+
+::: {.nonincremental}
+
+<font size="+3">
+2. Exemplo [@devore2005, p. 21]: Os transdutores de temperatura de um determinado tipo
+são enviados em lotes de 50. Uma amostra de 60 lotes
+foi selecionada e o número de transdutores fora das especificações
+em cada lote foi determinado, resultando
+nos dados a seguir:
+
+<font size="+2">
+```{r, echo=FALSE, warning=FALSE}
+dado <- c(2,1,2,4,0,1,3,2,0,5,3,3,1,3,2,4,7,0,2,3,
+  0,4,2,1,3,1,1,3,4,1,2,3,2,2,8,4,5,1,3,1,
+  5,0,2,3,2,1,0,6,4,2,1,6,0,3,3,3,6,1,2,3)
+dados <- matrix(dado, 3, 20)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+</font>
+
+</font>
+
+:::
+
+
+## Exemplos {background-image="cap02.png"}
+
+
+
+::: {.nonincremental}
+
+<font size="+3">
+3. Exemplo [@batista2023, p. 69]: Dados representam a  planta de fabricação de semicondutores. Nessa planta, o semicondutor é um fio colado a uma estrutura. A variável em estudo representa a resistência à tração ($lbf/pol^2$), isto é, uma força requerida para romper a cola. Os dados são apresentados a seguir.
+
+<font size="+2">
+```{r, echo=FALSE, warning=FALSE}
+dado <- c(9.95, 24.45, 31.75, 35, 25.02,
+          16.86, 14.38, 9.6, 24.35, 27.5,
+          17.08, 37, 41.95, 11.66, 21.65,
+          17.89, 69, 10.3, 34.93, 46.59,
+          44.88, 54.12, 56.63, 22.13, 21.15, "")
+dados <- matrix(dado, 2, 13)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+</font>
+
+</font>
+
+:::
+
+# Vamos usar o `leem`
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- Pré-requisitos:
+  - [R](https://www.r-project.org/)
+  - [RStudio](https://posit.co/download/rstudio-desktop/)
+  - [Pacote leem](https://github.com/bendeivide/leem)
+  - [*Script* para aula 04]()
+
+:::
+
+::: {.column width="40%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
+
+# Referências {background-image="cap02.png"}
+
+
+
+
+<!-- 
+
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="90%"}
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atot |>
+  new_leem(variable = 2) # ou new_leem(variable = "continuous")
+```
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
+atotleem
+class(atotleem)
+```
+
+:::
+
+::: {.column width="10%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+
+-->

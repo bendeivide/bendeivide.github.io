@@ -1,0 +1,987 @@
+---
+title: "Estatística e Probabilidade"
+subtitle: "Aula 05 - Medidas de posição"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EPAEC](https://bendeivide.github.io/courses/epaec/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2023:
+
+<a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Tipos de medidas {background-image="cap02.png"}
+
+- Média aritmética
+- Mediana
+- Moda
+
+
+# Média Aritmética {background-image="cap02.png"}
+
+
+<font size="+3">
+
+> **Definição (Média aritmética)**: Seja uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, de uma população $X_1$, $X_2$, $\ldots$, $X_N$, de tamanhos $n$ e $N$, respectivamente, definimos a média aritmética por:
+>
+> \begin{align*}
+>    \mu & = \frac{\displaystyle\sum_{i=1}^{N}X_i}{N}, \quad \textrm{(População)}
+> \end{align*}
+> e
+> \begin{align*}
+>   \bar{X} = \frac{\displaystyle\sum_{i=1}^{n}X_i}{n}. \quad \textrm{(Amostra)}
+> \end{align*}
+
+</font>
+
+## Média Aritmética (Dados agrupados) {background-image="cap02.png"}
+
+<font size="+3">
+
+> **Definição (Média aritmética):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de tamanho $n$, agrupados em $k$ grupos com variáveis $X_i$ e frequência $F_i$, ou $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a média aritmética de uma amostra, é definida por:
+  \begin{align}\label{eq:mediaagrup}
+    \bar{X} & = \left\{\begin{array}{ll}
+                   \frac{\sum_{i = 1}^{k}X_i \times F_i}{\sum_{i = 1}^{k}F_i}, &  \textrm{agrupados sem intervalo de classe}, \\
+                   &\\
+                   \frac{\sum_{i = 1}^{k}\tilde{X}_i \times F_i}{\sum_{i = 1}^{k}F_i}, &  \textrm{agrupados com intervalo de classe},\\
+                 \end{array}\right.
+\end{align}
+  sendo $\tilde{X}_{i}$ o ponto médio das classes.
+
+</font>
+
+
+## Exemplo 1 - Número de erros {background-image="cap02.png"}
+
+Dados do número de erros encontrados em 20 conjuntos de caracteres monitorado em um canal de comunicação.
+
+```{r erroscanal, echo=FALSE, warning=FALSE}
+d1 <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados1 <- matrix(d1, 2, 10, byrow = TRUE)
+knitr::kable(
+  dados1, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+- \begin{align*}
+  \bar{X} =  \frac{3 + 1 + \ldots + 1}{20}=\frac{34}{20}= 1,7~\textrm{erros}.
+\end{align*}
+
+## Exemplo 1 - Número de erros {background-image="cap02.png"}
+
+Retornando o exemplo anterior...
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+<font size="+3">
+
+\begin{align*}
+    \bar{X} & =  \sum_{i=1}^{n}\tilde{X}_if_i /    \sum_{i=1}^{n}f_i \\
+    & = \frac{0 \times 3 + \ldots + 5 \times 4}{20}\\
+    & = 1,7~\textrm{erros}.
+\end{align*}
+
+</font>
+
+:::
+
+::: {.column width="60%"}
+
+```{r, echo=FALSE, eval=TRUE}
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq()
+
+```
+
+:::
+
+::::
+
+
+## Exemplo 2 - Challenger {background-image="cap02.png"}
+
+Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger
+
+```{r, echo=FALSE, warning=FALSE, }
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d2 <- d2$chal
+dados2 <- matrix(d2, 3, 12)
+knitr::kable(
+  dados2, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+## Exemplo (continuação...) {background-image="cap02.png"}
+
+Retornando o exemplo anterior...
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+<font size="+2">
+
+\begin{align*}
+    \bar{X} & =  \sum_{i=1}^{n}\tilde{X}_if_i /    \sum_{i=1}^{n}f_i \\
+    & = \frac{31 \times 1 + \ldots + 41.6 \times 2}{20}\\
+    & = 66,04~\textrm{°F}.
+\end{align*}
+
+</font>
+
+:::
+
+::: {.column width="60%"}
+
+<font size="+3">
+
+```{r, echo=FALSE, eval=TRUE}
+dados <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = T)
+dados$challenger |>
+  new_leem(variable = 2) |>
+  tabfreq()
+
+```
+
+</font>
+
+:::
+
+::::
+
+## Usando o `leem` {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Exemplo 1 - Número de erros
+- Exemplo 2 - Challenger
+- Funções: `new_leem()`, `tabfreq()`, `mean()`, `insert()`
+
+:::
+
+
+
+```r
+dado |> # Entrada dos dados
+  new_leem() |> # Estruturando os dados a classe leem
+  # Opções:
+  #   new_leem(variable = 1) # => variável discreta
+  #   new_leem(variable = 2) # => variável contínua
+  tabfreq() |> # Distribuição de frequência
+  mean() # Cálculo da média
+  # Opções:
+  #   mean(grouped = TRUE) # => Dados agrupados (Padrão)
+  #   mean(grouped = FALSE) # => Dados não agrupados
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Exemplo 1 - Com agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  mean()
+```
+
+Exemplo 1 - Sem agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  mean(grouped = FALSE)
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Exemplo 2 - Com agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  mean()
+```
+
+Exemplo 2 - Sem agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  mean(grouped = FALSE)
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Verificando a mediana no histograma:
+
+. . .
+
+```{r, echo=TRUE, eval=TRUE, out.width="70%", fig.align='center'}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  hist() |>
+  insert(type = "mean", side = "left")
+```
+
+
+
+## Características da média {background-image="cap02.png"}
+
+<font size="+3">
+
+- a unidade da média está na mesma escala da variável em estudo;
+- a média é uma das medidas mais conhecidas e utilizadas, devido as suas propriedades estatísticas que serão vistas nos capítulos seguintes;
+- é única para cada conjunto de dados;
+- usada apenas para variáveis quantitativas;
+- não pode ser calculada para dados agrupados que apresentam classes extremas abertas;
+- é influenciada por dados discrepantes.
+
+</font>
+
+## Propriedades da média {background-image="cap02.png"}
+
+<font size="+3">
+
+> **Teorema:** Baseado na Definição sobre a média, e considerando $c$ uma constante, então:
+>
+> - Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$, a média aritmética é dada por $\bar{X} = \frac{\sum_{i=1}^{n}X_i}{n}$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova média aritmética é dada por $\bar{Y} = \bar{X} \pm c$;
+>
+> - Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$, a média aritmética é dada por $\bar{X} = \frac{\sum_{i=1}^{n}X_i}{n}$, então para uma transformação de $Y_i = X_i \times c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova média aritmética é dada por $\bar{Y} = \bar{X} \times c$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
+> - A soma de quadrado de desvios dos dados em relação a uma constante $c$, é minimizada se $c = \bar{X}$.
+
+</font>
+
+
+# Mediana {background-image="cap02.png"}
+
+<font size="+3">
+**Definição (Mediana):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de uma população $X_1$, $X_2$, \ldots, $X_N$, de tamanhos $n$ e $N$, respectivamente, definimos a mediana \index{medidas de posição!mediana} por:
+  \begin{align*}
+    \mu_d(X) & = \left\{\begin{array}{ll}
+      \frac{X_{(\frac{N}{2})} + X_{\left( \frac{N}{2} + 1
+          \right)}}{2}, & \textrm{se } N  \textrm{ for par} \\
+          & \\
+      X_{(\frac{N + 1}{2})}, & \textrm{se } N  \textrm{ for ímpar} \\
+    \end{array}\right., \quad \textrm{(População)}
+  \end{align*}
+</font>
+
+## Mediana (continuação...) {background-image="cap02.png"}
+
+<font size="+3">
+**(Continuação...):** sendo $\mu_d(X)$ a mediana populacional e que $X_{(i)}$ é a $(i)$-ésima variável em ordem crescente de magnitude, tal que $X_{(1)} = \min\limits_{i}X_i$ e $X_{(n)} = \max\limits_{i}X_i$. De modo similar,
+  \begin{align*}
+    Md(X) & = \left\{\begin{array}{ll}
+      \frac{X_{(\frac{n}{2})} + X_{\left( \frac{n}{2} + 1
+          \right)}}{2}, & \textrm{se } n  \textrm{ for par} \\
+          & \\
+      X_{(\frac{n + 1}{2})}, & \textrm{se } n  \textrm{ for ímpar} \\
+    \end{array}\right., \quad \textrm{(Amostra)}
+  \end{align*}
+  sendo $Md(X)$ a mediana amostral e que $X_{(i)}$ é a $(i)$-ésima variável em ordem crescente de magnitude, tal que $X_{(1)} = \min\limits_{i}X_i$ e $X_{(n)} = \max\limits_{i}X_i$.
+</font>
+
+
+## Mediana (Agrupamento com classes) {background-image="cap02.png"}
+
+<font size="+3">
+
+> **Definição (Mediana):**  Seja uma amostra $X_{(1)}$, $X_{(2)}$, \ldots, $X_{(n)}$ em ordem crescente de magnitude, de tamanho $n$, agrupados em $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a mediana amostral é definida por:
+\begin{align*}
+  Md(X) = LI_{Md} + \left\lbrace \frac{\frac{n}{2}-f_{ant}}{f_{Md}}\right\rbrace \times c.
+\end{align*}
+em que $LI_{Md}$ é o limite inferior da classe da mediana, $f_{ant}$ é a frequência acumulada (*abaixo de*) anterior a classe da mediana, $f_{Md}$ frequência absoluta da classe da mediana, $c$ a amplitude da classe da mediana, 
+
+</font>  
+
+## Mediana (continuação...) {background-image="cap02.png"}
+
+<font size="+3">
+
+**(continuação...):** ou de forma similar,
+\begin{align*}
+    Md(X) = LS_{Md} - \left\lbrace \frac{\frac{n}{2}-f_{post}}{f_{Md}} \right\rbrace \times c.
+\end{align*}
+  em que $LS_{Md}$ é o limite superior da classe da mediana e $f_{post}$ é a frequência acumulada (*acima de*) posterior a classe da mediana.
+
+</font>
+
+## Exemplo 1 - Número de erros {background-image="cap02.png"}
+
+<font size="+3">
+
+Dados do número de erros encontrados em 20 conjuntos de caracteres monitorado em um canal de comunicação.
+
+```{r, echo=FALSE, warning=FALSE}
+d1 <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados1 <- matrix(d1, 2, 10, byrow = TRUE)
+knitr::kable(
+  dados1, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+. . .
+
+Ordenando os dados, temos:
+
+```{r, echo=FALSE, warning=FALSE}
+d1 <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados1 <- matrix(sort(d1), 2, 10, byrow = TRUE)
+knitr::kable(
+  dados1, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+. . .
+
+Calculando a mediana, temos:
+
+
+
+\begin{align*}
+  Md(X) =  \frac{X_{(\frac{20}{2})} + X_{\left( \frac{20}{2} + 1
+          \right)}}{2} = \frac{X_{(10)} + X_{(11)}}{2} = \frac{1 + 2}{2} = 1,5~\textrm{erros}.
+\end{align*}
+
+</font>
+
+
+## Exemplo 2 - Challenger {background-image="cap02.png"}
+
+<font size="+3">
+
+Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger
+
+```{r, echo=FALSE, warning=FALSE, }
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d2 <- d2$chal
+dados2 <- matrix(d2, 3, 12)
+knitr::kable(
+  dados2, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+. . .
+
+Ordenando os dados, temos:
+
+```{r, echo=FALSE, warning=FALSE, }
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d2 <- d2$chal
+dados2 <- matrix(sort(d2), 3, 12, byrow = TRUE)
+knitr::kable(
+  dados2, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+</font>
+
+## Exemplo (continuação...) {background-image="cap02.png"}
+
+Retornando o exemplo anterior...
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+1">
+
+Sem agrupamento, temos:
+
+\begin{align*}
+  Md(X) & =  \frac{X_{(\frac{36}{2})} + X_{\left( \frac{36}{2} + 1
+          \right)}}{2}\\
+        & = \frac{X_{(18)} + X_{(19)}}{2} = \frac{67 + 68}{2}\\
+        & = 67,5~\textrm{°F}.
+\end{align*}
+
+
+
+Com o agrupamento, temos:
+
+\begin{align*}
+    Md(X) & =  LI_{Md} + \left\lbrace \frac{\frac{n}{2}-f_{ant}}{f_{Md}}\right\rbrace \times c \\
+    & = 57,5 + \left\lbrace \frac{\frac{36}{2}-7}{12}\right\rbrace \times (68,1 - 57,5)\\
+    & = 57,5 + \left\lbrace \frac{18-7}{12}\right\rbrace \times (10,6)\\ 
+    & = 67,22~\textrm{°F}.
+\end{align*}
+
+</font>
+
+:::
+
+::: {.column width="50%"}
+
+<font size="+2">
+
+```{r, echo=FALSE, eval=TRUE}
+dados <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = T)
+dados$challenger |>
+  new_leem(variable = 2) |>
+  tabfreq()
+
+```
+
+</font>
+
+:::
+
+::::
+
+## Usando o `leem` {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Exemplo 1 - Número de erros
+- Exemplo 2 - Challenger
+- Funções: `new_leem()`, `tabfreq()`, `median()`, `insert()`
+
+:::
+
+
+
+```r
+dado |> # Entrada dos dados
+  new_leem() |> # Estruturando os dados a classe leem
+  # Opções:
+  #   new_leem(variable = 1) # => variável discreta
+  #   new_leem(variable = 2) # => variável contínua
+  tabfreq() |> # Distribuição de frequência
+  median() # Cálculo da mediana
+  # Opções:
+  #   median(grouped = TRUE) # => Dados agrupados (Padrão)
+  #   median(grouped = FALSE) # => Dados não agrupados
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Exemplo 1 - Com agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  median()
+```
+
+Exemplo 1 - Sem agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  median(grouped = FALSE)
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Exemplo 2 - Com agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  median()
+```
+
+Exemplo 2 - Sem agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  median(grouped = FALSE)
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Verificando a mediana no histograma:
+
+. . .
+
+```{r, echo=TRUE, eval=TRUE, out.width="70%", fig.align='center'}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  hist() |>
+  insert(type = "median", side = "left")
+```
+
+
+## Características da mediana {background-image="cap02.png"}
+
+<font size="+3">
+
+- A mediana não é influenciada por valores extremos;
+- Uma medida que pode ser obtida em distribuições de frequências que apresentam classe com limites indefinidos;
+- o resultado da mediana é obtida na mesma escala da variavel em estudo;
+- a mediana é menos informativa que a média, por não levar em consideração os valores observados, mas as posições dessas observações;
+- a mediana pode ser calculada em variáveis qualitativas ordinais, cuja média não pode ser obtida;
+- a mediana ainda pode ser obtida em um conjunto de dados em que alguns valores ainda não foram registrados, caso em que a média não pode ser obtida.
+
+</font>
+
+## Propriedades da mediana {background-image="cap02.png"}
+
+<font size="+2">
+
+> **Teorema:** Baseado na Definição sobre a mediana, e considerando $c$ uma constante, então:
+>
+> - Se para uma amostra $X_{(1)}$, $X_{(2)}$, $\ldots$, $X_{(n)}$ em ordem crescente de magnitude, a mediana é dada por $Md{X} = X_{(\frac{n + 1}{2})}$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a mediana aritmética é dada por $Md(Y) = Md(X) \pm c$;
+> - Se para uma amostra $X_{(1)}$, $X_{(2)}$, $\ldots$, $X_{(n)}$ em ordem crescente de magnitude, a mediana é dada por $Md(X) = X_{(\frac{n + 1}{2})}$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova mediana é dada por $Md(Y) = Md(X) \times c$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
+> - A soma do módulo dos desvios dos dados em relação a uma constante arbitrária $c$, terá um valor mínimo se $c=Md(X)$.
+
+
+</font>
+
+
+# Moda {background-image="cap02.png"}
+
+<font size="+3">
+**Definição (Moda para dados discretizados):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de uma população $X_1$, $X_2$, $\ldots$, $X_N$, de tamanhos $n$ e $N$, respectivamente, cuja natureza da variável é discretizada\footnote{Entendemos que uma variável tem natureza discretizada quando seus potenciais valores assumem em um conjunto enumerável ou categorizado, isto é, variável quantitativa discreta e variáveis qualitativas.}. Então a moda \index{medidas de posição!moda} representa o valor que mais se repete em um conjunto de dados. Denotamos $\mu_o$ a moda populacional, e $Mo(X)$ a moda amostral.
+</font>
+
+## Moda (Agrupamento com classes) {background-image="cap02.png"}
+
+<font size="+3">
+
+> **Definição (Moda):**  Seja uma amostra $X_{(1)}$, $X_{(2)}$, \ldots, $X_{(n)}$ em ordem crescente de magnitude, de tamanho $n$, agrupados em $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a moda amostral é definida por:
+\begin{align}
+Mo(X) & = LI_{Mo} + \left\lbrace \frac{\Delta_1}{\Delta_1 + \Delta_2}\right \rbrace \times c,
+\end{align}
+em que $LI_{Mo}$ o limite inferior da classe da moda, $\Delta_1 = f_{Mo} - f_{i_{ant}}$, $\Delta_2 = f_{Mo} - f_{i_{post}}$, $f_{Mo}$ é a frequência absoluta da classe da moda, $f_{i_{ant}}$ frequência absoluta anterior à classe da moda, $f_{i_{post}}$ frequência posterior à classe da moda, e $c$ a amplitude da classe.
+
+</font>  
+
+
+## Exemplo 1 - Número de erros {background-image="cap02.png"}
+
+Dados do número de erros encontrados em 20 conjuntos de caracteres monitorado em um canal de comunicação.
+
+```{r, echo=FALSE, warning=FALSE}
+d1 <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados1 <- matrix(d1, 2, 10, byrow = TRUE)
+knitr::kable(
+  dados1, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+. . .
+
+Calculando a moda, temos:
+
+
+
+\begin{align*}
+  Mo(X) =  1,0~\textrm{erros}.
+\end{align*}
+
+
+
+
+## Exemplo 2 - Challenger {background-image="cap02.png"}
+
+<font size="+3">
+
+Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger
+
+```{r, echo=FALSE, warning=FALSE, }
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d2 <- d2$chal
+dados2 <- matrix(d2, 3, 12)
+knitr::kable(
+  dados2, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+. . .
+
+Ordenando os dados, temos:
+
+```{r, echo=FALSE, warning=FALSE, }
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d2 <- d2$chal
+dados2 <- matrix(sort(d2), 3, 12, byrow = TRUE)
+knitr::kable(
+  dados2, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+</font>
+
+## Exemplo (continuação...) {background-image="cap02.png"}
+
+Retornando o exemplo anterior...
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+1">
+
+Sem agrupamento, temos:
+
+\begin{align*}
+  Mo(X) & = 67~\textrm{°F},~70~\textrm{°F}.
+\end{align*}
+
+
+
+Com o agrupamento, temos:
+
+\begin{align*}
+    Mo(X)_1 & =  LI_{Mo} + \left\lbrace \frac{\Delta_1}{\Delta_1 + \Delta_2}\right \rbrace \times c \\
+    & = 57,5 + \left\lbrace \frac{12 - 4}{(12 - 4) + (12 - 12)}\right\rbrace \times (68,1 - 57,5)\\
+    & = 68,1~\textrm{°F}.
+\end{align*}
+
+\begin{align*}
+    Mo(X)_2 & =  LI_{Mo} + \left\lbrace \frac{\Delta_1}{\Delta_1 + \Delta_2}\right \rbrace \times c \\
+    & = 68,1 + \left\lbrace \frac{12 - 12}{(12 - 12) + (12 - 5)}\right\rbrace \times (68,1 - 57,5)\\
+    & = 68,1~\textrm{°F}.
+\end{align*}
+
+</font>
+
+:::
+
+::: {.column width="50%"}
+
+<font size="+2">
+
+```{r, echo=FALSE, eval=TRUE}
+dados <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = T)
+dados$challenger |>
+  new_leem(variable = 2) |>
+  tabfreq()
+
+```
+
+</font>
+
+:::
+
+::::
+
+## Usando o `leem` {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Exemplo 1 - Número de erros
+- Exemplo 2 - Challenger
+- Funções: `new_leem()`, `tabfreq()`, `mfreq()`, `insert()`
+
+:::
+
+
+
+```r
+dado |> # Entrada dos dados
+  new_leem() |> # Estruturando os dados a classe leem
+  # Opções:
+  #   new_leem(variable = 1) # => variável discreta
+  #   new_leem(variable = 2) # => variável contínua
+  tabfreq() |> # Distribuição de frequência
+  mfreq() # Cálculo da média
+  # Opções:
+  #   mfreq(grouped = TRUE) # => Dados agrupados (Padrão)
+  #   mfreq(grouped = FALSE) # => Dados não agrupados
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Exemplo 1 - Com agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  mfreq()
+```
+
+Exemplo 1 - Sem agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d1 |>
+  new_leem(variable = 1) |>
+  tabfreq() |>
+  mfreq(grouped = FALSE)
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Exemplo 2 - Com agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  mfreq()
+```
+
+Exemplo 2 - Sem agrupamento
+
+```{r, echo=TRUE, eval=TRUE}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  mfreq(grouped = FALSE)
+```
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Verificando a moda no histograma:
+
+. . .
+
+
+```{r, echo=TRUE, eval=TRUE, out.width="70%", fig.align='center'}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  hist() |>
+  insert(type = "mode", side = "left")
+```
+
+
+## Usando o `leem` (continuação...) {background-image="cap02.png"}
+
+Rearrajando as classes ...
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+2">
+
+```{r, echo=TRUE, eval=TRUE, out.width="70%", fig.align='center'}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq(k = 5) # Apenas com 5 classes
+```
+
+</font>
+
+:::
+
+::: {.column width="50%"}
+
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%", fig.align='center'}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq(k = 5) |> # Apenas com 5 classes
+  hist() |>
+  insert(type = "mode", side = "left")
+```
+
+
+:::
+
+::::
+
+## Características da moda {background-image="cap02.png"}
+
+<font size="+3">
+
+- A moda não é influenciada por valores extremos, desde que estes não pertençam a classe modal;
+- Uma medida que pode ser obtida em distribuições de frequências que apresentam classe com limites indefinidos;
+-  o resultado da moda é obtida na mesma escala da variavel em estudo;
+-  a moda é menos informativa que a média, por não levar em consideração os valores observados;
+- a moda pode ser calculada para todas as naturezas de variáveis;
+- a moda é a medida mais simples dentre as apresentadas;
+
+
+</font>
+
+## Propriedades da moda {background-image="cap02.png"}
+
+<font size="+3">
+
+> **Teorema:** Baseado na Definição sobre a moda, e considerando $c$ uma constante, então:
+>
+> - Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$ em ordem crescente de magnitude, a moda representa o valor de maior frequência e representado por $Mo(X)$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a moda é dada por $Mo(Y) = Mo(X) \pm c$;
+> -  Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$ em ordem crescente de magnitude, a moda representa o valor de maior frequência e representado por $Mo(X)$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova moda é dada por $Mo(Y) = Mo(X) \times c$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
+
+
+</font>
+
+
+# Usando o `leem` {background-image="cap02.png"}
+
+Inserindo as três medidas no histograma:
+
+. . . 
+
+```{r, echo=TRUE, eval=TRUE, out.width="70%", fig.align='center'}
+d2 |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  hist() |>
+  insert(type = "all", larrow = 0.4, lcol = c("red", "blue", "black"))
+```
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
+
+# Referências {background-image="cap02.png"}
+
+
+
+
+<!-- 
+
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="90%"}
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atot |>
+  new_leem(variable = 2) # ou new_leem(variable = "continuous")
+```
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
+atotleem
+class(atotleem)
+```
+
+:::
+
+::: {.column width="10%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+
+-->
