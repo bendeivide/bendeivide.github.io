@@ -3,7 +3,6 @@ title: "EAR: R Básico"
 subtitle: "Aula 05 - Comandos no R e Ambiente Global"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
-
 author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
 bibliography: biblio.bib
 link-citations: true
