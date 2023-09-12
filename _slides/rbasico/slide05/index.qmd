@@ -43,21 +43,6 @@ revealjs-plugins:
 editor: source
 ---
 
-<!-- Gera problema de compilacao -->
-```{r setup, include=FALSE}
-# knitr::opts_chunk$set(echo = FALSE)
-# # Cor de fonte
-# colorize <- function(x, color) {
-#   if (knitr::is_latex_output()) {
-#     sprintf("\\textcolor{%s}{%s}", color, x)
-#   } else if (knitr::is_html_output()) {
-#     sprintf("<span style='color: %s;'>%s</span>", color,
-#       x)
-#   } else x
-# }
-```
-
-
 # Encarte {background-image="EAR-rbasico-background-02.png"}
 
 <center>
@@ -215,6 +200,20 @@ invisible(10.5 + 15.5)
 ```
 
 ## Atribuições {background-image="EAR-rbasico-background-02.png"}
+
+<!-- Gera problema de compilacao -->
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Cor de fonte
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
 
 > Atribuição: Símbolo "`<-`", um operador que associa um nome a um determinado "resultado"
 
