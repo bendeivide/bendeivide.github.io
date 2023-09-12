@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-09-12 11:32:57"
+date: "2023-09-12 16:29:00"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -141,7 +141,472 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
   - {{< icon name="book-reader" pack="fas" >}} [R básico (Bookdown)](https://bendeivide.github.io/book-eambr01/)
 
 
+## <i class="fab fa-r-project"></i> Aulas
 
+{{< spoiler text=":blue_book: Aula 00 - Apresentação do curso" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Apresentação do curso
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide00/index.html" target="_blank">Aula 00</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 30 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1sVrVqx2X43KEHsLGfN25mj5og1zWJ3LLIdmLgnjr9VI/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+
+{{< youtube  >}}
+
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 01 - Entendendo o curso EAR: R básico" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Entendendo o curso EAR: R básico
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide01/index.html" target="_blank">Aula 01</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1IOUmC9iVxpggNW9Nil9v15aWguktIIiNWE3loXQEuag/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 02 - Passos iniciais para a utilização do R e do RStudio" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Passos iniciais para a utilização do R e do RStudio
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide02/index.html" target="_blank">Aula 02</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1MrHvYDLFcNBij1_MIFn9a10LVr_s1VZw-OuaevOhoEY/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 03 - Hitória do R" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Hitória do R
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide03/index.html" target="_blank">Aula 03</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1zgqd3gPGGEnVb7uBCpHsDgOB--xQCoTI3rY6idOhhFM/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 04 - Como o R trabalha?" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Como o R trabalha?
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide04/index.html" target="_blank">Aula 04</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1osFh2BWlda2vsLgkaw7Nem7JWCdAnePXGhhz3rJXAww/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 05 - Comandos no R e Ambiente Global" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Comandos no R e Ambiente Global
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide05/index.html" target="_blank">Aula 05</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1mdUF4Rxo2iSgxZdwD91dXLsaAQpAWPYEgqgIidAY-9k/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 06 - Arquivos `.RData` e `.Rhistory`" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Arquivos `.RData` e `.Rhistory`
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide06/index.html" target="_blank">Aula 06</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1Jqw5UpRYaHh_m7IeA5b-TLVglakioRKYFFZbHM27V1c/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 07 - Criando e salvando um *Script* " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Criando e salvando um `Script`
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide07/index.html" target="_blank">Aula 07</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/16smQaqbwIcOHLTxugF-yb3adXWfBeFLKihdAwAWewvg/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 08 - Objetos e estrutura de dados" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Objetos
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide08/index.html" target="_blank">Aula 08</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1Y0pmTS6lB5ya0Ayy95Zkl0W6h8Zu8o7B8chAxbp1nxI/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 09 - Vetores" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Vetores
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide09/index.html" target="_blank">Aula 09</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1zWev7cGTy6pdcrb0FOeUVCloUFAgZSeRG4wj_yqnRN0/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 10 - Matrizes bidimensionais" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Matrizes bidimensionais
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide10/index.html" target="_blank">Aula 10</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1LH0InipFAtyHnoUzd1Hyljf_nVkxTiByxQHQecreU-o/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 11 - `Arrays` (Matrizes multidimensionais)" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ `Arrays` (Matrizes multidimensionais)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide11/index.html" target="_blank">Aula 11</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1ewmRJ4LE2EATW3uxYxweVP92u4qGcImW6trfEKAv-EQ/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 12 - Listas " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Listas
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide12/index.html" target="_blank">Aula 12</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1ebpIvvHWoL17BRa6MwbyX1Ue4aY7jyyoBL47_J3VR-M/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+
+
+{{< spoiler text=":blue_book: Aula 13 - Quadro de dados " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Quadro de dados
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide13/index.html" target="_blank">Aula 13</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1lNur7uPo8g02Kf8Cp_TchxOq6ctpLrv0cz2u32WY1mU/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 14 - Importanto e Exportando dados " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Importando e Exportando dados
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide14/index.html" target="_blank">Aula 14</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1m4Zv2Up1z6lFw-pazMs6IOKp5BYWKig3yD_XYYjK7b8/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 15 - Funções " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Funções
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide15/index.html" target="_blank">Aula 15</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1XtlyiKlNEzgIR_-45g03gIokx7EMAWirU0KZISQju_A/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 16 - Estruturas de controle " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Estruturas de controle
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide16/index.html" target="_blank">Aula 16</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1PV1xRegF91wmaQu7hzi9KjAkNrCUCaOHpBGfrl4wLLQ/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 17 - Como criar funções " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Como criar funções
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide17/index.html" target="_blank">Aula 17</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1rY5621jptLdVJQ66tYy-eNqXPc0DMSbz2lrzjrhE3eU/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 18 - Boas práticas de como escrever um código" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Boas práticas de como escrever um código
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide18/index.html" target="_blank">Aula 18</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1vkja5FLurQaAfrM9e9kwE5820rdS-qARBK1jH-NxU1w/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 19 - Pacotes" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Pacotes
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide19/index.html" target="_blank">Aula 19</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/15fWW02M7_X8AieV9V7vTjAonJeTqilbNsxsf-01K30w/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 20 - Carregando e anexando pacotes" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Carregando e anexando pacotes
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide20/index.html" target="_blank">Aula 20</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1WUizNW27YDlUvWm9YdJKlsC855OYzWs5GW-jgov2g8E/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 21 - _NAMESPACE_ de um pacote" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ _NAMESPACE_ de um pacote
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide21/index.html" target="_blank">Aula 21</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1p8nnjFM60Ql_1qwuPFharggZllA2WSnaIgyO3FV5WOQ/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 22 - Quando devemos utilizar os operadores `::` e `:::`" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Quando devemos utilizar os operadores `::` e `:::`
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide22/index.html" target="_blank">Aula 22</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1MplgPYtw4CZCcycfYszio44t41tsaGtXtzTk2uYkrdo/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 23 - Ambientes e caminho de busca" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Ambientes e caminho de busca
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide23/index.html" target="_blank">Aula 23</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1Qg9P_2FWf4zqY0Anc7PU94VggDEXHzD3tjaVYs0fJBU/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+
+{{< spoiler text=":blue_book: Aula 24 - Interface com outras linguagens" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Interface com outras linguagens
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide24/index.html" target="_blank">Aula 24</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/15syp7KwF2Xwxv3sSUnTsxVWOgl4_3PfgDN1VdZdDegk/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 25 - Considerações e Preparação para o curso **R Intermediário** " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Considerações e Preparação para a Programação em R (R Intermediário)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide25/index.html" target="_blank">Aula 25</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1UHZKzVVNo1XTjr39GvUsoEP1DyNvbuPKbVnIWNfVPUY/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  >}}
+
+{{< /spoiler >}}
 
 
 

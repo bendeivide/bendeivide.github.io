@@ -1,0 +1,304 @@
+---
+title: "EAR: R Básico"
+subtitle: "Aula 17 - Como criar funções"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+css: hscroll.css
+lang: pt-BR
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: dark
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 5 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Links
+rlink <- "[R](http://r-project.org/){target='_blank'}"
+rstudio <- "[RStudio](http://rstudio.org/){target='_blank'}"
+cran <- "[CRAN](http://cran.r-project.org/){target='_blank'}"
+```
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+# Introdução {background-image="EAR-rbasico-background-02.png"}
+
+Até esse momento, usamos funções já desenvolvidas no `r rlink`, seja dos pacotes da Base, seja via instalação dos pacotes via `r cran`. Agora, iremos desenvolver as nossas próprias funções.
+
+Como falado nas aulas anteriores, a estrutura da função criada se mantém, argumento, corpo e ambiente. Para isso, usaremos a função `function`. O modo desse objeto é `closure`. Vejamos a sua sintaxe,
+
+# Sintaxe de `function()` {background-image="EAR-rbasico-background-02.png"}
+
+```         
+# Forma usual
+nome_funcao <- function(arg1, arg2, ...) {
+   corpo: comandos..
+}
+# Forma simplificada
+nome_funcao <- function(arg1, arg2, ...) corpo
+```
+
+# Exemplo 1 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Funcao
+fun1 <- function(x) {
+  res <- x + 1
+  return(res)
+}
+# Chamada
+fun1(x = 5)
+```
+
+# Componentes de `fun1()` {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Argumentos
+formals(fun1)
+
+# Corpo
+body(fun1)
+
+# Ambiente
+environment(fun1)
+```
+
+# Não é obrigatório `return()` {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Funcao
+fun2 <- function(x) x + 1
+# Executando
+fun2(5)
+```
+
+# Função anônima {background-image="EAR-rbasico-background-02.png"}
+
+$$
+\int^{1}\_{0}x^2dx = \frac{1}{3},
+$$
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+integrate(f = function(x) x^2, 
+          lower = 0, 
+          upper = 1)
+```
+
+# Chamada de função {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Funcao auxiliar 1
+aux1 <- function(x) x - mean(x)
+# Funcao auxiliar 2
+aux2 <- function(x) x^2
+# Funcao auxiliar 3
+aux3 <- function(x) {
+  sum(x) / (length(x) - 1)
+}
+# Gerando 100 numeros aleatorios de uma distribuicao normal
+set.seed(10)
+x <- rnorm(100)
+```
+
+## Chamada de função (continuação...) {background-image="EAR-rbasico-background-02.png"}
+
+-   Aninhado
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Calculo do desvio padrao (aninhado)
+sqrt(aux3(aux2(aux1(x))))
+```
+
+## Chamada de função (continuação...) {background-image="EAR-rbasico-background-02.png"}
+
+-   Intermediário
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Calculo do desvio padrao (intemediario)
+dp <- aux1(x)
+dp <- aux2(dp)
+dp <- aux3(dp)
+dp <- sqrt(dp)
+dp
+```
+
+## Chamada de função (continuação...) {background-image="EAR-rbasico-background-02.png"}
+
+-   Pipe
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Calculo do desvio padrao (pipe)
+x |> 
+  aux1() |>
+  aux2() |>
+  aux3() |>
+  sqrt() 
+```
+
+# Ordenamento de argumentos {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, error=TRUE, eval=TRUE, prompt=TRUE}
+estdesc <- function(x, opcao) {
+  res <- switch(opcao,
+           media = round(mean(x), 4),
+           mediana = round(mean(x), 4),
+           medapar = round(mean(x, trim = 0.1), 4))
+  return(res)
+}
+
+# Objeto
+set.seed(15)
+x <- rnorm(1000)
+```
+
+## Ordenamento de argumentos (continuação...) {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, error=TRUE, eval=TRUE, prompt=TRUE}
+# Argumentos nomeados na funcao
+estdesc(x = x, opcao = "media")
+estdesc(opcao = "media", x = x)
+```
+
+## Ordenamento de argumentos (continuação...) {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, error=TRUE, eval=TRUE, prompt=TRUE}
+# Argumentos não nomeados ordenados
+estdesc(x, "media")
+
+# Argumentos não ordenados (Gera erro)
+estdesc("media", x)
+```
+
+# Escopo léxico {background-image="EAR-rbasico-background-02.png"}
+
+-   Ambiente de funções
+-   Ambiente de execuções
+
+# Exemplo 2 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+x <- 10
+fun <- function() {
+  x <- 2
+  x
+}
+# Chamando a funcao fun
+fun()
+```
+
+# Exemplo 3 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+x <- 10
+fun <- function() {
+  x
+}
+# Chamando a funcao fun
+fun()
+```
+
+# Caminho de busca {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+search()
+```
+
+# Pesquisa dinâmica {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Funcao
+fun <- function() x + 10
+# Objeto 1
+x <- 10
+# Chamada1
+fun()
+# Objeto 2
+x <- 20
+# Chamada 2
+fun()
+```
+
+# Novo começo {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE}
+# Objeto
+n <- 1
+# Funcao
+fun <- function() {
+  n <- n + 1
+  n
+}
+# Chamada 1
+fun()
+# Chamada 2
+fun()
+```
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+# Referências {background-image="EAR-rbasico-background-02.png"}
