@@ -43,6 +43,20 @@ revealjs-plugins:
 editor: source
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Cor de fonte
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+
+
 # Encarte {background-image="EAR-rbasico-background-02.png"}
 
 <center>
@@ -56,11 +70,11 @@ editor: source
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
-<img src="SeloDC-branco.png" width = "400">
+<img src="SeloDC-branco.png" width = "300">
 
 </a>
 
-# Apoio CEAC {background-image="EAR-rbasico-background-02.png"}
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
 
 :::: {.columns}
 
@@ -105,7 +119,7 @@ Usaremos @batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
-<img src="hardcover01.png" width = "400">
+<img src="hardcover01.png" width = "300">
 
 </a>
 
@@ -119,6 +133,126 @@ Usaremos @batista2021:
 # {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/ear/"}
 
 Página do curso
+
+
+# Planejamento das aulas {background-image="EAR-rbasico-background-02.png"}
+
+<font size="+2">
+
+:::: {.columns}
+
+::: {.column width="25%"}
+
+::: {.nonincremental}
+
+**S1: 13-15/09**
+
+- `r colorize("Dia 13/09", "#42affa")`
+  - Aula 00
+  - Aula 01
+  - Aula 02
+  - Aula 03
+  - Aula 04*
+  - Aula 05*
+  - Aula 06
+  - Aula 07
+- `r colorize("Dia 14/09", "yellow")`
+  - `r colorize("*Live* de dúvidas", "yellow")`
+
+:::
+
+:::
+
+::: {.column width="25%"}
+
+::: {.nonincremental}
+
+**S1: 13-15/09**
+
+- `r colorize("Dia 15/09", "#42affa")`
+  - Aula 08*
+  - Aula 09
+  - Aula 10
+  - Aula 11
+  - Aula 12
+  
+:::
+
+:::
+
+::: {.column width="25%"}
+
+::: {.nonincremental}
+
+**S2: 20-22/09**
+
+- `r colorize("Dia 20/09", "#42affa")`
+  - Aula 12
+  - Aula 13
+  - Aula 14
+  - Aula 15*
+- `r colorize("Dia 21/09", "yellow")`
+  - `r colorize("*Live* de dúvidas", "yellow")`
+- `r colorize("Dia 22/09", "#42affa")`
+  - Aula 16
+  - Aula 17*
+  - Aula 18
+  
+  
+:::
+
+:::
+
+::: {.column width="25%"}
+
+::: {.nonincremental}
+
+**S3: 27-29/09**
+
+- `r colorize("Dia 27/09", "#42affa")`
+  - Aula 19*
+  - Aula 20
+  - Aula 21
+- `r colorize("Dia 28/09", "#42affa")`
+  - Aula 22
+  - Aula 23*
+  - Aula 24*
+  - Aula 25
+- `r colorize("Dia 29/09", "yellow")`
+  - `r colorize("*Live* de dúvidas", "yellow")`
+  
+  
+  
+  
+:::
+
+:::
+
+::::
+
+
+</font>
+
+# Ao final do curso... {background-image="EAR-rbasico-background-02.png"}
+
+Seremos capazes de refletir sobre alguns questionamentos:
+
+. . .
+
+<font size="+2">
+
+1. Qual a diferença entre anexar e carregar um pacote?
+2. Quais os três princípios do R ? Identifique-os em
+termos de linhas de comandos criadas em R.
+3. O que são funções anônimas?
+4. Podemos afirmar que sempre o ambiente envolvente e ambiente de chamada são ambientes iguais?
+5. Qual a diferença entre estrutura de dados e
+tipo de objetos no ambiente R?
+6. Qual a relação existente entre o escopo de uma
+função e os objetos do tipo ambiente (`environment`)?
+7. ...
+
+</font>
 
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}

@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.2
-date: "2023-08-29 01:47:44"
+date: "2023-09-12 08:00:28"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -548,6 +548,48 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< icon name="r-project" pack="fab" >}} <a
     href="" target="_blank">*Script* Aula 8</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 9 (04/09/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Revisão para a Prova 1
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 10 (05/09/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Prova 1
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 11 (11/09/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte I)
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s11/" target="_blank"> Aula
+11</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1YYiwcfF-WzEYrPAHKDkwha0GkFx3Oe9kD-LPlNqFpsw/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 11</a>
     
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 

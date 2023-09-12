@@ -414,7 +414,7 @@
 
 <section id="title-slide" data-background-image="EAR-rbasico-background.png" class="quarto-title-block center">
   <h1 class="title">EAR: R Básico</h1>
-  <p class="subtitle">Aula 08 - Objetos</p>
+  <p class="subtitle">Aula 08 - Objetos e estruturas de dados</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -449,41 +449,137 @@
 
 <section id="retornando-a-afirmação-de-john-chambers" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Retornando a afirmação de John Chambers</h1>
+<blockquote>
+<p><strong>Princípio do Objeto</strong>: Tudo que existe em <code>R</code> é um objeto</p>
+</blockquote>
+</section>
+
+<section>
+<section id="o-que-é-um-objeto" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>O que é um objeto?</h1>
+<blockquote>
+<p>Objeto: uma entidade no ambiente <code>R</code> com características internas contendo informações necessárias para interpretar sua estrutura e conteúdo</p>
+</blockquote>
+</section>
+<section id="metadado-de-um-objeto" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Metadado de um objeto?</h2>
+<p><br></p>
 <ul>
-<li class="fragment"><strong>Princípio do Objeto</strong>: Tudo que existe em <code>R</code> é um objeto</li>
-<li class="fragment">Definimos um objeto como uma entidade no ambiente <code>R</code> com características internas contendo informações necessárias para interpretar sua estrutura e conteúdo
+<li class="fragment">Atributos
 <ul>
-<li class="fragment">Atributos</li>
 <li class="fragment">Atributos intrínsecos: <strong>modo</strong> e <strong>comprimento</strong></li>
 </ul></li>
 </ul>
-</section>
-
-<section id="associando-o-nome-a-um-objeto" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Associando o nome a um objeto</h1>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+</section></section>
+<section>
+<section id="estrutura-de-um-objeto" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Estrutura de um objeto</h1>
+<blockquote>
+<p><strong>Estrutura de um objeto:</strong> Disposição como armazenamos um objeto na memória virtual do computador e a forma como apresentamos este objeto a nível de usuário. O primeiro é chamado de <strong>estrutura interna</strong>, e o segundo, <strong>estrutura externa</strong>.</p>
+</blockquote>
 <ul>
-<li class="fragment">Comandos de atribuição</li>
-<li class="fragment">Use: <code>&lt;-</code>, isto é, <code>&lt;</code> + <code>-</code></li>
-<li class="fragment">Evite: <code>=</code>, use apenas para definir argumentos em uma função</li>
-<li class="fragment">Nomes sintáticos e nomes não sintáticos;</li>
+<li class="fragment"><strong>Estrutura interna:</strong> tipagem</li>
+<li class="fragment"><strong>Estrutura externa:</strong> estrutura de dado</li>
 </ul>
 </section>
-
-<section id="nomes-sintáticos-e-não-sintáticos" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Nomes sintáticos e não sintáticos</h1>
+<section id="estrutura-de-um-objeto-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Estrutura de um objeto</h2>
+<ul>
+<li class="fragment"><strong>Estrutura interna:</strong> tipagem
+<ul>
+<li class="fragment">Existem 24 tipos de objetos em <code>R</code>;</li>
+<li class="fragment">Só podem ser criados pelos mantenedores do <code>R</code> (<em>R Core Team</em>);</li>
+<li class="fragment">Usamos <code>typeof()</code> para tipagem <code>C</code>; e</li>
+<li class="fragment">Usamos <code>mode()</code> para tipagem <code>S</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="estrutura-de-um-objeto-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Estrutura de um objeto</h2>
+<ul>
+<li class="fragment"><strong>Estrutura externa:</strong> estrutura de dados
+<ul>
+<li class="fragment">Existem muitos tipos de estrutura de dados;
+<ul>
+<li class="fragment">Exemplos: Vetor, matriz, quadro de dados (<em>data frame</em>), <em>tibles</em>, etc;</li>
+</ul></li>
+<li class="fragment">Podem ser criados a nível de usuário</li>
+</ul></li>
+</ul>
+</section>
+<section id="estrutura-de-um-objeto-3" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Estrutura de um objeto</h2>
+<p><em>Código R 4.5 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021, p. 51</a>)</span></em></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Criando um vetor</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>x <span class="ot">&lt;-</span> <span class="fu">vector</span>()</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="co"># Verificando o tipagem C</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">typeof</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "logical"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># Verificando o tipagem S</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="fu">mode</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "logical"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># Inspecionando o objeto</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">.Internal</span>(<span class="fu">inspect</span>(x))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>@0x0000004e0b9a4950 10 LGLSXP g0c0 [REF(2)] (len=0, tl=0)</code></pre>
+</div>
+</div>
+</section></section>
+<section>
+<section id="associando-o-nome-a-um-objeto" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Associando o nome a um objeto</h1>
+<p>Exemplo:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> 10L</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="fragment">
+<center>
+<p><img data-src="pcodR01.png" style="width:70.0%"></p>
+</center>
+</div>
+</section>
+<section id="associando-o-nome-a-um-objeto-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Associando o nome a um objeto</h2>
+<ul>
+<li class="fragment">Comandos de atribuição</li>
+<li class="fragment">Use: <code>&lt;-</code>, isto é, “<code>&lt;</code>” + “<code>-</code>”</li>
+<li class="fragment">Evite: <code>=</code>, use apenas para definir argumentos em uma função</li>
+</ul>
+<div class="fragment">
+<p>Precedência superior de “<code>&lt;-</code>” sobre “<code>=</code>”</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a>x <span class="ot">&lt;-</span> y <span class="ot">=</span> <span class="dv">6</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<pre><code>Error in x &lt;- y = 6: não foi possível encontrar a função "&lt;-&lt;-"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a>x <span class="ot">=</span> y <span class="ot">&lt;-</span> <span class="dv">6</span>; x; y</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6</code></pre>
+</div>
+</div>
+<ul>
+<li class="fragment">Nomes sintáticos e nomes não sintáticos;</li>
+</ul>
+</div>
+</section>
+<section id="nomes-sintáticos-e-não-sintáticos" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Nomes sintáticos e não sintáticos</h2>
 <ul>
 <li class="fragment">Deve consistir em letras, dígitos, <code>.</code> e <code>_</code>;</li>
 <li class="fragment">Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, isto é, Ex.: <code>.123</code>, <code>1n</code>, dentre outros;</li>
 <li class="fragment">As letras maiúsculas se distinguem das letras minúsculas;</li>
 </ul>
 </section>
-
-<section>
-<section id="nomes-sintáticos-e-não-sintáticos-1" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Nomes sintáticos e não sintáticos</h1>
+<section id="nomes-sintáticos-e-não-sintáticos-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Nomes sintáticos e não sintáticos</h2>
 <ul>
 <li class="fragment">Não pode inicia por <code>_</code> ou dígito, é retornado um erro no console caso isso ocorra;</li>
 <li class="fragment">Não pode usar qualquer uma das palavras reservadas pela linguagem, isto é, <code>TRUE</code>, <code>FALSE</code>, <code>if</code>, <code>for</code>, dentre outras, que pode ser consultado usando o comando <code>?Reserved()</code>.</li>
@@ -492,52 +588,50 @@
 <section id="nomes-sintáticos-e-não-sintáticos-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Nomes sintáticos e não sintáticos</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Nome nao sintatico</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>.<span class="dv">123</span> <span class="ot">&lt;-</span> <span class="dv">50</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="do">## Error in 0.123 &lt;- 50 : lado esquerdo da atribuicao inválida (do_set)</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="co"># Qual a sugestao de nome sintatico para '.123'?</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="fu">make.names</span>(.<span class="dv">123</span>)</span>
-<span id="cb2-7"><a href="#cb2-7"></a>[<span class="dv">1</span>] <span class="st">"X0.123"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="co"># Nome nao sintatico</span></span>
+<span id="cb13-2"><a href="#cb13-2"></a>.<span class="dv">123</span> <span class="ot">&lt;-</span> <span class="dv">50</span></span>
+<span id="cb13-3"><a href="#cb13-3"></a><span class="do">## Error in 0.123 &lt;- 50 : lado esquerdo da atribuicao inválida (do_set)</span></span>
+<span id="cb13-4"><a href="#cb13-4"></a></span>
+<span id="cb13-5"><a href="#cb13-5"></a><span class="co"># Qual a sugestao de nome sintatico para '.123'?</span></span>
+<span id="cb13-6"><a href="#cb13-6"></a><span class="fu">make.names</span>(.<span class="dv">123</span>)</span>
+<span id="cb13-7"><a href="#cb13-7"></a>[<span class="dv">1</span>] <span class="st">"X0.123"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section></section>
 <section>
 <section id="associando-um-nome-ao-objeto" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Associando um nome ao objeto</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="co"># Ou 10 -&gt; x</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="co"># Ou 10 -&gt; x</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 <img data-src="x=10.png" style="width:50.0%" class="r-stretch quarto-figure-center"><div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="sc">&gt;</span> lobstr<span class="sc">::</span><span class="fu">obj_addr</span>(x)</span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="sc">&gt;</span> <span class="co"># [1] "0xf8a104fc20"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a><span class="sc">&gt;</span> lobstr<span class="sc">::</span><span class="fu">obj_addr</span>(x)</span>
+<span id="cb15-2"><a href="#cb15-2"></a><span class="sc">&gt;</span> <span class="co"># [1] "0xf8a104fc20"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="associando-um-nome-ao-objeto-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Associando um nome ao objeto</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="sc">&gt;</span> y <span class="ot">&lt;-</span> x</span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="sc">&gt;</span> lobstr<span class="sc">::</span><span class="fu">obj_addr</span>(y)</span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="sc">&gt;</span> <span class="co"># [1] "0xf8a104fc20"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a><span class="sc">&gt;</span> y <span class="ot">&lt;-</span> x</span>
+<span id="cb16-2"><a href="#cb16-2"></a><span class="sc">&gt;</span> lobstr<span class="sc">::</span><span class="fu">obj_addr</span>(y)</span>
+<span id="cb16-3"><a href="#cb16-3"></a><span class="sc">&gt;</span> <span class="co"># [1] "0xf8a104fc20"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
-<img data-src="y=x=10.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section></section>
-<section id="associando-um-nome-ao-objeto-e-ambiente-global" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Associando um nome ao objeto e ambiente global</h1>
+<img data-src="y=x=10.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
+<section id="associando-um-nome-ao-objeto-e-ambiente-global" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Associando um nome ao objeto e ambiente global</h2>
 
 <img data-src="y=x=10_globalenv.png" style="width:90.0%" class="r-stretch quarto-figure-center"></section>
-
-<section id="associando-um-nome-ao-objeto-2" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Associando um nome ao objeto</h1>
+<section id="associando-um-nome-ao-objeto-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Associando um nome ao objeto</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="sc">&gt;</span> lobstr<span class="sc">::</span><span class="fu">obj_addr</span>(x)</span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="sc">&gt;</span> <span class="co"># [1] "0xf8a104fc20"</span></span>
-<span id="cb6-3"><a href="#cb6-3"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">30</span></span>
-<span id="cb6-4"><a href="#cb6-4"></a><span class="sc">&gt;</span> lobstr<span class="sc">::</span><span class="fu">obj_addr</span>(x)</span>
-<span id="cb6-5"><a href="#cb6-5"></a><span class="sc">&gt;</span> <span class="co"># [1] "0x42db6dbb50"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a><span class="sc">&gt;</span> lobstr<span class="sc">::</span><span class="fu">obj_addr</span>(x)</span>
+<span id="cb17-2"><a href="#cb17-2"></a><span class="sc">&gt;</span> <span class="co"># [1] "0xf8a104fc20"</span></span>
+<span id="cb17-3"><a href="#cb17-3"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">30</span></span>
+<span id="cb17-4"><a href="#cb17-4"></a><span class="sc">&gt;</span> lobstr<span class="sc">::</span><span class="fu">obj_addr</span>(x)</span>
+<span id="cb17-5"><a href="#cb17-5"></a><span class="sc">&gt;</span> <span class="co"># [1] "0x42db6dbb50"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-
+</section></section>
 <section id="atributos-e-classes" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Atributos e Classes</h1>
 <ul>
@@ -560,18 +654,18 @@
 <section id="atributo-intrínseco-de-modo-vetores" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Atributo intrínseco de modo (Vetores)</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo caractere</span></span>
-<span id="cb7-2"><a href="#cb7-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; <span class="fu">mode</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo caractere</span></span>
+<span id="cb18-2"><a href="#cb18-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; <span class="fu">mode</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "character"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo logico</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a><span class="er">&gt;</span> z <span class="ot">&lt;-</span> <span class="cn">TRUE</span>; <span class="fu">mode</span>(z)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo logico</span></span>
+<span id="cb20-2"><a href="#cb20-2"></a><span class="er">&gt;</span> z <span class="ot">&lt;-</span> <span class="cn">TRUE</span>; <span class="fu">mode</span>(z)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "logical"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo complexo</span></span>
-<span id="cb11-2"><a href="#cb11-2"></a><span class="er">&gt;</span> w <span class="ot">&lt;-</span> 1i; <span class="fu">mode</span>(w)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo complexo</span></span>
+<span id="cb22-2"><a href="#cb22-2"></a><span class="er">&gt;</span> w <span class="ot">&lt;-</span> 1i; <span class="fu">mode</span>(w)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "complex"</code></pre>
 </div>
@@ -580,16 +674,16 @@
 <section id="atributo-intrínseco-de-modo-vetores-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Atributo intrínseco de modo (Vetores)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo numerico</span></span>
-<span id="cb13-2"><a href="#cb13-2"></a><span class="er">&gt;</span> y <span class="ot">&lt;-</span> 10L; <span class="fu">mode</span>(y); y2 <span class="ot">&lt;-</span> <span class="dv">10</span>; <span class="fu">mode</span>(y2)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo numerico</span></span>
+<span id="cb24-2"><a href="#cb24-2"></a><span class="er">&gt;</span> y <span class="ot">&lt;-</span> 10L; <span class="fu">mode</span>(y); y2 <span class="ot">&lt;-</span> <span class="dv">10</span>; <span class="fu">mode</span>(y2)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "numeric"</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "numeric"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a><span class="sc">&gt;</span> <span class="co"># y eh igual a y2? # y eh identico y2?</span></span>
-<span id="cb16-2"><a href="#cb16-2"></a><span class="er">&gt;</span> y <span class="sc">==</span> y2; <span class="fu">identical</span>(y, y2)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a><span class="sc">&gt;</span> <span class="co"># y eh igual a y2? # y eh identico y2?</span></span>
+<span id="cb27-2"><a href="#cb27-2"></a><span class="er">&gt;</span> y <span class="sc">==</span> y2; <span class="fu">identical</span>(y, y2)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
@@ -601,18 +695,18 @@
 <section id="atributo-intrínseco-de-modo-vetores-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Atributo intrínseco de modo (Vetores)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo caractere</span></span>
-<span id="cb19-2"><a href="#cb19-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; <span class="fu">typeof</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo caractere</span></span>
+<span id="cb30-2"><a href="#cb30-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; <span class="fu">typeof</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "character"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo logico</span></span>
-<span id="cb21-2"><a href="#cb21-2"></a><span class="er">&gt;</span> z <span class="ot">&lt;-</span> <span class="cn">TRUE</span>; <span class="fu">typeof</span>(z)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo logico</span></span>
+<span id="cb32-2"><a href="#cb32-2"></a><span class="er">&gt;</span> z <span class="ot">&lt;-</span> <span class="cn">TRUE</span>; <span class="fu">typeof</span>(z)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "logical"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo complexo</span></span>
-<span id="cb23-2"><a href="#cb23-2"></a><span class="er">&gt;</span> w <span class="ot">&lt;-</span> 1i; <span class="fu">typeof</span>(w)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo complexo</span></span>
+<span id="cb34-2"><a href="#cb34-2"></a><span class="er">&gt;</span> w <span class="ot">&lt;-</span> 1i; <span class="fu">typeof</span>(w)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "complex"</code></pre>
 </div>
@@ -621,16 +715,16 @@
 <section id="atributo-intrínseco-de-modo-vetores-3" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Atributo intrínseco de modo (Vetores)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo numerico</span></span>
-<span id="cb25-2"><a href="#cb25-2"></a><span class="er">&gt;</span> y <span class="ot">&lt;-</span> 10L; <span class="fu">typeof</span>(y); y2 <span class="ot">&lt;-</span> <span class="dv">10</span>; <span class="fu">typeof</span>(y2)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto modo numerico</span></span>
+<span id="cb36-2"><a href="#cb36-2"></a><span class="er">&gt;</span> y <span class="ot">&lt;-</span> 10L; <span class="fu">typeof</span>(y); y2 <span class="ot">&lt;-</span> <span class="dv">10</span>; <span class="fu">typeof</span>(y2)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "integer"</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "double"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1"></a><span class="sc">&gt;</span> <span class="co"># y eh igual a y2? # y eh identico y2?</span></span>
-<span id="cb28-2"><a href="#cb28-2"></a><span class="er">&gt;</span> y <span class="sc">==</span> y2; <span class="fu">identical</span>(y, y2)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1"></a><span class="sc">&gt;</span> <span class="co"># y eh igual a y2? # y eh identico y2?</span></span>
+<span id="cb39-2"><a href="#cb39-2"></a><span class="er">&gt;</span> y <span class="sc">==</span> y2; <span class="fu">identical</span>(y, y2)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
@@ -680,14 +774,14 @@
 <section id="comprimento" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Comprimento</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1"></a><span class="sc">&gt;</span> <span class="co"># Vetor de comprimento 5</span></span>
-<span id="cb31-2"><a href="#cb31-2"></a><span class="er">&gt;</span> v1 <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span></span>
-<span id="cb31-3"><a href="#cb31-3"></a><span class="sc">&gt;</span> <span class="co"># Vetor de comprimento 3</span></span>
-<span id="cb31-4"><a href="#cb31-4"></a><span class="er">&gt;</span> v2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Ben"</span>, <span class="st">"Maria"</span>, <span class="st">"Lana"</span>)</span>
-<span id="cb31-5"><a href="#cb31-5"></a><span class="sc">&gt;</span> <span class="co"># Vetor de comprimento quatro</span></span>
-<span id="cb31-6"><a href="#cb31-6"></a><span class="er">&gt;</span> v3 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>)</span>
-<span id="cb31-7"><a href="#cb31-7"></a><span class="sc">&gt;</span> <span class="co"># Vejamos o comprimento dos vetores</span></span>
-<span id="cb31-8"><a href="#cb31-8"></a><span class="er">&gt;</span> <span class="fu">length</span>(v1); <span class="fu">length</span>(v2); <span class="fu">length</span>(v3)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1"></a><span class="sc">&gt;</span> <span class="co"># Vetor de comprimento 5</span></span>
+<span id="cb42-2"><a href="#cb42-2"></a><span class="er">&gt;</span> v1 <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span></span>
+<span id="cb42-3"><a href="#cb42-3"></a><span class="sc">&gt;</span> <span class="co"># Vetor de comprimento 3</span></span>
+<span id="cb42-4"><a href="#cb42-4"></a><span class="er">&gt;</span> v2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Ben"</span>, <span class="st">"Maria"</span>, <span class="st">"Lana"</span>)</span>
+<span id="cb42-5"><a href="#cb42-5"></a><span class="sc">&gt;</span> <span class="co"># Vetor de comprimento quatro</span></span>
+<span id="cb42-6"><a href="#cb42-6"></a><span class="er">&gt;</span> v3 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb42-7"><a href="#cb42-7"></a><span class="sc">&gt;</span> <span class="co"># Vejamos o comprimento dos vetores</span></span>
+<span id="cb42-8"><a href="#cb42-8"></a><span class="er">&gt;</span> <span class="fu">length</span>(v1); <span class="fu">length</span>(v2); <span class="fu">length</span>(v3)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 5</code></pre>
 </div>
@@ -702,9 +796,10 @@
 <section id="comprimento-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Comprimento</h2>
 
-<img data-src="v1v2v3.png" style="width:105.0%" class="r-stretch"></section>
-<section id="resumo" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Resumo</h2>
+<img data-src="v1v2v3.png" style="width:105.0%" class="r-stretch"></section></section>
+<section>
+<section id="resumo" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Resumo</h1>
 <p>Um resumo as funções mensionadas podem ser refletidas com as seguintes indagações:</p>
 <ul>
 <li class="fragment"><code>base::class()</code> e <code>loop::c3_class()</code>: Qual o tipo de objeto?</li>
@@ -720,61 +815,76 @@
 <li class="fragment"><code>base::length()</code>: Qual o comprimento do objeto? Sintaxe: <code>pacote::nome_função()</code></li>
 </ul>
 </section></section>
-<section id="classes" class="title-slide slide level1 center">
+<section id="classes" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Classes</h1>
 <ul>
-<li class="fragment">Objetos que armazenam “dados”, pensando em análises:
+<li class="fragment">Mecanismo da POO (Exemplos de tipos de classes)</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li class="fragment"><code>numeric</code></li>
 <li class="fragment"><code>logical</code></li>
 <li class="fragment"><code>character</code></li>
 <li class="fragment"><code>list</code></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
 <li class="fragment"><code>matrix</code></li>
 <li class="fragment"><code>array</code></li>
 <li class="fragment"><code>factor</code></li>
 <li class="fragment"><code>data.frame</code></li>
-</ul></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="classes-e-objetos" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Classes e objetos</h1>
+<ul>
+<li class="fragment">Nem tudo em <code>R</code> é orientado a objetos!</li>
+<li class="fragment">Nem todo resultado da função <code>class()</code> retorna diretamente uma classe relacionada ao paradigma POO</li>
 </ul>
 </section>
 
 <section>
-<section id="coersão-do-r" class="title-slide slide level1 center">
+<section id="coersão-do-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Coersão do R</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1"></a><span class="sc">&gt;</span> <span class="co"># Criando um objeto x e imprimindo o seu resultado</span></span>
-<span id="cb35-2"><a href="#cb35-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Nome"</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>);x</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1"></a><span class="sc">&gt;</span> <span class="co"># Criando um objeto x e imprimindo o seu resultado</span></span>
+<span id="cb46-2"><a href="#cb46-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Nome"</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>);x</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Nome" "3"    "4"    "5"   </code></pre>
 </div>
 </div>
 <center>
-<img data-src="coersao.png" style="width:50.0%">
+<img data-src="coersao.png" style="width:40.0%">
 </center>
 </section>
-<section id="coersão-imposta-pelo-usuário" class="slide level2">
+<section id="coersão-imposta-pelo-usuário" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Coersão imposta pelo usuário</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto de modo numerico</span></span>
-<span id="cb37-2"><a href="#cb37-2"></a><span class="er">&gt;</span> minha_idade <span class="ot">&lt;-</span> <span class="dv">35</span>; <span class="fu">mode</span>(minha_idade)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto de modo numerico</span></span>
+<span id="cb48-2"><a href="#cb48-2"></a><span class="er">&gt;</span> minha_idade <span class="ot">&lt;-</span> <span class="dv">35</span>; <span class="fu">mode</span>(minha_idade)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "numeric"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1"></a><span class="sc">&gt;</span> <span class="co"># Coersão do objeto para modo caractere (`string`)</span></span>
-<span id="cb39-2"><a href="#cb39-2"></a><span class="er">&gt;</span> minha_idade <span class="ot">&lt;-</span> <span class="fu">as.character</span>(minha_idade) </span>
-<span id="cb39-3"><a href="#cb39-3"></a><span class="sc">&gt;</span> <span class="fu">mode</span>(minha_idade)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1"></a><span class="sc">&gt;</span> <span class="co"># Coersão do objeto para modo caractere (`string`)</span></span>
+<span id="cb50-2"><a href="#cb50-2"></a><span class="er">&gt;</span> minha_idade <span class="ot">&lt;-</span> <span class="fu">as.character</span>(minha_idade) </span>
+<span id="cb50-3"><a href="#cb50-3"></a><span class="sc">&gt;</span> <span class="fu">mode</span>(minha_idade)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "character"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1"></a><span class="sc">&gt;</span> <span class="co"># Verificando se o objeto tem modo 'character'</span></span>
-<span id="cb41-2"><a href="#cb41-2"></a><span class="er">&gt;</span> <span class="fu">is.character</span>(minha_idade)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1"></a><span class="sc">&gt;</span> <span class="co"># Verificando se o objeto tem modo 'character'</span></span>
+<span id="cb52-2"><a href="#cb52-2"></a><span class="er">&gt;</span> <span class="fu">is.character</span>(minha_idade)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
 </section></section>
 <section>
-<section id="tipo-de-objetos" class="title-slide slide level1 center">
-<h1>Tipo de objetos</h1>
+<section id="estrutura-de-dados" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Estrutura de dados</h1>
 <ul>
 <li class="fragment">Vetores atômicos:
 <ul>
@@ -787,10 +897,12 @@
 <li class="fragment">Quadro de dados (<em>Data frames</em>);</li>
 </ul></li>
 </ul>
+<div class="fragment">
 <p>Existem outros, mas para esse módulo, exploraremos estes nas seções seguintes</p>
+</div>
 </section>
-<section id="tipos-de-objetos" class="slide level2 hscroll scrollable">
-<h2>Tipos de Objetos</h2>
+<section id="estrutura-de-dados-1" class="slide level2 hscroll scrollable">
+<h2>Estrutura de dados</h2>
 <table>
 <colgroup>
 <col style="width: 19%">
@@ -800,8 +912,8 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Objeto</th>
-<th style="text-align: center;">Classe</th>
+<th style="text-align: center;">Estrutura de dado</th>
+<th style="text-align: center;">Classe ou classe implícita</th>
 <th style="text-align: center;">Modo</th>
 <th style="text-align: center;">São possíveis vários modos no mesmo objeto?</th>
 </tr>
@@ -819,27 +931,6 @@
 <td style="text-align: center;"><code>numeric</code> (<code>integer</code> ou <code>double</code>), <code>character</code>, <code>complex</code>, <code>logical</code>, <code>raw</code></td>
 <td style="text-align: center;">Não</td>
 </tr>
-</tbody>
-</table>
-</section>
-<section id="tipos-de-objetos-1" class="slide level2 hscroll scrollable">
-<h2>Tipos de Objetos</h2>
-<table>
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 50%">
-<col style="width: 17%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Objeto</th>
-<th style="text-align: center;">Classe</th>
-<th style="text-align: center;">Modo</th>
-<th style="text-align: center;">São possíveis vários modos no mesmo objeto?</th>
-</tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td style="text-align: center;">Array</td>
 <td style="text-align: center;"><code>array</code></td>
@@ -852,27 +943,6 @@
 <td style="text-align: center;"><code>numeric</code> (<code>integer</code> ou <code>double</code>), <code>character</code>, <code>complex</code>, <code>logical</code>, <code>raw</code>, <code>expression</code>, <code>function</code></td>
 <td style="text-align: center;">Sim</td>
 </tr>
-</tbody>
-</table>
-</section>
-<section id="tipos-de-objetos-2" class="slide level2 hscroll scrollable">
-<h2>Tipos de Objetos</h2>
-<table>
-<colgroup>
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 41%">
-<col style="width: 22%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Objeto</th>
-<th style="text-align: center;">Classe</th>
-<th style="text-align: center;">Modo</th>
-<th style="text-align: center;">São possíveis vários modos no mesmo objeto?</th>
-</tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td style="text-align: center;">Quadro de dados</td>
 <td style="text-align: center;"><code>data.frame</code></td>
@@ -938,7 +1008,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
-'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":5},
+'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":3},
 'multiplex': {"secret":null,"id":"547495fddd76b848","url":"https://reveal-multiplex.glitch.me/"},
 'pointer': {"0":{"key":"q"},"1":{"color":"red"},"2":{"pointerSize":16},"3":{"alwaysVisible":false},"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,

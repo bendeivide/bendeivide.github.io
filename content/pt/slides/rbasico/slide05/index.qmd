@@ -7,12 +7,12 @@ title-slide-attributes:
 author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
 bibliography: biblio.bib
 link-citations: true
-lang: pt-BR
+lang: "pt-br"
 csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -23,7 +23,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
@@ -40,8 +40,22 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Cor de fonte
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
 
@@ -59,9 +73,47 @@ editor: visual
 
 </a>
 
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
-Usaremos \@batista2021:
+Usaremos @batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
@@ -69,22 +121,15 @@ Usaremos \@batista2021:
 
 </a>
 
-# Obrigado {background-image="EAR-rbasico-background-02.png"}
 
-Sugestões, perguntas, críticas...
-
-<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
-
-<img src="EAR-rbasico02.png" width = "400">
-
-</a>
-
-# Console e Prompt de comando no R {background-image="EAR-rbasico-background-02.png"}
+# Console e Prompt de comando no `R` {background-image="EAR-rbasico-background-02.png"}
 
 -   **Console**: Tela de inserir e visualizar os comandos;
 -   **Prompt de comando**: Símbolo "`>`", pronto, pode inserir os comandos!
 
-```{r echo=TRUE, prompt=TRUE, comment=""}
+. . .
+
+```{r echo=TRUE, prompt=TRUE}
 # Veja o símbolo do prompt de comando usual "`>`"
 10 + 10
 ```
@@ -121,7 +166,7 @@ A escolha do nome associado a um objeto tem algumas regras:
 -   Não pode inicia por `_` ou dígito, é retornado um erro no console caso isso ocorra;
 -   Não pode usar qualquer uma das palavras reservadas pela linguagem, isto é, `TRUE`, `FALSE`, `if`, `for`, dentre outras, que pode ser consultado usando o comando `?Reserved()`.
 
-# Exemplos de nomes {background-image="EAR-rbasico-background-02.png"}
+## Exemplos de nomes {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, error=TRUE, prompt=TRUE, comment=""}
 nome <- "Ben"
@@ -140,9 +185,19 @@ make.names(.123)
 
 ## Expressões {background-image="EAR-rbasico-background-02.png"}
 
+> Expressão ou declaração: Qualquer comando repassado ao console
+
+Exemplo 1
+
+. . .
+
 ```{r echo=TRUE, eval=TRUE, prompt=TRUE, comment=""}
 10 + 15
 ```
+
+Exemplo 2
+
+. . .
 
 ```{r echo=TRUE, eval=TRUE, error=TRUE, prompt=TRUE, comment=""}
 10,5 + 15,5
@@ -150,11 +205,21 @@ make.names(.123)
 
 ## Expressões {background-image="EAR-rbasico-background-02.png"}
 
+Exemplo 3
+
+. . .
+
 ```{r echo=TRUE, eval=TRUE, error=TRUE, prompt=TRUE, comment=""}
 invisible(10.5 + 15.5)
 ```
 
 ## Atribuições {background-image="EAR-rbasico-background-02.png"}
+
+> Atribuição: Símbolo "`<-`", um operador que associa um nome a um determinado "resultado"
+
+. . .
+
+Exemplo:
 
 ```{r echo=TRUE, prompt=TRUE, comment=""}
 # Foi criado um objeto do tipo caractere e o nome "meu_nome" foi 
@@ -167,7 +232,29 @@ meu_nome <- "Ben"
 meu_nome
 ```
 
-# Mais de um comando por linha {background-image="EAR-rbasico-background-02.png"}
+. . .
+
+<font size="+3">
+
+`r colorize("OBS.: Erroneamente, afirmamos: Criamos o objeto **meu_nome**!", "yellow")`
+
+</font>
+
+# Execução de comandos {background-image="EAR-rbasico-background-02.png"}
+
+Exemplo:
+
+```{r echo=TRUE, prompt=TRUE, comment=""}
+# Para imprimir o resultado da expressão, digitamos o nome 
+# "meu_nome" no console e apertamos o botão ENTER # do teclado!
+meu_nome
+```
+
+`r colorize("OBS.: No RStudio, para executar um comando: CTRL+ENTER ($script$) ou ENTER ($console$)", "yellow")`
+
+## Mais de um comando por linha {background-image="EAR-rbasico-background-02.png"}
+
+Exemplo:
 
 ```{r echo=TRUE, prompt=TRUE, comment=""}
 # Uma linha de comando por vez
@@ -178,7 +265,9 @@ meu_nome # Imprimos o objeto
 meu_nome <- "Ben"; meu_nome
 ```
 
-# Um comando em mais de uma linha {background-image="EAR-rbasico-background-02.png"}
+## Um comando em mais de uma linha {background-image="EAR-rbasico-background-02.png"}
+
+Exemplo:
 
 ```{r echo=TRUE, prompt=TRUE, comment=""}
 # Uma linha de comando em mais de uma linha
@@ -186,12 +275,26 @@ meu_nome <- "Ben"; meu_nome
   2
 ```
 
--   Observe que em todos os comandos, algumas linhas iniciamos pelo símbolo de jogo da velha ("`#`"). Esta linha representará um comentário, e o `R` desprezará a avaliação dessa linha de comando.
+- Observe que em todos os comandos, algumas linhas iniciamos pelo símbolo de jogo da velha ("`#`"). Esta linha representará um comentário, e o `R` desprezará a avaliação dessa linha de comando.
+
+## Chamada e correção de comandos anteriores {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="30%"}
+
+</center>
 
 # Ambiente Global {background-image="EAR-rbasico-background-02.png"}
 
+> Ambiente Global: Objeto `R` que armazena objetos nominados
+
+. . .
+
 ```{r echo=FALSE}
-rm("meu_nome", "nome")
+rm("meu_nome", "nome", "colorize")
 ```
 
 ```{r echo=TRUE, prompt=TRUE, comment=""}
@@ -200,6 +303,39 @@ x <- 10 - 6; y <- 10 + 4; w <- "Maria Isabel"
 # Verificando o nomes contidos no ambiente global
 ls()
 ```
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Cor de fonte
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+
+## Verificando o ambiente global no RStudio? {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](ide_rstudio.png){width="80%"}
+
+</center>
+
+## Verificando o ambiente global no RStudio? {background-image="EAR-rbasico-background-02.png"}
+
+4° Quadrante:
+
+<center>
+
+![](environment.PNG){width="120%"}
+
+</center>
+
+
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 

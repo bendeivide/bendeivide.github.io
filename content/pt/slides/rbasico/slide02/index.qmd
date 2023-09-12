@@ -7,10 +7,12 @@ title-slide-attributes:
 author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
 bibliography: biblio.bib
 link-citations: true
-
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
 format: 
   revealjs:
-    theme: dark
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -41,7 +43,7 @@ revealjs-plugins:
 editor: source
 ---
 
-## Encarte {background-image="EAR-rbasico-background-02.png"}
+# Encarte {background-image="EAR-rbasico-background-02.png"}
 
 <center>
 
@@ -51,7 +53,7 @@ editor: source
 
 ------------------------------------------------------------------------
 
-## Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
@@ -59,33 +61,87 @@ editor: source
 
 </a>
 
-------------------------------------------------------------------------
 
-## Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
 
-Usaremos \@batista2021:
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
-<img src="hardcover01.png" width = "400">
+<img src="hardcover01.png" width = "300">
 
 </a>
 
-------------------------------------------------------------------------
+# O que é o R? {background-image="EAR-rbasico-background-02.png"}
 
-## Relembrando a aula anterior {background-image="EAR-rbasico-background-02.png"}
+> O R é um ambiente de *software* livre e código aberto, com recursos gráficos, cujo objetivo se inicia pela análise e apresentação de dados até recursos para desenvolvimento de página *web*, por exemplo. Devido a contribuição da linguagem ser realizada por toda a comunidade científica e sociedade como um todo, os recursos desenvolvidos pelo R são dos mais diversos possíveis.
+
+## O que é o R? {background-image="EAR-rbasico-background-02.png"}
+
+Por que os artigos "o" e "a" para o R?
+
+. . .
+
+> Em muitos momentos utilizaremos o artigo "o" para a linguagem R. Pois é, isso ocorre porque ela também é considerada um *software* ou ambiente. Daí, chamamos de programa R, ou preferivelmente, ambiente R.
+
+# O que é o RStudio? {background-image="EAR-rbasico-background-02.png"}
+
+- O Rstudio é uma *IDE*
+- *IDE*: Do inglês *Integrated Development Evironment*
+- Pode ser usado como *desktop* e/ou *web browser*
+
+# Interface do R {background-image="EAR-rbasico-background-02.png"}
 
 ![](promptr.png){width="80%"}
 
-------------------------------------------------------------------------
 
-## Relembrando a aula anterior {background-image="EAR-rbasico-background-02.png"}
+
+# Interface do RStudio {background-image="EAR-rbasico-background-02.png"}
 
 ![](ide_rstudio.png)
 
-------------------------------------------------------------------------
 
-## Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
 
 Sugestões, perguntas, críticas...
 
@@ -95,6 +151,6 @@ Sugestões, perguntas, críticas...
 
 </a>
 
-------------------------------------------------------------------------
 
-## Referências {background-image="EAR-rbasico-background-02.png"}
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

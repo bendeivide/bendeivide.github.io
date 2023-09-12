@@ -1,6 +1,6 @@
 ---
 title: "EAR: R Básico"
-subtitle: "Aula 07 - Criando e salvando um `Script`"
+subtitle: "Aula 07 - Criando e salvando um *Script*"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -12,7 +12,7 @@ csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -23,7 +23,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
@@ -40,7 +40,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
@@ -55,9 +55,47 @@ editor: visual
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
-<img src="SeloDC-branco.png" width = "400">
+<img src="SeloDC-branco.png" width = "300">
 
 </a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
 
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
@@ -69,31 +107,37 @@ Usaremos @batista2021:
 
 </a>
 
-# R {background-image="EAR-rbasico-background-02.png"}
+# O que é um *script*? {background-image="EAR-rbasico-background-02.png"}
 
-```{r, out.width = "100%", fig.align='center'}
+> *Script*: arquivo de texto cuja extensão é "`<nome>.R`"
+
+# Criando *script*: Usando o `R` {background-image="EAR-rbasico-background-02.png"}
+
+```{r, out.width = "60%", fig.align='center'}
 knitr::include_graphics("rscript01.png")
 ```
 
-## R {background-image="EAR-rbasico-background-02.png"}
 
-```{r, out.width = "100%", fig.align='center'}
+
+## Criando *script*: Usando o `R` {background-image="EAR-rbasico-background-02.png"}
+
+```{r, out.width = "60%", fig.align='center'}
 knitr::include_graphics("rscript02.png")
 ```
 
-## R {background-image="EAR-rbasico-background-02.png"}
+## Criando *script*: Usando o `R` {background-image="EAR-rbasico-background-02.png"}
 
-```{r, out.width = "100%", fig.align='center'}
+```{r, out.width = "60%", fig.align='center'}
 knitr::include_graphics("rscript03.png")
 ```
 
-# RStudio {background-image="EAR-rbasico-background-02.png"}
+# Criando *script*: Usando o RStudio {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, out.width = "100%", fig.align='center'}
 knitr::include_graphics("rscript04.png")
 ```
 
-## RStudio {background-image="EAR-rbasico-background-02.png"}
+## Criando *script*: Usando o RStudio {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, out.width = "100%", fig.align='center'}
 knitr::include_graphics("rscript05.png")
@@ -101,12 +145,49 @@ knitr::include_graphics("rscript05.png")
 
 # Diretório de trabalho {background-image="EAR-rbasico-background-02.png"}
 
+> Diretório: Local (PC) onde o `R` procurará pelos arquivos
+
 -   Saber o diretório de trabalho: `getwd()`
 -   Mudar o diretório de trabalho: `setwd()`
+
+## Diretório de trabalho {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="30%"}
+
+</center>
+
+
+# Salvando o *script* {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="30%"}
+
+</center>
 
 # Carregando comandos de outros `Scripts` {background-image="EAR-rbasico-background-02.png"}
 
 -   Usaremos a função `source()`
+
+
+## Carregando comandos de outros `Scripts` {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="30%"}
+
+</center>
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 

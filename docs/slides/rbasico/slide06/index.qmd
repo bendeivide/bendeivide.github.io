@@ -12,7 +12,7 @@ csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -23,7 +23,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
@@ -40,7 +40,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
@@ -59,6 +59,44 @@ editor: visual
 
 </a>
 
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
 Usaremos @batista2021:
@@ -69,13 +107,19 @@ Usaremos @batista2021:
 
 </a>
 
-# R {background-image="EAR-rbasico-background-02.png"}
+
+# O que são os arquivos `.RData` e `.Rhistory`? {background-image="EAR-rbasico-background-02.png"}
+
+- `.RData`: arquivo que armazena todos os objetos criados no ambiente global;
+- `.Rhistory`: arquivo que armazena todas as linhas de comandos inseridas no *console*. 
+
+# Usando o `R` {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, out.width = "100%", fig.align='center'}
 knitr::include_graphics("R-Rdata_Rhistory.png")
 ```
 
-# RStudio {background-image="EAR-rbasico-background-02.png"}
+# Usando o RStudio {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, out.width = "100%", fig.align='center'}
 knitr::include_graphics("Rdata_Rhistory.png")

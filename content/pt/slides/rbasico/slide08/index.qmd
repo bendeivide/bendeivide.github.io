@@ -1,6 +1,6 @@
 ---
 title: "EAR: R Básico"
-subtitle: "Aula 08 - Objetos"
+subtitle: "Aula 08 - Objetos e estruturas de dados"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -13,7 +13,7 @@ csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -24,7 +24,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
@@ -41,7 +41,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
@@ -72,29 +72,100 @@ Usaremos @batista2021:
 
 # Retornando a afirmação de John Chambers{background-image="EAR-rbasico-background-02.png"}
 
--   **Princípio do Objeto**: Tudo que existe em `R` é um objeto
--   Definimos um objeto como uma entidade no ambiente `R` com características internas contendo informações necessárias para interpretar sua estrutura e conteúdo
-    -   Atributos
-    -   Atributos intrínsecos: **modo** e **comprimento**
+>  **Princípio do Objeto**: Tudo que existe em `R` é um objeto
+
+# O que é um objeto? {background-image="EAR-rbasico-background-02.png"}
+
+> Objeto: uma entidade no ambiente `R` com características internas contendo informações necessárias para interpretar sua estrutura e conteúdo
+
+## Metadado de um objeto? {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+
+- Atributos
+  - Atributos intrínsecos: **modo** e **comprimento**
+  
+  
+# Estrutura de um objeto {background-image="EAR-rbasico-background-02.png"}
+
+> **Estrutura de um objeto:** Disposição como armazenamos um objeto na memória virtual do computador e a forma como apresentamos este objeto a nível de usuário. O primeiro é chamado de **estrutura interna**, e o segundo, **estrutura externa**.
+
+- **Estrutura interna:** tipagem
+- **Estrutura externa:** estrutura de dado
+
+## Estrutura de um objeto {background-image="EAR-rbasico-background-02.png"}
+
+- **Estrutura interna:** tipagem
+  - Existem 24 tipos de objetos em `R`;
+  - Só podem ser criados pelos mantenedores do `R` (*R Core Team*);
+  - Usamos `typeof()` para tipagem `C`; e
+  - Usamos `mode()` para tipagem `S`
+  
+## Estrutura de um objeto {background-image="EAR-rbasico-background-02.png"}
+
+- **Estrutura externa:** estrutura de dados
+  - Existem muitos tipos de estrutura de dados;
+    - Exemplos: Vetor, matriz, quadro de dados (*data frame*), *tibles*, etc;
+  - Podem ser criados a nível de usuário
+  
+## Estrutura de um objeto {background-image="EAR-rbasico-background-02.png"}
+
+*Código R 4.5 [@batista2021, p.51]*
+
+```{r, echo=TRUE}
+# Criando um vetor
+x <- vector()
+# Verificando o tipagem C
+typeof(x)
+# Verificando o tipagem S
+mode(x)
+# Inspecionando o objeto
+.Internal(inspect(x))
+```
+
+
+
 
 # Associando o nome a um objeto{background-image="EAR-rbasico-background-02.png"}
 
+Exemplo:
+
 ```{r primeiro_codigo, echo=TRUE, , prompt=TRUE}
-x <- 10
+x <- 10L
 ```
+. . .
+
+<center>
+
+![](pcodR01.png){width="70%"}
+
+</center>
+
+## Associando o nome a um objeto {background-image="EAR-rbasico-background-02.png"}
 
 -   Comandos de atribuição
--   Use: `<-`, isto é, `<` + `-`
+-   Use: `<-`, isto é, "`<`" + "`-`"
 -   Evite: `=`, use apenas para definir argumentos em uma função
+
+. . .
+
+Precedência superior de "`<-`" sobre "`=`"
+```{r, echo = TRUE, error=TRUE}
+x <- y = 6
+
+x = y <- 6; x; y
+```
+
 -   Nomes sintáticos e nomes não sintáticos;
 
-# Nomes sintáticos e não sintáticos{background-image="EAR-rbasico-background-02.png"}
+
+## Nomes sintáticos e não sintáticos {background-image="EAR-rbasico-background-02.png"}
 
 -   Deve consistir em letras, dígitos, `.` e `_`;
 -   Os nomes devem ser iniciado por uma letra ou um ponto não seguido de um número, isto é, Ex.: `.123`, `1n`, dentre outros;
 -   As letras maiúsculas se distinguem das letras minúsculas;
 
-# Nomes sintáticos e não sintáticos{background-image="EAR-rbasico-background-02.png"}
+## Nomes sintáticos e não sintáticos{background-image="EAR-rbasico-background-02.png"}
 
 -   Não pode inicia por `_` ou dígito, é retornado um erro no console caso isso ocorra;
 -   Não pode usar qualquer uma das palavras reservadas pela linguagem, isto é, `TRUE`, `FALSE`, `if`, `for`, dentre outras, que pode ser consultado usando o comando `?Reserved()`.
@@ -138,13 +209,13 @@ lobstr::obj_addr(y)
 knitr::include_graphics("y=x=10.png")
 ```
 
-# Associando um nome ao objeto e ambiente global{background-image="EAR-rbasico-background-02.png"}
+## Associando um nome ao objeto e ambiente global{background-image="EAR-rbasico-background-02.png"}
 
 ```{r objxyglobalenv, fig.cap = "", out.width="90%", fig.align='center'}
 knitr::include_graphics("y=x=10_globalenv.png")
 ```
 
-# Associando um nome ao objeto{background-image="EAR-rbasico-background-02.png"}
+## Associando um nome ao objeto{background-image="EAR-rbasico-background-02.png"}
 
 ```{r quarto_codigo, echo=TRUE, eval=FALSE, prompt=TRUE}
 lobstr::obj_addr(x)
@@ -238,7 +309,7 @@ length(v1); length(v2); length(v3)
 
 ![](v1v2v3.png){width="105%"}
 
-## Resumo {background-image="EAR-rbasico-background-02.png"}
+# Resumo {background-image="EAR-rbasico-background-02.png"}
 
 Um resumo as funções mensionadas podem ser refletidas com as seguintes indagações:
 
@@ -253,19 +324,39 @@ Um resumo as funções mensionadas podem ser refletidas com as seguintes indaga�
 -   `base::attributes()`: O objeto tem atributos?
 -   `base::length()`: Qual o comprimento do objeto? Sintaxe: `pacote::nome_função()`
 
-# Classes
+# Classes {background-image="EAR-rbasico-background-02.png"}
 
--   Objetos que armazenam "dados", pensando em análises:
-    -   `numeric`
-    -   `logical`
-    -   `character`
-    -   `list`
-    -   `matrix`
-    -   `array`
-    -   `factor`
-    -   `data.frame`
+- Mecanismo da POO (Exemplos de tipos de classes)
 
-# Coersão do R
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+-   `numeric`
+-   `logical`
+-   `character`
+-   `list`
+:::
+
+::: {.column width="50%"}
+
+-   `matrix`
+-   `array`
+-   `factor`
+-   `data.frame`
+
+:::
+
+::::
+
+# Classes e objetos {background-image="EAR-rbasico-background-02.png"}
+
+- Nem tudo em `R` é orientado a objetos!
+- Nem todo resultado da função `class()` retorna diretamente uma classe relacionada ao paradigma POO
+    
+
+# Coersão do R {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando um objeto x e imprimindo o seu resultado
@@ -273,10 +364,10 @@ x <- c("Nome", 3, 4, 5);x
 ```
 
 <center>
-![](coersao.png){width="50%"}
+![](coersao.png){width="40%"}
 </center>
 
-## Coersão imposta pelo usuário
+## Coersão imposta pelo usuário {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Objeto de modo numerico
@@ -288,7 +379,7 @@ mode(minha_idade)
 is.character(minha_idade)
 ```
 
-# Tipo de objetos
+# Estrutura de dados {background-image="EAR-rbasico-background-02.png"}
 
 -   Vetores atômicos:
     -   Lógicos, Numéricos e Caracteres;
@@ -296,28 +387,21 @@ is.character(minha_idade)
 -   Vetores em listas:
     -   Listas (*Lists*);
     -   Quadro de dados (*Data frames*);
+    
+. . . 
 
 Existem outros, mas para esse módulo, exploraremos estes nas seções seguintes
 
-## Tipos de Objetos {.hscroll .scrollable}
+## Estrutura de dados {.hscroll .scrollable}
 
-| Objeto |                                   Classe                                    |                                    Modo                                     | São possíveis vários modos no mesmo objeto? |
+| Estrutura de dado |                                   Classe ou classe implícita                                    |                                    Modo                                     | São possíveis vários modos no mesmo objeto? |
 |:------------:|:--------------------:|:--------------------:|:------------:|
 | Vetor  | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` |                     Não                     |
 | Matriz |                                  `matrix`                                   | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` |                     Não                     |
-
-## Tipos de Objetos {.hscroll .scrollable}
-
-| Objeto | Classe  |                                                 Modo                                                  | São possíveis vários modos no mesmo objeto? |
-|:----------:|:----------:|:-----------------------------------:|:-----------:|
 | Array  | `array` |              `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw`              |                     Não                     |
 | lista  | `list`  | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw`, `expression`, `function` |                     Sim                     |
-
-## Tipos de Objetos {.hscroll .scrollable}
-
-|     Objeto      |    Classe    |                                    Modo                                     | São possíveis vários modos no mesmo objeto? |
-|:-----------:|:-----------:|:----------------------------:|:--------------:|
 | Quadro de dados | `data.frame` | `numeric` (`integer` ou `double`), `character`, `complex`, `logical`, `raw` |                     Sim                     |
+
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 

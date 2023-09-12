@@ -7,10 +7,12 @@ title-slide-attributes:
 author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
 bibliography: biblio.bib
 link-citations: true
-
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
 format: 
   revealjs:
-    theme: dark
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -21,7 +23,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
@@ -38,10 +40,10 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
-## Encarte {background-image="EAR-rbasico-background-02.png"}
+# Encarte {background-image="EAR-rbasico-background-02.png"}
 
 <center>
 
@@ -49,9 +51,8 @@ editor: visual
 
 </center>
 
-------------------------------------------------------------------------
 
-## Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
@@ -59,31 +60,91 @@ editor: visual
 
 </a>
 
-------------------------------------------------------------------------
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
 
-## Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+:::: {.columns}
 
-Usaremos \@batista2021:
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
+
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
-<img src="hardcover01.png" width = "400">
+<img src="hardcover01.png" width = "300">
 
 </a>
 
-------------------------------------------------------------------------
 
-## Três princípios do R {background-image="EAR-rbasico-background-02.png"}
 
-Segundo \@chambers2016, o `R` tem três princípios:
+
+# Características do R {background-image="EAR-rbasico-background-02.png"}
+
+- *Software* livre e código aberto
+- Escopo léxico
+- Linguagem interpretada
+
+# Três princípios do R {background-image="EAR-rbasico-background-02.png"}
+
+Segundo @chambers2016, o `R` tem três princípios:
 
 -   Tudo que existe em `R` é um objeto;
 -   Tudo que acontece no `R` é uma chamada de função;
 -   Interfaces para outros programas são parte do `R`
 
-------------------------------------------------------------------------
 
-## Obrigado {background-image="EAR-rbasico-background-02.png"}
+## Três princípios do R {background-image="EAR-rbasico-background-02.png"}
+
+![](rworks.png) 
+
+## Três princípios do R {background-image="EAR-rbasico-background-02.png"}
+
+Exemplo dos três princípios:
+
+```{r echo=TRUE}
+x <- 10
+x
+```
+
+
+
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
 
 Sugestões, perguntas, críticas...
 
@@ -93,6 +154,5 @@ Sugestões, perguntas, críticas...
 
 </a>
 
-------------------------------------------------------------------------
 
-## Referências {background-image="EAR-rbasico-background-02.png"}
+# Referências {background-image="EAR-rbasico-background-02.png"}

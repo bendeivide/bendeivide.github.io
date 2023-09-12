@@ -349,7 +349,7 @@
 
 <section id="title-slide" data-background-image="EAR-rbasico-background.png" class="quarto-title-block center">
   <h1 class="title">EAR: R Básico</h1>
-  <p class="subtitle">Aula 07 - Criando e salvando um <code>Script</code></p>
+  <p class="subtitle">Aula 07 - Criando e salvando um <em>Script</em></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -370,8 +370,33 @@
 <section id="filosofia-de-publicação-selo-dc" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Filosofia de publicação (Selo DC)</h1>
 <p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
-<p><img src="SeloDC-branco.png" width="400"></p>
+<p><img src="SeloDC-branco.png" width="300"></p>
 </a><p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;"></a></p>
+</section>
+
+<section id="apoio-ceac-e-ufsj" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Apoio CEAC e UFSJ</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div>
+<ul>
+<li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/ceac_ufsj/">@ceac_ufsj</a></li>
+</ul>
+</div>
+<center>
+<img data-src="ceac.png" style="width:70.0%">
+</center>
+</div><div class="column" style="width:50%;">
+<div>
+<ul>
+<li><a href="ufsj.edu.br/">ufsj.edu.br/</a></li>
+</ul>
+</div>
+<center>
+<p><img src="ufsj.png" title="ufsj.edu.br/" width="300"></p>
+</center>
+</div>
+</div>
 </section>
 
 <section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
@@ -382,43 +407,90 @@
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
 </section>
 
+<section id="o-que-é-um-script" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>O que é um <em>script</em>?</h1>
+<blockquote>
+<p><em>Script</em>: arquivo de texto cuja extensão é “<code>&lt;nome&gt;.R</code>”</p>
+</blockquote>
+</section>
+
 <section>
-<section id="r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>R</h1>
+<section id="criando-script-usando-o-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Criando <em>script</em>: Usando o <code>R</code></h1>
 
-<img data-src="rscript01.png" style="width:100.0%" class="r-stretch quarto-figure-center"></section>
-<section id="r-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>R</h2>
+<img data-src="rscript01.png" style="width:60.0%" class="r-stretch quarto-figure-center"></section>
+<section id="criando-script-usando-o-r-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Criando <em>script</em>: Usando o <code>R</code></h2>
 
-<img data-src="rscript02.png" style="width:100.0%" class="r-stretch quarto-figure-center"></section>
-<section id="r-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>R</h2>
+<img data-src="rscript02.png" style="width:60.0%" class="r-stretch quarto-figure-center"></section>
+<section id="criando-script-usando-o-r-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Criando <em>script</em>: Usando o <code>R</code></h2>
 
-<img data-src="rscript03.png" style="width:100.0%" class="r-stretch quarto-figure-center"></section></section>
+<img data-src="rscript03.png" style="width:60.0%" class="r-stretch quarto-figure-center"></section></section>
 <section>
-<section id="rstudio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>RStudio</h1>
+<section id="criando-script-usando-o-rstudio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Criando <em>script</em>: Usando o RStudio</h1>
 
 <img data-src="rscript04.png" style="width:100.0%" class="r-stretch quarto-figure-center"></section>
-<section id="rstudio-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>RStudio</h2>
+<section id="criando-script-usando-o-rstudio-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Criando <em>script</em>: Usando o RStudio</h2>
 
 <img data-src="rscript05.png" style="width:100.0%" class="r-stretch quarto-figure-center"></section></section>
+<section>
 <section id="diretório-de-trabalho" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Diretório de trabalho</h1>
+<blockquote>
+<p>Diretório: Local (PC) onde o <code>R</code> procurará pelos arquivos</p>
+</blockquote>
 <ul>
 <li class="fragment">Saber o diretório de trabalho: <code>getwd()</code></li>
 <li class="fragment">Mudar o diretório de trabalho: <code>setwd()</code></li>
 </ul>
 </section>
+<section id="diretório-de-trabalho-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Diretório de trabalho</h2>
+<p><br> <br></p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="rstudio.png" style="width:30.0%"></p>
+<p></p><figcaption>Usando o RStudio</figcaption><p></p>
+</figure>
+</div>
+</center>
+</section></section>
+<section id="salvando-o-script" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Salvando o <em>script</em></h1>
+<p><br> <br></p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="rstudio.png" style="width:30.0%"></p>
+<p></p><figcaption>Usando o RStudio</figcaption><p></p>
+</figure>
+</div>
+</center>
+</section>
 
+<section>
 <section id="carregando-comandos-de-outros-scripts" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Carregando comandos de outros <code>Scripts</code></h1>
 <ul>
 <li class="fragment">Usaremos a função <code>source()</code></li>
 </ul>
 </section>
-
+<section id="carregando-comandos-de-outros-scripts-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Carregando comandos de outros <code>Scripts</code></h2>
+<p><br> <br></p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="rstudio.png" style="width:30.0%"></p>
+<p></p><figcaption>Usando o RStudio</figcaption><p></p>
+</figure>
+</div>
+</center>
+</section></section>
 <section id="obrigado" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Obrigado</h1>
 <p>Sugestões, perguntas, críticas…</p>
@@ -475,7 +547,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
-'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":5},
+'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":3},
 'multiplex': {"secret":"16867890951872560832","id":"547495fddd76b848","url":"https://reveal-multiplex.glitch.me/"},
 'pointer': {"0":{"key":"q"},"1":{"color":"red"},"2":{"pointerSize":16},"3":{"alwaysVisible":false},"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,

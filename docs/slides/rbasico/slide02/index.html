@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="pt-br"><head>
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/tabby.min.js"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
@@ -29,6 +29,25 @@
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
+    }
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
     }
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
@@ -341,45 +360,109 @@
 </div>
 
 </section>
-<section id="encarte" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Encarte</h2>
+<section>
+<section id="encarte" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Encarte</h1>
 <center>
 <p><img data-src="EAR-rbasico.png"></p>
 </center>
 </section>
-<section id="filosofia-de-publicação-selo-dc" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Filosofia de publicação (Selo DC)</h2>
+<section class="slide level2">
+
+</section></section>
+<section id="filosofia-de-publicação-selo-dc" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Filosofia de publicação (Selo DC)</h1>
 <p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 <p><img src="SeloDC-branco.png" width="400"></p>
 </a><p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;"></a></p>
 </section>
-<section id="livro-de-apoio" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Livro de Apoio</h2>
-<p>Usaremos @batista2021:</p>
+
+<section id="apoio-ceac-e-ufsj" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Apoio CEAC e UFSJ</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div>
+<ul>
+<li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/ceac_ufsj/">@ceac_ufsj</a></li>
+</ul>
+</div>
+<center>
+<img data-src="ceac.png" style="width:70.0%">
+</center>
+</div><div class="column" style="width:50%;">
+<div>
+<ul>
+<li><a href="ufsj.edu.br/">ufsj.edu.br/</a></li>
+</ul>
+</div>
+<center>
+<p><img src="ufsj.png" title="ufsj.edu.br/" width="300"></p>
+</center>
+</div>
+</div>
+</section>
+
+<section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Livro de Apoio</h1>
+<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
 <p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
-<p><img src="hardcover01.png" width="400"></p>
+<p><img src="hardcover01.png" width="300"></p>
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
 </section>
-<section id="relembrando-a-aula-anterior" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Relembrando a aula anterior</h2>
+
+<section>
+<section id="o-que-é-o-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>O que é o R?</h1>
+<blockquote>
+<p>O R é um ambiente de <em>software</em> livre e código aberto, com recursos gráficos, cujo objetivo se inicia pela análise e apresentação de dados até recursos para desenvolvimento de página <em>web</em>, por exemplo. Devido a contribuição da linguagem ser realizada por toda a comunidade científica e sociedade como um todo, os recursos desenvolvidos pelo R são dos mais diversos possíveis.</p>
+</blockquote>
+</section>
+<section id="o-que-é-o-r-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>O que é o R?</h2>
+<p>Por que os artigos “o” e “a” para o R?</p>
+<div class="fragment">
+<blockquote>
+<p>Em muitos momentos utilizaremos o artigo “o” para a linguagem R. Pois é, isso ocorre porque ela também é considerada um <em>software</em> ou ambiente. Daí, chamamos de programa R, ou preferivelmente, ambiente R.</p>
+</blockquote>
+</div>
+</section></section>
+<section id="o-que-é-o-rstudio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>O que é o RStudio?</h1>
+<ul>
+<li class="fragment">O Rstudio é uma <em>IDE</em></li>
+<li class="fragment"><em>IDE</em>: Do inglês <em>Integrated Development Evironment</em></li>
+<li class="fragment">Pode ser usado como <em>desktop</em> e/ou <em>web browser</em></li>
+</ul>
+</section>
+
+<section id="interface-do-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Interface do R</h1>
 
 <img data-src="promptr.png" style="width:80.0%" class="r-stretch"></section>
-<section id="relembrando-a-aula-anterior-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Relembrando a aula anterior</h2>
+
+<section id="interface-do-rstudio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Interface do RStudio</h1>
 
 <img data-src="ide_rstudio.png" class="r-stretch"></section>
-<section id="obrigado" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Obrigado</h2>
+
+<section id="obrigado" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Obrigado</h1>
 <p>Sugestões, perguntas, críticas…</p>
 <p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
 <p><img src="EAR-rbasico02.png" width="400"></p>
 </a><p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;"></a></p>
 </section>
-<section id="referências" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Referências</h2>
+
+<section id="referências" class="title-slide slide level1 smaller scrollable" data-background-image="EAR-rbasico-background-02.png">
+<h1>Referências</h1>
 
 <img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
+</div>
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-batista2021" class="csl-entry" role="doc-biblioentry">
+BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+</div>
 </div>
 </section>
     </div>
@@ -441,7 +524,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'c/t',
+        slideNumber: 'h.v',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -482,7 +565,7 @@
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'linear',
+        navigationMode: 'default',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
@@ -637,12 +720,12 @@
         // flash "checked"
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
+        button.setAttribute("title", "Copiada");
         let tooltip;
         if (window.bootstrap) {
           button.setAttribute("data-bs-toggle", "tooltip");
           button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
+          button.setAttribute("data-bs-title", "Copiada");
           tooltip = new bootstrap.Tooltip(button, 
             { trigger: "manual", 
               customClass: "code-copy-button-tooltip",

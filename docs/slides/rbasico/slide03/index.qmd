@@ -6,12 +6,13 @@ title-slide-attributes:
 
 author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
 bibliography: biblio.bib
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 link-citations: true
-lang: pt-BR
+lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -22,7 +23,7 @@ format:
     chalkboard: 
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
+      boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
@@ -39,7 +40,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
@@ -58,6 +59,44 @@ editor: visual
 
 </a>
 
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
 Usaremos @batista2021:
@@ -68,9 +107,10 @@ Usaremos @batista2021:
 
 </a>
 
+
 # Criadores do R {background-image="EAR-rbasico-background-02.png"}
 
-![](criadores_r.png){width="30%"}
+![](criadores_r.png){width="30%" title="Robert Gentleman e Ross Ihaka"}
 
 ## Criadores do R
 
@@ -84,11 +124,38 @@ Usaremos @batista2021:
 -   Em 1997 é criado o *R Core Team*;
 -   Em 1997, mas precisamente em 23 de abril, o CRAN (Comprehensive R Archive Network) foi ofialmente lançado;
 
+# Criador da linguagem `S` {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](john_chambers.jpg){width="50%" title="John Chambers"}
+</center>
+
+
+## Criador da linguagem `S` {background-image="EAR-rbasico-background-02.png"}
+
+- Ao pedir por e-mail, o direito do uso de sua foto no livro, John Chambers responde:
+
+. . .
+
+> Com certeza, fique à vontade para usar a foto. Os melhores votos de sucesso para o seu livro (John Chambers)
+
+# Criador do RStudio {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](jjallaire.jpg){width="50%" title="J. J. Allaire"}
+</center>
+
 # Versão 1.0.0 do `R` {background-image="EAR-rbasico-background-02.png"}
 
-```{r , echo=FALSE, fig.align='center', out.width="40%"}
+
+
+```{r , echo=FALSE, fig.align='center', out.width="40%", fig.cap="Retirado do livro R Extending [@chambers2016].", fig}
 knitr::include_graphics("rversao1.png")
 ```
+
+
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 
@@ -100,6 +167,6 @@ Sugestões, perguntas, críticas...
 
 </a>
 
-------------------------------------------------------------------------
+
 
 # Referências {background-image="EAR-rbasico-background-02.png"}

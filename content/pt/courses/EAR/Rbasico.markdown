@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-08-30 14:52:16"
+date: "2023-09-12 07:38:39"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -23,7 +23,6 @@ Programando o [R](http://r-project.org) em nível básico.
 ## <i class="fas fa-bullhorn"></i>  Vídeo de lançamento do curso {id="lancamento" title="Clique aqui!"}
  
 - <i class="fas fa-calendar-day"></i> 17/08/2023 <i class="fas fa-clock"></i> 14h
-c
 - {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/lancamento/index.html" target="_blank">*Slide* de lançamento</a>
 
 <center>
@@ -89,7 +88,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 ## <i class="fa fa-link"></i> Inscrição do curso {id="inscricao" title="Clique aqui!"}
 
-- <i class="fas fa-calendar-day"></i> Período de nscrição: **Início: 09/08/2023  Término: 12/09/2023** 
+- <i class="fas fa-calendar-day"></i> Período de inscrição: **Início: 09/08/2023  Término: 12/09/2023** 
 
 {{< gdocs src="https://forms.gle/PMaMhtPRDoa6F1kF9">}}
 
@@ -156,7 +155,9 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+
 {{< youtube  >}}
+
 
 {{< /spoiler >}}
 
@@ -286,7 +287,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 {{< /spoiler >}}
 
 
-{{< spoiler text=":blue_book: Aula 08 - Objetos" >}}
+{{< spoiler text=":blue_book: Aula 08 - Objetos e estrutura de dados" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Objetos
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide08/index.html" target="_blank">Aula 08</a>

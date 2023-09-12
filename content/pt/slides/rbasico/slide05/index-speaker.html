@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head>
+<html lang="pt-br"><head>
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/tabby.min.js"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
@@ -94,6 +94,25 @@
     code span.va { color: #00e0e0; } /* Variable */
     code span.vs { color: #abe338; } /* VerbatimString */
     code span.wa { color: #dcc6e0; } /* Warning */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -419,29 +438,47 @@
 </a><p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;"></a></p>
 </section>
 
+<section id="apoio-ceac-e-ufsj" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Apoio CEAC e UFSJ</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div>
+<ul>
+<li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/ceac_ufsj/">@ceac_ufsj</a></li>
+</ul>
+</div>
+<center>
+<img data-src="ceac.png" style="width:70.0%">
+</center>
+</div><div class="column" style="width:50%;">
+<div>
+<ul>
+<li><a href="ufsj.edu.br/">ufsj.edu.br/</a></li>
+</ul>
+</div>
+<center>
+<p><img src="ufsj.png" title="ufsj.edu.br/" width="300"></p>
+</center>
+</div>
+</div>
+</section>
+
 <section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Livro de Apoio</h1>
-<p>Usaremos @batista2021:</p>
+<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
 <p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 <p><img src="hardcover01.png" width="300"></p>
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
 </section>
 
-<section id="obrigado" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Obrigado</h1>
-<p>Sugestões, perguntas, críticas…</p>
-<p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
-<p><img src="EAR-rbasico02.png" width="400"></p>
-</a><p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;"></a></p>
-</section>
-
 <section>
 <section id="console-e-prompt-de-comando-no-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Console e Prompt de comando no R</h1>
+<h1>Console e Prompt de comando no <code>R</code></h1>
 <ul>
 <li class="fragment"><strong>Console</strong>: Tela de inserir e visualizar os comandos;</li>
 <li class="fragment"><strong>Prompt de comando</strong>: Símbolo “<code>&gt;</code>”, pronto, pode inserir os comandos!</li>
 </ul>
+<div class="fragment">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="sc">&gt;</span> <span class="co"># Veja o símbolo do prompt de comando usual "`&gt;`"</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="er">&gt;</span> <span class="dv">10</span> <span class="sc">+</span> <span class="dv">10</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -454,6 +491,7 @@
 <span id="cb3-2"><a href="#cb3-2"></a><span class="er">&gt;</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">20</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20</code></pre>
+</div>
 </div>
 </div>
 </section>
@@ -488,9 +526,9 @@
 <li class="fragment">Não pode inicia por <code>_</code> ou dígito, é retornado um erro no console caso isso ocorra;</li>
 <li class="fragment">Não pode usar qualquer uma das palavras reservadas pela linguagem, isto é, <code>TRUE</code>, <code>FALSE</code>, <code>if</code>, <code>for</code>, dentre outras, que pode ser consultado usando o comando <code>?Reserved()</code>.</li>
 </ul>
-</section></section>
-<section id="exemplos-de-nomes" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Exemplos de nomes</h1>
+</section>
+<section id="exemplos-de-nomes" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Exemplos de nomes</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="sc">&gt;</span> nome <span class="ot">&lt;-</span> <span class="st">"Ben"</span></span>
 <span id="cb7-2"><a href="#cb7-2"></a><span class="sc">&gt;</span> </span>
@@ -505,8 +543,7 @@
 <pre><code>[1] "X0.123"</code></pre>
 </div>
 </div>
-</section>
-
+</section></section>
 <section>
 <section id="comandos-elementares" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Comandos elementares</h1>
@@ -517,12 +554,20 @@
 </section>
 <section id="expressões" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Expressões</h2>
+<blockquote>
+<p>Expressão ou declaração: Qualquer comando repassado ao console</p>
+</blockquote>
+<p>Exemplo 1</p>
+<div class="fragment">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="sc">&gt;</span> <span class="dv">10</span> <span class="sc">+</span> <span class="dv">15</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 25</code></pre>
 </div>
 </div>
+<p>Exemplo 2</p>
+</div>
+<div class="fragment">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="sc">&gt;</span> <span class="dv">10</span>,<span class="dv">5</span> <span class="sc">+</span> <span class="dv">15</span>,<span class="dv">5</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
@@ -531,15 +576,24 @@
       ^</code></pre>
 </div>
 </div>
+</div>
 </section>
 <section id="expressões-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Expressões</h2>
+<p>Exemplo 3</p>
+<div class="fragment">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a><span class="sc">&gt;</span> <span class="fu">invisible</span>(<span class="fl">10.5</span> <span class="sc">+</span> <span class="fl">15.5</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </div>
 </section>
 <section id="atribuições" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Atribuições</h2>
+<blockquote>
+<p>Atribuição: Símbolo “<code>&lt;-</code>”, um operador que associa um nome a um determinado “resultado”</p>
+</blockquote>
+<div class="fragment">
+<p>Exemplo:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a><span class="sc">&gt;</span> <span class="co"># Foi criado um objeto do tipo caractere e o nome "meu_nome" foi </span></span>
 <span id="cb16-2"><a href="#cb16-2"></a><span class="er">&gt;</span> <span class="co"># associado a ele O 'R' avalia essa expressão, mas não imprime </span></span>
@@ -553,30 +607,51 @@
 <pre><code>[1] "Ben"</code></pre>
 </div>
 </div>
+</div>
+<div class="fragment">
+<p><font size="+3"></font></p><font size="+3">
+<p><span style="color: yellow;">OBS.: Erroneamente, afirmamos: Criamos o objeto <strong>meu_nome</strong>!</span></p>
+</font><p><font size="+3"></font></p>
+</div>
 </section></section>
-<section id="mais-de-um-comando-por-linha" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Mais de um comando por linha</h1>
+<section>
+<section id="execução-de-comandos" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Execução de comandos</h1>
+<p>Exemplo:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="sc">&gt;</span> <span class="co"># Uma linha de comando por vez</span></span>
-<span id="cb18-2"><a href="#cb18-2"></a><span class="er">&gt;</span> meu_nome <span class="ot">&lt;-</span> <span class="st">"Ben"</span> <span class="co"># Criamos e associamos um nome ao objeto</span></span>
-<span id="cb18-3"><a href="#cb18-3"></a><span class="sc">&gt;</span> meu_nome <span class="co"># Imprimos o objeto</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="sc">&gt;</span> <span class="co"># Para imprimir o resultado da expressão, digitamos o nome </span></span>
+<span id="cb18-2"><a href="#cb18-2"></a><span class="er">&gt;</span> <span class="co"># "meu_nome" no console e apertamos o botão ENTER # do teclado!</span></span>
+<span id="cb18-3"><a href="#cb18-3"></a><span class="er">&gt;</span> meu_nome</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Ben"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a><span class="sc">&gt;</span> <span class="co"># Tudo em uma linha de comando</span></span>
-<span id="cb20-2"><a href="#cb20-2"></a><span class="er">&gt;</span> meu_nome <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; meu_nome</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><span style="color: yellow;">OBS.: No RStudio, para executar um comando: CTRL+ENTER (<span class="math inline">\(script\)</span>) ou ENTER (<span class="math inline">\(console\)</span>)</span></p>
+</section>
+<section id="mais-de-um-comando-por-linha" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Mais de um comando por linha</h2>
+<p>Exemplo:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a><span class="sc">&gt;</span> <span class="co"># Uma linha de comando por vez</span></span>
+<span id="cb20-2"><a href="#cb20-2"></a><span class="er">&gt;</span> meu_nome <span class="ot">&lt;-</span> <span class="st">"Ben"</span> <span class="co"># Criamos e associamos um nome ao objeto</span></span>
+<span id="cb20-3"><a href="#cb20-3"></a><span class="sc">&gt;</span> meu_nome <span class="co"># Imprimos o objeto</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Ben"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="sc">&gt;</span> <span class="co"># Tudo em uma linha de comando</span></span>
+<span id="cb22-2"><a href="#cb22-2"></a><span class="er">&gt;</span> meu_nome <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; meu_nome</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Ben"</code></pre>
 </div>
 </div>
 </section>
-
-<section id="um-comando-em-mais-de-uma-linha" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Um comando em mais de uma linha</h1>
+<section id="um-comando-em-mais-de-uma-linha" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Um comando em mais de uma linha</h2>
+<p>Exemplo:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="sc">&gt;</span> <span class="co"># Uma linha de comando em mais de uma linha</span></span>
-<span id="cb22-2"><a href="#cb22-2"></a><span class="er">&gt;</span> (<span class="dv">10</span> <span class="sc">+</span> <span class="dv">10</span>) <span class="sc">/</span></span>
-<span id="cb22-3"><a href="#cb22-3"></a><span class="sc">+</span>   <span class="dv">2</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a><span class="sc">&gt;</span> <span class="co"># Uma linha de comando em mais de uma linha</span></span>
+<span id="cb24-2"><a href="#cb24-2"></a><span class="er">&gt;</span> (<span class="dv">10</span> <span class="sc">+</span> <span class="dv">10</span>) <span class="sc">/</span></span>
+<span id="cb24-3"><a href="#cb24-3"></a><span class="sc">+</span>   <span class="dv">2</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 10</code></pre>
 </div>
@@ -585,24 +660,53 @@
 <li class="fragment">Observe que em todos os comandos, algumas linhas iniciamos pelo símbolo de jogo da velha (“<code>#</code>”). Esta linha representará um comentário, e o <code>R</code> desprezará a avaliação dessa linha de comando.</li>
 </ul>
 </section>
-
+<section id="chamada-e-correção-de-comandos-anteriores" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Chamada e correção de comandos anteriores</h2>
+<p><br></p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="rstudio.png" style="width:30.0%"></p>
+<p></p><figcaption>Usando o RStudio</figcaption><p></p>
+</figure>
+</div>
+</center>
+</section></section>
+<section>
 <section id="ambiente-global" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Ambiente Global</h1>
+<blockquote>
+<p>Ambiente Global: Objeto <code>R</code> que armazena objetos nominados</p>
+</blockquote>
+<div class="fragment">
 <div class="cell">
 
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a><span class="sc">&gt;</span> <span class="co"># Nomes criados no ambiente </span></span>
-<span id="cb24-2"><a href="#cb24-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">-</span> <span class="dv">6</span>; y <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">+</span> <span class="dv">4</span>; w <span class="ot">&lt;-</span> <span class="st">"Maria Isabel"</span></span>
-<span id="cb24-3"><a href="#cb24-3"></a><span class="sc">&gt;</span> <span class="co"># Verificando o nomes contidos no ambiente global</span></span>
-<span id="cb24-4"><a href="#cb24-4"></a><span class="er">&gt;</span> <span class="fu">ls</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a><span class="sc">&gt;</span> <span class="co"># Nomes criados no ambiente </span></span>
+<span id="cb26-2"><a href="#cb26-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">-</span> <span class="dv">6</span>; y <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">+</span> <span class="dv">4</span>; w <span class="ot">&lt;-</span> <span class="st">"Maria Isabel"</span></span>
+<span id="cb26-3"><a href="#cb26-3"></a><span class="sc">&gt;</span> <span class="co"># Verificando o nomes contidos no ambiente global</span></span>
+<span id="cb26-4"><a href="#cb26-4"></a><span class="er">&gt;</span> <span class="fu">ls</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "w" "x" "y"</code></pre>
 </div>
 </div>
+</div>
 </section>
-
-<section id="obrigado-1" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<section id="verificando-o-ambiente-global-no-rstudio" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Verificando o ambiente global no RStudio?</h2>
+<center>
+<p><img data-src="ide_rstudio.png" style="width:80.0%"></p>
+</center>
+</section>
+<section id="verificando-o-ambiente-global-no-rstudio-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Verificando o ambiente global no RStudio?</h2>
+<p>4° Quadrante:</p>
+<center>
+<p><img data-src="environment.PNG" style="width:120.0%"></p>
+</center>
+</section></section>
+<section id="obrigado" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Obrigado</h1>
 <p>Sugestões, perguntas, críticas…</p>
 <p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
@@ -610,11 +714,16 @@
 </a><p><a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;"></a></p>
 </section>
 
-<section id="referências" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<section id="referências" class="title-slide slide level1 smaller scrollable" data-background-image="EAR-rbasico-background-02.png">
 <h1>Referências</h1>
 
 <img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
+</div>
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-batista2021" class="csl-entry" role="doc-biblioentry">
+BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+</div>
 </div>
 </section>
     </div>
@@ -653,7 +762,7 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
-'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":5},
+'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":3},
 'multiplex': {"secret":"16867890951872560832","id":"547495fddd76b848","url":"https://reveal-multiplex.glitch.me/"},
 'pointer': {"0":{"key":"q"},"1":{"color":"red"},"2":{"pointerSize":16},"3":{"alwaysVisible":false},"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,

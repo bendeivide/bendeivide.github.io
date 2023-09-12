@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/curso-r/</link>
       <atom:link href="http://bendeivide.github.io/category/curso-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Aug 2023 14:52:16 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 12 Sep 2023 07:38:39 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso R</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Wed, 30 Aug 2023 14:52:16 +0000</pubDate>
+      <pubDate>Tue, 12 Sep 2023 07:38:39 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -66,8 +66,7 @@
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 30 horas em 3 semanas&lt;/p&gt;
 &lt;h2 id=&#34;lancamento&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-bullhorn&#34;&gt;&lt;/i&gt;  Vídeo de lançamento do curso&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; 17/08/2023 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 14h
-c&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; 17/08/2023 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 14h&lt;/li&gt;
 &lt;li&gt;
   &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/lancamento/index.html&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slide&lt;/em&gt; de lançamento&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -130,10 +129,10 @@ c&lt;/li&gt;
   &lt;figure  &gt;
     &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
       &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-                 /media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_6823890a60ee57d95b0886138c7e5192.webp 400w,
+                 /media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_f00385046409acb6ee4a2d0a9c771416.webp 400w,
                  /media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_18526b9828b1e068de546d8c5d87b77b.webp 760w,
                  /media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-                 src=&#34;http://bendeivide.github.io/media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_6823890a60ee57d95b0886138c7e5192.webp&#34;
+                 src=&#34;http://bendeivide.github.io/media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_f00385046409acb6ee4a2d0a9c771416.webp&#34;
                  width=&#34;100%&#34;
                  height=&#34;433&#34;
                  loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -161,7 +160,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/ul&gt;
 &lt;h2 id=&#34;inscricao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; Inscrição do curso&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; Período de nscrição: &lt;strong&gt;Início: 09/08/2023  Término: 12/09/2023&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; Período de inscrição: &lt;strong&gt;Início: 09/08/2023  Término: 12/09/2023&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://forms.gle/PMaMhtPRDoa6F1kF9&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
@@ -376,7 +375,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
-  &lt;summary&gt;📘 Aula 08 - Objetos&lt;/summary&gt;
+  &lt;summary&gt;📘 Aula 08 - Objetos e estrutura de dados&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Objetos&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide08/index.html&#34; target=&#34;_blank&#34;&gt;Aula 08&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
