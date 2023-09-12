@@ -1,0 +1,325 @@
+---
+title: "EAR: R Básico"
+subtitle: "Aula 09 - Vetores"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+css: hscroll.css
+lang: pt-BR
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: dark
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 5 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: visual
+---
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+# Introdução {background-image="EAR-rbasico-background-02.png"}
+
+Podemos dizer que existem três tipos principais de **vetores atômicos**:
+
+-   Numéricos (`numeric`):
+    -   Inteiro (`integer`);
+    -   Real (`double`);
+-   Lógico (`logical`);
+-   Caractere (`character`)
+
+Existem dois tipos raros que são os complexos (`complex`) e brutos (`raw`), que falaremos no módulo seguinte.
+
+# Escalares {background-image="EAR-rbasico-background-02.png"}
+
+-   Vetor de comprimento 1;
+-   Sintaxe para valores especiais: `TRUE`, `FALSE`, `Inf`, `-Inf`, `NaN`, `NA`;
+
+## Escalares {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# divisao de um numero por zero (+ infinito)
+x <- 50 / 0; x
+# divisao de um numero por zero (- infinito)
+-50 / 0
+# Resultado sem número do tipo NaN
+x - x
+```
+
+## Escalares {background-image="EAR-rbasico-background-02.png"}
+
+-   os vetores numéricos do tipo `double` podem ser representados de forma decima (`0.123`), científica (`1.23e5`), ou hexadecimal (`3E0A`);
+-   os vetores numéricos do tipo `integer` são representados pela letra `L` ao final do **número inteiro**, isto é, `1L`, `1.23e5L`, etc.;
+-   os caracteres são representados pelas palavras, letras, números ou caracteres especiais entre aspas, isto é, `"Ben"`, `"a"`. Pode ser utilizado também uma aspa, `'Ben'`, `'a'`, etc.
+
+# Vetores longos {background-image="EAR-rbasico-background-02.png"}
+
+-   Funções:
+    -   concatenar `c()`
+    -   valores sequenciais: `rep()`, `seq()`, `:`
+
+```{r echo=TRUE, prompt=TRUE}
+# Criando um vetor 'double'
+vetor.num <- c(1, 2, 3, 4, 5); vetor.num; typeof(vetor.num)
+```
+
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
+
+-   Funções:
+    -   concatenar `c()`
+    -   valores sequenciais: `rep()`, `seq()`, `:`
+
+```{r echo=TRUE, prompt=TRUE}
+# Criando uma sequência de 1 a 5
+vetor.num3 <- 1:5; vetor.num3; typeof(vetor.num3)
+```
+
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+vetor.num <- c(1, 2, 3, 4, 5); vetor.num2 <- c(1L, 2L, 3L, 4L, 5L)
+vetor.num3 <- 1:5
+##
+vetor.num == vetor.num2
+vetor.num == vetor.num3
+vetor.num2 == vetor.num3
+```
+
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Modo do objeto:
+typeof(vetor.num); typeof(vetor.num2); typeof(vetor.num3)
+```
+
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Memoria:
+lobstr::obj_size(vetor.num)
+lobstr::obj_size(vetor.num2)
+lobstr::obj_size(1:5)
+```
+
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Tamanho de memoria dos objetos
+lobstr::obj_size(1:10)
+lobstr::obj_size(1:10000)
+lobstr::obj_size(1:1000000)
+```
+
+## Vetores longos {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Tamanho de memoria dos objetos
+lobstr::obj_size(c(1:10))
+lobstr::obj_size(c(1:10000))
+lobstr::obj_size(c(1:1000000))
+```
+
+# Manipulando vetores {background-image="EAR-rbasico-background-02.png"}
+
+-   Vetor de comprimento zero
+
+```{r echo=TRUE, prompt=TRUE}
+v1 <- numeric(0); length(v1)
+v2 <- character(0); length(v2)
+v3 <- logical(0); length(v2)
+```
+
+## Manipulando vetores {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Vetor numerico de comprimento 0
+v1 <- numeric(0)
+v2 <- character(0)
+v3 <- logical(0)
+# Inserimos 3 elementos em v1 e depois imprimos o seu resultado
+v1[1] <- 5; v1[2] <- 3; v1[3] <- 10; v1; length(v1)
+```
+
+## Manipulando vetores {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Vetor numerico de comprimento 0
+v1 <- numeric(0)
+# Inserimos 3 elementos em v1 e depois imprimos o seu resultado
+v1[1] <- 5; v1[2] <- 3; v1[3] <- 10
+# Imprimindo apenas o primeiro valor
+v1[1]
+# Imprimindo os dois ultimos
+v1[2:3]; v1[c(2, 3)]
+```
+
+# Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Soma de dois vetores
+2 + 3
+# Exceto pela sintaxe, '+' eh uma chamada de funcao
+`+`(2, 3)
+```
+
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Subtracao de dois vetores
+3 - 2
+# Exceto pela sintaxe, '-' eh uma chamada de funcao
+`-`(3, 2)
+```
+
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Multiplicacao de dois vetores
+3 * 2
+# Exceto pela sintaxe, '*' eh uma chamada de funcao
+`*`(3, 2)
+```
+
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Divisao de dois vetores
+3 / 2
+# Exceto pela sintaxe, '/' eh uma chamada de funcao
+`/`(3, 2)
+```
+
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+c(4, 5, 6) + c(1, 2, 3) # Soma de vetores
+c(4, 5, 6) + c(1, 2, 3) # Subtracao de  vetores
+c(4, 5, 6) * c(1, 2, 3) # Multiplicacao dois vetores
+c(4, 5, 6) / c(1, 2, 3) # Divisao de dois vetores
+```
+
+## Aritmética e outras operações {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Soma de vetores de comprimento diferente
+1:10 + 3:10
+# (1+3) (2+4) (3+5) ... (8+10) (9+3) (10+4)
+```
+
+## Aritmética e outras operações {.hscroll .scrollable background-image="EAR-rbasico-background-02.png"} 
+
+| Função (Ou operador) |                   Finalidade                   |
+|:--------------------:|:----------------------------------------------:|
+|     `^` ou `**`      | Expoenciação binária, isto é `2^3` ou `2 ** 3` |
+|        `%/%`         |                Divisão inteira                 |
+|         `%%`         |              Restante da divisão               |
+|       `sum()`        |           Soma de elementos do vetor           |
+|       `prod()`       |       Produtório dos elementos do vetor        |
+|       `sqrt()`       |    Raiz quadrada dos elementos de um vetor     |
+|       `log()`        |           Função Logaritmo neperiano           |
+
+## Aritmética e outras operações {.hscroll .scrollable background-image="EAR-rbasico-background-02.png"} 
+
+| Função (Ou operador) |               Finalidade                |
+|:--------------------:|:---------------------------------------:|
+|       `exp()`        |           Função exponencial            |
+|       `mean()`       |     Média dos elementos de um vetor     |
+|        `sd()`        | Desvio padrão dos elementos de um vetor |
+|       `var()`        |   Variância dos elementos de um vetor   |
+|      `median()`      |    Mediana dos elementos de um vetor    |
+
+## Operadores lógicos {.hscroll .scrollable background-image="EAR-rbasico-background-02.png"}
+
+| Operador Lógico |           Sintaxe           |                      Pergunta                      |
+|:---------------:|:------------------:|:----------------------------------:|
+|       `<`       |           `a < b`           |                `a` é menor que `b`?                |
+|       `>`       |           `a > b`           |                `a` é maior que `b`?                |
+|      `==`       |          `a == b`           |                  `a` é igual `b`?                  |
+|      `!=`       |          `a != b`           |                `a` é diferente `b`?                |
+|      `>=`       |          `a >= b`           |             `a` é maior ou igual a `b`             |
+|      `<=`       |          `a <= b`           |            `a` é menor ou igual a `b`?             |
+|     `%in%`      | `"a" %in% c("a", "b", "c")` | O elemento `"a"` está no vetor `c("a", "b", "c")`? |
+
+# Operadores Booleanos {.hscroll .scrollable background-image="EAR-rbasico-background-02.png"}
+
+| Operador Booleano (ou Função) |         Sintaxe          |                  Pergunta                   |
+|:--------------------:|:-----------------:|:-----------------------------:|
+|          `&` ou `&&`          |     `cond1 & cond2`      |    As `cond1` e `cond2` são verdadeiras?    |
+|          `|` ou `||`          |     `cond1 | cond2`      |     A `cond1` ou `cond2` é verdadeira?      |
+|            `xor()`            |   `xor(cond1, cond2)`    | Apenas a `cond1` ou a `cond2` é verdadeiro? |
+|              `!`              |         `!cond1`         |             É falso a `cond1` ?             |
+|            `any()`            | `any(cond1, cond2, ...)` |    Alguma das condições são verdadeiras?    |
+|            `all()`            | `all(cond1, cond2, ...)` |     Todas as condições são verdadeiras?     |
+
+## Operadores Booleanos {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Criando objetos
+x <- 1:3; y <- 1:3; z <- c(1, 2, 4)
+##
+x == y; y == z; x == y & y == z
+```
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

@@ -1,0 +1,6 @@
+.hscroll {
+  overflow: auto;
+  white-space: nowrap;
+  width: 50px;
+  height: 650px;
+}
