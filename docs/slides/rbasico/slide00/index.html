@@ -422,14 +422,13 @@
 
 <section id="planejamento-das-aulas" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Planejamento das aulas</h1>
-<!-- Gera problema de compilacao -->
 <p><font size="+2"></font></p><font size="+2">
 <div class="columns">
 <div class="column" style="width:25%;">
 <div>
 <p><strong>S1: 13-15/09</strong></p>
 <ul>
-<li><span style="color: #42affa;">Dia 13/09</span>
+<li>Dia 13/09
 <ul>
 <li>Aula 00</li>
 <li>Aula 01</li>
@@ -440,9 +439,9 @@
 <li>Aula 06</li>
 <li>Aula 07</li>
 </ul></li>
-<li><span style="color: yellow;">Dia 14/09</span>
+<li>Dia 14/09
 <ul>
-<li><span style="color: yellow;"><em>Live</em> de dúvidas</span></li>
+<li><em>Live</em> de dúvidas</li>
 </ul></li>
 </ul>
 </div>
@@ -450,7 +449,7 @@
 <div>
 <p><strong>S1: 13-15/09</strong></p>
 <ul>
-<li><span style="color: #42affa;">Dia 15/09</span>
+<li>Dia 15/09
 <ul>
 <li>Aula 08*</li>
 <li>Aula 09</li>
@@ -464,18 +463,18 @@
 <div>
 <p><strong>S2: 20-22/09</strong></p>
 <ul>
-<li><span style="color: #42affa;">Dia 20/09</span>
+<li>Dia 20/09
 <ul>
 <li>Aula 12</li>
 <li>Aula 13</li>
 <li>Aula 14</li>
 <li>Aula 15*</li>
 </ul></li>
-<li><span style="color: yellow;">Dia 21/09</span>
+<li>Dia 21/09
 <ul>
-<li><span style="color: yellow;"><em>Live</em> de dúvidas</span></li>
+<li><em>Live</em> de dúvidas</li>
 </ul></li>
-<li><span style="color: #42affa;">Dia 22/09</span>
+<li>Dia 22/09
 <ul>
 <li>Aula 16</li>
 <li>Aula 17*</li>
@@ -487,22 +486,22 @@
 <div>
 <p><strong>S3: 27-29/09</strong></p>
 <ul>
-<li><span style="color: #42affa;">Dia 27/09</span>
+<li>Dia 27/09
 <ul>
 <li>Aula 19*</li>
 <li>Aula 20</li>
 <li>Aula 21</li>
 </ul></li>
-<li><span style="color: #42affa;">Dia 28/09</span>
+<li>Dia 28/09
 <ul>
 <li>Aula 22</li>
 <li>Aula 23*</li>
 <li>Aula 24*</li>
 <li>Aula 25</li>
 </ul></li>
-<li><span style="color: yellow;">Dia 29/09</span>
+<li>Dia 29/09
 <ul>
-<li><span style="color: yellow;"><em>Live</em> de dúvidas</span></li>
+<li><em>Live</em> de dúvidas</li>
 </ul></li>
 </ul>
 </div>
@@ -767,44 +766,6 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

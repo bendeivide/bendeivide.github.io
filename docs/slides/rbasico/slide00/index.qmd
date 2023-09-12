@@ -124,20 +124,6 @@ Página do curso
 # Planejamento das aulas {background-image="EAR-rbasico-background-02.png"}
 
 
-<!-- Gera problema de compilacao -->
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-# Cor de fonte
-colorize <- function(x, color) {
-  if (knitr::is_latex_output()) {
-    sprintf("\\textcolor{%s}{%s}", color, x)
-  } else if (knitr::is_html_output()) {
-    sprintf("<span style='color: %s;'>%s</span>", color,
-      x)
-  } else x
-}
-```
-
 <font size="+2">
 
 :::: {.columns}
@@ -148,7 +134,7 @@ colorize <- function(x, color) {
 
 **S1: 13-15/09**
 
-- `r colorize("Dia 13/09", "#42affa")`
+- Dia 13/09
   - Aula 00
   - Aula 01
   - Aula 02
@@ -157,8 +143,8 @@ colorize <- function(x, color) {
   - Aula 05*
   - Aula 06
   - Aula 07
-- `r colorize("Dia 14/09", "yellow")`
-  - `r colorize("*Live* de dúvidas", "yellow")`
+- Dia 14/09
+  - *Live* de dúvidas
 
 :::
 
@@ -170,7 +156,7 @@ colorize <- function(x, color) {
 
 **S1: 13-15/09**
 
-- `r colorize("Dia 15/09", "#42affa")`
+- Dia 15/09
   - Aula 08*
   - Aula 09
   - Aula 10
@@ -187,14 +173,14 @@ colorize <- function(x, color) {
 
 **S2: 20-22/09**
 
-- `r colorize("Dia 20/09", "#42affa")`
+- Dia 20/09
   - Aula 12
   - Aula 13
   - Aula 14
   - Aula 15*
-- `r colorize("Dia 21/09", "yellow")`
-  - `r colorize("*Live* de dúvidas", "yellow")`
-- `r colorize("Dia 22/09", "#42affa")`
+- Dia 21/09
+  - *Live* de dúvidas
+- Dia 22/09
   - Aula 16
   - Aula 17*
   - Aula 18
@@ -210,17 +196,17 @@ colorize <- function(x, color) {
 
 **S3: 27-29/09**
 
-- `r colorize("Dia 27/09", "#42affa")`
+- Dia 27/09
   - Aula 19*
   - Aula 20
   - Aula 21
-- `r colorize("Dia 28/09", "#42affa")`
+- Dia 28/09
   - Aula 22
   - Aula 23*
   - Aula 24*
   - Aula 25
-- `r colorize("Dia 29/09", "yellow")`
-  - `r colorize("*Live* de dúvidas", "yellow")`
+- Dia 29/09
+  - *Live* de dúvidas
   
   
   

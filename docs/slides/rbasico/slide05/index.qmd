@@ -7,8 +7,8 @@ title-slide-attributes:
 author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
 bibliography: biblio.bib
 link-citations: true
+lang: pt-BR
 csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
-lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
@@ -201,19 +201,6 @@ invisible(10.5 + 15.5)
 
 ## Atribuições {background-image="EAR-rbasico-background-02.png"}
 
-<!-- Gera problema de compilacao -->
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-# Cor de fonte
-colorize <- function(x, color) {
-  if (knitr::is_latex_output()) {
-    sprintf("\\textcolor{%s}{%s}", color, x)
-  } else if (knitr::is_html_output()) {
-    sprintf("<span style='color: %s;'>%s</span>", color,
-      x)
-  } else x
-}
-```
 
 > Atribuição: Símbolo "`<-`", um operador que associa um nome a um determinado "resultado"
 
@@ -236,7 +223,7 @@ meu_nome
 
 <font size="+3">
 
-`r colorize("OBS.: Erroneamente, afirmamos: Criamos o objeto **meu_nome**!", "yellow")`
+OBS.: Erroneamente, afirmamos: Criamos o objeto **meu_nome**!
 
 </font>
 
@@ -250,7 +237,7 @@ Exemplo:
 meu_nome
 ```
 
-`r colorize("OBS.: No RStudio, para executar um comando: CTRL+ENTER ($script$) ou ENTER ($console$)", "yellow")`
+OBS.: No RStudio, para executar um comando: CTRL+ENTER ($script$) ou ENTER ($console$).
 
 ## Mais de um comando por linha {background-image="EAR-rbasico-background-02.png"}
 
@@ -294,7 +281,7 @@ Exemplo:
 . . .
 
 ```{r echo=FALSE}
-rm("meu_nome", "nome", "colorize")
+rm("meu_nome", "nome")
 ```
 
 ```{r echo=TRUE, prompt=TRUE, comment=""}
@@ -304,18 +291,7 @@ x <- 10 - 6; y <- 10 + 4; w <- "Maria Isabel"
 ls()
 ```
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-# Cor de fonte
-colorize <- function(x, color) {
-  if (knitr::is_latex_output()) {
-    sprintf("\\textcolor{%s}{%s}", color, x)
-  } else if (knitr::is_html_output()) {
-    sprintf("<span style='color: %s;'>%s</span>", color,
-      x)
-  } else x
-}
-```
+
 
 ## Verificando o ambiente global no RStudio? {background-image="EAR-rbasico-background-02.png"}
 
