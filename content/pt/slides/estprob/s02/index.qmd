@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Estatística e Probabilidade"
 subtitle: "Aula 02 - Exercícios sobre Definições gerais da estatística e técnicas de somatório (Capítulo 1)"
 title-slide-attributes:
@@ -12,7 +12,7 @@ lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: [ben-slide.scss]
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
@@ -61,7 +61,7 @@ Usaremos @batista2023:
 
 </a>
 
-# Relembrando aula 01
+# Relembrando aula 01 {background-image="cap02.png"}
 
 ## Método Científico {background-image="cap02.png"}
 
@@ -136,7 +136,7 @@ Usaremos @batista2023:
 
 ::::
 
-## Problema 2
+## Problema 2 {background-image="cap02.png"}
 
 :::: {.columns}
 

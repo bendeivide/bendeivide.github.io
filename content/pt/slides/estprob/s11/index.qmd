@@ -169,7 +169,7 @@ Um experimento lança três moedas honestas, e deseja-se verificar a face superi
 
 ## Evento certo, impossível e elementar {background-image="cap02.png"}
 
-> **Definição (Evento certo, impossível e elementar):** Seja $\Omega$ o espaço amostral do experimento. Então dizemos que $ \Omega $ é o evento certo, e $\emptyset$ é o evento impossível, e o evento $\{\omega\}$ é dito elementar.
+> **Definição (Evento certo, impossível e elementar):** Seja $\Omega$ o espaço amostral do experimento. Então dizemos que $\Omega$ é o evento certo, e $\emptyset$ é o evento impossível, e o evento $\{\omega\}$ é dito elementar.
 
 . . .
 

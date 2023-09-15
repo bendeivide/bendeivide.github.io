@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-09-14 08:41:06"
+date: "2023-09-14 18:02:04"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -30,7 +30,7 @@ Programando o [R](http://r-project.org) em nível básico.
 </center>
 
 
-## <i class="fas fa-brain"></i> Apoio
+## <i class="fas fa-brain"></i> Apoio {id="apoio" title="Clique aqui!"}
 
 - <a href="/slides/ceac/index.html" target="_blank">CEAC/UFSJ: Clube de Engenharia Assistida por Computador</a>
   - <i class="fab fa-instagram"></i> [@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
@@ -141,7 +141,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
   - {{< icon name="book-reader" pack="fas" >}} [R básico (Bookdown)](https://bendeivide.github.io/book-eambr01/)
 
 
-## <i class="fab fa-r-project"></i> Aulas
+## <i class="fab fa-r-project"></i> Aulas {id="aulas" title="Clique aqui!"}
 
 {{< spoiler text=":blue_book: Aula 00 - Apresentação do curso" >}}
 

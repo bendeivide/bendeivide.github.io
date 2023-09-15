@@ -41,8 +41,16 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
+  - notes
 editor: source
 ---
+
+<script src="plugin/notes/notes.js"></script>
+<script>
+    Reveal.initialize({
+        plugins: [ RevealNotes ]
+    });
+</script>
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
 

@@ -15,14 +15,14 @@
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Thu, 14 Sep 2023 08:41:06 +0000</pubDate>
+      <pubDate>Thu, 14 Sep 2023 18:02:04 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#lancamento&#34;&gt;&lt;i class=&#34;fas fa-bullhorn&#34;&gt;&lt;/i&gt;  Vídeo de lançamento do curso&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-braini-apoio&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt; Apoio&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#apoio&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt; Apoio&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#topicos&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#onde&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/a&gt;&lt;/li&gt;
@@ -30,7 +30,7 @@
     &lt;li&gt;&lt;a href=&#34;#cronograma&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#ementa&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Ementa&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#livro&#34;&gt;&lt;i class=&#34;fas fa-swatchbook&#34;&gt;&lt;/i&gt; Livro de apoio&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfab-fa-r-projecti-aulas&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#quiz&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
@@ -73,7 +73,7 @@
 &lt;center&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/4Bo-4qYMjTo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/center&gt;
-&lt;h2 id=&#34;i-classfas-fa-braini-apoio&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt; Apoio&lt;/h2&gt;
+&lt;h2 id=&#34;apoio&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt; Apoio&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/slides/ceac/index.html&#34; target=&#34;_blank&#34;&gt;CEAC/UFSJ: Clube de Engenharia Assistida por Computador&lt;/a&gt;
 &lt;ul&gt;
@@ -221,7 +221,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;i-classfab-fa-r-projecti-aulas&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
+&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;📘 Aula 00 - Apresentação do curso&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Apresentação do curso&lt;/p&gt;
