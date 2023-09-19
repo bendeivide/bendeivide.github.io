@@ -48,11 +48,14 @@ knitr::opts_chunk$set(echo = TRUE)
 library(leem)
 ```
 
-<script>
+<!--
+O quarto tem um problema de acionar o plugin 'RevealNotes'. Não consegui 
+resolver no arquivo <>.qmd. A saida é inseri-lo no arquivo index.html, isto é, inserir manualmente em Reveal.initialize > plugins > RevealNotes:
+
 Reveal.initialize({
 plugins: [ RevealNotes ]
 });
-</script>
+-->
 
 # Filosofia de publicação (Selo DC) {background-image="cap02.png"}
 

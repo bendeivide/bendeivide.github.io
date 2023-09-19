@@ -1,0 +1,590 @@
+---
+title: "Estatística e Probabilidade"
+subtitle: "Aula 12.1- Probabilidades (Parte III)"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EPAEC](https://bendeivide.github.io/courses/epaec/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+<!--
+O quarto tem um problema de acionar o plugin 'RevealNotes'. Não consegui 
+resolver no arquivo <>.qmd. A saida é inseri-lo no arquivo index.html, isto é, inserir manualmente em Reveal.initialize > plugins > RevealNotes:
+
+Reveal.initialize({
+plugins: [ RevealNotes ]
+});
+-->
+
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2023:
+
+<a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Motivação {background-image="cap02.png" background-color="white"}
+
+::: {.r-stack}
+![](exem-moedas1.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas2.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas3.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas4.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas5.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas6.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas7.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas8.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas9.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas10.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas11.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas12.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas13.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas14.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas15.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas16.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas17.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas18.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas19.png){.fragment .fade-in-then-out width="1000"}
+
+![](exem-moedas20.png){.fragment .fade-in-then-out width="1000"}
+:::
+
+# Variável aleatória {background-image="cap02.png"}
+
+> **Definição (Variável Aleatória):** Seja o espaço amostral $\Omega$ de um experimento, então uma função $X: \Omega \to \mathbb{R}$ é chamada de variável aleatória, isto é, considerando $\omega \in \Omega$, então a variável aleatória, $X(\omega)$, é uma função com domínio em $\Omega$ e imagem no conjunto dos reais $B$, tal que $B = \{x \in \mathbb{R}: X(\omega) = x,~\omega \in \Omega\}$.
+
+## Exemplo {background-image="cap02.png"}
+
+Para explicar a definição de uma variável aleatória será considerado o exemplo, no qual duas variedades de uma espécie $A$ ($A_1$, $A_2$) e três de outra espécie $E$ ( $E_1$, $E_2$ e $E_3$ ) são disponibilizados para uma pesquisa. Uma amostra de duas variedades ($n=2$) é extraída. O espaço amostral dos resultados desse experimento, segue,
+
+\begin{align*}
+  \Omega =  \left\{\begin{array}{ll}
+(A_1,A_2), (A_1,E_1), (A_1,E_2), (A_1,E_3), (A_2,E_1), \\
+(A_2,E_2), (A_2,E_3), (E_1,E_2),  (E_1,E_3), (E_2,E_3) 
+\end{array} \right\}
+\end{align*}
+
+##  Exemplo {background-image="cap02.png"}
+
+<center>
+![](espinduzido.png){width="100%"}
+</center>
+
+
+##  Exemplo {background-image="cap02.png"}
+
+Supondo que desejamos calcular a probabilidade de $C_3$ ocorrer, temos:
+
+. . .
+
+\begin{align}
+  P(C_3) & = P(\{\omega \in \Omega: \omega \in C_3\}) \nonumber\\
+         & = P(\{(A_1,A_2)\}) \nonumber\\
+         & = \frac{\#\{(A_1,A_2)\}}{\#\Omega} = \frac{1}{10}.
+\end{align}
+
+##  Exemplo {background-image="cap02.png"}
+
+Agora olhando para a variável $X$, tal que $P(C_3) = p_X(2) = P(X = 2)$, temos:
+
+. . .
+
+
+<font size="+3">
+\begin{align}\label{eq:resX2}
+  p_X(2) = P_X(X = 2) & = P_X(D), \quad (D = \{2\}) \nonumber\\
+                    & = P_X(\{x \in \Omega_X: X(\omega) \in D, ~\omega \in \Omega\}) \nonumber\\
+                    & = P(X^{-1}(2))\nonumber\\
+                    & = P(\{\omega \in \Omega: X(\omega) = 2\})\nonumber\\
+                    & = P(\{\omega \in \Omega: \omega \in C_3\})\nonumber\\
+                    & = P(\{(A_1,A_2)\})\nonumber\\
+                    & = P(C_3)\nonumber\\
+                    & = \frac{1}{10}.
+\end{align}
+</font>
+
+
+# Distribuição de $X$ {background-image="cap02.png"}
+
+> **Definição (Distribuição de $X$):** O conjunto de probabilidades:
+	$$
+	P_X(X(\omega) \in B) = P(\{w \in \Omega: X(\omega) \in B,~B \subset \mathbb{R}\}),
+	$$
+	para todos os subconjuntos de $B \in \Omega_X$, em que $B$ é um subconjunto do espaço amostral induzido, é a distribuição de uma variável aleatória $X$.
+
+
+## Exemplo {background-image="cap02.png"}
+
+Considerando que $X$ representa o número de variedades da espécie $A$, apresentamos a distribuição de $X$:
+
+|  	$X$ | $0$ | $1$ | $2$|
+|:---:|:---:|:---:|:---:|
+|  	$P(X = x)$ | $3/10$ | $6/10$ | $1/10$ |
+
+
+# Função de distribuição {background-image="cap02.png"}
+
+Considerando eventos da forma $B = (-\infty,x]$, definimos:
+
+> **Definição (Função de distribuição):** A função de distribuição (FD) ou função de distribuição acumulada (FDA) de uma variável aleatória $X$, é definida por
+  $$
+  F_X(x)=P(X\in (-\infty,x])=P(X \leq x), \ x\in\mathbb{R}.
+  $$
+  
+## Propriedades da FDA {background-image="cap02.png"}
+
+>**Teorema (Propriedades da FDA):** Uma função de distribuição de uma variável aleatória $X$ obedece as seguintes propriedades:
+>
+- $\lim_{x\rightarrow\infty}F_X(x)=1$ e $\lim_{x\rightarrow -\infty}F_X(x)=0$;
+- $F_X(x)$ é uma função não decrescente, isto é, $F_X(x)\leq F_X(y)$ sempre que $x\leq y$, $\forall x,y \in \mathbb{R}$;
+- $F_X(x)$ é contínua à direita, ou seja, para um número $x$, $\lim_{x_n\downarrow x}F_X(x_n)\downarrow F_X(x)$.
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "discrete", prop = 1)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "continuous", prop = 1)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "discrete", prop = 2)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "continuous", prop = 2)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "discrete", prop = 3)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "continuous", prop = 3)
+```
+
+
+# Variável aleatória discreta (VAD) {background-image="cap02.png"}
+
+> **Definição (VAD): ** Seja o espaço amostral $\Omega$ de um experimento, então a função $X: \Omega \to \mathbb{R}$ é chamada de variável aleatória discreta se imagem  é um subconjunto contável  $B$, finito ou infinito dos reais, tal que $B = \{x \in \mathbb{R}: X(\omega) = x,~\omega \in \Omega\}$.
+
+## Função de probabilidade (FP) {background-image="cap02.png"}
+
+>**Definição (FP):** Seja $X$ uma variável aleatória discreta, então sua função de probabilidade, $p_X:\mathbb{R}\rightarrow [0,1]$, é definida por:
+\begin{align*}
+p_X(x) & = P_X(X=x)\\
+       & = P(X=x) \\
+       & = P(\{w\in\Omega:X(w)=x\}),
+\end{align*}
+sendo $\sum_xP_X(x)=1$.
+
+## Suporte de $X$ (VAD) {background-image="cap02.png"}
+
+>**Definição (Suporte de $X$):** O suporte de uma variável aleatória discreta, denotado por $\mathcal{X}$, tal que $\mathcal{X} \subset \mathbb{R}$ é dado por
+\begin{align}
+  \mathcal{X} & = \{x:~ p_X(x) > 0\}.
+\end{align}
+
+## Exemplo {background-image="cap02.png"}
+
+Retornando ao exemplo das variedades, podemos apresentar a distribuição de probabilidade da variável $X$, número de variedades da espécie A na amostra sorteada, $n=2$. Cada ponto do espaço amostral amostral foi considerado como equiprovável. Assim:
+
+| X: número de variedades de A | $p_X(x)$: probabilidade |
+|:----------------------------:|:-----------------------:|
+|0 | 3/10 |
+| 1 | 6/10 |
+| 2 | 1/10 |
+
+## Exemplo {background-image="cap02.png"}
+
+Dessa forma, o suporte de X é $\mathcal{X} = \{0, 1, 2\}$, e cada elemento é uma realização da variável aleatória. Qualquer valor fora do suporte de $X$ tem probabilidade zero, por exemplo, $p_X(3) = 0$.
+
+
+## Exemplo  {background-image="cap02.png"}
+
+<center>
+![](graffp.png)
+</center>
+
+## FDA para VAD {background-image="cap02.png"}
+
+> **Definição (FDA):** A função de distribuição de uma variável aleatória discreta $X$ é a função $F_X:\mathbb{R}\rightarrow [0,1]$, definida por
+	$$
+	F_X(x)=P(X\leq x)=\sum_{x}p_X(x),
+	$$
+	para todo $x\in\mathbb{R}$.
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "discrete", prop = 1)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "discrete", prop = 2)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "discrete", prop = 3)
+```
+
+
+# Variável Aleatória Contínua (VAC) {background-image="cap02.png"}
+
+>**Definição (VAC):** Seja o espaço amostral $\Omega$ de um experimento, então a função $X: \Omega \to \mathbb{R}$ é chamada de variável aleatória contínua, se a sua imagem é um subconjunto $B$, infinito não enumerável dos reais, e que
+\begin{align*}
+	P(X = x) = 0,
+\end{align*}
+para todo $x \in \mathbb{R}$.
+
+## Exemplo {background-image="cap02.png"}
+
+<font size="+3">
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+::: {.nonincremental}
+
+Suponha-se que um comprimento dimensional de uma peça fabricada é medido ao longo da produção de um dia. Problemas da medição:
+
+- vibrações,
+- oscilações de temperatura,
+- as calibrações,
+- o desgaste da ferramenta de corte,
+- alterações da matéria-prima.
+
+Então $X$ é uma variável aleatória que representa a medição dessas peças, tal que $x \in B = (a,b)$, em que $B \subset \mathbb{R}$ .
+
+:::
+
+:::
+
+::: {.column width="30%"}
+
+<center>
+
+<img src="peca.png" title="Imagens: Internet" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+</font>
+
+## Função densidade de probabilidade (FDP) {background-image="cap02.png"}
+
+> **Definição (FDP):** Seja $f:\mathbb{R}\rightarrow \mathbb{R}$ uma função. Então $f$ é uma função densidade se:
+>
+- $f(x)\geq 0$ para todo $x\in\mathbb{R}$, e
+- $\int^{\infty}_{-\infty}f(x)dx=1$.
+
+## Exemplo {background-image="cap02.png"}
+
+Seja
+	$$
+	f(x)=\left\lbrace \begin{array}{ll}
+		1/6x+k,&\textrm{se }0\leq x \leq 3\\
+		0, & \textrm{em qualquer outro caso}.
+	\end{array}\right.
+	$$
+Encontrar o valor de "k" na função para que $f(x)$ seja FDP. Para determinar o valor de $k$, então
+	$$
+	\int_{0}^{3}(1/6x+k)dx=1.
+	$$
+
+## Exemplo {background-image="cap02.png"} 
+
+<font size="+3">
+
+Assim,
+\begin{align*}
+		\int_{0}^{3}(1/6x+k)dx&=&\left[1/6\frac{x^2}{2}+xk \right]_0^{3} \nonumber \\
+		&=&1/6\frac{3^2}{2}+3k.
+\end{align*}
+Igualando o resultado anterior a 1, temos:
+
+. . . 
+
+$$
+1/6\frac{3^2}{2}+3k=1 \Rightarrow k=1/12.
+$$
+
+. . .
+
+Portanto, $f(x)=1/6x+1/12$ é uma FDP.
+	
+</font>
+	
+
+## Variável Aleatória Absolutamente Contínua (VAAC) {background-image="cap02.png"}
+
+> **Definição (VAAC):** Uma variável aleatória $X$ é absolutamente contínua se existe uma função densidade $f_X(x)$, tal que
+\begin{align*}
+  F_X(x)=\int_{-\infty}^{x}f_X(t)dt,
+\end{align*}
+para todo $x \in \mathbb{R}$.
+
+## FDA {background-image="cap02.png"}
+
+>**Definição (FDA):** Se $X$ é uma variável aleatória contínua, a função de distribuição $F_X$, se existir uma função densidade $f_X$, é definida por
+$$
+F_X(x) = \int^{x}_{-\infty} f_X(t)dt, \ x \in \mathbb{R}.
+$$
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "continuous", prop = 1)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "continuous", prop = 2)
+```
+
+## Propriedades da FDA {background-image="cap02.png"}
+
+Usando o `leem`
+
+```{r, fig.align = 'center'}
+showcdf(variable = "continuous", prop = 3)
+```
+
+# Medidas resumo {background-image="cap02.png"}
+
+<font size="+2">
+
+>**Definição (Esperança matemática):** Seja $X$ uma variável aleatória, então a esperança matemática (ou média) de $X$, denotada por $\mu_X$ ou $E[X]$, é definida:
+>
+- se $X$ for discreta,
+\begin{equation}
+E[X] = \sum_i x_i p_X(x_i), 
+\end{equation}
+Para um conjunto de pontos $x_1$, $x_2$, $\ldots$, $x_i$, $\ldots$;
+- se $X$ for contínua,
+\begin{equation}
+E[X] = \int^{\infty}_{-\infty} x f_X(x)dx,
+\end{equation}
+sendo $f_X(x)$ uma função densidade de probabilidade.
+
+</font>
+
+## Variância {background-image="cap02.png"}
+
+<font size="+2">
+
+>**Definição (Variância):** Seja $X$ uma variável aleatória e sua esperança matemática dada por $E[X] = \mu$, enttão a variância de $X$, denotada por $\sigma_X^2$ ou $Var[X]$, é definida:
+>
+- se $X$ for discreta, por:
+\begin{equation}
+\sigma_X^2 = \sum_i (x_i - \mu)^2P_X(x_i), 
+\end{equation}
+para um conjunto de pontos $x_1$, $x_2$, $\ldots$, $x_i$, $\ldots$;
+- se $X$ for contínua, por:
+\begin{equation}
+\sigma_X^2 = \int^{\infty}_{-\infty} (x_i - \mu)^2f_X(x)dx,
+\end{equation}
+sendo $f_X(x)$ uma função densidade de probabilidade.
+
+</font>
+
+## Desvio padrão {background-image="cap02.png"}
+
+>**Definição (Desvio padrão):** Seja $X$ uma variável aleatória, então o desvio padrão de $X$, denotado por $\sigma_X$, é definido por:
+\begin{align}\label{eq:desvpad}
+\sigma_X & = + \sqrt{\sigma_X^2},
+\end{align}
+em que $\sigma_X^2$ é a variância de $X$.
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
+
+# Referências {background-image="cap02.png"}
+
+
+
+
+<!-- 
+
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="90%"}
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atot |>
+  new_leem(variable = 2) # ou new_leem(variable = "continuous")
+```
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
+atotleem
+class(atotleem)
+```
+
+:::
+
+::: {.column width="10%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+
+-->
