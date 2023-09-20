@@ -19,12 +19,15 @@ format:
     footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
     # Quadro negro
-    chalkboard: 
+    chalkboard:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
       boardmarker-width: 3 # largura da caneta do quadro branco
-    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides

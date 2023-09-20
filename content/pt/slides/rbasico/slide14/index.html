@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head>
+<html lang="pt-br"><head>
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/tabby.min.js"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.475">
+  <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content=" Ben Dêivide |  UFSJ">
   <title>EAR: R Básico</title>
@@ -27,14 +28,80 @@
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
       width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+      }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+    div.sourceCode
+      { color: #f8f8f2;  }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #f8f8f2; } /* Normal */
+    code span.al { color: #f07178; background-color: #2a0f15; font-weight: bold; } /* Alert */
+    code span.an { color: #d4d0ab; } /* Annotation */
+    code span.at { color: #00e0e0; } /* Attribute */
+    code span.bn { color: #d4d0ab; } /* BaseN */
+    code span.bu { color: #abe338; } /* BuiltIn */
+    code span.cf { color: #ffa07a; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #abe338; } /* Char */
+    code span.cn { color: #ffd700; } /* Constant */
+    code span.co { color: #f8f8f2; font-style: italic; } /* Comment */
+    code span.cv { color: #ffd700; } /* CommentVar */
+    code span.do { color: #f8f8f2; } /* Documentation */
+    code span.dt { color: #ffa07a; } /* DataType */
+    code span.dv { color: #d4d0ab; } /* DecVal */
+    code span.er { color: #f07178; text-decoration: underline; } /* Error */
+    code span.ex { color: #00e0e0; font-weight: bold; } /* Extension */
+    code span.fl { color: #d4d0ab; } /* Float */
+    code span.fu { color: #ffa07a; } /* Function */
+    code span.im { color: #abe338; } /* Import */
+    code span.in { color: #d4d0ab; } /* Information */
+    code span.kw { color: #ffa07a; font-weight: bold; } /* Keyword */
+    code span.op { color: #ffa07a; } /* Operator */
+    code span.ot { color: #00e0e0; } /* Other */
+    code span.pp { color: #dcc6e0; } /* Preprocessor */
+    code span.re { color: #00e0e0; background-color: #f8f8f2; } /* RegionMarker */
+    code span.sc { color: #abe338; } /* SpecialChar */
+    code span.ss { color: #abe338; } /* SpecialString */
+    code span.st { color: #abe338; } /* String */
+    code span.va { color: #00e0e0; } /* Variable */
+    code span.vs { color: #abe338; } /* VerbatimString */
+    code span.wa { color: #dcc6e0; } /* Warning */
+    /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
     }
-    .hanging div.csl-entry {
+    .hanging-indent div.csl-entry {
       margin-left:2em;
       text-indent:-2em;
     }
@@ -48,9 +115,8 @@
     }
     div.csl-indent {
       margin-left: 2em;
-    }
-  </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+    }  </style>
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="hscroll.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -97,44 +163,44 @@
     font-weight: 400;
   }
 
-  .callout.callout-captioned.callout-style-simple .callout-body {
+  .callout.callout-titled.callout-style-simple .callout-body {
     margin-top: 0.2em;
   }
 
-  .callout:not(.callout-captioned) .callout-body {
+  .callout:not(.callout-titled) .callout-body {
       display: flex;
   }
 
-  .callout:not(.no-icon).callout-captioned.callout-style-simple .callout-content {
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
     padding-left: 1.6em;
   }
 
-  .callout.callout-captioned .callout-header {
+  .callout.callout-titled .callout-header {
     padding-top: 0.2em;
     margin-bottom: -0.2em;
   }
 
-  .callout.callout-captioned .callout-caption  p {
+  .callout.callout-titled .callout-title  p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
     
-  .callout.callout-captioned.callout-style-simple .callout-content  p {
+  .callout.callout-titled.callout-style-simple .callout-content  p {
     margin-top: 0;
   }
 
-  .callout.callout-captioned.callout-style-default .callout-content  p {
+  .callout.callout-titled.callout-style-default .callout-content  p {
     margin-top: 0.7em;
   }
 
-  .callout.callout-style-simple div.callout-caption {
+  .callout.callout-style-simple div.callout-title {
     border-bottom: none;
     font-size: .9rem;
     font-weight: 600;
     opacity: 75%;
   }
 
-  .callout.callout-style-default  div.callout-caption {
+  .callout.callout-style-default  div.callout-title {
     border-bottom: none;
     font-weight: 600;
     opacity: 85%;
@@ -166,7 +232,7 @@
     background-size: 0.9rem 0.9rem;
   }
 
-  .callout-caption {
+  .callout-title {
     display: flex
   }
     
@@ -179,16 +245,16 @@
     display: none !important;
   }
 
-  .callout.callout-captioned .callout-body > .callout-content > :last-child {
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
     margin-bottom: 0.5rem;
   }
 
-  .callout.callout-captioned .callout-icon::before {
+  .callout.callout-titled .callout-icon::before {
     margin-top: .5rem;
     padding-right: .5rem;
   }
 
-  .callout:not(.callout-captioned) .callout-icon::before {
+  .callout:not(.callout-titled) .callout-icon::before {
     margin-top: 1rem;
     padding-right: .5rem;
   }
@@ -203,7 +269,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
   }
 
-  div.callout-note.callout-style-default .callout-caption {
+  div.callout-note.callout-style-default .callout-title {
     background-color: #dae6fb
   }
 
@@ -215,7 +281,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
   }
 
-  div.callout-important.callout-style-default .callout-caption {
+  div.callout-important.callout-style-default .callout-title {
     background-color: #f7dddc
   }
 
@@ -227,7 +293,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
   }
 
-  div.callout-warning.callout-style-default .callout-caption {
+  div.callout-warning.callout-style-default .callout-title {
     background-color: #fcefdc
   }
 
@@ -239,7 +305,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
   }
 
-  div.callout-tip.callout-style-default .callout-caption {
+  div.callout-tip.callout-style-default .callout-title {
     background-color: #ccf1e3
   }
 
@@ -251,7 +317,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
   }
 
-  div.callout-caution.callout-style-default .callout-caption {
+  div.callout-caution.callout-style-default .callout-title {
     background-color: #ffe5d0
   }
 
@@ -364,7 +430,7 @@
 <section id="encarte" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Encarte</h1>
 <center>
-<p><img data-src="EAR-rbasico.png"></p>
+<img data-src="EAR-rbasico.png">
 </center>
 </section>
 
@@ -375,6 +441,31 @@
 </a><p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;"></a></p>
 </section>
 
+<section id="apoio-ceac-e-ufsj" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Apoio CEAC e UFSJ</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div>
+<ul>
+<li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/ceac_ufsj/">@ceac_ufsj</a></li>
+</ul>
+</div>
+<center>
+<img data-src="ceac.png" style="width:70.0%">
+</center>
+</div><div class="column" style="width:50%;">
+<div>
+<ul>
+<li><a href="ufsj.edu.br/">ufsj.edu.br/</a></li>
+</ul>
+</div>
+<center>
+<img src="ufsj.png" title="ufsj.edu.br/" width="300">
+</center>
+</div>
+</div>
+</section>
+
 <section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Livro de Apoio</h1>
 <p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
@@ -383,20 +474,334 @@
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
 </section>
 
-<section id="ideias-básicas" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Ideias básicas</h1>
+<section>
+<section id="introdução" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Introdução</h1>
 <ul>
-<li class="fragment">Escrever um banco de dados</li>
+<li class="fragment">Terceiro princípio do <code>R</code> <span class="citation" data-cites="chambers2016">(<a href="#/referências" role="doc-biblioref" onclick="">Chambers, 2016</a>)</span>: “Interfaces para outros programas são parte do <code>R</code>”;</li>
+<li class="fragment">Apesar do <em>R Core Team</em> ainda limitar a definição do <code>R</code> como um ambiente para a computação estatística, esta ferramenta se tornou tão versátil que hoje torna humilde essa definição;</li>
+<li class="fragment">A facilidade do <code>R</code> interagir com outros softwares, linguagens, etc., é muito grande, e assim pode se tornar complexo a importação e exportação de dados;
+<ul>
+<li class="fragment">Ex: <code>S</code>, <code>SPSS</code>, <code>SAS</code>, <code>Minitab</code>, <code>Python</code>, <code>EXCEL</code>, <code>SQL</code>, …</li>
+</ul></li>
+</ul>
+</section>
+<section id="introdução-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Introdução</h2>
+<ul>
+<li class="fragment">Um outro fator e tema atual é o tamanho dos bancos de dados (<em>Big Data</em>), e aí muitas vezes precisamos de outros recursos, como o uso de <em>APIs</em>, por exemplo;</li>
+<li class="fragment"><em>Web scraping</em>, Etc…</li>
+<li class="fragment">Hoje, temos uma grande ferramenta de exportação de documentações no <code>R</code>, com o uso do <code>R Markdown</code>!</li>
+<li class="fragment">Exportações interativas, por exemplo, com o uso do pacote <code>shiny</code>.</li>
+<li class="fragment"><span style="color: yellow;">Contudo, nos limitaremos a uma breve introdução sobre o assunto: Importação/Exportação de dados!</span></li>
+</ul>
+</section></section>
+<section>
+<section id="banco-de-dados" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Banco de dados</h1>
+<p>Limitaremos a:</p>
+<ul>
+<li class="fragment">Arquivos de texto: <code>&lt;&gt;.txt</code>, <code>&lt;&gt;.csv</code>;</li>
+<li class="fragment">Arquivos binários: <code>&lt;&gt;.xls</code>, <code>&lt;&gt;.xlsx</code>;</li>
+<li class="fragment">Arquivos da <em>Web</em></li>
+<li class="fragment">Banco de dados digitados manualmente pelo <em>console</em>.</li>
+</ul>
+</section>
+<section id="em-resumo-o-que-acontecerá-no-r" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Em resumo o que acontecerá no <code>R</code>…</h2>
+<center>
+<img data-src="rworks2.png">
+</center>
+</section>
+<section id="ideias-básicas" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Ideias básicas</h2>
+<ul>
+<li class="fragment">Escrever/Importar um banco de dados</li>
 <li class="fragment">No R:
 <ul>
 <li class="fragment">verificar diretório de trabalho</li>
 <li class="fragment">importar os dados usando <code>read.table()</code></li>
 <li class="fragment">criar um nome e associar ao objeto de classe <code>data.frame</code> com os dados importados</li>
 </ul></li>
-<li class="fragment">No RStudio tem alguns recursos que podem facilitar a importação de dados</li>
+<li class="fragment">No <code>RStudio</code> tem alguns recursos que podem facilitar a importação de dados</li>
+</ul>
+</section></section>
+<section>
+<section id="preparação-dos-dados" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Preparação dos dados</h1>
+<p>No banco de dados, sempre:</p>
+<ul>
+<li class="fragment">Separar as variáveis em colunas;</li>
+<li class="fragment">Valores em linha;</li>
+<li class="fragment">Sempre a primeira linha das colunas representará o nome da variável;</li>
+<li class="fragment">Quanto mais caracteres diferentes do padrão ASCII, mais difícil poderá ser a leitura dos dados.</li>
 </ul>
 </section>
+<section id="preparação-dos-dados-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Preparação dos dados</h2>
+<center>
+<img data-src="banco_dados.png">
+</center>
+</section>
+<section id="preparação-dos-dados-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Preparação dos dados</h2>
+<p>Sugestões ao banco de dados:</p>
+<ul>
+<li class="fragment">devemos evitar símbolos fora do padrão alfanumérico;</li>
+<li class="fragment">devemos evitar o uso de letras minúsculas e maiúsculas. Isso facilitará o acesso a essas variáveis. Contudo, lembramos do padrão de nomes sintáticos;</li>
+<li class="fragment">como o banco de dados será utilizado para que um programa faça a sua leitura, portanto, deixamos a formatação da apresentação dos dados em arquivos específico, evitando qualquer outro tipo de informação que não seja os dados;</li>
+</ul>
+</section>
+<section id="preparação-dos-dados-3" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Preparação dos dados</h2>
+<ul>
+<li class="fragment">devemos evitar palavras longas, por exemplo, <code>segundavariavel</code> (mau escolha), <code>segvar</code> (boa escolha), <code>seg_var</code> (boa escolha);</li>
+<li class="fragment">devemos evitar palavras compostas com espaço entre elas. Como alternativa, usamos o símbolo “<code>_</code>”, por exemplo, <code>var 2</code> (mau escolha), <code>var2</code> (boa escolha), <code>var_2</code> (boa escolha);</li>
+<li class="fragment">devemos evitar “.” (ponto) em palavras compostas, pois esta sintaxe é responsável pela criação de um método para uma determinada classe no sistema <em>S3</em> (um dos paradigmas de orientação a objetos no <code>R</code>), e isto pode causar possíveis conflitos na interpretação dos dados.</li>
+</ul>
+</section></section>
+<section id="importação-de-dados" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Importação de dados</h1>
+<p>Usando o <em>console</em>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="sc">&gt;</span> <span class="co"># Criando e inserido os elementos do objeto dados</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">scan</span>()</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="dv">1</span><span class="sc">:</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><span class="fragment">Vamos usar o R para verificar este comando!</span></p>
+</section>
 
+<section>
+<section id="importação-de-dados-1" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Importação de dados</h1>
+<ul>
+<li class="fragment">Importando <code>&lt;&gt;.csv</code>:
+<ul>
+<li class="fragment">Principal característica:
+<ul>
+<li class="fragment">Separação das variáveis, geralmente, por: “;”!</li>
+</ul></li>
+</ul></li>
+<li class="fragment">Importando <code>&lt;&gt;.txt</code>:
+<ul>
+<li class="fragment">Principal característica:
+<ul>
+<li class="fragment">Separação das variáveis por espaço!</li>
+<li class="fragment"><span style="color: red;">Maior risco de erro na importação!</span></li>
+</ul></li>
+</ul></li>
+<li class="fragment">Importar arquivos do <code>EXCEL</code>: <code>&lt;&gt;.xls</code>, <code>&lt;&gt;.xlsx</code> <span class="fragment">- pacotes: <code>readxl</code>, <code>writexl</code>!</span></li>
+</ul>
+</section>
+<section id="importação-de-dados-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Importação de dados</h2>
+<p>Exemplos:</p>
+<ul>
+<li class="fragment"><a href="https://github.com/bendeivide/book-eambr01/blob/main/files/alfafa.txt">alfafa.txt</a></li>
+<li class="fragment"><a href="https://raw.githubusercontent.com/bendeivide/book-eambr01/main/files/datast1980.txt">datast1980.txt</a></li>
+<li class="fragment"><a href="https://raw.githubusercontent.com/bendeivide/book-eambr01/main/files/producao.csv">producao.csv</a></li>
+</ul>
+</section>
+<section id="importação-de-dados-no-rstudio" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Importação de dados no <code>RStudio</code></h2>
+<div class="r-stack">
+<p><img data-src="imp-exp.png" class="fragment fade-in-then-out"></p>
+<p><img data-src="imp-exp2.png" class="fragment fade-in-then-out"></p>
+<p><img data-src="imp-exp3.png" class="fragment fade-in-then-out"></p>
+<p><img data-src="imp-exp4.png" class="fragment"></p>
+</div>
+</section>
+<section id="importação-de-dados-no-r" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Importação de dados no <code>R</code></h2>
+<ul>
+<li class="fragment">Funções utilizadas: <code>setwd()</code>, <code>getwd()</code>, <code>read.table()</code></li>
+<li class="fragment">Detalhamento da função <code>read.table()</code>:
+<ul>
+<li class="fragment"><code>file</code>: banco de dados;</li>
+<li class="fragment"><code>header</code>: argumento lógico, se <code>header = TRUE</code>, então implica dizer que as variáveis estão identificadas por um nome, isto é, a primeira linha do banco de dados representa o nome das variáveis; se <code>header = FALSE</code> (padrão), caso contrário;</li>
+</ul></li>
+</ul>
+</section>
+<section id="importação-de-dados-no-r-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Importação de dados no <code>R</code></h2>
+<ul>
+<li class="fragment">Detalhamento da função <code>read.table()</code>:
+<ul>
+<li class="fragment"><code>sep</code>: separador de variáveis nas colunas, o padrão é <code>sep = ""</code>, isto é, sem espaços; no caso de arquivos de extensão: <code>&lt;&gt;.csv</code>, geralmente, usamos para este argumento <code>sep = ";"</code>, identificando que a separação das variáveis está representada por “<code>;</code>”;</li>
+<li class="fragment"><code>dec</code>: separador de casas decimais, sendo o padrão <code>dec = "."</code>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="código-5.1-batista2021" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Código 5.1 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<aside class="notes">
+<ul>
+<li>Lembrar de falar das barras invertidas (“\”) para o endereço do arquivo;</li>
+<li>Lembrar sobre o que é diretório corrente e diretório de trabalho;</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Diretorio</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">getwd</span>()</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co"># Mudando para o diretorio de interesse</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="fu">setwd</span>(<span class="st">'C:/eambr01'</span>)</span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="co"># Verificando os arquivos no diretorio de trabalho</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="fu">list.files</span>()</span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="co"># Importando os dados apontando para o diretorio do arquivo</span></span>
+<span id="cb2-8"><a href="#cb2-8"></a>dados1 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-9"><a href="#cb2-9"></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
+<span id="cb2-10"><a href="#cb2-10"></a><span class="co"># trabalho, isto eh, getwd()</span></span>
+<span id="cb2-11"><a href="#cb2-11"></a>dados2 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="st">'alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-12"><a href="#cb2-12"></a><span class="co"># Importando os dados com decimais com ',' apontando para o diretorio do arquivo</span></span>
+<span id="cb2-13"><a href="#cb2-13"></a>dados3 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/dadost1980.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>)</span>
+<span id="cb2-14"><a href="#cb2-14"></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
+<span id="cb2-15"><a href="#cb2-15"></a><span class="co"># trabalho, isto eh, getwd()</span></span>
+<span id="cb2-16"><a href="#cb2-16"></a>dados4 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'dadost1980.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>)</span>
+<span id="cb2-17"><a href="#cb2-17"></a><span class="co"># Importando os dados com decimais ',', e separados por ';' apontando para o diretorio do arquivo</span></span>
+<span id="cb2-18"><a href="#cb2-18"></a>dados5 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/producao.csv'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>, <span class="at">sep =</span> <span class="st">';'</span>)</span>
+<span id="cb2-19"><a href="#cb2-19"></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
+<span id="cb2-20"><a href="#cb2-20"></a><span class="co"># trabalho, isto eh, getwd()</span></span>
+<span id="cb2-21"><a href="#cb2-21"></a>dados6 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'producao.csv'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>, <span class="at">sep =</span> <span class="st">';'</span>)</span>
+<span id="cb2-22"><a href="#cb2-22"></a><span class="co"># Importando da internet</span></span>
+<span id="cb2-23"><a href="#cb2-23"></a>dados7 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'https://raw.githubusercontent.com/bendeivide/book-eambr01/main/files/alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section></section>
+<section>
+<section id="exportação-de-dados" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Exportação de dados</h1>
+<p>Extensões exportadas:</p>
+<ul>
+<li class="fragment"><code>&lt;&gt;.txt</code><span class="fragment">: Pacote nativo <code>utils</code></span></li>
+<li class="fragment"><code>&lt;&gt;.xlsx</code><span class="fragment">: Pacote <code>writexl</code></span></li>
+<li class="fragment">Código <span class="math inline">\(\LaTeX\)</span><span class="fragment">: Pacote <code>xtable</code></span></li>
+</ul>
+</section>
+<section id="exportação-de-dados-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Exportação de dados</h2>
+<p>Funções usadas: <code>utils::write.table()</code>, <code>writexl::write_xlsx()</code>, <code>xtable::xtable()</code></p>
+</section>
+<section id="código-5.5-batista2021" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Código 5.5 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># Instalando e/ou carregando o pacote 'readxl'</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="co">#install.packages('readxl') # Se nao tiver instalado!</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="fu">library</span>(<span class="st">'readxl'</span>)</span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="co"># Vendo exemplos de arquivo no pacote</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="fu">readxl_example</span>()    </span>
+<span id="cb3-6"><a href="#cb3-6"></a></span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="co"># Caminho do arquivo</span></span>
+<span id="cb3-8"><a href="#cb3-8"></a>arquivo_xlsx <span class="ot">&lt;-</span> <span class="fu">readxl_example</span>(<span class="st">'datasets.xlsx'</span>)</span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="co"># Estrutura de dado 'tibble'</span></span>
+<span id="cb3-10"><a href="#cb3-10"></a>dado <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(arquivo_xlsx); dado  </span>
+<span id="cb3-11"><a href="#cb3-11"></a></span>
+<span id="cb3-12"><a href="#cb3-12"></a><span class="co"># Estrutura de dado 'quadro de dado (data frame)'</span></span>
+<span id="cb3-13"><a href="#cb3-13"></a><span class="fu">head</span>(<span class="fu">as.data.frame</span>(dado))</span>
+<span id="cb3-14"><a href="#cb3-14"></a></span>
+<span id="cb3-15"><a href="#cb3-15"></a><span class="co"># Arquivo temporario</span></span>
+<span id="cb3-16"><a href="#cb3-16"></a>x <span class="ot">&lt;-</span> <span class="fu">tempfile</span>(<span class="at">pattern =</span> <span class="st">'dados'</span>, <span class="at">fileext =</span> <span class="st">'.txt'</span>)</span>
+<span id="cb3-17"><a href="#cb3-17"></a></span>
+<span id="cb3-18"><a href="#cb3-18"></a><span class="co"># Objeto</span></span>
+<span id="cb3-19"><a href="#cb3-19"></a>d <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="dv">1</span>, <span class="at">y =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span>
+<span id="cb3-20"><a href="#cb3-20"></a></span>
+<span id="cb3-21"><a href="#cb3-21"></a><span class="co"># Exportando os dados</span></span>
+<span id="cb3-22"><a href="#cb3-22"></a><span class="fu">write.table</span>(d, <span class="at">file =</span> x, <span class="at">sep =</span> <span class="st">'</span><span class="sc">\t</span><span class="st">'</span>, <span class="at">quote =</span> <span class="cn">FALSE</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb3-23"><a href="#cb3-23"></a><span class="co"># sep = '\t' =&gt; representa uma  TAB entre as colunas</span></span>
+<span id="cb3-24"><a href="#cb3-24"></a><span class="co"># file = x =&gt; Essa saida foi um arquivo temporario, mas se desejar exportar os dados para um arquivo especifico, em um diretorio específico, basta inserir esse caminho entre</span></span>
+<span id="cb3-25"><a href="#cb3-25"></a><span class="co">#aspas, por exemplo, file = 'C:\dados.txt'</span></span>
+<span id="cb3-26"><a href="#cb3-26"></a></span>
+<span id="cb3-27"><a href="#cb3-27"></a><span class="co"># Abrindo o arquivo</span></span>
+<span id="cb3-28"><a href="#cb3-28"></a><span class="fu">file.show</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="código-5.5-batista2021-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Código 5.5 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<center>
+<img data-src="export_file.png">
+</center>
+</section>
+<section id="código-5.6-batista2021" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Código 5.6 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># Dados do pacote nativo 'datasets'</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">library</span>(<span class="st">'datasets'</span>)</span>
+<span id="cb4-3"><a href="#cb4-3"></a>dados <span class="ot">&lt;-</span> <span class="fu">head</span>(cars); dados <span class="co"># Quadro de dados (Data frame)</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="co"># Instalando e/ou carregando writexl</span></span>
+<span id="cb4-6"><a href="#cb4-6"></a><span class="fu">install.packages</span>(<span class="st">'writexl'</span>)</span>
+<span id="cb4-7"><a href="#cb4-7"></a><span class="fu">library</span>(writexl)</span>
+<span id="cb4-8"><a href="#cb4-8"></a><span class="co"># Diretorio de trabalho</span></span>
+<span id="cb4-9"><a href="#cb4-9"></a>dirtrab <span class="ot">&lt;-</span> <span class="fu">getwd</span>()</span>
+<span id="cb4-10"><a href="#cb4-10"></a><span class="co"># Nome do arquivo</span></span>
+<span id="cb4-11"><a href="#cb4-11"></a>nome <span class="ot">&lt;-</span> <span class="st">'dados.xlsx'</span></span>
+<span id="cb4-12"><a href="#cb4-12"></a><span class="co"># Caminho</span></span>
+<span id="cb4-13"><a href="#cb4-13"></a>caminho <span class="ot">&lt;-</span> <span class="fu">paste</span>(dirtrab, nome, <span class="at">sep =</span> <span class="st">'/'</span>)</span>
+<span id="cb4-14"><a href="#cb4-14"></a><span class="co"># Exportando esses dados para um '.xlsx'</span></span>
+<span id="cb4-15"><a href="#cb4-15"></a>file <span class="ot">&lt;-</span> writexl<span class="sc">::</span><span class="fu">write_xlsx</span>(dados, caminho)</span>
+<span id="cb4-16"><a href="#cb4-16"></a><span class="co"># Mortrando o arquivo</span></span>
+<span id="cb4-17"><a href="#cb4-17"></a><span class="fu">file.show</span>(file)</span>
+<span id="cb4-18"><a href="#cb4-18"></a></span>
+<span id="cb4-19"><a href="#cb4-19"></a><span class="co"># Vamos criar agora listas de quadro de dados</span></span>
+<span id="cb4-20"><a href="#cb4-20"></a>d1 <span class="ot">&lt;-</span> <span class="fu">head</span>(cars); d1 <span class="co"># valores iniciais de 'cars'</span></span>
+<span id="cb4-21"><a href="#cb4-21"></a>d2 <span class="ot">&lt;-</span> <span class="fu">tail</span>(cars); d2 <span class="co"># valores finais de 'cars'</span></span>
+<span id="cb4-22"><a href="#cb4-22"></a></span>
+<span id="cb4-23"><a href="#cb4-23"></a>lista <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">elem01 =</span>d1,  <span class="at">elem02 =</span><span class="dv">02</span>); lista</span>
+<span id="cb4-24"><a href="#cb4-24"></a></span>
+<span id="cb4-25"><a href="#cb4-25"></a></span>
+<span id="cb4-26"><a href="#cb4-26"></a><span class="co"># Diretorio de trabalho</span></span>
+<span id="cb4-27"><a href="#cb4-27"></a>dirtrab <span class="ot">&lt;-</span> <span class="fu">getwd</span>()</span>
+<span id="cb4-28"><a href="#cb4-28"></a><span class="co"># Nome do arquivo</span></span>
+<span id="cb4-29"><a href="#cb4-29"></a>nome <span class="ot">&lt;-</span> <span class="st">'lista.xlsx'</span></span>
+<span id="cb4-30"><a href="#cb4-30"></a><span class="co"># Caminho</span></span>
+<span id="cb4-31"><a href="#cb4-31"></a>caminho <span class="ot">&lt;-</span> <span class="fu">paste</span>(dirtrab, nome, <span class="at">sep =</span> <span class="st">'/'</span>)</span>
+<span id="cb4-32"><a href="#cb4-32"></a><span class="co"># Exportando esses dados para um '.xlsx'</span></span>
+<span id="cb4-33"><a href="#cb4-33"></a>file <span class="ot">&lt;-</span> writexl<span class="sc">::</span><span class="fu">write_xlsx</span>(lista, caminho)</span>
+<span id="cb4-34"><a href="#cb4-34"></a><span class="co"># Mortrando o arquivo</span></span>
+<span id="cb4-35"><a href="#cb4-35"></a><span class="fu">file.show</span>(file)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="código-5.6-batista2021-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Código 5.6 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<div class="r-stack">
+<p><img data-src="write_loffice.png" class="fragment fade-in-then-out" width="500"></p>
+<p><img data-src="write_loffice02.png" class="fragment" width="500"></p>
+</div>
+</section>
+<section id="código-5.7-batista2021" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Código 5.7 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<p>Comandos no R:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># Instalando e/ou carregando o pacote 'xtable'</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">install.packages</span>(<span class="st">'xtable'</span>)</span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="co"># Carregando/Anexando</span></span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="fu">library</span>(xtable)</span>
+<span id="cb5-5"><a href="#cb5-5"></a><span class="fu">library</span>(datasets)</span>
+<span id="cb5-6"><a href="#cb5-6"></a><span class="co"># Dados</span></span>
+<span id="cb5-7"><a href="#cb5-7"></a>dados <span class="ot">&lt;-</span> <span class="fu">head</span>(mtcars[,<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>]); dados</span>
+<span id="cb5-8"><a href="#cb5-8"></a><span class="co"># Exportando para LaTeX</span></span>
+<span id="cb5-9"><a href="#cb5-9"></a><span class="fu">xtable</span>(dados)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="código-5.7-batista2021-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>Código 5.7 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<p>Saída no <code>console</code>:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource latex number-lines code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">\begin</span>{<span class="ex">table</span>}[ht]</span>
+<span id="cb6-2"><a href="#cb6-2"></a>  <span class="fu">\centering</span></span>
+<span id="cb6-3"><a href="#cb6-3"></a>  <span class="kw">\begin</span>{<span class="ex">tabular</span>}{rrrr}</span>
+<span id="cb6-4"><a href="#cb6-4"></a>    <span class="fu">\hline</span></span>
+<span id="cb6-5"><a href="#cb6-5"></a>    <span class="op">&amp;</span> mpg <span class="op">&amp;</span> cyl <span class="op">&amp;</span> disp <span class="fu">\\</span></span>
+<span id="cb6-6"><a href="#cb6-6"></a>    <span class="fu">\hline</span></span>
+<span id="cb6-7"><a href="#cb6-7"></a>    Mazda RX4 <span class="op">&amp;</span> 21.00 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 160.00 <span class="fu">\\</span></span>
+<span id="cb6-8"><a href="#cb6-8"></a>    Mazda RX4 Wag <span class="op">&amp;</span> 21.00 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 160.00 <span class="fu">\\</span></span>
+<span id="cb6-9"><a href="#cb6-9"></a>    Datsun 710 <span class="op">&amp;</span> 22.80 <span class="op">&amp;</span> 4.00 <span class="op">&amp;</span> 108.00 <span class="fu">\\</span></span>
+<span id="cb6-10"><a href="#cb6-10"></a>    Hornet 4 Drive <span class="op">&amp;</span> 21.40 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 258.00 <span class="fu">\\</span></span>
+<span id="cb6-11"><a href="#cb6-11"></a>    Hornet Sportabout <span class="op">&amp;</span> 18.70 <span class="op">&amp;</span> 8.00 <span class="op">&amp;</span> 360.00 <span class="fu">\\</span></span>
+<span id="cb6-12"><a href="#cb6-12"></a>    Valiant <span class="op">&amp;</span> 18.10 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 225.00 <span class="fu">\\</span></span>
+<span id="cb6-13"><a href="#cb6-13"></a>    <span class="fu">\hline</span></span>
+<span id="cb6-14"><a href="#cb6-14"></a>  <span class="kw">\end</span>{<span class="ex">tabular</span>}</span>
+<span id="cb6-15"><a href="#cb6-15"></a><span class="kw">\end</span>{<span class="ex">table</span>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section></section>
 <section id="obrigado" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Obrigado</h1>
 <p>Sugestões, perguntas, críticas…</p>
@@ -411,9 +816,12 @@
 <img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
 </div>
-<div id="refs" class="references csl-bib-body" role="doc-bibliography">
-<div id="ref-batista2021" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-batista2021" class="csl-entry" role="listitem">
 BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+</div>
+<div id="ref-chambers2016" class="csl-entry" role="listitem">
+CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: Chapman; Hall/CRC, 2016.
 </div>
 </div>
 </section>
@@ -428,8 +836,6 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
-  <script src="index_files/libs/revealjs/plugin/multiplex/socket.io.js"></script>
-  <script src="index_files/libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
   <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
@@ -452,9 +858,8 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
-'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":5},
-'multiplex': {"secret":null,"id":"547495fddd76b848","url":"https://reveal-multiplex.glitch.me/"},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
+'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":3},
 'pointer': {"0":{"key":"q"},"1":{"color":"red"},"2":{"pointerSize":16},"3":{"alwaysVisible":false},"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,
  
@@ -629,12 +1034,50 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
@@ -659,9 +1102,23 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
       });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
       const clipboard = new window.ClipboardJS('.code-copy-button', {
-        target: function(trigger) {
-          return trigger.previousElementSibling;
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
         }
       });
       clipboard.on('success', function(e) {
@@ -709,7 +1166,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
           },
           interactive: true,
           interactiveBorder: 10,
-          theme: 'quarto-reveal',
+          theme: 'light-border',
           placement: 'bottom-start'
         };
           config['offset'] = [0,0];

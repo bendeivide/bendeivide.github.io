@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-09-14 18:02:04"
+date: "2023-09-20 09:14:22"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -318,7 +318,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube lGNsTA8vOo0>}}
 
 {{< /spoiler >}}
 
@@ -336,7 +336,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube guFBofLC3bs>}}
 
 {{< /spoiler >}}
 
@@ -354,7 +354,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube fkect5pKNA8>}}
 
 {{< /spoiler >}}
 
@@ -372,7 +372,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube 5GyjaYvDQ_0>}}
 
 {{< /spoiler >}}
 
@@ -390,7 +390,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube U4HqjFDxixk>}}
 
 {{< /spoiler >}}
 
@@ -419,6 +419,11 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Importando e Exportando dados
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide14/index.html" target="_blank">Aula 14</a>
+{{< icon name="database" pack="fas" >}} __Arquivos:__ 
+  - {{% staticref "rbasico/alfafa.txt" "newtab" %}}alfafa.txt{{% /staticref %}}
+  - {{% staticref "rbasico/datast1980.txt" "newtab" %}}datast1980.txt{{% /staticref %}}
+  - {{% staticref "rbasico/producao.csv" "newtab" %}}producao.csv{{% /staticref %}}
+
 {{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
 {{< icon name="headphones" pack="fas" >}} __Podcast__
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1m4Zv2Up1z6lFw-pazMs6IOKp5BYWKig3yD_XYYjK7b8/edit?usp=sharing)
@@ -447,6 +452,23 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
 {{< youtube  >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: *Live 2* - Dúvidas sobre as aulas 08 a 15" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Live 2
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/live01/index.html" target="_blank">Live 02</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/11t02Fj8CVIScB1oqM-GT_ncRKjNPjudOJgpRiS3_0OY/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "D8zjstTpDXA?feature=share">}}
 
 {{< /spoiler >}}
 

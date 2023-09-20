@@ -8,24 +8,27 @@ author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< f
 bibliography: biblio.bib
 link-citations: true
 css: hscroll.css
-lang: pt-BR
 csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
     footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
     # Quadro negro
-    chalkboard: 
+    chalkboard:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
-    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides
@@ -41,7 +44,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 ```{r setup, include=FALSE}
@@ -54,19 +57,35 @@ cran <- "[CRAN](http://cran.r-project.org/){target='_blank'}"
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
 
-<center>
-
-![](EAR-rbasico.png) 
-
-</center>
+<center>![](EAR-rbasico.png)</center>
 
 # Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
-<img src="SeloDC-branco.png" width = "400">
+<img src="SeloDC-branco.png" width="400"/>
 
 </a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
 
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
@@ -74,7 +93,7 @@ Usaremos @batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
-<img src="hardcover01.png" width = "300">
+<img src="hardcover01.png" width="300"/>
 
 </a>
 
@@ -82,22 +101,69 @@ Usaremos @batista2021:
 
 Mais uma vez, nos reportamos aos princípios do `r rlink`, definidos por @chambers2016, mais especificamente ao segundo princípio,
 
-
 <blockquote>
-<p>
-**Princípio da função**: Tudo que acontece no `r rlink` é uma chamada de função. 
-</p>
+
+<p>**Princípio da função**: Tudo que acontece no `r rlink` é uma chamada de função.</p>
+
 </blockquote>
 
-# Componentes de uma função {background-image="EAR-rbasico-background-02.png"}
+## Introdução {background-image="EAR-rbasico-background-02.png"}
 
-Um objeto de modo `function` (Usar `mode()`!) tem três componentes:
+- Quando associamos um nome ao objeto, isto é, `x <- 10`; Na realizada, temos:  `` `<-`(x, 10) ``;
+- Quando digitamos no `x` no *console* e, posteriormente, apertando o botão *ENTER* do teclado, nos bastidores, estamos na realidade chamando a função `print(x)` para imprimir o valor que o nome se associa;
 
-- Argumentos, função `formals()`,
+# O que é uma função em `R`? {background-image="EAR-rbasico-background-02.png"}
+
+> Uma função em `R` é um objeto como qualquer outro.  Os tipos são: `closure`, `special` ou `buitin`.
+
+## O que é uma função em `R`? {background-image="EAR-rbasico-background-02.png"}
+
+Exemplo: A função `mode()` apresenta atributos intrínsecos?
+
+```{r echo=TRUE}
+typeof(mode) # Tipo
+length(mode) # comprimento
+```
+
+## O que é uma função em `R`? {background-image="EAR-rbasico-background-02.png"}
+
+| Tipo de função | `typeof()` | `mode()` |
+|:--------------:|:----------:|:--------:|
+| Criada por usuário |  `closure` | `function` |
+| Função interna que não avalia seus argumentos | `special` | `function`|
+| Função interna que avalia seus argumentos | `bultin` | `function` |
+
+: **Tabela:** Tipo de funções. {.striped .hover}
+
+## O que é uma função em `R`? {background-image="EAR-rbasico-background-02.png"}
+
+Exemplo:
+
+```{r echo=TRUE}
+# Tipagem C
+typeof(list); typeof(mean); typeof(`[`)
+# Tipagem S
+mode(list); mode(mean); mode(`[`)
+```
+
+
+## O que é uma função em `R`? {background-image="EAR-rbasico-background-02.png"}
+
+- Para identificar se um objeto é uma função, usamos: `is.function()`;
+- As funções internas usam as chamadas `.Internal()` e `.Primitive()`, sendo funções que representam uma interface para as linguagens de baixo nível, do qual as funções foram implementadas;
+- As funções internas só o `R Core Team` podem criá-las;
+- A nível de usuário, criamos as funções do tipo: `closure`;
+
+# Funções do tipo `closure` {background-image="EAR-rbasico-background-02.png"}
+
+As funções do tipo `closure` são dividas em três componentes:
+
+- Argumentos, função `formals()`
 - Corpo, função `body()` e
 - Ambiente, função `environment()`.
 
-# Primeiro exemplo {background-image="EAR-rbasico-background-02.png"}
+
+## Primeiro exemplo {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Vetor
@@ -132,7 +198,17 @@ A função `sort()` tem argumento padrão para `decreascing = FALSE`
 sort(x = y, decreasing = TRUE)
 ```
 
-# Ajuda sobre funções de pacotes {background-image="EAR-rbasico-background-02.png"}
+# Funções em pacotes {background-image="EAR-rbasico-background-02.png"}
+
+> **Pacotes:** Entenda por pacote um diretório contendo subdiretórios e arquivos específicos. Em um dos subdiretórios, temos o local onde armazenamos as funções criadas. Ao instalar e anexar o pacote no `R`, todas as funções tornam-se disponíveis no ambiente global. Os pacotes nativos padrão sempre estão disponíveis para execução.
+
+# Funções em pacotes {background-image="EAR-rbasico-background-02.png"}
+
+- Principal pacote nativo: `base`;
+- Sempre estará anexado ao caminho de busca;
+- Acessar funções sem anexar, Sintaxe: `nome_pacote::nome_função`
+
+# Ajuda sobre funções em pacotes {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, eval=FALSE, prompt=TRUE}
 ?sort()
@@ -142,7 +218,9 @@ help("sort")
 
 # Chamada de função {background-image="EAR-rbasico-background-02.png"}
 
-- Aninhado:
+-   Aninhado:
+
+. . . 
 
 ```{r echo = TRUE, prompt=TRUE}
 # Gerando 100 numeros aleatorios de uma distribuicao normal
@@ -155,7 +233,9 @@ sqrt(var(x))
 
 ## Chamada de função (continuação...) {background-image="EAR-rbasico-background-02.png"}
 
-- intermediária:
+-   intermediária:
+
+. . .
 
 ```{r echo = TRUE, prompt=TRUE}
 # Calculando o desvio padrao
@@ -165,18 +245,16 @@ desvpad <- sqrt(vari); desvpad
 
 ## Chamada de função (continuação...) {background-image="EAR-rbasico-background-02.png"}
 
-- Pipe:
+-   Pipe:
+
+. . .
 
 ```{r echo = TRUE, prompt=TRUE}
-# Anexando o pacote
-library(magrittr)
-
 # Calculando o desvio padrao
-x %>%
-  var() %>%
+x |>
+  var() |>
   sqrt()
 ```
-
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 
@@ -184,7 +262,7 @@ Sugestões, perguntas, críticas...
 
 <a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
 
-<img src="EAR-rbasico02.png" width = "400">
+<img src="EAR-rbasico02.png" width="400"/>
 
 </a>
 

@@ -8,24 +8,27 @@ author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< f
 bibliography: biblio.bib
 link-citations: true
 css: hscroll.css
-lang: pt-BR
 csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
     footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
     # Quadro negro
-    chalkboard: 
+    chalkboard:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
-    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides
@@ -41,24 +44,40 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
 
-<center>
-
-![](EAR-rbasico.png) 
-
-</center>
+<center>![](EAR-rbasico.png)</center>
 
 # Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
-<img src="SeloDC-branco.png" width = "400">
+<img src="SeloDC-branco.png" width="400"/>
 
 </a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
 
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
@@ -66,18 +85,308 @@ Usaremos @batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
-<img src="hardcover01.png" width = "300">
+<img src="hardcover01.png" width="300"/>
 
 </a>
 
-# Ideias básicas {background-image="EAR-rbasico-background-02.png"}
+# Introdução {background-image="EAR-rbasico-background-02.png"}
 
--   Escrever um banco de dados
+-   Terceiro princípio do `R` [@chambers2016]: "Interfaces para outros programas são parte do `R`";
+-   Apesar do *R Core Team* ainda limitar a definição do `R` como um ambiente para a computação estatística, esta ferramenta se tornou tão versátil que hoje torna humilde essa definição;
+-   A facilidade do `R` interagir com outros softwares, linguagens, etc., é muito grande, e assim pode se tornar complexo a importação e exportação de dados;
+    -   Ex: `S`, `SPSS`, `SAS`, `Minitab`, `Python`, `EXCEL`, `SQL`, ...
+
+## Introdução {background-image="EAR-rbasico-background-02.png"}
+
+-   Um outro fator e tema atual é o tamanho dos bancos de dados (*Big Data*), e aí muitas vezes precisamos de outros recursos, como o uso de *APIs*, por exemplo;
+-   *Web scraping*, Etc...
+-   Hoje, temos uma grande ferramenta de exportação de documentações no `R`, com o uso do `R Markdown`!
+-   Exportações interativas, por exemplo, com o uso do pacote `shiny`.
+-   [Contudo, nos limitaremos a uma breve introdução sobre o assunto: Importação/Exportação de dados!]{style="color: yellow;"}
+
+# Banco de dados {background-image="EAR-rbasico-background-02.png"}
+
+Limitaremos a:
+
+-   Arquivos de texto: `<>.txt`, `<>.csv`;
+-   Arquivos binários: `<>.xls`, `<>.xlsx`;
+-   Arquivos da *Web*
+-   Banco de dados digitados manualmente pelo *console*.
+
+## Em resumo o que acontecerá no `R`... {background-image="EAR-rbasico-background-02.png"}
+
+<center>![](rworks2.png)</center>
+
+## Ideias básicas {background-image="EAR-rbasico-background-02.png"}
+
+-   Escrever/Importar um banco de dados
 -   No R:
     -   verificar diretório de trabalho
     -   importar os dados usando `read.table()`
     -   criar um nome e associar ao objeto de classe `data.frame` com os dados importados
--   No RStudio tem alguns recursos que podem facilitar a importação de dados
+-   No `RStudio` tem alguns recursos que podem facilitar a importação de dados
+
+# Preparação dos dados {background-image="EAR-rbasico-background-02.png"}
+
+No banco de dados, sempre:
+
+-   Separar as variáveis em colunas;
+-   Valores em linha;
+-   Sempre a primeira linha das colunas representará o nome da variável;
+-   Quanto mais caracteres diferentes do padrão ASCII, mais difícil poderá ser a leitura dos dados.
+
+## Preparação dos dados {background-image="EAR-rbasico-background-02.png"}
+
+<center>![](banco_dados.png)</center>
+
+## Preparação dos dados {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões ao banco de dados:
+
+-   devemos evitar símbolos fora do padrão alfanumérico;
+-   devemos evitar o uso de letras minúsculas e maiúsculas. Isso facilitará o acesso a essas variáveis. Contudo, lembramos do padrão de nomes sintáticos;
+-   como o banco de dados será utilizado para que um programa faça a sua leitura, portanto, deixamos a formatação da apresentação dos dados em arquivos específico, evitando qualquer outro tipo de informação que não seja os dados;
+
+## Preparação dos dados {background-image="EAR-rbasico-background-02.png"}
+
+-   devemos evitar palavras longas, por exemplo, `segundavariavel` (mau escolha), `segvar` (boa escolha), `seg_var` (boa escolha);
+-   devemos evitar palavras compostas com espaço entre elas. Como alternativa, usamos o símbolo "`_`", por exemplo, `var 2` (mau escolha), `var2` (boa escolha), `var_2` (boa escolha);
+-   devemos evitar "." (ponto) em palavras compostas, pois esta sintaxe é responsável pela criação de um método para uma determinada classe no sistema *S3* (um dos paradigmas de orientação a objetos no `R`), e isto pode causar possíveis conflitos na interpretação dos dados.
+
+# Importação de dados {background-image="EAR-rbasico-background-02.png"}
+
+Usando o *console*:
+
+```{r, echo=TRUE, eval=FALSE}
+> # Criando e inserido os elementos do objeto dados
+> x <- scan()
+1:
+```
+
+[Vamos usar o R para verificar este comando!]{.fragment}
+
+# Importação de dados {background-image="EAR-rbasico-background-02.png"}
+
+-   Importando `<>.csv`:
+    -   Principal característica:
+        -   Separação das variáveis, geralmente, por: ";"!
+-   Importando `<>.txt`:
+    -   Principal característica:
+        -   Separação das variáveis por espaço!
+        -   [Maior risco de erro na importação!]{style="color: red;"}
+-   Importar arquivos do `EXCEL`: `<>.xls`, `<>.xlsx` [- pacotes: `readxl`, `writexl`!]{.fragment}
+
+
+## Importação de dados {background-image="EAR-rbasico-background-02.png"}
+
+Exemplos:
+
+- [alfafa.txt](https://github.com/bendeivide/book-eambr01/blob/main/files/alfafa.txt)
+- [datast1980.txt](https://raw.githubusercontent.com/bendeivide/book-eambr01/main/files/datast1980.txt)
+- [producao.csv](https://raw.githubusercontent.com/bendeivide/book-eambr01/main/files/producao.csv)
+
+## Importação de dados no `RStudio` {background-image="EAR-rbasico-background-02.png"}
+
+::: {.r-stack}
+![](imp-exp.png){.fragment .fade-in-then-out}
+
+![](imp-exp2.png){.fragment .fade-in-then-out}
+
+![](imp-exp3.png){.fragment .fade-in-then-out}
+
+![](imp-exp4.png){.fragment}
+:::
+
+## Importação de dados no `R` {background-image="EAR-rbasico-background-02.png"}
+
+- Funções utilizadas: `setwd()`, `getwd()`, `read.table()`
+- Detalhamento da função `read.table()`:
+  - `file`: banco de dados;
+  - `header`: argumento lógico, se `header = TRUE`, então implica dizer que as variáveis estão identificadas por um nome, isto é, a primeira linha do banco de dados representa o nome das variáveis; se `header = FALSE` (padrão), caso contrário;
+
+  
+## Importação de dados no `R` {background-image="EAR-rbasico-background-02.png"}
+
+- Detalhamento da função `read.table()`:
+  - `sep`: separador de variáveis nas colunas, o padrão é `sep = ""`, isto é, sem espaços; no caso de arquivos de extensão: `<>.csv`, geralmente, usamos para este argumento `sep = ";"`, identificando que a separação das variáveis está representada por "`;`";
+  - `dec`: separador de casas decimais, sendo o padrão `dec = "."`.
+  
+## Código 5.1 [@batista2021] {background-image="EAR-rbasico-background-02.png"}
+
+:::{.notes}
+- Lembrar de falar das barras invertidas ("\\") para o endereço do arquivo;
+- Lembrar sobre o que é diretório corrente e diretório de trabalho;
+:::
+
+```r
+# Diretorio
+getwd()
+# Mudando para o diretorio de interesse
+setwd('C:/eambr01')
+# Verificando os arquivos no diretorio de trabalho
+list.files()
+# Importando os dados apontando para o diretorio do arquivo
+dados1 <- read.table(file = 'C:/eambr01/alfafa.txt', header = TRUE)
+# Considerando que o arquivo esta no diretorio de
+# trabalho, isto eh, getwd()
+dados2 <- read.table('alfafa.txt', header = TRUE)
+# Importando os dados com decimais com ',' apontando para o diretorio do arquivo
+dados3 <- read.table(file = 'C:/eambr01/dadost1980.txt', header = TRUE, dec = ',')
+# Considerando que o arquivo esta no diretorio de
+# trabalho, isto eh, getwd()
+dados4 <- read.table(file = 'dadost1980.txt', header = TRUE, dec = ',')
+# Importando os dados com decimais ',', e separados por ';' apontando para o diretorio do arquivo
+dados5 <- read.table(file = 'C:/eambr01/producao.csv', header = TRUE, dec = ',', sep = ';')
+# Considerando que o arquivo esta no diretorio de
+# trabalho, isto eh, getwd()
+dados6 <- read.table(file = 'producao.csv', header = TRUE, dec = ',', sep = ';')
+# Importando da internet
+dados7 <- read.table(file = 'https://raw.githubusercontent.com/bendeivide/book-eambr01/main/files/alfafa.txt', header = TRUE)
+```
+
+# Exportação de dados{background-image="EAR-rbasico-background-02.png"}
+
+Extensões exportadas:
+
+- `<>.txt`[: Pacote nativo `utils`]{.fragment}
+- `<>.xlsx`[: Pacote `writexl`]{.fragment}
+- Código $\LaTeX$[: Pacote `xtable`]{.fragment}
+
+
+## Exportação de dados{background-image="EAR-rbasico-background-02.png"}
+
+
+Funções usadas: `utils::write.table()`, `writexl::write_xlsx()`, `xtable::xtable()`
+
+## Código 5.5 [@batista2021] {background-image="EAR-rbasico-background-02.png"}
+
+```r
+# Instalando e/ou carregando o pacote 'readxl'
+#install.packages('readxl') # Se nao tiver instalado!
+library('readxl')
+# Vendo exemplos de arquivo no pacote
+readxl_example()	
+
+# Caminho do arquivo
+arquivo_xlsx <- readxl_example('datasets.xlsx')
+# Estrutura de dado 'tibble'
+dado <- read_excel(arquivo_xlsx); dado	
+
+# Estrutura de dado 'quadro de dado (data frame)'
+head(as.data.frame(dado))
+
+# Arquivo temporario
+x <- tempfile(pattern = 'dados', fileext = '.txt')
+
+# Objeto
+d <- data.frame(x = 1, y = 1:10)
+
+# Exportando os dados
+write.table(d, file = x, sep = '\t', quote = FALSE, row.names = FALSE)
+# sep = '\t' => representa uma 	TAB entre as colunas
+# file = x => Essa saida foi um arquivo temporario, mas se desejar exportar os dados para um arquivo especifico, em um diretorio específico, basta inserir esse caminho entre
+#aspas, por exemplo, file = 'C:\dados.txt'
+
+# Abrindo o arquivo
+file.show(x)
+```
+
+## Código 5.5 [@batista2021] {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+![](export_file.png)
+</center>
+
+
+## Código 5.6 [@batista2021] {background-image="EAR-rbasico-background-02.png"}
+
+```r
+# Dados do pacote nativo 'datasets'
+library('datasets')
+dados <- head(cars); dados # Quadro de dados (Data frame)
+
+# Instalando e/ou carregando writexl
+install.packages('writexl')
+library(writexl)
+# Diretorio de trabalho
+dirtrab <- getwd()
+# Nome do arquivo
+nome <- 'dados.xlsx'
+# Caminho
+caminho <- paste(dirtrab, nome, sep = '/')
+# Exportando esses dados para um '.xlsx'
+file <- writexl::write_xlsx(dados, caminho)
+# Mortrando o arquivo
+file.show(file)
+
+# Vamos criar agora listas de quadro de dados
+d1 <- head(cars); d1 # valores iniciais de 'cars'
+d2 <- tail(cars); d2 # valores finais de 'cars'
+
+lista <- list(elem01 =d1,  elem02 =02); lista
+
+
+# Diretorio de trabalho
+dirtrab <- getwd()
+# Nome do arquivo
+nome <- 'lista.xlsx'
+# Caminho
+caminho <- paste(dirtrab, nome, sep = '/')
+# Exportando esses dados para um '.xlsx'
+file <- writexl::write_xlsx(lista, caminho)
+# Mortrando o arquivo
+file.show(file)
+```
+
+## Código 5.6 [@batista2021] {background-image="EAR-rbasico-background-02.png"}
+
+::: {.r-stack}
+![](write_loffice.png){.fragment .fade-in-then-out width=500}
+
+![](write_loffice02.png){.fragment width=500}
+:::
+
+
+## Código 5.7 [@batista2021] {background-image="EAR-rbasico-background-02.png"}
+
+Comandos no R:
+
+```r
+# Instalando e/ou carregando o pacote 'xtable'
+install.packages('xtable')
+# Carregando/Anexando
+library(xtable)
+library(datasets)
+# Dados
+dados <- head(mtcars[,1:3]); dados
+# Exportando para LaTeX
+xtable(dados)
+```
+
+## Código 5.7 [@batista2021] {background-image="EAR-rbasico-background-02.png"}
+
+Saída no `console`:
+
+```latex
+\begin{table}[ht]
+  \centering
+  \begin{tabular}{rrrr}
+  	\hline
+  	& mpg & cyl & disp \\
+  	\hline
+  	Mazda RX4 & 21.00 & 6.00 & 160.00 \\
+  	Mazda RX4 Wag & 21.00 & 6.00 & 160.00 \\
+  	Datsun 710 & 22.80 & 4.00 & 108.00 \\
+  	Hornet 4 Drive & 21.40 & 6.00 & 258.00 \\
+  	Hornet Sportabout & 18.70 & 8.00 & 360.00 \\
+  	Valiant & 18.10 & 6.00 & 225.00 \\
+  	\hline
+  \end{tabular}
+\end{table}
+```
+
+
+
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 
@@ -85,7 +394,7 @@ Sugestões, perguntas, críticas...
 
 <a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
 
-<img src="EAR-rbasico02.png" width = "400">
+<img src="EAR-rbasico02.png" width="400"/>
 
 </a>
 

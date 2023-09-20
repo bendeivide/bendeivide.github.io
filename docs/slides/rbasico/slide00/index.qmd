@@ -19,12 +19,15 @@ format:
     footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
     # Quadro negro
-    chalkboard: 
+    chalkboard:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
       boardmarker-width: 3 # largura da caneta do quadro branco
-    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides
@@ -45,59 +48,35 @@ editor: source
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
 
-<center>
-
-![](EAR-rbasico.png) 
-
-</center>
-
+<center>![](EAR-rbasico.png)</center>
 
 # Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
-<img src="SeloDC-branco.png" width = "300">
+<img src="SeloDC-branco.png" width="300"/>
 
 </a>
 
 # Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
-::: {.nonincremental}
-
-- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
-
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
 :::
 
-<center>  
-![](ceac.png){width="70%"}
-</center>
-
+<center>![](ceac.png){width="70%"}</center>
 :::
 
 ::: {.column width="50%"}
-
-::: {.nonincremental}
-
-- [ufsj.edu.br/](ufsj.edu.br/)
-
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
 :::
 
-
-
-<center>
-
-<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
-
-</center>
-
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
 :::
-
-::::
-
+:::
 
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
@@ -105,118 +84,90 @@ Usaremos @batista2021:
 
 <a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 
-<img src="hardcover01.png" width = "300">
+<img src="hardcover01.png" width="300"/>
 
 </a>
-
 
 # Objetivo do curso {background-image="EAR-rbasico-background-02.png"}
 
 -   O EAR: R básico **não** tem como objetivo principal de **ensinar análise de dados**.
 -   Mas **sim**, proporcionar o **conhecimento sobre a linguagem R** (sintaxe e semântica), de modo que se consiga usufruir todos os recursos da linguagem.
 
-
-# {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/ear/"}
+#  {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/courses/ear/"}
 
 Página do curso
 
-
 # Planejamento das aulas {background-image="EAR-rbasico-background-02.png"}
-
 
 <font size="+2">
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="25%"}
-
-::: {.nonincremental}
-
+::: nonincremental
 **S1: 13-15/09**
 
-- Dia 13/09
-  - Aula 00
-  - Aula 01
-  - Aula 02
-  - Aula 03
-  - Aula 04*
-  - Aula 05*
-  - Aula 06
-  - Aula 07
-- Dia 14/09
-  - *Live* de dúvidas
-
+-   Dia 13/09
+    -   Aula 00
+    -   Aula 01
+    -   Aula 02
+    -   Aula 03
+    -   Aula 04\*
+    -   Aula 05\*
+    -   Aula 06
+    -   Aula 07
+-   [Dia 14/09]{style="color: yellow;"}
+    -   [*Live* de dúvidas]{style="color: yellow;"}
 :::
-
 :::
 
 ::: {.column width="25%"}
-
-::: {.nonincremental}
-
+::: nonincremental
 **S1: 13-15/09**
 
-- Dia 15/09
-  - Aula 08*
-  - Aula 09
-  - Aula 10
-  - Aula 11
-  - Aula 12
-  
+-   Dia 15/09
+    -   Aula 08\*
+    -   Aula 09
+    -   Aula 10
+    -   Aula 11
+    -   Aula 12
 :::
-
 :::
 
 ::: {.column width="25%"}
-
-::: {.nonincremental}
-
+::: nonincremental
 **S2: 20-22/09**
 
-- Dia 20/09
-  - Aula 12
-  - Aula 13
-  - Aula 14
-  - Aula 15*
-- Dia 21/09
-  - *Live* de dúvidas
-- Dia 22/09
-  - Aula 16
-  - Aula 17*
-  - Aula 18
-  
-  
+-   Dia 20/09
+    -   Aula 13
+    -   Aula 14
+    -   Aula 15\*
+-   [Dia 21/09]{style="color: yellow;"}
+    -   [*Live* de dúvidas]{style="color: yellow;"}
+-   Dia 22/09
+    -   Aula 16
+    -   Aula 17\*
+    -   Aula 18
 :::
-
 :::
 
 ::: {.column width="25%"}
-
-::: {.nonincremental}
-
+::: nonincremental
 **S3: 27-29/09**
 
-- Dia 27/09
-  - Aula 19*
-  - Aula 20
-  - Aula 21
-- Dia 28/09
-  - Aula 22
-  - Aula 23*
-  - Aula 24*
-  - Aula 25
-- Dia 29/09
-  - *Live* de dúvidas
-  
-  
-  
-  
+-   Dia 27/09
+    -   Aula 19\*
+    -   Aula 20
+    -   Aula 21
+-   Dia 28/09
+    -   Aula 22
+    -   Aula 23\*
+    -   Aula 24\*
+    -   Aula 25
+-   [Dia 29/09]{style="color: yellow;"}
+    -   [*Live* de dúvidas]{style="color: yellow;"}
 :::
-
 :::
-
-::::
-
+:::
 
 </font>
 
@@ -228,19 +179,15 @@ Seremos capazes de refletir sobre alguns questionamentos:
 
 <font size="+2">
 
-1. Qual a diferença entre anexar e carregar um pacote?
-2. Quais os três princípios do R ? Identifique-os em
-termos de linhas de comandos criadas em R.
-3. O que são funções anônimas?
-4. Podemos afirmar que sempre o ambiente envolvente e ambiente de chamada são ambientes iguais?
-5. Qual a diferença entre estrutura de dados e
-tipo de objetos no ambiente R?
-6. Qual a relação existente entre o escopo de uma
-função e os objetos do tipo ambiente (`environment`)?
-7. ...
+1.  Qual a diferença entre anexar e carregar um pacote?
+2.  Quais os três princípios do R ? Identifique-os em termos de linhas de comandos criadas em R.
+3.  O que são funções anônimas?
+4.  Podemos afirmar que sempre o ambiente envolvente e ambiente de chamada são ambientes iguais?
+5.  Qual a diferença entre estrutura de dados e tipo de objetos no ambiente R?
+6.  Qual a relação existente entre o escopo de uma função e os objetos do tipo ambiente (`environment`)?
+7.  ...
 
 </font>
-
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 
@@ -248,7 +195,7 @@ Sugestões, perguntas, críticas...
 
 <a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
 
-<img src="EAR-rbasico02.png" width = "400">
+<img src="EAR-rbasico02.png" width="400"/>
 
 </a>
 

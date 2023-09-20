@@ -8,8 +8,8 @@ author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< f
 bibliography: biblio.bib
 link-citations: true
 css: hscroll.css
-lang: pt-BR
 csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
@@ -20,12 +20,15 @@ format:
     footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
     # Quadro negro
-    chalkboard: 
+    chalkboard:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
       boardmarker-width: 3 # largura da caneta do quadro branco
-    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides
@@ -41,16 +44,8 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-  - notes
 editor: source
 ---
-
-<script src="plugin/notes/notes.js"></script>
-<script>
-    Reveal.initialize({
-        plugins: [ RevealNotes ]
-    });
-</script>
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
 
@@ -67,6 +62,44 @@ editor: source
 <img src="SeloDC-branco.png" width = "400">
 
 </a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
 
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
