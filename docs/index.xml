@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 20 Sep 2023 09:14:22 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 21 Sep 2023 13:18:54 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Wed, 20 Sep 2023 09:14:22 +0000</pubDate>
+      <pubDate>Thu, 21 Sep 2023 13:18:54 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -554,7 +554,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
   &lt;summary&gt;📘 &lt;em&gt;Live 2&lt;/em&gt; - Dúvidas sobre as aulas 08 a 15&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Live 2&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/live01/index.html&#34; target=&#34;_blank&#34;&gt;Live 02&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/live02/index.html&#34; target=&#34;_blank&#34;&gt;Live 02&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/11t02Fj8CVIScB1oqM-GT_ncRKjNPjudOJgpRiS3_0OY/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
@@ -20178,9 +20178,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://bendeivide.github.io/slides/rbasico/slide00-copia/index_files/libs/revealjs/plugin/notes/speaker-view/</link>
+      <link>http://bendeivide.github.io/slides/rbasico/live02/index_files/libs/revealjs/plugin/notes/speaker-view/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/rbasico/slide00-copia/index_files/libs/revealjs/plugin/notes/speaker-view/</guid>
+      <guid>http://bendeivide.github.io/slides/rbasico/live02/index_files/libs/revealjs/plugin/notes/speaker-view/</guid>
       <description>
 &lt;html lang=&#34;en&#34;&gt;
 	&lt;head&gt;
@@ -21067,9 +21067,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://bendeivide.github.io/slides/rbasico/slide00-copia/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</link>
+      <link>http://bendeivide.github.io/slides/rbasico/live02/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/rbasico/slide00-copia/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</guid>
+      <guid>http://bendeivide.github.io/slides/rbasico/live02/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</guid>
       <description>&lt;h1 id=&#34;chalkboard&#34;&gt;Chalkboard&lt;/h1&gt;
 &lt;p&gt;With this plugin you can add a chalkboard to reveal.js. The plugin provides two possibilities to include handwritten notes to your presentation:&lt;/p&gt;
 &lt;ul&gt;

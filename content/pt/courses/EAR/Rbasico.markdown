@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-09-20 09:14:22"
+date: "2023-09-21 13:18:54"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -458,7 +458,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 {{< spoiler text=":blue_book: *Live 2* - Dúvidas sobre as aulas 08 a 15" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Live 2
-{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/live01/index.html" target="_blank">Live 02</a>
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/live02/index.html" target="_blank">Live 02</a>
 {{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
 {{< icon name="headphones" pack="fas" >}} __Podcast__
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/11t02Fj8CVIScB1oqM-GT_ncRKjNPjudOJgpRiS3_0OY/edit?usp=sharing)
