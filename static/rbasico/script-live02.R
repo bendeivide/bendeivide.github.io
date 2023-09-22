@@ -20,6 +20,9 @@
 # sucesso!
 ###################################################
 
+x <- 10L
+y <- x
+w <- 10L
 
 
 
@@ -80,8 +83,9 @@ dados <- list(
 )
 # Quebra do quadro de dados
 attach(dados)
+detach(dados)
 # calcular a media de y
-mean(y)
+base::mean(dados$y)
 
 
 # Solucao da pergunta 03
@@ -99,3 +103,9 @@ x <- new_leem(x, variable = 2)
 x <- tabfreq(x)
 # Gerando um histograma de frequencias
 hist(x)
+# Usando o operador pipe
+x <- rnorm(36, 100, 4)
+x |>
+  new_leem(variable = 2) |>
+  tabfreq() |>
+  hist()
