@@ -1,0 +1,301 @@
+---
+title: "Estatística e Probabilidade"
+subtitle: "Aula 15- Distribuições de probabilidade"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    auto-stretch: false
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EPAEC](https://bendeivide.github.io/courses/epaec/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2023:
+
+<a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Introdução {background-image="cap02.png"}
+
+- Distribuição Binomial
+- Distribuição Poisson
+- Distribuição Normal
+
+
+# Experimento 1 {background-image="cap02.png" background-color="white"}
+
+<!-- Ajuda ao Reveal.js -->
+<!-- https://github.com/hakimel/reveal.js/issues/2303 -->
+
+<center>
+
+<div class="r-stack">
+  <img class="fragment fade-in-then-out" src="binom1.png" data-fragment-index="1" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom2.png" data-fragment-index="2" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom3.png"  data-fragment-index="3" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom4.png" data-fragment-index="4" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom5.png" data-fragment-index="5" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom6.png"  data-fragment-index="6" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom7.png" data-fragment-index="7" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom8.png" data-fragment-index="8" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom9.png" data-fragment-index="9" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom10.png" data-fragment-index="10" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom11.png" data-fragment-index="11" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom12.png" data-fragment-index="12" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom13.png" data-fragment-index="13" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom14.png" data-fragment-index="14" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom15.png" data-fragment-index="15" width="650" height="500">
+  
+  <img class="fragment fade-in-then-out" src="binom16.png"  data-fragment-index="16" width="650" height="500">
+  
+  <img class="fragment current-visible" src="binom17.png" data-fragment-index="17" width="650" height="500">
+  
+  <img class="fragment" src="binom18.png" width="650" height="500">
+</div>
+
+</center>
+
+## Exemplo {background-image="cap02.png" }
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+3">
+
+Um produto eletrônico contém 40 circuitos integrados, que opera de modo independente. A probabilidade que algum circuito integrado tenha defeito é 0,01. O produto somente funcionará se não houver defeito em nenhum circuito integrado. Então, qual a probabilidade que o produto funcione corretamente?
+
+</font>
+
+:::
+
+::: {.column width="50%"}
+
+:::{.r-stack}
+
+![](circint01.jpg){.fragment .fade-in-then-out}
+
+![](circint02.jpg){.fragment .fade-in-then-out}
+
+![](circint03.jpg){.fragment .fade-in-then-out}
+
+![](circint04.jpg){.fragment .fade-in-then-out}
+
+![](circint05.jpg){.fragment .fade-in-then-out}
+
+![](circint06.jpg){.fragment .fade-in-then-out}
+
+![](circint07.jpg){.fragment .fade-in-then-out}
+
+![](circint08.jpg){.fragment }
+
+:::
+
+:::
+
+::::
+
+
+
+# Distribuição Poisson {background-image="cap02.png" background-color="white"}
+
+:::{.r-stack}
+
+![](poisson1.png){.fragment .fade-in-then-out}
+
+![](poisson2.png){.fragment .fade-in-then-out}
+
+![](poisson3.png){.fragment .fade-in-then-out}
+
+![](poisson4.png){.fragment .fade-in-then-out}
+
+![](poisson5.png){.fragment .fade-in-then-out}
+
+:::
+
+# Exemplo {background-image="cap02.png"}
+
+<font size="+3">
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+Os fios de cobre são muito utilizados em sistemas elétricos pela sua excelente condutividade elétrica, e apresentar uma resistência elétrica mais baixa entre todos os metais não-preciosos. Seja um experimento que observa as falhas de transmissão de um fio de cobre, e sabe-se que:
+
+- $\lambda$ = 2,3 falhas/mm;
+- $X$ é uma variável aleatória que denota o número de falhas em cada 1 mm de cobre;
+- $P(X = 2~falhas/mm)$;
+- $P(X = 10~falhas/5mm)$.
+
+:::
+
+::: {.column width="40%"}
+
+![](fiocobre.png)
+
+:::
+
+::::
+
+</font>
+
+# Distribuição Normal {background-image="cap02.png"}
+
+- Distribuição contínua
+- Distribuição mais conhecida da estatística
+- Modela diversas variáveis
+- Teorema do Limite Central (TLC)
+
+## Distribuição Normal {background-image="cap02.png"}
+
+- Distribuição simétrica em $\mu$
+- Distribuição em forma de sino
+- Usando o `leem`
+
+## Exemplo {background-image="cap02.png"}
+
+Suponha que a espessura média de arruelas produzidas em uma fábrica tenha distribuição normal com média $11,15~mm$ e desvio padrão $2,238~mm$. Qual a porcentagem de arruelas que tem espessura entre $8,77~mm$ e $14,70~mm$?
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
+
+# Referências {background-image="cap02.png"}
+
+
+
+
+<!-- 
+
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="90%"}
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atot |>
+  new_leem(variable = 2) # ou new_leem(variable = "continuous")
+```
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
+atotleem
+class(atotleem)
+```
+
+:::
+
+::: {.column width="10%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+
+-->
