@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-09-21 13:18:54"
+date: "2023-09-26 05:37:55"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -410,7 +410,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "hRTi-QtWv1s?si=u9H2VBX1Tj1wsvsP">}}
 
 {{< /spoiler >}}
 
@@ -433,7 +433,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube  "aiUwAzIAd5Q?si=ZCoSpBHQs9O84YO_">}}
 
 {{< /spoiler >}}
 
@@ -451,7 +451,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "ufCueIl9i4A?si=yvlrjYFNAOHfbzHU" >}}
 
 {{< /spoiler >}}
 
@@ -468,7 +468,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube "D8zjstTpDXA?feature=share">}}
+{{< youtube "D8zjstTpDXA?si=i7gVIQjleDNSveyN">}}
 
 {{< /spoiler >}}
 
@@ -485,7 +485,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "YdFdSfAQLSk?si=nq_ma0cYBL_AyfKy" >}}
 
 {{< /spoiler >}}
 
@@ -502,7 +502,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "72p1BxQHPDQ?si=MxeJQoYUBMOqifF6" >}}
 
 {{< /spoiler >}}
 
@@ -519,7 +519,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "-N4ypp074Bs?si=rEtCslQ2sTMcQFv_" >}}
 
 {{< /spoiler >}}
 

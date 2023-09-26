@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.2
-date: "2023-09-15 17:37:49"
+date: "2023-09-25 21:36:21"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -620,6 +620,66 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< icon name="r-project" pack="fab" >}} <a
     href="" target="_blank">*Script* Aula 12</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 15 (25/09/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s15/" target="_blank"> Aula
+15</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1mH28OTcWdsB0-dT5M0KpnrpUK-PTZVQGLY5Dcy9Ha4A/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 15</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 16 (26-27/09/2023)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Distribuições de probabilidade
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s16/" target="_blank"> Aula
+16</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/18l6tH7yN2URhmtgrNZfC2GfYhlKVtMtfbva13kcL9Y4/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 16</a>
     
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 

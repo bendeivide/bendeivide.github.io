@@ -1,0 +1,5 @@
+# Construir o site
+rmarkdown::render_site(encoding = 'UTF-8')
+
+# Criar um servidor local e visualiza-lo
+blogdown::serve_site()
