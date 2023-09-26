@@ -87,12 +87,16 @@ Considere que existem defeitos aleatórios na superfície de um *chip* semicondu
 
 # Exercício 2 {background-image="cap02.png"}
 
-Considere que o número de alterações em uma página *web de entretenimentos seja modelada por uma distribuição de Poisson, e que ocorre em média 0,30 alterações por dia.
+Considere que o número de alterações em uma página *web* de entretenimentos seja modelada por uma distribuição de Poisson, e que ocorre em média 0,30 alterações por dia.
+
+<font size="+3">
 
 - Qual a probabilidade de que não haja alterações em um dia?
 - Qual a probabilidade de ocorra mais do que uma alteração em 8 horas?
 - Qual a probabilidade de ocorrer no máximo duas alterações em 2 dias?
 - Qual o valor esperado dessas alterações por dia? E a variabilidade dessas alterações em torno de 0,30 alterações por dia?
+
+</font>
 
 # Exercício 3 {background-image="cap02.png"}
 
