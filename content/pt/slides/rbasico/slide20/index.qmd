@@ -1,5 +1,5 @@
 ---
-title: "EAR: R Básico"
+title: "{{< fa brands r-project >}} EAR: R Básico"
 subtitle: "Aula 20 - Carregando e anexando pacotes"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
