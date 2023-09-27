@@ -1,5 +1,5 @@
 ---
-title: "EAR: R Básico"
+title: "{{< fa brands r-project >}} EAR: R Básico"
 subtitle: "Aula 24 - Interface com outras linguagens"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
@@ -8,24 +8,27 @@ author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< f
 bibliography: biblio.bib
 link-citations: true
 css: hscroll.css
-lang: pt-BR
 csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
     footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
     # Quadro negro
-    chalkboard: 
+    chalkboard:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
-    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides
@@ -41,7 +44,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 ```{r setup, include=FALSE}
@@ -69,6 +72,26 @@ github <- "[GitHub](http://github.com/){target='_blank'}"
 
 </a>
 
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
+
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
 Usaremos @batista2021:
@@ -83,27 +106,43 @@ Usaremos @batista2021:
 
 <blockquote>
 <p>
-- **Princípio da Interface**: Interfaces para outros programas são parte do `R`,
+**Princípio da Interface**: Interfaces para outros programas são parte do `R`.
 </p>
 </blockquote>
 
+. . .
+
+
 <center>
-![](interfacer.png)
+
+![](interfacer.png){width="30%"}
+
 <center/>
 
-## Implementação em `Python` {background-image="EAR-rbasico-background-02.png"}
+# Implementação em `Python` {background-image="EAR-rbasico-background-02.png"}
 
-- Pacote
+-   Pacote
+
+. . .
+
 ```{r, echo=TRUE, eval=FALSE, prompt=TRUE}
 # Pacote
 install.packages(reticulate)
 ```
-- `add.py`
+
+-   `add.py`
+
+. . .
+
 ```{python, echo = TRUE, eval = FALSE}
 def add(x, y):
   return x + y
 ```
-- `r-python.R`
+
+-   `r-python.R`
+
+. . .
+
 ```{r echo=TRUE, prompt=TRUE}
 # Carregando o script add.py
 reticulate::source_python('add.py') 
@@ -111,14 +150,20 @@ reticulate::source_python('add.py')
 add(5, 10)
 ```
 
-## Implemento em `C++` {background-image="EAR-rbasico-background-02.png"}
+# Implemento em `C++` {background-image="EAR-rbasico-background-02.png"}
 
-- Pacote
+-   Pacote
+
+. . .
+
 ```{r, echo=TRUE, eval=FALSE, prompt=TRUE}
 install.packages(Rcpp)
 ```
 
-- `add.cpp`
+-   `add.cpp`
+
+. . .
+
 ```{Rcpp, echo=TRUE, eval=FALSE}
 #include <Rcpp.h>
 using namespace Rcpp;
@@ -128,17 +173,25 @@ int add(int x, int y) {
   return x + y;
 }
 ```
-- `add.cpp`
+
+-   `add.cpp`
+
+. . .
+
 ```{r, echo=TRUE, prompt=TRUE, warning=FALSE}
 Rcpp::sourceCpp("add.cpp") # Carregando o script add.cpp
 add(5, 10) # Chamando a funcao add
 ```
 
-## Implementação em TclTk {.smaller background-image="EAR-rbasico-background-02.png"}
+# Implementação em TclTk {.smaller background-image="EAR-rbasico-background-02.png"}
 
-- Pacote `tcltk`
+-   Pacote `tcltk`
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u1AQoCEfOF0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+. . .
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u1AQoCEfOF0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 

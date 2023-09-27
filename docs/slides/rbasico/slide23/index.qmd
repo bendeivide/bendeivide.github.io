@@ -1,5 +1,5 @@
 ---
-title: "EAR: R Básico"
+title: "{{< fa brands r-project >}} EAR: R Básico"
 subtitle: "Aula 23 - Ambientes e caminho de busca"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
@@ -8,24 +8,27 @@ author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< f
 bibliography: biblio.bib
 link-citations: true
 css: hscroll.css
-lang: pt-BR
 csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
     footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
     # Quadro negro
-    chalkboard: 
+    chalkboard:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
-    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides
@@ -41,7 +44,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 ```{r setup, include=FALSE}
@@ -68,6 +71,26 @@ github <- "[GitHub](http://github.com/){target='_blank'}"
 <img src="SeloDC-branco.png" width = "400">
 
 </a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
 
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
@@ -151,11 +174,15 @@ ls(envir = amb1) # Verificando nomes no ambiente "amb1"
 
 -   Pai de `amb1`
 
+. . . 
+
 ```{r, echo=TRUE, prompt=TRUE}
 parent.env(amb1)
 ```
 
 -   Pai do ambiente vazio
+
+. . . 
 
 ```{r, echo=TRUE, prompt=TRUE, error=TRUE}
 parent.env(emptyenv())
@@ -182,7 +209,7 @@ f1 <-  function() {
 }
 ```
 
-# Ambientes funcionais {background-image="EAR-rbasico-background-02.png"}
+## Ambientes funcionais {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, echo=TRUE, prompt=TRUE}
 f1() # Imprimindo f1
@@ -190,7 +217,7 @@ x # Imprimindo x
 environment(f1) # Imprimindo o ambiente envolvente de f1
 ```
 
-# Ambientes funcionais {background-image="EAR-rbasico-background-02.png"}
+## Ambientes funcionais {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, echo=TRUE, prompt=TRUE}
 ls() # Imprimindo os nomes do ambiente global
@@ -224,7 +251,7 @@ f2()
 ls(); x
 ```
 
-# Superatribuição {background-image="EAR-rbasico-background-02.png"}
+## Superatribuição {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, echo=TRUE, prompt=TRUE}
 # Funcao contador
@@ -241,7 +268,7 @@ contador <- function() {
 }
 ```
 
-# Superatribuição e ambiente de execução {background-image="EAR-rbasico-background-02.png"}
+## Superatribuição e ambiente de execução {background-image="EAR-rbasico-background-02.png"}
 
 ```{r, echo=TRUE, prompt=TRUE,  attr.source="style='display:inline-block;'"}
 # Chamada de funcao
@@ -276,7 +303,7 @@ library(midrangeMCP)
 search()
 ```
 
-# Hierarquia no caminho de busca {background-image="EAR-rbasico-background-02.png"}
+## Hierarquia no caminho de busca {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando um ambiente
@@ -285,7 +312,7 @@ amb2 <- new.env()
 rlang::env_parents(env = amb2, last = emptyenv())
 ```
 
-# Pesquisa pelo caminho de busca {background-image="EAR-rbasico-background-02.png"}
+## Pesquisa pelo caminho de busca {background-image="EAR-rbasico-background-02.png"}
 
 ```{r echo=TRUE, prompt=TRUE, error=TRUE}
 # Criando uma funcao
