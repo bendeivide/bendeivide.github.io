@@ -8,24 +8,27 @@ author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< f
 bibliography: biblio.bib
 link-citations: true
 css: hscroll.css
-lang: pt-BR
 csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
     footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
     # Quadro negro
-    chalkboard: 
+    chalkboard:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
-      boardmarker-width: 5 # largura da caneta do quadro branco
-    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides
@@ -41,7 +44,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 ```{r setup, include=FALSE}
@@ -69,6 +72,26 @@ github <- "[GitHub](http://github.com/){target='_blank'}"
 
 </a>
 
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
+
 # Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
 
 Usaremos @batista2021:
@@ -85,24 +108,22 @@ Usaremos @batista2021:
 
 # Pontos para o próximo módulo {background-image="EAR-rbasico-background-02.png"}
 
-- Aprofundamento sobre os objetos, associando-os com a tipagem da linguagem *C*;
-- Cópias de objetos;
-- Aprofundamento sobre Ambientes;
-- Programação Orientada a objetos, bem como estudo de Métodos e Classes;
-- Programação Funcional:
-  - Evitando loops;
-  - Eficiência;
-
+-   Aprofundamento sobre os objetos, associando-os com a tipagem da linguagem *C*;
+-   Cópias de objetos;
+-   Aprofundamento sobre Ambientes;
+-   Programação Orientada a objetos, bem como estudo de Métodos e Classes;
+-   Programação Funcional:
+    -   Evitando loops;
+    -   Eficiência;
 
 ## Pontos para o próximo módulo {background-image="EAR-rbasico-background-02.png"}
 
-- Programação Funcional:
-  - Programando em baixo nível;
-  - Programação defensiva;
-- Introdução a Criação de Pacotes;
-- Gráficos;
-- Criação de documentos estáticas e dinâmicas;
-
+-   Programação Funcional:
+    -   Programando em baixo nível;
+    -   Programação defensiva;
+-   Introdução a Criação de Pacotes;
+-   Gráficos;
+-   Criação de documentos estáticas e dinâmicas;
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
 
