@@ -193,57 +193,6 @@ Por que não foi possível calcular a média para `y`? Será que foi porque não
 ::::
 
 
-## Questões do livro {background-image="EAR-rbasico-background-02.png"}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-::: {.nonincremental}
-
-<font size="+2">
-
-1. [@batista2021, p. 214] Vejamos a seguinte implementação:
-
-```{.r code-line-numbers="1-10|2|4|6|7|8|10|1-10"}
-# Instalando o pacote leem
-install.packages("leem")
-# Anexando o pacote leem
-library(leem)
-# Criando um histograma
-x <- rnorm(36, 100, 4)
-x <- new_leem(x, variable = 2)
-x <- tabfreq(x)
-# Gerando um histograma de frequencias
-hist(x)
-```
-Como poderíamos executar o código usando o operador *pipe* nativo (`|>`)?
-
-
-
-
-</font>
-
-:::
-
-:::
-
-::: {.column width="50%"}
-
-</br>
-</br>
-</br>
-
-<center>
-
-![Usando o RStudio](rstudio.png){width="50%"}
-
-</center>
-
-:::
-
-::::
-
 
 
 
