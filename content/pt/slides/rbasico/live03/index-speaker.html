@@ -528,7 +528,7 @@
 <ol type="1">
 <li><span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021, p. 270</a>)</span> Observamos o seguinte erro na chamada <code>f()</code>, no <em>console</em> a seguir:</li>
 </ol>
-<div class="sourceCode" id="cb1" data-code-line-numbers="1-10|3|8|10|1-10" data-console="TRUE"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>f <span class="ot">&lt;-</span> <span class="cf">function</span>() <span class="dv">1</span> <span class="sc">/</span> <span class="dv">1</span></span>
+<div class="sourceCode" id="cb1" data-code-line-numbers="1-3|2|1-3" data-console="TRUE"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>f <span class="ot">&lt;-</span> <span class="cf">function</span>() <span class="dv">1</span> <span class="sc">/</span> <span class="dv">1</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="fu">environment</span>(f) <span class="ot">&lt;-</span> <span class="fu">emptyenv</span>()</span>
 <span id="cb1-3"><a href="#cb1-3"></a><span class="fu">f</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell">
@@ -537,24 +537,10 @@
 </div>
 </div>
 <p>Uma das funções mais básicas no <code>R</code> é o operador de divisão (<code>/</code>), e ele não foi encontrado. Por que isso ocorreu? Explique.</p>
-<ol start="2" type="1">
-<li><span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021, p. 123</a>)</span> Vejamos o seguinte <em>script</em>:</li>
-</ol>
-<div class="sourceCode" id="cb3" data-code-line-numbers="1-10|3|8|10|1-10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># Objeto lista</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>dados <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb3-3"><a href="#cb3-3"></a>  <span class="at">mean =</span> mean <span class="ot">&lt;-</span> <span class="cf">function</span>(...) <span class="fu">print</span>(<span class="st">"Nada"</span>),</span>
-<span id="cb3-4"><a href="#cb3-4"></a>  <span class="at">y =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,</span>
-<span id="cb3-5"><a href="#cb3-5"></a>  <span class="at">z =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>), <span class="dv">5</span>)</span>
-<span id="cb3-6"><a href="#cb3-6"></a>)</span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="co"># Quebra do quadro de dados</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a><span class="fu">attach</span>(dados)</span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="co"># calcular a media de y</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a><span class="fu">mean</span>(y)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Por que não foi possível calcular a média para <code>y</code>? Será que foi porque não usamos <code>mean(dado$y)</code>? Explique.</p>
 </font><p><font size="+2"></font></p>
 </div>
 </div><div class="column" style="width:50%;">
-<p><br> <br> <br></p>
+<p><br> <br></p>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -567,29 +553,28 @@
 </div>
 </section>
 <section id="questões-do-livro-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Questões do livro</h2>
+<h2>Questões do livro <i class="fa-solid fa-book"></i></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div>
 <p><font size="+2"></font></p><font size="+2">
-<ol type="1">
-<li><span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021, p. 214</a>)</span> Vejamos a seguinte implementação:</li>
+<ol start="2" type="1">
+<li><span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021, p. 242</a>)</span> Supondo que criamos a seguinte função:</li>
 </ol>
-<div class="sourceCode" id="cb4" data-code-line-numbers="1-10|2|4|6|7|8|10|1-10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># Instalando o pacote leem</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">install.packages</span>(<span class="st">"leem"</span>)</span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="co"># Anexando o pacote leem</span></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="fu">library</span>(leem)</span>
-<span id="cb4-5"><a href="#cb4-5"></a><span class="co"># Criando um histograma</span></span>
-<span id="cb4-6"><a href="#cb4-6"></a>x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">36</span>, <span class="dv">100</span>, <span class="dv">4</span>)</span>
-<span id="cb4-7"><a href="#cb4-7"></a>x <span class="ot">&lt;-</span> <span class="fu">new_leem</span>(x, <span class="at">variable =</span> <span class="dv">2</span>)</span>
-<span id="cb4-8"><a href="#cb4-8"></a>x <span class="ot">&lt;-</span> <span class="fu">tabfreq</span>(x)</span>
-<span id="cb4-9"><a href="#cb4-9"></a><span class="co"># Gerando um histograma de frequencias</span></span>
-<span id="cb4-10"><a href="#cb4-10"></a><span class="fu">hist</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Como poderíamos executar o código usando o operador <em>pipe</em> nativo (<code>|&gt;</code>)?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>mean <span class="ot">&lt;-</span> <span class="cf">function</span>(x, ...) <span class="st">"Nao imprima nada"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Sabemos que o ambiente envolvente é o ambiente global. Agora, precisamos calcular a média do vetor <code>1:10</code>. Para isso, iremos usar a função <code>mean()</code> do pacote <a href="https://www.r-project.org/">base</a> que computa a média de um conjunto de valores, isto é:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">mean</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Nao imprima nada"</code></pre>
+</div>
+</div>
 </font><p><font size="+2"></font></p>
 </div>
 </div><div class="column" style="width:50%;">
-<p><br> <br> <br></p>
+<p><br> <br></p>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure>
