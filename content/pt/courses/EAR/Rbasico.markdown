@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-09-26 05:37:55"
+date: "2023-09-29 13:48:59"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -536,7 +536,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "ceE7rCh5Djo" >}}
 
 {{< /spoiler >}}
 
@@ -554,7 +554,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "mSBggLlDauY" >}}
 
 {{< /spoiler >}}
 
@@ -572,7 +572,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "9sYUJET4A1Q">}}
 
 {{< /spoiler >}}
 
@@ -590,7 +590,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "xMnkl3CoDRM" >}}
 
 {{< /spoiler >}}
 
@@ -608,7 +608,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "7qbiCt9Z7oY" >}}
 
 {{< /spoiler >}}
 
@@ -626,7 +626,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "KVgcP3Fswqc" >}}
 
 {{< /spoiler >}}
 
@@ -643,7 +643,24 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube  >}}
+{{< youtube "KTY4FABRkOo" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: *Live 3* - Dúvidas sobre as aulas 08 a 15" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Live 3
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/live03/index.html" target="_blank">Live 02</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "OnGg5ZPYYqU?feature=share">}}
 
 {{< /spoiler >}}
 
