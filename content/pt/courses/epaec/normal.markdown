@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2023.2
-date: "2023-09-25 21:36:21"
+date: "2023-10-11 14:03:50"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -609,10 +609,11 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< spoiler text="🎓 Aula 12 (12-13/09/2023)">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte II)
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte II e III)
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s12/" target="_blank"> Aula
-12</a>
+12</a>, <a href="/slides/estprob/s12.1/" target="_blank"> Aula
+12.1</a>
 
 {{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
 {{< icon name="headphones" pack="fas" >}} **Podcast**
@@ -637,7 +638,13 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 15 (25/09/2023)">}}
+{{< spoiler text="🎓 Aula 13 (18/09/2023)">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 14 e 15 (19-20;25/09/2023)">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade
 
@@ -694,6 +701,42 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 -   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
     target="_blank">Vídeoaulas</a>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 17 (02/10/2023)">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 18 (03-04/10/2023)">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 19 (09/10/2023)">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 20 (10-11/10/2023)">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 21 (16/10/2023)">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 22 (17-18/10/2023)">}}
+
+Prova 02
 
 {{< /spoiler >}}
 
