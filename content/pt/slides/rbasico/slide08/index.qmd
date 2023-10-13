@@ -352,7 +352,7 @@ length(v1); length(v2); length(v3)
 
 # Resumo {background-image="EAR-rbasico-background-02.png"}
 
-Um resumo as funções mensionadas podem ser refletidas com as seguintes indagações:
+Um resumo as funções mencionadas podem ser refletidas com as seguintes indagações:
 
 -   `base::class()` e `loop::c3_class()`: Qual o tipo de objeto?
 -   `base::mode()`: Qual o tipo de dados baseados na linguagem `S`?
@@ -360,7 +360,7 @@ Um resumo as funções mensionadas podem ser refletidas com as seguintes indaga�
 
 ## Resumo {background-image="EAR-rbasico-background-02.png"}
 
-Um resumo as funções mensionadas podem ser refletidas com as seguintes indagações:
+Um resumo as funções mencionadas podem ser refletidas com as seguintes indagações:
 
 -   `base::attributes()`: O objeto tem atributos?
 -   `base::length()`: Qual o comprimento do objeto? Sintaxe: `pacote::nome_função()`
