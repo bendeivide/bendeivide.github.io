@@ -1,11 +1,11 @@
 ---
 title: Oficina do Livro
 event: 20ª Semana Nacional de Ciência & Tecnologia (UFSJ/CAP)
-date: "2023-10-17T19:00:00Z"
+date: "2023-10-18T19:00:00Z"
 location: CAP/UFSJ
 summary: A proposta da Oficina do livro será motivar os participantes ao desenvolvimento do livro físico. Mostraremos etapas de como desenvolver um livro, e ao final, faremos um acabamento de capa dura para um livro físico.
-event_url: 
-date_end: "2023-10-17T21:00:00Z"
+event_url: https://www.instagram.com/snctufsj/
+date_end: "2023-10-18T21:00:00Z"
 all_day: no
 publishDate: "2023-10-16T13:00:00Z"
 tags: Oficina do livro
@@ -15,10 +15,10 @@ image:
   focal_point: Center
   
 links:
-- icon: github
-  icon_pack: fab
-  name: Repositório
-  url: https://github.com/bendeivide/palestras/tree/master/ramb-alem-das-analises-estatisticas
+# - icon: github
+#   icon_pack: fab
+#   name: Repositório
+#   url: https://github.com/bendeivide/palestras/tree/master/ramb-alem-das-analises-estatisticas
 - icon: facebook
   icon_pack: fab
   name: Seguir
@@ -42,7 +42,7 @@ links:
 url_code: ""
 #url_pdf: ""
 url_slides: "slides/semanact/index.html"
-url_video: "https://youtu.be/wnOGptAI5Zs"
+url_video: ""
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -68,11 +68,7 @@ share: true
 # 
 # Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
 ---
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wnOGptAI5Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-</br>
-</br>
+
 {{% callout note %}}
 Clique no botão **Slides** acima para visualizar o recurso de slides integrado.
 {{% /callout %}}

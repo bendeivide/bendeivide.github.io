@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/event/</link>
       <atom:link href="http://bendeivide.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Palestras recentes e futuras</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 17 Oct 2023 19:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 18 Oct 2023 19:00:00 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Palestras recentes e futuras</title>
@@ -15,14 +15,9 @@
     <item>
       <title>Oficina do Livro</title>
       <link>http://bendeivide.github.io/talk/oficina-do-livro/</link>
-      <pubDate>Tue, 17 Oct 2023 19:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Oct 2023 19:00:00 +0000</pubDate>
       <guid>http://bendeivide.github.io/talk/oficina-do-livro/</guid>
-      <description>&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wnOGptAI5Zs&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;/br&gt;
-&lt;/br&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
   &lt;/div&gt;
