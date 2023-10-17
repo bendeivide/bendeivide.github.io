@@ -1,0 +1,157 @@
+---
+title: "20ª Semana Nacional da Ciência e Tecnologia"
+subtitle: "Oficina do Livro"
+title-slide-attributes:
+    data-background-image: semanact.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+lang: pt-BR
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+format: 
+  revealjs:
+    mermaid:
+      theme: forest
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "<i class='fab fa-instagram'></i> [20ª Semana Nacional CT/CAP/UFSJ](https://www.instagram.com/snct2023ufsj/) | <i class='fa-solid fa-house'></i> <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Encarte {background-image="semanact.png"}
+
+<center>
+
+![](semanact1.png) 
+
+</center>
+
+# Filosofia de publicação (Selo DC) {background-image="semanact.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "300">
+
+</a>
+
+# Notícias {background-image="semanact.png"}
+
+-   [25% dos países têm leis que proibem uso de celular nas escolas (Agência Brasil)](https://agenciabrasil.ebc.com.br/radioagencia-nacional/educacao/audio/2023-07/25-dos-paises-tem-leis-que-proibem-uso-de-celular-nas-escolas)
+
+-   [Graduação a distância aumenta 700% em 10 anos (Estadão)](https://www.estadao.com.br/educacao/graduacao-a-distancia-aumenta-700-em-10-anos-media-e-de-171-alunos-por-professor-na-rede-privada/)
+
+-   [USP, apresenta redução de quase 30% em 5 anos (2018 - 2023) (Reitor do ITA Anderson Correia)](https://www.linkedin.com/posts/anderson-correia-5b49b4177_queda-consistente-nas-matr%C3%ADculas-de-p%C3%B3s-gradua%C3%A7%C3%A3o-activity-7115629409465696257-Ye1K?utm_source=share&utm_medium=member_desktop)
+
+- [A Finlândia e a Holanda estão entre os países que proibiram recentemente o uso de celulares em sala de aula. Além disso, os smartphones foram banidos total ou parcialmente na Espanha, Suíça, Portugal, México, Letônia, Estados Unidos, Escócia e em províncias do Canadá. (uol.com.br)](https://gizmodo.uol.com.br/celular-em-sala-de-aula-em-relatorio-unesco-lista-riscos-para-os-alunos/)
+
+## Notícias {background-image="semanact.png"}
+
+-   [Referência em educação, Suécia volta a investir em livros físicos em ação oposta a do governo de SP](https://revistaforum.com.br/global/2023/8/5/referncia-em-educao-suecia-volta-investir-em-livros-fisicos-em-ao-oposta-do-governo-de-sp-141746.html)
+
+    -   [Por que a Suécia desistiu da educação 100% digital e gastará milhões de euros para voltar aos livros impressos? (g1.com)](https://g1.globo.com/educacao/noticia/2023/08/07/por-que-a-suecia-desistiu-da-educacao-100percent-digital-e-gastara-milhoes-de-euros-para-voltar-aos-livros-impressos.ghtml)
+<font size="+2">
+        - [📙 queda no desempenho das crianças em leitura;](https://g1.globo.com/educacao/noticia/2023/08/07/por-que-a-suecia-desistiu-da-educacao-100percent-digital-e-gastara-milhoes-de-euros-para-voltar-aos-livros-impressos.ghtml#1)
+        - [💻 críticas de especialistas em saúde em relação ao aumento do uso de telas;](https://g1.globo.com/educacao/noticia/2023/08/07/por-que-a-suecia-desistiu-da-educacao-100percent-digital-e-gastara-milhoes-de-euros-para-voltar-aos-livros-impressos.ghtml#2)
+        - [👨👨👧 dificuldade maior de os pais ajudarem os filhos nas tarefas;](https://g1.globo.com/educacao/noticia/2023/08/07/por-que-a-suecia-desistiu-da-educacao-100percent-digital-e-gastara-milhoes-de-euros-para-voltar-aos-livros-impressos.ghtml#3)
+        - [🔬 evidências científicas que mostram os benefícios do livro físico para o desenvolvimento cognitivo dos alunos.](https://g1.globo.com/educacao/noticia/2023/08/07/por-que-a-suecia-desistiu-da-educacao-100percent-digital-e-gastara-milhoes-de-euros-para-voltar-aos-livros-impressos.ghtml#4)
+        - Em uma palestra proferida por [Miguel Nicolelis](https://neurology.duke.edu/profile/miguel-angelo-l-nicolelis), ele perguntou a plateia quantos saberiam fazer a raiz quadrada de 2 na mão! Quase ninguém respondeu!
+
+</font>
+
+# Sem certezas!!! {background-image="semanact.png"}
+
+-   Observação: \[Explano a minha experiência!\]{.fragment}
+
+# Desenvolvimento de um livro {background-image="semanact.png"}
+
+<!-- http://mermaid.js.org/syntax/flowchart.html -->
+
+```{mermaid}
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': 'black'
+    }
+  }
+}%%
+flowchart LR
+  subgraph Fase inicial
+  A[Ideia] --> B(Escrita)
+  end
+  subgraph Fase intermediária 1
+  B --> C{Formato?}
+  C --> D[Físico]
+  C --> E[Digital]
+  E --> E2[?]
+  D --> F2[Impressão]
+  D --> F[Diagramação]
+  F --> H[layout]
+  H --> I[Fonte]
+  H --> J[Cores]
+  H --> L[Imagens]
+  D --> N[Corte]
+  N --> G[Tamanho]
+  D --> O[Costura]
+  D --> P[Encamento]
+  D --> Q{Revisão}
+  E --> Q
+  Q -->|OK!| R[Publicação]
+  Q -->|Não!| S[Corrigir!]
+  S --> Q
+  R --> T[ISBN]
+  R --> U[Direito autoral]
+  end
+  subgraph Fase final
+  T --> X[Versão final do livro]
+  U --> X
+  X --> V[Publicização!]
+  end
+  
+```
+
+# Questões? {background-image="semanact.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Material da Oficina do livro {data-transition="zoom" background-image="semanact.png"}
+
+<a href="https://bendeivide.github.io/" target="_blank" style="text-align: center;">
+
+<img src="logo.png" width = "400">
+
+</a> <center> <a href="https://bendeivide.github.io/"  target="_blank" >bendeivide.github.io/</a> </center>
