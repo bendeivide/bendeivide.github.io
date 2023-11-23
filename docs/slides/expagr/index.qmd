@@ -1,0 +1,237 @@
+---
+title: "2° Workshop: Experimentação na Agricultura 4.0"
+subtitle: "Materiais didáticos e Pacotes R para análise de experimentos"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[2° Workshop: Exp. na Agric. 4.0](https://www.expstat.com/eventos vcxzsa) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source 
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Materiais didáticos {background-image="cap02.png"}
+
+::: {.notes}
+
+📝 Lembrar de mostrar o livro Estatística Básica em PDF (Spoiler)
+
+:::
+
+- Estatística Básica
+  - [Livro - Estatística Básica: Aplicada às Ciências Agrárias (saindo do forno!)](https://bendeivide.github.io/#books) (*Spoiler*)
+  - [Livro - Estatística e Probabilidade (Em desenvolvimento)](https://bendeivide.github.io/books/epaec/)
+  - [Livro - Estimação Estatística](https://bendeivide.github.io/books/estest/)
+
+
+
+## Materiais didáticos  {background-image="cap02.png"}  
+
+- Estatística Básica
+  - [Curso: Estatística e Probabilidade](https://bendeivide.github.io/courses/epaec/)
+    - [Exercícios resolvidos](https://bendeivide.github.io/courses/epaec/exerresolvidos/)
+    - [Videoaulas (Youtube)](https://bendeivide.github.io/courses/epaec/videoaulas/)
+    - [Posdcats](https://bendeivide.github.io/courses/epaec/podcasts/)
+    - [Música](https://bendeivide.github.io/courses/epaec/cantest/)
+    - [Resumos](https://bendeivide.github.io/courses/epaec/resest/)
+
+## Materiais didáticos  {background-image="cap02.png"}  
+
+- Ambiente R
+  - [Livro - R básico](https://bendeivide.github.io/books/eambr01/) 
+  - [Livro - R básico: Manual de soluções](https://bendeivide.github.io/books/eambr01/) 
+  - [Curso - EAR: R básico (26 aulas)](https://bendeivide.github.io/courses/ear/rbasico/)
+    - [Playlist: Videoaulas](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r)
+    - [\#Cortes](https://www.youtube.com/playlist?list=PL-20Z1XFWKR3f5XGntpJlqtKyOn8GHpKR)
+    - [Página dinâmica (shiny)](https://bendeivide.shinyapps.io/Curso-R/)
+  - [Curso - EAR: R intermediário (38 aulas)](https://bendeivide.github.io/cursor/nintermediario.html)
+  
+
+## Materiais didáticos  {background-image="cap02.png"}  
+
+- Estatística Experimental
+  - [Livro - Análise de experimentos (Em desenvolvimento)](https://bendeivide.github.io/#books)
+  - [Apostila - Estatística Experimental usando SISVAR, R e SAS](https://bendeivide.github.io/handouts/estexp/)
+  - [Análise de Experimentos usando o R (Nefit/UFLA)](https://bendeivide.github.io/handouts/aeur-nefit/)
+  - [Análise de Experimentos usando o R (Fisiologia/UFLA)](https://bendeivide.github.io/handouts/aeur-fisio/)
+
+
+
+
+# Pacotes {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+::: {.incremental}
+
+- pacote [leem](https://bendeivide.github.io/project/leem/)
+  - [Github](https://bendeivide.github.io/leem/)
+  - [CRAN](https://cloud.r-project.org/web/packages/leem/index.html)
+- Desenvolvido:
+  - Interface de funções
+  - Chamada de função: "*pipe*"
+- Em desenvolvimento:  
+  - Interface tcltk
+  - Inteface *web* (Projeto)
+
+
+:::
+
+:::
+
+::: {.column width="40%"}
+
+<img src="leem.png" title="Imagens: gratispng.com" width = "400">
+
+:::
+
+::::
+
+
+## Pacotes {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+::: {.incremental}
+
+- pacote [midrangeMCP](https://bendeivide.github.io/project/midrangemcp/)
+  - [Github](https://github.com/bendeivide/midrangeMCP)
+  - [CRAN](https://cran.r-project.org/web/packages/midrangeMCP/index.html)
+- Desenvolvido:
+  - Interface de funções
+  - Interface tcltk
+
+
+:::
+
+:::
+
+::: {.column width="40%"}
+
+<img src="midrangeMCP.png" title="Imagens: gratispng.com" width = "400">
+
+:::
+
+::::
+
+## Pacotes {background-image="cap02.png"}
+
+::: {.notes}
+
+📝 Evidenciar que este pacote permite verificar o desempenho dos testes usados
+
+:::
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+::: {.incremental}
+
+- pacote [MCPtests](https://bendeivide.github.io/project/mcptests/)
+  - [Github](https://bendeivide.github.io/project/mcptests/)
+  - [CRAN](https://cran.r-project.org/web/packages/MCPtests/index.html)
+- Desenvolvido:
+  - Interface de funções
+  - Interface tcltk
+
+
+:::
+
+:::
+
+::: {.column width="40%"}
+
+<img src="MCPtests.gif"  width = "400">
+
+:::
+
+::::
+
+
+## Pacotes {background-image="cap02.png"}
+
+::: {.notes}
+
+📝 Evidenciar que este pacote permite verificar o desempenho dos testes usados
+
+:::
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+::: {.incremental}
+
+- pacote [statscience](https://bendeivide.github.io/project/statscience/)
+  - [Github](https://github.com/bendeivide/statscience)
+- Em desenvolvimento: 
+  - Interface de funções
+  - Interface tcltk
+  - Inteface *web* (Projeto)
+
+
+:::
+
+:::
+
+::: {.column width="40%"}
+
+<img src="statscience.png"  width = "400">
+
+:::
+
+::::
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
