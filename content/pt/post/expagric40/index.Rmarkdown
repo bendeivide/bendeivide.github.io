@@ -6,12 +6,14 @@ tags: ['Estatística', 'R', 'Palestra']
 summary: 'Nesta apresentação, falarei sobre o desenvolvimento de meus materiais para análises de experimentos, bem os pacotes estatísticos que desenvolvemos para esta área da estatística.'
 
 links:
-- name: Canal da palestra (Inscreva-se!)
-  url: https://youtube.com/bendeivide/
+- name: Canal da palestra 
+  url: https://www.youtube.com/watch?v=AWEhHsAGJJk
 - name: Link da palestra
-  url: https://youtu.be/PqtafpsBpKs
+  url: https://www.youtube.com/watch?v=AWEhHsAGJJk
 - name: Slide
   url: "./slides/expagr/"
+
+
 
 
 ---
@@ -34,6 +36,10 @@ A palestra será realizada no 2° Workshop: Experimentação na Agricultura 4.0,
 ## Link da palestra
 
 - [Link da Palestra](https://www.youtube.com/watch?v=AWEhHsAGJJk)
+
+## *Script* da apresentação
+
+- {{% staticref "expagr/script.R" "newtab" %}}Script R{{% /staticref %}}
 
 
 ## Mais detalhes do evento
