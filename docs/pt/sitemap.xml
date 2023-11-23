@@ -34,7 +34,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2023-10-18T19:00:00+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -42,6 +42,50 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/categories/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/estatistica/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/estatistica-experimental/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/post/expagric40/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/palestra/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/palestra/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/post/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/post/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2023-11-23T00:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/oficina-do-livro/</loc><lastmod>2023-10-18T19:00:00+00:00</lastmod></url>
@@ -56,26 +100,6 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/event/"
-    /></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2023-10-18T19:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
-  <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2023-10-11T14:03:50+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2023-10-11T14:03:50+00:00</lastmod></url>
@@ -101,8 +125,6 @@
     <loc>http://bendeivide.github.io/tag/curso-r/</loc><lastmod>2023-09-29T13:48:59+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/curso-r/</loc><lastmod>2023-09-29T13:48:59+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2023-09-29T13:48:59+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/bookeambr/</loc><lastmod>2023-08-17T07:10:08+00:00</lastmod></url>
   <url>
@@ -141,18 +163,6 @@
     <loc>http://bendeivide.github.io/post/rbasico-unifal/</loc><lastmod>2022-10-19T00:00:00+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/livro/</loc><lastmod>2022-10-19T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/palestra/</loc><lastmod>2022-10-19T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/post/</loc><lastmod>2022-10-19T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/post/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/post/rbasico/</loc><lastmod>2022-10-17T00:00:00+00:00</lastmod></url>
   <url>
@@ -441,8 +451,6 @@
     <loc>http://bendeivide.github.io/category/inferencia-bayesiana/</loc><lastmod>2021-05-06T23:33:29+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/handouts/infbayes/</loc><lastmod>2021-05-06T23:33:29+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/estatistica-experimental/</loc><lastmod>2021-05-06T23:33:01+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/handouts/estexp/</loc><lastmod>2021-05-06T23:33:01+00:00</lastmod></url>
   <url>
@@ -835,8 +843,6 @@
     <loc>http://bendeivide.github.io/tag/pacotes-r/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/tag/programacao/</loc></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/r/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/tag/rbasico/</loc></url>
   <url>

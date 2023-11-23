@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 18 Oct 2023 19:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -4819,6 +4819,29 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
   &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34; target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
   &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34; target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Materiais didáticos e Pacotes R para análise de experimentos</title>
+      <link>http://bendeivide.github.io/post/expagric40/</link>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/post/expagric40/</guid>
+      <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
+&lt;p&gt;A palestra será realizada no 2° Workshop: Experimentação na Agricultura 4.0, dia 23/11/2023, às 19h em formato online.&lt;/p&gt;
+&lt;h2 id=&#34;data-horário-e-link&#34;&gt;Data, horário e link&lt;/h2&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-calendar-day  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 23/11/2023, 19h (Horário de Brasília)&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=AWEhHsAGJJk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canal Alcinei Azevedo - Dicas e aulas&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AWEhHsAGJJk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link da Palestra&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mais-detalhes-do-evento&#34;&gt;Mais detalhes do evento&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.expstat.com/eventos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2° Workshop: Experimentação na Agricultura 4.0&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
