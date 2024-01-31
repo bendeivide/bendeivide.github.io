@@ -1127,15 +1127,15 @@ Percebemos que a média de gA estima melhor o parâmetro $\mu$, uma vez que o er
 ```{r, echo = TRUE, eval = TRUE}
 gA |>
   new_leem(variable = 2) |>
-  mstde(grouped = FALSE, rounding = 6)
+  mse(grouped = FALSE, rounding = 6)
 
 gB |>
   new_leem(variable = 2) |>
-  mstde(grouped = FALSE, rounding = 6)
+  mse(grouped = FALSE, rounding = 6)
 
 gC |>
   new_leem(variable = 2) |>
-  mstde(grouped = FALSE, rounding = 6)
+  mse(grouped = FALSE, rounding = 6)
 
 ```
 

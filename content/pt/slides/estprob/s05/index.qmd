@@ -102,11 +102,71 @@ showpar()
 - Mediana
 - Moda
 
+## Funções `leem` {background-image="cap02.png"}
+
+:::: {.columns}
+::: {.column width="60%"}
+</br>
+</br>
+<center>
+<style type="text/css">
+.tg7  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg7 td{background-color:#fdf6e3;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#002b36;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
+  word-break:normal;}
+.tg7 th{background-color:#657b83;border-bottom-width:1px;border-color:#93a1a1;border-style:solid;border-top-width:1px;
+  border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:30px;font-weight:normal;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg7 .tg-5lw0{background-color:#eee8d5;border-color:#ffffff;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;text-align:left;
+  vertical-align:middle}
+.tg7 .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;
+  text-align:left;vertical-align:middle}
+.tg7 .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+</style>
+<table class="tg7">
+<thead>
+  <tr>
+    <th class="tg-vqs5">Função</th>
+    <th class="tg-vqs5">Finalidade</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-5lw0"> <code>mean()</code>  </td>
+    <td class="tg-5lw0">Média </td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>median()</code>  </td>
+    <td class="tg-5lw0">Mediana </td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>mfreq()</code>  </td>
+    <td class="tg-xzvq">Moda</td>
+  </tr>
+</tbody>
+</table>
+</center>
+
+:::
+
+::: {.column width="40%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
 
 # Média Aritmética {background-image="cap02.png"}
 
 
-<font size="+3">
+<font size="+2">
 
 > **Definição (Média aritmética)**: Seja uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, de uma população $X_1$, $X_2$, $\ldots$, $X_N$, de tamanhos $n$ e $N$, respectivamente, definimos a média aritmética por:
 >
@@ -124,7 +184,7 @@ showpar()
 
 <font size="+3">
 
-> **Definição (Média aritmética):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de tamanho $n$, agrupados em $k$ grupos com variáveis $X_i$ e frequência $F_i$, ou $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a média aritmética de uma amostra, é definida por:
+> **Definição (Média aritmética):** Seja uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, de tamanho $n$, agrupados em $k$ grupos com variáveis $X_i$ e frequência $F_i$, ou $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a média aritmética de uma amostra, é definida por:
   \begin{align}\label{eq:mediaagrup}
     \bar{X} & = \left\{\begin{array}{ll}
                    \frac{\sum_{i = 1}^{k}X_i \times F_i}{\sum_{i = 1}^{k}F_i}, &  \textrm{agrupados sem intervalo de classe}, \\
@@ -152,9 +212,14 @@ knitr::kable(
 )
 ```
 
-- \begin{align*}
+::: {.fragment}
+
+\begin{align*}
   \bar{X} =  \frac{3 + 1 + \ldots + 1}{20}=\frac{34}{20}= 1,7~\textrm{erros}.
 \end{align*}
+
+:::
+
 
 ## Exemplo 1 - Número de erros {background-image="cap02.png"}
 
@@ -315,7 +380,7 @@ Verificando a mediana no histograma:
 
 . . .
 
-```{r, echo=TRUE, eval=TRUE, out.width="70%", fig.align='center'}
+```{r, echo=TRUE, eval=TRUE, out.width="60%", fig.align='center'}
 d2 |>
   new_leem(variable = 2) |>
   tabfreq() |>
@@ -340,11 +405,11 @@ d2 |>
 
 ## Propriedades da média {background-image="cap02.png"}
 
-<font size="+3">
+<font size="+2">
 
 > **Teorema:** Baseado na Definição sobre a média, e considerando $c$ uma constante, então:
 >
-> - Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$, a média aritmética é dada por $\bar{X} = \frac{\sum_{i=1}^{n}X_i}{n}$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova média aritmética é dada por $\bar{Y} = \bar{X} \pm c$;
+> - Se para uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, a média aritmética é dada por $\bar{X} = \frac{\sum_{i=1}^{n}X_i}{n}$, então para uma transformação de $Y_i = X_i \pm c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova média aritmética é dada por $\bar{Y} = \bar{X} \pm c$;
 >
 > - Se para uma amostra $X_1$, $X_2$, \ldots, $X_n$, a média aritmética é dada por $\bar{X} = \frac{\sum_{i=1}^{n}X_i}{n}$, então para uma transformação de $Y_i = X_i \times c$, para $i$ $=$ $1$, $2$, $\ldots$, $n$, a nova média aritmética é dada por $\bar{Y} = \bar{X} \times c$. Esse resultado vale também para a transformação $Y_i = X_i / m$, sendo $m$ também uma constante. Basta usar $c = 1 / m$ e o resultado é o mesmo.
 > - A soma de quadrado de desvios dos dados em relação a uma constante $c$, é minimizada se $c = \bar{X}$.
@@ -355,7 +420,7 @@ d2 |>
 # Mediana {background-image="cap02.png"}
 
 <font size="+3">
-**Definição (Mediana):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de uma população $X_1$, $X_2$, \ldots, $X_N$, de tamanhos $n$ e $N$, respectivamente, definimos a mediana \index{medidas de posição!mediana} por:
+**Definição (Mediana):** Seja uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, de uma população $X_1$, $X_2$, $\ldots$, $X_N$, de tamanhos $n$ e $N$, respectivamente, definimos a mediana \index{medidas de posição!mediana} por:
   \begin{align*}
     \mu_d(X) & = \left\{\begin{array}{ll}
       \frac{X_{(\frac{N}{2})} + X_{\left( \frac{N}{2} + 1
@@ -369,7 +434,7 @@ d2 |>
 ## Mediana (continuação...) {background-image="cap02.png"}
 
 <font size="+3">
-**(Continuação...):** sendo $\mu_d(X)$ a mediana populacional e que $X_{(i)}$ é a $(i)$-ésima variável em ordem crescente de magnitude, tal que $X_{(1)} = \min\limits_{i}X_i$ e $X_{(n)} = \max\limits_{i}X_i$. De modo similar,
+**(Continuação...):** sendo $\mu_d(X)$ a mediana populacional e que $X_{(i)}$ é a $(i)$-ésima variável em ordem crescente de magnitude, tal que $X_{(1)} = \min\limits_{i}(X_i)$ e $X_{(n)} = \max\limits_{i}(X_i)$. De modo similar,
   \begin{align*}
     Md(X) & = \left\{\begin{array}{ll}
       \frac{X_{(\frac{n}{2})} + X_{\left( \frac{n}{2} + 1
@@ -378,7 +443,7 @@ d2 |>
       X_{(\frac{n + 1}{2})}, & \textrm{se } n  \textrm{ for ímpar} \\
     \end{array}\right., \quad \textrm{(Amostra)}
   \end{align*}
-  sendo $Md(X)$ a mediana amostral e que $X_{(i)}$ é a $(i)$-ésima variável em ordem crescente de magnitude, tal que $X_{(1)} = \min\limits_{i}X_i$ e $X_{(n)} = \max\limits_{i}X_i$.
+  sendo $Md(X)$ a mediana amostral e que $X_{(i)}$ é a $(i)$-ésima variável em ordem crescente de magnitude, tal que $X_{(1)} = \min\limits_{i}(X_i)$ e $X_{(n)} = \max\limits_{i}(X_i)$.
 </font>
 
 
@@ -386,7 +451,7 @@ d2 |>
 
 <font size="+3">
 
-> **Definição (Mediana):**  Seja uma amostra $X_{(1)}$, $X_{(2)}$, \ldots, $X_{(n)}$ em ordem crescente de magnitude, de tamanho $n$, agrupados em $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a mediana amostral é definida por:
+> **Definição (Mediana):**  Seja uma amostra $X_{(1)}$, $X_{(2)}$, $\ldots$, $X_{(n)}$ em ordem crescente de magnitude, de tamanho $n$, agrupados em $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a mediana amostral é definida por:
 \begin{align*}
   Md(X) = LI_{Md} + \left\lbrace \frac{\frac{n}{2}-f_{ant}}{f_{Md}}\right\rbrace \times c.
 \end{align*}
@@ -505,7 +570,7 @@ Sem agrupamento, temos:
         & = 67,5~\textrm{°F}.
 \end{align*}
 
-
+::: {.fragment}
 
 Com o agrupamento, temos:
 
@@ -515,6 +580,9 @@ Com o agrupamento, temos:
     & = 57,5 + \left\lbrace \frac{18-7}{12}\right\rbrace \times (10,6)\\ 
     & = 67,22~\textrm{°F}.
 \end{align*}
+
+:::
+
 
 </font>
 
@@ -548,7 +616,7 @@ dados$challenger |>
 
 :::
 
-
+<font size="+2">
 
 ```r
 dado |> # Entrada dos dados
@@ -562,6 +630,8 @@ dado |> # Entrada dos dados
   #   median(grouped = TRUE) # => Dados agrupados (Padrão)
   #   median(grouped = FALSE) # => Dados não agrupados
 ```
+
+</font>
 
 ## Usando o `leem` (continuação...) {background-image="cap02.png"}
 
@@ -609,7 +679,7 @@ Verificando a mediana no histograma:
 
 . . .
 
-```{r, echo=TRUE, eval=TRUE, out.width="70%", fig.align='center'}
+```{r, echo=TRUE, eval=TRUE, out.width="60%", fig.align='center'}
 d2 |>
   new_leem(variable = 2) |>
   tabfreq() |>
@@ -655,7 +725,7 @@ d2 |>
 
 <font size="+3">
 
-> **Definição (Moda):**  Seja uma amostra $X_{(1)}$, $X_{(2)}$, \ldots, $X_{(n)}$ em ordem crescente de magnitude, de tamanho $n$, agrupados em $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a moda amostral é definida por:
+> **Definição (Moda):**  Seja uma amostra $X_{(1)}$, $X_{(2)}$, $\ldots$, $X_{(n)}$ em ordem crescente de magnitude, de tamanho $n$, agrupados em $k$ classes com pontos médios $\tilde{X}_i$ e $F_i$ frequências, para $i$ $=$ $1$, $2$, $\ldots$, $k$ e $\sum_{i = 1}^{k}F_i = n$, então a moda amostral é definida por:
 \begin{align}
 Mo(X) & = LI_{Mo} + \left\lbrace \frac{\Delta_1}{\Delta_1 + \Delta_2}\right \rbrace \times c,
 \end{align}
@@ -742,7 +812,7 @@ Sem agrupamento, temos:
   Mo(X) & = 67~\textrm{°F},~70~\textrm{°F}.
 \end{align*}
 
-
+::: {.fragment}
 
 Com o agrupamento, temos:
 
@@ -757,6 +827,8 @@ Com o agrupamento, temos:
     & = 68,1 + \left\lbrace \frac{12 - 12}{(12 - 12) + (12 - 5)}\right\rbrace \times (68,1 - 57,5)\\
     & = 68,1~\textrm{°F}.
 \end{align*}
+
+:::
 
 </font>
 
@@ -791,7 +863,7 @@ dados$challenger |>
 :::
 
 
-
+<font size="+2">
 ```r
 dado |> # Entrada dos dados
   new_leem() |> # Estruturando os dados a classe leem
@@ -804,6 +876,8 @@ dado |> # Entrada dos dados
   #   mfreq(grouped = TRUE) # => Dados agrupados (Padrão)
   #   mfreq(grouped = FALSE) # => Dados não agrupados
 ```
+
+</font>
 
 ## Usando o `leem` (continuação...) {background-image="cap02.png"}
 
@@ -915,7 +989,7 @@ d2 |>
 
 ## Propriedades da moda {background-image="cap02.png"}
 
-<font size="+3">
+<font size="+2">
 
 > **Teorema:** Baseado na Definição sobre a moda, e considerando $c$ uma constante, então:
 >
@@ -932,7 +1006,7 @@ Inserindo as três medidas no histograma:
 
 . . . 
 
-```{r, echo=TRUE, eval=TRUE, out.width="70%", fig.align='center'}
+```{r, echo=TRUE, eval=TRUE, out.width="60%", fig.align='center'}
 d2 |>
   new_leem(variable = 2) |>
   tabfreq() |>
