@@ -138,12 +138,12 @@ showpar()
     <td class="tg-5lw0">Média </td>
   </tr>
   <tr>
-    <td class="tg-5lw0"> <code>median()</code>  </td>
-    <td class="tg-5lw0">Mediana </td>
+    <td class="tg-xzvq"> <code>median()</code>  </td>
+    <td class="tg-xzvq">Mediana </td>
   </tr>
   <tr>
-    <td class="tg-xzvq"> <code>mfreq()</code>  </td>
-    <td class="tg-xzvq">Moda</td>
+    <td class="tg-5lw0"> <code>mfreq()</code>  </td>
+    <td class="tg-5lw0">Moda</td>
   </tr>
 </tbody>
 </table>
