@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.1
-date: "2024-02-08 05:47:58"
+date: "2024-02-08 06:09:02"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -225,15 +225,15 @@ acompanhando as aulas e desenvolvendo demandas semanais, como forma de
 ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
 semana o aluno é acompanhado e avaliado pelo professor.
 
-{{< spoiler text="Abra o contrato aqui!">}}
+<!-- {{< spoiler text="Abra o contrato aqui!">}} -->
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0">
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0"> -->
 
-Carregando...
+<!-- Carregando... -->
 
-</iframe>
+<!-- </iframe> -->
 
-{{< /spoiler >}}
+<!-- {{< /spoiler >}} -->
 
 ## <i class="fa fa-book"></i> Bibliografia adotada para a disciplina {id="bibiografia" title="Clique aqui!"}
 

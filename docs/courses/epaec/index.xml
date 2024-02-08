@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2024.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Thu, 08 Feb 2024 05:47:58 +0000</pubDate>
+      <pubDate>Thu, 08 Feb 2024 06:09:02 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -298,12 +298,14 @@ ativas como método de avaliação. Paralelo a disciplina, o aluno irá
 acompanhando as aulas e desenvolvendo demandas semanais, como forma de
 ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
 semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
   &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
-  &lt;p&gt;&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;
-&lt;p&gt;Carregando&amp;hellip;&lt;/p&gt;
-&lt;/iframe&gt;&lt;/p&gt;
-&lt;/details&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt; --&gt;
+&lt;!-- Carregando... --&gt;
+&lt;!-- &lt;/iframe&gt; --&gt;
+&lt;!--&lt;/p&gt;
+&lt;/details&gt; --&gt;
 &lt;h2 id=&#34;bibiografia&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-book&#34;&gt;&lt;/i&gt; Bibliografia adotada para a disciplina&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
