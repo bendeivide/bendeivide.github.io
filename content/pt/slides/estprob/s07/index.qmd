@@ -140,7 +140,7 @@ showpar()
 ## Funções `leem` {background-image="cap02.png"}
 
 :::: {.columns}
-::: {.column width="60%"}
+::: {.column width="70%"}
 </br>
 </br>
 <center>
@@ -153,11 +153,11 @@ showpar()
   border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:30px;font-weight:normal;overflow:hidden;
   padding:10px 5px;word-break:normal;}
 .tg7 .tg-5lw0{background-color:#eee8d5;border-color:#ffffff;
-  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;text-align:left;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:20px;text-align:left;
   vertical-align:middle}
-.tg7 .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;
+.tg7 .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:20px;
   text-align:left;vertical-align:middle}
-.tg7 .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;
+.tg7 .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:20px;
   font-weight:bold;text-align:left;vertical-align:middle}
 </style>
 <table class="tg7">
@@ -173,12 +173,44 @@ showpar()
     <td class="tg-5lw0">Amplitude </td>
   </tr>
   <tr>
-    <td class="tg-xzvq"> <code>median()</code>  </td>
-    <td class="tg-xzvq">Mediana </td>
+    <td class="tg-xzvq"> <code> mdev()</code>  </td>
+    <td class="tg-xzvq">Desvio médio </td>
   </tr>
   <tr>
-    <td class="tg-5lw0"> <code>mfreq()</code>  </td>
-    <td class="tg-5lw0">Moda</td>
+    <td class="tg-5lw0"> <code>madev()</code>  </td>
+    <td class="tg-5lw0">Módulo do devio médio</td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>medev()</code>  </td>
+    <td class="tg-xzvq">Devio mediano </td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>meadev()</code>  </td>
+    <td class="tg-5lw0">Módulo do devio mediano</td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>medev()</code>  </td>
+    <td class="tg-xzvq">Módulo do devio mediano </td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>sse()</code>  </td>
+    <td class="tg-5lw0">Soma de quadrado dos desvios</td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>variance()</code>  </td>
+    <td class="tg-xzvq">Variância </td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>sdev()</code>  </td>
+    <td class="tg-5lw0">Desvio padrão</td>
+  </tr>
+  <tr>
+    <td class="tg-xzvq"> <code>cv()</code>  </td>
+    <td class="tg-xzvq">Coeficiente de variação </td>
+  </tr>
+  <tr>
+    <td class="tg-5lw0"> <code>mstde()</code>  </td>
+    <td class="tg-5lw0">Erro padrão da média</td>
   </tr>
 </tbody>
 </table>
@@ -186,7 +218,10 @@ showpar()
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="30%"}
+
+</br>
+</br>
 
 <center>
 
@@ -1188,15 +1223,15 @@ Percebemos que a média de gA estima melhor o parâmetro $\mu$, uma vez que o er
 ```{r, echo = TRUE, eval = TRUE}
 gA |>
   new_leem(variable = 2) |>
-  mse(grouped = FALSE, rounding = 6)
+  mstde(grouped = FALSE, rounding = 6)
 
 gB |>
   new_leem(variable = 2) |>
-  mse(grouped = FALSE, rounding = 6)
+  mstde(grouped = FALSE, rounding = 6)
 
 gC |>
   new_leem(variable = 2) |>
-  mse(grouped = FALSE, rounding = 6)
+  mstde(grouped = FALSE, rounding = 6)
 
 ```
 

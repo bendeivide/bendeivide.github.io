@@ -524,7 +524,7 @@
 <section id="funções-leem" class="slide level2" data-background-image="cap02.png">
 <h2>Funções <code>leem</code></h2>
 <div class="columns">
-<div class="column" style="width:60%;">
+<div class="column" style="width:70%;">
 <br> <br>
 <center>
 <style type="text/css">
@@ -536,11 +536,11 @@
   border-width:0px;color:#fdf6e3;font-family:Arial, sans-serif;font-size:30px;font-weight:normal;overflow:hidden;
   padding:10px 5px;word-break:normal;}
 .tg7 .tg-5lw0{background-color:#eee8d5;border-color:#ffffff;
-  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;text-align:left;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:20px;text-align:left;
   vertical-align:middle}
-.tg7 .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;
+.tg7 .tg-xzvq{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:20px;
   text-align:left;vertical-align:middle}
-.tg7 .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:30px;
+.tg7 .tg-vqs5{border-color:#ffffff;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;font-size:20px;
   font-weight:bold;text-align:left;vertical-align:middle}
 </style>
 
@@ -566,25 +566,90 @@ Amplitude
 </tr>
 <tr>
 <td class="tg-xzvq">
-<code>median()</code>
+<code> mdev()</code>
 </td>
 <td class="tg-xzvq">
-Mediana
+Desvio médio
 </td>
 </tr>
 <tr>
 <td class="tg-5lw0">
-<code>mfreq()</code>
+<code>madev()</code>
 </td>
 <td class="tg-5lw0">
-Moda
+Módulo do devio médio
+</td>
+</tr>
+<tr>
+<td class="tg-xzvq">
+<code>medev()</code>
+</td>
+<td class="tg-xzvq">
+Devio mediano
+</td>
+</tr>
+<tr>
+<td class="tg-5lw0">
+<code>meadev()</code>
+</td>
+<td class="tg-5lw0">
+Módulo do devio mediano
+</td>
+</tr>
+<tr>
+<td class="tg-xzvq">
+<code>medev()</code>
+</td>
+<td class="tg-xzvq">
+Módulo do devio mediano
+</td>
+</tr>
+<tr>
+<td class="tg-5lw0">
+<code>sse()</code>
+</td>
+<td class="tg-5lw0">
+Soma de quadrado dos desvios
+</td>
+</tr>
+<tr>
+<td class="tg-xzvq">
+<code>variance()</code>
+</td>
+<td class="tg-xzvq">
+Variância
+</td>
+</tr>
+<tr>
+<td class="tg-5lw0">
+<code>sdev()</code>
+</td>
+<td class="tg-5lw0">
+Desvio padrão
+</td>
+</tr>
+<tr>
+<td class="tg-xzvq">
+<code>cv()</code>
+</td>
+<td class="tg-xzvq">
+Coeficiente de variação
+</td>
+</tr>
+<tr>
+<td class="tg-5lw0">
+<code>mstde()</code>
+</td>
+<td class="tg-5lw0">
+Erro padrão da média
 </td>
 </tr>
 </tbody>
 
 </table>
 </center>
-</div><div class="column" style="width:40%;">
+</div><div class="column" style="width:30%;">
+<p><br> <br></p>
 <center>
 <p><img src="leem.png" title="Imagens: Logo leem" width="500"></p>
 </center>
@@ -1573,21 +1638,21 @@ S_{\bar{X}_{\textrm{gC}}} &amp; = 4,440982 / \sqrt{10} = 1,404362~und.
 <div class="cell">
 <div class="sourceCode cell-code" id="cb42"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1"></a>gA <span class="sc">|&gt;</span></span>
 <span id="cb42-2"><a href="#cb42-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb42-3"><a href="#cb42-3"></a>  <span class="fu">mse</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>, <span class="at">rounding =</span> <span class="dv">6</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb42-3"><a href="#cb42-3"></a>  <span class="fu">mstde</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>, <span class="at">rounding =</span> <span class="dv">6</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.442719</code></pre>
+<pre><code>[1] 0.442652</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb44"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1"></a>gB <span class="sc">|&gt;</span></span>
 <span id="cb44-2"><a href="#cb44-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb44-3"><a href="#cb44-3"></a>  <span class="fu">mse</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>, <span class="at">rounding =</span> <span class="dv">6</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb44-3"><a href="#cb44-3"></a>  <span class="fu">mstde</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>, <span class="at">rounding =</span> <span class="dv">6</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 1.397727</code></pre>
+<pre><code>[1] 1.396784</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb46"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1"></a>gC <span class="sc">|&gt;</span></span>
 <span id="cb46-2"><a href="#cb46-2"></a>  <span class="fu">new_leem</span>(<span class="at">variable =</span> <span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb46-3"><a href="#cb46-3"></a>  <span class="fu">mse</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>, <span class="at">rounding =</span> <span class="dv">6</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb46-3"><a href="#cb46-3"></a>  <span class="fu">mstde</span>(<span class="at">grouped =</span> <span class="cn">FALSE</span>, <span class="at">rounding =</span> <span class="dv">6</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 1.404051</code></pre>
+<pre><code>[1] 1.404362</code></pre>
 </div>
 </div>
 </section></section>

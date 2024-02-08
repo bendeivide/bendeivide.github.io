@@ -1,6 +1,6 @@
 ---
-title: 📚 Ensino normal 2023.2
-date: "2023-10-11 14:03:50"
+title: 📚 Ensino normal 2024.1
+date: "2024-02-08 05:47:58"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -40,11 +40,11 @@ regressão linear simples.
     -   Período:
     -   Aulas presenciais:
         -   Engenheria Química:
-            -   segunda-feira (15:05 - 17:00, sala 201.5)
-            -   quarta-feira (15:15 - 17:05, sala 208.4)
+            -   segunda-feira (21:00 - 23:00, sala XXX.X)
+            -   terça-feira (21:00 - 23:00, sala XXX.X)
         -   Engenharia Mecatrônica:
-            -   segunda-feira (13:15 - 15:00, sala 209.4)
-            -   terça-feira (13:15 - 15:00, sala 209.4)
+            -   quinta-feira (19:00 - 21:00, sala XXX.X)
+            -   sexta-feira (21:00 - 23:00, sala XXX.X)
 
 ## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
 
@@ -67,9 +67,9 @@ regressão linear simples.
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
 -   Engenharia Mecatrônica
-    [Link](https://docs.google.com/spreadsheets/d/1yjCmuiOHERcgDJMeRHMrkeNwTN3IuzTadbymSWctbMg/edit?usp=sharing)
+    [Link](https://docs.google.com/spreadsheets/d/1tEIZ3I92WoNtOSL0ix4S_dNEAIyojiIaQiCAzS_zwdg/edit?usp=sharing)
 -   Engenharia Química
-    [Link](https://docs.google.com/spreadsheets/d/1DiZC7zh3Ln43ydTW_tS_zeQ7ys5uFLztq-Ru5wDY9G0/edit?usp=sharing)
+    [Link](https://docs.google.com/spreadsheets/d/1hSt6rwDFwkFNAeq4qIhOPCn3CcLXbSJwc1NTQ_qGe88/edit?usp=sharing)
 
 ## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
@@ -321,7 +321,7 @@ Carregando...
 
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
 
-{{< spoiler text="🎓 Aula 1 (07/08/2023)">}}
+{{< spoiler text="🎓 Aula 1">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Temas:** Apresentação do
 curso e Definições gerais da estatística e técnicas de somatório
@@ -352,7 +352,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 2 (08-09/08/2023)">}}
+{{< spoiler text="🎓 Aula 2">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Temas:** Exercícios sobre Definições gerais da estatística e técnicas de somatório (Capítulo 1)
 
@@ -381,7 +381,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 3 (14/08/2023)">}}
+{{< spoiler text="🎓 Aula 3">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Temas:** Coleta, organização e apresentação de dados
 
@@ -410,7 +410,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 4 (15-16/08/2023)">}}
+{{< spoiler text="🎓 Aula 4">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Temas:** Exercícios sobre Coleta, organização e apresentação de dados
 
@@ -442,7 +442,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 5 (21/08/2023)">}}
+{{< spoiler text="🎓 Aula 5">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Medidas de posição
 
@@ -474,7 +474,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 6 (22-23/08/2023)">}}
+{{< spoiler text="🎓 Aula 6">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Medidas de posição
 
@@ -505,7 +505,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< /spoiler >}}
 
 
-{{< spoiler text="🎓 Aula 7 (28/08/2023)">}}
+{{< spoiler text="🎓 Aula 7">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Medidas de dispersão
 
@@ -535,7 +535,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 8 (29-30/08/2023)">}}
+{{< spoiler text="🎓 Aula 8">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Medidas de dispersão
 
@@ -565,19 +565,19 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 9 (04/09/2023)">}}
+{{< spoiler text="🎓 Aula 9">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Revisão para a Prova 1
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 10 (05/09/2023)">}}
+{{< spoiler text="🎓 Aula 10">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Prova 1
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 11 (11/09/2023)">}}
+{{< spoiler text="🎓 Aula 11">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte I)
 
@@ -607,7 +607,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 12 (12-13/09/2023)">}}
+{{< spoiler text="🎓 Aula 12">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte II e III)
 
@@ -638,13 +638,13 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 13 (18/09/2023)">}}
+{{< spoiler text="🎓 Aula 13">}}
 
 Em aula!
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 14 e 15 (19-20;25/09/2023)">}}
+{{< spoiler text="🎓 Aula 14 e 15">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade
 
@@ -674,7 +674,7 @@ Em aula!
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 16 (26-27/09/2023)">}}
+{{< spoiler text="🎓 Aula 16">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Distribuições de probabilidade
 
@@ -704,41 +704,139 @@ Em aula!
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 17 (02/10/2023)">}}
+{{< spoiler text="🎓 Aula 17">}}
 
 Em aula!
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 18 (03-04/10/2023)">}}
+{{< spoiler text="🎓 Aula 18">}}
 
 Em aula!
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 19 (09/10/2023)">}}
+{{< spoiler text="🎓 Aula 19">}}
 
 Em aula!
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 20 (10-11/10/2023)">}}
+{{< spoiler text="🎓 Aula 20">}}
 
 Em aula!
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 21 (16/10/2023)">}}
+{{< spoiler text="🎓 Aula 21">}}
 
 Em aula!
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 22 (17-18/10/2023)">}}
+{{< spoiler text="🎓 Aula 22">}}
 
 Prova 02
 
 {{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 23">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 24">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 25">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 26">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 27">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="🎓 Aula 28">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 29">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 30">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 31">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 32">}}
+
+Em aula!
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 33">}}
+
+Prova 3
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 34">}}
+
+Palestra
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 35">}}
+
+Segunda chamada
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 36">}}
+
+Prova substitutiva
+
+{{< /spoiler >}}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

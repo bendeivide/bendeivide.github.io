@@ -1,3 +1,6 @@
+# Duvidas: https://git-scm.com/docs/git
+
+
 #### 1. Sign up at GitHub.com ################################################
 
 ## If you do not have a GitHub account, sign up here:
@@ -28,7 +31,17 @@ usethis::create_github_token()
 ## credentials::set_github_pat() (in line 34) might store your PAT in a memory cache that
 ## expires after 15 minutes or when the computer is rebooted. You thus may wish to do 
 ## extend the cache timeout to match the PAT validity period:
-usethis::use_git_config(helper="cache --timeout=2600000") #> cache timeout ~30 days
+###
+Mais detalhes em: https://git-scm.com/docs/git-credential-cache
+###
+usethis::use_git_config(helper='cache --timeout=2600000') #> cache timeout ~30 days
+Via git: $ git config credential.helper 'cache --timeout=2600000'
+
+# Verificar as informações basicas do git
+usethis::git_sitrep()
+
+# Reinsira a credencial git
+gitcreds::gitcreds_set()
 
 ## set personal access token:
 credentials::set_github_pat("YourPAT")
