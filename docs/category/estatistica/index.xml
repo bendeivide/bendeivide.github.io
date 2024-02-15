@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 08 Feb 2024 06:09:02 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 15 Feb 2024 16:48:45 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estatística</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2024.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Thu, 08 Feb 2024 06:09:02 +0000</pubDate>
+      <pubDate>Thu, 15 Feb 2024 16:48:45 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -31,8 +31,6 @@
     &lt;li&gt;&lt;a href=&#34;#ementa&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#metodologia&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Metodologia&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#avaliacao&#34;&gt;&lt;i class=&#34;fas fa-award&#34;&gt;&lt;/i&gt; Avaliação&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#correcao&#34;&gt;&lt;i class=&#34;fas fa-check&#34;&gt;&lt;/i&gt; Como as provas serão corrigidas?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#contrato&#34;&gt;&lt;i class=&#34;fas fa-file-signature&#34;&gt;&lt;/i&gt; Contrato&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#bibiografia&#34;&gt;&lt;i class=&#34;fa fa-book&#34;&gt;&lt;/i&gt; Bibliografia adotada para a disciplina&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#matadotado&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Material adotado&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#mativas&#34;&gt;&lt;i class=&#34;fas fa-chalkboard&#34;&gt;&lt;/i&gt; Metodologias ativas&lt;/a&gt;&lt;/li&gt;
@@ -286,18 +284,16 @@ abordado.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;correcao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-check&#34;&gt;&lt;/i&gt; Como as provas serão corrigidas?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/media/critprova.pdf&#34; target=&#34;_blank&#34;&gt;Critérios de
-avaliação&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;contrato&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-signature&#34;&gt;&lt;/i&gt; Contrato&lt;/h2&gt;
-&lt;p&gt;Contrato feito para a disciplina de Estatística e Probabilidade, como
-meio de substituir as avaliações tradicionais para uso de metodologias
-ativas como método de avaliação. Paralelo a disciplina, o aluno irá
-acompanhando as aulas e desenvolvendo demandas semanais, como forma de
-ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
-semana o aluno é acompanhado e avaliado pelo professor.&lt;/p&gt;
+&lt;!-- ## &lt;i class=&#34;fas fa-check&#34;&gt;&lt;/i&gt; Como as provas serão corrigidas? {id=&#34;correcao&#34; title=&#34;Clique aqui!&#34;} --&gt;
+&lt;!-- -   &lt;a href=&#34;http://bendeivide.github.io/media/critprova.pdf&#34; target=&#34;_blank&#34;&gt;Critérios de --&gt;
+&lt;!--     avaliação&lt;/a&gt; --&gt;
+&lt;!-- ## &lt;i class=&#34;fas fa-file-signature&#34;&gt;&lt;/i&gt; Contrato {id=&#34;contrato&#34; title=&#34;Clique aqui!&#34;} --&gt;
+&lt;!-- Contrato feito para a disciplina de Estatística e Probabilidade, como --&gt;
+&lt;!-- meio de substituir as avaliações tradicionais para uso de metodologias --&gt;
+&lt;!-- ativas como método de avaliação. Paralelo a disciplina, o aluno irá --&gt;
+&lt;!-- acompanhando as aulas e desenvolvendo demandas semanais, como forma de --&gt;
+&lt;!-- ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda --&gt;
+&lt;!-- semana o aluno é acompanhado e avaliado pelo professor. --&gt;
 &lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
   &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
@@ -618,7 +614,10 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;🎓 Aula 9&lt;/summary&gt;
-  &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Revisão para a Prova 1&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Revisão para a Prova 1&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s09/&#34; target=&#34;_blank&#34;&gt; Aula
+09&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;🎓 Aula 10&lt;/summary&gt;

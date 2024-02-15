@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.1
-date: "2024-02-08 06:09:02"
+date: "2024-02-15 16:48:45"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -211,19 +211,19 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 - Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.
 {{< /spoiler >}}
 
-## <i class="fas fa-check"></i> Como as provas serão corrigidas? {id="correcao" title="Clique aqui!"}
+<!-- ## <i class="fas fa-check"></i> Como as provas serão corrigidas? {id="correcao" title="Clique aqui!"} -->
 
--   {{% staticref "media/critprova.pdf" "newtab" %}}Critérios de
-    avaliação{{% /staticref %}}
+<!-- -   {{% staticref "media/critprova.pdf" "newtab" %}}Critérios de -->
+<!--     avaliação{{% /staticref %}} -->
 
-## <i class="fas fa-file-signature"></i> Contrato {id="contrato" title="Clique aqui!"}
+<!-- ## <i class="fas fa-file-signature"></i> Contrato {id="contrato" title="Clique aqui!"} -->
 
-Contrato feito para a disciplina de Estatística e Probabilidade, como
-meio de substituir as avaliações tradicionais para uso de metodologias
-ativas como método de avaliação. Paralelo a disciplina, o aluno irá
-acompanhando as aulas e desenvolvendo demandas semanais, como forma de
-ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda
-semana o aluno é acompanhado e avaliado pelo professor.
+<!-- Contrato feito para a disciplina de Estatística e Probabilidade, como -->
+<!-- meio de substituir as avaliações tradicionais para uso de metodologias -->
+<!-- ativas como método de avaliação. Paralelo a disciplina, o aluno irá -->
+<!-- acompanhando as aulas e desenvolvendo demandas semanais, como forma de -->
+<!-- ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda -->
+<!-- semana o aluno é acompanhado e avaliado pelo professor. -->
 
 <!-- {{< spoiler text="Abra o contrato aqui!">}} -->
 
@@ -568,6 +568,9 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< spoiler text="🎓 Aula 9">}}
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema:** Revisão para a Prova 1
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s09/" target="_blank"> Aula
+09</a>
 
 {{< /spoiler >}}
 

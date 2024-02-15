@@ -88,11 +88,28 @@ Usaremos @batista2023:
 
 Calcule:
 
+:::: {.columns}
+
+::: {.column width="50%"}
+
 a. Amplitude
 b. Variância
 c. Desvio padrão
+
+:::
+
+::: {.column width="50%"}
+
 d. Coeficiente de variação
 e. Erro padrão da média
+
+
+:::
+
+::::
+
+
+
 
 
 
@@ -157,22 +174,7 @@ e. Erro padrão da média
 
 ::: {.column width="90%"}
 
-```{r echo=TRUE, eval = TRUE}
-library(leem)
-atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
-          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
-atot |>
-  new_leem(variable = 2) # ou new_leem(variable = "continuous")
-```
 
-```{r echo=TRUE, eval = TRUE}
-library(leem)
-atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
-          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
-atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
-atotleem
-class(atotleem)
-```
 
 :::
 

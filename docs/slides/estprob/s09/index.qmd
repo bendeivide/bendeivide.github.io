@@ -78,8 +78,82 @@ Usaremos @batista2023:
 
 # Exercícios {background-image="cap02.png"}
 
+<font size=+2>
 
+1. Do estudo do tempo de permanência no mesmo emprego de dois grupos de trabalhadores (A e B), obtiveram-se os seguintes resultados para as médias e desvios-padrão:
+- Grupo B: $\bar{X} = 120~meses$; $S = 24~meses$;
+- Grupo A: $\bar{X} = 60~meses$; $S = 15~meses$;
 
+. . .
+
+Calcule os seguintes itens:
+
+a) Qual dos grupos obteve uma menor dispersão? Justifique. Poderia ser utilizado alguma outra medida para esta comparação, sem utilizar a medida utilizada para sua resposta neste mesmo ítem?  Justifique sua resposta;
+b) Calcule a dispersão absoluta do A e interprete o resultado;
+c) Calcule a dispersão relativa do grupo B e interprete o resultado.
+
+</font>
+
+## Exercícios {background-image="cap02.png"}
+
+<font size =+2>
+
+Os dados abaixo representam o valor da hora de trabalho de 25 profissionais de Engenharia no estado de Minas Gerais.
+
+```{r erroscanal2, echo=FALSE, warning=FALSE}
+dados <- c(20.5, 9.5, 15.3, 24.1, 19.9, 
+          15.4, 12.7, 7.4, 15.3, 26.2, 
+          14.9, 7.8, 23.3, 9.2, 16.8, 
+          13.4, 14.3, 16.2, 9.2, 16.8, 
+          9.8, 20.1, 17.8, 12.6, 15.9) 
+dados <- matrix(dados, 5, 5)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+Responda aos seguintes itens:
+
+a. Apresente a tabela de distribuição de frequência, adicionando as seguintes frequências: freq. relativa, freq. percentual, freq. acumulada ($\downarrow$) e freq. acumulada ($\uparrow$);
+b. Faça o gráfico das ogivas, usando as freq. acumuladas vs a variável $X$, identificando o ponto em que as duas ogivas se cruzam. E de modo prático, o que representa esse ponto?;
+c. Calcule a média e a moda e faça suas interpretações.
+
+</font>
+
+## Exercícios {background-image="cap02.png"}
+
+<font size =+2>
+
+Os dados abaixo representam o valor da hora de trabalho de 25 profissionais de Engenharia no estado de Minas Gerais.
+
+```{r erroscanal, echo=FALSE, warning=FALSE}
+dados <- c(20.5, 9.5, 15.3, 24.1, 19.9, 
+          15.4, 12.7, 7.4, 15.3, 26.2, 
+          14.9, 7.8, 23.3, 9.2, 16.8, 
+          13.4, 14.3, 16.2, 9.2, 16.8, 
+          9.8, 20.1, 17.8, 12.6, 15.9) 
+dados <- matrix(dados, 5, 5)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+Responda aos seguintes itens:
+
+d. Calcule o desvio padrão e o coeficiente de variação e faça suas interpretações;
+e. Qual é a variável em estudo e o tipo de variável (natureza da variável)?
+f. Quanto a simetria, como você classificaria essa distribuição, justifique sua resposta.
+
+</font>
+
+## Exercícios {background-image="cap02.png"}
+
+Em uma empresa de engenharia, o salário médio dos 100 empregados do sexo masculino é de R\$ 1.500,00, com desvio padrão de R\$ 100,00. O salário médio dos 150 empregados do sexo feminino é de R\$ 1.000,00, com desvio padrão de R\$ 200,00.
+
+a. Comparando a dispersão total (dois grupos) com a dispersão individual dos empregados do sexo masculino, houve uma menor dispersão dos sálarios? Justifique sua resposta.
+b. Qual o valor da variância dos dois grupos reunidos? Interprete o resultado.
 
 
 # Questões? {background-image="cap02.png"}
