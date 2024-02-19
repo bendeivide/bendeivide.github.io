@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.1
-date: "2024-02-15 16:48:45"
+date: "2024-02-19 07:27:39"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -571,25 +571,47 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s09/" target="_blank"> Aula
 09</a>
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1-IyLZTU8DV9SlSxem8wxewqfPR51l8wWP3D0moBHmlE/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 9</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
+
 
 {{< /spoiler >}}
 
 {{< spoiler text="🎓 Aula 10">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Prova 1
+{{< icon name="pen-fancy" pack="fas" >}} **Prova 1:** Realizado em horário de aula. Acesse o  <a href="./#cronograma" target="_blank"> cronograma de aulas</a> para mais detalhes.
 
 {{< /spoiler >}}
 
 {{< spoiler text="🎓 Aula 11">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte I)
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte I e Parte II)
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s11/" target="_blank"> Aula
-11</a>
+11 (Parte I)</a> e <a href="/slides/estprob/s11.2/" target="_blank"> Aula
+11 (Parte II)</a>
 
 {{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
 {{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1YYiwcfF-WzEYrPAHKDkwha0GkFx3Oe9kD-LPlNqFpsw/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+{{< icon name="book-reader" pack="fas" >}} **Plano de aula**: <a href="https://docs.google.com/document/d/1YYiwcfF-WzEYrPAHKDkwha0GkFx3Oe9kD-LPlNqFpsw/edit?usp=sharing" target="_blank"> Parte (I) </a> e <a href="https://docs.google.com/document/d/1WWVCRRcdniJVPCs-XyGPAn9QFqU58a_HA2Fdn4qo3SI/edit?usp=sharing" target="_blank"> Parte (II) </a>
 
 {{< icon name="r-project" pack="fab" >}} <a
     href="" target="_blank">*Script* Aula 11</a>
@@ -612,15 +634,13 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< spoiler text="🎓 Aula 12">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte II e III)
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte III)
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s12/" target="_blank"> Aula
-12</a>, <a href="/slides/estprob/s12.1/" target="_blank"> Aula
-12.1</a>
-
+12</a>
 {{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
 {{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1WWVCRRcdniJVPCs-XyGPAn9QFqU58a_HA2Fdn4qo3SI/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1or8cBxA9mgxAIFJh4DvfDt_TNBS_CA6bYaqaRQkJlFE/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
 
 {{< icon name="r-project" pack="fab" >}} <a
     href="" target="_blank">*Script* Aula 12</a>
