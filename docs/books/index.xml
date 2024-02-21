@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/books/</link>
       <atom:link href="http://bendeivide.github.io/books/index.xml" rel="self" type="application/rss+xml" />
     <description>Books</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 17 Aug 2023 07:10:08 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 21 Feb 2024 15:58:07 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Books</title>
@@ -13,41 +13,27 @@
     </image>
     
     <item>
-      <title>R básico - manual de soluções</title>
-      <link>http://bendeivide.github.io/books/eambr01sol/</link>
-      <pubDate>Thu, 17 Aug 2023 07:10:08 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
+      <title>Meu pé de beterraba</title>
+      <link>http://bendeivide.github.io/books/meupedebeterraba/</link>
+      <pubDate>Wed, 21 Feb 2024 15:58:07 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/meupedebeterraba/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;estatísticas-de-donwload-do-pdf&#34;&gt;Estatísticas de &lt;em&gt;donwload&lt;/em&gt; do PDF?&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Estatísticas do R básico&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico: manual de soluções (HTML)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
-&lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=558499819606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
-&lt;p&gt;O R básico: Manual de Soluções vem com o propósito de detalhar
-as estratégias de como resolver os exercícios do livro R básico,
-enfatizando as estratégias com que as soluções podem ser desenvolvidas.
-Mostraremos mecanismos não apenas de como resolveremos
-os problemas, mas como eles podem ser abordados de forma didática
-para cursos ou disciplinas que utilizem o R básico.
-Por fim, este livro vem complementar todo assunto introdutório
-do R , para o entendimento via exercícios resolvidos, e esperamos que
-o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
+&lt;h2 id=&#34;prefácio&#34;&gt;Prefácio&lt;/h2&gt;
+&lt;p&gt;Compartilhar experiências sobre o que se aprende é algo fascinante, principalmente quando esta experiência é realizada com nossos filhos. A atividade solicitada pela Tia Leci, professora do 2° ano de Maria Isabel, motivou-me para mostrar como pode ser legal compartilhar conhecimento com nossos filhos. O objetivo da atividade foi observar um pé de beterraba e verificar o comportamento da planta ao longo do seu crescimento. O que foi legal, foi perceber que, eu e Maria Isabel, aprendemos muitas coisas juntos, e assim, todos temos o que ensinar e também o que aprender.&lt;/p&gt;
+&lt;p&gt;Boa leitura nessa nossa experiência de observar nosso pé de beterraba!&lt;/p&gt;
+&lt;div align=&#34;right&#34; &gt;
+&lt;p&gt;&lt;strong&gt;Ben Dêivide&lt;/strong&gt;
+&lt;/br&gt;
+Ouro Branco, MG, 14 de dezembro de 2023&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Sat, 05 Aug 2023 08:39:19 +0000</pubDate>
+      <pubDate>Wed, 21 Feb 2024 15:51:49 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -85,6 +71,38 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R básico - manual de soluções</title>
+      <link>http://bendeivide.github.io/books/eambr01sol/</link>
+      <pubDate>Thu, 17 Aug 2023 07:10:08 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
+      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
+&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;estatísticas-de-donwload-do-pdf&#34;&gt;Estatísticas de &lt;em&gt;donwload&lt;/em&gt; do PDF?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Estatísticas do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico: manual de soluções (HTML)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
+&lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=558499819606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
+&lt;p&gt;O R básico: Manual de Soluções vem com o propósito de detalhar
+as estratégias de como resolver os exercícios do livro R básico,
+enfatizando as estratégias com que as soluções podem ser desenvolvidas.
+Mostraremos mecanismos não apenas de como resolveremos
+os problemas, mas como eles podem ser abordados de forma didática
+para cursos ou disciplinas que utilizem o R básico.
+Por fim, este livro vem complementar todo assunto introdutório
+do R , para o entendimento via exercícios resolvidos, e esperamos que
+o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
 </description>
     </item>
     
