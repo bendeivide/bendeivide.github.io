@@ -61,10 +61,10 @@ sextas <- seq(8, 128, by = 7)
 #segundas <- seq(7, 140, by = 7)
 #tercas <- seq(8, 140, by = 7)
 quisex <- c(quintas, sextas) 
-events[quisex] <- "Aulas (Sala XXX.X)\nHorário: 19h/21h"
+events[quisex] <- "Aulas (Sala 204 loco 04)\nHorário: 19h/21h"
 
 # Inicio/termino
-initer <- c(1, 135)
+initer <- c(4, 135)
 events[initer] <- "Início/Término \ndo semestre"
 
 # Aulas extras
@@ -116,10 +116,10 @@ tercas <- seq(5, 126, by = 7)
 segter <- c(segundas, tercas)
 #quisex <- c(quintas, sextas) 
 #events[quisex] <- "Aulas (Sala XXX.X)\nHorário: 19h/21h"
-events[segter] <- "Aulas (Sala XXX.X)\nHorário: 21h"
+events[segter] <- "Aulas (Sala 207 bloco 04)\nHorário: 21h"
 
 # Inicio/termino
-initer <- c(1, 135)
+initer <- c(4, 135)
 events[initer] <- "Início/Término \ndo semestre"
 
 # Aulas extras
@@ -775,13 +775,67 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< spoiler text="🎓 Aula 13">}}
 
-Em aula!
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Probabilidades
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s13/" target="_blank"> Aula
+13</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1otiPm3MYWiYXkSgKma4ctssfZAS2vc3jFym_tHFxb08/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 8</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 14 e 15">}}
+{{< spoiler text="🎓 Aula 14">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade (Parte I)
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s14/" target="_blank"> Aula
+14</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1Slhnxykl6DNBnmjDu5IT-1dO6TIEm4byNj0qohkxNzs/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 15</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 15">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade (Parte II)
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s15/" target="_blank"> Aula
 15</a>
@@ -808,6 +862,8 @@ Em aula!
     target="_blank">Vídeoaulas</a>
 
 {{< /spoiler >}}
+
+
 
 {{< spoiler text="🎓 Aula 16">}}
 

@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.1
-date: "2024-02-19 07:27:39"
+date: "2024-02-28 16:53:28"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -663,13 +663,67 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< spoiler text="🎓 Aula 13">}}
 
-Em aula!
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Probabilidades
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s13/" target="_blank"> Aula
+13</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1otiPm3MYWiYXkSgKma4ctssfZAS2vc3jFym_tHFxb08/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 8</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 14 e 15">}}
+{{< spoiler text="🎓 Aula 14">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade (Parte I)
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s14/" target="_blank"> Aula
+14</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1Slhnxykl6DNBnmjDu5IT-1dO6TIEm4byNj0qohkxNzs/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="" target="_blank">*Script* Aula 15</a>
+    
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+
+-   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
+    target="_blank">Vídeoaulas</a>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎓 Aula 15">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade (Parte II)
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s15/" target="_blank"> Aula
 15</a>
@@ -696,6 +750,8 @@ Em aula!
     target="_blank">Vídeoaulas</a>
 
 {{< /spoiler >}}
+
+
 
 {{< spoiler text="🎓 Aula 16">}}
 
