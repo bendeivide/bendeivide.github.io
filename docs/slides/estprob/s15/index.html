@@ -31,6 +31,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+      }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+    div.sourceCode
+      { color: #f8f8f2;  }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #f8f8f2; } /* Normal */
+    code span.al { color: #f07178; background-color: #2a0f15; font-weight: bold; } /* Alert */
+    code span.an { color: #d4d0ab; } /* Annotation */
+    code span.at { color: #00e0e0; } /* Attribute */
+    code span.bn { color: #d4d0ab; } /* BaseN */
+    code span.bu { color: #abe338; } /* BuiltIn */
+    code span.cf { color: #ffa07a; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #abe338; } /* Char */
+    code span.cn { color: #ffd700; } /* Constant */
+    code span.co { color: #f8f8f2; font-style: italic; } /* Comment */
+    code span.cv { color: #ffd700; } /* CommentVar */
+    code span.do { color: #f8f8f2; } /* Documentation */
+    code span.dt { color: #ffa07a; } /* DataType */
+    code span.dv { color: #d4d0ab; } /* DecVal */
+    code span.er { color: #f07178; text-decoration: underline; } /* Error */
+    code span.ex { color: #00e0e0; font-weight: bold; } /* Extension */
+    code span.fl { color: #d4d0ab; } /* Float */
+    code span.fu { color: #ffa07a; } /* Function */
+    code span.im { color: #abe338; } /* Import */
+    code span.in { color: #d4d0ab; } /* Information */
+    code span.kw { color: #ffa07a; font-weight: bold; } /* Keyword */
+    code span.op { color: #ffa07a; } /* Operator */
+    code span.ot { color: #00e0e0; } /* Other */
+    code span.pp { color: #dcc6e0; } /* Preprocessor */
+    code span.re { color: #00e0e0; background-color: #f8f8f2; } /* RegionMarker */
+    code span.sc { color: #abe338; } /* SpecialChar */
+    code span.ss { color: #abe338; } /* SpecialString */
+    code span.st { color: #abe338; } /* String */
+    code span.va { color: #00e0e0; } /* Variable */
+    code span.vs { color: #abe338; } /* VerbatimString */
+    code span.wa { color: #dcc6e0; } /* Warning */
     /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
@@ -350,7 +415,7 @@
 
 <section id="title-slide" data-background-image="cap.png" class="quarto-title-block center">
   <h1 class="title">Estatística e Probabilidade</h1>
-  <p class="subtitle">Aula 15- Distribuições de probabilidade</p>
+  <p class="subtitle">Aula 15- Distribuições de probabilidade (Parte II)</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -379,93 +444,195 @@
 <section id="introdução" class="title-slide slide level1 center" data-background-image="cap02.png">
 <h1>Introdução</h1>
 <ul>
-<li class="fragment">Distribuição Binomial</li>
-<li class="fragment">Distribuição Poisson</li>
 <li class="fragment">Distribuição Normal</li>
 </ul>
 </section>
 
 <section>
-<section id="experimento-1" class="title-slide slide level1 center" data-background-image="cap02.png" data-background-color="white">
-<h1>Experimento 1</h1>
-<!-- Ajuda ao Reveal.js -->
-<!-- https://github.com/hakimel/reveal.js/issues/2303 -->
-<center>
+<section id="distribuição-normal" class="title-slide slide level1 center" data-background-image="cap02.png">
+<h1>Distribuição Normal</h1>
+<p>Uma variável aleatória <span class="math inline">\(X\)</span> contínua, tem distribuição normal se sua função densidade de probabilidade é dada por <span class="math display">\[\begin{align}\label{eq:distnormal}
+    f_X(x) = \left\{\begin{array}{ll}
+    \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\frac{(x-\mu)^2}{\sigma^2}},&amp; \mbox{para} \quad -\infty&lt;x&lt;\infty,\\
+    0, &amp; \textrm{caso contrário},
+    \end{array}\right.
+    \end{align}\]</span> em que os parâmetros <span class="math inline">\(\mu\)</span> e <span class="math inline">\(\sigma^2\)</span> satisfazem <span class="math inline">\(\mu \in \mathbb{R}\)</span> e <span class="math inline">\(\sigma^2 &gt; 0\)</span>. Em notação, <span class="math inline">\(X \sim N(\mu, \sigma^2)\)</span> representa que <span class="math inline">\(X\)</span> tem distribuição Normal com parâmetros <span class="math inline">\(\mu\)</span> e <span class="math inline">\(\sigma^2\)</span>.</p>
+</section>
+<section id="parâmetros-da-normal" class="slide level2" data-background-image="cap02.png">
+<h2>Parâmetros da Normal</h2>
 <div class="r-stack">
-<p><img class="fragment fade-in-then-out" src="binom1.png" data-fragment-index="1" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom2.png" data-fragment-index="2" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom3.png" data-fragment-index="3" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom4.png" data-fragment-index="4" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom5.png" data-fragment-index="5" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom6.png" data-fragment-index="6" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom7.png" data-fragment-index="7" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom8.png" data-fragment-index="8" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom9.png" data-fragment-index="9" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom10.png" data-fragment-index="10" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom11.png" data-fragment-index="11" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom12.png" data-fragment-index="12" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom13.png" data-fragment-index="13" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom14.png" data-fragment-index="14" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom15.png" data-fragment-index="15" width="650" height="500"></p>
-<p><img class="fragment fade-in-then-out" src="binom16.png" data-fragment-index="16" width="650" height="500"></p>
-<p><img class="fragment current-visible" src="binom17.png" data-fragment-index="17" width="650" height="500"></p>
-<p><img class="fragment" src="binom18.png" width="650" height="500"></p>
+<p><span class="fragment fade-in-then-out">Forma de sino</span></p>
+<p><img data-src="distnormal.png" class="fragment fade-in-then-out"></p>
+<p><span class="fragment fade-in-then-out">Parâmetro <span class="math inline">\(\mu\)</span></span></p>
+<p><img data-src="normalmu.png" class="fragment fade-in-then-out"></p>
+<p><span class="fragment fade-in-then-out">Parâmetro <span class="math inline">\(\sigma\)</span></span></p>
+<p><img data-src="normal-sigma.png" class="fragment"></p>
 </div>
-</center>
+</section>
+<section id="distribuição-normal-1" class="slide level2" data-background-image="cap02.png">
+<h2>Distribuição Normal</h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Anexando o leem</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">library</span>(leem)</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="co"># Propriedade 1</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">propofnormal</span>(<span class="at">type =</span> <span class="dv">1</span>)</span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="fu">title</span>(<span class="at">main =</span> <span class="st">"Forma de sino"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="distribuição-normal-2" class="slide level2" data-background-image="cap02.png">
+<h2>Distribuição Normal</h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Anexando o leem</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">library</span>(leem)</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co"># Propriedade 2</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="fu">propofnormal</span>(<span class="at">type =</span> <span class="dv">2</span>)</span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="fu">title</span>(<span class="at">main =</span> <span class="fu">bquote</span>(<span class="st">"Distribuição simétrica em"</span><span class="sc">~</span>mu))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="distribuição-normal-3" class="slide level2" data-background-image="cap02.png">
+<h2>Distribuição Normal</h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># Anexando o leem</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="fu">library</span>(leem)</span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="co"># Propriedade 3</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="fu">propofnormal</span>(<span class="at">type =</span> <span class="dv">5</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="exemplo" class="slide level2" data-background-image="cap02.png">
 <h2>Exemplo</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><font size="+3"></font></p><font size="+3">
-<p>Um produto eletrônico contém 40 circuitos integrados, que opera de modo independente. A probabilidade que algum circuito integrado tenha defeito é 0,01. O produto somente funcionará se não houver defeito em nenhum circuito integrado. Então, qual a probabilidade que o produto funcione corretamente?</p>
-</font><p><font size="+3"></font></p>
-</div><div class="column" style="width:50%;">
-<div class="r-stack">
-<p><img data-src="circint01.jpg" class="fragment fade-in-then-out"></p>
-<p><img data-src="circint02.jpg" class="fragment fade-in-then-out"></p>
-<p><img data-src="circint03.jpg" class="fragment fade-in-then-out"></p>
-<p><img data-src="circint04.jpg" class="fragment fade-in-then-out"></p>
-<p><img data-src="circint05.jpg" class="fragment fade-in-then-out"></p>
-<p><img data-src="circint06.jpg" class="fragment fade-in-then-out"></p>
-<p><img data-src="circint07.jpg" class="fragment fade-in-then-out"></p>
-<p><img data-src="circint08.jpg" class="fragment"></p>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="distribuição-poisson" class="title-slide slide level1 center" data-background-image="cap02.png" data-background-color="white">
-<h1>Distribuição Poisson</h1>
-<div class="r-stack">
-<p><img data-src="poisson1.png" class="fragment fade-in-then-out"></p>
-<p><img data-src="poisson2.png" class="fragment fade-in-then-out"></p>
-<p><img data-src="poisson3.png" class="fragment fade-in-then-out"></p>
-<p><img data-src="poisson4.png" class="fragment fade-in-then-out"></p>
-<p><img data-src="poisson5.png" class="fragment"></p>
+<blockquote>
+<p>Exemplo: <span class="math inline">\(A = P(a = 11 &lt; X &lt; b = 12) = ?\)</span>, para <span class="math inline">\(\mu = 10\)</span> e <span class="math inline">\(\sigma = 2\)</span></p>
+</blockquote>
+<span class="math display">\[\begin{align}
+A = \int_{11}^{12}\frac{1}{2\sqrt{2\pi}}\times e^{-1/2\left(\frac{10 - x}{2}\right)^2}dx = 0,1498
+\end{align}\]</span>
+<div class="fragment">
+<center>
+<span style="color:red">Analiticamente é intratável!</span>
+</center>
 </div>
 </section>
-<section id="exemplo-1" class="slide level2" data-background-image="cap02.png">
-<h2>Exemplo</h2>
-<p><font size="+3"></font></p><font size="+3">
+<section id="transformação-z" class="slide level2" data-background-image="cap02.png">
+<h2>Transformação <span class="math inline">\(Z\)</span></h2>
+<p><span class="math display">\[
+\textrm{Transformação}:~Z = \frac{X - \mu}{\sigma}
+\]</span></p>
+<div class="fragment">
+<p><span class="math display">\[
+\textrm{FDP}:~f_Z(z) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}z^2},\quad Z\sim N(0,1)
+\]</span></p>
+</div>
+<div class="fragment">
+<p>Assim,</p>
+</div>
+<div class="fragment">
+<center>
+<span class="math inline">\(\int_{-\infty}^{a}f_X(x)dx\)</span> <span class="fragment"><span class="math inline">\(\Rightarrow\)</span></span> <span class="fragment"><span class="math inline">\(z = (x - \mu) / \sigma\)</span></span> <span class="fragment"><span class="math inline">\(\Rightarrow\)</span></span> <span class="fragment"><span class="math inline">\(\int_{-\infty}^{z}f_Z(t)dt\)</span></span>
+</center>
+</div>
+<div class="fragment">
+<center>
+<span style="color:red">Como assim facilitou os cálculos?</span>
+</center>
+</div>
+</section>
+<section id="tabela-de-z" class="slide level2" data-background-image="cap02.png">
+<h2>Tabela de <span class="math inline">\(Z\)</span></h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">showtabnormal</span>(<span class="fl">0.5</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="retornando-ao-exemplo" class="slide level2" data-background-image="cap02.png">
+<h2>Retornando ao Exemplo</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="vários-tipos-de-tabela-z" class="slide level2" data-background-image="cap02.png">
+<h2>Vários tipos de tabela <span class="math inline">\(Z\)</span></h2>
+<p>Consultando o EPAEC:</p>
+<p><a href="https://raw.githubusercontent.com/bendeivide/book-epaec/master/docs/book-epaec.pdf" target="_blank" style="text-align: center;"></a></p><a href="https://raw.githubusercontent.com/bendeivide/book-epaec/master/docs/book-epaec.pdf" target="_blank" style="text-align: center;">
+<p><img src="hardcover.png" width="300"></p>
+</a><p><a href="https://raw.githubusercontent.com/bendeivide/book-epaec/master/docs/book-epaec.pdf" target="_blank" style="text-align: center;"></a></p>
+</section>
+<section id="regiões-conhecidas" class="slide level2" data-background-image="cap02.png">
+<h2>Regiões conhecidas</h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># Anexando o leem</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">library</span>(leem)</span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="co"># Propriedade 3</span></span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="fu">propofnormal</span>(<span class="at">type =</span> <span class="dv">3</span>)</span>
+<span id="cb5-5"><a href="#cb5-5"></a><span class="fu">title</span>(<span class="at">main =</span> <span class="st">"Regiões conhecidas"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="regiões-conhecidas-e-z" class="slide level2" data-background-image="cap02.png">
+<h2>Regiões conhecidas e <span class="math inline">\(Z\)</span></h2>
 <div class="columns">
-<div class="column" style="width:60%;">
-<p>Os fios de cobre são muito utilizados em sistemas elétricos pela sua excelente condutividade elétrica, e apresentar uma resistência elétrica mais baixa entre todos os metais não-preciosos. Seja um experimento que observa as falhas de transmissão de um fio de cobre, e sabe-se que:</p>
-<ul>
-<li class="fragment"><span class="math inline">\(\lambda\)</span> = 2,3 falhas/mm;</li>
-<li class="fragment"><span class="math inline">\(X\)</span> é uma variável aleatória que denota o número de falhas em cada 1 mm de cobre;</li>
-<li class="fragment"><span class="math inline">\(P(X = 2~falhas/mm)\)</span>;</li>
-<li class="fragment"><span class="math inline">\(P(X = 10~falhas/5mm)\)</span>.</li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p><img data-src="fiocobre.png"></p>
+<div class="column" style="width:40%;">
+<p><br> <br></p>
+<p>Transformação <span class="math inline">\(Z\)</span></p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># Anexando o leem</span></span>
+<span id="cb6-2"><a href="#cb6-2"></a><span class="fu">library</span>(leem) </span>
+<span id="cb6-3"><a href="#cb6-3"></a><span class="co"># Propriedade 4</span></span>
+<span id="cb6-4"><a href="#cb6-4"></a><span class="fu">propofnormal</span>(<span class="at">type =</span> <span class="dv">4</span>) </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="960"></p>
+</figure>
 </div>
 </div>
-</font><p><font size="+3"></font></p>
-</section></section>
-<section>
-<section id="distribuição-normal" class="title-slide slide level1 center" data-background-image="cap02.png">
-<h1>Distribuição Normal</h1>
+</div>
+</div>
+</div>
+</section>
+<section id="mais-características-da-normal" class="slide level2" data-background-image="cap02.png">
+<h2>Mais características da Normal</h2>
 <ul>
 <li class="fragment">Distribuição contínua</li>
 <li class="fragment">Distribuição mais conhecida da estatística</li>
@@ -473,17 +640,22 @@
 <li class="fragment">Teorema do Limite Central (TLC)</li>
 </ul>
 </section>
-<section id="distribuição-normal-1" class="slide level2" data-background-image="cap02.png">
-<h2>Distribuição Normal</h2>
-<ul>
-<li class="fragment">Distribuição simétrica em <span class="math inline">\(\mu\)</span></li>
-<li class="fragment">Distribuição em forma de sino</li>
-<li class="fragment">Usando o <code>leem</code></li>
-</ul>
-</section>
-<section id="exemplo-2" class="slide level2" data-background-image="cap02.png">
+<section id="exemplo-1" class="slide level2" data-background-image="cap02.png">
 <h2>Exemplo</h2>
 <p>Suponha que a espessura média de arruelas produzidas em uma fábrica tenha distribuição normal com média <span class="math inline">\(11,15~mm\)</span> e desvio padrão <span class="math inline">\(2,238~mm\)</span>. Qual a porcentagem de arruelas que tem espessura entre <span class="math inline">\(8,77~mm\)</span> e <span class="math inline">\(14,70~mm\)</span>?</p>
+</section>
+<section id="exemplo-com-o-leem" class="slide level2" data-background-image="cap02.png">
+<h2>Exemplo com o <code>leem</code></h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu">probnormal</span>(<span class="at">a =</span> <span class="fl">8.77</span>, <span class="at">b =</span> <span class="fl">14.70</span>, <span class="at">mean =</span> <span class="fl">11.15</span>, <span class="at">sd =</span> <span class="fl">2.238</span>, <span class="at">type =</span> <span class="dv">6</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-9-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
 </section></section>
 <section id="questões" class="title-slide slide level1 center" data-background-image="cap02.png">
 <h1>Questões?</h1>
@@ -495,7 +667,7 @@
 <h1>Próximas aulas</h1>
 <p><a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
 <p><img src="ben.png" width="400"></p>
-</a>
+</a><p><a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;"></a></p>
 <center>
 <a href="/courses/epaec" target="_blank">bendeivide.github.io/courses/epaec</a>
 </center>
@@ -517,7 +689,6 @@
 
 ::: {.column width="90%"}
 
-
 ::: {.cell}
 
 ```{.r .cell-code}
@@ -527,6 +698,7 @@ atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
 atot |>
   new_leem(variable = 2) # ou new_leem(variable = "continuous")
 ```
+
 
 ::: {.cell-output .cell-output-stdout}
 ```

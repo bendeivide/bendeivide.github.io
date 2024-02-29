@@ -1,6 +1,6 @@
 ---
 title: "Estatística e Probabilidade"
-subtitle: "Aula 15- Distribuições de probabilidade"
+subtitle: "Aula 15- Distribuições de probabilidade (Parte II)"
 title-slide-attributes:
     data-background-image: cap.png
 
@@ -53,7 +53,7 @@ library(leem)
 
 <a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
 
-<img src="SeloDC-branco.png" width = "400">
+<img src="SeloDC-branco.png" width="400"/>
 
 </a>
 
@@ -63,166 +63,189 @@ Usaremos @batista2023:
 
 <a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
 
-<img src="hardcover.png" width = "300">
+<img src="hardcover.png" width="300"/>
 
 </a>
 
 # Introdução {background-image="cap02.png"}
 
-- Distribuição Binomial
-- Distribuição Poisson
-- Distribuição Normal
-
-
-# Experimento 1 {background-image="cap02.png" background-color="white"}
-
-<!-- Ajuda ao Reveal.js -->
-<!-- https://github.com/hakimel/reveal.js/issues/2303 -->
-
-<center>
-
-<div class="r-stack">
-  <img class="fragment fade-in-then-out" src="binom1.png" data-fragment-index="1" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom2.png" data-fragment-index="2" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom3.png"  data-fragment-index="3" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom4.png" data-fragment-index="4" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom5.png" data-fragment-index="5" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom6.png"  data-fragment-index="6" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom7.png" data-fragment-index="7" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom8.png" data-fragment-index="8" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom9.png" data-fragment-index="9" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom10.png" data-fragment-index="10" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom11.png" data-fragment-index="11" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom12.png" data-fragment-index="12" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom13.png" data-fragment-index="13" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom14.png" data-fragment-index="14" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom15.png" data-fragment-index="15" width="650" height="500">
-  
-  <img class="fragment fade-in-then-out" src="binom16.png"  data-fragment-index="16" width="650" height="500">
-  
-  <img class="fragment current-visible" src="binom17.png" data-fragment-index="17" width="650" height="500">
-  
-  <img class="fragment" src="binom18.png" width="650" height="500">
-</div>
-
-</center>
-
-## Exemplo {background-image="cap02.png" }
-
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-<font size="+3">
-
-Um produto eletrônico contém 40 circuitos integrados, que opera de modo independente. A probabilidade que algum circuito integrado tenha defeito é 0,01. O produto somente funcionará se não houver defeito em nenhum circuito integrado. Então, qual a probabilidade que o produto funcione corretamente?
-
-</font>
-
-:::
-
-::: {.column width="50%"}
-
-:::{.r-stack}
-
-![](circint01.jpg){.fragment .fade-in-then-out}
-
-![](circint02.jpg){.fragment .fade-in-then-out}
-
-![](circint03.jpg){.fragment .fade-in-then-out}
-
-![](circint04.jpg){.fragment .fade-in-then-out}
-
-![](circint05.jpg){.fragment .fade-in-then-out}
-
-![](circint06.jpg){.fragment .fade-in-then-out}
-
-![](circint07.jpg){.fragment .fade-in-then-out}
-
-![](circint08.jpg){.fragment }
-
-:::
-
-:::
-
-::::
-
-
-
-# Distribuição Poisson {background-image="cap02.png" background-color="white"}
-
-:::{.r-stack}
-
-![](poisson1.png){.fragment .fade-in-then-out}
-
-![](poisson2.png){.fragment .fade-in-then-out}
-
-![](poisson3.png){.fragment .fade-in-then-out}
-
-![](poisson4.png){.fragment .fade-in-then-out}
-
-![](poisson5.png){.fragment}
-
-:::
-
-## Exemplo {background-image="cap02.png"}
-
-<font size="+3">
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
-Os fios de cobre são muito utilizados em sistemas elétricos pela sua excelente condutividade elétrica, e apresentar uma resistência elétrica mais baixa entre todos os metais não-preciosos. Seja um experimento que observa as falhas de transmissão de um fio de cobre, e sabe-se que:
-
-- $\lambda$ = 2,3 falhas/mm;
-- $X$ é uma variável aleatória que denota o número de falhas em cada 1 mm de cobre;
-- $P(X = 2~falhas/mm)$;
-- $P(X = 10~falhas/5mm)$.
-
-:::
-
-::: {.column width="40%"}
-
-![](fiocobre.png)
-
-:::
-
-::::
-
-</font>
+-   Distribuição Normal
 
 # Distribuição Normal {background-image="cap02.png"}
 
-- Distribuição contínua
-- Distribuição mais conhecida da estatística
-- Modela diversas variáveis
-- Teorema do Limite Central (TLC)
+Uma variável aleatória $X$ contínua, tem distribuição normal \index{distribuição!Normal} se sua função densidade de probabilidade é dada por \begin{align}\label{eq:distnormal}
+    f_X(x) = \left\{\begin{array}{ll}
+    \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\frac{(x-\mu)^2}{\sigma^2}},& \mbox{para} \quad -\infty<x<\infty,\\
+    0, & \textrm{caso contrário},
+    \end{array}\right.
+    \end{align} em que os parâmetros $\mu$ e $\sigma^2$ satisfazem $\mu \in \mathbb{R}$ e $\sigma^2 > 0$. Em notação, $X \sim N(\mu, \sigma^2)$ representa que $X$ tem distribuição Normal com parâmetros $\mu$ e $\sigma^2$.
+
+## Parâmetros da Normal {background-image="cap02.png"}
+
+::: r-stack
+[Forma de sino]{.fragment .fade-in-then-out}
+
+![](distnormal.png){.fragment .fade-in-then-out}
+
+[Parâmetro $\mu$]{.fragment .fade-in-then-out}
+
+![](normalmu.png){.fragment .fade-in-then-out}
+
+[Parâmetro $\sigma$]{.fragment .fade-in-then-out}
+
+![](normal-sigma.png){.fragment}
+:::
 
 ## Distribuição Normal {background-image="cap02.png"}
 
-- Distribuição simétrica em $\mu$
-- Distribuição em forma de sino
-- Usando o `leem`
+```{r fig.width=10, fig.align='center', fig.height=4}
+# Anexando o leem
+library(leem)
+# Propriedade 1
+propofnormal(type = 1)
+title(main = "Forma de sino")
+```
+
+## Distribuição Normal {background-image="cap02.png"}
+
+```{r fig.width=10, fig.align='center', fig.height=4}
+# Anexando o leem
+library(leem)
+# Propriedade 2
+propofnormal(type = 2)
+title(main = bquote("Distribuição simétrica em"~mu))
+```
+
+## Distribuição Normal {background-image="cap02.png"}
+
+```{r fig.width=10, fig.align='center', fig.height=4}
+# Anexando o leem
+library(leem)
+# Propriedade 3
+propofnormal(type = 5)
+
+```
+
+## Exemplo {background-image="cap02.png"}
+
+> Exemplo: $A = P(a = 11 < X < b = 12) = ?$, para $\mu = 10$ e $\sigma = 2$
+
+```{=tex}
+\begin{align}
+A = \int_{11}^{12}\frac{1}{2\sqrt{2\pi}}\times e^{-1/2\left(\frac{10 - x}{2}\right)^2}dx = 0,1498
+\end{align}
+```
+. . .
+
+<center>[Analiticamente é intratável!]{style="color:red"}</center>
+
+
+## Transformação $Z$ {background-image="cap02.png"}
+
+$$
+\textrm{Transformação}:~Z = \frac{X - \mu}{\sigma}
+$$
+
+. . .
+
+$$
+\textrm{FDP}:~f_Z(z) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}z^2},\quad Z\sim N(0,1)
+$$
+
+. . .
+
+Assim,
+
+. . .
+
+<center>
+$\int_{-\infty}^{a}f_X(x)dx$ [$\Rightarrow$]{.fragment} [$z = (x - \mu) / \sigma$]{.fragment} [$\Rightarrow$]{.fragment} [$\int_{-\infty}^{z}f_Z(t)dt$]{.fragment}
+</center>
+
+. . .
+
+<center>[Como assim facilitou os cálculos?]{style="color:red"}</center>
+
+## Tabela de $Z$ {background-image="cap02.png"}
+
+```{r fig.align='center', fig.height=7}
+showtabnormal(0.5)
+```
+
+## Retornando ao Exemplo {background-image="cap02.png"}
+
+```{r echo=FALSE, eval=TRUE,fig.width=10, fig.align='center', fig.height=5}
+# Anexando o leem
+library(leem)
+# Probabilidade da normal
+probnormal(a = 11, b = 12, mean = 10, sd = 2)
+```
+
+## Vários tipos de tabela $Z$ {background-image="cap02.png"}
+
+Consultando o EPAEC:
+
+<a href="https://raw.githubusercontent.com/bendeivide/book-epaec/master/docs/book-epaec.pdf" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width="300"/>
+
+</a>
+
+## Regiões conhecidas {background-image="cap02.png"}
+
+```{r fig.width=10, fig.align='center', fig.height=5}
+# Anexando o leem
+library(leem)
+# Propriedade 3
+propofnormal(type = 3)
+title(main = "Regiões conhecidas")
+```
+
+## Regiões conhecidas e $Z$ {background-image="cap02.png"}
+
+::: columns
+::: {.column width="40%"}
+</br> </br>
+
+Transformação $Z$
+
+```{r eval=FALSE, fig.width=9, fig.align='center', fig.height=8}
+# Anexando o leem
+library(leem) 
+# Propriedade 4
+propofnormal(type = 4) 
+
+```
+:::
+
+::: {.column width="60%"}
+```{r echo=FALSE, eval=TRUE, fig.width=10, fig.align='center', fig.height=7}
+# Anexando o leem
+library(leem) 
+# Propriedade 4
+propofnormal(type = 4) 
+
+```
+:::
+:::
+
+
+## Mais características da Normal {background-image="cap02.png"}
+
+-   Distribuição contínua
+-   Distribuição mais conhecida da estatística
+-   Modela diversas variáveis
+-   Teorema do Limite Central (TLC)
 
 ## Exemplo {background-image="cap02.png"}
 
 Suponha que a espessura média de arruelas produzidas em uma fábrica tenha distribuição normal com média $11,15~mm$ e desvio padrão $2,238~mm$. Qual a porcentagem de arruelas que tem espessura entre $8,77~mm$ e $14,70~mm$?
+
+## Exemplo com o `leem` {background-image="cap02.png"}
+
+```{r echo=TRUE, eval=TRUE, fig.width=10, fig.align='center', fig.height=5}
+probnormal(a = 8.77, b = 14.70, mean = 11.15, sd = 2.238, type = 6)
+```
 
 # Questões? {background-image="cap02.png"}
 
@@ -234,15 +257,15 @@ Suponha que a espessura média de arruelas produzidas em uma fábrica tenha dist
 
 <a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
 
-<img src="ben.png" width = "400">
+<img src="ben.png" width="400"/>
 
-</a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
+</a>
+
+<center><a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a></center>
 
 # Referências {background-image="cap02.png"}
 
-
-
-
+````{=html}
 <!-- 
 
 ::: {.notes} 
@@ -299,3 +322,4 @@ class(atotleem)
 
 
 -->
+````
