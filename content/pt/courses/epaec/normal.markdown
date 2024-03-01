@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.1
-date: "2024-02-28 16:53:28"
+date: "2024-03-01 07:09:12"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -40,11 +40,11 @@ regressão linear simples.
     -   Período:
     -   Aulas presenciais:
         -   Engenheria Química:
-            -   segunda-feira (21:00 - 23:00, sala XXX.X)
-            -   terça-feira (21:00 - 23:00, sala XXX.X)
+            -   segunda-feira (21:00 - 23:00, sala 207.4)
+            -   terça-feira (21:00 - 23:00, sala 207.4)
         -   Engenharia Mecatrônica:
-            -   quinta-feira (19:00 - 21:00, sala XXX.X)
-            -   sexta-feira (21:00 - 23:00, sala XXX.X)
+            -   quinta-feira (19:00 - 21:00, sala 204.4)
+            -   sexta-feira (21:00 - 23:00, sala 204.4)
 
 ## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
 
