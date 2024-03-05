@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.1
-date: "2024-03-01 07:09:12"
+date: "2024-03-05 20:24:16"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -335,6 +335,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="book-reader" pack="fas" >}}
 <a href="https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
+{{< icon name="r-project" pack="fab" >}} {{% staticref "epaec/2024.1/r-scripts/aula01.R" "newtab" %}}Aula 01{{% /staticref %}}
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
@@ -364,6 +365,8 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="book-reader" pack="fas" >}}
 <a href="https://docs.google.com/document/d/11Qg-S3Kxpd-omGlOpE_7nqvkcKV4GDZv9NIIlIrEgEc/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
+
+{{< icon name="r-project" pack="fab" >}} {{% staticref "epaec/2024.1/r-scripts/aula02.R" "newtab" %}}Aula 02{{% /staticref %}}
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
