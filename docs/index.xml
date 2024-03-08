@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 05 Mar 2024 20:24:16 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 08 Mar 2024 14:54:56 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2024.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal/</link>
-      <pubDate>Tue, 05 Mar 2024 20:24:16 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2024 14:54:56 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -72,8 +72,8 @@ Engenharia do campus.&lt;/li&gt;
 &lt;/li&gt;
 &lt;li&gt;Engenharia Mecatrônica:
 &lt;ul&gt;
-&lt;li&gt;quinta-feira (19:00 - 21:00, sala 204.4)&lt;/li&gt;
-&lt;li&gt;sexta-feira (21:00 - 23:00, sala 204.4)&lt;/li&gt;
+&lt;li&gt;quinta-feira (19:00 - 21:00, sala 202.4)&lt;/li&gt;
+&lt;li&gt;sexta-feira (21:00 - 23:00, sala 202n .4)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -411,7 +411,8 @@ curso e Definições gerais da estatística e técnicas de somatório
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
 &lt;a href=&#34;https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
 &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2024.1/r-scripts/aula01.R&#34; target=&#34;_blank&#34;&gt;Aula 01&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula01.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 1&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
@@ -438,7 +439,8 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
 &lt;a href=&#34;https://docs.google.com/document/d/11Qg-S3Kxpd-omGlOpE_7nqvkcKV4GDZv9NIIlIrEgEc/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
 &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2024.1/r-scripts/aula02.R&#34; target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula02.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
@@ -465,6 +467,8 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
 &lt;a href=&#34;https://docs.google.com/document/d/1rQ4MmpoFRLgUBbt7zktcAEaTODB9WFViY1dWTdnjVC0/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
 &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
