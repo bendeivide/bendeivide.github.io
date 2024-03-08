@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.1
-date: "2024-03-05 20:24:16"
+date: "2024-03-08 14:54:56"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -43,8 +43,8 @@ regressão linear simples.
             -   segunda-feira (21:00 - 23:00, sala 207.4)
             -   terça-feira (21:00 - 23:00, sala 207.4)
         -   Engenharia Mecatrônica:
-            -   quinta-feira (19:00 - 21:00, sala 204.4)
-            -   sexta-feira (21:00 - 23:00, sala 204.4)
+            -   quinta-feira (19:00 - 21:00, sala 202.4)
+            -   sexta-feira (21:00 - 23:00, sala 202n .4)
 
 ## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
 
@@ -335,7 +335,8 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="book-reader" pack="fas" >}}
 <a href="https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
-{{< icon name="r-project" pack="fab" >}} {{% staticref "epaec/2024.1/r-scripts/aula01.R" "newtab" %}}Aula 01{{% /staticref %}}
+{{< icon name="r-project" pack="fab" >}} <a
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula01.R" target="_blank">*Script* Aula 1</a>
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
@@ -366,7 +367,8 @@ curso e Definições gerais da estatística e técnicas de somatório
 <a href="https://docs.google.com/document/d/11Qg-S3Kxpd-omGlOpE_7nqvkcKV4GDZv9NIIlIrEgEc/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
 
-{{< icon name="r-project" pack="fab" >}} {{% staticref "epaec/2024.1/r-scripts/aula02.R" "newtab" %}}Aula 02{{% /staticref %}}
+{{< icon name="r-project" pack="fab" >}} <a
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula02.R" target="_blank">*Script* Aula 2</a>
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
@@ -396,6 +398,8 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="book-reader" pack="fas" >}}
 <a href="https://docs.google.com/document/d/1rQ4MmpoFRLgUBbt7zktcAEaTODB9WFViY1dWTdnjVC0/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
+{{< icon name="r-project" pack="fab" >}} <a
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
