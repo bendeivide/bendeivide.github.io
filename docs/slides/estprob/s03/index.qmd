@@ -487,7 +487,7 @@ knitr::kable(
     <td class="tg-8jgo">$0,05$</td>
     <td class="tg-8jgo">$5$</td>
     <td class="tg-8jgo">$3 + 7 + 4 + 5 + 1 = 20$</td>
-    <td class="tg-8jgo">$5 + 1 = 10 - 4 = 6$</td>
+    <td class="tg-8jgo">$1 = 6 - 5 = 1$</td>
   </tr>
   <tr>
     <td class="tg-8jgo">Total</td>
