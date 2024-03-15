@@ -58,7 +58,7 @@ library(leem)
 
 # Livro de Apoio {background-image="cap02.png"}
 
-Usaremos @batista2023:
+Usaremos \@batista2023:
 
 <a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
 
@@ -68,54 +68,97 @@ Usaremos @batista2023:
 
 # Revisão das medidas de posição estudadas {background-image="cap02.png"}
 
-- Média aritmética
-- Mediana
-- Moda
+-   Média aritmética
+-   Mediana
+-   Moda
 
 # Exercícios {background-image="cap02.png"}
 
-1. Em @devore2005, os seguintes dados sobre emissões de $HC$ e $CO$ para um determinado veículo:
+1.  Em \@devore2005, os seguintes dados sobre emissões de *H**C* e *C**O* para um determinado veículo:
 
 . . .
 
-| $HC~(gm/mi)$ | 13,8 | 18,3 |32,2 | 32,5|
-|:------------:|:----:|:----:|:---:|:---:|
-| $CO~(gm/mi)$ | 118 | 149 | 232 | 236 |
-
-
+| *H**C* (*g**m*/*m**i*) | 13,8 | 18,3 | 32,2 | 32,5 |
+|:----------------------:|:----:|:----:|:----:|:----:|
+| *C**O* (*g**m*/*m**i*) | 118  | 149  | 232  | 236  |
 
 ## Exercícios {background-image="cap02.png"}
 
-
-
-2. A tabela abaixo apresenta a distribuição de frequências das notas (em pontos) obtidas num teste de estatística, realizado por 50 estudantes. Calcule as três medidas de posição estudadas.
+1.  A tabela abaixo apresenta a distribuição de frequências das notas (em pontos) obtidas num teste de estatística, realizado por 50 estudantes. Calcule as três medidas de posição estudadas.
 
 . . .
 
+:::: {.columns}
+
+::: {.column width="50%"}
+
 <font size="+2">
 
-| Notas | $F_i$ |
-|:-----:|:-----:|
-| 0 $|-$ 2 | 4 |
-| 2 $|-$ 4 | 12 |
-| 4 $|-$ 6 | 15 |
-| 6 $|-$ 8 | 13 |
-| 8 $|-$ 10 | 6 |
+|  Notas   | *F*<sub>*i*</sub> |
+|:--------:|:-----------------:|
+| 0 \|− 2  |         4         |
+| 2 \|− 4  |        12         |
+| 4 \|− 6  |        15         |
+| 6 \|− 8  |        13         |
+| 8 \|− 10 |         6         |
 
 </font>
 
 
+:::
+
+::: {.column width="50%"}
+
+
+
+</br>
+
+<center>
+[É possível calcular as medidas de posição desses dados no leem?]{.fragment style="color:red;"}
+</center>
+
+:::
+
+::::
+
+
+
+
+
 ## Exercícios {background-image="cap02.png"}
 
-3. Em @Magalhaes2015, um estudante está procurando um estágio para o próximo ano. As companhias A e B têm programas de estágios e oferecem uma remuneração por 20 horas semanais com as seguintes características (em salários mínimos):
+1.  Em @Magalhaes2015, um estudante está procurando um estágio para o próximo ano. As companhias A e B têm programas de estágios e oferecem uma remuneração por 20 horas semanais com as seguintes características (em salários mínimos):
 
-. . . 
+. . .
 
-| Companhia | A | B |
-|:---------:|:--:|:--:|
-| Média | 2,5 | 2,0 |
-| Mediana | 1,7 | 1,9 |
-| Moda | 1,5 | 1,9 |
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<font size="+2">
+
+| Companhia |  A  |  B  |
+|:---------:|:---:|:---:|
+|   Média   | 2,5 | 2,0 |
+|  Mediana  | 1,7 | 1,9 |
+|   Moda    | 1,5 | 1,9 |
+
+</font>
+
+
+:::
+
+::: {.column width="50%"}
+
+
+<center>
+[Qual a companhia mais adequada para o estudante iniciar o seu estágio remunerado?]{.fragment style="color:red;"}
+</center>
+
+:::
+
+::::
+
 
 
 
@@ -136,9 +179,6 @@ Usaremos @batista2023:
 </a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
 
 # Referências {background-image="cap02.png"}
-
-
-
 
 <!-- 
 

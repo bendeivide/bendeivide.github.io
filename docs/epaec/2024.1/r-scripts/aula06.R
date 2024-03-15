@@ -1,3 +1,11 @@
+################################################
+# AULA 06 - EXERCICIOS SOBRE MEDIDAS DE POSICAO
+# DISCIPLINA: Estatistica & Probabilidade
+# Prof. Ben Deivide | UFSJ
+# https://bendeivide.github.io/courses/epaec
+###############################################
+
+
 # Carregando o leem
 library(leem)
 

@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.1
-date: "2024-03-08 14:54:56"
+date: "2024-03-15 15:24:57"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -460,10 +460,10 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="headphones" pack="fas" >}} **Podcast**
 {{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1TGcA1kXbfpny6dALR0Ekn-CGbBH0N9_2Dx_hJChGphg/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
 
-<i class="fas fa-pen"></i> {{% staticref "/epaec/2023.2/qbranco/aula05.png" "newtab" %}}Quadro branco - Aula 05{{% /staticref %}}
+<!-- <i class="fas fa-pen"></i> {{% staticref "/epaec/2023.2/qbranco/aula05.png" "newtab" %}}Quadro branco - Aula 05{{% /staticref %}} -->
 
 {{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 5</a>
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2023.2/r-scripts/aula05.R" target="_blank">*Script* Aula 5</a>
     
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
@@ -493,7 +493,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1K29u8DbCXwgKkwNoUjFb1P10M1bDzaPu8vQDXnuPBMc/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
 
 {{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 6</a>
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2023.2/r-scripts/aula06.R" target="_blank">*Script* Aula 6</a>
     
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 

@@ -376,7 +376,7 @@ d2 |>
 
 ## Usando o `leem` (continuação...) {background-image="cap02.png"}
 
-Verificando a mediana no histograma:
+Verificando a média no histograma:
 
 . . .
 
@@ -718,7 +718,7 @@ d2 |>
 # Moda {background-image="cap02.png"}
 
 <font size="+3">
-**Definição (Moda para dados discretizados):** Seja uma amostra $X_1$, $X_2$, \ldots, $X_n$, de uma população $X_1$, $X_2$, $\ldots$, $X_N$, de tamanhos $n$ e $N$, respectivamente, cuja natureza da variável é discretizada\footnote{Entendemos que uma variável tem natureza discretizada quando seus potenciais valores assumem em um conjunto enumerável ou categorizado, isto é, variável quantitativa discreta e variáveis qualitativas.}. Então a moda \index{medidas de posição!moda} representa o valor que mais se repete em um conjunto de dados. Denotamos $\mu_o$ a moda populacional, e $Mo(X)$ a moda amostral.
+**Definição (Moda para dados discretizados):** Seja uma amostra $X_1$, $X_2$, $\ldots$, $X_n$, de uma população $X_1$, $X_2$, $\ldots$, $X_N$, de tamanhos $n$ e $N$, respectivamente, cuja natureza da variável é discretizada\footnote{Entendemos que uma variável tem natureza discretizada quando seus potenciais valores assumem em um conjunto enumerável ou categorizado, isto é, variável quantitativa discreta e variáveis qualitativas.}. Então a moda \index{medidas de posição!moda} representa o valor que mais se repete em um conjunto de dados. Denotamos $\mu_o$ a moda populacional, e $Mo(X)$ a moda amostral.
 </font>
 
 ## Moda (Agrupamento com classes) {background-image="cap02.png"}
