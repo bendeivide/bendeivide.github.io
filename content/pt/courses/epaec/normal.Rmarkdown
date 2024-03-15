@@ -572,7 +572,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="headphones" pack="fas" >}} **Podcast**
 {{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1TGcA1kXbfpny6dALR0Ekn-CGbBH0N9_2Dx_hJChGphg/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
 
-<i class="fas fa-pen"></i> {{% staticref "/epaec/2023.2/qbranco/aula05.png" "newtab" %}}Quadro branco - Aula 05{{% /staticref %}}
+<!-- <i class="fas fa-pen"></i> {{% staticref "/epaec/2023.2/qbranco/aula05.png" "newtab" %}}Quadro branco - Aula 05{{% /staticref %}} -->
 
 {{< icon name="r-project" pack="fab" >}} <a
     href="" target="_blank">*Script* Aula 5</a>
