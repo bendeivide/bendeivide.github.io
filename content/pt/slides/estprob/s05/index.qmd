@@ -283,7 +283,7 @@ Retornando o exemplo anterior...
 
 \begin{align*}
     \bar{X} & =  \sum_{i=1}^{n}\tilde{X}_if_i /    \sum_{i=1}^{n}f_i \\
-    & = \frac{31 \times 1 + \ldots + 41.6 \times 2}{20}\\
+    & = \frac{31 \times 1 + \ldots + 41.6 \times 2}{36}\\
     & = 66,04~\textrm{°F}.
 \end{align*}
 

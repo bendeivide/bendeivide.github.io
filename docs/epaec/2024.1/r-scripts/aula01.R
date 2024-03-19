@@ -6,7 +6,8 @@
 #######################################################
 
 # Instalar os pacotes dependentes
-pkgs <- c("manipulate", "tkRplotR", "tkrplot", "crayon", "diagram")
+pkgs <- c("manipulate", "tkRplotR", "tkrplot", "crayon", "diagram",
+          "writexl", "xtable")
 install.packages(pkgs)
 # instalando o pacote devtools
  install.packages("devtools")
