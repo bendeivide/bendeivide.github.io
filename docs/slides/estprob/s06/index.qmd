@@ -58,7 +58,7 @@ library(leem)
 
 # Livro de Apoio {background-image="cap02.png"}
 
-Usaremos \@batista2023:
+Usaremos @batista2023:
 
 <a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
 
@@ -74,13 +74,13 @@ Usaremos \@batista2023:
 
 # Exercícios {background-image="cap02.png"}
 
-1.  Em \@devore2005, os seguintes dados sobre emissões de *H**C* e *C**O* para um determinado veículo:
+1.  Em @devore2005, os seguintes dados sobre emissões de $HC$ e $CO$ para um determinado veículo:
 
 . . .
 
-| *H**C* (*g**m*/*m**i*) | 13,8 | 18,3 | 32,2 | 32,5 |
+| $HC (gm/mi)$ | 13,8 | 18,3 | 32,2 | 32,5 |
 |:----------------------:|:----:|:----:|:----:|:----:|
-| *C**O* (*g**m*/*m**i*) | 118  | 149  | 232  | 236  |
+| $CO (gm/mi)$ | 118  | 149  | 232  | 236  |
 
 ## Exercícios {background-image="cap02.png"}
 

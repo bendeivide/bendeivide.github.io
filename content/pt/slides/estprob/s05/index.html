@@ -623,8 +623,8 @@ Moda
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>
-Tabela de frequência 
-Tipo de variável: discrete
+Table of frequency 
+Type of variable: discrete
 
   Groups Fi   Fr Fac1 Fac2 Fp Fac1p Fac2p
 1      0  3 0.15    3   20 15    15   100
@@ -633,14 +633,14 @@ Tipo de variável: discrete
 4      3  5 0.25   19    6 25    95    30
 5      4  1 0.05   20    1  5   100     5
 ============================================== 
-Groups: Agrupamento discretizado 
-Fi: Frequência absoluta 
-Fr: Frequência relativa 
-Fac1: Frequência acumulada (abaixo de) 
-Fac2: Frequência acumulada (acima de) 
-Fp: Frequência percentual 
-Fac1p: Frequência acumulada percentual (abaixo de) 
-Fac2p: Frequência acumulada percentual (acima de) </code></pre>
+Groups: Discretized grouping 
+Fi: Absolute frequency 
+Fr: Relative frequency 
+Fac1: Cumulative frequency (below) 
+Fac2: Cumulative frequency (above) 
+Fp: Percentage frequency 
+Fac1p: Cumulative percentage frequency (below) 
+Fac2p: Cumulative percentage frequency (above) </code></pre>
 </div>
 </div>
 </div>
@@ -708,7 +708,13 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <div class="column" style="width:40%;">
 <p><font size="+2"></font></p><font size="+2">
 <p><span class="math display">\[\begin{align*}
-    \bar{X} &amp; =  \sum_{i=1}^{n}\tilde{X}_if_i /    \sum_{i=1}^{n}f_i \\
+    \bar{X} &amp; =  \sum_{i=1}^{n}X_if_i / n \\
+    &amp; = \frac{84 + 40 + \ldots + 31}{36}\\
+    &amp; = 65,86~\textrm{°F}.
+\end{align*}\]</span></p>
+<p><br></p>
+<p><span class="math display">\[\begin{align*}
+    \bar{X} &amp; =  \sum_{i=1}^{k}\tilde{X}_if_i /    \sum_{i=1}^{k}f_i \\
     &amp; = \frac{31 \times 1 + \ldots + 41.6 \times 2}{36}\\
     &amp; = 66,04~\textrm{°F}.
 \end{align*}\]</span></p>
@@ -718,8 +724,8 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>
-Tabela de frequência 
-Tipo de variável: continuous
+Table of frequency 
+Type of variable: continuous
 
           Classes Fi   PM   Fr Fac1 Fac2 Fp  Fac1p  Fac2p
 1 25.7 |---  36.3  1 31.0 0.03    1   36  3   2.78 100.00
@@ -730,15 +736,15 @@ Tipo de variável: continuous
 6 78.7 |---  89.3  5 84.0 0.14   36    5 14 100.00  13.89
 
 ============================================== 
-Classes: Agrupamento de classes 
-Fi: Frequência absoluta 
-PM: Ponto médio 
-Fr: Frequência relativa 
-Fac1: Frequência acumulada (abaixo de) 
-Fac2: Frequência acumulada (acima de) 
-Fp: Frequência percentual 
-Fac1p: Frequência acumulada percentual (abaixo de) 
-Fac2p: Frequência acumulada percentual (acima de) </code></pre>
+Classes: Grouping of classes 
+Fi: Absolute frequency 
+PM: Midpoint 
+Fr: Relative frequency 
+Fac1: Cumulative frequency (below) 
+Fac2: Cumulative frequency (above) 
+Fp: Percentage frequency 
+Fac1p: Cumulative percentage frequency (below) 
+Fac2p: Cumulative percentage frequency (above) </code></pre>
 </div>
 </div>
 </font><p><font size="+3"></font></p>
@@ -1116,8 +1122,8 @@ Md(X) = LI_{Md} + \left\lbrace \frac{\frac{n}{2}-f_{ant}}{f_{Md}}\right\rbrace \
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>
-Tabela de frequência 
-Tipo de variável: continuous
+Table of frequency 
+Type of variable: continuous
 
           Classes Fi   PM   Fr Fac1 Fac2 Fp  Fac1p  Fac2p
 1 25.7 |---  36.3  1 31.0 0.03    1   36  3   2.78 100.00
@@ -1128,15 +1134,15 @@ Tipo de variável: continuous
 6 78.7 |---  89.3  5 84.0 0.14   36    5 14 100.00  13.89
 
 ============================================== 
-Classes: Agrupamento de classes 
-Fi: Frequência absoluta 
-PM: Ponto médio 
-Fr: Frequência relativa 
-Fac1: Frequência acumulada (abaixo de) 
-Fac2: Frequência acumulada (acima de) 
-Fp: Frequência percentual 
-Fac1p: Frequência acumulada percentual (abaixo de) 
-Fac2p: Frequência acumulada percentual (acima de) </code></pre>
+Classes: Grouping of classes 
+Fi: Absolute frequency 
+PM: Midpoint 
+Fr: Relative frequency 
+Fac1: Cumulative frequency (below) 
+Fac2: Cumulative frequency (above) 
+Fp: Percentage frequency 
+Fac1p: Cumulative percentage frequency (below) 
+Fac2p: Cumulative percentage frequency (above) </code></pre>
 </div>
 </div>
 </font><p><font size="+2"></font></p>
@@ -1454,8 +1460,8 @@ Mo(X) &amp; = LI_{Mo} + \left\lbrace \frac{\Delta_1}{\Delta_1 + \Delta_2}\right 
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>
-Tabela de frequência 
-Tipo de variável: continuous
+Table of frequency 
+Type of variable: continuous
 
           Classes Fi   PM   Fr Fac1 Fac2 Fp  Fac1p  Fac2p
 1 25.7 |---  36.3  1 31.0 0.03    1   36  3   2.78 100.00
@@ -1466,15 +1472,15 @@ Tipo de variável: continuous
 6 78.7 |---  89.3  5 84.0 0.14   36    5 14 100.00  13.89
 
 ============================================== 
-Classes: Agrupamento de classes 
-Fi: Frequência absoluta 
-PM: Ponto médio 
-Fr: Frequência relativa 
-Fac1: Frequência acumulada (abaixo de) 
-Fac2: Frequência acumulada (acima de) 
-Fp: Frequência percentual 
-Fac1p: Frequência acumulada percentual (abaixo de) 
-Fac2p: Frequência acumulada percentual (acima de) </code></pre>
+Classes: Grouping of classes 
+Fi: Absolute frequency 
+PM: Midpoint 
+Fr: Relative frequency 
+Fac1: Cumulative frequency (below) 
+Fac2: Cumulative frequency (above) 
+Fp: Percentage frequency 
+Fac1p: Cumulative percentage frequency (below) 
+Fac2p: Cumulative percentage frequency (above) </code></pre>
 </div>
 </div>
 </font><p><font size="+2"></font></p>
@@ -1583,8 +1589,8 @@ Fac2p: Frequência acumulada percentual (acima de) </code></pre>
 <span id="cb36-3"><a href="#cb36-3"></a>  <span class="fu">tabfreq</span>(<span class="at">k =</span> <span class="dv">5</span>) <span class="co"># Apenas com 5 classes</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
-Tabela de frequência 
-Tipo de variável: continuous
+Table of frequency 
+Type of variable: continuous
 
             Classes Fi    PM   Fr Fac1 Fac2 Fp  Fac1p  Fac2p
 1 24.38 |---  37.62  1 31.00 0.03    1   36  3   2.78 100.00
@@ -1594,15 +1600,15 @@ Tipo de variável: continuous
 5 77.38 |---  90.62  6 84.00 0.17   36    6 17 100.00  16.67
 
 ============================================== 
-Classes: Agrupamento de classes 
-Fi: Frequência absoluta 
-PM: Ponto médio 
-Fr: Frequência relativa 
-Fac1: Frequência acumulada (abaixo de) 
-Fac2: Frequência acumulada (acima de) 
-Fp: Frequência percentual 
-Fac1p: Frequência acumulada percentual (abaixo de) 
-Fac2p: Frequência acumulada percentual (acima de) </code></pre>
+Classes: Grouping of classes 
+Fi: Absolute frequency 
+PM: Midpoint 
+Fr: Relative frequency 
+Fac1: Cumulative frequency (below) 
+Fac2: Cumulative frequency (above) 
+Fp: Percentage frequency 
+Fac1p: Cumulative percentage frequency (below) 
+Fac2p: Cumulative percentage frequency (above) </code></pre>
 </div>
 </div>
 </font><p><font size="+2"></font></p>
@@ -1993,7 +1999,7 @@ BATISTA, B. D. O. <strong><a href="https://bendeivide.github.io/books/epaec/">Es
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]

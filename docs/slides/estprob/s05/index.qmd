@@ -282,7 +282,15 @@ Retornando o exemplo anterior...
 <font size="+2">
 
 \begin{align*}
-    \bar{X} & =  \sum_{i=1}^{n}\tilde{X}_if_i /    \sum_{i=1}^{n}f_i \\
+    \bar{X} & =  \sum_{i=1}^{n}X_if_i / n \\
+    & = \frac{84 + 40 + \ldots + 31}{36}\\
+    & = 65,86~\textrm{°F}.
+\end{align*}
+
+</br>
+
+\begin{align*}
+    \bar{X} & =  \sum_{i=1}^{k}\tilde{X}_if_i /    \sum_{i=1}^{k}f_i \\
     & = \frac{31 \times 1 + \ldots + 41.6 \times 2}{36}\\
     & = 66,04~\textrm{°F}.
 \end{align*}
