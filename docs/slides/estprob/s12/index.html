@@ -530,7 +530,7 @@ plugins: [ RevealNotes ]
 <h1>Distribuição de <span class="math inline">\(X\)</span></h1>
 <blockquote>
 <p><strong>Definição (Distribuição de <span class="math inline">\(X\)</span>):</strong> O conjunto de probabilidades: <span class="math display">\[
-P_X(X(\omega) \in B) = P(\{w \in \Omega: X(\omega) \in B,~B \subset \mathbb{R}\}),
+P_X(X(\omega) \in B) = P(\{\omega \in \Omega: X(\omega) \in B,~B \subset \mathbb{R}\}),
 \]</span> para todos os subconjuntos de <span class="math inline">\(B \in \Omega_X\)</span>, em que <span class="math inline">\(B\)</span> é um subconjunto do espaço amostral induzido, é a distribuição de uma variável aleatória <span class="math inline">\(X\)</span>.</p>
 </blockquote>
 </section>
@@ -638,7 +638,7 @@ F_X(x)=P(X\in (-\infty,x])=P(X \leq x), \ x\in\mathbb{R}.
 <p><strong>Definição (FP):</strong> Seja <span class="math inline">\(X\)</span> uma variável aleatória discreta, então sua função de probabilidade, <span class="math inline">\(p_X:\mathbb{R}\rightarrow [0,1]\)</span>, é definida por: <span class="math display">\[\begin{align*}
 p_X(x) &amp; = P_X(X=x)\\
 &amp; = P(X=x) \\
-&amp; = P(\{w\in\Omega:X(w)=x\}),
+&amp; = P(\{\omega\in\Omega:X(\omega)=x\}),
 \end{align*}\]</span> sendo <span class="math inline">\(\sum_xP_X(x)=1\)</span>.</p>
 </blockquote>
 </section>
@@ -1197,7 +1197,7 @@ BATISTA, B. D. O. <strong><a href="https://bendeivide.github.io/books/epaec/">Es
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]

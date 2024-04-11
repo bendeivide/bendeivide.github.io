@@ -3,7 +3,6 @@ title: "Estatística e Probabilidade"
 subtitle: "Aula 11 - Probabilidades (Parte II)"
 title-slide-attributes:
     data-background-image: cap.png
-
 author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
 bibliography: biblio.bib
 link-citations: true
@@ -47,15 +46,6 @@ editor: source
 knitr::opts_chunk$set(echo = TRUE)
 library(leem)
 ```
-
-<!--
-O quarto tem um problema de acionar o plugin 'RevealNotes'. Não consegui 
-resolver no arquivo <>.qmd. A saida é inseri-lo no arquivo index.html, isto é, inserir manualmente em Reveal.initialize > plugins > RevealNotes:
-
-Reveal.initialize({
-plugins: [ RevealNotes ]
-});
--->
 
 # Filosofia de publicação (Selo DC) {background-image="cap02.png"}
 
@@ -354,13 +344,13 @@ Desse modo podemos representar, a probabilidade desses defeitos da seguinte form
 
 Assim, percebemos que a probabilidade do evento $D$ não pode ser observada facilmente, pois o defeito dos produtos produzidos pelas máquinas está condicionado a cada máquina.
 
-
-<aside class="notes">
+::: {.notes}
 📝 Enfatizar:
 
 - Essas probabilidades apresentam uma alteração no espaço amostral para cada evento, porque esses resultados mostram a chance de defeito do produto, dado o conhecimento de que máquina foi produzido, é o que chamamos de restrição do espaço amostral.
 - $P(A|B)$ é uma medida de probabilidade?
-</aside>
+:::
+
 
 ## Regra do produto de probabilidade {background-image="cap02.png"}
 

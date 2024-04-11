@@ -361,17 +361,6 @@
 </div>
 
 </section>
-<section class="slide level2">
-
-<!--
-O quarto tem um problema de acionar o plugin 'RevealNotes'. Não consegui 
-resolver no arquivo <>.qmd. A saida é inseri-lo no arquivo index.html, isto é, inserir manualmente em Reveal.initialize > plugins > RevealNotes:
-
-Reveal.initialize({
-plugins: [ RevealNotes ]
-});
--->
-</section>
 <section id="filosofia-de-publicação-selo-dc" class="title-slide slide level1 center" data-background-image="cap02.png">
 <h1>Filosofia de publicação (Selo DC)</h1>
 <p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
@@ -637,8 +626,8 @@ P(A|B) = \frac{P(A \cap B)}{P(B)},
 <aside class="notes">
 <p>📝 Enfatizar:</p>
 <ul>
-<li class="fragment">Essas probabilidades apresentam uma alteração no espaço amostral para cada evento, porque esses resultados mostram a chance de defeito do produto, dado o conhecimento de que máquina foi produzido, é o que chamamos de restrição do espaço amostral.</li>
-<li class="fragment"><span class="math inline">\(P(A|B)\)</span> é uma medida de probabilidade?</li>
+<li>Essas probabilidades apresentam uma alteração no espaço amostral para cada evento, porque esses resultados mostram a chance de defeito do produto, dado o conhecimento de que máquina foi produzido, é o que chamamos de restrição do espaço amostral.</li>
+<li><span class="math inline">\(P(A|B)\)</span> é uma medida de probabilidade?</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1180,7 +1169,7 @@ BATISTA, B. D. O. <strong><a href="https://bendeivide.github.io/books/epaec/">Es
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]

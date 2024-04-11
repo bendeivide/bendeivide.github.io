@@ -180,7 +180,7 @@ Agora olhando para a variável $X$, tal que $P(C_3) = p_X(2) = P(X = 2)$, temos:
 
 > **Definição (Distribuição de $X$):** O conjunto de probabilidades:
 	$$
-	P_X(X(\omega) \in B) = P(\{w \in \Omega: X(\omega) \in B,~B \subset \mathbb{R}\}),
+	P_X(X(\omega) \in B) = P(\{\omega \in \Omega: X(\omega) \in B,~B \subset \mathbb{R}\}),
 	$$
 	para todos os subconjuntos de $B \in \Omega_X$, em que $B$ é um subconjunto do espaço amostral induzido, é a distribuição de uma variável aleatória $X$.
 
@@ -270,7 +270,7 @@ showcdf(variable = "continuous", prop = 3)
 \begin{align*}
 p_X(x) & = P_X(X=x)\\
        & = P(X=x) \\
-       & = P(\{w\in\Omega:X(w)=x\}),
+       & = P(\{\omega\in\Omega:X(\omega)=x\}),
 \end{align*}
 sendo $\sum_xP_X(x)=1$.
 
