@@ -2,7 +2,7 @@
 title: Estatística Básica Aplicada às Ciências Agrárias
 summary: Livro em desenvolvimento
 tags:
-- booktcltk
+- bookestbasica
 categories: ["R", "Estatística", "Estimação", "Ciências Agrárias"]
 date: "`r format(Sys.time())`"
 

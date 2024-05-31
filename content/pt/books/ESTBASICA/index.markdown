@@ -2,9 +2,9 @@
 title: Estatística Básica Aplicada às Ciências Agrárias
 summary: Livro em desenvolvimento
 tags:
-- booktcltk
+- bookestbasica
 categories: ["R", "Estatística", "Estimação", "Ciências Agrárias"]
-date: "2024-05-31 17:04:10"
+date: "2024-05-31 18:28:50"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"

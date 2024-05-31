@@ -46,6 +46,8 @@ content:
     tag: bookestest
   - name: CIRIEG
     tag: bookciriegola
+  - name: ESTBAS
+    tag: bookestbasica
 
 
 design:
