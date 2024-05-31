@@ -1,0 +1,45 @@
+---
+title: 💻 Regressão Linear Múltipla
+linkTitle: RLM
+summary: O curso de Regressão Linear Múltipla é aplicado com utilização do ambiente R. 
+date: "`r format(Sys.time())`"
+type: book
+categories: ["R", "Estatística", "Regressão Linear", "Programação"]
+tags: ["Curso"]
+---
+
+{{< figure src="featured.png" >}}
+
+{{< toc hide_on="xl" >}}
+
+## O que você aprenderá
+
+- Regressão Linear Múltipla (RLM)
+- Ambiente R aplicado a análises sobre RLM 
+
+## Visão geral do curso
+
+
+## Módulos nesse curso
+
+{{< list_children >}}
+
+## Encontre seu instrutor
+
+{{< mention "admin" >}}
+
+## Encontre nossos alunos e desfrutem de suas experiênicas
+
+[Nossos alunos](https://bendeivide.github.io/estcompalunos/)
+
+## FAQs
+
+{{< spoiler text="Quais são os pré-requisitos?" >}}
+A disciplina de [Estatística e Probabilidade]({{< relref "/courses/epaec/" >}}).
+{{< /spoiler >}}
+
+{{< spoiler text="Com que frequência os cursos acontecem ?" >}}
+Continuamente, em seu próprio ritmo. 
+{{< /spoiler >}}
+
+{{< cta cta_text="Comece o curso" cta_link="normal" >}}
