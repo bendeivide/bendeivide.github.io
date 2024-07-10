@@ -5,12 +5,63 @@
     <link>http://bendeivide.github.io/tag/curso-r/</link>
       <atom:link href="http://bendeivide.github.io/tag/curso-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 29 Sep 2023 13:48:59 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 10 Jul 2024 12:50:36 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso R</title>
       <link>http://bendeivide.github.io/tag/curso-r/</link>
     </image>
+    
+    <item>
+      <title>R básico 2024</title>
+      <link>http://bendeivide.github.io/courses/ear/rbasico2024/</link>
+      <pubDate>Wed, 10 Jul 2024 12:50:36 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/ear/rbasico2024/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#inscricao&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; Inscrição do curso&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /media/EAR-rbasico_hueba3d5b284ff6994ab31d69d1f05f736_141641_188d08caec96117638ba2ef63a4b019c.webp 400w,
+               /media/EAR-rbasico_hueba3d5b284ff6994ab31d69d1f05f736_141641_a1be7757ea23c2646a31c1a744ffd85b.webp 760w,
+               /media/EAR-rbasico_hueba3d5b284ff6994ab31d69d1f05f736_141641_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://bendeivide.github.io/media/EAR-rbasico_hueba3d5b284ff6994ab31d69d1f05f736_141641_188d08caec96117638ba2ef63a4b019c.webp&#34;
+               width=&#34;70%&#34;
+               height=&#34;477&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Programando o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; em nível básico.&lt;/p&gt;
+&lt;h2 id=&#34;inscricao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; Inscrição do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; Período de inscrição: &lt;strong&gt;Início: 10/07/2024  Término: 31/07/2024&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://forms.gle/Pm1s7EbZT1w7vE5d7&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Em desenvolvimento&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>R básico</title>
