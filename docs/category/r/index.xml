@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 10 Jul 2024 12:50:36 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 10 Jul 2024 22:27:18 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -1659,20 +1659,9 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     </item>
     
     <item>
-      <title>Estatística Básica Aplicada às Ciências Agrárias</title>
-      <link>http://bendeivide.github.io/books/estbasica/</link>
-      <pubDate>Fri, 31 May 2024 18:28:50 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/estbasica/</guid>
-      <description>&lt;p&gt;Esta primeira Edição do Livro &lt;em&gt;Estatística Básica Aplicada às Ciências Agrárias&lt;/em&gt; é fruto de todo o material escrito em forma de notas de aula, apostila, listas de exercícios, bem como a aprendizagem e o ensino transmitido pelo Prof. Telde Natel Custodio em suas aulas de Estatística. Eu tive o imenso prazer de ser convidado para participar desse projeto porque é mais uma referência de apoio para quem inicia nos estudos da Estatística Básica. Como somos Engenheiros Agrônomos, nada mais recompensador do que devolver toda experiência adquirida em colaborações, consultorias de experimentos agrícolas, dentre outras situações experienciadas, de modo que fosse registrada por meio desse material.&lt;/p&gt;
-&lt;p&gt;A ideia deste livro foi de introduzir as ideias básicas do que se precisa para entender o mundo da estatística. Em uma ênfase prática, sem tanto rigor matemático na apresentação das definições, teoremas, etc., torna a leitura mais simples e didática para uma área tão importante da ciência como é a Estatística. O leitor será capaz de entender os três pilares da Estatística: Estatística Descritiva, Probabilidade e Inferência Estatística, sem conteúdo denso, mas uma abordagem direta da teoria seguida de exemplos para a elucidação do assunto.&lt;/p&gt;
-&lt;p&gt;Somos apenas o meio pelo qual se propaga o ensino da Estatística, por meio deste livro. Mas você leitor seja a fonte do saber, porque só o conhecimento liberta! Bons estudos!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Wed, 21 Feb 2024 15:51:49 +0000</pubDate>
+      <pubDate>Wed, 10 Jul 2024 22:27:18 +0000</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -1686,7 +1675,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/tree/main/scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20115%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20130%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercado livre (Capa comum triplex brilhosa; impressão interna preto e branco)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://shopee.com.br/product/880978340/20053618529/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shopee (Capa comum triplex brilhosa; impressão interna preto e branco)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.amazon.com/dp/6500515994&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon (Capa comum triplex brilhosa; impressão interna colorida)&lt;/a&gt;&lt;/li&gt;
@@ -1710,6 +1699,17 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Básica Aplicada às Ciências Agrárias</title>
+      <link>http://bendeivide.github.io/books/estbasica/</link>
+      <pubDate>Fri, 31 May 2024 18:28:50 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/estbasica/</guid>
+      <description>&lt;p&gt;Esta primeira Edição do Livro &lt;em&gt;Estatística Básica Aplicada às Ciências Agrárias&lt;/em&gt; é fruto de todo o material escrito em forma de notas de aula, apostila, listas de exercícios, bem como a aprendizagem e o ensino transmitido pelo Prof. Telde Natel Custodio em suas aulas de Estatística. Eu tive o imenso prazer de ser convidado para participar desse projeto porque é mais uma referência de apoio para quem inicia nos estudos da Estatística Básica. Como somos Engenheiros Agrônomos, nada mais recompensador do que devolver toda experiência adquirida em colaborações, consultorias de experimentos agrícolas, dentre outras situações experienciadas, de modo que fosse registrada por meio desse material.&lt;/p&gt;
+&lt;p&gt;A ideia deste livro foi de introduzir as ideias básicas do que se precisa para entender o mundo da estatística. Em uma ênfase prática, sem tanto rigor matemático na apresentação das definições, teoremas, etc., torna a leitura mais simples e didática para uma área tão importante da ciência como é a Estatística. O leitor será capaz de entender os três pilares da Estatística: Estatística Descritiva, Probabilidade e Inferência Estatística, sem conteúdo denso, mas uma abordagem direta da teoria seguida de exemplos para a elucidação do assunto.&lt;/p&gt;
+&lt;p&gt;Somos apenas o meio pelo qual se propaga o ensino da Estatística, por meio deste livro. Mas você leitor seja a fonte do saber, porque só o conhecimento liberta! Bons estudos!&lt;/p&gt;
 </description>
     </item>
     
