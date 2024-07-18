@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-07-18 20:06:55"
+date: "2024-07-18 20:52:02"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
