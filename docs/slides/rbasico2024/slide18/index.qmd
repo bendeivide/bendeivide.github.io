@@ -1,0 +1,295 @@
+---
+title: "{{< fa brands r-project >}} EAR: R Básico"
+subtitle: "Aula 18 - Boas práticas de como escrever um código"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+css: hscroll.css
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Links
+rlink <- "[R](http://r-project.org/){target='_blank'}"
+rstudio <- "[RStudio](http://rstudio.org/){target='_blank'}"
+cran <- "[CRAN](http://cran.r-project.org/){target='_blank'}"
+```
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+# Introdução {background-image="EAR-rbasico-background-02.png"}
+
+Nesse momento, entendemos os principais objetos para escrevermos os nossos *scripts*. Quando escrevemos um código, duas consequências ocorrem:
+
+-   guardá-lo para futuras consultas, ou
+-   compartilhamento.
+
+# Configurando o RStudio {background-image="EAR-rbasico-background-02.png"}
+
+Uma primeira ferramenta que pode ser configurada para quem usa o `rstudio` é acionar todas as opções de diagnóstico do seu código. Para isso no menu:
+
+-   `Tools > Global options > Code > Editing`. Marque todas as opções em `General`;
+-   `Tools > Global options > Code > Display`, Marque todas as opções;
+-   `Tools > Global options > Code > Diagnostics`. Marque todas as opções em `R Diagnostics`.
+
+# Usando o pacote [styler](https://styler.r-lib.org) {background-image="EAR-rbasico-background-02.png"} 
+
+```{r stylecode, fig.cap = "Estilo de código com o pacote [styler](https://styler.r-lib.org).", out.width="70%", fig.align='center'}
+knitr::include_graphics("stylecode.gif")
+```
+
+# Nomes de arquivos {background-image="EAR-rbasico-background-02.png"} 
+
+```         
+Boa escolha:
+-----------
+script.R
+nome_composto.R
+nome-composto.R
+
+Má escolha:
+-----------
+script.r
+nome composto.r
+```
+
+# Comentar as linhas de comando {background-image="EAR-rbasico-background-02.png"}
+
+```         
+Boa escolha:
+-----------
+# Objeto x
+x <- 1:10
+# Calculo da media
+mean(x)
+
+Má escolha:
+-----------
+x <- 1:10
+mean(x)
+```
+
+# Nomes de objetos {background-image="EAR-rbasico-background-02.png"}
+
+```         
+Boa escolha:
+-----------
+nome_curto
+aux1
+
+Má escolha:
+-----------
+nome_muito_grande
+Nome_Grande
+Aux1
+```
+
+## Nomes de objetos {background-image="EAR-rbasico-background-02.png"}
+
+```         
+Má escolha:
+-----------
+T <- "Nada"
+c <- 5
+sd <- 5 + 1
+mean <- 3 * 4
+```
+
+# Sintaxe {background-image="EAR-rbasico-background-02.png"}
+
+```         
+Boa escolha:
+-----------
+x <- 1:10
+media <- mean(x + 1 / length(x), na.rm = TRUE)
+base::mean(x)
+
+Má escolha:
+-----------
+x <- 1 : 10
+media<-mean(x+1/length(x),na.rm=TRUE)
+base :: mean(x)
+```
+
+# Usando [styler](https://styler.r-lib.org) {background-image="EAR-rbasico-background-02.png"}
+
+```{r eval=TRUE, echo=TRUE, prompt=TRUE}
+comando <- "media<-mean(x+1/length(x),na.rm=TRUE)"
+styler::style_text(comando)
+```
+
+# Alinhamento com `<-` ou `=` {background-image="EAR-rbasico-background-02.png"}
+
+```         
+Boa escolha:
+-----------
+data.frame(a = 1,
+           b = "Ben")
+
+function(){
+  x    <- 10
+  vari <- x + 1
+  return(vari)
+}
+
+for (i in 1:10) i + 1
+
+Má escolha:
+-----------
+function () 1
+for(i in 1:10) i + 1
+```
+
+# Parênteses e colchetes {background-image="EAR-rbasico-background-02.png"}
+
+```         
+Boa escolha:
+-----------
+if (verbose)
+x11 <- mat[1, 1]
+x1  <- mat[1, ]
+
+Má escolha:
+-----------
+if ( verbose )
+x11 <- mat[1,1]
+x1  <- mat[1,]
+```
+
+# Chaves {background-image="EAR-rbasico-background-02.png"}
+
+```         
+Boa escolha:
+-----------
+fx <- function(x) {
+  if (x > 2) {
+    print("Maior que 2!")
+  } else {
+    print("Menor que 2!")
+  }
+}
+
+for (i in 1:10) x <- i + 1
+
+Má escolha:
+-----------
+fx <- function(x) {
+if (x > 2) {
+print("Maior que 2!")
+} else {
+print("Menor que 2!")
+}
+}
+
+for (i in 1:10) {x <- i + 1}
+```
+
+# Símbolo de `<-` e `=` {background-image="EAR-rbasico-background-02.png"}
+
+```         
+Boa escolha:
+-----------
+fx <- function(x = NULL) 10
+a  <- "Nome" 
+
+Má escolha:
+-----------
+fx = function(x = NULL) 10
+a = "Nome"
+```
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

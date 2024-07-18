@@ -1,0 +1,143 @@
+---
+title: "EAR: R Básico"
+subtitle: "Aula 01 - Entendendo o curso EAR: R básico"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+
+# Ideia sobre o EAR: R básico {background-image="EAR-rbasico-background-02.png"}
+
+![](rworks2.png) 
+
+## Ideia sobre o EAR: R básico {background-image="EAR-rbasico-background-02.png"}
+
+![](rworks.png) 
+
+# Instalação do R e RStudio {background-image="EAR-rbasico-background-02.png"}
+
+- [Instalação do R](https://cran.r-project.org/)
+- [Instalação do RStudio](https://posit.co/download/rstudio-desktop/)
+- [Vídeo de auxílio para instalação](https://youtu.be/8_GrR3FLZJM)
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

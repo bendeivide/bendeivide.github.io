@@ -1,0 +1,175 @@
+---
+title: "EAR: R Básico"
+subtitle: "Aula 03 - Hitória do R"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+
+# Criadores do R {background-image="EAR-rbasico-background-02.png"}
+
+![](criadores_r.png){width="30%" title="Robert Gentleman e Ross Ihaka"}
+
+## Criadores do R
+
+-   Em 1991, nasce o projeto da criação do `R`;
+-   Os Professores da Universidade de Auckland, Nova Zelândia, Robert Gentleman e Ross Ihaka, buscam uma alternativa a linguagem `S` para análises estatísticas;
+-   Como alternativa a linguagem `S`, eles se baseiam na semântica de outra linguagem, `Scheme`;
+
+## Criadores do R
+
+-   Em 1993, o projeto é lançado e em 1995, o como Software livre;
+-   Em 1997 é criado o *R Core Team*;
+-   Em 1997, mas precisamente em 23 de abril, o CRAN (Comprehensive R Archive Network) foi ofialmente lançado;
+
+# Criador da linguagem `S` {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](john_chambers.jpg){width="50%" title="John Chambers"}
+</center>
+
+
+## Criador da linguagem `S` {background-image="EAR-rbasico-background-02.png"}
+
+- Ao pedir por e-mail, o direito do uso de sua foto no livro, John Chambers responde:
+
+. . .
+
+> Com certeza, fique à vontade para usar a foto. Os melhores votos de sucesso para o seu livro (John Chambers)
+
+# Criador do RStudio {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](jjallaire.jpg){width="50%" title="J. J. Allaire"}
+</center>
+
+# Versão 1.0.0 do `R` {background-image="EAR-rbasico-background-02.png"}
+
+
+
+```{r , echo=FALSE, fig.align='center', out.width="40%", fig.cap="Retirado do livro R Extending [@chambers2016].", fig}
+knitr::include_graphics("rversao1.png")
+```
+
+
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

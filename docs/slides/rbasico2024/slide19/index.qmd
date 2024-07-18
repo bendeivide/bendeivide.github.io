@@ -1,0 +1,233 @@
+---
+title: "{{< fa brands r-project >}} EAR: R Básico"
+subtitle: "Aula 19 - Pacotes"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+css: hscroll.css
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Links
+rlink <- "[R](http://r-project.org/){target='_blank'}"
+rstudio <- "[RStudio](http://rstudio.org/){target='_blank'}"
+cran <- "[CRAN](http://cran.r-project.org/){target='_blank'}"
+github <- "[GitHub](http://github.com/){target='_blank'}"
+```
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+# Pacote `r rlink` {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](meupacoter.png){width="80%"} <center/>
+
+# Perguntas básicas {background-image="EAR-rbasico-background-02.png"}
+
+-   **Quantidade?** [19937](https://cran.r-project.org/web/packages/){target="\_blank"} (≤ 26/09/2023)
+-   **Tipos?**: *.tar.gz*, *.zip*, etc...
+-   **Onde?** [CRAN](https://cran.r-project.org/mirrors.html){target="\_blank"}, [GitHub](http://github.com/){target="\_blank"}, etc...
+-   **Instalar?** `install.packages()`, atalhos do *RStudio*
+-   **Usar?** `library()`, `require()`, `::`, `:::`
+-   **Publicar?**: Sim ou Não!
+
+# Esqueleto de um pacote {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+
+```{r esqpack, fig.cap = "", fig.height=16, fig.width=9, fig.align='center'}
+knitr::include_graphics("esqueleto.png")
+```
+
+# Instalação {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="30%"}
+
+</br>
+</br>
+![](midrangeMCP.png){width="70%"}
+
+:::
+
+::: {.column width="70%"}
+::: nonincremental
+-   Instalação (CRAN)
+
+```{r echo=TRUE, eval=FALSE, }
+install.packages("midrangeMCP")
+```
+
+-   Pacote fonte (Local)
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE}
+install.packages(pkgs = "./midrangeMCP.tar.gz", 
+repos = NULL, type = "source")
+```
+
+-   `r github`
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE}
+install.packages("devtools")
+install_github("bendeivide/midrangeMCP")
+```
+
+:::
+
+
+:::
+:::
+
+
+
+
+
+
+
+## Instalação {background-image="EAR-rbasico-background-02.png"}
+
+-   [Pacotes desativados](https://youtu.be/FKItT65gphM){target="\_blank"}
+
+-   Diretório sob o `r cran`:
+
+    <http://cran.r-project.org/package=midrangeMCP>
+
+# Objetivos de um pacote {background-image="EAR-rbasico-background-02.png"}
+
+-   Compartilhamento de código;
+-   Otimizar suas atividades;
+-   Propagar conhecimento.
+
+# Usando as funções de um pacote {background-image="EAR-rbasico-background-02.png"}
+
+- Anexando os pacotes
+
+. . .
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE}
+# Carregando e anexando o pacote midrangeMCP
+library(midrangeMCP)
+
+# Usandos as fucoes diretamente
+MRbarplot()
+```
+
+- Sem anexar 
+
+. . .
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE}
+midrangeMCP::MRbarplot()
+```
+
+- Buscando por funções internas
+
+. . .
+
+```r
+midrangeMCP:::
+```
+
+# Ajuda de funções de um pacote {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+![](rstudio.png){width="50%"}
+</center>
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

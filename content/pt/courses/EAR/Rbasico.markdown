@@ -1,6 +1,6 @@
 ---
 title:  R básico
-date: "2023-09-29 13:48:59"
+date: "2024-07-15 19:19:28"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -132,7 +132,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 ## <i class="fas fa-swatchbook"></i> Livro de apoio {id="livro" title="Clique aqui!"}
 
 - Versão Física:
-  - {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20115%2C00%20para%20qualquer%20local%20do%20Brasil!)
+  - {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20130%2C00%20para%20qualquer%20local%20do%20Brasil!)
   - [Shopee](https://shopee.com.br/product/880978340/20053618529/)
   - [Mercado livre](https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM)
   - {{< icon name="amazon" pack="fab" >}} [Amazon](https://www.amazon.com/dp/6500531914)
@@ -681,8 +681,13 @@ Acesse: [Curso R - Nível Básico](https://www.youtube.com/watch?v=_JqtU3X101E&l
 {{< /spoiler >}}
 
 {{< spoiler text=":books: Adquira o Livro físico **R básico**" >}}
-- {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!)
+- {{< icon name="whatsapp" pack="fab" >}} [Allanna Lopes (Rep. comercial - venda direta)](https://api.whatsapp.com/send?phone=5584998196064&text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20130%2C00%20para%20qualquer%20local%20do%20Brasil!)
   - [Shopee](https://shopee.com.br/product/880978340/20053618529/)
+  - [Mercado livre](https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM)
+  - {{< icon name="amazon" pack="fab" >}} [Amazon](https://www.amazon.com/dp/6500531914)
+- Versão digital:
+  - {{< icon name="file-pdf" pack="fas" >}} [R básico (PDF)](https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf)
+  - {{< icon name="book-reader" pack="fas" >}} [R básico (Bookdown)](https://bendeivide.github.io/book-eambr01/)
 {{< /spoiler >}}
 
 

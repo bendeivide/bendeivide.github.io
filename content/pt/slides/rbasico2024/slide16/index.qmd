@@ -1,0 +1,546 @@
+---
+title: "{{< fa brands r-project >}} EAR: R Básico"
+subtitle: "Aula 16 - Estruturas de controle"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+css: hscroll.css
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Links
+rlink <- "[R](http://r-project.org/){target='_blank'}"
+rstudio <- "[RStudio](http://rstudio.org/){target='_blank'}"
+cran <- "[CRAN](http://cran.r-project.org/){target='_blank'}"
+```
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>![](EAR-rbasico.png)</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width="400"/>
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+# Introdução {background-image="EAR-rbasico-background-02.png"}
+
+As funções que utilizaremos, a seguir, são utilizadas quando desejamos realizar processos repetitivos para um determinado fim ou condicionado, as famosas estruturas de controle. Assim, como em outras linguagens, as funções utilizadas são: `if()`, `switch()`, `ifelse()`, `while()`, `repeat`, `for()`.
+
+## Introdução {background-image="EAR-rbasico-background-02.png"}
+
+Ideia básica:
+
+```         
+função (condição) {
+  expressão
+}
+```
+
+
+
+
+
+# Função `if()` {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+A sintaxe ...
+
+```         
+if (condição) {
+  expressão sob condição = TRUE
+} 
+```
+:::
+
+::: {.column width="50%"}
+
+<center>
+![](fluxo_if.png)
+</center>
+
+:::
+:::
+
+
+## Função `if()` {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="40%"}
+A sintaxe ...
+
+```         
+if (condição) {
+  expressão sob condição = TRUE
+} else {
+  expressão sob condição = FALSE
+}
+```
+
+:::
+
+::: {.column width="60%"}
+
+<center>
+![](fluxo_if_else.png){width="120%"}
+</center>
+
+:::
+:::
+
+
+
+
+## Exemplo 1 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo = TRUE, eval=TRUE, prompt=TRUE}
+# Objeto
+i <- 5
+# Estrutura if()
+if (i > 3) {
+  print("Maior que 3!")
+}
+```
+
+## Exemplo 2 {background-image="EAR-rbasico-background-02.png" auto-animate="true"}
+
+
+```{r echo = TRUE, eval=TRUE, prompt=TRUE, `code-line-numbers`="5,7|1-9"}
+# Objeto numerico
+x <- 10
+
+# Estrutura 'if'
+if (is.numeric(x)) {
+  print("Isso é um número")
+} 
+```
+
+## Exemplo 2 {background-image="EAR-rbasico-background-02.png" auto-animate="true"}
+
+
+```{r echo = TRUE, eval=TRUE, prompt=TRUE, `code-line-numbers`="5,7|1-9"}
+# Objeto numerico
+x <- 10
+
+# Estrutura 'if'
+if (is.numeric(x)) {
+  print("Isso é um número")
+} else {
+  print("Isso não é um número")
+}
+```
+
+
+
+## Exemplo 2 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo = TRUE, eval=TRUE, prompt=TRUE, `code-line-numbers`="2|1-6"}
+# eh o mesmo que
+if (is.numeric(x) == TRUE) {
+  print("Isso é um número")
+} else {
+  print("Isso não é um número")
+}
+```
+
+## Função `ifelse()` {background-image="EAR-rbasico-background-02.png"}
+
+Exemplo 3:
+
+```{r echo = TRUE, eval=TRUE, prompt=TRUE, error=TRUE, `code-line-numbers`="2,3|3|6|1-6"}
+# Objetos
+x <- 5
+w <- 3:8
+
+# Segunda forma
+if (x < w) x else w
+```
+
+## Função `ifelse()` {background-image="EAR-rbasico-background-02.png"}
+
+Sintaxe ...
+
+```         
+ifelse(condição, expressão sob TRUE, expressão sob FALSE)
+```
+<center>
+![](fluxo_ifelse.png){width="50%"}
+</center>
+
+## Exemplo 4 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval=TRUE, prompt=TRUE, , `code-line-numbers`="2,3|3|6|1-6"}
+# Objetos
+x <- 5
+w <- 3:8
+
+# Primeira sintaxe (Preferivel)
+ifelse(x < w, x, w)
+```
+
+## Exemplo 5 {background-image="EAR-rbasico-background-02.png" auto-animate="true"}
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE}
+x <- 2 # numero ou palavra
+
+# Estrutura 'if'
+if (is.character(x)) {
+  "palavra"
+} 
+```
+
+## Exemplo 5 {background-image="EAR-rbasico-background-02.png" auto-animate="true"}
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE}
+x <- 2 # numero ou palavra
+
+# Estrutura 'if'
+if (is.character(x)) {
+  "palavra"
+} else {
+    if ((x %% 2) == 0) {
+      "numero_par"
+    } 
+}
+```
+
+## Exemplo 5 {background-image="EAR-rbasico-background-02.png" auto-animate="true"}
+
+```{r echo=TRUE, eval=TRUE, prompt=TRUE}
+x <- 2 # numero ou palavra
+
+# Estrutura 'if'
+if (is.character(x)) {
+  "palavra"
+} else {
+    if ((x %% 2) == 0) {
+      "numero_par"
+    } else {
+        if ((x %% 2) == 1) {
+          "numero_impar"
+        } 
+    } 
+}
+```
+
+## Exemplo 6 {background-image="EAR-rbasico-background-02.png" auto-animate="true"}
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE, `code-line-numbers`="2|3|5|8-10|1-10"}
+# Objeto
+set.seed(15) # Fixando a semente
+x <- rnorm(1000) # Gerando 1000 numeros aleatorios
+# medida descritiva
+opcao <- "media" 
+# opcoes: "media", "mediana", 
+#         "medapar" (media #aparada)
+if (opcao == "media") {
+  cat("A média aritmética é:", round(mean(x), 4))
+} 
+```
+
+## Exemplo 6 {background-image="EAR-rbasico-background-02.png" auto-animate="true"}
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE}
+# Objeto
+set.seed(15) # Fixando a semente
+x <- rnorm(1000) # Gerando 1000 numeros aleatorios
+# medida descritiva
+opcao <- "media" 
+# opcoes: "media", "mediana", 
+#         "medapar" (media #aparada)
+if (opcao == "media") {
+  cat("A média aritmética é:", round(mean(x), 4))
+} else {
+    if (opcao == "mediana") {
+      cat("A mediana é:", round(mean(x), 4))
+    } 
+}
+```
+
+## Exemplo 6 {background-image="EAR-rbasico-background-02.png" auto-animate="true"}
+
+```{r echo=TRUE, eval=TRUE, prompt=TRUE}
+# Objeto
+set.seed(15) # Fixando a semente
+x <- rnorm(1000) # Gerando 1000 numeros aleatorios
+# medida descritiva
+opcao <- "media" 
+# opcoes: "media", "mediana", 
+#         "medapar" (media #aparada)
+if (opcao == "media") {
+  cat("A média aritmética é:", round(mean(x), 4))
+} else {
+    if (opcao == "mediana") {
+      cat("A mediana é:", round(mean(x), 4))
+    } else {
+        if (opcao == "medpar") {
+          cat("A média aparada é:", round(mean(x, trim = 0.1), 4))
+        }
+    }
+}
+```
+
+# Função `switch()` {background-image="EAR-rbasico-background-02.png"}
+
+Sintaxe...
+
+```         
+switch (objecto,  case = ação)
+```
+
+<center>
+![](fluxo_switch.png){width="40%"}
+</center>
+
+## Exemplo 7 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE, `code-line-numbers`="1|2|3|4|1-5"}
+switch(opcao,
+   media = cat("A média aritmética é:", round(mean(x), 4)),
+   mediana = cat("A mediana é:", round(mean(x), 4)),
+   medapar = cat("A média aparada é:", round(mean(x, trim = 0.1), 4))
+)
+```
+
+# Função `repeat()` {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="40%"}
+Sintaxe...
+
+```         
+repeat {
+   expressão ...
+}
+```
+
+:::
+
+::: {.column width="60%"}
+
+
+:::{.r-stack}
+![](fluxo_repeat_break.png){.fragment .fade-in-then-out width="1000"}
+
+![](fluxo_repeat_next.png){.fragment width="1000"}
+:::
+
+
+:::
+:::
+
+
+
+## Exemplo 8 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE, `code-line-numbers`="2|5-7|6|7-10|1-11"}
+# Contador
+i <- 1
+# Loop repeat
+repeat {
+  if (i > 5) {
+    break
+  } else {
+    print(i)
+    i <- i + 1
+  }
+}
+```
+
+## Exemplo 9 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE, `code-line-numbers`="3|4-7|6|1-11"}
+i <- 1 # Contador
+repeat { # Loop repeat
+  if (i > 5) break
+  else if (i == 3) {
+      i <- i + 1
+      next
+    } else {
+      print(i)
+      i <- i + 1
+    }
+}
+```
+
+# Função `while()` {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="40%"}
+Sintaxe...
+
+```         
+while (condição) {
+   expressão ...
+}
+```
+
+:::
+
+::: {.column width="60%"}
+
+![](loop_while.png)
+
+:::
+:::
+
+
+
+## Exemplo 10 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE, `code-line-numbers`="2|4|1-7"}
+# Contador
+i <- 1
+# Loop while
+while (i <= 5) {
+  print(i)
+  i <- i + 1
+}
+```
+
+## Exemplo 11 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE, `code-line-numbers`="7|1-11"}
+# Contador
+i <- 1
+# Loop while
+while (i <= 5) {
+  if (i == 3) {
+    i <- i + 1
+    next
+  }
+  print(i)
+  i <- i + 1
+}
+```
+
+# Função `for()` {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="40%"}
+Sintaxe...
+
+```         
+for (contador in lista) {
+   expressão ...
+}
+```
+
+:::
+
+::: {.column width="60%"}
+
+![](loop_for.png)
+
+:::
+:::
+
+
+
+## Exemplo 12 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE, `code-line-numbers`="2|1-4"}
+# Loop for
+for (i in 1:5) {
+  print(i)
+}
+```
+
+## Exemplo 13 {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval = TRUE, prompt=TRUE, `code-line-numbers`="4|1-7"}
+# Loop for
+for (i in 1:5) {
+  if (i == 3) {
+    next
+  }
+  print(i)
+}
+```
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

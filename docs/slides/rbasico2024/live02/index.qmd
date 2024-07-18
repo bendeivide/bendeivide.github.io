@@ -1,0 +1,270 @@
+---
+title: "{{< fa brands r-project >}} EAR: R Básico"
+subtitle: " LIVE 02 - Dúvidas sobre as aulas 08 a 15"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>![](EAR-rbasico.png)</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width="300"/>
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+
+# Perguntas do <i class="fa-brands fa-youtube"></i> {background-image="EAR-rbasico-background-02.png"}
+
+1. [\@joaomateusrodriguesdealmei7091](https://www.youtube.com/channel/UC0WtzhX1YjF6oXuXbkSuDbg)
+ 
+. . .
+
+> Quando eu associo o `x` com o `10L` (`x <- 10L`) e em seguida eu associo o `y` com o `x` (`y <- x`), tanto o `x` quanto o `y` terão a mesma referência (endereço de memória) do `10L`. O mesmo acontece quando eu faço em linhas separadas? Ex.: `x <- 10L; y <-- 10L` # `x` e `y` estão associados ao mesmo `10L` ou diferentes `10L`'s, como se fosse um objeto para cada?  Muito obrigado pela aula, sucesso!
+
+# Perguntas do grupo <i class="fa-brands fa-whatsapp"></i> {background-image="EAR-rbasico-background-02.png"}
+
+1. Jonatan Souto Dourado
+
+. . .
+
+> Quais são os desafios comuns que os iniciantes enfrentam ao aprender R e como superá-los?
+
+## Perguntas do grupo <i class="fa-brands fa-whatsapp"></i> {background-image="EAR-rbasico-background-02.png"}
+
+2. Júlia Vitória Sandes de Jesus
+
+. . . 
+
+> Qual é a importância dos três princípios do R?
+
+. . .
+
+> O que é o prompt? Qual é a sua importância?
+
+## Perguntas do grupo <i class="fa-brands fa-whatsapp"></i> {background-image="EAR-rbasico-background-02.png"}
+
+3. Marcelo de Moura Costa
+
+. . .
+
+> Gostaria de entender porque o R está como não confiável dentre os programas da central do Ubuntu?
+
+## Perguntas do grupo <i class="fa-brands fa-whatsapp"></i> {background-image="EAR-rbasico-background-02.png"}
+
+4. Marcia Regina Godoy
+
+. . .
+
+> Qual é o modo mais prático para atualizar o R e Rstudio?
+
+> Como fazer a descompactação de dados zipado obtidos via webscrapping?
+
+. . .
+
+*[Uma possível solução!](https://www.analyticssteps.com/blogs/data-scraping-r-programming-part-1)*
+
+
+## Perguntas do grupo <i class="fa-brands fa-whatsapp"></i> {background-image="EAR-rbasico-background-02.png"}
+
+
+5. Leonardo Deosti
+
+. . .
+
+>Assistindo a aula 14 eu pude ver de que forma que o R poderá ser útil para a minha pesquisa de doutorado. Meu orientador divulgou o curso e comentou que seria interessante participar para compreender de que forma podemos fazer as nossas análises de dados (utilizamos o [Iramuteq](http://www.iramuteq.org/)). Você sabe como relacionar esse software com o ambiente R? Tem algum exemplo prático que possa ser mostrado? 
+
+
+# Questões do livro <i class="fa-solid fa-book"></i> {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+<font size="+2">
+
+1. [@batista2021, p. 122] Crie um quadro de dados (*data frame*) a partir de uma lista, sem usar a função `data.frame()`.
+
+2. [@batista2021, p. 123] Vejamos o seguinte *script*:
+
+```{.r code-line-numbers="1-10|3|8|10|1-10"}
+# Objeto lista
+dados <- list(
+  mean = mean <- function(...) print("Nada"),
+  y = 1:10,
+  z = rep(c(TRUE, FALSE), 5)
+)
+# Quebra do quadro de dados
+attach(dados)
+# calcular a media de y
+mean(y)
+```
+
+Por que não foi possível calcular a média para `y`? Será que foi porque não usamos `mean(dado$y)`? Explique.
+
+
+</font>
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+</br>
+</br>
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="50%"}
+
+</center>
+
+:::
+
+::::
+
+
+## Questões do livro {background-image="EAR-rbasico-background-02.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+<font size="+2">
+
+1. [@batista2021, p. 214] Vejamos a seguinte implementação:
+
+```{.r code-line-numbers="1-10|2|4|6|7|8|10|1-10"}
+# Instalando o pacote leem
+install.packages("leem")
+# Anexando o pacote leem
+library(leem)
+# Criando um histograma
+x <- rnorm(36, 100, 4)
+x <- new_leem(x, variable = 2)
+x <- tabfreq(x)
+# Gerando um histograma de frequencias
+hist(x)
+```
+Como poderíamos executar o código usando o operador *pipe* nativo (`|>`)?
+
+
+
+
+</font>
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+</br>
+</br>
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="50%"}
+
+</center>
+
+:::
+
+::::
+
+
+
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

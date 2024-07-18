@@ -1,0 +1,217 @@
+---
+title: "{{< fa brands r-project >}} EAR: R Básico"
+subtitle: "Aula 20 - Carregando e anexando pacotes"
+title-slide-attributes:
+    data-background-image: EAR-rbasico-background.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+css: hscroll.css
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Links
+rlink <- "[R](http://r-project.org/){target='_blank'}"
+rstudio <- "[RStudio](http://rstudio.org/){target='_blank'}"
+cran <- "[CRAN](http://cran.r-project.org/){target='_blank'}"
+github <- "[GitHub](http://github.com/){target='_blank'}"
+```
+
+# Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<center>
+
+![](EAR-rbasico.png) 
+
+</center>
+
+# Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="EAR-rbasico-background-02.png"}
+
+::: columns
+::: {.column width="50%"}
+::: nonincremental
+-   <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+:::
+
+<center>![](ceac.png){width="70%"}</center>
+:::
+
+::: {.column width="50%"}
+::: nonincremental
+-   [ufsj.edu.br/](ufsj.edu.br/)
+:::
+
+<center><img src="ufsj.png" title="ufsj.edu.br/" width="300"/></center>
+:::
+:::
+
+# Livro de Apoio {background-image="EAR-rbasico-background-02.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+# Introdução {background-image="EAR-rbasico-background-02.png"}
+
+O que significa
+
+-   Instalar...
+-   Anexar...
+-   Carregar...
+
+... um pacote?
+
+# Anexar um pacote {background-image="EAR-rbasico-background-02.png"}
+
+-   Funções: `library()` ou `require()`
+-   Caminho de busca
+
+# Exemplo de anexação de um pacote {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Caminho de busca
+search()
+
+# Carregando e anexando um pacote
+library(midrangeMCP)
+
+# Verificando novamente o caminho de busca
+search()
+```
+
+## Exemplo de anexação de um pacote {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, eval=FALSE, prompt=TRUE}
+# Chamando uma funcao do pacote
+guimidrangeMCP()
+```
+
+<center>
+
+![](guiMCP.png){width="90%"} <center/>
+
+# Carregando um pacote
+
+-   Usar o operador `::`
+-   O pacote não anexa ao caminho de busca
+
+## Carregando um pacote {background-image="EAR-rbasico-background-02.png"}
+
+```{r eval=FALSE, eval = TRUE, include=FALSE}
+# Desanexando
+detach("package:midrangeMCP", unload = TRUE)
+
+# Variavel resposta
+rv <- c(100.08, 105.66, 97.64, 100.11, 102.60, 121.29, 100.80,
+        99.11, 104.43, 122.18, 119.49, 124.37, 123.19, 134.16,
+        125.67, 128.88, 148.07, 134.27, 151.53, 127.31)
+
+# Tratamento
+treat <- factor(rep(LETTERS[1:5], each = 4))
+
+# Anava
+res     <- anova(aov(rv~treat))
+DFerror <- res$Df[2]
+MSerror <- res$`Mean Sq`[2]
+
+# Aplicando testes
+results <- midrangeMCP::MRtest(y = rv,
+                  trt = treat,
+                  dferror = DFerror,
+                  mserror = MSerror,
+                  alpha = 0.05,
+                  main = "PCM",
+                  MCP = c("MGM"))
+```
+
+```{r echo=TRUE, prompt=TRUE}
+# Caminho de busca
+search()
+```
+
+## Carregando um pacote {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Carregando e chamando uma função de um pacote
+midrangeMCP::MRwrite(results, extension = "latex")
+```
+
+## Carregando um pacote {background-image="EAR-rbasico-background-02.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Verificando novamente o caminho de busca
+search()
+```
+
+# Situações {background-image="EAR-rbasico-background-02.png"}
+
+-   Que situações, devo...
+    -   Anexar...
+    -   Carregar...
+
+...um pacote?
+
+-   Implicações?
+
+# Obrigado {background-image="EAR-rbasico-background-02.png"}
+
+Sugestões, perguntas, críticas...
+
+<a href="https://bendeivide.github.io/courses/ear/rbasico/" target="_blank" style="text-align: center;">
+
+<img src="EAR-rbasico02.png" width = "400">
+
+</a>
+
+# Referências {background-image="EAR-rbasico-background-02.png"}

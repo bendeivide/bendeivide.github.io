@@ -15,13 +15,23 @@
     <item>
       <title>R básico 2024</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico2024/</link>
-      <pubDate>Wed, 10 Jul 2024 12:50:36 +0000</pubDate>
+      <pubDate>Thu, 18 Jul 2024 20:06:55 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico2024/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#inscricao&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt; Inscrição do curso&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#lancamento&#34;&gt;&lt;i class=&#34;fas fa-bullhorn&#34;&gt;&lt;/i&gt;  Vídeo de lançamento do curso&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#apoio&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt; Apoio&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#topicos&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#onde&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#cronograma&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#ementa&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Ementa&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#livro&#34;&gt;&lt;i class=&#34;fas fa-swatchbook&#34;&gt;&lt;/i&gt; Livro de apoio&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#quiz&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;/details&gt;
@@ -59,14 +69,200 @@
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://forms.gle/Pm1s7EbZT1w7vE5d7&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Em desenvolvimento&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 30 horas em 3 semanas&lt;/p&gt;
+&lt;h2 id=&#34;lancamento&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-bullhorn&#34;&gt;&lt;/i&gt;  Vídeo de lançamento do curso&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; 23/07/2024 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 19:30h&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico2024/lancamento/index.html&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slide&lt;/em&gt; de lançamento&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BqsgUG0-ZJw?si=cP5IfOXKeRdFAUw8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;h2 id=&#34;apoio&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt; Apoio&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/slides/ceac/index.html&#34; target=&#34;_blank&#34;&gt;CEAC/UFSJ: Clube de Engenharia Assistida por Computador&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-instagram&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.instagram.com/ceac_ufsj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@ceac_ufsj&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ufsj.edu.br&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-md-8&#34; markdown=&#34;1&#34;&gt;
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;figure  &gt;
+    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                 /media/ceac_huff29e3605d6b85d3aeb4c3653c4164c2_315234_e5074b408d397d4f6a09d600bc1b6e05.webp 400w,
+                 /media/ceac_huff29e3605d6b85d3aeb4c3653c4164c2_315234_551fc2be89d7945bc6006d032b5e44eb.webp 760w,
+                 /media/ceac_huff29e3605d6b85d3aeb4c3653c4164c2_315234_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+                 src=&#34;http://bendeivide.github.io/media/ceac_huff29e3605d6b85d3aeb4c3653c4164c2_315234_e5074b408d397d4f6a09d600bc1b6e05.webp&#34;
+                 width=&#34;60%&#34;
+                 height=&#34;760&#34;
+                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;col-md-4&#34; markdown=&#34;1&#34;&gt;
+  &lt;!-- ![Alt Text](../img/folder/blah.jpg) --&gt;
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;figure  &gt;
+    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+                 /media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_f00385046409acb6ee4a2d0a9c771416.webp 400w,
+                 /media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_18526b9828b1e068de546d8c5d87b77b.webp 760w,
+                 /media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+                 src=&#34;http://bendeivide.github.io/media/ufsj_hu0fad3e7eab8c031f3ba987f70f8f0451_36447_f00385046409acb6ee4a2d0a9c771416.webp&#34;
+                 width=&#34;100%&#34;
+                 height=&#34;433&#34;
+                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;  Apresentação&lt;/h2&gt;
+&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5kGEdVBFLtQ?si=69FyDjTjoALR0zsu&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre a linguagem &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, bem como colaborações e estudos ao longo dos anos. Em 2005, quando ingressei no curso de Engenharia Agronômica, fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, obtive o primeiro contato com o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; pouco mais de 9 anos de seu lançamento e redistribuição. Naquela época, haviam poucos materiais em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para a compreensão. À época, inclusive, até sonhei em chegar neste dia, qua seja, o dia do lançamento de uma obra como esta.&lt;/p&gt;
+&lt;p&gt;Hoje, no ano de 2024, usuário há mais de 18 anos dessa linguagem, percebi um sentimento inquietante somente na posição de usuário do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Eu posso reafirmar que uma estratégia muito poderosa de ensino/aprendizagem é a técnica &lt;em&gt;aprender por ensinar&lt;/em&gt;, particularmente, porque além de democratizar o conhecimento  perpetuando-o, aprendo mais e mais sobre determinado assunto. Dessa forma, lotado no Departamento de Estatística, Física e Matemática &lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt; desde 2018, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), comecei a planejar diversos &lt;a href=&#34;http://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cursos sobre a linguagem R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Com o apoio do Centro Acadêmico de Engenharia de Telecomunicações (Catel/UFSJ), iniciei, no ano de 2021, o primeiro curso para o módulo Básico, e na sequência foi realizado o módulo intermediário. Todos no formato &lt;em&gt;online&lt;/em&gt;, para que o conhecimento ultrapassasse as fronteiras da Universidade. Até o presente momento, o módulo avançado que seria o último curso, está em fase de desenvolvimento. A ideia deu tanto certo, que apesar do momento de pandemia e situação difícil para o mundo, foi realizada mais de 1.000 inscrições, tanto de alunos da UFSJ, como também de alunos da América do Sul, Moçambique, Angola, dentre outros países e outros estados do Brasil. Tudo isso, realizado de forma gratuita e com emissão de certificados emitidos pelo Catel. Hoje, temos a parceria do &lt;a href=&#34;https://www.instagram.com/ceac_ufsj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEAC&lt;/a&gt; (Clube de Engenharia Assistida por Computador/UFSJ) para o suporte nos cursos do EAR.&lt;/p&gt;
+&lt;p&gt;Os cursos ministrados sobre o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; tentaram de forma simplificada, apresentar as ideias básicas sobre a sintaxe e semântica da linguagem, sendo criado três módulos, o nível básico, intermediário e avançado. No primeiro contato do aluno com o &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; nos cursos, não se aborda situações complexas, mas sim, o fundamental para uso como ferramenta básica. À medida que a aprendizagem nos módulos se avança, os problemas se tornam mais complexos, e a introdução de ferramentas tecnológicas é utilizada para auxiliar os alunos no entendimento sobre a linguagem. O resultado dessa experiência ficará registrada, em forma de conhecimento, na coleção apresentada a seguir.&lt;/p&gt;
+&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;&lt;/em&gt; apresenta três &lt;em&gt;Volumes&lt;/em&gt; iniciais, intitulados por:  o &lt;em&gt;R básico&lt;/em&gt; (&lt;em&gt;Volume I&lt;/em&gt;), o &lt;em&gt;R intermediário&lt;/em&gt;  (&lt;em&gt;Volume II&lt;/em&gt;) e o &lt;em&gt;R avançado&lt;/em&gt; (&lt;em&gt;Volume III&lt;/em&gt;). Fazendo a alusão aos três livros iniciais sobre a linguagem &lt;code&gt;S&lt;/code&gt; desenvolvidos por John Chambers e colaboradores, é realizado uma explanação desde assuntos mais simples até noções mais complexas sobre o &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, restringindo apenas a sintaxe e semântica da linguagem. Os &lt;em&gt;Volumes&lt;/em&gt; subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos no R&lt;/em&gt;, &lt;em&gt;Funções do pacote &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;base&lt;/a&gt;&lt;/em&gt;, dentre outros.&lt;/p&gt;
+&lt;p&gt;Tentando engajar os alunos para que se tornem protagonistas do processo de aprendizagem, e agora colegas de trabalho, tenho a parceria no &lt;em&gt;Volume I&lt;/em&gt;, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, um ex-orientando, e agora um profissional que tenta se superar a cada desafio e assunto estudado. Por isso, tenho a imensa satisfação de ter a sua contribuição e experiência neste material.&lt;/p&gt;
+&lt;p&gt;Por fim, espero que este primeiro &lt;em&gt;curso&lt;/em&gt; sirva de referência aos passos iniciais nessa ferramenta tão importante para a análise de dados.&lt;/p&gt;
+&lt;h2 id=&#34;topicos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/h2&gt;
+&lt;p&gt;Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.&lt;/p&gt;
+&lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-route&#34;&gt;&lt;/i&gt; O curso será ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), no formato &lt;em&gt;online&lt;/em&gt; via Youtube, pelo canal &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; Data: &lt;strong&gt;Início: 01/08/2024  Término: 30/09/2024&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
+&lt;img src=&#34;http://bendeivide.github.io/pt/courses/EAR/Rbasico2024_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;Apresentação do Curso&lt;/li&gt;
+&lt;li&gt;Instalação do R e do RStudio&lt;/li&gt;
+&lt;li&gt;Passos iniciais para a utilização do R e do RStudio&lt;/li&gt;
+&lt;li&gt;História do R&lt;/li&gt;
+&lt;li&gt;Como o R trabalha&lt;/li&gt;
+&lt;li&gt;Comandos no R e Ambiente Global&lt;/li&gt;
+&lt;li&gt;Arquivos .RData e .Rhistory&lt;/li&gt;
+&lt;li&gt;Criando e salvando um Script&lt;/li&gt;
+&lt;li&gt;Objetos&lt;/li&gt;
+&lt;li&gt;Vetores&lt;/li&gt;
+&lt;li&gt;Matrizes&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Arrays&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Listas&lt;/li&gt;
+&lt;li&gt;Quadro de dados (&lt;em&gt;Data frames&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Importando dados&lt;/li&gt;
+&lt;li&gt;Funções&lt;/li&gt;
+&lt;li&gt;Estruturas de controle&lt;/li&gt;
+&lt;li&gt;Como criar funções&lt;/li&gt;
+&lt;li&gt;Boas práticas de como escrever um código&lt;/li&gt;
+&lt;li&gt;Pacotes&lt;/li&gt;
+&lt;li&gt;Carregando e Anexando pacotes&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;NAMESPACE&lt;/em&gt; de um pacote&lt;/li&gt;
+&lt;li&gt;Quando devemos utilizar os operadores &lt;code&gt;::&lt;/code&gt; e &lt;code&gt;:::&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ambientes e Caminhos de busca&lt;/li&gt;
+&lt;li&gt;Interface com outras linguagens&lt;/li&gt;
+&lt;li&gt;Considerações e Preparação para o curso &lt;strong&gt;R intermediário&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;livro&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-swatchbook&#34;&gt;&lt;/i&gt; Livro de apoio&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Versão Física:
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20130%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shopee.com.br/product/880978340/20053618529/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shopee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercado livre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-amazon  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Versão digital:
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (Bookdown)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
+&lt;p&gt;Em desenvolvimento&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;&amp;#x1f4d6; Livro de apoio?&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Acesse: &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;&amp;#x1f4c1; Curso anterior!&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;&amp;#x1f3ac; Playlist do Youtube (cursos anteriores)&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_JqtU3X101E&amp;amp;list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;&amp;#x1f4da; Adquira o Livro físico &lt;strong&gt;R básico&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20130%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shopee.com.br/product/880978340/20053618529/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shopee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercado livre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-amazon  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
 </description>
     </item>
     
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Fri, 29 Sep 2023 13:48:59 +0000</pubDate>
+      <pubDate>Mon, 15 Jul 2024 19:19:28 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -256,7 +452,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;li&gt;Versão Física:
 &lt;ul&gt;
 &lt;li&gt;
-  &lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20115%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;&lt;/li&gt;
+  &lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20130%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://shopee.com.br/product/880978340/20053618529/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shopee&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercado livre&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -846,11 +1042,17 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-44&#34;&gt;
   &lt;summary&gt;&amp;#x1f4da; Adquira o Livro físico &lt;strong&gt;R básico&lt;/strong&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%2095%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20130%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://shopee.com.br/product/880978340/20053618529/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shopee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://produto.mercadolivre.com.br/MLB-2838245818-livro-r-basico-capa-simples-colorido-e-impresso-interna-em-preto-e-branco-_JM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mercado livre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
+&lt;i class=&#34;fab fa-amazon  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.amazon.com/dp/6500531914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;versão-digital&#34;&gt;Versão digital:&lt;/h2&gt;
+&lt;h2 id=&#34;i-classfas-fa-file-pdf--pr-1-fa-fwi-r-básico-pdfhttpsgithubcombendeividebook-eambr01rawmaindocsbook-eambr01pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (PDF)&lt;/a&gt;&lt;/h2&gt;
+&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico (Bookdown)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;</description>
