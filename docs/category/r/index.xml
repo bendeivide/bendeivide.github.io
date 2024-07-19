@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 19 Jul 2024 07:57:41 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 19 Jul 2024 14:07:12 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R básico 2024</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico2024/</link>
-      <pubDate>Fri, 19 Jul 2024 07:57:41 +0000</pubDate>
+      <pubDate>Fri, 19 Jul 2024 13:53:56 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico2024/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -225,13 +225,14 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;&amp;#x1f4d8; Aula 00 - Apresentação do curso&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Apresentação do curso&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico/slide00/index.html&#34; target=&#34;_blank&#34;&gt;Aula 00&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico2024/slide00/index.html&#34; target=&#34;_blank&#34;&gt;Aula 00&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 30 minutos&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1sVrVqx2X43KEHsLGfN25mj5og1zWJ3LLIdmLgnjr9VI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01sol/&#34;&gt;Livro: R básico - manual de soluções&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;Exercícios propostos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1879,6 +1880,63 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     </item>
     
     <item>
+      <title>R básico - manual de soluções</title>
+      <link>http://bendeivide.github.io/books/eambr01sol/</link>
+      <pubDate>Fri, 19 Jul 2024 14:07:12 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
+      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
+&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;estatísticas-de-donwload-do-pdf&#34;&gt;Estatísticas de &lt;em&gt;donwload&lt;/em&gt; do PDF?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Estatísticas do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico: manual de soluções (HTML)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
+&lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=558499819606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
+&lt;p&gt;O R básico: Manual de Soluções vem com o propósito de detalhar
+as estratégias de como resolver os exercícios do livro R básico,
+enfatizando as estratégias com que as soluções podem ser desenvolvidas.
+Mostraremos mecanismos não apenas de como resolveremos
+os problemas, mas como eles podem ser abordados de forma didática
+para cursos ou disciplinas que utilizem o R básico.
+Por fim, este livro vem complementar todo assunto introdutório
+do R , para o entendimento via exercícios resolvidos, e esperamos que
+o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estimação Estatística</title>
+      <link>http://bendeivide.github.io/books/estest/</link>
+      <pubDate>Fri, 19 Jul 2024 14:06:26 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/estest/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ano: 2021&lt;/li&gt;
+&lt;li&gt;ISBN: 978-65-88319-63-5&lt;/li&gt;
+&lt;li&gt;DOI: &lt;a href=&#34;https://doi.org/10.46420/9786588319635&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.46420/9786588319635&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Autor(es): Janilson Pinheiro de Assis, Roberto Pequeno de Sousa, Paulo César Ferreira Linhares, Ben Dêivide de Oliveira Batista e Eudes de Almeida Cardoso&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estatística Básica Aplicada às Ciências Agrárias</title>
+      <link>http://bendeivide.github.io/books/estbasica/</link>
+      <pubDate>Fri, 19 Jul 2024 14:04:48 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/estbasica/</guid>
+      <description>&lt;p&gt;Esta primeira Edição do Livro &lt;em&gt;Estatística Básica Aplicada às Ciências Agrárias&lt;/em&gt; é fruto de todo o material escrito em forma de notas de aula, apostila, listas de exercícios, bem como a aprendizagem e o ensino transmitido pelo Prof. Telde Natel Custodio em suas aulas de Estatística. Eu tive o imenso prazer de ser convidado para participar desse projeto porque é mais uma referência de apoio para quem inicia nos estudos da Estatística Básica. Como somos Engenheiros Agrônomos, nada mais recompensador do que devolver toda experiência adquirida em colaborações, consultorias de experimentos agrícolas, dentre outras situações experienciadas, de modo que fosse registrada por meio desse material.&lt;/p&gt;
+&lt;p&gt;A ideia deste livro foi de introduzir as ideias básicas do que se precisa para entender o mundo da estatística. Em uma ênfase prática, sem tanto rigor matemático na apresentação das definições, teoremas, etc., torna a leitura mais simples e didática para uma área tão importante da ciência como é a Estatística. O leitor será capaz de entender os três pilares da Estatística: Estatística Descritiva, Probabilidade e Inferência Estatística, sem conteúdo denso, mas uma abordagem direta da teoria seguida de exemplos para a elucidação do assunto.&lt;/p&gt;
+&lt;p&gt;Somos apenas o meio pelo qual se propaga o ensino da Estatística, por meio deste livro. Mas você leitor seja a fonte do saber, porque só o conhecimento liberta! Bons estudos!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
       <pubDate>Wed, 10 Jul 2024 22:27:18 +0000</pubDate>
@@ -1923,17 +1981,6 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     </item>
     
     <item>
-      <title>Estatística Básica Aplicada às Ciências Agrárias</title>
-      <link>http://bendeivide.github.io/books/estbasica/</link>
-      <pubDate>Fri, 31 May 2024 18:28:50 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/estbasica/</guid>
-      <description>&lt;p&gt;Esta primeira Edição do Livro &lt;em&gt;Estatística Básica Aplicada às Ciências Agrárias&lt;/em&gt; é fruto de todo o material escrito em forma de notas de aula, apostila, listas de exercícios, bem como a aprendizagem e o ensino transmitido pelo Prof. Telde Natel Custodio em suas aulas de Estatística. Eu tive o imenso prazer de ser convidado para participar desse projeto porque é mais uma referência de apoio para quem inicia nos estudos da Estatística Básica. Como somos Engenheiros Agrônomos, nada mais recompensador do que devolver toda experiência adquirida em colaborações, consultorias de experimentos agrícolas, dentre outras situações experienciadas, de modo que fosse registrada por meio desse material.&lt;/p&gt;
-&lt;p&gt;A ideia deste livro foi de introduzir as ideias básicas do que se precisa para entender o mundo da estatística. Em uma ênfase prática, sem tanto rigor matemático na apresentação das definições, teoremas, etc., torna a leitura mais simples e didática para uma área tão importante da ciência como é a Estatística. O leitor será capaz de entender os três pilares da Estatística: Estatística Descritiva, Probabilidade e Inferência Estatística, sem conteúdo denso, mas uma abordagem direta da teoria seguida de exemplos para a elucidação do assunto.&lt;/p&gt;
-&lt;p&gt;Somos apenas o meio pelo qual se propaga o ensino da Estatística, por meio deste livro. Mas você leitor seja a fonte do saber, porque só o conhecimento liberta! Bons estudos!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Materiais didáticos e Pacotes R para análise de experimentos</title>
       <link>http://bendeivide.github.io/post/expagric40/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
@@ -1957,38 +2004,6 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.expstat.com/eventos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2° Workshop: Experimentação na Agricultura 4.0&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R básico - manual de soluções</title>
-      <link>http://bendeivide.github.io/books/eambr01sol/</link>
-      <pubDate>Thu, 17 Aug 2023 07:10:08 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
-      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
-&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;estatísticas-de-donwload-do-pdf&#34;&gt;Estatísticas de &lt;em&gt;donwload&lt;/em&gt; do PDF?&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Estatísticas do R básico&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico: manual de soluções (HTML)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
-&lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=558499819606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
-&lt;p&gt;O R básico: Manual de Soluções vem com o propósito de detalhar
-as estratégias de como resolver os exercícios do livro R básico,
-enfatizando as estratégias com que as soluções podem ser desenvolvidas.
-Mostraremos mecanismos não apenas de como resolveremos
-os problemas, mas como eles podem ser abordados de forma didática
-para cursos ou disciplinas que utilizem o R básico.
-Por fim, este livro vem complementar todo assunto introdutório
-do R , para o entendimento via exercícios resolvidos, e esperamos que
-o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
 </description>
     </item>
     
@@ -2054,20 +2069,6 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;detalhes-sobre-o-livro&#34;&gt;Detalhes sobre o livro&lt;/h2&gt;
 &lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;http://bendeivide.github.io/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt;, como também sua versão em &lt;a href=&#34;https://github.com/bendeivide/book-epaec/raw/master/docs/book-epaec.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;, e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-epaec&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estimação Estatística</title>
-      <link>http://bendeivide.github.io/books/estest/</link>
-      <pubDate>Sun, 13 Mar 2022 17:57:45 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/estest/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Ano: 2021&lt;/li&gt;
-&lt;li&gt;ISBN: 978-65-88319-63-5&lt;/li&gt;
-&lt;li&gt;DOI: &lt;a href=&#34;https://doi.org/10.46420/9786588319635&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.46420/9786588319635&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Autor(es): Janilson Pinheiro de Assis, Roberto Pequeno de Sousa, Paulo César Ferreira Linhares, Ben Dêivide de Oliveira Batista e Eudes de Almeida Cardoso&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

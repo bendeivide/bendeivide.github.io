@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-07-19 07:57:41"
+date: "2024-07-19 13:53:56"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -140,12 +140,13 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 {{< spoiler text=":blue_book: Aula 00 - Apresentação do curso" >}}
 
 {{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Apresentação do curso
-{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide00/index.html" target="_blank">Aula 00</a>
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide00/index.html" target="_blank">Aula 00</a>
 {{< icon name="clock" pack="fas" >}} __Tempo:__ 30 minutos
 {{< icon name="headphones" pack="fas" >}} __Podcast__
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1sVrVqx2X43KEHsLGfN25mj5og1zWJ3LLIdmLgnjr9VI/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} __Material para consulta__
    - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Livro: R básico - manual de soluções]({{< relref "books/eambr01sol/index" >}})
    - [Curso R](courses/cursor/)
    - [Exercícios propostos]({{< relref "" >}})
 

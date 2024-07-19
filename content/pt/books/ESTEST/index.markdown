@@ -1,10 +1,10 @@
 ---
 title: Estimação Estatística
-summary: Livro publicado
+summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
 - bookestest
 categories: ["R", "Estatística", "Estimação"]
-date: "2022-03-13 17:57:45"
+date: "2024-07-19 14:06:26"
 
 commentable: true
 

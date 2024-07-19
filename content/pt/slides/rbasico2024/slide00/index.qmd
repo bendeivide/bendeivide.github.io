@@ -1,5 +1,5 @@
 ---
-title: "EAR: R Básico"
+title: "EAR: R Básico 2024"
 subtitle: "Aula 00 - Apresentação do curso"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
@@ -99,77 +99,68 @@ Página do curso
 
 # Planejamento das aulas {background-image="EAR-rbasico-background-02.png"}
 
-<font size="+2">
+```{r echo=FALSE, warning=FALSE, results='hide', message=FALSE}
+library(calendR)
+# Data
+## Quarta-feira: 13h às 15h
+## Quinta-feira: 15h às 17h
+## Sexta-feita: 13h às 17h
 
-::: columns
-::: {.column width="25%"}
-::: nonincremental
-**S1: 13-15/09**
 
--   Dia 13/09
-    -   Aula 00
-    -   Aula 01
-    -   Aula 02
-    -   Aula 03
-    -   Aula 04\*
-    -   Aula 05\*
-    -   Aula 06
-    -   Aula 07
--   [Dia 14/09]{style="color: yellow;"}
-    -   [*Live* de dúvidas]{style="color: yellow;"}
-:::
-:::
+# tutorial calendR
+# https://r-coder.com/calendar-plot-r/
 
-::: {.column width="25%"}
-::: nonincremental
-**S1: 13-15/09**
+events <- rep(NA, 61)
+quartas <- seq(07, 61, by = 7)
+quintas <- seq(01, 61, by = 7)
+sextas <- seq(02, 61, by = 7)
+events[c(quartas, sextas)] <- "Aulas gravadas \n 19h30min (Youtube)"
 
--   Dia 15/09
-    -   Aula 08\*
-    -   Aula 09
-    -   Aula 10
-    -   Aula 11
-    -   Aula 12
-:::
-:::
+# Lives
+lives <- quintas
+events[lives] <- "Aulas ao vivo \n 19h30min (Youtube)"
 
-::: {.column width="25%"}
-::: nonincremental
-**S2: 20-22/09**
+# Inicio/termino
+# initer <- c(44, 60)
+# events[initer] <- "Início/Término \ndo curso"
 
--   Dia 20/09
-    -   Aula 13
-    -   Aula 14
-    -   Aula 15\*
--   [Dia 21/09]{style="color: yellow;"}
-    -   [*Live* de dúvidas]{style="color: yellow;"}
--   Dia 22/09
-    -   Aula 16
-    -   Aula 17\*
-    -   Aula 18
-:::
-:::
+# Aulas práticas no CCA
+#events[c(28, 49, 56, 63, 77, 91, 98, 112, 119, 126)] <- "3: Aulas práticas (sala)\nCCA\nC: 10:10-11:50\nA: 13:30-15:10\nB: 15:20-17:00"
 
-::: {.column width="25%"}
-::: nonincremental
-**S3: 27-29/09**
+# Provas
+#events[c(36, 78, 119)] <- "Avaliações\n Prova 1: 05/09/23 \n Prova 2: 17/10/2023 \n #Prova 3: 27/11/2023"
 
--   Dia 27/09
-    -   Aula 19\*
-    -   Aula 20
-    -   Aula 21
--   Dia 28/09
-    -   Aula 22
-    -   Aula 23\*
-    -   Aula 24\*
-    -   Aula 25
--   [Dia 29/09]{style="color: yellow;"}
-    -   [*Live* de dúvidas]{style="color: yellow;"}
-:::
-:::
-:::
+# # Feriados
+# events[c(38, 73, 74, 75, 94, 95, 96, 107, 134)] <- "Feriados \ne/ou recessos"
 
-</font>
+# Prova segunda chamada
+#events[126] <- "Prova segunda chamada"
+
+# Prova substitutiva
+#events[133] <- "Prova substitutiva"
+
+# Cores
+cores <- c("gold", "cyan")
+#cores <- c("lightsalmon", "gold", "cyan")
+
+# Creating the calendar
+calendR(year = 2024,
+        start = "M",
+        from ="2024-08-01",
+        to = "2024-09-30",
+        special.days = events,
+        special.col = cores,
+        title = "R básico (CEAC/UFSJ/CAP - 2024/02)", 
+        subtitle = "Início: 01/08/2024  Término: 30/09/2024",
+        subtitle.size = 15,
+        margin = 1,
+        mbg.col = "forestgreen",
+        months.col = "white",
+        #bg.img = "figs/calendr.png",
+        legend.pos = "bottom",
+        months.size = 8,
+        orientation = "portrait")
+```
 
 # Ao final do curso... {background-image="EAR-rbasico-background-02.png"}
 

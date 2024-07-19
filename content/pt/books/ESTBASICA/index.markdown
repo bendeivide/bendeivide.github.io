@@ -1,10 +1,10 @@
 ---
 title: Estatística Básica Aplicada às Ciências Agrárias
-summary: Livro em desenvolvimento
+summary: "**(Livro publicado)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
 - bookestbasica
 categories: ["R", "Estatística", "Estimação", "Ciências Agrárias"]
-date: "2024-05-31 18:28:50"
+date: "2024-07-19 14:04:48"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -15,6 +15,10 @@ image:
   focal_point: Smart
 
 links:
+- icon: whatsapp
+  icon_pack: fab
+  name: Allanna Lopes (Rep. comercial)
+  url: https://wa.me/5584998196064?text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22Estat%C3%ADstica%20B%C3%A1sica%20Aplicada%20%C3%A0s%20Ci%C3%AAncias%20Agr%C3%A1rias%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20165%2C00%20para%20qualquer%20local%20do%20Brasil!
 - icon: book-open
   icon_pack: fas
   name: Bookdown

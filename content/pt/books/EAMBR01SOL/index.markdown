@@ -1,10 +1,10 @@
 ---
 title: R básico - manual de soluções
-summary: "Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
+summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
 - bookeambr
 categories: ["R"]
-date: "2023-08-17 07:10:08"
+date: "2024-07-19 14:07:12"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
