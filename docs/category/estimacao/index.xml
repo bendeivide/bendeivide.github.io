@@ -5,12 +5,23 @@
     <link>http://bendeivide.github.io/category/estimacao/</link>
       <atom:link href="http://bendeivide.github.io/category/estimacao/index.xml" rel="self" type="application/rss+xml" />
     <description>Estimação</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 19 Jul 2024 14:06:26 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 22 Jul 2024 15:18:21 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estimação</title>
       <link>http://bendeivide.github.io/category/estimacao/</link>
     </image>
+    
+    <item>
+      <title>Estatística Básica Aplicada às Ciências Agrárias</title>
+      <link>http://bendeivide.github.io/books/estbasica/</link>
+      <pubDate>Mon, 22 Jul 2024 15:18:21 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/estbasica/</guid>
+      <description>&lt;p&gt;Esta primeira Edição do Livro &lt;em&gt;Estatística Básica Aplicada às Ciências Agrárias&lt;/em&gt; é fruto de todo o material escrito em forma de notas de aula, apostila, listas de exercícios, bem como a aprendizagem e o ensino transmitido pelo Prof. Telde Natel Custodio em suas aulas de Estatística. Eu tive o imenso prazer de ser convidado para participar desse projeto porque é mais uma referência de apoio para quem inicia nos estudos da Estatística Básica. Como somos Engenheiros Agrônomos, nada mais recompensador do que devolver toda experiência adquirida em colaborações, consultorias de experimentos agrícolas, dentre outras situações experienciadas, de modo que fosse registrada por meio desse material.&lt;/p&gt;
+&lt;p&gt;A ideia deste livro foi de introduzir as ideias básicas do que se precisa para entender o mundo da estatística. Em uma ênfase prática, sem tanto rigor matemático na apresentação das definições, teoremas, etc., torna a leitura mais simples e didática para uma área tão importante da ciência como é a Estatística. O leitor será capaz de entender os três pilares da Estatística: Estatística Descritiva, Probabilidade e Inferência Estatística, sem conteúdo denso, mas uma abordagem direta da teoria seguida de exemplos para a elucidação do assunto.&lt;/p&gt;
+&lt;p&gt;Somos apenas o meio pelo qual se propaga o ensino da Estatística, por meio deste livro. Mas você leitor seja a fonte do saber, porque só o conhecimento liberta! Bons estudos!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Estimação Estatística</title>
@@ -23,17 +34,6 @@
 &lt;li&gt;DOI: &lt;a href=&#34;https://doi.org/10.46420/9786588319635&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.46420/9786588319635&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Autor(es): Janilson Pinheiro de Assis, Roberto Pequeno de Sousa, Paulo César Ferreira Linhares, Ben Dêivide de Oliveira Batista e Eudes de Almeida Cardoso&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estatística Básica Aplicada às Ciências Agrárias</title>
-      <link>http://bendeivide.github.io/books/estbasica/</link>
-      <pubDate>Fri, 19 Jul 2024 14:04:48 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/estbasica/</guid>
-      <description>&lt;p&gt;Esta primeira Edição do Livro &lt;em&gt;Estatística Básica Aplicada às Ciências Agrárias&lt;/em&gt; é fruto de todo o material escrito em forma de notas de aula, apostila, listas de exercícios, bem como a aprendizagem e o ensino transmitido pelo Prof. Telde Natel Custodio em suas aulas de Estatística. Eu tive o imenso prazer de ser convidado para participar desse projeto porque é mais uma referência de apoio para quem inicia nos estudos da Estatística Básica. Como somos Engenheiros Agrônomos, nada mais recompensador do que devolver toda experiência adquirida em colaborações, consultorias de experimentos agrícolas, dentre outras situações experienciadas, de modo que fosse registrada por meio desse material.&lt;/p&gt;
-&lt;p&gt;A ideia deste livro foi de introduzir as ideias básicas do que se precisa para entender o mundo da estatística. Em uma ênfase prática, sem tanto rigor matemático na apresentação das definições, teoremas, etc., torna a leitura mais simples e didática para uma área tão importante da ciência como é a Estatística. O leitor será capaz de entender os três pilares da Estatística: Estatística Descritiva, Probabilidade e Inferência Estatística, sem conteúdo denso, mas uma abordagem direta da teoria seguida de exemplos para a elucidação do assunto.&lt;/p&gt;
-&lt;p&gt;Somos apenas o meio pelo qual se propaga o ensino da Estatística, por meio deste livro. Mas você leitor seja a fonte do saber, porque só o conhecimento liberta! Bons estudos!&lt;/p&gt;
 </description>
     </item>
     
