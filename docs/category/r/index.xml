@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 22 Jul 2024 15:18:21 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 22 Jul 2024 20:00:26 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -1880,6 +1880,49 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     </item>
     
     <item>
+      <title>Estatística &amp; Probabilidade: Um curso para o PROFMAT</title>
+      <link>http://bendeivide.github.io/books/epprofmat/</link>
+      <pubDate>Mon, 22 Jul 2024 20:00:26 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/epprofmat/</guid>
+      <description>&lt;p&gt;Gostaríamos de agradecer imensamente a Universidade Federal de São João del-Rei pelo apoio e a forma de como podemos trabalhar nesse ambiente de ensino, para que o desenvolvimento de nossos materiais resulte no melhor do que podemos entregar. Agradecemos também ao &lt;a href=&#34;https://ufsj.edu.br/profmat_cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programa de Mestrado Profissional em Matemática em Rede Nacional&lt;/em&gt; (&lt;em&gt;PROFMAT&lt;/em&gt;)&lt;/a&gt;, pela Universidade Federal de São João del-Rei, campus Alto Paraopeba (CAP), pois sem aceitar esta nossa ousadia, isso não seria possível.&lt;/p&gt;
+&lt;p&gt;Sem o empenho de cada autor não seria possível a publicação desse material. Por isso, acreditamos que o trabalho em equipe só existe quando todos estão empenhados no processo, ao passo que, quando há um desequilíbrio por parte de um dos integrantes, os demais estão de braços abertos para reerguê-lo. Isso é cooperativismo de produção científica, e foi a forma de execução para o desenvolvimento do livro.&lt;/p&gt;
+&lt;p&gt;Ademais, agradecemos antecipadamente a você leitor pela aquisição desse conteúdo, pois sem a sua presença este material não faria sentido. Como livro, propague-me, e me deixe voar, porque o &lt;strong&gt;conhecimento é uma liberdade necessária&lt;/strong&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R básico - manual de soluções</title>
+      <link>http://bendeivide.github.io/books/eambr01sol/</link>
+      <pubDate>Mon, 22 Jul 2024 15:59:34 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
+      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
+&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;estatísticas-de-donwload-do-pdf&#34;&gt;Estatísticas de &lt;em&gt;donwload&lt;/em&gt; do PDF?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Estatísticas do R básico&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico: manual de soluções (HTML)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
+&lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=558499819606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
+&lt;p&gt;O R básico: Manual de Soluções vem com o propósito de detalhar
+as estratégias de como resolver os exercícios do livro R básico,
+enfatizando as estratégias com que as soluções podem ser desenvolvidas.
+Mostraremos mecanismos não apenas de como resolveremos
+os problemas, mas como eles podem ser abordados de forma didática
+para cursos ou disciplinas que utilizem o R básico.
+Por fim, este livro vem complementar todo assunto introdutório
+do R , para o entendimento via exercícios resolvidos, e esperamos que
+o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Estatística Básica Aplicada às Ciências Agrárias</title>
       <link>http://bendeivide.github.io/books/estbasica/</link>
       <pubDate>Mon, 22 Jul 2024 15:18:21 +0000</pubDate>
@@ -1931,38 +1974,6 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R básico - manual de soluções</title>
-      <link>http://bendeivide.github.io/books/eambr01sol/</link>
-      <pubDate>Fri, 19 Jul 2024 14:07:12 +0000</pubDate>
-      <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
-      <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
-&lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-a-versão-em-pdf&#34;&gt;Onde consigo a versão em PDF?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico (PDF)&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;estatísticas-de-donwload-do-pdf&#34;&gt;Estatísticas de &lt;em&gt;donwload&lt;/em&gt; do PDF?&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Estatísticas do R básico&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-a-versão-em-html&#34;&gt;Onde consigo a versão em HTML?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;&#34;&gt;Livro R básico: manual de soluções (HTML)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-todos-os-scripts-do-livro&#34;&gt;Onde consigo todos os &lt;em&gt;scripts&lt;/em&gt; do livro?&lt;/h2&gt;
-&lt;p&gt;O diretório de todos os &lt;em&gt;scripts&lt;/em&gt; do livro se encontram em: &lt;a href=&#34;&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;onde-consigo-comprar-o-livro-físico&#34;&gt;Onde consigo comprar o livro físico?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=558499819606&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - compra direta)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;sinopse&#34;&gt;Sinopse&lt;/h2&gt;
-&lt;p&gt;O R básico: Manual de Soluções vem com o propósito de detalhar
-as estratégias de como resolver os exercícios do livro R básico,
-enfatizando as estratégias com que as soluções podem ser desenvolvidas.
-Mostraremos mecanismos não apenas de como resolveremos
-os problemas, mas como eles podem ser abordados de forma didática
-para cursos ou disciplinas que utilizem o R básico.
-Por fim, este livro vem complementar todo assunto introdutório
-do R , para o entendimento via exercícios resolvidos, e esperamos que
-o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
 </description>
     </item>
     

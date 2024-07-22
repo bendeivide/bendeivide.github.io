@@ -5,12 +5,23 @@
     <link>http://bendeivide.github.io/category/estimacao/</link>
       <atom:link href="http://bendeivide.github.io/category/estimacao/index.xml" rel="self" type="application/rss+xml" />
     <description>Estimação</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 22 Jul 2024 15:18:21 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 22 Jul 2024 20:00:26 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estimação</title>
       <link>http://bendeivide.github.io/category/estimacao/</link>
     </image>
+    
+    <item>
+      <title>Estatística &amp; Probabilidade: Um curso para o PROFMAT</title>
+      <link>http://bendeivide.github.io/books/epprofmat/</link>
+      <pubDate>Mon, 22 Jul 2024 20:00:26 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/epprofmat/</guid>
+      <description>&lt;p&gt;Gostaríamos de agradecer imensamente a Universidade Federal de São João del-Rei pelo apoio e a forma de como podemos trabalhar nesse ambiente de ensino, para que o desenvolvimento de nossos materiais resulte no melhor do que podemos entregar. Agradecemos também ao &lt;a href=&#34;https://ufsj.edu.br/profmat_cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programa de Mestrado Profissional em Matemática em Rede Nacional&lt;/em&gt; (&lt;em&gt;PROFMAT&lt;/em&gt;)&lt;/a&gt;, pela Universidade Federal de São João del-Rei, campus Alto Paraopeba (CAP), pois sem aceitar esta nossa ousadia, isso não seria possível.&lt;/p&gt;
+&lt;p&gt;Sem o empenho de cada autor não seria possível a publicação desse material. Por isso, acreditamos que o trabalho em equipe só existe quando todos estão empenhados no processo, ao passo que, quando há um desequilíbrio por parte de um dos integrantes, os demais estão de braços abertos para reerguê-lo. Isso é cooperativismo de produção científica, e foi a forma de execução para o desenvolvimento do livro.&lt;/p&gt;
+&lt;p&gt;Ademais, agradecemos antecipadamente a você leitor pela aquisição desse conteúdo, pois sem a sua presença este material não faria sentido. Como livro, propague-me, e me deixe voar, porque o &lt;strong&gt;conhecimento é uma liberdade necessária&lt;/strong&gt;!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Estatística Básica Aplicada às Ciências Agrárias</title>

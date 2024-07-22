@@ -4,7 +4,7 @@ summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro po
 tags:
 - bookeambr
 categories: ["R"]
-date: "2024-07-19 14:07:12"
+date: "2024-07-22 15:59:34"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -39,7 +39,7 @@ links:
 - icon: book-open
   icon_pack: fas
   name: Bookdown
-  url: 
+  url: https://bendeivide.github.io/book-earmbr01sol
 - icon: file-pdf
   icon_pack: fas
   name: PDF
