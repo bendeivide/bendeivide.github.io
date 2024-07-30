@@ -1,6 +1,6 @@
 ---
-title: "EAR: R Básico"
-subtitle: "Aula 02 - Passos iniciais para a utilização do R e do RStudio"
+title: "R Básico 2024 | Aula 02"
+subtitle: "Passos iniciais para a utilização do R e do RStudio"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -54,7 +54,6 @@ editor: source
 
 </center>
 
-------------------------------------------------------------------------
 
 # Filosofia de publicação (Selo DC) {background-image="EAR-rbasico-background-02.png"}
 
@@ -134,7 +133,18 @@ Por que os artigos "o" e "a" para o R?
 
 # Interface do R {background-image="EAR-rbasico-background-02.png"}
 
+
+
+
 ![](promptr.png){width="80%"}
+
+::: {.notes}
+
+📝 Abra a IDE do R e do RStudio para os participantes verificarem a diferença!!
+
+:::
+
+
 
 
 
@@ -142,6 +152,15 @@ Por que os artigos "o" e "a" para o R?
 
 ![](ide_rstudio.png)
 
+::: {.notes}
+
+📝 Abra a IDE do R e do RStudio para os participantes verificarem a diferença!!
+
+- Explique detalhado sobre os quadrantes;
+- configurações básicas de layout
+- execução de comandoss
+
+:::
 
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
