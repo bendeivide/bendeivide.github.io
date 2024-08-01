@@ -101,9 +101,9 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 ```{r echo=FALSE, warning=FALSE, results='hide', message=FALSE}
 library(calendR)
 # Data
-## Quarta-feira: 13h às 15h
-## Quinta-feira: 15h às 17h
-## Sexta-feita: 13h às 17h
+## Quarta-feira: 19h às 20h
+## Quinta-feira: 19h às 20h
+## Sexta-feita: 19h às 20h
 
 
 # tutorial calendR
@@ -113,11 +113,11 @@ events <- rep(NA, 61)
 quartas <- seq(07, 61, by = 7)
 quintas <- seq(01, 61, by = 7)
 sextas <- seq(02, 61, by = 7)
-events[c(quartas, sextas)] <- "Aulas gravadas \n 19h30min (Youtube)"
+events[c(quartas, quintas)] <- "Aulas gravadas \n 19h00min (Youtube)"
 
 # Lives
-lives <- quintas
-events[lives] <- "Aulas ao vivo \n 19h30min (Youtube)"
+lives <- sextas
+events[lives] <- "Aulas ao vivo \n 19h00min (Youtube)"
 
 # Inicio/termino
 # initer <- c(44, 60)
