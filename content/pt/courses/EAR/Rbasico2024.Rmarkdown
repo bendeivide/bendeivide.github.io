@@ -239,6 +239,8 @@ calendR(year = 2024,
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
 
+{{< youtube "rG3M9E0rwfM">}}
+
 {{< /spoiler >}}
 
 {{< spoiler text=":blue_book: Aula 02 - Passos iniciais para a utilização do R e do RStudio" >}}
