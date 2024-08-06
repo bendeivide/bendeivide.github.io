@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 06 Aug 2024 06:55:51 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 06 Aug 2024 15:43:44 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R básico 2024</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico2024/</link>
-      <pubDate>Tue, 06 Aug 2024 06:55:51 +0000</pubDate>
+      <pubDate>Tue, 06 Aug 2024 15:43:44 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico2024/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -280,22 +280,79 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;&amp;#x1f4d8; Aula 03 - Hitória do R&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Hitória do R&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico2024/slide03/index.html&#34; target=&#34;_blank&#34;&gt;Aula 03&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1zgqd3gPGGEnVb7uBCpHsDgOB--xQCoTI3rY6idOhhFM/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Exercícios propostos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo-aula&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;&amp;#x1f4d8; Aula 04 - Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Como o R trabalha?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico2024/slide04/index.html&#34; target=&#34;_blank&#34;&gt;Aula 04&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1osFh2BWlda2vsLgkaw7Nem7JWCdAnePXGhhz3rJXAww/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Exercícios propostos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo-aula&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;&amp;#x1f4d8; Aula 05 - Comandos no R e Ambiente Global&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Comandos no R e Ambiente Global&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/rbasico2024/slide05/index.html&#34; target=&#34;_blank&#34;&gt;Aula 05&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 50 minutos&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://docs.google.com/document/d/1mdUF4Rxo2iSgxZdwD91dXLsaAQpAWPYEgqgIidAY-9k/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plano de aula&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;courses/cursor/&#34;&gt;Curso R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Exercícios propostos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo-aula&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xAobFYXTN_k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;&amp;#x1f4d6; Livro de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acesse: &lt;a href=&#34;https://bendeivide.github.io/book-eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/book-eambr01/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;&amp;#x1f4c1; Curso anterior!&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acesse: &lt;a href=&#34;http://bendeivide.github.io/cursor/nbasico#rwork&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/cursor/nbasico#rwork&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;&amp;#x1f3ac; Playlist do Youtube (cursos anteriores)&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_JqtU3X101E&amp;amp;list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2021&lt;/a&gt;&lt;/li&gt;
@@ -303,7 +360,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;&amp;#x1f4da; Adquira o Livro físico &lt;strong&gt;R básico&lt;/strong&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fab fa-whatsapp  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://api.whatsapp.com/send?phone=5584998196064&amp;amp;text=Ol%C3%A1!%20Sou%20Allanna%20Lopes%2C%20representante%20comercial%20do%20Livro%20%22R%20b%C3%A1sico%22.%20Antes%20de%20enviar%20a%20mensagem%20para%20mais%20detalhes%2C%20eu%20consigo%20enviar%20o%20livro%20por%20R%24%20150%2C00%20para%20qualquer%20local%20do%20Brasil!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Allanna Lopes (Rep. comercial - venda direta)&lt;/a&gt;&lt;/li&gt;

@@ -13,7 +13,7 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content=" Ben Dêivide |  UFSJ">
-  <title>R Básico 2024 | Aula 03</title>
+  <title>R Básico 2024 | Aula 02</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -349,8 +349,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="EAR-rbasico-background.png" class="quarto-title-block center">
-  <h1 class="title">R Básico 2024 | Aula 03</h1>
-  <p class="subtitle">Hitória do R</p>
+  <h1 class="title">R Básico 2024 | Aula 02</h1>
+  <p class="subtitle">Passos iniciais para a utilização do R e do RStudio</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -409,55 +409,70 @@
 </section>
 
 <section>
-<section id="criadores-do-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Criadores do R</h1>
-
-<img data-src="criadores_r.png" style="width:30.0%" title="Robert Gentleman e Ross Ihaka" class="r-stretch"></section>
-<section id="criadores-do-r-1" class="slide level2">
-<h2>Criadores do R</h2>
-<ul>
-<li class="fragment">Em 1991, nasce o projeto da criação do <code>R</code>;</li>
-<li class="fragment">Os Professores da Universidade de Auckland, Nova Zelândia, Robert Gentleman e Ross Ihaka, buscam uma alternativa a linguagem <code>S</code> para análises estatísticas;</li>
-<li class="fragment">Como alternativa a linguagem <code>S</code>, eles se baseiam na semântica de outra linguagem, <code>Scheme</code>;</li>
-</ul>
+<section id="o-que-é-o-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>O que é o R?</h1>
+<blockquote>
+<p>O R é um ambiente de <em>software</em> livre e código aberto, com recursos gráficos, cujo objetivo se inicia pela análise e apresentação de dados até recursos para desenvolvimento de página <em>web</em>, por exemplo. Devido a contribuição da linguagem ser realizada por toda a comunidade científica e sociedade como um todo, os recursos desenvolvidos pelo R são dos mais diversos possíveis.</p>
+</blockquote>
 </section>
-<section id="criadores-do-r-2" class="slide level2">
-<h2>Criadores do R</h2>
-<ul>
-<li class="fragment">Em 1993, o projeto é lançado e em 1995, o como Software livre;</li>
-<li class="fragment">Em 1997 é criado o <em>R Core Team</em>;</li>
-<li class="fragment">Em 1997, mas precisamente em 23 de abril, o CRAN (Comprehensive R Archive Network) foi ofialmente lançado;</li>
-</ul>
-</section></section>
-<section>
-<section id="criador-da-linguagem-s" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Criador da linguagem <code>S</code></h1>
-<center>
-<img data-src="john_chambers.jpg" style="width:50.0%" title="John Chambers">
-</center>
-</section>
-<section id="criador-da-linguagem-s-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Criador da linguagem <code>S</code></h2>
-<ul>
-<li class="fragment">Ao pedir por e-mail, o direito do uso de sua foto no livro, John Chambers responde:</li>
-</ul>
+<section id="o-que-é-o-r-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
+<h2>O que é o R?</h2>
+<p>Por que os artigos “o” e “a” para o R?</p>
 <div class="fragment">
 <blockquote>
-<p>Com certeza, fique à vontade para usar a foto. Os melhores votos de sucesso para o seu livro (John Chambers)</p>
+<p>Em muitos momentos utilizaremos o artigo “o” para a linguagem R. Pois é, isso ocorre porque ela também é considerada um <em>software</em> ou ambiente. Daí, chamamos de programa R, ou preferivelmente, ambiente R.</p>
 </blockquote>
 </div>
 </section></section>
-<section id="criador-do-rstudio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Criador do RStudio</h1>
-<center>
-<img data-src="jjallaire.jpg" style="width:50.0%" title="J. J. Allaire">
-</center>
+<section id="o-que-é-o-rstudio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>O que é o RStudio?</h1>
+<ul>
+<li class="fragment">O Rstudio é uma <em>IDE</em></li>
+<li class="fragment"><em>IDE</em>: Do inglês <em>Integrated Development Evironment</em></li>
+<li class="fragment">Pode ser usado como <em>desktop</em> e/ou <em>web browser</em></li>
+</ul>
 </section>
 
-<section id="versão-1.0.0-do-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
-<h1>Versão 1.0.0 do <code>R</code></h1>
+<section id="interface-do-r" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Interface do R</h1>
 
-<img data-src="rversao1.png" style="width:40.0%" class="r-stretch quarto-figure-center"><p class="caption">Retirado do livro R Extending <span class="citation" data-cites="chambers2016">(<a href="#/referências" role="doc-biblioref" onclick="">Chambers, 2016</a>)</span>.</p></section>
+<img data-src="promptr.png" style="width:80.0%" class="r-stretch"><aside class="notes">
+<p>📝 Abra a IDE do R e do RStudio para os participantes verificarem a diferença!!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+
+<section id="interface-do-rstudio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Interface do RStudio</h1>
+
+<img data-src="ide_rstudio.png" class="r-stretch"><aside class="notes">
+<p>📝 Abra a IDE do R e do RStudio para os participantes verificarem a diferença!!</p>
+<ul>
+<li>Explique detalhado sobre os quadrantes;</li>
+<li>configurações básicas de layout</li>
+<li>execução de comandoss</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 
 <section id="obrigado" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Obrigado</h1>
@@ -476,9 +491,6 @@
 <div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-batista2021" class="csl-entry" role="listitem">
 BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2022.
-</div>
-<div id="ref-chambers2016" class="csl-entry" role="listitem">
-CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: Chapman; Hall/CRC, 2016.
 </div>
 </div>
 </section>
@@ -519,7 +531,7 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
 'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":3},
-'multiplex': {"secret":null,"id":"8177df92faa2f071","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":"17229691824565544197","id":"fc36f072484c9ef1","url":"https://reveal-multiplex.glitch.me/"},
 'pointer': {"0":{"key":"q"},"1":{"color":"red"},"2":{"pointerSize":16},"3":{"alwaysVisible":false},"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,
  
@@ -694,50 +706,12 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
