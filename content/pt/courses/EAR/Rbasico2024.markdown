@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-08-02 22:27:23"
+date: "2024-08-06 06:55:51"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -170,7 +170,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
 
-{{< youtube "rG3M9E0rwfM">}}
+{{< youtube "Gj5HJKnjKs0">}}
 
 {{< /spoiler >}}
 
@@ -187,7 +187,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube 8yl5Nd1Qot8>}}
+{{< youtube >}}
 
 {{< /spoiler >}}
 
