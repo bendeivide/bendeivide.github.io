@@ -1,0 +1,444 @@
+---
+title: 📚 Ensino normal 2022.1
+date: "2024-08-08 21:55:49"
+type: book
+weight: 10
+categories: ["R", "Estatística", "Probabilidade", "Programação"]
+tags: ["Curso", "Remoto"]
+---
+
+Curso de Estatística Computacional oferecido no formato presencial pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba ([CAP](http://ufsj.edu.br/cap/)), Ouro Brnewleemanco/MG.
+
+<!--more-->
+
+{{< icon name="clock" pack="fas" >}} 4 horas por semana, por 18 semanas
+
+## Apresentação
+
+Em termos gerais, abordaremos: Introdução ao R; Probabilidade no R; Estatística Básica no R; Regressão linear; Análise de Variância; Noções de Simulação; Otimização.
+
+</br>
+
+<!-- {{< icon name="microphone-alt" pack="fas" >}} Podcast -->
+
+<!-- Em desenvolvimento... -->
+
+## Onde?
+
+-   O curso é ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba ([CAP](http://ufsj.edu.br/cap/)), para todos os cursos de Engenharia do campus.
+- Todas as nossas estão gravadas:
+    - canal: <http://youtube.com/bendeivide>
+    - Período: 21/03/2022 a 23/07/2022
+    - Aulas presenciais:
+      - segunda-feira (17h05min. - 18h55min.)
+      - terça-feira (17h05min. - 18h55min.)
+      - quinta-feira (17h05min. - 18h55min.)
+    - Retransmissão pelo youtube:
+      - quarta-feira 13h15min.
+
+## Cronograma e Fluxograma do curso {#cronograma}
+
+- [Cronograma de aulas](https://docs.google.com/document/d/1C0UmfyMqwNmMowwhwHcvGVwiYHaS0L-uofsz894nUds/edit?usp=sharing):
+{{< gdocs src="https://docs.google.com/document/d/1C0UmfyMqwNmMowwhwHcvGVwiYHaS0L-uofsz894nUds/edit?usp=sharing" >}}
+
+## Ementa
+
+Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestre a demanda necessária
+
+{{< spoiler text="Acesse a ementa do curso">}}
+1. INTRODUÇÃO AO PROGRAMA R:
+   - Sintaxe e semântica
+   - Como o R trabalha
+   - Objetos
+   - Importação e manipulação de dados
+2. DOCUMENTAÇÕES EM R
+   - Introdução ao Markdown e RMarkdown
+   - Como desenvolver relatórios de seus scripts
+   - Sincronizando projetos RStudio com o GitHub
+   - Criando relatórios para a disciplina Estatística Computacional
+3. PROBABILIDADE NO R:
+   - Conceitos básicos sobre distribuições de probabilidade
+   - Distribuições de probabilidade:
+     - Distribuição Bernoulli
+     - Distribuição Binomial
+     - Distribuições Poisson
+     - Distribuição Geométrica
+     - Distribuições Negativa
+     - Distribuição Multinomial
+     - Distribuição Normal
+     - Distribuição Uniforme
+     - Distribuição Exponencial
+     - Distribuição Gama
+     - Distribuição Gumbel
+     - Distribuição Weibull
+     - Distribuição t de Student
+     - Distribuição Qui-quadrado
+     - Distribuição F
+  - Distribuições amostrais
+  - Teorema do limite central
+  - Gerador de números aleatórios
+  - Aproximações de distribuições
+4. ESTATÍSTICA BÁSICA NO R:
+   - Estatísticas descritivas
+   - Estimação de parâmetros:
+     - Estimação de parâmetros
+     - Estimação de Médias, Desvio Padrão e Variâncias
+     - Estimação de Coeficientes de Variação
+     - Diferença entre duas Médias Independentes
+     - Estimação da Diferença de Duas Médias em dados Emparelhados
+   - Testes de hipóteses:
+     - Teste sobre Médias
+     - Teste sobre Médias de duas populações Emparelhadas
+     - Teste sobre Médias de duas populações independentes
+     - Teste de normalidade
+5. REGRESSÃO LINEAR:
+   - Método dos Quadrados Mínimos
+   - Um exemplo de Regressão
+   - A função `lm()`
+   - Seleção de modelos
+   - Diagnóstico em Regressão Linear:
+     - Análise de resíduos
+     - Influência no espaço de variáveis preditoras
+     - Influência no vetor de estimativas dos parâmetros
+     - Influência no Vetor de Valores preditos
+     - Comandos no R
+6. ANÁLISE DE VARIÂNCIA:
+   - Introdução a Análise de variância
+   - A função `aov()`
+   - Delineamento experimentais
+   - Delineamento de tratamentos
+   - Modelos lineares com mais de um erro
+   - Modelos lineares multivariados
+7. NOÇÕES DE SIMULAÇÃO:
+   - Introdução
+   - Método Monte Carlo
+   - Métodos Bootstrap e jacknife
+   - Métodos MCMC: Ideias básicas
+   - Algoritmo de Metropolis-Hastings
+   - Amostrador de Gibbs
+8. OTIMIZAÇÃO:
+   - Introdução
+   - Estimação de funções
+   - Maximização/Minimização de funções
+   - Método Newton-Raphson
+   - Quadratura numérica
+   - Paralelismo no R
+{{< /spoiler >}}
+
+
+
+## Metodologia
+
+Nossas aulas serão divididas de acordo com as 18 semanas de aula.
+
+{{< spoiler text="Detalhamento da metodologia">}}
+As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja feito por parte do aluno. Ele será o protagonista. Dessa forma, traremos métodos de aprendizagem do tipo "ensinar por aprender", criaremos mapas mentais (<https://app.lucidchart.com>) para nossas aulas, dentre outras técnicas, para que nesse momento fique mais claro e objetivo o assunto proposto.
+
+Nossas aulas estão disponíveis pelos canais do youtube (<http://youtube.com/bendeivide>), portal didático da disciplina, repositório GitHub (<http://github.com/bendeivide>), alocaremos nas páginas (<http://ufsj.edu.br/bendeivide> e <http://bendeivide.github.io/>), facebook (Ben Deivide), e instagram ([@bendeivide](https://www.instagram.com/bendeivide/)). 
+
+Nossas aulas terão **4 (quatro) horas semanais de aulas**, e **2 (duas) horas de aulas teóricas** e **2 (duas) horas de aulas práticas**, **totalizando em 36h de aulas teóricas e 36h de aulas práticas, um total de 72h**. Estas últimas serão destinadas a dúvidas e resolução de exercícios. Usaremos também o canal do youtube (lives), como também o google Meet. Os horários das lives, acordaremos com os alunos, para que marquemos um horário em que grande maioria possa comparecer. De toda forma, gravaremos essas aulas, para que os demais possam também assisti. Todas as demais informações serão repassadas na primeira semana de aula.
+
+Irei utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o *overlief* para usuários de LaTeX. Com a linguagem *R*, mostraremos documentos dinâmicos, usando o *R Markdown* e o *shiny*, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que darei todo o suporte para os alunos, de forma que estejam capacitados a utilizar todas as ferramentas quando necessário.
+{{< /spoiler >}}
+
+## Modelo de Relatório para a disciplina
+
+[Modelo de Relatório](https://bendeivide.github.io/discestcomp/)
+
+## Avaliação {#avaliacao}
+
+{{< spoiler text="Segue um detalhamento das nossas avaliações">}}
+- 1ª Avaliação - Relatórios referentes as Seções 1, 2 e 3 - 30 pontos
+- 2ª Avaliação - Relatórios referentes as Seções 4, 5 e 6 - 30 pontos
+- 3ª Avaliação - Relatórios referentes as Seções 7 e 8 - 40 pontos
+
+A nota final do aluno será dada pela soma das notas das atividades avaliativas divididas por 10. Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos. O discente que não for aprovado por nota poderá fazer uma avaliação substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações. As datas das avaliações são informadas na primeira semana de aula.
+
+Na metodologia *aprender por ensinar*, poderemos destinar atividades também pedindo aos alunos que explanem sobre determinado tema específico para determinada aula. Para estes, as atividades da semana serão dispensadas, e atribuídas as notas para a devida atividade da semana, proporcional ao seu desempenho, de exposição do tema, material utilizado para a apresentação, e concordância com o assunto estudado.
+{{< /spoiler >}}
+
+## Bibliografia adotada para a disciplina
+
+{{< spoiler text="Bibliografia detalhada">}}
+- BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. **Estudando o Ambiente R**. 1. ed. Ouro Branco: [sn], 2022. 1 v. Disponível em <https://bendeivide.github.io/book-eambr01/>.
+- BATISTA, BDO; OLIVEIRA, DABJ; ALVES, HJP. **Estatística \&  Probabilidade**: aplicadas às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em <https://bendeivide.github.io/book-epaec/>.
+- BATISTA, BDO. **Estatística Computacional**: aplicada às Engenharias e Ciências. 1. ed. Ouro Branco: [sn], 2022. Disponível em <https://bendeivide.github.io/book-estcomp/>.
+- FERREIRA, DF. **Recursos Computacionais Utilizando R**: 1ed. Lavras: UFLA, 2013. Disponível em:  <https://des.ufla.br/~danielff/meusarquivospdf/RRC0.pdf>.
+- FERREIRA, DF. **Estatística Computacional Utilizando R**: 1ed. Lavras: UFLA, 2014. Disponível em:  <https://des.ufla.br/~danielff/meusarquivospdf/apeco.pdf>.
+- R DEVELOPMENT CORE TEAM. **R**: A Language and Environment for Statistical Computing. Vienna, Austria, 2022. Disponível em: <http://www.R-project.org/>
+{{< /spoiler >}}
+
+## Material adotado
+
+-   Livro referência: [ESTCOMP](https://bendeivide.github.io/book-estcomp/) 
+## Metodologias ativas
+
+{{< spoiler text="Aprender por ensinar">}}
+- [Modelo de Arquivo em power point](https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing)
+- [Resultado em vídeo](https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing)
+- Os programas necessários:
+  - Editor de Slides: o MS Power Point (Instalado previamente no Windows); [LibreOffice](https://www.libreoffice.org/download/download/);
+  - Gravador de tela e de seu áudio: [OBS Studio](https://obsproject.com/pt-br/download)
+OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
+{{< youtube YqMQix2P1oU >}}
+{{< /spoiler >}}
+
+{{< spoiler text="Mapas Mentais">}}
+- Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;
+- [Modelo](https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing)
+{{< /spoiler >}}
+
+{{< spoiler text="Resumo de Cornell">}}
+- Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;
+- [Modelo](https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing)
+{{< /spoiler >}}
+
+## Aulas
+
+{{< spoiler text="Aula 01 (21/03 e 22/03)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 01]({{< relref "slides/estcomp/s01/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/13wfRawoF89pchWJNjJPtql6uDbSwm3wNh3cAQM9GE3g/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Aula de apresentação
+
+{{< youtube  gIcKgsOkdeI>}}
+<br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 02 (24/03)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Introdução ao ambiente R
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 02]({{< relref "slides/estcomp/s02/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1tAp46QNuQ6K3eqTf3ZodgR8tjRIU7p1EP-Qa-gH5B4o/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Introdução ao ambiente R
+
+{{< youtube  0Qv5_xzx0WQ>}}
+<br/>
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 03 (28/03 e 29/03)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Objetos em R
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 04 (31/03)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Pacotes
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 05 (04-05/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Importação e manipulação de dados
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 06 (07/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Documentações em R (Visão geral ao Markdown e RMarkdown)
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 06]({{< relref "slides/estcomp/s06/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Visão Geral ao Markdown e RMarkdown
+
+{{< youtube  >}}
+<br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 07 (11-12/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Introdução ao Markdown
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 07]({{< relref "slides/estcomp/s07/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1o7PuXcS-5Exy6xtZgBUueZatjwS2U6dWY-qs7zCGLXI/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Introdução ao Markdown
+
+{{< youtube  >}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 08 (13/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Introdução ao RMarkdown
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 08]({{< relref "slides/estcomp/s06/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Introdução ao RMarkdown
+
+{{< youtube  >}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 09 (18-19/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Sincronizando projetos RStudio com o GitHub
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 09]({{< relref "slides/estcomp/s06/index" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 10 (20/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Conceitos básicos sobre distribuições de probabilidade
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 10]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 11 (25-26/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Distribuições de probabilidade
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 11]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 12 (28/04)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Distribuições amostrais e TLC
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 12]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - {{% staticref "r-scripts/estcomp/aula13.R" "newtab" %}} {{< icon name="r-project" pack="fab" >}} Aula12.R {{% /staticref %}}
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 13 (02-03/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Aproximações de distribuições e geradores de números aleatórios
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 13]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+
+- {{% staticref "r-scripts/estcomp/aula13.R" "newtab" %}}  {{< icon name="r-project" pack="fab" >}}  aula13.R  {{% /staticref %}}
+- {{% staticref "media/quadgauss.pdf" "newtab" %}}  {{< icon name="file-pdf" pack="fa" >}}  Quadratura Gauss-Legendre  {{% /staticref %}}
+- {{% staticref "media/pol_ort.pdf" "newtab" %}}  {{< icon name="file-pdf" pack="fa" >}}  Apresentação sobre Quadratura Gauss-Legendre  {{% /staticref %}}
+- {{% staticref "media/dis_ben.pdf" "newtab" %}} {{< icon name="file-pdf" pack="fa" >}} Dissertação (Ben Dêivide)  {{% /staticref %}}
+- [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+- [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+- [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 14 (05/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Estatística Básica no R - Estatística descritiva 
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 14]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 15 (09-10/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Estatística Básica no R - Estimação de parâmetros
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 15]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 16 (09-10/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Estatística Básica no R - Teste de hipóteses (Parte I)
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 16]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 17 (16-17/05)">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema: Estatística Básica no R - Teste de hipóteses (Parte II)
+{{< icon name="eye" pack="fas" >}} Apresentação: [Aula 17]({{< relref "" >}})
+{{< icon name="clock" pack="fas" >}} Tempo: 1h 50min.
+{{< icon name="headphones" pack="fas" >}} Podcast
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula]()
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< /spoiler >}}
+
+
+
+
+
+## Quiz
+
+{{< spoiler text="Quais as datas de avaliação?">}}
+Acessem: [Avaliação](#avaliacao) e [Cronograma](#cronograma)
+{{< /spoiler >}}
+
+{{< spoiler text="Onde ocorrerão as aulas no Youtube?">}}
+Acesse o canal: <https://youtube.com/bendeivide>
+{{< /spoiler >}}
