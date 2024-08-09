@@ -256,7 +256,7 @@ calendR(year = 2024,
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube KryehEXgGF8 >}}
+{{< youtube "KryehEXgGF8" >}}
 
 {{< /spoiler >}}
 
@@ -273,7 +273,7 @@ calendR(year = 2024,
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube qM6o2Xjyxms>}}
+{{< youtube "qM6o2Xjyxms" >}}
 
 {{< /spoiler >}}
 
@@ -291,7 +291,7 @@ calendR(year = 2024,
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube yO8qKud3sIk>}}
+{{< youtube "yO8qKud3sIk" >}}
 
 {{< /spoiler >}}
 
