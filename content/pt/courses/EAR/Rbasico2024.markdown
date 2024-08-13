@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-08-09 20:38:39"
+date: "2024-08-13 17:11:34"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -240,9 +240,44 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "iI9Vx7dzOfo">}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 06 - Arquivos `.RData` e `.Rhistory`" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Arquivos `.RData` e `.Rhistory`
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide06/index.html" target="_blank">Aula 06</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1Jqw5UpRYaHh_m7IeA5b-TLVglakioRKYFFZbHM27V1c/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
 {{< youtube >}}
 
 {{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 07 - Criando e salvando um *Script* " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Criando e salvando um `Script`
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide07/index.html" target="_blank">Aula 07</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/16smQaqbwIcOHLTxugF-yb3adXWfBeFLKihdAwAWewvg/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube 4jeDXHIEG3M>}}
+
+{{< /spoiler >}}
+
 
 ## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
 
