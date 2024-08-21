@@ -1,6 +1,6 @@
 ---
-title: "EAR: R Básico"
-subtitle: "Aula 09 - Vetores"
+title: "EAR: R Básico | Aula 09"
+subtitle: "Vetores"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -17,7 +17,7 @@ format:
     transition: slide
     background-transition: fade
 #    transition-speed: fade
-    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    footer: "[EAR: R básico 2024](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
     # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
@@ -121,6 +121,8 @@ Podemos dizer que existem três tipos principais de **vetores atômicos**:
 -   Lógico (`logical`);
 -   Caractere (`character`)
 
+. . .
+
 Existem dois tipos raros que são os complexos (`complex`) e brutos (`raw`), que falaremos no módulo seguinte.
 
 # Escalares {background-image="EAR-rbasico-background-02.png"}
@@ -151,6 +153,8 @@ x - x
     -   concatenar `c()`
     -   valores sequenciais: `rep()`, `seq()`, `:`
 
+. . .
+
 ```{r echo=TRUE, prompt=TRUE}
 # Criando um vetor 'double'
 vetor.num <- c(1, 2, 3, 4, 5); vetor.num; typeof(vetor.num)
@@ -161,6 +165,8 @@ vetor.num <- c(1, 2, 3, 4, 5); vetor.num; typeof(vetor.num)
 -   Funções:
     -   concatenar `c()`
     -   valores sequenciais: `rep()`, `seq()`, `:`
+
+. . .
 
 ```{r echo=TRUE, prompt=TRUE}
 # Criando uma sequência de 1 a 5
@@ -215,6 +221,8 @@ lobstr::obj_size(c(1:1000000))
 # Manipulando vetores {background-image="EAR-rbasico-background-02.png"}
 
 -   Vetor de comprimento zero
+
+. . .
 
 ```{r echo=TRUE, prompt=TRUE}
 v1 <- numeric(0); length(v1)

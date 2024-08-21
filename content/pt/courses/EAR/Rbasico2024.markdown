@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-08-13 17:33:58"
+date: "2024-08-20 18:08:55"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -143,6 +143,9 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide00/index.html" target="_blank">Aula 00</a>
 {{< icon name="clock" pack="fas" >}} __Tempo:__ 30 minutos
 {{< icon name="headphones" pack="fas" >}} __Podcast__
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5CFSs00yZ1FoVDx3BELf07?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 {{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1sVrVqx2X43KEHsLGfN25mj5og1zWJ3LLIdmLgnjr9VI/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} __Material para consulta__
    - [Livro: R básico]({{< relref "books/eambr01/index" >}})
@@ -257,7 +260,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube >}}
+{{< youtube "8gYuZKXSwNg">}}
 
 {{< /spoiler >}}
 
@@ -276,6 +279,40 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
 {{< youtube "jLI3ofN2EXI">}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 08 - Objetos e estrutura de dados" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Objetos
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide08/index.html" target="_blank">Aula 08</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1Y0pmTS6lB5ya0Ayy95Zkl0W6h8Zu8o7B8chAxbp1nxI/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 09 - Vetores" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Vetores
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide09/index.html" target="_blank">Aula 09</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1zWev7cGTy6pdcrb0FOeUVCloUFAgZSeRG4wj_yqnRN0/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube guFBofLC3bs>}}
 
 {{< /spoiler >}}
 
