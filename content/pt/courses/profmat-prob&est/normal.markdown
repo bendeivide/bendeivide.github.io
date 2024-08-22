@@ -1,6 +1,6 @@
 ---
-title: 📚 Ensino normal 2023.1
-date: "2023-08-08 07:16:40"
+title: 📚 Ensino normal 2024.2
+date: "2024-08-22 18:33:54"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -32,8 +32,8 @@ A Natureza da estatística. Tratamento da informação. Distribuições de frequ
     -   canal: <http://youtube.com/bendeivide>
     -   Período: 
     -   Aulas presenciais:
-        -   PROFMAT (Sala 202.6):
-            - sexta-feira (09:00 - 11:00)
+        -   PROFMAT (Sala 211.5):
+            - sexta-feira (13:15 - 17:00)
         
 
 ## Cronograma {#cronograma}
@@ -45,7 +45,7 @@ A Natureza da estatística. Tratamento da informação. Distribuições de frequ
 
 ## Grupo de Whatsapp
 
-- [Link]()
+- [Link](https://chat.whatsapp.com/JpJh324sF4T72GztNQ9BH6)
 
 ## Demandas e Notas
 
@@ -55,7 +55,7 @@ A Natureza da estatística. Tratamento da informação. Distribuições de frequ
 
 - [Link](https://github.com/users/bendeivide/projects/2/views/1?layout=board)
 
-## Preenchimento de dados para as avaliações
+<!-- ## Preenchimento de dados para as avaliações -->
 
 <!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) -->
 <!-- - [Formulário - Engenharia de Telecomunicações](https://forms.gle/SyBkB5jqSJkv4eVm9) -->
@@ -136,8 +136,8 @@ Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:
 
 - 1ª Avaliação - Tópicos 1, 2, 3, 4, 5, 6 - 30 pontos;
 - 2ª Avaliação - Tópicos 7, 8, 9, 10, 11, 12, 13, 14 - 30 pontos;
-- 3ª Avaliação - Tópicos 15, 16, 17, 18, 19, 20 - 40 pontos;
-<!-- - Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos; -->
+- 3ª Avaliação - Tópicos 15, 16, 17, 18, 19, 20 - 30 pontos;
+- Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 10 pontos.
 
 Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina.
 
@@ -186,12 +186,14 @@ semana o aluno é acompanhado e avaliado pelo professor.
 
 {{< /spoiler >}}
 
-## Material adotado {#matadotado}
-
- - Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
+## Materiais adotado {#matadotado}
+ 
+ - Livro [Estatística e Probabilidade: Um curso para o PROFMAT](/books/epprofmat/)
+ - Livro [EPAEC](http://bendeivide.github.io/book-epaec/)
    - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com)
  
  {{< spoiler text="Materiais complementares">}}
+- [Estatística Básica](/books/estbasica/)
 - [Estatística Básica (Departamento de Estatística, UFPR)](http://leg.ufpr.br/~paulojus/estbas/)
 - [Estatística Aplicada (Tales Jesus Fernandes, UFLA)](http://github.com/talesjfer/Apostila-Estatistica-Aplicada)
 - [Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)](http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf)
@@ -235,7 +237,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 ## Aulas
 
-{{< spoiler text="Aula 1 (17/03/2023)">}}
+{{< spoiler text="Aula 1 (16/08/2024)">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema: Apresentação do curso
 {{< icon name="eye" pack="fas" >}} Apresentação: 
 <a href="{{< relref "/slides/profmat-est/s01/index" >}}" target="_blank">Aula 01</a>
