@@ -1,6 +1,6 @@
 ---
-title: "EAR: R Básico"
-subtitle: "Aula 11 - `Arrays` (Matrizes multidimensionais)"
+title: "EAR: R Básico | Aula 11"
+subtitle: "*Arrays* (Matrizes multidimensionais)"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -17,7 +17,7 @@ format:
     transition: slide
     background-transition: fade
 #    transition-speed: fade
-    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    footer: "[EAR: R básico 2024](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
     # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
@@ -28,7 +28,7 @@ format:
       theme: whiteboard
       #chalk-width: 5 # largura da caneta do quadro negro
       boardmarker-width: 3 # largura da caneta do quadro branco
-    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
 #   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides

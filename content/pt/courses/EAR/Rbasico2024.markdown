@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-08-23 20:54:30"
+date: "2024-08-26 19:38:23"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -330,6 +330,40 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
 {{< youtube "HR5bg4vAGqc">}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 11 - *Arrays* (Matrizes multidimensionais)" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ *Arrays* (Matrizes multidimensionais)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide11/index.html" target="_blank">Aula 11</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1ewmRJ4LE2EATW3uxYxweVP92u4qGcImW6trfEKAv-EQ/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube 5GyjaYvDQ_0>}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 12 - Listas " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Listas
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide12/index.html" target="_blank">Aula 12</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1ebpIvvHWoL17BRa6MwbyX1Ue4aY7jyyoBL47_J3VR-M/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube U4HqjFDxixk>}}
 
 {{< /spoiler >}}
 

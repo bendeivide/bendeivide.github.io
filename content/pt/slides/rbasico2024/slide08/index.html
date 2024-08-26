@@ -554,7 +554,7 @@
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="co"># Inspecionando o objeto</span></span>
 <span id="cb5-2"><a href=""></a><span class="fu">.Internal</span>(<span class="fu">inspect</span>(x))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>@5609e016c9a0 10 LGLSXP g0c0 [REF(2)] (len=0, tl=0)</code></pre>
+<pre><code>@589873b72a30 10 LGLSXP g0c0 [REF(2)] (len=0, tl=0)</code></pre>
 </div>
 </div>
 </section></section>
@@ -1012,6 +1012,8 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="index_files/libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="index_files/libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
   <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
@@ -1035,6 +1037,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
 'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":3},
+'multiplex': {"secret":null,"id":"59dd9a0f259bbadb","url":"https://reveal-multiplex.glitch.me/"},
 'pointer': {"0":{"key":"q"},"1":{"color":"red"},"2":{"pointerSize":16},"3":{"alwaysVisible":false},"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,
  
@@ -1209,7 +1212,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
-          RevealNotes,
+          
           RevealSearch,
           RevealZoom
         ]

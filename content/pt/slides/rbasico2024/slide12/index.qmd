@@ -1,6 +1,6 @@
 ---
-title: "EAR: R Básico"
-subtitle: "Aula 12 - Listas"
+title: "EAR: R Básico | Aula 12"
+subtitle: "Listas"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -13,11 +13,11 @@ csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 format: 
   revealjs:
     navigation-mode: vertical # Slides horizontais e verticais
-    theme: dark
+    theme: [dark, ben-slide.scss]
     transition: slide
     background-transition: fade
 #    transition-speed: fade
-    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    footer: "[EAR: R básico 2024](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
     # Quadro negro
@@ -41,7 +41,7 @@ format:
       - alwaysVisible: false
 revealjs-plugins:
   - pointer
-editor: visual
+editor: source
 ---
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
