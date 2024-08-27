@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-08-26 19:38:23"
+date: "2024-08-27 20:16:15"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -339,14 +339,14 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide11/index.html" target="_blank">Aula 11</a>
 {{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
 {{< icon name="headphones" pack="fas" >}} __Podcast__
-{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1ewmRJ4LE2EATW3uxYxweVP92u4qGcImW6trfEKAv-EQ/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1LH0InipFAtyHnoUzd1Hyljf_nVkxTiByxQHQecreU-o/edit?usp=sharing)
 {{< icon name="book-reader" pack="fas" >}} __Material para consulta__
    - [Livro: R básico]({{< relref "books/eambr01/index" >}})
    - [Curso R](courses/cursor/)
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube 5GyjaYvDQ_0>}}
+{{< youtube >}}
 
 {{< /spoiler >}}
 
@@ -363,7 +363,24 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube U4HqjFDxixk>}}
+{{< youtube >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 13 - Quadro de dados " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Quadro de dados
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide13/index.html" target="_blank">Aula 13</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1lNur7uPo8g02Kf8Cp_TchxOq6ctpLrv0cz2u32WY1mU/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "">}}
 
 {{< /spoiler >}}
 
