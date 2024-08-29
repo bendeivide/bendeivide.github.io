@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.2
-date: "2024-08-22 18:33:54"
+date: "2024-08-29 13:33:27"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -51,9 +51,13 @@ A Natureza da estatística. Tratamento da informação. Distribuições de frequ
 
 - [Link](https://docs.google.com/spreadsheets/d/1ER_H6_dx6yJUGQFBmng0Uouuhw9uMw--49RY9prEMp0/edit?usp=sharing)
 
-## Turma para criação do livro
+## Modelo de relatório para entregas
 
-- [Link](https://github.com/users/bendeivide/projects/2/views/1?layout=board)
+
+
+<!-- ## Turma para criação do livro -->
+
+<!-- - [Link](https://github.com/users/bendeivide/projects/2/views/1?layout=board) -->
 
 <!-- ## Preenchimento de dados para as avaliações -->
 
