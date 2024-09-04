@@ -10,10 +10,10 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.5.56">
 
   <meta name="author" content=" Ben Dêivide |  UFSJ">
-  <title>EAR: R Básico</title>
+  <title>EAR: R Básico | Aula 14</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +44,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -100,6 +100,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -246,7 +247,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -415,8 +417,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="EAR-rbasico-background.png" class="quarto-title-block center">
-  <h1 class="title">EAR: R Básico</h1>
-  <p class="subtitle">Aula 14 - Importando e Exportando dados</p>
+  <h1 class="title">EAR: R Básico | Aula 14</h1>
+  <p class="subtitle">Importando e Exportando dados</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -462,13 +464,12 @@
 <center>
 <img src="ufsj.png" title="ufsj.edu.br/" width="300">
 </center>
-</div>
-</div>
+</div></div>
 </section>
 
 <section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Livro de Apoio</h1>
-<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
+<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2022</a>)</span>:</p>
 <p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 <p><img src="hardcover01.png" width="300"></p>
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
@@ -564,9 +565,9 @@
 <h1>Importação de dados</h1>
 <p>Usando o <em>console</em>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="sc">&gt;</span> <span class="co"># Criando e inserido os elementos do objeto dados</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">scan</span>()</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="dv">1</span><span class="sc">:</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Criando e inserido os elementos do objeto dados</span></span>
+<span id="cb1-2"><a href=""></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">scan</span>()</span>
+<span id="cb1-3"><a href=""></a><span class="dv">1</span><span class="sc">:</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><span class="fragment">Vamos usar o R para verificar este comando!</span></p>
 </section>
@@ -633,7 +634,7 @@
 </ul>
 </section>
 <section id="código-5.1-batista2021" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Código 5.1 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<h2>Código 5.1 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2022</a>)</span></h2>
 <aside class="notes">
 <ul>
 <li>Lembrar de falar das barras invertidas (“\”) para o endereço do arquivo;</li>
@@ -650,29 +651,29 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Diretorio</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">getwd</span>()</span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="co"># Mudando para o diretorio de interesse</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="fu">setwd</span>(<span class="st">'C:/eambr01'</span>)</span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="co"># Verificando os arquivos no diretorio de trabalho</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="fu">list.files</span>()</span>
-<span id="cb2-7"><a href="#cb2-7"></a><span class="co"># Importando os dados apontando para o diretorio do arquivo</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a>dados1 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-9"><a href="#cb2-9"></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="co"># trabalho, isto eh, getwd()</span></span>
-<span id="cb2-11"><a href="#cb2-11"></a>dados2 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="st">'alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-12"><a href="#cb2-12"></a><span class="co"># Importando os dados com decimais com ',' apontando para o diretorio do arquivo</span></span>
-<span id="cb2-13"><a href="#cb2-13"></a>dados3 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/dadost1980.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>)</span>
-<span id="cb2-14"><a href="#cb2-14"></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
-<span id="cb2-15"><a href="#cb2-15"></a><span class="co"># trabalho, isto eh, getwd()</span></span>
-<span id="cb2-16"><a href="#cb2-16"></a>dados4 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'dadost1980.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>)</span>
-<span id="cb2-17"><a href="#cb2-17"></a><span class="co"># Importando os dados com decimais ',', e separados por ';' apontando para o diretorio do arquivo</span></span>
-<span id="cb2-18"><a href="#cb2-18"></a>dados5 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/producao.csv'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>, <span class="at">sep =</span> <span class="st">';'</span>)</span>
-<span id="cb2-19"><a href="#cb2-19"></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
-<span id="cb2-20"><a href="#cb2-20"></a><span class="co"># trabalho, isto eh, getwd()</span></span>
-<span id="cb2-21"><a href="#cb2-21"></a>dados6 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'producao.csv'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>, <span class="at">sep =</span> <span class="st">';'</span>)</span>
-<span id="cb2-22"><a href="#cb2-22"></a><span class="co"># Importando da internet</span></span>
-<span id="cb2-23"><a href="#cb2-23"></a>dados7 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'https://raw.githubusercontent.com/bendeivide/book-eambr01/main/files/alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="co"># Diretorio</span></span>
+<span id="cb2-2"><a href=""></a><span class="fu">getwd</span>()</span>
+<span id="cb2-3"><a href=""></a><span class="co"># Mudando para o diretorio de interesse</span></span>
+<span id="cb2-4"><a href=""></a><span class="fu">setwd</span>(<span class="st">'C:/eambr01'</span>)</span>
+<span id="cb2-5"><a href=""></a><span class="co"># Verificando os arquivos no diretorio de trabalho</span></span>
+<span id="cb2-6"><a href=""></a><span class="fu">list.files</span>()</span>
+<span id="cb2-7"><a href=""></a><span class="co"># Importando os dados apontando para o diretorio do arquivo</span></span>
+<span id="cb2-8"><a href=""></a>dados1 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-9"><a href=""></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
+<span id="cb2-10"><a href=""></a><span class="co"># trabalho, isto eh, getwd()</span></span>
+<span id="cb2-11"><a href=""></a>dados2 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="st">'alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-12"><a href=""></a><span class="co"># Importando os dados com decimais com ',' apontando para o diretorio do arquivo</span></span>
+<span id="cb2-13"><a href=""></a>dados3 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/dadost1980.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>)</span>
+<span id="cb2-14"><a href=""></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
+<span id="cb2-15"><a href=""></a><span class="co"># trabalho, isto eh, getwd()</span></span>
+<span id="cb2-16"><a href=""></a>dados4 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'dadost1980.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>)</span>
+<span id="cb2-17"><a href=""></a><span class="co"># Importando os dados com decimais ',', e separados por ';' apontando para o diretorio do arquivo</span></span>
+<span id="cb2-18"><a href=""></a>dados5 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'C:/eambr01/producao.csv'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>, <span class="at">sep =</span> <span class="st">';'</span>)</span>
+<span id="cb2-19"><a href=""></a><span class="co"># Considerando que o arquivo esta no diretorio de</span></span>
+<span id="cb2-20"><a href=""></a><span class="co"># trabalho, isto eh, getwd()</span></span>
+<span id="cb2-21"><a href=""></a>dados6 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'producao.csv'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>, <span class="at">dec =</span> <span class="st">','</span>, <span class="at">sep =</span> <span class="st">';'</span>)</span>
+<span id="cb2-22"><a href=""></a><span class="co"># Importando da internet</span></span>
+<span id="cb2-23"><a href=""></a>dados7 <span class="ot">&lt;-</span> <span class="fu">read.table</span>(<span class="at">file =</span> <span class="st">'https://raw.githubusercontent.com/bendeivide/book-eambr01/main/files/alfafa.txt'</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section>
 <section id="exportação-de-dados" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
@@ -689,118 +690,118 @@
 <p>Funções usadas: <code>utils::write.table()</code>, <code>writexl::write_xlsx()</code>, <code>xtable::xtable()</code></p>
 </section>
 <section id="código-5.5-batista2021" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Código 5.5 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># Instalando e/ou carregando o pacote 'readxl'</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="co">#install.packages('readxl') # Se nao tiver instalado!</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="fu">library</span>(<span class="st">'readxl'</span>)</span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="co"># Vendo exemplos de arquivo no pacote</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a><span class="fu">readxl_example</span>()    </span>
-<span id="cb3-6"><a href="#cb3-6"></a></span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="co"># Caminho do arquivo</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a>arquivo_xlsx <span class="ot">&lt;-</span> <span class="fu">readxl_example</span>(<span class="st">'datasets.xlsx'</span>)</span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="co"># Estrutura de dado 'tibble'</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a>dado <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(arquivo_xlsx); dado  </span>
-<span id="cb3-11"><a href="#cb3-11"></a></span>
-<span id="cb3-12"><a href="#cb3-12"></a><span class="co"># Estrutura de dado 'quadro de dado (data frame)'</span></span>
-<span id="cb3-13"><a href="#cb3-13"></a><span class="fu">head</span>(<span class="fu">as.data.frame</span>(dado))</span>
-<span id="cb3-14"><a href="#cb3-14"></a></span>
-<span id="cb3-15"><a href="#cb3-15"></a><span class="co"># Arquivo temporario</span></span>
-<span id="cb3-16"><a href="#cb3-16"></a>x <span class="ot">&lt;-</span> <span class="fu">tempfile</span>(<span class="at">pattern =</span> <span class="st">'dados'</span>, <span class="at">fileext =</span> <span class="st">'.txt'</span>)</span>
-<span id="cb3-17"><a href="#cb3-17"></a></span>
-<span id="cb3-18"><a href="#cb3-18"></a><span class="co"># Objeto</span></span>
-<span id="cb3-19"><a href="#cb3-19"></a>d <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="dv">1</span>, <span class="at">y =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span>
-<span id="cb3-20"><a href="#cb3-20"></a></span>
-<span id="cb3-21"><a href="#cb3-21"></a><span class="co"># Exportando os dados</span></span>
-<span id="cb3-22"><a href="#cb3-22"></a><span class="fu">write.table</span>(d, <span class="at">file =</span> x, <span class="at">sep =</span> <span class="st">'</span><span class="sc">\t</span><span class="st">'</span>, <span class="at">quote =</span> <span class="cn">FALSE</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb3-23"><a href="#cb3-23"></a><span class="co"># sep = '\t' =&gt; representa uma  TAB entre as colunas</span></span>
-<span id="cb3-24"><a href="#cb3-24"></a><span class="co"># file = x =&gt; Essa saida foi um arquivo temporario, mas se desejar exportar os dados para um arquivo especifico, em um diretorio específico, basta inserir esse caminho entre</span></span>
-<span id="cb3-25"><a href="#cb3-25"></a><span class="co">#aspas, por exemplo, file = 'C:\dados.txt'</span></span>
-<span id="cb3-26"><a href="#cb3-26"></a></span>
-<span id="cb3-27"><a href="#cb3-27"></a><span class="co"># Abrindo o arquivo</span></span>
-<span id="cb3-28"><a href="#cb3-28"></a><span class="fu">file.show</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<h2>Código 5.5 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2022</a>)</span></h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="co"># Instalando e/ou carregando o pacote 'readxl'</span></span>
+<span id="cb3-2"><a href=""></a><span class="co">#install.packages('readxl') # Se nao tiver instalado!</span></span>
+<span id="cb3-3"><a href=""></a><span class="fu">library</span>(<span class="st">'readxl'</span>)</span>
+<span id="cb3-4"><a href=""></a><span class="co"># Vendo exemplos de arquivo no pacote</span></span>
+<span id="cb3-5"><a href=""></a><span class="fu">readxl_example</span>()    </span>
+<span id="cb3-6"><a href=""></a></span>
+<span id="cb3-7"><a href=""></a><span class="co"># Caminho do arquivo</span></span>
+<span id="cb3-8"><a href=""></a>arquivo_xlsx <span class="ot">&lt;-</span> <span class="fu">readxl_example</span>(<span class="st">'datasets.xlsx'</span>)</span>
+<span id="cb3-9"><a href=""></a><span class="co"># Estrutura de dado 'tibble'</span></span>
+<span id="cb3-10"><a href=""></a>dado <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(arquivo_xlsx); dado  </span>
+<span id="cb3-11"><a href=""></a></span>
+<span id="cb3-12"><a href=""></a><span class="co"># Estrutura de dado 'quadro de dado (data frame)'</span></span>
+<span id="cb3-13"><a href=""></a><span class="fu">head</span>(<span class="fu">as.data.frame</span>(dado))</span>
+<span id="cb3-14"><a href=""></a></span>
+<span id="cb3-15"><a href=""></a><span class="co"># Arquivo temporario</span></span>
+<span id="cb3-16"><a href=""></a>x <span class="ot">&lt;-</span> <span class="fu">tempfile</span>(<span class="at">pattern =</span> <span class="st">'dados'</span>, <span class="at">fileext =</span> <span class="st">'.txt'</span>)</span>
+<span id="cb3-17"><a href=""></a></span>
+<span id="cb3-18"><a href=""></a><span class="co"># Objeto</span></span>
+<span id="cb3-19"><a href=""></a>d <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="dv">1</span>, <span class="at">y =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span>
+<span id="cb3-20"><a href=""></a></span>
+<span id="cb3-21"><a href=""></a><span class="co"># Exportando os dados</span></span>
+<span id="cb3-22"><a href=""></a><span class="fu">write.table</span>(d, <span class="at">file =</span> x, <span class="at">sep =</span> <span class="st">'</span><span class="sc">\t</span><span class="st">'</span>, <span class="at">quote =</span> <span class="cn">FALSE</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb3-23"><a href=""></a><span class="co"># sep = '\t' =&gt; representa uma  TAB entre as colunas</span></span>
+<span id="cb3-24"><a href=""></a><span class="co"># file = x =&gt; Essa saida foi um arquivo temporario, mas se desejar exportar os dados para um arquivo especifico, em um diretorio específico, basta inserir esse caminho entre</span></span>
+<span id="cb3-25"><a href=""></a><span class="co">#aspas, por exemplo, file = 'C:\dados.txt'</span></span>
+<span id="cb3-26"><a href=""></a></span>
+<span id="cb3-27"><a href=""></a><span class="co"># Abrindo o arquivo</span></span>
+<span id="cb3-28"><a href=""></a><span class="fu">file.show</span>(x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="código-5.5-batista2021-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Código 5.5 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<h2>Código 5.5 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2022</a>)</span></h2>
 <center>
 <img data-src="export_file.png">
 </center>
 </section>
 <section id="código-5.6-batista2021" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Código 5.6 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># Dados do pacote nativo 'datasets'</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">library</span>(<span class="st">'datasets'</span>)</span>
-<span id="cb4-3"><a href="#cb4-3"></a>dados <span class="ot">&lt;-</span> <span class="fu">head</span>(cars); dados <span class="co"># Quadro de dados (Data frame)</span></span>
-<span id="cb4-4"><a href="#cb4-4"></a></span>
-<span id="cb4-5"><a href="#cb4-5"></a><span class="co"># Instalando e/ou carregando writexl</span></span>
-<span id="cb4-6"><a href="#cb4-6"></a><span class="fu">install.packages</span>(<span class="st">'writexl'</span>)</span>
-<span id="cb4-7"><a href="#cb4-7"></a><span class="fu">library</span>(writexl)</span>
-<span id="cb4-8"><a href="#cb4-8"></a><span class="co"># Diretorio de trabalho</span></span>
-<span id="cb4-9"><a href="#cb4-9"></a>dirtrab <span class="ot">&lt;-</span> <span class="fu">getwd</span>()</span>
-<span id="cb4-10"><a href="#cb4-10"></a><span class="co"># Nome do arquivo</span></span>
-<span id="cb4-11"><a href="#cb4-11"></a>nome <span class="ot">&lt;-</span> <span class="st">'dados.xlsx'</span></span>
-<span id="cb4-12"><a href="#cb4-12"></a><span class="co"># Caminho</span></span>
-<span id="cb4-13"><a href="#cb4-13"></a>caminho <span class="ot">&lt;-</span> <span class="fu">paste</span>(dirtrab, nome, <span class="at">sep =</span> <span class="st">'/'</span>)</span>
-<span id="cb4-14"><a href="#cb4-14"></a><span class="co"># Exportando esses dados para um '.xlsx'</span></span>
-<span id="cb4-15"><a href="#cb4-15"></a>file <span class="ot">&lt;-</span> writexl<span class="sc">::</span><span class="fu">write_xlsx</span>(dados, caminho)</span>
-<span id="cb4-16"><a href="#cb4-16"></a><span class="co"># Mortrando o arquivo</span></span>
-<span id="cb4-17"><a href="#cb4-17"></a><span class="fu">file.show</span>(file)</span>
-<span id="cb4-18"><a href="#cb4-18"></a></span>
-<span id="cb4-19"><a href="#cb4-19"></a><span class="co"># Vamos criar agora listas de quadro de dados</span></span>
-<span id="cb4-20"><a href="#cb4-20"></a>d1 <span class="ot">&lt;-</span> <span class="fu">head</span>(cars); d1 <span class="co"># valores iniciais de 'cars'</span></span>
-<span id="cb4-21"><a href="#cb4-21"></a>d2 <span class="ot">&lt;-</span> <span class="fu">tail</span>(cars); d2 <span class="co"># valores finais de 'cars'</span></span>
-<span id="cb4-22"><a href="#cb4-22"></a></span>
-<span id="cb4-23"><a href="#cb4-23"></a>lista <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">elem01 =</span>d1,  <span class="at">elem02 =</span><span class="dv">02</span>); lista</span>
-<span id="cb4-24"><a href="#cb4-24"></a></span>
-<span id="cb4-25"><a href="#cb4-25"></a></span>
-<span id="cb4-26"><a href="#cb4-26"></a><span class="co"># Diretorio de trabalho</span></span>
-<span id="cb4-27"><a href="#cb4-27"></a>dirtrab <span class="ot">&lt;-</span> <span class="fu">getwd</span>()</span>
-<span id="cb4-28"><a href="#cb4-28"></a><span class="co"># Nome do arquivo</span></span>
-<span id="cb4-29"><a href="#cb4-29"></a>nome <span class="ot">&lt;-</span> <span class="st">'lista.xlsx'</span></span>
-<span id="cb4-30"><a href="#cb4-30"></a><span class="co"># Caminho</span></span>
-<span id="cb4-31"><a href="#cb4-31"></a>caminho <span class="ot">&lt;-</span> <span class="fu">paste</span>(dirtrab, nome, <span class="at">sep =</span> <span class="st">'/'</span>)</span>
-<span id="cb4-32"><a href="#cb4-32"></a><span class="co"># Exportando esses dados para um '.xlsx'</span></span>
-<span id="cb4-33"><a href="#cb4-33"></a>file <span class="ot">&lt;-</span> writexl<span class="sc">::</span><span class="fu">write_xlsx</span>(lista, caminho)</span>
-<span id="cb4-34"><a href="#cb4-34"></a><span class="co"># Mortrando o arquivo</span></span>
-<span id="cb4-35"><a href="#cb4-35"></a><span class="fu">file.show</span>(file)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<h2>Código 5.6 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2022</a>)</span></h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="co"># Dados do pacote nativo 'datasets'</span></span>
+<span id="cb4-2"><a href=""></a><span class="fu">library</span>(<span class="st">'datasets'</span>)</span>
+<span id="cb4-3"><a href=""></a>dados <span class="ot">&lt;-</span> <span class="fu">head</span>(cars); dados <span class="co"># Quadro de dados (Data frame)</span></span>
+<span id="cb4-4"><a href=""></a></span>
+<span id="cb4-5"><a href=""></a><span class="co"># Instalando e/ou carregando writexl</span></span>
+<span id="cb4-6"><a href=""></a><span class="fu">install.packages</span>(<span class="st">'writexl'</span>)</span>
+<span id="cb4-7"><a href=""></a><span class="fu">library</span>(writexl)</span>
+<span id="cb4-8"><a href=""></a><span class="co"># Diretorio de trabalho</span></span>
+<span id="cb4-9"><a href=""></a>dirtrab <span class="ot">&lt;-</span> <span class="fu">getwd</span>()</span>
+<span id="cb4-10"><a href=""></a><span class="co"># Nome do arquivo</span></span>
+<span id="cb4-11"><a href=""></a>nome <span class="ot">&lt;-</span> <span class="st">'dados.xlsx'</span></span>
+<span id="cb4-12"><a href=""></a><span class="co"># Caminho</span></span>
+<span id="cb4-13"><a href=""></a>caminho <span class="ot">&lt;-</span> <span class="fu">paste</span>(dirtrab, nome, <span class="at">sep =</span> <span class="st">'/'</span>)</span>
+<span id="cb4-14"><a href=""></a><span class="co"># Exportando esses dados para um '.xlsx'</span></span>
+<span id="cb4-15"><a href=""></a>file <span class="ot">&lt;-</span> writexl<span class="sc">::</span><span class="fu">write_xlsx</span>(dados, caminho)</span>
+<span id="cb4-16"><a href=""></a><span class="co"># Mortrando o arquivo</span></span>
+<span id="cb4-17"><a href=""></a><span class="fu">file.show</span>(file)</span>
+<span id="cb4-18"><a href=""></a></span>
+<span id="cb4-19"><a href=""></a><span class="co"># Vamos criar agora listas de quadro de dados</span></span>
+<span id="cb4-20"><a href=""></a>d1 <span class="ot">&lt;-</span> <span class="fu">head</span>(cars); d1 <span class="co"># valores iniciais de 'cars'</span></span>
+<span id="cb4-21"><a href=""></a>d2 <span class="ot">&lt;-</span> <span class="fu">tail</span>(cars); d2 <span class="co"># valores finais de 'cars'</span></span>
+<span id="cb4-22"><a href=""></a></span>
+<span id="cb4-23"><a href=""></a>lista <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">elem01 =</span>d1,  <span class="at">elem02 =</span><span class="dv">02</span>); lista</span>
+<span id="cb4-24"><a href=""></a></span>
+<span id="cb4-25"><a href=""></a></span>
+<span id="cb4-26"><a href=""></a><span class="co"># Diretorio de trabalho</span></span>
+<span id="cb4-27"><a href=""></a>dirtrab <span class="ot">&lt;-</span> <span class="fu">getwd</span>()</span>
+<span id="cb4-28"><a href=""></a><span class="co"># Nome do arquivo</span></span>
+<span id="cb4-29"><a href=""></a>nome <span class="ot">&lt;-</span> <span class="st">'lista.xlsx'</span></span>
+<span id="cb4-30"><a href=""></a><span class="co"># Caminho</span></span>
+<span id="cb4-31"><a href=""></a>caminho <span class="ot">&lt;-</span> <span class="fu">paste</span>(dirtrab, nome, <span class="at">sep =</span> <span class="st">'/'</span>)</span>
+<span id="cb4-32"><a href=""></a><span class="co"># Exportando esses dados para um '.xlsx'</span></span>
+<span id="cb4-33"><a href=""></a>file <span class="ot">&lt;-</span> writexl<span class="sc">::</span><span class="fu">write_xlsx</span>(lista, caminho)</span>
+<span id="cb4-34"><a href=""></a><span class="co"># Mortrando o arquivo</span></span>
+<span id="cb4-35"><a href=""></a><span class="fu">file.show</span>(file)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="código-5.6-batista2021-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Código 5.6 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<h2>Código 5.6 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2022</a>)</span></h2>
 <div class="r-stack">
 <p><img data-src="write_loffice.png" class="fragment fade-in-then-out" width="500"></p>
 <p><img data-src="write_loffice02.png" class="fragment" width="500"></p>
 </div>
 </section>
 <section id="código-5.7-batista2021" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Código 5.7 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<h2>Código 5.7 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2022</a>)</span></h2>
 <p>Comandos no R:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># Instalando e/ou carregando o pacote 'xtable'</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">install.packages</span>(<span class="st">'xtable'</span>)</span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="co"># Carregando/Anexando</span></span>
-<span id="cb5-4"><a href="#cb5-4"></a><span class="fu">library</span>(xtable)</span>
-<span id="cb5-5"><a href="#cb5-5"></a><span class="fu">library</span>(datasets)</span>
-<span id="cb5-6"><a href="#cb5-6"></a><span class="co"># Dados</span></span>
-<span id="cb5-7"><a href="#cb5-7"></a>dados <span class="ot">&lt;-</span> <span class="fu">head</span>(mtcars[,<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>]); dados</span>
-<span id="cb5-8"><a href="#cb5-8"></a><span class="co"># Exportando para LaTeX</span></span>
-<span id="cb5-9"><a href="#cb5-9"></a><span class="fu">xtable</span>(dados)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="co"># Instalando e/ou carregando o pacote 'xtable'</span></span>
+<span id="cb5-2"><a href=""></a><span class="fu">install.packages</span>(<span class="st">'xtable'</span>)</span>
+<span id="cb5-3"><a href=""></a><span class="co"># Carregando/Anexando</span></span>
+<span id="cb5-4"><a href=""></a><span class="fu">library</span>(xtable)</span>
+<span id="cb5-5"><a href=""></a><span class="fu">library</span>(datasets)</span>
+<span id="cb5-6"><a href=""></a><span class="co"># Dados</span></span>
+<span id="cb5-7"><a href=""></a>dados <span class="ot">&lt;-</span> <span class="fu">head</span>(mtcars[,<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>]); dados</span>
+<span id="cb5-8"><a href=""></a><span class="co"># Exportando para LaTeX</span></span>
+<span id="cb5-9"><a href=""></a><span class="fu">xtable</span>(dados)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="código-5.7-batista2021-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
-<h2>Código 5.7 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2021</a>)</span></h2>
+<h2>Código 5.7 <span class="citation" data-cites="batista2021">(<a href="#/referências" role="doc-biblioref" onclick="">Batista e Oliveira, 2022</a>)</span></h2>
 <p>Saída no <code>console</code>:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource latex number-lines code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">\begin</span>{<span class="ex">table</span>}[ht]</span>
-<span id="cb6-2"><a href="#cb6-2"></a>  <span class="fu">\centering</span></span>
-<span id="cb6-3"><a href="#cb6-3"></a>  <span class="kw">\begin</span>{<span class="ex">tabular</span>}{rrrr}</span>
-<span id="cb6-4"><a href="#cb6-4"></a>    <span class="fu">\hline</span></span>
-<span id="cb6-5"><a href="#cb6-5"></a>    <span class="op">&amp;</span> mpg <span class="op">&amp;</span> cyl <span class="op">&amp;</span> disp <span class="fu">\\</span></span>
-<span id="cb6-6"><a href="#cb6-6"></a>    <span class="fu">\hline</span></span>
-<span id="cb6-7"><a href="#cb6-7"></a>    Mazda RX4 <span class="op">&amp;</span> 21.00 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 160.00 <span class="fu">\\</span></span>
-<span id="cb6-8"><a href="#cb6-8"></a>    Mazda RX4 Wag <span class="op">&amp;</span> 21.00 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 160.00 <span class="fu">\\</span></span>
-<span id="cb6-9"><a href="#cb6-9"></a>    Datsun 710 <span class="op">&amp;</span> 22.80 <span class="op">&amp;</span> 4.00 <span class="op">&amp;</span> 108.00 <span class="fu">\\</span></span>
-<span id="cb6-10"><a href="#cb6-10"></a>    Hornet 4 Drive <span class="op">&amp;</span> 21.40 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 258.00 <span class="fu">\\</span></span>
-<span id="cb6-11"><a href="#cb6-11"></a>    Hornet Sportabout <span class="op">&amp;</span> 18.70 <span class="op">&amp;</span> 8.00 <span class="op">&amp;</span> 360.00 <span class="fu">\\</span></span>
-<span id="cb6-12"><a href="#cb6-12"></a>    Valiant <span class="op">&amp;</span> 18.10 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 225.00 <span class="fu">\\</span></span>
-<span id="cb6-13"><a href="#cb6-13"></a>    <span class="fu">\hline</span></span>
-<span id="cb6-14"><a href="#cb6-14"></a>  <span class="kw">\end</span>{<span class="ex">tabular</span>}</span>
-<span id="cb6-15"><a href="#cb6-15"></a><span class="kw">\end</span>{<span class="ex">table</span>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource latex number-lines code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a href=""></a><span class="kw">\begin</span>{<span class="ex">table</span>}[ht]</span>
+<span id="cb6-2"><a href=""></a>  <span class="fu">\centering</span></span>
+<span id="cb6-3"><a href=""></a>  <span class="kw">\begin</span>{<span class="ex">tabular</span>}{rrrr}</span>
+<span id="cb6-4"><a href=""></a>    <span class="fu">\hline</span></span>
+<span id="cb6-5"><a href=""></a>    <span class="op">&amp;</span> mpg <span class="op">&amp;</span> cyl <span class="op">&amp;</span> disp <span class="fu">\\</span></span>
+<span id="cb6-6"><a href=""></a>    <span class="fu">\hline</span></span>
+<span id="cb6-7"><a href=""></a>    Mazda RX4 <span class="op">&amp;</span> 21.00 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 160.00 <span class="fu">\\</span></span>
+<span id="cb6-8"><a href=""></a>    Mazda RX4 Wag <span class="op">&amp;</span> 21.00 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 160.00 <span class="fu">\\</span></span>
+<span id="cb6-9"><a href=""></a>    Datsun 710 <span class="op">&amp;</span> 22.80 <span class="op">&amp;</span> 4.00 <span class="op">&amp;</span> 108.00 <span class="fu">\\</span></span>
+<span id="cb6-10"><a href=""></a>    Hornet 4 Drive <span class="op">&amp;</span> 21.40 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 258.00 <span class="fu">\\</span></span>
+<span id="cb6-11"><a href=""></a>    Hornet Sportabout <span class="op">&amp;</span> 18.70 <span class="op">&amp;</span> 8.00 <span class="op">&amp;</span> 360.00 <span class="fu">\\</span></span>
+<span id="cb6-12"><a href=""></a>    Valiant <span class="op">&amp;</span> 18.10 <span class="op">&amp;</span> 6.00 <span class="op">&amp;</span> 225.00 <span class="fu">\\</span></span>
+<span id="cb6-13"><a href=""></a>    <span class="fu">\hline</span></span>
+<span id="cb6-14"><a href=""></a>  <span class="kw">\end</span>{<span class="ex">tabular</span>}</span>
+<span id="cb6-15"><a href=""></a><span class="kw">\end</span>{<span class="ex">table</span>}</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section id="obrigado" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Obrigado</h1>
@@ -812,13 +813,15 @@
 
 <section id="referências" class="title-slide slide level1 smaller scrollable" data-background-image="EAR-rbasico-background-02.png">
 <h1>Referências</h1>
-
-<img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
+<div class="quarto-auto-generated-content">
+<p><img src="logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico | 2024</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
 </div>
-<div id="refs" class="references csl-bib-body" role="list">
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
 <div id="ref-batista2021" class="csl-entry" role="listitem">
-BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2022.
 </div>
 <div id="ref-chambers2016" class="csl-entry" role="listitem">
 CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: Chapman; Hall/CRC, 2016.
@@ -853,7 +856,6 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
       Reveal.initialize({
 'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1110,18 +1112,7 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1153,11 +1144,50 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1167,8 +1197,17 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1182,7 +1221,11 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

@@ -453,6 +453,45 @@ calendR(year = 2024,
 
 {{< /spoiler >}}
 
+{{< spoiler text=":blue_book: Aula 14 - Importanto e Exportando dados " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Importando e Exportando dados
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide14/index.html" target="_blank">Aula 14</a>
+{{< icon name="database" pack="fas" >}} __Arquivos:__ 
+  - {{% staticref "rbasico/alfafa.txt" "newtab" %}}alfafa.txt{{% /staticref %}}
+  - {{% staticref "rbasico/datast1980.txt" "newtab" %}}datast1980.txt{{% /staticref %}}
+  - {{% staticref "rbasico/producao.csv" "newtab" %}}producao.csv{{% /staticref %}}
+
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1m4Zv2Up1z6lFw-pazMs6IOKp5BYWKig3yD_XYYjK7b8/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube  "aiUwAzIAd5Q?si=ZCoSpBHQs9O84YO_">}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 15 - Funções " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Funções
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide15/index.html" target="_blank">Aula 15</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1XtlyiKlNEzgIR_-45g03gIokx7EMAWirU0KZISQju_A/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "ufCueIl9i4A?si=yvlrjYFNAOHfbzHU" >}}
+
+{{< /spoiler >}}
+
 
 ## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
 
