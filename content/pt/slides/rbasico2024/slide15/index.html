@@ -10,10 +10,10 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.5.56">
 
   <meta name="author" content=" Ben Dêivide |  UFSJ">
-  <title>EAR: R Básico</title>
+  <title> EAR: R Básico | Aula 15</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +44,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -100,6 +100,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -246,7 +247,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -415,8 +417,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="EAR-rbasico-background.png" class="quarto-title-block center">
-  <h1 class="title">EAR: R Básico</h1>
-  <p class="subtitle">Aula 15 - Funções</p>
+  <h1 class="title"><i class="fa-brands fa-r-project" aria-label="r-project"></i> EAR: R Básico | Aula 15</h1>
+  <p class="subtitle">Funções</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -462,13 +464,12 @@
 <center>
 <img src="ufsj.png" title="ufsj.edu.br/" width="300">
 </center>
-</div>
-</div>
+</div></div>
 </section>
 
 <section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Livro de Apoio</h1>
-<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
+<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2022</a>)</span>:</p>
 <p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 <p><img src="hardcover01.png" width="300"></p>
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
@@ -502,11 +503,11 @@
 <h2>O que é uma função em <code>R</code>?</h2>
 <p>Exemplo: A função <code>mode()</code> apresenta atributos intrínsecos?</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">typeof</span>(mode) <span class="co"># Tipo</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="fu">typeof</span>(mode) <span class="co"># Tipo</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "closure"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">length</span>(mode) <span class="co"># comprimento</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">length</span>(mode) <span class="co"># comprimento</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1</code></pre>
 </div>
@@ -514,7 +515,7 @@
 </section>
 <section id="o-que-é-uma-função-em-r-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>O que é uma função em <code>R</code>?</h2>
-<table class="table-striped table-hover">
+<table class="table-striped table-hover caption-top">
 <caption><strong>Tabela:</strong> Tipo de funções.</caption>
 <colgroup>
 <col style="width: 42%">
@@ -551,8 +552,8 @@
 <h2>O que é uma função em <code>R</code>?</h2>
 <p>Exemplo:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># Tipagem C</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">typeof</span>(list); <span class="fu">typeof</span>(mean); <span class="fu">typeof</span>(<span class="st">`</span><span class="at">[</span><span class="st">`</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="co"># Tipagem C</span></span>
+<span id="cb5-2"><a href=""></a><span class="fu">typeof</span>(list); <span class="fu">typeof</span>(mean); <span class="fu">typeof</span>(<span class="st">`</span><span class="at">[</span><span class="st">`</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "builtin"</code></pre>
 </div>
@@ -562,8 +563,8 @@
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "special"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="co"># Tipagem S</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a><span class="fu">mode</span>(list); <span class="fu">mode</span>(mean); <span class="fu">mode</span>(<span class="st">`</span><span class="at">[</span><span class="st">`</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a><span class="co"># Tipagem S</span></span>
+<span id="cb9-2"><a href=""></a><span class="fu">mode</span>(list); <span class="fu">mode</span>(mean); <span class="fu">mode</span>(<span class="st">`</span><span class="at">[</span><span class="st">`</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "function"</code></pre>
 </div>
@@ -597,13 +598,13 @@
 <section id="primeiro-exemplo" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Primeiro exemplo</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="sc">&gt;</span> <span class="co"># Vetor</span></span>
-<span id="cb13-2"><a href="#cb13-2"></a><span class="er">&gt;</span> y <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">3</span>, <span class="dv">4</span>); y</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Vetor</span></span>
+<span id="cb13-2"><a href=""></a><span class="er">&gt;</span> y <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">3</span>, <span class="dv">4</span>); y</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 5 3 4</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
-<span id="cb15-2"><a href="#cb15-2"></a><span class="er">&gt;</span> <span class="fu">sort</span>(<span class="at">x =</span> y)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
+<span id="cb15-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">sort</span>(<span class="at">x =</span> y)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3 4 5</code></pre>
 </div>
@@ -612,8 +613,8 @@
 <section id="primeiro-exemplo-continuação" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Primeiro exemplo (continuação…)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a><span class="sc">&gt;</span> <span class="co"># Argumentos da funcao sort</span></span>
-<span id="cb17-2"><a href="#cb17-2"></a><span class="er">&gt;</span> <span class="fu">formals</span>(sort)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Argumentos da funcao sort</span></span>
+<span id="cb17-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">formals</span>(sort)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$x
 
@@ -623,8 +624,8 @@ $decreasing
 
 $...</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="sc">&gt;</span> <span class="co"># Corpo da funcao</span></span>
-<span id="cb19-2"><a href="#cb19-2"></a><span class="er">&gt;</span> <span class="fu">body</span>(sort)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Corpo da funcao</span></span>
+<span id="cb19-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">body</span>(sort)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{
     if (!is.logical(decreasing) || length(decreasing) != 1L) 
@@ -637,8 +638,8 @@ $...</code></pre>
 <section id="primeiro-exemplo-continuação-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Primeiro exemplo (continuação…)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="sc">&gt;</span> <span class="co"># Ambiente</span></span>
-<span id="cb21-2"><a href="#cb21-2"></a><span class="er">&gt;</span> <span class="fu">environment</span>(sort)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Ambiente</span></span>
+<span id="cb21-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">environment</span>(sort)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;environment: namespace:base&gt;</code></pre>
 </div>
@@ -648,8 +649,8 @@ $...</code></pre>
 <h1>Argumentos de entrada e padrão</h1>
 <p>A função <code>sort()</code> tem argumento padrão para <code>decreascing = FALSE</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
-<span id="cb23-2"><a href="#cb23-2"></a><span class="er">&gt;</span> <span class="fu">sort</span>(<span class="at">x =</span> y, <span class="at">decreasing =</span> <span class="cn">TRUE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
+<span id="cb23-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">sort</span>(<span class="at">x =</span> y, <span class="at">decreasing =</span> <span class="cn">TRUE</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 5 4 3</code></pre>
 </div>
@@ -675,9 +676,9 @@ $...</code></pre>
 <section id="ajuda-sobre-funções-em-pacotes" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Ajuda sobre funções em pacotes</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a><span class="sc">&gt;</span> ?<span class="fu">sort</span>()</span>
-<span id="cb25-2"><a href="#cb25-2"></a><span class="sc">&gt;</span> ??<span class="fu">sort</span>()</span>
-<span id="cb25-3"><a href="#cb25-3"></a><span class="sc">&gt;</span> <span class="fu">help</span>(<span class="st">"sort"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href=""></a><span class="sc">&gt;</span> ?<span class="fu">sort</span>()</span>
+<span id="cb25-2"><a href=""></a><span class="sc">&gt;</span> ??<span class="fu">sort</span>()</span>
+<span id="cb25-3"><a href=""></a><span class="sc">&gt;</span> <span class="fu">help</span>(<span class="st">"sort"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 
@@ -689,12 +690,12 @@ $...</code></pre>
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a><span class="sc">&gt;</span> <span class="co"># Gerando 100 numeros aleatorios de uma distribuicao normal</span></span>
-<span id="cb26-2"><a href="#cb26-2"></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">10</span>) <span class="co"># Semente</span></span>
-<span id="cb26-3"><a href="#cb26-3"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">100</span>)</span>
-<span id="cb26-4"><a href="#cb26-4"></a><span class="sc">&gt;</span> </span>
-<span id="cb26-5"><a href="#cb26-5"></a><span class="er">&gt;</span> <span class="co"># Calculando o desvio padrao</span></span>
-<span id="cb26-6"><a href="#cb26-6"></a><span class="er">&gt;</span> <span class="fu">sqrt</span>(<span class="fu">var</span>(x))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Gerando 100 numeros aleatorios de uma distribuicao normal</span></span>
+<span id="cb26-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">10</span>) <span class="co"># Semente</span></span>
+<span id="cb26-3"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">100</span>)</span>
+<span id="cb26-4"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb26-5"><a href=""></a><span class="er">&gt;</span> <span class="co"># Calculando o desvio padrao</span></span>
+<span id="cb26-6"><a href=""></a><span class="er">&gt;</span> <span class="fu">sqrt</span>(<span class="fu">var</span>(x))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.9412359</code></pre>
 </div>
@@ -708,9 +709,9 @@ $...</code></pre>
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1"></a><span class="sc">&gt;</span> <span class="co"># Calculando o desvio padrao</span></span>
-<span id="cb28-2"><a href="#cb28-2"></a><span class="er">&gt;</span> vari <span class="ot">&lt;-</span> <span class="fu">var</span>(x)</span>
-<span id="cb28-3"><a href="#cb28-3"></a><span class="sc">&gt;</span> desvpad <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(vari); desvpad</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Calculando o desvio padrao</span></span>
+<span id="cb28-2"><a href=""></a><span class="er">&gt;</span> vari <span class="ot">&lt;-</span> <span class="fu">var</span>(x)</span>
+<span id="cb28-3"><a href=""></a><span class="sc">&gt;</span> desvpad <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(vari); desvpad</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.9412359</code></pre>
 </div>
@@ -724,10 +725,10 @@ $...</code></pre>
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1"></a><span class="sc">&gt;</span> <span class="co"># Calculando o desvio padrao</span></span>
-<span id="cb30-2"><a href="#cb30-2"></a><span class="er">&gt;</span> x <span class="sc">|&gt;</span></span>
-<span id="cb30-3"><a href="#cb30-3"></a><span class="sc">+</span>   <span class="fu">var</span>() <span class="sc">|&gt;</span></span>
-<span id="cb30-4"><a href="#cb30-4"></a><span class="sc">+</span>   <span class="fu">sqrt</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Calculando o desvio padrao</span></span>
+<span id="cb30-2"><a href=""></a><span class="er">&gt;</span> x <span class="sc">|&gt;</span></span>
+<span id="cb30-3"><a href=""></a><span class="sc">+</span>   <span class="fu">var</span>() <span class="sc">|&gt;</span></span>
+<span id="cb30-4"><a href=""></a><span class="sc">+</span>   <span class="fu">sqrt</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.9412359</code></pre>
 </div>
@@ -744,13 +745,15 @@ $...</code></pre>
 
 <section id="referências" class="title-slide slide level1 smaller scrollable" data-background-image="EAR-rbasico-background-02.png">
 <h1>Referências</h1>
-
-<img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
+<div class="quarto-auto-generated-content">
+<p><img src="logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://bendeivide.github.io/courses/ear/"><i class="fa-brands fa-r-project" aria-label="r-project"></i> EAR: R Básico 2024</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
 </div>
-<div id="refs" class="references csl-bib-body" role="list">
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
 <div id="ref-batista2021" class="csl-entry" role="listitem">
-BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2022.
 </div>
 <div id="ref-chambers2016" class="csl-entry" role="listitem">
 CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: Chapman; Hall/CRC, 2016.
@@ -785,7 +788,6 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
       Reveal.initialize({
 'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1042,18 +1044,7 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1085,11 +1076,50 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1099,8 +1129,17 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1114,7 +1153,11 @@ CHAMBERS, J. M. <strong>Extending <span>R</span></strong>. Boca Raton, Florida: 
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

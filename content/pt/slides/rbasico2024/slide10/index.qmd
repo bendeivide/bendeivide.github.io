@@ -1,6 +1,6 @@
 ---
-title: "EAR: R Básico"
-subtitle: "Aula 10 - Matrizes"
+title: "{{< fa brands r-project >}} Básico 2024 | Aula 10"
+subtitle: "Matrizes"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -17,7 +17,7 @@ format:
     transition: slide
     background-transition: fade
 #    transition-speed: fade
-    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    footer: "[{{< fa brands r-project >}} EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
     # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
