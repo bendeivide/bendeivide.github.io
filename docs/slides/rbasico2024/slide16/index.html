@@ -10,10 +10,10 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.5.56">
 
   <meta name="author" content=" Ben Dêivide |  UFSJ">
-  <title> EAR: R Básico</title>
+  <title> R Básico 2024 | Aula 16</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +44,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -100,6 +100,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -246,7 +247,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -415,8 +417,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="EAR-rbasico-background.png" class="quarto-title-block center">
-  <h1 class="title"><i class="fa-brands fa-r-project" aria-label="r-project"></i> EAR: R Básico</h1>
-  <p class="subtitle">Aula 16 - Estruturas de controle</p>
+  <h1 class="title"><i class="fa-brands fa-r-project" aria-label="r-project"></i> R Básico 2024 | Aula 16</h1>
+  <p class="subtitle">Estruturas de controle</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -462,13 +464,12 @@
 <center>
 <img src="ufsj.png" title="ufsj.edu.br/" width="300">
 </center>
-</div>
-</div>
+</div></div>
 </section>
 
 <section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Livro de Apoio</h1>
-<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
+<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2022</a>)</span>:</p>
 <p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 <p><img src="hardcover01.png" width="300"></p>
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
@@ -499,8 +500,7 @@
 <center>
 <img data-src="fluxo_if.png">
 </center>
-</div>
-</div>
+</div></div>
 </section>
 <section id="função-if-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Função <code>if()</code></h2>
@@ -516,18 +516,17 @@
 <center>
 <img data-src="fluxo_if_else.png" style="width:120.0%">
 </center>
-</div>
-</div>
+</div></div>
 </section>
 <section id="exemplo-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 1</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="er">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">5</span></span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="sc">&gt;</span> <span class="co"># Estrutura if()</span></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="er">&gt;</span> <span class="cf">if</span> (i <span class="sc">&gt;</span> <span class="dv">3</span>) {</span>
-<span id="cb4-5"><a href="#cb4-5"></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Maior que 3!"</span>)</span>
-<span id="cb4-6"><a href="#cb4-6"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
+<span id="cb4-2"><a href=""></a><span class="er">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">5</span></span>
+<span id="cb4-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Estrutura if()</span></span>
+<span id="cb4-4"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (i <span class="sc">&gt;</span> <span class="dv">3</span>) {</span>
+<span id="cb4-5"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Maior que 3!"</span>)</span>
+<span id="cb4-6"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Maior que 3!"</code></pre>
 </div>
@@ -536,13 +535,13 @@
 <section id="exemplo-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Exemplo 2</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6" data-code-line-numbers="5,7|1-9"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb6-1" class="hljs-ln-code"><a href="#cb6-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto numerico</span></span>
-<span id="cb6-2" class="hljs-ln-code"><a href="#cb6-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb6-3" class="hljs-ln-code"><a href="#cb6-3"></a><span class="sc">&gt;</span> </span>
-<span id="cb6-4" class="hljs-ln-code"><a href="#cb6-4"></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
-<span id="cb6-5" class="hljs-ln-code"><a href="#cb6-5"></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.numeric</span>(x)) {</span>
-<span id="cb6-6" class="hljs-ln-code"><a href="#cb6-6"></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso é um número"</span>)</span>
-<span id="cb6-7" class="hljs-ln-code"><a href="#cb6-7"></a><span class="sc">+</span> } </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6" data-code-line-numbers="5,7|1-9"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb6-1" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto numerico</span></span>
+<span id="cb6-2" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb6-3" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb6-4" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
+<span id="cb6-5" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.numeric</span>(x)) {</span>
+<span id="cb6-6" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso é um número"</span>)</span>
+<span id="cb6-7" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> } </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Isso é um número"</code></pre>
 </div>
@@ -551,15 +550,15 @@
 <section id="exemplo-2-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Exemplo 2</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8" data-code-line-numbers="5,7|1-9"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb8-1" class="hljs-ln-code"><a href="#cb8-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto numerico</span></span>
-<span id="cb8-2" class="hljs-ln-code"><a href="#cb8-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb8-3" class="hljs-ln-code"><a href="#cb8-3"></a><span class="sc">&gt;</span> </span>
-<span id="cb8-4" class="hljs-ln-code"><a href="#cb8-4"></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
-<span id="cb8-5" class="hljs-ln-code"><a href="#cb8-5"></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.numeric</span>(x)) {</span>
-<span id="cb8-6" class="hljs-ln-code"><a href="#cb8-6"></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso é um número"</span>)</span>
-<span id="cb8-7" class="hljs-ln-code"><a href="#cb8-7"></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
-<span id="cb8-8" class="hljs-ln-code"><a href="#cb8-8"></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso não é um número"</span>)</span>
-<span id="cb8-9" class="hljs-ln-code"><a href="#cb8-9"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8" data-code-line-numbers="5,7|1-9"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb8-1" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto numerico</span></span>
+<span id="cb8-2" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb8-3" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb8-4" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
+<span id="cb8-5" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.numeric</span>(x)) {</span>
+<span id="cb8-6" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso é um número"</span>)</span>
+<span id="cb8-7" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
+<span id="cb8-8" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso não é um número"</span>)</span>
+<span id="cb8-9" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Isso é um número"</code></pre>
 </div>
@@ -568,12 +567,12 @@
 <section id="exemplo-2-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 2</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10" data-code-line-numbers="2|1-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="sc">&gt;</span> <span class="co"># eh o mesmo que</span></span>
-<span id="cb10-2"><a href="#cb10-2"></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.numeric</span>(x) <span class="sc">==</span> <span class="cn">TRUE</span>) {</span>
-<span id="cb10-3"><a href="#cb10-3"></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso é um número"</span>)</span>
-<span id="cb10-4"><a href="#cb10-4"></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
-<span id="cb10-5"><a href="#cb10-5"></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso não é um número"</span>)</span>
-<span id="cb10-6"><a href="#cb10-6"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10" data-code-line-numbers="2|1-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># eh o mesmo que</span></span>
+<span id="cb10-2"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.numeric</span>(x) <span class="sc">==</span> <span class="cn">TRUE</span>) {</span>
+<span id="cb10-3"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso é um número"</span>)</span>
+<span id="cb10-4"><a href=""></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
+<span id="cb10-5"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(<span class="st">"Isso não é um número"</span>)</span>
+<span id="cb10-6"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Isso é um número"</code></pre>
 </div>
@@ -583,12 +582,12 @@
 <h2>Função <code>ifelse()</code></h2>
 <p>Exemplo 3:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12" data-code-line-numbers="2,3|3|6|1-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a><span class="sc">&gt;</span> <span class="co"># Objetos</span></span>
-<span id="cb12-2"><a href="#cb12-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">5</span></span>
-<span id="cb12-3"><a href="#cb12-3"></a><span class="sc">&gt;</span> w <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">:</span><span class="dv">8</span></span>
-<span id="cb12-4"><a href="#cb12-4"></a><span class="sc">&gt;</span> </span>
-<span id="cb12-5"><a href="#cb12-5"></a><span class="er">&gt;</span> <span class="co"># Segunda forma</span></span>
-<span id="cb12-6"><a href="#cb12-6"></a><span class="er">&gt;</span> <span class="cf">if</span> (x <span class="sc">&lt;</span> w) x <span class="cf">else</span> w</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12" data-code-line-numbers="2,3|3|6|1-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objetos</span></span>
+<span id="cb12-2"><a href=""></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">5</span></span>
+<span id="cb12-3"><a href=""></a><span class="sc">&gt;</span> w <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">:</span><span class="dv">8</span></span>
+<span id="cb12-4"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb12-5"><a href=""></a><span class="er">&gt;</span> <span class="co"># Segunda forma</span></span>
+<span id="cb12-6"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (x <span class="sc">&lt;</span> w) x <span class="cf">else</span> w</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
 <pre><code>Error in if (x &lt; w) x else w: the condition has length &gt; 1</code></pre>
 </div>
@@ -605,12 +604,12 @@
 <section id="exemplo-4" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 4</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15" data-code-line-numbers="2,3|3|6|1-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a><span class="sc">&gt;</span> <span class="co"># Objetos</span></span>
-<span id="cb15-2"><a href="#cb15-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">5</span></span>
-<span id="cb15-3"><a href="#cb15-3"></a><span class="sc">&gt;</span> w <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">:</span><span class="dv">8</span></span>
-<span id="cb15-4"><a href="#cb15-4"></a><span class="sc">&gt;</span> </span>
-<span id="cb15-5"><a href="#cb15-5"></a><span class="er">&gt;</span> <span class="co"># Primeira sintaxe (Preferivel)</span></span>
-<span id="cb15-6"><a href="#cb15-6"></a><span class="er">&gt;</span> <span class="fu">ifelse</span>(x <span class="sc">&lt;</span> w, x, w)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15" data-code-line-numbers="2,3|3|6|1-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objetos</span></span>
+<span id="cb15-2"><a href=""></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">5</span></span>
+<span id="cb15-3"><a href=""></a><span class="sc">&gt;</span> w <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">:</span><span class="dv">8</span></span>
+<span id="cb15-4"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb15-5"><a href=""></a><span class="er">&gt;</span> <span class="co"># Primeira sintaxe (Preferivel)</span></span>
+<span id="cb15-6"><a href=""></a><span class="er">&gt;</span> <span class="fu">ifelse</span>(x <span class="sc">&lt;</span> w, x, w)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3 4 5 5 5 5</code></pre>
 </div>
@@ -619,46 +618,46 @@
 <section id="exemplo-5" class="slide level2" data-background-image="EAR-rbasico-background-02.png" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Exemplo 5</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb17-1" class="hljs-ln-code"><a href="#cb17-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="co"># numero ou palavra</span></span>
-<span id="cb17-2" class="hljs-ln-code"><a href="#cb17-2"></a><span class="sc">&gt;</span> </span>
-<span id="cb17-3" class="hljs-ln-code"><a href="#cb17-3"></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
-<span id="cb17-4" class="hljs-ln-code"><a href="#cb17-4"></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.character</span>(x)) {</span>
-<span id="cb17-5" class="hljs-ln-code"><a href="#cb17-5"></a><span class="sc">+</span>   <span class="st">"palavra"</span></span>
-<span id="cb17-6" class="hljs-ln-code"><a href="#cb17-6"></a><span class="sc">+</span> } </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb17-1" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="co"># numero ou palavra</span></span>
+<span id="cb17-2" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb17-3" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
+<span id="cb17-4" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.character</span>(x)) {</span>
+<span id="cb17-5" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="st">"palavra"</span></span>
+<span id="cb17-6" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> } </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="exemplo-5-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Exemplo 5</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb18-1" class="hljs-ln-code"><a href="#cb18-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="co"># numero ou palavra</span></span>
-<span id="cb18-2" class="hljs-ln-code"><a href="#cb18-2"></a><span class="sc">&gt;</span> </span>
-<span id="cb18-3" class="hljs-ln-code"><a href="#cb18-3"></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
-<span id="cb18-4" class="hljs-ln-code"><a href="#cb18-4"></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.character</span>(x)) {</span>
-<span id="cb18-5" class="hljs-ln-code"><a href="#cb18-5"></a><span class="sc">+</span>   <span class="st">"palavra"</span></span>
-<span id="cb18-6" class="hljs-ln-code"><a href="#cb18-6"></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
-<span id="cb18-7" class="hljs-ln-code"><a href="#cb18-7"></a><span class="sc">+</span>     <span class="cf">if</span> ((x <span class="sc">%%</span> <span class="dv">2</span>) <span class="sc">==</span> <span class="dv">0</span>) {</span>
-<span id="cb18-8" class="hljs-ln-code"><a href="#cb18-8"></a><span class="sc">+</span>       <span class="st">"numero_par"</span></span>
-<span id="cb18-9" class="hljs-ln-code"><a href="#cb18-9"></a><span class="sc">+</span>     } </span>
-<span id="cb18-10" class="hljs-ln-code"><a href="#cb18-10"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb18-1" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="co"># numero ou palavra</span></span>
+<span id="cb18-2" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb18-3" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
+<span id="cb18-4" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.character</span>(x)) {</span>
+<span id="cb18-5" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="st">"palavra"</span></span>
+<span id="cb18-6" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
+<span id="cb18-7" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     <span class="cf">if</span> ((x <span class="sc">%%</span> <span class="dv">2</span>) <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb18-8" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>       <span class="st">"numero_par"</span></span>
+<span id="cb18-9" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     } </span>
+<span id="cb18-10" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="exemplo-5-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Exemplo 5</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb19-1" class="hljs-ln-code"><a href="#cb19-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="co"># numero ou palavra</span></span>
-<span id="cb19-2" class="hljs-ln-code"><a href="#cb19-2"></a><span class="sc">&gt;</span> </span>
-<span id="cb19-3" class="hljs-ln-code"><a href="#cb19-3"></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
-<span id="cb19-4" class="hljs-ln-code"><a href="#cb19-4"></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.character</span>(x)) {</span>
-<span id="cb19-5" class="hljs-ln-code"><a href="#cb19-5"></a><span class="sc">+</span>   <span class="st">"palavra"</span></span>
-<span id="cb19-6" class="hljs-ln-code"><a href="#cb19-6"></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
-<span id="cb19-7" class="hljs-ln-code"><a href="#cb19-7"></a><span class="sc">+</span>     <span class="cf">if</span> ((x <span class="sc">%%</span> <span class="dv">2</span>) <span class="sc">==</span> <span class="dv">0</span>) {</span>
-<span id="cb19-8" class="hljs-ln-code"><a href="#cb19-8"></a><span class="sc">+</span>       <span class="st">"numero_par"</span></span>
-<span id="cb19-9" class="hljs-ln-code"><a href="#cb19-9"></a><span class="sc">+</span>     } <span class="cf">else</span> {</span>
-<span id="cb19-10" class="hljs-ln-code"><a href="#cb19-10"></a><span class="sc">+</span>         <span class="cf">if</span> ((x <span class="sc">%%</span> <span class="dv">2</span>) <span class="sc">==</span> <span class="dv">1</span>) {</span>
-<span id="cb19-11" class="hljs-ln-code"><a href="#cb19-11"></a><span class="sc">+</span>           <span class="st">"numero_impar"</span></span>
-<span id="cb19-12" class="hljs-ln-code"><a href="#cb19-12"></a><span class="sc">+</span>         } </span>
-<span id="cb19-13" class="hljs-ln-code"><a href="#cb19-13"></a><span class="sc">+</span>     } </span>
-<span id="cb19-14" class="hljs-ln-code"><a href="#cb19-14"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb19-1" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="co"># numero ou palavra</span></span>
+<span id="cb19-2" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb19-3" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="co"># Estrutura 'if'</span></span>
+<span id="cb19-4" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (<span class="fu">is.character</span>(x)) {</span>
+<span id="cb19-5" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="st">"palavra"</span></span>
+<span id="cb19-6" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
+<span id="cb19-7" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     <span class="cf">if</span> ((x <span class="sc">%%</span> <span class="dv">2</span>) <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb19-8" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>       <span class="st">"numero_par"</span></span>
+<span id="cb19-9" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     } <span class="cf">else</span> {</span>
+<span id="cb19-10" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>         <span class="cf">if</span> ((x <span class="sc">%%</span> <span class="dv">2</span>) <span class="sc">==</span> <span class="dv">1</span>) {</span>
+<span id="cb19-11" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>           <span class="st">"numero_impar"</span></span>
+<span id="cb19-12" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>         } </span>
+<span id="cb19-13" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     } </span>
+<span id="cb19-14" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "numero_par"</code></pre>
 </div>
@@ -667,58 +666,58 @@
 <section id="exemplo-6" class="slide level2" data-background-image="EAR-rbasico-background-02.png" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Exemplo 6</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="2|3|5|8-10|1-10"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb21-1" class="hljs-ln-code"><a href="#cb21-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
-<span id="cb21-2" class="hljs-ln-code"><a href="#cb21-2"></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">15</span>) <span class="co"># Fixando a semente</span></span>
-<span id="cb21-3" class="hljs-ln-code"><a href="#cb21-3"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>) <span class="co"># Gerando 1000 numeros aleatorios</span></span>
-<span id="cb21-4" class="hljs-ln-code"><a href="#cb21-4"></a><span class="sc">&gt;</span> <span class="co"># medida descritiva</span></span>
-<span id="cb21-5" class="hljs-ln-code"><a href="#cb21-5"></a><span class="er">&gt;</span> opcao <span class="ot">&lt;-</span> <span class="st">"media"</span> </span>
-<span id="cb21-6" class="hljs-ln-code"><a href="#cb21-6"></a><span class="sc">&gt;</span> <span class="co"># opcoes: "media", "mediana", </span></span>
-<span id="cb21-7" class="hljs-ln-code"><a href="#cb21-7"></a><span class="er">&gt;</span> <span class="co">#         "medapar" (media #aparada)</span></span>
-<span id="cb21-8" class="hljs-ln-code"><a href="#cb21-8"></a><span class="er">&gt;</span> <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"media"</span>) {</span>
-<span id="cb21-9" class="hljs-ln-code"><a href="#cb21-9"></a><span class="sc">+</span>   <span class="fu">cat</span>(<span class="st">"A média aritmética é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
-<span id="cb21-10" class="hljs-ln-code"><a href="#cb21-10"></a><span class="sc">+</span> } </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="2|3|5|8-10|1-10"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb21-1" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
+<span id="cb21-2" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">15</span>) <span class="co"># Fixando a semente</span></span>
+<span id="cb21-3" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>) <span class="co"># Gerando 1000 numeros aleatorios</span></span>
+<span id="cb21-4" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># medida descritiva</span></span>
+<span id="cb21-5" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> opcao <span class="ot">&lt;-</span> <span class="st">"media"</span> </span>
+<span id="cb21-6" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># opcoes: "media", "mediana", </span></span>
+<span id="cb21-7" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="co">#         "medapar" (media #aparada)</span></span>
+<span id="cb21-8" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"media"</span>) {</span>
+<span id="cb21-9" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="fu">cat</span>(<span class="st">"A média aritmética é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
+<span id="cb21-10" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> } </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="exemplo-6-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Exemplo 6</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb22-1" class="hljs-ln-code"><a href="#cb22-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
-<span id="cb22-2" class="hljs-ln-code"><a href="#cb22-2"></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">15</span>) <span class="co"># Fixando a semente</span></span>
-<span id="cb22-3" class="hljs-ln-code"><a href="#cb22-3"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>) <span class="co"># Gerando 1000 numeros aleatorios</span></span>
-<span id="cb22-4" class="hljs-ln-code"><a href="#cb22-4"></a><span class="sc">&gt;</span> <span class="co"># medida descritiva</span></span>
-<span id="cb22-5" class="hljs-ln-code"><a href="#cb22-5"></a><span class="er">&gt;</span> opcao <span class="ot">&lt;-</span> <span class="st">"media"</span> </span>
-<span id="cb22-6" class="hljs-ln-code"><a href="#cb22-6"></a><span class="sc">&gt;</span> <span class="co"># opcoes: "media", "mediana", </span></span>
-<span id="cb22-7" class="hljs-ln-code"><a href="#cb22-7"></a><span class="er">&gt;</span> <span class="co">#         "medapar" (media #aparada)</span></span>
-<span id="cb22-8" class="hljs-ln-code"><a href="#cb22-8"></a><span class="er">&gt;</span> <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"media"</span>) {</span>
-<span id="cb22-9" class="hljs-ln-code"><a href="#cb22-9"></a><span class="sc">+</span>   <span class="fu">cat</span>(<span class="st">"A média aritmética é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
-<span id="cb22-10" class="hljs-ln-code"><a href="#cb22-10"></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
-<span id="cb22-11" class="hljs-ln-code"><a href="#cb22-11"></a><span class="sc">+</span>     <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"mediana"</span>) {</span>
-<span id="cb22-12" class="hljs-ln-code"><a href="#cb22-12"></a><span class="sc">+</span>       <span class="fu">cat</span>(<span class="st">"A mediana é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
-<span id="cb22-13" class="hljs-ln-code"><a href="#cb22-13"></a><span class="sc">+</span>     } </span>
-<span id="cb22-14" class="hljs-ln-code"><a href="#cb22-14"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb22-1" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
+<span id="cb22-2" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">15</span>) <span class="co"># Fixando a semente</span></span>
+<span id="cb22-3" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>) <span class="co"># Gerando 1000 numeros aleatorios</span></span>
+<span id="cb22-4" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># medida descritiva</span></span>
+<span id="cb22-5" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> opcao <span class="ot">&lt;-</span> <span class="st">"media"</span> </span>
+<span id="cb22-6" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># opcoes: "media", "mediana", </span></span>
+<span id="cb22-7" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="co">#         "medapar" (media #aparada)</span></span>
+<span id="cb22-8" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"media"</span>) {</span>
+<span id="cb22-9" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="fu">cat</span>(<span class="st">"A média aritmética é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
+<span id="cb22-10" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
+<span id="cb22-11" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"mediana"</span>) {</span>
+<span id="cb22-12" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>       <span class="fu">cat</span>(<span class="st">"A mediana é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
+<span id="cb22-13" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     } </span>
+<span id="cb22-14" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="exemplo-6-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Exemplo 6</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb23-1" class="hljs-ln-code"><a href="#cb23-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
-<span id="cb23-2" class="hljs-ln-code"><a href="#cb23-2"></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">15</span>) <span class="co"># Fixando a semente</span></span>
-<span id="cb23-3" class="hljs-ln-code"><a href="#cb23-3"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>) <span class="co"># Gerando 1000 numeros aleatorios</span></span>
-<span id="cb23-4" class="hljs-ln-code"><a href="#cb23-4"></a><span class="sc">&gt;</span> <span class="co"># medida descritiva</span></span>
-<span id="cb23-5" class="hljs-ln-code"><a href="#cb23-5"></a><span class="er">&gt;</span> opcao <span class="ot">&lt;-</span> <span class="st">"media"</span> </span>
-<span id="cb23-6" class="hljs-ln-code"><a href="#cb23-6"></a><span class="sc">&gt;</span> <span class="co"># opcoes: "media", "mediana", </span></span>
-<span id="cb23-7" class="hljs-ln-code"><a href="#cb23-7"></a><span class="er">&gt;</span> <span class="co">#         "medapar" (media #aparada)</span></span>
-<span id="cb23-8" class="hljs-ln-code"><a href="#cb23-8"></a><span class="er">&gt;</span> <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"media"</span>) {</span>
-<span id="cb23-9" class="hljs-ln-code"><a href="#cb23-9"></a><span class="sc">+</span>   <span class="fu">cat</span>(<span class="st">"A média aritmética é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
-<span id="cb23-10" class="hljs-ln-code"><a href="#cb23-10"></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
-<span id="cb23-11" class="hljs-ln-code"><a href="#cb23-11"></a><span class="sc">+</span>     <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"mediana"</span>) {</span>
-<span id="cb23-12" class="hljs-ln-code"><a href="#cb23-12"></a><span class="sc">+</span>       <span class="fu">cat</span>(<span class="st">"A mediana é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
-<span id="cb23-13" class="hljs-ln-code"><a href="#cb23-13"></a><span class="sc">+</span>     } <span class="cf">else</span> {</span>
-<span id="cb23-14" class="hljs-ln-code"><a href="#cb23-14"></a><span class="sc">+</span>         <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"medpar"</span>) {</span>
-<span id="cb23-15" class="hljs-ln-code"><a href="#cb23-15"></a><span class="sc">+</span>           <span class="fu">cat</span>(<span class="st">"A média aparada é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x, <span class="at">trim =</span> <span class="fl">0.1</span>), <span class="dv">4</span>))</span>
-<span id="cb23-16" class="hljs-ln-code"><a href="#cb23-16"></a><span class="sc">+</span>         }</span>
-<span id="cb23-17" class="hljs-ln-code"><a href="#cb23-17"></a><span class="sc">+</span>     }</span>
-<span id="cb23-18" class="hljs-ln-code"><a href="#cb23-18"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb23-1" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
+<span id="cb23-2" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">15</span>) <span class="co"># Fixando a semente</span></span>
+<span id="cb23-3" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>) <span class="co"># Gerando 1000 numeros aleatorios</span></span>
+<span id="cb23-4" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># medida descritiva</span></span>
+<span id="cb23-5" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> opcao <span class="ot">&lt;-</span> <span class="st">"media"</span> </span>
+<span id="cb23-6" class="hljs-ln-code"><a href=""></a><span class="sc">&gt;</span> <span class="co"># opcoes: "media", "mediana", </span></span>
+<span id="cb23-7" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="co">#         "medapar" (media #aparada)</span></span>
+<span id="cb23-8" class="hljs-ln-code"><a href=""></a><span class="er">&gt;</span> <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"media"</span>) {</span>
+<span id="cb23-9" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>   <span class="fu">cat</span>(<span class="st">"A média aritmética é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
+<span id="cb23-10" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> } <span class="cf">else</span> {</span>
+<span id="cb23-11" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"mediana"</span>) {</span>
+<span id="cb23-12" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>       <span class="fu">cat</span>(<span class="st">"A mediana é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>))</span>
+<span id="cb23-13" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     } <span class="cf">else</span> {</span>
+<span id="cb23-14" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>         <span class="cf">if</span> (opcao <span class="sc">==</span> <span class="st">"medpar"</span>) {</span>
+<span id="cb23-15" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>           <span class="fu">cat</span>(<span class="st">"A média aparada é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x, <span class="at">trim =</span> <span class="fl">0.1</span>), <span class="dv">4</span>))</span>
+<span id="cb23-16" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>         }</span>
+<span id="cb23-17" class="hljs-ln-code"><a href=""></a><span class="sc">+</span>     }</span>
+<span id="cb23-18" class="hljs-ln-code"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>A média aritmética é: 0.037</code></pre>
 </div>
@@ -736,11 +735,11 @@
 <section id="exemplo-7" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 7</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26" data-code-line-numbers="1|2|3|4|1-5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a><span class="sc">&gt;</span> <span class="cf">switch</span>(opcao,</span>
-<span id="cb26-2"><a href="#cb26-2"></a><span class="sc">+</span>    <span class="at">media =</span> <span class="fu">cat</span>(<span class="st">"A média aritmética é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>)),</span>
-<span id="cb26-3"><a href="#cb26-3"></a><span class="sc">+</span>    <span class="at">mediana =</span> <span class="fu">cat</span>(<span class="st">"A mediana é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>)),</span>
-<span id="cb26-4"><a href="#cb26-4"></a><span class="sc">+</span>    <span class="at">medapar =</span> <span class="fu">cat</span>(<span class="st">"A média aparada é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x, <span class="at">trim =</span> <span class="fl">0.1</span>), <span class="dv">4</span>))</span>
-<span id="cb26-5"><a href="#cb26-5"></a><span class="sc">+</span> )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26" data-code-line-numbers="1|2|3|4|1-5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href=""></a><span class="sc">&gt;</span> <span class="cf">switch</span>(opcao,</span>
+<span id="cb26-2"><a href=""></a><span class="sc">+</span>    <span class="at">media =</span> <span class="fu">cat</span>(<span class="st">"A média aritmética é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>)),</span>
+<span id="cb26-3"><a href=""></a><span class="sc">+</span>    <span class="at">mediana =</span> <span class="fu">cat</span>(<span class="st">"A mediana é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>)),</span>
+<span id="cb26-4"><a href=""></a><span class="sc">+</span>    <span class="at">medapar =</span> <span class="fu">cat</span>(<span class="st">"A média aparada é:"</span>, <span class="fu">round</span>(<span class="fu">mean</span>(x, <span class="at">trim =</span> <span class="fl">0.1</span>), <span class="dv">4</span>))</span>
+<span id="cb26-5"><a href=""></a><span class="sc">+</span> )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>A média aritmética é: 0.037</code></pre>
 </div>
@@ -760,23 +759,22 @@
 <p><img data-src="fluxo_repeat_break.png" class="fragment fade-in-then-out" width="1000"></p>
 <p><img data-src="fluxo_repeat_next.png" class="fragment" width="1000"></p>
 </div>
-</div>
-</div>
+</div></div>
 </section>
 <section id="exemplo-8" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 8</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb29" data-code-line-numbers="2|5-7|6|7-10|1-11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1"></a><span class="sc">&gt;</span> <span class="co"># Contador</span></span>
-<span id="cb29-2"><a href="#cb29-2"></a><span class="er">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb29-3"><a href="#cb29-3"></a><span class="sc">&gt;</span> <span class="co"># Loop repeat</span></span>
-<span id="cb29-4"><a href="#cb29-4"></a><span class="er">&gt;</span> <span class="cf">repeat</span> {</span>
-<span id="cb29-5"><a href="#cb29-5"></a><span class="sc">+</span>   <span class="cf">if</span> (i <span class="sc">&gt;</span> <span class="dv">5</span>) {</span>
-<span id="cb29-6"><a href="#cb29-6"></a><span class="sc">+</span>     <span class="cf">break</span></span>
-<span id="cb29-7"><a href="#cb29-7"></a><span class="sc">+</span>   } <span class="cf">else</span> {</span>
-<span id="cb29-8"><a href="#cb29-8"></a><span class="sc">+</span>     <span class="fu">print</span>(i)</span>
-<span id="cb29-9"><a href="#cb29-9"></a><span class="sc">+</span>     i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb29-10"><a href="#cb29-10"></a><span class="sc">+</span>   }</span>
-<span id="cb29-11"><a href="#cb29-11"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29" data-code-line-numbers="2|5-7|6|7-10|1-11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Contador</span></span>
+<span id="cb29-2"><a href=""></a><span class="er">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb29-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Loop repeat</span></span>
+<span id="cb29-4"><a href=""></a><span class="er">&gt;</span> <span class="cf">repeat</span> {</span>
+<span id="cb29-5"><a href=""></a><span class="sc">+</span>   <span class="cf">if</span> (i <span class="sc">&gt;</span> <span class="dv">5</span>) {</span>
+<span id="cb29-6"><a href=""></a><span class="sc">+</span>     <span class="cf">break</span></span>
+<span id="cb29-7"><a href=""></a><span class="sc">+</span>   } <span class="cf">else</span> {</span>
+<span id="cb29-8"><a href=""></a><span class="sc">+</span>     <span class="fu">print</span>(i)</span>
+<span id="cb29-9"><a href=""></a><span class="sc">+</span>     i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb29-10"><a href=""></a><span class="sc">+</span>   }</span>
+<span id="cb29-11"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1
 [1] 2
@@ -789,17 +787,17 @@
 <section id="exemplo-9" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 9</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb31" data-code-line-numbers="3|4-7|6|1-11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1"></a><span class="sc">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="co"># Contador</span></span>
-<span id="cb31-2"><a href="#cb31-2"></a><span class="sc">&gt;</span> <span class="cf">repeat</span> { <span class="co"># Loop repeat</span></span>
-<span id="cb31-3"><a href="#cb31-3"></a><span class="sc">+</span>   <span class="cf">if</span> (i <span class="sc">&gt;</span> <span class="dv">5</span>) <span class="cf">break</span></span>
-<span id="cb31-4"><a href="#cb31-4"></a><span class="sc">+</span>   <span class="cf">else</span> <span class="cf">if</span> (i <span class="sc">==</span> <span class="dv">3</span>) {</span>
-<span id="cb31-5"><a href="#cb31-5"></a><span class="sc">+</span>       i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb31-6"><a href="#cb31-6"></a><span class="sc">+</span>       <span class="cf">next</span></span>
-<span id="cb31-7"><a href="#cb31-7"></a><span class="sc">+</span>     } <span class="cf">else</span> {</span>
-<span id="cb31-8"><a href="#cb31-8"></a><span class="sc">+</span>       <span class="fu">print</span>(i)</span>
-<span id="cb31-9"><a href="#cb31-9"></a><span class="sc">+</span>       i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb31-10"><a href="#cb31-10"></a><span class="sc">+</span>     }</span>
-<span id="cb31-11"><a href="#cb31-11"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31" data-code-line-numbers="3|4-7|6|1-11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href=""></a><span class="sc">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="co"># Contador</span></span>
+<span id="cb31-2"><a href=""></a><span class="sc">&gt;</span> <span class="cf">repeat</span> { <span class="co"># Loop repeat</span></span>
+<span id="cb31-3"><a href=""></a><span class="sc">+</span>   <span class="cf">if</span> (i <span class="sc">&gt;</span> <span class="dv">5</span>) <span class="cf">break</span></span>
+<span id="cb31-4"><a href=""></a><span class="sc">+</span>   <span class="cf">else</span> <span class="cf">if</span> (i <span class="sc">==</span> <span class="dv">3</span>) {</span>
+<span id="cb31-5"><a href=""></a><span class="sc">+</span>       i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb31-6"><a href=""></a><span class="sc">+</span>       <span class="cf">next</span></span>
+<span id="cb31-7"><a href=""></a><span class="sc">+</span>     } <span class="cf">else</span> {</span>
+<span id="cb31-8"><a href=""></a><span class="sc">+</span>       <span class="fu">print</span>(i)</span>
+<span id="cb31-9"><a href=""></a><span class="sc">+</span>       i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb31-10"><a href=""></a><span class="sc">+</span>     }</span>
+<span id="cb31-11"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1
 [1] 2
@@ -819,19 +817,18 @@
 }</code></pre>
 </div><div class="column" style="width:60%;">
 <p><img data-src="loop_while.png"></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="exemplo-10" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 10</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb34" data-code-line-numbers="2|4|1-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1"></a><span class="sc">&gt;</span> <span class="co"># Contador</span></span>
-<span id="cb34-2"><a href="#cb34-2"></a><span class="er">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb34-3"><a href="#cb34-3"></a><span class="sc">&gt;</span> <span class="co"># Loop while</span></span>
-<span id="cb34-4"><a href="#cb34-4"></a><span class="er">&gt;</span> <span class="cf">while</span> (i <span class="sc">&lt;=</span> <span class="dv">5</span>) {</span>
-<span id="cb34-5"><a href="#cb34-5"></a><span class="sc">+</span>   <span class="fu">print</span>(i)</span>
-<span id="cb34-6"><a href="#cb34-6"></a><span class="sc">+</span>   i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb34-7"><a href="#cb34-7"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb34" data-code-line-numbers="2|4|1-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Contador</span></span>
+<span id="cb34-2"><a href=""></a><span class="er">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb34-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Loop while</span></span>
+<span id="cb34-4"><a href=""></a><span class="er">&gt;</span> <span class="cf">while</span> (i <span class="sc">&lt;=</span> <span class="dv">5</span>) {</span>
+<span id="cb34-5"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(i)</span>
+<span id="cb34-6"><a href=""></a><span class="sc">+</span>   i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb34-7"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1
 [1] 2
@@ -844,17 +841,17 @@
 <section id="exemplo-11" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 11</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb36" data-code-line-numbers="7|1-11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1"></a><span class="sc">&gt;</span> <span class="co"># Contador</span></span>
-<span id="cb36-2"><a href="#cb36-2"></a><span class="er">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb36-3"><a href="#cb36-3"></a><span class="sc">&gt;</span> <span class="co"># Loop while</span></span>
-<span id="cb36-4"><a href="#cb36-4"></a><span class="er">&gt;</span> <span class="cf">while</span> (i <span class="sc">&lt;=</span> <span class="dv">5</span>) {</span>
-<span id="cb36-5"><a href="#cb36-5"></a><span class="sc">+</span>   <span class="cf">if</span> (i <span class="sc">==</span> <span class="dv">3</span>) {</span>
-<span id="cb36-6"><a href="#cb36-6"></a><span class="sc">+</span>     i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb36-7"><a href="#cb36-7"></a><span class="sc">+</span>     <span class="cf">next</span></span>
-<span id="cb36-8"><a href="#cb36-8"></a><span class="sc">+</span>   }</span>
-<span id="cb36-9"><a href="#cb36-9"></a><span class="sc">+</span>   <span class="fu">print</span>(i)</span>
-<span id="cb36-10"><a href="#cb36-10"></a><span class="sc">+</span>   i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb36-11"><a href="#cb36-11"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb36" data-code-line-numbers="7|1-11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Contador</span></span>
+<span id="cb36-2"><a href=""></a><span class="er">&gt;</span> i <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb36-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Loop while</span></span>
+<span id="cb36-4"><a href=""></a><span class="er">&gt;</span> <span class="cf">while</span> (i <span class="sc">&lt;=</span> <span class="dv">5</span>) {</span>
+<span id="cb36-5"><a href=""></a><span class="sc">+</span>   <span class="cf">if</span> (i <span class="sc">==</span> <span class="dv">3</span>) {</span>
+<span id="cb36-6"><a href=""></a><span class="sc">+</span>     i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb36-7"><a href=""></a><span class="sc">+</span>     <span class="cf">next</span></span>
+<span id="cb36-8"><a href=""></a><span class="sc">+</span>   }</span>
+<span id="cb36-9"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(i)</span>
+<span id="cb36-10"><a href=""></a><span class="sc">+</span>   i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb36-11"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1
 [1] 2
@@ -874,16 +871,15 @@
 }</code></pre>
 </div><div class="column" style="width:60%;">
 <p><img data-src="loop_for.png"></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="exemplo-12" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 12</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb39" data-code-line-numbers="2|1-4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1"></a><span class="sc">&gt;</span> <span class="co"># Loop for</span></span>
-<span id="cb39-2"><a href="#cb39-2"></a><span class="er">&gt;</span> <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>) {</span>
-<span id="cb39-3"><a href="#cb39-3"></a><span class="sc">+</span>   <span class="fu">print</span>(i)</span>
-<span id="cb39-4"><a href="#cb39-4"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb39" data-code-line-numbers="2|1-4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Loop for</span></span>
+<span id="cb39-2"><a href=""></a><span class="er">&gt;</span> <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>) {</span>
+<span id="cb39-3"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(i)</span>
+<span id="cb39-4"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1
 [1] 2
@@ -896,13 +892,13 @@
 <section id="exemplo-13" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 13</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb41" data-code-line-numbers="4|1-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1"></a><span class="sc">&gt;</span> <span class="co"># Loop for</span></span>
-<span id="cb41-2"><a href="#cb41-2"></a><span class="er">&gt;</span> <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>) {</span>
-<span id="cb41-3"><a href="#cb41-3"></a><span class="sc">+</span>   <span class="cf">if</span> (i <span class="sc">==</span> <span class="dv">3</span>) {</span>
-<span id="cb41-4"><a href="#cb41-4"></a><span class="sc">+</span>     <span class="cf">next</span></span>
-<span id="cb41-5"><a href="#cb41-5"></a><span class="sc">+</span>   }</span>
-<span id="cb41-6"><a href="#cb41-6"></a><span class="sc">+</span>   <span class="fu">print</span>(i)</span>
-<span id="cb41-7"><a href="#cb41-7"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb41" data-code-line-numbers="4|1-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Loop for</span></span>
+<span id="cb41-2"><a href=""></a><span class="er">&gt;</span> <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>) {</span>
+<span id="cb41-3"><a href=""></a><span class="sc">+</span>   <span class="cf">if</span> (i <span class="sc">==</span> <span class="dv">3</span>) {</span>
+<span id="cb41-4"><a href=""></a><span class="sc">+</span>     <span class="cf">next</span></span>
+<span id="cb41-5"><a href=""></a><span class="sc">+</span>   }</span>
+<span id="cb41-6"><a href=""></a><span class="sc">+</span>   <span class="fu">print</span>(i)</span>
+<span id="cb41-7"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1
 [1] 2
@@ -921,13 +917,15 @@
 
 <section id="referências" class="title-slide slide level1 smaller scrollable" data-background-image="EAR-rbasico-background-02.png">
 <h1>Referências</h1>
-
-<img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<div class="quarto-auto-generated-content">
+<p><img src="logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
 <p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
 </div>
-<div id="refs" class="references csl-bib-body" role="list">
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
 <div id="ref-batista2021" class="csl-entry" role="listitem">
-BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2022.
 </div>
 </div>
 </section>
@@ -959,7 +957,6 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
       Reveal.initialize({
 'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1216,18 +1213,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1259,11 +1245,50 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1273,8 +1298,17 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1288,7 +1322,11 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
