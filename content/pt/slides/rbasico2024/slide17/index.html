@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head>
+<html lang="pt-br"><head>
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/tabby.min.js"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
@@ -10,7 +10,7 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.5.56">
 
   <meta name="author" content=" Ben Dêivide |  UFSJ">
   <title> EAR: R Básico</title>
@@ -33,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +44,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -100,6 +100,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -246,7 +247,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -441,9 +443,33 @@
 </a><p><a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;"></a></p>
 </section>
 
+<section id="apoio-ceac-e-ufsj" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
+<h1>Apoio CEAC e UFSJ</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div>
+<ul>
+<li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/ceac_ufsj/">@ceac_ufsj</a></li>
+</ul>
+</div>
+<center>
+<img data-src="ceac.png" style="width:70.0%">
+</center>
+</div><div class="column" style="width:50%;">
+<div>
+<ul>
+<li><a href="ufsj.edu.br/">ufsj.edu.br/</a></li>
+</ul>
+</div>
+<center>
+<img src="ufsj.png" title="ufsj.edu.br/" width="300">
+</center>
+</div></div>
+</section>
+
 <section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Livro de Apoio</h1>
-<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
+<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2022</a>)</span>:</p>
 <p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 <p><img src="hardcover01.png" width="300"></p>
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
@@ -468,13 +494,13 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="exemplo-1" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Exemplo 1</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="er">&gt;</span> fun1 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="sc">+</span>   res <span class="ot">&lt;-</span> x <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="sc">+</span>   <span class="fu">return</span>(res)</span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="sc">+</span> }</span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="sc">&gt;</span> <span class="co"># Chamada</span></span>
-<span id="cb2-7"><a href="#cb2-7"></a><span class="er">&gt;</span> <span class="fu">fun1</span>(<span class="at">x =</span> <span class="dv">5</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
+<span id="cb2-2"><a href=""></a><span class="er">&gt;</span> fun1 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb2-3"><a href=""></a><span class="sc">+</span>   res <span class="ot">&lt;-</span> x <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb2-4"><a href=""></a><span class="sc">+</span>   <span class="fu">return</span>(res)</span>
+<span id="cb2-5"><a href=""></a><span class="sc">+</span> }</span>
+<span id="cb2-6"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamada</span></span>
+<span id="cb2-7"><a href=""></a><span class="er">&gt;</span> <span class="fu">fun1</span>(<span class="at">x =</span> <span class="dv">5</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 6</code></pre>
 </div>
@@ -484,21 +510,21 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="componentes-de-fun1" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Componentes de <code>fun1()</code></h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="sc">&gt;</span> <span class="co"># Argumentos</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="er">&gt;</span> <span class="fu">formals</span>(fun1)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Argumentos</span></span>
+<span id="cb4-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">formals</span>(fun1)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$x</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="sc">&gt;</span> <span class="co"># Corpo</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="er">&gt;</span> <span class="fu">body</span>(fun1)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Corpo</span></span>
+<span id="cb6-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">body</span>(fun1)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{
     res &lt;- x + 1
     return(res)
 }</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="sc">&gt;</span> <span class="co"># Ambiente</span></span>
-<span id="cb8-2"><a href="#cb8-2"></a><span class="er">&gt;</span> <span class="fu">environment</span>(fun1)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Ambiente</span></span>
+<span id="cb8-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">environment</span>(fun1)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;environment: R_GlobalEnv&gt;</code></pre>
 </div>
@@ -508,10 +534,10 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="não-é-obrigatório-return" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Não é obrigatório <code>return()</code></h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
-<span id="cb10-2"><a href="#cb10-2"></a><span class="er">&gt;</span> fun2 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) x <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb10-3"><a href="#cb10-3"></a><span class="sc">&gt;</span> <span class="co"># Executando</span></span>
-<span id="cb10-4"><a href="#cb10-4"></a><span class="er">&gt;</span> <span class="fu">fun2</span>(<span class="dv">5</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
+<span id="cb10-2"><a href=""></a><span class="er">&gt;</span> fun2 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) x <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb10-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Executando</span></span>
+<span id="cb10-4"><a href=""></a><span class="er">&gt;</span> <span class="fu">fun2</span>(<span class="dv">5</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 6</code></pre>
 </div>
@@ -524,9 +550,9 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 \int^{1}_{0}x^2dx = \frac{1}{3},
 \]</span></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a><span class="sc">&gt;</span> <span class="fu">integrate</span>(<span class="at">f =</span> <span class="cf">function</span>(x) x<span class="sc">^</span><span class="dv">2</span>, </span>
-<span id="cb12-2"><a href="#cb12-2"></a><span class="sc">+</span>           <span class="at">lower =</span> <span class="dv">0</span>, </span>
-<span id="cb12-3"><a href="#cb12-3"></a><span class="sc">+</span>           <span class="at">upper =</span> <span class="dv">1</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">integrate</span>(<span class="at">f =</span> <span class="cf">function</span>(x) x<span class="sc">^</span><span class="dv">2</span>, </span>
+<span id="cb12-2"><a href=""></a><span class="sc">+</span>           <span class="at">lower =</span> <span class="dv">0</span>, </span>
+<span id="cb12-3"><a href=""></a><span class="sc">+</span>           <span class="at">upper =</span> <span class="dv">1</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0.3333333 with absolute error &lt; 3.7e-15</code></pre>
 </div>
@@ -537,44 +563,44 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="chamada-de-função" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Chamada de função</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="sc">&gt;</span> <span class="co"># Funcao auxiliar 1</span></span>
-<span id="cb14-2"><a href="#cb14-2"></a><span class="er">&gt;</span> aux1 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) x <span class="sc">-</span> <span class="fu">mean</span>(x)</span>
-<span id="cb14-3"><a href="#cb14-3"></a><span class="sc">&gt;</span> <span class="co"># Funcao auxiliar 2</span></span>
-<span id="cb14-4"><a href="#cb14-4"></a><span class="er">&gt;</span> aux2 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) x<span class="sc">^</span><span class="dv">2</span></span>
-<span id="cb14-5"><a href="#cb14-5"></a><span class="sc">&gt;</span> <span class="co"># Funcao auxiliar 3</span></span>
-<span id="cb14-6"><a href="#cb14-6"></a><span class="er">&gt;</span> aux3 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
-<span id="cb14-7"><a href="#cb14-7"></a><span class="sc">+</span>   <span class="fu">sum</span>(x) <span class="sc">/</span> (<span class="fu">length</span>(x) <span class="sc">-</span> <span class="dv">1</span>)</span>
-<span id="cb14-8"><a href="#cb14-8"></a><span class="sc">+</span> }</span>
-<span id="cb14-9"><a href="#cb14-9"></a><span class="sc">&gt;</span> <span class="co"># Gerando 100 numeros aleatorios de uma distribuicao normal</span></span>
-<span id="cb14-10"><a href="#cb14-10"></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">10</span>)</span>
-<span id="cb14-11"><a href="#cb14-11"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">100</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao auxiliar 1</span></span>
+<span id="cb14-2"><a href=""></a><span class="er">&gt;</span> aux1 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) x <span class="sc">-</span> <span class="fu">mean</span>(x)</span>
+<span id="cb14-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao auxiliar 2</span></span>
+<span id="cb14-4"><a href=""></a><span class="er">&gt;</span> aux2 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) x<span class="sc">^</span><span class="dv">2</span></span>
+<span id="cb14-5"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao auxiliar 3</span></span>
+<span id="cb14-6"><a href=""></a><span class="er">&gt;</span> aux3 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb14-7"><a href=""></a><span class="sc">+</span>   <span class="fu">sum</span>(x) <span class="sc">/</span> (<span class="fu">length</span>(x) <span class="sc">-</span> <span class="dv">1</span>)</span>
+<span id="cb14-8"><a href=""></a><span class="sc">+</span> }</span>
+<span id="cb14-9"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Gerando 100 numeros aleatorios de uma distribuicao normal</span></span>
+<span id="cb14-10"><a href=""></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">10</span>)</span>
+<span id="cb14-11"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">100</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="chamada-de-função-continuação" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Chamada de função (continuação…)</h2>
 <ul>
-<li class="fragment">Aninhado</li>
+<li class="fragment">Aninhada</li>
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a><span class="sc">&gt;</span> <span class="co"># Calculo do desvio padrao (aninhado)</span></span>
-<span id="cb15-2"><a href="#cb15-2"></a><span class="er">&gt;</span> <span class="fu">sqrt</span>(<span class="fu">aux3</span>(<span class="fu">aux2</span>(<span class="fu">aux1</span>(x))))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Calculo do desvio padrao (aninhado)</span></span>
+<span id="cb15-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">sqrt</span>(<span class="fu">aux3</span>(<span class="fu">aux2</span>(<span class="fu">aux1</span>(x))))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.9412359</code></pre>
 </div>
 </div>
 <ul>
-<li class="fragment">Intermediário</li>
+<li class="fragment">Intermediária</li>
 </ul>
 </div>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a><span class="sc">&gt;</span> <span class="co"># Calculo do desvio padrao (intemediario)</span></span>
-<span id="cb17-2"><a href="#cb17-2"></a><span class="er">&gt;</span> dp <span class="ot">&lt;-</span> <span class="fu">aux1</span>(x)</span>
-<span id="cb17-3"><a href="#cb17-3"></a><span class="sc">&gt;</span> dp <span class="ot">&lt;-</span> <span class="fu">aux2</span>(dp)</span>
-<span id="cb17-4"><a href="#cb17-4"></a><span class="sc">&gt;</span> dp <span class="ot">&lt;-</span> <span class="fu">aux3</span>(dp)</span>
-<span id="cb17-5"><a href="#cb17-5"></a><span class="sc">&gt;</span> dp <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(dp)</span>
-<span id="cb17-6"><a href="#cb17-6"></a><span class="sc">&gt;</span> dp</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Calculo do desvio padrao (intemediario)</span></span>
+<span id="cb17-2"><a href=""></a><span class="er">&gt;</span> dp <span class="ot">&lt;-</span> <span class="fu">aux1</span>(x)</span>
+<span id="cb17-3"><a href=""></a><span class="sc">&gt;</span> dp <span class="ot">&lt;-</span> <span class="fu">aux2</span>(dp)</span>
+<span id="cb17-4"><a href=""></a><span class="sc">&gt;</span> dp <span class="ot">&lt;-</span> <span class="fu">aux3</span>(dp)</span>
+<span id="cb17-5"><a href=""></a><span class="sc">&gt;</span> dp <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(dp)</span>
+<span id="cb17-6"><a href=""></a><span class="sc">&gt;</span> dp</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.9412359</code></pre>
 </div>
@@ -588,12 +614,12 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="sc">&gt;</span> <span class="co"># Calculo do desvio padrao (pipe)</span></span>
-<span id="cb19-2"><a href="#cb19-2"></a><span class="er">&gt;</span> x <span class="sc">|&gt;</span> </span>
-<span id="cb19-3"><a href="#cb19-3"></a><span class="sc">+</span>   <span class="fu">aux1</span>() <span class="sc">|&gt;</span></span>
-<span id="cb19-4"><a href="#cb19-4"></a><span class="sc">+</span>   <span class="fu">aux2</span>() <span class="sc">|&gt;</span></span>
-<span id="cb19-5"><a href="#cb19-5"></a><span class="sc">+</span>   <span class="fu">aux3</span>() <span class="sc">|&gt;</span></span>
-<span id="cb19-6"><a href="#cb19-6"></a><span class="sc">+</span>   <span class="fu">sqrt</span>() </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Calculo do desvio padrao (pipe)</span></span>
+<span id="cb19-2"><a href=""></a><span class="er">&gt;</span> x <span class="sc">|&gt;</span> </span>
+<span id="cb19-3"><a href=""></a><span class="sc">+</span>   <span class="fu">aux1</span>() <span class="sc">|&gt;</span></span>
+<span id="cb19-4"><a href=""></a><span class="sc">+</span>   <span class="fu">aux2</span>() <span class="sc">|&gt;</span></span>
+<span id="cb19-5"><a href=""></a><span class="sc">+</span>   <span class="fu">aux3</span>() <span class="sc">|&gt;</span></span>
+<span id="cb19-6"><a href=""></a><span class="sc">+</span>   <span class="fu">sqrt</span>() </span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.9412359</code></pre>
 </div>
@@ -604,28 +630,28 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="ordenamento-de-argumentos" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Ordenamento de argumentos</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="sc">&gt;</span> estdesc <span class="ot">&lt;-</span> <span class="cf">function</span>(x, opcao) {</span>
-<span id="cb21-2"><a href="#cb21-2"></a><span class="sc">+</span>   res <span class="ot">&lt;-</span> <span class="cf">switch</span>(opcao,</span>
-<span id="cb21-3"><a href="#cb21-3"></a><span class="sc">+</span>            <span class="at">media =</span> <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>),</span>
-<span id="cb21-4"><a href="#cb21-4"></a><span class="sc">+</span>            <span class="at">mediana =</span> <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>),</span>
-<span id="cb21-5"><a href="#cb21-5"></a><span class="sc">+</span>            <span class="at">medapar =</span> <span class="fu">round</span>(<span class="fu">mean</span>(x, <span class="at">trim =</span> <span class="fl">0.1</span>), <span class="dv">4</span>))</span>
-<span id="cb21-6"><a href="#cb21-6"></a><span class="sc">+</span>   <span class="fu">return</span>(res)</span>
-<span id="cb21-7"><a href="#cb21-7"></a><span class="sc">+</span> }</span>
-<span id="cb21-8"><a href="#cb21-8"></a><span class="sc">&gt;</span> </span>
-<span id="cb21-9"><a href="#cb21-9"></a><span class="er">&gt;</span> <span class="co"># Objeto</span></span>
-<span id="cb21-10"><a href="#cb21-10"></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">15</span>)</span>
-<span id="cb21-11"><a href="#cb21-11"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a><span class="sc">&gt;</span> estdesc <span class="ot">&lt;-</span> <span class="cf">function</span>(x, opcao) {</span>
+<span id="cb21-2"><a href=""></a><span class="sc">+</span>   res <span class="ot">&lt;-</span> <span class="cf">switch</span>(opcao,</span>
+<span id="cb21-3"><a href=""></a><span class="sc">+</span>            <span class="at">media =</span> <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>),</span>
+<span id="cb21-4"><a href=""></a><span class="sc">+</span>            <span class="at">mediana =</span> <span class="fu">round</span>(<span class="fu">mean</span>(x), <span class="dv">4</span>),</span>
+<span id="cb21-5"><a href=""></a><span class="sc">+</span>            <span class="at">medapar =</span> <span class="fu">round</span>(<span class="fu">mean</span>(x, <span class="at">trim =</span> <span class="fl">0.1</span>), <span class="dv">4</span>))</span>
+<span id="cb21-6"><a href=""></a><span class="sc">+</span>   <span class="fu">return</span>(res)</span>
+<span id="cb21-7"><a href=""></a><span class="sc">+</span> }</span>
+<span id="cb21-8"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb21-9"><a href=""></a><span class="er">&gt;</span> <span class="co"># Objeto</span></span>
+<span id="cb21-10"><a href=""></a><span class="er">&gt;</span> <span class="fu">set.seed</span>(<span class="dv">15</span>)</span>
+<span id="cb21-11"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="ordenamento-de-argumentos-continuação" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Ordenamento de argumentos (continuação…)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="sc">&gt;</span> <span class="co"># Argumentos nomeados na funcao</span></span>
-<span id="cb22-2"><a href="#cb22-2"></a><span class="er">&gt;</span> <span class="fu">estdesc</span>(<span class="at">x =</span> x, <span class="at">opcao =</span> <span class="st">"media"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Argumentos nomeados na funcao</span></span>
+<span id="cb22-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">estdesc</span>(<span class="at">x =</span> x, <span class="at">opcao =</span> <span class="st">"media"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.037</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a><span class="sc">&gt;</span> <span class="fu">estdesc</span>(<span class="at">opcao =</span> <span class="st">"media"</span>, <span class="at">x =</span> x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">estdesc</span>(<span class="at">opcao =</span> <span class="st">"media"</span>, <span class="at">x =</span> x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.037</code></pre>
 </div>
@@ -634,13 +660,13 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="ordenamento-de-argumentos-continuação-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Ordenamento de argumentos (continuação…)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a><span class="sc">&gt;</span> <span class="co"># Argumentos não nomeados ordenados</span></span>
-<span id="cb26-2"><a href="#cb26-2"></a><span class="er">&gt;</span> <span class="fu">estdesc</span>(x, <span class="st">"media"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Argumentos não nomeados ordenados</span></span>
+<span id="cb26-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">estdesc</span>(x, <span class="st">"media"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.037</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1"></a><span class="sc">&gt;</span> <span class="co"># Argumentos não ordenados (Gera erro)</span></span>
-<span id="cb28-2"><a href="#cb28-2"></a><span class="er">&gt;</span> <span class="fu">estdesc</span>(<span class="st">"media"</span>, x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Argumentos não ordenados (Gera erro)</span></span>
+<span id="cb28-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">estdesc</span>(<span class="st">"media"</span>, x)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
 <pre><code>Error in switch(opcao, media = round(mean(x), 4), mediana = round(mean(x), : EXPR deve ser um vetor de comprimento 1</code></pre>
 </div>
@@ -649,17 +675,17 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="objeto-reticências" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Objeto reticências</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1"></a><span class="co"># Funcao que plota um grafico</span></span>
-<span id="cb30-2"><a href="#cb30-2"></a>grafico <span class="ot">&lt;-</span> <span class="cf">function</span>(x, y, ...) {</span>
-<span id="cb30-3"><a href="#cb30-3"></a>  <span class="fu">plot</span>(<span class="at">x =</span> x, <span class="at">y =</span> y, ...)</span>
-<span id="cb30-4"><a href="#cb30-4"></a>}</span>
-<span id="cb30-5"><a href="#cb30-5"></a><span class="co"># Vetores</span></span>
-<span id="cb30-6"><a href="#cb30-6"></a>x <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>; y <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10</span>)</span>
-<span id="cb30-7"><a href="#cb30-7"></a><span class="co"># Chamada 1, com os argumentos definidos</span></span>
-<span id="cb30-8"><a href="#cb30-8"></a><span class="fu">grafico</span>(<span class="at">x =</span> x, <span class="at">y =</span> y, <span class="at">main =</span> <span class="st">"Meu gráfico"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href=""></a><span class="co"># Funcao que plota um grafico</span></span>
+<span id="cb30-2"><a href=""></a>grafico <span class="ot">&lt;-</span> <span class="cf">function</span>(x, y, ...) {</span>
+<span id="cb30-3"><a href=""></a>  <span class="fu">plot</span>(<span class="at">x =</span> x, <span class="at">y =</span> y, ...)</span>
+<span id="cb30-4"><a href=""></a>}</span>
+<span id="cb30-5"><a href=""></a><span class="co"># Vetores</span></span>
+<span id="cb30-6"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>; y <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10</span>)</span>
+<span id="cb30-7"><a href=""></a><span class="co"># Chamada 1, com os argumentos definidos</span></span>
+<span id="cb30-8"><a href=""></a><span class="fu">grafico</span>(<span class="at">x =</span> x, <span class="at">y =</span> y, <span class="at">main =</span> <span class="st">"Meu gráfico"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="index_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch quarto-figure-center"></section></section>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-12-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"></section></section>
 <section>
 <section id="escopo-léxico" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Escopo léxico</h1>
@@ -671,13 +697,13 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="exemplo-2" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 2</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb31-2"><a href="#cb31-2"></a><span class="sc">&gt;</span> fun <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb31-3"><a href="#cb31-3"></a><span class="sc">+</span>   x <span class="ot">&lt;-</span> <span class="dv">2</span></span>
-<span id="cb31-4"><a href="#cb31-4"></a><span class="sc">+</span>   x</span>
-<span id="cb31-5"><a href="#cb31-5"></a><span class="sc">+</span> }</span>
-<span id="cb31-6"><a href="#cb31-6"></a><span class="sc">&gt;</span> <span class="co"># Chamando a funcao fun</span></span>
-<span id="cb31-7"><a href="#cb31-7"></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb31-2"><a href=""></a><span class="sc">&gt;</span> fun <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
+<span id="cb31-3"><a href=""></a><span class="sc">+</span>   x <span class="ot">&lt;-</span> <span class="dv">2</span></span>
+<span id="cb31-4"><a href=""></a><span class="sc">+</span>   x</span>
+<span id="cb31-5"><a href=""></a><span class="sc">+</span> }</span>
+<span id="cb31-6"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamando a funcao fun</span></span>
+<span id="cb31-7"><a href=""></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
@@ -686,12 +712,12 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="exemplo-3" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Exemplo 3</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb33-2"><a href="#cb33-2"></a><span class="sc">&gt;</span> fun <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb33-3"><a href="#cb33-3"></a><span class="sc">+</span>   x</span>
-<span id="cb33-4"><a href="#cb33-4"></a><span class="sc">+</span> }</span>
-<span id="cb33-5"><a href="#cb33-5"></a><span class="sc">&gt;</span> <span class="co"># Chamando a funcao fun</span></span>
-<span id="cb33-6"><a href="#cb33-6"></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb33-2"><a href=""></a><span class="sc">&gt;</span> fun <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
+<span id="cb33-3"><a href=""></a><span class="sc">+</span>   x</span>
+<span id="cb33-4"><a href=""></a><span class="sc">+</span> }</span>
+<span id="cb33-5"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamando a funcao fun</span></span>
+<span id="cb33-6"><a href=""></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 10</code></pre>
 </div>
@@ -700,19 +726,19 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="ambiente-de-execução" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Ambiente de execução</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1"></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
-<span id="cb35-2"><a href="#cb35-2"></a><span class="er">&gt;</span> fun <span class="ot">&lt;-</span> <span class="cf">function</span>() x <span class="sc">+</span> <span class="dv">10</span></span>
-<span id="cb35-3"><a href="#cb35-3"></a><span class="sc">&gt;</span> <span class="co"># Objeto 1</span></span>
-<span id="cb35-4"><a href="#cb35-4"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb35-5"><a href="#cb35-5"></a><span class="sc">&gt;</span> <span class="co"># Chamada1</span></span>
-<span id="cb35-6"><a href="#cb35-6"></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
+<span id="cb35-2"><a href=""></a><span class="er">&gt;</span> fun <span class="ot">&lt;-</span> <span class="cf">function</span>() x <span class="sc">+</span> <span class="dv">10</span></span>
+<span id="cb35-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto 1</span></span>
+<span id="cb35-4"><a href=""></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb35-5"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamada1</span></span>
+<span id="cb35-6"><a href=""></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 20</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto 2</span></span>
-<span id="cb37-2"><a href="#cb37-2"></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">20</span></span>
-<span id="cb37-3"><a href="#cb37-3"></a><span class="sc">&gt;</span> <span class="co"># Chamada 2</span></span>
-<span id="cb37-4"><a href="#cb37-4"></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto 2</span></span>
+<span id="cb37-2"><a href=""></a><span class="er">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">20</span></span>
+<span id="cb37-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamada 2</span></span>
+<span id="cb37-4"><a href=""></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 30</code></pre>
 </div>
@@ -722,20 +748,20 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 <section id="novo-começo" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Novo começo</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1"></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
-<span id="cb39-2"><a href="#cb39-2"></a><span class="er">&gt;</span> n <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb39-3"><a href="#cb39-3"></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
-<span id="cb39-4"><a href="#cb39-4"></a><span class="er">&gt;</span> fun <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb39-5"><a href="#cb39-5"></a><span class="sc">+</span>   n <span class="ot">&lt;-</span> n <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb39-6"><a href="#cb39-6"></a><span class="sc">+</span>   n</span>
-<span id="cb39-7"><a href="#cb39-7"></a><span class="sc">+</span> }</span>
-<span id="cb39-8"><a href="#cb39-8"></a><span class="sc">&gt;</span> <span class="co"># Chamada 1</span></span>
-<span id="cb39-9"><a href="#cb39-9"></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Objeto</span></span>
+<span id="cb39-2"><a href=""></a><span class="er">&gt;</span> n <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb39-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao</span></span>
+<span id="cb39-4"><a href=""></a><span class="er">&gt;</span> fun <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
+<span id="cb39-5"><a href=""></a><span class="sc">+</span>   n <span class="ot">&lt;-</span> n <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb39-6"><a href=""></a><span class="sc">+</span>   n</span>
+<span id="cb39-7"><a href=""></a><span class="sc">+</span> }</span>
+<span id="cb39-8"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamada 1</span></span>
+<span id="cb39-9"><a href=""></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1"></a><span class="sc">&gt;</span> <span class="co"># Chamada 2</span></span>
-<span id="cb41-2"><a href="#cb41-2"></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamada 2</span></span>
+<span id="cb41-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">fun</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
@@ -752,13 +778,15 @@ nome_funcao &lt;- function(arg1, arg2, ...) corpo</code></pre>
 
 <section id="referências" class="title-slide slide level1 smaller scrollable" data-background-image="EAR-rbasico-background-02.png">
 <h1>Referências</h1>
-
-<img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<div class="quarto-auto-generated-content">
+<p><img src="logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
 <p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
 </div>
-<div id="refs" class="references csl-bib-body" role="list">
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
 <div id="ref-batista2021" class="csl-entry" role="listitem">
-BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2022.
 </div>
 </div>
 </section>
@@ -773,8 +801,6 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
-  <script src="index_files/libs/revealjs/plugin/multiplex/socket.io.js"></script>
-  <script src="index_files/libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
   <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
@@ -792,14 +818,12 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
       Reveal.initialize({
 'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
-'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":5},
-'multiplex': {"secret":null,"id":"547495fddd76b848","url":"https://reveal-multiplex.glitch.me/"},
+'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":3},
 'pointer': {"0":{"key":"q"},"1":{"color":"red"},"2":{"pointerSize":16},"3":{"alwaysVisible":false},"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,
  
@@ -974,7 +998,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]
@@ -1050,18 +1074,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1093,11 +1106,50 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1107,8 +1159,17 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1122,7 +1183,11 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

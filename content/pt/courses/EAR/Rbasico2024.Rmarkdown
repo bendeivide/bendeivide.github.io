@@ -509,6 +509,57 @@ calendR(year = 2024,
 
 {{< /spoiler >}}
 
+{{< spoiler text=":blue_book: Aula 17 - Como criar funções " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Como criar funções
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide17/index.html" target="_blank">Aula 17</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1rY5621jptLdVJQ66tYy-eNqXPc0DMSbz2lrzjrhE3eU/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "72p1BxQHPDQ?si=MxeJQoYUBMOqifF6" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 18 - Boas práticas de como escrever um código" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Boas práticas de como escrever um código
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide18/index.html" target="_blank">Aula 18</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1vkja5FLurQaAfrM9e9kwE5820rdS-qARBK1jH-NxU1w/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "-N4ypp074Bs?si=rEtCslQ2sTMcQFv_" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 19 - Pacotes" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Pacotes
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide19/index.html" target="_blank">Aula 19</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/15fWW02M7_X8AieV9V7vTjAonJeTqilbNsxsf-01K30w/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "ceE7rCh5Djo" >}}
+
+{{< /spoiler >}}
+
 
 ## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
 

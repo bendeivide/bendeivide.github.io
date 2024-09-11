@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-09-05 19:33:09"
+date: "2024-09-10 21:39:57"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -420,6 +420,74 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
 {{< youtube "1EfnPu_rjDQ" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 16 - Estruturas de controle " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Estruturas de controle
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico/slide16/index.html" target="_blank">Aula 16</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1PV1xRegF91wmaQu7hzi9KjAkNrCUCaOHpBGfrl4wLLQ/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "YdFdSfAQLSk?si=nq_ma0cYBL_AyfKy" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 17 - Como criar funções " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Como criar funções
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide17/index.html" target="_blank">Aula 17</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1rY5621jptLdVJQ66tYy-eNqXPc0DMSbz2lrzjrhE3eU/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "72p1BxQHPDQ?si=MxeJQoYUBMOqifF6" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 18 - Boas práticas de como escrever um código" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Boas práticas de como escrever um código
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide18/index.html" target="_blank">Aula 18</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1vkja5FLurQaAfrM9e9kwE5820rdS-qARBK1jH-NxU1w/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "-N4ypp074Bs?si=rEtCslQ2sTMcQFv_" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 19 - Pacotes" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Pacotes
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide19/index.html" target="_blank">Aula 19</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/15fWW02M7_X8AieV9V7vTjAonJeTqilbNsxsf-01K30w/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "ceE7rCh5Djo" >}}
 
 {{< /spoiler >}}
 

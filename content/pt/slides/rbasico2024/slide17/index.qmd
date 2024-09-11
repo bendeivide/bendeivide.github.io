@@ -182,7 +182,7 @@ x <- rnorm(100)
 
 ## Chamada de função (continuação...) {background-image="EAR-rbasico-background-02.png"}
 
--   Aninhado
+-   Aninhada
 
 . . .
 
@@ -191,7 +191,7 @@ x <- rnorm(100)
 sqrt(aux3(aux2(aux1(x))))
 ```
 
--   Intermediário
+-   Intermediária
 
 . . .
 ```{r echo=TRUE, eval = TRUE, prompt=TRUE}
