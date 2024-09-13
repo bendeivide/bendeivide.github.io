@@ -1,6 +1,6 @@
 ---
-title: "{{< fa brands r-project >}} EAR: R Básico"
-subtitle: "Aula 19 - Pacotes"
+title: "{{< fa brands r-project >}} R Básico 2024 | Aula 19"
+subtitle: "Pacotes"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -110,7 +110,7 @@ Usaremos @batista2021:
 
 # Perguntas básicas {background-image="EAR-rbasico-background-02.png"}
 
--   **Quantidade?** [21275](https://cran.r-project.org/web/packages/){target="\_blank"} (≤ 10/09/2023, às 21:45)
+-   **Quantidade?** [21275](https://cran.r-project.org/web/packages/){target="\_blank"} (≤ 10/09/2024, às 21:45)
 -   **Tipos?**: *.tar.gz*, *.zip*, etc...
 -   **Onde?** [CRAN](https://cran.r-project.org/mirrors.html){target="\_blank"}, [GitHub](http://github.com/){target="\_blank"}, etc...
 -   **Instalar?** `install.packages()`, atalhos do *RStudio*
