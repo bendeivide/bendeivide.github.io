@@ -1,6 +1,6 @@
 ---
-title: "{{< fa brands r-project >}} EAR: R Básico"
-subtitle: "Aula 20 - Carregando e anexando pacotes"
+title: "{{< fa brands r-project >}} R Básico 2024 | Aula 20"
+subtitle: "Carregando e anexando pacotes"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -17,7 +17,7 @@ format:
     transition: slide
     background-transition: fade
 #    transition-speed: fade
-    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    footer: "[EAR: R básico 2024](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
     # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
@@ -104,11 +104,13 @@ Usaremos @batista2021:
 
 # Introdução {background-image="EAR-rbasico-background-02.png"}
 
-O que significa
+O que significa...
 
 -   Instalar...
 -   Anexar...
 -   Carregar...
+
+. . .
 
 ... um pacote?
 
@@ -196,9 +198,12 @@ search()
 
 # Situações {background-image="EAR-rbasico-background-02.png"}
 
--   Que situações, devo...
-    -   Anexar...
-    -   Carregar...
+Que situações, devo...
+
+- Anexar...
+- Carregar...
+
+. . .
 
 ...um pacote?
 

@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-09-10 21:39:57"
+date: "2024-09-18 16:13:20"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -436,7 +436,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube "YdFdSfAQLSk?si=nq_ma0cYBL_AyfKy" >}}
+{{< youtube "kG2Kh1JP4Jo" >}}
 
 {{< /spoiler >}}
 
@@ -453,7 +453,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube "72p1BxQHPDQ?si=MxeJQoYUBMOqifF6" >}}
+{{< youtube "Xd39slF_r2g" >}}
 
 {{< /spoiler >}}
 
@@ -470,7 +470,7 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube "-N4ypp074Bs?si=rEtCslQ2sTMcQFv_" >}}
+{{< youtube "97W-sUrYqJI" >}}
 
 {{< /spoiler >}}
 
@@ -487,9 +487,27 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube "ceE7rCh5Djo" >}}
+{{< youtube "qWxhs-l9X7M" >}}
 
 {{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 20 - Carregando e anexando pacotes" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Carregando e anexando pacotes
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide20/index.html" target="_blank">Aula 20</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1WUizNW27YDlUvWm9YdJKlsC855OYzWs5GW-jgov2g8E/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "mSBggLlDauY" >}}
+
+{{< /spoiler >}}
+
 
 
 ## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
