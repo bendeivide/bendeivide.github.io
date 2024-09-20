@@ -1,6 +1,6 @@
 ---
 title:  R básico 2024
-date: "2024-09-18 16:13:20"
+date: "2024-09-20 15:25:37"
 type: book
 weight: 10
 categories: ["R", "Curso R"]
@@ -505,6 +505,40 @@ Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
 {{< youtube "mSBggLlDauY" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 21 - _NAMESPACE_ de um pacote" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ _NAMESPACE_ de um pacote
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide21/index.html" target="_blank">Aula 21</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1p8nnjFM60Ql_1qwuPFharggZllA2WSnaIgyO3FV5WOQ/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "9sYUJET4A1Q">}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 22 - Quando devemos utilizar os operadores `::` e `:::`" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Quando devemos utilizar os operadores `::` e `:::`
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide22/index.html" target="_blank">Aula 22</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1MplgPYtw4CZCcycfYszio44t41tsaGtXtzTk2uYkrdo/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube "xMnkl3CoDRM" >}}
 
 {{< /spoiler >}}
 

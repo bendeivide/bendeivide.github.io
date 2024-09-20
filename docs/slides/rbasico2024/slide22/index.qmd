@@ -1,6 +1,6 @@
 ---
-title: "{{< fa brands r-project >}} EAR: R Básico"
-subtitle: "Aula 22 - Quando devemos utilizar os operadores `::` e `:::` "
+title: "{{< fa brands r-project >}} R Básico 2024 | Aula 22"
+subtitle: "Quando devemos utilizar os operadores `::` e `:::`"
 title-slide-attributes:
     data-background-image: EAR-rbasico-background.png
 
@@ -17,7 +17,7 @@ format:
     transition: slide
     background-transition: fade
 #    transition-speed: fade
-    footer: "[EAR: R básico](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
+    footer: "[EAR: R básico 2024](https://bendeivide.github.io/courses/ear/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
     # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
@@ -122,7 +122,7 @@ Usaremos @batista2021:
 # install.packages(SMR) 
 SMR::pSMR(q = 2, size = 10, df = 3)
 # Carregando e chamando funcoes nao exportadas ao pacote
-SMR:::GaussLegendre(size = 4)
+SMR:::gaussLegendre(n = 4)
 ```
 
 # Obrigado {background-image="EAR-rbasico-background-02.png"}
