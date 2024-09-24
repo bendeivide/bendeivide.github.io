@@ -573,7 +573,7 @@ calendR(year = 2024,
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube "mSBggLlDauY" >}}
+{{< youtube "MrqBzb2vC2E" >}}
 
 {{< /spoiler >}}
 
@@ -590,7 +590,7 @@ calendR(year = 2024,
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube "9sYUJET4A1Q">}}
+{{< youtube "btDIRwmsooQ">}}
 
 {{< /spoiler >}}
 
@@ -607,7 +607,58 @@ calendR(year = 2024,
    - [Exercícios propostos]({{< relref "" >}})
 
 {{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
-{{< youtube "xMnkl3CoDRM" >}}
+{{< youtube "zO3_ZyjU6R0" >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 23 - Ambientes e caminho de busca" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Ambientes e caminho de busca
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide23/index.html" target="_blank">Aula 23</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1Qg9P_2FWf4zqY0Anc7PU94VggDEXHzD3tjaVYs0fJBU/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube " " >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 24 - Interface com outras linguagens" >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Interface com outras linguagens
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide24/index.html" target="_blank">Aula 24</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/15syp7KwF2Xwxv3sSUnTsxVWOgl4_3PfgDN1VdZdDegk/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube " " >}}
+
+{{< /spoiler >}}
+
+{{< spoiler text=":blue_book: Aula 25 - Considerações e Preparação para o curso **R Intermediário** " >}}
+
+{{< icon name="pen-fancy" pack="fas" >}} __Tema:__ Considerações e Preparação para a Programação em R (R Intermediário)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/rbasico2024/slide25/index.html" target="_blank">Aula 25</a>
+{{< icon name="clock" pack="fas" >}} __Tempo:__ 50 minutos
+{{< icon name="headphones" pack="fas" >}} __Podcast__
+{{< icon name="book-reader" pack="fas" >}} [Plano de aula](https://docs.google.com/document/d/1UHZKzVVNo1XTjr39GvUsoEP1DyNvbuPKbVnIWNfVPUY/edit?usp=sharing)
+{{< icon name="book-reader" pack="fas" >}} __Material para consulta__
+   - [Livro: R básico]({{< relref "books/eambr01/index" >}})
+   - [Curso R](courses/cursor/)
+   - [Exercícios propostos]({{< relref "" >}})
+
+{{< icon name="youtube" pack="fab" >}} __Vídeo-aula__
+{{< youtube " " >}}
 
 {{< /spoiler >}}
 

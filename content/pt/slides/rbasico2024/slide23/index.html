@@ -10,10 +10,10 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.5.56">
 
   <meta name="author" content=" Ben Dêivide |  UFSJ">
-  <title> EAR: R Básico</title>
+  <title> R Básico | Aula 23</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +44,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -100,6 +100,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -246,7 +247,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -415,8 +417,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="EAR-rbasico-background.png" class="quarto-title-block center">
-  <h1 class="title"><i class="fa-brands fa-r-project" aria-label="r-project"></i> EAR: R Básico</h1>
-  <p class="subtitle">Aula 23 - Ambientes e caminho de busca</p>
+  <h1 class="title"><i class="fa-brands fa-r-project" aria-label="r-project"></i> R Básico | Aula 23</h1>
+  <p class="subtitle">Ambientes e caminho de busca</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -462,13 +464,12 @@
 <center>
 <img src="ufsj.png" title="ufsj.edu.br/" width="300">
 </center>
-</div>
-</div>
+</div></div>
 </section>
 
 <section id="livro-de-apoio" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Livro de Apoio</h1>
-<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2021</a>)</span>:</p>
+<p>Usaremos <span class="citation" data-cites="batista2021">Batista e Oliveira (<a href="#/referências" role="doc-biblioref" onclick="">2022</a>)</span>:</p>
 <p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
 <p><img src="hardcover01.png" width="300"></p>
 </a><p><a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;"></a></p>
@@ -514,17 +515,17 @@
 <section id="nomes-em-um-ambiente" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Nomes em um ambiente</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="sc">&gt;</span> <span class="co"># Nomes no ambiente global</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="er">&gt;</span> <span class="fu">ls</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Nomes no ambiente global</span></span>
+<span id="cb1-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">ls</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>character(0)</code></pre>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="sc">&gt;</span> <span class="co"># Criando objetos no ambiente global</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="er">&gt;</span> b <span class="ot">&lt;-</span> <span class="dv">2</span>; a <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; x <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="sc">&gt;</span> <span class="co"># Verificando os nomes no ambiente global</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="er">&gt;</span> <span class="fu">ls</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Criando objetos no ambiente global</span></span>
+<span id="cb3-2"><a href=""></a><span class="er">&gt;</span> b <span class="ot">&lt;-</span> <span class="dv">2</span>; a <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; x <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
+<span id="cb3-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Verificando os nomes no ambiente global</span></span>
+<span id="cb3-4"><a href=""></a><span class="er">&gt;</span> <span class="fu">ls</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "a" "b" "x"</code></pre>
 </div>
@@ -534,17 +535,17 @@
 <section id="acessando-objetos-em-ambiente" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Acessando objetos em ambiente</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="sc">&gt;</span> <span class="co"># Acessando o objeto "a"</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="er">&gt;</span> .GlobalEnv<span class="sc">$</span>a</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Acessando o objeto "a"</span></span>
+<span id="cb5-2"><a href=""></a><span class="er">&gt;</span> .GlobalEnv<span class="sc">$</span>a</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Ben"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="sc">&gt;</span> .GlobalEnv[[<span class="st">"a"</span>]]</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href=""></a><span class="sc">&gt;</span> .GlobalEnv[[<span class="st">"a"</span>]]</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Ben"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="sc">&gt;</span> <span class="co"># Acessando o primeiro nome (Erro...)</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a><span class="er">&gt;</span> .GlobalEnv[[<span class="dv">1</span>]]</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Acessando o primeiro nome (Erro...)</span></span>
+<span id="cb9-2"><a href=""></a><span class="er">&gt;</span> .GlobalEnv[[<span class="dv">1</span>]]</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
 <pre><code>Error in .GlobalEnv[[1]]: argumentos errados para obtenção de subconjuntos de um ambiente</code></pre>
 </div>
@@ -554,21 +555,21 @@
 <section id="criando-ambientes" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Criando ambientes</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="sc">&gt;</span> <span class="co"># Criando objetos no ambiente global</span></span>
-<span id="cb11-2"><a href="#cb11-2"></a><span class="er">&gt;</span> b <span class="ot">&lt;-</span> <span class="dv">2</span>; a <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; x <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
-<span id="cb11-3"><a href="#cb11-3"></a><span class="sc">&gt;</span> <span class="fu">ls</span>() <span class="co"># Verificando os nomes no ambiente global</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Criando objetos no ambiente global</span></span>
+<span id="cb11-2"><a href=""></a><span class="er">&gt;</span> b <span class="ot">&lt;-</span> <span class="dv">2</span>; a <span class="ot">&lt;-</span> <span class="st">"Ben"</span>; x <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
+<span id="cb11-3"><a href=""></a><span class="sc">&gt;</span> <span class="fu">ls</span>() <span class="co"># Verificando os nomes no ambiente global</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "a" "b" "x"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="sc">&gt;</span> <span class="co"># Criando um objeto ambiente no ambiente global</span></span>
-<span id="cb13-2"><a href="#cb13-2"></a><span class="er">&gt;</span> amb1 <span class="ot">&lt;-</span> <span class="fu">new.env</span>()</span>
-<span id="cb13-3"><a href="#cb13-3"></a><span class="sc">&gt;</span> <span class="co"># Inserindo nomes nesse no ambiente "amb1"</span></span>
-<span id="cb13-4"><a href="#cb13-4"></a><span class="er">&gt;</span> amb1<span class="sc">$</span>d <span class="ot">&lt;-</span> <span class="dv">3</span>; amb1<span class="sc">$</span>e <span class="ot">&lt;-</span> <span class="st">"FALSE"</span></span>
-<span id="cb13-5"><a href="#cb13-5"></a><span class="sc">&gt;</span> <span class="fu">ls</span>() <span class="co"># Verificando nomes no ambiente global</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Criando um objeto ambiente no ambiente global</span></span>
+<span id="cb13-2"><a href=""></a><span class="er">&gt;</span> amb1 <span class="ot">&lt;-</span> <span class="fu">new.env</span>()</span>
+<span id="cb13-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Inserindo nomes nesse no ambiente "amb1"</span></span>
+<span id="cb13-4"><a href=""></a><span class="er">&gt;</span> amb1<span class="sc">$</span>d <span class="ot">&lt;-</span> <span class="dv">3</span>; amb1<span class="sc">$</span>e <span class="ot">&lt;-</span> <span class="st">"FALSE"</span></span>
+<span id="cb13-5"><a href=""></a><span class="sc">&gt;</span> <span class="fu">ls</span>() <span class="co"># Verificando nomes no ambiente global</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "a"    "amb1" "b"    "x"   </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a><span class="sc">&gt;</span> <span class="fu">ls</span>(<span class="at">envir =</span> amb1) <span class="co"># Verificando nomes no ambiente "amb1"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">ls</span>(<span class="at">envir =</span> amb1) <span class="co"># Verificando nomes no ambiente "amb1"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "d" "e"</code></pre>
 </div>
@@ -582,7 +583,7 @@
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a><span class="sc">&gt;</span> <span class="fu">parent.env</span>(amb1)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">parent.env</span>(amb1)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;environment: R_GlobalEnv&gt;</code></pre>
 </div>
@@ -593,7 +594,7 @@
 </div>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="sc">&gt;</span> <span class="fu">parent.env</span>(<span class="fu">emptyenv</span>())</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">parent.env</span>(<span class="fu">emptyenv</span>())</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
 <pre><code>Error in parent.env(emptyenv()): o ambiente vazio não tem pai</code></pre>
 </div>
@@ -606,41 +607,41 @@
 <h1>Ambientes funcionais e superatribuição</h1>
 <p>Vamos falar apenas de dois: <strong>ambiente envolvente</strong> e <strong>ambiente de execução</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">0</span> <span class="co"># Criando o objeto x e o imprimindo</span></span>
-<span id="cb21-2"><a href="#cb21-2"></a><span class="sc">&gt;</span> <span class="co"># Criando uma funcao com a superatribuicao</span></span>
-<span id="cb21-3"><a href="#cb21-3"></a><span class="er">&gt;</span> f1 <span class="ot">&lt;-</span>  <span class="cf">function</span>() {</span>
-<span id="cb21-4"><a href="#cb21-4"></a><span class="sc">+</span>   <span class="co"># Obj2</span></span>
-<span id="cb21-5"><a href="#cb21-5"></a><span class="sc">+</span>   x <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb21-6"><a href="#cb21-6"></a><span class="sc">+</span>   <span class="co"># Modificando x do ambiente global</span></span>
-<span id="cb21-7"><a href="#cb21-7"></a><span class="sc">+</span>   x <span class="ot">&lt;&lt;-</span> <span class="dv">2</span></span>
-<span id="cb21-8"><a href="#cb21-8"></a><span class="sc">+</span>   <span class="co"># Imprimindo o ambiente de execucao</span></span>
-<span id="cb21-9"><a href="#cb21-9"></a><span class="sc">+</span>   env <span class="ot">&lt;-</span> <span class="fu">environment</span>()</span>
-<span id="cb21-10"><a href="#cb21-10"></a><span class="sc">+</span>   <span class="co"># Imprimindo o Obj2</span></span>
-<span id="cb21-11"><a href="#cb21-11"></a><span class="sc">+</span>   res <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">x =</span> x, <span class="st">"Ambiente de execução"</span> <span class="ot">=</span> env, <span class="st">"Ambiente Pai"</span> <span class="ot">=</span> <span class="fu">parent.env</span>(env))</span>
-<span id="cb21-12"><a href="#cb21-12"></a><span class="sc">+</span>   <span class="co"># Retornando a lista</span></span>
-<span id="cb21-13"><a href="#cb21-13"></a><span class="sc">+</span>   <span class="fu">return</span>(res)</span>
-<span id="cb21-14"><a href="#cb21-14"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a><span class="sc">&gt;</span> x <span class="ot">&lt;-</span> <span class="dv">0</span> <span class="co"># Criando o objeto x e o imprimindo</span></span>
+<span id="cb21-2"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Criando uma funcao com a superatribuicao</span></span>
+<span id="cb21-3"><a href=""></a><span class="er">&gt;</span> f1 <span class="ot">&lt;-</span>  <span class="cf">function</span>() {</span>
+<span id="cb21-4"><a href=""></a><span class="sc">+</span>   <span class="co"># Obj2</span></span>
+<span id="cb21-5"><a href=""></a><span class="sc">+</span>   x <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb21-6"><a href=""></a><span class="sc">+</span>   <span class="co"># Modificando x do ambiente global</span></span>
+<span id="cb21-7"><a href=""></a><span class="sc">+</span>   x <span class="ot">&lt;&lt;-</span> <span class="dv">2</span></span>
+<span id="cb21-8"><a href=""></a><span class="sc">+</span>   <span class="co"># Imprimindo o ambiente de execucao</span></span>
+<span id="cb21-9"><a href=""></a><span class="sc">+</span>   env <span class="ot">&lt;-</span> <span class="fu">environment</span>()</span>
+<span id="cb21-10"><a href=""></a><span class="sc">+</span>   <span class="co"># Imprimindo o Obj2</span></span>
+<span id="cb21-11"><a href=""></a><span class="sc">+</span>   res <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">x =</span> x, <span class="st">"Ambiente de execução"</span> <span class="ot">=</span> env, <span class="st">"Ambiente Pai"</span> <span class="ot">=</span> <span class="fu">parent.env</span>(env))</span>
+<span id="cb21-12"><a href=""></a><span class="sc">+</span>   <span class="co"># Retornando a lista</span></span>
+<span id="cb21-13"><a href=""></a><span class="sc">+</span>   <span class="fu">return</span>(res)</span>
+<span id="cb21-14"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="ambientes-funcionais" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Ambientes funcionais</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="sc">&gt;</span> <span class="fu">f1</span>() <span class="co"># Imprimindo f1</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">f1</span>() <span class="co"># Imprimindo f1</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$x
 [1] 1
 
 $`Ambiente de execução`
-&lt;environment: 0x0000007db529d1b8&gt;
+&lt;environment: 0x6160cd01b6d0&gt;
 
 $`Ambiente Pai`
 &lt;environment: R_GlobalEnv&gt;</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a><span class="sc">&gt;</span> x <span class="co"># Imprimindo x</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href=""></a><span class="sc">&gt;</span> x <span class="co"># Imprimindo x</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a><span class="sc">&gt;</span> <span class="fu">environment</span>(f1) <span class="co"># Imprimindo o ambiente envolvente de f1</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">environment</span>(f1) <span class="co"># Imprimindo o ambiente envolvente de f1</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;environment: R_GlobalEnv&gt;</code></pre>
 </div>
@@ -649,7 +650,7 @@ $`Ambiente Pai`
 <section id="ambientes-funcionais-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Ambientes funcionais</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1"></a><span class="sc">&gt;</span> <span class="fu">ls</span>() <span class="co"># Imprimindo os nomes do ambiente global</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">ls</span>() <span class="co"># Imprimindo os nomes do ambiente global</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "a"    "amb1" "b"    "f1"   "x"   </code></pre>
 </div>
@@ -658,17 +659,17 @@ $`Ambiente Pai`
 <section id="novo-começo-no-ambiente-de-execução" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Novo começo no ambiente de execução</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1"></a><span class="sc">&gt;</span> <span class="fu">f1</span>()<span class="sc">$</span><span class="st">`</span><span class="at">Ambiente de execução</span><span class="st">`</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">f1</span>()<span class="sc">$</span><span class="st">`</span><span class="at">Ambiente de execução</span><span class="st">`</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>&lt;environment: 0x0000007db599cb10&gt;</code></pre>
+<pre><code>&lt;environment: 0x6160cd543518&gt;</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1"></a><span class="sc">&gt;</span> <span class="fu">f1</span>()<span class="sc">$</span><span class="st">`</span><span class="at">Ambiente de execução</span><span class="st">`</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">f1</span>()<span class="sc">$</span><span class="st">`</span><span class="at">Ambiente de execução</span><span class="st">`</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>&lt;environment: 0x0000007db5b4dea0&gt;</code></pre>
+<pre><code>&lt;environment: 0x6160cd6d2570&gt;</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1"></a><span class="sc">&gt;</span> <span class="fu">f1</span>()<span class="sc">$</span><span class="st">`</span><span class="at">Ambiente de execução</span><span class="st">`</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href=""></a><span class="sc">&gt;</span> <span class="fu">f1</span>()<span class="sc">$</span><span class="st">`</span><span class="at">Ambiente de execução</span><span class="st">`</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>&lt;environment: 0x0000007db5ba5e98&gt;</code></pre>
+<pre><code>&lt;environment: 0x6160cd7254e0&gt;</code></pre>
 </div>
 </div>
 </section>
@@ -677,19 +678,19 @@ $`Ambiente Pai`
 <section id="superatribuição" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Superatribuição</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1"></a><span class="sc">&gt;</span> <span class="co"># Verificando os nomes no ambiente global</span></span>
-<span id="cb36-2"><a href="#cb36-2"></a><span class="er">&gt;</span> <span class="fu">ls</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Verificando os nomes no ambiente global</span></span>
+<span id="cb36-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">ls</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>character(0)</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1"></a><span class="sc">&gt;</span> <span class="co"># Criando uma funcao</span></span>
-<span id="cb38-2"><a href="#cb38-2"></a><span class="er">&gt;</span> f2 <span class="ot">&lt;-</span>  <span class="cf">function</span>() {</span>
-<span id="cb38-3"><a href="#cb38-3"></a><span class="sc">+</span>   x <span class="ot">&lt;&lt;-</span> <span class="dv">2</span></span>
-<span id="cb38-4"><a href="#cb38-4"></a><span class="sc">+</span> }</span>
-<span id="cb38-5"><a href="#cb38-5"></a><span class="sc">&gt;</span> <span class="co"># Executando f2</span></span>
-<span id="cb38-6"><a href="#cb38-6"></a><span class="er">&gt;</span> <span class="fu">f2</span>()</span>
-<span id="cb38-7"><a href="#cb38-7"></a><span class="sc">&gt;</span> <span class="co"># Verificando novamente os nomes no ambiente global</span></span>
-<span id="cb38-8"><a href="#cb38-8"></a><span class="er">&gt;</span> <span class="fu">ls</span>(); x</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Criando uma funcao</span></span>
+<span id="cb38-2"><a href=""></a><span class="er">&gt;</span> f2 <span class="ot">&lt;-</span>  <span class="cf">function</span>() {</span>
+<span id="cb38-3"><a href=""></a><span class="sc">+</span>   x <span class="ot">&lt;&lt;-</span> <span class="dv">2</span></span>
+<span id="cb38-4"><a href=""></a><span class="sc">+</span> }</span>
+<span id="cb38-5"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Executando f2</span></span>
+<span id="cb38-6"><a href=""></a><span class="er">&gt;</span> <span class="fu">f2</span>()</span>
+<span id="cb38-7"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Verificando novamente os nomes no ambiente global</span></span>
+<span id="cb38-8"><a href=""></a><span class="er">&gt;</span> <span class="fu">ls</span>(); x</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "f2" "x" </code></pre>
 </div>
@@ -701,62 +702,62 @@ $`Ambiente Pai`
 <section id="superatribuição-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Superatribuição</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1"></a><span class="sc">&gt;</span> <span class="co"># Funcao contador</span></span>
-<span id="cb41-2"><a href="#cb41-2"></a><span class="er">&gt;</span> contador <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb41-3"><a href="#cb41-3"></a><span class="sc">+</span>   i <span class="ot">&lt;-</span> <span class="dv">0</span></span>
-<span id="cb41-4"><a href="#cb41-4"></a><span class="sc">+</span>   env1 <span class="ot">&lt;-</span> <span class="fu">environment</span>()</span>
-<span id="cb41-5"><a href="#cb41-5"></a><span class="sc">+</span>   aux <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
-<span id="cb41-6"><a href="#cb41-6"></a><span class="sc">+</span>     <span class="co"># do something useful, then ...</span></span>
-<span id="cb41-7"><a href="#cb41-7"></a><span class="sc">+</span>     i <span class="ot">&lt;&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb41-8"><a href="#cb41-8"></a><span class="sc">+</span>     env2 <span class="ot">&lt;-</span> <span class="fu">environment</span>()</span>
-<span id="cb41-9"><a href="#cb41-9"></a><span class="sc">+</span>     res2 <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">i =</span> i, <span class="st">`</span><span class="at">AmbExec_aux</span><span class="st">`</span> <span class="ot">=</span> env2, <span class="st">`</span><span class="at">AmbExec_contador</span><span class="st">`</span> <span class="ot">=</span> env1)</span>
-<span id="cb41-10"><a href="#cb41-10"></a><span class="sc">+</span>     <span class="fu">return</span>(res2)</span>
-<span id="cb41-11"><a href="#cb41-11"></a><span class="sc">+</span>   }</span>
-<span id="cb41-12"><a href="#cb41-12"></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Funcao contador</span></span>
+<span id="cb41-2"><a href=""></a><span class="er">&gt;</span> contador <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
+<span id="cb41-3"><a href=""></a><span class="sc">+</span>   i <span class="ot">&lt;-</span> <span class="dv">0</span></span>
+<span id="cb41-4"><a href=""></a><span class="sc">+</span>   env1 <span class="ot">&lt;-</span> <span class="fu">environment</span>()</span>
+<span id="cb41-5"><a href=""></a><span class="sc">+</span>   aux <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
+<span id="cb41-6"><a href=""></a><span class="sc">+</span>     <span class="co"># do something useful, then ...</span></span>
+<span id="cb41-7"><a href=""></a><span class="sc">+</span>     i <span class="ot">&lt;&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb41-8"><a href=""></a><span class="sc">+</span>     env2 <span class="ot">&lt;-</span> <span class="fu">environment</span>()</span>
+<span id="cb41-9"><a href=""></a><span class="sc">+</span>     res2 <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">i =</span> i, <span class="st">`</span><span class="at">AmbExec_aux</span><span class="st">`</span> <span class="ot">=</span> env2, <span class="st">`</span><span class="at">AmbExec_contador</span><span class="st">`</span> <span class="ot">=</span> env1)</span>
+<span id="cb41-10"><a href=""></a><span class="sc">+</span>     <span class="fu">return</span>(res2)</span>
+<span id="cb41-11"><a href=""></a><span class="sc">+</span>   }</span>
+<span id="cb41-12"><a href=""></a><span class="sc">+</span> }</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="superatribuição-e-ambiente-de-execução" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Superatribuição e ambiente de execução</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb42" style="display:inline-block;"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1"></a><span class="sc">&gt;</span> <span class="co"># Chamada de funcao</span></span>
-<span id="cb42-2"><a href="#cb42-2"></a><span class="er">&gt;</span> contador1 <span class="ot">&lt;-</span> <span class="fu">contador</span>(); <span class="fu">contador1</span>(); <span class="fu">contador1</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb42" style="display:inline-block;"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamada de funcao</span></span>
+<span id="cb42-2"><a href=""></a><span class="er">&gt;</span> contador1 <span class="ot">&lt;-</span> <span class="fu">contador</span>(); <span class="fu">contador1</span>(); <span class="fu">contador1</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$i
 [1] 1
 
 $AmbExec_aux
-&lt;environment: 0x0000007dad6fe658&gt;
+&lt;environment: 0x6160ce0ef068&gt;
 
 $AmbExec_contador
-&lt;environment: 0x0000007dad729568&gt;</code></pre>
+&lt;environment: 0x6160ce0cbf80&gt;</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$i
 [1] 2
 
 $AmbExec_aux
-&lt;environment: 0x0000007dad6c96c0&gt;
+&lt;environment: 0x6160ce1207a8&gt;
 
 $AmbExec_contador
-&lt;environment: 0x0000007dad729568&gt;</code></pre>
+&lt;environment: 0x6160ce0cbf80&gt;</code></pre>
 </div>
 </div>
 </section>
 <section id="superatribuição-e-ambiente-de-execução-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Superatribuição e ambiente de execução</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb45" style="display:inline-block;"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1"></a><span class="sc">&gt;</span> <span class="co"># Chamada de funcao</span></span>
-<span id="cb45-2"><a href="#cb45-2"></a><span class="er">&gt;</span> contador2 <span class="ot">&lt;-</span> <span class="fu">contador</span>()</span>
-<span id="cb45-3"><a href="#cb45-3"></a><span class="sc">&gt;</span> <span class="fu">contador2</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb45" style="display:inline-block;"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamada de funcao</span></span>
+<span id="cb45-2"><a href=""></a><span class="er">&gt;</span> contador2 <span class="ot">&lt;-</span> <span class="fu">contador</span>()</span>
+<span id="cb45-3"><a href=""></a><span class="sc">&gt;</span> <span class="fu">contador2</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$i
 [1] 1
 
 $AmbExec_aux
-&lt;environment: 0x0000007dae366ad0&gt;
+&lt;environment: 0x6160ce566a68&gt;
 
 $AmbExec_contador
-&lt;environment: 0x0000007dacc32c90&gt;</code></pre>
+&lt;environment: 0x6160ce333158&gt;</code></pre>
 </div>
 </div>
 </section></section>
@@ -764,32 +765,32 @@ $AmbExec_contador
 <section id="caminho-de-busca" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Caminho de busca</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1"></a><span class="sc">&gt;</span> <span class="co"># Caminho de busca</span></span>
-<span id="cb47-2"><a href="#cb47-2"></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Caminho de busca</span></span>
+<span id="cb47-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] ".GlobalEnv"        "package:stats"     "package:graphics" 
 [4] "package:grDevices" "package:utils"     "package:datasets" 
 [7] "package:methods"   "Autoloads"         "package:base"     </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1"></a><span class="sc">&gt;</span> <span class="co"># Anexando o pacote SMR</span></span>
-<span id="cb49-2"><a href="#cb49-2"></a><span class="er">&gt;</span> <span class="fu">library</span>(SMR)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Anexando o pacote SMR</span></span>
+<span id="cb49-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">library</span>(SMR)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="caminho-de-busca-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Caminho de busca</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1"></a><span class="sc">&gt;</span> <span class="co"># Verificando o caminho de busca</span></span>
-<span id="cb50-2"><a href="#cb50-2"></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Verificando o caminho de busca</span></span>
+<span id="cb50-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] ".GlobalEnv"        "package:SMR"       "package:stats"    
  [4] "package:graphics"  "package:grDevices" "package:utils"    
  [7] "package:datasets"  "package:methods"   "Autoloads"        
 [10] "package:base"     </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1"></a><span class="sc">&gt;</span> <span class="co"># Carregando o pacote midrangeMCP</span></span>
-<span id="cb52-2"><a href="#cb52-2"></a><span class="er">&gt;</span> <span class="fu">library</span>(midrangeMCP)</span>
-<span id="cb52-3"><a href="#cb52-3"></a><span class="sc">&gt;</span> <span class="co"># Verificando o caminho de busca</span></span>
-<span id="cb52-4"><a href="#cb52-4"></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Carregando o pacote midrangeMCP</span></span>
+<span id="cb52-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">library</span>(midrangeMCP)</span>
+<span id="cb52-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Verificando o caminho de busca</span></span>
+<span id="cb52-4"><a href=""></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] ".GlobalEnv"          "package:midrangeMCP" "package:SMR"        
  [4] "package:stats"       "package:graphics"    "package:grDevices"  
@@ -801,10 +802,10 @@ $AmbExec_contador
 <section id="hierarquia-no-caminho-de-busca" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Hierarquia no caminho de busca</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1"></a><span class="sc">&gt;</span> <span class="co"># Criando um ambiente</span></span>
-<span id="cb54-2"><a href="#cb54-2"></a><span class="er">&gt;</span> amb2 <span class="ot">&lt;-</span> <span class="fu">new.env</span>()</span>
-<span id="cb54-3"><a href="#cb54-3"></a><span class="sc">&gt;</span> <span class="co"># Verificando seus parentais</span></span>
-<span id="cb54-4"><a href="#cb54-4"></a><span class="er">&gt;</span> rlang<span class="sc">::</span><span class="fu">env_parents</span>(<span class="at">env =</span> amb2, <span class="at">last =</span> <span class="fu">emptyenv</span>())</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Criando um ambiente</span></span>
+<span id="cb54-2"><a href=""></a><span class="er">&gt;</span> amb2 <span class="ot">&lt;-</span> <span class="fu">new.env</span>()</span>
+<span id="cb54-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Verificando seus parentais</span></span>
+<span id="cb54-4"><a href=""></a><span class="er">&gt;</span> rlang<span class="sc">::</span><span class="fu">env_parents</span>(<span class="at">env =</span> amb2, <span class="at">last =</span> <span class="fu">emptyenv</span>())</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [[1]] $ &lt;env: global&gt;
  [[2]] $ &lt;env: package:midrangeMCP&gt;
@@ -824,19 +825,19 @@ $AmbExec_contador
 <section id="pesquisa-pelo-caminho-de-busca" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Pesquisa pelo caminho de busca</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1"></a><span class="sc">&gt;</span> <span class="co"># Criando uma funcao</span></span>
-<span id="cb56-2"><a href="#cb56-2"></a><span class="er">&gt;</span> f3 <span class="ot">&lt;-</span> <span class="cf">function</span>() x <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb56-3"><a href="#cb56-3"></a><span class="sc">&gt;</span> </span>
-<span id="cb56-4"><a href="#cb56-4"></a><span class="er">&gt;</span> <span class="co"># Modificando o ambiente envolvente de f3</span></span>
-<span id="cb56-5"><a href="#cb56-5"></a><span class="er">&gt;</span> <span class="fu">environment</span>(f3) <span class="ot">&lt;-</span> <span class="fu">emptyenv</span>()</span>
-<span id="cb56-6"><a href="#cb56-6"></a><span class="sc">&gt;</span> </span>
-<span id="cb56-7"><a href="#cb56-7"></a><span class="er">&gt;</span> <span class="co"># Dependencias externas da funcao f3</span></span>
-<span id="cb56-8"><a href="#cb56-8"></a><span class="er">&gt;</span> codetools<span class="sc">::</span><span class="fu">findGlobals</span>(f3)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Criando uma funcao</span></span>
+<span id="cb56-2"><a href=""></a><span class="er">&gt;</span> f3 <span class="ot">&lt;-</span> <span class="cf">function</span>() x <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb56-3"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb56-4"><a href=""></a><span class="er">&gt;</span> <span class="co"># Modificando o ambiente envolvente de f3</span></span>
+<span id="cb56-5"><a href=""></a><span class="er">&gt;</span> <span class="fu">environment</span>(f3) <span class="ot">&lt;-</span> <span class="fu">emptyenv</span>()</span>
+<span id="cb56-6"><a href=""></a><span class="sc">&gt;</span> </span>
+<span id="cb56-7"><a href=""></a><span class="er">&gt;</span> <span class="co"># Dependencias externas da funcao f3</span></span>
+<span id="cb56-8"><a href=""></a><span class="er">&gt;</span> codetools<span class="sc">::</span><span class="fu">findGlobals</span>(f3)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "+" "x"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1"></a><span class="sc">&gt;</span> <span class="co"># Chamando a funcao f3</span></span>
-<span id="cb58-2"><a href="#cb58-2"></a><span class="er">&gt;</span> <span class="fu">f3</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Chamando a funcao f3</span></span>
+<span id="cb58-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">f3</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
 <pre><code>Error in x + 1: não foi possível encontrar a função "+"</code></pre>
 </div>
@@ -846,20 +847,20 @@ $AmbExec_contador
 <section id="cuidado-com-a-função-attach" class="title-slide slide level1 center" data-background-image="EAR-rbasico-background-02.png">
 <h1>Cuidado com a função <code>attach()</code></h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1"></a><span class="sc">&gt;</span> <span class="co"># objeto quadro de dados</span></span>
-<span id="cb60-2"><a href="#cb60-2"></a><span class="er">&gt;</span> dados <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">sd =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">var =</span> (<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
-<span id="cb60-3"><a href="#cb60-3"></a><span class="sc">&gt;</span> <span class="co"># Caminho de busca</span></span>
-<span id="cb60-4"><a href="#cb60-4"></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># objeto quadro de dados</span></span>
+<span id="cb60-2"><a href=""></a><span class="er">&gt;</span> dados <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">sd =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">var =</span> (<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb60-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Caminho de busca</span></span>
+<span id="cb60-4"><a href=""></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] ".GlobalEnv"          "package:midrangeMCP" "package:SMR"        
  [4] "package:stats"       "package:graphics"    "package:grDevices"  
  [7] "package:utils"       "package:datasets"    "package:methods"    
 [10] "Autoloads"           "package:base"       </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1"></a><span class="sc">&gt;</span> <span class="co"># anexando "dados" ao caminho de busca</span></span>
-<span id="cb62-2"><a href="#cb62-2"></a><span class="er">&gt;</span> <span class="fu">attach</span>(dados)</span>
-<span id="cb62-3"><a href="#cb62-3"></a><span class="sc">&gt;</span> <span class="co"># Verificando novamente o caminho de busca</span></span>
-<span id="cb62-4"><a href="#cb62-4"></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># anexando "dados" ao caminho de busca</span></span>
+<span id="cb62-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">attach</span>(dados)</span>
+<span id="cb62-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Verificando novamente o caminho de busca</span></span>
+<span id="cb62-4"><a href=""></a><span class="er">&gt;</span> <span class="fu">search</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] ".GlobalEnv"          "dados"               "package:midrangeMCP"
  [4] "package:SMR"         "package:stats"       "package:graphics"   
@@ -871,20 +872,20 @@ $AmbExec_contador
 <section id="cuidado-com-a-função-attach-1" class="slide level2" data-background-image="EAR-rbasico-background-02.png">
 <h2>Cuidado com a função <code>attach()</code></h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1"></a><span class="sc">&gt;</span> <span class="co"># Imprimindo sd</span></span>
-<span id="cb64-2"><a href="#cb64-2"></a><span class="er">&gt;</span> sd</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Imprimindo sd</span></span>
+<span id="cb64-2"><a href=""></a><span class="er">&gt;</span> sd</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 2 3</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1"></a><span class="sc">&gt;</span> <span class="co"># Desanexando "dados"</span></span>
-<span id="cb66-2"><a href="#cb66-2"></a><span class="er">&gt;</span> <span class="fu">detach</span>(dados)</span>
-<span id="cb66-3"><a href="#cb66-3"></a><span class="sc">&gt;</span> <span class="co"># Imprimindo sd</span></span>
-<span id="cb66-4"><a href="#cb66-4"></a><span class="er">&gt;</span> sd</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Desanexando "dados"</span></span>
+<span id="cb66-2"><a href=""></a><span class="er">&gt;</span> <span class="fu">detach</span>(dados)</span>
+<span id="cb66-3"><a href=""></a><span class="sc">&gt;</span> <span class="co"># Imprimindo sd</span></span>
+<span id="cb66-4"><a href=""></a><span class="er">&gt;</span> sd</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>function (x, na.rm = FALSE) 
 sqrt(var(if (is.vector(x) || is.factor(x)) x else as.double(x), 
     na.rm = na.rm))
-&lt;bytecode: 0x0000007db6185a18&gt;
+&lt;bytecode: 0x6160cbcc58b8&gt;
 &lt;environment: namespace:stats&gt;</code></pre>
 </div>
 </div>
@@ -899,13 +900,15 @@ sqrt(var(if (is.vector(x) || is.factor(x)) x else as.double(x),
 
 <section id="referências" class="title-slide slide level1 smaller scrollable" data-background-image="EAR-rbasico-background-02.png">
 <h1>Referências</h1>
-
-<img src="logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
+<div class="quarto-auto-generated-content">
+<p><img src="logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://bendeivide.github.io/courses/ear/">EAR: R básico 2024</a> | <a href="https://bendeivide.github.io/" class="uri">https://bendeivide.github.io/</a></p>
 </div>
-<div id="refs" class="references csl-bib-body" role="list">
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
 <div id="ref-batista2021" class="csl-entry" role="listitem">
-BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2021.
+BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.github.io/books/eambr01/"><span>R</span> básico</a></strong>. Ouro Branco, MG, Brasil: [s.n.], 2022.
 </div>
 </div>
 </section>
@@ -920,6 +923,8 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="index_files/libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="index_files/libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
   <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
@@ -937,13 +942,13 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
       Reveal.initialize({
 'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
 'chalkboard': {"buttons":true,"theme":"whiteboard","boardmarkerWidth":3},
+'multiplex': {"secret":null,"id":"44c3e8f4843ebda2","url":"https://reveal-multiplex.glitch.me/"},
 'pointer': {"0":{"key":"q"},"1":{"color":"red"},"2":{"pointerSize":16},"3":{"alwaysVisible":false},"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,
  
@@ -1118,7 +1123,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
-          RevealNotes,
+          
           RevealSearch,
           RevealZoom
         ]
@@ -1194,18 +1199,7 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1237,11 +1231,50 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1251,8 +1284,17 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1266,7 +1308,11 @@ BATISTA, B. D. O.; OLIVEIRA, D. A. B. J. <strong><a href="https://bendeivide.git
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

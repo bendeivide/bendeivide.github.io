@@ -48,6 +48,8 @@ content:
     tag: bookciriegola
   - name: ESTBAS
     tag: bookestbasica
+  - name: LATEX
+    tag: booklatex
 
 
 design:
