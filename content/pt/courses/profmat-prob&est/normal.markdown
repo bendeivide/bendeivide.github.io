@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.2
-date: "2024-09-05 19:34:21"
+date: "2024-09-26 16:27:49"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -263,6 +263,35 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 {{< /spoiler >}}
 
+{{< spoiler text="Prova 1 (27/09/2024 - 04/10/2024)">}}
+{{< icon name="clock" pack="fas" >}} Duração 1 semana (0h de 27/09 à 23h59min de 04/10)
+{{< spoiler text="Banco de dados">}}
+
+-  {{% staticref "profmat/data_alex.csv" "newtab" %}}Banco de dados para Alex de Oliveira Gama (2023100083){{% /staticref %}}
+-  {{% staticref "profmat/data_ivair.csv" "newtab" %}}Banco de dados para Ivair Ferreira de Souza (2023100145){{% /staticref %}}
+-  {{% staticref "profmat/data_leonardo.csv" "newtab" %}}Banco de dados para Leonardo Lois Rodrigues (2023100154){{% /staticref %}}
+-  {{% staticref "profmat/data_maxwell.csv" "newtab" %}}Banco de dados para Maxwell Ramalho de Souza (2024104828){{% /staticref %}}
+-  {{% staticref "profmat/data_maxwell.csv" "newtab" %}}Banco de dados para Wagner Chaves Andrade (2023100216){{% /staticref %}}
+
+{{< /spoiler >}}
+
+{{< spoiler text="Questões">}}
+
+1. Use o seu banco de dados apresentado anteriormente e faça uma descrição usando tabulação, apresentação gráfica, medidas de posição e dispersão. Faça este item como uma espécie de relatório para que se possa entender as características desses dados.
+2. Responda as seguintes questões a seguir, relacionadas a probabilidade:
+</br>
+   2.1. Sabe-se que cada uma das pessoas A, B, C e D, falam a verdade uma dado instante com probabilidade de 1/3. Suponha que A faça uma afirmação, e D disse que C, que disse que B, que disse que A estava falando a verdade. Qual a probabilidade de que A tenha falado a verdade?</br>
+   2.2. Em um experimento de reprodução, sabe-se que o progenitor masculino possui dois genes dominantes (simbolizado por *AA*) ou um dominante e um recessivo (*Aa*). Esses dois casos são igualmente prováveis. O progenitor feminino é conhecido por dois genes recessivos (*aa*). Como a prole recebe um de cada progenitor, será Aa ou aa, e será possível dizer com certeza qual deles.</br>
+      a) Suponha que um dos descendentes seja *Aa*, qual é a probabilidade de que o progenitor masculino seja *AA*?</br>
+      b) Suponha que dois descendentes sejam ambos *Aa*, qual é a probabilidade de que o progenitor masculino seja *AA*?</br>
+      c) Se uma prole é *aa*, qual a probabilidade de que o progenitor masculino seja *Aa*?</br>
+3. Seja \(B_1\), \(B_2\), \(\ldots\) sejam multuamente disjuntos, a seja \(B = \bigcup_{j = 1}^{n}B_j\), supondo ainda que \(P(A|B_j) = p\) para \(j = 1, 2, \ldots\), então mostre que \(P(A|B) = p\).
+
+      
+{{< /spoiler >}}
+
+
+{{< /spoiler >}}
 
 
 ## Quiz

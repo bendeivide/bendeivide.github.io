@@ -8717,7 +8717,7 @@ para $ P(B) &gt; 0 $.
 &lt;div id=&#34;teo:regprodprob&#34; class=&#34;teorema&#34; cap=5 titulo=&#34;(Regra do produto de probabilidade)&#34;&gt;
 &lt;p&gt;
 Seja os eventos não vazios $ A_1,A_2,\ldots,A_n $ em $ \Omega $, com $ P(\bigcap^{n}_{i=1}A_i)&gt;0 $, então a probabilidade do produto desses eventos é dado por
-&lt;p&gt;$$ P(A_1\cap A_2\cap \ldots \cap A_n)=P(A_1)P(A_2|A_1)\ldots P(A_n|A_1\cap A_2 \cap \ldots \cap A_{n-1}). $$&lt;/p&gt;
+$$ P(A_1\cap A_2\cap \ldots \cap A_n)=P(A_1)P(A_2|A_1)\ldots P(A_n|A_1\cap A_2 \cap \ldots \cap A_{n-1}). $$
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -8806,15 +8806,15 @@ Considere o espaço amostral $ \Omega $. Dois eventos $ A $ e $ B $ de $ \Omega 
 &lt;ul&gt;
 &lt;li&gt;$ (i) \to (ii) $: Se $ P(AB) = P(A)P(B) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;$$ P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) &amp;gt; 0; $$&lt;/p&gt;
+$$ P(A|B) = \frac{P(AB)}{P(A)} = \frac{P(A)P(B)}{P(B)} = P(A), \quad \textrm{para } P(B) &gt; 0; $$
 &lt;ul&gt;
 &lt;li&gt;$ (ii) \to (iii) $: Se $ P(A|B) = P(A) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;$$  P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) &amp;gt; 0; $$&lt;/p&gt;
+$$  P(B|A) = \frac{P(BA)}{P(A)} = \frac{P(A|B)P(B)}{P(A)} = P(B), \quad \textrm{para } P(A) &gt; 0; $$
 &lt;ul&gt;
 &lt;li&gt;$ (iii) \to (i) $: Se $ P(B|A) = P(B) $, então:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;$$ P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) &amp;gt; 0. $$&lt;/p&gt;
+$$ P(AB) = P(B|A)P(A) = P(B)P(A), \textrm{para } P(A) &gt; 0. $$
 &lt;/div&gt;
 &lt;hr&gt;
 
