@@ -6,13 +6,13 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/normal2024.2/</loc><lastmod>2024-10-03T18:52:25+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/ear/rbasico2024/</loc><lastmod>2024-10-07T08:05:07+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/courses/ear/rbasico2024/</loc><lastmod>2024-10-07T08:23:19+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/courses/ear/rbasico/</loc><lastmod>2024-10-07T08:23:13+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/profmat-probest/normal/</loc><lastmod>2024-09-26T16:27:49+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/estcomp/normal/</loc><lastmod>2024-08-08T21:55:49+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/courses/ear/rbasico/</loc><lastmod>2024-07-30T19:42:59+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/rlm/normal/</loc><lastmod>2024-05-31T18:15:10+00:00</lastmod></url>
   <url>
@@ -40,7 +40,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2024-10-07T08:05:07+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2024-10-07T08:23:19+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -50,7 +50,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2024-10-07T08:05:07+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2024-10-07T08:23:19+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -60,11 +60,11 @@
       href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/curso-r/</loc><lastmod>2024-10-07T08:05:07+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/curso-r/</loc><lastmod>2024-10-07T08:23:19+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/curso-r/</loc><lastmod>2024-10-07T08:05:07+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/curso-r/</loc><lastmod>2024-10-07T08:23:19+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2024-10-07T08:05:07+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2024-10-07T08:23:19+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/courses/"
@@ -74,9 +74,9 @@
       href="http://bendeivide.github.io/courses/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2024-10-07T08:05:07+00:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2024-10-07T08:23:19+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2024-10-07T08:05:07+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2024-10-07T08:23:19+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/tags/"
@@ -85,6 +85,10 @@
       hreflang="pt"
       href="http://bendeivide.github.io/tags/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/ear/</loc><lastmod>2024-10-07T08:23:10+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/courses/ear/</loc><lastmod>2024-10-07T08:23:10+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2024-10-03T18:52:25+00:00</lastmod></url>
   <url>
@@ -214,15 +218,11 @@
   <url>
     <loc>http://bendeivide.github.io/courses/meupacoter/</loc><lastmod>2022-11-17T06:46:21+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/ear/</loc><lastmod>2022-11-17T06:46:21+00:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/post/rbasico-unifal/</loc><lastmod>2022-10-19T00:00:00+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/livro/</loc><lastmod>2022-10-19T00:00:00+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/post/rbasico/</loc><lastmod>2022-10-17T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/courses/ear/</loc><lastmod>2022-10-13T18:40:15+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/bookciriegola/</loc><lastmod>2022-10-11T08:11:01+00:00</lastmod></url>
   <url>

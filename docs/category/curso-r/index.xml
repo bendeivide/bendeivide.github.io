@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/curso-r/</link>
       <atom:link href="http://bendeivide.github.io/category/curso-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 07 Oct 2024 08:05:07 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 07 Oct 2024 08:23:19 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso R</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R básico 2024</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico2024/</link>
-      <pubDate>Mon, 07 Oct 2024 08:05:07 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2024 08:23:19 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico2024/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -166,7 +166,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; Data: &lt;strong&gt;Início: 01/08/2024  Término: 30/09/2024&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
-&lt;img src=&#34;http://bendeivide.github.io/pt/courses/EAR/Rbasico2024_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;http://bendeivide.github.io/pt/courses/ear/Rbasico2024_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
@@ -765,7 +765,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Tue, 30 Jul 2024 19:42:59 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2024 08:23:13 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -916,7 +916,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
   &lt;iframe src=&#34;https://forms.gle/PMaMhtPRDoa6F1kF9&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
-&lt;img src=&#34;http://bendeivide.github.io/pt/courses/EAR/Rbasico_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;http://bendeivide.github.io/pt/courses/ear/Rbasico_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
