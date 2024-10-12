@@ -2,8 +2,8 @@
 title: Relatórios e slides otimizados
 summary: ''
 authors: [Smartalk]
-tags: [Consultoria]
-categories: [Consultoria]
+tags: [Colaboração Esporádica]
+categories: [Colaboração Esporádica]
 slides:
 #  css: night
 # https://github.com/hakimel/reveal.js/tree/master/css/theme/source
