@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.2
-date: "2024-10-03 18:52:25"
+date: "2024-10-14 09:06:07"
 type: book
 weight: 9
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -65,10 +65,8 @@ regressão linear simples.
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
-<!-- -   Engenharia Mecatrônica -->
-<!--     [Link](https://docs.google.com/spreadsheets/d/1tEIZ3I92WoNtOSL0ix4S_dNEAIyojiIaQiCAzS_zwdg/edit?usp=sharing) -->
-<!-- -   Engenharia Química -->
-<!--     [Link](https://docs.google.com/spreadsheets/d/1hSt6rwDFwkFNAeq4qIhOPCn3CcLXbSJwc1NTQ_qGe88/edit?usp=sharing) -->
+-   Engenharia Civil
+    [Link](https://docs.google.com/spreadsheets/d/1_sWHmYWjqMk_3qraiUzF49rIc1YKTNoIAwVoNqeP0SI/edit?usp=sharing)
 
 ## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
