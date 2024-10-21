@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>💻 LEEM: Laboratório de Ensino à Estatística e Matemática | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/courses/leem/</link>
+      <atom:link href="http://bendeivide.github.io/courses/leem/index.xml" rel="self" type="application/rss+xml" />
+    <description>💻 LEEM: Laboratório de Ensino à Estatística e Matemática</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Oct 2024 13:57:00 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/courses/leem/featured.png</url>
+      <title>💻 LEEM: Laboratório de Ensino à Estatística e Matemática</title>
+      <link>http://bendeivide.github.io/courses/leem/</link>
+    </image>
+    
+    <item>
+      <title>🎥 Estatística e Probabilidade</title>
+      <link>http://bendeivide.github.io/courses/leem/estprob/</link>
+      <pubDate>Mon, 21 Oct 2024 14:47:21 +0000</pubDate>
+      <guid>http://bendeivide.github.io/courses/leem/estprob/</guid>
+      <description>&lt;p&gt;Curso para estudar o pacote &lt;a href=&#34;https://bendeivide.github.io/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leem&lt;/a&gt; em Estatística e Probabilidade.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeos disponíveis quase toda semana!&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;Em termos gerais, abordaremos sobre as funções detalhando os argumentos, relacionados a Estatística e Probabilidade.&lt;/p&gt;
+&lt;/br&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-microphone-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- Em desenvolvimento... --&gt;
+&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist do curso: &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR2FCUNnCm6WPuqYN2c9IvdJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LINK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Definições Gerais&lt;/li&gt;
+&lt;li&gt;Técnicas de somatório&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Representação tabular&lt;/li&gt;
+&lt;li&gt;Representação gráfica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE POSIÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Média&lt;/li&gt;
+&lt;li&gt;Mediana&lt;/li&gt;
+&lt;li&gt;Moda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MEDIDAS DE DISPERSÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amplitude total&lt;/li&gt;
+&lt;li&gt;Variância&lt;/li&gt;
+&lt;li&gt;Desvio Padrão&lt;/li&gt;
+&lt;li&gt;Coeficiente de Variação&lt;/li&gt;
+&lt;li&gt;Erro padrão da Média&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Definições de probabilidades&lt;/li&gt;
+&lt;li&gt;Propriedades&lt;/li&gt;
+&lt;li&gt;Eventos independentes e probabilidade condicional&lt;/li&gt;
+&lt;li&gt;Teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função de probabilidade discreta&lt;/li&gt;
+&lt;li&gt;Função de probabilidade contínua&lt;/li&gt;
+&lt;li&gt;Função de distribuição de probabilidade acumulada&lt;/li&gt;
+&lt;li&gt;Esperança matemática e variância&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÕES DE PROBABILIDADES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuições discretas de probabilidades&lt;/li&gt;
+&lt;li&gt;Distribuições contínuas de probabilidades&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Amostragem não-probabilística e probabilística&lt;/li&gt;
+&lt;li&gt;Técnicas de amostragem probabilística&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DISTRIBUIÇÃO DE AMOSTRAGEM:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem da média&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de proporções&lt;/li&gt;
+&lt;li&gt;Distribuição de amostragem de diferença entre médias&lt;/li&gt;
+&lt;li&gt;Distribuições amostrais (qui-quadrado, t e F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA ESTIMAÇÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Conceitos básicos&lt;/li&gt;
+&lt;li&gt;Tipos de estimativas&lt;/li&gt;
+&lt;li&gt;Propriedades de um estimador&lt;/li&gt;
+&lt;li&gt;Estimação por ponto&lt;/li&gt;
+&lt;li&gt;Estimação por intervalo:
+&lt;ul&gt;
+&lt;li&gt;Intervalo de confiança para a média&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a variância&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dimensionamento de amostras&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;TEORIA DA DECISÃO:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Testes de hipóteses&lt;/li&gt;
+&lt;li&gt;Erros tipo I e II&lt;/li&gt;
+&lt;li&gt;Teste unilateral e bilateral&lt;/li&gt;
+&lt;li&gt;Passos para a construção de um teste de hipóteses&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a média&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a proporção&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a variância&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para a diferença entre médias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
+&lt;ul&gt;
+&lt;li&gt;Introdução&lt;/li&gt;
+&lt;li&gt;Correlação linear:&lt;/li&gt;
+&lt;li&gt;Coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses acerca do coeficiente de correlação linear&lt;/li&gt;
+&lt;li&gt;Regressão linear simples:&lt;/li&gt;
+&lt;li&gt;Modelo&lt;/li&gt;
+&lt;li&gt;Estimação dos parâmetros do modelo&lt;/li&gt;
+&lt;li&gt;Teste de hipóteses para o modelo de regressão&lt;/li&gt;
+&lt;li&gt;Medidas de adequação do modelo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Aula 01 - Introdução e ferramentas para o curso&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material de apoio&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso  R básico [&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&#34; target=&#34;_blank&#34;&gt;(2023)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&#34; target=&#34;_blank&#34;&gt;(2024)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso R intermediário [&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;Curso Estatística e Probabilidade&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/VG-bz4tInnc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Aula 02 - Função &lt;code&gt;new_leem()&lt;/code&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material de apoio&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso  R básico [&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&#34; target=&#34;_blank&#34;&gt;(2023)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&#34; target=&#34;_blank&#34;&gt;(2024)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso R intermediário [&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;Curso Estatística e Probabilidade&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hGziqzZOoNM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Aula 03 - Função &lt;code&gt;tabfreq()&lt;/code&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material de apoio&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso  R básico [&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&#34; target=&#34;_blank&#34;&gt;(2023)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&#34; target=&#34;_blank&#34;&gt;(2024)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso R intermediário [&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;Curso Estatística e Probabilidade&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ldhO8Bnr8eg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Aula 04 - Função &lt;code&gt;tabfreq()&lt;/code&gt;: argumento &amp;ldquo;&lt;code&gt;k&lt;/code&gt;&amp;rdquo;&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material de apoio&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso  R básico [&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&#34; target=&#34;_blank&#34;&gt;(2023)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&#34; target=&#34;_blank&#34;&gt;(2024)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso R intermediário [&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;Curso Estatística e Probabilidade&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_ArS0aRgPdw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Aula 05 - Função &lt;code&gt;tabfreq()&lt;/code&gt;: argumento &amp;ldquo;&lt;code&gt;ordered&lt;/code&gt;&amp;rdquo;&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material de apoio&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso  R básico [&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&#34; target=&#34;_blank&#34;&gt;(2023)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&#34; target=&#34;_blank&#34;&gt;(2024)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso R intermediário [&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;Curso Estatística e Probabilidade&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/EjawJrn3LIs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Aula 06 - Função &lt;code&gt;tabfreq()&lt;/code&gt;: argumento &amp;ldquo;&lt;code&gt;namereduction&lt;/code&gt;&amp;rdquo;&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material de apoio&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso  R básico [&lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&#34; target=&#34;_blank&#34;&gt;(2023)&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&#34; target=&#34;_blank&#34;&gt;(2024)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Curso R intermediário [&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34;&gt;(2021)&lt;/a&gt;] &lt;/li&gt;
+  &lt;li&gt; 
+  &lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/epaec&#34; target=&#34;_blank&#34;&gt;Curso Estatística e Probabilidade&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/N1IpsacJtEk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
+  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
+  &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
