@@ -42,7 +42,9 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/arts/</loc><lastmod>2024-10-21T16:37:25+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/</loc><lastmod>2024-10-21T16:37:25+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -52,7 +54,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2024-10-21T16:37:25+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -60,6 +62,22 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/categories/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/musica/</loc><lastmod>2024-10-21T16:37:25+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/musicas-autorais/</loc><lastmod>2024-10-21T16:37:25+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/arts/composicoes_autorais/</loc><lastmod>2024-10-21T16:37:25+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2024-10-21T16:37:25+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod></url>
@@ -85,16 +103,6 @@
     <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/remoto/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/courses/leem/</loc><lastmod>2024-10-21T13:57:00+00:00</lastmod></url>
   <url>
@@ -232,8 +240,6 @@
   <url>
     <loc>http://bendeivide.github.io/category/misticismo/</loc><lastmod>2022-10-11T08:11:01+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/musica/</loc><lastmod>2022-10-11T08:11:01+00:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/books/ciriegola/</loc><lastmod>2022-10-11T08:11:01+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/poesia/</loc><lastmod>2022-10-11T08:11:01+00:00</lastmod></url>
@@ -295,12 +301,6 @@
     /></url>
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/</loc><lastmod>2022-03-22T14:09:23+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/arts/</loc><lastmod>2022-03-14T22:17:58+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/musicas-autorais/</loc><lastmod>2022-03-14T22:17:58+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/arts/composicoes_autorais/</loc><lastmod>2022-03-14T22:17:58+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/project/projufsj04/</loc><lastmod>2022-03-13T17:58:52+00:00</lastmod></url>
   <url>
