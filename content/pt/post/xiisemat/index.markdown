@@ -1,12 +1,12 @@
 ---
 title: 'XII Semana Acadêmica de Matemática/UFV'
-date: "2024-12-11"
+date: "2024-12-10"
 categories: ['Palestra', 'Ensino', 'Pesquisa', 'Extensão']
 tags: ['Palestra']
 summary: 'Como as críticas podem mudar o seu mundo profissional e pessoal'
 links:
 - name: Palestra
-  url: 
+  url: ./talk/um-cancer-da-sociedade/
 ---
 
 

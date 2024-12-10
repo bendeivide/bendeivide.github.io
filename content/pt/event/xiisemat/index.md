@@ -5,8 +5,8 @@ date: "2024-12-10T14:00:00Z"
 location: UFV/Campus Florestal
 summary: Como as críticas podem mudar o seu mundo profissional e pessoal
 event_url: https://semanadamatematica.caf.ufv.br/
-#date_end: "2024-12-10T14:00:00Z"
-all_day: no
+date_end: "2024-12-10T14:00:00Z"
+all_day: yes
 publishDate: "2024-12-10T14:00:00Z"
 tags: Palestra
 featured: yes
