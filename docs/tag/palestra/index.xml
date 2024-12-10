@@ -5,12 +5,25 @@
     <link>http://bendeivide.github.io/tag/palestra/</link>
       <atom:link href="http://bendeivide.github.io/tag/palestra/index.xml" rel="self" type="application/rss+xml" />
     <description>Palestra</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 10 Dec 2024 14:00:00 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Palestra</title>
       <link>http://bendeivide.github.io/tag/palestra/</link>
     </image>
+    
+    <item>
+      <title>Um câncer da sociedade</title>
+      <link>http://bendeivide.github.io/talk/um-cancer-da-sociedade/</link>
+      <pubDate>Tue, 10 Dec 2024 14:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/talk/um-cancer-da-sociedade/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>XII Semana Acadêmica de Matemática/UFV</title>
@@ -26,7 +39,7 @@
   &lt;i class=&#34;fas fa-globe  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Local: UFV/&lt;em&gt;Campus Florestal&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;link-da-palestra&#34;&gt;Link da palestra&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Câncer na sociedade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/talk/um-cancer-da-sociedade/&#34;&gt;Câncer na sociedade&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

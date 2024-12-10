@@ -42,7 +42,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -51,6 +51,30 @@
       hreflang="pt"
       href="http://bendeivide.github.io/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/palestra/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/event/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/event/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/event/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/talk/um-cancer-da-sociedade/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/categories/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod><xhtml:link
       rel="alternate"
@@ -66,8 +90,6 @@
   <url>
     <loc>http://bendeivide.github.io/category/extensao/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/palestra/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/category/palestra/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/pesquisa/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod></url>
@@ -80,16 +102,6 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/post/"
-    /></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/post/xiisemat/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod></url>
@@ -225,16 +237,6 @@
     <loc>http://bendeivide.github.io/tag/oficina-do-livro/</loc><lastmod>2023-10-18T19:00:00+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/talk/oficina-do-livro/</loc><lastmod>2023-10-18T19:00:00+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/event/</loc><lastmod>2023-10-18T19:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/event/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/event/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/musica/</loc><lastmod>2023-07-13T07:22:24+00:00</lastmod></url>
   <url>
