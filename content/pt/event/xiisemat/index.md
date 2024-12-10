@@ -1,5 +1,5 @@
 ---
-title: Um câncer da sociedade
+title: Um câncer na sociedade
 event: XII Semana Acadêmica da Matemática
 date: "2024-12-10T14:00:00Z"
 location: UFV/Campus Florestal

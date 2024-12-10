@@ -6,7 +6,7 @@ tags: ['Palestra']
 summary: 'Como as críticas podem mudar o seu mundo profissional e pessoal'
 links:
 - name: Palestra
-  url: ./talk/um-cancer-da-sociedade/
+  url: ./talk/um-cancer-na-sociedade/
 ---
 
 
