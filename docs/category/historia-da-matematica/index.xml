@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>História da Matemática | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/category/historia-da-matematica/</link>
+      <atom:link href="http://bendeivide.github.io/category/historia-da-matematica/index.xml" rel="self" type="application/rss+xml" />
+    <description>História da Matemática</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 09 Dec 2024 20:20:42 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>História da Matemática</title>
+      <link>http://bendeivide.github.io/category/historia-da-matematica/</link>
+    </image>
+    
+    <item>
+      <title>Matemática: Uma aventura através dos tempos</title>
+      <link>http://bendeivide.github.io/books/matemons/</link>
+      <pubDate>Mon, 09 Dec 2024 20:20:42 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/matemons/</guid>
+      <description>&lt;p&gt;Em um mundo onde os conceitos matemáticos ganham vida como poderosos seres conhecidos como Matemons, Ana e Lucas, dois jovens prodígios da matemática, são escolhidos para liderar a Liga dos Matemons.
+Professor Gauss, o guardião da Academia dos CronoMatemáticos, descobre que o tecido do tempo está sendo manipulado por forças misteriosas, e apenas uma equipe especial pode restaurar o equilíbrio.
+Com a ajuda de grandes matemáticos da história, eles aprendem novas habilidades e enfrentam uma ameaça que pode destruir o passado, o presente e o futuro.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

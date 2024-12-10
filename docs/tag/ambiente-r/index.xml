@@ -1637,7 +1637,7 @@ remotes::install_github(&amp;quot;ismayc/thesisdown&amp;quot;)
       data-background-image=&#34;/media/open-book3.jpg&#34;
   &gt;
 
-&lt;h2 id=&#34;gráficos-3d-latex-e-r&#34;&gt;Gráficos 3D ($\LaTeX$ e &lt;code&gt;R&lt;/code&gt;)&lt;/h2&gt;
+&lt;h2 id=&#34;gráficos-3d-latex-e-r&#34;&gt;Gráficos 3D (&lt;code&gt;\(\LaTeX\)&lt;/code&gt; e &lt;code&gt;R&lt;/code&gt;)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Pacote &lt;code&gt;scatterplot3d&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;

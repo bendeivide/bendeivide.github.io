@@ -30,6 +30,16 @@ content:
   filter_button:
   - name: Tudo
     tag: '*'
+  - name: DCATEG
+    tag: bookdcateg
+  - name: BETERRABA
+    tag: bookmeupedebeterraba
+  - name: LEEM
+    tag: bookleem
+  - name: MATEMONS
+    tag: bookmatemons
+  - name: FMATEST
+    tag: bookfmatest
   - name: EPAEC
     tag: bookepaec
   - name: EAMBR

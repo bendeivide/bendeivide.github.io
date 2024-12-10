@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LEEM | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/category/leem/</link>
+      <atom:link href="http://bendeivide.github.io/category/leem/index.xml" rel="self" type="application/rss+xml" />
+    <description>LEEM</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 09 Dec 2024 21:24:30 +0000</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>LEEM</title>
+      <link>http://bendeivide.github.io/category/leem/</link>
+    </image>
+    
+    <item>
+      <title>Estatística e Programação com o LEEM</title>
+      <link>http://bendeivide.github.io/books/leem01/</link>
+      <pubDate>Mon, 09 Dec 2024 21:24:30 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/leem01/</guid>
+      <description>&lt;p&gt;Em parceria com &lt;a href=&#34;https://andrebzf.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;André Barboza Farias&lt;/a&gt;, apresentaremos o mundo do &lt;a href=&#34;https://bendeivide.github.io/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;, um laboratório de ensino à Matemática e à Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fundamentos de Matemática para a Estatística</title>
+      <link>http://bendeivide.github.io/books/fmatest/</link>
+      <pubDate>Mon, 09 Dec 2024 21:11:40 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/fmatest/</guid>
+      <description>&lt;p&gt;Em parceria com os Professores &lt;a href=&#34;https://sigaa.ufersa.edu.br/sigaa/public/docente/portal.jsf?siape=1545550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antonio Ronaldo G. Garcia (UFERSA)&lt;/a&gt; e &lt;a href=&#34;https://sigaa.ufersa.edu.br/sigaa/public/docente/portal.jsf?siape=1506753&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Walter Martins Rodrigues (UFERSA)&lt;/a&gt;, apresentaremos as bases da matemática para entendimento sobre os fundamentos da Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

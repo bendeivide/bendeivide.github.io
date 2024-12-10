@@ -309,7 +309,7 @@ Exemplos:
 - Pacote `thesisdown` (Tese):
 
 
-```r
+``` r
 if (!require("remotes"))
   install.packages("remotes", repos = "https://cran.rstudio.org")
 remotes::install_github("rstudio/bookdown")
@@ -367,7 +367,7 @@ remotes::install_github("ismayc/thesisdown")
 
 {{< slide background-image="/media/open-book3.jpg" >}}
 
-## Gráficos 3D ($\LaTeX$ e `R`)
+## Gráficos 3D (`\(\LaTeX\)` e `R`)
 
 - Pacote `scatterplot3d`
 

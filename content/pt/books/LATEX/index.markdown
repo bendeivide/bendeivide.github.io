@@ -5,7 +5,7 @@ summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro po
 tags:
 - booklatex
 categories: ["Latex", "Educação", "Editor", "Linguagem de marcação"]
-date: "2024-09-24 12:56:06"
+date: "2024-12-09 21:24:38"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"

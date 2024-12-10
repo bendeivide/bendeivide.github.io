@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 14 Oct 2024 09:06:07 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 06 Dec 2024 08:45:25 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Inferência Estatística</title>
@@ -940,7 +940,7 @@ target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2024.2</title>
       <link>http://bendeivide.github.io/courses/profmat-probest/normal/</link>
-      <pubDate>Thu, 10 Oct 2024 13:25:54 +0000</pubDate>
+      <pubDate>Fri, 06 Dec 2024 08:45:25 +0000</pubDate>
       <guid>http://bendeivide.github.io/courses/profmat-probest/normal/</guid>
       <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática em Rede Nacional, campus Alto Paraopeba
@@ -995,6 +995,13 @@ aulas&lt;/a&gt;:
 &lt;!-- ## Preenchimento de dados para as avaliações --&gt;
 &lt;!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) --&gt;
 &lt;!-- - [Formulário - Engenharia de Telecomunicações](https://forms.gle/SyBkB5jqSJkv4eVm9) --&gt;
+&lt;h2 id=&#34;relatório-dos-alunos&#34;&gt;Relatório dos alunos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gama1978.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Alex de Oliveira Gama&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leolois10.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Leonardo Lois Rodrigues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://maxwell-ramalho.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Maxwell Ramalho de Souza&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wagnerchavesandrade.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Wagner Chaves Andrade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
 CAP/UFSJ&lt;/p&gt;

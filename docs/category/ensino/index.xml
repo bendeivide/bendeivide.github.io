@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/ensino/</link>
       <atom:link href="http://bendeivide.github.io/category/ensino/index.xml" rel="self" type="application/rss+xml" />
     <description>Ensino</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Oct 2024 14:47:21 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 09 Dec 2024 21:24:30 +0000</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ensino</title>
@@ -269,6 +269,44 @@
   &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
   &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Estatística e Programação com o LEEM</title>
+      <link>http://bendeivide.github.io/books/leem01/</link>
+      <pubDate>Mon, 09 Dec 2024 21:24:30 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/leem01/</guid>
+      <description>&lt;p&gt;Em parceria com &lt;a href=&#34;https://andrebzf.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;André Barboza Farias&lt;/a&gt;, apresentaremos o mundo do &lt;a href=&#34;https://bendeivide.github.io/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;, um laboratório de ensino à Matemática e à Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guia prático para análise de dados categóricos em R</title>
+      <link>http://bendeivide.github.io/books/dcateg/</link>
+      <pubDate>Mon, 09 Dec 2024 21:16:58 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/dcateg/</guid>
+      <description>&lt;p&gt;Em parceria com &lt;a href=&#34;https://andrebzf.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marcelo Carlos Ribeiro (UFOP)&lt;/a&gt;, apresentaremos as bases, usando o R, de uma área da estatística  que analisa, interpreta e tirar conclusões sobre variáveis que representam categorias ou rótulos em vez de valores numéricos contínuos. Os dados categóricos aparecem frequentemente em pesquisas, estudos sociais, análise de mercado, entre outras áreas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fundamentos de Matemática para a Estatística</title>
+      <link>http://bendeivide.github.io/books/fmatest/</link>
+      <pubDate>Mon, 09 Dec 2024 21:11:40 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/fmatest/</guid>
+      <description>&lt;p&gt;Em parceria com os Professores &lt;a href=&#34;https://sigaa.ufersa.edu.br/sigaa/public/docente/portal.jsf?siape=1545550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antonio Ronaldo G. Garcia (UFERSA)&lt;/a&gt; e &lt;a href=&#34;https://sigaa.ufersa.edu.br/sigaa/public/docente/portal.jsf?siape=1506753&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Walter Martins Rodrigues (UFERSA)&lt;/a&gt;, apresentaremos as bases da matemática para entendimento sobre os fundamentos da Estatística.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Matemática: Uma aventura através dos tempos</title>
+      <link>http://bendeivide.github.io/books/matemons/</link>
+      <pubDate>Mon, 09 Dec 2024 20:20:42 +0000</pubDate>
+      <guid>http://bendeivide.github.io/books/matemons/</guid>
+      <description>&lt;p&gt;Em um mundo onde os conceitos matemáticos ganham vida como poderosos seres conhecidos como Matemons, Ana e Lucas, dois jovens prodígios da matemática, são escolhidos para liderar a Liga dos Matemons.
+Professor Gauss, o guardião da Academia dos CronoMatemáticos, descobre que o tecido do tempo está sendo manipulado por forças misteriosas, e apenas uma equipe especial pode restaurar o equilíbrio.
+Com a ajuda de grandes matemáticos da história, eles aprendem novas habilidades e enfrentam uma ameaça que pode destruir o passado, o presente e o futuro.&lt;/p&gt;
+</description>
     </item>
     
     <item>

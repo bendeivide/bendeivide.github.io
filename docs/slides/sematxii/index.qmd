@@ -1,0 +1,294 @@
+---
+title: "XII Semana Acadêmica da Matemática"
+subtitle: "Um câncer na sociedade!"
+title-slide-attributes:
+    data-background-image: EMAT01.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+lang: pt-BR
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+format: 
+  revealjs:
+    # mermaid:
+      # theme: forest
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "<i class='fa-solid fa-globe'></i> [XII SEMAT/UFV](https://semanadamatematica.caf.ufv.br/) | <i class='fa-solid fa-house'></i> <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Use o QR code para apresentação {background-image="EMAT02.png"}
+</br>
+<center>
+{{< qrcode https://bendeivide.github.io/slides/sematxii/index.html  qr1 width=400 height=400 >}}
+</center>
+
+# Base filosófica {background-image="EMAT02.png"}
+
+> "A inteligência do indivíduo pode ser medida pela quantidade de incertezas que ele é capaz de suportar." (*Immanuel Kant*)
+
+
+# Filosofia de publicação (Selo DC) {background-image="EMAT02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "300">
+
+</a>
+
+. . .
+
+<center>
+"O conhecimento é uma liberdade necessária!"
+</center>
+
+
+# Prazeres {background-image="EMAT02.png"}
+
+<center>
+📙 Matematíca Aplicada (Estatística) + 💻 Programação
+</center>
+
+# Programação em R  {background-image="EMAT02.png"}
+
+- Justificativa ao título da apresentação
+- Pandemia da Covid-19
+- Motivação:
+  - Osciosidade discente (sem aulas presenciais)
+  - Adequação a nova forma de ensino público (aulas *online*)
+- Prazer em estudar o `R`
+  - Nada melhor do **aprender por ensinar**!
+
+
+## Programação em R {background-image="EMAT02.png"}
+
+- Curso EAR (níveis fundamentais)
+  - [R básico](https://bendeivide.github.io/courses/ear/)
+    - Em 2021 ✔ (+900 inscritos)
+    - Em 2023 ✔ (+300 inscritos)
+    - Em 2024 ✔ (+200 inscritos)
+    - [Livro R básico (2022)](https://bendeivide.github.io/books/eambr01/)
+    
+## Programação em R {background-image="EMAT02.png"}
+
+- Curso EAR (níveis fundamentais)
+  - R intermediário 
+    - Em 2022 ✔ (+450 inscritos)
+  - R avançado ❎
+- Em todas as vezes ministrado, sempre:
+  - Gratuito 🔓 
+  - Certificado 📜
+- Ministrado uma vez por ano!   
+
+. . .
+
+<center>
+
+> A história do moçambicano!!!
+
+</center>
+
+
+# Livros {background-image="EMAT02.png"}
+
+- Atualmente, 6 livros publicados
+- $+15$ em desenvolvimento!
+- Acesse: [bendeivide.github.io/#books](https://bendeivide.github.io/#books)
+
+</br>
+
+. . .
+
+<center>
+
+> A história do aluno!!!
+
+</center>
+
+## Livros - Parcerias {background-image="EMAT02.png"}
+
+- Principais parcerias: "Alunos"
+  - [$\LaTeX$](https://bendeivide.github.io/books/latex/)
+  - [R básico](https://bendeivide.github.io/books/eambr01/)
+  - [LEEM](https://bendeivide.github.io/books/leem01/)
+  - [Probabilidade & Estatística (PROFMAT)](https://bendeivide.github.io/books/epprofmat/)
+  - [Matemática: Uma aventura através dos tempos](https://bendeivide.github.io/books/matemons/)
+  
+## Livros - Ferramentas {background-image="EMAT02.png"}
+
+- Versão física
+  - $\LaTeX$
+- Versão digital
+  - `R`
+  - [Quarto](https://quarto.org/) (Livros, artigos, apresentações, etc)
+  - [bookdown](https://bookdown.org/)
+  - HTML, CSS, JavaScript
+  
+## Livros - Formatos {background-image="EMAT02.png"}
+
+- Físico
+- [PDF](https://github.com/bendeivide/book-eambr01/raw/main/docs/book-eambr01.pdf)
+- [HTML](https://bendeivide.github.io/book-meupedebeterraba/)
+- [FLIPBOOK](https://heyzine.com/flip-book/5737e98be4.html)
+
+## Oficina do livro {background-image="EMAT02.png"}
+
+<!-- http://mermaid.js.org/syntax/flowchart.html -->
+
+```{mermaid}
+%%| fig-width: 6.5
+flowchart LR
+  subgraph FI
+  A[Ideia] --> B(Escrita)
+  end
+  subgraph FII
+  B --> C{Formato?}
+  C --> D[Físico]
+  C --> E[Digital]
+  E --> E2[?]
+  D --> F2[Impressão]
+  D --> F[Diagramação]
+  F --> H[layout]
+  H --> I[Fonte]
+  H --> J[Cores]
+  H --> L[Imagens]
+  D --> N[Corte]
+  N --> G[Tamanho]
+  D --> O[Costura]
+  D --> P[Encamento]
+  D --> Q{Revisão}
+  E --> Q
+  Q -->|OK!| R[Publicação]
+  Q -->|Não!| S[Corrigir!]
+  S --> Q
+  R --> T[ISBN]
+  R --> U[Direito autoral]
+  end
+  subgraph FIII
+  T --> X[Versão final do livro]
+  U --> X
+  X --> V[Publicização!]
+  end
+  
+```
+  
+# Ferramentas computacionais {background-image="EMAT02.png"}
+
+<center>
+::: {layout-nrow=2}
+![](smr.png){width="25%"}
+![](midrangemcp.png){width="20%"}
+![](MCPtests.gif){width="25%"}
+![](meupacoter.png){width="30%"}
+![](leem.png){width="20%"}
+![](statscience.png){width="30%"}
+:::
+</center>
+
+## {{< fa brands r-project >}} LEEM {background-image="EMAT02.png"}
+
+- Laboratório de Ensino à Estatística e Matemática
+- IGU (tcltk/web)
+- Linhas de comando integradas ao operador "pipe"
+- Funções implementadas (Estatística Básica)
+
+## {{< fa brands r-project >}} statscience {background-image="EMAT02.png"}
+
+- Este será o legado que tentarei deixar em desenvolvimento de pacote R
+- Cobrirá maior parte das análises estatísticas
+- IGU (tcltk/web)
+
+# Demais Projetos {background-image="EMAT02.png"}
+
+- [Aprender por ensinar](https://bendeivide.github.io/project/projape/)
+  - [leem](https://bendeivide.github.io/project/leem/)
+  - [Cantando com a estatística](https://bendeivide.github.io/project/cantest/)
+  - [Podcasts/Estatística e Probabilidade](https://bendeivide.github.io/courses/epaec/podcasts/)
+  - [Exercícios resolvidos](https://bendeivide.github.io/courses/epaec/exerresolvidos/)
+- [CEAC - Clube de Engenharia Assistida por Computador](https://bendeivide.github.io/talk/clube-de-engenharia-assistida-por-computador-ceac/)
+- [CDEC - Ciência de Dados: Estatística e Computação](https://bendeivide.github.io/cdec/)
+
+
+# Cursos {background-image="EMAT02.png"}
+
+</br>
+
+::: columns
+::: {.column width="50%"}
+
+- [Curso shiny](https://www.youtube.com/playlist?list=PL-20Z1XFWKR3p-qf3FK3BMBnK_Ve0HcbA)
+- [QLivros](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0M7prT4svKG0qCoT7aU-EK)
+- [Pacote leem](https://www.youtube.com/playlist?list=PL-20Z1XFWKR2FCUNnCm6WPuqYN2c9IvdJ)
+- [Estatística Experimental](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1GPwzpTyiNSZlaw3FTWKbr)
+- [Documentações em R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo)
+- [Curso LaTeX](https://www.youtube.com/playlist?list=PL-20Z1XFWKR16mFCLzfPiNYuu72ibrUt6)
+- [Rapidinhas do R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1YPXb12UMmXRsAKelZhzca)
+- [PAPE](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1DfCJHuB3_FLwsPwUe66R0)
+
+
+:::
+
+::: {.column width="50%"}
+
+- [Desenvolvendo pacotes R](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0UDd2y_QvTFgLglAaxjKkZ)
+- [R básico (2024)](https://www.youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX)
+- [Pacote R exams](https://www.youtube.com/playlist?list=PL-20Z1XFWKR17aI6M9DcQ_UwPZ3UXjj5r)
+- [Regressão Linear Múltipla](https://www.youtube.com/playlist?list=PL-20Z1XFWKR13pPGEMGlRt1NnCUhpgIx4)
+- [Curso Tcl/Tk](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1bKlAWtnQfifzLf4ifuMKm)
+- [Curso R & Python](https://www.youtube.com/playlist?list=PL-20Z1XFWKR2k26J5JSo3jOHXxCjKurZp)
+- [Curso R & Tcl/Tk](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1KrjaymWSkQwTu5yiJePap)
+- [Estatística e Probabilidade](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1JGnotqkqH98I2xMrVqpv-)
+
+:::
+:::
+
+# Ferramentas pedagógicas {background-image="EMAT02.png"}
+
+- [AMC + $\LaTeX$](https://bendeivide.github.io/handouts/amc/)
+- [Pacote `exams` + Moodle](https://www.youtube.com/playlist?list=PL-20Z1XFWKR17aI6M9DcQ_UwPZ3UXjj5r)
+- [Relatórios web+ dinâmicos](https://bendeivide.github.io/talk/ambiente-r-alem-das-analises-estatisticas/)
+- [Slides online](http://localhost:4321/slides/sematxii/#/title-slide)
+- [Livros digitais](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0M7prT4svKG0qCoT7aU-EK)
+- [Páginas web](https://bendeivide.github.io/talk/como-criar-uma-website-via-r/)
+
+# Questões? {background-image="EMAT02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Acesse mais materiais {data-transition="zoom" background-image="EMAT02.png"}
+
+<a href="https://bendeivide.github.io/" target="_blank" style="text-align: center;">
+
+<img src="logo.png" width = "400">
+
+</a> <center> <a href="https://bendeivide.github.io/"  target="_blank" >bendeivide.github.io</a> </center>

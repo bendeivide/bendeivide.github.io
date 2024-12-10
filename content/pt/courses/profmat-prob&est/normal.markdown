@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.2
-date: "2024-10-10 13:25:54"
+date: "2024-12-06 08:45:25"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -67,6 +67,13 @@ Segue o link: <https://bendeivide.github.io/profmatma41/>
 
 <!-- - [Formulário - Engenharia Mecatrônica](https://forms.gle/78JF9nBMfuiBVQMk8) -->
 <!-- - [Formulário - Engenharia de Telecomunicações](https://forms.gle/SyBkB5jqSJkv4eVm9) -->
+
+## Relatório dos alunos
+
+- [🎓 Alex de Oliveira Gama](https://gama1978.github.io/profmatma41/)
+- [🎓 Leonardo Lois Rodrigues](https://leolois10.github.io/profmatma41/)
+- [🎓 Maxwell Ramalho de Souza](https://maxwell-ramalho.github.io/profmatma41/)
+- [🎓 Wagner Chaves Andrade](https://wagnerchavesandrade.github.io/profmatma41/)
 
 ## Ementa
 
