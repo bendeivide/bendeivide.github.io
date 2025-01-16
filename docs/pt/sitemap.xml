@@ -42,7 +42,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2025-01-16T09:06:59+00:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -50,6 +50,34 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/bookeambr/</loc><lastmod>2025-01-16T09:06:59+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/</loc><lastmod>2025-01-16T09:06:59+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-01-16T09:06:59+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/categories/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2025-01-16T09:06:59+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/eambr01/</loc><lastmod>2025-01-16T09:06:59+00:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2025-01-16T09:06:59+00:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/palestra/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod></url>
@@ -64,27 +92,7 @@
       href="http://bendeivide.github.io/event/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
-  <url>
     <loc>http://bendeivide.github.io/talk/um-cancer-na-sociedade/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/categories/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/category/ensino/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod></url>
   <url>
@@ -107,8 +115,6 @@
     <loc>http://bendeivide.github.io/post/xiisemat/</loc><lastmod>2024-12-10T00:00:00+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/booklatex/</loc><lastmod>2024-12-09T21:24:38+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/</loc><lastmod>2024-12-09T21:24:38+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/editor/</loc><lastmod>2024-12-09T21:24:38+00:00</lastmod></url>
   <url>
@@ -174,8 +180,6 @@
   <url>
     <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/tag/remoto/</loc><lastmod>2024-10-21T14:47:21+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/leem/</loc><lastmod>2024-10-21T13:57:00+00:00</lastmod></url>
@@ -198,8 +202,6 @@
   <url>
     <loc>http://bendeivide.github.io/category/profmat/</loc><lastmod>2024-07-22T20:00:26+00:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/bookeambr/</loc><lastmod>2024-07-22T15:59:34+00:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/books/eambr01sol/</loc><lastmod>2024-07-22T15:59:34+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/bookestbasica/</loc><lastmod>2024-07-22T15:18:21+00:00</lastmod></url>
@@ -207,8 +209,6 @@
     <loc>http://bendeivide.github.io/category/ciencias-agrarias/</loc><lastmod>2024-07-22T15:18:21+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/books/estbasica/</loc><lastmod>2024-07-22T15:18:21+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/eambr01/</loc><lastmod>2024-07-22T15:06:23+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/bookestest/</loc><lastmod>2024-07-19T14:06:26+00:00</lastmod></url>
   <url>
