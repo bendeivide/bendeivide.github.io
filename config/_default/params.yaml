@@ -138,9 +138,9 @@ marketing:
   google_tag_manager: ''
 cms:
   netlify_cms: no
-# icon:
-#   pack:
-#     ai: no
+icon:
+  pack:
+    ai: yes
 extensions:
   academicons:
     enable: true

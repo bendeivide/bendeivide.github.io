@@ -49,7 +49,7 @@ social:
   icon_pack: fas
   link: '/#contact'
 - icon: lattes  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: ai
+  icon_pack: ai # O pacote Ai pode ser habilitado configurando a opção [icon.pack] : "ai = true" , que pode ser encontrada em params.yaml . Isso está habilitado agora.
   link: http://lattes.cnpq.br/4118572120481367
 - icon: orcid
   icon_pack: ai
@@ -96,6 +96,8 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
+
+
 
 Sou natural de [Pau dos Ferros](http://pt.wikipedia.org/wiki/Pau_dos_Ferros), RN, que fica a uma distância de 450km da capital, Natal, onde ocorreu minha trajetória estudantil até o ensino médio. Em 2001, no primeiro ano do ensino médio, para conseguir minha bolsa de estudos, trabalhei como monitor de inglês no ensino fundamental na escola Educandário Imaculada Conceição. Descobri nesse período, o prazer em ensinar. Apesar de pouco conhecimento da língua inglesa, a preocupação em dar uma boa aula, me motivava a estudar e mostrava o quanto o ensino era fascinante. Ao término do ensino médio, em 2003, tive outra oportunidade de lecionar
 física e inglês, na Escola Municipal Prof. Severino Bezerra, em Pau dos Ferros/RN, no ensino fundamental II. 
