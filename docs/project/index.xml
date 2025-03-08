@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/project/</link>
       <atom:link href="http://bendeivide.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 14 Apr 2022 07:54:13 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 14 Apr 2022 07:54:13 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Rapidinhas do R</title>
       <link>http://bendeivide.github.io/project/rapidinhasr/</link>
-      <pubDate>Thu, 14 Apr 2022 07:54:13 +0000</pubDate>
+      <pubDate>Thu, 14 Apr 2022 07:54:13 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/rapidinhasr/</guid>
       <description>&lt;h2 id=&#34;abertura-da-série-rapidinhas-do-r&#34;&gt;Abertura da série Rapidinhas do R&lt;/h2&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7ThNBHuM_hU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -76,7 +76,7 @@
     <item>
       <title>🎓 Projeto Concurseiros da Estatística</title>
       <link>http://bendeivide.github.io/project/conc_estat/</link>
-      <pubDate>Mon, 04 Apr 2022 20:22:11 +0000</pubDate>
+      <pubDate>Mon, 04 Apr 2022 20:22:11 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/conc_estat/</guid>
       <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
 &lt;p&gt;Projeto Concurseiros da Estatística vem com o propósito de repassar a minha experiência ao longo dos concursos para o magistério superior na área da Estatística. Disponibilizarei todas as notas desenvolvidas ao longo dos diversos pontos estudados para os mais variados concursos. Repassaremos algumas estratégias experienciadas por mim. Assim, não tome tudo como verdade, seja crítico, aproveite o que for bom, melhore os nossos materiais, e propague conhecimento.&lt;/p&gt;
@@ -168,7 +168,7 @@
     <item>
       <title>Projeto UFSJ 005/2021/PROPE</title>
       <link>http://bendeivide.github.io/project/projufsj04/</link>
-      <pubDate>Sun, 13 Mar 2022 17:58:52 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 17:58:52 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/projufsj04/</guid>
       <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
 &lt;p&gt;Em 2012 foi publicado a primeira versão do pacote SMR sob o CRAN (BATISTA; FERREIRA, 2014). Em 2014, foram realizadas algumas correções do pacote para a publicação na revista do R &amp;ldquo;The R Journal&amp;rdquo;. Esse pacote tem a finalidade de apresentar a função densidade de probabilidade, função distribuição, função qualtil e o gerador de números aleatórios da &amp;ldquo;midrange&amp;rdquo; estudentizada externamente de uma população normal, do qual a &amp;ldquo;midrange&amp;rdquo; é uma medida de tendência central, calculada pela soma da menor e maior observação em um conjunto de dados, divido por 2.&lt;/p&gt;
@@ -218,7 +218,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Projeto Aprender Por Ensinar (APE)</title>
       <link>http://bendeivide.github.io/project/projape/</link>
-      <pubDate>Sun, 13 Mar 2022 17:58:44 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 17:58:44 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/projape/</guid>
       <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
 &lt;center&gt;
@@ -232,7 +232,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Cantando com a Estatística</title>
       <link>http://bendeivide.github.io/project/cantest/</link>
-      <pubDate>Sun, 13 Mar 2022 17:58:29 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 17:58:29 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/cantest/</guid>
       <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
 &lt;p&gt;O projeto Cantando com a Estatística tenta trazer, por meio da música, mas uma forma do estudante conseguir assimilar o conteúdo da disciplina de Estatística e Probabilidade, do qual ministro no &lt;em&gt;campus&lt;/em&gt; Alto Paraopeba, UFSJ.&lt;/p&gt;
@@ -245,7 +245,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Pacote statscience</title>
       <link>http://bendeivide.github.io/project/statscience/</link>
-      <pubDate>Thu, 06 May 2021 23:40:30 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:40:30 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/statscience/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;O projeto do pacote &lt;a href=&#34;https://bendeivide.github.io/statscience/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;statscience&lt;/a&gt; está em fase de desenvolvimento, e tem por objetivo de apresentar as principais técnicas de análises de dados na área da Estatística. Seguem alguns dos tópicos abordados:&lt;/p&gt;
@@ -286,7 +286,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Pacote SMR</title>
       <link>http://bendeivide.github.io/project/smr/</link>
-      <pubDate>Thu, 06 May 2021 23:40:04 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:40:04 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/smr/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;O pacote &lt;a href=&#34;http://cran.r-project.org/package=SMR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SMR&lt;/a&gt; computa a distribuição (função densidade, função de distribuição, função quantil) da distribuição da &lt;em&gt;midrange&lt;/em&gt; estudentizada externamente de uma população normal, bem como o algoritmo para gerar números aleatórios dessa distribuição.&lt;/p&gt;
@@ -317,7 +317,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Projeto UFSJ 004/2020/PROPE</title>
       <link>http://bendeivide.github.io/project/projufsj03/</link>
-      <pubDate>Thu, 06 May 2021 23:39:16 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:39:16 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/projufsj03/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;Este projeto pretende estudar dois tipos de taxas de erros (por experimento e por comparação) envolvidos nos procedimentos de comparações múltiplas (PCMs). Queremos responder a seguinte indagação: qual das taxas de erro tipo I, por experimento ou por comparação, devemos nos basear para o desenvolvimento de PCMs, de modo que estes controlem o nível de significância global, adotado pelos pesquisadores?&lt;/p&gt;
@@ -342,7 +342,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Projeto UFSJ 004/2019/PROPE</title>
       <link>http://bendeivide.github.io/project/projufsj02/</link>
-      <pubDate>Thu, 06 May 2021 23:38:42 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:38:42 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/projufsj02/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;Este projeto pretende revisar e avaliar o desempenho dos Procedimentos de Comparações Múltiplas (PCMs) desenvolvidos até o momento na literaturaIsso proporcionará ao pesquisador uma melhor decisão para a escolha do teste a ser utilizado em sua análise. Portanto, os objetivos desse projeto são:&lt;/p&gt;
@@ -372,7 +372,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Projeto UFSJ 003/2019/PROPE</title>
       <link>http://bendeivide.github.io/project/projufsj/</link>
-      <pubDate>Thu, 06 May 2021 23:38:16 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:38:16 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/projufsj/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;Este projeto pretende revisar os Procedimentos de Comparações Múltiplas (PCMs) desenvolvidos até o momento na literatura e implementá-los no  pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt;. O pacote terá uma interfacgráfica para facilitar a acessibilidade e utilização. Em toda estrutura de pacotes no &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; há uma página em &lt;em&gt;html&lt;/em&gt; chamada &amp;ldquo;&lt;em&gt;help&lt;/em&gt;&amp;rdquo;. Esta pasta fornece um resumo de como utilizar as funções do pacote. Na página help do pacote &lt;a href=&#34;https://github.com/bendeivide/MCPtests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCPtests&lt;/a&gt; será fornecido as principais características de avaliação de desempenho dos PCMs. Isso proporcionará ao pesquisador uma melhor decisão para a escolha do teste a ser utilizado em sua análise. Portanto, os objetivos desse projeto são:&lt;/p&gt;
@@ -409,7 +409,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Pacote midrangeMCP</title>
       <link>http://bendeivide.github.io/project/midrangemcp/</link>
-      <pubDate>Thu, 06 May 2021 23:37:52 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:37:52 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/midrangemcp/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;O pacote &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; apresenta quatro procedimentos de comparações múltiplas (PCMs), testes TM, SNKM, MGM e MGR. Os três primeiros baseados na &lt;a href=&#34;https://www.scielo.br/scielo.php?script=sci_abstract&amp;amp;pid=S1413-70542017000400378&amp;amp;lng=en&amp;amp;nrm=iso&amp;amp;tlng=pt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;distribuição da &lt;em&gt;midrange&lt;/em&gt; estudentizada externamente de uma população normal&lt;/a&gt;. O último teste é baseado numa distribuição largamente utilizada no desenvolvimento de PCMs, que é a distribuição da amplitude estudentizada de um população normal. A diferença entre os testes que se baseiam nessa distribuição com o teste MGR, é que este teste foi desenvolvido por meio de métodos de agrupamento, e portanto, não apresenta o problema de ambiguidade de resultados como apresentado nos resultados de muitos PCMs.&lt;/p&gt;
@@ -439,7 +439,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Pacote meupacoter</title>
       <link>http://bendeivide.github.io/project/meupacoter/</link>
-      <pubDate>Thu, 06 May 2021 23:37:40 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:37:40 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/meupacoter/</guid>
       <description></description>
     </item>
@@ -447,7 +447,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>Pacote MCPtests</title>
       <link>http://bendeivide.github.io/project/mcptests/</link>
-      <pubDate>Thu, 06 May 2021 23:37:05 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:37:05 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/mcptests/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;O pacote &lt;strong&gt;MCPtests&lt;/strong&gt; é uma evolução do pacote &lt;a href=&#34;https://bendeivide.github.io/midrangeMCP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt;. Além da agregação de gráfico nos resultados dos testes, o tipo de entrada de dados, que é um diferencial com relação a outros pacotes, o &lt;strong&gt;MCPtests&lt;/strong&gt; abrangerá um universo maior de testes, além de poder apresentar avaliação de desempenho dos testes em tempo real, via simulação Monte Carlo. Com isso, o poder de escolha de um teste pelo usuário, poderá ser mais criterioso, do que usar os testes convencionais da literatura sem nenhuma critério de escolha.&lt;/p&gt;
@@ -486,7 +486,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>LEEM</title>
       <link>http://bendeivide.github.io/project/leem/</link>
-      <pubDate>Thu, 06 May 2021 23:36:30 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:36:30 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/leem/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;Esse projeto tem por objetivo de criar uma interface gráfica ao usuário no &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, usando o pacote &lt;a href=&#34;https://shiny.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shiny&lt;/a&gt; e o pacote &lt;em&gt;tcltk&lt;/em&gt; da base do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Tentaremos apresentar temas simples e complexos de forma interativa, para que o professor dessas áreas possa abordar o tema de modo mais facilmente.&lt;/p&gt;
@@ -525,7 +525,7 @@ estudentizada externamente. 194 p. Tese (Doutorado) ? Universidade Federal de La
     <item>
       <title>CDEC</title>
       <link>http://bendeivide.github.io/project/cdec/</link>
-      <pubDate>Thu, 06 May 2021 23:36:05 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:36:05 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/cdec/</guid>
       <description></description>
     </item>

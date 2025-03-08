@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 16 Jan 2025 09:06:59 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 16 Jan 2025 09:06:59 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -15,7 +15,7 @@
     <item>
       <title>🎥 Estatística e Probabilidade</title>
       <link>http://bendeivide.github.io/courses/leem/estprob/</link>
-      <pubDate>Mon, 21 Oct 2024 14:47:21 +0000</pubDate>
+      <pubDate>Mon, 21 Oct 2024 14:47:21 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/leem/estprob/</guid>
       <description>&lt;p&gt;Curso para estudar o pacote &lt;a href=&#34;https://bendeivide.github.io/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leem&lt;/a&gt; em Estatística e Probabilidade.&lt;/p&gt;
 &lt;p&gt;
@@ -274,7 +274,7 @@
     <item>
       <title>R básico 2024</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico2024/</link>
-      <pubDate>Mon, 07 Oct 2024 08:23:19 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2024 08:23:19 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico2024/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -1024,7 +1024,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Mon, 07 Oct 2024 08:23:13 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2024 08:23:13 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -1823,7 +1823,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>📚 Ensino normal 2022.1</title>
       <link>http://bendeivide.github.io/courses/estcomp/normal/</link>
-      <pubDate>Thu, 08 Aug 2024 21:55:49 +0000</pubDate>
+      <pubDate>Thu, 08 Aug 2024 21:55:49 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/estcomp/normal/</guid>
       <description>&lt;p&gt;Curso de Estatística Computacional oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Brnewleemanco/MG.&lt;/p&gt;
 &lt;p&gt;
@@ -2378,7 +2378,7 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     <item>
       <title>🎥 Youtube (2024)</title>
       <link>http://bendeivide.github.io/courses/rlm/normal/</link>
-      <pubDate>Fri, 31 May 2024 18:15:10 +0000</pubDate>
+      <pubDate>Fri, 31 May 2024 18:15:10 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/rlm/normal/</guid>
       <description>&lt;p&gt;Curso de Regressão Linear Múltipla&amp;hellip;&lt;/p&gt;
 &lt;p&gt;
@@ -2522,7 +2522,7 @@ href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main
     <item>
       <title>GEMS-R: Como desenvolver o primeiro pacote R</title>
       <link>http://bendeivide.github.io/courses/meupacoter/gems-ufs/</link>
-      <pubDate>Thu, 17 Nov 2022 08:20:47 +0000</pubDate>
+      <pubDate>Thu, 17 Nov 2022 08:20:47 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/meupacoter/gems-ufs/</guid>
       <description>&lt;p&gt;Minicurso ministrado ao Grupo de Estudos em Melhoramento Vegetal do Semiárido, pela Universidade Federal de Sergipe, no dia 18 de novembro de 2022.&lt;/p&gt;
 &lt;h2 id=&#34;local-data-e-horário&#34;&gt;Local, data e horário&lt;/h2&gt;
@@ -2563,7 +2563,7 @@ href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main
     <item>
       <title>Programação em R (Nível Básico)</title>
       <link>http://bendeivide.github.io/courses/cursor/nbasico/</link>
-      <pubDate>Thu, 29 Apr 2021 14:27:01 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:27:01 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/cursor/nbasico/</guid>
       <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
@@ -2594,7 +2594,7 @@ href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main
     <item>
       <title>Programação em R (Nível Avançado)</title>
       <link>http://bendeivide.github.io/courses/cursor/navancado/</link>
-      <pubDate>Thu, 29 Apr 2021 14:27:10 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:27:10 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/cursor/navancado/</guid>
       <description>&lt;p&gt;Programando em nível avançado o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
@@ -2625,7 +2625,7 @@ href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Thu, 16 Jan 2025 09:06:59 +0000</pubDate>
+      <pubDate>Thu, 16 Jan 2025 09:06:59 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -2669,7 +2669,7 @@ href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main
     <item>
       <title>Estatística &amp; Probabilidade: Um curso para o PROFMAT</title>
       <link>http://bendeivide.github.io/books/epprofmat/</link>
-      <pubDate>Mon, 22 Jul 2024 20:00:26 +0000</pubDate>
+      <pubDate>Mon, 22 Jul 2024 20:00:26 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/epprofmat/</guid>
       <description>&lt;p&gt;Gostaríamos de agradecer imensamente a Universidade Federal de São João del-Rei pelo apoio e a forma de como podemos trabalhar nesse ambiente de ensino, para que o desenvolvimento de nossos materiais resulte no melhor do que podemos entregar. Agradecemos também ao &lt;a href=&#34;https://ufsj.edu.br/profmat_cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programa de Mestrado Profissional em Matemática em Rede Nacional&lt;/em&gt; (&lt;em&gt;PROFMAT&lt;/em&gt;)&lt;/a&gt;, pela Universidade Federal de São João del-Rei, campus Alto Paraopeba (CAP), pois sem aceitar esta nossa ousadia, isso não seria possível.&lt;/p&gt;
 &lt;p&gt;Sem o empenho de cada autor não seria possível a publicação desse material. Por isso, acreditamos que o trabalho em equipe só existe quando todos estão empenhados no processo, ao passo que, quando há um desequilíbrio por parte de um dos integrantes, os demais estão de braços abertos para reerguê-lo. Isso é cooperativismo de produção científica, e foi a forma de execução para o desenvolvimento do livro.&lt;/p&gt;
@@ -2680,7 +2680,7 @@ href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main
     <item>
       <title>R básico - manual de soluções</title>
       <link>http://bendeivide.github.io/books/eambr01sol/</link>
-      <pubDate>Mon, 22 Jul 2024 15:59:34 +0000</pubDate>
+      <pubDate>Mon, 22 Jul 2024 15:59:34 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -2712,7 +2712,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Estatística Básica Aplicada às Ciências Agrárias</title>
       <link>http://bendeivide.github.io/books/estbasica/</link>
-      <pubDate>Mon, 22 Jul 2024 15:18:21 +0000</pubDate>
+      <pubDate>Mon, 22 Jul 2024 15:18:21 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/estbasica/</guid>
       <description>&lt;p&gt;Esta primeira Edição do Livro &lt;em&gt;Estatística Básica Aplicada às Ciências Agrárias&lt;/em&gt; é fruto de todo o material escrito em forma de notas de aula, apostila, listas de exercícios, bem como a aprendizagem e o ensino transmitido pelo Prof. Telde Natel Custodio em suas aulas de Estatística. Eu tive o imenso prazer de ser convidado para participar desse projeto porque é mais uma referência de apoio para quem inicia nos estudos da Estatística Básica. Como somos Engenheiros Agrônomos, nada mais recompensador do que devolver toda experiência adquirida em colaborações, consultorias de experimentos agrícolas, dentre outras situações experienciadas, de modo que fosse registrada por meio desse material.&lt;/p&gt;
 &lt;p&gt;A ideia deste livro foi de introduzir as ideias básicas do que se precisa para entender o mundo da estatística. Em uma ênfase prática, sem tanto rigor matemático na apresentação das definições, teoremas, etc., torna a leitura mais simples e didática para uma área tão importante da ciência como é a Estatística. O leitor será capaz de entender os três pilares da Estatística: Estatística Descritiva, Probabilidade e Inferência Estatística, sem conteúdo denso, mas uma abordagem direta da teoria seguida de exemplos para a elucidação do assunto.&lt;/p&gt;
@@ -2723,7 +2723,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Estimação Estatística</title>
       <link>http://bendeivide.github.io/books/estest/</link>
-      <pubDate>Fri, 19 Jul 2024 14:06:26 +0000</pubDate>
+      <pubDate>Fri, 19 Jul 2024 14:06:26 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/estest/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Ano: 2021&lt;/li&gt;
@@ -2737,7 +2737,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Materiais didáticos e Pacotes R para análise de experimentos</title>
       <link>http://bendeivide.github.io/post/expagric40/</link>
-      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/expagric40/</guid>
       <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
 &lt;p&gt;A palestra será realizada no 2° Workshop: Experimentação na Agricultura 4.0, dia 23/11/2023, às 19h em formato online.&lt;/p&gt;
@@ -2764,7 +2764,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Lançamento do livro R básico (Unifal/MG)</title>
       <link>http://bendeivide.github.io/post/rbasico-unifal/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/rbasico-unifal/</guid>
       <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
 &lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;, na UNIFAL/MG.&lt;/p&gt;
@@ -2787,7 +2787,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Lançamento do livro R básico</title>
       <link>http://bendeivide.github.io/post/rbasico/</link>
-      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/rbasico/</guid>
       <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
 &lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
@@ -2817,7 +2817,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Estatística &amp; Probabilidade</title>
       <link>http://bendeivide.github.io/books/epaec/</link>
-      <pubDate>Fri, 02 Sep 2022 06:36:00 +0000</pubDate>
+      <pubDate>Fri, 02 Sep 2022 06:36:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/epaec/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -2829,7 +2829,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Estudando o ambiente R</title>
       <link>http://bendeivide.github.io/books/eambr03/</link>
-      <pubDate>Sun, 13 Mar 2022 17:57:37 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 17:57:37 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr03/</guid>
       <description>&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
 &lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
@@ -2845,7 +2845,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Estudando o ambiente R</title>
       <link>http://bendeivide.github.io/books/eambr02/</link>
-      <pubDate>Sun, 13 Mar 2022 17:57:31 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 17:57:31 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr02/</guid>
       <description>&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
 &lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
@@ -2861,7 +2861,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Livro - Estimação Estatística</title>
       <link>http://bendeivide.github.io/post/book_estest/</link>
-      <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/book_estest/</guid>
       <description>&lt;h2 id=&#34;informações-gerais-sobre-o-livro&#34;&gt;Informações Gerais sobre o Livro&lt;/h2&gt;
 &lt;p&gt;O livro Estatística Matemática é uma obra desenvolvida para auxiliar as aulas de estatística sobre a Inferência Estatística, uma área de grande importância, em que nos dar suporte obter características populacionais a partir de uma amostra.&lt;/p&gt;
@@ -2871,7 +2871,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Programação de Interface Gráfica ao Usuário no R</title>
       <link>http://bendeivide.github.io/books/pigur/</link>
-      <pubDate>Tue, 31 Aug 2021 10:08:11 +0000</pubDate>
+      <pubDate>Tue, 31 Aug 2021 10:08:11 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/pigur/</guid>
       <description>&lt;p&gt;Esse livro surgiu a partir da ideia que propus ao outro autor desse projeto &lt;a href=&#34;https://henriquealves21.github.io/webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henrique josé de P. Alves&lt;/a&gt;, quando estávamos desenvolvendo em paralelo dois pacotes, &lt;a href=&#34;https://bendeivide.github.io/project/midrangemcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;midrangeMCP&lt;/a&gt; e o &lt;strong&gt;TVMM&lt;/strong&gt; ([&lt;a href=&#34;https://cran.r-project.org/package=TVMM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CRAN&lt;/a&gt;] [&lt;a href=&#34;https://rpubs.com/Henriqueufla/617206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GUI&lt;/em&gt;&lt;/a&gt;]), e resolvemos deixá-los mais intuitivo para usuário que não tem afinidade com o ambiente &lt;em&gt;R&lt;/em&gt;. De início eu usei o pacote &lt;a href=&#34;https://cran.r-project.org/web/packages/gWidgets/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gWidgets&lt;/a&gt; que tornava mais intuitivo a programação da &lt;em&gt;GUI&lt;/em&gt;. Contudo, após o pacote ter se tornado órfã, resolvemos partir para o uso do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que foi um dos pacote base do pacote &lt;strong&gt;gWidgets&lt;/strong&gt;. Este mesmo pacote também usava uma outra integração de linguagem, &lt;em&gt;GTK+&lt;/em&gt;. Então usar o &lt;strong&gt;gWidgets&lt;/strong&gt; era muito prático, infelizmente foi removido do CRAN. Quando nos aprofundamos nesse pacote, percebemos que seus autores haviam desenvolvido um livro muito interessante, intitulado &lt;a href=&#34;https://books.google.com.br/books?id=VeKEDwAAQBAJ&amp;amp;pg=PA418&amp;amp;lpg=PA418&amp;amp;dq=R&amp;#43;tkmenu&amp;amp;source=bl&amp;amp;ots=V2O2kTRNy3&amp;amp;sig=ACfU3U21CsBJES_jbMhh8JTnerP1FMbxpQ&amp;amp;hl=pt-BR&amp;amp;sa=X&amp;amp;ved=2ahUKEwj5lqOS3pvqAhX2IbkGHRAHClUQ6AEwA3oECAoQAQ#v=onepage&amp;amp;q=R%20tkmenu&amp;amp;f=false&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Programming Graphical User Interfaces in R&lt;/em&gt;&lt;/a&gt;, um livro que despertou a nossa curiosidade nessa linha de pesquisa para desenvolvimento de pacotes.
 Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferramenta em nossos pacotes, e agora, estudamos para repassar a nossa experiência por meio do Livro &lt;strong&gt;Programação de Interface Gráfica ao Usuário no R&lt;/strong&gt;.&lt;/p&gt;
@@ -2882,7 +2882,7 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     <item>
       <title>Curso R - Programação em R (Nível Intermediário)</title>
       <link>http://bendeivide.github.io/post/cursorni2/</link>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/cursorni2/</guid>
       <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
 &lt;p&gt;Confirmado o Curso R, &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;.&lt;/p&gt;
@@ -2949,7 +2949,7 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     <item>
       <title>Tutorial sobre o pacote R tcltk</title>
       <link>http://bendeivide.github.io/handouts/tcltk/</link>
-      <pubDate>Thu, 06 May 2021 23:34:42 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:34:42 -0300</pubDate>
       <guid>http://bendeivide.github.io/handouts/tcltk/</guid>
       <description>&lt;p&gt;Essa apostila tenta melhorar o &lt;em&gt;help&lt;/em&gt; do pacote &lt;strong&gt;tcltk&lt;/strong&gt; que é uma interface de integração da linguagem Tcl/Tk no ambiente R. Por ser da base de instalação do R, creio que deva ser uma das escolhas nesse ambiente para quem deseja criar GUIs para os seus pacotes. Porém, o documento de ajuda desse pacote é muito pobre e com poucos exemplos.&lt;/p&gt;
 &lt;p&gt;Como eu já vinha criando algumas interfaces para os pacotes que desenvolvo em parceria, resolvi estudar a fundo, e não me limitei a essa apostila, que acabou ficando incompleta, porque surge mais um livro em desenvimento, intitulado &lt;a href=&#34;https://bendeivide.github.io/book-pigur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programação de Interface Gráfica ao Usuário no R&lt;/a&gt;. Nesse livro, falaremos das linguagens Tcl/Tk, GTK+ e usaremos os recursos do pacote shiny, para criarmos interfaces web para os pacotes, isto é, usar as integrações com as linguagens CSS, JavaScript e HTML.&lt;/p&gt;
@@ -2960,7 +2960,7 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     <item>
       <title>Como desenvolver um pacote R</title>
       <link>http://bendeivide.github.io/handouts/rpkg/</link>
-      <pubDate>Thu, 06 May 2021 23:34:30 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:34:30 -0300</pubDate>
       <guid>http://bendeivide.github.io/handouts/rpkg/</guid>
       <description>&lt;p&gt;Esse foi o primeiro material que escrevi sobre desenvolvimento de pacotes em R, do qual os recursos contidos no RStudio não eram tão eficientes quanto é hoje, para rotinas repetitivas sobre criação de pacotes. Esse material uso a função &lt;code&gt;package.skeleton()&lt;/code&gt; para a criação de pacotes, algo que internamente o RStudio faz de modo muito mais fácil hoje. Mas, vale a pena o registro.&lt;/p&gt;
 </description>
@@ -2969,7 +2969,7 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     <item>
       <title>Estatística Experimental usando SISVAR, R e SAS</title>
       <link>http://bendeivide.github.io/handouts/estexp/</link>
-      <pubDate>Thu, 06 May 2021 23:33:01 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:33:01 -0300</pubDate>
       <guid>http://bendeivide.github.io/handouts/estexp/</guid>
       <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de alguns cursos ministrados na UFLA para departamentos de área aplicada, bem como uma disciplina eletiva ministrado pela UFSJ. Essa apostila tem um cunho aplicado a análise de experimentos usando os programas SISVAR, R e SAS. Para a mesma análise, apresentamos rotinas e passos de como analisar por esses programas. Isso não foi realizado para todos os experimentos, mas apresenta passos iniciais para a utlização dessas três grandes ferramentas na área da Estatística.&lt;/p&gt;
 </description>
@@ -2978,7 +2978,7 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     <item>
       <title>Análise de Experimentos usando o R</title>
       <link>http://bendeivide.github.io/handouts/aeur-nefit/</link>
-      <pubDate>Thu, 06 May 2021 23:31:31 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:31:31 -0300</pubDate>
       <guid>http://bendeivide.github.io/handouts/aeur-nefit/</guid>
       <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
 </description>
@@ -2987,7 +2987,7 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     <item>
       <title>Análise de Experimentos usando o R</title>
       <link>http://bendeivide.github.io/handouts/aeur-fisio/</link>
-      <pubDate>Thu, 06 May 2021 23:30:52 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:30:52 -0300</pubDate>
       <guid>http://bendeivide.github.io/handouts/aeur-fisio/</guid>
       <description>&lt;p&gt;A apostila sobre Estatística Experimental foi fruto de um curso ministrados ao NEFIT/UFLA, do qual abordamos o desenvolvimento analítico da análise dos experimentos, bem como as análises realizadas usando o R e SISVAR.&lt;/p&gt;
 </description>
@@ -2996,7 +2996,7 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     <item>
       <title>Estudando o ambiente R</title>
       <link>http://bendeivide.github.io/books/eambr/</link>
-      <pubDate>Thu, 06 May 2021 23:22:35 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:22:35 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr/</guid>
       <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-eambr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -3005,7 +3005,7 @@ Assim, nasce esse projeto, em que de início, estudamos para inserir essa ferram
     <item>
       <title>Desenvolvimento de Pacotes em R</title>
       <link>http://bendeivide.github.io/books/dpr/</link>
-      <pubDate>Thu, 06 May 2021 23:20:55 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:20:55 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/dpr/</guid>
       <description>&lt;p&gt;Esse livro é um fruto de toda a minha experiência que venho tendo ao desenvolver pacotes. Tem muito trabalho pela frente, mas ao final, tenho certeza que ficará um grande material referência em desenvolvimento de pacotes em português.&lt;/p&gt;
 &lt;p&gt;Segue o repositório &lt;a href=&#34;https://github.com/bendeivide/book-dper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;, para a versão desse livro em &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;

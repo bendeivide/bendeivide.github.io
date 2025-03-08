@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/statscience/</link>
       <atom:link href="http://bendeivide.github.io/tag/statscience/index.xml" rel="self" type="application/rss+xml" />
     <description>statscience</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:40:30 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:40:30 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>statscience</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Pacote statscience</title>
       <link>http://bendeivide.github.io/project/statscience/</link>
-      <pubDate>Thu, 06 May 2021 23:40:30 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:40:30 -0300</pubDate>
       <guid>http://bendeivide.github.io/project/statscience/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;O projeto do pacote &lt;a href=&#34;https://bendeivide.github.io/statscience/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;statscience&lt;/a&gt; está em fase de desenvolvimento, e tem por objetivo de apresentar as principais técnicas de análises de dados na área da Estatística. Seguem alguns dos tópicos abordados:&lt;/p&gt;

@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/curso-r/</link>
       <atom:link href="http://bendeivide.github.io/tag/curso-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 07 Oct 2024 08:23:19 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 07 Oct 2024 08:23:19 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso R</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R básico 2024</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico2024/</link>
-      <pubDate>Mon, 07 Oct 2024 08:23:19 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2024 08:23:19 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico2024/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -765,7 +765,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/courses/ear/rbasico/</link>
-      <pubDate>Mon, 07 Oct 2024 08:23:13 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2024 08:23:13 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/ear/rbasico/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -1564,7 +1564,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>GEMS-R: Como desenvolver o primeiro pacote R</title>
       <link>http://bendeivide.github.io/courses/meupacoter/gems-ufs/</link>
-      <pubDate>Thu, 17 Nov 2022 08:20:47 +0000</pubDate>
+      <pubDate>Thu, 17 Nov 2022 08:20:47 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/meupacoter/gems-ufs/</guid>
       <description>&lt;p&gt;Minicurso ministrado ao Grupo de Estudos em Melhoramento Vegetal do Semiárido, pela Universidade Federal de Sergipe, no dia 18 de novembro de 2022.&lt;/p&gt;
 &lt;h2 id=&#34;local-data-e-horário&#34;&gt;Local, data e horário&lt;/h2&gt;
@@ -1605,7 +1605,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>Programação em R (Nível Básico)</title>
       <link>http://bendeivide.github.io/courses/cursor/nbasico/</link>
-      <pubDate>Thu, 29 Apr 2021 14:27:01 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:27:01 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/cursor/nbasico/</guid>
       <description>&lt;p&gt;Programando em nível básico o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
@@ -1636,7 +1636,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>Programação em R (Nível Avançado)</title>
       <link>http://bendeivide.github.io/courses/cursor/navancado/</link>
-      <pubDate>Thu, 29 Apr 2021 14:27:10 +0000</pubDate>
+      <pubDate>Thu, 29 Apr 2021 14:27:10 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/cursor/navancado/</guid>
       <description>&lt;p&gt;Programando em nível avançado o &lt;a href=&#34;http://r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
@@ -1667,7 +1667,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>Lançamento do livro R básico (Unifal/MG)</title>
       <link>http://bendeivide.github.io/post/rbasico-unifal/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/rbasico-unifal/</guid>
       <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
 &lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;, na UNIFAL/MG.&lt;/p&gt;
@@ -1690,7 +1690,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>Lançamento do livro R básico</title>
       <link>http://bendeivide.github.io/post/rbasico/</link>
-      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/rbasico/</guid>
       <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
 &lt;p&gt;O lançamento do Livro &lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R básico&lt;/a&gt; será realizado pelo canal do &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
@@ -1720,7 +1720,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>Livro - Estimação Estatística</title>
       <link>http://bendeivide.github.io/post/book_estest/</link>
-      <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/book_estest/</guid>
       <description>&lt;h2 id=&#34;informações-gerais-sobre-o-livro&#34;&gt;Informações Gerais sobre o Livro&lt;/h2&gt;
 &lt;p&gt;O livro Estatística Matemática é uma obra desenvolvida para auxiliar as aulas de estatística sobre a Inferência Estatística, uma área de grande importância, em que nos dar suporte obter características populacionais a partir de uma amostra.&lt;/p&gt;
@@ -1730,7 +1730,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>Curso R - Programação em R (Nível Intermediário)</title>
       <link>http://bendeivide.github.io/post/cursorni2/</link>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/post/cursorni2/</guid>
       <description>&lt;h2 id=&#34;informações-gerais&#34;&gt;Informações Gerais&lt;/h2&gt;
 &lt;p&gt;Confirmado o Curso R, &lt;a href=&#34;http://bendeivide.github.io/courses/cursor/nintermediario/&#34;&gt;Programação em R (Nível Intermediário)&lt;/a&gt;.&lt;/p&gt;

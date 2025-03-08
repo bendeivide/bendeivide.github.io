@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/bookeambr/</link>
       <atom:link href="http://bendeivide.github.io/tag/bookeambr/index.xml" rel="self" type="application/rss+xml" />
     <description>bookeambr</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 16 Jan 2025 09:06:59 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 16 Jan 2025 09:06:59 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>bookeambr</title>
@@ -15,7 +15,7 @@
     <item>
       <title>R básico</title>
       <link>http://bendeivide.github.io/books/eambr01/</link>
-      <pubDate>Thu, 16 Jan 2025 09:06:59 +0000</pubDate>
+      <pubDate>Thu, 16 Jan 2025 09:06:59 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -59,7 +59,7 @@
     <item>
       <title>R básico - manual de soluções</title>
       <link>http://bendeivide.github.io/books/eambr01sol/</link>
-      <pubDate>Mon, 22 Jul 2024 15:59:34 +0000</pubDate>
+      <pubDate>Mon, 22 Jul 2024 15:59:34 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr01sol/</guid>
       <description>&lt;h2 id=&#34;sugestões-e-críticas&#34;&gt;Sugestões e críticas&lt;/h2&gt;
 &lt;p&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/p&gt;
@@ -91,7 +91,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Estudando o ambiente R</title>
       <link>http://bendeivide.github.io/books/eambr03/</link>
-      <pubDate>Sun, 13 Mar 2022 17:57:37 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 17:57:37 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr03/</guid>
       <description>&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
 &lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
@@ -107,7 +107,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Estudando o ambiente R</title>
       <link>http://bendeivide.github.io/books/eambr02/</link>
-      <pubDate>Sun, 13 Mar 2022 17:57:31 +0000</pubDate>
+      <pubDate>Sun, 13 Mar 2022 17:57:31 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr02/</guid>
       <description>&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt; é fruto de cursos ministrados sobre essa linguagem, bem como consultorias e estudos ao longo dos anos. Em 2005, quando ingressei na academia no curso de Engenharia Agronômica fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, acabo tendo o primeiro contato com o ambiente R, com pouco mais de 9 anos de seu lançamento e redistribuição. Poucos materiais naquela época haviam disponíveis em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para o entendimento, pois sabia que poderia me gerar além de conhecimento, bons frutos acadêmicos.&lt;/p&gt;
 &lt;p&gt;Hoje, no ano de 2021, usuário há mais de 15 anos dessa linguagem, percebi que me sentia desconfortável, como apenas usário dessa ferramenta de trabalho. E assim, quando queremos aprender algo não há ferramenta melhor do que &lt;em&gt;aprender por ensinar&lt;/em&gt;. E assim, lotado no Departamento de Estatística, Física e Matemática (&lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt;, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), juntamente com o Centro Acadêmico de Engenharia de Telecomunicações (UFSJ), resolvemos em parceria, ministrar nesse momento de pandemia uma sequência de módulos para o curso R, desde o nível Básico até ao módulo Avançado.&lt;/p&gt;
@@ -123,7 +123,7 @@ o leitor possa retirar ao máximo o que o R pode oferecer.&lt;/p&gt;
     <item>
       <title>Estudando o ambiente R</title>
       <link>http://bendeivide.github.io/books/eambr/</link>
-      <pubDate>Thu, 06 May 2021 23:22:35 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:22:35 -0300</pubDate>
       <guid>http://bendeivide.github.io/books/eambr/</guid>
       <description>&lt;p&gt;O livro está em desenvolvimento nas duas versões, impressa e digital. A versão digital é um &lt;a href=&#34;https://bendeivide.github.io/book-eambr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;bookdown&lt;/em&gt;&lt;/a&gt; e o projeto encontra-se no repositório &lt;a href=&#34;https://github.com/bendeivide/book-eambr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>

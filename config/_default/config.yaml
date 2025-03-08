@@ -8,6 +8,7 @@ baseURL: http://bendeivide.github.io/
 disqusShortname: bendeivide
 copyright: ''
 publishDIR: docs/
+timezone: "America/Sao_Paulo"
 
 
 ############################

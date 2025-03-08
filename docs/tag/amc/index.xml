@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/amc/</link>
       <atom:link href="http://bendeivide.github.io/tag/amc/index.xml" rel="self" type="application/rss+xml" />
     <description>amc</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:31:51 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 23:31:51 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>amc</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Auto Multiple Choice</title>
       <link>http://bendeivide.github.io/handouts/amc/</link>
-      <pubDate>Thu, 06 May 2021 23:31:51 +0000</pubDate>
+      <pubDate>Thu, 06 May 2021 23:31:51 -0300</pubDate>
       <guid>http://bendeivide.github.io/handouts/amc/</guid>
       <description>&lt;p&gt;Essa apostila ensina como utilizar o programa &lt;em&gt;Auto Multiple Choice&lt;/em&gt; (AMC). Um programa muito eficiente para criação de provas com questões objetivas e abertas. Ao final, após digitalizar as provas, o próprio programa corrige as questões, gabarita e envia o resultado por e-mail aos alunos. Apesar de ser um programa apenas para o Linux, eu ensino como criar uma máquina virtual no SO Windows e utilizá-lo facilmente.&lt;/p&gt;
 </description>

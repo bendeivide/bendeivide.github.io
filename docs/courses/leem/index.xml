@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/courses/leem/</link>
       <atom:link href="http://bendeivide.github.io/courses/leem/index.xml" rel="self" type="application/rss+xml" />
     <description>💻 LEEM: Laboratório de Ensino à Estatística e Matemática</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Oct 2024 13:57:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Oct 2024 13:57:00 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/courses/leem/featured.png</url>
       <title>💻 LEEM: Laboratório de Ensino à Estatística e Matemática</title>
@@ -15,7 +15,7 @@
     <item>
       <title>🎥 Estatística e Probabilidade</title>
       <link>http://bendeivide.github.io/courses/leem/estprob/</link>
-      <pubDate>Mon, 21 Oct 2024 14:47:21 +0000</pubDate>
+      <pubDate>Mon, 21 Oct 2024 14:47:21 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/leem/estprob/</guid>
       <description>&lt;p&gt;Curso para estudar o pacote &lt;a href=&#34;https://bendeivide.github.io/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leem&lt;/a&gt; em Estatística e Probabilidade.&lt;/p&gt;
 &lt;p&gt;

@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/en/courses/example/</link>
       <atom:link href="http://bendeivide.github.io/en/courses/example/index.xml" rel="self" type="application/rss+xml" />
     <description>📊 Learn Data Science</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/en/courses/example/featured.jpg</url>
       <title>📊 Learn Data Science</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Python basics</title>
       <link>http://bendeivide.github.io/en/courses/example/python/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/en/courses/example/python/</guid>
       <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
 &lt;p&gt;
@@ -52,7 +52,7 @@
     <item>
       <title>Visualization</title>
       <link>http://bendeivide.github.io/en/courses/example/visualization/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/en/courses/example/visualization/</guid>
       <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
 &lt;p&gt;
@@ -82,7 +82,7 @@ fig.show()
     <item>
       <title>Statistics</title>
       <link>http://bendeivide.github.io/en/courses/example/stats/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/en/courses/example/stats/</guid>
       <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
 &lt;p&gt;
