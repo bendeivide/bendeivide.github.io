@@ -1,8 +1,8 @@
 ---
-title: 💻 Estatística e Geotecnica
+title: 💻 Estatística e Geotecnia
 linkTitle: EstGeo
 summary: Um curso voltado para a Geotecnia. Aprenderemos a linguagem R, Estatística Básica e o LEEM. O curso é direcionado aos membros do grupo Geominer/CAP/UFSJ ([Infrageo](https://ufsj.edu.br/infrageo/index.php))
-date: "2025-03-10 15:57:33"
+date: "2025-03-10 17:17:29"
 type: book
 categories: ["R", "Estatística", "Geotecnia", "Programação"]
 tags: ["Curso"]

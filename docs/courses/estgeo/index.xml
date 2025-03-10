@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>💻 Estatística e Geotecnica | Ben Dêivide</title>
+    <title>💻 Estatística e Geotecnia | Ben Dêivide</title>
     <link>http://bendeivide.github.io/courses/estgeo/</link>
       <atom:link href="http://bendeivide.github.io/courses/estgeo/index.xml" rel="self" type="application/rss+xml" />
-    <description>💻 Estatística e Geotecnica</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 10 Mar 2025 15:57:33 -0300</lastBuildDate>
+    <description>💻 Estatística e Geotecnia</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 10 Mar 2025 17:17:29 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/courses/estgeo/featured.png</url>
-      <title>💻 Estatística e Geotecnica</title>
+      <title>💻 Estatística e Geotecnia</title>
       <link>http://bendeivide.github.io/courses/estgeo/</link>
     </image>
     
