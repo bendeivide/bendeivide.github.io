@@ -1,5 +1,5 @@
 ---
-title: pacote leem para o ensino da estatística
+title: O pacote leem para o ensino de estatística
 event: XVI Programa de Verão DES-ICET/UFLA - 2025
 date: "2025-03-11 15:30:00"
 location: Youtube
@@ -34,10 +34,10 @@ links:
   icon_pack: fab
   name: Seguir
   url: https://twitter.com/bendeivide
-url_code: 'https://bendeivide.github.io/leem/'
-url_slides: ''
+url_code: 'aprendendoleem/aprendleem.R'
+url_slides: 'slides/leem/index.html'
 url_video: https://www.youtube.com/@departamentodeestatisticau1017
-slides: websiter
+slides: ''
 share: yes
 ---
 

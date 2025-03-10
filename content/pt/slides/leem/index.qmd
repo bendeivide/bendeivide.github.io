@@ -1,0 +1,269 @@
+---
+title: "O pacote leem para o ensino da Estatística"
+subtitle: "XVI Programa de Verão DES-ICET/UFLA - 2025" 
+title-slide-attributes:
+    data-background-image: page01.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    self-contained: false  # Garante que os arquivos externos sejam carregados
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="ben.png">
+        <!-- <script> -->
+        <!--   document.addEventListener("DOMContentLoaded", function() { -->
+        <!--     document.title = " | Aprendendo Estatística usando o LEEM"; -->
+        <!--   }); -->
+        <!-- </script> -->
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[LEEM](https://bendeivide.github.io/project/leem/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+# Filosofia de publicação (Selo DC) {background-image="page02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# O que é o LEEM? {background-image="page02.png"}
+
+- LEEM: Laboratório de Ensino à Estatística e Matemática
+- Objetivo: Ensino/Aprendizagem
+- Projeto inicialmente desenvolvido, com [alunos IC/UFSJ](https://bendeivide.github.io/project/leem/) (2018/2019)
+- Tornou-se um [projeto de Mestrado no PROFMAT (CAP/UFSJ)](https://ufsj.edu.br/portal2-repositorio/File/profmat_cap/JULIANE_NASSARALLA_ALMEIDA.pdf), Juliane Nassaralla Almeida (2019)
+- Tivemos um salto, com a IC de [Andre Barbosa Farias](https://andrebzf.github.io/) (2021 - atual)
+
+
+# Materiais disponíveis do projeto {background-image="page02.png"}
+
+- Livro base para a criação do LEEM: [EPAEC](https://bendeivide.github.io/books/epaec/)
+- Demais Produtos:
+  - [Pacote leem](https://cran.r-project.org/package=leem)
+  - Livro [Estatística e Programação com o LEEM](https://bendeivide.github.io/books/leem01/)
+  
+# Assuntos implementados no leem atualmente {background-image="page02.png"}
+
+::: columns
+::: {.column width="50%"}
+
+- Coleta, Organização e Apresentação de dados
+  - Representação tabular
+  - Representação gráfica
+- Medidas de posição: $\bar{X}$, $md(X)$ e $mo(X)$;
+- Medidas de dispersão: $A_t$, $S^2$, $S$, $CV$, $S_{\bar{X}}$, etc.
+
+
+:::
+
+::: {.column width="50%"}
+
+- Assimetria e Curtose (Parcial)
+- Distribuições de probabilidade (Parcial)
+- Distribuições amostrais (Parcial)
+- Teoria da estimação (Parcial)
+- Teoria da decisão (Parcial)
+
+
+:::
+:::
+
+
+# Pacote leem {background-image="page02.png"}
+
+::: {.nonincremental}
+
+- Como instalar no R (Via CRAN):
+
+:::
+
+
+```{r eval=FALSE}
+install.packages("leem")
+```
+
+::: {.nonincremental}
+
+- Via *GitHub*:
+
+:::
+
+```{r eval=FALSE}
+# Instalar os pacotes dependentes
+pkgs <- c("manipulate", "tkRplotR", "tkrplot", "crayon", "diagram")
+install.packages(pkgs)
+# install.packages("devtools")
+devtools::install_github("bendeivide/leem")
+```
+
+# Arquitetura do Pacote leem {background-image="page02.png"}
+
+- Execução em linhas de código no R
+- programável com o operador *pipe* (`|>`)
+- POO (Sistema S3)
+- interface [Tcl/Tk](https://www.tcl-lang.org/)
+- ferramentas integradas com o RStudio
+- Recursos via pacote [shiny](https://mastering-shiny.org/)
+
+
+# Primeiros passos ao leem {background-image="page02.png"}
+
+- Abrindo a IGU do leem (Parcial)
+
+
+## Exemplos [@batista2025] {background-image="page02.png"}
+
+::: {.nonincremental}
+
+<font size="+3">
+
+1. Considere a distribuição de frequência do número de erros encontrados em 20 conjunto de caracteres monitorado em um canal de comunicação:
+
+
+
+```{r, echo=FALSE, warning=FALSE}
+dados <- c( 3,     1,    0 ,   1,    3  ,  2 ,   4,    1  ,  3 ,   1,
+ 1 ,    1   , 2 ,   3  ,  3  ,  2  ,  0   , 2 ,   0,    1
+)
+dados <- matrix(dados, 2, 10)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+
+
+2. Os dados representam a temperatura (°F) do anel de vedação de cada teste de acionamento ou lançamento real do motor do foguete Challenger.
+
+
+
+```{r, echo=FALSE, warning=FALSE, }
+d2 <- read.table("https://raw.githubusercontent.com/bendeivide/book-epaec/master/dados/cap02/dados_exem2.1.txt", h = TRUE)
+d3 <- d2$chal
+dados <- matrix(d3, 3, 12)
+knitr::kable(
+  dados, longtable = TRUE, booktabs = TRUE,
+  caption = NULL
+)
+```
+
+</font>
+
+:::
+
+
+# Questões? {background-image="page02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Obrigado! {data-transition="zoom" background-image="page02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/epaec"  target="_blank" >bendeivide.github.io/courses/epaec</a> </center>
+
+# Referências {background-image="page02.png"}
+
+
+
+
+<!-- 
+
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="90%"}
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atot |>
+  new_leem(variable = 2) # ou new_leem(variable = "continuous")
+```
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
+atotleem
+class(atotleem)
+```
+
+:::
+
+::: {.column width="10%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+
+-->
