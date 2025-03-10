@@ -2,7 +2,7 @@
 title: 💻 Estatística e Geotecnia
 linkTitle: EstGeo
 summary: Um curso voltado para a Geotecnia. Aprenderemos a linguagem R, Estatística Básica e o LEEM. O curso é direcionado aos membros do grupo Geominer/CAP/UFSJ ([Infrageo](https://ufsj.edu.br/infrageo/index.php))
-date: "2025-03-10 17:17:29"
+date: "2025-03-10 18:57:14"
 type: book
 categories: ["R", "Estatística", "Geotecnia", "Programação"]
 tags: ["Curso"]
@@ -45,6 +45,7 @@ Estamos focados em introdução a linguagem R, como também os fundamentos da Es
 - [Curso R]({{< relref "/courses/cursor/" >}})
 - Curso [Regressão Linear Múltipla]({{< relref "/courses/rlm/" >}})
 - Livros: 
+    - [Estatística Aplicada à Geotecnia](/books/estgeo/index.html) 
     - [Estatística e Probabilidade aplicada às Engenharias e Ciências](/books/epaec/index.html) 
     - [Estatística Básica Aplicada às Ciências Agrárias](/books/estbasica/index.html) 
     - [R Básico](/books/eambr01/index.html) 
@@ -69,6 +70,7 @@ Estamos focados em introdução a linguagem R, como também os fundamentos da Es
 - [Curso R]({{< relref "/courses/cursor/" >}})
 - Curso [Regressão Linear Múltipla]({{< relref "/courses/rlm/" >}})
 - Livros: 
+    - [Estatística Aplicada à Geotecnia](/books/estgeo/index.html) 
     - [Estatística e Probabilidade aplicada às Engenharias e Ciências](/books/epaec/index.html) 
     - [Estatística Básica Aplicada às Ciências Agrárias](/books/estbasica/index.html) 
     - [R Básico](/books/eambr01/index.html) 

@@ -1,0 +1,72 @@
+---
+title: Estatística Aplicada à Geotecnia
+summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
+tags:
+- bookestgeo
+categories: ["R", "Estatística", "Estimação", "Geotecnia"]
+date: "2025-03-10 18:55:27"
+
+# Optional external URL for project (replaces project detail page).
+# external_link: "https://bendeivide.github.io/cdec/"
+external_link: ""
+
+image:
+  caption: Foto criada por Ben Dêivide
+  focal_point: Smart
+
+links:
+- icon: whatsapp
+  icon_pack: fab
+  name: Allanna Lopes (Rep. comercial)
+  url: 
+- icon: book-open
+  icon_pack: fas
+  name: Bookdown
+  url: https://bendeivide.github.io/book-estgeo/
+- icon: github
+  icon_pack: fab
+  name: Acesse o projeto
+  url: https://github.com/bendeivide/book-estgeo
+- icon: twitter
+  icon_pack: fab
+  name: Siga-me
+  url: https://twitter.com/bendeivide
+- icon: facebook
+  icon_pack: fab
+  name: Siga-me
+  url: https://facebook.com/bendeivide
+- icon: instagram
+  icon_pack: fab
+  name: Siga-me
+  url: https://instagram.com/bendeivide
+- icon: youtube
+  icon_pack: fab
+  name: Se inscreva
+  url: https://youtube.com/bendeivide
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+#slides: example
+slides: ""
+
+# Remove various "share" icons for portfolio widget
+# Eles ficam em theme/starter-academic/data/page_sharer.toml
+# Link de ajuda: https://github.com/wowchemy/wowchemy-hugo-modules/issues/1611
+share: true
+---
+
+A Geotecnia é um ramo da engenharia civil que estuda o comportamento dos solos e das rochas em relação às construções. Sua importância é fundamental para garantir a estabilidade e segurança de obras como edifícios, barragens, túneis, estradas e fundações. A estatística, por sua vez, é uma ferramenta essencial para lidar com a variabilidade natural dos solos, permitindo análises mais precisas e confiáveis na tomada de decisões geotécnicas.  
+
+Este livro propõe apresentar as bases da Estatística aplicada à Geotecnia, desde a coleta, organização e apresentação de dados até Regressão e Correlação linear.
+
+O livro está sendo desenvolvido pelos Professores: {{< mention "admin" >}} (UFSJ), [Tales Moreira de Oliveira (UFSJ)](https://ufsj.edu.br/infrageo/professores.php) e [Leandro Neves Duarte (UFSJ)](https://ufsj.edu.br/infrageo/professores.php)
+
+Somos apenas o meio pelo qual se propaga o ensino da Estatística, por meio deste livro. Mas você leitor seja a fonte do saber, porque só o conhecimento liberta! Bons estudos!

@@ -60,6 +60,8 @@ content:
     tag: bookestbasica
   - name: LATEX
     tag: booklatex
+  - name: ESTGEO
+    tag: bookestgeo
 
 
 design:

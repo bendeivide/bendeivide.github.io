@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bookestgeo | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/bookestgeo/</link>
+      <atom:link href="http://bendeivide.github.io/tag/bookestgeo/index.xml" rel="self" type="application/rss+xml" />
+    <description>bookestgeo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 10 Mar 2025 18:55:27 -0300</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>bookestgeo</title>
+      <link>http://bendeivide.github.io/tag/bookestgeo/</link>
+    </image>
+    
+    <item>
+      <title>Estatística Aplicada à Geotecnia</title>
+      <link>http://bendeivide.github.io/books/estgeo/</link>
+      <pubDate>Mon, 10 Mar 2025 18:55:27 -0300</pubDate>
+      <guid>http://bendeivide.github.io/books/estgeo/</guid>
+      <description>&lt;p&gt;A Geotecnia é um ramo da engenharia civil que estuda o comportamento dos solos e das rochas em relação às construções. Sua importância é fundamental para garantir a estabilidade e segurança de obras como edifícios, barragens, túneis, estradas e fundações. A estatística, por sua vez, é uma ferramenta essencial para lidar com a variabilidade natural dos solos, permitindo análises mais precisas e confiáveis na tomada de decisões geotécnicas.&lt;/p&gt;
+&lt;p&gt;Este livro propõe apresentar as bases da Estatística aplicada à Geotecnia, desde a coleta, organização e apresentação de dados até Regressão e Correlação linear.&lt;/p&gt;
+&lt;p&gt;O livro está sendo desenvolvido pelos Professores: &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt; (UFSJ), &lt;a href=&#34;https://ufsj.edu.br/infrageo/professores.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tales Moreira de Oliveira (UFSJ)&lt;/a&gt; e &lt;a href=&#34;https://ufsj.edu.br/infrageo/professores.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Leandro Neves Duarte (UFSJ)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Somos apenas o meio pelo qual se propaga o ensino da Estatística, por meio deste livro. Mas você leitor seja a fonte do saber, porque só o conhecimento liberta! Bons estudos!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
