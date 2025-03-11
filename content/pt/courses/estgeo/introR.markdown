@@ -1,7 +1,7 @@
 ---
 title: 📈 Introdução ao R
 summary: Curso voltado para introduzir sobre a Linguagem [R](https://www.r-project.org/).
-date: "2025-03-11 08:20:35"
+date: "2025-03-11 19:53:33"
 type: book
 weight: 1
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -71,6 +71,20 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 <br/>
 
 {{< /spoiler >}}
+
+{{< spoiler text="Aula 02 - Como o R trabalha?">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Como o R trabalha?
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide02/index.html" target="_blank">Aula 02</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 3](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+
+{{< /spoiler >}}
+
 
 
 ## Quiz
