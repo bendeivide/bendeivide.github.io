@@ -1,0 +1,196 @@
+---
+title: "{{< fa brands r-project >}} Introdução ao R | Aula 03"
+subtitle: "Criando e Salvando um Script"
+title-slide-attributes:
+    data-background-image: geominer01.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[{{< fa brands r-project >}} Curso Estatística e Geotecnia](http://localhost:4321/courses/estgeo/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="geominer01.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC_novo-branco.png" width = "400">
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="geominer01.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
+
+# O que é um *script*? {background-image="EAR-rbasico-background-02.png"}
+
+> *Script*: arquivo de texto cuja extensão é "`<nome>.R`"
+
+# Criando *script*: Usando o `R` {background-image="EAR-rbasico-background-02.png"}
+
+```{r, out.width = "60%", fig.align='center'}
+knitr::include_graphics("rscript01.png")
+```
+
+
+
+## Criando *script*: Usando o `R` {background-image="EAR-rbasico-background-02.png"}
+
+```{r, out.width = "60%", fig.align='center'}
+knitr::include_graphics("rscript02.png")
+```
+
+## Criando *script*: Usando o `R` {background-image="EAR-rbasico-background-02.png"}
+
+```{r, out.width = "60%", fig.align='center'}
+knitr::include_graphics("rscript03.png")
+```
+
+# Criando *script*: Usando o RStudio {background-image="EAR-rbasico-background-02.png"}
+
+```{r, out.width = "100%", fig.align='center'}
+knitr::include_graphics("rscript04.png")
+```
+
+## Criando *script*: Usando o RStudio {background-image="EAR-rbasico-background-02.png"}
+
+```{r, out.width = "100%", fig.align='center'}
+knitr::include_graphics("rscript05.png")
+```
+
+# Diretório de trabalho {background-image="EAR-rbasico-background-02.png"}
+
+> Diretório: Local (PC) onde o `R` procurará pelos arquivos
+
+-   Saber o diretório de trabalho: `getwd()`
+-   Mudar o diretório de trabalho: `setwd()`
+
+## Diretório de trabalho {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="30%"}
+
+</center>
+
+
+# Salvando o *script* {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="30%"}
+
+</center>
+
+# Carregando comandos de outros `Scripts` {background-image="EAR-rbasico-background-02.png"}
+
+-   Usaremos a função `source()`
+
+
+## Carregando comandos de outros `Scripts` {background-image="EAR-rbasico-background-02.png"}
+
+</br>
+</br>
+
+<center>
+
+![Usando o RStudio](rstudio.png){width="30%"}
+
+</center>
+
+
+
+# Questões? {background-image="geominer01.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Obrigado! {data-transition="zoom" background-image="geominer01.png"}
+
+<a href="https://bendeivide.github.io/courses/estgeo/" target="_blank" style="text-align: center;">
+
+<img src="logo.png" width = "400">
+
+</a> <center> <a href="https://bendeivide.github.io/courses/estgeo/"  target="_blank" >https://bendeivide.github.io/courses/estgeo/</a> </center>
+
