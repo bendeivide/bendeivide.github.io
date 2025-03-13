@@ -1,0 +1,232 @@
+---
+title: "{{< fa brands r-project >}} Introdução ao R | Aula 05"
+subtitle: "Importando dados"
+title-slide-attributes:
+    data-background-image: geominer01.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[{{< fa brands r-project >}} Curso Estatística e Geotecnia](http://localhost:4321/courses/estgeo/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="geominer01.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC_novo-branco.png" width = "400">
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="geominer01.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
+# Livro de Apoio {background-image="geominer01.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+# Introdução {background-image="geominer01.png"}
+
+-   Terceiro princípio do `R` [@chambers2016]: "Interfaces para outros programas são parte do `R`";
+-   Apesar do *R Core Team* ainda limitar a definição do `R` como um ambiente para a computação estatística, esta ferramenta se tornou tão versátil que hoje torna humilde essa definição;
+-   A facilidade do `R` interagir com outros softwares, linguagens, etc., é muito grande, e assim pode se tornar complexo a importação e exportação de dados;
+    -   Ex: `S`, `SPSS`, `SAS`, `Minitab`, `Python`, `EXCEL`, `SQL`, ...
+
+## Introdução {background-image="geominer01.png"}
+
+-   Um outro fator e tema atual é o tamanho dos bancos de dados (*Big Data*), e aí muitas vezes precisamos de outros recursos, como o uso de *APIs*, por exemplo;
+-   *Web scraping*, Etc...
+-   Hoje, temos uma grande ferramenta de exportação de documentações no `R`, com o uso do `R Markdown`!
+-   Exportações interativas, por exemplo, com o uso do pacote `shiny`.
+-   [Contudo, nos limitaremos a uma breve introdução sobre o assunto: Importação/Exportação de dados!]{style="color: yellow;"}
+
+# Banco de dados {background-image="geominer01.png"}
+
+Limitaremos a:
+
+-   Arquivos de texto: `<>.txt`, `<>.csv`;
+-   Arquivos binários: `<>.xls`, `<>.xlsx`;
+-   Arquivos da *Web*
+-   Banco de dados digitados manualmente pelo *console*.
+
+## Em resumo o que acontecerá no `R`... {background-image="geominer01.png"}
+
+<center>![](rworks2.png)</center>
+
+## Ideias básicas {background-image="geominer01.png"}
+
+-   Escrever/Importar um banco de dados
+-   No R:
+    -   verificar diretório de trabalho
+    -   importar os dados usando `read.table()`
+    -   criar um nome e associar ao objeto de classe `data.frame` com os dados importados
+-   No `RStudio` tem alguns recursos que podem facilitar a importação de dados
+
+# Preparação dos dados {background-image="geominer01.png"}
+
+No banco de dados, sempre:
+
+-   Separar as variáveis em colunas;
+-   Valores em linha;
+-   Sempre a primeira linha das colunas representará o nome da variável;
+-   Quanto mais caracteres diferentes do padrão ASCII, mais difícil poderá ser a leitura dos dados.
+
+## Preparação dos dados {background-image="geominer01.png"}
+
+<center>![](banco_dados.png)</center>
+
+## Preparação dos dados {background-image="geominer01.png"}
+
+Sugestões ao banco de dados:
+
+-   devemos evitar símbolos fora do padrão alfanumérico;
+-   devemos evitar o uso de letras minúsculas e maiúsculas. Isso facilitará o acesso a essas variáveis. Contudo, lembramos do padrão de nomes sintáticos;
+-   como o banco de dados será utilizado para que um programa faça a sua leitura, portanto, deixamos a formatação da apresentação dos dados em arquivos específico, evitando qualquer outro tipo de informação que não seja os dados;
+
+## Preparação dos dados {background-image="geominer01.png"}
+
+-   devemos evitar palavras longas, por exemplo, `segundavariavel` (mau escolha), `segvar` (boa escolha), `seg_var` (boa escolha);
+-   devemos evitar palavras compostas com espaço entre elas. Como alternativa, usamos o símbolo "`_`", por exemplo, `var 2` (mau escolha), `var2` (boa escolha), `var_2` (boa escolha);
+-   devemos evitar "." (ponto) em palavras compostas, pois esta sintaxe é responsável pela criação de um método para uma determinada classe no sistema *S3* (um dos paradigmas de orientação a objetos no `R`), e isto pode causar possíveis conflitos na interpretação dos dados.
+
+# Importação de dados {background-image="geominer01.png"}
+
+-   Importando `<>.csv`:
+    -   Principal característica:
+        -   Separação das variáveis, geralmente, por: ";"!
+-   Importando `<>.txt`:
+    -   Principal característica:
+        -   Separação das variáveis por espaço!
+        -   [Maior risco de erro na importação!]{style="color: red;"}
+-   Importar arquivos do `EXCEL`: `<>.xls`, `<>.xlsx` [- pacotes: `readxl`, `writexl`!]{.fragment}
+
+
+## Importação de dados {background-image="geominer01.png"}
+
+Exemplos:
+
+- [alfafa.txt](https://github.com/bendeivide/book-eambr01/blob/main/files/alfafa.txt)
+
+
+## Importação de dados no `RStudio` {background-image="geominer01.png"}
+
+::: {.r-stack}
+![](imp-exp.png){.fragment .fade-in-then-out}
+
+![](imp-exp2.png){.fragment .fade-in-then-out}
+
+![](imp-exp3.png){.fragment .fade-in-then-out}
+
+![](imp-exp4.png){.fragment}
+:::
+
+## Importação de dados no `R` {background-image="geominer01.png"}
+
+- Funções utilizadas: `setwd()`, `getwd()`, `read.table()`
+- Detalhamento da função `read.table()`:
+  - `file`: banco de dados;
+  - `header`: argumento lógico, se `header = TRUE`, então implica dizer que as variáveis estão identificadas por um nome, isto é, a primeira linha do banco de dados representa o nome das variáveis; se `header = FALSE` (padrão), caso contrário;
+
+  
+## Importação de dados no `R` {background-image="geominer01.png"}
+
+- Detalhamento da função `read.table()`:
+  - `sep`: separador de variáveis nas colunas, o padrão é `sep = ""`, isto é, sem espaços; no caso de arquivos de extensão: `<>.csv`, geralmente, usamos para este argumento `sep = ";"`, identificando que a separação das variáveis está representada por "`;`";
+  - `dec`: separador de casas decimais, sendo o padrão `dec = "."`.
+
+# Questões? {background-image="geominer01.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Obrigado! {data-transition="zoom" background-image="geominer01.png"}
+
+<a href="https://bendeivide.github.io/courses/estgeo/" target="_blank" style="text-align: center;">
+
+<img src="logo.png" width = "400">
+
+</a> <center> <a href="https://bendeivide.github.io/courses/estgeo/"  target="_blank" >https://bendeivide.github.io/courses/estgeo/</a> </center>
+
+
+# Referências {background-image="geominer01.png"}

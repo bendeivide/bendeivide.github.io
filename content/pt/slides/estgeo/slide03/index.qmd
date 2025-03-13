@@ -95,6 +95,16 @@ editor: source
 
 ::::
 
+# Livro de Apoio {background-image="geominer01.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
 
 # O que é um *script*? {background-image="EAR-rbasico-background-02.png"}
 
@@ -194,3 +204,4 @@ knitr::include_graphics("rscript05.png")
 
 </a> <center> <a href="https://bendeivide.github.io/courses/estgeo/"  target="_blank" >https://bendeivide.github.io/courses/estgeo/</a> </center>
 
+# Referências {background-image="geominer01.png"}

@@ -1,0 +1,231 @@
+---
+title: "{{< fa brands r-project >}} Introdução ao R | Aula 04"
+subtitle: "Objetos"
+title-slide-attributes:
+    data-background-image: geominer01.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[{{< fa brands r-project >}} Curso Estatística e Geotecnia](http://localhost:4321/courses/estgeo/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.
+    #   É preciso inseri-lo de forma manual no 'index.html' e em 
+    #   'index-speaker.html' na opção em Reveal.initialize > plugins
+    # Quadro negro
+    chalkboard:
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="geominer01.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC_novo-branco.png" width = "400">
+
+</a>
+
+# Apoio CEAC e UFSJ {background-image="geominer01.png"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- <i class="fab fa-instagram"></i> [\@ceac_ufsj](https://www.instagram.com/ceac_ufsj/)
+
+:::
+
+<center>  
+![](ceac.png){width="70%"}
+</center>
+
+:::
+
+::: {.column width="50%"}
+
+::: {.nonincremental}
+
+- [ufsj.edu.br/](ufsj.edu.br/)
+
+:::
+
+
+
+<center>
+
+<img src="ufsj.png" title="ufsj.edu.br/" width = "300">
+
+</center>
+
+:::
+
+::::
+
+# Livro de Apoio {background-image="geominer01.png"}
+
+Usaremos @batista2021:
+
+<a href="https://bendeivide.github.io/books/eambr01/" target="_blank" style="text-align: center;">
+
+<img src="hardcover01.png" width = "300">
+
+</a>
+
+
+# Retornando a afirmação de John Chambers{background-image="geominer01.png"}
+
+>  **Princípio do Objeto**: Tudo que existe em `R` é um objeto
+
+# O que é um objeto? {background-image="geominer01.png"}
+
+> Objeto: uma entidade no ambiente `R` com características internas contendo informações necessárias para interpretar sua estrutura e conteúdo
+
+## Metadado de um objeto? {background-image="geominer01.png"}
+
+</br>
+
+- Atributos
+  - Atributos intrínsecos: **modo** e **comprimento**
+  
+  
+# Estrutura de um objeto {background-image="geominer01.png"}
+
+> **Estrutura de um objeto:** Disposição como armazenamos um objeto na memória virtual do computador e a forma como apresentamos este objeto a nível de usuário. O primeiro é chamado de **estrutura interna**, e o segundo, **estrutura externa**.
+
+- **Estrutura interna:** tipagem
+- **Estrutura externa:** estrutura de dado
+
+## Estrutura de um objeto {background-image="geominer01.png"}
+
+- **Estrutura interna:** tipagem
+  - Existem 24 tipos de objetos em `R`;
+  - Só podem ser criados pelos mantenedores do `R` (*R Core Team*);
+  - Usamos `typeof()` para tipagem `C`; e
+  - Usamos `mode()` para tipagem `S`
+  
+## Estrutura de um objeto {background-image="geominer01.png"}
+
+- **Estrutura externa:** estrutura de dados
+  - Existem muitos tipos de estrutura de dados;
+    - Exemplos: Vetor, matriz, quadro de dados (*data frame*), *tibles*, etc;
+  - Podem ser criados a nível de usuário
+  
+# Associando o nome a um objeto{background-image="geominer01.png"}
+
+Exemplo:
+
+```{r primeiro_codigo, echo=TRUE, , prompt=TRUE}
+x <- 10L
+```
+. . .
+
+<center>
+
+![](pcodR01.png){width="70%"}
+
+</center>
+
+# Quadro de dados (*Data frames*) {background-image="geominer01.png"}
+
+O objeto quadro de dados (*Data frame*) é uma lista com classe `data.frame`, com algumas restrições:
+
+-   Os componentes devem ser vetores uni ou multidimencionais, listas ou até mesmo quadro de dados;
+-   As colunas das matrizes, listas ou quadro de dados são inseridas como colunas do quadro de dados;
+-   A partir da versão R (4.0.0), padrão `stringsAsFactors = FALSE`;
+
+## Quadro de dados (*Data frames*) {background-image="geominer01.png"}
+
+-   Os objetos inseridos no quadro de dados devem ter o mesmo comprimento;
+-   Importar dados para um objeto R (`read.table()`)=\> Quadro de dados
+
+# Criando um quadro de dados
+
+```{r echo=TRUE, prompt=TRUE}
+# Criando um quadro de dados
+dados <- data.frame(x = 1:10, 
+                    y = letters[1:10],
+                    z = rep(c(TRUE, FALSE), 5))
+# Imprimindo dados
+dados
+```
+
+# Indexação de um quadro de dados {background-image="geominer01.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+# Acessando os elementos de forma de lista
+dados[[1]]
+dados$x
+```
+
+## Indexação de um quadro de dados {background-image="geominer01.png"}
+
+```{r echo=TRUE, prompt=TRUE}
+dados[1, ] # Coluna 1
+dados[1, 1] # Elemento da linha 1 coluna 1
+(dados[1, 1] <- 10) # Alterando dados[1,1]
+```
+
+# Anexando objetos do quadro de dados no caminho de busca {background-image="geominer01.png"}
+
+```{r echo=TRUE, error=TRUE, prompt=TRUE}
+# Criando um quadro de dados
+dados <- data.frame(x = 1:10, 
+                    y = letters[1:10],
+                    z = rep(c(TRUE, FALSE), 5))
+# Usando a funcao attach()
+attach(dados)
+x # Acessando os elementos
+detach(dados); x # Desanexando dados
+```
+
+
+# Questões? {background-image="geominer01.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Obrigado! {data-transition="zoom" background-image="geominer01.png"}
+
+<a href="https://bendeivide.github.io/courses/estgeo/" target="_blank" style="text-align: center;">
+
+<img src="logo.png" width = "400">
+
+</a> <center> <a href="https://bendeivide.github.io/courses/estgeo/"  target="_blank" >https://bendeivide.github.io/courses/estgeo/</a> </center>
+
+
+# Referências {background-image="geominer01.png"}

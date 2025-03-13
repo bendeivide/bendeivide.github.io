@@ -1,7 +1,7 @@
 ---
 title: 📈 Introdução ao R
 summary: Curso voltado para introduzir sobre a Linguagem [R](https://www.r-project.org/).
-date: "2025-03-12 16:17:20"
+date: "2025-03-13 07:42:27"
 type: book
 weight: 1
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -93,6 +93,69 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide03/index.html" target="_blank">Aula 03</a>
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 3](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube >}}
+<br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 04 - Objetos">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Objetos
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide04/index.html" target="_blank">Aula 04</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 4](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube >}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 05 - Importando dados">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Importando dados
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide05/index.html" target="_blank">Aula 05</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 5](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube >}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 06 - Funções">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Funções
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide06/index.html" target="_blank">Aula 06</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 6](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube >}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 07 - Pacotes">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Pacotes
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide07/index.html" target="_blank">Aula 07</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 8](/books/eambr01/)
   
 
 {{< icon name="youtube" pack="fab" >}} Vídeo
