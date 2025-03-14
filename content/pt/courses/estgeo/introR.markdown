@@ -1,7 +1,7 @@
 ---
 title: 📈 Introdução ao R
 summary: Curso voltado para introduzir sobre a Linguagem [R](https://www.r-project.org/).
-date: "2025-03-13 15:32:44"
+date: "2025-03-14 13:35:08"
 type: book
 weight: 1
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -145,7 +145,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< icon name="youtube" pack="fab" >}} Vídeo
 
 
-{{< youtube >}}
+{{< youtube Xp70E3a6k6U>}}
 <br/>
 
 {{< /spoiler >}}
@@ -161,7 +161,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< icon name="youtube" pack="fab" >}} Vídeo
 
 
-{{< youtube >}}
+{{< youtube ox7U_l5xlPk>}}
 <br/>
 
 {{< /spoiler >}}
