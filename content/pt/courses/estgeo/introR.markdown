@@ -1,7 +1,7 @@
 ---
 title: 📈 Introdução ao R
 summary: Curso voltado para introduzir sobre a Linguagem [R](https://www.r-project.org/).
-date: "2025-03-14 13:35:08"
+date: "2025-03-17 18:38:55"
 type: book
 weight: 1
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -60,7 +60,8 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 ## Aulas
 
 {{< spoiler text="Aula 01 - Instalação do R e RStudio">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Instalação do R e RStudio
+<p>&nbsp;&nbsp;&nbsp; {{< icon name="pen-fancy" pack="fas" >}} Tema - Instalação do R e RStudio </p>
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/WxrqwcCMcUkB3K4NA)
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 2, Seção 2.3](/books/eambr01/)
   
@@ -74,6 +75,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< spoiler text="Aula 02 - Como o R trabalha?">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Como o R trabalha?
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/u8ciuMDoMCyEzBGSA)
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide02/index.html" target="_blank">Aula 02</a>
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 3](/books/eambr01/)
@@ -90,6 +92,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< spoiler text="Aula 03 - Criando e Salvando um *Script*">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Como o R trabalha?
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/n5R5wffZMerixu7eA)
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide03/index.html" target="_blank">Aula 03</a>
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 3](/books/eambr01/)
@@ -105,6 +108,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< spoiler text="Aula 04 - Objetos">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Objetos
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/TsE6wNgwApSngrg77)
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide04/index.html" target="_blank">Aula 04</a>
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 4](/books/eambr01/)
@@ -121,6 +125,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< spoiler text="Aula 05 - Importando dados">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Importando dados
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/fjFT6JumfqtaRbjt5)
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide05/index.html" target="_blank">Aula 05</a>
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 5](/books/eambr01/)
@@ -137,6 +142,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< spoiler text="Aula 06 - Funções">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Funções
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/Hhha8fLt5HQMya3m7)
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide06/index.html" target="_blank">Aula 06</a>
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 6](/books/eambr01/)
@@ -153,6 +159,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< spoiler text="Aula 07 - Pacotes">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Pacotes
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/ZxuV6dvT5E8K8i7X9)
 {{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide07/index.html" target="_blank">Aula 07</a>
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 8](/books/eambr01/)
@@ -163,6 +170,13 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< youtube ox7U_l5xlPk>}}
 <br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 08 - (Ao vivo) Perguntas/Respostas e dúvidas">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Aula de dúvidas realizada via MEET | 17/03/2025
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/CBx5K8adv5s2Mu2DA)
+
 
 {{< /spoiler >}}
 
