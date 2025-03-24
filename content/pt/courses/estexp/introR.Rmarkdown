@@ -1,0 +1,197 @@
+---
+title: 🧑‍💻 Introdução ao R
+summary: Curso voltado para introduzir sobre a Linguagem [R](https://www.r-project.org/).
+date: "`r format(Sys.time())`"
+type: book
+weight: 1
+categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
+tags: ["Curso", "Online"]
+---
+
+Curso voltado para introduzir sobre a Linguagem [R](https://www.r-project.org/).
+
+```{r, include=FALSE}
+library(calendR)
+# Links
+rlink <- "[R](http://r-project.org/)"
+rstudio <- "[RStudio](http://rstudio.org/)"
+cran <- "[CRAN](http://cran.r-project.org/)"
+github <- "[GitHub](http://github.com/)"
+git <- "[Git](https://git-scm.com/)"
+```
+
+
+## Apresentação
+
+
+Este curso é baseado na coleção *Estudando o ambiente R*, fruto de cursos ministrados sobre a linguagem `r rlink`, bem como colaborações e estudos ao longo dos anos. Em 2005, quando ingressei no curso de Engenharia Agronômica, fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, obtive o primeiro contato com o ambiente `r rlink` pouco mais de 9 anos de seu lançamento e redistribuição. Naquela época, haviam poucos materiais em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para a compreensão. À época, inclusive, até sonhei em chegar neste dia, qua seja, o dia do lançamento de uma obra como esta.
+
+Hoje, no ano de 2025, usuário há mais de 19 anos dessa linguagem, percebi um sentimento inquietante somente na posição de usuário do `r rlink`. Eu posso reafirmar que uma estratégia muito poderosa de ensino/aprendizagem é a técnica *aprender por ensinar*, particularmente, porque além de democratizar o conhecimento  perpetuando-o, aprendo mais e mais sobre determinado assunto. Dessa forma, lotado no Departamento de Estatística, Física e Matemática [DEFIM](http://defim.ufsj.edu.br/) desde 2018, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei ([UFSJ](https://www.ufsj.edu.br/)), comecei a planejar diversos [cursos sobre a linguagem R](http://bendeivide.github.io/cursor/).
+
+Com o apoio do Centro Acadêmico de Engenharia de Telecomunicações (Catel/UFSJ), iniciei, no ano de 2021, o primeiro curso para o módulo Básico, e na sequência foi realizado o módulo intermediário. Todos no formato *online*, para que o conhecimento ultrapassasse as fronteiras da Universidade. Até o presente momento, o módulo avançado que seria o último curso, está em fase de desenvolvimento. A ideia deu tanto certo, que apesar do momento de pandemia e situação difícil para o mundo, foi realizada mais de 1.000 inscrições, tanto de alunos da UFSJ, como também de alunos da América do Sul, Moçambique, Angola, dentre outros países e outros estados do Brasil. Tudo isso, realizado de forma gratuita e com emissão de certificados emitidos pelo Catel. Hoje, temos a parceria do [CEAC](https://www.instagram.com/ceac_ufsj/) (Clube de Engenharia Assistida por Computador/UFSJ) para o suporte nos cursos do EAR.
+
+Os cursos ministrados sobre o ambiente `r rlink` tentaram de forma simplificada, apresentar as ideias básicas sobre a sintaxe e semântica da linguagem, sendo criado três módulos, o nível básico, intermediário e avançado. No primeiro contato do aluno com o `r rlink` nos cursos, não se aborda situações complexas, mas sim, o fundamental para uso como ferramenta básica. À medida que a aprendizagem nos módulos se avança, os problemas se tornam mais complexos, e a introdução de ferramentas tecnológicas é utilizada para auxiliar os alunos no entendimento sobre a linguagem. O resultado dessa experiência ficará registrada, em forma de conhecimento, na coleção apresentada a seguir.
+
+A coleção *Estudando o ambiente `r rlink`* apresenta três *Volumes* iniciais, intitulados por:  o *R básico* (*Volume I*), o *R intermediário*  (*Volume II*) e o *R avançado* (*Volume III*). Fazendo a alusão aos três livros iniciais sobre a linguagem `S` desenvolvidos por John Chambers e colaboradores, é realizado uma explanação desde assuntos mais simples até noções mais complexas sobre o `r rlink`, restringindo apenas a sintaxe e semântica da linguagem. Os *Volumes* subsequentes serão destinados a *Documentações no R*, *Desenvolvimento de pacote `r rlink`*, *Gráficos*, *Banco de dados*, *Interface Gráfica ao Usuário*, *Interface R com outras linguagens*, *Programação Orientada a Objetos no R*, *Funções do pacote [base](https://www.r-project.org/)*, dentre outros.
+
+Tentando engajar os alunos para que se tornem protagonistas do processo de aprendizagem, e agora colegas de trabalho, tenho a parceria no *Volume I*, de [Diego Arthur](https://digoarthur.github.io/), um ex-orientando, e agora um profissional que tenta se superar a cada desafio e assunto estudado. Por isso, tenho a imensa satisfação de ter a sua contribuição e experiência neste material.
+
+Por fim, espero que o curso *Introdução ao R* sirva de referência aos passos iniciais nessa ferramenta tão importante para a análise de dados.
+
+
+## Onde?
+
+- <i class="fas fa-route"></i> O curso será ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
+    Paraopeba ([CAP](http://ufsj.edu.br/cap/)), no formato *online* via Youtube;
+- <i class="fas fa-calendar-day"></i> 10/03/2025 a 14/03/2025 
+- <i class="fab fa-youtube"></i> <https://youtube.com/bendeivide>
+
+## <i class="fas fa-map"></i>  Tópicos abordados {id="topicos" title="Clique aqui!"}
+
+Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.
+
+
+## Ementa
+
+Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestre a demanda necessária
+
+{{< spoiler text="Acesse a ementa do curso">}}
+01. Instalação do R e do RStudio
+02. Como o R trabalha
+03. Criando e salvando um Script
+04. Objetos
+05. Importando dados
+06. Funções
+07. Pacotes
+{{< /spoiler >}}
+
+## Aulas
+
+{{< spoiler text="Aula 01 - Instalação do R e RStudio">}}
+<p>&nbsp;&nbsp;&nbsp; {{< icon name="pen-fancy" pack="fas" >}} Tema - Instalação do R e RStudio </p>
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/WxrqwcCMcUkB3K4NA)
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 2, Seção 2.3](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+{{< youtube  hVSHgSYjtL8>}}
+<br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 02 - Como o R trabalha?">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Como o R trabalha?
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/u8ciuMDoMCyEzBGSA)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide02/index.html" target="_blank">Aula 02</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 3](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube 2sPw__jkdIY>}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 03 - Criando e Salvando um *Script*">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Como o R trabalha?
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/n5R5wffZMerixu7eA)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide03/index.html" target="_blank">Aula 03</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 3](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube sxNn02jIVxw>}}
+<br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 04 - Objetos">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Objetos
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/TsE6wNgwApSngrg77)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide04/index.html" target="_blank">Aula 04</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 4](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube uCUo0phefRs>}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 05 - Importando dados">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Importando dados
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/fjFT6JumfqtaRbjt5)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide05/index.html" target="_blank">Aula 05</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 5](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube qPRt1F9hr-o>}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 06 - Funções">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Funções
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/Hhha8fLt5HQMya3m7)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide06/index.html" target="_blank">Aula 06</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 6](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube Xp70E3a6k6U>}}
+<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 07 - Pacotes">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Pacotes
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/ZxuV6dvT5E8K8i7X9)
+{{< icon name="eye" pack="fas" >}} __Apresentação:__ <a href="/slides/estgeo/slide07/index.html" target="_blank">Aula 07</a>
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro {{< icon name="r-project" pack="fab" >}} Básico, Capítulo 8](/books/eambr01/)
+  
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube ox7U_l5xlPk>}}
+<br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 08 - (Ao vivo) Perguntas/Respostas e dúvidas">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Aula de dúvidas realizada via MEET | 17/03/2025
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/CBx5K8adv5s2Mu2DA)
+
+
+{{< /spoiler >}}
+
+
+
+## Quiz
+
+{{< spoiler text="Onde ocorrerão as aulas no Youtube?">}}
+Acesse o canal: <https://youtube.com/bendeivide>
+{{< /spoiler >}}

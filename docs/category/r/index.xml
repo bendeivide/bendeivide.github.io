@@ -5,12 +5,184 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 17 Mar 2025 18:38:55 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 24 Mar 2025 14:59:32 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
       <link>http://bendeivide.github.io/category/r/</link>
     </image>
+    
+    <item>
+      <title>🧑‍💻 Introdução ao R</title>
+      <link>http://bendeivide.github.io/courses/estexp/intror/</link>
+      <pubDate>Sat, 22 Mar 2025 15:32:46 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/estexp/intror/</guid>
+      <description>&lt;p&gt;Curso voltado para introduzir sobre a Linguagem &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;Este curso é baseado na coleção &lt;em&gt;Estudando o ambiente R&lt;/em&gt;, fruto de cursos ministrados sobre a linguagem &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, bem como colaborações e estudos ao longo dos anos. Em 2005, quando ingressei no curso de Engenharia Agronômica, fiquei fascinado com a disciplina de Estatística no segundo semestre do ano corrente. Na sequência, obtive o primeiro contato com o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; pouco mais de 9 anos de seu lançamento e redistribuição. Naquela época, haviam poucos materiais em língua portuguesa. Porém, foi o suficiente para eu entender que estava diante de uma grande ferramenta computacional e estatística, necessária para a compreensão. À época, inclusive, até sonhei em chegar neste dia, qua seja, o dia do lançamento de uma obra como esta.&lt;/p&gt;
+&lt;p&gt;Hoje, no ano de 2025, usuário há mais de 19 anos dessa linguagem, percebi um sentimento inquietante somente na posição de usuário do &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Eu posso reafirmar que uma estratégia muito poderosa de ensino/aprendizagem é a técnica &lt;em&gt;aprender por ensinar&lt;/em&gt;, particularmente, porque além de democratizar o conhecimento  perpetuando-o, aprendo mais e mais sobre determinado assunto. Dessa forma, lotado no Departamento de Estatística, Física e Matemática &lt;a href=&#34;http://defim.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEFIM&lt;/a&gt; desde 2018, campus Alto Paraopeba, pela Universidade Federal de São João del-Rei (&lt;a href=&#34;https://www.ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;), comecei a planejar diversos &lt;a href=&#34;http://bendeivide.github.io/cursor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cursos sobre a linguagem R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Com o apoio do Centro Acadêmico de Engenharia de Telecomunicações (Catel/UFSJ), iniciei, no ano de 2021, o primeiro curso para o módulo Básico, e na sequência foi realizado o módulo intermediário. Todos no formato &lt;em&gt;online&lt;/em&gt;, para que o conhecimento ultrapassasse as fronteiras da Universidade. Até o presente momento, o módulo avançado que seria o último curso, está em fase de desenvolvimento. A ideia deu tanto certo, que apesar do momento de pandemia e situação difícil para o mundo, foi realizada mais de 1.000 inscrições, tanto de alunos da UFSJ, como também de alunos da América do Sul, Moçambique, Angola, dentre outros países e outros estados do Brasil. Tudo isso, realizado de forma gratuita e com emissão de certificados emitidos pelo Catel. Hoje, temos a parceria do &lt;a href=&#34;https://www.instagram.com/ceac_ufsj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEAC&lt;/a&gt; (Clube de Engenharia Assistida por Computador/UFSJ) para o suporte nos cursos do EAR.&lt;/p&gt;
+&lt;p&gt;Os cursos ministrados sobre o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; tentaram de forma simplificada, apresentar as ideias básicas sobre a sintaxe e semântica da linguagem, sendo criado três módulos, o nível básico, intermediário e avançado. No primeiro contato do aluno com o &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; nos cursos, não se aborda situações complexas, mas sim, o fundamental para uso como ferramenta básica. À medida que a aprendizagem nos módulos se avança, os problemas se tornam mais complexos, e a introdução de ferramentas tecnológicas é utilizada para auxiliar os alunos no entendimento sobre a linguagem. O resultado dessa experiência ficará registrada, em forma de conhecimento, na coleção apresentada a seguir.&lt;/p&gt;
+&lt;p&gt;A coleção &lt;em&gt;Estudando o ambiente &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;&lt;/em&gt; apresenta três &lt;em&gt;Volumes&lt;/em&gt; iniciais, intitulados por:  o &lt;em&gt;R básico&lt;/em&gt; (&lt;em&gt;Volume I&lt;/em&gt;), o &lt;em&gt;R intermediário&lt;/em&gt;  (&lt;em&gt;Volume II&lt;/em&gt;) e o &lt;em&gt;R avançado&lt;/em&gt; (&lt;em&gt;Volume III&lt;/em&gt;). Fazendo a alusão aos três livros iniciais sobre a linguagem &lt;code&gt;S&lt;/code&gt; desenvolvidos por John Chambers e colaboradores, é realizado uma explanação desde assuntos mais simples até noções mais complexas sobre o &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, restringindo apenas a sintaxe e semântica da linguagem. Os &lt;em&gt;Volumes&lt;/em&gt; subsequentes serão destinados a &lt;em&gt;Documentações no R&lt;/em&gt;, &lt;em&gt;Desenvolvimento de pacote &lt;a href=&#34;http://r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;&lt;/em&gt;, &lt;em&gt;Gráficos&lt;/em&gt;, &lt;em&gt;Banco de dados&lt;/em&gt;, &lt;em&gt;Interface Gráfica ao Usuário&lt;/em&gt;, &lt;em&gt;Interface R com outras linguagens&lt;/em&gt;, &lt;em&gt;Programação Orientada a Objetos no R&lt;/em&gt;, &lt;em&gt;Funções do pacote &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;base&lt;/a&gt;&lt;/em&gt;, dentre outros.&lt;/p&gt;
+&lt;p&gt;Tentando engajar os alunos para que se tornem protagonistas do processo de aprendizagem, e agora colegas de trabalho, tenho a parceria no &lt;em&gt;Volume I&lt;/em&gt;, de &lt;a href=&#34;https://digoarthur.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diego Arthur&lt;/a&gt;, um ex-orientando, e agora um profissional que tenta se superar a cada desafio e assunto estudado. Por isso, tenho a imensa satisfação de ter a sua contribuição e experiência neste material.&lt;/p&gt;
+&lt;p&gt;Por fim, espero que o curso &lt;em&gt;Introdução ao R&lt;/em&gt; sirva de referência aos passos iniciais nessa ferramenta tão importante para a análise de dados.&lt;/p&gt;
+&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-route&#34;&gt;&lt;/i&gt; O curso será ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), no formato &lt;em&gt;online&lt;/em&gt; via Youtube;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-day&#34;&gt;&lt;/i&gt; 10/03/2025 a 14/03/2025&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topicos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt;  Tópicos abordados&lt;/h2&gt;
+&lt;p&gt;Instalação do R e RStudio. Princípios do R. Sintaxe e semântica.&lt;/p&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestre a demanda necessária&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;Instalação do R e do RStudio&lt;/li&gt;
+&lt;li&gt;Como o R trabalha&lt;/li&gt;
+&lt;li&gt;Criando e salvando um Script&lt;/li&gt;
+&lt;li&gt;Objetos&lt;/li&gt;
+&lt;li&gt;Importando dados&lt;/li&gt;
+&lt;li&gt;Funções&lt;/li&gt;
+&lt;li&gt;Pacotes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Aula 01 - Instalação do R e RStudio&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+  &lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Instalação do R e RStudio &lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-signature  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Lista de presença &lt;a href=&#34;https://forms.gle/WxrqwcCMcUkB3K4NA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Básico, Capítulo 2, Seção 2.3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hVSHgSYjtL8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Aula 02 - Como o R trabalha?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Como o R trabalha?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-signature  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Lista de presença &lt;a href=&#34;https://forms.gle/u8ciuMDoMCyEzBGSA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estgeo/slide02/index.html&#34; target=&#34;_blank&#34;&gt;Aula 02&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Básico, Capítulo 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/2sPw__jkdIY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Aula 03 - Criando e Salvando um &lt;em&gt;Script&lt;/em&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Como o R trabalha?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-signature  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Lista de presença &lt;a href=&#34;https://forms.gle/n5R5wffZMerixu7eA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estgeo/slide03/index.html&#34; target=&#34;_blank&#34;&gt;Aula 03&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Básico, Capítulo 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/sxNn02jIVxw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Aula 04 - Objetos&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Objetos&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-signature  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Lista de presença &lt;a href=&#34;https://forms.gle/TsE6wNgwApSngrg77&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estgeo/slide04/index.html&#34; target=&#34;_blank&#34;&gt;Aula 04&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Básico, Capítulo 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/uCUo0phefRs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Aula 05 - Importando dados&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Importando dados&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-signature  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Lista de presença &lt;a href=&#34;https://forms.gle/fjFT6JumfqtaRbjt5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estgeo/slide05/index.html&#34; target=&#34;_blank&#34;&gt;Aula 05&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Básico, Capítulo 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/qPRt1F9hr-o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Aula 06 - Funções&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Funções&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-signature  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Lista de presença &lt;a href=&#34;https://forms.gle/Hhha8fLt5HQMya3m7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estgeo/slide06/index.html&#34; target=&#34;_blank&#34;&gt;Aula 06&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Básico, Capítulo 6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Xp70E3a6k6U&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Aula 07 - Pacotes&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Pacotes&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-signature  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Lista de presença &lt;a href=&#34;https://forms.gle/ZxuV6dvT5E8K8i7X9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estgeo/slide07/index.html&#34; target=&#34;_blank&#34;&gt;Aula 07&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/eambr01/&#34;&gt;Livro
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Básico, Capítulo 8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ox7U_l5xlPk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Aula 08 - (Ao vivo) Perguntas/Respostas e dúvidas&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Aula de dúvidas realizada via MEET | 17/03/2025&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-signature  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Lista de presença &lt;a href=&#34;https://forms.gle/CBx5K8adv5s2Mu2DA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
+  &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+</description>
+    </item>
     
     <item>
       <title>📈 Introdução ao R</title>
@@ -182,6 +354,240 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
   &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>⚗️ Ensino normal 2025.1</title>
+      <link>http://bendeivide.github.io/courses/estexp/estexp2025.1/</link>
+      <pubDate>Mon, 24 Mar 2025 14:59:32 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/estexp/estexp2025.1/</guid>
+      <description>&lt;p&gt;Curso sobre Estatística Experimental, com abordagem na linguagem R.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeos disponíveis quase toda semana!&lt;/p&gt;
+&lt;h2 id=&#34;apresentação&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;Em termos gerais, abordaremos: delineamentos experimentais e de tratamentos; superfície de resposta; comparações múltiplas; exemplos práticos e aplicações no R.&lt;/p&gt;
+&lt;/br&gt;
+&lt;!-- 
+  &lt;i class=&#34;fas fa-microphone-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Podcast --&gt;
+&lt;!-- Em desenvolvimento... --&gt;
+&lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de
+Engenharia do campus.&lt;/li&gt;
+&lt;li&gt;Todas as nossas estão gravadas:
+&lt;ul&gt;
+&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Período:&lt;/li&gt;
+&lt;li&gt;Aulas presenciais:
+&lt;ul&gt;
+&lt;li&gt;Engenharia Química:
+&lt;ul&gt;
+&lt;li&gt;segunda-feira (17:05 - 18:50, sala 209.5)&lt;/li&gt;
+&lt;li&gt;quinta-feira (17:05 - 18:55, sala 209.5)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calendário&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;http://bendeivide.github.io/pt/courses/estexp/estexp2025.1_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;110%&#34; /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1hRi3xUmul45g9hcU5TP33rbQhnJyRHIHBWVzrUl-vMk/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
+aulas&lt;/a&gt;:
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+      &lt;iframe src=&#34;https://docs.google.com/document/d/1hRi3xUmul45g9hcU5TP33rbQhnJyRHIHBWVzrUl-vMk/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;whatsapp&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; Grupo de Whatsapp&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chat.whatsapp.com/EzPBESx93hS0bj7TKqjDbv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- ## &lt;i class=&#34;fas fa-file-contract&#34;&gt;&lt;/i&gt; Preenchimento de dados para as avaliações {id=&#34;formulario&#34; title=&#34;Clique aqui!&#34;} --&gt;
+&lt;!-- &lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt; --&gt;
+&lt;h2 id=&#34;notas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-alt&#34;&gt;&lt;/i&gt; Notas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Engenharia Civil
+&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1_sWHmYWjqMk_3qraiUzF49rIc1YKTNoIAwVoNqeP0SI/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestre a demanda necessária&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;O PAPEL DA ESTATÍSTICA NAS ENGENHARIAS&lt;/li&gt;
+&lt;li&gt;A FILOSOFIA DO PLANEJAMENTO EXPERIMENTAL
+&lt;ul&gt;
+&lt;li&gt;A importância do planejamento;&lt;/li&gt;
+&lt;li&gt;Princípios básicos;&lt;/li&gt;
+&lt;li&gt;Métodos para aumentar a eficiência dos experimentos;&lt;/li&gt;
+&lt;li&gt;A analise de variância e os métodos de comparações múltiplas;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DELINEAMENTO INTEIRAMENTE CASUALIZADO
+&lt;ul&gt;
+&lt;li&gt;Modelo estatístico e pressuposições;&lt;/li&gt;
+&lt;li&gt;Sistema de equações normais e estimação de parâmetros;&lt;/li&gt;
+&lt;li&gt;Análise de variância;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DELINEAMENTO EM BLOCOS CASUALIZADOS E QUADRADO LATINO
+&lt;ul&gt;
+&lt;li&gt;Modeo Estatístico e pressuposições;&lt;/li&gt;
+&lt;li&gt;Estimação dos parâmetros;&lt;/li&gt;
+&lt;li&gt;Análise de variâncias;&lt;/li&gt;
+&lt;li&gt;Perda de parcelas;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;EXPERIMENTOS FATORIAIS
+&lt;ul&gt;
+&lt;li&gt;Tipos de estruturas fatoriais;&lt;/li&gt;
+&lt;li&gt;Modelo Estatístico e análise de variância;&lt;/li&gt;
+&lt;li&gt;Tópico em ensaios fatoriais;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;EXPERIMENTOS EM PARCELAS SUBDIVIDIDAS
+&lt;ul&gt;
+&lt;li&gt;Modelo estatístico e análise de variância;&lt;/li&gt;
+&lt;li&gt;Parcela subdividida no tempo;&lt;/li&gt;
+&lt;li&gt;Parcela subdividida com fatoriail;&lt;/li&gt;
+&lt;li&gt;Parcelas sub-divididas;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ANÁLISE CONJUNTA DE EXPERIMENTOS
+&lt;ul&gt;
+&lt;li&gt;Modelo matemático e pressuposições;&lt;/li&gt;
+&lt;li&gt;Experimentos repetidos no tempo e espaço;&lt;/li&gt;
+&lt;li&gt;Estruturas não balanceadas;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ANÁLISE EM ESTATÍSTICA EXPERIMENTAL&lt;/li&gt;
+&lt;li&gt;USO DE SOFTWARES&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Aula 01 - Introdução e ferramentas para o curso&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Introdução e ferramentas para o curso&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/B2D8SrzKlkc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Aula 02 - O que é um Modelo Linear?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - O que é um Modelo Linear?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula02/nota02.pdf&#34; target=&#34;_blank&#34;&gt;Notas da aula 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/5IRAFg1C6sI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Aula 03 - Regressão Linear Simples: Estimação&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Regressão Linear Simples: Estimação&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula03/nota03.pdf&#34; target=&#34;_blank&#34;&gt;Notas da aula 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula03/aula03.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; da aula 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/9WBb0E9Pl8s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Aula 04 - Regressão Linear Simples: Interpretação&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Regressão Linear Simples: Estimação&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula04/nota04.pdf&#34; target=&#34;_blank&#34;&gt;Notas da aula 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ATFmXfnk8Qc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Aula 05 - Regressão Linear Simples: Significância&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Regressão Linear Simples: Significância&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula05/aula05.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nbasico/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Básico)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/cursor/nintermediario/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso
+&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; (Nível Intermediário)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0LivcenOkZw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
+  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
+  &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
     </item>
     
     <item>
