@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-03-27 16:53:59"
+date: "2025-03-27 20:07:02"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -56,6 +56,27 @@ Em termos gerais, abordaremos: delineamentos experimentais e de tratamentos; sup
 <!-- ## <i class="fas fa-file-contract"></i> Preenchimento de dados para as avaliações {id="formulario" title="Clique aqui!"} -->
 
 <!-- {{< gdocs src="https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link">}} -->
+
+## Modelo de relatório para entregas
+
+Segue o link: <https://bendeivide.github.io/relatorio-estexp>
+
+
+
+> Sigam as recomendações do vídeo, porém, ao invés do projeto criado ser nominado **profmatma41**, use **relatorio-estexp**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Relatório dos alunos
+
+- [🎓 ANNE KARIS DE AGUIAR ROSA]()
+- [🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA]()
+- [🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO]()
+- [🎓 Kaleb Aquino Mileib]()
+- [🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO]()
+- [🎓 YASMIN ARIELLA SILVA SOUZA]()
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 

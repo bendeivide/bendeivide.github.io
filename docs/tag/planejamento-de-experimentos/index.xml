@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/planejamento-de-experimentos/</link>
       <atom:link href="http://bendeivide.github.io/tag/planejamento-de-experimentos/index.xml" rel="self" type="application/rss+xml" />
     <description>Planejamento de experimentos</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 27 Mar 2025 16:53:59 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 27 Mar 2025 20:07:02 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Planejamento de experimentos</title>
@@ -15,7 +15,7 @@
     <item>
       <title>⚗️ Ensino normal 2025.1</title>
       <link>http://bendeivide.github.io/courses/estexp/estexp2025.1/</link>
-      <pubDate>Thu, 27 Mar 2025 16:53:59 -0300</pubDate>
+      <pubDate>Thu, 27 Mar 2025 20:07:02 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/estexp/estexp2025.1/</guid>
       <description>&lt;p&gt;Curso sobre Estatística Experimental, com abordagem na linguagem R.&lt;/p&gt;
 &lt;p&gt;
@@ -68,6 +68,22 @@ aulas&lt;/a&gt;:
 &lt;!-- &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt; --&gt;
+&lt;h2 id=&#34;modelo-de-relatório-para-entregas&#34;&gt;Modelo de relatório para entregas&lt;/h2&gt;
+&lt;p&gt;Segue o link: &lt;a href=&#34;https://bendeivide.github.io/relatorio-estexp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/relatorio-estexp&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sigam as recomendações do vídeo, porém, ao invés do projeto criado ser nominado &lt;strong&gt;profmatma41&lt;/strong&gt;, use &lt;strong&gt;relatorio-estexp&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;relatório-dos-alunos&#34;&gt;Relatório dos alunos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 ANNE KARIS DE AGUIAR ROSA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 Kaleb Aquino Mileib&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 YASMIN ARIELLA SILVA SOUZA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;notas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-alt&#34;&gt;&lt;/i&gt; Notas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Engenharia Química
