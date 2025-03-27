@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-03-24 14:59:32"
+date: "2025-03-27 16:53:59"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -51,7 +51,7 @@ Em termos gerais, abordaremos: delineamentos experimentais e de tratamentos; sup
 
 ## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
 
--   [Link](https://chat.whatsapp.com/EzPBESx93hS0bj7TKqjDbv)
+-   [Link](https://chat.whatsapp.com/Ind2HMVb3jZD2CVgqi7o0O)
 
 <!-- ## <i class="fas fa-file-contract"></i> Preenchimento de dados para as avaliações {id="formulario" title="Clique aqui!"} -->
 
@@ -59,8 +59,8 @@ Em termos gerais, abordaremos: delineamentos experimentais e de tratamentos; sup
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
--   Engenharia Civil
-    [Link](https://docs.google.com/spreadsheets/d/1_sWHmYWjqMk_3qraiUzF49rIc1YKTNoIAwVoNqeP0SI/edit?usp=sharing)
+-   Engenharia Química
+    [Link]()
 
 
 ## Ementa

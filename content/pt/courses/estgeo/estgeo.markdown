@@ -1,7 +1,7 @@
 ---
 title: 📐 Estatística aplicada à Geotecnia
 summary: Curso sobre Estatística Básica aplicada à Geotecnia, com abordagem no pacote [leem](/project/leem/index.html).
-date: "2025-03-27 07:08:08"
+date: "2025-03-27 07:28:30"
 type: book
 weight: 2
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -56,6 +56,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< spoiler text="Aula 01 - Análise descritiva">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Análise descritiva
 {{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/SaN4dHiXZhMM4TSd7)
+{{< icon name="r-project" pack="fab" >}} {{% staticref "estgeo/aula09.R" "newtab" %}} *Script* Aula 09{{% /staticref %}}
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [{{< icon name="book" pack="fas" >}} Livro Estatística Aplicada à Geotecnia](https://bendeivide.github.io/book-estgeo/), [Capítulo 2](https://bendeivide.github.io/book-estgeo/cap02.html)
    - [{{< icon name="book" pack="fas" >}} Livro Estatística e Probabilidade Aplicada às Engenharias e Ciências](https://bendeivide.github.io/book-epaec/), [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html), [Capítulo 3](https://bendeivide.github.io/book-epaec/cap03.html) e [Capítulo 4](https://bendeivide.github.io/book-epaec/cap04.html)
