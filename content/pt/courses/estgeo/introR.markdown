@@ -1,7 +1,7 @@
 ---
 title: 📈 Introdução ao R
 summary: Curso voltado para introduzir sobre a Linguagem [R](https://www.r-project.org/).
-date: "2025-03-17 18:38:55"
+date: "2025-03-27 06:42:26"
 type: book
 weight: 1
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -55,6 +55,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 05. Importando dados
 06. Funções
 07. Pacotes
+08. Perguntas/Respostas
 {{< /spoiler >}}
 
 ## Aulas
@@ -176,6 +177,12 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< spoiler text="Aula 08 - (Ao vivo) Perguntas/Respostas e dúvidas">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Aula de dúvidas realizada via MEET | 17/03/2025
 {{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/CBx5K8adv5s2Mu2DA)
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+
+{{< youtube Y0dMDiD6Mag>}}
+<br/>
 
 
 {{< /spoiler >}}

@@ -1,7 +1,7 @@
 ---
 title: 📐 Estatística aplicada à Geotecnia
 summary: Curso sobre Estatística Básica aplicada à Geotecnia, com abordagem no pacote [leem](/project/leem/index.html).
-date: "2025-03-10 15:54:03"
+date: "2025-03-27 07:08:08"
 type: book
 weight: 2
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -16,7 +16,7 @@ Curso sobre Estatística Básica aplicada à Geotecnia, com abordagem no pacote 
 
 ## Apresentação
 
-Em termos gerais, abordaremos: ...
+Em termos gerais, apresentaremos de forma aplicada, usando o R, os assuntos sobre o que denominamos de Estatística Básica, que compreende: Coleta, organização e apresentação de dados; medidas de posição, dispersão, assimetria e curtose; probabilidade; distribuições especiais de probabilidade; distribuições amostrais; inferência e teoria da decisão; regressão e correlação linear.
 
 </br>
 
@@ -26,7 +26,14 @@ Em termos gerais, abordaremos: ...
 
 ## Onde?
 
-- canal: <http://youtube.com/bendeivide>
+- <i class="fas fa-route"></i> O curso será ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
+    Paraopeba ([CAP](http://ufsj.edu.br/cap/)), no formato *online* via Youtube;
+- <i class="fas fa-calendar-day"></i> Março/Abril 2025
+- <i class="fab fa-youtube"></i> <https://youtube.com/bendeivide>
+
+## <i class="fas fa-map"></i>  Tópicos abordados {id="topicos" title="Clique aqui!"}
+
+Coleta, organização e apresentação de dados; medidas de posição, dispersão, assimetria e curtose; probabilidade; distribuições especiais de probabilidade; distribuições amostrais; inferência e teoria da decisão; regressão e correlação linear.
 
 
 ## Ementa
@@ -34,92 +41,34 @@ Em termos gerais, abordaremos: ...
 Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestre a demanda necessária
 
 {{< spoiler text="Acesse a ementa do curso">}}
-1. INTRODUÇÃO
+01. Análise descritiva
+02. Probabilidades
+03. Distribuições Amostrais
+04. Inferência Estatística
+05. Teoria de decisão
+06. Regressão e Correlação
+07. Perguntas/Respostas
 {{< /spoiler >}}
+
 
 ## Aulas
 
-{{< spoiler text="Aula 01 - Introdução e ferramentas para o curso">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Introdução e ferramentas para o curso
+{{< spoiler text="Aula 01 - Análise descritiva">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Análise descritiva
+{{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/SaN4dHiXZhMM4TSd7)
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística Aplicada à Geotecnia](https://bendeivide.github.io/book-estgeo/), [Capítulo 2](https://bendeivide.github.io/book-estgeo/cap02.html)
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística e Probabilidade Aplicada às Engenharias e Ciências](https://bendeivide.github.io/book-epaec/), [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html), [Capítulo 3](https://bendeivide.github.io/book-epaec/cap03.html) e [Capítulo 4](https://bendeivide.github.io/book-epaec/cap04.html)
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística Básica Aplicada às Ciências Agrárias](https://bendeivide.github.io/book-epaec/), [Capítulo 2](https://bendeivide.github.io/book-estbasica/cap02.html), [Capítulo 3](https://bendeivide.github.io/book-estbasica/cap03.html) e [Capítulo 4](https://bendeivide.github.io/book-estbasica/cap04.html)
+   - [<i class="fas fa-chalkboard-teacher"></i>  Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
    - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
 
 {{< icon name="youtube" pack="fab" >}} Vídeo
 
-{{< youtube  B2D8SrzKlkc>}}
+{{< youtube  XCgqTdwDDP8>}}
 <br/>
 
 {{< /spoiler >}}
-
-{{< spoiler text="Aula 02 - O que é um Modelo Linear?">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - O que é um Modelo Linear?
-{{< icon name="file-pdf" pack="fas" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula02/nota02.pdf" target="_blank">Notas da aula 2</a>
-{{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
-   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
-
-{{< icon name="youtube" pack="fab" >}} Vídeo
-
-{{< youtube  5IRAFg1C6sI>}}
-<br/>
-
-{{< /spoiler >}}
-
-{{< spoiler text="Aula 03 - Regressão Linear Simples: Estimação">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Regressão Linear Simples: Estimação
-{{< icon name="file-pdf" pack="fas" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula03/nota03.pdf" target="_blank">Notas da aula 3</a>
-{{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula03/aula03.R" target="_blank">*Script* da aula 3</a>
-{{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
-   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
-
-{{< icon name="youtube" pack="fab" >}} Vídeo
-
-{{< youtube  9WBb0E9Pl8s>}}
-<br/>
-
-{{< /spoiler >}}
-
-{{< spoiler text="Aula 04 - Regressão Linear Simples: Interpretação">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Regressão Linear Simples: Estimação
-{{< icon name="file-pdf" pack="fas" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula04/nota04.pdf" target="_blank">Notas da aula 4</a>
-{{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
-   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
-
-{{< icon name="youtube" pack="fab" >}} Vídeo
-
-{{< youtube  ATFmXfnk8Qc>}}
-<br/>
-
-{{< /spoiler >}}
-
-{{< spoiler text="Aula 05 - Regressão Linear Simples: Significância">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Regressão Linear Simples: Significância
-{{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula05/aula05.R" target="_blank">*Script* Aula 5</a>
-{{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
-   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
-
-{{< icon name="youtube" pack="fab" >}} Vídeo
-
-{{< youtube  0LivcenOkZw>}}
-<br/>
-
-{{< /spoiler >}}
-
-
 
 
 
