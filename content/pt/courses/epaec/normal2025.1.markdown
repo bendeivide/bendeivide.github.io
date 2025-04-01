@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2025.1
-date: "2025-03-24 20:37:13"
+date: "2025-04-01 06:42:15"
 type: book
 weight: 8
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -397,7 +397,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 <a href="https://docs.google.com/document/d/1rQ4MmpoFRLgUBbt7zktcAEaTODB9WFViY1dWTdnjVC0/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
 {{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>, {{% staticref "epaec/2025.1/EPAEC2025.1_aula03.R" "newtab" %}}*Script* Aula 3 (2025.1){{% /staticref %}}
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
