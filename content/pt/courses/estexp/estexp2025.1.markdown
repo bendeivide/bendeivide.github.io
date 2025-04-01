@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-03-27 20:07:02"
+date: "2025-04-01 07:21:02"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -46,8 +46,8 @@ Em termos gerais, abordaremos: delineamentos experimentais e de tratamentos; sup
 <img src="/pt/courses/estexp/estexp2025.1_files/figure-html/unnamed-chunk-1-1.png" width="110%" />
 
 -   [Cronograma de
-    aulas](https://docs.google.com/document/d/1hRi3xUmul45g9hcU5TP33rbQhnJyRHIHBWVzrUl-vMk/edit?usp=sharing):
-    {{< gdocs src="https://docs.google.com/document/d/1hRi3xUmul45g9hcU5TP33rbQhnJyRHIHBWVzrUl-vMk/edit?usp=sharing" >}}
+    aulas](https://docs.google.com/document/d/167FrBQ_7zbjMeTTj97N9kRCXmItR1T_FUgCN2MWEU3g/edit?usp=sharing):
+    {{< gdocs src="https://docs.google.com/document/d/167FrBQ_7zbjMeTTj97N9kRCXmItR1T_FUgCN2MWEU3g/edit?usp=sharing" >}}
 
 ## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
 
@@ -126,8 +126,10 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 ## Aulas
 
-{{< spoiler text="Aula 01 - Introdução e ferramentas para o curso">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Introdução e ferramentas para o curso
+{{< spoiler text="Aula 01 - O papel da estatística nas Engenharias">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - O papel da estatística nas Engenharias
+
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
    - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
@@ -135,73 +137,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< icon name="youtube" pack="fab" >}} Vídeo
 
-{{< youtube  B2D8SrzKlkc>}}
-<br/>
-
-{{< /spoiler >}}
-
-{{< spoiler text="Aula 02 - O que é um Modelo Linear?">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - O que é um Modelo Linear?
-{{< icon name="file-pdf" pack="fas" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula02/nota02.pdf" target="_blank">Notas da aula 2</a>
-{{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
-   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
-
-{{< icon name="youtube" pack="fab" >}} Vídeo
-
-{{< youtube  5IRAFg1C6sI>}}
-<br/>
-
-{{< /spoiler >}}
-
-{{< spoiler text="Aula 03 - Regressão Linear Simples: Estimação">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Regressão Linear Simples: Estimação
-{{< icon name="file-pdf" pack="fas" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula03/nota03.pdf" target="_blank">Notas da aula 3</a>
-{{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula03/aula03.R" target="_blank">*Script* da aula 3</a>
-{{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
-   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
-
-{{< icon name="youtube" pack="fab" >}} Vídeo
-
-{{< youtube  9WBb0E9Pl8s>}}
-<br/>
-
-{{< /spoiler >}}
-
-{{< spoiler text="Aula 04 - Regressão Linear Simples: Interpretação">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Regressão Linear Simples: Estimação
-{{< icon name="file-pdf" pack="fas" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula04/nota04.pdf" target="_blank">Notas da aula 4</a>
-{{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
-   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
-
-{{< icon name="youtube" pack="fab" >}} Vídeo
-
-{{< youtube  ATFmXfnk8Qc>}}
-<br/>
-
-{{< /spoiler >}}
-
-{{< spoiler text="Aula 05 - Regressão Linear Simples: Significância">}}
-{{< icon name="pen-fancy" pack="fas" >}} Tema - Regressão Linear Simples: Significância
-{{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/rlm/2024/aula05/aula05.R" target="_blank">*Script* Aula 5</a>
-{{< icon name="book-reader" pack="fas" >}} Material de apoio
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
-   - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
-   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
-
-{{< icon name="youtube" pack="fab" >}} Vídeo
-
-{{< youtube  0LivcenOkZw>}}
+{{< youtube  >}}
 <br/>
 
 {{< /spoiler >}}
