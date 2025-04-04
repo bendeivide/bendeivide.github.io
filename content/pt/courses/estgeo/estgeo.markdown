@@ -1,7 +1,7 @@
 ---
 title: 📐 Estatística aplicada à Geotecnia
 summary: Curso sobre Estatística Básica aplicada à Geotecnia, com abordagem no pacote [leem](/project/leem/index.html).
-date: "2025-03-27 07:28:30"
+date: "2025-04-04 17:43:15"
 type: book
 weight: 2
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -53,7 +53,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 ## Aulas
 
-{{< spoiler text="Aula 01 - Análise descritiva">}}
+{{< spoiler text="Aula 09 - Análise descritiva">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Análise descritiva
 {{< icon name="signature" pack="fas" >}} Lista de presença [Link](https://forms.gle/SaN4dHiXZhMM4TSd7)
 {{< icon name="r-project" pack="fab" >}} {{% staticref "estgeo/aula09.R" "newtab" %}} *Script* Aula 09{{% /staticref %}}
@@ -71,7 +71,23 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< /spoiler >}}
 
+{{< spoiler text="Aula 10 - Probabilidades">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Probabilidades
+{{< icon name="signature" pack="fa" >}} Lista de presença [Link](https://forms.gle/Uu6cHU7jdSw4n5Cp8)
+{{< icon name="pen" pack="fa" >}} {{% staticref "estgeo/EstGeo_Aula10.pdf" "newtab" %}} Notas da Aula 10{{% /staticref %}}
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística Aplicada à Geotecnia](https://bendeivide.github.io/book-estgeo/), [Capítulo 2](https://bendeivide.github.io/book-estgeo/cap02.html)
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística e Probabilidade Aplicada às Engenharias e Ciências](https://bendeivide.github.io/book-epaec/), [Capítulo 5](https://bendeivide.github.io/book-epaec/cap05.html) e [Capítulo 6](https://bendeivide.github.io/book-epaec/cap06.html) 
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística Básica Aplicada às Ciências Agrárias](https://bendeivide.github.io/book-epaec/), [Capítulo 5](https://bendeivide.github.io/book-estbasica/cap05.html) e  [Capítulo 6](https://bendeivide.github.io/book-estbasica/cap06.html) 
+   - [<i class="fas fa-chalkboard-teacher"></i>  Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
 
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+{{< youtube  XCgqTdwDDP8>}}
+<br/>
+
+{{< /spoiler >}}
 
 
 ## Quiz
