@@ -1,6 +1,6 @@
 ---
 title: 📝 Ensino normal 2025.1
-date: "2025-04-04 07:00:25"
+date: "2025-04-04 08:45:50"
 type: book
 weight: 8
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -315,7 +315,17 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 
 {{< youtube noXqEGIZak8>}}
 
+
+
 {{< /spoiler >}}
+
+## <i class="fab fa-r-project"></i> -> <i class="fas fa-file-pdf"></i> Modelo de Relatório R para PDF {id="relatorio" title="Clique aqui!"}
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vyREV9ciI7M?si=I0lBuIZBIMY6cd8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>
 
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
 
