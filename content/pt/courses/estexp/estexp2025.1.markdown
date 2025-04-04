@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-04-01 07:21:02"
+date: "2025-04-04 10:52:16"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -73,9 +73,9 @@ Segue o link: <https://bendeivide.github.io/relatorio-estexp>
 
 - [🎓 ANNE KARIS DE AGUIAR ROSA]()
 - [🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA]()
-- [🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO]()
-- [🎓 Kaleb Aquino Mileib]()
-- [🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO]()
+- [🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO](https://gstvcardoso.github.io)
+- [🎓 Kaleb Aquino Mileib](https://kamileib.github.io)
+- [🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO](https://nicolaswillianribeiro.github.io)
 - [🎓 YASMIN ARIELLA SILVA SOUZA]()
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
