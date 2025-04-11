@@ -136,12 +136,10 @@ Segue o link: <https://bendeivide.github.io/relatorio-estexp>
 
 ## Relatório dos alunos
 
-- [🎓 ANNE KARIS DE AGUIAR ROSA]()
-- [🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA]()
+- [🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA](https://flpmenezes.github.io)
 - [🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO](https://gstvcardoso.github.io)
 - [🎓 Kaleb Aquino Mileib](https://kamileib.github.io)
 - [🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO](https://nicolaswillianribeiro.github.io)
-- [🎓 YASMIN ARIELLA SILVA SOUZA]()
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
@@ -200,10 +198,97 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
    - [Curso {{< icon name="r-project" pack="fab" >}} (Nível Intermediário)](https://bendeivide.github.io/courses/cursor/nintermediario/)
    - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
 
-{{< icon name="youtube" pack="fab" >}} Vídeo
 
-{{< youtube  >}}
-<br/>
+
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 02 - Introdução ao R">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Introdução ao R
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Introdução ao R](https://bendeivide.github.io/courses/estexp/intror/)
+
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 03 - Criando projetos e relatórios web">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Criando projetos e relatórios web
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Rapidinhas do R](https://bendeivide.github.io/project/rapidinhasr/)
+   - [Documentações em R](https://www.youtube.com/watch?v=E7wbzTLoxhM&list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo&index=11)
+
+<i class="fa fa-pen"></i> Relatório 01 
+
+   - <i class="fa fa-calendar"></i> Entrega: 01/04/2025, 23h59min.
+   - <i class="fa fa-quote-left"></i> Assunto: Criar um banco de dados simulados em sua área, e aplicar as técnicas da estatística descritiva
+   - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
+   
+
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 04 - Sincronizando os projetos via GitHub, usando R+RStudio">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Sincronizando os projetos via GitHub, usando R+RStudio
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Rapidinhas do R](https://bendeivide.github.io/project/rapidinhasr/)
+   - [Documentações em R](https://www.youtube.com/watch?v=E7wbzTLoxhM&list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo&index=11)
+
+<i class="fa fa-pen"></i> Relatório 02 
+
+   - <i class="fa fa-calendar"></i> Entrega: 10/04/2025, 16h59min.
+   - <i class="fa fa-quote-left"></i> Assunto: Relacionar a distribuição da estatística do teste F ao assunto das distribuições amostrais
+   - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
+   
+
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 05 - Revisão sobre Distribuições amostrais">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Revisão sobre Distribuições amostrais
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Rapidinhas do R](https://bendeivide.github.io/project/rapidinhasr/)
+   - [Documentações em R](https://www.youtube.com/watch?v=E7wbzTLoxhM&list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo&index=11)
+
+<i class="fa fa-pen"></i> Relatório 02 
+
+   - <i class="fa fa-calendar"></i> Entrega: 10/04/2025, 16h59min.
+   - <i class="fa fa-quote-left"></i> Assunto: Relacionar a distribuição da estatística do teste F ao assunto das distribuições amostrais
+   - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
+   
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 06 - Revisão sobre Teste de Hipóteses">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Revisão sobre Teste de Hipóteses
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Rapidinhas do R](https://bendeivide.github.io/project/rapidinhasr/)
+   - [Documentações em R](https://www.youtube.com/watch?v=E7wbzTLoxhM&list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo&index=11)
+
+<i class="fa fa-pen"></i> Relatório 03
+
+   - <i class="fa fa-calendar"></i> Entrega: 17/04/2025, 23h59min.
+   - <i class="fa fa-quote-left"></i> Assunto: 
+     - Avaliar via Monte Carlo, o teste Z: $ z = (\bar{X} - \mu) / (\sigma / \sqrt{n}) $;
+       - Erro tipo I: $ \alpha = 0,01$; $ \alpha = 0,05 $ e $ \alpha = 0,10 $ 
+       - Poder do teste: Cenário 1 ( $ 1\sigma_{\bar{X}} $ ), Cenário 2 ( $ 2\sigma_{\bar{X}} $ ) e Cenário 3 ( $ 3\sigma_{\bar{X}} $ );
+       - simule usando `rnorm(n = 30, mean = 90, sd = 4)`;
+       - realize 10.000 simulações para cada situação.
+   - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
+   
+
+
 
 {{< /spoiler >}}
 

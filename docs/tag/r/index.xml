@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/r/</link>
       <atom:link href="http://bendeivide.github.io/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 04 Apr 2025 10:52:16 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 11 Apr 2025 06:48:48 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -15,7 +15,7 @@
     <item>
       <title>⚗️ Ensino normal 2025.1</title>
       <link>http://bendeivide.github.io/courses/estexp/estexp2025.1/</link>
-      <pubDate>Fri, 04 Apr 2025 10:52:16 -0300</pubDate>
+      <pubDate>Fri, 11 Apr 2025 06:48:48 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/estexp/estexp2025.1/</guid>
       <description>&lt;p&gt;Curso sobre Estatística Experimental, com abordagem na linguagem R.&lt;/p&gt;
 &lt;p&gt;
@@ -77,12 +77,10 @@ aulas&lt;/a&gt;:
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;relatório-dos-alunos&#34;&gt;Relatório dos alunos&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 ANNE KARIS DE AGUIAR ROSA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://flpmenezes.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gstvcardoso.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kamileib.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Kaleb Aquino Mileib&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://nicolaswillianribeiro.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 YASMIN ARIELLA SILVA SOUZA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;notas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-file-alt&#34;&gt;&lt;/i&gt; Notas&lt;/h2&gt;
 &lt;ul&gt;
@@ -158,19 +156,98 @@ aulas&lt;/a&gt;:
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=HSwb29EvCv8&amp;amp;list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
 &lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Playlist da disciplina de Estatística e Probabilidade&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Vídeo&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;br/&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Aula 02 - Introdução ao R&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Introdução ao R&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/courses/estexp/intror/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução ao R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Aula 03 - Criando projetos e relatórios web&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Criando projetos e relatórios web&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=E7wbzTLoxhM&amp;amp;list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo&amp;amp;index=11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentações em R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fa fa-pen&#34;&gt;&lt;/i&gt; Relatório 01&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-calendar&#34;&gt;&lt;/i&gt; Entrega: 01/04/2025, 23h59min.&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-quote-left&#34;&gt;&lt;/i&gt; Assunto: Criar um banco de dados simulados em sua área, e aplicar as técnicas da estatística descritiva&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-upload&#34;&gt;&lt;/i&gt; Envio: Página do relatório GitHub&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Aula 04 - Sincronizando os projetos via GitHub, usando R+RStudio&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Sincronizando os projetos via GitHub, usando R+RStudio&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=E7wbzTLoxhM&amp;amp;list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo&amp;amp;index=11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentações em R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fa fa-pen&#34;&gt;&lt;/i&gt; Relatório 02&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-calendar&#34;&gt;&lt;/i&gt; Entrega: 10/04/2025, 16h59min.&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-quote-left&#34;&gt;&lt;/i&gt; Assunto: Relacionar a distribuição da estatística do teste F ao assunto das distribuições amostrais&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-upload&#34;&gt;&lt;/i&gt; Envio: Página do relatório GitHub&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Aula 05 - Revisão sobre Distribuições amostrais&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Revisão sobre Distribuições amostrais&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=E7wbzTLoxhM&amp;amp;list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo&amp;amp;index=11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentações em R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fa fa-pen&#34;&gt;&lt;/i&gt; Relatório 02&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-calendar&#34;&gt;&lt;/i&gt; Entrega: 10/04/2025, 16h59min.&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-quote-left&#34;&gt;&lt;/i&gt; Assunto: Relacionar a distribuição da estatística do teste F ao assunto das distribuições amostrais&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-upload&#34;&gt;&lt;/i&gt; Envio: Página do relatório GitHub&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Aula 06 - Revisão sobre Teste de Hipóteses&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Revisão sobre Teste de Hipóteses&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/project/rapidinhasr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rapidinhas do R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=E7wbzTLoxhM&amp;amp;list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo&amp;amp;index=11&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentações em R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fa fa-pen&#34;&gt;&lt;/i&gt; Relatório 03&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-calendar&#34;&gt;&lt;/i&gt; Entrega: 17/04/2025, 23h59min.&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-quote-left&#34;&gt;&lt;/i&gt; Assunto:
+&lt;ul&gt;
+&lt;li&gt;Avaliar via Monte Carlo, o teste Z: $ z = (\bar{X} - \mu) / (\sigma / \sqrt{n}) $;
+&lt;ul&gt;
+&lt;li&gt;Erro tipo I: $ \alpha = 0,01$; $ \alpha = 0,05 $ e $ \alpha = 0,10 $&lt;/li&gt;
+&lt;li&gt;Poder do teste: Cenário 1 ( $ 1\sigma_{\bar{X}} $ ), Cenário 2 ( $ 2\sigma_{\bar{X}} $ ) e Cenário 3 ( $ 3\sigma_{\bar{X}} $ );&lt;/li&gt;
+&lt;li&gt;simule usando &lt;code&gt;rnorm(n = 30, mean = 90, sd = 4)&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;realize 10.000 simulações para cada situação.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-upload&#34;&gt;&lt;/i&gt; Envio: Página do relatório GitHub&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
   &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
