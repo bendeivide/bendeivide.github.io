@@ -2,9 +2,9 @@
 title: Planejamento e Análise de Experimentos
 summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro podem ser enviadas para livrosdeben@gmail.com"
 tags:
-- bookestexp
+- bookpae
 categories: ["R", "Estatística", "Experimentação", "Engenharias"]
-date: "2025-04-14 16:57:31"
+date: "2025-04-14 19:13:02"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -22,11 +22,11 @@ links:
 - icon: book-open
   icon_pack: fas
   name: Bookdown
-  url: https://bendeivide.github.io/book-estexp/
+  url: https://bendeivide.github.io/book-pae/
 - icon: github
   icon_pack: fab
   name: Acesse o projeto
-  url: https://github.com/bendeivide/book-estexp
+  url: https://github.com/bendeivide/book-pae/
 - icon: twitter
   icon_pack: fab
   name: Siga-me

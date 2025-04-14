@@ -62,6 +62,8 @@ content:
     tag: booklatex
   - name: ESTGEO
     tag: bookestgeo
+  - name: PAE
+    tag: bookpae
 
 
 design:
