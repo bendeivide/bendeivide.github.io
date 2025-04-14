@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-04-11 06:48:48"
+date: "2025-04-14 16:37:52"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -223,11 +223,24 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
    - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
    
 
-
-
 {{< /spoiler >}}
 
 
+{{< spoiler text="Aula 07 - Princípios básicos da experimentação">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Princípios básicos da experimentação
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s07/" target="_blank"> Aula
+07</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro PAE](https://bendeivide.github.io/books/pae/)
+   - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
+
+
+   
+
+{{< /spoiler >}}
 
 
 

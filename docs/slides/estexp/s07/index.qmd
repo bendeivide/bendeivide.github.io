@@ -1,0 +1,240 @@
+---
+title: "Estatística Experimental"
+subtitle: "Aula 07 | Princípios básicos da experimentação"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[ESTEXP](https://bendeivide.github.io/courses/estexp/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2025:
+
+<a href="https://bendeivide.github.io/books/pae/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Introdução {background-image="cap02.png"}
+
+- A experimentação é fundamental para engenheiros resolverem problemas reais.
+- Permite avaliar, comparar e otimizar sistemas e processos.
+- Baseia-se em princípios estatísticos e planejamento adequado.
+
+
+# Por que experimentar na engenharia? {background-image="cap02.png"}
+
+- **Engenharia Civil**: Avaliar resistência de materiais, desempenho de estruturas.
+- **Engenharia Mecatrônica**: Otimizar controle de sistemas, calibrar sensores.
+- Decisões fundamentadas em dados → confiabilidade e segurança.
+
+
+# Elementos de um experimento {background-image="cap02.png"}
+
+- **Fatores**: variáveis controladas (tipo de concreto, velocidade do motor).
+- **Níveis**: valores testados para cada fator (traços, RPMs).
+- **Tratamentos**: combinações específicas dos níveis.
+- **Respostas**: o que se mede (resistência, erro do sensor, vibração).
+
+
+
+# Princípios da experimentação (Fisher) {background-image="cap02.png"}
+
+## 1. Repetição {background-image="cap02.png"}
+
+- Replicar tratamentos → estimar variabilidade.
+- Aumenta precisão dos resultados.
+
+. . .
+
+> **Exemplo Civil**: Testar 5 corpos de prova por tipo de concreto.
+
+> **Exemplo Mecatrônica**: Rodar o mesmo teste de posição com 10 repetições para estimar erro médio do encoder.
+
+
+
+## 2. Casualização {background-image="cap02.png"}
+
+- Sorteio na alocação de tratamentos → evita viés sistemático.
+- Neutraliza efeitos de fatores não controlados.
+
+. . .
+
+> **Exemplo Civil**: Sortear ordem de ensaio dos corpos de prova para evitar influência do tempo de cura.
+
+> **Exemplo Mecatrônica**: Aleatorizar a ordem de testes de diferentes algoritmos de controle para evitar aquecimento do motor como fonte de variável indesejável.
+
+
+## 3. Controle local (ou blocagem) {background-image="cap02.png"}
+
+- Agrupar unidades experimentais semelhantes → reduzir variabilidade.
+
+
+. . .
+
+> **Exemplo Civil**: Blocar os ensaios por tipo de solo (argiloso vs arenoso).
+
+> **Exemplo Mecatrônica**: Blocar testes de resposta do atuador por temperatura ambiente (25°C e 35°C).
+
+
+
+## Exemplo 1 — Engenharia Civil {background-image="cap02.png"}
+
+**Problema**: Comparar a resistência à compressão de dois traços de concreto (A e B).
+
+- Fator: Tipo de traço (A, B)
+- Níveis: 2
+- Resposta: Resistência (MPa)
+- Repetição: 5 corpos de prova por traço
+- Casualização: Sorteio da ordem de moldagem
+- Controle local: Moldagem feita no mesmo dia (mesmo lote de cimento)
+
+
+## Exemplo 2 — Engenharia Mecatrônica {background-image="cap02.png"}
+
+**Problema**: Avaliar o desempenho de três algoritmos de controle de velocidade.
+
+- Fator: Algoritmo (PID, LQR, fuzzy)
+- Níveis: 3
+- Resposta: Erro médio de velocidade (RPM)
+- Repetição: 10 execuções por algoritmo
+- Casualização: Ordem dos testes sorteada
+- Controle local: Temperatura do motor monitorada e mantida constante
+
+
+# 🧠 Filosofia do Planejamento Experimental {background-image="cap02.png"}
+
+> “Se você não pode medir, você não pode melhorar.” – Lord Kelvin
+
+. . .
+
+- O planejamento experimental é mais do que estatística.
+- É uma **forma de pensar**: sistemática, crítica e controlada.
+- Surge da **necessidade de entender causas reais**, e não apenas observar efeitos.
+
+
+
+## O que caracteriza a filosofia do planejamento? {background-image="cap02.png"}
+
+- ✅ Curiosidade técnica: *O que realmente afeta minha variável de interesse?*  
+- ✅ Organização: *Como vou isolar os efeitos dos fatores?*  
+- ✅ Eficiência: *Como extrair o máximo de informação com o mínimo de ensaios?*  
+- ✅ Controle: *Como reduzir a influência de ruído e incerteza?*  
+- ✅ Repetição e humildade: *Aceitar que variabilidade existe e precisa ser quantificada.*
+
+
+# Exemplos de má filosofia (sem planejamento) {background-image="cap02.png"}
+
+- Testar “na intuição” → sem controle de variáveis.
+- Mudar vários fatores ao mesmo tempo → não sabemos o que causou o efeito.
+- Confiar em **um único resultado** → sem repetição = sem confiança.
+
+
+## Filosofia em ação — Engenharia Civil {background-image="cap02.png"}
+
+- Antes de moldar concretos, perguntar:
+  - Que fatores *de fato* afetam a resistência?
+  - O tipo de cimento, a relação a/c, o tempo de cura?
+- Planejar ensaios que revelem essas influências **de forma isolada e combinada**.
+
+
+
+# Filosofia em ação — Mecatrônica {background-image="cap02.png"}
+
+- Não basta “testar algoritmos” de controle.
+- Pensar:
+  - Em que condições eles falham?
+  - O comportamento muda com a temperatura?
+  - A planta é linear ou não-linear?
+- Planejar testes que revelem **o porquê** do desempenho.
+
+
+## Conclusão: do improviso ao experimento {background-image="cap02.png"}
+
+| Prática empírica       | Filosofia experimental         |
+|------------------------|-------------------------------|
+| Tentativa e erro       | Planejamento estruturado       |
+| Teste único            | Repetições + variabilidade     |
+| “Vamos ver o que dá”   | Hipótese + controle + análise  |
+| Resultados duvidosos   | Confiabilidade estatística     |
+
+
+
+## Pensamento final {background-image="cap02.png"}
+
+> “Planejar um experimento é o primeiro experimento.”  
+> — G. E. P. Box
+
+
+# Conclusão {background-image="cap02.png"}
+
+- A experimentação é essencial para validação de soluções em engenharia.
+- Os princípios de **Fisher** (repetição, aleatorização e controle local) garantem resultados confiáveis.
+- Planejamento adequado evita retrabalho e erros de interpretação.
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/estexp"  target="_blank" >bendeivide.github.io/courses/estexp</a> </center>
+
+
+# Referências {background-image="cap02.png"}
+
+
+
