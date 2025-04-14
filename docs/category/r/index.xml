@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 14 Apr 2025 16:37:52 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 14 Apr 2025 16:57:31 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -3323,6 +3323,41 @@ href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main
 &lt;!-- Acesse: &lt;http://bendeivide.github.io/cursor/nbasico#rwork&gt; --&gt;
 &lt;!--&lt;/p&gt;
 &lt;/details&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Planejamento e Análise de Experimentos</title>
+      <link>http://bendeivide.github.io/books/estexp/</link>
+      <pubDate>Mon, 14 Apr 2025 16:57:31 -0300</pubDate>
+      <guid>http://bendeivide.github.io/books/estexp/</guid>
+      <description>&lt;h1 id=&#34;resumo&#34;&gt;Resumo&lt;/h1&gt;
+&lt;p&gt;Este livro tem como objetivo apresentar de forma clara, prática e aplicada os principais conceitos de &lt;strong&gt;planejamento e análise de experimentos&lt;/strong&gt;, com foco na &lt;strong&gt;resolução de problemas reais de engenharia&lt;/strong&gt;. A obra busca integrar fundamentos estatísticos com a vivência prática das engenharias, oferecendo aos leitores uma abordagem orientada à &lt;strong&gt;tomada de decisão baseada em dados&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;tópicos-abordados&#34;&gt;Tópicos abordados&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fundamentos estatísticos&lt;/strong&gt;: revisão sobre distribuições amostrais, inferência e testes de hipóteses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Planejamento de experimentos&lt;/strong&gt;: definição de objetivos, escolha das variáveis (respostas e fatores), aleatorização, repetição e controle da variabilidade.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Delimitação de experimentos em engenharia&lt;/strong&gt;: estratégias para a condução de testes laboratoriais, ensaios de campo e simulações computacionais.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Modelos estatísticos aplicados&lt;/strong&gt;: análise de variância (ANOVA), regressão linear, modelos fatoriais e superfícies de resposta.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Estudos de caso reais&lt;/strong&gt;: aplicação dos métodos em problemas típicos da engenharia civil, mecatrônica, bioprocessos, química, telecomunicações, entre outras.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Softwares de apoio&lt;/strong&gt;: uso de ferramentas como R para análise de dados e modelagem experimental.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;A proposta é que o leitor compreenda que &lt;strong&gt;planejar bem um experimento é tão importante quanto analisá-lo corretamente&lt;/strong&gt;, evitando desperdício de recursos e aumentando a confiabilidade dos resultados. Com linguagem acessível, o livro é indicado para estudantes de graduação, pós-graduação e profissionais que buscam aprimorar sua capacidade de aplicar métodos estatísticos no cotidiano da engenharia.&lt;/p&gt;
+&lt;h2 id=&#34;autor&#34;&gt;Autor&lt;/h2&gt;
+&lt;p&gt;O livro está sendo desenvolvido por: &lt;a href=&#34;http://bendeivide.github.io/author/ben-deivide/&#34;&gt;Ben Dêivide&lt;/a&gt; (UFSJ).&lt;/p&gt;
+</description>
     </item>
     
     <item>

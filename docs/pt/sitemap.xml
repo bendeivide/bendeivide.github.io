@@ -52,7 +52,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -62,7 +62,11 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tag/bookestexp/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -70,6 +74,26 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/categories/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/engenharias/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/estatistica/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/experimentacao/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/estexp/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2025-04-14T16:57:31-03:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod></url>
@@ -86,8 +110,6 @@
   <url>
     <loc>http://bendeivide.github.io/tag/estatistica/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/estatistica/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/tag/estatistica-experimental/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/experimental/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod></url>
@@ -99,18 +121,6 @@
     <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2025-04-14T16:37:52-03:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/category/geotecnia/</loc><lastmod>2025-04-04T17:43:15-03:00</lastmod></url>
   <url>
@@ -141,8 +151,6 @@
     <loc>http://bendeivide.github.io/courses/estgeo/</loc><lastmod>2025-03-11T08:18:07-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/bookestgeo/</loc><lastmod>2025-03-10T18:55:27-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/</loc><lastmod>2025-03-10T18:55:27-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/books/estgeo/</loc><lastmod>2025-03-10T18:55:27-03:00</lastmod></url>
   <url>
