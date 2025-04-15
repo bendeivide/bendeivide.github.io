@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 14 Apr 2025 19:13:02 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 15 Apr 2025 13:31:09 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estatística</title>
@@ -365,7 +365,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>⚗️ Ensino normal 2025.1</title>
       <link>http://bendeivide.github.io/courses/estexp/estexp2025.1/</link>
-      <pubDate>Mon, 14 Apr 2025 16:37:52 -0300</pubDate>
+      <pubDate>Tue, 15 Apr 2025 13:31:09 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/estexp/estexp2025.1/</guid>
       <description>&lt;p&gt;Curso sobre Estatística Experimental, com abordagem na linguagem R.&lt;/p&gt;
 &lt;p&gt;
@@ -7003,9 +7003,9 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
     
     <item>
       <title>Planejamento e Análise de Experimentos</title>
-      <link>http://bendeivide.github.io/books/estexp/</link>
-      <pubDate>Mon, 14 Apr 2025 19:13:02 -0300</pubDate>
-      <guid>http://bendeivide.github.io/books/estexp/</guid>
+      <link>http://bendeivide.github.io/books/pae/</link>
+      <pubDate>Tue, 15 Apr 2025 13:28:48 -0300</pubDate>
+      <guid>http://bendeivide.github.io/books/pae/</guid>
       <description>&lt;h1 id=&#34;resumo&#34;&gt;Resumo&lt;/h1&gt;
 &lt;p&gt;Este livro tem como objetivo apresentar de forma clara, prática e aplicada os principais conceitos de &lt;strong&gt;planejamento e análise de experimentos&lt;/strong&gt;, com foco na &lt;strong&gt;resolução de problemas reais de engenharia&lt;/strong&gt;. A obra busca integrar fundamentos estatísticos com a vivência prática das engenharias, oferecendo aos leitores uma abordagem orientada à &lt;strong&gt;tomada de decisão baseada em dados&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;tópicos-abordados&#34;&gt;Tópicos abordados&lt;/h2&gt;

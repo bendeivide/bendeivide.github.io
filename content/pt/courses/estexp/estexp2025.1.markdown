@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-04-14 16:37:52"
+date: "2025-04-15 13:31:09"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
