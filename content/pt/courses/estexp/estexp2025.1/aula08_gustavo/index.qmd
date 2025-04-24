@@ -1,0 +1,52 @@
+---
+title: "Aula 08 | Dados - GUSTAVO HENRIQUE LOURENÇO CARDOSO"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# Informações do experimento
+
+-  🎯 Objetivo: Avaliar o efeito de 4 tipos de aditivo impermeabilizante na absorção de água (%) de blocos de concreto moldados em laboratório.
+- 📋 Estrutura
+  - **Tratamentos**: Tipos de aditivo:
+    - Sem aditivo (Controle)
+    - Aditivo Acrílico
+    - Aditivo Silicone
+    - Aditivo Asfáltico
+  - **Unidades experimentais**: Blocos prismáticos moldados com as mesmas dimensões, cura e materiais
+  - **Repetições**: 5 blocos para cada aditivo
+  - **Variável resposta**: Absorção de água em porcentagem (%), medida segundo a norma NBR 9778
+
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+library(gt)
+set.seed(123)
+
+
+aditivo <- factor(rep(c("Controle", "Acrílico", "Silicone", "Asfáltico"), each = 5))
+
+absorcao <- c(
+  rnorm(5, mean = 12.5, sd = 0.4),  # Controle
+  rnorm(5, mean = 9.2, sd = 0.5),   # Acrílico
+  rnorm(5, mean = 7.8, sd = 0.3),   # Silicone
+  rnorm(5, mean = 8.5, sd = 0.4)    # Asfáltico
+)
+
+dados_blocos <- data.frame(aditivo, absorcao)
+
+# Criar a tabela
+tabela_gt <- gt(dados_blocos) |>
+  fmt_number(
+    columns = absorcao,
+    decimals = 3
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+

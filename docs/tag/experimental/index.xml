@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/experimental/</link>
       <atom:link href="http://bendeivide.github.io/tag/experimental/index.xml" rel="self" type="application/rss+xml" />
     <description>Experimental</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 15 Apr 2025 13:31:09 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 24 Apr 2025 20:21:00 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Experimental</title>
@@ -15,7 +15,7 @@
     <item>
       <title>⚗️ Ensino normal 2025.1</title>
       <link>http://bendeivide.github.io/courses/estexp/estexp2025.1/</link>
-      <pubDate>Tue, 15 Apr 2025 13:31:09 -0300</pubDate>
+      <pubDate>Thu, 24 Apr 2025 20:21:00 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/estexp/estexp2025.1/</guid>
       <description>&lt;p&gt;Curso sobre Estatística Experimental, com abordagem na linguagem R.&lt;/p&gt;
 &lt;p&gt;
@@ -254,12 +254,73 @@ aulas&lt;/a&gt;:
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;Aula 08 - Delineamento Inteiramente Casualizado (DIC)&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Delineamento Inteiramente Casualizado (DIC)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estexp/s08/&#34; target=&#34;_blank&#34;&gt; Aula
+08&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/pae/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Livro PAE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/handouts/estexp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Apostila EstExp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-calendar&#34;&gt;&lt;/i&gt; Entrega: 01/05/2025, 23h59min.&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-quote-left&#34;&gt;&lt;/i&gt; Assunto:
+&lt;ul&gt;
+&lt;li&gt;Analisar um experimento em DIC:
+&lt;ul&gt;
+&lt;li&gt;Análise descritiva:
+&lt;ul&gt;
+&lt;li&gt;Geral: $ \bar{X} $, $ S $ e $ CV $;&lt;/li&gt;
+&lt;li&gt;Em cada tratamento: $ \bar{X} $, $ S $ e $ CV $;&lt;/li&gt;
+&lt;li&gt;Análise gráfica de boxplot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Análise de variância
+&lt;ul&gt;
+&lt;li&gt;hipóteses complementares: $ H_0 $ e $ H_1 $;&lt;/li&gt;
+&lt;li&gt;Tabela da anava;&lt;/li&gt;
+&lt;li&gt;análise gráfica de resíduos;&lt;/li&gt;
+&lt;li&gt;conclusão.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-upload&#34;&gt;&lt;/i&gt; Envio: Página do relatório GitHub&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-database&#34;&gt;&lt;/i&gt; Dados:
+&lt;ul&gt;
+&lt;li&gt;🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./aula08_felipe/index.html&#34;&gt;Banco de dados&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./aula08_gustavo/index.html&#34;&gt;Banco de dados&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎓 Kaleb Aquino Mileib
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./aula08_kaleb/index.html&#34;&gt;Banco de dados&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./aula08_nicolas/index.html&#34;&gt;Banco de dados&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
   &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>

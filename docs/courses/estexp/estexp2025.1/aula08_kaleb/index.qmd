@@ -1,0 +1,48 @@
+---
+title: "Aula 08 | Dados - Kaleb Aquino Mileib"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# Informações do experimento
+
+-  🎯 Objetivo: Avaliar o **erro quadrático médio (EQM)** de 5 algoritmos de controle: **PID, LQR, Fuzzy, Controle Adaptativo, Controle por Redes Neurais**.
+- 📋 Estrutura
+   - **Tratamentos**: 5 controladores
+   - **Repetições**: 6 execuções por controlador
+   - **Variável resposta**: EQM (adimensional)
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+library(gt)
+set.seed(123)
+
+
+controle <- factor(rep(c("PID", "LQR", "Fuzzy", "Adaptativo", "Redes Neurais"), each = 6))
+
+eqm <- c(
+  rnorm(6, mean = 0.35, sd = 0.05),  # PID
+  rnorm(6, mean = 0.28, sd = 0.04),  # LQR
+  rnorm(6, mean = 0.42, sd = 0.06),  # Fuzzy
+  rnorm(6, mean = 0.31, sd = 0.05),  # Adaptativo
+  rnorm(6, mean = 0.25, sd = 0.03)   # Redes Neurais
+)
+
+dados_controle <- data.frame(controle, eqm)
+
+
+# Criar a tabela
+tabela_gt <- gt(dados_controle) |>
+  fmt_number(
+    columns = eqm,
+    decimals = 3
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+
