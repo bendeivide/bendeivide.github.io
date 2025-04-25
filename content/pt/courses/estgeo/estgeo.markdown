@@ -1,7 +1,7 @@
 ---
 title: 📐 Estatística aplicada à Geotecnia
 summary: Curso sobre Estatística Básica aplicada à Geotecnia, com abordagem no pacote [leem](/project/leem/index.html).
-date: "2025-04-17 15:18:14"
+date: "2025-04-25 18:10:58"
 type: book
 weight: 2
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -46,8 +46,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 11. Distribuições Amostrais
 12. Inferência Estatística
 13. Teoria de decisão
-14. Regressão e Correlação
-15. Perguntas/Respostas
+14. Perguntas/Respostas
 {{< /spoiler >}}
 
 
@@ -92,7 +91,6 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< spoiler text="Aula 11 - Distribuições Amostrais">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Distribuições Amostrais
 {{< icon name="signature" pack="fa" >}} Lista de presença [Link](https://forms.gle/ZHhefkRu8F5Jcs9c9)
-{{< icon name="pen" pack="fa" >}} {{% staticref "estgeo/EstGeo_Aula10.pdf" "newtab" %}} Notas da Aula 10{{% /staticref %}}
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [{{< icon name="book" pack="fas" >}} Livro Estatística Aplicada à Geotecnia](https://bendeivide.github.io/book-estgeo/) 
    - [{{< icon name="book" pack="fas" >}} Livro Estatística e Probabilidade Aplicada às Engenharias e Ciências](https://bendeivide.github.io/book-epaec/) 
@@ -111,7 +109,24 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< spoiler text="Aula 12 - Inferência Estatística">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Inferência Estatística
 {{< icon name="signature" pack="fa" >}} Lista de presença [Link](https://forms.gle/TLupNu45KCxZEEkn7)
-{{< icon name="pen" pack="fa" >}} {{% staticref "estgeo/EstGeo_Aula10.pdf" "newtab" %}} Notas da Aula 10{{% /staticref %}}
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística Aplicada à Geotecnia](https://bendeivide.github.io/book-estgeo/) 
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística e Probabilidade Aplicada às Engenharias e Ciências](https://bendeivide.github.io/book-epaec/) 
+   - [{{< icon name="book" pack="fas" >}} Livro Estatística Básica Aplicada às Ciências Agrárias](https://bendeivide.github.io/book-epaec/)
+   - [<i class="fas fa-chalkboard-teacher"></i>  Curso {{< icon name="r-project" pack="fab" >}} (Nível Básico)](https://bendeivide.github.io/courses/cursor/nbasico/)
+   - [{{< icon name="youtube" pack="fab" >}} Playlist da disciplina de Estatística e Probabilidade](https://www.youtube.com/watch?v=HSwb29EvCv8&list=PL-20Z1XFWKR2GatfNSFOwfRvPreZ-nW0D)
+
+{{< icon name="youtube" pack="fab" >}} Vídeo
+
+{{< youtube  JE3xNBgnBXI>}}
+<br/>
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 13 - Teoria de Decisão">}}
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Teoria de Decisão
+{{< icon name="signature" pack="fa" >}} Lista de presença [Link](https://forms.gle/TLupNu45KCxZEEkn7)
+{{< icon name="pen" pack="fa" >}} {{% staticref "estgeo/EstGeo_Aula13.pdf" "newtab" %}} Notas da Aula 13{{% /staticref %}}
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [{{< icon name="book" pack="fas" >}} Livro Estatística Aplicada à Geotecnia](https://bendeivide.github.io/book-estgeo/) 
    - [{{< icon name="book" pack="fas" >}} Livro Estatística e Probabilidade Aplicada às Engenharias e Ciências](https://bendeivide.github.io/book-epaec/) 
