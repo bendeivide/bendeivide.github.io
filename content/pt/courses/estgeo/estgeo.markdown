@@ -1,7 +1,7 @@
 ---
 title: 📐 Estatística aplicada à Geotecnia
 summary: Curso sobre Estatística Básica aplicada à Geotecnia, com abordagem no pacote [leem](/project/leem/index.html).
-date: "2025-04-25 18:10:58"
+date: "2025-04-25 18:16:39"
 type: book
 weight: 2
 categories: ["Geotecnia", "R", "Estatística", "Probabilidade", "Programação"]
@@ -125,7 +125,7 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< spoiler text="Aula 13 - Teoria de Decisão">}}
 {{< icon name="pen-fancy" pack="fas" >}} Tema - Teoria de Decisão
-{{< icon name="signature" pack="fa" >}} Lista de presença [Link](https://forms.gle/TLupNu45KCxZEEkn7)
+{{< icon name="signature" pack="fa" >}} Lista de presença [Link](https://forms.gle/ggtXkyi8hk7oEkCg6)
 {{< icon name="pen" pack="fa" >}} {{% staticref "estgeo/EstGeo_Aula13.pdf" "newtab" %}} Notas da Aula 13{{% /staticref %}}
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [{{< icon name="book" pack="fas" >}} Livro Estatística Aplicada à Geotecnia](https://bendeivide.github.io/book-estgeo/) 
