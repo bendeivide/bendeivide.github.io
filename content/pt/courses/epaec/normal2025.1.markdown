@@ -1,6 +1,6 @@
 ---
 title: 📝 Ensino normal 2025.1
-date: "2025-04-04 08:45:50"
+date: "2025-04-29 13:07:15"
 type: book
 weight: 8
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -56,7 +56,8 @@ regressão linear simples.
 
 ## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
 
--   [Link](https://chat.whatsapp.com/EzPBESx93hS0bj7TKqjDbv)
+- [*Link* (Eng. Química)](https://chat.whatsapp.com/EzPBESx93hS0bj7TKqjDbv)
+- [*Link* (Eng. Civil)](https://chat.whatsapp.com/BXEUEEh2UavD5hu2DXg45e)
 
 <!-- ## <i class="fas fa-file-contract"></i> Preenchimento de dados para as avaliações {id="formulario" title="Clique aqui!"} -->
 
