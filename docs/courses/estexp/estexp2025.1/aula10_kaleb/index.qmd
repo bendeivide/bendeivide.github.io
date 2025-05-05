@@ -1,0 +1,45 @@
+---
+title: "Aula 10 | Dados - Kaleb Aquino Mileib"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# Informações do experimento
+
+-  🎯 Objetivo: Avaliação de Motores Elétricos em Robôs Móveis
+- 📋 Estrutura
+   - **Tratamentos**: Comparar 3 marcas de motores quanto à eficiência energética em robôs móveis.
+   - **Blocos**: 4 tipos de piso (cimento, borracha, carpete, asfalto)
+   - **Resposta**: Consumo de energia para percurso padrão (Wh)
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+
+library(gt)
+
+dados_motor <- data.frame(
+  Piso = factor(rep(1:4, each = 3)),
+  Motor = factor(rep(c("A", "B", "C"), times = 4)),
+  Consumo = c(
+    12.1, 10.9, 9.8,   # Cimento
+    11.4, 10.5, 9.5,   # Borracha
+    13.0, 11.8, 10.2,  # Carpete
+    12.7, 11.0, 10.0   # Asfalto
+  )
+)
+
+
+# Criar a tabela
+tabela_gt <- gt(dados_motor) |>
+  fmt_number(
+    columns = c(Piso, Motor)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+

@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-04-24 20:21:00"
+date: "2025-05-05 19:33:57"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -273,6 +273,41 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
        - [Banco de dados](./aula08_kaleb/index.html)
      - 🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO
        - [Banco de dados](./aula08_nicolas/index.html)
+       
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 10 - Delineamento em blocos Casualizados (DBC)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Delineamento em Blocos Casualizados (DBC)
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s10/" target="_blank"> Aula
+10</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro PAE](https://bendeivide.github.io/books/pae/)
+   - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
+   - <i class="fa fa-calendar"></i> Entrega: 12/05/2025, 23h59min.
+   - <i class="fa fa-quote-left"></i> Assunto: 
+     - Analisar um experimento em DBC:
+       - Análise descritiva:
+         - Geral: $ \bar{X} $, $ S $ e $ CV $;
+         - Em cada tratamento: $ \bar{X} $, $ S $ e $ CV $;
+         - Análise gráfica de boxplot;
+       - Análise de variância
+         - hipóteses complementares: $ H_0 $ e $ H_1 $;
+         - Tabela da anava;
+         - análise gráfica de resíduos;
+         - conclusão.
+   - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
+   - <i class="fa fa-database"></i> Dados:
+     - 🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA
+        - [Banco de dados](./aula10_felipe/index.html)
+     - 🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO
+        - [Banco de dados](./aula10_gustavo/index.html)
+     - 🎓 Kaleb Aquino Mileib
+       - [Banco de dados](./aula10_kaleb/index.html)
+     - 🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO
+       - [Banco de dados](./aula10_nicolas/index.html)
        
 {{< /spoiler >}}
 

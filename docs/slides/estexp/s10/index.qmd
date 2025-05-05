@@ -1,0 +1,171 @@
+---
+title: "Estatística Experimental"
+subtitle: "Aula 10 | DBC"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[ESTEXP](https://bendeivide.github.io/courses/estexp/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2025:
+
+<a href="https://bendeivide.github.io/books/pae/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Objetivos da Aula {background-image="cap02.png"}
+
+- Compreender o conceito de DIC aplicado à engenharia.
+- Saber quando utilizar esse delineamento.
+- Realizar e interpretar uma análise estatística de dados experimentais.
+- Utilizar o R para aplicar ANAVA em dados de engenharia.
+
+
+# Introdução {background-image="cap02.png"}
+
+- O Delineamento em Blocos Casualizados (DBC) é uma técnica estatística utilizada para **controlar fontes conhecidas de variabilidade**.
+- É adequado quando a unidade experimental apresenta **heterogeneidade** controlável.
+- O objetivo é **comparar tratamentos**, minimizando a influência de fatores de confusão.
+  
+# Fundamentos do DBC {background-image="cap02.png"}
+
+- Um **bloco** é um grupo homogêneo de unidades experimentais.
+- Cada tratamento aparece **exatamente uma vez por bloco**.
+
+## Fundamentos do DBC {background-image="cap02.png"}
+
+- Modelo estatístico:
+  
+  $$
+  y_{ij} = \mu + \tau_i + \beta_j + \varepsilon_{ij}
+  $$
+
+  onde:
+  - $y_{ij}$: resposta do i-ésimo tratamento no j-ésimo bloco
+  - $\mu$: constante do modelo
+  - $\tau_i$: efeito do i-ésimo tratamento
+  - $\beta_j$: efeito do j-ésimo bloco
+  - $\varepsilon_{ij}$: erro aleatório
+
+# Vantagens do DBC {background-image="cap02.png"}
+
+- Aumenta a **precisão dos testes estatísticos**.
+- Controla a variabilidade entre blocos.
+- Ideal quando os blocos são fáceis de identificar (ex: operadores, equipamentos, ambientes).
+
+# Exemplo 1 — Engenharia Mecatrônica {background-image="cap02.png"}
+
+**Problema:** Comparar algoritmos de controle em braços robóticos.
+
+- **Tratamentos:** PID, LQR, Fuzzy, MPC
+- **Blocos:** 5 braços robóticos com pequenas variações construtivas
+- **Resposta:** Erro médio absoluto (mm)
+
+. . .
+
+> Resultado: Algoritmos diferem significativamente, com MPC apresentando menor erro.
+
+## Exemplo 2 —  Engenharia de Telecomunicações {background-image="cap02.png"}
+
+**Problema:** Avaliar 4 técnicas de modulação em ambientes urbanos.
+
+- Tratamentos: QPSK, 16QAM, 64QAM, OFDM
+- Blocos: 5 bairros com interferências distintas
+- Resposta: Taxa de erro de bit (BER)
+
+. . .
+
+> DBC permite isolar o efeito do ambiente urbano e avaliar o melhor esquema de modulação.
+
+
+## Exemplo 3 — Engenharia Civil {background-image="cap02.png"}
+
+**Problema:** Testar 3 tipos de concreto sob diferentes condições de cura.
+
+- Tratamentos: Cimento A, B e C
+- Blocos: Câmaras de cura com temperaturas diferentes
+- Resposta: Resistência à compressão (MPa)
+
+. . .
+
+> O uso de DBC evita que a variação térmica afete a comparação entre os concretos.
+
+# 📊 Retornando ao Exemplo 1 {background-image="cap02.png"}
+
+| Braço/Algoritmo | PID | LQR | Fuzzy | MPC |
+| --------------- | --- | --- | ----- | --- |
+| Braço 1         | 2.3 | 1.8 | 2.0   | 1.5 |
+| Braço 2         | 2.5 | 2.1 | 2.4   | 1.7 |
+| Braço 3         | 2.8 | 2.2 | 2.5   | 1.9 |
+| Braço 4         | 2.1 | 1.9 | 2.3   | 1.6 |
+| Braço 5         | 2.6 | 2.0 | 2.6   | 1.8 |
+
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/estexp"  target="_blank" >bendeivide.github.io/courses/estexp</a> </center>
+
+
+# Referências {background-image="cap02.png"}
+
+
+

@@ -1,0 +1,51 @@
+---
+title: "Aula 10 | Dados - NICOLAS WILLIAN GARCIA SANTOS RIBEIRO"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# Informações do experimento
+
+-  🎯 Objetivo: Avaliar 4 técnicas de modulação em ambientes urbanos.
+- 📋 Estrutura
+
+  - **Tratamentos**: 4 tipos modulação:  
+    - QPSK, 16QAM, 64QAM, OFDM
+  - **Blocos:** 5 bairros com interferências distintas
+  - **Variável resposta**: Taxa de erro de bit (BER)
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+library(gt)
+set.seed(123)
+
+
+dados_tel <- data.frame(
+  Bairro = factor(rep(1:5, each = 4)),
+  `Modulação` = factor(rep(c("QPSK", "16QAM", "64QAM", "OFDM"), times = 5)),
+  BER = c(
+    0.08, 0.11, 0.14, 0.07,
+    0.09, 0.12, 0.15, 0.06,
+    0.07, 0.10, 0.13, 0.08,
+    0.10, 0.13, 0.16, 0.09,
+    0.09, 0.12, 0.14, 0.07
+  )
+)
+
+
+
+
+# Criar a tabela
+tabela_gt <- gt(dados_tel) |>
+  fmt_number(
+    columns = c(Bairro, `Modulação`)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+

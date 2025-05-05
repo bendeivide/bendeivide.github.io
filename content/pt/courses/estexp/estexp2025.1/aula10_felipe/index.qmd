@@ -1,0 +1,46 @@
+---
+title: "Aula 10 | Dados - FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# Informações do experimento
+
+- 🎯 Objetivo: Avaliar a eficiência de diferentes sistemas de resfriamento em placas de circuito impresso (PCIs) embarcadas. 
+- 📋 Estrutura
+   - **Tratamentos**: Dissipador de alumínio, dissipador com ventilação forçada, dissipador com heat pipe, resfriamento termoelétrico (Peltier)
+   - **Bloco**: 5 modelos de placas embarcadas diferentes
+   - **Variável resposta**: Temperatura final após 30 minutos de operação contínua (°C)
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+library(gt)
+set.seed(123)
+
+
+dados_resfriamento <- data.frame(
+  Placa = factor(rep(1:5, each = 4)),
+  Sistema = factor(rep(c("Alumínio", "Ventilação", "HeatPipe", "Peltier"), times = 5)),
+  `Temperatura Final` = c(
+    78, 72, 69, 62,   # Placa 1
+    80, 73, 70, 64,   # Placa 2
+    79, 74, 68, 63,   # Placa 3
+    77, 71, 67, 61,   # Placa 4
+    81, 75, 69, 65    # Placa 5
+  )
+)
+
+# Criar a tabela
+tabela_gt <- gt(dados_resfriamento) |>
+  fmt_number(
+    columns = c(Placa, Sistema)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+
