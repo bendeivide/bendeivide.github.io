@@ -1,6 +1,6 @@
 ---
 title: 📝 Ensino normal 2025.1
-date: "2025-04-29 13:07:15"
+date: "2025-05-09 19:17:43"
 type: book
 weight: 8
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -67,6 +67,8 @@ regressão linear simples.
 
 -   Engenharia Química
     [Link](https://docs.google.com/spreadsheets/d/1rfbMLreaau9ExdYG20Vv3S1qkOTQNgYYpoNI7GtF5jU/edit?usp=sharing)
+-   Engenharia Civil
+    [Link](https://docs.google.com/spreadsheets/d/1RfUvAZGNUDPj1g2hpnS9qOnPUMRFItbAhrM0EkD-Z4g/edit?usp=sharing)
 
 ## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
