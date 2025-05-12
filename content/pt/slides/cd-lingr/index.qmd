@@ -1,0 +1,364 @@
+---
+title: "Ciência de dados usando a linguagem R"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: [biblio.bib]
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    auto-stretch: false
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[CDEC](https://bendeivide.github.io/cdec/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leem)
+```
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2023:
+
+<a href="https://bendeivide.github.io/books/epaec/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Introdução {background-image="cap02.png"}
+
+-   A linguagem **R** é uma das ferramentas mais poderosas para análise de dados.
+-   Desenvolvida originalmente para estatística, hoje é amplamente usada em:
+    -   Ciência de dados
+    -   *Machine learning*
+    -   Visualização interativa
+    -   Automação de relatórios
+
+# Por que usar R? {background-image="cap02.png"}
+
+-   Gratuito e de código aberto
+-   Ampla comunidade e milhares de pacotes
+-   Suporte nativo para estatística e gráficos
+-   Integração com outras linguagens (`C`, `Python`, `SQL`)
+-   Ferramentas modernas: RStudio, Quarto, Shiny
+
+# Importação e manipulação de dados {background-image="cap02.png"}
+
+-   A manipulação de dados é essencial para análises estatísticas e ciência de dados.
+-   O R oferece ferramentas poderosas e intuitivas, especialmente com o **tidyverse**.
+-   Nesta apresentação, veremos:
+    -   Pacotes principais
+    -   Funções essenciais
+    -   Exemplos práticos
+
+## Importação e manipulação de dados {background-image="cap02.png"}
+
+-   **Base R**: flexível, mas menos legível
+
+-   **tidyverse**: gramática clara e moderna
+
+-   Pacotes principais:
+
+. . .
+
+::: columns 
+::: column
+
+-   `dplyr` (manipulação)
+-   `tidyr` (transformação)
+-   `readr` (importação) 
+:::
+
+::: column
+
+-   `lubridate` (datas)
+-   `stringr` (textos)
+-   `forcats` (fatores) 
+
+::: 
+:::
+
+## Verbos principais do `dplyr` {background-image="cap02.png"}
+
+| Verbo         | Função                    |
+|---------------|---------------------------|
+| `filter()`    | Filtrar linhas            |
+| `select()`    | Selecionar colunas        |
+| `mutate()`    | Criar/modificar variáveis |
+| `arrange()`   | Ordenar linhas            |
+| `summarise()` | Resumir estatísticas      |
+| `group_by()`  | Agrupar para operações    |
+
+## Exemplo {background-image="cap02.png"}
+
+::: columns 
+::: column
+
+```{r}
+#| eval: false
+#| include: true
+#| code-line-numbers: "1-14|11|12|13|14"
+library(dplyr)
+
+dados <- tibble(
+  nome = c("Ana", "Bruno", "Carlos", "Diana", "Edu"),
+  idade = c(23, 19, 21, 25, 31),
+  nota = c(5.5, 7.2, 6.1, 5.8, 7.5),
+  curso = c("Estatística", "Engenharia", "Estatística", "Matemática", "Engenharia")
+)
+
+dados |> 
+  filter(nota >= 6) |>
+  mutate(aprovado = nota >= 6) |>
+  group_by(curso) |>
+  summarise(media_nota = mean(nota), n = length(nota) , .groups = "drop")
+```
+
+:::
+
+::: column
+
+```{r}
+#| echo: false
+library(dplyr)
+
+dados <- tibble(
+  nome = c("Ana", "Bruno", "Carlos", "Diana", "Edu"),
+  idade = c(23, 19, 21, 25, 31),
+  nota = c(5.5, 7.2, 6.1, 5.8, 7.5),
+  curso = c("Estatística", "Engenharia", "Estatística", "Matemática", "Engenharia")
+)
+
+dados |> 
+  filter(nota >= 6) |>
+  mutate(aprovado = nota >= 6) |>
+  group_by(curso) |>
+  summarise(media_nota = mean(nota), n = length(nota) , .groups = "drop")
+```
+
+::: 
+:::
+
+# Visualizações gráficas {background-image="cap02.png"}
+
+-   R já vem com funções gráficas básicas (`plot()`, `hist()`, `boxplot()`, etc.).
+-   Boa para visualizações rápidas, prototipagem e análises exploratórias.
+
+## Visualizações gráficas {background-image="cap02.png"}
+
+```{r}
+plot(mtcars$wt, mtcars$mpg)
+```
+
+## Visualizações gráficas {background-image="cap02.png"}
+
+-   Parte do tidyverse
+-   Baseado na gramática das visualizações
+-   Altamente customizável e elegante
+-   Produz gráficos para publicação com poucos comandos
+
+## Visualizações gráficas {background-image="cap02.png"}
+
+```{r, fig.width=5, fig.height=4, fig.align='center'}
+library(ggplot2)
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+
+```
+
+## Visualizações gráficas {background-image="cap02.png"}
+
+-   Combinação fácil de múltiplos gráficos em um layout
+-   Ideal para painéis comparativos e relatórios técnicos
+
+. . .
+
+::: columns 
+::: column
+
+```{r}
+#| eval: false
+#| include: true
+
+library(ggplot2)
+library(patchwork)
+
+# Três gráficos ggplot2 simples
+p1 <- ggplot(mtcars, aes(x = mpg)) + geom_histogram()
+p2 <- ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
+p3 <- ggplot(mtcars, aes(x = factor(cyl), y = mpg)) + geom_boxplot()
+
+# Combina os três em um layout
+p1 + p2 / p3
+
+```
+
+:::
+
+::: column
+
+```{r}
+#| echo: false
+library(ggplot2)
+library(patchwork)
+
+# Três gráficos ggplot2 simples
+p1 <- ggplot(mtcars, aes(x = mpg)) + geom_histogram()
+p2 <- ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
+p3 <- ggplot(mtcars, aes(x = factor(cyl), y = mpg)) + geom_boxplot()
+
+# Combina os três em um layout
+p1 + p2 / p3
+
+```
+
+::: 
+:::
+
+## Visualizações gráficas {background-image="cap02.png"}
+
+- Pacotes: `plotly`, `shiny`, `highcharter`, `echarts4r`, `leaflet`
+- Permitem criar gráficos dinâmicos com zoom, hover, tooltips e filtros
+
+## Visualizações gráficas {background-image="cap02.png"}
+
+```{r}
+library(plotly)
+plot_ly(data = mtcars, x = ~wt, y = ~mpg, type = 'scatter', mode = 'markers')
+
+```
+
+
+# Relatórios e automação com Quarto {background-image="cap02.png"}
+
+-   Ideal para reprodutibilidade e integração com análise
+
+## Relatórios dinâmicos {background-image="cap02.png"}
+
+Refêrencia:
+
+<https://mastering-shiny.org/>
+
+Exemplos:
+
+-   [Reembolso de deputados (UFRN)](http://shiny.estatistica.ccet.ufrn.br/DashboardDeputados/)
+-   [*Trends* do Google (RStudio)](https://shiny.rstudio.com/)
+-   [Processo de modelagem didática](https://shiny.rstudio.com/gallery/didacting-modeling.html)
+
+## Criação de *Websites* {background-image="cap02.png"}
+
+-   [Ben Dêivide](https://bendeivide.github.io/)
+-   [R Markdown no RStudio](https://rmarkdown.rstudio.com/)
+-   *Website* pessoal de [Rob J Hyndman](https://robjhyndman.com/)
+-   *Website* pessoal de [Amber Thomas](https://amber.rbind.io)
+-   *Website* pessoal de [Emi Tanaka](https://emitanaka.github.io)
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+
+
+# Referências {background-image="cap02.png"}
+
+<!-- 
+
+::: {.notes} 
+
+📝 Mostrar a relação do Método científico com as Definições gerais da estatística (Smoothdraw)
+
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="90%"}
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atot |>
+  new_leem(variable = 2) # ou new_leem(variable = "continuous")
+```
+
+```{r echo=TRUE, eval = TRUE}
+library(leem)
+atot <- c(1245870, 903207.02, 237765.20, 1559167.89,
+          276419.84, 164123.96, 277466.76, 223644.53, 142470.76)
+atotleem <- new_leem(atot, variable = 2) # ou new_leem(variable = "discrete")
+atotleem
+class(atotleem)
+```
+
+:::
+
+::: {.column width="10%"}
+
+<center>
+
+<img src="leem.png" title="Imagens: Logo leem" width = "500">
+
+</center>
+
+:::
+
+::::
+
+
+
+::: {.nonincremental}
+
+-   Introdução
+    -   Nossa vida atual é assim hoje!
+
+:::
+
+
+-->
