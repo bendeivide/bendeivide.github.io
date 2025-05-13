@@ -1,6 +1,6 @@
 ---
 title: 📝 Ensino normal 2025.1
-date: "2025-05-13 14:40:12"
+date: "2025-05-13 14:50:15"
 type: book
 weight: 8
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -51,7 +51,7 @@ regressão linear simples.
 <img src="/pt/courses/epaec/normal2025.1_files/figure-html/unnamed-chunk-1-1.png" width="110%" />
 
 -   [Cronograma de
-    aulas](https://docs.google.com/document/d/1hRi3xUmul45g9hcU5TP33rbQhnJyRHIHBWVzrUl-vMk/edit?usp=sharing):
+    aulas](https://docs.google.com/document/d/16UfNnXdRsICIVY0Gv1qjjnwbwRz6nwmFXEUK0xXagts/edit?usp=sharing):
     {{< gdocs src="https://docs.google.com/document/d/16UfNnXdRsICIVY0Gv1qjjnwbwRz6nwmFXEUK0xXagts/edit?usp=sharing" >}}
 
 ## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
