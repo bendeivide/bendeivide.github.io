@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-05-05 19:33:57"
+date: "2025-05-15 20:25:22"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -309,6 +309,29 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
      - 🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO
        - [Banco de dados](./aula10_nicolas/index.html)
        
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 12 - Procedimentos de Comparações Múltiplas (PCMs)">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Procedimentos de Comparações Múltiplas (PCMs)
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s12/" target="_blank"> Aula
+12</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro PAE](https://bendeivide.github.io/books/pae/)
+   - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
+   - <i class="fa fa-calendar"></i> Entrega: 22/05/2025, 23h59min.
+   - <i class="fa fa-quote-left"></i> Assunto: 
+     - Procedimentos de Comparações múltiplas
+       - **OBJETIVO**: Estudar sobre os procedimentos de comparações múltiplas, mostrando no R e analiticamente como obter os resultados
+   - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
+   - <i class="fa fa-database"></i> Dados:
+     - 🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA: Estudar o teste Tukey
+     - 🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO: Estudar o teste SNK
+     - 🎓 Kaleb Aquino Mileib: Estudar o teste Scott-Knott
+     - 🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO: Estudar o teste MGM [Batista, et al. 2023](http://www.cienciadainformacaoexpress.ufla.br/index.php/BBJ/article/view/640)
+
 {{< /spoiler >}}
 
 ## Quiz

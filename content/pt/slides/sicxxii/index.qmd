@@ -1,0 +1,154 @@
+---
+title: "XXII Congresso de Produção Científica e Acadêmica da UFSJ"
+subtitle: "Latex: Um guia prático com aplicações na pesquisa e educação"
+title-slide-attributes:
+    data-background-image: hardcover.png
+
+author: "{{< fa user-tie >}} [Hiago S. Nascimento](hiagosantosvzp@gmail.com) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+lang: pt-BR
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+format: 
+  revealjs:
+    mermaid:
+      theme: forest
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "<i class='fa fa-globe'></i> [XXII CPC/UFSJ/CAP](https://www.ufsj.edu.br/cpc/) | <i class='fa fa-book'></i> <https://bendeivide.github.io/books/latex/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: logo.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+#     pointer: # Plugin para o ponteiro
+#       - key: q
+#       - color: red
+#       - pointerSize: 16
+#       - alwaysVisible: false
+# revealjs-plugins:
+#   - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="background2.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "300">
+
+</a>
+
+
+# Ideia sobre o desenvolvimento do livro {background-image="background2.png"}
+
+- Estudar o $\LaTeX$
+- ...
+
+# {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/books/latex/"}
+
+Página do livro!
+
+# Como acessar o livro? {background-image="background2.png"}
+
+::: notes
+
+- Lembrar que o livro pode ser acessado gratuiamente pelo link da página mostrado anteriormente;
+- o link também está na nota de rodapé.S
+:::
+
+
+# Estrutura do Livro {background-image="background2.png"}
+
+O livro está dividido em cinco partes principais:
+
+- **Parte I**: Introdução ao LaTeX  
+- **Parte II**: Fundamentos do LaTeX  
+- **Parte III**: Tipografia e Matemática  
+- **Parte IV**: Recursos Avançados  
+- **Parte V**: Aplicações Específicas
+
+
+# Parte I: Introdução ao LaTeX {background-image="background2.png"}
+
+- História do LaTeX e seu criador Donald Knuth
+- Diferenças entre TeX, LaTeX, pdfTeX, XeTeX e LuaTeX
+- Comparações com editores WYSIWYG
+- Instalação em Linux e Windows
+- Introdução ao Overleaf
+
+
+
+# Parte II: Fundamentos do LaTeX {background-image="background2.png"}
+
+- Estrutura básica de um arquivo `.tex`
+- Símbolos especiais
+- Comandos e argumentos
+- Ambientes do LaTeX
+- Fontes, tamanhos e formatos
+- Saídas de compilação e tratamento de erros
+
+
+
+# Parte III: Tipografia e Matemática {background-image="background2.png"}
+
+- Notação matemática com LaTeX
+- Símbolos matemáticos
+- Frações, expoentes, índices, radicais
+- Matrizes, equações e teoremas
+- Personalização de fórmulas
+
+
+
+# Parte IV: Recursos Avançados {background-image="background2.png"}
+
+- Inserção de figuras e tabelas
+- Geração de gráficos e desenhos vetoriais
+- Referências, bibliografias e índices
+- Apêndices e sumários personalizados
+- Personalização com pacotes
+
+
+
+# Parte V: Aplicações Específicas {background-image="background2.png"}
+
+- Criação de apresentações, artigos e livros
+- Documentos multilíngues e suporte Unicode
+- Automação de tarefas e trabalho colaborativo (ex.: Overleaf)
+- Dicas e ferramentas adicionais
+
+
+
+# Sugestões de Melhoria {background-image="background2.png"}
+
+- **Padronizar e revisar ortografia** (ex.: "cosntrução", "deferença")
+- **Finalizar capítulos marcados como “em construção”**
+- **Atualizar links quebrados** ou indicar alternativas seguras
+- **Adicionar exercícios práticos com gabarito**
+- **Incluir um capítulo introdutório ao uso de Git e Overleaf colaborativo**
+- **Fornecer modelos `.tex` prontos** para projetos comuns (artigos, TCCs, apresentações)
+- **Criar um repositório online** com código-fonte e material complementar
+
+
+
+# Questões? {background-image="background2.png"}
+
+[Dúvidas e Sugestões](hiagosantosvzp@gmail.com){preview-link="true"}
+
+[Contato](hiagosantosvzp@gmail.com){preview-link="true"}
+
+
