@@ -1286,6 +1286,148 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 <h2>Sem pontos influentes</h2>
 
 <img data-src="index_files/figure-revealjs/unnamed-chunk-18-1.png" width="960" class="r-stretch"></section></section>
+<section>
+<section id="testes-na-análise-de-resíduos" class="title-slide slide level1 center" data-background-image="cap02.png">
+<h1>Testes na análise de resíduos</h1>
+
+</section>
+<section id="normalidade-dos-resíduos" class="slide level2" data-background-image="cap02.png">
+<h2>Normalidade dos Resíduos</h2>
+<ul>
+<li class="fragment"><strong>Testes comuns</strong>:
+<ul>
+<li class="fragment"><code>shapiro.test(residuos)</code></li>
+<li class="fragment"><code>ad.test(residuos)</code> <em>(pacote <code>nortest</code>)</em></li>
+<li class="fragment"><code>lillie.test(residuos)</code> <em>(pacote <code>nortest</code>)</em></li>
+<li class="fragment"><code>jarque.bera.test(residuos)</code> <em>(pacote <code>tseries</code>)</em></li>
+</ul></li>
+<li class="fragment"><strong>Hipótese</strong>:
+<ul>
+<li class="fragment">H₀: Os resíduos seguem distribuição normal</li>
+<li class="fragment">p &gt; 0,05 → normalidade não rejeitada</li>
+</ul></li>
+</ul>
+</section>
+<section id="homocedasticidade-igualdade-de-variâncias" class="slide level2" data-background-image="cap02.png">
+<h2>Homocedasticidade (Igualdade de variâncias)</h2>
+<ul>
+<li class="fragment"><strong>Testes comuns</strong>:
+<ul>
+<li class="fragment"><code>bartlett.test(resposta ~ tratamento)</code></li>
+<li class="fragment"><code>leveneTest(resposta ~ tratamento)</code> <em>(pacote <code>car</code>)</em></li>
+<li class="fragment"><code>fligner.test(resposta ~ tratamento)</code></li>
+</ul></li>
+<li class="fragment"><strong>Hipótese</strong>:
+<ul>
+<li class="fragment">H₀: Variâncias são iguais entre os grupos</li>
+<li class="fragment">p &gt; 0,05 → homogeneidade mantida</li>
+</ul></li>
+</ul>
+</section>
+<section id="independência-dos-resíduos" class="slide level2" data-background-image="cap02.png">
+<h2>Independência dos Resíduos</h2>
+<ul>
+<li class="fragment"><strong>Teste mais usado</strong>:
+<ul>
+<li class="fragment"><code>durbinWatsonTest(modelo)</code> <em>(pacote <code>car</code> ou <code>lmtest</code>)</em></li>
+</ul></li>
+<li class="fragment"><strong>Hipótese</strong>:
+<ul>
+<li class="fragment">H₀: Os resíduos são independentes</li>
+<li class="fragment">p &gt; 0,05 → independência mantida</li>
+</ul></li>
+</ul>
+</section>
+<section id="linearidade-do-modelo" class="slide level2" data-background-image="cap02.png">
+<h2>Linearidade do Modelo</h2>
+<ul>
+<li class="fragment"><strong>Não há teste formal.</strong></li>
+<li class="fragment">Verificação <strong>visual</strong>:
+<ul>
+<li class="fragment">Gráfico de resíduos vs valores ajustados</li>
+<li class="fragment">Gráfico de resíduos vs preditores</li>
+</ul></li>
+<li class="fragment"><strong>Indícios de violação</strong>:
+<ul>
+<li class="fragment">Padrões em forma de “U”, “∩”, ou outros</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="retornando-ao-exemplo-do-braço-robótico" class="title-slide slide level1 center" data-background-image="cap02.png">
+<h1>Retornando ao Exemplo do braço robótico</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a><span class="co"># Se necessário, instale</span></span>
+<span id="cb11-2"><a href=""></a><span class="co"># install.packages(c("car", "nortest", "lmtest"))</span></span>
+<span id="cb11-3"><a href=""></a></span>
+<span id="cb11-4"><a href=""></a><span class="fu">library</span>(car)</span>
+<span id="cb11-5"><a href=""></a><span class="fu">library</span>(nortest)</span>
+<span id="cb11-6"><a href=""></a><span class="fu">library</span>(lmtest)</span>
+<span id="cb11-7"><a href=""></a></span>
+<span id="cb11-8"><a href=""></a><span class="co"># Níveis do fator</span></span>
+<span id="cb11-9"><a href=""></a>tratamento <span class="ot">&lt;-</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">"PID"</span>, <span class="st">"AutoPID"</span>, <span class="st">"Fuzzy"</span>, <span class="st">"LQR"</span>), <span class="at">each =</span> <span class="dv">5</span>)</span>
+<span id="cb11-10"><a href=""></a></span>
+<span id="cb11-11"><a href=""></a><span class="co"># Resposta simulada (erro médio absoluto)</span></span>
+<span id="cb11-12"><a href=""></a>ema <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb11-13"><a href=""></a>  <span class="fu">rnorm</span>(<span class="dv">5</span>, <span class="at">mean =</span> <span class="fl">1.2</span>, <span class="at">sd =</span> <span class="fl">0.1</span>),  <span class="co"># PID</span></span>
+<span id="cb11-14"><a href=""></a>  <span class="fu">rnorm</span>(<span class="dv">5</span>, <span class="at">mean =</span> <span class="fl">1.0</span>, <span class="at">sd =</span> <span class="fl">0.1</span>),  <span class="co"># AutoPID</span></span>
+<span id="cb11-15"><a href=""></a>  <span class="fu">rnorm</span>(<span class="dv">5</span>, <span class="at">mean =</span> <span class="fl">0.8</span>, <span class="at">sd =</span> <span class="fl">0.15</span>), <span class="co"># Fuzzy</span></span>
+<span id="cb11-16"><a href=""></a>  <span class="fu">rnorm</span>(<span class="dv">5</span>, <span class="at">mean =</span> <span class="fl">0.9</span>, <span class="at">sd =</span> <span class="fl">0.12</span>)  <span class="co"># LQR</span></span>
+<span id="cb11-17"><a href=""></a>)</span>
+<span id="cb11-18"><a href=""></a></span>
+<span id="cb11-19"><a href=""></a><span class="co"># Monta data.frame</span></span>
+<span id="cb11-20"><a href=""></a>dados <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">Tratamento =</span> tratamento, <span class="at">EMA =</span> ema)</span>
+<span id="cb11-21"><a href=""></a></span>
+<span id="cb11-22"><a href=""></a><span class="co"># Ajusta o modelo DIC</span></span>
+<span id="cb11-23"><a href=""></a>modelo <span class="ot">&lt;-</span> <span class="fu">aov</span>(EMA <span class="sc">~</span> Tratamento, <span class="at">data =</span> dados)</span>
+<span id="cb11-24"><a href=""></a></span>
+<span id="cb11-25"><a href=""></a><span class="co"># Resíduos do modelo</span></span>
+<span id="cb11-26"><a href=""></a>residuos <span class="ot">&lt;-</span> <span class="fu">residuals</span>(modelo)</span>
+<span id="cb11-27"><a href=""></a></span>
+<span id="cb11-28"><a href=""></a><span class="co"># Teste de Shapiro-Wilk (Normalidade)</span></span>
+<span id="cb11-29"><a href=""></a><span class="fu">shapiro.test</span>(residuos)</span>
+<span id="cb11-30"><a href=""></a></span>
+<span id="cb11-31"><a href=""></a><span class="co"># Outros testes (opcional)</span></span>
+<span id="cb11-32"><a href=""></a><span class="fu">ad.test</span>(residuos)        <span class="co"># Anderson-Darling</span></span>
+<span id="cb11-33"><a href=""></a><span class="fu">lillie.test</span>(residuos)    <span class="co"># Lilliefors</span></span>
+<span id="cb11-34"><a href=""></a></span>
+<span id="cb11-35"><a href=""></a><span class="co"># Teste de Bartlett (Homogeneidade)</span></span>
+<span id="cb11-36"><a href=""></a><span class="fu">bartlett.test</span>(EMA <span class="sc">~</span> Tratamento, <span class="at">data =</span> dados)</span>
+<span id="cb11-37"><a href=""></a></span>
+<span id="cb11-38"><a href=""></a><span class="co"># Teste de Levene (mais robusto)</span></span>
+<span id="cb11-39"><a href=""></a><span class="fu">leveneTest</span>(EMA <span class="sc">~</span> Tratamento, <span class="at">data =</span> dados)</span>
+<span id="cb11-40"><a href=""></a></span>
+<span id="cb11-41"><a href=""></a><span class="co"># Teste de Durbin-Watson Independência</span></span>
+<span id="cb11-42"><a href=""></a><span class="fu">durbinWatsonTest</span>(modelo)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="retornando-ao-exemplo-do-braço-robótico-1" class="slide level2" data-background-image="cap02.png">
+<h2>Retornando ao Exemplo do braço robótico</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Shapiro-Wilk normality test
+
+data:  residuos
+W = 0.92686, p-value = 0.1344</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Levene's Test for Homogeneity of Variance (center = median)
+      Df F value Pr(&gt;F)
+group  3  0.0379 0.9897
+      16               </code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code> lag Autocorrelation D-W Statistic p-value
+   1      -0.2229153       2.31998   0.988
+ Alternative hypothesis: rho != 0</code></pre>
+</div>
+</div>
+</section>
+<section id="retornando-ao-exemplo-do-braço-robótico-2" class="slide level2" data-background-image="cap02.png">
+<h2>Retornando ao Exemplo do braço robótico</h2>
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-21-1.png" width="960" class="r-stretch"></section></section>
 <section id="questões" class="title-slide slide level1 center" data-background-image="cap02.png">
 <h1>Questões?</h1>
 <p><a href="https://bendeivide.github.io/" data-preview-link="true">Dúvidas e Sugestões</a></p>

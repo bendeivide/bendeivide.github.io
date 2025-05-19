@@ -717,6 +717,170 @@ abline(h = 4/(length(cook_dist)-length(mu)), col = "blue", lty = 2)
 
 ```
 
+# Testes na análise de resíduos {background-image="cap02.png"}
+
+## Normalidade dos Resíduos {background-image="cap02.png"}
+
+- **Testes comuns**:
+  - `shapiro.test(residuos)`
+  - `ad.test(residuos)` *(pacote `nortest`)*
+  - `lillie.test(residuos)` *(pacote `nortest`)*
+  - `jarque.bera.test(residuos)` *(pacote `tseries`)*
+
+- **Hipótese**:
+  - H₀: Os resíduos seguem distribuição normal
+  - p > 0,05 → normalidade não rejeitada
+
+
+## Homocedasticidade (Igualdade de variâncias) {background-image="cap02.png"}
+
+- **Testes comuns**:
+  - `bartlett.test(resposta ~ tratamento)`
+  - `leveneTest(resposta ~ tratamento)` *(pacote `car`)*
+  - `fligner.test(resposta ~ tratamento)`
+
+- **Hipótese**:
+  - H₀: Variâncias são iguais entre os grupos
+  - p > 0,05 → homogeneidade mantida
+
+---
+
+## Independência dos Resíduos {background-image="cap02.png"}
+
+- **Teste mais usado**:
+  - `durbinWatsonTest(modelo)` *(pacote `car` ou `lmtest`)*
+
+- **Hipótese**:
+  - H₀: Os resíduos são independentes
+  - p > 0,05 → independência mantida
+
+---
+
+## Linearidade do Modelo {background-image="cap02.png"}
+
+- **Não há teste formal.**
+- Verificação **visual**:
+  - Gráfico de resíduos vs valores ajustados
+  - Gráfico de resíduos vs preditores
+
+- **Indícios de violação**:
+  - Padrões em forma de “U”, “∩”, ou outros
+
+
+# Retornando ao Exemplo do braço robótico {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+#| eval: false
+
+# Se necessário, instale
+# install.packages(c("car", "nortest", "lmtest"))
+
+library(car)
+library(nortest)
+library(lmtest)
+
+# Níveis do fator
+tratamento <- rep(c("PID", "AutoPID", "Fuzzy", "LQR"), each = 5)
+
+# Resposta simulada (erro médio absoluto)
+ema <- c(
+  rnorm(5, mean = 1.2, sd = 0.1),  # PID
+  rnorm(5, mean = 1.0, sd = 0.1),  # AutoPID
+  rnorm(5, mean = 0.8, sd = 0.15), # Fuzzy
+  rnorm(5, mean = 0.9, sd = 0.12)  # LQR
+)
+
+# Monta data.frame
+dados <- data.frame(Tratamento = tratamento, EMA = ema)
+
+# Ajusta o modelo DIC
+modelo <- aov(EMA ~ Tratamento, data = dados)
+
+# Resíduos do modelo
+residuos <- residuals(modelo)
+
+# Teste de Shapiro-Wilk (Normalidade)
+shapiro.test(residuos)
+
+# Outros testes (opcional)
+ad.test(residuos)        # Anderson-Darling
+lillie.test(residuos)    # Lilliefors
+
+# Teste de Bartlett (Homogeneidade)
+bartlett.test(EMA ~ Tratamento, data = dados)
+
+# Teste de Levene (mais robusto)
+leveneTest(EMA ~ Tratamento, data = dados)
+
+# Teste de Durbin-Watson Independência
+durbinWatsonTest(modelo)
+
+
+
+```
+
+## Retornando ao Exemplo do braço robótico {background-image="cap02.png"}
+
+```{r}
+#| echo: false
+
+
+# Se necessário, instale
+# install.packages(c("car", "nortest", "lmtest"))
+
+library(car)
+library(nortest)
+library(lmtest)
+
+# Níveis do fator
+tratamento <- rep(c("PID", "AutoPID", "Fuzzy", "LQR"), each = 5)
+
+# Resposta simulada (erro médio absoluto)
+ema <- c(
+  rnorm(5, mean = 1.2, sd = 0.1),  # PID
+  rnorm(5, mean = 1.0, sd = 0.1),  # AutoPID
+  rnorm(5, mean = 0.8, sd = 0.15), # Fuzzy
+  rnorm(5, mean = 0.9, sd = 0.12)  # LQR
+)
+
+# Monta data.frame
+dados <- data.frame(Tratamento = tratamento, EMA = ema)
+
+# Ajusta o modelo DIC
+modelo <- aov(EMA ~ Tratamento, data = dados)
+
+# Resíduos do modelo
+residuos <- residuals(modelo)
+
+# Teste de Shapiro-Wilk (Normalidade)
+shapiro.test(residuos)
+
+# Outros testes (opcional)
+# ad.test(residuos)        # Anderson-Darling
+# lillie.test(residuos)    # Lilliefors
+
+# Teste de Bartlett (Homogeneidade)
+#bartlett.test(EMA ~ Tratamento, data = dados)
+
+# Teste de Levene (mais robusto)
+leveneTest(EMA ~ Tratamento, data = dados)
+
+# Teste de Durbin-Watson Independência
+durbinWatsonTest(modelo)
+
+```
+
+## Retornando ao Exemplo do braço robótico {background-image="cap02.png"}
+
+```{r}
+#| echo: false
+
+par(mfrow = c(2,2))
+plot(modelo)
+```
+
+
 
 # Questões? {background-image="cap02.png"}
 
