@@ -5,12 +5,25 @@
     <link>http://bendeivide.github.io/event/</link>
       <atom:link href="http://bendeivide.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Palestras recentes e futuras</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 11 Mar 2025 15:30:00 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 21 May 2025 19:00:00 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Palestras recentes e futuras</title>
       <link>http://bendeivide.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>LaTeX: Um guia prático com aplicações na pesquisa e educação</title>
+      <link>http://bendeivide.github.io/talk/latex-um-guia-pratico-com-aplicacoes-na-pesquisa-e-educacao/</link>
+      <pubDate>Wed, 21 May 2025 19:00:00 -0300</pubDate>
+      <guid>http://bendeivide.github.io/talk/latex-um-guia-pratico-com-aplicacoes-na-pesquisa-e-educacao/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>O pacote leem para o ensino de estatística</title>

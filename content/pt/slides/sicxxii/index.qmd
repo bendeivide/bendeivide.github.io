@@ -28,20 +28,10 @@ format:
       boardmarker-width: 3 # largura da caneta do quadro branco
     multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
     logo: logo.png
-#   slide-tone: true # som na transicao dos slides
     slide-number: true # Inserindo numero nos slides
-#    show-slide-number: print
     menu:
       side: left # lado do menu
       width: wide
-#     numbers: true # inserir numero nos itens do menu
-#     pointer: # Plugin para o ponteiro
-#       - key: q
-#       - color: red
-#       - pointerSize: 16
-#       - alwaysVisible: false
-# revealjs-plugins:
-#   - pointer
 editor: source
 ---
 
@@ -57,20 +47,12 @@ editor: source
 # Ideia sobre o desenvolvimento do livro {background-image="background2.png"}
 
 - Estudar o $\LaTeX$
-- ...
+- Propagar nossa experiência com esta ferramenta
+- Facilitar a escrita de documentos científicos
 
 # {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/books/latex/"}
 
 Página do livro!
-
-# Como acessar o livro? {background-image="background2.png"}
-
-::: notes
-
-- Lembrar que o livro pode ser acessado gratuiamente pelo link da página mostrado anteriormente;
-- o link também está na nota de rodapé.S
-:::
-
 
 # Estrutura do Livro {background-image="background2.png"}
 
@@ -131,19 +113,11 @@ O livro está dividido em cinco partes principais:
 - Automação de tarefas e trabalho colaborativo (ex.: Overleaf)
 - Dicas e ferramentas adicionais
 
+# Considerações Finais {background-image="background2.png"}
 
-
-# Sugestões de Melhoria {background-image="background2.png"}
-
-- **Padronizar e revisar ortografia** (ex.: "cosntrução", "deferença")
-- **Finalizar capítulos marcados como “em construção”**
-- **Atualizar links quebrados** ou indicar alternativas seguras
-- **Adicionar exercícios práticos com gabarito**
-- **Incluir um capítulo introdutório ao uso de Git e Overleaf colaborativo**
-- **Fornecer modelos `.tex` prontos** para projetos comuns (artigos, TCCs, apresentações)
-- **Criar um repositório online** com código-fonte e material complementar
-
-
+<center>
+![](livro.png){width=30%}
+</center>
 
 # Questões? {background-image="background2.png"}
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LATEX | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/latex/</link>
+      <atom:link href="http://bendeivide.github.io/tag/latex/index.xml" rel="self" type="application/rss+xml" />
+    <description>LATEX</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 21 May 2025 19:00:00 -0300</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>LATEX</title>
+      <link>http://bendeivide.github.io/tag/latex/</link>
+    </image>
+    
+    <item>
+      <title>LaTeX: Um guia prático com aplicações na pesquisa e educação</title>
+      <link>http://bendeivide.github.io/talk/latex-um-guia-pratico-com-aplicacoes-na-pesquisa-e-educacao/</link>
+      <pubDate>Wed, 21 May 2025 19:00:00 -0300</pubDate>
+      <guid>http://bendeivide.github.io/talk/latex-um-guia-pratico-com-aplicacoes-na-pesquisa-e-educacao/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

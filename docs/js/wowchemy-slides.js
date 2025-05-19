@@ -2,7 +2,7 @@
   // ns-params:@params
   var slides = { font: "minimal", highlight_style: "dracula", theme: "moon" };
 
-  // ns-hugo:/media/ben10/Backup/BEN_PROJ_GIT_15.05.25/bendeivide.github.io(15.05.2025)/themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5/assets/js/wowchemy-utils.js
+  // ns-hugo:/media/ben10/Backup/BEN_PROJ_GIT_19.05.25/bendeivide.github.io(19.05.2025)/themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5/assets/js/wowchemy-utils.js
   function fixMermaid(render = false) {
     let mermaids = [];
     [].push.apply(mermaids, document.getElementsByClassName("language-mermaid"));
