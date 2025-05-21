@@ -49,12 +49,18 @@ editor: source
 - Estudar o $\LaTeX$
 - Propagar nossa experiência com esta ferramenta
 - Facilitar a escrita de documentos científicos
+  - Artigos
+  - Monografias
+  - Dissertações
+  - Teses
+  - Apresentações
+  
+# Objetivo {background-image="background2.png"}
 
-# {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/books/latex/"}
+- Criação do Livro: "*Latex: Um guia prático com aplicações na pesquisa e educação*"
 
-Página do livro!
 
-# Estrutura do Livro {background-image="background2.png"}
+# Metodologia: Estrutura do Livro {background-image="background2.png"}
 
 O livro está dividido em cinco partes principais:
 
@@ -64,8 +70,10 @@ O livro está dividido em cinco partes principais:
 - **Parte IV**: Recursos Avançados  
 - **Parte V**: Aplicações Específicas
 
+# Resultados {background-image="background2.png"}
 
-# Parte I: Introdução ao LaTeX {background-image="background2.png"}
+
+## Parte I: Introdução ao LaTeX {background-image="background2.png"}
 
 - História do LaTeX e seu criador Donald Knuth
 - Diferenças entre TeX, LaTeX, pdfTeX, XeTeX e LuaTeX
@@ -73,9 +81,7 @@ O livro está dividido em cinco partes principais:
 - Instalação em Linux e Windows
 - Introdução ao Overleaf
 
-
-
-# Parte II: Fundamentos do LaTeX {background-image="background2.png"}
+## Parte II: Fundamentos do LaTeX {background-image="background2.png"}
 
 - Estrutura básica de um arquivo `.tex`
 - Símbolos especiais
@@ -86,7 +92,7 @@ O livro está dividido em cinco partes principais:
 
 
 
-# Parte III: Tipografia e Matemática {background-image="background2.png"}
+## Parte III: Tipografia e Matemática {background-image="background2.png"}
 
 - Notação matemática com LaTeX
 - Símbolos matemáticos
@@ -96,7 +102,7 @@ O livro está dividido em cinco partes principais:
 
 
 
-# Parte IV: Recursos Avançados {background-image="background2.png"}
+## Parte IV: Recursos Avançados {background-image="background2.png"}
 
 - Inserção de figuras e tabelas
 - Geração de gráficos e desenhos vetoriais
@@ -106,12 +112,17 @@ O livro está dividido em cinco partes principais:
 
 
 
-# Parte V: Aplicações Específicas {background-image="background2.png"}
+## Parte V: Aplicações Específicas {background-image="background2.png"}
 
 - Criação de apresentações, artigos e livros
 - Documentos multilíngues e suporte Unicode
 - Automação de tarefas e trabalho colaborativo (ex.: Overleaf)
 - Dicas e ferramentas adicionais
+
+
+# {data-background-interactive="true" data-background-iframe="https://bendeivide.github.io/books/latex/"}
+
+Página do livro!
 
 # Considerações Finais {background-image="background2.png"}
 
