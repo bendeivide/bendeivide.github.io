@@ -5,7 +5,7 @@ summary: "**(Livro em desenvolvimento)** Sugestões e críticas sobre o livro po
 tags:
 - booklatex
 categories: ["Latex", "Educação", "Editor", "Linguagem de marcação"]
-date: "2024-12-09 21:24:38"
+date: "2025-05-21 07:20:27"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://bendeivide.github.io/cdec/"
@@ -16,10 +16,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: whatsapp
-  icon_pack: fab
-  name: Allanna Lopes (Rep. comercial)
-  url: 
+# - icon: whatsapp
+#   icon_pack: fab
+#   name: Allanna Lopes (Rep. comercial)
+#   url: 
 - icon: book-open
   icon_pack: fas
   name: Bookdown

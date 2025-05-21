@@ -16,10 +16,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: whatsapp
-  icon_pack: fab
-  name: Allanna Lopes (Rep. comercial)
-  url: 
+# - icon: whatsapp
+#   icon_pack: fab
+#   name: Allanna Lopes (Rep. comercial)
+#   url: 
 - icon: book-open
   icon_pack: fas
   name: Bookdown
