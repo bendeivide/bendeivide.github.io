@@ -5,12 +5,21 @@
     <link>http://bendeivide.github.io/books/</link>
       <atom:link href="http://bendeivide.github.io/books/index.xml" rel="self" type="application/rss+xml" />
     <description>Books</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 15 Apr 2025 13:28:48 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 21 May 2025 07:20:27 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Books</title>
       <link>http://bendeivide.github.io/books/</link>
     </image>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>http://bendeivide.github.io/books/latex/</link>
+      <pubDate>Wed, 21 May 2025 07:20:27 -0300</pubDate>
+      <guid>http://bendeivide.github.io/books/latex/</guid>
+      <description>&lt;p&gt;Em desenvolvimento&amp;hellip;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Planejamento e Análise de Experimentos</title>
@@ -100,15 +109,6 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>LaTeX</title>
-      <link>http://bendeivide.github.io/books/latex/</link>
-      <pubDate>Mon, 09 Dec 2024 21:24:38 -0300</pubDate>
-      <guid>http://bendeivide.github.io/books/latex/</guid>
-      <description>&lt;p&gt;Em desenvolvimento&amp;hellip;.&lt;/p&gt;
 </description>
     </item>
     

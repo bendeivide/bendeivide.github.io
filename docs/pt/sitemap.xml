@@ -86,7 +86,11 @@
       href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tag/booklatex/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -95,6 +99,16 @@
       hreflang="pt"
       href="http://bendeivide.github.io/categories/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/editor/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/educacao/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/latex/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/books/latex/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/linguagem-de-marcacao/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
   <url>
@@ -137,8 +151,6 @@
     <loc>http://bendeivide.github.io/tag/online/</loc><lastmod>2025-04-25T18:16:39-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/bookpae/</loc><lastmod>2025-04-15T13:28:48-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/</loc><lastmod>2025-04-15T13:28:48-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/engenharias/</loc><lastmod>2025-04-15T13:28:48-03:00</lastmod></url>
   <url>
@@ -187,18 +199,6 @@
     /></url>
   <url>
     <loc>http://bendeivide.github.io/post/xiisemat/</loc><lastmod>2024-12-10T00:00:00-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/booklatex/</loc><lastmod>2024-12-09T21:24:38-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/editor/</loc><lastmod>2024-12-09T21:24:38-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/educacao/</loc><lastmod>2024-12-09T21:24:38-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/latex/</loc><lastmod>2024-12-09T21:24:38-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/books/latex/</loc><lastmod>2024-12-09T21:24:38-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/linguagem-de-marcacao/</loc><lastmod>2024-12-09T21:24:38-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/bookleem/</loc><lastmod>2024-12-09T21:24:30-03:00</lastmod></url>
   <url>
