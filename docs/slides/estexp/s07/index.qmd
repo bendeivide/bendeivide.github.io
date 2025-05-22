@@ -11,6 +11,9 @@ csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 lang: "pt-br"
 format: 
   revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
     navigation-mode: vertical # Slides horizontais e verticais
     theme: [dark, ben-slide.scss]
     transition: slide
@@ -33,13 +36,6 @@ format:
       side: left # lado do menu
       width: wide
 #     numbers: true # inserir numero nos itens do menu
-    pointer: # Plugin para o ponteiro
-      - key: q
-      - color: red
-      - pointerSize: 16
-      - alwaysVisible: false
-revealjs-plugins:
-  - pointer
 editor: source
 ---
 

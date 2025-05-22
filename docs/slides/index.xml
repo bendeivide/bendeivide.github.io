@@ -4968,9 +4968,9 @@ $$
     
     <item>
       <title></title>
-      <link>http://bendeivide.github.io/slides/estexp/s11/index_files/libs/revealjs/plugin/notes/speaker-view/</link>
+      <link>http://bendeivide.github.io/slides/estexp/s12/index_files/libs/revealjs/plugin/notes/speaker-view/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/estexp/s11/index_files/libs/revealjs/plugin/notes/speaker-view/</guid>
+      <guid>http://bendeivide.github.io/slides/estexp/s12/index_files/libs/revealjs/plugin/notes/speaker-view/</guid>
       <description>
 &lt;html lang=&#34;en&#34;&gt;
 	&lt;head&gt;
@@ -5857,9 +5857,1039 @@ $$
     
     <item>
       <title></title>
-      <link>http://bendeivide.github.io/slides/estexp/s11/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</link>
+      <link>http://bendeivide.github.io/slides/estexp/s12/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/estexp/s11/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</guid>
+      <guid>http://bendeivide.github.io/slides/estexp/s12/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</guid>
+      <description>&lt;h1 id=&#34;chalkboard&#34;&gt;Chalkboard&lt;/h1&gt;
+&lt;p&gt;With this plugin you can add a chalkboard to reveal.js. The plugin provides two possibilities to include handwritten notes to your presentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;you can make notes directly on the slides, e.g. to comment on certain aspects,&lt;/li&gt;
+&lt;li&gt;you can open a chalkboard or whiteboard on which you can make notes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main use case in mind when implementing the plugin is classroom usage in which you may want to explain some course content and quickly need to make some notes.&lt;/p&gt;
+&lt;p&gt;The plugin records all drawings made so that they can be play backed using the &lt;code&gt;autoSlide&lt;/code&gt; feature or the &lt;code&gt;audio-slideshow&lt;/code&gt; plugin.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://rajgoel.github.io/reveal.js-demos/chalkboard-demo.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the live demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The chalkboard effect is based on &lt;a href=&#34;https://github.com/mmoustafa/Chalkboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chalkboard&lt;/a&gt; by Mohamed Moustafa.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Copy the file &lt;code&gt;plugin.js&lt;/code&gt; and the  &lt;code&gt;img&lt;/code&gt; directory into the plugin folder of your reveal.js presentation, i.e. &lt;code&gt;plugin/chalkboard&lt;/code&gt; and load the plugin as shown below.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;plugin/chalkboard/plugin.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;plugin/customcontrols/plugin.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;script&amp;gt;
+    Reveal.initialize({
+        // ...
+        plugins: [ RevealChalkboard, RevealCustomControls ],
+        // ...
+    });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The following stylesheet&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;plugin/chalkboard/style.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;plugin/customcontrols/style.css&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;has to be included to the &lt;code&gt;head&lt;/code&gt; section of you HTML-file.&lt;/p&gt;
+&lt;p&gt;In order to include buttons for opening and closing the notes canvas or the chalkboard you should make sure that &lt;code&gt;font-awesome&lt;/code&gt; is available. The easiest way is to include&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;to the &lt;code&gt;head&lt;/code&gt; section of you HTML-file.&lt;/p&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;h3 id=&#34;mouse-or-touch&#34;&gt;Mouse or touch&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Click on the pen symbols at the bottom left to toggle the notes canvas or chalkboard&lt;/li&gt;
+&lt;li&gt;Click on the color picker at the left to change the color (the color picker is only visible if the notes canvas or chalkboard is active)&lt;/li&gt;
+&lt;li&gt;Click on the up/down arrows on the left to the switch among multiple chalkboardd (the up/down arrows are only available for the chlakboard)&lt;/li&gt;
+&lt;li&gt;Click the left mouse button and drag to write on notes canvas or chalkboard&lt;/li&gt;
+&lt;li&gt;Click the right mouse button and drag to wipe away previous drawings&lt;/li&gt;
+&lt;li&gt;Touch and move to write on notes canvas or chalkboard&lt;/li&gt;
+&lt;li&gt;Touch and hold for half a second, then move to wipe away previous drawings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;keyboard&#34;&gt;Keyboard&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Press the &amp;lsquo;BACKSPACE&amp;rsquo; key to delete all chalkboard drawings&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;DEL&amp;rsquo; key to clear the notes canvas or chalkboard&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;c&amp;rsquo; key to toggle the notes canvas&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;b&amp;rsquo; key to toggle the chalkboard&lt;/li&gt;
+&lt;li&gt;Press the &amp;rsquo;d&amp;rsquo; key to download drawings&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;x&amp;rsquo; key to cycle colors forward&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;y&amp;rsquo; key to cycle colors backward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;playback&#34;&gt;Playback&lt;/h2&gt;
+&lt;p&gt;If the &lt;code&gt;autoSlide&lt;/code&gt; feature is set or if the &lt;code&gt;audio-slideshow&lt;/code&gt; plugin is used, pre-recorded chalkboard drawings can be played. The slideshow plays back the user interaction with the chalkboard in the same way as it was conducted when recording the data.&lt;/p&gt;
+&lt;h2 id=&#34;multiplexing&#34;&gt;Multiplexing&lt;/h2&gt;
+&lt;p&gt;The plugin supports multiplexing via the &lt;a href=&#34;https://github.com/reveal/multiplex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;multiplex&lt;/code&gt; plugin&lt;/a&gt; or the &lt;a href=&#34;https://github.com/rajgoel/reveal.js-plugins/tree/master/seminar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;seminar&lt;/code&gt; plugin&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;pdf-export&#34;&gt;PDF-Export&lt;/h2&gt;
+&lt;p&gt;If the slideshow is opened in &lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;print mode&lt;/a&gt;, the chalkboard drawings in the session storage (see &lt;code&gt;storage&lt;/code&gt; option - print version must be opened in the same tab or window as the original slideshow) or provided in a file (see &lt;code&gt;src&lt;/code&gt; option) are included in the PDF-file. Each drawing on the chalkboard is added after the slide that was shown when opening the chalkboard. Drawings on the notes canvas are not included in the PDF-file.&lt;/p&gt;
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;The plugin has several configuration options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;boardmarkerWidth&lt;/code&gt;: an integer, the drawing width of the boardmarker; larger values draw thicker lines.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chalkWidth&lt;/code&gt;: an integer, the drawing width of the chalk; larger values draw thicker lines.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chalkEffect&lt;/code&gt;: a float in the range &lt;code&gt;[0.0, 1.0]&lt;/code&gt;, the intesity of the chalk effect on the chalk board. Full effect (default) &lt;code&gt;1.0&lt;/code&gt;, no effect &lt;code&gt;0.0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;storage&lt;/code&gt;: Optional variable name for session storage of drawings.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src&lt;/code&gt;: Optional filename for pre-recorded drawings.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;readOnly&lt;/code&gt;: Configuation option allowing to prevent changes to existing drawings. If set to &lt;code&gt;true&lt;/code&gt; no changes can be made, if set to false &lt;code&gt;false&lt;/code&gt; changes can be made, if unset or set to &lt;code&gt;undefined&lt;/code&gt; no changes to the drawings can be made after returning to a slide or fragment for which drawings had been recorded before. In any case the recorded drawings for a slide or fragment can be cleared by pressing the &amp;lsquo;DEL&amp;rsquo; key (i.e. by using the &lt;code&gt;RevealChalkboard.clear()&lt;/code&gt; function).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;transition&lt;/code&gt;: Gives the duration (in milliseconds) of the transition for a slide change, so that the notes canvas is drawn after the transition is completed.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;theme&lt;/code&gt;: Can be set to either &lt;code&gt;&amp;quot;chalkboard&amp;quot;&lt;/code&gt; or &lt;code&gt;&amp;quot;whiteboard&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following configuration options allow to change the appearance of the notes canvas and the chalkboard. All of these options require two values, the first gives the value for the notes canvas, the second for the chalkboard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;background&lt;/code&gt;: The first value expects a (semi-)transparent color which is used to provide visual feedback that the notes canvas is enabled, the second value expects a filename to a background image for the chalkboard.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grid&lt;/code&gt;: By default whiteboard and chalkboard themes include a grid pattern on the background. This pattern can be modified by setting the color, the distance between lines, and the line width, e.g. &lt;code&gt;{ color: &#39;rgb(127,127,255,0.1)&#39;, distance: 40, width: 2}&lt;/code&gt;. Alternatively, the grid can be removed by setting the value to &lt;code&gt;false&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;eraser&lt;/code&gt;: An image path and radius for the eraser.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;boardmarkers&lt;/code&gt;: A list of boardmarkers with given color and cursor.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chalks&lt;/code&gt;: A list of chalks with given color and cursor.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rememberColor&lt;/code&gt;: Whether to remember the last selected color for the slide canvas or the board.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of the configurations are optional and the default values shown below are used if the options are not provided.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;Reveal.initialize({
+	// ...
+    chalkboard: {
+        boardmarkerWidth: 3,
+        chalkWidth: 7,
+        chalkEffect: 1.0,
+        storage: null,
+        src: null,
+        readOnly: undefined,
+        transition: 800,
+        theme: &amp;quot;chalkboard&amp;quot;,
+        background: [ &#39;rgba(127,127,127,.1)&#39; , path + &#39;img/blackboard.png&#39; ],
+        grid: { color: &#39;rgb(50,50,10,0.5)&#39;, distance: 80, width: 2},
+        eraser: { src: path + &#39;img/sponge.png&#39;, radius: 20},
+        boardmarkers : [
+                { color: &#39;rgba(100,100,100,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-black.png), auto&#39;},
+                { color: &#39;rgba(30,144,255, 1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-blue.png), auto&#39;},
+                { color: &#39;rgba(220,20,60,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-red.png), auto&#39;},
+                { color: &#39;rgba(50,205,50,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-green.png), auto&#39;},
+                { color: &#39;rgba(255,140,0,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-orange.png), auto&#39;},
+                { color: &#39;rgba(150,0,20150,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-purple.png), auto&#39;},
+                { color: &#39;rgba(255,220,0,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-yellow.png), auto&#39;}
+        ],
+        chalks: [
+                { color: &#39;rgba(255,255,255,0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-white.png), auto&#39;},
+                { color: &#39;rgba(96, 154, 244, 0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-blue.png), auto&#39;},
+                { color: &#39;rgba(237, 20, 28, 0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-red.png), auto&#39;},
+                { color: &#39;rgba(20, 237, 28, 0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-green.png), auto&#39;},
+                { color: &#39;rgba(220, 133, 41, 0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-orange.png), auto&#39;},
+                { color: &#39;rgba(220,0,220,0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-purple.png), auto&#39;},
+                { color: &#39;rgba(255,220,0,0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-yellow.png), auto&#39;}
+        ]
+    },
+    customcontrols: {
+  		controls: [
+  			{ icon: &#39;&amp;lt;i class=&amp;quot;fa fa-pen-square&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&#39;,
+  			  title: &#39;Toggle chalkboard (B)&#39;,
+  			  action: &#39;RevealChalkboard.toggleChalkboard();&#39;
+  			},
+  			{ icon: &#39;&amp;lt;i class=&amp;quot;fa fa-pen&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&#39;,
+  			  title: &#39;Toggle notes canvas (C)&#39;,
+  			  action: &#39;RevealChalkboard.toggleNotesCanvas();&#39;
+  			}
+  		]
+    },
+    // ...
+
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;MIT licensed&lt;/p&gt;
+&lt;p&gt;Copyright (C) 2021 Asvin Goel&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://bendeivide.github.io/slides/estexp/s14/index_files/libs/revealjs/plugin/notes/speaker-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estexp/s14/index_files/libs/revealjs/plugin/notes/speaker-view/</guid>
+      <description>
+&lt;html lang=&#34;en&#34;&gt;
+	&lt;head&gt;
+		&lt;meta charset=&#34;utf-8&#34;&gt;
+
+		&lt;title&gt;reveal.js - Speaker View&lt;/title&gt;
+
+		&lt;style&gt;
+			body {
+				font-family: Helvetica;
+				font-size: 18px;
+			}
+
+			#current-slide,
+			#upcoming-slide,
+			#speaker-controls {
+				padding: 6px;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+			}
+
+			#current-slide iframe,
+			#upcoming-slide iframe {
+				width: 100%;
+				height: 100%;
+				border: 1px solid #ddd;
+			}
+
+			#current-slide .label,
+			#upcoming-slide .label {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				z-index: 2;
+			}
+
+			#connection-status {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 20;
+				padding: 30% 20% 20% 20%;
+				font-size: 18px;
+				color: #222;
+				background: #fff;
+				text-align: center;
+				box-sizing: border-box;
+				line-height: 1.4;
+			}
+
+			.overlay-element {
+				height: 34px;
+				line-height: 34px;
+				padding: 0 10px;
+				text-shadow: none;
+				background: rgba( 220, 220, 220, 0.8 );
+				color: #222;
+				font-size: 14px;
+			}
+
+			.overlay-element.interactive:hover {
+				background: rgba( 220, 220, 220, 1 );
+			}
+
+			#current-slide {
+				position: absolute;
+				width: 60%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				padding-right: 0;
+			}
+
+			#upcoming-slide {
+				position: absolute;
+				width: 40%;
+				height: 40%;
+				right: 0;
+				top: 0;
+			}
+
+			/* Speaker controls */
+			#speaker-controls {
+				position: absolute;
+				top: 40%;
+				right: 0;
+				width: 40%;
+				height: 60%;
+				overflow: auto;
+				font-size: 18px;
+			}
+
+				.speaker-controls-time.hidden,
+				.speaker-controls-notes.hidden {
+					display: none;
+				}
+
+				.speaker-controls-time .label,
+				.speaker-controls-pace .label,
+				.speaker-controls-notes .label {
+					text-transform: uppercase;
+					font-weight: normal;
+					font-size: 0.66em;
+					color: #666;
+					margin: 0;
+				}
+
+				.speaker-controls-time, .speaker-controls-pace {
+					border-bottom: 1px solid rgba( 200, 200, 200, 0.5 );
+					margin-bottom: 10px;
+					padding: 10px 16px;
+					padding-bottom: 20px;
+					cursor: pointer;
+				}
+
+				.speaker-controls-time .reset-button {
+					opacity: 0;
+					float: right;
+					color: #666;
+					text-decoration: none;
+				}
+				.speaker-controls-time:hover .reset-button {
+					opacity: 1;
+				}
+
+				.speaker-controls-time .timer,
+				.speaker-controls-time .clock {
+					width: 50%;
+				}
+
+				.speaker-controls-time .timer,
+				.speaker-controls-time .clock,
+				.speaker-controls-time .pacing .hours-value,
+				.speaker-controls-time .pacing .minutes-value,
+				.speaker-controls-time .pacing .seconds-value {
+					font-size: 1.9em;
+				}
+
+				.speaker-controls-time .timer {
+					float: left;
+				}
+
+				.speaker-controls-time .clock {
+					float: right;
+					text-align: right;
+				}
+
+				.speaker-controls-time span.mute {
+					opacity: 0.3;
+				}
+
+				.speaker-controls-time .pacing-title {
+					margin-top: 5px;
+				}
+
+				.speaker-controls-time .pacing.ahead {
+					color: blue;
+				}
+
+				.speaker-controls-time .pacing.on-track {
+					color: green;
+				}
+
+				.speaker-controls-time .pacing.behind {
+					color: red;
+				}
+
+				.speaker-controls-notes {
+					padding: 10px 16px;
+				}
+
+				.speaker-controls-notes .value {
+					margin-top: 5px;
+					line-height: 1.4;
+					font-size: 1.2em;
+				}
+
+			/* Layout selector */
+			#speaker-layout {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				color: #222;
+				z-index: 10;
+			}
+				#speaker-layout select {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					border: 0;
+					box-shadow: 0;
+					cursor: pointer;
+					opacity: 0;
+
+					font-size: 1em;
+					background-color: transparent;
+
+					-moz-appearance: none;
+					-webkit-appearance: none;
+					-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+				}
+
+				#speaker-layout select:focus {
+					outline: none;
+					box-shadow: none;
+				}
+
+			.clear {
+				clear: both;
+			}
+
+			/* Speaker layout: Wide */
+			body[data-speaker-layout=&#34;wide&#34;] #current-slide,
+			body[data-speaker-layout=&#34;wide&#34;] #upcoming-slide {
+				width: 50%;
+				height: 45%;
+				padding: 6px;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #current-slide {
+				top: 0;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #upcoming-slide {
+				top: 0;
+				left: 50%;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #speaker-controls {
+				top: 45%;
+				left: 0;
+				width: 100%;
+				height: 50%;
+				font-size: 1.25em;
+			}
+
+			/* Speaker layout: Tall */
+			body[data-speaker-layout=&#34;tall&#34;] #current-slide,
+			body[data-speaker-layout=&#34;tall&#34;] #upcoming-slide {
+				width: 45%;
+				height: 50%;
+				padding: 6px;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #current-slide {
+				top: 0;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #upcoming-slide {
+				top: 50%;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #speaker-controls {
+				padding-top: 40px;
+				top: 0;
+				left: 45%;
+				width: 55%;
+				height: 100%;
+				font-size: 1.25em;
+			}
+
+			/* Speaker layout: Notes only */
+			body[data-speaker-layout=&#34;notes-only&#34;] #current-slide,
+			body[data-speaker-layout=&#34;notes-only&#34;] #upcoming-slide {
+				display: none;
+			}
+
+			body[data-speaker-layout=&#34;notes-only&#34;] #speaker-controls {
+				padding-top: 40px;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				font-size: 1.25em;
+			}
+
+			@media screen and (max-width: 1080px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 16px;
+				}
+			}
+
+			@media screen and (max-width: 900px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 14px;
+				}
+			}
+
+			@media screen and (max-width: 800px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 12px;
+				}
+			}
+
+		&lt;/style&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+
+		&lt;div id=&#34;connection-status&#34;&gt;Loading speaker view...&lt;/div&gt;
+
+		&lt;div id=&#34;current-slide&#34;&gt;&lt;/div&gt;
+		&lt;div id=&#34;upcoming-slide&#34;&gt;&lt;span class=&#34;overlay-element label&#34;&gt;Upcoming&lt;/span&gt;&lt;/div&gt;
+		&lt;div id=&#34;speaker-controls&#34;&gt;
+			&lt;div class=&#34;speaker-controls-time&#34;&gt;
+				&lt;h4 class=&#34;label&#34;&gt;Time &lt;span class=&#34;reset-button&#34;&gt;Click to Reset&lt;/span&gt;&lt;/h4&gt;
+				&lt;div class=&#34;clock&#34;&gt;
+					&lt;span class=&#34;clock-value&#34;&gt;0:00 AM&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;timer&#34;&gt;
+					&lt;span class=&#34;hours-value&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;minutes-value&#34;&gt;:00&lt;/span&gt;&lt;span class=&#34;seconds-value&#34;&gt;:00&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+				&lt;h4 class=&#34;label pacing-title&#34; style=&#34;display: none&#34;&gt;Pacing – Time to finish current slide&lt;/h4&gt;
+				&lt;div class=&#34;pacing&#34; style=&#34;display: none&#34;&gt;
+					&lt;span class=&#34;hours-value&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;minutes-value&#34;&gt;:00&lt;/span&gt;&lt;span class=&#34;seconds-value&#34;&gt;:00&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&#34;speaker-controls-notes hidden&#34;&gt;
+				&lt;h4 class=&#34;label&#34;&gt;Notes&lt;/h4&gt;
+				&lt;div class=&#34;value&#34;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&#34;speaker-layout&#34; class=&#34;overlay-element interactive&#34;&gt;
+			&lt;span class=&#34;speaker-layout-label&#34;&gt;&lt;/span&gt;
+			&lt;select class=&#34;speaker-layout-dropdown&#34;&gt;&lt;/select&gt;
+		&lt;/div&gt;
+
+		&lt;script&gt;
+
+			(function() {
+
+				var notes,
+					notesValue,
+					currentState,
+					currentSlide,
+					upcomingSlide,
+					layoutLabel,
+					layoutDropdown,
+					pendingCalls = {},
+					lastRevealApiCallId = 0,
+					connected = false,
+					whitelistedWindows = [window.opener];
+
+				var SPEAKER_LAYOUTS = {
+					&#39;default&#39;: &#39;Default&#39;,
+					&#39;wide&#39;: &#39;Wide&#39;,
+					&#39;tall&#39;: &#39;Tall&#39;,
+					&#39;notes-only&#39;: &#39;Notes only&#39;
+				};
+
+				setupLayout();
+
+				var connectionStatus = document.querySelector( &#39;#connection-status&#39; );
+				var connectionTimeout = setTimeout( function() {
+					connectionStatus.innerHTML = &#39;Error connecting to main window.&lt;br&gt;Please try closing and reopening the speaker view.&#39;;
+				}, 5000 );
+;
+				window.addEventListener( &#39;message&#39;, function( event ) {
+
+					// Validate the origin of this message to prevent XSS
+					if( window.location.origin !== event.origin &amp;&amp; whitelistedWindows.indexOf( event.source ) === -1 ) {
+						return;
+					}
+
+					clearTimeout( connectionTimeout );
+					connectionStatus.style.display = &#39;none&#39;;
+
+					var data = JSON.parse( event.data );
+
+					// The overview mode is only useful to the reveal.js instance
+					// where navigation occurs so we don&#39;t sync it
+					if( data.state ) delete data.state.overview;
+
+					// Messages sent by the notes plugin inside of the main window
+					if( data &amp;&amp; data.namespace === &#39;reveal-notes&#39; ) {
+						if( data.type === &#39;connect&#39; ) {
+							handleConnectMessage( data );
+						}
+						else if( data.type === &#39;state&#39; ) {
+							handleStateMessage( data );
+						}
+						else if( data.type === &#39;return&#39; ) {
+							pendingCalls[data.callId](data.result);
+							delete pendingCalls[data.callId];
+						}
+					}
+					// Messages sent by the reveal.js inside of the current slide preview
+					else if( data &amp;&amp; data.namespace === &#39;reveal&#39; ) {
+						if( /ready/.test( data.eventName ) ) {
+							// Send a message back to notify that the handshake is complete
+							window.opener.postMessage( JSON.stringify({ namespace: &#39;reveal-notes&#39;, type: &#39;connected&#39;} ), &#39;*&#39; );
+						}
+						else if( /slidechanged|fragmentshown|fragmenthidden|paused|resumed/.test( data.eventName ) &amp;&amp; currentState !== JSON.stringify( data.state ) ) {
+
+							dispatchStateToMainWindow( data.state );
+
+						}
+					}
+
+				} );
+
+				/**
+				 * Updates the presentation in the main window to match the state
+				 * of the presentation in the notes window.
+				 */
+				const dispatchStateToMainWindow = debounce(( state ) =&gt; {
+					window.opener.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ state ]} ), &#39;*&#39; );
+				}, 500);
+
+				/**
+				 * Asynchronously calls the Reveal.js API of the main frame.
+				 */
+				function callRevealApi( methodName, methodArguments, callback ) {
+
+					var callId = ++lastRevealApiCallId;
+					pendingCalls[callId] = callback;
+					window.opener.postMessage( JSON.stringify( {
+						namespace: &#39;reveal-notes&#39;,
+						type: &#39;call&#39;,
+						callId: callId,
+						methodName: methodName,
+						arguments: methodArguments
+					} ), &#39;*&#39; );
+
+				}
+
+				/**
+				 * Called when the main window is trying to establish a
+				 * connection.
+				 */
+				function handleConnectMessage( data ) {
+
+					if( connected === false ) {
+						connected = true;
+
+						setupIframes( data );
+						setupKeyboard();
+						setupNotes();
+						setupTimer();
+						setupHeartbeat();
+					}
+
+				}
+
+				/**
+				 * Called when the main window sends an updated state.
+				 */
+				function handleStateMessage( data ) {
+
+					// Store the most recently set state to avoid circular loops
+					// applying the same state
+					currentState = JSON.stringify( data.state );
+
+					// No need for updating the notes in case of fragment changes
+					if ( data.notes ) {
+						notes.classList.remove( &#39;hidden&#39; );
+						notesValue.style.whiteSpace = data.whitespace;
+						if( data.markdown ) {
+							notesValue.innerHTML = marked( data.notes );
+						}
+						else {
+							notesValue.innerHTML = data.notes;
+						}
+					}
+					else {
+						notes.classList.add( &#39;hidden&#39; );
+					}
+
+					// Update the note slides
+					currentSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ data.state ] }), &#39;*&#39; );
+					upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ data.state ] }), &#39;*&#39; );
+					upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;next&#39; }), &#39;*&#39; );
+
+				}
+
+				// Limit to max one state update per X ms
+				handleStateMessage = debounce( handleStateMessage, 200 );
+
+				/**
+				 * Forward keyboard events to the current slide window.
+				 * This enables keyboard events to work even if focus
+				 * isn&#39;t set on the current slide iframe.
+				 *
+				 * Block F5 default handling, it reloads and disconnects
+				 * the speaker notes window.
+				 */
+				function setupKeyboard() {
+
+					document.addEventListener( &#39;keydown&#39;, function( event ) {
+						if( event.keyCode === 116 || ( event.metaKey &amp;&amp; event.keyCode === 82 ) ) {
+							event.preventDefault();
+							return false;
+						}
+						currentSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;triggerKey&#39;, args: [ event.keyCode ] }), &#39;*&#39; );
+					} );
+
+				}
+
+				/**
+				 * Creates the preview iframes.
+				 */
+				function setupIframes( data ) {
+
+					var params = [
+						&#39;receiver&#39;,
+						&#39;progress=false&#39;,
+						&#39;history=false&#39;,
+						&#39;transition=none&#39;,
+						&#39;autoSlide=0&#39;,
+						&#39;backgroundTransition=none&#39;
+					].join( &#39;&amp;&#39; );
+
+					var urlSeparator = /\?/.test(data.url) ? &#39;&amp;&#39; : &#39;?&#39;;
+					var hash = &#39;#/&#39; + data.state.indexh + &#39;/&#39; + data.state.indexv;
+					var currentURL = data.url + urlSeparator + params + &#39;&amp;postMessageEvents=true&#39; + hash;
+					var upcomingURL = data.url + urlSeparator + params + &#39;&amp;controls=false&#39; + hash;
+
+					currentSlide = document.createElement( &#39;iframe&#39; );
+					currentSlide.setAttribute( &#39;width&#39;, 1280 );
+					currentSlide.setAttribute( &#39;height&#39;, 1024 );
+					currentSlide.setAttribute( &#39;src&#39;, currentURL );
+					document.querySelector( &#39;#current-slide&#39; ).appendChild( currentSlide );
+
+					upcomingSlide = document.createElement( &#39;iframe&#39; );
+					upcomingSlide.setAttribute( &#39;width&#39;, 640 );
+					upcomingSlide.setAttribute( &#39;height&#39;, 512 );
+					upcomingSlide.setAttribute( &#39;src&#39;, upcomingURL );
+					document.querySelector( &#39;#upcoming-slide&#39; ).appendChild( upcomingSlide );
+
+					whitelistedWindows.push( currentSlide.contentWindow, upcomingSlide.contentWindow );
+
+				}
+
+				/**
+				 * Setup the notes UI.
+				 */
+				function setupNotes() {
+
+					notes = document.querySelector( &#39;.speaker-controls-notes&#39; );
+					notesValue = document.querySelector( &#39;.speaker-controls-notes .value&#39; );
+
+				}
+
+				/**
+				 * We send out a heartbeat at all times to ensure we can
+				 * reconnect with the main presentation window after reloads.
+				 */
+				function setupHeartbeat() {
+
+					setInterval( () =&gt; {
+						window.opener.postMessage( JSON.stringify({ namespace: &#39;reveal-notes&#39;, type: &#39;heartbeat&#39;} ), &#39;*&#39; );
+					}, 1000 );
+
+				}
+
+				function getTimings( callback ) {
+
+					callRevealApi( &#39;getSlidesAttributes&#39;, [], function ( slideAttributes ) {
+						callRevealApi( &#39;getConfig&#39;, [], function ( config ) {
+							var totalTime = config.totalTime;
+							var minTimePerSlide = config.minimumTimePerSlide || 0;
+							var defaultTiming = config.defaultTiming;
+							if ((defaultTiming == null) &amp;&amp; (totalTime == null)) {
+								callback(null);
+								return;
+							}
+							// Setting totalTime overrides defaultTiming
+							if (totalTime) {
+								defaultTiming = 0;
+							}
+							var timings = [];
+							for ( var i in slideAttributes ) {
+								var slide = slideAttributes[ i ];
+								var timing = defaultTiming;
+								if( slide.hasOwnProperty( &#39;data-timing&#39; )) {
+									var t = slide[ &#39;data-timing&#39; ];
+									timing = parseInt(t);
+									if( isNaN(timing) ) {
+										console.warn(&#34;Could not parse timing &#39;&#34; + t + &#34;&#39; of slide &#34; + i + &#34;; using default of &#34; + defaultTiming);
+										timing = defaultTiming;
+									}
+								}
+								timings.push(timing);
+							}
+							if ( totalTime ) {
+								// After we&#39;ve allocated time to individual slides, we summarize it and
+								// subtract it from the total time
+								var remainingTime = totalTime - timings.reduce( function(a, b) { return a + b; }, 0 );
+								// The remaining time is divided by the number of slides that have 0 seconds
+								// allocated at the moment, giving the average time-per-slide on the remaining slides
+								var remainingSlides = (timings.filter( function(x) { return x == 0 }) ).length
+								var timePerSlide = Math.round( remainingTime / remainingSlides, 0 )
+								// And now we replace every zero-value timing with that average
+								timings = timings.map( function(x) { return (x==0 ? timePerSlide : x) } );
+							}
+							var slidesUnderMinimum = timings.filter( function(x) { return (x &lt; minTimePerSlide) } ).length
+							if ( slidesUnderMinimum ) {
+								message = &#34;The pacing time for &#34; + slidesUnderMinimum + &#34; slide(s) is under the configured minimum of &#34; + minTimePerSlide + &#34; seconds. Check the data-timing attribute on individual slides, or consider increasing the totalTime or minimumTimePerSlide configuration options (or removing some slides).&#34;;
+								alert(message);
+							}
+							callback( timings );
+						} );
+					} );
+
+				}
+
+				/**
+				 * Return the number of seconds allocated for presenting
+				 * all slides up to and including this one.
+				 */
+				function getTimeAllocated( timings, callback ) {
+
+					callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+						var allocated = 0;
+						for (var i in timings.slice(0, currentSlide + 1)) {
+							allocated += timings[i];
+						}
+						callback( allocated );
+					} );
+
+				}
+
+				/**
+				 * Create the timer and clock and start updating them
+				 * at an interval.
+				 */
+				function setupTimer() {
+
+					var start = new Date(),
+					timeEl = document.querySelector( &#39;.speaker-controls-time&#39; ),
+					clockEl = timeEl.querySelector( &#39;.clock-value&#39; ),
+					hoursEl = timeEl.querySelector( &#39;.hours-value&#39; ),
+					minutesEl = timeEl.querySelector( &#39;.minutes-value&#39; ),
+					secondsEl = timeEl.querySelector( &#39;.seconds-value&#39; ),
+					pacingTitleEl = timeEl.querySelector( &#39;.pacing-title&#39; ),
+					pacingEl = timeEl.querySelector( &#39;.pacing&#39; ),
+					pacingHoursEl = pacingEl.querySelector( &#39;.hours-value&#39; ),
+					pacingMinutesEl = pacingEl.querySelector( &#39;.minutes-value&#39; ),
+					pacingSecondsEl = pacingEl.querySelector( &#39;.seconds-value&#39; );
+
+					var timings = null;
+					getTimings( function ( _timings ) {
+
+						timings = _timings;
+						if (_timings !== null) {
+							pacingTitleEl.style.removeProperty(&#39;display&#39;);
+							pacingEl.style.removeProperty(&#39;display&#39;);
+						}
+
+						// Update once directly
+						_updateTimer();
+
+						// Then update every second
+						setInterval( _updateTimer, 1000 );
+
+					} );
+
+
+					function _resetTimer() {
+
+						if (timings == null) {
+							start = new Date();
+							_updateTimer();
+						}
+						else {
+							// Reset timer to beginning of current slide
+							getTimeAllocated( timings, function ( slideEndTimingSeconds ) {
+								var slideEndTiming = slideEndTimingSeconds * 1000;
+								callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+									var currentSlideTiming = timings[currentSlide] * 1000;
+									var previousSlidesTiming = slideEndTiming - currentSlideTiming;
+									var now = new Date();
+									start = new Date(now.getTime() - previousSlidesTiming);
+									_updateTimer();
+								} );
+							} );
+						}
+
+					}
+
+					timeEl.addEventListener( &#39;click&#39;, function() {
+						_resetTimer();
+						return false;
+					} );
+
+					function _displayTime( hrEl, minEl, secEl, time) {
+
+						var sign = Math.sign(time) == -1 ? &#34;-&#34; : &#34;&#34;;
+						time = Math.abs(Math.round(time / 1000));
+						var seconds = time % 60;
+						var minutes = Math.floor( time / 60 ) % 60 ;
+						var hours = Math.floor( time / ( 60 * 60 )) ;
+						hrEl.innerHTML = sign + zeroPadInteger( hours );
+						if (hours == 0) {
+							hrEl.classList.add( &#39;mute&#39; );
+						}
+						else {
+							hrEl.classList.remove( &#39;mute&#39; );
+						}
+						minEl.innerHTML = &#39;:&#39; + zeroPadInteger( minutes );
+						if (hours == 0 &amp;&amp; minutes == 0) {
+							minEl.classList.add( &#39;mute&#39; );
+						}
+						else {
+							minEl.classList.remove( &#39;mute&#39; );
+						}
+						secEl.innerHTML = &#39;:&#39; + zeroPadInteger( seconds );
+					}
+
+					function _updateTimer() {
+
+						var diff, hours, minutes, seconds,
+						now = new Date();
+
+						diff = now.getTime() - start.getTime();
+
+						clockEl.innerHTML = now.toLocaleTimeString( &#39;en-US&#39;, { hour12: true, hour: &#39;2-digit&#39;, minute:&#39;2-digit&#39; } );
+						_displayTime( hoursEl, minutesEl, secondsEl, diff );
+						if (timings !== null) {
+							_updatePacing(diff);
+						}
+
+					}
+
+					function _updatePacing(diff) {
+
+						getTimeAllocated( timings, function ( slideEndTimingSeconds ) {
+							var slideEndTiming = slideEndTimingSeconds * 1000;
+
+							callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+								var currentSlideTiming = timings[currentSlide] * 1000;
+								var timeLeftCurrentSlide = slideEndTiming - diff;
+								if (timeLeftCurrentSlide &lt; 0) {
+									pacingEl.className = &#39;pacing behind&#39;;
+								}
+								else if (timeLeftCurrentSlide &lt; currentSlideTiming) {
+									pacingEl.className = &#39;pacing on-track&#39;;
+								}
+								else {
+									pacingEl.className = &#39;pacing ahead&#39;;
+								}
+								_displayTime( pacingHoursEl, pacingMinutesEl, pacingSecondsEl, timeLeftCurrentSlide );
+							} );
+						} );
+					}
+
+				}
+
+				/**
+				 * Sets up the speaker view layout and layout selector.
+				 */
+				function setupLayout() {
+
+					layoutDropdown = document.querySelector( &#39;.speaker-layout-dropdown&#39; );
+					layoutLabel = document.querySelector( &#39;.speaker-layout-label&#39; );
+
+					// Render the list of available layouts
+					for( var id in SPEAKER_LAYOUTS ) {
+						var option = document.createElement( &#39;option&#39; );
+						option.setAttribute( &#39;value&#39;, id );
+						option.textContent = SPEAKER_LAYOUTS[ id ];
+						layoutDropdown.appendChild( option );
+					}
+
+					// Monitor the dropdown for changes
+					layoutDropdown.addEventListener( &#39;change&#39;, function( event ) {
+
+						setLayout( layoutDropdown.value );
+
+					}, false );
+
+					// Restore any currently persisted layout
+					setLayout( getLayout() );
+
+				}
+
+				/**
+				 * Sets a new speaker view layout. The layout is persisted
+				 * in local storage.
+				 */
+				function setLayout( value ) {
+
+					var title = SPEAKER_LAYOUTS[ value ];
+
+					layoutLabel.innerHTML = &#39;Layout&#39; + ( title ? ( &#39;: &#39; + title ) : &#39;&#39; );
+					layoutDropdown.value = value;
+
+					document.body.setAttribute( &#39;data-speaker-layout&#39;, value );
+
+					// Persist locally
+					if( supportsLocalStorage() ) {
+						window.localStorage.setItem( &#39;reveal-speaker-layout&#39;, value );
+					}
+
+				}
+
+				/**
+				 * Returns the ID of the most recently set speaker layout
+				 * or our default layout if none has been set.
+				 */
+				function getLayout() {
+
+					if( supportsLocalStorage() ) {
+						var layout = window.localStorage.getItem( &#39;reveal-speaker-layout&#39; );
+						if( layout ) {
+							return layout;
+						}
+					}
+
+					// Default to the first record in the layouts hash
+					for( var id in SPEAKER_LAYOUTS ) {
+						return id;
+					}
+
+				}
+
+				function supportsLocalStorage() {
+
+					try {
+						localStorage.setItem(&#39;test&#39;, &#39;test&#39;);
+						localStorage.removeItem(&#39;test&#39;);
+						return true;
+					}
+					catch( e ) {
+						return false;
+					}
+
+				}
+
+				function zeroPadInteger( num ) {
+
+					var str = &#39;00&#39; + parseInt( num );
+					return str.substring( str.length - 2 );
+
+				}
+
+				/**
+				 * Limits the frequency at which a function can be called.
+				 */
+				function debounce( fn, ms ) {
+
+					var lastTime = 0,
+						timeout;
+
+					return function() {
+
+						var args = arguments;
+						var context = this;
+
+						clearTimeout( timeout );
+
+						var timeSinceLastCall = Date.now() - lastTime;
+						if( timeSinceLastCall &gt; ms ) {
+							fn.apply( context, args );
+							lastTime = Date.now();
+						}
+						else {
+							timeout = setTimeout( function() {
+								fn.apply( context, args );
+								lastTime = Date.now();
+							}, ms - timeSinceLastCall );
+						}
+
+					}
+
+				}
+
+			})();
+
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://bendeivide.github.io/slides/estexp/s14/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estexp/s14/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</guid>
       <description>&lt;h1 id=&#34;chalkboard&#34;&gt;Chalkboard&lt;/h1&gt;
 &lt;p&gt;With this plugin you can add a chalkboard to reveal.js. The plugin provides two possibilities to include handwritten notes to your presentation:&lt;/p&gt;
 &lt;ul&gt;
@@ -102238,1240 +103268,6 @@ Para explicar a definição de uma variável aleatória será considerado o exem
 &lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estatística Experimental</title>
-      <link>http://bendeivide.github.io/slides/estexp/s13/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/estexp/s13/</guid>
-      <description>&lt;h1 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h1&gt;
-&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
-&lt;img src=&#34;SeloDC-branco.png&#34; width = &#34;400&#34;&gt;
-&lt;/a&gt;
-&lt;h1 id=&#34;livro-de-apoio&#34;&gt;Livro de Apoio&lt;/h1&gt;
-&lt;p&gt;Usaremos Batista (&lt;a href=&#34;#ref-batista2025&#34;&gt;2025&lt;/a&gt;):&lt;/p&gt;
-&lt;a href=&#34;https://bendeivide.github.io/books/pae/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
-&lt;img src=&#34;hardcover.png&#34; width = &#34;300&#34;&gt;
-&lt;/a&gt;
-&lt;h1 id=&#34;objetivo-da-aula&#34;&gt;Objetivo da Aula&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Compreender o conceito de resíduos em modelos de ANOVA&lt;/li&gt;
-&lt;li&gt;Interpretar gráficos de resíduos&lt;/li&gt;
-&lt;li&gt;Identificar desvios dos pressupostos do modelo&lt;/li&gt;
-&lt;li&gt;Aplicar procedimentos para avaliar os pressupostos&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;lembrete-pressupostos-da-anova&#34;&gt;Lembrete: Pressupostos da ANOVA&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Independência dos erros&lt;/li&gt;
-&lt;li&gt;Normalidade dos erros&lt;/li&gt;
-&lt;li&gt;Homogeneidade de variâncias (homocedasticidade)&lt;/li&gt;
-&lt;li&gt;Aditividade dos efeitos&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-&lt;p&gt;A verificação desses pressupostos é feita por meio da &lt;strong&gt;análise dos resíduos&lt;/strong&gt;.&lt;/p&gt;
-&lt;h1 id=&#34;o-que-são-resíduos&#34;&gt;O que são Resíduos?&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Os &lt;strong&gt;resíduos&lt;/strong&gt; são as diferenças entre os valores observados e os valores ajustados pelo modelo:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-$$
-e_{ij} = y_{ij} - \hat{y}_{ij}
-$$
-&lt;ul&gt;
-&lt;li&gt;Eles representam a &lt;strong&gt;parte não explicada&lt;/strong&gt; pelo modelo.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;exemplo&#34;&gt;Exemplo&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Um braço robótico é programado para mover-se até uma posição alvo&lt;/li&gt;
-&lt;li&gt;Utiliza-se diferentes algoritmos de controle para comandar o movimento&lt;/li&gt;
-&lt;li&gt;O desempenho é medido em termos do erro médio absoluto de posicionamento (mm) após 10 execuções por repetição&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;exemplo-1&#34;&gt;Exemplo&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fator (Tratamento)&lt;/strong&gt;: Tipo de algoritmo de controle (4 níveis)
-&lt;ul&gt;
-&lt;li&gt;PID&lt;/li&gt;
-&lt;li&gt;PID com autoajuste&lt;/li&gt;
-&lt;li&gt;Controle Fuzzy&lt;/li&gt;
-&lt;li&gt;Controle LQR&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Unidades experimentais&lt;/strong&gt;: Execuções independentes do movimento com o braço robótico, em condições idênticas.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Resposta&lt;/strong&gt;: Erro médio absoluto de posicionamento (mm)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;exemplo-2&#34;&gt;Exemplo&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(gt)
-library(dplyr)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Anexando pacote: &#39;dplyr&#39;
-
-## Os seguintes objetos são mascarados por &#39;package:stats&#39;:
-## 
-##     filter, lag
-
-## Os seguintes objetos são mascarados por &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyr)
-
-set.seed(123)
-
-# Níveis do fator
-tratamento &amp;lt;- rep(c(&amp;quot;PID&amp;quot;, &amp;quot;AutoPID&amp;quot;, &amp;quot;Fuzzy&amp;quot;, &amp;quot;LQR&amp;quot;), each = 5)
-
-# Resposta simulada (erro médio absoluto)
-ema &amp;lt;- c(
-  rnorm(5, mean = 1.2, sd = 0.1),  # PID
-  rnorm(5, mean = 1.0, sd = 0.1),  # AutoPID
-  rnorm(5, mean = 0.8, sd = 0.15), # Fuzzy
-  rnorm(5, mean = 0.9, sd = 0.12)  # LQR
-)
-
-# Monta data.frame
-dados &amp;lt;- data.frame(Tratamento = tratamento, EMA = ema)
-
-# Adiciona índice para reorganizar em formato wide
-dados &amp;lt;- dados |&amp;gt; 
-  group_by(Tratamento) |&amp;gt; 
-  mutate(Repeticao = row_number()) |&amp;gt; 
-  ungroup()
-
-# Reorganiza em formato wide
-dados_wide &amp;lt;- dados |&amp;gt; 
-  pivot_wider(names_from = Tratamento, values_from = EMA)
-
-# Cria a tabela gt
-tabela_gt &amp;lt;- gt(dados_wide) |&amp;gt;
-  fmt_number(
-    decimals = 2,
-    use_seps = FALSE
-  ) |&amp;gt;
-  tab_header(title = &amp;quot;Erro Médio Absoluto por Algoritmo de Controle&amp;quot;)
-
-# Visualiza a tabela
-tabela_gt
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div id=&#34;ojmgiijwug&#34; style=&#34;padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;
-&lt;style&gt;#ojmgiijwug table {
-  font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-&amp;#10;#ojmgiijwug thead, #ojmgiijwug tbody, #ojmgiijwug tfoot, #ojmgiijwug tr, #ojmgiijwug td, #ojmgiijwug th {
-  border-style: none;
-}
-&amp;#10;#ojmgiijwug p {
-  margin: 0;
-  padding: 0;
-}
-&amp;#10;#ojmgiijwug .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-&amp;#10;#ojmgiijwug .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-&amp;#10;#ojmgiijwug .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-&amp;#10;#ojmgiijwug .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-&amp;#10;#ojmgiijwug .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-&amp;#10;#ojmgiijwug .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-&amp;#10;#ojmgiijwug .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-&amp;#10;#ojmgiijwug .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-&amp;#10;#ojmgiijwug .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-&amp;#10;#ojmgiijwug .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-&amp;#10;#ojmgiijwug .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-&amp;#10;#ojmgiijwug .gt_from_md &gt; :first-child {
-  margin-top: 0;
-}
-&amp;#10;#ojmgiijwug .gt_from_md &gt; :last-child {
-  margin-bottom: 0;
-}
-&amp;#10;#ojmgiijwug .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-&amp;#10;#ojmgiijwug .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#ojmgiijwug .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-&amp;#10;#ojmgiijwug .gt_row_group_first td {
-  border-top-width: 2px;
-}
-&amp;#10;#ojmgiijwug .gt_row_group_first th {
-  border-top-width: 2px;
-}
-&amp;#10;#ojmgiijwug .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#ojmgiijwug .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-&amp;#10;#ojmgiijwug .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#ojmgiijwug .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-&amp;#10;#ojmgiijwug .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#ojmgiijwug .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-&amp;#10;#ojmgiijwug .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#ojmgiijwug .gt_left {
-  text-align: left;
-}
-&amp;#10;#ojmgiijwug .gt_center {
-  text-align: center;
-}
-&amp;#10;#ojmgiijwug .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-&amp;#10;#ojmgiijwug .gt_font_normal {
-  font-weight: normal;
-}
-&amp;#10;#ojmgiijwug .gt_font_bold {
-  font-weight: bold;
-}
-&amp;#10;#ojmgiijwug .gt_font_italic {
-  font-style: italic;
-}
-&amp;#10;#ojmgiijwug .gt_super {
-  font-size: 65%;
-}
-&amp;#10;#ojmgiijwug .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-&amp;#10;#ojmgiijwug .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-&amp;#10;#ojmgiijwug .gt_indent_1 {
-  text-indent: 5px;
-}
-&amp;#10;#ojmgiijwug .gt_indent_2 {
-  text-indent: 10px;
-}
-&amp;#10;#ojmgiijwug .gt_indent_3 {
-  text-indent: 15px;
-}
-&amp;#10;#ojmgiijwug .gt_indent_4 {
-  text-indent: 20px;
-}
-&amp;#10;#ojmgiijwug .gt_indent_5 {
-  text-indent: 25px;
-}
-&amp;#10;#ojmgiijwug .katex-display {
-  display: inline-flex !important;
-  margin-bottom: 0.75em !important;
-}
-&amp;#10;#ojmgiijwug div.Reactable &gt; div.rt-table &gt; div.rt-thead &gt; div.rt-tr.rt-tr-group-header &gt; div.rt-th-group:after {
-  height: 0px !important;
-}
-&lt;/style&gt;
-&lt;table class=&#34;gt_table&#34; data-quarto-disable-processing=&#34;false&#34; data-quarto-bootstrap=&#34;false&#34;&gt;
-  &lt;thead&gt;
-    &lt;tr class=&#34;gt_heading&#34;&gt;
-      &lt;td colspan=&#34;5&#34; class=&#34;gt_heading gt_title gt_font_normal gt_bottom_border&#34; style&gt;Erro Médio Absoluto por Algoritmo de Controle&lt;/td&gt;
-    &lt;/tr&gt;
-    &amp;#10;    &lt;tr class=&#34;gt_col_headings&#34;&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Repeticao&#34;&gt;Repeticao&lt;/th&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;PID&#34;&gt;PID&lt;/th&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;AutoPID&#34;&gt;AutoPID&lt;/th&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Fuzzy&#34;&gt;Fuzzy&lt;/th&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_right&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;LQR&#34;&gt;LQR&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody class=&#34;gt_table_body&#34;&gt;
-    &lt;tr&gt;&lt;td headers=&#34;Repeticao&#34; class=&#34;gt_row gt_right&#34;&gt;1.00&lt;/td&gt;
-&lt;td headers=&#34;PID&#34; class=&#34;gt_row gt_right&#34;&gt;1.14&lt;/td&gt;
-&lt;td headers=&#34;AutoPID&#34; class=&#34;gt_row gt_right&#34;&gt;1.17&lt;/td&gt;
-&lt;td headers=&#34;Fuzzy&#34; class=&#34;gt_row gt_right&#34;&gt;0.98&lt;/td&gt;
-&lt;td headers=&#34;LQR&#34; class=&#34;gt_row gt_right&#34;&gt;1.11&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td headers=&#34;Repeticao&#34; class=&#34;gt_row gt_right&#34;&gt;2.00&lt;/td&gt;
-&lt;td headers=&#34;PID&#34; class=&#34;gt_row gt_right&#34;&gt;1.18&lt;/td&gt;
-&lt;td headers=&#34;AutoPID&#34; class=&#34;gt_row gt_right&#34;&gt;1.05&lt;/td&gt;
-&lt;td headers=&#34;Fuzzy&#34; class=&#34;gt_row gt_right&#34;&gt;0.85&lt;/td&gt;
-&lt;td headers=&#34;LQR&#34; class=&#34;gt_row gt_right&#34;&gt;0.96&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td headers=&#34;Repeticao&#34; class=&#34;gt_row gt_right&#34;&gt;3.00&lt;/td&gt;
-&lt;td headers=&#34;PID&#34; class=&#34;gt_row gt_right&#34;&gt;1.36&lt;/td&gt;
-&lt;td headers=&#34;AutoPID&#34; class=&#34;gt_row gt_right&#34;&gt;0.87&lt;/td&gt;
-&lt;td headers=&#34;Fuzzy&#34; class=&#34;gt_row gt_right&#34;&gt;0.86&lt;/td&gt;
-&lt;td headers=&#34;LQR&#34; class=&#34;gt_row gt_right&#34;&gt;0.66&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td headers=&#34;Repeticao&#34; class=&#34;gt_row gt_right&#34;&gt;4.00&lt;/td&gt;
-&lt;td headers=&#34;PID&#34; class=&#34;gt_row gt_right&#34;&gt;1.21&lt;/td&gt;
-&lt;td headers=&#34;AutoPID&#34; class=&#34;gt_row gt_right&#34;&gt;0.93&lt;/td&gt;
-&lt;td headers=&#34;Fuzzy&#34; class=&#34;gt_row gt_right&#34;&gt;0.82&lt;/td&gt;
-&lt;td headers=&#34;LQR&#34; class=&#34;gt_row gt_right&#34;&gt;0.98&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td headers=&#34;Repeticao&#34; class=&#34;gt_row gt_right&#34;&gt;5.00&lt;/td&gt;
-&lt;td headers=&#34;PID&#34; class=&#34;gt_row gt_right&#34;&gt;1.21&lt;/td&gt;
-&lt;td headers=&#34;AutoPID&#34; class=&#34;gt_row gt_right&#34;&gt;0.96&lt;/td&gt;
-&lt;td headers=&#34;Fuzzy&#34; class=&#34;gt_row gt_right&#34;&gt;0.72&lt;/td&gt;
-&lt;td headers=&#34;LQR&#34; class=&#34;gt_row gt_right&#34;&gt;0.84&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-  &amp;#10;  
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ANAVA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;anava &amp;lt;- aov(EMA ~ Tratamento, data = dados); summary(anava)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##             Df Sum Sq Mean Sq F value   Pr(&amp;gt;F)    
-## Tratamento   3 0.3959  0.1320   9.103 0.000949 ***
-## Residuals   16 0.2319  0.0145                     
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;exemplo-3&#34;&gt;Exemplo&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;\(y\)&lt;/code&gt; (EMA observado)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;yobs &amp;lt;- ema
-head(yobs) # 6 primeiras obs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 1.143952 1.176982 1.355871 1.207051 1.212929 1.171506
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;\(\hat{y}\)&lt;/code&gt; (EMA predito)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;yhat &amp;lt;- fitted(anava)
-head(yhat) # 6 primeiras obs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##         1         2         3         4         5         6 
-## 1.2193570 1.2193570 1.2193570 1.2193570 1.2193570 0.9955681
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;exemplo-4&#34;&gt;Exemplo&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Resíduo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;e &amp;lt;- residuals(anava)
-head(e) # 6 primeiras obs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##            1            2            3            4            5            6 
-## -0.075404591 -0.042374775  0.136513805 -0.012306187 -0.006428253  0.175938396
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;\(e_{ij} = y_{ij} - \hat{y}_{ij}\)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;. . .&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;head(yobs - yhat) # 6 primeiras obs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##            1            2            3            4            5            6 
-## -0.075404591 -0.042374775  0.136513805 -0.012306187 -0.006428253  0.175938396
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;por-que-analisar-os-resíduos&#34;&gt;Por que Analisar os Resíduos?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Identificar &lt;strong&gt;falhas no modelo&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Verificar &lt;strong&gt;validade dos testes F e t&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Garantir &lt;strong&gt;confiabilidade das conclusões&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;tipos-de-gráficos-usados&#34;&gt;Tipos de Gráficos Usados&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Resíduos vs Valores Ajustados&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Histograma dos resíduos&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;QQ-plot&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Resíduos vs Fatores&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gráfico de Cook (influência dos pontos)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;resíduos-vs-valores-ajustados&#34;&gt;Resíduos vs Valores Ajustados&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Espera-se dispersão aleatória em torno de zero&lt;/li&gt;
-&lt;li&gt;Padrões indicam:
-&lt;ul&gt;
-&lt;li&gt;Curvatura: possível não linearidade&lt;/li&gt;
-&lt;li&gt;Funil: heterocedasticidade&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;curvatura-possível-não-linearidade&#34;&gt;Curvatura: possível não linearidade&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(12)
-
-# Tratamentos (níveis do fator categórico)
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Atribui nível numérico aos tratamentos
-nível &amp;lt;- as.numeric(factor(tratamento))  # A=1, B=2, C=3, D=4
-
-# Gera a resposta com curvatura forte (modelo quadrático com ruído)
-resposta &amp;lt;- 5 + 10 * nível - 50 * nível^(1/2) + rnorm(20, sd = 0.5)
-
-# Monta o data.frame
-dados_curvatura &amp;lt;- data.frame(tratamento, resposta)
-
-# Ajusta o modelo apenas com efeito de tratamento (modelo aditivo tradicional da ANOVA)
-modelo_inadequado &amp;lt;- aov(resposta ~ tratamento, data = dados_curvatura)
-
-# Gráfico de resíduos vs valores ajustados
-plot(fitted(modelo_inadequado), resid(modelo_inadequado),
-     main = &amp;quot;DIC com Violação de Aditividade (Curvatura Visível)&amp;quot;,
-     xlab = &amp;quot;Valores Ajustados&amp;quot;, ylab = &amp;quot;Resíduos&amp;quot;,
-     pch = 19, col = &amp;quot;firebrick&amp;quot;)
-abline(h = 0, col = &amp;quot;darkgray&amp;quot;, lwd = 2)
-lines(lowess(fitted(modelo_inadequado), resid(modelo_inadequado)),
-      col = &amp;quot;orange&amp;quot;, lwd = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h2 id=&#34;gráfico-com-linearidade&#34;&gt;Gráfico com linearidade&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(10)
-
-# Quatro tratamentos com média diferente, efeito aditivo
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Geração de dados com efeitos fixos e erro aleatório
-efeitos &amp;lt;- c(A = 5, B = 6, C = 7, D = 8)
-resposta &amp;lt;- efeitos[tratamento] + rnorm(20, mean = 0, sd = 1)
-
-# Data frame
-dados &amp;lt;- data.frame(tratamento = tratamento, resposta = resposta)
-
-# Modelo
-modelo &amp;lt;- aov(resposta ~ tratamento, data = dados)
-
-# Resíduos vs Ajustados
-plot(fitted(modelo), resid(modelo),
-     main = &amp;quot;DIC - Modelo Adequado (Sem Curvatura)&amp;quot;,
-     xlab = &amp;quot;Valores Ajustados&amp;quot;, ylab = &amp;quot;Resíduos&amp;quot;,
-     pch = 19, col = &amp;quot;darkgreen&amp;quot;)
-abline(h = 0, col = &amp;quot;red&amp;quot;, lwd = 2)
-lines(lowess(fitted(modelo), resid(modelo)), col = &amp;quot;orange&amp;quot;, lwd = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h2 id=&#34;heterocedasticidade-funil&#34;&gt;Heterocedasticidade (Funil)&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(123)
-
-# Tratamentos
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-nível &amp;lt;- as.numeric(factor(tratamento))  # A = 1, ..., D = 4
-
-# Geração de respostas com variância crescente
-# Média crescente com variância proporcional ao nível
-resposta &amp;lt;- 5 + 1.5 * nível + rnorm(20, mean = 0, sd = nível * 0.5)
-
-# Monta data.frame
-dados_hetero &amp;lt;- data.frame(tratamento, resposta)
-
-# Ajuste de modelo tradicional (pressupõe homogeneidade!)
-modelo_hetero &amp;lt;- aov(resposta ~ tratamento, data = dados_hetero)
-
-# Gráfico de resíduos vs valores ajustados
-plot(fitted(modelo_hetero), resid(modelo_hetero),
-     main = &amp;quot;DIC com Heterocedasticidade (Formato de Funil)&amp;quot;,
-     xlab = &amp;quot;Valores Ajustados&amp;quot;, ylab = &amp;quot;Resíduos&amp;quot;,
-     pch = 19, col = &amp;quot;steelblue&amp;quot;)
-abline(h = 0, col = &amp;quot;darkgray&amp;quot;, lwd = 2)
-lines(lowess(fitted(modelo_hetero), resid(modelo_hetero)),
-      col = &amp;quot;orange&amp;quot;, lwd = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h1 id=&#34;histograma-dos-resíduos&#34;&gt;Histograma dos resíduos&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Formato aproximadamente simétrico (como um sino ou gaussiana)&lt;/li&gt;
-&lt;li&gt;Moda única no centro (em torno de zero)&lt;/li&gt;
-&lt;li&gt;Caudas decrescentes suavemente nos dois lados&lt;/li&gt;
-&lt;li&gt;Sem assimetria (skewness) ou achatamento excessivo (kurtosis)&lt;/li&gt;
-&lt;li&gt;Deve lembrar uma distribuição normal padrão, embora pequenas flutuações sejam normais em amostras pequenas&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;problemas-de-normalidade&#34;&gt;Problemas de normalidade&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(123)
-
-# Fator com 4 níveis (DIC)
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Geração da variável resposta com erro assimétrico (exponencial)
-resposta &amp;lt;- rep(c(5, 6, 7, 8), each = 5) + rexp(20, rate = 1.5)
-
-# Ajusta modelo de ANOVA (pressupõe normalidade dos resíduos)
-modelo_nnorm &amp;lt;- aov(resposta ~ tratamento)
-
-# Resíduos do modelo
-res &amp;lt;- resid(modelo_nnorm)
-
-# Histograma com curva normal teórica
-hist(res,
-     prob = TRUE,
-     main = &amp;quot;Histograma dos Resíduos (Não Normalidade)&amp;quot;,
-     xlab = &amp;quot;Resíduos&amp;quot;,
-     ylab = &amp;quot;Densidade&amp;quot;,
-     col = &amp;quot;mistyrose&amp;quot;, border = &amp;quot;white&amp;quot;)
-curve(dnorm(x, mean = mean(res), sd = sd(res)),
-      col = &amp;quot;blue&amp;quot;, lwd = 2, add = TRUE)
-rug(res)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h2 id=&#34;normalidade&#34;&gt;Normalidade&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(10)
-
-# Fator com 4 níveis (DIC)
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Geração da resposta com erros normais (média 0, sd 1)
-resposta &amp;lt;- rep(c(5, 6, 7, 8), each = 5) + rnorm(20, mean = 0, sd = 1)
-
-# Ajuste do modelo ANOVA
-modelo_norm &amp;lt;- aov(resposta ~ tratamento)
-
-# Resíduos
-res &amp;lt;- resid(modelo_norm)
-
-# Histograma dos resíduos com curva normal teórica
-hist(res,
-     prob = TRUE,
-     main = &amp;quot;Histograma dos Resíduos (Normalidade)&amp;quot;,
-     xlab = &amp;quot;Resíduos&amp;quot;,
-     ylab = &amp;quot;Densidade&amp;quot;,
-     col = &amp;quot;lightgreen&amp;quot;,
-     border = &amp;quot;white&amp;quot;)
-curve(dnorm(x, mean = mean(res), sd = sd(res)),
-      col = &amp;quot;darkgreen&amp;quot;, lwd = 2, add = TRUE)
-rug(res)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h1 id=&#34;qq-plot-normalidade&#34;&gt;QQ-plot (Normalidade)&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Se os resíduos seguem uma linha reta: normalidade razoável&lt;/li&gt;
-&lt;li&gt;Desvios sistemáticos sugerem não normalidade&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;não-normalidade&#34;&gt;Não normalidade&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(123)
-
-# Tratamentos
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-nível &amp;lt;- as.numeric(factor(tratamento))  # A = 1, ..., D = 4
-
-# Geração de resposta com erro assimétrico (distribuição exponencial)
-resposta &amp;lt;- 5 + 0.8 * nível + rexp(20, rate = 1.5)
-
-# Monta data.frame
-dados_nnorm &amp;lt;- data.frame(tratamento, resposta)
-
-# Ajusta o modelo
-modelo &amp;lt;- aov(resposta ~ tratamento, data = dados_nnorm)
-
-# Calcula resíduos padronizados
-residuos_padronizados &amp;lt;- rstandard(modelo)
-
-# QQ-plot com resíduos padronizados
-qqnorm(residuos_padronizados,
-       main = &amp;quot;QQ-plot dos Resíduos Padronizados&amp;quot;,
-       ylab = &amp;quot;Resíduos Padronizados&amp;quot;,
-       xlab = &amp;quot;Quantis teóricos&amp;quot;,
-       pch = 19, col = &amp;quot;darkblue&amp;quot;)
-qqline(residuos_padronizados, col = &amp;quot;red&amp;quot;, lwd = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h2 id=&#34;condição-de-normalidade&#34;&gt;Condição de normalidade&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(123)
-
-# Tratamentos (fator com 4 níveis)
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Geração da resposta com erros normais
-# Diferença entre os tratamentos, mas com erro ~ N(0,1)
-resposta &amp;lt;- rep(c(5, 6, 7, 8), each = 5) + rnorm(20, mean = 0, sd = 1)
-
-# Monta o data frame
-dados_normais &amp;lt;- data.frame(tratamento, resposta)
-
-# Ajusta o modelo de ANOVA
-modelo_norm &amp;lt;- aov(resposta ~ tratamento, data = dados_normais)
-
-# Calcula resíduos padronizados
-residuos_padronizados &amp;lt;- rstandard(modelo_norm)
-
-# QQ-plot dos resíduos padronizados
-qqnorm(residuos_padronizados,
-       main = &amp;quot;QQ-plot dos Resíduos Padronizados (Normalidade)&amp;quot;,
-       ylab = &amp;quot;Resíduos Padronizados&amp;quot;,
-       xlab = &amp;quot;Quantis teóricos&amp;quot;,
-       pch = 19, col = &amp;quot;darkgreen&amp;quot;)
-qqline(residuos_padronizados, col = &amp;quot;black&amp;quot;, lwd = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h1 id=&#34;resíduos-vs-fatores&#34;&gt;Resíduos vs Fatores&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Verificar se os resíduos estão uniformemente distribuídos entre os níveis do fator&lt;/li&gt;
-&lt;li&gt;Detectar violações de pressupostos da ANOVA relacionadas à homogeneidade de variância e à independência dos erros&lt;/li&gt;
-&lt;li&gt;Avaliar se o modelo está bem ajustado para cada grupo/fator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;violação-de-independência-de-resíduos&#34;&gt;Violação de independência de resíduos&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(123)
-
-# Simula tratamentos em DIC
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Resposta média por tratamento
-mu &amp;lt;- c(5, 6, 7, 8)
-
-# Número total de observações
-n &amp;lt;- length(tratamento)
-
-# Simula resíduos autocorrelacionados (AR(1)) com phi = 0.7
-phi &amp;lt;- 0.95
-epsilon &amp;lt;- numeric(n)
-epsilon[1] &amp;lt;- rnorm(1)
-for (i in 2:n) {
-  epsilon[i] &amp;lt;- phi * epsilon[i-1] + rnorm(1)
-}
-
-# Gera resposta com efeito do tratamento + erros autocorrelacionados
-resposta &amp;lt;- rep(mu, each = 5) + epsilon
-
-# Ajusta modelo ANOVA (pressupõe independência)
-modelo &amp;lt;- aov(resposta ~ tratamento)
-
-# Obtém resíduos
-residuos &amp;lt;- resid(modelo)
-
-# Plota resíduos na ordem da coleta para verificar autocorrelação
-plot(residuos, type = &amp;quot;o&amp;quot;, pch = 19, col = &amp;quot;blue&amp;quot;,
-     main = &amp;quot;Resíduos em Ordem Temporal (Violação da Independência)&amp;quot;,
-     xlab = &amp;quot;Ordem da Observação&amp;quot;, ylab = &amp;quot;Resíduos&amp;quot;)
-abline(h = 0, col = &amp;quot;red&amp;quot;, lty = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;div class=&#34;notes&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;Padrão sequencial ou tendência suave:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Os resíduos não aparecem espalhados aleatoriamente. Em vez disso, eles formam uma curva ou uma sequência onde valores próximos na ordem das observações são semelhantes.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Autocorrelação positiva:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pontos consecutivos tendem a estar próximos uns dos outros, ou seja, se um resíduo é alto (positivo), o próximo também costuma ser alto. Isso cria um “arrasto” ou padrão ondulado no gráfico.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ausência de dispersão aleatória:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Em vez de oscilar livremente em torno do zero, os resíduos ficam agrupados, formando blocos ou séries que parecem “suavizadas”.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Possível padrão cíclico ou periódico:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Em alguns casos, pode surgir um padrão repetitivo, indicando correlações estruturadas no tempo ou espaço.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;heterocedasticidade&#34;&gt;Heterocedasticidade&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(123)
-
-# Tratamentos em DIC
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Médias por tratamento
-mu &amp;lt;- c(5, 6, 7, 8)
-
-# Número total de observações
-n &amp;lt;- length(tratamento)
-
-# Simula resíduos com variância crescente (heterocedasticidade)
-epsilon &amp;lt;- rnorm(n, mean = 0, sd = seq(0.2, 2, length.out = n))
-
-# Resposta com efeito do tratamento + resíduos heterocedásticos
-resposta &amp;lt;- rep(mu, each = 5) + epsilon
-
-# Ajusta modelo ANOVA
-modelo &amp;lt;- aov(resposta ~ tratamento)
-
-# Resíduos do modelo
-residuos &amp;lt;- resid(modelo)
-
-# Plot resíduos em ordem temporal
-plot(residuos, type = &amp;quot;o&amp;quot;, pch = 19, col = &amp;quot;purple&amp;quot;,
-     main = &amp;quot;Resíduos em Ordem Temporal (Heterocedasticidade)&amp;quot;,
-     xlab = &amp;quot;Ordem das Observações&amp;quot;, ylab = &amp;quot;Resíduos&amp;quot;)
-abline(h = 0, col = &amp;quot;blue&amp;quot;, lty = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h2 id=&#34;sem-violação-de-independência&#34;&gt;Sem violação de independência&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(123)
-
-# Tratamentos em DIC
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Médias por tratamento
-mu &amp;lt;- c(5, 6, 7, 8)
-
-# Número total de observações
-n &amp;lt;- length(tratamento)
-
-# Resíduos independentes (ruído branco)
-epsilon &amp;lt;- rnorm(n, mean = 0, sd = 1)
-
-# Resposta com efeito do tratamento + erros independentes
-resposta &amp;lt;- rep(mu, each = 5) + epsilon
-
-# Ajusta modelo ANOVA
-modelo &amp;lt;- aov(resposta ~ tratamento)
-
-# Resíduos do modelo
-residuos &amp;lt;- resid(modelo)
-
-# Plot resíduos em ordem temporal
-plot(residuos, type = &amp;quot;o&amp;quot;, pch = 19, col = &amp;quot;darkgreen&amp;quot;,
-     main = &amp;quot;Resíduos em Ordem Temporal (Independência)&amp;quot;,
-     xlab = &amp;quot;Ordem das Observações&amp;quot;, ylab = &amp;quot;Resíduos&amp;quot;)
-abline(h = 0, col = &amp;quot;blue&amp;quot;, lty = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h1 id=&#34;gráfico-de-cook&#34;&gt;Gráfico de Cook&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Eixo X:&lt;/strong&gt; Índice das observações (número da observação)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Eixo Y:&lt;/strong&gt; Valores da distância de Cook para cada observação&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Representação:&lt;/strong&gt; Linhas verticais indicam o valor da distância de Cook por ponto&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;gráfico-de-cook-1&#34;&gt;Gráfico de Cook&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Linha de referência:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Geralmente traçada em &lt;code&gt;\(\frac{4}{n - p}\)&lt;/code&gt;, onde:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;\(n\)&lt;/code&gt; = número total de observações&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;\(p\)&lt;/code&gt; = número de parâmetros do modelo (incluindo intercepto)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Pontos acima dessa linha são considerados &lt;strong&gt;influentes&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;gráfico-de-cook-2&#34;&gt;Gráfico de Cook&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Objetivo:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Identificar observações que exercem influência desproporcional no ajuste do modelo&lt;/li&gt;
-&lt;li&gt;Detectar possíveis &lt;strong&gt;outliers&lt;/strong&gt; ou pontos atípicos que podem afetar a estimação dos coeficientes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;gráfico-de-cook-3&#34;&gt;Gráfico de Cook&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Interpretação:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Valores pequenos indicam observações com pouca influência&lt;/li&gt;
-&lt;li&gt;Valores grandes sugerem que a remoção do ponto causaria mudança significativa nos coeficientes do modelo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Utilidade prática:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Permite decidir se é necessário investigar, corrigir ou remover observações influentes para melhorar o ajuste e validade do modelo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;pontos-influentes&#34;&gt;Pontos influentes&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(123)
-
-# Tratamentos em DIC
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Médias por tratamento
-mu &amp;lt;- c(5, 6, 7, 8)
-
-# Resposta simulada com um ponto influente
-resposta &amp;lt;- rep(mu, each = 5) + rnorm(length(tratamento), mean = 0, sd = 1)
-
-# Inserir um ponto influente artificialmente (outlier extremo)
-resposta[3] &amp;lt;- resposta[3] + 10  # um grande valor para influenciar o modelo
-
-# Ajusta modelo ANOVA
-modelo &amp;lt;- aov(resposta ~ tratamento)
-
-# Calcula distância de Cook
-cook_dist &amp;lt;- cooks.distance(modelo)
-
-# Plot distância de Cook
-plot(cook_dist, type = &amp;quot;h&amp;quot;, lwd = 2, col = ifelse(cook_dist &amp;gt; 4/(length(cook_dist)-length(mu)), &amp;quot;red&amp;quot;, &amp;quot;black&amp;quot;),
-     main = &amp;quot;Distância de Cook com Ponto Influente&amp;quot;,
-     xlab = &amp;quot;Índice da Observação&amp;quot;, ylab = &amp;quot;Distância de Cook&amp;quot;)
-abline(h = 4/(length(cook_dist)-length(mu)), col = &amp;quot;blue&amp;quot;, lty = 2)
-
-# Destacar os índices dos pontos influentes
-influentes &amp;lt;- which(cook_dist &amp;gt; 4/(length(cook_dist)-length(mu)))
-text(influentes, cook_dist[influentes], labels = influentes, pos = 3, col = &amp;quot;red&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;div class=&#34;notes&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;O ponto com índice 3 foi alterado para ser um outlier extremo&lt;/li&gt;
-&lt;li&gt;No gráfico, ele aparecerá com uma barra vermelha acima da linha azul de referência&lt;/li&gt;
-&lt;li&gt;O índice do ponto influente será exibido no gráfico para facilitar a identificação&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;sem-pontos-influentes&#34;&gt;Sem pontos influentes&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(6)
-
-# Tratamentos em DIC
-tratamento &amp;lt;- rep(c(&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;D&amp;quot;), each = 5)
-
-# Médias por tratamento
-mu &amp;lt;- c(5, 5, 5, 5)
-
-# Resposta simulada sem outliers (erro normal com desvio padrão padrão)
-resposta &amp;lt;- rep(mu, each = 5) + rnorm(length(tratamento), mean = 0, sd = 0.5)
-
-# Ajusta modelo ANOVA
-modelo &amp;lt;- aov(resposta ~ tratamento)
-
-# Calcula distância de Cook
-cook_dist &amp;lt;- cooks.distance(modelo)
-
-# Plot distância de Cook
-plot(cook_dist, type = &amp;quot;h&amp;quot;, lwd = 2, col = &amp;quot;darkgreen&amp;quot;,
-     main = &amp;quot;Distância de Cook sem Pontos Influentes&amp;quot;,
-     xlab = &amp;quot;Índice da Observação&amp;quot;, ylab = &amp;quot;Distância de Cook&amp;quot;,
-     ylim = c(0, 0.3))
-abline(h = 4/(length(cook_dist)-length(mu)), col = &amp;quot;blue&amp;quot;, lty = 2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h1 id=&#34;testes-na-análise-de-resíduos&#34;&gt;Testes na análise de resíduos&lt;/h1&gt;
-&lt;h2 id=&#34;normalidade-dos-resíduos&#34;&gt;Normalidade dos Resíduos&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Testes comuns&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;shapiro.test(residuos)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ad.test(residuos)&lt;/code&gt; &lt;em&gt;(pacote &lt;code&gt;nortest&lt;/code&gt;)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;lillie.test(residuos)&lt;/code&gt; &lt;em&gt;(pacote &lt;code&gt;nortest&lt;/code&gt;)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;jarque.bera.test(residuos)&lt;/code&gt; &lt;em&gt;(pacote &lt;code&gt;tseries&lt;/code&gt;)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hipótese&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;H₀: Os resíduos seguem distribuição normal&lt;/li&gt;
-&lt;li&gt;p &amp;gt; 0,05 → normalidade não rejeitada&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;homocedasticidade-igualdade-de-variâncias&#34;&gt;Homocedasticidade (Igualdade de variâncias)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Testes comuns&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;bartlett.test(resposta ~ tratamento)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;leveneTest(resposta ~ tratamento)&lt;/code&gt; &lt;em&gt;(pacote &lt;code&gt;car&lt;/code&gt;)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;fligner.test(resposta ~ tratamento)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hipótese&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;H₀: Variâncias são iguais entre os grupos&lt;/li&gt;
-&lt;li&gt;p &amp;gt; 0,05 → homogeneidade mantida&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;independência-dos-resíduos&#34;&gt;Independência dos Resíduos&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Teste mais usado&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;durbinWatsonTest(modelo)&lt;/code&gt; &lt;em&gt;(pacote &lt;code&gt;car&lt;/code&gt; ou &lt;code&gt;lmtest&lt;/code&gt;)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hipótese&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;H₀: Os resíduos são independentes&lt;/li&gt;
-&lt;li&gt;p &amp;gt; 0,05 → independência mantida&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;linearidade-do-modelo&#34;&gt;Linearidade do Modelo&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Não há teste formal.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Verificação &lt;strong&gt;visual&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;Gráfico de resíduos vs valores ajustados&lt;/li&gt;
-&lt;li&gt;Gráfico de resíduos vs preditores&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Indícios de violação&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;Padrões em forma de “U”, “∩”, ou outros&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;retornando-ao-exemplo-do-braço-robótico&#34;&gt;Retornando ao Exemplo do braço robótico&lt;/h1&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Se necessário, instale
-# install.packages(c(&amp;quot;car&amp;quot;, &amp;quot;nortest&amp;quot;, &amp;quot;lmtest&amp;quot;))
-
-library(car)
-library(nortest)
-library(lmtest)
-
-# Níveis do fator
-tratamento &amp;lt;- rep(c(&amp;quot;PID&amp;quot;, &amp;quot;AutoPID&amp;quot;, &amp;quot;Fuzzy&amp;quot;, &amp;quot;LQR&amp;quot;), each = 5)
-
-# Resposta simulada (erro médio absoluto)
-ema &amp;lt;- c(
-  rnorm(5, mean = 1.2, sd = 0.1),  # PID
-  rnorm(5, mean = 1.0, sd = 0.1),  # AutoPID
-  rnorm(5, mean = 0.8, sd = 0.15), # Fuzzy
-  rnorm(5, mean = 0.9, sd = 0.12)  # LQR
-)
-
-# Monta data.frame
-dados &amp;lt;- data.frame(Tratamento = tratamento, EMA = ema)
-
-# Ajusta o modelo DIC
-modelo &amp;lt;- aov(EMA ~ Tratamento, data = dados)
-
-# Resíduos do modelo
-residuos &amp;lt;- residuals(modelo)
-
-# Teste de Shapiro-Wilk (Normalidade)
-shapiro.test(residuos)
-
-# Outros testes (opcional)
-ad.test(residuos)        # Anderson-Darling
-lillie.test(residuos)    # Lilliefors
-
-# Teste de Bartlett (Homogeneidade)
-bartlett.test(EMA ~ Tratamento, data = dados)
-
-# Teste de Levene (mais robusto)
-leveneTest(EMA ~ Tratamento, data = dados)
-
-# Teste de Durbin-Watson Independência
-durbinWatsonTest(modelo)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;retornando-ao-exemplo-do-braço-robótico-1&#34;&gt;Retornando ao Exemplo do braço robótico&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;## Carregando pacotes exigidos: carData
-
-## 
-## Anexando pacote: &#39;car&#39;
-
-## O seguinte objeto é mascarado por &#39;package:dplyr&#39;:
-## 
-##     recode
-
-## Carregando pacotes exigidos: zoo
-
-## 
-## Anexando pacote: &#39;zoo&#39;
-
-## Os seguintes objetos são mascarados por &#39;package:base&#39;:
-## 
-##     as.Date, as.Date.numeric
-
-## 
-## 	Shapiro-Wilk normality test
-## 
-## data:  residuos
-## W = 0.92686, p-value = 0.1344
-
-## Warning in leveneTest.default(y = y, group = group, ...): group coerced to
-## factor.
-
-## Levene&#39;s Test for Homogeneity of Variance (center = median)
-##       Df F value Pr(&amp;gt;F)
-## group  3  0.0379 0.9897
-##       16
-
-##  lag Autocorrelation D-W Statistic p-value
-##    1      -0.2229153       2.31998   0.988
-##  Alternative hypothesis: rho != 0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;retornando-ao-exemplo-do-braço-robótico-2&#34;&gt;Retornando ao Exemplo do braço robótico&lt;/h2&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s13/index_files/figure-html/unnamed-chunk-21-1.png&#34; width=&#34;672&#34; /&gt;
-&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; data-preview-link=&#34;true&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; data-preview-link=&#34;true&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;próximas-aulas&#34;&gt;Próximas aulas&lt;/h1&gt;
-&lt;a href=&#34;https://bendeivide.github.io/courses/epaec/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
-&lt;img src=&#34;ben.png&#34; width = &#34;400&#34;&gt;
-&lt;/a&gt;
-&lt;center&gt;
-&lt;a href=&#34;http://bendeivide.github.io/courses/estexp&#34;  target=&#34;_blank&#34; &gt;bendeivide.github.io/courses/estexp&lt;/a&gt;
-&lt;/center&gt;
-&lt;h1 id=&#34;referências&#34;&gt;Referências&lt;/h1&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body&#34; entry-spacing=&#34;0&#34;&gt;
-&lt;div id=&#34;ref-batista2025&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;BATISTA, B. D. O. &lt;strong&gt;&lt;a href=&#34;https://bendeivide.github.io/books/epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PLanejamento e Análise de Experimentos&lt;/a&gt;&lt;/strong&gt;. Ouro Branco, MG, Brasil: &lt;/p&gt;
-\[s.n.\]
-&lt;p&gt;, 2025.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     

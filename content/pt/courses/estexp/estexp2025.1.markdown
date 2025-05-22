@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-05-15 20:25:22"
+date: "2025-05-22 13:59:55"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -251,7 +251,8 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro PAE](https://bendeivide.github.io/books/pae/)
    - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
-   - <i class="fa fa-calendar"></i> Entrega: 01/05/2025, 23h59min.
+
+<i class="fa fa-calendar"></i> Entrega: 01/05/2025, 23h59min.
    - <i class="fa fa-quote-left"></i> Assunto: 
      - Analisar um experimento em DIC:
        - Análise descritiva:
@@ -286,7 +287,8 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro PAE](https://bendeivide.github.io/books/pae/)
    - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
-   - <i class="fa fa-calendar"></i> Entrega: 12/05/2025, 23h59min.
+
+<i class="fa fa-calendar"></i> Entrega: 12/05/2025, 23h59min.
    - <i class="fa fa-quote-left"></i> Assunto: 
      - Analisar um experimento em DBC:
        - Análise descritiva:
@@ -321,16 +323,31 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro PAE](https://bendeivide.github.io/books/pae/)
    - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
-   - <i class="fa fa-calendar"></i> Entrega: 22/05/2025, 23h59min.
+
+<i class="fa fa-calendar"></i> Entrega: 22/05/2025, 23h59min.
    - <i class="fa fa-quote-left"></i> Assunto: 
      - Procedimentos de Comparações múltiplas
        - **OBJETIVO**: Estudar sobre os procedimentos de comparações múltiplas, mostrando no R e analiticamente como obter os resultados
    - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
-   - <i class="fa fa-database"></i> Dados:
-     - 🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA: Estudar o teste Tukey
-     - 🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO: Estudar o teste SNK
-     - 🎓 Kaleb Aquino Mileib: Estudar o teste Scott-Knott
-     - 🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO: Estudar o teste MGM [Batista, et al. 2023](http://www.cienciadainformacaoexpress.ufla.br/index.php/BBJ/article/view/640)
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 14 - Análise de resíduo na ANAVA">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Análise de resíduo na ANAVA
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s14/" target="_blank"> Aula
+14</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro PAE](https://bendeivide.github.io/books/pae/)
+   - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
+
+<i class="fa fa-calendar"></i> Entrega: 29/05/2025, 23h59min.
+   - <i class="fa fa-quote-left"></i> Assunto: 
+     - Análise de resíduos na ANAVA
+       - **OBJETIVO**: Caso as pressuposições não forem atendidas na análise de resíduos, estudo procedimentos de como converter esta situação. Apresente um exemplo de experimento em que isso ocorre (Use IA, para simular dados de um experimento nesta situação), e apresente uma solução de análise.
+   - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
 
 {{< /spoiler >}}
 

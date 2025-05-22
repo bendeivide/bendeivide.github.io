@@ -19,7 +19,7 @@ format:
     transition: slide
     background-transition: fade
 #    transition-speed: fade
-    footer: "[{{< fa brands r-project >}} Curso Estatística e Geotecnia](http://localhost:4321/courses/estgeo/) | <https://bendeivide.github.io/>" # Rodapé
+    footer: "[{{< fa brands r-project >}} Curso Estatística e Geotecnia](https://bendeivide.github.io/courses/estgeo/) | <https://bendeivide.github.io/>" # Rodapé
     incremental: true # Transição de itens gradativos
     controls: true # Inserindo as flechas de transicao
     # Acionar o plugin multiplex omite o plugin 'RevealNotes' na renderização final.

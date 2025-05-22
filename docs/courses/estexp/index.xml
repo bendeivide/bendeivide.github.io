@@ -187,7 +187,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>⚗️ Ensino normal 2025.1</title>
       <link>http://bendeivide.github.io/courses/estexp/estexp2025.1/</link>
-      <pubDate>Thu, 15 May 2025 20:25:22 -0300</pubDate>
+      <pubDate>Thu, 22 May 2025 13:53:09 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/estexp/estexp2025.1/</guid>
       <description>&lt;p&gt;Curso sobre Estatística Experimental, com abordagem na linguagem R.&lt;/p&gt;
 &lt;p&gt;
@@ -579,12 +579,43 @@ aulas&lt;/a&gt;:
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;Aula 14 - Análise de resíduo na ANAVA&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Tema - Análise de resíduo na ANAVA&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estexp/s13/&#34; target=&#34;_blank&#34;&gt; Aula
+14&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Material de apoio&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/pae/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Livro PAE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/handouts/estexp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Apostila EstExp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-calendar&#34;&gt;&lt;/i&gt; Entrega: 29/05/2025, 23h59min.&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-quote-left&#34;&gt;&lt;/i&gt; Assunto:
+&lt;ul&gt;
+&lt;li&gt;Análise de resíduos na ANAVA
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OBJETIVO&lt;/strong&gt;: Caso as pressuposições não forem atendidas na análise de resíduos, estudo procedimentos de como converter esta situação. Apresente um exemplo de experimento em que isso ocorre (Use IA, para simular dados de um experimento nesta situação), e apresente uma solução de análise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-upload&#34;&gt;&lt;/i&gt; Envio: Página do relatório GitHub&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-database&#34;&gt;&lt;/i&gt; Dados:
+&lt;ul&gt;
+&lt;li&gt;🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA: Estudar o teste Tukey&lt;/li&gt;
+&lt;li&gt;🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO: Estudar o teste SNK&lt;/li&gt;
+&lt;li&gt;🎓 Kaleb Aquino Mileib: Estudar o teste Scott-Knott&lt;/li&gt;
+&lt;li&gt;🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO: Estudar o teste MGM &lt;a href=&#34;http://www.cienciadainformacaoexpress.ufla.br/index.php/BBJ/article/view/640&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Batista, et al. 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
   &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>

@@ -8,7 +8,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/estexp/intror/</loc><lastmod>2025-03-22T15:32:46-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/estexp/estexp2025.1/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/courses/estexp/estexp2025.1/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/estgeo/estgeo/</loc><lastmod>2025-04-25T18:16:39-03:00</lastmod></url>
   <url>
@@ -52,7 +52,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2025-05-21T19:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -60,6 +60,56 @@
       rel="alternate"
       hreflang="pt"
       href="http://bendeivide.github.io/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/categories/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/categories/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/courses/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/courses/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/estatistica/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/estatistica/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/estatistica-experimental/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/experimental/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/planejamento-de-experimentos/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/programacao/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2025-05-22T13:53:09-03:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/latex/</loc><lastmod>2025-05-21T19:00:00-03:00</lastmod></url>
@@ -76,29 +126,9 @@
       href="http://bendeivide.github.io/event/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2025-05-21T19:00:00-03:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
-  <url>
     <loc>http://bendeivide.github.io/tag/booklatex/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/books/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/categories/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/categories/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/category/editor/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
   <url>
@@ -109,36 +139,6 @@
     <loc>http://bendeivide.github.io/books/latex/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/linguagem-de-marcacao/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/courses/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/courses/"
-    /></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/estatistica/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/estatistica/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/estatistica-experimental/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/experimental/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/planejamento-de-experimentos/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/programacao/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2025-05-15T20:25:22-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/inferencia-estatistica/</loc><lastmod>2025-05-13T14:50:15-03:00</lastmod></url>
   <url>
@@ -742,9 +742,13 @@
   <url>
     <loc>http://bendeivide.github.io/slides/estexp/s10/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
   <url>
-    <loc>http://bendeivide.github.io/slides/estexp/s11/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+    <loc>http://bendeivide.github.io/slides/estexp/s12/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
   <url>
-    <loc>http://bendeivide.github.io/slides/estexp/s11/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+    <loc>http://bendeivide.github.io/slides/estexp/s12/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/estexp/s14/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
+  <url>
+    <loc>http://bendeivide.github.io/slides/estexp/s14/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/slides/estgeo/slide02/index_files/libs/revealjs/plugin/notes/speaker-view/</loc></url>
   <url>
@@ -1123,8 +1127,6 @@
     <loc>http://bendeivide.github.io/slides/profmat-est/s12/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/slides/profmat-est/s14/</loc></url>
-  <url>
-    <loc>http://bendeivide.github.io/slides/estexp/s13/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/slides/lancamentorbasico/</loc></url>
   <url>
