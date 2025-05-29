@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-05-29 16:52:39"
+date: "2025-05-29 20:03:19"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -369,13 +369,13 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
    - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
    - <i class="fa fa-database"></i> Dados:
      - 🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA
-        - [Banco de dados](./aula16_felipe/index.html)
+        - [Relatório](./aula16_felipe/index.html)
      - 🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO
-        - [Banco de dados](./aula16_gustavo/index.html)
+        - [Relatório](./aula16_gustavo/index.html)
      - 🎓 Kaleb Aquino Mileib
-       - [Banco de dados](./aula16_kaleb/index.html)
+       - [Relatório](./aula16_kaleb/index.html)
      - 🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO
-       - [Banco de dados](./aula16_nicolas/index.html)
+       - [Relatório](./aula16_nicolas/index.html)
        
 {{< /spoiler >}}
 
