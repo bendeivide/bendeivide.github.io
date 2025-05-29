@@ -58,13 +58,13 @@ Usaremos @batista2025:
 
 # Objetivos da Aula {background-image="cap02.png"}
 
-- Relacionar ANOVA e modelos de regressão
+- Relacionar ANAVA e modelos de regressão
 - Aplicar regressão linear e polinomial a dados com fator quantitativo
 - Interpretar os coeficientes do modelo
 - Avaliar a adequação do modelo por meio dos resíduos
 
 
-# Quando usar regressão na ANOVA? {background-image="cap02.png"}
+# Quando usar regressão na ANAVA? {background-image="cap02.png"}
 
 - Quando o fator da ANOVA é **quantitativo**, pode-se usar regressão para:
   - **Modelar tendência** da variável resposta
@@ -306,7 +306,8 @@ ggplot(dados, aes(x = aditivo, y = resistencia)) +
 - Coeficiente de determinação
 - Desvio de regressão
 - Coeficiente de determinação ajustado ($R^2_{aj}$)
-- Praticidade
+- Parcimônia do modelo
+- Significância dos estimadores do modelo
 
 
 ## Coeficiente de determinação ajustado {background-image="cap02.png"}

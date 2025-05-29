@@ -7028,6 +7028,1036 @@ $$
     
     <item>
       <title></title>
+      <link>http://bendeivide.github.io/slides/estexp/s16/index_files/libs/revealjs/plugin/notes/speaker-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estexp/s16/index_files/libs/revealjs/plugin/notes/speaker-view/</guid>
+      <description>
+&lt;html lang=&#34;en&#34;&gt;
+	&lt;head&gt;
+		&lt;meta charset=&#34;utf-8&#34;&gt;
+
+		&lt;title&gt;reveal.js - Speaker View&lt;/title&gt;
+
+		&lt;style&gt;
+			body {
+				font-family: Helvetica;
+				font-size: 18px;
+			}
+
+			#current-slide,
+			#upcoming-slide,
+			#speaker-controls {
+				padding: 6px;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+			}
+
+			#current-slide iframe,
+			#upcoming-slide iframe {
+				width: 100%;
+				height: 100%;
+				border: 1px solid #ddd;
+			}
+
+			#current-slide .label,
+			#upcoming-slide .label {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				z-index: 2;
+			}
+
+			#connection-status {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 20;
+				padding: 30% 20% 20% 20%;
+				font-size: 18px;
+				color: #222;
+				background: #fff;
+				text-align: center;
+				box-sizing: border-box;
+				line-height: 1.4;
+			}
+
+			.overlay-element {
+				height: 34px;
+				line-height: 34px;
+				padding: 0 10px;
+				text-shadow: none;
+				background: rgba( 220, 220, 220, 0.8 );
+				color: #222;
+				font-size: 14px;
+			}
+
+			.overlay-element.interactive:hover {
+				background: rgba( 220, 220, 220, 1 );
+			}
+
+			#current-slide {
+				position: absolute;
+				width: 60%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				padding-right: 0;
+			}
+
+			#upcoming-slide {
+				position: absolute;
+				width: 40%;
+				height: 40%;
+				right: 0;
+				top: 0;
+			}
+
+			/* Speaker controls */
+			#speaker-controls {
+				position: absolute;
+				top: 40%;
+				right: 0;
+				width: 40%;
+				height: 60%;
+				overflow: auto;
+				font-size: 18px;
+			}
+
+				.speaker-controls-time.hidden,
+				.speaker-controls-notes.hidden {
+					display: none;
+				}
+
+				.speaker-controls-time .label,
+				.speaker-controls-pace .label,
+				.speaker-controls-notes .label {
+					text-transform: uppercase;
+					font-weight: normal;
+					font-size: 0.66em;
+					color: #666;
+					margin: 0;
+				}
+
+				.speaker-controls-time, .speaker-controls-pace {
+					border-bottom: 1px solid rgba( 200, 200, 200, 0.5 );
+					margin-bottom: 10px;
+					padding: 10px 16px;
+					padding-bottom: 20px;
+					cursor: pointer;
+				}
+
+				.speaker-controls-time .reset-button {
+					opacity: 0;
+					float: right;
+					color: #666;
+					text-decoration: none;
+				}
+				.speaker-controls-time:hover .reset-button {
+					opacity: 1;
+				}
+
+				.speaker-controls-time .timer,
+				.speaker-controls-time .clock {
+					width: 50%;
+				}
+
+				.speaker-controls-time .timer,
+				.speaker-controls-time .clock,
+				.speaker-controls-time .pacing .hours-value,
+				.speaker-controls-time .pacing .minutes-value,
+				.speaker-controls-time .pacing .seconds-value {
+					font-size: 1.9em;
+				}
+
+				.speaker-controls-time .timer {
+					float: left;
+				}
+
+				.speaker-controls-time .clock {
+					float: right;
+					text-align: right;
+				}
+
+				.speaker-controls-time span.mute {
+					opacity: 0.3;
+				}
+
+				.speaker-controls-time .pacing-title {
+					margin-top: 5px;
+				}
+
+				.speaker-controls-time .pacing.ahead {
+					color: blue;
+				}
+
+				.speaker-controls-time .pacing.on-track {
+					color: green;
+				}
+
+				.speaker-controls-time .pacing.behind {
+					color: red;
+				}
+
+				.speaker-controls-notes {
+					padding: 10px 16px;
+				}
+
+				.speaker-controls-notes .value {
+					margin-top: 5px;
+					line-height: 1.4;
+					font-size: 1.2em;
+				}
+
+			/* Layout selector */
+			#speaker-layout {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				color: #222;
+				z-index: 10;
+			}
+				#speaker-layout select {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					border: 0;
+					box-shadow: 0;
+					cursor: pointer;
+					opacity: 0;
+
+					font-size: 1em;
+					background-color: transparent;
+
+					-moz-appearance: none;
+					-webkit-appearance: none;
+					-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+				}
+
+				#speaker-layout select:focus {
+					outline: none;
+					box-shadow: none;
+				}
+
+			.clear {
+				clear: both;
+			}
+
+			/* Speaker layout: Wide */
+			body[data-speaker-layout=&#34;wide&#34;] #current-slide,
+			body[data-speaker-layout=&#34;wide&#34;] #upcoming-slide {
+				width: 50%;
+				height: 45%;
+				padding: 6px;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #current-slide {
+				top: 0;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #upcoming-slide {
+				top: 0;
+				left: 50%;
+			}
+
+			body[data-speaker-layout=&#34;wide&#34;] #speaker-controls {
+				top: 45%;
+				left: 0;
+				width: 100%;
+				height: 50%;
+				font-size: 1.25em;
+			}
+
+			/* Speaker layout: Tall */
+			body[data-speaker-layout=&#34;tall&#34;] #current-slide,
+			body[data-speaker-layout=&#34;tall&#34;] #upcoming-slide {
+				width: 45%;
+				height: 50%;
+				padding: 6px;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #current-slide {
+				top: 0;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #upcoming-slide {
+				top: 50%;
+				left: 0;
+			}
+
+			body[data-speaker-layout=&#34;tall&#34;] #speaker-controls {
+				padding-top: 40px;
+				top: 0;
+				left: 45%;
+				width: 55%;
+				height: 100%;
+				font-size: 1.25em;
+			}
+
+			/* Speaker layout: Notes only */
+			body[data-speaker-layout=&#34;notes-only&#34;] #current-slide,
+			body[data-speaker-layout=&#34;notes-only&#34;] #upcoming-slide {
+				display: none;
+			}
+
+			body[data-speaker-layout=&#34;notes-only&#34;] #speaker-controls {
+				padding-top: 40px;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				font-size: 1.25em;
+			}
+
+			@media screen and (max-width: 1080px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 16px;
+				}
+			}
+
+			@media screen and (max-width: 900px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 14px;
+				}
+			}
+
+			@media screen and (max-width: 800px) {
+				body[data-speaker-layout=&#34;default&#34;] #speaker-controls {
+					font-size: 12px;
+				}
+			}
+
+		&lt;/style&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+
+		&lt;div id=&#34;connection-status&#34;&gt;Loading speaker view...&lt;/div&gt;
+
+		&lt;div id=&#34;current-slide&#34;&gt;&lt;/div&gt;
+		&lt;div id=&#34;upcoming-slide&#34;&gt;&lt;span class=&#34;overlay-element label&#34;&gt;Upcoming&lt;/span&gt;&lt;/div&gt;
+		&lt;div id=&#34;speaker-controls&#34;&gt;
+			&lt;div class=&#34;speaker-controls-time&#34;&gt;
+				&lt;h4 class=&#34;label&#34;&gt;Time &lt;span class=&#34;reset-button&#34;&gt;Click to Reset&lt;/span&gt;&lt;/h4&gt;
+				&lt;div class=&#34;clock&#34;&gt;
+					&lt;span class=&#34;clock-value&#34;&gt;0:00 AM&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;timer&#34;&gt;
+					&lt;span class=&#34;hours-value&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;minutes-value&#34;&gt;:00&lt;/span&gt;&lt;span class=&#34;seconds-value&#34;&gt;:00&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+
+				&lt;h4 class=&#34;label pacing-title&#34; style=&#34;display: none&#34;&gt;Pacing – Time to finish current slide&lt;/h4&gt;
+				&lt;div class=&#34;pacing&#34; style=&#34;display: none&#34;&gt;
+					&lt;span class=&#34;hours-value&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;minutes-value&#34;&gt;:00&lt;/span&gt;&lt;span class=&#34;seconds-value&#34;&gt;:00&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&#34;speaker-controls-notes hidden&#34;&gt;
+				&lt;h4 class=&#34;label&#34;&gt;Notes&lt;/h4&gt;
+				&lt;div class=&#34;value&#34;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&#34;speaker-layout&#34; class=&#34;overlay-element interactive&#34;&gt;
+			&lt;span class=&#34;speaker-layout-label&#34;&gt;&lt;/span&gt;
+			&lt;select class=&#34;speaker-layout-dropdown&#34;&gt;&lt;/select&gt;
+		&lt;/div&gt;
+
+		&lt;script&gt;
+
+			(function() {
+
+				var notes,
+					notesValue,
+					currentState,
+					currentSlide,
+					upcomingSlide,
+					layoutLabel,
+					layoutDropdown,
+					pendingCalls = {},
+					lastRevealApiCallId = 0,
+					connected = false,
+					whitelistedWindows = [window.opener];
+
+				var SPEAKER_LAYOUTS = {
+					&#39;default&#39;: &#39;Default&#39;,
+					&#39;wide&#39;: &#39;Wide&#39;,
+					&#39;tall&#39;: &#39;Tall&#39;,
+					&#39;notes-only&#39;: &#39;Notes only&#39;
+				};
+
+				setupLayout();
+
+				var connectionStatus = document.querySelector( &#39;#connection-status&#39; );
+				var connectionTimeout = setTimeout( function() {
+					connectionStatus.innerHTML = &#39;Error connecting to main window.&lt;br&gt;Please try closing and reopening the speaker view.&#39;;
+				}, 5000 );
+;
+				window.addEventListener( &#39;message&#39;, function( event ) {
+
+					// Validate the origin of this message to prevent XSS
+					if( window.location.origin !== event.origin &amp;&amp; whitelistedWindows.indexOf( event.source ) === -1 ) {
+						return;
+					}
+
+					clearTimeout( connectionTimeout );
+					connectionStatus.style.display = &#39;none&#39;;
+
+					var data = JSON.parse( event.data );
+
+					// The overview mode is only useful to the reveal.js instance
+					// where navigation occurs so we don&#39;t sync it
+					if( data.state ) delete data.state.overview;
+
+					// Messages sent by the notes plugin inside of the main window
+					if( data &amp;&amp; data.namespace === &#39;reveal-notes&#39; ) {
+						if( data.type === &#39;connect&#39; ) {
+							handleConnectMessage( data );
+						}
+						else if( data.type === &#39;state&#39; ) {
+							handleStateMessage( data );
+						}
+						else if( data.type === &#39;return&#39; ) {
+							pendingCalls[data.callId](data.result);
+							delete pendingCalls[data.callId];
+						}
+					}
+					// Messages sent by the reveal.js inside of the current slide preview
+					else if( data &amp;&amp; data.namespace === &#39;reveal&#39; ) {
+						if( /ready/.test( data.eventName ) ) {
+							// Send a message back to notify that the handshake is complete
+							window.opener.postMessage( JSON.stringify({ namespace: &#39;reveal-notes&#39;, type: &#39;connected&#39;} ), &#39;*&#39; );
+						}
+						else if( /slidechanged|fragmentshown|fragmenthidden|paused|resumed/.test( data.eventName ) &amp;&amp; currentState !== JSON.stringify( data.state ) ) {
+
+							dispatchStateToMainWindow( data.state );
+
+						}
+					}
+
+				} );
+
+				/**
+				 * Updates the presentation in the main window to match the state
+				 * of the presentation in the notes window.
+				 */
+				const dispatchStateToMainWindow = debounce(( state ) =&gt; {
+					window.opener.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ state ]} ), &#39;*&#39; );
+				}, 500);
+
+				/**
+				 * Asynchronously calls the Reveal.js API of the main frame.
+				 */
+				function callRevealApi( methodName, methodArguments, callback ) {
+
+					var callId = ++lastRevealApiCallId;
+					pendingCalls[callId] = callback;
+					window.opener.postMessage( JSON.stringify( {
+						namespace: &#39;reveal-notes&#39;,
+						type: &#39;call&#39;,
+						callId: callId,
+						methodName: methodName,
+						arguments: methodArguments
+					} ), &#39;*&#39; );
+
+				}
+
+				/**
+				 * Called when the main window is trying to establish a
+				 * connection.
+				 */
+				function handleConnectMessage( data ) {
+
+					if( connected === false ) {
+						connected = true;
+
+						setupIframes( data );
+						setupKeyboard();
+						setupNotes();
+						setupTimer();
+						setupHeartbeat();
+					}
+
+				}
+
+				/**
+				 * Called when the main window sends an updated state.
+				 */
+				function handleStateMessage( data ) {
+
+					// Store the most recently set state to avoid circular loops
+					// applying the same state
+					currentState = JSON.stringify( data.state );
+
+					// No need for updating the notes in case of fragment changes
+					if ( data.notes ) {
+						notes.classList.remove( &#39;hidden&#39; );
+						notesValue.style.whiteSpace = data.whitespace;
+						if( data.markdown ) {
+							notesValue.innerHTML = marked( data.notes );
+						}
+						else {
+							notesValue.innerHTML = data.notes;
+						}
+					}
+					else {
+						notes.classList.add( &#39;hidden&#39; );
+					}
+
+					// Update the note slides
+					currentSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ data.state ] }), &#39;*&#39; );
+					upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;setState&#39;, args: [ data.state ] }), &#39;*&#39; );
+					upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;next&#39; }), &#39;*&#39; );
+
+				}
+
+				// Limit to max one state update per X ms
+				handleStateMessage = debounce( handleStateMessage, 200 );
+
+				/**
+				 * Forward keyboard events to the current slide window.
+				 * This enables keyboard events to work even if focus
+				 * isn&#39;t set on the current slide iframe.
+				 *
+				 * Block F5 default handling, it reloads and disconnects
+				 * the speaker notes window.
+				 */
+				function setupKeyboard() {
+
+					document.addEventListener( &#39;keydown&#39;, function( event ) {
+						if( event.keyCode === 116 || ( event.metaKey &amp;&amp; event.keyCode === 82 ) ) {
+							event.preventDefault();
+							return false;
+						}
+						currentSlide.contentWindow.postMessage( JSON.stringify({ method: &#39;triggerKey&#39;, args: [ event.keyCode ] }), &#39;*&#39; );
+					} );
+
+				}
+
+				/**
+				 * Creates the preview iframes.
+				 */
+				function setupIframes( data ) {
+
+					var params = [
+						&#39;receiver&#39;,
+						&#39;progress=false&#39;,
+						&#39;history=false&#39;,
+						&#39;transition=none&#39;,
+						&#39;autoSlide=0&#39;,
+						&#39;backgroundTransition=none&#39;
+					].join( &#39;&amp;&#39; );
+
+					var urlSeparator = /\?/.test(data.url) ? &#39;&amp;&#39; : &#39;?&#39;;
+					var hash = &#39;#/&#39; + data.state.indexh + &#39;/&#39; + data.state.indexv;
+					var currentURL = data.url + urlSeparator + params + &#39;&amp;postMessageEvents=true&#39; + hash;
+					var upcomingURL = data.url + urlSeparator + params + &#39;&amp;controls=false&#39; + hash;
+
+					currentSlide = document.createElement( &#39;iframe&#39; );
+					currentSlide.setAttribute( &#39;width&#39;, 1280 );
+					currentSlide.setAttribute( &#39;height&#39;, 1024 );
+					currentSlide.setAttribute( &#39;src&#39;, currentURL );
+					document.querySelector( &#39;#current-slide&#39; ).appendChild( currentSlide );
+
+					upcomingSlide = document.createElement( &#39;iframe&#39; );
+					upcomingSlide.setAttribute( &#39;width&#39;, 640 );
+					upcomingSlide.setAttribute( &#39;height&#39;, 512 );
+					upcomingSlide.setAttribute( &#39;src&#39;, upcomingURL );
+					document.querySelector( &#39;#upcoming-slide&#39; ).appendChild( upcomingSlide );
+
+					whitelistedWindows.push( currentSlide.contentWindow, upcomingSlide.contentWindow );
+
+				}
+
+				/**
+				 * Setup the notes UI.
+				 */
+				function setupNotes() {
+
+					notes = document.querySelector( &#39;.speaker-controls-notes&#39; );
+					notesValue = document.querySelector( &#39;.speaker-controls-notes .value&#39; );
+
+				}
+
+				/**
+				 * We send out a heartbeat at all times to ensure we can
+				 * reconnect with the main presentation window after reloads.
+				 */
+				function setupHeartbeat() {
+
+					setInterval( () =&gt; {
+						window.opener.postMessage( JSON.stringify({ namespace: &#39;reveal-notes&#39;, type: &#39;heartbeat&#39;} ), &#39;*&#39; );
+					}, 1000 );
+
+				}
+
+				function getTimings( callback ) {
+
+					callRevealApi( &#39;getSlidesAttributes&#39;, [], function ( slideAttributes ) {
+						callRevealApi( &#39;getConfig&#39;, [], function ( config ) {
+							var totalTime = config.totalTime;
+							var minTimePerSlide = config.minimumTimePerSlide || 0;
+							var defaultTiming = config.defaultTiming;
+							if ((defaultTiming == null) &amp;&amp; (totalTime == null)) {
+								callback(null);
+								return;
+							}
+							// Setting totalTime overrides defaultTiming
+							if (totalTime) {
+								defaultTiming = 0;
+							}
+							var timings = [];
+							for ( var i in slideAttributes ) {
+								var slide = slideAttributes[ i ];
+								var timing = defaultTiming;
+								if( slide.hasOwnProperty( &#39;data-timing&#39; )) {
+									var t = slide[ &#39;data-timing&#39; ];
+									timing = parseInt(t);
+									if( isNaN(timing) ) {
+										console.warn(&#34;Could not parse timing &#39;&#34; + t + &#34;&#39; of slide &#34; + i + &#34;; using default of &#34; + defaultTiming);
+										timing = defaultTiming;
+									}
+								}
+								timings.push(timing);
+							}
+							if ( totalTime ) {
+								// After we&#39;ve allocated time to individual slides, we summarize it and
+								// subtract it from the total time
+								var remainingTime = totalTime - timings.reduce( function(a, b) { return a + b; }, 0 );
+								// The remaining time is divided by the number of slides that have 0 seconds
+								// allocated at the moment, giving the average time-per-slide on the remaining slides
+								var remainingSlides = (timings.filter( function(x) { return x == 0 }) ).length
+								var timePerSlide = Math.round( remainingTime / remainingSlides, 0 )
+								// And now we replace every zero-value timing with that average
+								timings = timings.map( function(x) { return (x==0 ? timePerSlide : x) } );
+							}
+							var slidesUnderMinimum = timings.filter( function(x) { return (x &lt; minTimePerSlide) } ).length
+							if ( slidesUnderMinimum ) {
+								message = &#34;The pacing time for &#34; + slidesUnderMinimum + &#34; slide(s) is under the configured minimum of &#34; + minTimePerSlide + &#34; seconds. Check the data-timing attribute on individual slides, or consider increasing the totalTime or minimumTimePerSlide configuration options (or removing some slides).&#34;;
+								alert(message);
+							}
+							callback( timings );
+						} );
+					} );
+
+				}
+
+				/**
+				 * Return the number of seconds allocated for presenting
+				 * all slides up to and including this one.
+				 */
+				function getTimeAllocated( timings, callback ) {
+
+					callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+						var allocated = 0;
+						for (var i in timings.slice(0, currentSlide + 1)) {
+							allocated += timings[i];
+						}
+						callback( allocated );
+					} );
+
+				}
+
+				/**
+				 * Create the timer and clock and start updating them
+				 * at an interval.
+				 */
+				function setupTimer() {
+
+					var start = new Date(),
+					timeEl = document.querySelector( &#39;.speaker-controls-time&#39; ),
+					clockEl = timeEl.querySelector( &#39;.clock-value&#39; ),
+					hoursEl = timeEl.querySelector( &#39;.hours-value&#39; ),
+					minutesEl = timeEl.querySelector( &#39;.minutes-value&#39; ),
+					secondsEl = timeEl.querySelector( &#39;.seconds-value&#39; ),
+					pacingTitleEl = timeEl.querySelector( &#39;.pacing-title&#39; ),
+					pacingEl = timeEl.querySelector( &#39;.pacing&#39; ),
+					pacingHoursEl = pacingEl.querySelector( &#39;.hours-value&#39; ),
+					pacingMinutesEl = pacingEl.querySelector( &#39;.minutes-value&#39; ),
+					pacingSecondsEl = pacingEl.querySelector( &#39;.seconds-value&#39; );
+
+					var timings = null;
+					getTimings( function ( _timings ) {
+
+						timings = _timings;
+						if (_timings !== null) {
+							pacingTitleEl.style.removeProperty(&#39;display&#39;);
+							pacingEl.style.removeProperty(&#39;display&#39;);
+						}
+
+						// Update once directly
+						_updateTimer();
+
+						// Then update every second
+						setInterval( _updateTimer, 1000 );
+
+					} );
+
+
+					function _resetTimer() {
+
+						if (timings == null) {
+							start = new Date();
+							_updateTimer();
+						}
+						else {
+							// Reset timer to beginning of current slide
+							getTimeAllocated( timings, function ( slideEndTimingSeconds ) {
+								var slideEndTiming = slideEndTimingSeconds * 1000;
+								callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+									var currentSlideTiming = timings[currentSlide] * 1000;
+									var previousSlidesTiming = slideEndTiming - currentSlideTiming;
+									var now = new Date();
+									start = new Date(now.getTime() - previousSlidesTiming);
+									_updateTimer();
+								} );
+							} );
+						}
+
+					}
+
+					timeEl.addEventListener( &#39;click&#39;, function() {
+						_resetTimer();
+						return false;
+					} );
+
+					function _displayTime( hrEl, minEl, secEl, time) {
+
+						var sign = Math.sign(time) == -1 ? &#34;-&#34; : &#34;&#34;;
+						time = Math.abs(Math.round(time / 1000));
+						var seconds = time % 60;
+						var minutes = Math.floor( time / 60 ) % 60 ;
+						var hours = Math.floor( time / ( 60 * 60 )) ;
+						hrEl.innerHTML = sign + zeroPadInteger( hours );
+						if (hours == 0) {
+							hrEl.classList.add( &#39;mute&#39; );
+						}
+						else {
+							hrEl.classList.remove( &#39;mute&#39; );
+						}
+						minEl.innerHTML = &#39;:&#39; + zeroPadInteger( minutes );
+						if (hours == 0 &amp;&amp; minutes == 0) {
+							minEl.classList.add( &#39;mute&#39; );
+						}
+						else {
+							minEl.classList.remove( &#39;mute&#39; );
+						}
+						secEl.innerHTML = &#39;:&#39; + zeroPadInteger( seconds );
+					}
+
+					function _updateTimer() {
+
+						var diff, hours, minutes, seconds,
+						now = new Date();
+
+						diff = now.getTime() - start.getTime();
+
+						clockEl.innerHTML = now.toLocaleTimeString( &#39;en-US&#39;, { hour12: true, hour: &#39;2-digit&#39;, minute:&#39;2-digit&#39; } );
+						_displayTime( hoursEl, minutesEl, secondsEl, diff );
+						if (timings !== null) {
+							_updatePacing(diff);
+						}
+
+					}
+
+					function _updatePacing(diff) {
+
+						getTimeAllocated( timings, function ( slideEndTimingSeconds ) {
+							var slideEndTiming = slideEndTimingSeconds * 1000;
+
+							callRevealApi( &#39;getSlidePastCount&#39;, [], function ( currentSlide ) {
+								var currentSlideTiming = timings[currentSlide] * 1000;
+								var timeLeftCurrentSlide = slideEndTiming - diff;
+								if (timeLeftCurrentSlide &lt; 0) {
+									pacingEl.className = &#39;pacing behind&#39;;
+								}
+								else if (timeLeftCurrentSlide &lt; currentSlideTiming) {
+									pacingEl.className = &#39;pacing on-track&#39;;
+								}
+								else {
+									pacingEl.className = &#39;pacing ahead&#39;;
+								}
+								_displayTime( pacingHoursEl, pacingMinutesEl, pacingSecondsEl, timeLeftCurrentSlide );
+							} );
+						} );
+					}
+
+				}
+
+				/**
+				 * Sets up the speaker view layout and layout selector.
+				 */
+				function setupLayout() {
+
+					layoutDropdown = document.querySelector( &#39;.speaker-layout-dropdown&#39; );
+					layoutLabel = document.querySelector( &#39;.speaker-layout-label&#39; );
+
+					// Render the list of available layouts
+					for( var id in SPEAKER_LAYOUTS ) {
+						var option = document.createElement( &#39;option&#39; );
+						option.setAttribute( &#39;value&#39;, id );
+						option.textContent = SPEAKER_LAYOUTS[ id ];
+						layoutDropdown.appendChild( option );
+					}
+
+					// Monitor the dropdown for changes
+					layoutDropdown.addEventListener( &#39;change&#39;, function( event ) {
+
+						setLayout( layoutDropdown.value );
+
+					}, false );
+
+					// Restore any currently persisted layout
+					setLayout( getLayout() );
+
+				}
+
+				/**
+				 * Sets a new speaker view layout. The layout is persisted
+				 * in local storage.
+				 */
+				function setLayout( value ) {
+
+					var title = SPEAKER_LAYOUTS[ value ];
+
+					layoutLabel.innerHTML = &#39;Layout&#39; + ( title ? ( &#39;: &#39; + title ) : &#39;&#39; );
+					layoutDropdown.value = value;
+
+					document.body.setAttribute( &#39;data-speaker-layout&#39;, value );
+
+					// Persist locally
+					if( supportsLocalStorage() ) {
+						window.localStorage.setItem( &#39;reveal-speaker-layout&#39;, value );
+					}
+
+				}
+
+				/**
+				 * Returns the ID of the most recently set speaker layout
+				 * or our default layout if none has been set.
+				 */
+				function getLayout() {
+
+					if( supportsLocalStorage() ) {
+						var layout = window.localStorage.getItem( &#39;reveal-speaker-layout&#39; );
+						if( layout ) {
+							return layout;
+						}
+					}
+
+					// Default to the first record in the layouts hash
+					for( var id in SPEAKER_LAYOUTS ) {
+						return id;
+					}
+
+				}
+
+				function supportsLocalStorage() {
+
+					try {
+						localStorage.setItem(&#39;test&#39;, &#39;test&#39;);
+						localStorage.removeItem(&#39;test&#39;);
+						return true;
+					}
+					catch( e ) {
+						return false;
+					}
+
+				}
+
+				function zeroPadInteger( num ) {
+
+					var str = &#39;00&#39; + parseInt( num );
+					return str.substring( str.length - 2 );
+
+				}
+
+				/**
+				 * Limits the frequency at which a function can be called.
+				 */
+				function debounce( fn, ms ) {
+
+					var lastTime = 0,
+						timeout;
+
+					return function() {
+
+						var args = arguments;
+						var context = this;
+
+						clearTimeout( timeout );
+
+						var timeSinceLastCall = Date.now() - lastTime;
+						if( timeSinceLastCall &gt; ms ) {
+							fn.apply( context, args );
+							lastTime = Date.now();
+						}
+						else {
+							timeout = setTimeout( function() {
+								fn.apply( context, args );
+								lastTime = Date.now();
+							}, ms - timeSinceLastCall );
+						}
+
+					}
+
+				}
+
+			})();
+
+		&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://bendeivide.github.io/slides/estexp/s16/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estexp/s16/index_files/libs/revealjs/plugin/reveal-chalkboard/readme/</guid>
+      <description>&lt;h1 id=&#34;chalkboard&#34;&gt;Chalkboard&lt;/h1&gt;
+&lt;p&gt;With this plugin you can add a chalkboard to reveal.js. The plugin provides two possibilities to include handwritten notes to your presentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;you can make notes directly on the slides, e.g. to comment on certain aspects,&lt;/li&gt;
+&lt;li&gt;you can open a chalkboard or whiteboard on which you can make notes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main use case in mind when implementing the plugin is classroom usage in which you may want to explain some course content and quickly need to make some notes.&lt;/p&gt;
+&lt;p&gt;The plugin records all drawings made so that they can be play backed using the &lt;code&gt;autoSlide&lt;/code&gt; feature or the &lt;code&gt;audio-slideshow&lt;/code&gt; plugin.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://rajgoel.github.io/reveal.js-demos/chalkboard-demo.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the live demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The chalkboard effect is based on &lt;a href=&#34;https://github.com/mmoustafa/Chalkboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chalkboard&lt;/a&gt; by Mohamed Moustafa.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Copy the file &lt;code&gt;plugin.js&lt;/code&gt; and the  &lt;code&gt;img&lt;/code&gt; directory into the plugin folder of your reveal.js presentation, i.e. &lt;code&gt;plugin/chalkboard&lt;/code&gt; and load the plugin as shown below.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;plugin/chalkboard/plugin.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;plugin/customcontrols/plugin.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;script&amp;gt;
+    Reveal.initialize({
+        // ...
+        plugins: [ RevealChalkboard, RevealCustomControls ],
+        // ...
+    });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The following stylesheet&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;plugin/chalkboard/style.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;plugin/customcontrols/style.css&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;has to be included to the &lt;code&gt;head&lt;/code&gt; section of you HTML-file.&lt;/p&gt;
+&lt;p&gt;In order to include buttons for opening and closing the notes canvas or the chalkboard you should make sure that &lt;code&gt;font-awesome&lt;/code&gt; is available. The easiest way is to include&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;to the &lt;code&gt;head&lt;/code&gt; section of you HTML-file.&lt;/p&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;h3 id=&#34;mouse-or-touch&#34;&gt;Mouse or touch&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Click on the pen symbols at the bottom left to toggle the notes canvas or chalkboard&lt;/li&gt;
+&lt;li&gt;Click on the color picker at the left to change the color (the color picker is only visible if the notes canvas or chalkboard is active)&lt;/li&gt;
+&lt;li&gt;Click on the up/down arrows on the left to the switch among multiple chalkboardd (the up/down arrows are only available for the chlakboard)&lt;/li&gt;
+&lt;li&gt;Click the left mouse button and drag to write on notes canvas or chalkboard&lt;/li&gt;
+&lt;li&gt;Click the right mouse button and drag to wipe away previous drawings&lt;/li&gt;
+&lt;li&gt;Touch and move to write on notes canvas or chalkboard&lt;/li&gt;
+&lt;li&gt;Touch and hold for half a second, then move to wipe away previous drawings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;keyboard&#34;&gt;Keyboard&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Press the &amp;lsquo;BACKSPACE&amp;rsquo; key to delete all chalkboard drawings&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;DEL&amp;rsquo; key to clear the notes canvas or chalkboard&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;c&amp;rsquo; key to toggle the notes canvas&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;b&amp;rsquo; key to toggle the chalkboard&lt;/li&gt;
+&lt;li&gt;Press the &amp;rsquo;d&amp;rsquo; key to download drawings&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;x&amp;rsquo; key to cycle colors forward&lt;/li&gt;
+&lt;li&gt;Press the &amp;lsquo;y&amp;rsquo; key to cycle colors backward&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;playback&#34;&gt;Playback&lt;/h2&gt;
+&lt;p&gt;If the &lt;code&gt;autoSlide&lt;/code&gt; feature is set or if the &lt;code&gt;audio-slideshow&lt;/code&gt; plugin is used, pre-recorded chalkboard drawings can be played. The slideshow plays back the user interaction with the chalkboard in the same way as it was conducted when recording the data.&lt;/p&gt;
+&lt;h2 id=&#34;multiplexing&#34;&gt;Multiplexing&lt;/h2&gt;
+&lt;p&gt;The plugin supports multiplexing via the &lt;a href=&#34;https://github.com/reveal/multiplex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;multiplex&lt;/code&gt; plugin&lt;/a&gt; or the &lt;a href=&#34;https://github.com/rajgoel/reveal.js-plugins/tree/master/seminar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;seminar&lt;/code&gt; plugin&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;pdf-export&#34;&gt;PDF-Export&lt;/h2&gt;
+&lt;p&gt;If the slideshow is opened in &lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;print mode&lt;/a&gt;, the chalkboard drawings in the session storage (see &lt;code&gt;storage&lt;/code&gt; option - print version must be opened in the same tab or window as the original slideshow) or provided in a file (see &lt;code&gt;src&lt;/code&gt; option) are included in the PDF-file. Each drawing on the chalkboard is added after the slide that was shown when opening the chalkboard. Drawings on the notes canvas are not included in the PDF-file.&lt;/p&gt;
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;The plugin has several configuration options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;boardmarkerWidth&lt;/code&gt;: an integer, the drawing width of the boardmarker; larger values draw thicker lines.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chalkWidth&lt;/code&gt;: an integer, the drawing width of the chalk; larger values draw thicker lines.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chalkEffect&lt;/code&gt;: a float in the range &lt;code&gt;[0.0, 1.0]&lt;/code&gt;, the intesity of the chalk effect on the chalk board. Full effect (default) &lt;code&gt;1.0&lt;/code&gt;, no effect &lt;code&gt;0.0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;storage&lt;/code&gt;: Optional variable name for session storage of drawings.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src&lt;/code&gt;: Optional filename for pre-recorded drawings.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;readOnly&lt;/code&gt;: Configuation option allowing to prevent changes to existing drawings. If set to &lt;code&gt;true&lt;/code&gt; no changes can be made, if set to false &lt;code&gt;false&lt;/code&gt; changes can be made, if unset or set to &lt;code&gt;undefined&lt;/code&gt; no changes to the drawings can be made after returning to a slide or fragment for which drawings had been recorded before. In any case the recorded drawings for a slide or fragment can be cleared by pressing the &amp;lsquo;DEL&amp;rsquo; key (i.e. by using the &lt;code&gt;RevealChalkboard.clear()&lt;/code&gt; function).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;transition&lt;/code&gt;: Gives the duration (in milliseconds) of the transition for a slide change, so that the notes canvas is drawn after the transition is completed.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;theme&lt;/code&gt;: Can be set to either &lt;code&gt;&amp;quot;chalkboard&amp;quot;&lt;/code&gt; or &lt;code&gt;&amp;quot;whiteboard&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following configuration options allow to change the appearance of the notes canvas and the chalkboard. All of these options require two values, the first gives the value for the notes canvas, the second for the chalkboard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;background&lt;/code&gt;: The first value expects a (semi-)transparent color which is used to provide visual feedback that the notes canvas is enabled, the second value expects a filename to a background image for the chalkboard.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grid&lt;/code&gt;: By default whiteboard and chalkboard themes include a grid pattern on the background. This pattern can be modified by setting the color, the distance between lines, and the line width, e.g. &lt;code&gt;{ color: &#39;rgb(127,127,255,0.1)&#39;, distance: 40, width: 2}&lt;/code&gt;. Alternatively, the grid can be removed by setting the value to &lt;code&gt;false&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;eraser&lt;/code&gt;: An image path and radius for the eraser.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;boardmarkers&lt;/code&gt;: A list of boardmarkers with given color and cursor.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chalks&lt;/code&gt;: A list of chalks with given color and cursor.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rememberColor&lt;/code&gt;: Whether to remember the last selected color for the slide canvas or the board.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of the configurations are optional and the default values shown below are used if the options are not provided.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;Reveal.initialize({
+	// ...
+    chalkboard: {
+        boardmarkerWidth: 3,
+        chalkWidth: 7,
+        chalkEffect: 1.0,
+        storage: null,
+        src: null,
+        readOnly: undefined,
+        transition: 800,
+        theme: &amp;quot;chalkboard&amp;quot;,
+        background: [ &#39;rgba(127,127,127,.1)&#39; , path + &#39;img/blackboard.png&#39; ],
+        grid: { color: &#39;rgb(50,50,10,0.5)&#39;, distance: 80, width: 2},
+        eraser: { src: path + &#39;img/sponge.png&#39;, radius: 20},
+        boardmarkers : [
+                { color: &#39;rgba(100,100,100,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-black.png), auto&#39;},
+                { color: &#39;rgba(30,144,255, 1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-blue.png), auto&#39;},
+                { color: &#39;rgba(220,20,60,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-red.png), auto&#39;},
+                { color: &#39;rgba(50,205,50,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-green.png), auto&#39;},
+                { color: &#39;rgba(255,140,0,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-orange.png), auto&#39;},
+                { color: &#39;rgba(150,0,20150,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-purple.png), auto&#39;},
+                { color: &#39;rgba(255,220,0,1)&#39;, cursor: &#39;url(&#39; + path + &#39;img/boardmarker-yellow.png), auto&#39;}
+        ],
+        chalks: [
+                { color: &#39;rgba(255,255,255,0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-white.png), auto&#39;},
+                { color: &#39;rgba(96, 154, 244, 0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-blue.png), auto&#39;},
+                { color: &#39;rgba(237, 20, 28, 0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-red.png), auto&#39;},
+                { color: &#39;rgba(20, 237, 28, 0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-green.png), auto&#39;},
+                { color: &#39;rgba(220, 133, 41, 0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-orange.png), auto&#39;},
+                { color: &#39;rgba(220,0,220,0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-purple.png), auto&#39;},
+                { color: &#39;rgba(255,220,0,0.5)&#39;, cursor: &#39;url(&#39; + path + &#39;img/chalk-yellow.png), auto&#39;}
+        ]
+    },
+    customcontrols: {
+  		controls: [
+  			{ icon: &#39;&amp;lt;i class=&amp;quot;fa fa-pen-square&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&#39;,
+  			  title: &#39;Toggle chalkboard (B)&#39;,
+  			  action: &#39;RevealChalkboard.toggleChalkboard();&#39;
+  			},
+  			{ icon: &#39;&amp;lt;i class=&amp;quot;fa fa-pen&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&#39;,
+  			  title: &#39;Toggle notes canvas (C)&#39;,
+  			  action: &#39;RevealChalkboard.toggleNotesCanvas();&#39;
+  			}
+  		]
+    },
+    // ...
+
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;MIT licensed&lt;/p&gt;
+&lt;p&gt;Copyright (C) 2021 Asvin Goel&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://bendeivide.github.io/slides/estgeo/slide02/index_files/libs/revealjs/plugin/notes/speaker-view/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://bendeivide.github.io/slides/estgeo/slide02/index_files/libs/revealjs/plugin/notes/speaker-view/</guid>
@@ -103268,878 +104298,6 @@ Para explicar a definição de uma variável aleatória será considerado o exem
 &lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Estatística Experimental</title>
-      <link>http://bendeivide.github.io/slides/estexp/s16/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://bendeivide.github.io/slides/estexp/s16/</guid>
-      <description>&lt;h1 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h1&gt;
-&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
-&lt;img src=&#34;SeloDC-branco.png&#34; width = &#34;400&#34;&gt;
-&lt;/a&gt;
-&lt;h1 id=&#34;livro-de-apoio&#34;&gt;Livro de Apoio&lt;/h1&gt;
-&lt;p&gt;Usaremos Batista (&lt;a href=&#34;#ref-batista2025&#34;&gt;2025&lt;/a&gt;):&lt;/p&gt;
-&lt;a href=&#34;https://bendeivide.github.io/books/pae/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
-&lt;img src=&#34;hardcover.png&#34; width = &#34;300&#34;&gt;
-&lt;/a&gt;
-&lt;h1 id=&#34;objetivos-da-aula&#34;&gt;Objetivos da Aula&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Relacionar ANOVA e modelos de regressão&lt;/li&gt;
-&lt;li&gt;Aplicar regressão linear e polinomial a dados com fator quantitativo&lt;/li&gt;
-&lt;li&gt;Interpretar os coeficientes do modelo&lt;/li&gt;
-&lt;li&gt;Avaliar a adequação do modelo por meio dos resíduos&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;quando-usar-regressão-na-anova&#34;&gt;Quando usar regressão na ANOVA?&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Quando o fator da ANOVA é &lt;strong&gt;quantitativo&lt;/strong&gt;, pode-se usar regressão para:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Modelar tendência&lt;/strong&gt; da variável resposta&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Testar significância&lt;/strong&gt; da relação&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Otimizar resultados&lt;/strong&gt; (por exemplo, ponto ótimo)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;exemplo-engenharia-civil&#34;&gt;Exemplo: Engenharia Civil&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Um engenheiro civil testou diferentes proporções de aditivo plastificante (0%, 0.5%, 1.0%, 1.5% e 2.0%) na mistura de concreto. A resistência à compressão (em MPa) foi registrada após 28 dias.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;dados-do-experimento&#34;&gt;Dados do experimento&lt;/h2&gt;
-&lt;/br&gt;
-&lt;/br&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(dplyr)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Anexando pacote: &#39;dplyr&#39;
-
-## Os seguintes objetos são mascarados por &#39;package:stats&#39;:
-## 
-##     filter, lag
-
-## Os seguintes objetos são mascarados por &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyr)
-library(gt)
-
-# Dados originais
-set.seed(123)
-aditivo &amp;lt;- rep(c(0.0, 0.5, 1.0, 1.5, 2.0), each = 3)
-resistencia &amp;lt;- c(
-  rnorm(3, mean = 25.0, sd = 0.8),  # 0%
-  rnorm(3, mean = 28.0, sd = 0.8),  # 0.5%
-  rnorm(3, mean = 32.0, sd = 0.8),  # 1.0%
-  rnorm(3, mean = 33.0, sd = 0.8),  # 1.5%
-  rnorm(3, mean = 31.0, sd = 0.8)   # 2.0%
-)
-repeticao &amp;lt;- factor(rep(1:3, times = 5))
-
-dados &amp;lt;- data.frame(aditivo, resistencia, repeticao)
-
-# Pivotar para formato wide
-dados_wide &amp;lt;- dados %&amp;gt;%
-  pivot_wider(
-    names_from = repeticao,
-    values_from = resistencia,
-    names_prefix = &amp;quot;Rep &amp;quot;
-  ) %&amp;gt;%
-  arrange(aditivo)
-
-# Criar tabela gt
-tabela_pivot &amp;lt;- gt(dados_wide) %&amp;gt;%
-  fmt_number(
-    columns = vars(starts_with(&amp;quot;Rep&amp;quot;)),
-    decimals = 2
-  ) %&amp;gt;%
-  cols_label(
-    aditivo = &amp;quot;Proporção de Aditivo (%)&amp;quot;,
-    `Rep 1` = &amp;quot;Repetição 1&amp;quot;,
-    `Rep 2` = &amp;quot;Repetição 2&amp;quot;,
-    `Rep 3` = &amp;quot;Repetição 3&amp;quot;
-  ) %&amp;gt;%
-  tab_header(
-    title = &amp;quot;Resistência à Compressão do Concreto por Proporção de Aditivo&amp;quot;,
-    subtitle = &amp;quot;DIC com 5 níveis e 3 repetições&amp;quot;
-  ) %&amp;gt;%
-  tab_options(
-    table.font.size = px(25)
-  ) %&amp;gt;%
-  cols_align(
-    align = &amp;quot;center&amp;quot;,
-    columns = everything()
-  ) %&amp;gt;%
-  # Destacar linhas ímpares
-  tab_style(
-    style = list(
-      cell_fill(color = &amp;quot;#f2f2f2&amp;quot;)  # cinza claro
-    ),
-    locations = cells_body(
-      rows = seq(1, nrow(dados_wide), by = 2)
-    )
-  )
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: Since gt v0.3.0, `columns = vars(...)` has been deprecated.
-## • Please use `columns = c(...)` instead.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Mostrar tabela
-tabela_pivot
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div id=&#34;isdnqkgulo&#34; style=&#34;padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;
-&lt;style&gt;#isdnqkgulo table {
-  font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-&amp;#10;#isdnqkgulo thead, #isdnqkgulo tbody, #isdnqkgulo tfoot, #isdnqkgulo tr, #isdnqkgulo td, #isdnqkgulo th {
-  border-style: none;
-}
-&amp;#10;#isdnqkgulo p {
-  margin: 0;
-  padding: 0;
-}
-&amp;#10;#isdnqkgulo .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 25px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-&amp;#10;#isdnqkgulo .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-&amp;#10;#isdnqkgulo .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-&amp;#10;#isdnqkgulo .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-&amp;#10;#isdnqkgulo .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-&amp;#10;#isdnqkgulo .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-&amp;#10;#isdnqkgulo .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-&amp;#10;#isdnqkgulo .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-&amp;#10;#isdnqkgulo .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-&amp;#10;#isdnqkgulo .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-&amp;#10;#isdnqkgulo .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-&amp;#10;#isdnqkgulo .gt_from_md &gt; :first-child {
-  margin-top: 0;
-}
-&amp;#10;#isdnqkgulo .gt_from_md &gt; :last-child {
-  margin-bottom: 0;
-}
-&amp;#10;#isdnqkgulo .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-&amp;#10;#isdnqkgulo .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#isdnqkgulo .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-&amp;#10;#isdnqkgulo .gt_row_group_first td {
-  border-top-width: 2px;
-}
-&amp;#10;#isdnqkgulo .gt_row_group_first th {
-  border-top-width: 2px;
-}
-&amp;#10;#isdnqkgulo .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#isdnqkgulo .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-&amp;#10;#isdnqkgulo .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#isdnqkgulo .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-&amp;#10;#isdnqkgulo .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#isdnqkgulo .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-&amp;#10;#isdnqkgulo .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&amp;#10;#isdnqkgulo .gt_left {
-  text-align: left;
-}
-&amp;#10;#isdnqkgulo .gt_center {
-  text-align: center;
-}
-&amp;#10;#isdnqkgulo .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-&amp;#10;#isdnqkgulo .gt_font_normal {
-  font-weight: normal;
-}
-&amp;#10;#isdnqkgulo .gt_font_bold {
-  font-weight: bold;
-}
-&amp;#10;#isdnqkgulo .gt_font_italic {
-  font-style: italic;
-}
-&amp;#10;#isdnqkgulo .gt_super {
-  font-size: 65%;
-}
-&amp;#10;#isdnqkgulo .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-&amp;#10;#isdnqkgulo .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-&amp;#10;#isdnqkgulo .gt_indent_1 {
-  text-indent: 5px;
-}
-&amp;#10;#isdnqkgulo .gt_indent_2 {
-  text-indent: 10px;
-}
-&amp;#10;#isdnqkgulo .gt_indent_3 {
-  text-indent: 15px;
-}
-&amp;#10;#isdnqkgulo .gt_indent_4 {
-  text-indent: 20px;
-}
-&amp;#10;#isdnqkgulo .gt_indent_5 {
-  text-indent: 25px;
-}
-&amp;#10;#isdnqkgulo .katex-display {
-  display: inline-flex !important;
-  margin-bottom: 0.75em !important;
-}
-&amp;#10;#isdnqkgulo div.Reactable &gt; div.rt-table &gt; div.rt-thead &gt; div.rt-tr.rt-tr-group-header &gt; div.rt-th-group:after {
-  height: 0px !important;
-}
-&lt;/style&gt;
-&lt;table class=&#34;gt_table&#34; data-quarto-disable-processing=&#34;false&#34; data-quarto-bootstrap=&#34;false&#34;&gt;
-  &lt;thead&gt;
-    &lt;tr class=&#34;gt_heading&#34;&gt;
-      &lt;td colspan=&#34;4&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Resistência à Compressão do Concreto por Proporção de Aditivo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr class=&#34;gt_heading&#34;&gt;
-      &lt;td colspan=&#34;4&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_bottom_border&#34; style&gt;DIC com 5 níveis e 3 repetições&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr class=&#34;gt_col_headings&#34;&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;aditivo&#34;&gt;Proporção de Aditivo (%)&lt;/th&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Rep-1&#34;&gt;Repetição 1&lt;/th&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Rep-2&#34;&gt;Repetição 2&lt;/th&gt;
-      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Rep-3&#34;&gt;Repetição 3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody class=&#34;gt_table_body&#34;&gt;
-    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;0.0&lt;/td&gt;
-&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;24.55&lt;/td&gt;
-&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;24.82&lt;/td&gt;
-&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;26.25&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34;&gt;0.5&lt;/td&gt;
-&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34;&gt;28.06&lt;/td&gt;
-&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34;&gt;28.10&lt;/td&gt;
-&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34;&gt;29.37&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;1.0&lt;/td&gt;
-&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;32.37&lt;/td&gt;
-&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;30.99&lt;/td&gt;
-&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;31.45&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34;&gt;1.5&lt;/td&gt;
-&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34;&gt;32.64&lt;/td&gt;
-&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34;&gt;33.98&lt;/td&gt;
-&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34;&gt;33.29&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;2.0&lt;/td&gt;
-&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;31.32&lt;/td&gt;
-&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;31.09&lt;/td&gt;
-&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;30.56&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-  &amp;#10;  
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h1 id=&#34;gráfico-exploratório&#34;&gt;Gráfico exploratório&lt;/h1&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2) # Anexando o pacote ggplot2
-
-ggplot(dados, aes(x = aditivo, y = resistencia)) +
-  geom_point(size = 3, color = &amp;quot;steelblue&amp;quot;) +
-  labs(title = &amp;quot;Resistência vs Aditivo Plastificante&amp;quot;,
-       x = &amp;quot;Proporção de Aditivo (%)&amp;quot;,
-       y = &amp;quot;Resistência à Compressão (MPa)&amp;quot;) +
-  theme_minimal()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s16/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-&lt;h1 id=&#34;verificação-da-anava&#34;&gt;Verificação da ANAVA&lt;/h1&gt;
-&lt;div class=&#34;nonincremental&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;Correto&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;aditivo_fator &amp;lt;- as.factor(aditivo)
-anava &amp;lt;- aov(resistencia ~ aditivo_fator, data = dados)
-summary(anava)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##               Df Sum Sq Mean Sq F value   Pr(&amp;gt;F)    
-## aditivo_fator  4 118.92  29.729   59.86 6.01e-07 ***
-## Residuals     10   4.97   0.497                     
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Errado&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;anava2 &amp;lt;- aov(resistencia ~ aditivo, data = dados)
-summary(anava2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##             Df Sum Sq Mean Sq F value   Pr(&amp;gt;F)    
-## aditivo      1  80.29   80.29   23.94 0.000294 ***
-## Residuals   13  43.59    3.35                     
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h1 id=&#34;análise-de-resíduo&#34;&gt;Análise de Resíduo&lt;/h1&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;par(mfrow=c(2,2))
-plot(anava)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s16/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-&lt;h2 id=&#34;análise-de-resíduo-1&#34;&gt;Análise de Resíduo&lt;/h2&gt;
-&lt;div class=&#34;nonincremental&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;Normalidade&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(car)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Carregando pacotes exigidos: carData
-
-## 
-## Anexando pacote: &#39;car&#39;
-
-## O seguinte objeto é mascarado por &#39;package:dplyr&#39;:
-## 
-##     recode
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(nortest)
-library(lmtest)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Carregando pacotes exigidos: zoo
-
-## 
-## Anexando pacote: &#39;zoo&#39;
-
-## Os seguintes objetos são mascarados por &#39;package:base&#39;:
-## 
-##     as.Date, as.Date.numeric
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resíduos do modelo
-residuos &amp;lt;- residuals(anava)
-
-# Teste de Shapiro-Wilk (Normalidade)
-shapiro.test(residuos)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## 	Shapiro-Wilk normality test
-## 
-## data:  residuos
-## W = 0.88668, p-value = 0.05976
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Outros testes (opcional)
-#ad.test(residuos)        # Anderson-Darling
-#lillie.test(residuos)    # Lilliefors
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;análise-de-resíduo-2&#34;&gt;Análise de Resíduo&lt;/h2&gt;
-&lt;div class=&#34;nonincremental&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;Homogeneidade&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Teste de Bartlett (Homogeneidade)
-bartlett.test(resistencia ~ aditivo, data = dados)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## 	Bartlett test of homogeneity of variances
-## 
-## data:  resistencia by aditivo
-## Bartlett&#39;s K-squared = 1.088, df = 4, p-value = 0.8962
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Teste de Levene (mais robusto)
-#leveneTest(resistencia ~ aditivo, data = dados)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Independência&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Teste de Durbin-Watson Independência
-durbinWatsonTest(anava)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##  lag Autocorrelation D-W Statistic p-value
-##    1       -0.177091      2.230554   0.528
-##  Alternative hypothesis: rho != 0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;h1 id=&#34;regressão-na-anava-errado&#34;&gt;Regressão na ANAVA (Errado)&lt;/h1&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;mod_linear &amp;lt;- lm(resistencia ~ aditivo, data = dados)
-summary(mod_linear)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Call:
-## lm(formula = resistencia ~ aditivo, data = dados)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -2.6385 -1.8537 -0.1825  1.3074  2.4468 
-## 
-## Coefficients:
-##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
-## (Intercept)  26.6500     0.8189  32.542 7.64e-14 ***
-## aditivo       3.2719     0.6687   4.893 0.000294 ***
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## 
-## Residual standard error: 1.831 on 13 degrees of freedom
-## Multiple R-squared:  0.6481,	Adjusted R-squared:  0.621 
-## F-statistic: 23.94 on 1 and 13 DF,  p-value: 0.0002936
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;regressão-na-anava-correto&#34;&gt;Regressão na ANAVA (Correto)&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ExpDes.pt)
-# Anava no DIC
-reganava &amp;lt;- dic(trat = dados$aditivo, resp = dados$resistencia,
-    quali = FALSE) # Fator quantitativo
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## ------------------------------------------------------------------------
-## Quadro da analise de variancia
-## ------------------------------------------------------------------------
-##            GL      SQ      QM     Fc      Pr&amp;gt;Fc
-## Tratamento  4 118.917 29.7292 59.859 6.0064e-07
-## Residuo    10   4.967  0.4967                  
-## Total      14 123.884                          
-## ------------------------------------------------------------------------
-## CV = 2.36 %
-## 
-## ------------------------------------------------------------------------
-## Teste de normalidade dos residuos ( Shapiro-Wilk ) 
-## Valor-p:  0.05975596 
-## De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
-## ------------------------------------------------------------------------
-## 
-## ------------------------------------------------------------------------
-## Teste de homogeneidade de variancia 
-## valor-p:  0.8961704 
-## De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
-## ------------------------------------------------------------------------
-## 
-## Ajuste de modelos polinomiais de regressao
-## ------------------------------------------------------------------------
-## 
-## Modelo Linear
-## =========================================
-##    Estimativa Erro.padrao   tc    valor.p
-## -----------------------------------------
-## b0  26.6500     0.3152    84.5577    0   
-## b1   3.2719     0.2573    12.7146    0   
-## -----------------------------------------
-## 
-## R2 do modelo linear
-## --------
-## 0.675185
-## --------
-## 
-## Analise de variancia do modelo linear
-## ======================================================
-##                      GL   SQ      QM      Fc   valor.p
-## ------------------------------------------------------
-## Efeito linear        1  80.2909 80.2909 161.66    0   
-## Desvios de Regressao 3  38.6260 12.8753 25.92   5e-05 
-## Residuos             10 4.9666  0.4967                
-## ------------------------------------------------------
-## ------------------------------------------------------------------------
-## 
-## Modelo quadratico
-## =========================================
-##    Estimativa Erro.padrao   tc    valor.p
-## -----------------------------------------
-## b0  24.8453     0.3829    64.8827    0   
-## b1  10.4908     0.9072    11.5638    0   
-## b2  -3.6094     0.4350    -8.2980 0.00001
-## -----------------------------------------
-## 
-## R2 do modelo quadratico
-## --------
-## 0.962767
-## --------
-## 
-## Analise de variancia do modelo quadratico
-## ======================================================
-##                      GL   SQ      QM      Fc   valor.p
-## ------------------------------------------------------
-## Efeito linear        1  80.2909 80.2909 161.66    0   
-## Efeito quadratico    1  34.1984 34.1984 68.86   1e-05 
-## Desvios de Regressao 2  4.4276  2.2138   4.46  0.0413 
-## Residuos             10 4.9666  0.4967                
-## ------------------------------------------------------
-## ------------------------------------------------------------------------
-## 
-## Modelo cubico
-## =========================================
-##    Estimativa Erro.padrao   tc    valor.p
-## -----------------------------------------
-## b0  25.2255     0.4040    62.4448    0   
-## b1   5.0406     2.0553    2.4525  0.0341 
-## b2   3.9955     2.6098    1.5309  0.1568 
-## b3  -2.5350     0.8578    -2.9553 0.0144 
-## -----------------------------------------
-## 
-## R2 do modelo cubico
-## --------
-## 0.999243
-## --------
-## 
-## Analise de variancia do modelo cubico
-## ======================================================
-##                      GL   SQ      QM      Fc   valor.p
-## ------------------------------------------------------
-## Efeito linear        1  80.2909 80.2909 161.66    0   
-## Efeito quadratico    1  34.1984 34.1984 68.86   1e-05 
-## Efeito cubico        1  4.3376  4.3376   8.73  0.0144 
-## Desvios de Regressao 1  0.0900  0.0900   0.18  0.67933
-## Residuos             10 4.9666  0.4967                
-## ------------------------------------------------------
-## ------------------------------------------------------------------------
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;análise-de-resíduo-3&#34;&gt;Análise de resíduo&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Analise de residuo
-plotres(reganava)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s16/index_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-&lt;h1 id=&#34;gráfico-da-curva-ajustada&#34;&gt;Gráfico da curva ajustada&lt;/h1&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ggplot(dados, aes(x = aditivo, y = resistencia)) +
-  geom_point(size = 3, color = &amp;quot;darkblue&amp;quot;) +
-  stat_smooth(method = &amp;quot;lm&amp;quot;, formula = y ~ poly(x, 3, raw = TRUE),
-              se = FALSE, color = &amp;quot;darkgreen&amp;quot;) +
-  labs(title = &amp;quot;Resistência do Concreto vs Aditivo (DIC)&amp;quot;,
-       x = &amp;quot;Proporção de Aditivo (%)&amp;quot;,
-       y = &amp;quot;Resistência (MPa)&amp;quot;) +
-  theme_minimal()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s16/index_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
-&lt;h1 id=&#34;escolha-do-modelo&#34;&gt;Escolha do modelo&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Análise de Resíduos&lt;/li&gt;
-&lt;li&gt;Coeficiente de determinação&lt;/li&gt;
-&lt;li&gt;Desvio de regressão&lt;/li&gt;
-&lt;li&gt;Coeficiente de determinação ajustado (&lt;code&gt;\(R^2_{aj}\)&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Praticidade&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;coeficiente-de-determinação-ajustado&#34;&gt;Coeficiente de determinação ajustado&lt;/h2&gt;
-$$
-R^2_{ajustado} = 1 - \left( \frac{(1 - R^2)(n - 1)}{n - p - 1} \right)
-$$
-&lt;p&gt;Onde:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;\(R^2\)&lt;/code&gt; é o coeficiente de determinação (não ajustado);&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;\(n\)&lt;/code&gt; é o número total de observações;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;\(p\)&lt;/code&gt; é o número de variáveis explicativas no modelo (excluindo o intercepto).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;coeficiente-de-determinação-ajustado-1&#34;&gt;Coeficiente de determinação ajustado&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Funcao para o R2aj
-r2aj &amp;lt;- function(r2, n, p) {
-  1 - (1 - r2) * (n - 1) / (n - p - 1)
-}
-# Modelo
-Modelo &amp;lt;- 1:3
-# R2
-r2 &amp;lt;- c(reganava$reg$`R2 reta`, reganava$reg$`R2 parabola`, reganava$reg$`R2 cubica`)
-# Coeficiente de determinacao ajustado
-Coef.aj &amp;lt;- r2aj(r2, 15, Modelo)
-# Resultado
-data.frame(Modelo, Coef.aj, r2)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##   Modelo   Coef.aj        r2
-## 1      1 0.6501989 0.6751847
-## 2      2 0.9565618 0.9627673
-## 3      3 0.9990366 0.9992430
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; data-preview-link=&#34;true&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; data-preview-link=&#34;true&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;próximas-aulas&#34;&gt;Próximas aulas&lt;/h1&gt;
-&lt;a href=&#34;https://bendeivide.github.io/courses/epaec/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
-&lt;img src=&#34;ben.png&#34; width = &#34;400&#34;&gt;
-&lt;/a&gt;
-&lt;center&gt;
-&lt;a href=&#34;http://bendeivide.github.io/courses/estexp&#34;  target=&#34;_blank&#34; &gt;bendeivide.github.io/courses/estexp&lt;/a&gt;
-&lt;/center&gt;
-&lt;h1 id=&#34;referências&#34;&gt;Referências&lt;/h1&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body&#34; entry-spacing=&#34;0&#34;&gt;
-&lt;div id=&#34;ref-batista2025&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;BATISTA, B. D. O. &lt;strong&gt;&lt;a href=&#34;https://bendeivide.github.io/books/epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PLanejamento e Análise de Experimentos&lt;/a&gt;&lt;/strong&gt;. Ouro Branco, MG, Brasil: &lt;/p&gt;
-\[s.n.\]
-&lt;p&gt;, 2025.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     
