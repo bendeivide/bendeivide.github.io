@@ -1,0 +1,75 @@
+---
+title: "Aula 16 | Dados - NICOLAS WILLIAN GARCIA SANTOS RIBEIRO"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# 🎯 **Objetivos da análise**
+
+1. Ajustar um modelo de **regressão quadrática** entre o **ângulo de inclinação** e o **ganho de sinal**.
+2. Verificar a **significância dos coeficientes** do modelo.
+3. Determinar o **ângulo ótimo de inclinação** da antena.
+4. Verificar se o modelo quadrático é adequado (teste de **falta de ajuste**).
+5. Estimar o ganho para ângulos intermediários, como **25°**.
+
+
+
+# Contexto do Experimento
+
+----
+
+Um grupo de engenheiros de telecomunicações está avaliando o desempenho de uma antena direcional quanto ao **ganho de sinal (em dBi)**, em função do **ângulo de inclinação da antena (em graus)**.
+
+Estudos iniciais sugerem que existe um **ângulo ótimo de inclinação** que maximiza o ganho, e que ajustes muito abaixo ou acima desse ponto comprometem o desempenho. Assim, espera-se uma **relação quadrática** entre o ângulo de inclinação e o ganho de sinal.
+
+O experimento foi realizado com cinco níveis de inclinação: **0°, 10°, 20°, 30° e 40°**, com **4 repetições** para cada nível, totalizando 20 observações.
+
+----
+
+
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+library(gt)
+
+# Níveis do fator: ângulo de inclinação da antena (em graus)
+angulo <- rep(c(0, 10, 20, 30, 40), each = 4)
+
+# Ganho de sinal (dBi) correspondente às repetições
+ganho <- c(
+  5.2, 5.1, 5.3, 5.2,    # 0°
+  7.6, 7.7, 7.5, 7.6,    # 10°
+  9.8, 9.9, 10.0, 9.8,   # 20°
+  9.0, 8.9, 9.1, 8.8,    # 30°
+  6.4, 6.5, 6.3, 6.4     # 40°
+)
+
+# Criar data frame com os dados
+dados <- data.frame(
+  `Ângulo` = angulo,
+  `Ganho` = ganho
+)
+
+
+# Criar a tabela
+tabela_gt <- gt(dados) |>
+  fmt_number(
+    columns = c(`Ângulo`, `Ganho`)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+
+# ✍ Pergunta-se:
+
+1. Qual é a equação ajustada da regressão quadrática?
+2. O modelo é significativo? O termo quadrático é relevante?
+3. Qual o ângulo ótimo que maximiza o ganho de sinal? Qual o ganho correspondente?
+4. O modelo quadrático apresenta falta de ajuste significativa?
+5. Estime o ganho de sinal para 25°. Essa estimativa é confiável?
+

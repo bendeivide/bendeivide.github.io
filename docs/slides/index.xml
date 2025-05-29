@@ -103272,6 +103272,878 @@ Para explicar a definição de uma variável aleatória será considerado o exem
     </item>
     
     <item>
+      <title>Estatística Experimental</title>
+      <link>http://bendeivide.github.io/slides/estexp/s16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://bendeivide.github.io/slides/estexp/s16/</guid>
+      <description>&lt;h1 id=&#34;filosofia-de-publicação-selo-dc&#34;&gt;Filosofia de publicação (Selo DC)&lt;/h1&gt;
+&lt;a href=&#34;https://bendeivide.github.io/dc/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;SeloDC-branco.png&#34; width = &#34;400&#34;&gt;
+&lt;/a&gt;
+&lt;h1 id=&#34;livro-de-apoio&#34;&gt;Livro de Apoio&lt;/h1&gt;
+&lt;p&gt;Usaremos Batista (&lt;a href=&#34;#ref-batista2025&#34;&gt;2025&lt;/a&gt;):&lt;/p&gt;
+&lt;a href=&#34;https://bendeivide.github.io/books/pae/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;hardcover.png&#34; width = &#34;300&#34;&gt;
+&lt;/a&gt;
+&lt;h1 id=&#34;objetivos-da-aula&#34;&gt;Objetivos da Aula&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Relacionar ANOVA e modelos de regressão&lt;/li&gt;
+&lt;li&gt;Aplicar regressão linear e polinomial a dados com fator quantitativo&lt;/li&gt;
+&lt;li&gt;Interpretar os coeficientes do modelo&lt;/li&gt;
+&lt;li&gt;Avaliar a adequação do modelo por meio dos resíduos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;quando-usar-regressão-na-anova&#34;&gt;Quando usar regressão na ANOVA?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Quando o fator da ANOVA é &lt;strong&gt;quantitativo&lt;/strong&gt;, pode-se usar regressão para:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modelar tendência&lt;/strong&gt; da variável resposta&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testar significância&lt;/strong&gt; da relação&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Otimizar resultados&lt;/strong&gt; (por exemplo, ponto ótimo)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;exemplo-engenharia-civil&#34;&gt;Exemplo: Engenharia Civil&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Um engenheiro civil testou diferentes proporções de aditivo plastificante (0%, 0.5%, 1.0%, 1.5% e 2.0%) na mistura de concreto. A resistência à compressão (em MPa) foi registrada após 28 dias.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;dados-do-experimento&#34;&gt;Dados do experimento&lt;/h2&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(dplyr)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Anexando pacote: &#39;dplyr&#39;
+
+## Os seguintes objetos são mascarados por &#39;package:stats&#39;:
+## 
+##     filter, lag
+
+## Os seguintes objetos são mascarados por &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyr)
+library(gt)
+
+# Dados originais
+set.seed(123)
+aditivo &amp;lt;- rep(c(0.0, 0.5, 1.0, 1.5, 2.0), each = 3)
+resistencia &amp;lt;- c(
+  rnorm(3, mean = 25.0, sd = 0.8),  # 0%
+  rnorm(3, mean = 28.0, sd = 0.8),  # 0.5%
+  rnorm(3, mean = 32.0, sd = 0.8),  # 1.0%
+  rnorm(3, mean = 33.0, sd = 0.8),  # 1.5%
+  rnorm(3, mean = 31.0, sd = 0.8)   # 2.0%
+)
+repeticao &amp;lt;- factor(rep(1:3, times = 5))
+
+dados &amp;lt;- data.frame(aditivo, resistencia, repeticao)
+
+# Pivotar para formato wide
+dados_wide &amp;lt;- dados %&amp;gt;%
+  pivot_wider(
+    names_from = repeticao,
+    values_from = resistencia,
+    names_prefix = &amp;quot;Rep &amp;quot;
+  ) %&amp;gt;%
+  arrange(aditivo)
+
+# Criar tabela gt
+tabela_pivot &amp;lt;- gt(dados_wide) %&amp;gt;%
+  fmt_number(
+    columns = vars(starts_with(&amp;quot;Rep&amp;quot;)),
+    decimals = 2
+  ) %&amp;gt;%
+  cols_label(
+    aditivo = &amp;quot;Proporção de Aditivo (%)&amp;quot;,
+    `Rep 1` = &amp;quot;Repetição 1&amp;quot;,
+    `Rep 2` = &amp;quot;Repetição 2&amp;quot;,
+    `Rep 3` = &amp;quot;Repetição 3&amp;quot;
+  ) %&amp;gt;%
+  tab_header(
+    title = &amp;quot;Resistência à Compressão do Concreto por Proporção de Aditivo&amp;quot;,
+    subtitle = &amp;quot;DIC com 5 níveis e 3 repetições&amp;quot;
+  ) %&amp;gt;%
+  tab_options(
+    table.font.size = px(25)
+  ) %&amp;gt;%
+  cols_align(
+    align = &amp;quot;center&amp;quot;,
+    columns = everything()
+  ) %&amp;gt;%
+  # Destacar linhas ímpares
+  tab_style(
+    style = list(
+      cell_fill(color = &amp;quot;#f2f2f2&amp;quot;)  # cinza claro
+    ),
+    locations = cells_body(
+      rows = seq(1, nrow(dados_wide), by = 2)
+    )
+  )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Since gt v0.3.0, `columns = vars(...)` has been deprecated.
+## • Please use `columns = c(...)` instead.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Mostrar tabela
+tabela_pivot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;isdnqkgulo&#34; style=&#34;padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;
+&lt;style&gt;#isdnqkgulo table {
+  font-family: system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+&amp;#10;#isdnqkgulo thead, #isdnqkgulo tbody, #isdnqkgulo tfoot, #isdnqkgulo tr, #isdnqkgulo td, #isdnqkgulo th {
+  border-style: none;
+}
+&amp;#10;#isdnqkgulo p {
+  margin: 0;
+  padding: 0;
+}
+&amp;#10;#isdnqkgulo .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+&amp;#10;#isdnqkgulo .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+&amp;#10;#isdnqkgulo .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+&amp;#10;#isdnqkgulo .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+&amp;#10;#isdnqkgulo .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+&amp;#10;#isdnqkgulo .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+&amp;#10;#isdnqkgulo .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+&amp;#10;#isdnqkgulo .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+&amp;#10;#isdnqkgulo .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+&amp;#10;#isdnqkgulo .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+&amp;#10;#isdnqkgulo .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+&amp;#10;#isdnqkgulo .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+&amp;#10;#isdnqkgulo .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+&amp;#10;#isdnqkgulo .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+&amp;#10;#isdnqkgulo .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+&amp;#10;#isdnqkgulo .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+&amp;#10;#isdnqkgulo .gt_row_group_first td {
+  border-top-width: 2px;
+}
+&amp;#10;#isdnqkgulo .gt_row_group_first th {
+  border-top-width: 2px;
+}
+&amp;#10;#isdnqkgulo .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+&amp;#10;#isdnqkgulo .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+&amp;#10;#isdnqkgulo .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+&amp;#10;#isdnqkgulo .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+&amp;#10;#isdnqkgulo .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+&amp;#10;#isdnqkgulo .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+&amp;#10;#isdnqkgulo .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+&amp;#10;#isdnqkgulo .gt_left {
+  text-align: left;
+}
+&amp;#10;#isdnqkgulo .gt_center {
+  text-align: center;
+}
+&amp;#10;#isdnqkgulo .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+&amp;#10;#isdnqkgulo .gt_font_normal {
+  font-weight: normal;
+}
+&amp;#10;#isdnqkgulo .gt_font_bold {
+  font-weight: bold;
+}
+&amp;#10;#isdnqkgulo .gt_font_italic {
+  font-style: italic;
+}
+&amp;#10;#isdnqkgulo .gt_super {
+  font-size: 65%;
+}
+&amp;#10;#isdnqkgulo .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+&amp;#10;#isdnqkgulo .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+&amp;#10;#isdnqkgulo .gt_indent_1 {
+  text-indent: 5px;
+}
+&amp;#10;#isdnqkgulo .gt_indent_2 {
+  text-indent: 10px;
+}
+&amp;#10;#isdnqkgulo .gt_indent_3 {
+  text-indent: 15px;
+}
+&amp;#10;#isdnqkgulo .gt_indent_4 {
+  text-indent: 20px;
+}
+&amp;#10;#isdnqkgulo .gt_indent_5 {
+  text-indent: 25px;
+}
+&amp;#10;#isdnqkgulo .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+&amp;#10;#isdnqkgulo div.Reactable &gt; div.rt-table &gt; div.rt-thead &gt; div.rt-tr.rt-tr-group-header &gt; div.rt-th-group:after {
+  height: 0px !important;
+}
+&lt;/style&gt;
+&lt;table class=&#34;gt_table&#34; data-quarto-disable-processing=&#34;false&#34; data-quarto-bootstrap=&#34;false&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr class=&#34;gt_heading&#34;&gt;
+      &lt;td colspan=&#34;4&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;Resistência à Compressão do Concreto por Proporção de Aditivo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gt_heading&#34;&gt;
+      &lt;td colspan=&#34;4&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_bottom_border&#34; style&gt;DIC com 5 níveis e 3 repetições&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gt_col_headings&#34;&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;aditivo&#34;&gt;Proporção de Aditivo (%)&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Rep-1&#34;&gt;Repetição 1&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Rep-2&#34;&gt;Repetição 2&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Rep-3&#34;&gt;Repetição 3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;0.0&lt;/td&gt;
+&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;24.55&lt;/td&gt;
+&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;24.82&lt;/td&gt;
+&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;26.25&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34;&gt;0.5&lt;/td&gt;
+&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34;&gt;28.06&lt;/td&gt;
+&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34;&gt;28.10&lt;/td&gt;
+&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34;&gt;29.37&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;1.0&lt;/td&gt;
+&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;32.37&lt;/td&gt;
+&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;30.99&lt;/td&gt;
+&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;31.45&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34;&gt;1.5&lt;/td&gt;
+&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34;&gt;32.64&lt;/td&gt;
+&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34;&gt;33.98&lt;/td&gt;
+&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34;&gt;33.29&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;aditivo&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;2.0&lt;/td&gt;
+&lt;td headers=&#34;Rep 1&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;31.32&lt;/td&gt;
+&lt;td headers=&#34;Rep 2&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;31.09&lt;/td&gt;
+&lt;td headers=&#34;Rep 3&#34; class=&#34;gt_row gt_center&#34; style=&#34;background-color: #F2F2F2;&#34;&gt;30.56&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+  &amp;#10;  
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;gráfico-exploratório&#34;&gt;Gráfico exploratório&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2) # Anexando o pacote ggplot2
+
+ggplot(dados, aes(x = aditivo, y = resistencia)) +
+  geom_point(size = 3, color = &amp;quot;steelblue&amp;quot;) +
+  labs(title = &amp;quot;Resistência vs Aditivo Plastificante&amp;quot;,
+       x = &amp;quot;Proporção de Aditivo (%)&amp;quot;,
+       y = &amp;quot;Resistência à Compressão (MPa)&amp;quot;) +
+  theme_minimal()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s16/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;h1 id=&#34;verificação-da-anava&#34;&gt;Verificação da ANAVA&lt;/h1&gt;
+&lt;div class=&#34;nonincremental&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Correto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;aditivo_fator &amp;lt;- as.factor(aditivo)
+anava &amp;lt;- aov(resistencia ~ aditivo_fator, data = dados)
+summary(anava)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##               Df Sum Sq Mean Sq F value   Pr(&amp;gt;F)    
+## aditivo_fator  4 118.92  29.729   59.86 6.01e-07 ***
+## Residuals     10   4.97   0.497                     
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Errado&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;anava2 &amp;lt;- aov(resistencia ~ aditivo, data = dados)
+summary(anava2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##             Df Sum Sq Mean Sq F value   Pr(&amp;gt;F)    
+## aditivo      1  80.29   80.29   23.94 0.000294 ***
+## Residuals   13  43.59    3.35                     
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;análise-de-resíduo&#34;&gt;Análise de Resíduo&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;par(mfrow=c(2,2))
+plot(anava)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s16/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;h2 id=&#34;análise-de-resíduo-1&#34;&gt;Análise de Resíduo&lt;/h2&gt;
+&lt;div class=&#34;nonincremental&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Normalidade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(car)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Carregando pacotes exigidos: carData
+
+## 
+## Anexando pacote: &#39;car&#39;
+
+## O seguinte objeto é mascarado por &#39;package:dplyr&#39;:
+## 
+##     recode
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(nortest)
+library(lmtest)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Carregando pacotes exigidos: zoo
+
+## 
+## Anexando pacote: &#39;zoo&#39;
+
+## Os seguintes objetos são mascarados por &#39;package:base&#39;:
+## 
+##     as.Date, as.Date.numeric
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Resíduos do modelo
+residuos &amp;lt;- residuals(anava)
+
+# Teste de Shapiro-Wilk (Normalidade)
+shapiro.test(residuos)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## 	Shapiro-Wilk normality test
+## 
+## data:  residuos
+## W = 0.88668, p-value = 0.05976
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Outros testes (opcional)
+#ad.test(residuos)        # Anderson-Darling
+#lillie.test(residuos)    # Lilliefors
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;análise-de-resíduo-2&#34;&gt;Análise de Resíduo&lt;/h2&gt;
+&lt;div class=&#34;nonincremental&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Homogeneidade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Teste de Bartlett (Homogeneidade)
+bartlett.test(resistencia ~ aditivo, data = dados)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## 	Bartlett test of homogeneity of variances
+## 
+## data:  resistencia by aditivo
+## Bartlett&#39;s K-squared = 1.088, df = 4, p-value = 0.8962
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Teste de Levene (mais robusto)
+#leveneTest(resistencia ~ aditivo, data = dados)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Independência&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Teste de Durbin-Watson Independência
+durbinWatsonTest(anava)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  lag Autocorrelation D-W Statistic p-value
+##    1       -0.177091      2.230554   0.528
+##  Alternative hypothesis: rho != 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;regressão-na-anava-errado&#34;&gt;Regressão na ANAVA (Errado)&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;mod_linear &amp;lt;- lm(resistencia ~ aditivo, data = dados)
+summary(mod_linear)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = resistencia ~ aditivo, data = dados)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -2.6385 -1.8537 -0.1825  1.3074  2.4468 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)  26.6500     0.8189  32.542 7.64e-14 ***
+## aditivo       3.2719     0.6687   4.893 0.000294 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 1.831 on 13 degrees of freedom
+## Multiple R-squared:  0.6481,	Adjusted R-squared:  0.621 
+## F-statistic: 23.94 on 1 and 13 DF,  p-value: 0.0002936
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;regressão-na-anava-correto&#34;&gt;Regressão na ANAVA (Correto)&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ExpDes.pt)
+# Anava no DIC
+reganava &amp;lt;- dic(trat = dados$aditivo, resp = dados$resistencia,
+    quali = FALSE) # Fator quantitativo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ------------------------------------------------------------------------
+## Quadro da analise de variancia
+## ------------------------------------------------------------------------
+##            GL      SQ      QM     Fc      Pr&amp;gt;Fc
+## Tratamento  4 118.917 29.7292 59.859 6.0064e-07
+## Residuo    10   4.967  0.4967                  
+## Total      14 123.884                          
+## ------------------------------------------------------------------------
+## CV = 2.36 %
+## 
+## ------------------------------------------------------------------------
+## Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+## Valor-p:  0.05975596 
+## De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+## ------------------------------------------------------------------------
+## 
+## ------------------------------------------------------------------------
+## Teste de homogeneidade de variancia 
+## valor-p:  0.8961704 
+## De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+## ------------------------------------------------------------------------
+## 
+## Ajuste de modelos polinomiais de regressao
+## ------------------------------------------------------------------------
+## 
+## Modelo Linear
+## =========================================
+##    Estimativa Erro.padrao   tc    valor.p
+## -----------------------------------------
+## b0  26.6500     0.3152    84.5577    0   
+## b1   3.2719     0.2573    12.7146    0   
+## -----------------------------------------
+## 
+## R2 do modelo linear
+## --------
+## 0.675185
+## --------
+## 
+## Analise de variancia do modelo linear
+## ======================================================
+##                      GL   SQ      QM      Fc   valor.p
+## ------------------------------------------------------
+## Efeito linear        1  80.2909 80.2909 161.66    0   
+## Desvios de Regressao 3  38.6260 12.8753 25.92   5e-05 
+## Residuos             10 4.9666  0.4967                
+## ------------------------------------------------------
+## ------------------------------------------------------------------------
+## 
+## Modelo quadratico
+## =========================================
+##    Estimativa Erro.padrao   tc    valor.p
+## -----------------------------------------
+## b0  24.8453     0.3829    64.8827    0   
+## b1  10.4908     0.9072    11.5638    0   
+## b2  -3.6094     0.4350    -8.2980 0.00001
+## -----------------------------------------
+## 
+## R2 do modelo quadratico
+## --------
+## 0.962767
+## --------
+## 
+## Analise de variancia do modelo quadratico
+## ======================================================
+##                      GL   SQ      QM      Fc   valor.p
+## ------------------------------------------------------
+## Efeito linear        1  80.2909 80.2909 161.66    0   
+## Efeito quadratico    1  34.1984 34.1984 68.86   1e-05 
+## Desvios de Regressao 2  4.4276  2.2138   4.46  0.0413 
+## Residuos             10 4.9666  0.4967                
+## ------------------------------------------------------
+## ------------------------------------------------------------------------
+## 
+## Modelo cubico
+## =========================================
+##    Estimativa Erro.padrao   tc    valor.p
+## -----------------------------------------
+## b0  25.2255     0.4040    62.4448    0   
+## b1   5.0406     2.0553    2.4525  0.0341 
+## b2   3.9955     2.6098    1.5309  0.1568 
+## b3  -2.5350     0.8578    -2.9553 0.0144 
+## -----------------------------------------
+## 
+## R2 do modelo cubico
+## --------
+## 0.999243
+## --------
+## 
+## Analise de variancia do modelo cubico
+## ======================================================
+##                      GL   SQ      QM      Fc   valor.p
+## ------------------------------------------------------
+## Efeito linear        1  80.2909 80.2909 161.66    0   
+## Efeito quadratico    1  34.1984 34.1984 68.86   1e-05 
+## Efeito cubico        1  4.3376  4.3376   8.73  0.0144 
+## Desvios de Regressao 1  0.0900  0.0900   0.18  0.67933
+## Residuos             10 4.9666  0.4967                
+## ------------------------------------------------------
+## ------------------------------------------------------------------------
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;análise-de-resíduo-3&#34;&gt;Análise de resíduo&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Analise de residuo
+plotres(reganava)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s16/index_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;h1 id=&#34;gráfico-da-curva-ajustada&#34;&gt;Gráfico da curva ajustada&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ggplot(dados, aes(x = aditivo, y = resistencia)) +
+  geom_point(size = 3, color = &amp;quot;darkblue&amp;quot;) +
+  stat_smooth(method = &amp;quot;lm&amp;quot;, formula = y ~ poly(x, 3, raw = TRUE),
+              se = FALSE, color = &amp;quot;darkgreen&amp;quot;) +
+  labs(title = &amp;quot;Resistência do Concreto vs Aditivo (DIC)&amp;quot;,
+       x = &amp;quot;Proporção de Aditivo (%)&amp;quot;,
+       y = &amp;quot;Resistência (MPa)&amp;quot;) +
+  theme_minimal()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;img src=&#34;http://bendeivide.github.io/slides/estexp/s16/index_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;h1 id=&#34;escolha-do-modelo&#34;&gt;Escolha do modelo&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Análise de Resíduos&lt;/li&gt;
+&lt;li&gt;Coeficiente de determinação&lt;/li&gt;
+&lt;li&gt;Desvio de regressão&lt;/li&gt;
+&lt;li&gt;Coeficiente de determinação ajustado (&lt;code&gt;\(R^2_{aj}\)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Praticidade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;coeficiente-de-determinação-ajustado&#34;&gt;Coeficiente de determinação ajustado&lt;/h2&gt;
+$$
+R^2_{ajustado} = 1 - \left( \frac{(1 - R^2)(n - 1)}{n - p - 1} \right)
+$$
+&lt;p&gt;Onde:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\(R^2\)&lt;/code&gt; é o coeficiente de determinação (não ajustado);&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(n\)&lt;/code&gt; é o número total de observações;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(p\)&lt;/code&gt; é o número de variáveis explicativas no modelo (excluindo o intercepto).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;coeficiente-de-determinação-ajustado-1&#34;&gt;Coeficiente de determinação ajustado&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Funcao para o R2aj
+r2aj &amp;lt;- function(r2, n, p) {
+  1 - (1 - r2) * (n - 1) / (n - p - 1)
+}
+# Modelo
+Modelo &amp;lt;- 1:3
+# R2
+r2 &amp;lt;- c(reganava$reg$`R2 reta`, reganava$reg$`R2 parabola`, reganava$reg$`R2 cubica`)
+# Coeficiente de determinacao ajustado
+Coef.aj &amp;lt;- r2aj(r2, 15, Modelo)
+# Resultado
+data.frame(Modelo, Coef.aj, r2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   Modelo   Coef.aj        r2
+## 1      1 0.6501989 0.6751847
+## 2      2 0.9565618 0.9627673
+## 3      3 0.9990366 0.9992430
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;questões&#34;&gt;Questões?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/&#34; data-preview-link=&#34;true&#34;&gt;Dúvidas e Sugestões&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/#contact&#34; data-preview-link=&#34;true&#34;&gt;Contato&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;próximas-aulas&#34;&gt;Próximas aulas&lt;/h1&gt;
+&lt;a href=&#34;https://bendeivide.github.io/courses/epaec/&#34; target=&#34;_blank&#34; style=&#34;text-align: center;&#34;&gt;
+&lt;img src=&#34;ben.png&#34; width = &#34;400&#34;&gt;
+&lt;/a&gt;
+&lt;center&gt;
+&lt;a href=&#34;http://bendeivide.github.io/courses/estexp&#34;  target=&#34;_blank&#34; &gt;bendeivide.github.io/courses/estexp&lt;/a&gt;
+&lt;/center&gt;
+&lt;h1 id=&#34;referências&#34;&gt;Referências&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body&#34; entry-spacing=&#34;0&#34;&gt;
+&lt;div id=&#34;ref-batista2025&#34; class=&#34;csl-entry&#34;&gt;
+&lt;p&gt;BATISTA, B. D. O. &lt;strong&gt;&lt;a href=&#34;https://bendeivide.github.io/books/epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PLanejamento e Análise de Experimentos&lt;/a&gt;&lt;/strong&gt;. Ouro Branco, MG, Brasil: &lt;/p&gt;
+\[s.n.\]
+&lt;p&gt;, 2025.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lançamento do livro R básico</title>
       <link>http://bendeivide.github.io/slides/lancamentorbasico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

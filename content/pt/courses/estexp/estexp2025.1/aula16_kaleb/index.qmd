@@ -1,0 +1,72 @@
+---
+title: "Aula 16 | Dados - Kaleb Aquino Mileib"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# 🎯 **Objetivos:**
+
+1. Ajustar um modelo de **regressão linear simples** entre a **distância (mm)** e a **tensão de saída (mV)**.
+2. Avaliar a **significância da regressão** por meio da ANOVA.
+3. Verificar se a **tendência linear é adequada** para os dados experimentais, considerando o teste de **falta de ajuste**.
+4. Estimar a **tensão de saída** para uma distância de **3,5 mm**.
+5. Avaliar a qualidade do modelo escolhido.
+
+
+
+# Contexto do Experimento
+
+----
+Um grupo de engenheiros está investigando o comportamento de um **sensor de deslocamento magnético baseado no efeito Hall**, usado para medir posições em sistemas automáticos.
+
+O objetivo é avaliar a relação entre a **distância entre o ímã e o sensor (em mm)** e a **tensão de saída (em mV)** do sensor. O fabricante sugere uma relação aproximadamente linear entre 1 mm e 5 mm.
+
+Para isso, foi conduzido um experimento com **cinco distâncias fixas** (1, 2, 3, 4 e 5 mm) e **4 repetições independentes** para cada nível, totalizando **20 observações**, em um **Delineamento Inteiramente Casualizado (DIC)**.
+
+----
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+
+library(gt)
+
+# Distâncias testadas (níveis do fator)
+distancia <- rep(c(1, 2, 3, 4, 5), each = 4)
+
+# Tensão de saída (resposta)
+tensao <- c(
+  476, 480, 478, 477,   # Distância 1 mm
+  391, 390, 389, 392,   # Distância 2 mm
+  310, 312, 311, 309,   # Distância 3 mm
+  233, 231, 230, 232,   # Distância 4 mm
+  151, 152, 153, 150    # Distância 5 mm
+)
+
+# Construção do data frame
+dados <- data.frame(
+  `Distância` = distancia,
+  `Tensão` = tensao
+)
+
+# Criar a tabela
+tabela_gt <- gt(dados) |>
+  fmt_number(
+    columns = c(`Distância`, `Tensão`)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+
+✍ Pergunta-se:
+
+1. Qual é a equação da reta ajustada $\hat{y} = \beta_0 + \beta_1 x$? Interprete os coeficientes.
+2. A regressão é estatisticamente significativa a 5%? Justifique com base na tabela da ANOVA.
+3. Construa um gráfico de dispersão com os pontos e a reta ajustada.
+4. Avalie se a regressão linear é apropriada.
+5. Estime a tensão de saída para 3,5 mm de distância. Essa predição é confiável?
+

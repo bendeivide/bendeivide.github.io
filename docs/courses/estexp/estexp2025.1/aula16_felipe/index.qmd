@@ -1,0 +1,63 @@
+---
+title: "Aula 16 | Dados - FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# 🎯 **Objetivos:**
+
+1. Ajustar um modelo de **regressão linear simples** entre a **distância (mm)** e a **tensão de saída (mV)**.
+2. Avaliar a **significância da regressão** com base na ANOVA.
+3. Verificar se a **tendência linear é adequada** para representar os dados dentro da faixa experimental.
+4. Estimar a **tensão de saída** para uma distância de 3,5 mm.
+5. Avaliar o erro puro e o erro de falta de ajuste.
+
+# Contexto do Experimento
+----
+
+Engenheiros mecatrônicos estão avaliando o desempenho de um **sistema de resfriamento termoelétrico** baseado no efeito Peltier. O objetivo é verificar a influência da **corrente elétrica (A)** sobre a **taxa de dissipação térmica (W)** do sistema. O experimento foi conduzido com um **Delineamento Inteiramente Casualizado (DIC)**, com 5 níveis de corrente elétrica e 3 repetições por nível, totalizando 15 observações.
+
+----
+
+
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+library(gt)
+set.seed(123)
+
+
+# Dados experimentais
+corrente <- rep(c(1, 2, 3, 4, 5), each = 3)
+dissipacao <- c(
+  2.1, 2.3, 2.2,
+  4.4, 4.5, 4.3,
+  6.6, 6.7, 6.5,
+  8.9, 9.0, 9.1,
+ 11.3,11.2,11.5
+)
+dados <- data.frame(Corrente = corrente, `Dissipação` = dissipacao)
+
+# Criar a tabela
+tabela_gt <- gt(dados) |>
+  fmt_number(
+    columns = c(Corrente, `Dissipação`)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+
+✍ Pergunta-se:
+
+1. Qual é a equação da reta ajustada $\hat{y} = \beta_0 + \beta_1 x$? Interprete os coeficientes.
+2. A regressão é significativa a 5%? Justifique com base na tabela da ANOVA.
+3. Construa um gráfico de dispersão com a reta ajustada.
+4. Avalie se a regressão linear é apropriada.
+5. Estime a tensão para 3,5 mm de distância e comente se essa predição é confiável.
+
+

@@ -1,0 +1,74 @@
+---
+title: "Aula 16 | Dados - GUSTAVO HENRIQUE LOURENÇO CARDOSO"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# 🎯 **Objetivos da Análise**
+
+1. Ajustar um modelo de **regressão quadrática** entre o **teor de substituição** e a **resistência à compressão**.
+2. Verificar a **significância dos termos linear e quadrático**.
+3. Verificar se a **curva ajustada apresenta um ponto de máximo**.
+4. Estimar a **porcentagem ótima de substituição pozolânica** que maximiza a resistência à compressão.
+5. Avaliar a qualidade do modelo adotado.
+
+# Contexto do Experimento
+
+----
+
+Um grupo de engenheiros civis está estudando o comportamento da **resistência à compressão de um concreto especial**, em função do **teor de adição pozolânica (em %)**, utilizada como substituição parcial do cimento.
+
+A literatura sugere que há um **ponto ótimo de substituição**, a partir do qual o excesso de pozolana pode prejudicar a resistência. Espera-se, portanto, uma **relação quadrática** entre a porcentagem de adição e a resistência à compressão.
+
+Foi conduzido um experimento com **cinco níveis de substituição** (0%, 5%, 10%, 15% e 20%) e **4 repetições** para cada nível, totalizando 20 corpos de prova. Após 28 dias de cura, a **resistência à compressão (em MPa)** foi medida.
+
+----
+
+
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+library(gt)
+
+# Níveis do fator: substituição pozolânica em porcentagem
+substituicao <- rep(c(0, 5, 10, 15, 20), each = 4)
+
+# Resistencia à compressão (MPa) para cada repetição em cada nível
+resistencia <- c(
+  26.5, 26.8, 27.0, 26.6,   # 0%
+  30.1, 30.0, 30.3, 30.2,   # 5%
+  33.7, 33.9, 33.8, 33.6,   # 10%
+  31.2, 31.3, 31.1, 31.0,   # 15%
+  28.4, 28.5, 28.6, 28.3    # 20%
+)
+
+# Criar data frame com os dados
+dados <- data.frame(
+  `Substituição` = substituicao,
+  `Resistência` = resistencia
+)
+
+
+# Criar a tabela
+tabela_gt <- gt(dados) |>
+  fmt_number(
+    columns = c(`Substituição`, `Resistência`)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+
+✍ Pergunta-se:
+
+1. Qual é a equação do modelo quadrático ajustado? Interprete os coeficientes.
+2. A regressão é significativa? E o termo quadrático?
+3. Qual é a substituição ótima em porcentagem? Qual a resistência correspondente?
+4. O modelo quadrático se ajusta bem aos dados? Justifique.
+5. Construa o gráfico com os pontos observados e a curva ajustada.
+
+

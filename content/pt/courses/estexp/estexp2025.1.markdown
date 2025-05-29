@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-05-22 13:59:55"
+date: "2025-05-29 16:52:39"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -349,6 +349,34 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
        - **OBJETIVO**: Caso as pressuposições não forem atendidas na análise de resíduos, estudo procedimentos de como converter esta situação. Apresente um exemplo de experimento em que isso ocorre (Use IA, para simular dados de um experimento nesta situação), e apresente uma solução de análise.
    - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
 
+{{< /spoiler >}}
+
+
+{{< spoiler text="Aula 16 - Análise de Regresão na ANAVA">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Análise de Regresão na ANAVA
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s16/" target="_blank"> Aula
+16</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro PAE](https://bendeivide.github.io/books/pae/)
+   - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
+
+<i class="fa fa-calendar"></i> Entrega: 05/06/2025, 23h59min.
+   - <i class="fa fa-quote-left"></i> Assunto: 
+     - Análise de regressão na ANAVA. Em cada problema, individualizado, há uma sequência de perguntas que devem ser respondidas no relatório.
+   - <i class="fa fa-upload"></i> Envio: Página do relatório GitHub
+   - <i class="fa fa-database"></i> Dados:
+     - 🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA
+        - [Banco de dados](./aula16_felipe/index.html)
+     - 🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO
+        - [Banco de dados](./aula16_gustavo/index.html)
+     - 🎓 Kaleb Aquino Mileib
+       - [Banco de dados](./aula16_kaleb/index.html)
+     - 🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO
+       - [Banco de dados](./aula16_nicolas/index.html)
+       
 {{< /spoiler >}}
 
 ## Quiz

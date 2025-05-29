@@ -1,0 +1,361 @@
+---
+title: "Estatística Experimental"
+subtitle: "Aula 16 | Análise de regressão na ANAVA"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[ESTEXP](https://bendeivide.github.io/courses/estexp/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2025:
+
+<a href="https://bendeivide.github.io/books/pae/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Objetivos da Aula {background-image="cap02.png"}
+
+- Relacionar ANOVA e modelos de regressão
+- Aplicar regressão linear e polinomial a dados com fator quantitativo
+- Interpretar os coeficientes do modelo
+- Avaliar a adequação do modelo por meio dos resíduos
+
+
+# Quando usar regressão na ANOVA? {background-image="cap02.png"}
+
+- Quando o fator da ANOVA é **quantitativo**, pode-se usar regressão para:
+  - **Modelar tendência** da variável resposta
+  - **Testar significância** da relação
+  - **Otimizar resultados** (por exemplo, ponto ótimo)
+
+
+# Exemplo: Engenharia Civil {background-image="cap02.png"}
+
+> Um engenheiro civil testou diferentes proporções de aditivo plastificante (0%, 0.5%, 1.0%, 1.5% e 2.0%) na mistura de concreto. A resistência à compressão (em MPa) foi registrada após 28 dias.
+
+
+## Dados do experimento {background-image="cap02.png"}
+
+</br>
+</br>
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(gt)
+
+# Dados originais
+set.seed(123)
+aditivo <- rep(c(0.0, 0.5, 1.0, 1.5, 2.0), each = 3)
+resistencia <- c(
+  rnorm(3, mean = 25.0, sd = 0.8),  # 0%
+  rnorm(3, mean = 28.0, sd = 0.8),  # 0.5%
+  rnorm(3, mean = 32.0, sd = 0.8),  # 1.0%
+  rnorm(3, mean = 33.0, sd = 0.8),  # 1.5%
+  rnorm(3, mean = 31.0, sd = 0.8)   # 2.0%
+)
+repeticao <- factor(rep(1:3, times = 5))
+
+dados <- data.frame(aditivo, resistencia, repeticao)
+
+# Pivotar para formato wide
+dados_wide <- dados %>%
+  pivot_wider(
+    names_from = repeticao,
+    values_from = resistencia,
+    names_prefix = "Rep "
+  ) %>%
+  arrange(aditivo)
+
+# Criar tabela gt
+tabela_pivot <- gt(dados_wide) %>%
+  fmt_number(
+    columns = vars(starts_with("Rep")),
+    decimals = 2
+  ) %>%
+  cols_label(
+    aditivo = "Proporção de Aditivo (%)",
+    `Rep 1` = "Repetição 1",
+    `Rep 2` = "Repetição 2",
+    `Rep 3` = "Repetição 3"
+  ) %>%
+  tab_header(
+    title = "Resistência à Compressão do Concreto por Proporção de Aditivo",
+    subtitle = "DIC com 5 níveis e 3 repetições"
+  ) %>%
+  tab_options(
+    table.font.size = px(25)
+  ) %>%
+  cols_align(
+    align = "center",
+    columns = everything()
+  ) %>%
+  # Destacar linhas ímpares
+  tab_style(
+    style = list(
+      cell_fill(color = "#f2f2f2")  # cinza claro
+    ),
+    locations = cells_body(
+      rows = seq(1, nrow(dados_wide), by = 2)
+    )
+  )
+
+# Mostrar tabela
+tabela_pivot
+
+```
+
+# Gráfico exploratório {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+#| fig-align: "center"
+library(ggplot2) # Anexando o pacote ggplot2
+
+ggplot(dados, aes(x = aditivo, y = resistencia)) +
+  geom_point(size = 3, color = "steelblue") +
+  labs(title = "Resistência vs Aditivo Plastificante",
+       x = "Proporção de Aditivo (%)",
+       y = "Resistência à Compressão (MPa)") +
+  theme_minimal()
+
+```
+
+# Verificação da ANAVA {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Correto
+
+```{r}
+#| echo: true
+aditivo_fator <- as.factor(aditivo)
+anava <- aov(resistencia ~ aditivo_fator, data = dados)
+summary(anava)
+```
+
+- Errado
+
+```{r}
+#| echo: true
+anava2 <- aov(resistencia ~ aditivo, data = dados)
+summary(anava2)
+
+```
+
+:::
+
+# Análise de Resíduo {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+#| fig-align: "center"
+
+par(mfrow=c(2,2))
+plot(anava)
+```
+
+## Análise de Resíduo {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Normalidade
+
+```{r}
+#| echo: true
+
+library(car)
+library(nortest)
+library(lmtest)
+
+# Resíduos do modelo
+residuos <- residuals(anava)
+
+# Teste de Shapiro-Wilk (Normalidade)
+shapiro.test(residuos)
+
+# Outros testes (opcional)
+#ad.test(residuos)        # Anderson-Darling
+#lillie.test(residuos)    # Lilliefors
+
+```
+
+:::
+
+## Análise de Resíduo {background-image="cap02.png"}
+
+::: {.nonincremental}
+
+- Homogeneidade
+
+```{r}
+#| echo: true
+
+# Teste de Bartlett (Homogeneidade)
+bartlett.test(resistencia ~ aditivo, data = dados)
+
+# Teste de Levene (mais robusto)
+#leveneTest(resistencia ~ aditivo, data = dados)
+
+```
+
+- Independência
+
+```{r}
+#| echo: true
+
+# Teste de Durbin-Watson Independência
+durbinWatsonTest(anava)
+```
+
+:::
+
+# Regressão na ANAVA (Errado) {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+
+mod_linear <- lm(resistencia ~ aditivo, data = dados)
+summary(mod_linear)
+
+```
+
+
+## Regressão na ANAVA (Correto) {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+library(ExpDes.pt)
+# Anava no DIC
+reganava <- dic(trat = dados$aditivo, resp = dados$resistencia,
+    quali = FALSE) # Fator quantitativo
+```
+
+## Análise de resíduo {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+#| fig-align: "center"
+
+# Analise de residuo
+plotres(reganava)
+```
+
+# Gráfico da curva ajustada
+
+```{r}
+#| echo: true
+#| fig-align: "center"
+
+ggplot(dados, aes(x = aditivo, y = resistencia)) +
+  geom_point(size = 3, color = "darkblue") +
+  stat_smooth(method = "lm", formula = y ~ poly(x, 3, raw = TRUE),
+              se = FALSE, color = "darkgreen") +
+  labs(title = "Resistência do Concreto vs Aditivo (DIC)",
+       x = "Proporção de Aditivo (%)",
+       y = "Resistência (MPa)") +
+  theme_minimal()
+```
+
+# Escolha do modelo {background-image="cap02.png"}
+
+- Análise de Resíduos
+- Coeficiente de determinação
+- Desvio de regressão
+- Coeficiente de determinação ajustado ($R^2_{aj}$)
+- Praticidade
+
+
+## Coeficiente de determinação ajustado {background-image="cap02.png"}
+
+$$
+R^2_{ajustado} = 1 - \left( \frac{(1 - R^2)(n - 1)}{n - p - 1} \right)
+$$
+
+Onde:
+
+- $R^2$ é o coeficiente de determinação (não ajustado);
+- $n$ é o número total de observações;
+- $p$ é o número de variáveis explicativas no modelo (excluindo o intercepto).
+
+## Coeficiente de determinação ajustado {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao para o R2aj
+r2aj <- function(r2, n, p) {
+  1 - (1 - r2) * (n - 1) / (n - p - 1)
+}
+# Modelo
+Modelo <- 1:3
+# R2
+r2 <- c(reganava$reg$`R2 reta`, reganava$reg$`R2 parabola`, reganava$reg$`R2 cubica`)
+# Coeficiente de determinacao ajustado
+Coef.aj <- r2aj(r2, 15, Modelo)
+# Resultado
+data.frame(Modelo, Coef.aj, r2)
+```
+
+
+# Questões? {background-image="cap02.png"}
+
+[Dúvidas e Sugestões](https://bendeivide.github.io/){preview-link="true"}
+
+[Contato](https://bendeivide.github.io/#contact){preview-link="true"}
+
+# Próximas aulas {data-transition="zoom" background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/courses/epaec/" target="_blank" style="text-align: center;">
+
+<img src="ben.png" width = "400">
+
+</a> <center> <a href="/courses/estexp"  target="_blank" >bendeivide.github.io/courses/estexp</a> </center>
+
+
+# Referências {background-image="cap02.png"}
+
+
+
