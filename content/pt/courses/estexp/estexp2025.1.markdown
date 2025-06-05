@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-05-29 20:03:19"
+date: "2025-06-05 14:37:33"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -377,6 +377,20 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
      - 🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO
        - [Relatório](./aula16_nicolas/index.html)
        
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 17 - Introdução a Esquemas Fatoriais">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Introdução a Esquemas Fatoriais
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s17/" target="_blank"> Aula
+17</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro PAE](https://bendeivide.github.io/books/pae/)
+   - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
+
+
 {{< /spoiler >}}
 
 ## Quiz
