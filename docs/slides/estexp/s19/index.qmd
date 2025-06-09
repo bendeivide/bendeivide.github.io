@@ -1,0 +1,315 @@
+---
+title: "Estatística Experimental"
+subtitle: "Aula 19 | Fatorial duplo"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[ESTEXP](https://bendeivide.github.io/courses/estexp/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2025:
+
+<a href="https://bendeivide.github.io/books/pae/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+
+# Objetivo da Aula {background-image="cap02.png"}
+
+- Apresentar o modelo experimental do esquema fatorial duplo (dois fatores)
+- Compreender as principais características do fatorial duplo
+- Discutir vantagens e desvantagens desse arranjo
+- Ilustrar aplicações nas engenharias usando o R
+
+# Introdução {background-image="cap02.png"}
+
+- Muitos experimentos envolvem **mais de um fator** que influencia a variável resposta
+- Ex: eficiência de sensores (tipo de sensor × temperatura ambiente), desgaste de peças (material × velocidade de operação)
+- O **esquema fatorial duplo** permite estudar **simultaneamente dois fatores** e sua **interação**
+
+
+# Modelo Experimental {background-image="cap02.png"}
+
+Considere:
+
+- Fator A com *a* níveis
+- Fator B com *b* níveis
+- *r* repetições por combinação
+
+. . .
+
+Total de observações: $n = a \times b \times r$
+
+## Modelo Experimental {background-image="cap02.png"}
+
+Modelo:
+
+$$
+Y_{ijk} = \mu + \alpha_i + \beta_j + (\alpha\beta)_{ij} + \varepsilon_{ijk}
+$$
+
+- $\mu$: média geral
+- $\alpha_i$, $\beta_j$: efeitos dos fatores A e B
+- $(\alpha\beta)_{ij}$: interação
+- $\varepsilon_{ijk}$: erro aleatório
+
+# Características {background-image="cap02.png"}
+
+- Estudo simultâneo de dois fatores
+- Considera efeitos principais e interação
+- Pode ser aplicado com diferentes delineamentos (DIC, blocos, etc.)
+- Mais informativo e eficiente que experimentos unifatoriais
+
+# Vantagens {background-image="cap02.png"}
+
+- **Eficiência**: mais informação com menos unidades
+- **Interação**: revela se o efeito de um fator depende do outro
+- **Compreensão sistêmica** do processo estudado
+
+# Desvantagens {background-image="cap02.png"}
+
+- **Análise mais complexa**
+- **Interpretação difícil** quando há interação significativa
+- Pode exigir mais unidades experimentais quando os fatores têm muitos níveis
+
+# Aplicações nas Engenharias {background-image="cap02.png"}
+
+- Engenharia Mecatrônica 
+  - Fator A: Tipo de motor (A, B)
+  - Fator B: Carga aplicada (5N, 10N, 15N)
+  - Resposta: Tempo de posicionamento
+
+- Engenharia Civil
+  - Fator A: Tipo de cimento (CP II, CP V)
+  - Fator B: Tipo de agregado (brita 0, brita 1)
+  - Resposta: Resistência à compressão
+
+- Engenharia de Telecomunicações 
+  - Fator A: Modulação (QPSK, 16-QAM)
+  - Fator B: Canal (AWGN, Rayleigh)
+  - Resposta: BER (Bit Error Rate)
+
+# Exemplo no R {background-image="cap02.png"}
+
+- **Objetivo:** Estudar o efeito da potência de transmissão e da largura de banda sobre a vazão de dados em um sistema de comunicação.
+
+- **Fator A (Potência):**
+  - Nível 1: 10 dBm
+  - Nível 2: 20 dBm
+- **Fator B (Largura de banda):**
+  - Nível 1: 1 MHz
+  - Nível 2: 5 MHz
+
+## Exemplo no R {background-image="cap02.png"}
+
+- **Unidades experimentais:** Simulação de um sistema de transmissão
+- **Número de repetições:** 4 para cada combinação
+- **Modelo adotado:** DIC com fatorial $2^2$ (dois fatores com dois níveis cada)
+
+## Exemplo no R {background-image="cap02.png"}
+
+```{r}
+# Simulação de dados fatoriais reaisistas para engenharia de telecomunicações
+set.seed(123)
+dados <- expand.grid(
+  Potencia = factor(c("10dBm", "20dBm")),
+  Largura = factor(c("1MHz", "5MHz")),
+  Rep = 1:4
+)
+
+# Valores médios hipotéticos (em Mbps):
+# 10dBm x 1MHz: 4 Mbps
+# 10dBm x 5MHz: 8 Mbps
+# 20dBm x 1MHz: 6 Mbps
+# 20dBm x 5MHz: 12 Mbps
+
+mu <- c(4, 8, 6, 12)
+dados$Vazao <- rnorm(16, mean = rep(mu, each = 1), sd = 0.5)
+
+# Visualização dos dados
+print(dados)
+```
+
+## Exemplo no R: ANAVA {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Análise de variância
+modelo <- aov(Vazao ~ Potencia * Largura, data = dados)
+summary(modelo)
+```
+
+## Exemplo no R: Análise de resíduos {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+#| fig-align: center
+
+# Analise de residuos
+par(mfrow = c(2, 2))
+plot(modelo)
+```
+
+## Exemplo no R: Desdobramento da interação {background-image="cap02.png"}
+
+```{r}
+# Carregar pacotes úteis
+library(agricolae)  # para testes post-hoc (opcional)
+
+# Visualizar a interação
+interaction.plot(dados$Potencia, dados$Largura, dados$Vazao,
+                 col = c("blue", "red"), lwd = 2,
+                 ylab = "Vazão (Mbps)", xlab = "Potência",
+                 trace.label = "Largura de banda")
+```
+
+## Exemplo no R: Interação {background-image="cap02.png"}
+
+- Desdobrando o efeito da Potencia em cada nível de Largura
+
+. . .
+
+```{r}
+#| echo: true
+# Análise do efeito simples de Potência em cada nível de Largura
+mpot_in_larg <- aov(Vazao ~ Largura/Potencia, data = modelo$model)
+### Vazao ~ Largura + Largura:Potencia
+#### Largura:Potencia - Potencia dentro de cada nivel de Largura
+# Associacao aos indices
+## 0: Intecepto
+## 1: Coeficiente associado ao fator Largura
+## 2: Coeficientes associados ao termo Largura:Potencia
+mpot_in_larg$assign
+# Coeficientes do modelo mpot_in_larg
+coef(mpot_in_larg)
+```
+
+
+## Exemplo no R: Desdobramento da interação (Potencia.d.Largura) {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+
+# Escolha dos indices apenas de Potencia:Largura (tem apenas dois indices)
+## e nao em relacao ao total do modelo
+pot_in_larg <- list("pot@1MHz" = 1,
+                    "pot@5MHZ" = 2)
+summary(mpot_in_larg, split = list("Largura:Potencia" = pot_in_larg))
+```
+
+
+## Exemplo no R: Interação {background-image="cap02.png"}
+
+- Desdobrando o efeito da Largura em cada nível de Potencia
+
+. . .
+
+```{r}
+#| echo: true
+# Análise do efeito simples de Potência em cada nível de Largura
+mlarg_in_pot <- aov(Vazao ~ Potencia/Largura, data = modelo$model)
+### Vazao ~ Potencia + Potencia:Largura
+#### Potencia:Largura - Largura dentro de cada nivel de Potencia
+# Associacao aos indices
+## 0: Intecepto
+## 1: Coeficiente associado ao fator Potencia
+## 2: Coeficientes associados ao termo Potencia:Largura
+mlarg_in_pot$assign
+# Coeficientes do modelo mpot_in_larg
+coef(mlarg_in_pot)
+```
+
+
+## Exemplo no R: Desdobramento da interação (Largura.d.Potencia) {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+
+# Escolha dos indices apenas de Potencia:Largura (tem apenas dois indices)
+## e nao em relacao ao total do modelo
+larg_in_pot <- list("larg@10dBm" = 1,
+                    "larg@20dBm" = 2)
+summary(mlarg_in_pot, split = list("Potencia:Largura" = larg_in_pot))
+```
+
+
+
+## Exemplo no R: Usando o ExpDes.pt {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+library(ExpDes.pt)
+# Fatorial duplo em DIC
+fat2.dic(fator1 = dados$Potencia,
+         fator2 = dados$Largura,
+         resp = dados$Vazao,
+         mcomp = "sk")
+```
+
+
+
+
+
+# Conclusão {background-image="cap02.png"}
+
+- O esquema fatorial duplo é uma **ferramenta poderosa** na estatística experimental
+- Permite detectar **efeitos principais** e **interações**
+- Ampla aplicação nas engenharias
+- Dominar esse modelo é fundamental para projetos experimentais eficientes
+
+# Atividade Proposta {background-image="cap02.png"}
+
+- Planeje um experimento com dois fatores da sua área
+- Simule dados ou use dados reais
+- Faça a análise no R
+- Interprete os efeitos principais e a interação
+- Apresente suas conclusões com base nos resultados
+
+
+# Referências {background-image="cap02.png"}
+
+
+
