@@ -1,0 +1,243 @@
+---
+title: "Estatística Experimental"
+subtitle: "Aula 20 | Fatorial triplo"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[ESTEXP](https://bendeivide.github.io/courses/estexp/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2025:
+
+<a href="https://bendeivide.github.io/books/pae/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Introdução {background-image="cap02.png"}
+
+- Experimentos fatoriais envolvem **dois ou mais fatores** estudados simultaneamente.
+- Um **fatorial triplo** envolve **três fatores**, permitindo:
+  - Estudo de **efeitos principais** de cada fator;
+  - Estudo de **interações dois a dois** (A×B, A×C, B×C);
+  - Estudo da **interação tripla** (A×B×C).
+
+
+# Motivação {background-image="cap02.png"}
+
+- Otimização de processos em múltiplas condições.
+- Eficiência no uso de recursos.
+- Maior generalização dos resultados.
+
+
+# Estrutura de um fatorial triplo {background-image="cap02.png"}
+
+Considere os fatores:
+
+- **A** com *a* níveis;
+- **B** com *b* níveis;
+- **C** com *c* níveis;
+- Com *r* repetições (ou blocos) por combinação.
+
+Total de unidades experimentais:
+$$
+N = a \times b \times c \times r
+$$
+
+# Modelo Estatístico (DIC) {background-image="cap02.png"}
+
+<font size="+3">
+$$
+Y_{ijkl} = \mu + A_i + B_j + C_k + (AB)_{ij} + (AC)_{ik} + (BC)_{jk} + (ABC)_{ijk} + \varepsilon_{ijkl}
+$$
+</font>
+
+Onde:
+
+- $i = 1, ..., a$, $j = 1, ..., b$, $k = 1, ..., c$, $l = 1, ..., r$;
+- $\varepsilon_{ijkl} \sim N(0, \sigma^2)$
+
+
+# Tabela de ANOVA {background-image="cap02.png"}
+
+<font size="+2">
+
+| Fonte de variação | GL              |
+|-------------------|-----------------|
+| Fator A           | \( a - 1 \)     |
+| Fator B           | \( b - 1 \)     |
+| Fator C           | \( c - 1 \)     |
+| A × B             | \( (a - 1)(b - 1) \) |
+| A × C             | \( (a - 1)(c - 1) \) |
+| B × C             | \( (b - 1)(c - 1) \) |
+| A × B × C         | \( (a - 1)(b - 1)(c - 1) \) |
+| Erro              | \( abc(r - 1) \) |
+| Total             | \( abcr - 1 \)   |
+
+</font>
+
+
+# 🔬 Exemplo: Experimento Fatorial Triplo em Telecomunicações {background-image="cap02.png"}
+
+🎯 Objetivo:
+
+> Avaliar como modulação, largura de banda e potência do sinal influenciam a taxa de erro de bits (BER) em um sistema de comunicação digital.
+
+## Fatores estudados {background-image="cap02.png"}
+
+| Fator             | Símbolo | Níveis                 |
+| ----------------- | ------- | ---------------------- |
+| Modulação         | A       | QPSK, 16-QAM           |
+| Largura de Banda  | B       | 1 MHz, 2 MHz           |
+| Potência do Sinal | C       | 10 dBm, 15 dBm, 20 dBm |
+
+## 📋 Planejamento Experimental {background-image="cap02.png"}
+
+* Fatorial: $2 \times 2 \times 3$
+* Repetições: 3 por combinação
+* Total de unidades experimentais:
+
+  $$
+  N = 2 \times 2 \times 3 \times 3 = 36
+  $$
+
+
+## Dados {background-image="cap02.png"}
+
+```{r}
+#| echo: false
+
+
+library(dplyr)
+
+set.seed(123)
+
+# Fatores
+modulacao <- factor(rep(c("QPSK", "16-QAM"), each = 18))
+banda <- factor(rep(rep(c("1MHz", "2MHz"), each = 9), times = 2))
+potencia <- factor(rep(rep(c("10dBm", "15dBm", "20dBm"), each = 3), times = 4))
+
+# Criar data frame com as combinações
+dados <- data.frame(modulacao, banda, potencia)
+
+# Definir médias por combinação (valores arbitrários realistas)
+media_lookup <- expand.grid(
+  modulacao = c("QPSK", "16-QAM"),
+  banda = c("1MHz", "2MHz"),
+  potencia = c("10dBm", "15dBm", "20dBm")
+) |> 
+  mutate(
+    media = c(
+      0.0019, 0.0016, 0.0013,  # QPSK - 1MHz
+      0.0015, 0.0012, 0.0010,  # QPSK - 2MHz
+      0.0031, 0.0028, 0.0025,  # 16-QAM - 1MHz
+      0.0026, 0.0023, 0.0020   # 16-QAM - 2MHz
+    )
+  )
+
+# Juntar médias ao banco de dados
+dados <- left_join(dados, media_lookup, by = c("modulacao", "banda", "potencia"))
+
+# Simular BER com distribuição normal (desvio-padrão pequeno)
+dados <- dados |>
+  mutate(
+    ber = rnorm(n = n(), mean = media, sd = 0.0001)
+  ) |>
+  select(modulacao, banda, potencia, ber)
+
+
+library(dplyr)
+library(tidyr)
+library(gt)
+
+# Reorganizando a tabela para facilitar o agrupamento
+dados_arr <- dados |>
+  mutate(obs = rep(1:3, times = 12)) |> # repetição por combinação
+  pivot_wider(names_from = obs, values_from = ber, names_prefix = "Rep_")
+
+# Agrupar por modulação e banda
+gt(dados_arr) |>
+  tab_spanner(label = "Repetições", columns = starts_with("Rep_")) |>
+  cols_label(
+    modulacao = "Modulação",
+    banda = "Banda",
+    potencia = "Potência"
+  )
+```
+
+# Visualização gráfica {background-image="cap02.png"}
+
+```{r}
+library(ggplot2)
+
+ggplot(dados, aes(x = potencia, y = ber, group = modulacao, color = modulacao)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~banda) +
+  theme_minimal() +
+  labs(title = "Interação: Modulação × Potência para cada Banda")
+
+```
+
+# Análise {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+
+# Pacote ExpDes.pt
+library(ExpDes.pt)
+
+fat3.dic(fator1 = dados$modulacao, fator2 = dados$banda,
+  fator3 = dados$potencia,
+  resp = dados$ber, mcomp = "sk")
+```
+
+
+
+
+# Referências {background-image="cap02.png"}
+
+
+

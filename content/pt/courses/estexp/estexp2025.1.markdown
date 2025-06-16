@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-06-09 16:08:13"
+date: "2025-06-16 16:52:33"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -399,6 +399,20 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s19/" target="_blank"> Aula
 19</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro PAE](https://bendeivide.github.io/books/pae/)
+   - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
+
+
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 20 - Fatorial triplo">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Fatorial triplo
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s20/" target="_blank"> Aula
+20</a>
 
 {{< icon name="book-reader" pack="fas" >}} Material de apoio
    - [Livro PAE](https://bendeivide.github.io/books/pae/)
