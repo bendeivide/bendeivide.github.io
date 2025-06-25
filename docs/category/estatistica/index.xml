@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 16 Jun 2025 16:52:33 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 24 Jun 2025 16:31:57 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estatística</title>
@@ -365,7 +365,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>⚗️ Ensino normal 2025.1</title>
       <link>http://bendeivide.github.io/courses/estexp/estexp2025.1/</link>
-      <pubDate>Mon, 16 Jun 2025 16:52:33 -0300</pubDate>
+      <pubDate>Tue, 24 Jun 2025 16:31:57 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/estexp/estexp2025.1/</guid>
       <description>&lt;p&gt;Curso sobre Estatística Experimental, com abordagem na linguagem R.&lt;/p&gt;
 &lt;p&gt;
@@ -858,6 +858,39 @@ aulas&lt;/a&gt;:
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/pae/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Livro PAE&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/handouts/estexp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Apostila EstExp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fa fa-calendar&#34;&gt;&lt;/i&gt; Entrega: 01/07/2025, 23h59min.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-quote-left&#34;&gt;&lt;/i&gt; Assunto:
+&lt;ul&gt;
+&lt;li&gt;Análise fatorial tripla. Em cada problema, individualizado, há uma sequência de perguntas que devem ser respondidas no relatório.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-upload&#34;&gt;&lt;/i&gt; Envio: Página do relatório GitHub&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-database&#34;&gt;&lt;/i&gt; Dados:
+&lt;ul&gt;
+&lt;li&gt;🎓 FELIPE HENRIQUE MENEZES DE ALMEIDA E SILVA
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./aula20_felipe/index.html&#34;&gt;Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎓 GUSTAVO HENRIQUE LOURENÇO CARDOSO
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./aula20_gustavo/index.html&#34;&gt;Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎓 Kaleb Aquino Mileib
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./aula20_kaleb/index.html&#34;&gt;Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎓 NICOLAS WILLIAN GARCIA SANTOS RIBEIRO
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./aula20_nicolas/index.html&#34;&gt;Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;

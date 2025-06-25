@@ -1,0 +1,127 @@
+---
+title: "Aula 20 | Dados - Gustavo Henrique Lourenço Cardoso"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# 🎯 **Objetivos:**
+
+Com base nos dados simulados e na descrição do experimento, o aluno deve:
+
+1. Compreender como blocos são usados para reduzir variabilidade experimental.
+2. Montar a **ANOVA para fatorial triplo em DBC**.
+3. Verificar a significância dos efeitos principais e interações.
+4. Identificar as melhores práticas para controle da evaporação com base estatística.
+
+
+
+# Contexto do Experimento
+
+----
+Durante a execução de pavimentos de concreto, a **perda prematura de água da superfície** pode comprometer a cura adequada, levando ao aparecimento de fissuras por retração plástica e comprometendo a durabilidade da estrutura. O controle da evaporação é, portanto, uma etapa essencial.
+
+Neste experimento, engenheiros civis avaliaram a **velocidade de evaporação da água (g/m²/h)** da superfície de placas de concreto logo após a finalização do acabamento, variando três fatores operacionais sob diferentes condições ambientais. O objetivo é entender quais práticas mais influenciam essa evaporação e, assim, propor diretrizes para o controle de cura em campo.
+
+
+----
+
+# 🧪 **Descrição do Experimento**
+
+O experimento segue um **delineamento em blocos casualizados (DBC)**, com os seguintes fatores e níveis:
+
+## ✅ **Fatores**
+
+* **Fator A – Tipo de acabamento superficial:**
+
+  * *Liso com régua vibratória*
+  * *Broom finish (vassourado)*
+  * *Superfície escarificada*
+
+* **Fator B – Método de proteção contra evaporação:**
+
+  * *Sem proteção*
+  * *Cobertura com lona branca*
+  * *Aplicação de agente de cura química*
+
+* **Fator C – Tipo de base refletiva abaixo da laje:**
+
+  * *Brita seca*
+  * *Solo úmido compactado*
+
+### 🧱 **Blocos**
+
+O experimento foi conduzido em **quatro setores diferentes de um pátio de concretagem**, onde variações microclimáticas (vento, umidade do ar, orientação solar) podiam influenciar a evaporação. Esses setores foram utilizados como **blocos**, permitindo controlar a variação ambiental sem interferir nos efeitos principais dos tratamentos.
+
+Cada combinação dos níveis dos fatores foi repetida **uma vez por bloco**, resultando em:
+
+$$
+3 \text{ (acabamentos)} \times 3 \text{ (proteções)} \times 2 \text{ (bases)} \times 4 \text{ (blocos)} = \boxed{72\ \text{observações}}
+$$
+
+---
+
+## **Variável resposta**
+
+* **Velocidade de evaporação da água (g/m²/h)**, medida com balança e sistema de coleta sobre a superfície após 30 minutos da finalização.
+
+---
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+
+library(gt)
+
+set.seed(789)
+
+acabamento <- factor(rep(c("Liso", "Vassourado", "Escarificado"), each = 3*2*4))
+protecao <- factor(rep(rep(c("Sem", "Lona", "CuraQ"), each = 2*4), times = 3))
+base <- factor(rep(rep(c("Brita", "Solo"), each = 4), times = 9))
+bloco <- factor(rep(1:4, times = 18))
+
+evap <- c(
+  rnorm(4, mean=220, sd=10), rnorm(4, mean=180, sd=10),
+  rnorm(4, mean=170, sd=10), rnorm(4, mean=140, sd=10),
+  rnorm(4, mean=190, sd=10), rnorm(4, mean=150, sd=10),
+
+  rnorm(4, mean=200, sd=10), rnorm(4, mean=160, sd=10),
+  rnorm(4, mean=160, sd=10), rnorm(4, mean=130, sd=10),
+  rnorm(4, mean=180, sd=10), rnorm(4, mean=140, sd=10),
+
+  rnorm(4, mean=185, sd=10), rnorm(4, mean=150, sd=10),
+  rnorm(4, mean=150, sd=10), rnorm(4, mean=125, sd=10),
+  rnorm(4, mean=170, sd=10), rnorm(4, mean=135, sd=10)
+)
+
+dados_civil <- data.frame(
+  bloco = bloco,
+  acabamento = acabamento,
+  protecao = protecao,
+  base = base,
+  evap = round(evap, 1)
+)
+
+# Criar a tabela
+tabela_gt <- gt(dados_civil) |>
+  fmt_number(
+    columns = evap,
+    decimals = 1
+  )
+
+tabela_gt
+
+```
+
+✍ Pergunta-se:
+
+1. Qual o papel dos blocos neste experimento? Justifique a escolha do DBC.
+2. Quantos tratamentos foram avaliados? Como esse número foi obtido?
+3. A proteção com lona apresentou efeito significativo na redução da evaporação? E a cura química?
+4. O tipo de base (brita ou solo) influenciou o resultado? Há evidência de interação entre base e acabamento?
+5. O fator acabamento mostrou-se relevante na retenção de umidade? Em quais condições essa influência foi mais evidente?
+6. Com base nos dados simulados, qual combinação de fatores você recomendaria para minimizar a evaporação em um dia seco e quente?
+7. Os blocos reduziram a variabilidade residual do modelo? Como isso pode ser verificado?
+8. Que recomendação prática pode ser feita para execução de pavimentos em áreas com diferentes tipos de base refletiva?

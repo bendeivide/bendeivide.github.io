@@ -1,0 +1,131 @@
+---
+title: "Aula 20 | Dados - Kaleb Aquino Mileib"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# 🎯 **Objetivos:**
+
+Com base no experimento descrito e no banco de dados fornecido, o aluno deverá:
+
+1. Compreender o planejamento do experimento e os princípios de um delineamento fatorial triplo.
+2. Realizar a **análise de variância (ANAVA)** para investigar os efeitos principais e as interações entre os fatores.
+3. Gerar gráficos de interação que ajudem a visualizar os efeitos simultâneos dos fatores sobre o erro.
+4. Interpretar os resultados obtidos e propor recomendações técnicas com base nos dados.
+
+
+
+# Contexto do Experimento
+
+----
+Uma equipe de engenheiros mecatrônicos está desenvolvendo um sistema de posicionamento de precisão utilizando atuadores lineares para aplicações industriais. O objetivo é obter alta exatidão no deslocamento dos atuadores, mesmo sob diferentes condições de carga e controle. Para isso, foi planejado um experimento em DIC com o intuito de avaliar como o tipo de motor, o algoritmo de controle e a carga aplicada influenciam o **erro médio de posicionamento** do sistema.
+
+O erro de posicionamento é definido como a média das diferenças absolutas entre a posição final do atuador e a posição-alvo, medida em milímetros (mm). Quanto menor esse erro, melhor o desempenho do sistema.
+
+
+----
+
+# 🧪 **Descrição do Experimento**
+
+O experimento segue um **delineamento fatorial triplo completo** com os seguintes fatores e níveis:
+
+* **Fator A – Tipo de motor** (2 níveis):
+
+  * *Stepper*
+  * *Servo*
+
+* **Fator B – Algoritmo de controle** (2 níveis):
+
+  * *PID* (Controle Proporcional-Integral-Derivativo)
+  * *Fuzzy* (Controle Lógico Nebuloso)
+
+* **Fator C – Carga aplicada** (5 níveis):
+
+  * *0 N*
+  * *25 N*
+  * *50 N*
+  * *75 N*
+  * *100 N*
+
+Cada combinação dos níveis dos três fatores foi repetida **3 vezes**, totalizando **60 observações**. Durante cada ensaio, o atuador foi instruído a realizar um deslocamento padrão, e o erro de posicionamento foi registrado.
+
+O banco de dados com os resultados já está disponível para análise. Nele, constam os seguintes campos:
+
+* `motor`: tipo de motor utilizado
+* `controle`: algoritmo de controle empregado
+* `carga`: carga aplicada ao sistema
+* `erro`: erro médio de posicionamento (em mm)
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+
+library(gt)
+
+set.seed(123)
+
+# Fatores
+motor <- factor(rep(c("Stepper", "Servo"), each = 3*2*5))
+controle <- factor(rep(rep(c("PID", "Fuzzy"), each = 3*5), times = 2))
+carga <- factor(rep(c("0", "25", "50", "75", "100"), each = 3, times = 4))
+
+# Simulação de dados (padrões distintos para motor e controle)
+erro <- c(
+  rnorm(3, mean=0.20, sd=0.02), # Stepper-PID-0
+  rnorm(3, mean=0.23, sd=0.02), # Stepper-PID-25
+  rnorm(3, mean=0.26, sd=0.02), # Stepper-PID-50
+  rnorm(3, mean=0.29, sd=0.02), # Stepper-PID-75
+  rnorm(3, mean=0.32, sd=0.02), # Stepper-PID-100
+  
+  rnorm(3, mean=0.18, sd=0.02), # Stepper-Fuzzy-0
+  rnorm(3, mean=0.21, sd=0.02), # Stepper-Fuzzy-25
+  rnorm(3, mean=0.23, sd=0.02), # Stepper-Fuzzy-50
+  rnorm(3, mean=0.26, sd=0.02), # Stepper-Fuzzy-75
+  rnorm(3, mean=0.29, sd=0.02), # Stepper-Fuzzy-100
+  
+  rnorm(3, mean=0.15, sd=0.02), # Servo-PID-0
+  rnorm(3, mean=0.18, sd=0.02), # Servo-PID-25
+  rnorm(3, mean=0.21, sd=0.02), # Servo-PID-50
+  rnorm(3, mean=0.25, sd=0.02), # Servo-PID-75
+  rnorm(3, mean=0.28, sd=0.02), # Servo-PID-100
+  
+  rnorm(3, mean=0.13, sd=0.02), # Servo-Fuzzy-0
+  rnorm(3, mean=0.16, sd=0.02), # Servo-Fuzzy-25
+  rnorm(3, mean=0.18, sd=0.02), # Servo-Fuzzy-50
+  rnorm(3, mean=0.21, sd=0.02), # Servo-Fuzzy-75
+  rnorm(3, mean=0.25, sd=0.02)  # Servo-Fuzzy-100
+)
+
+# Data frame
+dados <- data.frame(
+  motor = motor,
+  controle = controle,
+  carga = carga,
+  erro = round(erro, 3)
+)
+
+
+# Criar a tabela
+tabela_gt <- gt(dados) |>
+  fmt_number(
+    columns = c(motor, controle, carga)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+
+✍ Pergunta-se:
+
+1. Qual é o total de combinações de tratamentos possíveis neste experimento? Quantas repetições foram realizadas por tratamento?
+2. Qual é a principal vantagem de se utilizar um delineamento fatorial triplo em vez de três experimentos separados?
+3. A interação entre os fatores foi significativa? Se sim, como isso influencia a interpretação dos efeitos principais?
+4. Com base nos resultados da ANAVA, qual combinação de fatores resulta no menor erro de posicionamento médio? Justifique sua resposta.
+5. Qual(is) fator(es) parece(m) ter maior influência no desempenho do sistema? Essa influência é consistente para todos os níveis dos outros fatores?
+6. Quais gráficos você utilizaria para auxiliar a interpretação dos resultados? Explique o porquê.
+7. Considerando um cenário de aplicação industrial, em que precisão e economia de energia são importantes, qual motor e controle você recomendaria? Por quê?
+8. Qual o tipo de delineamento utilizado neste experimento? Por que ele é adequado para essa situação? Haveria algum outro delineamento mais indicado se existisse alguma fonte sistemática de variação, como temperatura ambiente?
+

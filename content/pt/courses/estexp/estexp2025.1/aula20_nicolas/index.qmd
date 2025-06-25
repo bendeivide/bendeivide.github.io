@@ -1,0 +1,128 @@
+---
+title: "Aula 20 | Dados - Nicolas Willian Garcia Santos Ribeiro"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# 🎯 **Objetivos:**
+
+Com base nos dados simulados e na descrição do experimento, o aluno deve:
+
+1. Entender o planejamento de experimentos com três fatores qualitativos.
+2. Ajustar o modelo completo com interações.
+3. Avaliar o efeito principal e as interações entre fatores sobre a estabilidade do sinal.
+4. Recomendar a melhor configuração de antena para obter maior estabilidade.
+
+
+
+# Contexto do Experimento
+
+----
+No contexto de redes 5G, antenas reconfiguráveis inteligentes (RIS - *Reconfigurable Intelligent Surfaces*) têm sido estudadas por sua capacidade de refletir sinais de forma controlada, melhorando a cobertura e reduzindo interferências.
+
+Pesquisadores da área de Telecomunicações desejam avaliar **a estabilidade do sinal recebido** em diferentes configurações de antenas RIS sob múltiplas condições operacionais. O experimento será realizado em laboratório, onde os efeitos externos são mínimos e homogêneos, justificando o uso de um **Delineamento Inteiramente Casualizado (DIC)**.
+
+
+
+----
+
+# 🧪 **Descrição do Experimento**
+
+O experimento segue um **delineamento em blocos casualizados (DBC)**, com os seguintes fatores e níveis:
+
+## ✅ **Fatores**
+
+O experimento considera três fatores:
+
+* **Fator A – Tipo de antena RIS (3 níveis):**
+
+  * Metassuperfície 1 (MS1)
+  * Metassuperfície 2 (MS2)
+  * Metassuperfície 3 (MS3)
+
+* **Fator B – Frequência de operação (2 níveis):**
+
+  * 3,5 GHz
+  * 6 GHz
+
+* **Fator C – Ângulo de incidência do sinal (3 níveis):**
+
+  * 30°
+  * 60°
+  * 90°
+
+
+---
+
+## 🎯 **Objetivo**
+
+Avaliar como as diferentes configurações afetam a **estabilidade do sinal recebido**, medida pela **variância da potência recebida (dBm²)** ao longo de 1 segundo em ambiente com tráfego simulado.
+
+## **Esquema do experimento**
+
+* Delineamento: **Fatorial 3 × 2 × 3 em DIC**
+* Número de tratamentos: 3 × 2 × 3 = 18
+* Número de repetições por tratamento: 3
+* Total de observações: 18 × 3 = **54**
+
+
+---
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+
+library(gt)
+
+set.seed(2025)
+
+# Fatores
+ris <- factor(rep(c("MS1", "MS2", "MS3"), each = 2*3*3))
+freq <- factor(rep(rep(c("3.5GHz", "6GHz"), each = 3*3), times = 3))
+angulo <- factor(rep(rep(c("30", "60", "90"), each = 3), times = 6))
+repeticao <- factor(rep(1:3, times = 18))
+
+# Simulação da variável resposta: variância da potência recebida (menor é melhor)
+var_pot <- c(
+  rnorm(3, mean = 2.5, sd = 0.2), rnorm(3, mean = 2.3, sd = 0.2), rnorm(3, mean = 2.0, sd = 0.2),   # MS1 - 3.5GHz
+  rnorm(3, mean = 3.0, sd = 0.2), rnorm(3, mean = 2.7, sd = 0.2), rnorm(3, mean = 2.4, sd = 0.2),   # MS1 - 6GHz
+
+  rnorm(3, mean = 1.9, sd = 0.15), rnorm(3, mean = 1.7, sd = 0.15), rnorm(3, mean = 1.5, sd = 0.15), # MS2 - 3.5GHz
+  rnorm(3, mean = 2.4, sd = 0.15), rnorm(3, mean = 2.1, sd = 0.15), rnorm(3, mean = 1.9, sd = 0.15), # MS2 - 6GHz
+
+  rnorm(3, mean = 1.5, sd = 0.1), rnorm(3, mean = 1.4, sd = 0.1), rnorm(3, mean = 1.3, sd = 0.1),   # MS3 - 3.5GHz
+  rnorm(3, mean = 1.8, sd = 0.1), rnorm(3, mean = 1.6, sd = 0.1), rnorm(3, mean = 1.4, sd = 0.1)    # MS3 - 6GHz
+)
+
+dados_ris <- data.frame(
+  repeticao = repeticao,
+  ris = ris,
+  freq = freq,
+  angulo = angulo,
+  variancia = round(var_pot, 2)
+)
+
+
+# Criar a tabela
+tabela_gt <- gt(dados_ris) |>
+  fmt_number(
+    columns = variancia,
+    decimals = 1
+  )
+
+tabela_gt
+
+```
+
+✍ Pergunta-se:
+
+1. Quantas combinações de tratamentos foram avaliadas? Quantas observações foram coletadas?
+2. Existe interação significativa entre frequência e ângulo de incidência? Qual sua interpretação física?
+3. Qual combinação resultou na menor variância da potência? Ela é viável em um sistema real?
+4. A metassuperfície 3 (MS3) apresentou diferença estatística em relação às demais?
+5. Quais fatores explicaram maior parte da variabilidade da resposta?
+6. Que modelo de ANOVA seria mais adequado para os dados? Com ou sem transformação?
+7. A escolha do DIC foi apropriada neste caso? Justifique.

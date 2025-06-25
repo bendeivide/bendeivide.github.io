@@ -1,0 +1,126 @@
+---
+title: "Aula 20 | Dados - Felipe Henrique Menezes de Almeida e Silva"
+author: "Prof. Ben Dêivide"
+format: html
+editor: source
+---
+
+# 🎯 **Objetivos:**
+
+Com base nos dados simulados e na descrição do experimento, o aluno deve:
+
+1. Compreender a diferença entre DIC e DBC em experimentos fatoriais.
+2. Ajustar um modelo de ANOVA com **efeito de blocos**.
+3. Verificar os efeitos principais e interações entre os fatores.
+4. Avaliar se os blocos foram relevantes para reduzir a variabilidade.
+5. Indicar a melhor combinação dos fatores para otimização do tempo.
+
+
+
+# Contexto do Experimento
+
+----
+Uma equipe de engenheiros mecatrônicos está desenvolvendo um sistema embarcado de **visão computacional** para robôs móveis autônomos. O objetivo é minimizar o tempo de processamento de imagens capturadas por câmeras embarcadas, assegurando decisões rápidas e seguras.
+
+O desempenho do sistema é avaliado com base no **tempo médio de processamento por imagem (em milissegundos)**. Esse tempo é influenciado por três fatores de projeto:
+
+
+
+----
+
+# 🧪 **Descrição do Experimento**
+
+* **Fator A – Resolução da imagem (3 níveis):**
+
+  * *Low (320×240)*
+  * *Medium (640×480)*
+  * *High (1280×720)*
+
+* **Fator B – Algoritmo de pré-processamento (2 níveis):**
+
+  * *Filtro Gaussiano*
+  * *Equalização de Histograma*
+
+* **Fator C – Tipo de processador (2 níveis):**
+
+  * *Raspberry Pi 4*
+  * *Jetson Nano*
+
+Como os testes foram realizados ao longo de **quatro turnos diferentes (manhã e tarde, em dois dias distintos)**, com pequenas variações nas condições de luz e carga computacional do ambiente, essas variações foram controladas utilizando o **turno de execução como bloco**.
+
+Assim, o delineamento adotado é um **Fatorial Triplo em Blocos Casualizados (DBC)**, com:
+
+* **Bloco:** Turno de execução (`Bloco 1`, `Bloco 2`, `Bloco 3`, `Bloco 4`)
+* **Tratamentos:** Combinação dos níveis dos três fatores (3×2×2 = 12 tratamentos)
+* **Repetições:** 1 repetição por tratamento **em cada bloco**
+
+$$
+\text{Total de observações: } 12\ \text{tratamentos} \times 4\ \text{blocos} = \boxed{48\ \text{observações}}
+$$
+
+#  🗃 Banco de dados:
+
+```{r}
+#| echo: false
+
+
+library(gt)
+
+set.seed(456)
+
+# Fatores
+resolucao <- factor(rep(c("Low", "Medium", "High"), each = 2*2*4))
+preprocess <- factor(rep(rep(c("Gauss", "HistEq"), each = 2*4), times = 3))
+processador <- factor(rep(rep(c("Raspberry", "Jetson"), each = 4), times = 6))
+bloco <- factor(rep(1:4, times = 12))  # Blocos 1 a 4
+
+# Simulação da variável resposta (tempo em ms)
+tempo <- c(
+  rnorm(4, mean = 45, sd = 3),  # Low - Gauss - Rasp
+  rnorm(4, mean = 42, sd = 3),  # Low - Gauss - Jetson
+  rnorm(4, mean = 48, sd = 3),  # Low - HistEq - Rasp
+  rnorm(4, mean = 44, sd = 3),  # Low - HistEq - Jetson
+
+  rnorm(4, mean = 85, sd = 4),  # Med - Gauss - Rasp
+  rnorm(4, mean = 72, sd = 4),  # Med - Gauss - Jetson
+  rnorm(4, mean = 90, sd = 4),  # Med - HistEq - Rasp
+  rnorm(4, mean = 76, sd = 4),  # Med - HistEq - Jetson
+
+  rnorm(4, mean = 140, sd = 5), # High - Gauss - Rasp
+  rnorm(4, mean = 110, sd = 5), # High - Gauss - Jetson
+  rnorm(4, mean = 155, sd = 5), # High - HistEq - Rasp
+  rnorm(4, mean = 120, sd = 5)  # High - HistEq - Jetson
+)
+
+# Data frame
+dados3 <- data.frame(
+  bloco = bloco,
+  resolucao = resolucao,
+  preprocess = preprocess,
+  processador = processador,
+  tempo = round(tempo, 1)
+)
+
+
+# Criar a tabela
+tabela_gt <- gt(dados3) |>
+  fmt_number(
+    columns = c(bloco, resolucao, preprocess, processador)
+  )
+
+# Visualizar a tabela
+tabela_gt
+```
+
+✍ Pergunta-se:
+
+1. Quantos tratamentos distintos foram avaliados? Qual foi o papel dos blocos nesse experimento?
+2. Por que não foi adotado o DIC? Em que situações o DBC é mais indicado?
+3. O fator “resolução da imagem” apresentou efeito significativo no tempo de processamento?
+4. Há interação entre resolução e processador? Explique o impacto prático disso.
+5. Os blocos contribuíram para reduzir a variabilidade residual? Justifique com base nos resultados da ANOVA.
+6. Qual configuração técnica (resolução, pré-processamento, processador) você recomendaria para obter **menor tempo de processamento**?
+7. Suponha que se deseje repetir esse experimento com mais blocos. Qual o efeito esperado sobre o erro experimental?
+8. O modelo adotado para análise da ANOVA considera o efeito de blocos como fixo ou aleatório? Em que situação cada abordagem seria mais apropriada neste contexto?
+9. Se fosse necessário utilizar somente um dos processadores para toda a linha de produção automatizada, qual critério estatístico você utilizaria para justificar a escolha, considerando as interações com os demais fatores?
+
