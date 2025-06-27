@@ -1,0 +1,260 @@
+---
+title: "Estatística Experimental"
+subtitle: "Aula 22 | Parcelas subdivididas"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[ESTEXP](https://bendeivide.github.io/courses/estexp/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2025:
+
+<a href="https://bendeivide.github.io/books/pae/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width = "300">
+
+</a>
+
+# Introdução {background-image="cap02.png"}
+
+* Em muitos experimentos, **dois ou mais fatores** são avaliados, mas **não podem ser aplicados com a mesma facilidade ou precisão**.
+* Nesses casos, usamos o delineamento **em parcelas subdivididas** (*split-plot design*), que **organiza os fatores em dois níveis hierárquicos**:
+
+  * **Parcela principal**: fator de difícil controle;
+  * **Subparcela**: fator de fácil controle, dentro da parcela principal.
+
+
+# Diferença para um fatorial comum {background-image="cap02.png"}
+
+
+- **Esquema fatorial completo (ex: $a \times b$)**:
+  * Todos os níveis de dois fatores combinados e aplicados **com a mesma precisão**.
+  * Os tratamentos são **totalmente randomizados**.
+
+## Diferença para um fatorial comum {background-image="cap02.png"}
+
+- **Parcelas subdivididas**
+  * Os fatores são aplicados **em diferentes níveis de precisão**:
+    * Um fator é aplicado nas **parcelas principais** (nível 1);
+    * Outro fator é aplicado nas **subparcelas** (nível 2).
+  * A randomização é feita em **duas etapas**:
+    1. Fator A aleatorizado nas parcelas principais;
+    2. Fator B aleatorizado dentro das subparcelas.
+
+# Exemplo {background-image="cap02.png"}
+
+O concreto é o material de construção mais utilizado em obras civis, sendo responsável por elementos estruturais essenciais, como vigas, lajes e pilares. O desempenho do concreto no estado endurecido — isto é, **após o processo de cura** — tem impacto direto sobre **a segurança, durabilidade e capacidade de carga da estrutura**.
+
+## Exemplo {background-image="cap02.png"}
+
+Uma das propriedades mais críticas nesse estágio é a **resistência à compressão**, que representa a capacidade do concreto suportar cargas aplicadas sem se romper. Essa propriedade determina, por exemplo:
+
+* A viabilidade de aplicação do concreto em **estruturas portantes** (como pilares e vigas);
+* O atendimento às **exigências normativas e de projeto estrutural**;
+* A definição de **fatores de segurança** e vida útil da estrutura.
+
+## Exemplo {background-image="cap02.png"}
+
+- ⚠️ Problema
+
+. . .
+
+A resistência à compressão do concreto pode variar **significativamente** em função de:
+
+* **Características do cimento** (como o tipo e adições minerais);
+* **Tipo de aditivo químico** utilizado (plastificantes, aceleradores, retardadores);
+* **Condições de produção e cura** (como o dia de produção, temperatura e umidade).
+
+## Exemplo {background-image="cap02.png"}
+
+Essa variabilidade, se não for controlada, pode levar a:
+
+* Desempenho estrutural abaixo do esperado;
+* Retração ou fissuras precoces;
+* Necessidade de retrabalho ou até demolição;
+* Comprometimento da **segurança da edificação**.
+
+
+
+
+# Ilustração {background-image="cap02.png"}
+
+- Fatorial
+
+. . .
+
+<center>
+![](parc_fatorial.png){width=60%}
+</center>
+
+## Ilustração {background-image="cap02.png"}
+
+- Parcela subdividida
+
+. . .
+
+<center>
+![](parc_subdividida.png){width=50%}
+</center>
+
+
+# ⚙️ **Planejamento experimental** {background-image="cap02.png"}
+
+* **Fator A (parcela principal)**: Tipo de cimento — CP I, CP II-Z, CP III (3 níveis)
+
+* **Fator B (subparcela)**: Tipo de aditivo químico — Sem aditivo, retardador, plastificante, acelerador (4 níveis)
+
+* **Blocos**: Dias de produção (3 dias consecutivos de ensaio)
+
+* **Variável resposta**: Resistência à compressão do concreto (medida em MPa após 28 dias de cura)
+
+
+## ⚙️ Dados do experimento {background-image="cap02.png"}
+
+```{r}
+# Carregar pacote (opcional se desejar exibir com gt depois)
+# library(gt)
+
+# Fatores
+bloco <- factor(rep(1:3, each = 3 * 4))  # 3 blocos (dias de produção)
+cimento <- factor(rep(rep(c("CP I", "CP II-Z", "CP III"), each = 4), times = 3))
+aditivo <- factor(rep(c("Sem", "Retardador", "Plastificante", "Acelerador"), times = 9))
+
+# Base média para resistência à compressão (MPa)
+media_base <- 30
+
+# Efeitos principais
+efeito_cimento <- c(0, 5, -2)              # CP I, CP II-Z, CP III
+efeito_aditivo <- c(0, -1, +2, -3)         # Sem, Retardador, Plastificante, Acelerador
+
+# Interação cimento × aditivo (com diferença significativa)
+efeito_interacao <- matrix(
+  c(0,  -1,  +3, -4,     # CP I
+    0,  -2,  +1, -2,     # CP II-Z
+    0,   0,  +1, -1),    # CP III
+  nrow = 3, byrow = TRUE
+)
+
+# Simulação dos dados com interação
+set.seed(42)
+resistencia <- numeric(length = length(cimento))
+for (i in seq_along(resistencia)) {
+  a <- cimento[i]
+  b <- aditivo[i]
+  resistencia[i] <- media_base +
+    efeito_cimento[which(levels(cimento) == a)] +
+    efeito_aditivo[which(levels(aditivo) == b)] +
+    efeito_interacao[which(levels(cimento) == a), which(levels(aditivo) == b)] +
+    rnorm(1, mean = 0, sd = 2)  # erro aleatório controlado
+}
+
+# Data frame final
+dados <- data.frame(
+  Bloco = bloco,
+  Cimento = cimento,
+  Aditivo = aditivo,
+  Resistência = round(resistencia, 2)
+)
+
+# Exibir os dados
+dados
+```
+
+
+# Modelo Experimental {background-image="cap02.png"}
+
+$$
+Y_{ijk} = \mu + \beta_i + \alpha_j + (\beta\alpha)_{ij} + \delta_k + (\alpha\delta)_{jk} + \varepsilon_{ijk}
+$$
+
+**Interpretação dos termos**:
+
+- $Y_{ijk}$: resposta observada (resistência) no $i$-ésimo bloco, $j$-ésimo tipo de cimento e $k$-ésimo tipo de aditivo;
+- $\mu$: média geral;
+- $\beta_i$: efeito do bloco (dia de produção);
+- $\alpha_j$: efeito do tipo de cimento (parcela principal);
+- $(\beta\alpha)_{ij}$: erro da parcela principal;
+
+
+## Modelo Experimental {background-image="cap02.png"}
+
+- $\delta_k$: efeito do tipo de aditivo (subparcela);
+- $(\alpha\delta)_{jk}$: interação cimento × aditivo;
+- $\varepsilon_{ijk}$: erro aleatório da subparcela.
+
+
+
+## Modelo Experimental {background-image="cap02.png"}
+
+> Importante: o modelo considera **dois erros**:
+  >
+  > * Um para **parcelas principais** (teste do fator A);
+> * Outro para **subparcelas** (teste do fator B e da interação).
+
+
+
+# Usando o pacote ExpDes.pt {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+
+# Carregar o pacote ExpDes.pt
+library(ExpDes.pt)
+
+# Análise de experimento em parcelas subdivididas
+psub2.dbc(
+  fator1 = dados$Cimento, 
+  fator2 = dados$Aditivo,
+  bloco = dados$Bloco, 
+  resp = dados$Resistência,
+  quali = c(TRUE, TRUE)
+)
+```
+
+
+
+# Referências {background-image="cap02.png"}
+
+
+

@@ -5,12 +5,96 @@
     <link>http://bendeivide.github.io/post/</link>
       <atom:link href="http://bendeivide.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 10 Dec 2024 00:00:00 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>http://bendeivide.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Atualizações do R (4.5.0)</title>
+      <link>http://bendeivide.github.io/post/r4.5.0/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 -0300</pubDate>
+      <guid>http://bendeivide.github.io/post/r4.5.0/</guid>
+      <description>&lt;h2 id=&#34;-lançamento-do-r-450-how-about-a-twentysix--11-de-abril-de-2025&#34;&gt;🆕 Lançamento do R 4.5.0 (“How About a Twenty‑Six”) — 11 de abril de 2025&lt;/h2&gt;
+&lt;p&gt;O apelido &lt;strong&gt;&amp;ldquo;How About a Twenty‑Six&amp;rdquo;&lt;/strong&gt; da versão &lt;strong&gt;R 4.5.0&lt;/strong&gt; é um &lt;em&gt;trocadilho com referências internas da comunidade R&lt;/em&gt;, e remete ao fato de que esta versão marca:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;O 26º lançamento de uma versão principal da linguagem R.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ou seja:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A numeração &lt;strong&gt;4.5.0&lt;/strong&gt; corresponde à 26ª versão desde o &lt;strong&gt;R 1.0.0&lt;/strong&gt;, lançado em fevereiro de 2000.&lt;/li&gt;
+&lt;li&gt;“Twenty-Six” significa &lt;strong&gt;26&lt;/strong&gt;, e o título “How About a Twenty‑Six” brinca com a ideia de sugerir casualmente esse marco histórico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-novo-dataset-penguins&#34;&gt;📊 Novo dataset “penguins”&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;A célebre base Palmer Penguins, antes acessada via pacote externo, agora é disponibilizada nativamente em R, com duas versões: &lt;code&gt;penguins&lt;/code&gt; e &lt;code&gt;penguins_raw&lt;/code&gt;, ideal para tarefas de clustering, classificação e limpeza de dados (&lt;a href=&#34;https://www.r-bloggers.com/2025/04/whats-new-in-r-4-5-0/?utm_source=chatgpt.com&#34; title=&#34;What’s new in R 4.5.0? | R-bloggers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r-bloggers.com&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-função-use-para-importar-de-forma-seletiva&#34;&gt;📥 Função &lt;code&gt;use()&lt;/code&gt; para importar de forma seletiva&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Permite carregar apenas funções específicas de um pacote, sem poluir o namespace ou causar conflitos — por exemplo, &lt;code&gt;use(&amp;quot;dplyr&amp;quot;, c(&amp;quot;filter&amp;quot;,&amp;quot;select&amp;quot;))&lt;/code&gt;, sem atrapalhar funções base de mesmo nome (&lt;a href=&#34;https://www.r-bloggers.com/2025/04/whats-new-in-r-4-5-0/?utm_source=chatgpt.com&#34; title=&#34;What’s new in R 4.5.0? | R-bloggers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r-bloggers.com&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-downloades-paralelos-de-pacotes&#34;&gt;⬇️ Downloades paralelos de pacotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;install.packages()&lt;/code&gt;, &lt;code&gt;download.packages()&lt;/code&gt; e &lt;code&gt;update.packages()&lt;/code&gt; agora podem baixar múltiplos pacotes simultaneamente, acelerando instalações e atualizações de forma significativa (&lt;a href=&#34;https://qubixity.net/2025/04/11/whats-new-in-r-4-5-0-a-summary-of-exciting-changes/?utm_source=chatgpt.com&#34; title=&#34;“What’s New in R 4.5.0: A Summary of Exciting Changes” | Qubixity.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qubixity.net&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-compilação-com-padrão-c23&#34;&gt;🧩 Compilação com padrão C23&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Passou a usar, por padrão, compiladores compatíveis com C23 (ex.: GCC 13‑15, Clang 18‑20) em sistemas Unix, garantindo suporte a linguagens e melhorias modernas. Ainda há opção para retornar ao padrão antigo (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-4-5-branch/NEWS?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-4-5-branch/NEWS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-função-grepv&#34;&gt;🧠 Função &lt;code&gt;grepv()&lt;/code&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Equivalente a &lt;code&gt;grep()&lt;/code&gt; com &lt;code&gt;value = TRUE&lt;/code&gt; por padrão, facilitando a extração direta de valores que correspondem ao padrão pesquisado (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-devel/2025/03/14?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-devel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-outras-novidades-e-melhorias&#34;&gt;🧪 Outras novidades e melhorias&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Funções novas em &lt;code&gt;tools&lt;/code&gt;: &lt;code&gt;check_package_urls()&lt;/code&gt; e &lt;code&gt;check_package_dois()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Métodos &lt;code&gt;head()&lt;/code&gt; e &lt;code&gt;tail()&lt;/code&gt; para objetos de série temporal (&lt;code&gt;ts&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Função &lt;code&gt;qr.influence()&lt;/code&gt; para análise de influência em regressões.&lt;/li&gt;
+&lt;li&gt;Suporte a compressão &lt;code&gt;zstd&lt;/code&gt; em tarballs.&lt;/li&gt;
+&lt;li&gt;Opções extras em &lt;code&gt;pdf()&lt;/code&gt;, como &lt;code&gt;author&lt;/code&gt;, &lt;code&gt;timestamp&lt;/code&gt; e &lt;code&gt;producer&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Mais métodos para &lt;code&gt;duplicated()&lt;/code&gt;, &lt;code&gt;unique()&lt;/code&gt;, &lt;code&gt;seq.Date()&lt;/code&gt; etc. (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-devel/2025/03/14?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-devel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-correções-importantes&#34;&gt;⚠️ Correções importantes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;BLAS/LAPACK: integração de novas rotinas &lt;code&gt;dgemmtr&lt;/code&gt; e &lt;code&gt;zgemmtr&lt;/code&gt; via LAPACK 3.12.1, o que pode exigir atenção a implementações BLAS externas (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-4-5-branch/NEWS?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-4-5-branch/NEWS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Remoção da possibilidade de alterar atributos ou ambiente de funções primitivas — essas operações agora geram erro ou aviso (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-4-5-branch/NEWS?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-4-5-branch/NEWS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-resumo-final&#34;&gt;✅ Resumo final&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Área&lt;/th&gt;
+&lt;th&gt;Destaques&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Datasets&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;penguins&lt;/code&gt; e &lt;code&gt;penguins_raw&lt;/code&gt; agora no base R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Importação&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;use()&lt;/code&gt; para controle preciso de namespace&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Instalação&lt;/td&gt;
+&lt;td&gt;Downloads paralelos para pacotes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Performance&lt;/td&gt;
+&lt;td&gt;Compilação padrão com C23 e novos BLAS/LAPACK&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Utilidades&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;grepv()&lt;/code&gt;, métodos &lt;code&gt;head()/tail()&lt;/code&gt; para &lt;code&gt;ts&lt;/code&gt;, e melhorias em &lt;code&gt;tools&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;referências&#34;&gt;Referências&lt;/h1&gt;
+</description>
+    </item>
     
     <item>
       <title>XII Semana Acadêmica de Matemática/UFV</title>

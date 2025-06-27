@@ -1,0 +1,82 @@
+---
+title: 'Atualizações do R (4.5.1)'
+date: "2025-06-27"
+categories: ['R', 'Programação', 'Lingaugem']
+tags: ['Linguagem R']
+summary: 'Atualizações da nova versão do R publicada em 13/06/2025'
+links:
+- name: Notícias do R
+  url: https://stat.ethz.ch/R-manual/R-devel/doc/html/NEWS.html
+- name: Livro R Básico
+  url: https://bendeivide.github.io/books/eambr01/
+draft: true
+---
+
+
+
+
+
+
+Em 13 de junho de 2025, foi lançado oficialmente o **R 4.5.1**, codinome “Great Square Root”. Este é um **patch release** focado em ajustes refinados e correções pontuais, mantendo tudo compatível com o R 4.5.0 lançado em abril ([stat.ethz.ch][1]).
+
+---
+
+# 💡 Cursiosidade
+
+A escolha “Great Square Root” é uma brincadeira sutil com a numeração da versão:
+
+* A versão é **4.5.1** — se você considerar √(4.5) ≈ 2.121…, o **“great square root”** (ótima raiz quadrada) faz um trocadilho inteligente com a raiz da parte “4.5” da versão .
+
+É um “nickname” que mistura humor com matemática, no jeitão tradicional do R.
+
+
+## 🛠 Principais mudanças no R 4.5.1
+
+### ✅ Novos recursos
+
+* A função interna de `unzip()` passou a seguir o comportamento do `unzip` versão 6.00 no tratamento de caminhos com `“../”` ([cran.r-project.org][2]).
+
+### ⚙️ Melhorias na instalação
+
+* O componente **nmath** agora pode ser compilado com clang modernos (LLVM clang 20, Apple clang 17 e Intel icx 2025.0), o que amplia a compatibilidade com compiladores recentes ([cran.r-project.org][2]).
+* Atualização para suporte ao **Tcl/Tk 9** no *tcltk*, alinhando-se a distribuições Linux atuais. Isso pode afetar pacotes que ainda exigem Tcl/Tk 8.x ([cran.r-project.org][2]).
+
+### 🐛 Correções de bugs
+
+* **javareconf** agora detecta corretamente `libjvm.*` em versões “zero variant” do JDK, incluindo JDK 24u ([cran.r-project.org][2]).
+* Em `factanal(..., rotation=*)`, a matriz de rotação (`rotmat`) é atualizada corretamente ([cran.r-project.org][2]).
+* Diversas funções estatísticas foram ajustadas para lidar com valores extremos sem gerar `NaN` ou `Inf`:
+
+  * `dnbinom()` para valores grandes.
+  * `dbinom()` com `n = Inf`.
+  * Correção no nível C da função `bd0()` evita perdas de precisão em `dbinom()`, `dnbinom()`, e potencialmente em `dgeom()`, `dhyper()`, `dbeta()`, `df()` ([cran.r-project.org][2]).
+* `signif(1e308, digits)` não é mais truncado de forma desnecessária ([cran.r-project.org][2]).
+* `prettyNum()` com parâmetros `zero.print` e `replace.zero = TRUE` agora segue a documentação ([cran.r-project.org][2]).
+* `pbeta()` com parâmetros muito grandes (`a`, `b`) retorna valores corretos em vez de `NaN` (inclusive em `log.p = TRUE`), melhorando também funções como `pnbinom()` ([cran.r-project.org][2]).
+
+---
+
+## 📦 Disponibilidade
+
+* O **tarball fonte** (`.tar.gz` / `.tar.xz`) está disponível desde 13 de junho de 2025 ([stat.ethz.ch][1]).
+* Binaries (Windows, macOS, distribuições Linux) foram liberados nas semanas seguintes; em sistemas como o Arch Linux, já foi incluído em repositórios extra desde 13 de junho .
+
+---
+
+### 🔍 Resumo das melhorias
+
+| Categoria        | Descrição resumida                                                |
+| ---------------- | ----------------------------------------------------------------- |
+| **unzip()**      | Melhoria no tratamento de `../` em caminhos                       |
+| **Compilador**   | Compatibilidade com clangs modernos                               |
+| **Tcl/Tk**       | Suporte oficial ao Tcl/Tk 9                                       |
+| **Estatísticas** | Correções em `dbinom()`, `dnbinom()`, `pbeta()`, `signif()`, etc. |
+| **Formatador**   | `prettyNum()` ajustado conforme documentação                      |
+
+
+
+[1]: https://stat.ethz.ch/pipermail/r-announce/2025/000713.html?utm_source=chatgpt.com "[Rd] R 4.5.1 is released"
+[2]: https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com "[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN"
+
+
+
