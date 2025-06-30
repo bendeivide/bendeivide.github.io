@@ -75,7 +75,6 @@ Ou seja:
 | Performance | Compilação padrão com C23 e novos BLAS/LAPACK                        |
 | Utilidades  | `grepv()`, métodos `head()/tail()` para `ts`, e melhorias em `tools` |
 
-# Referências
 
 [1]: https://www.r-bloggers.com/2025/04/whats-new-in-r-4-5-0/?utm_source=chatgpt.com "What’s new in R 4.5.0? | R-bloggers"
 [2]: https://qubixity.net/2025/04/11/whats-new-in-r-4-5-0-a-summary-of-exciting-changes/?utm_source=chatgpt.com "“What’s New in R 4.5.0: A Summary of Exciting Changes” | Qubixity.net"

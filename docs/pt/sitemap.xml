@@ -52,9 +52,9 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/post/r4.5.0/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/post/r4.5.1/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -64,7 +64,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -74,11 +74,11 @@
       href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/linguagem/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/lingaugem/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/linguagem-r/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/linguagem-r/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/post/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/post/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/post/"
@@ -88,11 +88,11 @@
       href="http://bendeivide.github.io/post/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/tags/"
@@ -101,6 +101,10 @@
       hreflang="pt"
       href="http://bendeivide.github.io/tags/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/post/r4.5.0/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/linguagem/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2025-06-24T16:31:57-03:00</lastmod></url>
   <url>

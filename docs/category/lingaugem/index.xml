@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/lingaugem/</link>
       <atom:link href="http://bendeivide.github.io/category/lingaugem/index.xml" rel="self" type="application/rss+xml" />
     <description>Lingaugem</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Lingaugem</title>
@@ -13,86 +13,92 @@
     </image>
     
     <item>
-      <title>Atualizações do R (4.5.0)</title>
-      <link>http://bendeivide.github.io/post/r4.5.0/</link>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 -0300</pubDate>
-      <guid>http://bendeivide.github.io/post/r4.5.0/</guid>
-      <description>&lt;h2 id=&#34;-lançamento-do-r-450-how-about-a-twentysix--11-de-abril-de-2025&#34;&gt;🆕 Lançamento do R 4.5.0 (“How About a Twenty‑Six”) — 11 de abril de 2025&lt;/h2&gt;
-&lt;p&gt;O apelido &lt;strong&gt;&amp;ldquo;How About a Twenty‑Six&amp;rdquo;&lt;/strong&gt; da versão &lt;strong&gt;R 4.5.0&lt;/strong&gt; é um &lt;em&gt;trocadilho com referências internas da comunidade R&lt;/em&gt;, e remete ao fato de que esta versão marca:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;O 26º lançamento de uma versão principal da linguagem R.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Ou seja:&lt;/p&gt;
+      <title>Atualizações do R (4.5.1)</title>
+      <link>http://bendeivide.github.io/post/r4.5.1/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 -0300</pubDate>
+      <guid>http://bendeivide.github.io/post/r4.5.1/</guid>
+      <description>&lt;p&gt;Em 13 de junho de 2025, foi lançado oficialmente o &lt;strong&gt;R 4.5.1&lt;/strong&gt;, codinome “Great Square Root”. Este é um &lt;strong&gt;patch release&lt;/strong&gt; focado em ajustes refinados e correções pontuais, mantendo tudo compatível com o R 4.5.0 lançado em abril (&lt;a href=&#34;https://stat.ethz.ch/pipermail/r-announce/2025/000713.html?utm_source=chatgpt.com&#34; title=&#34;[Rd] R 4.5.1 is released&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stat.ethz.ch&lt;/a&gt;).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;-cursiosidade&#34;&gt;💡 Cursiosidade&lt;/h1&gt;
+&lt;p&gt;A escolha “Great Square Root” é uma brincadeira sutil com a numeração da versão:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;A numeração &lt;strong&gt;4.5.0&lt;/strong&gt; corresponde à 26ª versão desde o &lt;strong&gt;R 1.0.0&lt;/strong&gt;, lançado em fevereiro de 2000.&lt;/li&gt;
-&lt;li&gt;“Twenty-Six” significa &lt;strong&gt;26&lt;/strong&gt;, e o título “How About a Twenty‑Six” brinca com a ideia de sugerir casualmente esse marco histórico.&lt;/li&gt;
+&lt;li&gt;A versão é &lt;strong&gt;4.5.1&lt;/strong&gt; — se você considerar √(4.5) ≈ 2.121…, o &lt;strong&gt;“great square root”&lt;/strong&gt; (ótima raiz quadrada) faz um trocadilho inteligente com a raiz da parte “4.5” da versão .&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;-novo-dataset-penguins&#34;&gt;📊 Novo dataset “penguins”&lt;/h1&gt;
+&lt;p&gt;É um “nickname” que mistura humor com matemática, no jeitão tradicional do R.&lt;/p&gt;
+&lt;h2 id=&#34;-principais-mudanças-no-r-451&#34;&gt;🛠 Principais mudanças no R 4.5.1&lt;/h2&gt;
+&lt;h3 id=&#34;-novos-recursos&#34;&gt;✅ Novos recursos&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;A célebre base Palmer Penguins, antes acessada via pacote externo, agora é disponibilizada nativamente em R, com duas versões: &lt;code&gt;penguins&lt;/code&gt; e &lt;code&gt;penguins_raw&lt;/code&gt;, ideal para tarefas de clustering, classificação e limpeza de dados (&lt;a href=&#34;https://www.r-bloggers.com/2025/04/whats-new-in-r-4-5-0/?utm_source=chatgpt.com&#34; title=&#34;What’s new in R 4.5.0? | R-bloggers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r-bloggers.com&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A função interna de &lt;code&gt;unzip()&lt;/code&gt; passou a seguir o comportamento do &lt;code&gt;unzip&lt;/code&gt; versão 6.00 no tratamento de caminhos com &lt;code&gt;“../”&lt;/code&gt; (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;-função-use-para-importar-de-forma-seletiva&#34;&gt;📥 Função &lt;code&gt;use()&lt;/code&gt; para importar de forma seletiva&lt;/h1&gt;
+&lt;h3 id=&#34;-melhorias-na-instalação&#34;&gt;⚙️ Melhorias na instalação&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Permite carregar apenas funções específicas de um pacote, sem poluir o namespace ou causar conflitos — por exemplo, &lt;code&gt;use(&amp;quot;dplyr&amp;quot;, c(&amp;quot;filter&amp;quot;,&amp;quot;select&amp;quot;))&lt;/code&gt;, sem atrapalhar funções base de mesmo nome (&lt;a href=&#34;https://www.r-bloggers.com/2025/04/whats-new-in-r-4-5-0/?utm_source=chatgpt.com&#34; title=&#34;What’s new in R 4.5.0? | R-bloggers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;r-bloggers.com&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;O componente &lt;strong&gt;nmath&lt;/strong&gt; agora pode ser compilado com clang modernos (LLVM clang 20, Apple clang 17 e Intel icx 2025.0), o que amplia a compatibilidade com compiladores recentes (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Atualização para suporte ao &lt;strong&gt;Tcl/Tk 9&lt;/strong&gt; no &lt;em&gt;tcltk&lt;/em&gt;, alinhando-se a distribuições Linux atuais. Isso pode afetar pacotes que ainda exigem Tcl/Tk 8.x (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;-downloades-paralelos-de-pacotes&#34;&gt;⬇️ Downloades paralelos de pacotes&lt;/h1&gt;
+&lt;h3 id=&#34;-correções-de-bugs&#34;&gt;🐛 Correções de bugs&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;install.packages()&lt;/code&gt;, &lt;code&gt;download.packages()&lt;/code&gt; e &lt;code&gt;update.packages()&lt;/code&gt; agora podem baixar múltiplos pacotes simultaneamente, acelerando instalações e atualizações de forma significativa (&lt;a href=&#34;https://qubixity.net/2025/04/11/whats-new-in-r-4-5-0-a-summary-of-exciting-changes/?utm_source=chatgpt.com&#34; title=&#34;“What’s New in R 4.5.0: A Summary of Exciting Changes” | Qubixity.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qubixity.net&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;-compilação-com-padrão-c23&#34;&gt;🧩 Compilação com padrão C23&lt;/h1&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;javareconf&lt;/strong&gt; agora detecta corretamente &lt;code&gt;libjvm.*&lt;/code&gt; em versões “zero variant” do JDK, incluindo JDK 24u (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Em &lt;code&gt;factanal(..., rotation=*)&lt;/code&gt;, a matriz de rotação (&lt;code&gt;rotmat&lt;/code&gt;) é atualizada corretamente (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Diversas funções estatísticas foram ajustadas para lidar com valores extremos sem gerar &lt;code&gt;NaN&lt;/code&gt; ou &lt;code&gt;Inf&lt;/code&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Passou a usar, por padrão, compiladores compatíveis com C23 (ex.: GCC 13‑15, Clang 18‑20) em sistemas Unix, garantindo suporte a linguagens e melhorias modernas. Ainda há opção para retornar ao padrão antigo (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-4-5-branch/NEWS?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-4-5-branch/NEWS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dnbinom()&lt;/code&gt; para valores grandes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dbinom()&lt;/code&gt; com &lt;code&gt;n = Inf&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Correção no nível C da função &lt;code&gt;bd0()&lt;/code&gt; evita perdas de precisão em &lt;code&gt;dbinom()&lt;/code&gt;, &lt;code&gt;dnbinom()&lt;/code&gt;, e potencialmente em &lt;code&gt;dgeom()&lt;/code&gt;, &lt;code&gt;dhyper()&lt;/code&gt;, &lt;code&gt;dbeta()&lt;/code&gt;, &lt;code&gt;df()&lt;/code&gt; (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;-função-grepv&#34;&gt;🧠 Função &lt;code&gt;grepv()&lt;/code&gt;&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;signif(1e308, digits)&lt;/code&gt; não é mais truncado de forma desnecessária (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;prettyNum()&lt;/code&gt; com parâmetros &lt;code&gt;zero.print&lt;/code&gt; e &lt;code&gt;replace.zero = TRUE&lt;/code&gt; agora segue a documentação (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;pbeta()&lt;/code&gt; com parâmetros muito grandes (&lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt;) retorna valores corretos em vez de &lt;code&gt;NaN&lt;/code&gt; (inclusive em &lt;code&gt;log.p = TRUE&lt;/code&gt;), melhorando também funções como &lt;code&gt;pnbinom()&lt;/code&gt; (&lt;a href=&#34;https://cran.r-project.org/doc/manuals/r-release/NEWS.pdf?utm_source=chatgpt.com&#34; title=&#34;[PDF] NEWS for R version 4.5.1 (2025-06-13) - CRAN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cran.r-project.org&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-disponibilidade&#34;&gt;📦 Disponibilidade&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Equivalente a &lt;code&gt;grep()&lt;/code&gt; com &lt;code&gt;value = TRUE&lt;/code&gt; por padrão, facilitando a extração direta de valores que correspondem ao padrão pesquisado (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-devel/2025/03/14?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-devel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;O &lt;strong&gt;tarball fonte&lt;/strong&gt; (&lt;code&gt;.tar.gz&lt;/code&gt; / &lt;code&gt;.tar.xz&lt;/code&gt;) está disponível desde 13 de junho de 2025 (&lt;a href=&#34;https://stat.ethz.ch/pipermail/r-announce/2025/000713.html?utm_source=chatgpt.com&#34; title=&#34;[Rd] R 4.5.1 is released&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stat.ethz.ch&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Binaries (Windows, macOS, distribuições Linux) foram liberados nas semanas seguintes; em sistemas como o Arch Linux, já foi incluído em repositórios extra desde 13 de junho .&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;-outras-novidades-e-melhorias&#34;&gt;🧪 Outras novidades e melhorias&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Funções novas em &lt;code&gt;tools&lt;/code&gt;: &lt;code&gt;check_package_urls()&lt;/code&gt; e &lt;code&gt;check_package_dois()&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Métodos &lt;code&gt;head()&lt;/code&gt; e &lt;code&gt;tail()&lt;/code&gt; para objetos de série temporal (&lt;code&gt;ts&lt;/code&gt;).&lt;/li&gt;
-&lt;li&gt;Função &lt;code&gt;qr.influence()&lt;/code&gt; para análise de influência em regressões.&lt;/li&gt;
-&lt;li&gt;Suporte a compressão &lt;code&gt;zstd&lt;/code&gt; em tarballs.&lt;/li&gt;
-&lt;li&gt;Opções extras em &lt;code&gt;pdf()&lt;/code&gt;, como &lt;code&gt;author&lt;/code&gt;, &lt;code&gt;timestamp&lt;/code&gt; e &lt;code&gt;producer&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Mais métodos para &lt;code&gt;duplicated()&lt;/code&gt;, &lt;code&gt;unique()&lt;/code&gt;, &lt;code&gt;seq.Date()&lt;/code&gt; etc. (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-devel/2025/03/14?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-devel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;-correções-importantes&#34;&gt;⚠️ Correções importantes&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;BLAS/LAPACK: integração de novas rotinas &lt;code&gt;dgemmtr&lt;/code&gt; e &lt;code&gt;zgemmtr&lt;/code&gt; via LAPACK 3.12.1, o que pode exigir atenção a implementações BLAS externas (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-4-5-branch/NEWS?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-4-5-branch/NEWS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Remoção da possibilidade de alterar atributos ou ambiente de funções primitivas — essas operações agora geram erro ou aviso (&lt;a href=&#34;https://developer.r-project.org/blosxom.cgi/R-4-5-branch/NEWS?utm_source=chatgpt.com&#34; title=&#34;Daily News: R-4-5-branch/NEWS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;developer.r-project.org&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;-resumo-final&#34;&gt;✅ Resumo final&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-resumo-das-melhorias&#34;&gt;🔍 Resumo das melhorias&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;Área&lt;/th&gt;
-&lt;th&gt;Destaques&lt;/th&gt;
+&lt;th&gt;Categoria&lt;/th&gt;
+&lt;th&gt;Descrição resumida&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Datasets&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;penguins&lt;/code&gt; e &lt;code&gt;penguins_raw&lt;/code&gt; agora no base R&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;unzip()&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Melhoria no tratamento de &lt;code&gt;../&lt;/code&gt; em caminhos&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Importação&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;use()&lt;/code&gt; para controle preciso de namespace&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Compilador&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Compatibilidade com clangs modernos&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Instalação&lt;/td&gt;
-&lt;td&gt;Downloads paralelos para pacotes&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tcl/Tk&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Suporte oficial ao Tcl/Tk 9&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Performance&lt;/td&gt;
-&lt;td&gt;Compilação padrão com C23 e novos BLAS/LAPACK&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Estatísticas&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Correções em &lt;code&gt;dbinom()&lt;/code&gt;, &lt;code&gt;dnbinom()&lt;/code&gt;, &lt;code&gt;pbeta()&lt;/code&gt;, &lt;code&gt;signif()&lt;/code&gt;, etc.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Utilidades&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;grepv()&lt;/code&gt;, métodos &lt;code&gt;head()/tail()&lt;/code&gt; para &lt;code&gt;ts&lt;/code&gt;, e melhorias em &lt;code&gt;tools&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Formatador&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;prettyNum()&lt;/code&gt; ajustado conforme documentação&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1 id=&#34;referências&#34;&gt;Referências&lt;/h1&gt;
 </description>
     </item>
     

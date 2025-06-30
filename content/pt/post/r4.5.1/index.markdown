@@ -1,6 +1,6 @@
 ---
 title: 'Atualizações do R (4.5.1)'
-date: "2025-06-27"
+date: "2025-06-30"
 categories: ['R', 'Programação', 'Lingaugem']
 tags: ['Linguagem R']
 summary: 'Atualizações da nova versão do R publicada em 13/06/2025'
@@ -9,7 +9,6 @@ links:
   url: https://stat.ethz.ch/R-manual/R-devel/doc/html/NEWS.html
 - name: Livro R Básico
   url: https://bendeivide.github.io/books/eambr01/
-draft: true
 ---
 
 
