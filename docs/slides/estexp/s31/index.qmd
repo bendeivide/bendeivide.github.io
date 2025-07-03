@@ -1,0 +1,253 @@
+---
+title: "Estatística Experimental"
+subtitle: "Aula 31 | Estatística não paramétrica na ANAVA (Parte I)"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    include-in-header: 
+      text: |
+        <link rel="icon" type="image/png" href="logo.png">
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[ESTEXP](https://bendeivide.github.io/courses/estexp/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width="400"/>
+
+</a>
+
+# Livro de Apoio {background-image="cap02.png"}
+
+Usaremos @batista2025:
+
+<a href="https://bendeivide.github.io/books/pae/" target="_blank" style="text-align: center;">
+
+<img src="hardcover.png" width="300"/>
+
+</a>
+
+# Introdução {background-image="cap02.png"}
+
+Em estatística experimental, pressupõe-se frequentemente que os dados seguem distribuição normal com variância homogênea. Quando essas suposições não são atendidas, os **testes não paramétricos** são uma alternativa robusta e confiável.
+
+Nesta aula, abordaremos:
+
+::::: columns
+::: {.column width="50%"}
+-   Teste de Kruskal-Wallis
+-   Teste de Friedman
+:::
+
+::: {.column width="50%"}
+-   Comparações múltiplas não paramétricas
+-   Aplicações práticas com R
+:::
+:::::
+
+# Quando usar testes não paramétricos? {background-image="cap02.png"}
+
+Os testes não paramétricos são apropriados quando:
+
+-   A distribuição dos resíduos não é normal
+-   As variâncias entre tratamentos são heterogêneas
+-   Os dados são ordinais ou ranks
+-   O tamanho amostral é pequeno
+
+# Teste de Kruskal-Wallis {background-image="cap02.png"}
+
+O teste de Kruskal-Wallis é uma alternativa ao teste F da ANOVA em DIC (Delineamento Inteiramente Casualizado).
+
+::: callout-note
+**Hipóteses:**
+
+-   $H_0$: As distribuições dos grupos são iguais
+-   $H_1$: Pelo menos uma distribuição é diferente
+:::
+
+## Exemplo em Engenharia Mecatrônica {background-image="cap02.png"}
+
+Um engenheiro mecatrônico deseja avaliar o desempenho de **três modelos de sensores de pressão** utilizados para automação em ambientes com vibração intensa (como prensas industriais).
+
+## Exemplo em Emgenharia Mecatrônica {background-image="cap02.png"}
+
+Para isso, ele instala os sensores em uma bancada vibratória e mede o **erro médio de leitura da pressão** (em kPa) sob condições controladas.
+
+-   **Fator experimental:** Modelo do sensor (`Sens-A`, `Sens-B`, `Sens-C`)
+-   **Resposta:** Erro médio de leitura (kPa)
+-   **Delineamento:** DIC com 6 repetições por sensor
+
+## Exemplo em Engenharia Mecatrônica {background-image="cap02.png"}
+
+Dados:
+
+```{r}
+#| echo: false
+# Simulação dos dados
+set.seed(123)
+sensor <- factor(rep(c("Sens-A", "Sens-B", "Sens-C"), each = 6))
+erro_pressao <- c(
+  0.8, 0.9, 0.85, 0.82, 0.88, 3.0,       # outlier em Sens-A
+  0.6, 0.65, 0.64, 0.67, 0.63, 0.66,     # Sens-B
+  0.4, 0.42, 0.41, 0.43, 0.39, 0.41      # Sens-C
+)
+
+dados <- data.frame(sensor, erro_pressao); dados
+```
+
+## Exemplo em Engenharia Mecatrônica {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Anava
+anava <- aov(erro_pressao ~ sensor); summary(anava)
+```
+
+## Exemplo em Engenharia Mecatrônica {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Teste de normalidade
+shapiro.test(residuals(anava))
+# Teste de homogeneidade
+bartlett.test(erro_pressao ~ sensor)
+```
+
+. . .
+
+<center>
+::: {style="color:red;align"}
+Pressuposições violadas!
+:::
+</center>
+
+## Exemplo em Engenharia Mecatrônica {background-image="cap02.png"}
+
+Como alternativa, usamos o teste Kruskal-Wallis, isto é,
+
+```{r}
+kruskal.test(erro_pressao ~ sensor)
+```
+
+# Teste Friedman {background-image="cap02.png"}
+
+O **teste de Friedman** é um **teste estatístico não paramétrico** utilizado quando:
+
+* Os dados estão organizados em **blocos** (como em DBC).
+* Os pressupostos da ANOVA de blocos (normalidade e homogeneidade de variâncias) **não são atendidos**.
+* O fator de interesse (tratamento) é **qualitativo**, e a variável resposta é ao menos **ordinal** ou **contínua não normal**.
+
+## Teste Friedman {background-image="cap02.png"}
+
+* Em vez de usar os valores brutos, o teste **transforma os dados em postos (ranks)** **dentro de cada bloco**.
+* Avalia se as **distribuições dos tratamentos são iguais** ao longo dos blocos.
+
+## Teste Friedman {background-image="cap02.png"}
+
+::: callout-note
+**Hipóteses:**
+
+-   $H_0$: As distribuições dos grupos são iguais
+-   $H_1$: Pelo menos uma distribuição é diferente
+:::
+
+
+# Exemplo na Engenharia Civil {background-image="cap02.png"}
+
+Um engenheiro civil realiza um experimento para comparar o desempenho de **três tipos de areia** (natural, britada e reciclada) utilizadas na produção de argamassa de assentamento. O objetivo é avaliar o **tempo de pega inicial (em minutos)**.
+
+## Exemplo na Engenharia Civil {background-image="cap02.png"}
+
+Para considerar a variabilidade nas condições ambientais, o experimento foi conduzido em **cinco dias distintos**, representando os **blocos**.
+
+* **Fator de interesse (tratamento):** Tipo de areia (`Natural`, `Britada`, `Reciclada`)
+* **Blocos:** Dias diferentes de execução do ensaio (`Dia 1` a `Dia 5`)
+* **Resposta:** Tempo de pega inicial da argamassa (minutos)
+* **Delineamento:** DBC (3 tratamentos × 5 blocos)
+
+## Exemplo na Engenharia Civil {background-image="cap02.png"}
+
+```{r}
+bloco <- factor(rep(paste0("Dia_", 1:5), each = 3))
+areia <- factor(rep(c("Natural", "Britada", "Reciclada"), times = 5))
+tempo_pega <- c(
+  110, 115, 250,  # Dia 1 (valor extremo com Reciclada)
+  112, 117, 119,  # Dia 2
+  113, 116, 118,  # Dia 3
+  111, 114, 116,  # Dia 4
+  112, 115, 117   # Dia 5
+)
+
+dados <- data.frame(bloco, areia, tempo_pega); dados
+```
+
+## Exemplo na Engenharia Civil {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Anava
+anava <- aov(tempo_pega ~ areia + bloco, data = dados); summary(anava)
+```
+
+## Exemplo na Engenharia Civil {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Teste de normalidade
+shapiro.test(residuals(anava))
+# Teste de homogeneidade
+bartlett.test(residuals(anava) ~ areia)
+
+```
+
+. . .
+
+<center>
+::: {style="color:red;align"}
+Pressuposições violadas!
+:::
+</center>
+
+
+## Exemplo na Engenharia Civil {background-image="cap02.png"}
+
+
+Como alternativa, usamos o teste Friedman, isto é,
+
+```{r}
+#| echo: true
+friedman.test(tempo_pega ~ areia | bloco)
+```
+
+
+
+# Referências {background-image="cap02.png"}

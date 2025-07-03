@@ -1,7 +1,7 @@
 ---
 title: ⚗️ Ensino normal 2025.1
 summary: Curso sobre Estatística Experimental, com abordagem na linguagem R.
-date: "2025-06-24 16:31:57"
+date: "2025-07-03 15:55:26"
 type: book
 weight: 2
 categories: ["R", "Estatística",  "Programação"]
@@ -433,6 +433,19 @@ Nós usamos essa ementa pela primeira vez, para sentirmos nesse primeiro semestr
        - [Relatório](./aula20_nicolas/index.html)
 
 
+{{< /spoiler >}}
+
+{{< spoiler text="Aula 31 - Estatística não paramétrica na ANAVA">}}
+
+{{< icon name="pen-fancy" pack="fas" >}} Tema - Estatística não paramétrica na ANAVA
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estexp/s31/" target="_blank"> Aula
+31</a>
+
+{{< icon name="book-reader" pack="fas" >}} Material de apoio
+   - [Livro PAE](https://bendeivide.github.io/books/pae/)
+   - [Apostila EstExp](https://bendeivide.github.io/handouts/estexp/)
+   
 {{< /spoiler >}}
 
 ## Quiz
