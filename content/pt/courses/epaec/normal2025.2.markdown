@@ -1,6 +1,6 @@
 ---
 title: 📝 Ensino normal 2025.2
-date: "2025-08-19 13:54:29"
+date: "2025-08-22 08:07:16"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]

@@ -55,12 +55,14 @@ library(calendR)
 
 events <- rep(NA, 153)
 segunda <- seq(18, 153, by = 7)
-quinta <- seq(21, 153, by = 7)
+quarta <- seq(20, 153, by = 7)
 #sextas <- seq(16, 153, by = 7)
 #segundas <- seq(7, 140, by = 7)
 #tercas <- seq(8, 140, by = 7)
-segqui <- c(segunda, quinta)
-events[segqui] <- "Aulas (Sala 209 Bloco 04)\nHorário: 13h15min/15h"
+#segqua <- c(segunda, quarta)
+#events[segqua] <- "Aulas (Sala 209 Bloco 04)\nHorário: 13h15min/15h"
+events[segunda] <- "Aulas (Sala 209 Bloco 04)\nHorário: 13:15/15:05"
+events[quarta] <- "Aulas (Sala 209 Bloco 04)\nHorário: 15:15/17:05"
 
 # Inicio/termino
 initergrad <- c(18, 142)
@@ -70,26 +72,26 @@ events[initergrad] <- "Início/Término \ndo semestre 2025.2\n Graduação"
 #events[c(25, 102, 103)] <- "Aulas extras"
 
 # Provas
-events[c(39, 84, 130)] <- "Avaliações\n Prova 1: 18/09/2025 \n Prova 2: 23/10/2025 \n Prova 3: 08/12/2025"
+events[c(48, 83, 125)] <- "Avaliações\n Prova 1: 17/09/2025 \n Prova 2: 23/10/2025 \n Prova 3: 08/12/2025"
 
 # Feriados
-events[c(38, 43, 58, 59, 94, 107, 112:114, 134)] <- "Feriados \ne/ou recessos"
+events[c(38, 43, 58, 59, 88,89, 94, 107, 112:114, 134)] <- "Feriados \ne/ou recessos"
 
 # retomada 2024 para 2025
 #events[166] <- "Retomada 2024/2025"
 
 # Prova segunda chamada
-events[133] <- "Prova Segunda chamada"
+events[130] <- "Prova Segunda chamada"
 
 # Prova substitutiva
-events[137] <- "Prova substitutiva"
+events[132] <- "Prova substitutiva"
 
 # Ferias
 #events[136:153] <- "Férias"
 
 # Cores
 #cores <- c("lightsalmon", "gold", "red", "green", "cyan", "pink", "lightblue4", "lightgreen")
-cores <- c("lightsalmon", "yellow", "red", "green", "pink",  "cyan" )
+cores <- c("lightblue", "cyan", "red", "green", "pink",  "gold", "lightblue4")
 
 
 # Creating the calendar
@@ -113,6 +115,7 @@ calendR(
   text.size = 20,
   #day.size = 10,
   orientation = "landscape")
+
 
 ```
 
