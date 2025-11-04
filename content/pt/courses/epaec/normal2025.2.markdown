@@ -1,6 +1,6 @@
 ---
 title: 📝 Ensino normal 2025.2
-date: "2025-08-22 08:07:16"
+date: "2025-11-04 07:34:45"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -329,6 +329,12 @@ A perda de alguma avaliação deverá ser apresentado justificativa. Observaçõ
 
 </center>
 
+## <i class="fas fa-feather"></i> Listas de exercícios para entregar {id="exerc_entregar" title="Clique aqui!"}
+
+- {{% staticref "epaec/lista_entrega/lista_cap09.pdf" "newtab" %}}Lista do Capítulo 9{{% /staticref %}}
+- {{% staticref "epaec/lista_entrega/lista_cap10.pdf" "newtab" %}}Lista do Capítulo 10{{% /staticref %}}
+- {{% staticref "epaec/lista_entrega/lista_cap11.pdf" "newtab" %}}Lista do Capítulo 11{{% /staticref %}}
+
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
 
 {{< spoiler text="🎓 Aula 1">}}
@@ -357,10 +363,10 @@ curso e Definições gerais da estatística e técnicas de somatório
 -   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
     target="_blank">Exercícios resolvidos</a>
 
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de apoio**
 
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
+-   🎥 <a href="https://youtu.be/OrgaM1J4w3I?si=i2W2wusUG-nn2nS0"
+    target="_blank">Definições gerais da estatística</a>
 
 {{< /spoiler >}}
 
@@ -391,8 +397,8 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
 
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
+-   🎥 <a href="https://www.youtube.com/live/bVObtgCFISs?si=Xy43JdFdzMcy4duz"
+    target="_blank">Definições gerais da Estatística e organização de dados</a>
 
 {{< /spoiler >}}
 
