@@ -2,7 +2,7 @@
 title: 💻 Quarto Livros
 linkTitle: QLivros
 summary: Um curso ministrado no Youtube para interessados a autores independentes que buscam desenvolver seus próprios livros.
-date: "2026-01-16 09:53:31"
+date: "2026-01-21 10:37:52"
 type: book
 categories: ["R", "Livro", "Programação"]
 tags: ["Curso", "R", "Livro", "Programação", "Digital", "E-book"]
@@ -58,4 +58,4 @@ Estamos focados em apresentar a forma básica de como desvolver um livro usando 
 {{< mention "admin" >}}
 
 
-{{< cta cta_text="Comece o curso" cta_link="intror" >}}
+{{< cta cta_text="Comece o curso" cta_link="videoaulas" >}}
