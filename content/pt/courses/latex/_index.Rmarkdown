@@ -1,0 +1,57 @@
+---
+title: 💻 Curso LateX
+linkTitle: Latex
+summary: Um curso ministrado no Youtube para interessados a autores independentes que buscam estudar a linguagem tipográfica LaTeX.
+date: "`r format(Sys.time())`"
+type: book
+categories: ["Latex", "Livro", "Programação"]
+tags: ["Curso", "Latex", "Livro", "Programação"]
+---
+
+{{< figure src="featured.png" >}}
+
+{{< toc hide_on="xl" >}}
+
+Um curso ministrado no Youtube para interessados a autores independentes que buscam estudar a linguagem tipográfica $ \LaTeX $.
+
+## <i class="fas fa-bullhorn"></i>  Apresentação {id="apresentacao" title="Clique aqui!"}
+
+Seja muito bem vindo ao Curso $ \LaTeX $. Temos um imenso prazer de repassar toda nossa experiência sobre como escrever nesse sistema de editoração de textos. Neste curso, iremos apresentar a ferramenta que eu particularmente escrevo todos os meus livros. O $ \LaTeX $ é um conjunto de macros específica para escrita de testos. Sua base vem do $ \TeX $, um sistema tipográfico de escrita de textos. Neste material, iremos começar desde a instalação do sistema, instalação de editores para escrever nossos texto, mostraremos diversos comandos que podem auxiliar nossa escrita em $ \LaTeX $, até chegarmos a fase final da compilação de nossos arquivos `<>.tex` renderizado para o arquivo de saída desejado . Bons estudos!
+
+
+
+## O que você aprenderá
+
+- Usar o [Latex](https://www.latex-project.org/).
+
+## Visão geral do curso
+
+Estamos focados em apresentar a sintaxe de como escrever em $ \LaTeX $. Neste curso apresentaremos muitos ambientes, comandos, pacotes para utilizar neste sistema de editoração de textos.
+
+## <i class="fab fa-youtube"></i> Playlist do curso $ \LaTeX $ no YouTube {id="inscricao" title="Clique aqui!"}
+
+- [Curso LaTeX](https://youtube.com/playlist?list=PL-20Z1XFWKR16mFCLzfPiNYuu72ibrUt6&si=zzguHpaThVMoUTRi)
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/adNoADWdBe4?si=GP-ItBYhVnUcDAXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+
+
+
+
+## <i class="fas fa-swatchbook"></i> Materiais de apoio {id="livro" title="Clique aqui!"}
+
+- Livros: 
+  - [LaTeX](/books/latex/index.html) 
+
+## Módulos nesse curso
+
+{{< list_children >}}
+
+## Encontre seu instrutor
+
+{{< mention "admin" >}}
+
+
+{{< cta cta_text="Comece o curso" cta_link="videoaulas" >}}

@@ -4,7 +4,9 @@
   
   
   <url>
-    <loc>http://bendeivide.github.io/courses/qlivros/videoaulas/</loc><lastmod>2026-01-21T10:25:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/courses/latex/videoaulas/</loc><lastmod>2026-02-02T13:30:13-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/courses/qlivros/videoaulas/</loc><lastmod>2026-02-02T10:37:19-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/estgeo/intror/</loc><lastmod>2025-03-27T06:42:26-03:00</lastmod></url>
   <url>
@@ -56,7 +58,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -66,7 +68,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -76,9 +78,9 @@
       href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/courses/"
@@ -88,25 +90,21 @@
       href="http://bendeivide.github.io/courses/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/digital/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/latex/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/e-book/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/latex/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/livro/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/courses/latex/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/livro/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/livro/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/programacao/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/livro/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/programacao/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/qlivros/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-01-21T10:37:52-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-02-02T13:30:53-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/tags/"
@@ -116,7 +114,17 @@
       href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/digital/</loc><lastmod>2026-01-21T10:25:52-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/digital/</loc><lastmod>2026-02-02T13:30:13-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/digital/</loc><lastmod>2026-02-02T13:30:13-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-02-02T13:30:13-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/e-book/</loc><lastmod>2026-01-30T14:45:19-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/courses/qlivros/</loc><lastmod>2026-01-30T14:45:19-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2026-01-30T14:45:19-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/estatistica/</loc><lastmod>2025-11-04T07:57:49-03:00</lastmod></url>
   <url>
@@ -154,8 +162,6 @@
   <url>
     <loc>http://bendeivide.github.io/category/linguagem/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/latex/</loc><lastmod>2025-05-21T19:00:00-03:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/talk/latex-um-guia-pratico-com-aplicacoes-na-pesquisa-e-educacao/</loc><lastmod>2025-05-21T19:00:00-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/event/</loc><lastmod>2025-05-21T19:00:00-03:00</lastmod><xhtml:link
@@ -175,8 +181,6 @@
     <loc>http://bendeivide.github.io/category/editor/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/educacao/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/latex/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/books/latex/</loc><lastmod>2025-05-21T07:20:27-03:00</lastmod></url>
   <url>

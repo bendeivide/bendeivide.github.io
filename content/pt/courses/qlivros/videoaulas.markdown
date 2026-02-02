@@ -1,7 +1,7 @@
 ---
 title: 📹 Videoaulas do Curso QLivros
 summary: Curso voltado para desenvolvimento de livros.
-date: "2026-01-21 10:25:52"
+date: "2026-02-02 10:37:19"
 type: book
 weight: 1
 categories: ["Livro", "R", "Programação", "Digital"]

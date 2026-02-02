@@ -2,7 +2,7 @@
 title: 💻 Quarto Livros
 linkTitle: QLivros
 summary: Um curso ministrado no Youtube para interessados a autores independentes que buscam desenvolver seus próprios livros.
-date: "2026-01-21 10:37:52"
+date: "2026-01-30 14:45:19"
 type: book
 categories: ["R", "Livro", "Programação"]
 tags: ["Curso", "R", "Livro", "Programação", "Digital", "E-book"]
@@ -28,7 +28,7 @@ Seja muito bem vindo ao Curso Quarto Livros. Temos um imenso prazer de repassar 
 
 Estamos focados em apresentar a forma básica de como desvolver um livro usando o Quarto. A partir do *Sweave*, *Markdown*, dentre outros, o desenvolvimento de materiais digitais foram se tornando cada vez mais acessíveis. Ferramentas impressionantes são desenvolvidas em R a todo momento. Dentre elas temos o Quarto, um sistema que integra diversas ferramentas para a renderização de um livros, em diversos formatos possíveis. Neste curso, daremos uma ideia do potencial que esta ferramenta pode ser utilizada para aqueles que buscam desenvolver seus próprios livros.
 
-## <i class="fab fa-youtube"></i> Playlist do curso Estatística Experimental no YouTube {id="inscricao" title="Clique aqui!"}
+## <i class="fab fa-youtube"></i> Playlist do curso Quarto Livros no YouTube {id="inscricao" title="Clique aqui!"}
 
 - [Curso QLivros](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0M7prT4svKG0qCoT7aU-EK)
 

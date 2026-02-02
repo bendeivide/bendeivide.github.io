@@ -1,0 +1,250 @@
+---
+title: 📹 Videoaulas do Curso LaTeX
+summary: Curso voltado para apresender a utilizar o LaTeX.
+date: "`r format(Sys.time())`"
+type: book
+weight: 1
+categories: ["Livro", "R", "Programação", "Digital"]
+tags: ["Curso", "Livro", "Digital"]
+---
+
+Vídeos destinados ao Curso LaTeX. Para acessar toda a lista de vídeos diretamente no Youtube, acesse: [Youtube/bendeivide](https://www.youtube.com/playlist?list=PL-20Z1XFWKR16mFCLzfPiNYuu72ibrUt6).
+
+
+## 📼 Sequência de videoaulas
+
+Seguem as videoaulas:
+
+
+{{< spoiler text="🦅 LaTeX | Aula 01 - Instalação no SO Windows">}}
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/adNoADWdBe4?si=Q0VdHkZFARy9MZrJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+{{< / spoiler >}}
+
+{{< spoiler text="🦅 LaTeX | Aula 02 - Instalação no SO Linux">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElzaE3Jo5Jc?si=Z_5Ig4s1EVH1-rxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 03 - Usando o Overleaf">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H38lDWkrobo?si=WkPcz9AypNYNZ85Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 04 - Usando o texlive.net">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/09Q-DsgkW-k?si=KGpnJeEUgLf_FOig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 05 - Estrutura básica de um documento LaTeX">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q1z43g3dhTg?si=6fQFsrTULGqfTsiD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 06 - Encoding no arquivo em LaTeX">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZFDlsBMFiyM?si=yUoUT2l_dduMRNze" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 07 - Comentários em LaTeX">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aJwq2twoInM?si=LcEQhzTBAoq2HpbK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 08 - Comando documentclass em LaTeX">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jUjElHsWNiw?si=i8FW5ZXAviTWWpI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 09 - Pacotes em LaTeX">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OsoDz7nbLz4?si=j5V2WsHbrACW7stM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 10 - Inserindo uma imagem">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_3QsRnMInPk?si=dEcWPi6JEs-RinNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 11 - Inserindo uma imagem e alterando escala">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ize2D9ycXZc?si=WbMSjjPl_lrkWa_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 12 - Inserindo imagens e rotacionando">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WDfZt26hmpE?si=Qmh8ske-PSiPlmIv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 13 - Centralizando e posicionando uma imagem">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Km_FpNI9gA?si=_4IcKewEdjyaIPTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 14 - Inserindo título em uma imagem">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9CZPRadCGno?si=evci7-wpOWim_b4-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 15 - Referência cruzada em uma imagem">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqY9nHmBS5A?si=6KmX_QKE5BJwZSXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 16 - Inserindo duas ou mais imagens (minipage)">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qt_ou5Cu8HA?si=VIAavtu8VxlZp_Gq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 17 - Inserindo duas ou mais imagens (subfig)">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0GIZGhWPwKE?si=8RS0DHEh-I3_hh89" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 18 - Inserindo duas ou mais imagens (subfig) - Parte II">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j551Q3I5Iwo?si=9bvv10SKCTWV--ci" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 19 - Inserindo duas ou mais imagens (subcaption)">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8heR2FWAxUs?si=gdFwuYyF_BS-EJPK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 20 - Listas não numeradas e numeradas">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3WDiOiJvTlQ?si=xxqDuanCjiVjuu9j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 21 - Fórmulas matemáticas no corpo do texto">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r5r6MYrLdLI?si=oj0Dhv3oYQPt6N0l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 22 - Fórmulas matemáticas em destaque no texto">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/twaGssAe_DY?si=86Lse9JpsntU1kSG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 23 - Fórmula matemática numerada">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hj1o52VhcGM?si=VTKpZeDc52ZgfUa-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 24 - Fórmula matemática numerada e numerada">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R-6ccMdOuKA?si=6q_O19pQSXsf4DI-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="🦅 LaTeX | Aula 25 - Símbolos matemáticos">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Y3L0JiIU9c?si=ggeHOZ4ZFgkctSZ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+{{< spoiler text="🦅 LaTeX | Aula 26 - Ambiente align">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ROljBdMW6a8?si=46WxCK1ma2Qam7iS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+
+
