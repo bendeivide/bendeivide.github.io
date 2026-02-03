@@ -1,0 +1,58 @@
+---
+title: 💻 Desenvolvendo Pacotes em R (DPR)
+linkTitle: DPR
+summary: Curso voltado para desenvolver um pacote R.
+date: "`r format(Sys.time())`"
+type: book
+categories: ["R", "Pacote R", "Curso", "Programação"]
+tags: ["Curso", "Latex", "Livro", "Programação", "R"]
+---
+
+{{< figure src="featured.png" >}}
+
+{{< toc hide_on="xl" >}}
+
+Um curso ministrado no Youtube para interessados a desenvolver pacotes em R
+
+## <i class="fas fa-bullhorn"></i>  Apresentação {id="apresentacao" title="Clique aqui!"}
+
+Seja muito bem vindo ao Curso DPR. Temos um imenso prazer de repassar toda nossa experiência sobre como desenvolver pacotes em R. Neste curso, iremos apresentar a estrutura de como funciona um pacote R. Transitaremos desde as condições mínimas de como desenvolver um pacote, elementos mais complexos como por exemplo a inserção de outras linguagens em um pacote R, até ao desenvolvimento da página *web*, algo diferencial para a publicização e alcance do pacote. Bons estudos!
+
+
+
+## O que você aprenderá
+
+- Pacote R. Saiba um pouco sobre o que é um pacote em [Batista e Oliveira (2022)](https://bendeivide.github.io/books/eambr01/)
+
+## Visão geral do curso
+
+Estamos focados em apresentar em vídeos curtos, a forma mais simples de como desenvolver um pacote R
+
+## <i class="fab fa-youtube"></i> Playlist do curso DPR no YouTube {id="inscricao" title="Clique aqui!"}
+
+- [Curso DPR](https://www.youtube.com/playlist?list=PL-20Z1XFWKR0UDd2y_QvTFgLglAaxjKkZ)
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F5XwmAE_k18?si=kOJU0IDB1kvgCJ6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+
+
+
+
+## <i class="fas fa-swatchbook"></i> Materiais de apoio {id="livro" title="Clique aqui!"}
+
+- Livros: 
+  - [Estudando o Ambiente R - Vol I](/books/eambr01/index.html)
+  - [Desenvolvimento de Pacotes Estatísticos em R](/books/dpr/index.html)
+
+## Módulos nesse curso
+
+{{< list_children >}}
+
+## Encontre seu instrutor
+
+{{< mention "admin" >}}
+
+
+{{< cta cta_text="Comece o curso" cta_link="videoaulas" >}}
