@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>💻 Curso LateX | Ben Dêivide</title>
+    <title>💻 Curso LaTeX | Ben Dêivide</title>
     <link>http://bendeivide.github.io/courses/latex/</link>
       <atom:link href="http://bendeivide.github.io/courses/latex/index.xml" rel="self" type="application/rss+xml" />
-    <description>💻 Curso LateX</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 02 Feb 2026 13:30:53 -0300</lastBuildDate>
+    <description>💻 Curso LaTeX</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 02 Feb 2026 13:44:57 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/courses/latex/featured.png</url>
-      <title>💻 Curso LateX</title>
+      <title>💻 Curso LaTeX</title>
       <link>http://bendeivide.github.io/courses/latex/</link>
     </image>
     

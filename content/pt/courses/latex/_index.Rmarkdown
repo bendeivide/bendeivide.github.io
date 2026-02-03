@@ -1,5 +1,5 @@
 ---
-title: 💻 Curso LateX
+title: 💻 Curso LaTeX
 linkTitle: Latex
 summary: Um curso ministrado no Youtube para interessados a autores independentes que buscam estudar a linguagem tipográfica LaTeX.
 date: "`r format(Sys.time())`"

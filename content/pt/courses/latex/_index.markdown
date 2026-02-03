@@ -1,8 +1,8 @@
 ---
-title: 💻 Curso LateX
+title: 💻 Curso LaTeX
 linkTitle: Latex
 summary: Um curso ministrado no Youtube para interessados a autores independentes que buscam estudar a linguagem tipográfica LaTeX.
-date: "2026-02-02 13:30:53"
+date: "2026-02-02 13:44:57"
 type: book
 categories: ["Latex", "Livro", "Programação"]
 tags: ["Curso", "Latex", "Livro", "Programação"]
