@@ -1,8 +1,8 @@
 ---
-title: 💻 Desenvolvendo Pacotes em R (DPR)
+title: 💻 Desenvolvendo Pacotes R (DPR)
 linkTitle: DPR
 summary: Curso voltado para desenvolver um pacote R.
-date: "2026-02-03 10:15:55"
+date: "2026-02-03 10:30:59"
 type: book
 categories: ["R", "Pacote R", "Curso", "Programação"]
 tags: ["Curso", "Latex", "Livro", "Programação", "R"]

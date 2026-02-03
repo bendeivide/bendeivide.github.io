@@ -1,5 +1,5 @@
 ---
-title: 💻 Desenvolvendo Pacotes em R (DPR)
+title: 💻 Desenvolvendo Pacotes R (DPR)
 linkTitle: DPR
 summary: Curso voltado para desenvolver um pacote R.
 date: "`r format(Sys.time())`"
