@@ -1,0 +1,115 @@
+---
+title: 📹 Videoaulas do Curso DocR
+summary: Curso voltado para aprender a escrever documentações em R.
+date: "2026-02-20 05:26:26"
+type: book
+weight: 1
+categories: ["R", "Vídeo", "Aulas"]
+tags: ["R", "Markdown", "Quarto"]
+---
+
+Vídeos destinados ao Curso DocR. Para acessar toda a lista de vídeos diretamente no Youtube, acesse: [Youtube/bendeivide](https://www.youtube.com/playlist?list=PL-20Z1XFWKR1hsTNDLla2486PPVVPP5Qo).
+
+
+## 📼 Sequência de videoaulas
+
+Seguem as videoaulas:
+
+
+{{< spoiler text="✍️ DocR | Aula 01 - Introdução ao Markdown">}}
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E7wbzTLoxhM?si=kC8UZdHMBq2-vK04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+{{< / spoiler >}}
+
+{{< spoiler text="✍️ DocR | Aula 02 - Introdução ao RMarkdown">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G9r3O8tpGRY?si=b15WE-cBDz9jTuko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 03 - Cabeçalho no RMarkdown">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CQhvlbxCvfI?si=1y5w_ABhlHwPz139" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 04 - Corpo no RMarkdown">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n0LxmLkaWTc?si=QNBxzQ_5Gp7ejATI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 05 - Código no RMarkdown">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fXcb-5szo1U?si=a80gZZ4d2Lai1Xj7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 06 - Criação de tabelas">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GVZfR5xKlW0?si=elokfw4JWuvyaq9Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 07 - Criação de tabelas (Parte II)">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UtsSiengR7M?si=Qfgp33sd5Ln1BylB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 08 - Criação de tabelas (Parte III)">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1I0RwYkg7uU?si=Jzk2f-vXlcNxVFQV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 09 - Referências cruzadas: seções">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CVahQ5C7ZdY?si=EftlarUUWGxFx0MP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 10 - Referências cruzadas: figuras">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uOQB9L3Ttmw?si=ytijiZrWjwhu2bDC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+{{< spoiler text="✍️ DocR | Aula 11 - Referências cruzadas: tabelas">}}
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jfkL0cDJ8CY?si=-hCnJ9trmrLyRGsK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
+
+
+
+
