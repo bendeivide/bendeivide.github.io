@@ -18,6 +18,8 @@
   <url>
     <loc>http://bendeivide.github.io/courses/estexp/intror/</loc><lastmod>2025-03-22T15:32:46-03:00</lastmod></url>
   <url>
+    <loc>http://bendeivide.github.io/courses/estexp/videoaulas/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
+  <url>
     <loc>http://bendeivide.github.io/courses/estexp/estexp2025.1/</loc><lastmod>2025-07-03T15:55:26-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/estgeo/estgeo/</loc><lastmod>2025-04-25T18:16:39-03:00</lastmod></url>
@@ -64,9 +66,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/aulas/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -76,7 +76,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -86,7 +86,7 @@
       href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/courses/"
@@ -96,15 +96,19 @@
       href="http://bendeivide.github.io/courses/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/markdown/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/ensino/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/quarto/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/estatistica-experimental/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/estatistica-experimental/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/sisvar/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/tags/"
@@ -113,6 +117,16 @@
       hreflang="pt"
       href="http://bendeivide.github.io/tags/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/videoaulas/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/aulas/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/markdown/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/quarto/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/video/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
   <url>
@@ -123,8 +137,6 @@
     <loc>http://bendeivide.github.io/tag/livro/</loc><lastmod>2026-02-19T19:27:53-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/programacao/</loc><lastmod>2026-02-19T19:27:53-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-02-19T19:27:53-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/curso/</loc><lastmod>2026-02-03T10:30:59-03:00</lastmod></url>
   <url>
@@ -157,8 +169,6 @@
     <loc>http://bendeivide.github.io/category/teoria-de-decisao/</loc><lastmod>2025-11-04T07:57:49-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/estatistica/</loc><lastmod>2025-07-03T15:55:26-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/estatistica-experimental/</loc><lastmod>2025-07-03T15:55:26-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/experimental/</loc><lastmod>2025-07-03T15:55:26-03:00</lastmod></url>
   <url>
@@ -241,8 +251,6 @@
     <loc>http://bendeivide.github.io/tag/palestra/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/talk/um-cancer-na-sociedade/</loc><lastmod>2024-12-10T14:00:00+00:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/ensino/</loc><lastmod>2024-12-10T00:00:00-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/extensao/</loc><lastmod>2024-12-10T00:00:00-03:00</lastmod></url>
   <url>
@@ -328,8 +336,6 @@
   <url>
     <loc>http://bendeivide.github.io/category/multidisciplinar/</loc><lastmod>2024-02-21T16:28:51-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/estatistica-experimental/</loc><lastmod>2023-11-23T00:00:00-03:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/post/expagric40/</loc><lastmod>2023-11-23T00:00:00-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/oficina-do-livro/</loc><lastmod>2023-10-18T19:00:00+00:00</lastmod></url>
@@ -339,8 +345,6 @@
     <loc>http://bendeivide.github.io/tag/musica/</loc><lastmod>2023-07-13T07:22:24-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/podcasts/</loc><lastmod>2023-07-12T16:39:46-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/videoaulas/</loc><lastmod>2023-07-12T16:38:26-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/videos/</loc><lastmod>2023-07-12T16:34:32-03:00</lastmod></url>
   <url>
