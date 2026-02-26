@@ -1,0 +1,36 @@
+---
+title: "💻 Linguagem Tcl/Tk"
+linkTitle: Tcl/Tk
+summary: O curso sobre a linguagem Tcl/TK
+date: "`r format(Sys.time())`"
+type: book
+categories: ["Programação", "Tcl/Tk"]
+tags: ["Curso", "Tcl/Tk"]
+---
+
+{{< figure src="featured.png" width="50%" >}}
+
+{{< toc hide_on="xl" >}}
+
+## O que você aprenderá
+
+- ...
+
+## Visão geral do curso
+
+
+## Módulos nesse curso
+
+{{< list_children >}}
+
+## Encontre seu instrutor
+
+{{< mention "admin" >}}
+
+
+
+{{< spoiler text="Com que frequência os cursos acontecem ?" >}}
+Aulas postadas mensalmente!
+{{< /spoiler >}}
+
+{{< cta cta_text="Acesse as videoaulas" cta_link="videoaulas" >}}
