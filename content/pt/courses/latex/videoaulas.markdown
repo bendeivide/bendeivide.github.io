@@ -1,7 +1,7 @@
 ---
 title: 📹 Videoaulas do Curso LaTeX
 summary: Curso voltado para apresender a utilizar o LaTeX.
-date: "2026-02-02 13:30:13"
+date: "2026-02-26 15:57:31"
 type: book
 weight: 1
 categories: ["Livro", "R", "Programação", "Digital"]
@@ -245,6 +245,12 @@ Seguem as videoaulas:
 
 {{< / spoiler >}}
 
+{{< spoiler text="🦅 LaTeX | Aula 27 - Ambiente equation">}}
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3J0dhnKah_o?si=AgpsYalUP7GvdwXl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+{{< / spoiler >}}
 
 

@@ -1,6 +1,6 @@
 ---
 title: "🎥 Videoaulas do curso Tcl/Tk"
-date: "2026-02-26 07:33:36"
+date: "2026-02-26 07:45:40"
 type: book
 weight: 10
 categories: ["Programação", "Tcl/Tk", "Videoaulas"]

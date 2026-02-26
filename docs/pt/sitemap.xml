@@ -4,13 +4,13 @@
   
   
   <url>
+    <loc>http://bendeivide.github.io/courses/latex/videoaulas/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod></url>
+  <url>
     <loc>http://bendeivide.github.io/courses/docr/videoaulas/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/rpack/videoaulas/</loc><lastmod>2026-02-03T10:13:07-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/meupacoter/videoaulas/</loc><lastmod>2026-02-03T08:16:13-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/courses/latex/videoaulas/</loc><lastmod>2026-02-02T13:30:13-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/qlivros/videoaulas/</loc><lastmod>2026-02-02T10:37:19-03:00</lastmod></url>
   <url>
@@ -30,7 +30,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/normal2024.2/</loc><lastmod>2024-10-14T09:06:07-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/tcltk/videoaulas/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/courses/tcltk/videoaulas/</loc><lastmod>2026-02-26T07:45:40-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/profmat-probest/normal/</loc><lastmod>2025-03-27T19:58:25-03:00</lastmod></url>
   <url>
@@ -68,7 +68,7 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -78,7 +78,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -88,9 +88,9 @@
       href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/courses/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/courses/"
@@ -100,9 +100,19 @@
       href="http://bendeivide.github.io/courses/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/digital/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/category/digital/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/livro/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/livro/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-02-26T15:57:31-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/tags/"
@@ -112,9 +122,9 @@
       href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/videoaulas/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/videoaulas/</loc><lastmod>2026-02-26T07:45:40-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/videoaulas/</loc><lastmod>2026-02-26T07:33:36-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/videoaulas/</loc><lastmod>2026-02-26T07:45:40-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/tcltk/</loc><lastmod>2026-02-26T06:31:29-03:00</lastmod></url>
   <url>
@@ -134,13 +144,9 @@
   <url>
     <loc>http://bendeivide.github.io/tag/quarto/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
-  <url>
     <loc>http://bendeivide.github.io/category/video/</loc><lastmod>2026-02-20T05:26:26-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/docr/</loc><lastmod>2026-02-19T19:27:53-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/livro/</loc><lastmod>2026-02-19T19:27:53-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/programacao/</loc><lastmod>2026-02-19T19:27:53-03:00</lastmod></url>
   <url>
@@ -151,12 +157,6 @@
     <loc>http://bendeivide.github.io/tag/latex/</loc><lastmod>2026-02-03T10:30:59-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/pacote-r/</loc><lastmod>2026-02-03T10:30:59-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/digital/</loc><lastmod>2026-02-03T10:13:07-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/digital/</loc><lastmod>2026-02-03T10:13:07-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/livro/</loc><lastmod>2026-02-03T10:13:07-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/latex/</loc><lastmod>2026-02-02T13:44:57-03:00</lastmod></url>
   <url>
