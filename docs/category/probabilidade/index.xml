@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/probabilidade/</link>
       <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilidade</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 18 Mar 2026 07:49:46 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 19 Mar 2026 08:04:57 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Probabilidade</title>
@@ -537,7 +537,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Wed, 18 Mar 2026 07:49:46 -0300</pubDate>
+      <pubDate>Thu, 19 Mar 2026 08:04:57 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -554,10 +554,8 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     &lt;li&gt;&lt;a href=&#34;#avaliacao&#34;&gt;&lt;i class=&#34;fas fa-award&#34;&gt;&lt;/i&gt; Avaliação&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#bibiografia&#34;&gt;&lt;i class=&#34;fa fa-book&#34;&gt;&lt;/i&gt; Bibliografia adotada para a disciplina&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#matadotado&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Material adotado&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#mativas&#34;&gt;&lt;i class=&#34;fas fa-chalkboard&#34;&gt;&lt;/i&gt; Metodologias ativas&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#aprender&#34;&gt;&lt;i class=&#34;fab fa-leanpub&#34;&gt;&lt;/i&gt; Como estudar e aprender&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#relatorio&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; -&amp;gt; &lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Modelo de Relatório R para PDF&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#exerc_entregar&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Listas de exercícios para entregar&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#relatorio&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; -&amp;gt; &lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Modelo de Relatório R para &lt;em&gt;Web&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#exerc_entregar&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#quiz&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/a&gt;&lt;/li&gt;
@@ -623,8 +621,7 @@ aulas&lt;/a&gt;:
 &lt;li&gt;Engenharia de Telecomunicações (&lt;a href=&#34;&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
-&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
-CAP/UFSJ&lt;/p&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do CAP/UFSJ&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
   &lt;p&gt;&lt;ol&gt;
@@ -744,8 +741,7 @@ CAP/UFSJ&lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;metodologia&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Metodologia&lt;/h2&gt;
 &lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
-aulas serão expositivas e dialogadas com os alunos presencialmente ou
-via portal didático, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
+aulas serão expositivas e dialogadas com os alunos presencialmente, como também a inserção de aulas práticas usando o experimento da catapulta para conectar com os assuntos estudados em sala. Ainda, usaremos o ambiente R para o desenvolvimento das análises, mais especificamente, o pacote &lt;a href=&#34;http://bendeivide.github.io/project/leem/index.html&#34;&gt;leem&lt;/a&gt;, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Motivação:
 &lt;ul&gt;
@@ -768,10 +764,10 @@ abordado.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 72h**.&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;Nossas aulas serão motivadas pelo experimento da catapulta. Por meio deste experimento geraremos todo o suporte para a obtenção de dados e assim, utilizar todas as técnicas estatística propostas na ementa da disciplina.&lt;/p&gt;
+&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
 &lt;!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube &lt;https://youtube.com/bendeivide&gt;. --&gt;
-&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
+&lt;p&gt;Iremos utilizar o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; e o pacote &lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leem&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;avaliacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-award&#34;&gt;&lt;/i&gt; Avaliação&lt;/h2&gt;
@@ -779,23 +775,23 @@ abordado.&lt;/li&gt;
 &lt;!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) --&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1ª Avaliação - Seções 1, 2, 3, e 4 - 20 pontos;&lt;/li&gt;
-&lt;li&gt;2ª Avaliação - Seções 5, 6, 7 e 8 - 30 pontos;&lt;/li&gt;
-&lt;li&gt;3ª Avaliação - Seções 9, 10 e 11 - 30 pontos;&lt;/li&gt;
-&lt;li&gt;Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o &lt;a href=&#34;http://bendeivide.github.io/project/ProjAPE&#34;&gt;Aprender por ensinar&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/LEEM&#34;&gt;LEEM&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/statscience&#34;&gt;statscience&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/project/RapidinhasR&#34;&gt;Rapidinhas do R&lt;/a&gt;, dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina.&lt;/p&gt;
-&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações.&lt;/p&gt;
-&lt;p&gt;O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria.&lt;/p&gt;
-&lt;p&gt;A perda de alguma avaliação deverá ser apresentado justificativa. Observações:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID;&lt;/li&gt;
-&lt;li&gt;Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica;&lt;/li&gt;
-&lt;li&gt;Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas;&lt;/li&gt;
-&lt;li&gt;Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento.&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; e  &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Grande parte das análises estatísticas utilizadas serão desenvolvidas com o pacote &lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leem&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.&lt;/p&gt;
+&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina.&lt;/p&gt;
+&lt;p&gt;O discente que perder algum relatório ou atividade avaliativa referente aos 20% dos pontos informados anteriormente, deverá solicitar a coordenadoria de seu curso uma segunda chamada para tal atividade perdida, justificando a ausência da entrega. Sendo deferida pela coordação, faremos a segunda chamada de tal atividade.&lt;/p&gt;
+&lt;!-- Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma: --&gt;
+&lt;!-- - 1ª Avaliação - Seções 1, 2, 3, e 4 - 20 pontos; --&gt;
+&lt;!-- - 2ª Avaliação - Seções 5, 6, 7 e 8 - 30 pontos; --&gt;
+&lt;!-- - 3ª Avaliação - Seções 9, 10 e 11 - 30 pontos; --&gt;
+&lt;!-- - Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos; --&gt;
+&lt;!-- Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina. --&gt;
+&lt;!-- Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações. --&gt;
+&lt;!-- O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria. --&gt;
+&lt;!-- A perda de alguma avaliação deverá ser apresentado justificativa. Observações: --&gt;
+&lt;!-- - São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID; --&gt;
+&lt;!-- - Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica; --&gt;
+&lt;!-- - Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas; --&gt;
+&lt;!-- - Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento. --&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- ## &lt;i class=&#34;fas fa-check&#34;&gt;&lt;/i&gt; Como as provas serão corrigidas? {id=&#34;correcao&#34; title=&#34;Clique aqui!&#34;} --&gt;
@@ -864,68 +860,21 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;mativas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard&#34;&gt;&lt;/i&gt; Metodologias ativas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
-  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power
-point&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em
-vídeo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Os programas necessários:
+&lt;h2 id=&#34;relatorio&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; -&amp;gt; &lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Modelo de Relatório R para &lt;em&gt;Web&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Acesse o &lt;a href=&#34;http://bendeivide.github.io/courses/epaec/modrel/index.html&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;exerc_entregar&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Engenharia Mecatrônica&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no
-Windows);
-&lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS
-Studio&lt;/a&gt; OBS.: Os
-programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 NOME DO ALUNO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
-  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
-vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
-  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
-vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;aprender&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-leanpub&#34;&gt;&lt;/i&gt; Como estudar e aprender&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;Vídeoaula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;relatorio&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; -&amp;gt; &lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Modelo de Relatório R para PDF&lt;/h2&gt;
-&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/vyREV9ciI7M?si=I0lBuIZBIMY6cd8g&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;h2 id=&#34;exerc_entregar&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Listas de exercícios para entregar&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Engenharia de Telecomunicações&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/epaec/lista_entrega/lista_cap09.pdf&#34; target=&#34;_blank&#34;&gt;Lista do Capítulo 9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/epaec/lista_entrega/lista_cap10.pdf&#34; target=&#34;_blank&#34;&gt;Lista do Capítulo 10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/epaec/lista_entrega/lista_cap11.pdf&#34; target=&#34;_blank&#34;&gt;Lista do Capítulo 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 NOME DO ALUNO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação do
 curso e Definições gerais da estatística e técnicas de somatório
@@ -955,7 +904,7 @@ target=&#34;_blank&#34;&gt;Definições gerais da estatística&lt;/a&gt;&lt;/li&
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Exercícios sobre Definições gerais da estatística e técnicas de somatório (Capítulo 1)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s02/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -983,7 +932,7 @@ target=&#34;_blank&#34;&gt;Definições gerais da Estatística e organização d
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Coleta, organização e apresentação de dados&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s03/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1011,9 +960,9 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Exercícios sobre Coleta, organização e apresentação de dados&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Aula Prática 02 - Cap. 01 e 02&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s04/&#34; target=&#34;_blank&#34;&gt; Aula
 04&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
@@ -1021,8 +970,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
 &lt;a href=&#34;https://docs.google.com/document/d/1go3LMsYDs2z2OWHFoZ5EFhVh6Efeb6iNyTIkPTK7lQk/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
 &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula04.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/telecom/EPAEC2026.2_TELECOM_AP02.R&#34; target=&#34;_blank&#34;&gt;Script01-AP01.R&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
@@ -1039,7 +987,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Medidas de posição&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s05/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1066,7 +1014,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Exercícios sobre Medidas de posição&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s06/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1092,7 +1040,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 7&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Medidas de dispersão&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s07/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1118,7 +1066,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;🎓 Aula 8&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Exercícios sobre Medidas de dispersão&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s08/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1144,7 +1092,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;🎓 Aula 9&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Revisão para a Prova 1&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s09/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1170,11 +1118,11 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;🎓 Aula 10&lt;/summary&gt;
   &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Prova 1:&lt;/strong&gt; Realizado em horário de aula. Acesse o  &lt;a href=&#34;./#cronograma&#34; target=&#34;_blank&#34;&gt; cronograma de aulas&lt;/a&gt; para mais detalhes.&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;🎓 Aula 11&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Probabilidades (Parte I e Parte II)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s11/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1201,7 +1149,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;🎓 Aula 12&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Probabilidades (Parte III)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s12/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1227,7 +1175,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;🎓 Aula 13&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Exercícios sobre Probabilidades&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s13/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1253,7 +1201,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;🎓 Aula 14&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Distribuições de probabilidade (Parte I)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s14/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1279,7 +1227,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
   &lt;summary&gt;🎓 Aula 15&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Distribuições de probabilidade (Parte II)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s15/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1305,7 +1253,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
   &lt;summary&gt;🎓 Aula 16&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema:&lt;/strong&gt; Exercícios sobre Distribuições de probabilidade&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s16/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1331,83 +1279,83 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
   &lt;summary&gt;🎓 Aula 17&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
   &lt;summary&gt;🎓 Aula 18&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
   &lt;summary&gt;🎓 Aula 19&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
   &lt;summary&gt;🎓 Aula 20&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-38&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
   &lt;summary&gt;🎓 Aula 21&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-39&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
   &lt;summary&gt;🎓 Aula 22&lt;/summary&gt;
   &lt;p&gt;Prova 02&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-40&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
   &lt;summary&gt;🎓 Aula 23&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-41&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
   &lt;summary&gt;🎓 Aula 24&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-42&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
   &lt;summary&gt;🎓 Aula 25&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-43&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
   &lt;summary&gt;🎓 Aula 26&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-44&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
   &lt;summary&gt;🎓 Aula 27&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-45&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-38&#34;&gt;
   &lt;summary&gt;🎓 Aula 28&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-46&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-39&#34;&gt;
   &lt;summary&gt;🎓 Aula 29&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-47&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-40&#34;&gt;
   &lt;summary&gt;🎓 Aula 30&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-48&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-41&#34;&gt;
   &lt;summary&gt;🎓 Aula 31&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-49&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-42&#34;&gt;
   &lt;summary&gt;🎓 Aula 32&lt;/summary&gt;
   &lt;p&gt;Em aula!&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-50&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-43&#34;&gt;
   &lt;summary&gt;🎓 Aula 33&lt;/summary&gt;
   &lt;p&gt;Prova 3&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-51&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-44&#34;&gt;
   &lt;summary&gt;🎓 Aula 34&lt;/summary&gt;
   &lt;p&gt;Palestra&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-52&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-45&#34;&gt;
   &lt;summary&gt;🎓 Aula 35&lt;/summary&gt;
   &lt;p&gt;Segunda chamada&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-53&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-46&#34;&gt;
   &lt;summary&gt;🎓 Aula 36&lt;/summary&gt;
   &lt;p&gt;Prova substitutiva&lt;/p&gt;
 &lt;/details&gt;
@@ -1447,11 +1395,11 @@ href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
 target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-70&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-63&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-71&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-64&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
@@ -1462,6 +1410,80 @@ target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📑 Modelo de Relatório</title>
+      <link>http://bendeivide.github.io/courses/epaec/modrel/</link>
+      <pubDate>Thu, 19 Mar 2026 07:24:45 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/epaec/modrel/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfa-fa-download-aria-hiddentruei-o-que-é-necessário&#34;&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; O que é necessário?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-pencil-alt-aria-hiddentruei-como-aprender-cada-uma-das-ferramentas-necessárias&#34;&gt;&lt;i class=&#34;fas fa-pencil-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Como aprender cada uma das ferramentas necessárias?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfab-fa-youtube-aria-hiddentruei-videoaulas-com-o-passo-a-passo&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Videoaulas com o passo a passo&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#onde&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Onde encontrar o projeto base?&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/h2&gt;
+&lt;p&gt;Material desenvolvido para que os alunos da disciplina de estatística e probabilidade possam desenvolver seus relatórios estatísticos ou dinâmicos para a disciplina de Estatística e Probabilidade.&lt;/p&gt;
+&lt;h2 id=&#34;i-classfa-fa-download-aria-hiddentruei-o-que-é-necessário&#34;&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; O que é necessário?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; e &lt;a href=&#34;https://posit.co/download/rstudio-desktop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;De forma mais detalhada recomendamos acessar este &lt;a href=&#34;https://bendeivide.github.io/relatorio-estprob/relatorio/index.html#vis%C3%A3o-geral-sobre-os-relat%C3%B3rios&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;i-classfas-fa-pencil-alt-aria-hiddentruei-como-aprender-cada-uma-das-ferramentas-necessárias&#34;&gt;&lt;i class=&#34;fas fa-pencil-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Como aprender cada uma das ferramentas necessárias?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender sobre o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; e &lt;a href=&#34;https://posit.co/download/rstudio-desktop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;, recomendamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; curso &lt;a href=&#34;http://bendeivide.github.io/courses/ear/index.html&#34;&gt;EAR - R Básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-book&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/books/eambr01/index.html&#34;&gt;R Básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&amp;amp;si=1l6tbB6hT8zqngEB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2024&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&amp;amp;si=O643FJU11nsbgGr6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&amp;amp;si=1HRK2Z1GDM3UubjQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR2K-rWoInwE1WnwtBiulX2S&amp;amp;si=SMWdzKFfeHTlb9DO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Intermediário 2021&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender sobre o &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt;, recomendamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/latex/index.html&#34;&gt;Curso LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-book&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/books/latex/index.html&#34;&gt;LaTeX: Um guia prático com aplicações na pesquisa e educação&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender o &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, recomendamos acessar a sua própria página &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://quarto.org/&lt;/a&gt;. Como alternativa, temos um curso usando o Quarto para a criação de livros, que pode auxiliar no seu uso, como também o Curso Documentações em R. Acesse: &lt;a href=&#34;http://bendeivide.github.io/courses/qlivros/index.html&#34;&gt;Quarto livros&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/courses/docr/index.html&#34;&gt;Documentações em R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender a usar o &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;, recomendamos fortemente enteder a noção básica sobre o &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;. Acesse o &lt;a href=&#34;https://git-scm.com/book/en/v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;manual&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender o &lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;, acesse:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0NaBzcRbt3Rjq_2TTUOPK1&amp;amp;si=ReW7BRmwBEbEEUlN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Use leem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR2FCUNnCm6WPuqYN2c9IvdJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso do pacote leem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;i-classfab-fa-youtube-aria-hiddentruei-videoaulas-com-o-passo-a-passo&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Videoaulas com o passo a passo&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ao invés de usar  link &lt;a href=&#34;https://bendeivide.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/profmatma41/&lt;/a&gt;, se baseie neste &lt;a href=&#34;https://bendeivide.github.io/relatorio-estprob/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/relatorio-estprob/&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Onde encontrar o projeto base?&lt;/h2&gt;
+&lt;p&gt;Segue o &lt;a href=&#34;https://github.com/bendeivide/relatorio-estprob&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;. Seguindo os passos dos dois vídeos informados anteriormente, será possível a criação do modelo de relatório.&lt;/p&gt;
 </description>
     </item>
     
