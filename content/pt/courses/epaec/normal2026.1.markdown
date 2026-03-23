@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-19 08:04:57"
+date: "2026-03-23 08:04:55"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -302,9 +302,191 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 - ...
 
 
+## <i class="fa fa-flask"></i> Experimentos para as aulas práticas
+
+{{< spoiler text="⚗️ Experimento da catapulta">}}
+ 
+ O experimento da catapulta consiste no lançamento de uma bolinha por meio de um dispositivo mecânico, variando-se condições como a posição do elástico, posição da bolinha e o ângulo de disparo. O objetivo é analisar como essas variáveis podem ou não influenciar a distância percorrida pela bolinha.
+ 
+Ou melhor,
+
+> “Se lançarmos uma mesma bolinha várias vezes com essa catapulta, sob as mesmas condições iniciais, ela sempre cairá no mesmo lugar?”
+
+Mesmo sob condições controladas, observa-se que os resultados não são idênticos, evidenciando a presença de variabilidade experimental. Assim, este experimento constitui um contexto adequado para a aplicação de técnicas estatísticas que abordaremos em nosso curso.
+ 
+ O experimento da catapulta pode ser ilustrado na <a href="#fig-catapulta">Figura 1</a>.
+ 
+ 
+<div id="fig-catapulta">
+{{< figure src="/imagens/catapulta/exp_catapulta.png" 
+           title="Figura 1: Experimento da catapulta. " 
+           width="400px"  style="text-align: center;">}}
+</div>
+
+A distância percorrida pela bolinha depende basicamente de:
+
+* **energia armazenada no sistema** (elástico)
+* **ângulo de lançamento**
+* **geometria do mecanismo**
+
+Os pontos **O-, A+, A- e B+** controlam exatamente esses aspectos. A <a href="#fig-catapultareal">Figura 2</a> apresenta a catapulta utilizada no experimento em sala de aula.
+
+<div id="fig-catapultareal">
+{{< figure src="/imagens/catapulta/catapulta.jpg" 
+           title="Figura 2: Catapulta utilizada em sala de aula. " 
+           width="400px"  style="text-align: center;">}}
+</div>
+
+
+### ⚙️ 1. Posição **A+** (tensão do elástico – maior intensidade)
+
+* Local onde o elástico é fixado mais “esticado”
+* Representa **maior deformação do elástico**
+
+<div id="fig-famais">
+{{< figure src="/imagens/catapulta/fator_amais.jpg" 
+           title="Figura 3: Fator A+. " 
+           width="400px"  style="text-align: center;">}}
+</div>
+
+
+#### 🔬 Efeito físico:
+
+* Aumenta a **energia potencial elástica**
+* Gera maior velocidade inicial da bolinha
+
+#### 📊 Impacto na distância:
+
+* Tendência de **maior alcance**
+* Porém:
+
+  * pode aumentar a variabilidade (lançamentos mais “sensíveis”)
+
+### ⚙️ 2. Posição **A-** (tensão do elástico – menor intensidade)
+
+* Posição com menor estiramento do elástico
+
+<div id="fig-famenos">
+{{< figure src="/imagens/catapulta/fator_amenos.jpg" 
+           title="Figura 4: Fator A-." 
+           width="400px"  style="text-align: center;">}}
+</div>
+
+#### 🔬 Efeito físico:
+
+* Menor energia armazenada
+* Menor velocidade de lançamento
+
+#### 📊 Impacto na distância:
+
+* **Menor alcance médio**
+* Em geral:
+
+  * maior controle
+  * menor variabilidade
+
+
+### ⚙️ 3. Posição **B+** (ajuste do ângulo/curso do braço)
+
+* Relacionada ao limite de deslocamento do braço da catapulta
+* Atua como um **batente ou regulador do ângulo final**
+
+<div id="fig-fbmais">
+{{< figure src="/imagens/catapulta/fator_bmais.jpg" 
+           title="Figura 5: Fator B+." 
+           width="400px"  style="text-align: center;">}}
+</div>
+
+
+
+#### 🔬 Efeito físico:
+
+* Define o **ângulo de saída da bolinha**
+* Influencia o tempo de voo
+
+
+
+#### 📊 Impacto na distância:
+
+* Ângulos próximos de ~45° → maior alcance (ideal teórico)
+* Ângulos muito baixos → bola “rasteira”
+* Ângulos muito altos → bola sobe mais, mas percorre menos distância horizontal
+
+<!-- 👉 Esse ponto é excelente para trabalhar **regressão ou otimização** -->
+
+### ⚙️ 4. Posição **O-** (ponto de referência/apoio superior)
+
+* Atua como referência estrutural do braço
+* Pode influenciar o alinhamento ou ponto de giro
+
+<div id="fig-fomenos">
+{{< figure src="/imagens/catapulta/fator_omenos.jpg" 
+           title="Figura 6: Fator O-." 
+           width="400px"  style="text-align: center;">}}
+</div>
+
+#### 🔬 Efeito físico:
+
+* Afeta a **geometria do movimento**
+* Pode alterar levemente:
+
+  * o ângulo inicial
+  * o comportamento do braço
+
+#### 📊 Impacto na distância:
+
+* Influência mais **indireta**
+* Atua em conjunto com A e B
+* Pode afetar a **reprodutibilidade** dos lançamentos
+
+### 🧠 Integração das variáveis
+
+A distância não depende de um fator isolado, mas da combinação:
+
+$$
+\text{Distância} = f(\text{tensão do elástico}, \text{ângulo}, \text{geometria}) + \varepsilon
+$$
+
+Ou, de forma mais didática:
+
+* **A+ / A- → controla a força**
+* **B+ → controla o ângulo**
+* **O- → estabiliza o sistema**
+
+
+
+<!-- ## 📊 Insight estatístico importante -->
+
+<!-- Você pode explorar com os alunos: -->
+
+<!-- * Comparar **A+ vs A-** → efeito de um fator (ANOVA simples) -->
+<!-- * Fixar A e variar B → **efeito do ângulo** -->
+<!-- * Fazer combinações → **planejamento fatorial** -->
+
+
+
+<!-- ### 💡 Pergunta poderosa para sala -->
+
+<!-- > “É melhor aumentar a força ou ajustar o ângulo para ganhar distância?” -->
+
+<!-- 👉 Isso leva naturalmente ao conceito de: -->
+
+<!-- * interação entre fatores -->
+<!-- * otimização experimental -->
+
+
+
+{{< /spoiler >}}
+
+
+
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
 
+<div style="margin-left: 20px;">
+
 {{< spoiler text="🎓 Aula 1">}}
+
+<div style="margin-left: 20px;">
 
 {{< icon name="pen-fancy" pack="fas" >}} **Temas:** Apresentação do
 curso e Definições gerais da estatística e técnicas de somatório
@@ -312,34 +494,105 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s01/" target="_blank"> Aula
 01</a>
-
+{{< icon name="book-reader" pack="fas" >}}
+<a href="https://docs.google.com/document/d/1GCzMX9DeFUFxXrr5kvXhXjXmHl7j0OhrM3HFt4nolpw/edit?usp=sharing" target="_blank">
+**Plano de aula** </a>
+{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 1](https://bendeivide.github.io/book-epaec/cap01.html)
 {{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
 {{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1FH1XO5fz9eRCClym4BMeivzPZzHbEkKWXvQidTjZC_A/edit?usp=sharing" target="_blank">
-**Plano de aula** </a>
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🎙 Podcast 01 (NotebookLM  - 2026.1) - Como a estatística transforma dados em decisões">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast01_Como_a_estatística_transforma_dados_em_decisoes.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm*, baseado no vídeo [RES0001 - Definições Gerais da Estatística](https://www.youtube.com/watch?v=Ibc6BUt3jbc).
+
+{{< /spoiler >}}
+
+
+</div>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎙 Podcast EP-ER#01 (2021.2) - Definições Gerais da Estatística">}}
+
+<div style="margin-left: 20px;">
+
+<iframe src="https://open.spotify.com/embed/episode/00QWz0x2xOdXCdC2uLCvbU" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido na disciplina de Estatística e Probabilidade, no [período remoto em 2021.2](/courses/epaec/remoto/).
+
+{{< /spoiler >}}
+
+</div>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎙 Podcast 01 (Por Elisa Najla, 2022.2) - Definições Gerais da Estatística">}}
+
+<div style="margin-left: 20px;">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D1m6PC53BXU?si=B7zarlOoPE1KQus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido na disciplina de Estatística e Probabilidade, no período de 2022.1, por Elisa Najla, aluna de Engenharia de Telecomunicações (UFSJ). Mais podcasts, acesse [Youtube/bendeivide](https://www.youtube.com/watch?v=D1m6PC53BXU&list=PL-20Z1XFWKR3M4laONv5FlvyKF8tLAHE4).
+
+{{< /spoiler >}}
+
+
+</div>
+
+{{< /spoiler >}}
+
+</div>
+
 {{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula01.R" target="_blank">*Script* Aula 1</a>
+    href="/epaec/2026.1/r-scripts/aula01.R" target="_blank">*Script* Aula 1</a>
 
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+{{< icon name="brain" pack="fas" >}} **Mapa Mental**
 
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
+<div style="margin-left: 20px;">
 
-{{< icon name="youtube" pack="fab" >}} **Videoaulas de apoio**
+{{< spoiler text="🧠 Mapa Mental 01 (NotebookLM) - Definições Gerais da Estatística">}}
+
+{{< figure src="/mapamental/epaec/2026.1/mapa_mental01_Definicoes_gerais_da_estatistica.png" 
+           title="Mapa Mental 01 (NotebookLM) - Definições Gerais da Estatística. " 
+           width="400px" >}}
+           
+{{< /spoiler >}}
+
+</div>
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
 
 -   🎥 <a href="https://youtu.be/OrgaM1J4w3I?si=i2W2wusUG-nn2nS0"
     target="_blank">Definições gerais da estatística</a>
+-   🎥 <a href="https://youtu.be/Ibc6BUt3jbc?si=lpMHRMVDCyRxXS9q"
+    target="_blank">Resumo sobre Definições gerais da estatística</a>
+-   🎥 <a href="https://youtu.be/l0JjW-E9jco?si=FECgnSxU9cCmHvrV"
+    target="_blank">Ensino Remoto 2021.1 - Apresentação da disciplina de Estatística e Probabilidade</a>
+-   🎥 <a href="https://www.youtube.com/live/bVObtgCFISs?si=VIPBV0uHAuARIz9l"
+    target="_blank">Ensino Remoto 2021.1 - Definições gerais da Estatística e organização de dados</a>
+-   🎥 <a href="https://youtu.be/xvORKHMVUr8?si=s8nakBWREHHCD9iS"
+    target="_blank">População, Amostra e Variável</a>
+-   🎥 <a href="https://youtu.be/tWCxCyZZHes?si=DIxL0OszO93nrk0n"
+    target="_blank">Técnicas de Somatório</a>
+
+</div>
 
 {{< /spoiler >}}
 
 {{< spoiler text="🎓 Aula 2">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Exercícios sobre Definições gerais da estatística e técnicas de somatório (Capítulo 1)
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Introdução ao R e Aula Prática 01
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s02/" target="_blank"> Aula
 02</a>
@@ -371,7 +624,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< spoiler text="🎓 Aula 3">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Coleta, organização e apresentação de dados
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Introdução ao R (Parte II) e [Capítulo 2](#ementa)
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s03/" target="_blank"> Aula
 03</a>
@@ -380,6 +633,8 @@ curso e Definições gerais da estatística e técnicas de somatório
 {{< icon name="headphones" pack="fas" >}} **Podcast**
 {{< icon name="book-reader" pack="fas" >}}
 <a href="https://docs.google.com/document/d/1rQ4MmpoFRLgUBbt7zktcAEaTODB9WFViY1dWTdnjVC0/edit?usp=sharing" target="_blank">
+
+
 **Plano de aula** </a>
 {{< icon name="r-project" pack="fab" >}} <a
     href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>, {{% staticref "epaec/2025.1/EPAEC2025.1_aula03.R" "newtab" %}}*Script* Aula 3 (2025.1){{% /staticref %}}
@@ -389,14 +644,22 @@ curso e Definições gerais da estatística e técnicas de somatório
 -   <a href="{{< relref"courses/epaec/remoto/index" >}}"
     target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
 -   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
+    target="_blank"> Curso EaAR: R básico</a>
 -   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
     target="_blank">Exercícios resolvidos</a>
 
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
 
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
+-   🎥 <a href="https://youtu.be/wdXJ_CzMdXI?si=hrp_4f5-ctmmVQ__"
+    target="_blank">Tabulação e Organização de Dados</a>
+-   🎥 <a href="https://www.youtube.com/live/bVObtgCFISs?si=6idNqaEOZ5LKJw5K"
+    target="_blank">
+Estatística e Probabilidade (ER - 2021.2) - Aula 01: Definições gerais da Estatística e organização de dados</a>
+-   🎥 <a href="https://www.youtube.com/live/DZ4PzyY5YYg?si=wcMPr_7cms8l4zsm"
+    target="_blank">
+Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos temas inseridos na descrição</a>
+
+
 
 {{< /spoiler >}}
 
@@ -414,7 +677,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 **Plano de aula** </a>
 
 {{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/telecom/EPAEC2026.2_TELECOM_AP02.R" "newtab" %}}Script01-AP01.R{{% /staticref %}}
-    
+
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
 -   <a href="{{< relref"courses/epaec/remoto/index" >}}"
@@ -433,468 +696,11 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< spoiler text="🎓 Aula 5">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Medidas de posição
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s05/" target="_blank"> Aula
-05</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1TGcA1kXbfpny6dALR0Ekn-CGbBH0N9_2Dx_hJChGphg/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-<!-- <i class="fas fa-pen"></i> {{% staticref "/epaec/2023.2/qbranco/aula05.png" "newtab" %}}Quadro branco - Aula 05{{% /staticref %}} -->
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula05.R" target="_blank">*Script* Aula 5</a>, {{% staticref "epaec/2025.1/EPAEC2025.1_aula05.R" "newtab" %}}*Script* Aula 5 (2025.1){{% /staticref %}}
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Como desenvolver Relatórios Web e [Capítulo 3](#ementa)
 
 {{< /spoiler >}}
 
-{{< spoiler text="🎓 Aula 6">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Medidas de posição
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s06/" target="_blank"> Aula
-06</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1K29u8DbCXwgKkwNoUjFb1P10M1bDzaPu8vQDXnuPBMc/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula06.R" target="_blank">*Script* Aula 6</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-
-{{< spoiler text="🎓 Aula 7">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Medidas de dispersão
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s07/" target="_blank"> Aula
-07</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1QWGBFJfO3ksSTQFqmnDhOoC5S35EXNHdHnAZ5E-SDK8/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 7</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 8">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Medidas de dispersão
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s08/" target="_blank"> Aula
-08</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1-IyLZTU8DV9SlSxem8wxewqfPR51l8wWP3D0moBHmlE/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 8</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 9">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Revisão para a Prova 1
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s09/" target="_blank"> Aula
-09</a>
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1-IyLZTU8DV9SlSxem8wxewqfPR51l8wWP3D0moBHmlE/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 9</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 10">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Prova 1:** Realizado em horário de aula. Acesse o  <a href="./#cronograma" target="_blank"> cronograma de aulas</a> para mais detalhes.
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 11">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte I e Parte II)
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s11/" target="_blank"> Aula
-11 (Parte I)</a> e <a href="/slides/estprob/s11.2/" target="_blank"> Aula
-11 (Parte II)</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} **Plano de aula**: <a href="https://docs.google.com/document/d/1YYiwcfF-WzEYrPAHKDkwha0GkFx3Oe9kD-LPlNqFpsw/edit?usp=sharing" target="_blank"> Parte (I) </a> e <a href="https://docs.google.com/document/d/1WWVCRRcdniJVPCs-XyGPAn9QFqU58a_HA2Fdn4qo3SI/edit?usp=sharing" target="_blank"> Parte (II) </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 11</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 12">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Probabilidades (Parte III)
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s12/" target="_blank"> Aula
-12</a>
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1or8cBxA9mgxAIFJh4DvfDt_TNBS_CA6bYaqaRQkJlFE/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 12</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 13">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Probabilidades
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s13/" target="_blank"> Aula
-13</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1otiPm3MYWiYXkSgKma4ctssfZAS2vc3jFym_tHFxb08/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 8</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 14">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade (Parte I)
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s14/" target="_blank"> Aula
-14</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1Slhnxykl6DNBnmjDu5IT-1dO6TIEm4byNj0qohkxNzs/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 15</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 15">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Distribuições de probabilidade (Parte II)
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s15/" target="_blank"> Aula
-15</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/1mH28OTcWdsB0-dT5M0KpnrpUK-PTZVQGLY5Dcy9Ha4A/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 15</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-
-
-{{< spoiler text="🎓 Aula 16">}}
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema:** Exercícios sobre Distribuições de probabilidade
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s16/" target="_blank"> Aula
-16</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-{{< icon name="book-reader" pack="fas" >}} <a href="https://docs.google.com/document/d/18l6tH7yN2URhmtgrNZfC2GfYhlKVtMtfbva13kcL9Y4/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="" target="_blank">*Script* Aula 16</a>
-    
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
-
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 17">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 18">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 19">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 20">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 21">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 22">}}
-
-Prova 02
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 23">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 24">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 25">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 26">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 27">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-
-{{< spoiler text="🎓 Aula 28">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 29">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 30">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 31">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 32">}}
-
-Em aula!
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 33">}}
-
-Prova 3
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 34">}}
-
-Palestra
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 35">}}
-
-Segunda chamada
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎓 Aula 36">}}
-
-Prova substitutiva
-
-{{< /spoiler >}}
-
-
-
+</div>
 
 
 
