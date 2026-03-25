@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/probabilidade/</link>
       <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilidade</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 25 Mar 2026 07:35:57 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 25 Mar 2026 08:59:01 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Probabilidade</title>
@@ -537,7 +537,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Wed, 25 Mar 2026 07:35:57 -0300</pubDate>
+      <pubDate>Wed, 25 Mar 2026 08:59:01 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -887,6 +887,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;p&gt;&lt;strong&gt;Engenharia Mecatrônica&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://igorpereiravital.github.io/relatorios/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 IGOR PEREIRA VITAL e LUCAS WILLIAM ENDRINGER&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 LUIZ GUSTAVO ALVES CARVALHO&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Engenharia de Telecomunicações&lt;/strong&gt;&lt;/p&gt;
@@ -1239,7 +1240,8 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II) e &lt;a href=&#34;#ementa&#34;&gt;Capítulo 2&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II) e &lt;a href=&#34;#ementa&#34;&gt;Capítulo 2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s03/&#34; target=&#34;_blank&#34;&gt; Aula
 03&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
@@ -1327,15 +1329,40 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 01: Definições gerais da Est
 target=&#34;_blank&#34;&gt;
 Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos temas inseridos na descrição&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Aula Prática 02 - Cap. 01 e 02&lt;/p&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Aula Prática 02 - Cap. 01 e 02&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s04/&#34; target=&#34;_blank&#34;&gt; Aula
 04&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fa fa-cogs&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;strong&gt;Configuração do experimento&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;Para detalhes sobre os níveis, acesse: &lt;a href=&#34;#experimentos&#34;&gt;Experimento para aulas práticas&lt;/a&gt;&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;🔭 Desenho experimental - Eng. Tel.&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Níveis dos fatores experimentais:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;O-&lt;/strong&gt;: nível II&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A+&lt;/strong&gt;: nível III&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;B+&lt;/strong&gt;: nível 90°&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A-&lt;/strong&gt;: nível IV&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;🔭 Desenho experimental - Eng. Mec.&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Níveis dos fatores experimentais:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;O-&lt;/strong&gt;: nível III&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A+&lt;/strong&gt;: nível II&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;B+&lt;/strong&gt;: nível 100°&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A-&lt;/strong&gt;: nível II&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
 &lt;a href=&#34;https://docs.google.com/document/d/1go3LMsYDs2z2OWHFoZ5EFhVh6Efeb6iNyTIkPTK7lQk/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
 &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
@@ -1349,16 +1376,22 @@ target=&#34;_blank&#34;&gt; Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;
 target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Vídeo-aulas&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34;
-target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
-  &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Como desenvolver Relatórios Web e &lt;a href=&#34;#ementa&#34;&gt;Capítulo 3&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; &lt;a href=&#34;#relatorio%22&#34;&gt;Como desenvolver Relatórios Web&lt;/a&gt; e &lt;a href=&#34;#ementa&#34;&gt;Capítulo 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s05/&#34; target=&#34;_blank&#34;&gt; Aula
+05&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1GCzMX9DeFUFxXrr5kvXhXjXmHl7j0OhrM3HFt4nolpw/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
+&lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Livro EPAEC:&lt;/strong&gt; &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap03.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;/details&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;

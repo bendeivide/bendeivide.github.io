@@ -367,6 +367,7 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 **Engenharia Mecatrônica**
 
 - [🎓 IGOR PEREIRA VITAL e LUCAS WILLIAM ENDRINGER](https://igorpereiravital.github.io/relatorios/)
+- [🎓 LUIZ GUSTAVO ALVES CARVALHO](https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/)
 - ...
 
 **Engenharia de Telecomunicações**
@@ -784,6 +785,8 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm*, nas aulas 02, 04 e 05
 
 {{< spoiler text="🎓 Aula 3">}}
 
+<div style="margin-left: 20px;">
+
 {{< icon name="pen-fancy" pack="fas" >}} **Temas:** Introdução ao R (Parte II) e [Capítulo 2](#ementa)
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s03/" target="_blank"> Aula
@@ -903,11 +906,13 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 01: Definições gerais da Est
     target="_blank">
 Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos temas inseridos na descrição</a>
 
-
+</div>
 
 {{< /spoiler >}}
 
 {{< spoiler text="🎓 Aula 4">}}
+
+<div style="margin-left: 20px;">
 
 {{< icon name="pen-fancy" pack="fas" >}} **Temas:** Aula Prática 02 - Cap. 01 e 02
 
@@ -915,7 +920,39 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 04</a>
 
 {{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-{{< icon name="headphones" pack="fas" >}} **Podcast**
+
+<i class="fa fa-cogs" aria-hidden="true"></i> **Configuração do experimento**
+
+<div style="margin-left: 20px;">
+
+Para detalhes sobre os níveis, acesse: [Experimento para aulas práticas](#experimentos)
+
+{{< spoiler text="🔭 Desenho experimental - Eng. Tel.">}}
+
+Níveis dos fatores experimentais:
+
+- **O-**: nível II
+- **A+**: nível III
+- **B+**: nível 90°
+- **A-**: nível IV
+
+{{< /spoiler >}}
+
+{{< spoiler text="🔭 Desenho experimental - Eng. Mec.">}}
+
+Níveis dos fatores experimentais:
+
+- **O-**: nível III
+- **A+**: nível II
+- **B+**: nível 100°
+- **A-**: nível II
+
+{{< /spoiler >}}
+
+
+</div>
+
+
 {{< icon name="book-reader" pack="fas" >}}
 <a href="https://docs.google.com/document/d/1go3LMsYDs2z2OWHFoZ5EFhVh6Efeb6iNyTIkPTK7lQk/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
@@ -931,16 +968,28 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 -   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
     target="_blank">Exercícios resolvidos</a>
 
-{{< icon name="youtube" pack="fab" >}} **Vídeo-aulas**
 
--   <a href="{{< relref"courses/epaec/videoaulas/index">}}"
-    target="_blank">Vídeoaulas</a>
+<div style="margin-left: 20px;">
 
 {{< /spoiler >}}
 
 {{< spoiler text="🎓 Aula 5">}}
 
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Como desenvolver Relatórios Web e [Capítulo 3](#ementa)
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** [Como desenvolver Relatórios Web](#relatorio") e [Capítulo 3](#ementa)
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s05/" target="_blank"> Aula
+05</a>
+{{< icon name="book-reader" pack="fas" >}}
+<a href="https://docs.google.com/document/d/1GCzMX9DeFUFxXrr5kvXhXjXmHl7j0OhrM3HFt4nolpw/edit?usp=sharing" target="_blank">
+**Plano de aula** </a>
+{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 3](https://bendeivide.github.io/book-epaec/cap03.html)
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+
+
+
+</div>
 
 {{< /spoiler >}}
 
