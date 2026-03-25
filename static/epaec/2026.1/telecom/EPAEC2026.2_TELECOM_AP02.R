@@ -21,6 +21,5 @@ tab <- tabfreq(aux, k = 5)
 ## Forma alternativa (Mais rapido)
 dist |>
   new_leem(variable = 2) |>
-  tabfreq(k = 5) |>
-  hist()
+  tabfreq(k = 5) 
 

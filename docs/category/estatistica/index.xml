@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 24 Mar 2026 07:06:47 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 25 Mar 2026 06:19:06 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estatística</title>
@@ -1092,7 +1092,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Tue, 24 Mar 2026 07:06:47 -0300</pubDate>
+      <pubDate>Wed, 25 Mar 2026 06:19:06 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -1130,6 +1130,26 @@ pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;n
 Medidas de dispersão. Probabilidades. Distribuições de probabilidade.
 Amostragem. Teoria da estimação. Teoria da decisão. Correlação e
 regressão linear simples.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-visão-geral-da-disciplina-de-estatística-e-probabilidade-20261&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/epaec2026.1.png&#34; alt=&#34;Visão Geral da disciplina de Estatística e Probabilidade (2026.1). &#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Visão Geral da disciplina de Estatística e Probabilidade (2026.1).
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
@@ -1178,7 +1198,7 @@ aulas&lt;/a&gt;:
 &lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do CAP/UFSJ&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
   &lt;p&gt;&lt;ol&gt;
 &lt;li&gt;DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
@@ -1318,7 +1338,7 @@ abordado.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
   &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;Nossas aulas serão motivadas pelo experimento da catapulta. Por meio deste experimento geraremos todo o suporte para a obtenção de dados e assim, utilizar todas as técnicas estatística propostas na ementa da disciplina.&lt;/p&gt;
 &lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;4 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
@@ -1329,7 +1349,7 @@ abordado.&lt;/li&gt;
 &lt;h2 id=&#34;avaliacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-award&#34;&gt;&lt;/i&gt; Avaliação&lt;/h2&gt;
 &lt;!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) --&gt;
 &lt;!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; e  &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Grande parte das análises estatísticas utilizadas serão desenvolvidas com o pacote &lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;leem&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.&lt;/p&gt;
@@ -1360,7 +1380,7 @@ abordado.&lt;/li&gt;
 &lt;!-- acompanhando as aulas e desenvolvendo demandas semanais, como forma de --&gt;
 &lt;!-- ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda --&gt;
 &lt;!-- semana o aluno é acompanhado e avaliado pelo professor. --&gt;
-&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;Abra o contrato aqui!&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 &lt;!-- &lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;2354&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt; --&gt;
@@ -1369,7 +1389,7 @@ abordado.&lt;/li&gt;
 &lt;!--&lt;/p&gt;
 &lt;/details&gt; --&gt;
 &lt;h2 id=&#34;bibiografia&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-book&#34;&gt;&lt;/i&gt; Bibliografia adotada para a disciplina&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;MONTGOMERY, Douglas C.; RUNGER, George C.. &lt;strong&gt;Estatística aplicada e
@@ -1397,7 +1417,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;Materiais complementares&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/books/estbasica/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Básica aplicada às Ciências agrárias&lt;/a&gt;&lt;/li&gt;
@@ -1421,7 +1441,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;h2 id=&#34;exerc_entregar&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Engenharia Mecatrônica&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 NOME DO ALUNO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://igorpereiravital.github.io/relatorios/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 IGOR PEREIRA VITAL e LUCAS WILLIAM ENDRINGER&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Engenharia de Telecomunicações&lt;/strong&gt;&lt;/p&gt;
@@ -1430,7 +1450,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;experimentos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-flask&#34;&gt;&lt;/i&gt; Experimentos para as aulas práticas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;⚗️ Experimento da catapulta&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;O experimento da catapulta consiste no lançamento de uma bolinha por meio de um dispositivo mecânico, variando-se condições como a posição do elástico, posição da bolinha e o ângulo de disparo. O objetivo é analisar como essas variáveis podem ou não influenciar a distância percorrida pela bolinha.&lt;/p&gt;
 &lt;p&gt;Ou melhor,&lt;/p&gt;
@@ -1604,12 +1624,12 @@ $$
 &lt;/details&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação do
 curso e Definições gerais da estatística e técnicas de somatório
-(Capítulo 1)&lt;/p&gt;
+(&lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap01.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 1&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s01/&#34; target=&#34;_blank&#34;&gt; Aula
 01&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
@@ -1666,13 +1686,13 @@ curso e Definições gerais da estatística e técnicas de somatório
 &lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
 href=&#34;http://bendeivide.github.io/epaec/2026.1/r-scripts/aula01.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Mapa Mental&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Infográfico&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
-  &lt;summary&gt;🧠 Mapa Mental 01 (NotebookLM) - Definições Gerais da Estatística&lt;/summary&gt;
+  &lt;summary&gt;🧠 Infográfico 01 (NotebookLM) - Definições Gerais da Estatística&lt;/summary&gt;
   &lt;p&gt;&lt;figure  id=&#34;figure-mapa-mental-01-notebooklm---definições-gerais-da-estatística&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/mapamental/epaec/2026.1/mapa_mental01_Definicoes_gerais_da_estatistica.png&#34; alt=&#34;Mapa Mental 01 (NotebookLM) - Definições Gerais da Estatística. &#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info01_Definicoes_gerais_da_estatistica.png&#34; alt=&#34;Mapa Mental 01 (NotebookLM) - Definições Gerais da Estatística. &#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Mapa Mental 01 (NotebookLM) - Definições Gerais da Estatística.
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -1697,7 +1717,7 @@ target=&#34;_blank&#34;&gt;Técnicas de Somatório&lt;/a&gt;&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R e Aula Prática 01&lt;/p&gt;
@@ -1723,9 +1743,34 @@ target=&#34;_blank&#34;&gt;Técnicas de Somatório&lt;/a&gt;&lt;/li&gt;
 &lt;/details&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;🎙 Podcast 05 (NotebookLM  - 2026.1) - O que acontece na memória do R&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast05_O_que_acontece_na_memoria_do_R.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt;, nas aulas 02, 04 e 05 do curso &lt;a href=&#34;https://bendeivide.github.io/courses/ear/rbasico2024/#aulas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2024&lt;/a&gt;.&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
 href=&#34;http://bendeivide.github.io/epaec/2026.1/r-scripts/aula02.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Infográfico&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;🧠 Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio&lt;/summary&gt;
+  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-02-notebooklm---primeiros-passos-com-o-r-e-rstudio&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info02_Primeiros_passos_com_R_e_RStudio.png&#34; alt=&#34;Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio. &#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bendeivide.github.io/book-eambr01/hist%C3%B3ria-e-instala%C3%A7%C3%A3o-do-r.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico - Capítulo 2&lt;/a&gt;&lt;/li&gt;
@@ -1747,7 +1792,7 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II) e &lt;a href=&#34;#ementa&#34;&gt;Capítulo 2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s03/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1756,14 +1801,14 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary&gt;🎙 Podcast 02 (NotebookLM  - 2026.1) - Como a estatística decifra a realidade oculta&lt;/summary&gt;
+  &lt;summary&gt;🎙 Podcast 03 (NotebookLM  - 2026.1) - Como dar sentido ao caos dos dados&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast02_Como_a_estat%c3%adstica_decifra_a_realidade_oculta.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast03_Como_dar_sentido_ao_caos_dos_dados.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
   &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
-  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt;, baseado no vídeo &lt;a href=&#34;https://www.youtube.com/live/bVObtgCFISs?si=5n0vgogm2OmpjwAe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 01: Definições gerais da Estatística e organização de dados&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt;, baseado no vídeo &lt;a href=&#34;https://youtu.be/wdXJ_CzMdXI?si=laEZUuPksF--vkyR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tabulação e organização de dados&lt;/a&gt; e o &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap02.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 2&lt;/a&gt; do EPAEC.&lt;/p&gt;
 &lt;/details&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
@@ -1777,12 +1822,36 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;/details&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;🎙 Podcast 06 - A Engenharia por trás do R&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast06_A_engenharia_por_tras_do_R.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt;, baseado nos vídeos &lt;a href=&#34;https://www.youtube.com/watch?v=wl_TsLblYoU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2024 | Aula 08 - Objetos e Estrutura de dados&lt;/a&gt; e &lt;a href=&#34;https://www.youtube.com/watch?v=1EfnPu_rjDQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2024 | Aula 15 - Funções&lt;/a&gt;.&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-&lt;a href=&#34;https://docs.google.com/document/d/1rQ4MmpoFRLgUBbt7zktcAEaTODB9WFViY1dWTdnjVC0/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1rQ4MmpoFRLgUBbt7zktcAEaTODB9WFViY1dWTdnjVC0/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt; &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
 href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 3&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/epaec/2025.1/EPAEC2025.1_aula03.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 3 (2025.1)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Infográfico&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;🧠 Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio&lt;/summary&gt;
+  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-02-notebooklm---primeiros-passos-com-o-r-e-rstudio&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info02_Primeiros_passos_com_R_e_RStudio.png&#34; alt=&#34;Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio. &#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
@@ -1805,7 +1874,7 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Aula Prática 02 - Cap. 01 e 02&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s04/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -1832,7 +1901,7 @@ target=&#34;_blank&#34;&gt;Vídeoaulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Como desenvolver Relatórios Web e &lt;a href=&#34;#ementa&#34;&gt;Capítulo 3&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
@@ -1873,11 +1942,11 @@ href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
 target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
