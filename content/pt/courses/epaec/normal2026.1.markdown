@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-25 06:19:06"
+date: "2026-03-25 07:35:57"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -783,22 +783,32 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm*, baseado nos vídeos [
 
 
 {{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1rQ4MmpoFRLgUBbt7zktcAEaTODB9WFViY1dWTdnjVC0/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
+<a href="https://docs.google.com/document/d/1zx4gyOXrmkusMsP3o0X8exYTWH7ln5GLUi4-q1nSBpg/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
 
 {{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>, {{% staticref "epaec/2025.1/EPAEC2025.1_aula03.R" "newtab" %}}*Script* Aula 3 (2025.1){{% /staticref %}}
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>
 
 {{< icon name="brain" pack="fas" >}} **Infográfico**
 
 <div style="margin-left: 20px;">
 
-{{< spoiler text="🧠 Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio">}}
+{{< spoiler text="🧠 Infográfico 03 (NotebookLM) - Coleta e organização de dados">}}
 
-{{< figure src="/infografico/epaec/2026.1/info02_Primeiros_passos_com_R_e_RStudio.png" 
-           title="Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio. " 
+{{< figure src="/infografico/epaec/2026.1/info03_Coleta_organizacao_dados.png" 
+           title="Infográfico 03 (NotebookLM) - Coleta e organização de dados." 
            width="400px" >}}
            
 {{< /spoiler >}}
+
+{{< spoiler text="🧠 Infográfico 04 (NotebookLM) - Fundamentos do R: O Universo de Objetos e Funções">}}
+
+{{< figure src="/infografico/epaec/2026.1/info04_fundR_obj_func.png" 
+           title="Infográfico 04 (NotebookLM) - Fundamentos do R: O Universo de Objetos e Funções." 
+           width="400px" >}}
+           
+{{< /spoiler >}}
+
+
 
 </div>
 
@@ -841,7 +851,7 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 <a href="https://docs.google.com/document/d/1go3LMsYDs2z2OWHFoZ5EFhVh6Efeb6iNyTIkPTK7lQk/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
 
-{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/telecom/EPAEC2026.2_TELECOM_AP02.R" "newtab" %}}Script01-AP01.R{{% /staticref %}}
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/r-scripts/aula04.R" "newtab" %}}Script Aula 04 (Geral).R{{% /staticref %}}, {{% staticref "/epaec/2026.1/telecom/EPAEC2026.1_TELECOM_AP02.R" "newtab" %}}Script Aula 04 - AP02 (Eng. Tel).R{{% /staticref %}}, {{% staticref "/epaec/2026.1/meca/EPAEC2026.1_MECA_AP02.R" "newtab" %}}Script Aula 04 - AP02 (Eng. Mec).R{{% /staticref %}}
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 

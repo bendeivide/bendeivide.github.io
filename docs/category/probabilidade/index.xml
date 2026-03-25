@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/probabilidade/</link>
       <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilidade</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 25 Mar 2026 06:19:06 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 25 Mar 2026 07:35:57 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Probabilidade</title>
@@ -537,7 +537,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Wed, 25 Mar 2026 06:19:06 -0300</pubDate>
+      <pubDate>Wed, 25 Mar 2026 07:35:57 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -1281,18 +1281,28 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;/details&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-&lt;a href=&#34;https://docs.google.com/document/d/1rQ4MmpoFRLgUBbt7zktcAEaTODB9WFViY1dWTdnjVC0/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt; &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1zx4gyOXrmkusMsP3o0X8exYTWH7ln5GLUi4-q1nSBpg/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt; &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 3&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/epaec/2025.1/EPAEC2025.1_aula03.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 3 (2025.1)&lt;/a&gt;&lt;/p&gt;
+href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Script&lt;/em&gt; Aula 3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Infográfico&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
-  &lt;summary&gt;🧠 Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio&lt;/summary&gt;
-  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-02-notebooklm---primeiros-passos-com-o-r-e-rstudio&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;🧠 Infográfico 03 (NotebookLM) - Coleta e organização de dados&lt;/summary&gt;
+  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-03-notebooklm---coleta-e-organização-de-dados&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info02_Primeiros_passos_com_R_e_RStudio.png&#34; alt=&#34;Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio. &#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info03_Coleta_organizacao_dados.png&#34; alt=&#34;Infográfico 03 (NotebookLM) - Coleta e organização de dados.&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio.
+      Infográfico 03 (NotebookLM) - Coleta e organização de dados.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;🧠 Infográfico 04 (NotebookLM) - Fundamentos do R: O Universo de Objetos e Funções&lt;/summary&gt;
+  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-04-notebooklm---fundamentos-do-r-o-universo-de-objetos-e-funções&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info04_fundR_obj_func.png&#34; alt=&#34;Infográfico 04 (NotebookLM) - Fundamentos do R: O Universo de Objetos e Funções.&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Infográfico 04 (NotebookLM) - Fundamentos do R: O Universo de Objetos e Funções.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/details&gt;
@@ -1329,7 +1339,7 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
 &lt;a href=&#34;https://docs.google.com/document/d/1go3LMsYDs2z2OWHFoZ5EFhVh6Efeb6iNyTIkPTK7lQk/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
 &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/telecom/EPAEC2026.2_TELECOM_AP02.R&#34; target=&#34;_blank&#34;&gt;Script01-AP01.R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/r-scripts/aula04.R&#34; target=&#34;_blank&#34;&gt;Script Aula 04 (Geral).R&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/telecom/EPAEC2026.1_TELECOM_AP02.R&#34; target=&#34;_blank&#34;&gt;Script Aula 04 - AP02 (Eng. Tel).R&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/meca/EPAEC2026.1_MECA_AP02.R&#34; target=&#34;_blank&#34;&gt;Script Aula 04 - AP02 (Eng. Mec).R&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
