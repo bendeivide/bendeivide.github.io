@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-27 08:34:20"
+date: "2026-03-27 09:13:38"
 type: book
 weight: 1
 classes: ["blink-text"]

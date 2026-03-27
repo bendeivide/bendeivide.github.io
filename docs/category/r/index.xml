@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 26 Mar 2026 23:27:15 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 27 Mar 2026 08:16:55 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -1702,6 +1702,108 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
   &lt;summary&gt;Onde ocorrerão as aulas no Youtube?&lt;/summary&gt;
   &lt;p&gt;Acesse o canal: &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>📑 Modelo de Relatório</title>
+      <link>http://bendeivide.github.io/courses/rcd/modrel/</link>
+      <pubDate>Fri, 27 Mar 2026 08:16:55 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/rcd/modrel/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfa-fa-download-aria-hiddentruei-o-que-é-necessário&#34;&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; O que é necessário?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-pencil-alt-aria-hiddentruei-como-aprender-cada-uma-das-ferramentas-necessárias&#34;&gt;&lt;i class=&#34;fas fa-pencil-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Como aprender cada uma das ferramentas necessárias?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfab-fa-youtube-aria-hiddentruei-videoaulas-com-o-passo-a-passo&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Videoaulas com o passo a passo&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#onde&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Onde encontrar o projeto base?&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/h2&gt;
+&lt;p&gt;Material desenvolvido para que os alunos da disciplina Linguagem R na Ciência de Dados (LRCD) possam desenvolver seus relatórios estatísticos ou dinâmicos para a disciplina.&lt;/p&gt;
+&lt;h2 id=&#34;i-classfa-fa-download-aria-hiddentruei-o-que-é-necessário&#34;&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; O que é necessário?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; e &lt;a href=&#34;https://posit.co/download/rstudio-desktop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;De forma mais detalhada recomendamos acessar este &lt;a href=&#34;https://bendeivide.github.io/relatorio-lrcd/relatorio/index.html#vis%C3%A3o-geral-sobre-os-relat%C3%B3rios&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;i-classfas-fa-pencil-alt-aria-hiddentruei-como-aprender-cada-uma-das-ferramentas-necessárias&#34;&gt;&lt;i class=&#34;fas fa-pencil-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Como aprender cada uma das ferramentas necessárias?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender sobre o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; e &lt;a href=&#34;https://posit.co/download/rstudio-desktop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;, recomendamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; curso &lt;a href=&#34;http://bendeivide.github.io/courses/ear/index.html&#34;&gt;EAR - R Básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-book&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/books/eambr01/index.html&#34;&gt;R Básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&amp;amp;si=1l6tbB6hT8zqngEB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2024&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&amp;amp;si=O643FJU11nsbgGr6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&amp;amp;si=1HRK2Z1GDM3UubjQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR2K-rWoInwE1WnwtBiulX2S&amp;amp;si=SMWdzKFfeHTlb9DO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Intermediário 2021&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender sobre o &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt;, recomendamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/latex/index.html&#34;&gt;Curso LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-book&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/books/latex/index.html&#34;&gt;LaTeX: Um guia prático com aplicações na pesquisa e educação&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender o &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, recomendamos acessar a sua própria página &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://quarto.org/&lt;/a&gt;. Como alternativa, temos um curso usando o Quarto para a criação de livros, que pode auxiliar no seu uso, como também o Curso Documentações em R. Acesse: &lt;a href=&#34;http://bendeivide.github.io/courses/qlivros/index.html&#34;&gt;Quarto livros&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/courses/docr/index.html&#34;&gt;Documentações em R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender a usar o &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;, recomendamos fortemente enteder a noção básica sobre o &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;. Acesse o &lt;a href=&#34;https://git-scm.com/book/en/v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;manual&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender o &lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;, acesse:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0NaBzcRbt3Rjq_2TTUOPK1&amp;amp;si=ReW7BRmwBEbEEUlN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Use leem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR2FCUNnCm6WPuqYN2c9IvdJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso do pacote leem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;i-classfab-fa-youtube-aria-hiddentruei-videoaulas-com-o-passo-a-passo&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Videoaulas com o passo a passo&lt;/h2&gt;
+&lt;p&gt;Os dois primeiros vídeos foram usados quando ministramos a disciplina &lt;a href=&#34;https://bendeivide.github.io/courses/profmat-probest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MA 41 no Profmat&lt;/a&gt;. Na época, usamos o projeto do relatório baseado no modelo &lt;a href=&#34;https://bendeivide.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/profmatma41/&lt;/a&gt;. Para a disciplina LRCD, usaremos o projeto &lt;a href=&#34;https://bendeivide.github.io/relatorio-lrcd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/relatorio-lrcd/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Seguem os dois primeiros vídeos:&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;📹 Relatórios para páginas web (R &amp;amp; GitHub)&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;📹 Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;Para a melhoria de como desenvolver esses relatórios, resolvemos acrescentar mais 4 vídeos reapresentando de forma simplificada o que os vídeos anteriores mostraram. Seguem:&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;📹 Relatório via web | Aula 01 - Baixar o projeto R/RStudio&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/z3iAahE3xIg?si=jGkVoRJ0A4VS7ioh&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;📹 Relatório via web | Aula 02 - Subindo o projeto do relatório ao servidor Github&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/r4yaBUJbCVc?si=YKd3K5wpfoVuAid8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;📹 Relatório via web | Aula 03 - Alterações no projeto Git/Rstudio&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ez8ThgOvplc?si=QCwrn83bwKmA1-SR&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;📹 Relatório via web | Aula 04 - Trabalho Github/RStudio colaborativo&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BTolFm3UlEE?si=7Ejnvq8yesFiNF-r&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Onde encontrar o projeto base?&lt;/h2&gt;
+&lt;p&gt;Segue o &lt;a href=&#34;https://github.com/bendeivide/relatorio-lrcd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;. Seguindo os passos dos dois vídeos informados anteriormente, será possível a criação do modelo de relatório.&lt;/p&gt;
+</description>
     </item>
     
     <item>
