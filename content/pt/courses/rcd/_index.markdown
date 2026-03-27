@@ -2,7 +2,7 @@
 title: 💻 Linguagem R na Ciência de Dados (UFSJ)
 linkTitle: LRCD (UFSJ)
 summary: O curso Linguagem R na Ciência de dados é voltado para os alunos dos cursos de Engenharias da UFSJ, campus Alto Paraopeba (CAP). 
-date: "2026-03-26 23:27:15"
+date: "2026-03-27 05:38:12"
 type: book
 categories: ["R", "Estatística", "Ciência de dados"]
 tags: ["Curso"]

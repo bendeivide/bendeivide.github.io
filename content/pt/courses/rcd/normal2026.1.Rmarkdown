@@ -128,95 +128,27 @@ calendR(
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
--   Engenharia Mecatrônica ([Link]())
--   Engenharia de Telecomunicações ([Link]())
+-   Engenharia Química ([Link]())
 
 ## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
 Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do CAP/UFSJ
 
 {{< spoiler text="Acesse a ementa do curso">}}
-1. DEFINIÇÕES GERAIS E TÉCNICAS DE SOMATÓRIO:
-   - Introdução
-   - Definições Gerais
-   - Técnicas de somatório
-2. COLETA, ORGANIZAÇÃO E APRESENTAÇÃO DE DADOS:
-   - Introdução
-   - Representação tabular
-   - Representação gráfica
-3. MEDIDAS DE POSIÇÃO:
-   - Introdução
-   - Média
-   - Mediana
-   - Moda
-4. MEDIDAS DE DISPERSÃO:
-   - Introdução
-   - Amplitude total
-   - Variância
-   - Desvio Padrão
-   - Coeficiente de Variação
-   - Erro padrão da Média
-5. PROBABILIDADES:
-   - Conceitos básicos
-   - Definições de probabilidades
-   - Propriedades
-   - Eventos independentes e probabilidade condicional
-   - Teorema de Bayes
-   - Função de probabilidade discreta
-   - Função de probabilidade contínua
-   - Função de distribuição de probabilidade acumulada
-   - Esperança matemática e variância
-6. DISTRIBUIÇÕES DE PROBABILIDADES:
-   - Introdução
-   - Distribuições discretas de probabilidades
-   - Distribuições contínuas de probabilidades
-7. AMOSTRAGEM:
-   - Introdução
-   - Amostragem não-probabilística e probabilística
-   - Técnicas de amostragem probabilística
-8. DISTRIBUIÇÃO DE AMOSTRAGEM:
-   - Introdução
-   - Distribuição de amostragem da média
-   - Distribuição de amostragem de proporções
-   - Distribuição de amostragem de diferença entre médias
-   - Distribuições amostrais (qui-quadrado, t e F)
-9. TEORIA DA ESTIMAÇÃO:
-   - Introdução
-   - Conceitos básicos
-   - Tipos de estimativas
-   - Propriedades de um estimador
-   - Estimação por ponto
-   - Estimação por intervalo:
-     - Intervalo de confiança para a média
-     - Intervalo de confiança para a variância
-     - Intervalo de confiança para a diferença entre médias
-   - Dimensionamento de amostras
-10. TEORIA DA DECISÃO:
-    - Introdução
-    - Testes de hipóteses
-    - Erros tipo I e II
-    - Teste unilateral e bilateral
-    - Passos para a construção de um teste de hipóteses
-    - Teste de hipóteses para a média
-    - Teste de hipóteses para a proporção
-    - Teste de hipóteses para a variância
-    - Teste de hipóteses para a diferença entre médias
-11. CORRELAÇÃO E REGRESSÃO LINEAR SIMPLES:
-    - Introdução
-    - Correlação linear:
-    - Coeficiente de correlação linear
-    - Teste de hipóteses acerca do coeficiente de correlação linear
-    - Regressão linear simples:
-    - Modelo
-    - Estimação dos parâmetros do modelo
-    - Teste de hipóteses para o modelo de regressão
-    - Medidas de adequação do modelo
+1. INTRODUÇÃO A LINGUAGEM R
+2. PROBABILIDADES NO R
+3. EXTRAÇÃO, TRANSFORMAÇÃO E CARREGAMENTO DE DADOS
+4. ESTATÍSTICA DESCRITIVA
+5. GRÁFICOS
+6. CRIAÇÃO DE RELATÓRIOS
+7. CRIAÇÃO DE *DASHBOARDS*
+8. CRIAÇÃO DE PÁGINAS *WEB*
 {{< /spoiler >}}
 
 ## <i class="fab fa-readme"></i> Metodologia {id="metodologia" title="Clique aqui!"}
 
 Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
-aulas serão expositivas e dialogadas com os alunos presencialmente, como também a inserção de aulas práticas usando o experimento da catapulta para conectar com os assuntos estudados em sala. Ainda, usaremos o ambiente R para o desenvolvimento das análises, mais especificamente, o pacote [leem](/project/leem/index.html), constituída pela seguinte estratégia de ensino:
+aulas serão expositivas e dialogadas com os alunos presencialmente, conectando a todo momento as nossas demandas a página de relatórios via web. Ainda, usaremos o ambiente R para o desenvolvimento de todas as atividades, constituída pela seguinte estratégia de ensino:
 
 -   Motivação:
     -   Levantamento do conhecimento prévio dos alunos em relação ao
@@ -232,13 +164,12 @@ aulas serão expositivas e dialogadas com os alunos presencialmente, como també
         abordado.
 
 {{< spoiler text="Detalhamento da metodologia">}}
-Nossas aulas serão motivadas pelo experimento da catapulta. Por meio deste experimento geraremos todo o suporte para a obtenção de dados e assim, utilizar todas as técnicas estatística propostas na ementa da disciplina.
 
-Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **4 (quatro) horas semanais de aulas presenciais**, um total de 60h.
+Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **2 (quatro) horas semanais de aulas presenciais**, um total de 30h.
 
 <!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube <https://youtube.com/bendeivide>. -->
 
-Iremos utilizar o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) [Quarto](https://quarto.org/), [Github](https://github.com/) e o pacote [leem](http://localhost:4321/project/leem/)
+Iremos utilizar o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) [Quarto](https://quarto.org/) e [Github](https://github.com/).
 {{< /spoiler >}}
 
 ## <i class="fas fa-award"></i> Avaliação {id="avaliacao" title="Clique aqui!"}
@@ -249,7 +180,7 @@ Iremos utilizar o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-
 
 {{< spoiler text="Segue um detalhamento das nossas avaliações">}}
 
-Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) e  [Quarto](https://quarto.org/), integrando estes relatórios ao [Github](https://github.com/). Grande parte das análises estatísticas utilizadas serão desenvolvidas com o pacote [leem](http://localhost:4321/project/leem/).
+Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) e  [Quarto](https://quarto.org/), integrando estes relatórios ao [Github](https://github.com/). 
 
 A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.
 
@@ -257,91 +188,40 @@ Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e 
 
 O discente que perder algum relatório ou atividade avaliativa referente aos 20% dos pontos informados anteriormente, deverá solicitar a coordenadoria de seu curso uma segunda chamada para tal atividade perdida, justificando a ausência da entrega. Sendo deferida pela coordação, faremos a segunda chamada de tal atividade.
 
-<!-- Serão distribuídos 100 pontos para atividades avaliativas da seguinte forma: -->
-
-<!-- - 1ª Avaliação - Seções 1, 2, 3, e 4 - 20 pontos; -->
-<!-- - 2ª Avaliação - Seções 5, 6, 7 e 8 - 30 pontos; -->
-<!-- - 3ª Avaliação - Seções 9, 10 e 11 - 30 pontos; -->
-<!-- - Trabalhos (Trabalhos, Exercícios, Testes Rápidos e laudas de artigos) - 20 pontos; -->
-
-<!-- Uma outra alternativa é desenvolvermos ideias de modo que o alunos possa contribuir com a disciplina, tais como criação de materiais didáticos, vídeo-aulas, etc. O objetivo é torná-lo parte integrante do conhecimento formado dentro de sala de aula. Dessa forma, com essa adesão, o aluno pode está isento das avaliações, e ser avaliado de acordo com as entregas semanais do que for acordado entre aluno e professor. Este ponto aglutina diversos projetos, principalmente o [Aprender por ensinar](/project/ProjAPE), [LEEM](/project/LEEM), [statscience](/project/statscience), [Rapidinhas do R](/project/RapidinhasR), dentre outros que possam surgir no processo. Por fim, o aluno acordará um contrato de quais demandas devem ser entregues e quais os direitos e deveres a ele imposto, para que isso possa ser possível mensurar a sua aprendizagem na disciplina. -->
-
-<!-- Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina, que substituirá a menor nota dentre as três avaliações. -->
-
-<!-- O discente que perder alguma avaliação teórica poderá fazer uma segunda chamada, desde que justificada via coordenadoria. -->
-
-<!-- A perda de alguma avaliação deverá ser apresentado justificativa. Observações: -->
-
-<!-- - São considerados motivos justiçados para fins de segunda chamada da avaliação teórica: exercício da função de representante discente nos órgãos colegiados ou diretor de entidades estudantis, desde que  comprovado o comparecimento a reunião e ou encontros pertinentes a representação no dia e horário da referida avaliação  (art. 142 e 143 do Regimento Geral da UFSJ);  doença infecto-contagiosa ou internação, desde que esta esteja comprovada por meio atestado médico, contendo CID; -->
-<!-- - Motivos pessoais, profissionais e atestados de consultas médicas eletivas não são considerados como motivos justificados para que o discente tenha direito a segunda chamada de avaliação teórica; -->
-<!-- - Na educação superior não há abono de faltas, exceto nos seguintes casos: discente reservistas - Lei 4375, 17 de agosto de 1964; discente designado para compor a Comissão Nacional de Avaliação da Educação Superior (CONAES) que, em decorrência da designação, tenha participado de reuniões da CONAES em horário coincidente com as atividades acadêmicas (\S 5º do Art. 7º da Lei 10.861/2004). Portanto, atestados médicos, de trabalho e de outras atividades acadêmicas, não dão direito a abono de falta, tais ausências são enquadradas no limites  dos 25%, É para tais imprevistos que o aluno pode se ausentar em 25% das aulas; -->
-<!-- - Nos casos de portadores de afecções  (Decreto-lei 1044, de 21 de outubro de 1969) e estado de gestação (Lei 6202, de 17 de abril de 1975), o discente poderá solicitar Regime Especial  como compensação de ausência às aulas. Em ambos os casos, a solicitação, acompanhada do respectivo atestado médico, deverá ser protocolada na DICON, no início do impedimento. -->
 {{< /spoiler >}}
 
-<!-- ## <i class="fas fa-check"></i> Como as provas serão corrigidas? {id="correcao" title="Clique aqui!"} -->
-
-<!-- -   {{% staticref "media/critprova.pdf" "newtab" %}}Critérios de -->
-<!--     avaliação{{% /staticref %}} -->
-
-<!-- ## <i class="fas fa-file-signature"></i> Contrato {id="contrato" title="Clique aqui!"} -->
-
-<!-- Contrato feito para a disciplina de Estatística e Probabilidade, como -->
-<!-- meio de substituir as avaliações tradicionais para uso de metodologias -->
-<!-- ativas como método de avaliação. Paralelo a disciplina, o aluno irá -->
-<!-- acompanhando as aulas e desenvolvendo demandas semanais, como forma de -->
-<!-- ser avaliado na disciplina. Assim, ao invés de provas pontuais, toda -->
-<!-- semana o aluno é acompanhado e avaliado pelo professor. -->
-
-<!-- {{< spoiler text="Abra o contrato aqui!">}} -->
-
-<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoKiObYtvuvc8v5UAA84X5wT8ICVZy5Qjp-p5x6knn-N7HnQ/viewform?embedded=true" width="640" height="2354" frameborder="0" marginheight="0" marginwidth="0"> -->
-
-<!-- Carregando... -->
-
-<!-- </iframe> -->
-
-<!-- {{< /spoiler >}} -->
 
 ## <i class="fa fa-book"></i> Bibliografia adotada para a disciplina {id="bibiografia" title="Clique aqui!"}
 
 {{< spoiler text="Bibliografia detalhada">}}
 
--   MONTGOMERY, Douglas C.; RUNGER, George C.. **Estatística aplicada e
-    probabilidade para engenheiros**. 6. ed. Rio de Janeiro: LTC, 2016.
-    629 p. Tradução de: Verônica Calado.
--   DEVORE, J. L.. **Probabilidade e Estatística**: para engenharia e
-    ciências. São Paulo: Pioneira Thomson, 2006. 692 p.
--   MORETTIN, Luiz Gonzaga. **Estatística Básica**: Probabilidade e
-    Inferência. São Paulo: Pearson Prentice Hall, 2010. 375 p.
--   BUSSAB, W. O.; MORETTIN, P.A. **Estatística Básica**. 5. ed. São
-    Paulo: Saraiva, 2003.
--   COSTA NETO, P. L. O. **Estatística**. 3. ed. São Paulo: Edgard
-    Blucher, 2007.
--   TRIOLA, M. F. **Introdução à Estatística**. Rio de janeiro: LTC,
-    2008.
+- [R DEVELOPMENT CORE TEAM. *R: A Language and Environment for Statistical Computing*. Vienna, Austria, 2025. Disponível em: <http://www.R-project.org/>.](https://www.r-project.org/)
+
+- [BATISTA, B. D. O.; OLIVEIRA, D. A. B. J.. **R básico**. Ouro Branco, MG: [s.n.]. 2022.
+(Estudando o Ambiente R, v.1). ISBN 978-65-00-51600-5. Disponível em: https://
+bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/)
+
+- [Wickham, H. *ggplot2: Elegant Graphics for Data Analysis*. 2ª ed. Springer, 2018.](https://ggplot2-book.org/)
+
+- [Wickham, H. *Advanced R*. 2ª ed. Chapman and Hall/CRC, 2019.](https://adv-r.hadley.nz/)
+
+- [Wickham, H. *Mastering Shiny*. O’Reilly Media, 2021.](https://mastering-shiny.org/)
+
+- [Wickham, H.; Grolemund, G. *R for Data Science*. O’Reilly Media, 2017.](https://r4ds.hadley.nz/)
+
+- [Wilke, C. O. *Fundamentals of Data Visualization*. O’Reilly Media, 2016.](https://clauswilke.com/dataviz/)
+
 
 {{< /spoiler >}}
 
 ## <i class="fas fa-book-open"></i> Material adotado {id="matadotado" title="Clique aqui!"}
 
--   Livro referência: [EPAEC](http://bendeivide.github.io/book-epaec/)
-    -   Sugestões e críticas sobre o livro podem ser enviadas para
-        [livrosdeben\@gmail.com](mailto:livrosdeben@gmail.com)
+-   Livro referência: [R4ds](https://r4ds.hadley.nz/)
 
 {{< spoiler text="Materiais complementares">}}
-- [Estatística Básica aplicada às Ciências agrárias](https://bendeivide.github.io/books/estbasica/)
-- [R básico](https://bendeivide.github.io/books/eambr01/)
-- [Estatística Básica (Departamento de Estatística, UFPR)](http://leg.ufpr.br/~paulojus/estbas/)
-- [Estatística Aplicada (Tales Jesus Fernandes, UFLA)](http://github.com/talesjfer/Apostila-Estatistica-Aplicada)
-- [Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)](http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf)
-- [Estatística e Probabilidade (UECE)](http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf)
-- [Estimação Estatística (Assis, et. al. 2021)](https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf)
-- [Introdução à estatística com R (Eric Ferreira & Marcelo Oliveira )](http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf)
-- [Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria & João Parga)](https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica)
-- [Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)](https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf)
-- [Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)](https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf)
-- [Canal Ciência Estatística](https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA)
-- [Estatística e Probabilidade: Exercícios (Assis et. al., 2023)](https://editorapantanal.com.br/ebooks/2023/probabilidade-e-estatistica-exercicios/ebook.pdf)
+
+- Em desenvolvimento
+
 {{< /spoiler >}}
 
 
@@ -351,46 +231,16 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 ## <i class="fas fa-feather"></i> Lista alunos {id="exerc_entregar" title="Clique aqui!"}
 
-**Engenharia Mecatrônica**
-
-- [🎓 IGOR PEREIRA VITAL e LUCAS WILLIAM ENDRINGER](https://igorpereiravital.github.io/relatorios/)
-- [🎓 LUIZ GUSTAVO ALVES CARVALHO](https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/)
-- ...
-
-**Engenharia de Telecomunicações**
-
-- [🎓 NOME DO ALUNO]()
-- ...
-
-## <i class="fas fa-tasks"></i> Lista de exercícios e relatórios
-
-- <i class="fas fa-clipboard-list"></i> **Listas**
-</br>
-{{< spoiler text="📌 Lista de Exercício 1 (Clique!) - 30/03/2026">}}
-
-- <i class="fas fa-upload"></i> Entrega: Via portal didático
-- <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
-- <i class="fas fa-calendar-check"></i> 30/03/2026 <i class="fas fa-clock"></i> Antes do início do horário de aula
-
----
-
-> <i class="fas fa-question-circle"></i> **OBJETIVO** 
->
-> Tabular os dados do [Exemplo 2.1](https://bendeivide.github.io/book-epaec/cap02.html#ex:Challanger1986) do livro [EPAEC (Capítulo 2)](https://bendeivide.github.io/book-epaec/cap02.html), mostrando de forma analítica, como também usando o R, mas especificamente o pacote leem. A entrega deve ser feita a mão, digitalizada posteriormente e convertida para PDF, anexando na referida lista. Para mostra via R, basta apresentar os passos de como fazer, não precisando escrever os dados.
->
-> **DATA DA ENTREGA:** 
->
->  - Até às 13:15 do dia 30/03/2026 (Engenharia Mecatrônica)
->  - Até às 15:15 do dia 30/03/2026 (Engenharia Mecatrônica)
-
-{{</spoiler>}}
-
-<!-- Fim da Lista de Exercicio 1 -->
+- [🎓 GABRIEL DE PAULA AGUIAR]()
+- [🎓 HUGO ARAÚJO SOUZA FILHO]()
+- [🎓 REGINA GRAZIELA CASSEMIRO DE ALMEIDA]()
+- [🎓 YURI DE OLIVEIRA GOMES]()
 
 
-- <i class="fas fa-upload"></i> **Relatórios**
-</br>
-{{< spoiler text="🗒 Relatório 1 (Clique!) - 31/03/2026 ">}}
+
+## <i class="fas fa-tasks"></i> Lista de relatórios
+
+{{< spoiler text="🗒 Relatório 1 (Clique!) - 03/04/2026 ">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
 - <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip)
@@ -400,193 +250,15 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 > <i class="fas fa-question-circle"></i> **OBJETIVO** 
 >
-> Descreva o [experimento da catapulta](#experimentos), realizado em sala de aula, apresentando os níveis dos fatores utilizados no experimento (O-, A+, B+, A-) para medir a distância percorrida pela bolinha; tabule os valores obtidos; mostre possíveis problemas que podem ter acontecido na realização do experimento; use os podcasts, o material descrito nesta página sobre o experimento, explorando também as IAs para lhe auxiliarem na escrita do material. Lembre-se que ao final, você é responsável pelo que escreve, portanto, *entenda tudo que está sendo escrito para a preparação da Defesa do relatório, caso seja solicitado.*
+> Realizar um introdução ao R, fundamentado nas 26 aulas do [curso R Básico 2024](/courses/ear/rbasico2024/).
 >
 > **DATA DA ENTREGA:** 
 >
->  - Até às 15:15 do dia 31/03/2026 (Engenharia Mecatrônica)
->  - Até às 13:15 do dia 31/03/2026 (Engenharia Mecatrônica)
+>  - Até às 17:05 do dia 03/04/2026 
 
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 1 -->
-
-
-## <i class="fa fa-flask"></i> Experimentos para as aulas práticas {id="experimentos" title="Clique aqui!"}
-
-{{< spoiler text="⚗️ Experimento da catapulta">}}
- 
- O experimento da catapulta consiste no lançamento de uma bolinha por meio de um dispositivo mecânico, variando-se condições como a posição do elástico, posição da bolinha e o ângulo de disparo. O objetivo é analisar como essas variáveis podem ou não influenciar a distância percorrida pela bolinha.
- 
-Ou melhor,
-
-> “Se lançarmos uma mesma bolinha várias vezes com essa catapulta, sob as mesmas condições iniciais, ela sempre cairá no mesmo lugar?”
-
-Mesmo sob condições controladas, observa-se que os resultados não são idênticos, evidenciando a presença de variabilidade experimental. Assim, este experimento constitui um contexto adequado para a aplicação de técnicas estatísticas que abordaremos em nosso curso.
- 
- O experimento da catapulta pode ser ilustrado na <a href="#fig-catapulta">Figura 1</a>.
- 
- 
-<div id="fig-catapulta">
-{{< figure src="/imagens/catapulta/exp_catapulta.png" 
-           title="Figura 1: Experimento da catapulta. " 
-           width="400px"  style="text-align: center;">}}
-</div>
-
-A distância percorrida pela bolinha depende basicamente de:
-
-* **energia armazenada no sistema** (elástico)
-* **ângulo de lançamento**
-* **geometria do mecanismo**
-
-Os pontos **O-, A+, A- e B+** controlam exatamente esses aspectos. A <a href="#fig-catapultareal">Figura 2</a> apresenta a catapulta utilizada no experimento em sala de aula.
-
-<div id="fig-catapultareal">
-{{< figure src="/imagens/catapulta/catapulta.jpg" 
-           title="Figura 2: Catapulta utilizada em sala de aula. " 
-           width="400px"  style="text-align: center;">}}
-</div>
-
-
-### ⚙️ 1. Posição **A+** (tensão do elástico – maior intensidade)
-
-* Local onde o elástico é fixado mais “esticado”
-* Representa **maior deformação do elástico**
-
-<div id="fig-famais">
-{{< figure src="/imagens/catapulta/fator_amais.jpg" 
-           title="Figura 3: Fator A+. " 
-           width="400px"  style="text-align: center;">}}
-</div>
-
-
-#### 🔬 Efeito físico:
-
-* Aumenta a **energia potencial elástica**
-* Gera maior velocidade inicial da bolinha
-
-#### 📊 Impacto na distância:
-
-* Tendência de **maior alcance**
-* Porém:
-
-  * pode aumentar a variabilidade (lançamentos mais “sensíveis”)
-
-### ⚙️ 2. Posição **A-** (tensão do elástico – menor intensidade)
-
-* Posição com menor estiramento do elástico
-
-<div id="fig-famenos">
-{{< figure src="/imagens/catapulta/fator_amenos.jpg" 
-           title="Figura 4: Fator A-." 
-           width="400px"  style="text-align: center;">}}
-</div>
-
-#### 🔬 Efeito físico:
-
-* Menor energia armazenada
-* Menor velocidade de lançamento
-
-#### 📊 Impacto na distância:
-
-* **Menor alcance médio**
-* Em geral:
-
-  * maior controle
-  * menor variabilidade
-
-
-### ⚙️ 3. Posição **B+** (ajuste do ângulo/curso do braço)
-
-* Relacionada ao limite de deslocamento do braço da catapulta
-* Atua como um **batente ou regulador do ângulo final**
-
-<div id="fig-fbmais">
-{{< figure src="/imagens/catapulta/fator_bmais.jpg" 
-           title="Figura 5: Fator B+." 
-           width="400px"  style="text-align: center;">}}
-</div>
-
-
-
-#### 🔬 Efeito físico:
-
-* Define o **ângulo de saída da bolinha**
-* Influencia o tempo de voo
-
-
-
-#### 📊 Impacto na distância:
-
-* Ângulos próximos de ~45° → maior alcance (ideal teórico)
-* Ângulos muito baixos → bola “rasteira”
-* Ângulos muito altos → bola sobe mais, mas percorre menos distância horizontal
-
-<!-- 👉 Esse ponto é excelente para trabalhar **regressão ou otimização** -->
-
-### ⚙️ 4. Posição **O-** (ponto de referência/apoio superior)
-
-* Atua como referência estrutural do braço
-* Pode influenciar o alinhamento ou ponto de giro
-
-<div id="fig-fomenos">
-{{< figure src="/imagens/catapulta/fator_omenos.jpg" 
-           title="Figura 6: Fator O-." 
-           width="400px"  style="text-align: center;">}}
-</div>
-
-#### 🔬 Efeito físico:
-
-* Afeta a **geometria do movimento**
-* Pode alterar levemente:
-
-  * o ângulo inicial
-  * o comportamento do braço
-
-#### 📊 Impacto na distância:
-
-* Influência mais **indireta**
-* Atua em conjunto com A e B
-* Pode afetar a **reprodutibilidade** dos lançamentos
-
-### 🧠 Integração das variáveis
-
-A distância não depende de um fator isolado, mas da combinação:
-
-$$
-\text{Distância} = f(\text{tensão do elástico}, \text{ângulo}, \text{geometria}) + \varepsilon
-$$
-
-Ou, de forma mais didática:
-
-* **A+ / A- → controla a força**
-* **B+ → controla o ângulo**
-* **O- → estabiliza o sistema**
-
-
-
-<!-- ## 📊 Insight estatístico importante -->
-
-<!-- Você pode explorar com os alunos: -->
-
-<!-- * Comparar **A+ vs A-** → efeito de um fator (ANOVA simples) -->
-<!-- * Fixar A e variar B → **efeito do ângulo** -->
-<!-- * Fazer combinações → **planejamento fatorial** -->
-
-
-
-<!-- ### 💡 Pergunta poderosa para sala -->
-
-<!-- > “É melhor aumentar a força ou ajustar o ângulo para ganhar distância?” -->
-
-<!-- 👉 Isso leva naturalmente ao conceito de: -->
-
-<!-- * interação entre fatores -->
-<!-- * otimização experimental -->
-
-
-
-{{< /spoiler >}}
 
 
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
