@@ -1,9 +1,12 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-27 06:07:59"
+date: "2026-03-27 08:34:20"
 type: book
 weight: 1
+classes: ["blink-text"]
+params:
+  destaque: true
 categories: ["Estatística", "Ensino", "Programação", "Ciência de dados"]
 tags: ["Curso"]
 draft: false
@@ -159,7 +162,12 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 ## <i class="fab fa-r-project"></i> -> <i class="fa fa-globe" aria-hidden="true"></i> Modelo de Relatório R para *Web* {id="relatorio" title="Clique aqui!"}
 
-Acesse o [link](/courses/epaec/modrel/index.html)
+<center>
+
+<span class="blink-text">🔗 Clique no </span> [link](/courses/rcd/modrel/index.html)
+
+</center>
+
 
 ## <i class="fas fa-feather"></i> Lista alunos {id="exerc_entregar" title="Clique aqui!"}
 

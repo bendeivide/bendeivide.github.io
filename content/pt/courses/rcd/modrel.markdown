@@ -1,7 +1,7 @@
 ---
 title: 📑 Modelo de Relatório
 summary: "O propósito dessa página é auxiliar aos alunos a construção dos seus relatórios na disciplina Linguagem R na Ciência de Dados (DEFIM/CAP/UFSJ)"
-date: "`r format(Sys.time())`"
+date: "2026-03-27 08:16:55"
 type: book
 weight: 7
 categories: ["Estatística", "Programação", "Ciência de Dados", "R"]
