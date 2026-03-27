@@ -1,0 +1,57 @@
+---
+title: 💻 Linguagem R na Ciência de Dados (UFSJ)
+linkTitle: LRCD (UFSJ)
+summary: O curso Linguagem R na Ciência de dados é voltado para os alunos dos cursos de Engenharias da UFSJ, campus Alto Paraopeba (CAP). 
+date: "2026-03-26 23:27:15"
+type: book
+categories: ["R", "Estatística", "Ciência de dados"]
+tags: ["Curso"]
+---
+
+{{< figure src="featured.png" >}}
+
+{{< toc hide_on="xl" >}}
+
+## O que você aprenderá
+
+- Linguagem R
+- Processamento de dados
+- Apresentação de dados
+
+## Visão geral do curso
+
+No curso, iremos:
+
+- Entender a linguagem R;
+- Revisar alguns tópicos de probabilidade;
+- Manipulação de dados;
+- Revisar a estatística descritiva;
+- Desenvolver gráficos estatísticos e dinâmicos;
+- Desenvolver *dashboards*, páginas web estatísticas e dinâmicas;
+- Capacitar o discente para a análise e tratamento de dados. 
+
+
+## Módulos nesse curso
+
+{{< list_children >}}
+
+## Encontre seu instrutor
+
+{{< mention "admin" >}}
+- E-mail: <ben.deivide@ufsj.edu.br>
+- Endereço Profissional:
+  - [Campus Alto Paraopeba/UFSJ](https://www.ufsj.edu.br/cap/)
+  - Rod.: MG 443, KM 7 Ouro Branco - MG 36420-000
+  - Sala 103.2
+
+## FAQs
+
+{{< spoiler text="Quais são os pré-requisitos?" >}}
+Ter cursado a disciplina de [Estatística e Probabilidade](/courses/epaec).
+{{< /spoiler >}}
+
+{{< spoiler text="Com que frequência o curso acontece?" >}}
+Semanalmente!
+{{< /spoiler >}}
+
+{{< cta cta_text="Comece o curso" cta_link="normal" >}}
