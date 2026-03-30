@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/ensino/</link>
       <atom:link href="http://bendeivide.github.io/category/ensino/index.xml" rel="self" type="application/rss+xml" />
     <description>Ensino</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 27 Mar 2026 09:13:38 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 30 Mar 2026 15:04:11 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ensino</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/rcd/normal2026.1/</link>
-      <pubDate>Fri, 27 Mar 2026 09:13:38 -0300</pubDate>
+      <pubDate>Mon, 30 Mar 2026 15:04:11 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/rcd/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -34,7 +34,7 @@
     &lt;li&gt;&lt;a href=&#34;#matadotado&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Material adotado&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#relatorio&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; -&amp;gt; &lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Modelo de Relatório R para &lt;em&gt;Web&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#exerc_entregar&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-tasksi-lista-de-relatórios&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#lrel&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#quiz&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/a&gt;&lt;/li&gt;
@@ -193,18 +193,19 @@ bendeivide.github.io/book-eambr01/.&lt;/a&gt;&lt;/p&gt;
 &lt;/center&gt;
 &lt;h2 id=&#34;exerc_entregar&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://macedoeverton37.github.io/relatorio-estprob/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 EVERTON FELIPE HENRIQUES MACEDO&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 GABRIEL DE PAULA AGUIAR&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 HUGO ARAÚJO SOUZA FILHO&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 REGINA GRAZIELA CASSEMIRO DE ALMEIDA&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 YURI DE OLIVEIRA GOMES&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;i-classfas-fa-tasksi-lista-de-relatórios&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
+&lt;h2 id=&#34;lrel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;🗒 Relatório 1 (Clique!) - 03/04/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Relatório&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 31/03/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; Antes do início do horário de aula&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 31/03/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 17h&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;

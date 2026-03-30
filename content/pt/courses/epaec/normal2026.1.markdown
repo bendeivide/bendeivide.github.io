@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-26 14:55:41"
+date: "2026-03-30 15:49:04"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -297,20 +297,45 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 **Engenharia Mecatrônica**
 
-- [🎓 IGOR PEREIRA VITAL e LUCAS WILLIAM ENDRINGER](https://igorpereiravital.github.io/relatorios/)
+- [🎓 BRENDO CUNHA]()
+- [🎓 CALIEL DE ARAUJO RAMOS]()
+- [🎓 DANIEL DE FREITAS ALBERNAZ JUNIOR]()
+- [🎓 HEITOR PINTO ARAUJO]()
+- [🎓 IAN PEREIRA VENTURATO]()
+- [🎓 IGOR PEREIRA VITAL e 🎓 LUCAS WILLIAM ENDRINGER MOURA](https://igorpereiravital.github.io/relatorios/)
+- [🎓 JOAO PEDRO DELPASSO CANAVAL]()
 - [🎓 LUIZ GUSTAVO ALVES CARVALHO](https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/)
-- ...
+- [🎓 MARCOS VINICIUS DE OLIVEIRA FARIA]()
+- [🎓 MARIA EDUARDA MOTTA ROSA](https://maria-eduarda-001.github.io/relatorio-estprob/)
+- [🎓 RAFAEL ROBERTO ROCHA DE OLIVEIRA](https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/)
+- [🎓 VICTOR DE SOUZA MOREIRA ALMEIDA]()
+- [🎓 WADMILSON COSTA DA FONSECA E CRUZ](https://wadmilson.github.io/relatorio-estprob-/)
+
+
 
 **Engenharia de Telecomunicações**
 
-- [🎓 NOME DO ALUNO]()
-- ...
+- [🎓 CAIO VINICIOS CALAZANS]()
+- [🎓 CLAUDIO JOSE DOS SANTOS JUNIOR]()
+- [🎓 EMILLY BEATRIZ DE LIMA]()
+- [🎓 KEZIA CAROLINA FERNANDES DA SILVA]()
+- [🎓 LUCAS REIS OLIVEIRA DE ANDRADE]()
+- [🎓 LUIZ GUSTAVO DOS SANTOS]()
+- [🎓 MAYCOM CAMPOS GODOI]()
+- [🎓 NICOLAS GONÇALVES CARDOSO GUIMARÃES]()
+- [🎓 PEDRO AUGUSTO DE SOUZA GONÇALVES]()
+- [🎓 PEDRO JOSE PEDROSO DOS SANTOS]()
+- [🎓 SARAH OLIVEIRA RAMALHO]()
+- [🎓 VINICIUS DINIZ PINTO]()
+- [🎓 VITOR THEODORO OLIVEIRA VIANA]()
 
-## <i class="fas fa-tasks"></i> Lista de exercícios e relatórios
+## <i class="fas fa-tasks"></i> Lista de exercícios e relatórios {id="l-exerc_rel" title="Clique aqui!"}
 
 - <i class="fas fa-clipboard-list"></i> **Listas**
-</br>
-{{< spoiler text="📌 Lista de Exercício 1 (Clique!)">}}
+
+<div style="margin-left: 40px;">
+
+{{< spoiler text="📌 Lista de Exercício 1 (Clique!) - 30/03/2026">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via portal didático
 - <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
@@ -331,10 +356,14 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 <!-- Fim da Lista de Exercicio 1 -->
 
+</div>
+
 
 - <i class="fas fa-upload"></i> **Relatórios**
-</br>
-{{< spoiler text="🗒️ Relatório 01 (Clique!)">}}
+
+<div style="margin-left: 40px;">
+
+{{< spoiler text="🗒 Relatório 1 (Clique!) - 31/03/2026 ">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
 - <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip)
@@ -352,11 +381,32 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 >  - Até às 13:15 do dia 31/03/2026 (Engenharia Mecatrônica)
 
 {{</spoiler>}}
-
 <!-- Fim do Relatorio 1 -->
+{{< spoiler text="🗒 Relatório 2 (Clique!) - 03/04/2026 ">}}
 
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: HTML
+- <i class="fas fa-calendar-check"></i> 31/03/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Realizar um introdução ao R, fundamentado nas 8 primeiras aulas do [curso R Básico 2024](/courses/ear/rbasico2024/).
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17:05 do dia 03/04/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 2 -->
+
+</div>
 
 ## <i class="fa fa-flask"></i> Experimentos para as aulas práticas {id="experimentos" title="Clique aqui!"}
+
+<div style="margin-left: 20px;">
 
 {{< spoiler text="⚗️ Experimento da catapulta">}}
  
@@ -531,6 +581,8 @@ Ou, de forma mais didática:
 
 
 {{< /spoiler >}}
+
+</div>
 
 
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
@@ -1146,15 +1198,93 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
     target="_blank">Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão</a>
 
 
-
-
-
 <!-- Fim div de aula 06 -->
 </div>
 
 {{< /spoiler >}}
 
 <!-- Fim da Aula 06 -->
+
+{{< spoiler text="🎓 Aula 7">}}
+<!-- Div de aula 06 -->
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema** Medidas de Dispersão ([Capítulo 4](https://bendeivide.github.io/book-epaec/cap04.html))
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s05/" target="_blank"> Aula
+06</a>
+{{< icon name="book-reader" pack="fas" >}}
+<a href="https://docs.google.com/document/d/1kQQYkjs34f3zhqlKdQc6DkDK81Xwa3U0Ht_2T9Ce1hs/edit?usp=sharing" target="_blank">
+**Plano de aula** </a>
+
+{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 3](https://bendeivide.github.io/book-epaec/cap03.html)
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🎙 Podcast 9 (NotebookLM  - 2026.1) - Por que a média pode enganar você?">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast10_Por_que_a_media_pode_enganar_voce.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeo [Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão](https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw) e  [Capítulo 3 - EPAEC](https://bendeivide.github.io/book-epaec/cap03.html).
+{{< /spoiler >}}
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim div podcast -->
+</div>
+
+{{< icon name="brain" pack="fas" >}} **Infográfico**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🧠 Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição">}}
+
+{{< figure src="/infografico/epaec/2026.1/info06_guia_medidas_posicao.png" 
+           title="Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição." 
+           width="400px" >}}
+           
+{{< /spoiler >}}
+
+
+<!-- Fim div infografico -->
+</div>
+
+
+
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/telecom/" "newtab" %}} Script (Eng. Tel) {{% /staticref %}}, {{% staticref "/epaec/2026.1/meca/" "newtab" %}}Script (Eng. Mec){{% /staticref %}}
+
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
+
+
+-   🎥 <a href="https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw"
+    target="_blank">Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão</a>
+
+
+<!-- Fim div de aula 07 -->
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 07 -->
 
 
 <!-- Div de aulas (Geral) -->

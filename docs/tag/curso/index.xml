@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/curso/</link>
       <atom:link href="http://bendeivide.github.io/tag/curso/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 27 Mar 2026 09:13:38 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 30 Mar 2026 15:49:04 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/rcd/normal2026.1/</link>
-      <pubDate>Fri, 27 Mar 2026 09:13:38 -0300</pubDate>
+      <pubDate>Mon, 30 Mar 2026 15:04:11 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/rcd/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -34,7 +34,7 @@
     &lt;li&gt;&lt;a href=&#34;#matadotado&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Material adotado&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#relatorio&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; -&amp;gt; &lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Modelo de Relatório R para &lt;em&gt;Web&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#exerc_entregar&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-tasksi-lista-de-relatórios&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#lrel&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#quiz&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/a&gt;&lt;/li&gt;
@@ -193,18 +193,19 @@ bendeivide.github.io/book-eambr01/.&lt;/a&gt;&lt;/p&gt;
 &lt;/center&gt;
 &lt;h2 id=&#34;exerc_entregar&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://macedoeverton37.github.io/relatorio-estprob/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 EVERTON FELIPE HENRIQUES MACEDO&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 GABRIEL DE PAULA AGUIAR&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 HUGO ARAÚJO SOUZA FILHO&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 REGINA GRAZIELA CASSEMIRO DE ALMEIDA&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 YURI DE OLIVEIRA GOMES&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;i-classfas-fa-tasksi-lista-de-relatórios&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
+&lt;h2 id=&#34;lrel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;🗒 Relatório 1 (Clique!) - 03/04/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Relatório&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 31/03/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; Antes do início do horário de aula&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 31/03/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 17h&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -2331,111 +2332,9 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     </item>
     
     <item>
-      <title>📑 Modelo de Relatório</title>
-      <link>http://bendeivide.github.io/courses/rcd/modrel/</link>
-      <pubDate>Fri, 27 Mar 2026 08:16:55 -0300</pubDate>
-      <guid>http://bendeivide.github.io/courses/rcd/modrel/</guid>
-      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfa-fa-download-aria-hiddentruei-o-que-é-necessário&#34;&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; O que é necessário?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-pencil-alt-aria-hiddentruei-como-aprender-cada-uma-das-ferramentas-necessárias&#34;&gt;&lt;i class=&#34;fas fa-pencil-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Como aprender cada uma das ferramentas necessárias?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfab-fa-youtube-aria-hiddentruei-videoaulas-com-o-passo-a-passo&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Videoaulas com o passo a passo&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#onde&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Onde encontrar o projeto base?&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/h2&gt;
-&lt;p&gt;Material desenvolvido para que os alunos da disciplina Linguagem R na Ciência de Dados (LRCD) possam desenvolver seus relatórios estatísticos ou dinâmicos para a disciplina.&lt;/p&gt;
-&lt;h2 id=&#34;i-classfa-fa-download-aria-hiddentruei-o-que-é-necessário&#34;&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; O que é necessário?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; e &lt;a href=&#34;https://posit.co/download/rstudio-desktop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;De forma mais detalhada recomendamos acessar este &lt;a href=&#34;https://bendeivide.github.io/relatorio-lrcd/relatorio/index.html#vis%C3%A3o-geral-sobre-os-relat%C3%B3rios&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;i-classfas-fa-pencil-alt-aria-hiddentruei-como-aprender-cada-uma-das-ferramentas-necessárias&#34;&gt;&lt;i class=&#34;fas fa-pencil-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Como aprender cada uma das ferramentas necessárias?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Para aprender sobre o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; e &lt;a href=&#34;https://posit.co/download/rstudio-desktop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;, recomendamos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; curso &lt;a href=&#34;http://bendeivide.github.io/courses/ear/index.html&#34;&gt;EAR - R Básico&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-book&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/books/eambr01/index.html&#34;&gt;R Básico&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&amp;amp;si=1l6tbB6hT8zqngEB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2024&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&amp;amp;si=O643FJU11nsbgGr6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2023&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&amp;amp;si=1HRK2Z1GDM3UubjQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2021&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR2K-rWoInwE1WnwtBiulX2S&amp;amp;si=SMWdzKFfeHTlb9DO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Intermediário 2021&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Para aprender sobre o &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt;, recomendamos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/latex/index.html&#34;&gt;Curso LaTeX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fa fa-book&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/books/latex/index.html&#34;&gt;LaTeX: Um guia prático com aplicações na pesquisa e educação&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Para aprender o &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, recomendamos acessar a sua própria página &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://quarto.org/&lt;/a&gt;. Como alternativa, temos um curso usando o Quarto para a criação de livros, que pode auxiliar no seu uso, como também o Curso Documentações em R. Acesse: &lt;a href=&#34;http://bendeivide.github.io/courses/qlivros/index.html&#34;&gt;Quarto livros&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/courses/docr/index.html&#34;&gt;Documentações em R&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Para aprender a usar o &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;, recomendamos fortemente enteder a noção básica sobre o &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;. Acesse o &lt;a href=&#34;https://git-scm.com/book/en/v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;manual&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Para aprender o &lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;, acesse:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0NaBzcRbt3Rjq_2TTUOPK1&amp;amp;si=ReW7BRmwBEbEEUlN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Use leem&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR2FCUNnCm6WPuqYN2c9IvdJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso do pacote leem&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;i-classfab-fa-youtube-aria-hiddentruei-videoaulas-com-o-passo-a-passo&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Videoaulas com o passo a passo&lt;/h2&gt;
-&lt;p&gt;Os dois primeiros vídeos foram usados quando ministramos a disciplina &lt;a href=&#34;https://bendeivide.github.io/courses/profmat-probest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MA 41 no Profmat&lt;/a&gt;. Na época, usamos o projeto do relatório baseado no modelo &lt;a href=&#34;https://bendeivide.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/profmatma41/&lt;/a&gt;. Para a disciplina LRCD, usaremos o projeto &lt;a href=&#34;https://bendeivide.github.io/relatorio-lrcd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/relatorio-lrcd/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Seguem os dois primeiros vídeos:&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
-  &lt;summary&gt;📹 Relatórios para páginas web (R &amp;amp; GitHub)&lt;/summary&gt;
-  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;📹 Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/summary&gt;
-  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;p&gt;Para a melhoria de como desenvolver esses relatórios, resolvemos acrescentar mais 4 vídeos reapresentando de forma simplificada o que os vídeos anteriores mostraram. Seguem:&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;📹 Relatório via web | Aula 01 - Baixar o projeto R/RStudio&lt;/summary&gt;
-  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/z3iAahE3xIg?si=jGkVoRJ0A4VS7ioh&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary&gt;📹 Relatório via web | Aula 02 - Subindo o projeto do relatório ao servidor Github&lt;/summary&gt;
-  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/r4yaBUJbCVc?si=YKd3K5wpfoVuAid8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
-  &lt;summary&gt;📹 Relatório via web | Aula 03 - Alterações no projeto Git/Rstudio&lt;/summary&gt;
-  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ez8ThgOvplc?si=QCwrn83bwKmA1-SR&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;📹 Relatório via web | Aula 04 - Trabalho Github/RStudio colaborativo&lt;/summary&gt;
-  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BTolFm3UlEE?si=7Ejnvq8yesFiNF-r&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Onde encontrar o projeto base?&lt;/h2&gt;
-&lt;p&gt;Segue o &lt;a href=&#34;https://github.com/bendeivide/relatorio-lrcd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;. Seguindo os passos dos dois vídeos informados anteriormente, será possível a criação do modelo de relatório.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Thu, 26 Mar 2026 14:55:41 -0300</pubDate>
+      <pubDate>Mon, 30 Mar 2026 15:49:04 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -2454,7 +2353,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     &lt;li&gt;&lt;a href=&#34;#matadotado&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Material adotado&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#relatorio&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; -&amp;gt; &lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Modelo de Relatório R para &lt;em&gt;Web&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#exerc_entregar&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-tasksi-lista-de-exercícios-e-relatórios&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de exercícios e relatórios&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#l-exerc_rel&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de exercícios e relatórios&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#experimentos&#34;&gt;&lt;i class=&#34;fa fa-flask&#34;&gt;&lt;/i&gt; Experimentos para as aulas práticas&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
@@ -2785,21 +2684,43 @@ Blucher, 2007.&lt;/li&gt;
 &lt;h2 id=&#34;exerc_entregar&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Engenharia Mecatrônica&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://igorpereiravital.github.io/relatorios/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 IGOR PEREIRA VITAL e LUCAS WILLIAM ENDRINGER&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 BRENDO CUNHA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 CALIEL DE ARAUJO RAMOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 DANIEL DE FREITAS ALBERNAZ JUNIOR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 HEITOR PINTO ARAUJO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 IAN PEREIRA VENTURATO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://igorpereiravital.github.io/relatorios/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 IGOR PEREIRA VITAL e 🎓 LUCAS WILLIAM ENDRINGER MOURA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 JOAO PEDRO DELPASSO CANAVAL&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 LUIZ GUSTAVO ALVES CARVALHO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 MARCOS VINICIUS DE OLIVEIRA FARIA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://maria-eduarda-001.github.io/relatorio-estprob/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 MARIA EDUARDA MOTTA ROSA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 RAFAEL ROBERTO ROCHA DE OLIVEIRA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 VICTOR DE SOUZA MOREIRA ALMEIDA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wadmilson.github.io/relatorio-estprob-/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 WADMILSON COSTA DA FONSECA E CRUZ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Engenharia de Telecomunicações&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 NOME DO ALUNO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 CAIO VINICIOS CALAZANS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 CLAUDIO JOSE DOS SANTOS JUNIOR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 EMILLY BEATRIZ DE LIMA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 KEZIA CAROLINA FERNANDES DA SILVA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 LUCAS REIS OLIVEIRA DE ANDRADE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 LUIZ GUSTAVO DOS SANTOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 MAYCOM CAMPOS GODOI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 NICOLAS GONÇALVES CARDOSO GUIMARÃES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 PEDRO AUGUSTO DE SOUZA GONÇALVES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 PEDRO JOSE PEDROSO DOS SANTOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 SARAH OLIVEIRA RAMALHO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 VINICIUS DINIZ PINTO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 VITOR THEODORO OLIVEIRA VIANA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;i-classfas-fa-tasksi-lista-de-exercícios-e-relatórios&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de exercícios e relatórios&lt;/h2&gt;
+&lt;h2 id=&#34;l-exerc_rel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de exercícios e relatórios&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-clipboard-list&#34;&gt;&lt;/i&gt; &lt;strong&gt;Listas&lt;/strong&gt;
-&lt;/br&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-clipboard-list&#34;&gt;&lt;/i&gt; &lt;strong&gt;Listas&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;margin-left: 40px;&#34;&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
-  &lt;summary&gt;📌 Lista de Exercício 1 (Clique!)&lt;/summary&gt;
+  &lt;summary&gt;📌 Lista de Exercício 1 (Clique!) - 30/03/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via portal didático&lt;/li&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: Escrito a mão (Digitalizado)&lt;/li&gt;
@@ -2816,14 +2737,15 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;/p&gt;
-&lt;/details&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/details&gt;
 &lt;!-- Fim da Lista de Exercicio 1 --&gt;
+&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; &lt;strong&gt;Relatórios&lt;/strong&gt;
-&lt;/br&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; &lt;strong&gt;Relatórios&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;margin-left: 40px;&#34;&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
-  &lt;summary&gt;🗒️ Relatório 01 (Clique!)&lt;/summary&gt;
+  &lt;summary&gt;🗒 Relatório 1 (Clique!) - 31/03/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Relatório&lt;/a&gt;&lt;/li&gt;
@@ -2840,11 +2762,31 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;/p&gt;
-&lt;/details&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/details&gt;
 &lt;!-- Fim do Relatorio 1 --&gt;
-&lt;h2 id=&#34;experimentos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-flask&#34;&gt;&lt;/i&gt; Experimentos para as aulas práticas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 2 (Clique!) - 03/04/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: HTML&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 31/03/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 17h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Realizar um introdução ao R, fundamentado nas 8 primeiras aulas do &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico2024/&#34;&gt;curso R Básico 2024&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 17:05 do dia 03/04/2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 2 --&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;experimentos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-flask&#34;&gt;&lt;/i&gt; Experimentos para as aulas práticas&lt;/h2&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;⚗️ Experimento da catapulta&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;O experimento da catapulta consiste no lançamento de uma bolinha por meio de um dispositivo mecânico, variando-se condições como a posição do elástico, posição da bolinha e o ângulo de disparo. O objetivo é analisar como essas variáveis podem ou não influenciar a distância percorrida pela bolinha.&lt;/p&gt;
 &lt;p&gt;Ou melhor,&lt;/p&gt;
@@ -3016,9 +2958,10 @@ $$
 &lt;!-- * otimização experimental --&gt;
 &lt;/p&gt;
 &lt;/details&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt; 
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação do
@@ -3123,7 +3066,7 @@ target=&#34;_blank&#34;&gt;Técnicas de Somatório&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R e Aula Prática 01&lt;/p&gt;
@@ -3199,7 +3142,7 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim de Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II) e &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap02.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 2&lt;/a&gt;&lt;/p&gt;
@@ -3295,7 +3238,7 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Aula Prática 02 - Cap. 01 e 02&lt;/p&gt;
@@ -3344,7 +3287,7 @@ target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; &lt;a href=&#34;#relatorio%22&#34;&gt;Como desenvolver Relatórios Web&lt;/a&gt;&lt;/p&gt;
@@ -3406,7 +3349,7 @@ Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/a&gt;&lt;/li&g
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -3468,6 +3411,68 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 06 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+  &lt;summary&gt;🎓 Aula 7&lt;/summary&gt;
+  &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema&lt;/strong&gt; Medidas de Dispersão (&lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap04.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 4&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s05/&#34; target=&#34;_blank&#34;&gt; Aula
+06&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1kQQYkjs34f3zhqlKdQc6DkDK81Xwa3U0Ht_2T9Ce1hs/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
+&lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Livro EPAEC:&lt;/strong&gt; &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap03.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;🎙 Podcast 9 (NotebookLM  - 2026.1) - Por que a média pode enganar você?&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast10_Por_que_a_media_pode_enganar_voce.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt; com edição de Ben Dêivide, baseado no vídeo &lt;a href=&#34;https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão&lt;/a&gt; e  &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap03.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 3 - EPAEC&lt;/a&gt;.&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim div podcast --&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Infográfico&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;🧠 Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição&lt;/summary&gt;
+  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-06-notebooklm---20261---guia-das-medidas-de-posição&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info06_guia_medidas_posicao.png&#34; alt=&#34;Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição.&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim div infografico --&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/telecom/&#34; target=&#34;_blank&#34;&gt;Script (Eng. Tel)&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/meca/&#34; target=&#34;_blank&#34;&gt;Script (Eng. Mec)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
+target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34;
+target=&#34;_blank&#34;&gt; Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;
+target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Videoaulas de semestres anteriores&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🎥 &lt;a href=&#34;https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw&#34;
+target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fim div de aula 07 --&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 07 --&gt;
 &lt;!-- Div de aulas (Geral) --&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
@@ -3506,11 +3511,11 @@ href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
 target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-39&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-38&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-40&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
@@ -3521,6 +3526,108 @@ target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📑 Modelo de Relatório</title>
+      <link>http://bendeivide.github.io/courses/rcd/modrel/</link>
+      <pubDate>Fri, 27 Mar 2026 08:16:55 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/rcd/modrel/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#apresentacao&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfa-fa-download-aria-hiddentruei-o-que-é-necessário&#34;&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; O que é necessário?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfas-fa-pencil-alt-aria-hiddentruei-como-aprender-cada-uma-das-ferramentas-necessárias&#34;&gt;&lt;i class=&#34;fas fa-pencil-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Como aprender cada uma das ferramentas necessárias?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-classfab-fa-youtube-aria-hiddentruei-videoaulas-com-o-passo-a-passo&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Videoaulas com o passo a passo&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#onde&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Onde encontrar o projeto base?&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/h2&gt;
+&lt;p&gt;Material desenvolvido para que os alunos da disciplina Linguagem R na Ciência de Dados (LRCD) possam desenvolver seus relatórios estatísticos ou dinâmicos para a disciplina.&lt;/p&gt;
+&lt;h2 id=&#34;i-classfa-fa-download-aria-hiddentruei-o-que-é-necessário&#34;&gt;&lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; O que é necessário?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; e &lt;a href=&#34;https://posit.co/download/rstudio-desktop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;De forma mais detalhada recomendamos acessar este &lt;a href=&#34;https://bendeivide.github.io/relatorio-lrcd/relatorio/index.html#vis%C3%A3o-geral-sobre-os-relat%C3%B3rios&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;i-classfas-fa-pencil-alt-aria-hiddentruei-como-aprender-cada-uma-das-ferramentas-necessárias&#34;&gt;&lt;i class=&#34;fas fa-pencil-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Como aprender cada uma das ferramentas necessárias?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender sobre o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt; e &lt;a href=&#34;https://posit.co/download/rstudio-desktop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;, recomendamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; curso &lt;a href=&#34;http://bendeivide.github.io/courses/ear/index.html&#34;&gt;EAR - R Básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-book&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/books/eambr01/index.html&#34;&gt;R Básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR3E5zSS1Ke3pavrB53DV9NX&amp;amp;si=1l6tbB6hT8zqngEB&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2024&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR1DVL3ue5yhGBWcH-XUH67r&amp;amp;si=O643FJU11nsbgGr6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0y0qZdOM0KKqb4oEbAMs7O&amp;amp;si=1HRK2Z1GDM3UubjQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Básico 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR2K-rWoInwE1WnwtBiulX2S&amp;amp;si=SMWdzKFfeHTlb9DO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R Intermediário 2021&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender sobre o &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt;, recomendamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-video&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/courses/latex/index.html&#34;&gt;Curso LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-book&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/books/latex/index.html&#34;&gt;LaTeX: Um guia prático com aplicações na pesquisa e educação&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender o &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, recomendamos acessar a sua própria página &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://quarto.org/&lt;/a&gt;. Como alternativa, temos um curso usando o Quarto para a criação de livros, que pode auxiliar no seu uso, como também o Curso Documentações em R. Acesse: &lt;a href=&#34;http://bendeivide.github.io/courses/qlivros/index.html&#34;&gt;Quarto livros&lt;/a&gt; e &lt;a href=&#34;http://bendeivide.github.io/courses/docr/index.html&#34;&gt;Documentações em R&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender a usar o &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;, recomendamos fortemente enteder a noção básica sobre o &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;. Acesse o &lt;a href=&#34;https://git-scm.com/book/en/v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;manual&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Para aprender o &lt;a href=&#34;http://localhost:4321/project/leem/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LEEM&lt;/a&gt;, acesse:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://youtube.com/playlist?list=PL-20Z1XFWKR0NaBzcRbt3Rjq_2TTUOPK1&amp;amp;si=ReW7BRmwBEbEEUlN&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Use leem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.youtube.com/playlist?list=PL-20Z1XFWKR2FCUNnCm6WPuqYN2c9IvdJ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curso do pacote leem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;i-classfab-fa-youtube-aria-hiddentruei-videoaulas-com-o-passo-a-passo&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Videoaulas com o passo a passo&lt;/h2&gt;
+&lt;p&gt;Os dois primeiros vídeos foram usados quando ministramos a disciplina &lt;a href=&#34;https://bendeivide.github.io/courses/profmat-probest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MA 41 no Profmat&lt;/a&gt;. Na época, usamos o projeto do relatório baseado no modelo &lt;a href=&#34;https://bendeivide.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/profmatma41/&lt;/a&gt;. Para a disciplina LRCD, usaremos o projeto &lt;a href=&#34;https://bendeivide.github.io/relatorio-lrcd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/relatorio-lrcd/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Seguem os dois primeiros vídeos:&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;📹 Relatórios para páginas web (R &amp;amp; GitHub)&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;📹 Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;Para a melhoria de como desenvolver esses relatórios, resolvemos acrescentar mais 4 vídeos reapresentando de forma simplificada o que os vídeos anteriores mostraram. Seguem:&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;📹 Relatório via web | Aula 01 - Baixar o projeto R/RStudio&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/z3iAahE3xIg?si=jGkVoRJ0A4VS7ioh&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;📹 Relatório via web | Aula 02 - Subindo o projeto do relatório ao servidor Github&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/r4yaBUJbCVc?si=YKd3K5wpfoVuAid8&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;📹 Relatório via web | Aula 03 - Alterações no projeto Git/Rstudio&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ez8ThgOvplc?si=QCwrn83bwKmA1-SR&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;📹 Relatório via web | Aula 04 - Trabalho Github/RStudio colaborativo&lt;/summary&gt;
+  &lt;p&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BTolFm3UlEE?si=7Ejnvq8yesFiNF-r&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Onde encontrar o projeto base?&lt;/h2&gt;
+&lt;p&gt;Segue o &lt;a href=&#34;https://github.com/bendeivide/relatorio-lrcd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;. Seguindo os passos dos dois vídeos informados anteriormente, será possível a criação do modelo de relatório.&lt;/p&gt;
 </description>
     </item>
     

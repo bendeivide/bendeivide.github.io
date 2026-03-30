@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-27 09:13:38"
+date: "2026-03-30 15:04:11"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -171,6 +171,7 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 ## <i class="fas fa-feather"></i> Lista alunos {id="exerc_entregar" title="Clique aqui!"}
 
+- [🎓 EVERTON FELIPE HENRIQUES MACEDO](https://macedoeverton37.github.io/relatorio-estprob/)
 - [🎓 GABRIEL DE PAULA AGUIAR]()
 - [🎓 HUGO ARAÚJO SOUZA FILHO]()
 - [🎓 REGINA GRAZIELA CASSEMIRO DE ALMEIDA]()
@@ -178,13 +179,13 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 
 
-## <i class="fas fa-tasks"></i> Lista de relatórios
+## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
 
 {{< spoiler text="🗒 Relatório 1 (Clique!) - 03/04/2026 ">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
 - <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip)
-- <i class="fas fa-calendar-check"></i> 31/03/2026 <i class="fas fa-clock"></i> Antes do início do horário de aula
+- <i class="fas fa-calendar-check"></i> 31/03/2026 <i class="fas fa-clock"></i> 17h
 
 ---
 
