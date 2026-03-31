@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/probabilidade/</link>
       <atom:link href="http://bendeivide.github.io/category/probabilidade/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilidade</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 30 Mar 2026 15:49:04 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 30 Mar 2026 16:22:56 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Probabilidade</title>
@@ -537,7 +537,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Mon, 30 Mar 2026 15:49:04 -0300</pubDate>
+      <pubDate>Mon, 30 Mar 2026 16:22:56 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -1556,7 +1556,7 @@ Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/a&gt;&lt;/li&g
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema&lt;/strong&gt; Medidas de Posição (&lt;a href=&#34;#ementa&#34;&gt;Capítulo 3&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema&lt;/strong&gt; Aula prática 03 e Medidas de Posição (&lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap02.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 3&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s05/&#34; target=&#34;_blank&#34;&gt; Aula
 06&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
@@ -1570,7 +1570,7 @@ Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/a&gt;&lt;/li&g
   &lt;summary&gt;🎙 Podcast 9 (NotebookLM  - 2026.1) - Por que a média pode enganar você?&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast10_Por_que_a_media_pode_enganar_voce.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast09_Por_que_a_media_pode_enganar_voce.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
   &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
@@ -1619,24 +1619,36 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema&lt;/strong&gt; Medidas de Dispersão (&lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap04.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 4&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s05/&#34; target=&#34;_blank&#34;&gt; Aula
-06&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/estprob/s07/&#34; target=&#34;_blank&#34;&gt; Aula
+07&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt;
-&lt;a href=&#34;https://docs.google.com/document/d/1kQQYkjs34f3zhqlKdQc6DkDK81Xwa3U0Ht_2T9Ce1hs/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1GuXPho9a_uyBs-RvNV9QCBMArJHmfJpSG6FdLsL9Zjc/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;
 &lt;strong&gt;Plano de aula&lt;/strong&gt; &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Livro EPAEC:&lt;/strong&gt; &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap03.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Livro EPAEC:&lt;/strong&gt; &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap04.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 4&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;🎙 Podcast 9 (NotebookLM  - 2026.1) - Por que a média pode enganar você?&lt;/summary&gt;
+  &lt;summary&gt;🎙 Podcast 10 (NotebookLM  - 2026.1) - Simbiose entre medidas de posição e dispersão&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast10_Por_que_a_media_pode_enganar_voce.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast10_simbiose_entre_medidas_de_posicao_e_dispersao.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
   &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
-  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt; com edição de Ben Dêivide, baseado no vídeo &lt;a href=&#34;https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão&lt;/a&gt; e  &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap03.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 3 - EPAEC&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt; com edição de Ben Dêivide, baseado no vídeo &lt;a href=&#34;https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão&lt;/a&gt; e  &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap04.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 4 - EPAEC&lt;/a&gt;.&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;🎙 Podcast 11 (NotebookLM  - 2026.1) - A média mente e a dispersão revela&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast11_A_media_mente_e_a_dispersao_revela.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt; com edição de Ben Dêivide, baseado no vídeo &lt;a href=&#34;https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão&lt;/a&gt; e  &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap04.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 4 - EPAEC&lt;/a&gt;.&lt;/p&gt;
 &lt;/details&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
@@ -1644,13 +1656,13 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
 &lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Infográfico&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
-  &lt;summary&gt;🧠 Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição&lt;/summary&gt;
-  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-06-notebooklm---20261---guia-das-medidas-de-posição&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;🧠 Infográfico 07 (NotebookLM - 2026.1) - Guia das medidas de dispersão&lt;/summary&gt;
+  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-06-notebooklm---20261---guia-das-medidas-de-dispersão&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info06_guia_medidas_posicao.png&#34; alt=&#34;Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição.&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info07_gui_medidas_dispersao.png&#34; alt=&#34;Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de dispersão.&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição.
+      Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de dispersão.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/details&gt;

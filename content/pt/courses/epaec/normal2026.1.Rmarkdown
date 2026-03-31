@@ -1197,7 +1197,7 @@ Relatórios para páginas web (R & GitHub) - Parte II</a>
 <!-- Div de aula 06 -->
 <div style="margin-left: 20px;">
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema** Medidas de Posição ([Capítulo 3](#ementa))
+{{< icon name="pen-fancy" pack="fas" >}} **Tema** Aula prática 03 e Medidas de Posição ([Capítulo 3](https://bendeivide.github.io/book-epaec/cap02.html))
 
 {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s05/" target="_blank"> Aula
 06</a>
@@ -1217,7 +1217,7 @@ Relatórios para páginas web (R & GitHub) - Parte II</a>
 
 <div style="margin-left: 20px;">
 
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast10_Por_que_a_media_pode_enganar_voce.mp3" >}}
+{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast09_Por_que_a_media_pode_enganar_voce.mp3" >}}
 
 {{< spoiler text="✏️ Descrição do Podcast">}}
 
@@ -1280,13 +1280,13 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema** Medidas de Dispersão ([Capítulo 4](https://bendeivide.github.io/book-epaec/cap04.html))
 
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s05/" target="_blank"> Aula
-06</a>
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s07/" target="_blank"> Aula
+07</a>
 {{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1kQQYkjs34f3zhqlKdQc6DkDK81Xwa3U0Ht_2T9Ce1hs/edit?usp=sharing" target="_blank">
+<a href="https://docs.google.com/document/d/1GuXPho9a_uyBs-RvNV9QCBMArJHmfJpSG6FdLsL9Zjc/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
 
-{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 3](https://bendeivide.github.io/book-epaec/cap03.html)
+{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 4](https://bendeivide.github.io/book-epaec/cap04.html)
 
 {{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
 
@@ -1294,15 +1294,30 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <div style="margin-left: 20px;">
 
-{{< spoiler text="🎙 Podcast 9 (NotebookLM  - 2026.1) - Por que a média pode enganar você?">}}
+{{< spoiler text="🎙 Podcast 10 (NotebookLM  - 2026.1) - Simbiose entre medidas de posição e dispersão">}}
 
 <div style="margin-left: 20px;">
 
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast10_Por_que_a_media_pode_enganar_voce.mp3" >}}
+{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast10_simbiose_entre_medidas_de_posicao_e_dispersao.mp3" >}}
 
 {{< spoiler text="✏️ Descrição do Podcast">}}
 
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeo [Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão](https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw) e  [Capítulo 3 - EPAEC](https://bendeivide.github.io/book-epaec/cap03.html).
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeo [Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão](https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw) e  [Capítulo 4 - EPAEC](https://bendeivide.github.io/book-epaec/cap04.html).
+{{< /spoiler >}}
+
+</div>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎙 Podcast 11 (NotebookLM  - 2026.1) - A média mente e a dispersão revela">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast11_A_media_mente_e_a_dispersao_revela.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeo [Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão](https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw) e  [Capítulo 4 - EPAEC](https://bendeivide.github.io/book-epaec/cap04.html).
 {{< /spoiler >}}
 
 </div>
@@ -1316,10 +1331,10 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <div style="margin-left: 20px;">
 
-{{< spoiler text="🧠 Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição">}}
+{{< spoiler text="🧠 Infográfico 07 (NotebookLM - 2026.1) - Guia das medidas de dispersão">}}
 
-{{< figure src="/infografico/epaec/2026.1/info06_guia_medidas_posicao.png" 
-           title="Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição." 
+{{< figure src="/infografico/epaec/2026.1/info07_gui_medidas_dispersao.png" 
+           title="Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de dispersão." 
            width="400px" >}}
            
 {{< /spoiler >}}

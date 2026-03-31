@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-30 15:04:11"
+date: "2026-03-31 13:10:33"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -142,7 +142,7 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 - [Wickham, H. *Mastering Shiny*. O’Reilly Media, 2021.](https://mastering-shiny.org/)
 
-- [Wickham, H.; Grolemund, G. *R for Data Science*. O’Reilly Media, 2017.](https://r4ds.hadley.nz/)
+- [Wickham, H.; Grolemund, G. *R for Data Science*. O’Reilly Media, 2023.](https://r4ds.hadley.nz/)
 
 - [Wilke, C. O. *Fundamentals of Data Visualization*. O’Reilly Media, 2016.](https://clauswilke.com/dataviz/)
 
@@ -210,20 +210,19 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 <div style="margin-left: 20px;">
 
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Apresentação do
-curso e Definições gerais da estatística e técnicas de somatório
-([Capítulo 1](https://bendeivide.github.io/book-epaec/cap01.html))
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Apresentação do curso e Introdução ao R
+
 
 {{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1GCzMX9DeFUFxXrr5kvXhXjXmHl7j0OhrM3HFt4nolpw/edit?usp=sharing" target="_blank">
+<a href="https://docs.google.com/document/d/1zrPgmA0sUDp9SWATvxC9RMJUTiR8d8a7wNB3uhu_Iy0/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
 
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s01/" target="_blank"> Aula
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/lrcd/" target="_blank"> Aula
 01</a>
 
 {{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
 
-{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 1](https://bendeivide.github.io/book-epaec/cap01.html)
+{{< icon name="book" pack="fas" >}} **Livro R Básico:** [Capítulo 2](https://bendeivide.github.io/book-eambr01/cap02.html), [Capítulo 3](https://bendeivide.github.io/book-eambr01/cap03.html)
 
 {{< icon name="headphones" pack="fas" >}} **Podcast**
 
@@ -231,7 +230,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 <!-- Podcast 01 -->
 
-{{< spoiler text="🎙 Podcast 01 (NotebookLM  - 2026.1) - Como a estatística transforma dados em decisoes">}}
+{{< spoiler text="🎙 Podcast 01 (NotebookLM  - 2026.1) - Professor troca PDFs por R/RStudio/GitHub">}}
 
 <div style="margin-left: 20px;">
 
@@ -239,7 +238,7 @@ curso e Definições gerais da estatística e técnicas de somatório
 
 {{< spoiler text="✏️ Descrição do Podcast">}}
 
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeo [RES0001 - Definições Gerais da Estatística](https://www.youtube.com/watch?v=Ibc6BUt3jbc).
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado na página do curso [LRCD](https://bendeivide.github.io/courses/rcd/normal2026.1/).
 
 {{< /spoiler >}}
 
@@ -250,83 +249,20 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <!-- Fim do Podcast 01 -->
 
-<!-- Podcast 2 -->
-
-{{< spoiler text="🎙 Podcast 02 (NotebookLM  - 2026.1) - Como a estatística decifra a realidade oculta">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast02_Como_a_estatística_decifra_a_realidade_oculta.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeo [RES0001 - Definições Gerais da Estatística](https://www.youtube.com/watch?v=Ibc6BUt3jbc).
-
-{{< /spoiler >}}
-
-
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim do Podcast 02 -->
-
-<!-- Podcast 03 -->
-
-{{< spoiler text="🎙 Podcast EP-ER#01 (2021.2) - Definições Gerais da Estatística">}}
-
-<div style="margin-left: 20px;">
-
-<iframe src="https://open.spotify.com/embed/episode/00QWz0x2xOdXCdC2uLCvbU" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido na disciplina de Estatística e Probabilidade, no [período remoto em 2021.2](/courses/epaec/remoto/).
-
-{{< /spoiler >}}
-
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim do Podcast 03 -->
-
-<!-- Podcast 04 -->
-
-{{< spoiler text="🎙 Podcast 01 (Por Elisa Najla, 2022.2) - Definições Gerais da Estatística">}}
-
-<div style="margin-left: 20px;">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D1m6PC53BXU?si=B7zarlOoPE1KQus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido na disciplina de Estatística e Probabilidade, no período de 2022.1, por Elisa Najla, aluna de Engenharia de Telecomunicações (UFSJ). Mais podcasts, acesse [Youtube/bendeivide](https://www.youtube.com/watch?v=D1m6PC53BXU&list=PL-20Z1XFWKR3M4laONv5FlvyKF8tLAHE4).
-
-{{< /spoiler >}}
-
-
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim do Podcast 04 -->
-
-
 <!-- Div de Podcast de Aula 01 -->
 </div>
 
 {{< icon name="r-project" pack="fab" >}} <a
-    href="/epaec/2026.1/r-scripts/aula01.R" target="_blank">*Script* Aula 1</a>
+    href="/lrcd/2026.1/" target="_blank">*Script* Aula 1</a>
 
 {{< icon name="brain" pack="fas" >}} **Infográfico**
 
 <div style="margin-left: 20px;">
 
-{{< spoiler text="🧠 Infográfico 01 (NotebookLM) - Definições Gerais da Estatística">}}
+{{< spoiler text="🧠 Infográfico 01 (NotebookLM) - Guia do Curso: Linguagem R para Ciência de Dados">}}
 
-{{< figure src="/infografico/epaec/2026.1/info01_Definicoes_gerais_da_estatistica.png" 
-           title="Mapa Mental 01 (NotebookLM) - Definições Gerais da Estatística. " 
+{{< figure src="/infografico/lrcd/2026.1/info01-LRCD.png" 
+           title="Infográfico 01 (NotebookLM) - Guia do Curso: Linguagem R para Ciência de Dados." 
            width="400px" >}}
            
 {{< /spoiler >}}
@@ -335,18 +271,18 @@ Este podcast foi desenvolvido na disciplina de Estatística e Probabilidade, no 
 
 {{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
 
--   🎥 <a href="https://youtu.be/OrgaM1J4w3I?si=i2W2wusUG-nn2nS0"
-    target="_blank">Definições gerais da estatística</a>
--   🎥 <a href="https://youtu.be/Ibc6BUt3jbc?si=lpMHRMVDCyRxXS9q"
-    target="_blank">Resumo sobre Definições gerais da estatística</a>
--   🎥 <a href="https://youtu.be/l0JjW-E9jco?si=FECgnSxU9cCmHvrV"
-    target="_blank">Ensino Remoto 2021.1 - Apresentação da disciplina de Estatística e Probabilidade</a>
--   🎥 <a href="https://www.youtube.com/live/bVObtgCFISs?si=VIPBV0uHAuARIz9l"
-    target="_blank">Ensino Remoto 2021.1 - Definições gerais da Estatística e organização de dados</a>
--   🎥 <a href="https://youtu.be/xvORKHMVUr8?si=s8nakBWREHHCD9iS"
-    target="_blank">População, Amostra e Variável</a>
--   🎥 <a href="https://youtu.be/tWCxCyZZHes?si=DIxL0OszO93nrk0n"
-    target="_blank">Técnicas de Somatório</a>
+- 🎥 <a href="https://www.youtube.com/live/rG3M9E0rwfM?si=FfvUUUNTB1FkcWL8"
+    target="_blank">R Básico 2024 | Aula 01 - Entendendo o curso EAR: R Básico</a>  
+- 🎥 <a href="https://youtu.be/KryehEXgGF8?si=-PeNsb2gFxIfAFs4"
+    target="_blank">R Básico 2024 | Aula 02 - Passos iniciais para a utilização do R e RStudio</a>
+- 🎥 <a href="https://www.youtube.com/live/yO8qKud3sIk?si=nUyFuvFHTKf7M88b"
+    target="_blank">R Básico 2024 | Aula 04 - Como o R trabalha?</a>
+- 🎥 <a href="https://youtu.be/iI9Vx7dzOfo?si=rU4FRfXKyaTvhjbz"
+    target="_blank">R Básico 2024 | Aula 05 - Comandos no R e Ambiente Global</a>
+- 🎥 <a href="https://youtu.be/8gYuZKXSwNg?si=ZK6Ng16oTloILhVC"
+    target="_blank">R Básico 2024 | Aula 06 - Arquivos .RData e .Rhistory</a>
+- 🎥 <a href="https://www.youtube.com/live/jLI3ofN2EXI?si=8OwB7C1Y2qKersqv"
+    target="_blank">R Básico 2024 | Aula 07 - Criando e salvando um Script</a>
 
 
 <!-- Div de Aula 01 -->
@@ -357,403 +293,21 @@ Este podcast foi desenvolvido na disciplina de Estatística e Probabilidade, no 
 
 <!-- Fim da Aula 01 -->
 
-{{< spoiler text="🎓 Aula 2">}}
-
-<div style="margin-left: 20px;">
-
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Introdução ao R e Aula Prática 01
-
-{{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1cW42miXDot1Bpa5OaF5NAC8bWRJDIP2dUqWaOxETmeQ/edit?usp=sharing" target="_blank">
-**Plano de aula** </a>
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s02/" target="_blank"> Aula
-02</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-
-{{< icon name="book" pack="fas" >}} **Livro R Básico:** [Capítulo 2](https://bendeivide.github.io/book-eambr01/hist%C3%B3ria-e-instala%C3%A7%C3%A3o-do-r.html), [Capítulo 3](https://bendeivide.github.io/book-eambr01/como-o-r-trabalha.html)
-
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🎙 Podcast 04 (NotebookLM  - 2026.1) - Estatística e variabilidade no experimento da catapulta">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast04_Estatistica_e_variabilidade_no_experimento_da_catapulta.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado na descrição do experimento da catapulta na seção  
-[Experimentos para as aulas práticas](#experimentos).
-
-{{< /spoiler >}}
-
-</div>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎙 Podcast 05 (NotebookLM  - 2026.1) - O que acontece na memória do R">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast05_O_que_acontece_na_memoria_do_R.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, nas aulas 02, 04 e 05 do curso [R Básico 2024](https://bendeivide.github.io/courses/ear/rbasico2024/#aulas).
-
-{{< /spoiler >}}
-
-</div>
-
-{{< /spoiler >}}
-
-</div>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="/epaec/2026.1/r-scripts/aula02.R" target="_blank">*Script* Aula 2</a>
-
-{{< icon name="brain" pack="fas" >}} **Infográfico**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🧠 Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio">}}
-
-{{< figure src="/infografico/epaec/2026.1/info02_Primeiros_passos_com_R_e_RStudio.png" 
-           title="Infográfico 02 (NotebookLM) - Primeiros passos com o R e RStudio. " 
-           width="400px" >}}
-           
-{{< /spoiler >}}
-
-</div>
-
-
-
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta:**
-
--   [R Básico - Capítulo 2](https://bendeivide.github.io/book-eambr01/hist%C3%B3ria-e-instala%C3%A7%C3%A3o-do-r.html)
--   [R Básico - Capítulo 3](https://bendeivide.github.io/book-eambr01/como-o-r-trabalha.html)
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref"#experimentos">}}"
-    target="_blank"> Experimento da catapulta</a>
-
-{{< icon name="youtube" pack="fab" >}} **Videoaulas  de semestres anteriores**
-
--   🎥 <a href="https://youtu.be/KryehEXgGF8?si=ErToSRKg8dVq9cjl"
-    target="_blank">Passos iniciais para a utilização do R e do RStudio</a>
--   🎥 <a href="https://www.youtube.com/live/yO8qKud3sIk?si=bIxLQQe_eszQrbay"
-    target="_blank">Como o R trabalha?</a>
--   🎥 <a href="https://youtu.be/iI9Vx7dzOfo?si=AoZTTYNMCgHqCSlH"
-    target="_blank">Comandos no R e Ambiente Global</a>
-
-
-    
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim de Aula 02 -->
-
-
-{{< spoiler text="🎓 Aula 3">}}
-
-<div style="margin-left: 20px;">
-
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Introdução ao R (Parte II) e [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html)
-
-{{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1zx4gyOXrmkusMsP3o0X8exYTWH7ln5GLUi4-q1nSBpg/edit?usp=sharing" target="_blank"> **Plano de aula** </a>
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s03/" target="_blank"> Aula
-03</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-
-{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html)
-
-
-
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🎙 Podcast 03 (NotebookLM  - 2026.1) - Como dar sentido ao caos dos dados">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast03_Como_dar_sentido_ao_caos_dos_dados.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeo [Tabulação e organização de dados](https://youtu.be/wdXJ_CzMdXI?si=laEZUuPksF--vkyR) e o [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html) do EPAEC.
-
-{{< /spoiler >}}
-
-
-</div>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎙 Podcast 02 (Por Elisa Najla, 2022.2) - Coleta, organização e apresentação de dados">}}
-
-<div style="margin-left: 20px;">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aNhTI7SMzJ0?si=Fpp_fnrNa5rPe5fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido na disciplina de Estatística e Probabilidade, no período de 2022.1, por Elisa Najla, aluna de Engenharia de Telecomunicações (UFSJ). Mais podcasts, acesse [Youtube/bendeivide](https://www.youtube.com/watch?v=D1m6PC53BXU&list=PL-20Z1XFWKR3M4laONv5FlvyKF8tLAHE4).
-
-{{< /spoiler >}}
-
-
-</div>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎙 Podcast 06 (Notebooklm - 2026.1) - A Engenharia por trás do R">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast06_A_engenharia_por_tras_do_R.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado nos vídeos [R Básico 2024 | Aula 08 - Objetos e Estrutura de dados](https://www.youtube.com/watch?v=wl_TsLblYoU) e [R Básico 2024 | Aula 15 - Funções](https://www.youtube.com/watch?v=1EfnPu_rjDQ).
-
-{{< /spoiler >}}
-
-
-</div>
-
-{{< /spoiler >}}
-
-
-
-</div>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>
-
-{{< icon name="brain" pack="fas" >}} **Infográfico**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🧠 Infográfico 03 (NotebookLM - 2026.1) - Coleta e organização de dados">}}
-
-{{< figure src="/infografico/epaec/2026.1/info03_Coleta_organizacao_dados.png" 
-           title="Infográfico 03 (NotebookLM - 2026.1) - Coleta e organização de dados." 
-           width="400px" >}}
-           
-{{< /spoiler >}}
-
-{{< spoiler text="🧠 Infográfico 04 (NotebookLM - 2026.1) - Fundamentos do R: O Universo de Objetos e Funções">}}
-
-{{< figure src="/infografico/epaec/2026.1/info04_fundR_obj_func.png" 
-           title="Infográfico 04 (NotebookLM - 2026.1) - Fundamentos do R: O Universo de Objetos e Funções." 
-           width="400px" >}}
-           
-{{< /spoiler >}}
-
-
-
-</div>
-
-
-
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EaAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
-
--   🎥 <a href="https://youtu.be/wdXJ_CzMdXI?si=hrp_4f5-ctmmVQ__"
-    target="_blank">Tabulação e Organização de Dados</a>
--   🎥 <a href="https://www.youtube.com/live/bVObtgCFISs?si=6idNqaEOZ5LKJw5K"
-    target="_blank">
-Estatística e Probabilidade (ER - 2021.2) - Aula 01: Definições gerais da Estatística e organização de dados</a>
--   🎥 <a href="https://www.youtube.com/live/DZ4PzyY5YYg?si=wcMPr_7cms8l4zsm"
-    target="_blank">
-Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos temas inseridos na descrição</a>
-
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim da Aula 03 -->
 
 
 {{< spoiler text="🎓 Aula 4">}}
-
-<div style="margin-left: 20px;">
-
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Aula Prática 02 - Cap. 01 e 02
-
-{{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1MM002uOsIMQg1et6_tUxF14SSvfvdrr_JLqlKl-dvEc/edit?usp=sharing" target="_blank">
-**Plano de aula** </a>
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s04/" target="_blank"> Aula
-04</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-
-{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 1](https://bendeivide.github.io/book-epaec/cap01.html), [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html)
-
-
-<i class="fa fa-cogs" aria-hidden="true"></i> **Configuração do experimento**
-
-<div style="margin-left: 20px;">
-
-Para detalhes sobre os níveis, acesse: [Experimento para aulas práticas](#experimentos)
-
-{{< spoiler text="🔭 Desenho experimental - Eng. Tel.">}}
-
-Níveis dos fatores experimentais:
-
-- **O-**: nível II
-- **A+**: nível III
-- **B+**: nível 90°
-- **A-**: nível IV
-
-{{< /spoiler >}}
-
-{{< spoiler text="🔭 Desenho experimental - Eng. Mec.">}}
-
-Níveis dos fatores experimentais:
-
-- **O-**: nível III
-- **A+**: nível II
-- **B+**: nível 100°
-- **A-**: nível II
-
-{{< /spoiler >}}
-
-
-</div>
-
-{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/r-scripts/aula04.R" "newtab" %}}Script Aula 04 (Geral).R{{% /staticref %}}, {{% staticref "/epaec/2026.1/telecom/EPAEC2026.1_TELECOM_AP02.R" "newtab" %}}Script Aula 04 - AP02 (Eng. Tel).R{{% /staticref %}}, {{% staticref "/epaec/2026.1/meca/EPAEC2026.1_MECA_AP02.R" "newtab" %}}Script Aula 04 - AP02 (Eng. Mec).R{{% /staticref %}}
-
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim da Aula 04 -->
-
-
-{{< spoiler text="🎓 Aula 5">}}
-
-<div style="margin-left: 20px;">
-
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** [Como desenvolver Relatórios Web](#relatorio") 
-
-<!-- {{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s05/" target="_blank"> Aula -->
-<!-- 05</a> -->
-
-{{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1cQZ4wYM14FhsYVRSH2HikTn_5PiwibTU8i1yH3p-DSY/edit?usp=sharing" target="_blank">
-**Plano de aula** </a>
-
-<!-- {{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html) -->
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🎙 Podcast 08 (NotebookLM  - 2026.1) - O Professor de estatística baniu o PDF">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast08_O_professor_de_estatística_baniu_o_PDF.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeos [Relatórios para páginas web (R & GitHub)](https://youtu.be/sY4eo3eUR-c?si=YeHybeDIHEx72ODl),  [Relatórios para páginas web (R & GitHub) - Parte II](https://youtu.be/nhh323kMWqo?si=4U8YCyUACdvxNwmG), e seção 
-
-{{< /spoiler >}}
-
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim div podcast -->
-</div>
-
-{{< icon name="r-project" pack="fab" >}} [Projeto RStudio - Relatório](https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip)
-
-{{< icon name="brain" pack="fas" >}} **Infográfico**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🧠 Infográfico 05 (NotebookLM - 2026.1) - Guia prático: Criando e publicando relatórios *web* com R/RStudio e Github">}}
-
-{{< figure src="/infografico/epaec/2026.1/info05_relatorios_web.png" 
-           title="Guia prático: Criando e publicando relatórios *web* com R/RStudio e Github." 
-           width="400px" >}}
-           
-{{< /spoiler >}}
-
-
-<!-- Fim div infografico -->
-</div>
-
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <i class="fas fa-globe"></i> <a href="{{< relref"courses/epaec/modrel/index" >}}"
-    target="_blank">Modelo de relatório</a>
-
-
-{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
-
--   🎥 <a href="https://youtu.be/sY4eo3eUR-c?si=YeHybeDIHEx72ODl"
-    target="_blank">Relatórios para páginas web (R & GitHub)</a>
--   🎥 <a href="https://youtu.be/nhh323kMWqo?si=4U8YCyUACdvxNwmG"
-    target="_blank">
-Relatórios para páginas web (R & GitHub) - Parte II</a>
-
-
-
-
-<!-- FIm div aula 05 -->
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim da Aula 05 -->
-
-{{< spoiler text="🎓 Aula 6">}}
 <!-- Div de aula 06 -->
 <div style="margin-left: 20px;">
 
-{{< icon name="pen-fancy" pack="fas" >}} **Tema** Medidas de Posição ([Capítulo 3](#ementa))
+{{< icon name="pen-fancy" pack="fas" >}} **Tema** Manipulando objetos em R
 
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/estprob/s05/" target="_blank"> Aula
-06</a>
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/lrcd/s04/" target="_blank"> Aula
+04</a>
 {{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1kQQYkjs34f3zhqlKdQc6DkDK81Xwa3U0Ht_2T9Ce1hs/edit?usp=sharing" target="_blank">
+<a href="https://docs.google.com/document/d/1GEyxV2Mx6P0vxM68j6QnvGj25SekHzgHy4VcaVwOE9c/edit?usp=sharing" target="_blank">
 **Plano de aula** </a>
 
-{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 3](https://bendeivide.github.io/book-epaec/cap03.html)
+{{< icon name="book" pack="fas" >}} Em desenvolvimento...
 
 {{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
 
@@ -797,7 +351,7 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 
 
-{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/telecom/EPAEC2026.1_TELECOM_AP03.R" "newtab" %}}Script Aula 05 - AP03 (Eng. Tel).R{{% /staticref %}}, {{% staticref "/epaec/2026.1/meca/EPAEC2026.1_MECA_AP03.R" "newtab" %}}Script Aula 05 - AP06 (Eng. Mec).R{{% /staticref %}}
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA04.R" "newtab" %}}Script Aula 04.R{{% /staticref %}}
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 

@@ -1,0 +1,60 @@
+/* 
+
+Link: https://quarto.org/docs/presentations/revealjs/themes.html#sass-variables
+      https://github.com/hakimel/reveal.js/tree/master/css/theme
+
+Variable 	Default
+$font-family-sans-serif 	“Source Sans Pro”, Helvetica, sans-serif
+$font-family-monospace 	monospace
+$presentation-font-size-root 	40px
+$presentation-font-smaller 	0.7
+$presentation-line-height 	1.3
+$body-bg 	#fff
+$body-color 	#222
+$text-muted 	lighten($body-color, 50%)
+$link-color 	#2a76dd
+$link-color-hover 	lighten($link-color, 15%)
+$selection-bg 	lighten($link-color, 25%)
+$selection-color 	$body-bg
+$border-color 	lighten($body-color, 30%)
+$border-width 	1px
+$border-radius 	3px
+$presentation-heading-font 	$font-family-sans-serif
+$presentation-heading-color 	$body-color
+$presentation-heading-line-height 	1.2
+$presentation-heading-letter-spacing 	normal
+$presentation-heading-text-transform 	none
+$presentation-heading-text-shadow 	none
+$presentation-h1-text-shadow 	none
+$presentation-heading-font-weight 	600
+$presentation-h1-font-size 	2.5em
+$presentation-h2-font-size 	1.6em
+$presentation-h3-font-size 	1.3em
+$presentation-h4-font-size 	1em
+$presentation-block-margin 	12px
+$presentation-slide-text-align 	left
+$presentation-title-slide-text-align 	center
+$code-block-bg 	$body-bg
+$code-block-border-color 	lighten($body-color, 60%)
+$code-block-font-size 	0.55em
+$code-color 	var(–quarto-hl-fu-color)
+$code-bg 	transparent
+$tabset-border-color 	$code-block-border-color
+$light-bg-text-color 	#222
+$light-bg-link-color 	#2a76dd
+$light-bg-code-color 	#4758ab
+$dark-bg-text-color 	#fff
+$dark-bg-link-color 	#42affa
+$dark-bg-code-color 	#ffa07a
+*/
+
+
+
+/*-- scss:defaults --*/
+$body-bg: #191919 !default;
+$body-color: #fff !default;
+$link-color: #42affa !default;
+$input-panel-bg: rgba(233, 236, 239, 0.2) !default;
+
+// fonts
+$presentation-h1-font-size:	1.5em !default;

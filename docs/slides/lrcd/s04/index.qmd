@@ -1,0 +1,477 @@
+---
+title: "Linguagem R na Ciência de Dados"
+subtitle: "Aula 04 - Manipulando objetos em R"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[LRCD](https://bendeivide.github.io/courses/lrcd/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+
+# 🎯 Objetivo da Aula {background-image="cap02.png"}
+
+- Compreender estruturas de dados no R
+- Manipular dados usando **base R**
+- Aplicar funções da família `apply`
+- Utilizar estruturas de controle
+- Trabalhar com dados reais (`penguins`)
+
+
+# 📦 Estruturas Fundamentais {background-image="cap02.png"}
+
+## Vetores {background-image="cap02.png"}
+
+- Estrutura básica do R
+- Elementos do mesmo tipo
+
+. . . 
+
+</br>
+Exemplo:
+
+```{r}
+#| echo: true
+x <- c(1, 2, 3, 4); x
+```
+
+
+## Data Frames {background-image="cap02.png"}
+
+- Estrutura tabular
+- Colunas podem ter tipos diferentes
+
+. . . 
+
+```{r}
+#| echo: true
+
+df <- data.frame(a = 1:3, b = 5:7); df
+```
+
+
+# 🔍 Indexação {background-image="cap02.png"}
+
+- Formas de indexação 
+
+. . .
+
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+```{r}
+#| echo: true
+x[1]
+df[1, ]
+df[, "a"]
+```
+
+:::
+
+::: {.column width="40%"}
+
+```{r}
+#| echo: true
+x
+df
+```
+
+:::
+
+::::
+
+
+- Indexação lógica 
+
+. . .
+
+```{r}
+#| echo: true
+x[x > 2]
+```
+
+
+# 🔧 Subconjuntos {background-image="cap02.png"}
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+```{r}
+#| echo: true
+subset(df, a > 1)
+```
+
+
+:::
+
+::: {.column width="40%"}
+
+```{r}
+#| echo: true
+df
+```
+
+:::
+
+::::
+
+
+- Filtra linhas
+- Pode selecionar colunas
+
+
+# 🔁 Família apply {background-image="cap02.png"}
+
+- Ideia central
+
+. . . 
+
+<center>
+
+*"Aplicar uma função sobre dados"*
+
+</center>
+
+
+## Função `apply()` {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+```{r}
+#| echo: true
+apply(df[,1:2], 1, mean)
+apply(df[,1:2], 2, mean)
+```
+
+:::
+
+::: {.column width="40%"}
+
+```{r}
+#| echo: true
+df
+```
+
+:::
+
+::::
+
+
+## Funções `lapply()` e `sapply()` {background-image="cap02.png"}
+
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+```{r}
+#| echo: true
+lapply(df, mean)
+sapply(df, mean)
+```
+:::
+
+::: {.column width="40%"}
+
+```{r}
+#| echo: true
+df
+```
+
+:::
+
+::::
+
+
+- `lapply` → lista
+- `sapply` → simplifica
+
+
+## Função `tapply()` {background-image="cap02.png"}
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+```{r}
+#| echo: true
+df <- data.frame(a = 1:6, 
+                 b = rep(letters[1:3], 
+                         each = 2))
+tapply(df$a, df$b, mean)
+```
+:::
+
+::: {.column width="40%"}
+
+```{r}
+#| echo: true
+df
+```
+
+:::
+
+::::
+
+- Aplica função por grupos
+
+
+
+# 🔄 Outras funções importantes {background-image="cap02.png"}
+
+
+| Função     | Ideia principal                                                 |
+| ---------- | --------------------------------------------------------------- |
+| `with()`   | Evitar repetir `df$`                                         |
+| `within()` | Modificar/criar variáveis no data frame                         |
+| `by()`     | Aplicar função por grupos (similar ao `tapply`, porém mais geral) |
+| `ave()`    | Retornar resultado por grupo **no mesmo tamanho do vetor**      |
+
+
+## Função  `with()` {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+```{r}
+#| echo: true
+with(df, mean(a))
+```
+:::
+
+::: {.column width="40%"}
+
+```{r}
+#| echo: true
+df
+mean(df$a)
+```
+
+:::
+
+::::
+
+
+
+## Função `by()` {background-image="cap02.png"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+```{r}
+#| echo: true
+by(df$a, df$b, mean)
+# Equivalente
+tapply(df$a, df$b, mean)
+```
+:::
+
+::: {.column width="40%"}
+
+```{r}
+#| echo: true
+df
+mean(df$a[df$b == "a"])
+mean(df$a[df$b == "b"])
+mean(df$a[df$b == "c"])
+```
+
+:::
+
+::::
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# datasets::penguins
+dados <- na.omit(penguins); head(dados)
+# Funcao tapply()
+tapply(dados$body_mass, dados$species, mean)
+```
+
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao by()
+by(dados$body_mass, dados$species, mean)
+```
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao by()
+by(dados$body_mass, dados[, c("species", "sex")], mean)
+```
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao tapply()
+tapply(dados$body_mass, dados[, c("species", "sex")], mean)
+```
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao by()
+by(dados$body_mass, dados[, c("species", "sex", "year")], mean)
+```
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao tapply()
+tapply(dados$body_mass, dados[, c("species", "sex", "year")], mean)
+```
+
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao tapply()
+by(dados[, c("bill_len", "flipper_len")],
+       dados$species,
+       function(x) summary(x))
+```
+
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao tapply()
+tapply(dados[, c("bill_len", "flipper_len")],
+       dados$species,
+       function(x) summary(x))
+```
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao by()
+# Ajuste de regressão por espécie
+resultado_by <- by(dados,
+                   dados[, c("species", "sex")],
+                   function(df) {
+                     modelo <- lm(body_mass ~ flipper_len, data = dados)
+                     coef(modelo)
+                   }); resultado_by
+```
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+# Funcao by()
+# Ajuste de regressão por espécie
+resultado_tapply <- tapply(dados,
+                   dados[, c("species", "sex")],
+                   function(df) {
+                     modelo <- lm(body_mass ~ flipper_len, data = dados)
+                     coef(modelo)
+                   }); resultado_tapply
+```
+
+## Diferença entre `by()` e `tapply()` {background-image="cap02.png"}
+
+- ⚠️ Constatação:
+
+  -  Realizando alguns testes `tapply()` e `by()` apresentam resultado idênticos 
+  - Entretanto, quando o segundo argumento é um quadro de dados (*Data frame*) e não um vetor; situações mais complexas não funcionam com `tapply()`
+
+
+
+
+## Função `within()` {background-image="cap02.png"}
+
+Permitir criar, modificar ou remover variáveis dentro de um objeto (geralmente data frame) de forma organizada e legível.
+
+```{r}
+#| echo: true
+# Imprimindo df
+df
+df2 <- within(df, {
+  nova <- a * 2
+}); df2
+```
+
+## Função `ave()` {background-image="cap02.png"}
+
+Calcular estatísticas por grupo e retornar um vetor do mesmo tamanho do original, com o resultado repetido para cada elemento do grupo
+
+```{r}
+#| echo: true
+# Imprimindo df
+df
+ave(df$a, df$b, FUN = mean)
+```
