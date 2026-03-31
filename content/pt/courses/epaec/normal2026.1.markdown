@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-30 16:22:56"
+date: "2026-03-31 19:25:56"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -356,6 +356,27 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 <!-- Fim da Lista de Exercicio 1 -->
 
+{{< spoiler text="📌 Lista de Exercício 2 (Clique!) - 06/04/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via portal didático
+- <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
+- <i class="fas fa-calendar-check"></i> 06/04/2026 <i class="fas fa-clock"></i> Antes do início do horário de aula
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Fazer os [exercícios do Capítulo 4 (EPAEC)](https://bendeivide.github.io/book-epaec/cap04.html#exerc%C3%ADcios-propostos)
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 13:15 do dia 06/04/2026 (Engenharia Mecatrônica)
+>  - Até às 15:15 do dia 06/04/2026 (Engenharia Mecatrônica)
+
+{{</spoiler>}}
+
+<!-- Fim da Lista de Exercicio 2 -->
+
 </div>
 
 
@@ -386,7 +407,7 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
 - <i class="fas fa-file"></i> Formato: HTML
-- <i class="fas fa-calendar-check"></i> 31/03/2026 <i class="fas fa-clock"></i> 17h
+- <i class="fas fa-calendar-check"></i> 03/04/2026 <i class="fas fa-clock"></i> 17h
 
 ---
 
@@ -401,6 +422,26 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 2 -->
+
+{{< spoiler text="🗒 Relatório 3 (Clique!) - 10/04/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: HTML
+- <i class="fas fa-calendar-check"></i> 10/04/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Usar os dados do experimento da catapulta, realizado em sala de aula, e proceder na descrição desses dados baseado na tabulação, apresentação gráfica, medidas de posição e de dispersão. Use o pacote leem. Lembre-se de descrever cada seção do seu trabalho, dando detalhes sobre os passos do desenvolvimento de seu relatório.
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17h do dia 10/04/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 3 -->
 
 </div>
 

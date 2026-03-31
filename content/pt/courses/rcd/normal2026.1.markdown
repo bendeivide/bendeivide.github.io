@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-31 13:10:33"
+date: "2026-03-31 19:39:42"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -184,7 +184,7 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 {{< spoiler text="🗒 Relatório 1 (Clique!) - 03/04/2026 ">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
-- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip)
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
 - <i class="fas fa-calendar-check"></i> 31/03/2026 <i class="fas fa-clock"></i> 17h
 
 ---
@@ -200,6 +200,26 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 1 -->
+
+{{< spoiler text="🗒 Relatório 2 (Clique!) - 10/04/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 10/04/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+>  Descrever as funções apresentadas no <a href="/slides/lrcd/s04/" target="_blank"> Slide da aula 4</a> e no <a href="/lrcd/2026.1/LRCD2026.1_AULA04.R" target="_blank"> Script da Aula 4</a> 
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17h do dia 10/04/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio  -->
 
 
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
