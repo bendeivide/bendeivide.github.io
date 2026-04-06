@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-03-31 19:25:56"
+date: "2026-04-06 15:16:09"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -423,21 +423,27 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 <!-- Fim do Relatorio 2 -->
 
-{{< spoiler text="🗒 Relatório 3 (Clique!) - 10/04/2026 ">}}
+{{< spoiler text="🗒 Relatório 3 (Clique!) - 14/04/2026 ">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
 - <i class="fas fa-file"></i> Formato: HTML
-- <i class="fas fa-calendar-check"></i> 10/04/2026 <i class="fas fa-clock"></i> 17h
+- <i class="fas fa-calendar-check"></i> 14/04/2026 <i class="fas fa-clock"></i> 13h
 
 ---
 
 > <i class="fas fa-question-circle"></i> **OBJETIVO** 
 >
-> Usar os dados do experimento da catapulta, realizado em sala de aula, e proceder na descrição desses dados baseado na tabulação, apresentação gráfica, medidas de posição e de dispersão. Use o pacote leem. Lembre-se de descrever cada seção do seu trabalho, dando detalhes sobre os passos do desenvolvimento de seu relatório.
+> Usar os dados do experimento da catapulta, realizado em sala de aula;
+> - proceder na descrição desses dados baseado na tabulação, apresentação gráfica;
+> - medidas de posição e de dispersão; fazer com agrupamente e sem agrupamento;
+> - Use o pacote leem;
+> - Lembre-se de descrever cada seção do seu trabalho, dando detalhes sobre os passos do desenvolvimento de seu relatório;
+> - 
+> - **Todo o processo de cálculo deve ser realizado de forma analítica e via leem!!**
 >
 > **DATA DA ENTREGA:** 
 >
->  - Até às 17h do dia 10/04/2026 
+>  - Até às 13h do dia 14/04/2026 
 
 {{</spoiler>}}
 
@@ -1342,9 +1348,65 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <!-- Fim da Aula 07 -->
 
+{{< spoiler text="🎓 Aula 8">}}
+<!-- Div de aula 06 -->
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema** [Aula prática 3](#l-exerc_rel) (Relatório 3)
+
+- Descrição da aula:
+  - Divisão de dois grandes grupos (alunos);
+  - Cada grupo irá realizar o experimento da catapulta, realizando-o 40 vezes; isto é, coletando 40 observações da distância do arremeço da bolinha;
+  - Cada grupo apresenta uma configuração diferente entre as fontes de variação (A+, A-, O-, B+);
+  - Proceder na descrição desses dados baseado na tabulação e apresentação gráfica;
+  - obter medidas de posição e de dispersão; fazer com agrupamente e sem agrupamento, discutindo a diferença entre esses resultados;
+  - Adicionalmente, estude sobre assimetria e curtose e calcule estes valores ao conjunto de dados, apresentando justificativas da importância dessas medidas à descrição dos dados;
+  - Use o pacote leem;
+  - Lembre-se de descrever cada seção do seu trabalho, dando detalhes sobre os passos do desenvolvimento de seu relatório;
+  - Apresente fotos da execução do trabalho;
+  - Apresente possíveis falhas de execução do experimento, caso tenha havido.
+
+> **Todo o processo de cálculo deve ser realizado de forma analítica e via leem!!**
+> 
+> **DATA DA ENTREGA: 14/04/2026, 13h** 
+
+{{< icon name="book-reader" pack="fas" >}}
+<a href="https://docs.google.com/document/d/1-0AzjBL64doqnmFAP5WYCIdD3ROixA3TlhA0QYDhagM/edit?usp=sharing" target="_blank">
+**Plano de aula** </a>
+
+{{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 1](https://bendeivide.github.io/book-epaec/cap04.html), [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html), [Capítulo 3](https://bendeivide.github.io/book-epaec/cap03.html), [Capítulo 4](https://bendeivide.github.io/book-epaec/cap04.html)
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+
+
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
+
+
+-   🎥 <a href="https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw"
+    target="_blank">Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão</a>
+
+
+<!-- Fim div de aula 08 -->
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 08 -->
+
 
 <!-- Div de aulas (Geral) -->
 </div>
+
+
 
 
 ## <i class="fas fa-eye"></i> Veja também {id="vejatbmn" title="Clique aqui!"}
@@ -1384,3 +1446,4 @@ Acessem: [Avaliação](#avaliacao) e [Cronograma](#cronograma)
 - Acessem: [Livro EPAEC](#matadotado)
   - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
 {{< /spoiler >}}
+
