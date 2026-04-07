@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-04-06 15:16:09"
+date: "2026-04-07 06:52:52"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -45,10 +45,10 @@ regressão linear simples.
 -   Aulas presenciais:
     -   Engenheria Mecatrônica:
             -   segunda-feira (13:15 - 15:00, sala 201.6)
-            -   quinta-feira  (15:15 - 17:05, sala 201.6)
+            -   terça-feira  (15:15 - 17:05, sala 201.6)
     -   Engenheria de Telecomunicações:
             -   segunda-feira (15:15 - 17:05, sala 105.6)
-            -   quinta-feira  (13:15 - 15:05, sala 105.6)
+            -   terça-feira  (13:15 - 15:05, sala 105.6)
        
 
 ## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
@@ -297,37 +297,23 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 **Engenharia Mecatrônica**
 
-- [🎓 BRENDO CUNHA]()
-- [🎓 CALIEL DE ARAUJO RAMOS]()
-- [🎓 DANIEL DE FREITAS ALBERNAZ JUNIOR]()
-- [🎓 HEITOR PINTO ARAUJO]()
-- [🎓 IAN PEREIRA VENTURATO]()
+- [🎓 DANIEL DE FREITAS ALBERNAZ JUNIOR e 🎓 MARCOS VINICIUS DE OLIVEIRA FARIA](https://marcosvinicius31619.github.io/relatorio-estprob/)
+- [🎓 IAN PEREIRA VENTURATO e 🎓 RAFAEL ROBERTO ROCHA DE OLIVEIRA](https://ianventurato.github.io/relatorio-estprob/)
 - [🎓 IGOR PEREIRA VITAL e 🎓 LUCAS WILLIAM ENDRINGER MOURA](https://igorpereiravital.github.io/relatorios/)
-- [🎓 JOAO PEDRO DELPASSO CANAVAL]()
-- [🎓 LUIZ GUSTAVO ALVES CARVALHO](https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/)
-- [🎓 MARCOS VINICIUS DE OLIVEIRA FARIA]()
-- [🎓 MARIA EDUARDA MOTTA ROSA](https://maria-eduarda-001.github.io/relatorio-estprob/)
-- [🎓 RAFAEL ROBERTO ROCHA DE OLIVEIRA](https://luizgustavocarvalho13-source.github.io/relatorio-estprob-master/)
-- [🎓 VICTOR DE SOUZA MOREIRA ALMEIDA]()
-- [🎓 WADMILSON COSTA DA FONSECA E CRUZ](https://wadmilson.github.io/relatorio-estprob-/)
+- [🎓 LUIZ GUSTAVO ALVES CARVALHO](https://luizgustavoa.github.io/relatorio-estprob/)
+- [🎓 MARIA EDUARDA MOTTA ROSA e 🎓 JOAO PEDRO DELPASSO CANAVAL](https://jpdcjpdc.github.io/relatorio-estprob/)
+- [🎓 WADMILSON COSTA DA FONSECA E CRUZ](https://wadmilson.github.io/relatorio-estprob/)
 
 
 
 **Engenharia de Telecomunicações**
 
-- [🎓 CAIO VINICIOS CALAZANS]()
-- [🎓 CLAUDIO JOSE DOS SANTOS JUNIOR]()
-- [🎓 EMILLY BEATRIZ DE LIMA]()
-- [🎓 KEZIA CAROLINA FERNANDES DA SILVA]()
-- [🎓 LUCAS REIS OLIVEIRA DE ANDRADE]()
-- [🎓 LUIZ GUSTAVO DOS SANTOS]()
-- [🎓 MAYCOM CAMPOS GODOI]()
-- [🎓 NICOLAS GONÇALVES CARDOSO GUIMARÃES]()
-- [🎓 PEDRO AUGUSTO DE SOUZA GONÇALVES]()
-- [🎓 PEDRO JOSE PEDROSO DOS SANTOS]()
-- [🎓 SARAH OLIVEIRA RAMALHO]()
-- [🎓 VINICIUS DINIZ PINTO]()
-- [🎓 VITOR THEODORO OLIVEIRA VIANA]()
+- [🎓 EMILLY BEATRIZ DE LIMA]( https://emillymontilla.github.io/relatorio-estprob/)
+- [🎓 LUCAS REIS OLIVEIRA DE ANDRADE](https://gitlucasandrade.github.io/relatorio-estprob/)
+- [🎓 LUIZ GUSTAVO DOS SANTOS](https://luizsantos13.github.io/rel.est.prob/)
+- [🎓 NICOLAS GONÇALVES CARDOSO GUIMARÃES](https://nicolasgoncalves-web.github.io/relatorio-estprob2/)
+- [🎓 SARAH OLIVEIRA RAMALHO](https://sararamalho.github.io/relatorio-estprob/)
+- [🎓 VITOR THEODORO OLIVEIRA VIANA](https://vitortheo.github.io/relatorio-estprob/)
 
 ## <i class="fas fa-tasks"></i> Lista de exercícios e relatórios {id="l-exerc_rel" title="Clique aqui!"}
 
@@ -433,17 +419,21 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 > <i class="fas fa-question-circle"></i> **OBJETIVO** 
 >
-> Usar os dados do experimento da catapulta, realizado em sala de aula;
-> - proceder na descrição desses dados baseado na tabulação, apresentação gráfica;
-> - medidas de posição e de dispersão; fazer com agrupamente e sem agrupamento;
-> - Use o pacote leem;
-> - Lembre-se de descrever cada seção do seu trabalho, dando detalhes sobre os passos do desenvolvimento de seu relatório;
-> - 
-> - **Todo o processo de cálculo deve ser realizado de forma analítica e via leem!!**
+> Usar os dados do experimento da catapulta, realizado em sala de aula:
+>  - Divisão de dois grandes grupos (alunos);
+>  - Cada grupo irá realizar o experimento da catapulta, realizando-o 40 vezes; isto é, coletando 40 observações da distância do arremeço da bolinha;
+>  - Cada grupo apresenta uma configuração diferente entre as fontes de variação (A+, A-, O-, B+);
+>  - Proceder na descrição desses dados baseado na tabulação e apresentação gráfica;
+>  - obter medidas de posição e de dispersão; fazer com agrupamente e sem agrupamento, discutindo a diferença entre esses resultados;
+>  - Adicionalmente, estude sobre assimetria e curtose e calcule estes valores ao conjunto de dados, apresentando justificativas da importância dessas medidas à descrição dos dados;
+>  - Use o pacote leem;
+>  - Lembre-se de descrever cada seção do seu trabalho, dando detalhes sobre os passos do desenvolvimento de seu relatório;
+>  - Apresente fotos da execução do trabalho;
+>  - Apresente possíveis falhas de execução do experimento, caso tenha havido.
 >
-> **DATA DA ENTREGA:** 
->
->  - Até às 13h do dia 14/04/2026 
+> **Todo o processo de cálculo deve ser realizado de forma analítica e via leem!!**
+> 
+> **DATA DA ENTREGA: 14/04/2026, 13h** 
 
 {{</spoiler>}}
 
