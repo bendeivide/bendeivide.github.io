@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-04-07 06:52:52"
+date: "2026-04-07 19:21:33"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -357,11 +357,32 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 > **DATA DA ENTREGA:** 
 >
 >  - Até às 13:15 do dia 06/04/2026 (Engenharia Mecatrônica)
->  - Até às 15:15 do dia 06/04/2026 (Engenharia Mecatrônica)
+>  - Até às 15:15 do dia 06/04/2026 (Engenharia de Telecomunicações)
 
 {{</spoiler>}}
 
 <!-- Fim da Lista de Exercicio 2 -->
+
+{{< spoiler text="📌 Lista de Exercício 3 (Clique!) - 14/04/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via portal didático
+- <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
+- <i class="fas fa-calendar-check"></i> 14/04/2026 <i class="fas fa-clock"></i> Antes do início do horário de aula
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Apresentar as Leis de Morgan, prová-las e apresentar exemplos.
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 13:15 do dia 14/04/2026 (Engenharia de Telecomunicações)
+>  - Até às 15:15 do dia 14/04/2026 (Engenharia Mecatrônica)
+
+{{</spoiler>}}
+
+<!-- Fim da Lista de Exercicio 3 -->
 
 </div>
 
