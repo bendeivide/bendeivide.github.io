@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-04-07 19:21:33"
+date: "2026-04-09 17:24:42"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -389,9 +389,66 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 - <i class="fas fa-upload"></i> **Relatórios**
 
+<div style="margin-left: 30px;">
+
+{{< spoiler text="📝 Como os relatórios serão avaliados?">}}
+
+Seguindo as seguintes indagações:
+
+<center>
+
+| Indagação | 
+|:---|
+| 1. Entregou no prazo? |
+| 2. Precisou de correção? |
+| 2.1 Foi corrigido? |
+| 3. Relatório organizado? |
+| 4. Coerente com o que foi pedido? |
+| 5. Abordou todos os tópicos solicitados?|
+| 6. Aprofundou o assunto?|
+| 7. Código R formatado?|
+| 8. Tem exemplos de aplicação?|
+| 9. Código R Markdown formatado?|
+| 10. Tem referências?|
+| 11. Referências formatadas?|
+| 12. Introdução?|
+| 13. Objetivos?|
+| 14. Metodologia?|
+| 15. Resultados e Discussão?|
+| 16. Conclusão ou considerações finais?|
+| 17. O trabalho atingiu os objetivos?|
+
+
+</center>
+
+
+As perguntas se enquadrarão em:
+
+<center>
+
+| Não (0%) | Pouco (25%) | Parcial(50%) | Quase lá (75%) | Sim (100%)|
+|:---:|:---:|:---:|:---:|:---:|
+| [ ] | [ ] | [ ] | [ ] | [ ] |
+
+</center>
+
+A pergunta 2 seguirá a seguinte escala:
+
+| Não (0%) | Pouco (-10%) | Parcial(-20%) | Metade (-50%) | Mais da metade (-75%)|
+|:---:|:---:|:---:|:---:|:---:|
+| [ ] | [ ] | [ ] | [ ] | [ ] |
+
+O item 2.1, auxiliará a recuperar a nota perdida em 2.
+
+{{</spoiler>}}
+
+</div>
+
 <div style="margin-left: 40px;">
 
 {{< spoiler text="🗒 Relatório 1 (Clique!) - 31/03/2026 ">}}
+
+
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
 - <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-estprob/archive/refs/heads/master.zip)
