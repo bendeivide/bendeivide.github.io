@@ -1,0 +1,67 @@
+---
+title:  🛕 Mitologia
+summary: Estudos sobre mitologia
+date: "2026-04-14 07:31:42"
+type: book
+weight: 7
+categories: ["Revelação Cósmica", "mitologia"]
+tags: ["JVE", "Rogério de Freitas", "Jan Val Ellam"]
+---
+
+## Visão Geral
+
+A mitologia é o conjunto de narrativas simbólicas, tradicionais e culturais utilizadas por diferentes povos para explicar a origem do mundo, dos fenômenos naturais, da vida e dos valores humanos. Essas narrativas, chamadas de mitos, desempenham papel fundamental na formação das identidades culturais e na transmissão de conhecimentos ao longo das gerações.
+
+## Origem da Mitologia
+
+A mitologia tem origem nas primeiras civilizações humanas, muito antes do desenvolvimento da ciência como a conhecemos hoje. Povos antigos buscavam compreender o mundo ao seu redor por meio de histórias que envolviam deuses, heróis e forças sobrenaturais.
+
+Esses relatos surgiram de forma oral, sendo transmitidos entre gerações, e posteriormente registrados por escrito em diversas culturas, como:
+
+- Mitologia grega;
+- Mitologia egípcia;
+- Mitologia nórdica;
+- Mitologias indígenas.
+
+Cada uma dessas tradições reflete a forma como diferentes sociedades interpretavam a natureza, o cosmos e a existência humana.
+
+## Fundação do Estudo da Mitologia
+
+O estudo sistemático da mitologia teve início principalmente a partir do século XIX, com o desenvolvimento das ciências humanas. Pesquisadores passaram a analisar os mitos não apenas como histórias, mas como expressões simbólicas e culturais.
+
+Entre as principais abordagens destacam-se:
+
+- **Mitologia comparada**: busca identificar semelhanças entre mitos de diferentes culturas;
+- **Abordagem antropológica**: interpreta os mitos como elementos fundamentais das práticas sociais;
+- **Abordagem psicológica**: analisa os mitos como manifestações do inconsciente humano.
+
+Autores como James Frazer, Claude Lévi-Strauss e Carl Jung contribuíram significativamente para a compreensão dos mitos sob diferentes perspectivas.
+
+## Evolução da Mitologia
+
+Ao longo do tempo, a mitologia passou por transformações importantes:
+
+### 1. Da Tradição Oral ao Registro Escrito
+Os mitos, inicialmente transmitidos oralmente, foram registrados em textos, como poemas épicos e obras religiosas, garantindo sua preservação.
+
+### 2. Interpretação Filosófica
+Filósofos da Antiguidade, como Platão, passaram a questionar e reinterpretar os mitos, buscando explicações mais racionais para os fenômenos.
+
+### 3. Influência nas Religiões
+Muitos sistemas religiosos incorporaram elementos mitológicos, estabelecendo narrativas sobre a criação, divindades e moralidade.
+
+### 4. Mitologia na Cultura Moderna
+Atualmente, os mitos continuam presentes em diversas formas de expressão, como literatura, cinema, artes visuais e cultura popular.
+
+## Funções da Mitologia
+
+A mitologia exerce diversas funções nas sociedades humanas:
+
+- Explicar a origem do mundo e dos fenômenos naturais;
+- Transmitir valores morais e culturais;
+- Fortalecer a identidade de grupos sociais;
+- Oferecer sentido à existência humana.
+
+## Considerações Finais
+
+A mitologia representa uma das formas mais antigas de compreensão da realidade. Mesmo com o avanço da ciência, os mitos continuam relevantes como expressões simbólicas da experiência humana, contribuindo para a compreensão da cultura, da psicologia e da história das sociedades.

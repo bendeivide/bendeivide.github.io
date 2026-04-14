@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>👽 Revelação Cósmica | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/rc_temp/</link>
+      <atom:link href="http://bendeivide.github.io/rc_temp/index.xml" rel="self" type="application/rss+xml" />
+    <description>👽 Revelação Cósmica</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 14 Apr 2026 06:00:57 -0300</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>👽 Revelação Cósmica</title>
+      <link>http://bendeivide.github.io/rc_temp/</link>
+    </image>
+    
+    <item>
+      <title>📖 Livro: Mentalma I</title>
+      <link>http://bendeivide.github.io/rc_temp/livros/ivro-ment1/</link>
+      <pubDate>Tue, 14 Apr 2026 05:44:14 -0300</pubDate>
+      <guid>http://bendeivide.github.io/rc_temp/livros/ivro-ment1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>📖 Livro: O Abismo da Consciência Cósmica</title>
+      <link>http://bendeivide.github.io/rc_temp/livro-oacc/livro-oacc/</link>
+      <pubDate>Tue, 14 Apr 2026 05:45:22 -0300</pubDate>
+      <guid>http://bendeivide.github.io/rc_temp/livro-oacc/livro-oacc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

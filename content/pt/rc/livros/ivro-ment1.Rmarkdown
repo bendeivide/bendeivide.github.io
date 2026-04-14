@@ -1,0 +1,11 @@
+---
+title: "📖 Livro: Mentalma I"
+linkTitle: "📖 Livro: Mentalma I"
+summary: Estudos dos livros da RC
+date: "`r format(Sys.time())`"
+type: book
+weight: 101
+categories: ["Revelação Cósmica", "livros"]
+tags: ["JVE", "Rogério de Freitas", "Jan Val Ellam"]
+---
+

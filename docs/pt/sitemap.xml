@@ -4,6 +4,8 @@
   
   
   <url>
+    <loc>http://bendeivide.github.io/rc/biologia/citologia/</loc><lastmod>2026-04-14T07:14:24-03:00</lastmod></url>
+  <url>
     <loc>http://bendeivide.github.io/courses/rcd/normal2026.1/</loc><lastmod>2026-04-06T15:15:39-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/latex/videoaulas/</loc><lastmod>2026-03-04T06:12:09-03:00</lastmod></url>
@@ -20,11 +22,23 @@
   <url>
     <loc>http://bendeivide.github.io/courses/estexp/intror/</loc><lastmod>2025-03-22T15:32:46-03:00</lastmod></url>
   <url>
+    <loc>http://bendeivide.github.io/rc/biologia/genetica/</loc><lastmod>2026-04-14T07:14:30-03:00</lastmod></url>
+  <url>
     <loc>http://bendeivide.github.io/courses/estexp/videoaulas/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/estexp/estexp2025.1/</loc><lastmod>2025-07-03T15:55:26-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/estgeo/estgeo/</loc><lastmod>2025-04-25T18:16:39-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/fisica/fisica_classica/</loc><lastmod>2026-04-14T07:18:36-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/fisica/fisica_moderna/</loc><lastmod>2026-04-14T07:20:35-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/fisica/fisica_quantica/</loc><lastmod>2026-04-14T07:22:02-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/biologia/neurociencia/</loc><lastmod>2026-04-14T07:24:17-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/mitologia/mitologia_geral/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/normal2026.1/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod></url>
   <url>
@@ -76,7 +90,15 @@
   <url>
     <loc>http://bendeivide.github.io/courses/epaec/resest/</loc><lastmod>2023-07-12T16:30:29-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/rc/livros/livro-oacc/</loc><lastmod>2026-04-14T06:20:54-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/livros/ivro-ment1/</loc><lastmod>2026-04-14T07:15:29-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/palestras/palestra-moises/</loc><lastmod>2026-04-14T06:28:24-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -86,7 +108,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -95,6 +117,30 @@
       hreflang="pt"
       href="http://bendeivide.github.io/categories/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/jan-val-ellam/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/jve/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/mitologia/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/revelacao-cosmica/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/rogerio-de-freitas/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/biologia/</loc><lastmod>2026-04-14T07:24:17-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/livros/</loc><lastmod>2026-04-14T07:24:17-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod></url>
   <url>
@@ -113,16 +159,6 @@
     <loc>http://bendeivide.github.io/category/inferencia-estatistica/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/probabilidade/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/category/teoria-de-decisao/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod></url>
   <url>
@@ -1235,8 +1271,6 @@
     <loc>http://bendeivide.github.io/category/linha-de-pesquisa/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/slides/linhapesquisa/</loc></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/livros/</loc></url>
   <url>
     <loc>http://bendeivide.github.io/slides/profmat-est/s01/</loc></url>
   <url>
