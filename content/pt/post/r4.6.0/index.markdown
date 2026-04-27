@@ -1,0 +1,120 @@
+---
+title: 'Atualizações do R (4.6.0)'
+date: "2026-04-27"
+categories: ['R', 'Programação', 'Lingaugem']
+tags: ['Linguagem R']
+summary: 'Atualizações da nova versão do R publicada em 24/04/2025'
+links:
+- name: Notícias do R
+  url: https://cran.r-project.org/doc/FAQ/r-devel/NEWS.html
+- name: Livro R Básico
+  url: https://bendeivide.github.io/books/eambr01/
+---
+
+
+
+
+
+
+Em 24 de abril de 2026, foi lançado oficialmente o **R 4.6.0**, codinome "Because it was There" (ou "Porque estava lá"). Esta é uma versão anual "feature release" (lançamento de funcionalidades), introduzindo um  conjunto mais significativo de novas capacidades para a linguagem.
+
+
+
+---
+
+# 💡 Cursiosidade
+
+A escolha "Because it was There" foi uma homenagem a um membro importante da comunidade R que faleceu recentemente. O nome é uma referência a Tomàš Kalibera (1978-2026), um membro do R Core Team que, além de suas contribuições técnicas ao R, era um ávido alpinista. A frase evoca o espírito de exploração e desafio associado ao montanhismo, que era uma de suas grandes paixões.
+
+
+# 🛠 Principais mudanças no R 4.6.0
+
+## 📝 Melhorias na Exploração e Visualização de Dados
+
+Estas atualizações focam em tornar a análise exploratória e a criação de gráficos mais intuitivas e informativas.
+
+*   **`summary()` mais inteligente para texto**: Agora, ao aplicar `summary()` em um `data.frame` com colunas de texto, você vê informações realmente úteis, como:
+    *   **`Length`**: Número total de elementos.
+    *   **`N.unique`**: Quantidade de valores únicos.
+    *   **`N.blank`**: Número de strings vazias.
+    *   **`Min.nchar`** / **`Max.nchar`**: Tamanho mínimo e máximo das strings.
+    *   *Antes, o `summary()` só mostrava "Length", "Class" e "Mode" para colunas de texto, o que era pouco prático.* 
+
+*   **Visualização mais flexível**:
+    *   **`barplot()`**: Ganhou o argumento `orderH = *`, que permite ordenar as barras em gráficos de barras empilhadas de acordo com o tamanho de cada pilha. 
+    *   **`hist()`, `barplot()`, `boxplot()`**: Adicionaram os argumentos `panel.first` e `panel.last`, dando mais controle para adicionar grades, linhas de referência ou outros elementos antes e depois de cada gráfico ser desenhado. 
+
+## 🧑‍💻 Produtividade e Facilidade de Uso
+
+Esta categoria reúne funções novas e ajustes que agilizam o dia a dia da programação.
+
+*   **`%notin%` na base**: O operador `%notin%` para verificar se um valor não pertence a um conjunto, antes disponível apenas em pacotes externos, agora faz parte do R base. É a novidade mais popular. Agora você pode escrever `"a" %notin% c("b", "c")` diretamente, sem precisar de pacotes externos. 
+*   **`list.files()` com padrão literal**: O novo argumento `fixed = TRUE` permite buscar por nomes de arquivos sem precisar escapar caracteres especiais. Por exemplo, `list.files(pattern = ".md", fixed = TRUE)` encontra todos os arquivos que terminam literalmente com **.md**. 
+*   **`substr()` mais flexível**: Agora você pode usar `i2 = NULL` para ir do início até o final da string, um pedido antigo da comunidade. 
+*   **`read.dcf()` aceita comentários**: Muito útil para arquivos de configuração, agora linhas que começam com `#` em arquivos DCF (como `DESCRIPTION`) são ignoradas. 
+
+## 🛠️ Para Desenvolvedores de Pacotes e Usuários Avançados
+
+Mudanças significativas nos bastidores e para quem cria ou gerencia pacotes.
+
+*   **Novo padrão C++20**: O compilador padrão para código C++ em pacotes agora é o C++20 (ou C++17 como fallback) em plataformas que o suportam, alinhando o R com as práticas modernas de desenvolvimento. 
+*   **DOI para citar o R**: A função `citation()` agora exibe um **DOI (Digital Object Identifier) estável** (`10.32614/R.manuals`). Isso facilita e padroniza a citação do software R em artigos acadêmicos. 
+*   **Verificação de integridade de pacotes**: Um novo sistema de assinatura e verificação de pacotes foi introduzido, usando arquivos `SHA256` e `SHA256.sig`. Isso aumenta a segurança, garantindo que os pacotes baixados não foram corrompidos ou adulterados. 
+*   **Melhorias no `wilcox.test()`**: Para quem trabalha com estatística não paramétrica, a função agora suporta:
+    *   Inferência exata (condicional) em caso de **empates** nos dados.
+    *   Cálculo de **p-valores assintóticos melhorados**, com termos de correção da série de Edgeworth. 
+
+## 🐞 Correções de Estabilidade e Desempenho
+
+*   **Parsing de expressões aninhadas**: Foi corrigido um problema que poderia causar falhas de segmentação (segfault) ao analisar expressões extremamente aninhadas. 
+*   **Função `cwilcox`**: A função interna usada para a distribuição de Wilcoxon foi reimplementada, reduzindo drasticamente sua complexidade de memória, o que a torna mais estável para grandes volumes de dados. 
+
+
+# 🔗 Link Oficial e Completo
+Muito mais detalhes pode ser encontrado no changelog completo (release notes) no seguinte endereço: <https://cran.r-project.org/doc/FAQ/r-devel/NEWS.html>.
+
+Nesta página, você encontrará a seção "Changes in R 4.6.0" com a lista exaustiva de todas as novas funcionalidades, melhorias, correções de bugs e mudanças na interface de programação (API). É a fonte mais autoritativa e detalhada disponível.
+
+# 📥 Como baixar a nova versão
+
+Apesar de ainda ser uma versão beta, veja como pode ser baixado esta versão de acordo como o sistema operacional, a seguir.
+
+## 🐧 Para usuários de Linux/Unix (Ubuntu, Debian, Fedora, etc.)
+
+Se você quer instalar a versão beta (4.6.0) ou a versão de desenvolvimento mais recente a partir do código fonte:
+
+1.  **Baixe o código fonte da versão beta ("r-patched"):**
+    Acesse o diretório de pré-lançamento do CRAN e baixe o arquivo `R-patched.tar.gz`:
+    🔗 [https://cran.r-project.org/src/base-prerelease/](https://cran.r-project.org/src/base-prerelease/) 
+
+2.  **Compile e instale:**
+    Após baixar, descompacte o arquivo e compile. No terminal, dentro do diretório extraído, execute os comandos padrão:
+    ```bash
+    ./configure
+    make
+    make check
+    sudo make install
+    ```
+    > ⚠️ **Atenção:** Este método (compilação a partir do fonte) é mais avançado e exige que todas as dependências de desenvolvimento (como `gcc`, `gfortran`, `libcurl`, etc.) estejam instaladas em seu sistema. 
+
+
+## 🪟 Para usuários de Windows
+
+*   **Build Release Candidate (RC) - mais estável, quase final:**
+    🔗 [https://cran.r-project.org/bin/windows/base/rtest.html](https://cran.r-project.org/bin/windows/base/rtest.html) 
+    *(Data da build: 2026-04-19)*
+
+*   **Build de Desenvolvimento (r-devel) - versão mais recente com correções diárias:**
+    🔗 [https://cran.r-project.org/bin/windows/base/rdevel.html](https://cran.r-project.org/bin/windows/base/rdevel.html) 
+    *(Data da build: 2026-03-22)*
+
+
+
+
+
+
+
+
+
+
+

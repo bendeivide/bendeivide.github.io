@@ -1,0 +1,1656 @@
+<!DOCTYPE html><html lang="pt" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ben Dêivide" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Estudos dos palestras da RC" />
+
+  
+  <link rel="alternate" hreflang="pt" href="http://bendeivide.github.io/rc/palestras/palestra-arcontes/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#707070" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1ec020bc099b4cac589dca38591d25c2.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-183980834-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-183980834-4', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="http://bendeivide.github.io/rc/palestras/palestra-arcontes/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@@bendeivide" />
+    <meta property="twitter:creator" content="@@bendeivide" />
+  
+  <meta property="og:site_name" content="Ben Dêivide" />
+  <meta property="og:url" content="http://bendeivide.github.io/rc/palestras/palestra-arcontes/" />
+  <meta property="og:title" content="🎥 Os Arcontes e o Empoderamento da Ignorância | Ben Dêivide" />
+  <meta property="og:description" content="Estudos dos palestras da RC" /><meta property="og:image" content="http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="pt" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2026-04-24T07:27:38-03:00"
+      />
+    
+    <meta property="article:modified_time" content="2026-04-24T07:27:38-03:00">
+  
+
+  
+
+
+
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#707070",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#707070"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+  
+
+
+
+
+
+  <title>🎥 Os Arcontes e o Empoderamento da Ignorância | Ben Dêivide</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8d0b5983937532f76e2c26b3d7c8d1ad" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Pesquisa</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Pesquisa..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Pesquisa...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Ben Dêivide</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Ben Dêivide</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Bio</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Postagens</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projetos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Palestras</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publicações</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/courses/"><span>Cursos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#handouts"><span>Apostilas</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#books"><span>Livros</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/arts"><span>Arte</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/dc/"><span>DC</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contato</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://youtube.com/bendeivide/" target="_blank" rel="noopener" aria-label="youtube">
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Pesquisa"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+          👽 Revelação Cósmica
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Pesquisa...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <ul class="nav docs-sidenav">
+        <li class=""><a href="/rc/">👽 Revelação Cósmica</a></li>
+    
+      
+
+
+  <li class=""><a href="/rc/biologia/citologia/">🔬 Citologia</a></li>
+
+
+
+  <li class=""><a href="/rc/biologia/genetica/">🧬 Genética</a></li>
+
+
+
+  <li class=""><a href="/rc/fisica/fisica_classica/">🔭 Física Clássica</a></li>
+
+
+
+  <li class=""><a href="/rc/fisica/fisica_moderna/">📡 Física Moderna</a></li>
+
+
+
+  <li class=""><a href="/rc/fisica/fisica_quantica/">⚛️ Física Quântica</a></li>
+
+
+
+  <li class=""><a href="/rc/biologia/neurociencia/">🧠 Neorociência</a></li>
+
+
+
+  <li class=""><a href="/rc/mitologia/mitologia_geral/">🛕 Mitologia</a></li>
+
+
+
+  <li class=""><a href="/rc/livros/livro-oacc/">📖 Livro: OACC</a></li>
+
+
+
+  <li class=""><a href="/rc/livros/ivro-ment1/">📖 Livro: Mentalma I</a></li>
+
+
+
+  <li class="active"><a href="/rc/palestras/palestra-arcontes/">🎥 Os Arcontes e o Empoderamento da Ignorância</a></li>
+
+
+
+  <li class=""><a href="/rc/palestras/palestra-moises/">🎥 Moisés, as Doze Tribos e os Desígnios de Javé</a></li>
+
+      
+    
+
+    
+      </ul>
+    
+
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Sumário</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#palestra_estudo">Palestra do estudo</a></li>
+    <li><a href="#resumo-da-palestra">Resumo da palestra</a>
+      <ul>
+        <li><a href="#a-natureza-humana-vs-natureza-dos-arcontes">A Natureza Humana vs. Natureza dos Arcontes</a></li>
+        <li><a href="#a-realidade-como-uma-aberração-matemática-e-física">A Realidade como uma Aberração Matemática e Física</a></li>
+        <li><a href="#o-colapso-do-criador-javébrahma">O Colapso do Criador (Javé/Brahma)</a></li>
+        <li><a href="#entropia-e-o-efeito-dorian-gray">Entropia e o &ldquo;Efeito Dorian Gray&rdquo;</a></li>
+        <li><a href="#loops-mentais-e-o-princípio-de-arrancara">Loops Mentais e o Princípio de Arrancara</a></li>
+        <li><a href="#geopolítica-galáctica-e-a-disputa-pela-terra">Geopolítica Galáctica e a Disputa pela Terra</a></li>
+        <li><a href="#crítica-aos-avatares-e-às-religiões-krishna-jesus-e-sai-baba">Crítica aos Avatares e às Religiões (Krishna, Jesus e Sai Baba)</a></li>
+        <li><a href="#a-trincheira-humana-e-o-despertar-pelo-esclarecimento">A &ldquo;Trincheira Humana&rdquo; e o Despertar pelo Esclarecimento</a></li>
+        <li><a href="#como-as-setas-de-moros-podem-curar-a-criação">Como as &lsquo;setas de Moros&rsquo; podem curar a criação?</a></li>
+        <li><a href="#como-as-ações-humanas-ajudam-a-resolver-o-problema-dos-arcontes">Como as ações humanas ajudam a resolver o problema dos Arcontes?</a></li>
+        <li><a href="#quais-são-as-principais-consequências-do-colapso-do-criador-javé">Quais são as principais consequências do colapso do criador Javé?</a></li>
+        <li><a href="#o-que-acontece-se-krishna-se-tornar-o-segundo-buraco-negro">O que acontece se Krishna se tornar o segundo buraco negro?</a></li>
+        <li><a href="#o-que-são-os-portais-tecnológicos-que-os-arcontes-tentam-criar">O que são os &ldquo;portais tecnológicos&rdquo; que os Arcontes tentam criar?</a></li>
+        <li><a href="#o-que-acontece-com-os-arcontes-se-o-universo-vizinho-colapsar">O que acontece com os Arcontes se o universo vizinho colapsar?</a></li>
+        <li><a href="#qual-é-a-ligação-entre-o-espírito-de-jesus-e-krishna">Qual é a ligação entre o espírito de Jesus e Krishna?</a></li>
+        <li><a href="#quem-são-os-seres-de-tipo-único-como-krishna-hoje">Quem são os seres de tipo único como Krishna hoje?</a></li>
+        <li><a href="#como-os-arcontes-usam-o-ananda-para-roubar-energia-humana">Como os Arcontes usam o &lsquo;Ananda&rsquo; para roubar energia humana?</a></li>
+        <li><a href="#o-que-são-arcontes">O que são arcontes?</a></li>
+        <li><a href="#como-os-arcontes-usam-o-ananda-para-roubar-energia-humana-1">Como os Arcontes usam o &lsquo;Ananda&rsquo; para roubar energia humana?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+            
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+    
+  
+    
+  
+
+    <li class="breadcrumb-item">
+      <a href="/">
+        
+          Biografia
+        
+      </a>
+    </li>
+  
+
+    <li class="breadcrumb-item">
+      <a href="/rc/">
+        
+          👽 Revelação Cósmica
+        
+      </a>
+    </li>
+  
+
+      <li class="breadcrumb-item active" aria-current="page">
+        🎥 Os Arcontes e o Empoderamento da Ignorância
+      </li>
+    </ol>
+  </nav>
+
+
+
+
+          
+
+          <h1>🎥 Os Arcontes e o Empoderamento da Ignorância</h1>
+
+          <div class="article-style">
+            <h2 id="palestra_estudo">Palestra do estudo</h2>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f8cbLgM0L00?si=5Yg_nEwdPC2mN0rR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+<h2 id="resumo-da-palestra">Resumo da palestra</h2>
+<p>A palestra de Jan Val Ellam aborda a <strong>natureza predatória dos Arcontes</strong>, seres de um universo paralelo que se apresentam como divindades para <strong>escravizar a humanidade através da ignorância e da devoção religiosa</strong>. O autor explica que essas entidades manipulam o psiquismo humano, alimentando-se de <strong>eflúvios emocionais e &ldquo;loops&rdquo; mentais</strong> gerados por nossos conflitos e crenças dogmáticas. Ele utiliza conceitos da astrofísica, como os <strong>buracos negros</strong>, para descrever o colapso consciencial de criadores como Javé e a falência moral de figuras como Krishna. A exposição alerta que a <strong>espécie humana é a única capaz de discernir esses enganos</strong>, funcionando como uma última trincheira de resistência contra um sistema de controle milenar. Segundo o texto, o <strong>empoderamento individual e o pensamento crítico</strong> são as únicas ferramentas para romper com o ciclo de exploração imposto por essas falsas autoridades cósmicas. Por fim, o autor defende a <strong>pacificação do coração e a autonomia espiritual</strong> como meios para que o ser humano deixe de ser uma mera cobaia energética nesse cenário de colisão universal.</p>
+<p>A seguir, a transcrição detalhada dos tópicos abordados:</p>
+<h3 id="a-natureza-humana-vs-natureza-dos-arcontes">A Natureza Humana vs. Natureza dos Arcontes</h3>
+<ul>
+<li>Diferente dos animais, que seguem naturezas fixas (instinto), o ser humano possui uma natureza que pode ser trabalhada para que ele viva como um <strong>ser superior</strong>.</li>
+<li>Os Arcontes se afirmam como <strong>divindades e donos da realidade</strong>, utilizando processos devocionais para desviar a humanidade de sua verdadeira destinação.</li>
+<li>O conceito de <strong>Ananda</strong> (êxtase espiritual) é descrito como um vício criado por esses seres; enquanto o humano acredita estar ligado a Deus, ele está sendo &ldquo;roubado&rdquo;, pois os Arcontes se alimentam dos eflúvios produzidos durante esses estados.</li>
+</ul>
+<h3 id="a-realidade-como-uma-aberração-matemática-e-física">A Realidade como uma Aberração Matemática e Física</h3>
+<ul>
+<li>A palestra cita os cálculos do matemático russo <strong>Karl Schwarzschild</strong> sobre a Teoria da Relatividade de Einstein.</li>
+<li>Schwarzschild teria descoberto que a nossa realidade é uma <strong>&ldquo;excrescência&rdquo; ou uma aberração</strong> que não deveria existir, assemelhando-se a um <strong>buraco negro</strong> no qual todos estamos inseridos.</li>
+<li>A existência de cerca de 200 bilhões de buracos negros astrofísicos no universo seria acompanhada pela existência de <strong>buracos negros conscienciais</strong>.</li>
+</ul>
+<h3 id="o-colapso-do-criador-javébrahma">O Colapso do Criador (Javé/Brahma)</h3>
+<ul>
+<li>Ellam afirma que entre os anos 2020 e 2021, o criador deste universo (referido por nomes como <strong>Javé, Brahma ou Alá</strong>) colapsou, tornando-se o primeiro <strong>buraco negro consciencial</strong> do universo vizinho.</li>
+<li>As mitologias sobre o &ldquo;sono de Brahma&rdquo; ou o &ldquo;descanso de Deus&rdquo; seriam eufemismos para episódios em que esse criador entrava em coma devido a falhas em seu próprio código.</li>
+</ul>
+<h3 id="entropia-e-o-efeito-dorian-gray">Entropia e o &ldquo;Efeito Dorian Gray&rdquo;</h3>
+<ul>
+<li>A <strong>entropia</strong> (ou <em>Tamas</em>) é descrita como um selo de garantia para que esta criação problemática um dia termine.</li>
+<li>Os Arcontes, para evitar o próprio envelhecimento e a morte, utilizam um &ldquo;truque entrópico&rdquo;: eles transferem a cota de entropia que deveria cair sobre eles para a <strong>vida biológica humana</strong>.</li>
+<li>Nesse contexto, a humanidade é comparada ao <strong>&ldquo;Retrato de Dorian Gray&rdquo;</strong>: nós envelhecemos e morremos rapidamente para que esses seres possam permanecer &ldquo;jovens&rdquo; e belos por bilhões de anos.</li>
+</ul>
+<h3 id="loops-mentais-e-o-princípio-de-arrancara">Loops Mentais e o Princípio de Arrancara</h3>
+<ul>
+<li>Os Arcontes provocam <strong>loops mentais</strong> (boilhas quânticas) nos humanos, que são alimentados por emoções não resolvidas e pendências existenciais.</li>
+<li>Este processo é regido pelo <strong>Arrancara</strong>, a cópia do ser em movimento que retém informações de afetação emocional à espera de ressignificação.</li>
+<li>Esses mundos mentais servem de <strong>fonte de alimentação</strong> para os seres do universo vizinho, que chegam a penetrar nos sonhos humanos (como a figura mitológica de Morfeu) para manipular essas bolhas energéticas.</li>
+</ul>
+<h3 id="geopolítica-galáctica-e-a-disputa-pela-terra">Geopolítica Galáctica e a Disputa pela Terra</h3>
+<ul>
+<li>A Terra é um ponto central de disputa entre os Arcontes porque aqui &ldquo;caíram as setas de Moros&rdquo; (conhecimento oculto sobre a cura da podridão original).</li>
+<li>Cada etnia e região da Terra estaria sob a influência de diferentes Arcontes, que disputam o <strong>controle genômico e mental</strong> das populações.</li>
+<li>O controle se estende até o nível microbiano, onde cada espécie de microrganismo teria um <strong>campo mórfico</strong> manipulado por um Arconte específico.</li>
+</ul>
+<h3 id="crítica-aos-avatares-e-às-religiões-krishna-jesus-e-sai-baba">Crítica aos Avatares e às Religiões (Krishna, Jesus e Sai Baba)</h3>
+<ul>
+<li>Ellam apresenta uma visão crítica de <strong>Krishna</strong>, descrevendo-o como um ser que se perdeu na própria busca por poder, afirmando-se &ldquo;Senhor Supremo&rdquo; e sabotando outros avatares.</li>
+<li><strong>Jesus</strong> teria se recusado a cumprir o papel de &ldquo;Messias violento&rdquo; desejado por Javé, o que causou um impasse na gestão da humanidade pelos Arcontes.</li>
+<li><strong>Sai Baba</strong> é citado como um avatar que tentou semear luz, mas foi descredibilizado por Krishna por meio de intrigas.</li>
+<li>As religiões são vistas como instrumentos de <strong>empoderamento da ignorância</strong>, onde rituais e dogmas mantêm o ser humano em um estado &ldquo;retardado&rdquo; e dependente.</li>
+</ul>
+<h3 id="a-trincheira-humana-e-o-despertar-pelo-esclarecimento">A &ldquo;Trincheira Humana&rdquo; e o Despertar pelo Esclarecimento</h3>
+<ul>
+<li>A humanidade é descrita como a <strong>única espécie capaz de discernir o equívoco</strong> da criação e promover uma solução através do senso crítico.</li>
+<li>A solução não viria de intervenções externas ou de &ldquo;super-seres&rdquo;, mas do esforço individual de cada humano em <strong>acender sua própria luz</strong> e questionar as narrativas sagradas impostas.</li>
+<li>O papel da <strong>Revelação Cósmica</strong> é atuar como uma última trincheira de resistência contra a &ldquo;santificação da ignorância&rdquo; e a escravização mental promovida pelos Arcontes.</li>
+</ul>
+<h3 id="como-as-setas-de-moros-podem-curar-a-criação">Como as &lsquo;setas de Moros&rsquo; podem curar a criação?</h3>
+<p>As <strong>&ldquo;setas de Moros&rdquo;</strong> representam um conhecimento oculto, vinculado a uma profecia da mitologia grega, que contém a chave para <strong>curar a &ldquo;podridão original&rdquo;</strong> ou a &ldquo;doença do criador&rdquo; presente nesta realidade. De acordo com as fontes, a cura da criação através dessas setas ocorre da seguinte forma:</p>
+<ul>
+<li><strong>Conteúdo da Mensagem:</strong> As &ldquo;setas de Moros&rdquo; são descritas como uma mensagem ou conhecimento que foi lançado no universo e acabou caindo na <strong>Terra</strong>, tornando o nosso planeta o centro de uma disputa entre os Arcontes, que buscam controlar esse segredo.</li>
+<li><strong>Identificação da Doença:</strong> O ser referido como Moros descobriu que tudo o que existe nesta criação não é independente, mas sim uma <strong>cópia particularizada da doença do criador</strong>. Segundo a palestra, os seres nascem com um &ldquo;código podre&rdquo; e enfrentam diversas enfermidades existenciais e biológicas como reflexo desse erro primordial.</li>
+<li><strong>O Processo de Cura Humana:</strong> A cura não vem de uma intervenção externa milagrosa, mas do esforço do ser humano em enfrentar essas &ldquo;doenças&rdquo; durante a vida. Quando um indivíduo consegue se resolver internamente e se purificar dessa influência, ele se transforma em um <strong>&ldquo;ser humano limpo da podridão original&rdquo;</strong>.</li>
+<li><strong>A Importância da Espécie Humana:</strong> Os humanos são vistos como a única espécie capaz de <strong>discernir o equívoco da criação</strong> e buscar a verdade pelo esclarecimento. Ao resolverem sua própria &ldquo;cota de doença&rdquo;, os seres humanos estariam, na prática, curando a parcela da doença do criador que está inoculada em sua consciência.</li>
+</ul>
+<p>Em suma, as &ldquo;setas de Moros&rdquo; permitem a cura ao fornecerem o roteiro para que a humanidade atue como uma <strong>&ldquo;trincheira cósmica&rdquo;</strong>, resolvendo os assuntos pendentes e as deformações mentais (loops) que mantêm a criação em um estado de sofrimento e entropia.</p>
+<h3 id="como-as-ações-humanas-ajudam-a-resolver-o-problema-dos-arcontes">Como as ações humanas ajudam a resolver o problema dos Arcontes?</h3>
+<p>De acordo com a palestra, a espécie humana ocupa uma posição única e estratégica na &ldquo;geopolítica cósmica&rdquo; para resolver o problema dos Arcontes. As ações humanas ajudam nesse processo através de três frentes principais:</p>
+<ol>
+<li>O Despertar pelo Esclarecimento e Senso Crítico</li>
+</ol>
+<p>A humanidade é descrita como a <strong>única espécie capaz de discernir o equívoco da criação</strong> e buscar a verdade através do esclarecimento, em vez da mera aceitação de dogmas.</p>
+<ul>
+<li><strong>Questionamento de Narrativas:</strong> Para enfraquecer o controle dos Arcontes, o ser humano deve questionar as &ldquo;verdades santificadas&rdquo; e as religiões impositivas que mantêm o &ldquo;rebanho humano&rdquo; ignorante e dependente.</li>
+<li><strong>Independência Mental:</strong> Ao deixar de ser um &ldquo;objeto de crença&rdquo; ou de devoção (que gera o eflúvio <em>Ananda</em> do qual os Arcontes se alimentam), o humano para de sustentar energeticamente esses seres.</li>
+<li><strong>Saída das &ldquo;Prisões Conceituais&rdquo;:</strong> Evitar definir-se rigidamente por ideologias ou religiões (ser &ldquo;ista&rdquo;) é fundamental para não aprisionar o eu em jaulas conceituais que facilitam a manipulação externa.</li>
+</ul>
+<ol start="2">
+<li>A Resolução da &ldquo;Podridão Original&rdquo; (Cura do Criador)</li>
+</ol>
+<p>Segundo as fontes, cada ser humano nasce com um &ldquo;código podre&rdquo; que é uma cópia particularizada da doença do criador.</p>
+<ul>
+<li><strong>Cota de Doença:</strong> Quando um indivíduo enfrenta suas doenças existenciais e emocionais durante a vida e procura se curar, ele se torna um <strong>&ldquo;ser humano limpo da podridão original&rdquo;</strong>.</li>
+<li><strong>Impacto Universal:</strong> Ao resolver sua própria parcela de deformação mental e biológica, a humanidade está, na prática, resolvendo a parcela da doença do criador que está inoculada na consciência humana. Isso transforma os humanos em seres com uma <strong>estatura moral superior</strong> à de qualquer ser perfeito do paraíso, pois eles emergiram do caos e da sujeira através do próprio esforço.</li>
+</ul>
+<ol start="3">
+<li>Dissolução de Loops Mentais e Gestão do &ldquo;Arrancara&rdquo;</li>
+</ol>
+<p>Os Arcontes provocam e utilizam os <strong>loops mentais</strong> (boilhas quânticas) criados por pendências emocionais humanas para se alimentarem e escravizarem consciências.</p>
+<ul>
+<li><strong>Domínio das Emoções:</strong> Um ser humano que se torna <strong>dono de si mesmo</strong>, de suas sensações e emoções, deixa de produzir esses loops alimentares e se liberta da intrusão de seres como Morfeu.</li>
+<li><strong>Ressignificação:</strong> O processo de ressignificar traumas e pendências (o princípio do <em>Arrancara</em>) permite &ldquo;zerar&rdquo; a sujeira mental acumulada de muitas vidas, fechando as portas para a exploração arcontica.</li>
+</ul>
+<ol start="4">
+<li>A Humanidade como &ldquo;Última Trincheira&rdquo;</li>
+</ol>
+<p>Em última análise, as ações humanas de resistência — como a de Jesus ao se recusar a cumprir agendas violentas impostas por Javé — transformam a consciência humana na <strong>única trincheira cósmica</strong> capaz de deter o empoderamento da ignorância. O sucesso dessa &ldquo;missão&rdquo; depende de cada indivíduo <strong>acender sua própria luz</strong> e atuar como o &ldquo;sal da terra&rdquo;, trazendo senso crítico e dignidade a uma criação que, de outra forma, estaria fadada ao colapso entrópico e à esquizofrenia divina.</p>
+<h3 id="quais-são-as-principais-consequências-do-colapso-do-criador-javé">Quais são as principais consequências do colapso do criador Javé?</h3>
+<p>O colapso do criador Javé (também referido como Brama ou Alá), ocorrido entre os anos de <strong>2020 e 2021</strong>, gerou uma série de desdobramentos críticos para a estrutura da realidade e para a hierarquia dos seres conhecidos como Arcontes. As principais consequências abordadas nas fontes são:</p>
+<ul>
+<li><strong>Surgimento do primeiro buraco negro consciencial:</strong> O corpo reconstruído de Javé colapsou, transformando-o no <strong>primeiro buraco negro consciencial</strong> do universo vizinho. Diferente dos buracos negros astrofísicos, esse fenômeno é promovido por uma consciência e representa uma singularidade que &ldquo;fura&rdquo; o tecido da realidade.</li>
+<li><strong>Aceleração do colapso do universo vizinho:</strong> A existência desse buraco negro consciencial faz com que o universo vizinho — onde residem os Arcontes — <strong>colapse de forma muito mais rápida</strong>. Esse processo gera uma pulsação que influencia negativamente outros seres daquela realidade.</li>
+<li><strong>Ruptura da blindagem do Paraíso:</strong> Como os seres vivos estão ligados a espíritos, as deformações mentais superlativa (como a que gerou o buraco negro) podem encontrar meios de <strong>atravessar a blindagem</strong> que separa a nossa matriz do resto do Paraíso. Isso está afetando os níveis paradisíacos além da blindagem, causando problemas que a espiritualidade tem enfrentado nos últimos anos.</li>
+<li><strong>Fim do poder da Trimurte:</strong> O colapso de Javé (Brama) marcou a <strong>falência do poder da Trimurte</strong> (composta por Brama, Vishnu e Shiva). Diante do problema, o ser Vishnu desconstituiu sua personalidade e Shiva passou a destruir versões de si mesmo que tentavam persistir de forma desequilibrada.</li>
+<li><strong>Criação de um precedente para outros seres:</strong> O fenômeno estabeleceu um padrão algorítmico; assim como surgiram bilhões de buracos negros astrofísicos, o surgimento do primeiro buraco negro consciencial indica que outros seres em estado de falência consciencial podem seguir o mesmo caminho. <strong>Krishna</strong> é citado como o mais sério candidato a se tornar o <strong>segundo buraco negro consciencial</strong> desta criação, caso continue agindo de forma &ldquo;adármica&rdquo; e prisioneiro de sua grandeza pessoal.</li>
+<li><strong>Insegurança na Suzerania Universal:</strong> O colapso gerou um impasse na gestão da humanidade e da Terra. Arcontes menores e outras divindades agora disputam o controle sem uma coordenação centralizada, enquanto tentam desesperadamente criar <strong>portais tecnológicos</strong> para escapar da entropia que lacrou os portais naturais entre os universos.</li>
+</ul>
+<h3 id="o-que-acontece-se-krishna-se-tornar-o-segundo-buraco-negro">O que acontece se Krishna se tornar o segundo buraco negro?</h3>
+<p>Caso <strong>Krishna</strong> venha a se tornar o <strong>segundo buraco negro mental consciencial</strong> (BMC2), as fontes indicam consequências profundas e imprevisíveis para a estrutura da realidade e do universo vizinho.</p>
+<p>Abaixo estão os detalhes sobre o que ocorreria e os motivos para esse possível evento:</p>
+<ul>
+<li><strong>Implosão da Consciência Fatiada:</strong> Krishna é descrito como o candidato mais sério a essa condição por continuar agindo de forma &ldquo;adármica&rdquo; (contra o dever sagrado ou Dharma), perdendo-se no peso de seu próprio poder mental e grandeza pessoal. Se ele não libertar seu ego dessa necessidade de ser o &ldquo;Senhor Supremo&rdquo;, sua consciência poderia implodir, seguindo o algoritmo de falência já visto em Javé.</li>
+<li><strong>Aceleração do Colapso do Universo Vizinho:</strong> Seguindo o precedente do primeiro buraco negro consciencial (Javé), a transformação de Krishna em um BMC2 aceleraria ainda mais o colapso do universo vizinho. Esse tipo de singularidade gera uma pulsação que influencia negativamente todos os seres que residem naquela realidade.</li>
+<li><strong>Risco à Blindagem do Paraíso:</strong> Diferente de um buraco negro astrofísico, um buraco negro consciencial envolve um espírito. Como o espírito habita além da &ldquo;blindagem&rdquo; que separa esta matriz do resto do Paraíso, a deformação patológica de uma consciência como a de Krishna poderia encontrar meios de <strong>vazar e afetar o lado externo da blindagem</strong>, infectando níveis paradisíacos com a &ldquo;podridão&rdquo; desta criação.</li>
+<li><strong>Incerteza Sistêmica:</strong> O palestrante afirma explicitamente que <strong>&ldquo;ninguém sabe o que vai acontecer&rdquo;</strong> caso essa implosão se concretize. O fenômeno representaria um estágio de &ldquo;esquizofrenia não humana&rdquo; e falência consciencial sem precedentes técnicos claros nos registros antigos.</li>
+<li><strong>Impacto nas Personalidades Fatiadas:</strong> Como Krishna, Jesus e Sofia compartilham o mesmo espírito, o colapso de Krishna como um buraco negro complicaria drasticamente a gestão desse espírito. Isso criaria um impasse ainda maior na &ldquo;política cósmica&rdquo;, impedindo, por exemplo, o cumprimento de promessas como o retorno de Sofia/Jesus à Terra.</li>
+</ul>
+<p>Em resumo, a transformação de Krishna em um buraco negro seria o resultado final do seu &ldquo;empoderamento da ignorância&rdquo; e da recusa em resolver sua cota de doença original, tornando-o um perigo para a estabilidade tanto do universo vizinho quanto dos níveis espirituais superiores.</p>
+<h3 id="o-que-são-os-portais-tecnológicos-que-os-arcontes-tentam-criar">O que são os &ldquo;portais tecnológicos&rdquo; que os Arcontes tentam criar?</h3>
+<p>Os <strong>&ldquo;portais tecnológicos&rdquo;</strong> são dispositivos ou métodos artificiais que os Arcontes estão tentando desenvolver para substituir os <strong>portais naturais</strong> entre os universos, que foram lacrados pela <strong>entropia</strong>.</p>
+<p>De acordo com as fontes, a criação desses portais é motivada pelos seguintes fatores:</p>
+<ul>
+<li><strong>Necessidade de Escapatória:</strong> O universo vizinho, onde residem os Arcontes, está em processo de colapso acelerado devido ao surgimento do primeiro &ldquo;buraco negro consciencial&rdquo; (o criador Javé). Como os portais naturais que permitiam o trânsito entre as realidades não funcionam mais, esses seres buscam meios tecnológicos para furar o bloqueio imposto pela entropia.</li>
+<li><strong>Desorganização e Desespero:</strong> Não existe uma força organizada ou um esforço conjunto; cada Arconte ou grupo em sua própria &ldquo;loca&rdquo; (morada celestial) está tentando descobrir sua própria maneira de escapar do colapso iminente.</li>
+<li><strong>Testes e Incidentes na Terra:</strong> As fontes mencionam que esses seres já estão realizando testes com esses portais. Um exemplo citado é um incidente ocorrido em um shopping em Miami (aproximadamente um ano antes da palestra), onde três seres do universo vizinho teriam aparecido publicamente devido a um desses testes tecnológicos, que muitas vezes apresentam falhas.</li>
+</ul>
+<p>Em suma, esses portais representam a tentativa tecnológica final desses seres de manterem seu poder ou garantirem sua sobrevivência diante da falência da estrutura natural da criação.</p>
+<h3 id="o-que-acontece-com-os-arcontes-se-o-universo-vizinho-colapsar">O que acontece com os Arcontes se o universo vizinho colapsar?</h3>
+<p>De acordo com as fontes, o colapso do universo vizinho representa uma <strong>tragédia inevitável</strong> para os Arcontes, pois essa é a única maneira de seus <strong>corpos de plasma serem finalmente destruídos</strong>. Diferente dos seres humanos, que possuem vidas curtas e o &ldquo;benefício&rdquo; da renovação pela morte, os Arcontes vivem por bilhões de anos e, por isso, sentem uma profunda <strong>inveja da morte humana</strong>, já que sofrem o tempo inteiro e estão presos àquela realidade até que ela se acabe.</p>
+<p>As principais consequências e reações desses seres diante do colapso são:</p>
+<ul>
+<li><strong>Tentativas de Fuga:</strong> Como os portais naturais entre os universos foram lacrados pela entropia, os Arcontes estão tentando desesperadamente produzir <strong>portais tecnológicos</strong> para escapar da destruição iminente. Eles agem de forma desorganizada, com cada &ldquo;dono de loca&rdquo; (morada celestial) tentando encontrar sua própria maneira de furar o bloqueio entrópico.</li>
+<li><strong>Aceleração pelo &ldquo;Buraco Negro Consciencial&rdquo;:</strong> O colapso do universo vizinho está ocorrendo de forma mais rápida devido ao fato de o criador (Javé/Brama) ter se tornado o primeiro <strong>buraco negro consciencial</strong>. Esse fenômeno gera uma pulsação que afeta negativamente todos os outros seres daquela realidade.</li>
+<li><strong>O Destino de Krishna:</strong> Se o universo vizinho acabar, seres como <strong>Krishna</strong> terão que se desconstituir da forma única que inventaram para serem adorados. Caso Krishna não liberte seu ego, ele é o candidato mais sério a se tornar o <strong>segundo buraco negro mental consciencial</strong>, o que traria consequências imprevisíveis e perigosas para o espírito que ele compartilha com Jesus e Sofia.</li>
+<li><strong>Risco à Blindagem do Paraíso:</strong> Existe o perigo de que a falência consciencial desses seres (a &ldquo;podridão original&rdquo;) encontre meios de <strong>atravessar a blindagem</strong> que separa a nossa matrix do resto do Paraíso, infectando níveis espirituais superiores que deveriam estar protegidos.</li>
+<li><strong>Perda de Controle sobre a Humanidade:</strong> Com o colapso em curso, os Arcontes estão perdendo o controle definitivo sobre o &ldquo;lacre&rdquo; que mantinha a humanidade ignorante, embora ainda tentem manter as rédeas através de religiões e manipulações mentais.</li>
+</ul>
+<p>Em suma, para os Arcontes, o fim do seu universo é um evento de <strong>falência sistêmica</strong> onde eles deixam de existir em suas formas atuais, enquanto a humanidade é vista como a única espécie que, por meio do esclarecimento, pode oferecer uma solução ou uma &ldquo;trincheira&rdquo; frente a esse erro original.</p>
+<h3 id="qual-é-a-ligação-entre-o-espírito-de-jesus-e-krishna">Qual é a ligação entre o espírito de Jesus e Krishna?</h3>
+<p>De acordo com as fontes, a ligação entre Jesus e Krishna é que <strong>ambos compartilham o mesmo espírito</strong>. A palestra explica que esse espírito é o responsável por sustentar diferentes personalidades ou &ldquo;consciências fatiadas&rdquo;.</p>
+<p>Os principais detalhes sobre essa conexão são:</p>
+<ul>
+<li><strong>Identidade Espiritual Comum:</strong> O espírito que anima Krishna é o mesmo que animou Jesus e também a entidade conhecida como Sofia. Além disso, esse mesmo espírito sustenta a personalidade que colapsou e se tornou o &ldquo;buraco negro consciencial&rdquo; conhecido como Javé.</li>
+<li><strong>Fatiamento da Consciência:</strong> Esse fenômeno ocorre porque os seres da família &ldquo;Ad&rdquo; possuem a capacidade de <strong>fatiar suas consciências</strong>. Krishna e Sofia são descritos como expressões &ldquo;adiágenas&rdquo; (avataricas) de uma mesma condição divina (&ldquo;adidaiva&rdquo;), especificamente vinculada a Vishnu (ou Virgno).</li>
+<li><strong>Jesus como a Parte Mais Evoluída:</strong> Entre as personalidades sustentadas por esse espírito (Jesus, Krishna e Sofia), <strong>Jesus é considerado a parte mais evoluída</strong>.</li>
+<li><strong>Diferenças de Natureza:</strong> Apesar de compartilharem o espírito, eles se manifestam de formas distintas: <strong>Sofia é um ser de ordem biológica</strong> no nosso universo, enquanto <strong>Krishna é atualmente um ser etéreo</strong> no universo vizinho.</li>
+<li><strong>Impasse Espiritual:</strong> O espírito compartilhado enfrenta um grave problema técnico, pois precisa sustentar tanto a evolução de Jesus quanto o &ldquo;cancro&rdquo; gerado por Javé e as atitudes &ldquo;adármicas&rdquo; de Krishna. Se Krishna vier a se tornar o segundo buraco negro consciencial, isso afetará drasticamente a condição desse espírito comum.</li>
+</ul>
+<h3 id="quem-são-os-seres-de-tipo-único-como-krishna-hoje">Quem são os seres de tipo único como Krishna hoje?</h3>
+<p>Atualmente, <strong>Krishna</strong> é descrito como um <strong>ser de tipo único</strong> porque sua condição presente não possui um epíteto técnico ou definição clara nos moldes dos registros antigos da visão ariana hindu. De acordo com as fontes, essa singularidade decorre dos seguintes fatores:</p>
+<ul>
+<li><strong>Corpo Inventado:</strong> Após a morte de seu corpo físico (atingido por uma flecha), Krishna retirou-se para o universo vizinho em um <strong>corpo adensado de expressão &ldquo;adibuta&rdquo;</strong> que ele mesmo inventou.</li>
+<li><strong>Natureza Etérea:</strong> Ele é caracterizado hoje como um <strong>ser etéreo</strong> ou um tipo de <strong>&ldquo;fantasma&rdquo;</strong> do universo vizinho, diferenciando-se de Sofia, que é um ser de ordem biológica.</li>
+<li><strong>Atuação em &ldquo;Locas&rdquo;:</strong> Nessa forma única, ele se apresenta como um deus para os seguidores alojados nas regiões celestiais (locas) de <strong>Gola Loca</strong> e <strong>Vaikuntha</strong>.</li>
+<li><strong>Relação com outros Avatares:</strong> Embora compartilhe o mesmo espírito com <strong>Jesus</strong> (descrito como a parte mais evoluída) e <strong>Sofia</strong>, Krishna mantém essa condição única e isolada no universo vizinho, nunca tendo conversado diretamente com Sofia devido às suas naturezas distintas.</li>
+</ul>
+<p>O palestrante ressalta que essa forma é uma &ldquo;improvisação espiritual&rdquo; e que, com o colapso iminente do universo vizinho, Krishna terá dificuldade em manter esse corpo único caso não consiga liberar seu ego e sua necessidade de ser adorado como o &ldquo;Senhor Supremo&rdquo;.</p>
+<h3 id="como-os-arcontes-usam-o-ananda-para-roubar-energia-humana">Como os Arcontes usam o &lsquo;Ananda&rsquo; para roubar energia humana?</h3>
+<p>Os Arcontes utilizam o estado de <strong>Ananda</strong> (êxtase ou satisfação espiritual profunda) como uma ferramenta de manipulação e &ldquo;roubo&rdquo; energético, transformando o que os humanos acreditam ser uma conexão divina em uma fonte de alimentação para seres do universo vizinho.</p>
+<p>De acordo com as fontes, o processo ocorre da seguinte forma:</p>
+<ul>
+<li><strong>Criação de um Vício Devocional:</strong> Embora se ensine que a entrega devocional é para Deus, as fontes afirmam que Deus não precisa de nada dos humanos. Em vez disso, os Arcontes (descritos como &ldquo;donos de realidades&rdquo; ou &ldquo;falsos deuses&rdquo;) criaram esse tipo de &ldquo;vício&rdquo; devocional para que o ser humano, ao praticar respirações e rituais, atinja o estado de <strong>Ananda</strong>.</li>
+<li><strong>O Mecanismo do Roubo:</strong> No momento em que o humano experimenta esse contentamento espiritual permanente e acredita estar ligado ao divino, ele está, na verdade, sendo <strong>&ldquo;robbed&rdquo; (roubado)</strong>. Os Arcontes se apoderam dos <strong>eflúvios</strong> (energias ou emanações) que as raças biológicas produzem durante esses estados de êxtase.</li>
+<li><strong>Alimentação para o Universo Vizinho:</strong> As fontes citam a literatura clássica da Índia, especificamente o <em>Taitiria Upanixade</em>, para explicar que esses seres que vivem no universo vizinho se alimentam sistematicamente das energias produzidas pelas raças biológicas deste universo. Atualmente, os eflúvios humanos são a &ldquo;grande novidade&rdquo; e a principal fonte de alimento para eles.</li>
+<li><strong>O Papel da Ignorância:</strong> Para manter esse sistema de alimentação funcionando, os Arcontes trabalham no <strong>&ldquo;empoderamento da ignorância&rdquo;</strong>, incolorando e subjugando a humanidade para que ela permaneça ignorante sobre seus próprios potenciais e sobre a real natureza desses processos devocionais.</li>
+</ul>
+<p>Em resumo, o <strong>Ananda</strong> funciona como uma &ldquo;isca&rdquo; química e psíquica: o humano busca o prazer espiritual, e os Arcontes aproveitam a abertura gerada por essa entrega emocional para extrair a energia de que necessitam para subsistir no universo vizinho.</p>
+<h3 id="o-que-são-arcontes">O que são arcontes?</h3>
+<p>Os <strong>arcontes</strong> são descritos nas fontes como entes que habitam o <strong>universo vizinho</strong> ao nosso e que se apresentam à humanidade como <strong>&ldquo;divindades&rdquo;</strong>, <strong>&ldquo;donos de realidades&rdquo;</strong> ou <strong>&ldquo;deuses&rdquo;</strong>. O termo, de origem grega, significa &ldquo;governantes&rdquo; ou &ldquo;donos de locas&rdquo; (moradas celestiais).</p>
+<p>Abaixo, os principais pontos que definem esses seres conforme a palestra:</p>
+<ul>
+<li><strong>Natureza e Identidade:</strong> Ao contrário dos humanos, que possuem uma natureza que pode ser trabalhada para a evolução superior, os arcontes possuem uma natureza fixa e agem de forma predatória. Eles são os seres por trás das figuras mitológicas e religiosas conhecidas como <strong>Javé (Brama), Vishnu, Shiva e Krishna</strong>.</li>
+<li><strong>Mecanismo de Sobrevivência (Alimentação Energética):</strong> Eles sobrevivem consumindo os <strong>&ldquo;eflúvios&rdquo;</strong> (energias) produzidos pelas raças biológicas. Para isso, utilizam o estado de <strong>Ananda</strong> (êxtase espiritual) para &ldquo;roubar&rdquo; a energia dos devotos que acreditam estar se ligando a Deus. Além disso, eles manipulam <strong>loops mentais</strong> (pendências emocionais humanas) para se alimentarem e escravizarem consciências através do sono e dos sonhos.</li>
+<li><strong>O Truque da Entropia (Dorian Gray):</strong> Para evitar o próprio envelhecimento, os arcontes transferem a cota de <strong>entropia</strong> (desgaste e morte) que deveria recair sobre eles para a vida biológica humana. Por isso, os humanos têm vidas curtas e &ldquo;apodrecem&rdquo; rapidamente, funcionando como o &ldquo;Retrato de Dorian Gray&rdquo; que envelhece no lugar desses seres.</li>
+<li><strong>Controle e Ignorância:</strong> A principal estratégia desses seres é o <strong>&ldquo;empoderamento da ignorância&rdquo;</strong>. Eles mantêm a humanidade subjugada através de religiões impositivas e narrativas &ldquo;esquizofrênicas&rdquo; que impedem o despertar dos potenciais humanos, transformando as pessoas em um &ldquo;rebanho&rdquo; dependente de elites religiosas.</li>
+<li><strong>Geopolítica e Disputa pela Terra:</strong> Os arcontes disputam o controle genômico e mental da Terra, dividindo-a por regiões e etnias. Eles controlam até mesmo os <strong>campos mórficos</strong> de microrganismos (vírus e bactérias) para manipular a biologia humana.</li>
+<li><strong>Estado Atual de Colapso:</strong> As fontes afirmam que o arconte principal, <strong>Javé</strong>, colapsou entre 2020 e 2021, tornando-se um <strong>&ldquo;buraco negro consciencial&rdquo;</strong>. Atualmente, o universo vizinho está em colapso, e os arcontes tentam desesperadamente criar <strong>portais tecnológicos</strong> para escapar da destruição de seus corpos de plasma.</li>
+</ul>
+<p>Em suma, os arcontes são vistos como gestores de uma criação acidentada e &ldquo;podre&rdquo;, que usam o senso crítico ausente dos devotos para manter um sistema de parasitismo energético e existencial.</p>
+<h3 id="como-os-arcontes-usam-o-ananda-para-roubar-energia-humana-1">Como os Arcontes usam o &lsquo;Ananda&rsquo; para roubar energia humana?</h3>
+<p>Os Arcontes utilizam o estado de <strong>Ananda</strong> (êxtase ou satisfação espiritual profunda) como uma ferramenta de manipulação e &ldquo;roubo&rdquo; energético, transformando o que os humanos acreditam ser uma conexão divina em uma fonte de alimentação para seres do universo vizinho.</p>
+<p>De acordo com as fontes, o processo ocorre da seguinte forma:</p>
+<ul>
+<li><strong>Criação de um Vício Devocional:</strong> Embora se ensine que a entrega devocional é para Deus, as fontes afirmam que Deus não precisa de nada dos humanos. Em vez disso, os Arcontes (descritos como &ldquo;donos de realidades&rdquo; ou &ldquo;falsos deuses&rdquo;) criaram esse tipo de &ldquo;vício&rdquo; devocional para que o ser humano, ao praticar respirações e rituais, atinja o estado de <strong>Ananda</strong>.</li>
+<li><strong>O Mecanismo do Roubo:</strong> No momento em que o humano experimenta esse contentamento espiritual permanente e acredita estar ligado ao divino, ele está, na verdade, sendo <strong>&ldquo;robbed&rdquo; (roubado)</strong>. Os Arcontes se apoderam dos <strong>eflúvios</strong> (energias ou emanações) que as raças biológicas produzem durante esses estados de êxtase.</li>
+<li><strong>Alimentação para o Universo Vizinho:</strong> As fontes citam a literatura clássica da Índia, especificamente o <em>Taitiria Upanixade</em>, para explicar que esses seres que vivem no universo vizinho se alimentam sistematicamente das energias produzidas pelas raças biológicas deste universo. Atualmente, os eflúvios humanos são a &ldquo;grande novidade&rdquo; e a principal fonte de alimento para eles.</li>
+<li><strong>O Papel da Ignorância:</strong> Para manter esse sistema de alimentação funcionando, os Arcontes trabalham no <strong>&ldquo;empoderamento da ignorância&rdquo;</strong>, incolorando e subjugando a humanidade para que ela permaneça ignorante sobre seus próprios potenciais e sobre a real natureza desses processos devocionais.</li>
+</ul>
+<p>Em resumo, o <strong>Ananda</strong> funciona como uma &ldquo;isca&rdquo; química e psíquica: o humano busca o prazer espiritual, e os Arcontes aproveitam a abertura gerada por essa entrega emocional para extrair a energia de que necessitam para subsistir no universo vizinho.</p>
+
+          </div>
+
+          
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/jve/">JVE</a>
+  
+  <a class="badge badge-light" href="/tag/rogerio-de-freitas/">Rogério de Freitas</a>
+  
+  <a class="badge badge-light" href="/tag/jan-val-ellam/">Jan Val Ellam</a>
+  
+</div>
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Anterior</div>
+    <a href="/rc/livros/ivro-ment1/" rel="next">📖 Livro: Mentalma I</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Próximo</div>
+    <a href="/rc/palestras/palestra-moises/" rel="prev">🎥 Moisés, as Doze Tribos e os Desígnios de Javé</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Última atualização em abr. 24, 2026</p>
+
+          
+
+
+
+
+
+          
+
+
+
+
+          
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Relacionado</h3>
+    <ul>
+      
+      <li><a href="/rc/livros/ivro-ment1/">📖 Livro: Mentalma I</a></li>
+      
+      <li><a href="/rc/biologia/neurociencia/">🧠 Neorociência</a></li>
+      
+      <li><a href="/rc/fisica/fisica_quantica/">⚛️ Física Quântica</a></li>
+      
+      <li><a href="/rc/fisica/fisica_moderna/">📡 Física Moderna</a></li>
+      
+      <li><a href="/rc/fisica/fisica_classica/">🔭 Física Clássica</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+
+  
+  
+    
+  
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    Este trabalho está sob a licença Creative Commons <a href="https://creativecommons.org/licenses/by-nc/4.0" rel="noopener noreferrer" target="_blank">CC BY NC 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.39c2c2890f0b42f46fe5d6e8216f4117.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js" integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/gh/bryanbraun/anchorjs@4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/pt/js/wowchemy.min.0b162bbd8478b51ece5dfae5e2f89658.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

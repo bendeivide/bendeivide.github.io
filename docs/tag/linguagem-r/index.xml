@@ -5,12 +5,111 @@
     <link>http://bendeivide.github.io/tag/linguagem-r/</link>
       <atom:link href="http://bendeivide.github.io/tag/linguagem-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Linguagem R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 27 Apr 2026 00:00:00 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Linguagem R</title>
       <link>http://bendeivide.github.io/tag/linguagem-r/</link>
     </image>
+    
+    <item>
+      <title>Atualizações do R (4.6.0)</title>
+      <link>http://bendeivide.github.io/post/r4.6.0/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 -0300</pubDate>
+      <guid>http://bendeivide.github.io/post/r4.6.0/</guid>
+      <description>&lt;p&gt;Em 24 de abril de 2026, foi lançado oficialmente o &lt;strong&gt;R 4.6.0&lt;/strong&gt;, codinome &amp;ldquo;Because it was There&amp;rdquo; (ou &amp;ldquo;Porque estava lá&amp;rdquo;). Esta é uma versão anual &amp;ldquo;feature release&amp;rdquo; (lançamento de funcionalidades), introduzindo um  conjunto mais significativo de novas capacidades para a linguagem.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;-cursiosidade&#34;&gt;💡 Cursiosidade&lt;/h1&gt;
+&lt;p&gt;A escolha &amp;ldquo;Because it was There&amp;rdquo; foi uma homenagem a um membro importante da comunidade R que faleceu recentemente. O nome é uma referência a Tomàš Kalibera (1978-2026), um membro do R Core Team que, além de suas contribuições técnicas ao R, era um ávido alpinista. A frase evoca o espírito de exploração e desafio associado ao montanhismo, que era uma de suas grandes paixões.&lt;/p&gt;
+&lt;h1 id=&#34;-principais-mudanças-no-r-460&#34;&gt;🛠 Principais mudanças no R 4.6.0&lt;/h1&gt;
+&lt;h2 id=&#34;-melhorias-na-exploração-e-visualização-de-dados&#34;&gt;📝 Melhorias na Exploração e Visualização de Dados&lt;/h2&gt;
+&lt;p&gt;Estas atualizações focam em tornar a análise exploratória e a criação de gráficos mais intuitivas e informativas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;summary()&lt;/code&gt; mais inteligente para texto&lt;/strong&gt;: Agora, ao aplicar &lt;code&gt;summary()&lt;/code&gt; em um &lt;code&gt;data.frame&lt;/code&gt; com colunas de texto, você vê informações realmente úteis, como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Length&lt;/code&gt;&lt;/strong&gt;: Número total de elementos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;N.unique&lt;/code&gt;&lt;/strong&gt;: Quantidade de valores únicos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;N.blank&lt;/code&gt;&lt;/strong&gt;: Número de strings vazias.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Min.nchar&lt;/code&gt;&lt;/strong&gt; / &lt;strong&gt;&lt;code&gt;Max.nchar&lt;/code&gt;&lt;/strong&gt;: Tamanho mínimo e máximo das strings.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Antes, o &lt;code&gt;summary()&lt;/code&gt; só mostrava &amp;ldquo;Length&amp;rdquo;, &amp;ldquo;Class&amp;rdquo; e &amp;ldquo;Mode&amp;rdquo; para colunas de texto, o que era pouco prático.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Visualização mais flexível&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;barplot()&lt;/code&gt;&lt;/strong&gt;: Ganhou o argumento &lt;code&gt;orderH = *&lt;/code&gt;, que permite ordenar as barras em gráficos de barras empilhadas de acordo com o tamanho de cada pilha.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;hist()&lt;/code&gt;, &lt;code&gt;barplot()&lt;/code&gt;, &lt;code&gt;boxplot()&lt;/code&gt;&lt;/strong&gt;: Adicionaram os argumentos &lt;code&gt;panel.first&lt;/code&gt; e &lt;code&gt;panel.last&lt;/code&gt;, dando mais controle para adicionar grades, linhas de referência ou outros elementos antes e depois de cada gráfico ser desenhado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-produtividade-e-facilidade-de-uso&#34;&gt;🧑‍💻 Produtividade e Facilidade de Uso&lt;/h2&gt;
+&lt;p&gt;Esta categoria reúne funções novas e ajustes que agilizam o dia a dia da programação.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;%notin%&lt;/code&gt; na base&lt;/strong&gt;: O operador &lt;code&gt;%notin%&lt;/code&gt; para verificar se um valor não pertence a um conjunto, antes disponível apenas em pacotes externos, agora faz parte do R base. É a novidade mais popular. Agora você pode escrever &lt;code&gt;&amp;quot;a&amp;quot; %notin% c(&amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;)&lt;/code&gt; diretamente, sem precisar de pacotes externos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;list.files()&lt;/code&gt; com padrão literal&lt;/strong&gt;: O novo argumento &lt;code&gt;fixed = TRUE&lt;/code&gt; permite buscar por nomes de arquivos sem precisar escapar caracteres especiais. Por exemplo, &lt;code&gt;list.files(pattern = &amp;quot;.md&amp;quot;, fixed = TRUE)&lt;/code&gt; encontra todos os arquivos que terminam literalmente com &lt;strong&gt;.md&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;substr()&lt;/code&gt; mais flexível&lt;/strong&gt;: Agora você pode usar &lt;code&gt;i2 = NULL&lt;/code&gt; para ir do início até o final da string, um pedido antigo da comunidade.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;read.dcf()&lt;/code&gt; aceita comentários&lt;/strong&gt;: Muito útil para arquivos de configuração, agora linhas que começam com &lt;code&gt;#&lt;/code&gt; em arquivos DCF (como &lt;code&gt;DESCRIPTION&lt;/code&gt;) são ignoradas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-para-desenvolvedores-de-pacotes-e-usuários-avançados&#34;&gt;🛠️ Para Desenvolvedores de Pacotes e Usuários Avançados&lt;/h2&gt;
+&lt;p&gt;Mudanças significativas nos bastidores e para quem cria ou gerencia pacotes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Novo padrão C++20&lt;/strong&gt;: O compilador padrão para código C++ em pacotes agora é o C++20 (ou C++17 como fallback) em plataformas que o suportam, alinhando o R com as práticas modernas de desenvolvimento.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DOI para citar o R&lt;/strong&gt;: A função &lt;code&gt;citation()&lt;/code&gt; agora exibe um &lt;strong&gt;DOI (Digital Object Identifier) estável&lt;/strong&gt; (&lt;code&gt;10.32614/R.manuals&lt;/code&gt;). Isso facilita e padroniza a citação do software R em artigos acadêmicos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Verificação de integridade de pacotes&lt;/strong&gt;: Um novo sistema de assinatura e verificação de pacotes foi introduzido, usando arquivos &lt;code&gt;SHA256&lt;/code&gt; e &lt;code&gt;SHA256.sig&lt;/code&gt;. Isso aumenta a segurança, garantindo que os pacotes baixados não foram corrompidos ou adulterados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Melhorias no &lt;code&gt;wilcox.test()&lt;/code&gt;&lt;/strong&gt;: Para quem trabalha com estatística não paramétrica, a função agora suporta:
+&lt;ul&gt;
+&lt;li&gt;Inferência exata (condicional) em caso de &lt;strong&gt;empates&lt;/strong&gt; nos dados.&lt;/li&gt;
+&lt;li&gt;Cálculo de &lt;strong&gt;p-valores assintóticos melhorados&lt;/strong&gt;, com termos de correção da série de Edgeworth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-correções-de-estabilidade-e-desempenho&#34;&gt;🐞 Correções de Estabilidade e Desempenho&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Parsing de expressões aninhadas&lt;/strong&gt;: Foi corrigido um problema que poderia causar falhas de segmentação (segfault) ao analisar expressões extremamente aninhadas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Função &lt;code&gt;cwilcox&lt;/code&gt;&lt;/strong&gt;: A função interna usada para a distribuição de Wilcoxon foi reimplementada, reduzindo drasticamente sua complexidade de memória, o que a torna mais estável para grandes volumes de dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-link-oficial-e-completo&#34;&gt;🔗 Link Oficial e Completo&lt;/h1&gt;
+&lt;p&gt;Muito mais detalhes pode ser encontrado no changelog completo (release notes) no seguinte endereço: &lt;a href=&#34;https://cran.r-project.org/doc/FAQ/r-devel/NEWS.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/doc/FAQ/r-devel/NEWS.html&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Nesta página, você encontrará a seção &amp;ldquo;Changes in R 4.6.0&amp;rdquo; com a lista exaustiva de todas as novas funcionalidades, melhorias, correções de bugs e mudanças na interface de programação (API). É a fonte mais autoritativa e detalhada disponível.&lt;/p&gt;
+&lt;h1 id=&#34;-como-baixar-a-nova-versão&#34;&gt;📥 Como baixar a nova versão&lt;/h1&gt;
+&lt;p&gt;Apesar de ainda ser uma versão beta, veja como pode ser baixado esta versão de acordo como o sistema operacional, a seguir.&lt;/p&gt;
+&lt;h2 id=&#34;-para-usuários-de-linuxunix-ubuntu-debian-fedora-etc&#34;&gt;🐧 Para usuários de Linux/Unix (Ubuntu, Debian, Fedora, etc.)&lt;/h2&gt;
+&lt;p&gt;Se você quer instalar a versão beta (4.6.0) ou a versão de desenvolvimento mais recente a partir do código fonte:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Baixe o código fonte da versão beta (&amp;ldquo;r-patched&amp;rdquo;):&lt;/strong&gt;
+Acesse o diretório de pré-lançamento do CRAN e baixe o arquivo &lt;code&gt;R-patched.tar.gz&lt;/code&gt;:
+🔗 &lt;a href=&#34;https://cran.r-project.org/src/base-prerelease/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/src/base-prerelease/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Compile e instale:&lt;/strong&gt;
+Após baixar, descompacte o arquivo e compile. No terminal, dentro do diretório extraído, execute os comandos padrão:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;./configure
+make
+make check
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;Atenção:&lt;/strong&gt; Este método (compilação a partir do fonte) é mais avançado e exige que todas as dependências de desenvolvimento (como &lt;code&gt;gcc&lt;/code&gt;, &lt;code&gt;gfortran&lt;/code&gt;, &lt;code&gt;libcurl&lt;/code&gt;, etc.) estejam instaladas em seu sistema.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-para-usuários-de-windows&#34;&gt;🪟 Para usuários de Windows&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Build Release Candidate (RC) - mais estável, quase final:&lt;/strong&gt;
+🔗 &lt;a href=&#34;https://cran.r-project.org/bin/windows/base/rtest.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/bin/windows/base/rtest.html&lt;/a&gt;
+&lt;em&gt;(Data da build: 2026-04-19)&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Build de Desenvolvimento (r-devel) - versão mais recente com correções diárias:&lt;/strong&gt;
+🔗 &lt;a href=&#34;https://cran.r-project.org/bin/windows/base/rdevel.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cran.r-project.org/bin/windows/base/rdevel.html&lt;/a&gt;
+&lt;em&gt;(Data da build: 2026-03-22)&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Atualizações do R (4.5.1)</title>

@@ -92,13 +92,15 @@
   <url>
     <loc>http://bendeivide.github.io/rc/livros/livro-oacc/</loc><lastmod>2026-04-14T06:20:54-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/rc/livros/ivro-ment1/</loc><lastmod>2026-04-14T07:15:29-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/rc/livros/ivro-ment1/</loc><lastmod>2026-04-15T08:42:31-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/rc/palestras/palestra-arcontes/</loc><lastmod>2026-04-24T07:27:38-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/rc/palestras/palestra-moises/</loc><lastmod>2026-04-14T06:28:24-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/rc/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/post/r4.6.0/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -108,7 +110,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -118,17 +120,25 @@
       href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/jan-val-ellam/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/lingaugem/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/jve/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/linguagem-r/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/mitologia/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/post/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/post/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/post/"
+    /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/revelacao-cosmica/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/rogerio-de-freitas/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/tags/"
@@ -138,9 +148,21 @@
       href="http://bendeivide.github.io/tags/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/biologia/</loc><lastmod>2026-04-14T07:24:17-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/rc/</loc><lastmod>2026-04-24T07:27:38-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/livros/</loc><lastmod>2026-04-14T07:24:17-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/jan-val-ellam/</loc><lastmod>2026-04-24T07:27:38-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/jve/</loc><lastmod>2026-04-24T07:27:38-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/livros/</loc><lastmod>2026-04-24T07:27:38-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/revelacao-cosmica/</loc><lastmod>2026-04-24T07:27:38-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/rogerio-de-freitas/</loc><lastmod>2026-04-24T07:27:38-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/mitologia/</loc><lastmod>2026-04-14T07:31:42-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/biologia/</loc><lastmod>2026-04-14T07:24:17-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/curso/</loc><lastmod>2026-04-09T17:24:42-03:00</lastmod></url>
   <url>
@@ -165,10 +187,6 @@
     <loc>http://bendeivide.github.io/category/ciencia-de-dados/</loc><lastmod>2026-04-06T15:15:39-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/ensino/</loc><lastmod>2026-04-06T15:15:39-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-04-06T15:15:39-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-03-27T08:16:55-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/rcd/</loc><lastmod>2026-03-27T05:38:12-03:00</lastmod></url>
   <url>
@@ -231,20 +249,6 @@
     <loc>http://bendeivide.github.io/tag/planejamento-de-experimentos/</loc><lastmod>2025-07-03T15:55:26-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/post/r4.5.1/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/category/lingaugem/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/linguagem-r/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/post/</loc><lastmod>2025-06-30T00:00:00-03:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/post/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/post/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/post/r4.5.0/</loc><lastmod>2025-06-27T00:00:00-03:00</lastmod></url>
   <url>
