@@ -1,0 +1,1817 @@
+<!DOCTYPE html><html lang="pt" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ben Dêivide" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Atualizações da nova versão do R publicada em 24/04/2025" />
+
+  
+  <link rel="alternate" hreflang="pt" href="http://bendeivide.github.io/post/rstudioia/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#707070" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1ec020bc099b4cac589dca38591d25c2.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-183980834-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-183980834-4', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="http://bendeivide.github.io/post/rstudioia/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@@bendeivide" />
+    <meta property="twitter:creator" content="@@bendeivide" />
+  
+  <meta property="og:site_name" content="Ben Dêivide" />
+  <meta property="og:url" content="http://bendeivide.github.io/post/rstudioia/" />
+  <meta property="og:title" content="O Futuro do Data Science: Como a IA Está Transformando o RStudio | Ben Dêivide" />
+  <meta property="og:description" content="Atualizações da nova versão do R publicada em 24/04/2025" /><meta property="og:image" content="http://bendeivide.github.io/post/rstudioia/featured.png" />
+    <meta property="twitter:image" content="http://bendeivide.github.io/post/rstudioia/featured.png" /><meta property="og:locale" content="pt" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2026-04-28T00:00:00-03:00"
+      />
+    
+    <meta property="article:modified_time" content="2026-04-28T00:00:00-03:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://bendeivide.github.io/post/rstudioia/"
+  },
+  "headline": "O Futuro do Data Science: Como a IA Está Transformando o RStudio",
+  
+  "image": [
+    "http://bendeivide.github.io/post/rstudioia/featured.png"
+  ],
+  
+  "datePublished": "2026-04-28T00:00:00-03:00",
+  "dateModified": "2026-04-28T00:00:00-03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ben Dêivide"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ben Dêivide",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Atualizações da nova versão do R publicada em 24/04/2025"
+}
+</script>
+
+  
+
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#707070",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#707070"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+  
+
+
+
+
+
+  <title>O Futuro do Data Science: Como a IA Está Transformando o RStudio | Ben Dêivide</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="70ece38e55b1e0c8cc8e21666a0f6de0" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Pesquisa</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Pesquisa..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Pesquisa...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Ben Dêivide</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Ben Dêivide</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Bio</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Postagens</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projetos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Palestras</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publicações</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/courses/"><span>Cursos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#handouts"><span>Apostilas</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#books"><span>Livros</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/arts"><span>Arte</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/dc/"><span>DC</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contato</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://youtube.com/bendeivide/" target="_blank" rel="noopener" aria-label="youtube">
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Pesquisa"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>O Futuro do Data Science: Como a IA Está Transformando o RStudio</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    abr. 28, 2026
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/rstudio/">RStudio</a>, <a href="/category/ia/">IA</a>, <a href="/category/r/">R</a>, <a href="/category/programacao/">Programação</a>, <a href="/category/lingaugem/">Lingaugem</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://bendeivide.github.io/books/eambr01/" target="_blank" rel="noopener">
+    Livro R Básico</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 720px;">
+  <div style="position: relative">
+    <img src="/post/rstudioia/featured_hu689e577a3ac43f3bba8f3798ca5fac44_1136895_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="720" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Se você é usuário do RStudio (agora Posit), provavelmente já sentiu aquela pontinha de inveja ao ver desenvolvedores usando ferramentas como o Cursor ou o GitHub Copilot no VS Code. Parecia que o ecossistema R estava ficando para trás nessa revolução.</p>
+<p>Essa era acabou.</p>
+<p>Em 2026, o cenário mudou drasticamente. Agora temos desde soluções oficiais integradas até forks completos do IDE e pacotes comunitários. Preparei um resumo completo para você ficar por dentro de tudo o que está bombando no mundo R e IA.</p>
+<p>Aqui está uma sugestão de post em formato Markdown, cobrindo as principais novidades sobre ferramentas de IA no ecossistema RStudio, com destaque para o lançamento do <strong>Posit AI</strong> e as alternativas disponíveis.</p>
+<hr>
+<h2 id="posit-ai-oficial-o-assistente-nativo">Posit AI (Oficial): O Assistente Nativo</h2>
+<p>A grande notícia do ano é a estreia do <strong>Posit AI</strong>. Após um período de beta em janeiro e early release em março, a Posit (antiga RStudio) tornou a ferramenta <strong>disponível para todos em abril de 2026</strong> .</p>
+<p>Trata-se de uma assinatura opcional (US$ 20/mês) que integra dois poderes diretamente no seu IDE:</p>
+<h3 id="1-posit-assistant-o-chat-contextual">1. Posit Assistant (O Chat Contextual)</h3>
+<p>Diferente de ficar copiando e colando erro no ChatGPT, o Assistant entende o seu <em>ambiente inteiro</em>. Ele sabe quais pacotes estão carregados, os data frames que você criou e as variáveis no ambiente .</p>
+<ul>
+<li><strong>Debugging real:</strong> &ldquo;Por que essa junção está dando NA?&rdquo; Ele analisa seus objetos.</li>
+<li><strong>EDA Assistida:</strong> Peça resumos estatísticos e visualizações direto do chat.</li>
+<li><strong>Quarto Reports:</strong> Use o comando <code>/report</code> para gerar documentos completos baseados na sua análise.</li>
+</ul>
+<h3 id="2-next-edit-suggestions-nes--o-modo-cursor">2. Next Edit Suggestions (NES) – O &ldquo;Modo Cursor&rdquo;</h3>
+<p>Essa é a joia da coroa. Ao contrário do autocomplete burro, o NES prevê a <em>próxima edição</em> que você vai fazer. Ele não só finaliza a linha, mas sugere renomear variáveis ou adicionar transformações de dados baseado no contexto do seu projeto .</p>
+<p><strong>Diferencial técnico:</strong> A Posit fez uma parceria com a Baseten para garantir <strong>latência abaixo de 200ms</strong> usando LLMs pequenas e fine-tuned, algo que outros provedores não conseguiam entregar .</p>
+<h3 id="privacidade">Privacidade</h3>
+<p>Se você trabalha com dados sensíveis, fique tranquilo. A Posit opera sob um acordo de <strong>Zero Data Retention</strong> com a Anthropic. Seus prompts são processados e imediatamente deletados .</p>
+<hr>
+<h2 id="pacotes-comunitários-cran-alternativas-e-especializações">Pacotes Comunitários (CRAN): Alternativas e Especializações</h2>
+<p>Se você não quer assinar o Posit AI ou prefere usar modelos específicos (como da Mistral ou OpenAI), o CRAN está repleto de novidades.</p>
+<h3 id="1-ravel-o-copilot-completo">1. <code>ravel</code>: O Copilot Completo</h3>
+<p>Lançado agora em abril, o pacote <code>ravel</code> é um &ldquo;Copilot para análises&rdquo;. Ele conecta RStudio com APIs da OpenAI, Gemini e Anthropic .</p>
+<ul>
+<li><strong>Contexto Rico:</strong> Ele enxerga seu console, seus plots e até o histórico do Git.</li>
+<li><strong>Estatístico:</strong> Ajuda a interpretar modelos <code>lm()</code> e <code>glm()</code> de forma automática.</li>
+<li><strong>Segurança:</strong> Ele &ldquo;staging&rdquo; das ações: você pode revisar o código antes dele ser executado.</li>
+</ul>
+<h3 id="2-codestral-foco-em-modelos-mistral">2. <code>codestral</code>: Foco em Modelos Mistral</h3>
+<p>Fã de código aberto? O pacote <code>codestral</code> integra os modelos mais recentes da Mistral AI (Codestral e Codestral Mamba) diretamente no RStudio via addin .</p>
+<ul>
+<li>Especial para quem gosta de <strong>Fill-in-the-Middle (FIM)</strong> , uma técnica avançada de completação de código.</li>
+</ul>
+<h3 id="3-myownrobs-seu-robô-pessoal">3. <code>myownrobs</code>: Seu Robô Pessoal</h3>
+<p>Como o nome sugere, este pacote cria um agente de codificação personalizado dentro do RStudio. É uma extensão mais flexível para quem quer customizar o comportamento do assistente .</p>
+<hr>
+<h2 id="forks-do-rstudio-experience-completa">Forks do RStudio: Experience Completa</h2>
+<p>Os pacotes são ótimos, mas e se você quiser uma experiência integrada, onde a IA pode <em>criar arquivos</em>, <em>rodar comandos no terminal</em> e <em>ver gráficos</em>?</p>
+<h3 id="lotas-rao-o-cursor-do-r">Lotas (Rao): O &ldquo;Cursor do R&rdquo;</h3>
+<p>Fundado por ex-doutorandos de Harvard, o <strong>Lotas</strong> (e seu fork chamado Rao) promete ser um ambiente nativamente .
+Ele é um fork do RStudio clássico, mas com um assistente de IA que tem <strong>controle total do sistema</strong>:</p>
+<ul>
+<li>Lê e escreve arquivos no seu computador.</li>
+<li>Executa código e interpreta a saída visual (gráficos).</li>
+<li>Funciona com R, Python, Quarto (QMD) e RMarkdown.</li>
+</ul>
+<p><em>Veredito:</em> Ideal para quem quer uma alternativa ao Posit AI, mas não quer abrir mão da interface do RStudio.</p>
+<hr>
+<h2 id="resumo-rápido-qual-escolher">Resumo Rápido: Qual escolher?</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ferramenta</th>
+<th style="text-align:left">Prós</th>
+<th style="text-align:left">Contras</th>
+<th style="text-align:left">Para quem é?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Posit AI</strong></td>
+<td style="text-align:left">Nativo, Latência baixa, Contexto perfeito (NES)</td>
+<td style="text-align:left">Assinatura mensal</td>
+<td style="text-align:left">Usuários profissionais e empresas</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ravel / Codestral</strong></td>
+<td style="text-align:left">Livre (CRAN), Flexível (vários modelos)</td>
+<td style="text-align:left">Configuração manual (API Keys)</td>
+<td style="text-align:left">Quem já usa APIs ou quer testar modelos novos</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Lotas (Rao)</strong></td>
+<td style="text-align:left">Experiencia &ldquo;Agent&rdquo; total (lê arquivos)</td>
+<td style="text-align:left">Fork externo (não é o RStudio vanilla)</td>
+<td style="text-align:left">Quer algo no estilo &ldquo;AutoGPT&rdquo; para análise</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="considerações">Considerações</h2>
+<p>O &ldquo;hype&rdquo; da IA finalmente chegou para os 5 milhões de usuários RStudio. Não estamos mais na era de copiar e colar do browser.</p>
+<ul>
+<li>Se você quer <strong>produtividade imediata</strong> e sem dor de cabeça, a assinatura do <strong>Posit AI</strong> é o caminho natural.</li>
+<li>Se você é <strong>hobbyísta ou pesquisador</strong> sem orçamento, o pacote <strong><code>ravel</code></strong> conectado com uma conta gratuita da Gemini ou Claude pode ser o ideal.</li>
+</ul>
+<p>O futuro da análise de dados será aumentado. A boa notícia é que ele já chegou no seu IDE favorito.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/linguagem-r/">Linguagem R</a>
+  
+  <a class="badge badge-light" href="/tag/r/">R</a>
+  
+  <a class="badge badge-light" href="/tag/rstudio/">RStudio</a>
+  
+  <a class="badge badge-light" href="/tag/ia/">IA</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://bendeivide.github.io/post/rstudioia/&amp;text=O%20Futuro%20do%20Data%20Science:%20Como%20a%20IA%20Est%c3%a1%20Transformando%20o%20RStudio" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://bendeivide.github.io/post/rstudioia/&amp;t=O%20Futuro%20do%20Data%20Science:%20Como%20a%20IA%20Est%c3%a1%20Transformando%20o%20RStudio" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=O%20Futuro%20do%20Data%20Science:%20Como%20a%20IA%20Est%c3%a1%20Transformando%20o%20RStudio&amp;body=http://bendeivide.github.io/post/rstudioia/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://bendeivide.github.io/post/rstudioia/&amp;title=O%20Futuro%20do%20Data%20Science:%20Como%20a%20IA%20Est%c3%a1%20Transformando%20o%20RStudio" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=O%20Futuro%20do%20Data%20Science:%20Como%20a%20IA%20Est%c3%a1%20Transformando%20o%20RStudio%20http://bendeivide.github.io/post/rstudioia/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://bendeivide.github.io/post/rstudioia/&amp;title=O%20Futuro%20do%20Data%20Science:%20Como%20a%20IA%20Est%c3%a1%20Transformando%20o%20RStudio" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="http://bendeivide.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/ben-deivide/avatar_hue6cc0766c96d7ef53baa672d4639967d_80217_270x270_fill_lanczos_center_3.png" alt="Ben Dêivide"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://bendeivide.github.io/">Ben Dêivide</a></h5>
+      <h6 class="card-subtitle">Professor de Estatística</h6>
+      <p class="card-text">Minhas principais linhas de pesquisa são na área de Estatística Experimental, Estatística e Probabilidade, Estatística computacional, Desenvolvimento de pacotes R</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="http://lattes.cnpq.br/4118572120481367" target="_blank" rel="noopener">
+        <i class="ai ai-lattes"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-7019-8794" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com.br/citations?user=m3VSZ4gAAAAJ&amp;hl=pt-BR&amp;oi=ao" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar-square"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/bendeivide/" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="http://linkedin.com/in/bendeivide/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Ben-Batista" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/bendeivide/" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.facebook.com/bendeivide/" target="_blank" rel="noopener">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.instagram.com/bendeivide/" target="_blank" rel="noopener">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://youtube.com/bendeivide/" target="_blank" rel="noopener">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Relacionado</h3>
+    <ul>
+      
+      <li><a href="/post/r4.6.0/">Atualizações do R (4.6.0)</a></li>
+      
+      <li><a href="/post/r4.5.1/">Atualizações do R (4.5.1)</a></li>
+      
+      <li><a href="/courses/estexp/estexp2025.1/">⚗️ Ensino normal 2025.1</a></li>
+      
+      <li><a href="/post/r4.5.0/">Atualizações do R (4.5.0)</a></li>
+      
+      <li><a href="/courses/estexp/videoaulas/">📹 Videoaulas do Curso EstExp</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+
+  
+  
+    
+  
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    Este trabalho está sob a licença Creative Commons <a href="https://creativecommons.org/licenses/by-nc/4.0" rel="noopener noreferrer" target="_blank">CC BY NC 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.39c2c2890f0b42f46fe5d6e8216f4117.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js" integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/pt/js/wowchemy.min.0b162bbd8478b51ece5dfae5e2f89658.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

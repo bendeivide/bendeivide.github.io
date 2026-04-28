@@ -98,9 +98,7 @@
   <url>
     <loc>http://bendeivide.github.io/rc/palestras/palestra-moises/</loc><lastmod>2026-04-14T06:28:24-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/post/r4.6.0/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -110,7 +108,7 @@
       href="http://bendeivide.github.io/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/categories/"
@@ -120,11 +118,17 @@
       href="http://bendeivide.github.io/categories/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/lingaugem/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/ia/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tag/linguagem-r/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/ia/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/post/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/category/lingaugem/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/linguagem-r/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/post/rstudioia/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/post/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/post/"
@@ -134,11 +138,17 @@
       href="http://bendeivide.github.io/post/"
     /></url>
   <url>
-    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/category/programacao/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
+    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/category/r/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/rstudio/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/category/rstudio/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-04-28T00:00:00-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/tags/"
@@ -147,6 +157,8 @@
       hreflang="pt"
       href="http://bendeivide.github.io/tags/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/post/r4.6.0/</loc><lastmod>2026-04-27T00:00:00-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/rc/</loc><lastmod>2026-04-24T07:27:38-03:00</lastmod></url>
   <url>
@@ -209,8 +221,6 @@
     <loc>http://bendeivide.github.io/tag/estatistica-experimental/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/estatistica-experimental/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/r/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/tag/sisvar/</loc><lastmod>2026-02-23T08:29:17-03:00</lastmod></url>
   <url>
