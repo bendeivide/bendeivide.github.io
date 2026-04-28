@@ -3271,7 +3271,6 @@ href=&#34;https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main
       <description>&lt;p&gt;Se você é usuário do RStudio (agora Posit), provavelmente já sentiu aquela pontinha de inveja ao ver desenvolvedores usando ferramentas como o Cursor ou o GitHub Copilot no VS Code. Parecia que o ecossistema R estava ficando para trás nessa revolução.&lt;/p&gt;
 &lt;p&gt;Essa era acabou.&lt;/p&gt;
 &lt;p&gt;Em 2026, o cenário mudou drasticamente. Agora temos desde soluções oficiais integradas até forks completos do IDE e pacotes comunitários. Preparei um resumo completo para você ficar por dentro de tudo o que está bombando no mundo R e IA.&lt;/p&gt;
-&lt;p&gt;Aqui está uma sugestão de post em formato Markdown, cobrindo as principais novidades sobre ferramentas de IA no ecossistema RStudio, com destaque para o lançamento do &lt;strong&gt;Posit AI&lt;/strong&gt; e as alternativas disponíveis.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;posit-ai-oficial-o-assistente-nativo&#34;&gt;Posit AI (Oficial): O Assistente Nativo&lt;/h2&gt;
 &lt;p&gt;A grande notícia do ano é a estreia do &lt;strong&gt;Posit AI&lt;/strong&gt;. Após um período de beta em janeiro e early release em março, a Posit (antiga RStudio) tornou a ferramenta &lt;strong&gt;disponível para todos em abril de 2026&lt;/strong&gt; .&lt;/p&gt;
@@ -3353,8 +3352,8 @@ Ele é um fork do RStudio clássico, mas com um assistente de IA que tem &lt;str
 &lt;h2 id=&#34;considerações&#34;&gt;Considerações&lt;/h2&gt;
 &lt;p&gt;O &amp;ldquo;hype&amp;rdquo; da IA finalmente chegou para os 5 milhões de usuários RStudio. Não estamos mais na era de copiar e colar do browser.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Se você quer &lt;strong&gt;produtividade imediata&lt;/strong&gt; e sem dor de cabeça, a assinatura do &lt;strong&gt;Posit AI&lt;/strong&gt; é o caminho natural.&lt;/li&gt;
-&lt;li&gt;Se você é &lt;strong&gt;hobbyísta ou pesquisador&lt;/strong&gt; sem orçamento, o pacote &lt;strong&gt;&lt;code&gt;ravel&lt;/code&gt;&lt;/strong&gt; conectado com uma conta gratuita da Gemini ou Claude pode ser o ideal.&lt;/li&gt;
+&lt;li&gt;Se você quer produtividade imediata e sem dor de cabeça, a assinatura do Posit AI é o caminho natural.&lt;/li&gt;
+&lt;li&gt;Se você está sem orçamento, o pacote &lt;code&gt;ravel&lt;/code&gt; conectado com uma conta gratuita da Gemini ou Claude pode ser o ideal.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;O futuro da análise de dados será aumentado. A boa notícia é que ele já chegou no seu IDE favorito.&lt;/p&gt;
 </description>

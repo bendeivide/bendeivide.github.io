@@ -21,8 +21,6 @@ Essa era acabou.
 Em 2026, o cenário mudou drasticamente. Agora temos desde soluções oficiais integradas até forks completos do IDE e pacotes comunitários. Preparei um resumo completo para você ficar por dentro de tudo o que está bombando no mundo R e IA.
 
 
-Aqui está uma sugestão de post em formato Markdown, cobrindo as principais novidades sobre ferramentas de IA no ecossistema RStudio, com destaque para o lançamento do **Posit AI** e as alternativas disponíveis.
-
 ---
 
 ## Posit AI (Oficial): O Assistente Nativo
@@ -95,8 +93,8 @@ Ele é um fork do RStudio clássico, mas com um assistente de IA que tem **contr
 
 O "hype" da IA finalmente chegou para os 5 milhões de usuários RStudio. Não estamos mais na era de copiar e colar do browser.
 
-- Se você quer **produtividade imediata** e sem dor de cabeça, a assinatura do **Posit AI** é o caminho natural.
-- Se você é **hobbyísta ou pesquisador** sem orçamento, o pacote **`ravel`** conectado com uma conta gratuita da Gemini ou Claude pode ser o ideal.
+- Se você quer produtividade imediata e sem dor de cabeça, a assinatura do Posit AI é o caminho natural.
+- Se você está sem orçamento, o pacote `ravel` conectado com uma conta gratuita da Gemini ou Claude pode ser o ideal.
 
 O futuro da análise de dados será aumentado. A boa notícia é que ele já chegou no seu IDE favorito.
 
