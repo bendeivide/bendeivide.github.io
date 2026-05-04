@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-04-09 17:24:42"
+date: "2026-05-04 07:39:39"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -55,7 +55,7 @@ regressão linear simples.
 
 -   Calendário
 
-<img src="/pt/courses/epaec/normal2026.1_files/figure-html/unnamed-chunk-1-1.png" width="110%" />
+<img src="/pt/courses/epaec/normal2026.1_files/figure-html/unnamed-chunk-1-1.png" alt="" width="110%" />
 
 -   [Cronograma de
     aulas](https://docs.google.com/document/d/15KR4SH_p_riW3XG5KjGLAdRIYUIIbVdwTJxHDmo1OyI/edit?usp=sharing):
@@ -72,8 +72,8 @@ regressão linear simples.
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
--   Engenharia Mecatrônica ([Link]())
--   Engenharia de Telecomunicações ([Link]())
+-   Engenharia Mecatrônica ([Link](https://docs.google.com/spreadsheets/d/1CNum5I6j4lHZUNJy4GR8gyULJqAS14WjQkWpz0aCRW4/edit?usp=sharing))
+-   Engenharia de Telecomunicações ([Link](https://docs.google.com/spreadsheets/d/1cmE8VGMn2KL6BKwmzng0xQJTY7mKyBJG6UsYw8L0vBE/edit?usp=sharing))
 
 ## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
