@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-05-04 07:39:39"
+date: "2026-05-05 17:29:58"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -384,6 +384,28 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 <!-- Fim da Lista de Exercicio 3 -->
 
+{{< spoiler text="📌 Lista de Exercício 4 (Clique!) - 08/05/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via portal didático
+- <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
+- <i class="fas fa-calendar-check"></i> 15/05/2026 <i class="fas fa-clock"></i> Até às 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Respoder:
+>   1) Provar que a distribuição de Poisson é uma função de probabilidade.
+>   2) Mostrar como $ X\sim \text{Pois}(\lambda) $ pode ser associado com $ Y\sim \text{Bin}(n,p)$.
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 13:00
+
+{{</spoiler>}}
+
+<!-- Fim da Lista de Exercicio 4 -->
+
 </div>
 
 
@@ -515,7 +537,27 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 
 {{</spoiler>}}
 
-<!-- Fim do Relatorio 3 -->
+<!-- Fim do Relatorio 4 -->
+
+{{< spoiler text="🗒 Relatório 4 (Clique!) - 12/05/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: HTML
+- <i class="fas fa-calendar-check"></i> 12/05/2026 <i class="fas fa-clock"></i> 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>  
+> Discorrer sobre as distribuições estudadas em sala de aula, quais sejam: Distribuição Binomial, Poisson e Normal. Enfatize inicialmente a que tipo de variável aleatória essas distribuições estão envolvidas, e para cada tipo de distribuição mostre um exemplo aplicado em sua área de curso, calculando as probabilidades envolvidas analiticamente e usando o pacote leem.
+>
+> Em um segundo momento de aprofundamento, apresente quatro distribuições, duas relacionadas a variáveis aleatórias discretas e duas associadas a variáveis aleatórias contínuas. Para cada uma delas, mostre ao menos um exemplo, cujo o cálculo das probabilidades sejam demonstrados de forma analítica e usando o R.
+> 
+> **DATA DA ENTREGA: 12/05/2026, 13h (Todos os cursos!!!)**
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 4 -->
 
 </div>
 
