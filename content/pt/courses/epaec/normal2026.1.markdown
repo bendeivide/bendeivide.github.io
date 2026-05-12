@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-05-05 17:29:58"
+date: "2026-05-12 05:46:35"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -388,7 +388,7 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 - <i class="fas fa-upload"></i> Entrega: Via portal didático
 - <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
-- <i class="fas fa-calendar-check"></i> 15/05/2026 <i class="fas fa-clock"></i> Até às 13h
+- <i class="fas fa-calendar-check"></i> 08/05/2026 <i class="fas fa-clock"></i> Até às 13h
 
 ---
 
@@ -400,11 +400,32 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 >
 > **DATA DA ENTREGA:** 
 >
->  - Até às 13:00
+>  - 08/05/2026, até às 13:00
 
 {{</spoiler>}}
 
 <!-- Fim da Lista de Exercicio 4 -->
+
+{{< spoiler text="📌 Lista de Exercício 5 (Clique!) - 15/05/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via portal didático
+- <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
+- <i class="fas fa-calendar-check"></i> 15/05/2026 <i class="fas fa-clock"></i> Até às 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Entregar a lista sobre amostragem dada em sala de aula. Respondê-la, digitalizá-la, e enviada via portal didático.
+>
+> **DATA DA ENTREGA:** 
+>
+>  - 15/05/2026, até às 13:00
+
+{{</spoiler>}}
+
+<!-- Fim da Lista de Exercicio 5 -->
+
 
 </div>
 
@@ -537,7 +558,7 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 
 {{</spoiler>}}
 
-<!-- Fim do Relatorio 4 -->
+<!-- Fim do Relatorio 3 -->
 
 {{< spoiler text="🗒 Relatório 4 (Clique!) - 12/05/2026 ">}}
 
@@ -558,6 +579,25 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 4 -->
+
+{{< spoiler text="🗒 Relatório 5 (Clique!) - 19/05/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: HTML
+- <i class="fas fa-calendar-check"></i> 19/05/2026 <i class="fas fa-clock"></i> 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>  
+> Discorrer sobre como as distribuições Binomial e Poisson podem ser aproximadas à distribuição Normal. Apresente as demonstrações devidas, como também aplicações de como utilizá-las.
+> 
+> **DATA DA ENTREGA: 19/05/2026, 13h (Todos os cursos!!!)**
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 5 -->
+
 
 </div>
 

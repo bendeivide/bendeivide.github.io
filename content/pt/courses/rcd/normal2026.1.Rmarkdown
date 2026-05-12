@@ -287,7 +287,28 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 {{</spoiler>}}
 
-<!-- Fim do Relatorio  -->
+<!-- Fim do Relatorio 2 -->
+
+{{< spoiler text="🗒 Relatório 3 (Clique!) - 19/05/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 19/04/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+>  Fazer um comparativo das funções apresentadas no <a href="/slides/lrcd/s04/" target="_blank"> Slide da aula 4</a> e no <a href="/lrcd/2026.1/LRCD2026.1_AULA04.R" target="_blank"> Script da Aula 4</a> com as funções do {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}, isto é, faça um comparativo entre as funções da Base R com as funções da família de pacotes Tidyverse.
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17h do dia 10/04/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 3 -->
+
 
 
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
@@ -381,10 +402,8 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <!-- Fim da Aula 01 -->
 
-
-
 {{< spoiler text="🎓 Aula 4">}}
-<!-- Div de aula 06 -->
+<!-- Div de aula 04 -->
 <div style="margin-left: 20px;">
 
 {{< icon name="pen-fancy" pack="fas" >}} **Tema** Manipulando objetos em R
@@ -403,20 +422,38 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <div style="margin-left: 20px;">
 
-{{< spoiler text="🎙 Podcast 9 (NotebookLM  - 2026.1) - Por que a média pode enganar você?">}}
+{{< spoiler text="🎙 Podcast 4 (NotebookLM  - 2026.1) - Manipulação de dados eficiente com Base R">}}
 
 <div style="margin-left: 20px;">
 
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast10_Por_que_a_media_pode_enganar_voce.mp3" >}}
+{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod04-Manipulação_de_dados_eficiente_com_Base_R.mp3" >}}
 
 {{< spoiler text="✏️ Descrição do Podcast">}}
 
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no vídeo [Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão](https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw) e  [Capítulo 3 - EPAEC](https://bendeivide.github.io/book-epaec/cap03.html).
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, na apresentação <a href="/slides/lrcd/s04/" target="_blank"> Aula
+04</a>.
 {{< /spoiler >}}
 
 </div>
 
 {{< /spoiler >}}
+
+{{< spoiler text="🎙 Podcast 5 (NotebookLM  - 2026.1) - Manipulação de dados eficiente com Base R">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod05-A_anatomia_dos_objetos_em_R.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, na apresentação <a href="/slides/lrcd/s04/" target="_blank"> Aula
+04</a>.
+{{< /spoiler >}}
+
+</div>
+
+{{< /spoiler >}}
+
 
 <!-- Fim div podcast -->
 </div>
@@ -425,10 +462,10 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <div style="margin-left: 20px;">
 
-{{< spoiler text="🧠 Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição">}}
+{{< spoiler text="🧠 Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R">}}
 
-{{< figure src="/infografico/epaec/2026.1/info06_guia_medidas_posicao.png" 
-           title="Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição." 
+{{< figure src="/infografico/lrcd/2026.1/info04-Dominando_manipulacao_obj_R.png" 
+           title="Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R." 
            width="400px" >}}
            
 {{< /spoiler >}}
@@ -453,19 +490,98 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 {{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
 
 
--   🎥 <a href="https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw"
-    target="_blank">Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão</a>
+-   🎥 ...
 
 
 
 
-
-<!-- Fim div de aula 06 -->
+<!-- Fim div de aula 04 -->
 </div>
 
 {{< /spoiler >}}
 
-<!-- Fim da Aula 06 -->
+<!-- Fim da Aula 05 -->
+
+{{< spoiler text="🎓 Aula 5">}}
+<!-- Div de aula 05 -->
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema** Manipulando objetos em R (Família *Tidyverse*)
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** 
+{{< icon name="book-reader" pack="fas" >}} **Plano de aula**
+
+{{< icon name="book" pack="fas" >}} Em desenvolvimento...
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🎙 Podcast 6 (NotebookLM  - 2026.1) - Tidyverse: Do *pipe* ao *purr* do R">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod06-Tidyverse_do_pipe_ao_purrr_no_R.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}.
+
+{{< /spoiler >}}
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim div podcast -->
+</div>
+
+{{< icon name="brain" pack="fas" >}} **Infográfico**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🧠 Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados">}}
+
+{{< figure src="/infografico/lrcd/2026.1/info05-Tidyverse_Manipulando_Dados.png" 
+           title="Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados." 
+           width="400px" >}}
+           
+{{< /spoiler >}}
+
+
+<!-- Fim div infografico -->
+</div>
+
+
+
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}
+
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
+
+
+-   🎥 ...
+
+
+
+
+
+<!-- Fim div de aula 05 -->
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 05 -->
 
 
 <!-- Div de aulas (Geral) -->

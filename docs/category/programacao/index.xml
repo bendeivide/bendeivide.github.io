@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/programacao/</link>
       <atom:link href="http://bendeivide.github.io/category/programacao/index.xml" rel="self" type="application/rss+xml" />
     <description>Programação</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 28 Apr 2026 00:00:00 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 12 May 2026 07:46:11 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Programação</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/rcd/normal2026.1/</link>
-      <pubDate>Mon, 06 Apr 2026 15:15:39 -0300</pubDate>
+      <pubDate>Tue, 12 May 2026 07:46:11 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/rcd/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -69,7 +69,7 @@ Engenharia do campus.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Calendário&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://bendeivide.github.io/pt/courses/rcd/normal2026.1_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;110%&#34; /&gt;
+&lt;img src=&#34;http://bendeivide.github.io/pt/courses/rcd/normal2026.1_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;110%&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/18RSHFo7yTpUfzzd3wwah896D9s1bXTzFRbwMMv8Qe1s/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
 aulas&lt;/a&gt;:
@@ -237,10 +237,29 @@ bendeivide.github.io/book-eambr01/.&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;!-- Fim do Relatorio  --&gt;
+&lt;!-- Fim do Relatorio 2 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 3 (Clique!) - 19/05/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 19/04/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 17h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Fazer um comparativo das funções apresentadas no &lt;a href=&#34;http://bendeivide.github.io/slides/lrcd/s04/&#34; target=&#34;_blank&#34;&gt; Slide da aula 4&lt;/a&gt; e no &lt;a href=&#34;http://bendeivide.github.io/lrcd/2026.1/LRCD2026.1_AULA04.R&#34; target=&#34;_blank&#34;&gt; Script da Aula 4&lt;/a&gt; com as funções do &lt;a href=&#34;http://bendeivide.github.io/lrcd/2026.1/LRCD2026.1_AULA05.R&#34; target=&#34;_blank&#34;&gt;Script Aula 05.R&lt;/a&gt;, isto é, faça um comparativo entre as funções da Base R com as funções da família de pacotes Tidyverse.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 17h do dia 10/04/2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 3 --&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt; 
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação do curso e Introdução ao R&lt;/p&gt;
@@ -305,9 +324,9 @@ target=&#34;_blank&#34;&gt;R Básico 2024 | Aula 07 - Criando e salvando um Scri
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
-  &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
+  &lt;p&gt;&lt;!-- Div de aula 04 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema&lt;/strong&gt; Manipulando objetos em R&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt; &lt;a href=&#34;http://bendeivide.github.io/slides/lrcd/s04/&#34; target=&#34;_blank&#34;&gt; Aula
@@ -320,14 +339,28 @@ target=&#34;_blank&#34;&gt;R Básico 2024 | Aula 07 - Criando e salvando um Scri
 &lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;🎙 Podcast 9 (NotebookLM  - 2026.1) - Por que a média pode enganar você?&lt;/summary&gt;
+  &lt;summary&gt;🎙 Podcast 4 (NotebookLM  - 2026.1) - Manipulação de dados eficiente com Base R&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://bendeivide.github.io/podcast/epaec/2026.1/notebooklm/podcast10_Por_que_a_media_pode_enganar_voce.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/lrcd/2026.1/notebooklm/pod04-Manipula%c3%a7%c3%a3o_de_dados_eficiente_com_Base_R.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
   &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
-  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt; com edição de Ben Dêivide, baseado no vídeo &lt;a href=&#34;https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão&lt;/a&gt; e  &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap03.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 3 - EPAEC&lt;/a&gt;.&lt;/p&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt; com edição de Ben Dêivide, na apresentação &lt;a href=&#34;http://bendeivide.github.io/slides/lrcd/s04/&#34; target=&#34;_blank&#34;&gt; Aula
+04&lt;/a&gt;.&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;🎙 Podcast 5 (NotebookLM  - 2026.1) - Manipulação de dados eficiente com Base R&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/lrcd/2026.1/notebooklm/pod05-A_anatomia_dos_objetos_em_R.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt; com edição de Ben Dêivide, na apresentação &lt;a href=&#34;http://bendeivide.github.io/slides/lrcd/s04/&#34; target=&#34;_blank&#34;&gt; Aula
+04&lt;/a&gt;.&lt;/p&gt;
 &lt;/details&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
@@ -335,13 +368,13 @@ target=&#34;_blank&#34;&gt;R Básico 2024 | Aula 07 - Criando e salvando um Scri
 &lt;/div&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Infográfico&lt;/strong&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
-  &lt;summary&gt;🧠 Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição&lt;/summary&gt;
-  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-06-notebooklm---20261---guia-das-medidas-de-posição&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;🧠 Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R&lt;/summary&gt;
+  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-04-notebooklm---20261---dominando-manipulação-de-objetos-r&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/epaec/2026.1/info06_guia_medidas_posicao.png&#34; alt=&#34;Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição.&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/lrcd/2026.1/info04-Dominando_manipulacao_obj_R.png&#34; alt=&#34;Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R.&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Infográfico 06 (NotebookLM - 2026.1) - Guia das medidas de posição.
+      Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R.
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/details&gt;
@@ -359,14 +392,71 @@ target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Videoaulas de semestres anteriores&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;🎥 &lt;a href=&#34;https://www.youtube.com/live/s-yrirgOA8A?si=VLn3adrp6sAK0VJw&#34;
-target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: Medidas de posição e Medidas de dispersão&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🎥 &amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- Fim div de aula 06 --&gt;
+&lt;!-- Fim div de aula 04 --&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;!-- Fim da Aula 06 --&gt;
+&lt;!-- Fim da Aula 05 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
+  &lt;p&gt;&lt;!-- Div de aula 05 --&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tema&lt;/strong&gt; Manipulando objetos em R (Família &lt;em&gt;Tidyverse&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-eye  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Apresentação:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Plano de aula&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Em desenvolvimento&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-headphones  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Podcast&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;🎙 Podcast 6 (NotebookLM  - 2026.1) - Tidyverse: Do &lt;em&gt;pipe&lt;/em&gt; ao &lt;em&gt;purr&lt;/em&gt; do R&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;audio controls &gt;
+  &lt;source src=&#34;http://bendeivide.github.io/podcast/lrcd/2026.1/notebooklm/pod06-Tidyverse_do_pipe_ao_purrr_no_R.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;✏️ Descrição do Podcast&lt;/summary&gt;
+  &lt;p&gt;Este podcast foi desenvolvido por meio da &lt;em&gt;IA Notebooklm&lt;/em&gt; com edição de Ben Dêivide, baseado no &lt;a href=&#34;http://bendeivide.github.io/lrcd/2026.1/LRCD2026.1_AULA05.R&#34; target=&#34;_blank&#34;&gt;Script Aula 05.R&lt;/a&gt;.&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim div podcast --&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-brain  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Infográfico&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;🧠 Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados&lt;/summary&gt;
+  &lt;p&gt;&lt;figure  id=&#34;figure-infográfico-05-notebooklm---20261---tidyverse-manipulando-dados&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://bendeivide.github.io/infografico/lrcd/2026.1/info05-Tidyverse_Manipulando_Dados.png&#34; alt=&#34;Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados.&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;400px&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim div infografico --&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/lrcd/2026.1/LRCD2026.1_AULA05.R&#34; target=&#34;_blank&#34;&gt;Script Aula 05.R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
+target=&#34;_blank&#34;&gt;Estatística e Probabilidade (Ensino Remoto)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34;
+target=&#34;_blank&#34;&gt; Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;
+target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-youtube  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Videoaulas de semestres anteriores&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🎥 &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fim div de aula 05 --&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 05 --&gt;
 &lt;!-- Div de aulas (Geral) --&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
@@ -405,11 +495,11 @@ href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
 target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
