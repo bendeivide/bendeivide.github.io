@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planejados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-05-12 07:46:11"
+date: "2026-05-12 18:55:42"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -354,11 +354,11 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <div style="margin-left: 20px;">
 
-{{< spoiler text="🎙 Podcast 4 (NotebookLM  - 2026.1) - Manipulação de dados eficiente com Base R">}}
+{{< spoiler text="🎙 Podcast 4 (NotebookLM  - 2026.1) - A Anatomia dos objetos em R">}}
 
 <div style="margin-left: 20px;">
 
-{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod04-Manipulação_de_dados_eficiente_com_Base_R.mp3" >}}
+{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod05-A_anatomia_dos_objetos_em_R.mp3" >}}
 
 {{< spoiler text="✏️ Descrição do Podcast">}}
 
@@ -374,7 +374,7 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 <div style="margin-left: 20px;">
 
-{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod05-A_anatomia_dos_objetos_em_R.mp3" >}}
+{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod04-Manipulacao_de_dados_eficiente_com_Base_R.mp3" >}}
 
 {{< spoiler text="✏️ Descrição do Podcast">}}
 
@@ -396,7 +396,7 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 
 {{< spoiler text="🧠 Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R">}}
 
-{{< figure src="/infografico/lrcd/2026.1/info04-Dominando_manipulacao_obj_R.png" 
+{{< figure src="/infografico/lrcd/2026.1/info04-Dominando_manipulacao_obj_R.mp3" 
            title="Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R." 
            width="400px" >}}
            
