@@ -667,6 +667,46 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 
 <!-- Fim do Relatorio 5 -->
 
+{{< spoiler text="🗒 Relatório 6 (Clique!) - 26/05/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: HTML
+- <i class="fas fa-calendar-check"></i> 26/05/2026 <i class="fas fa-clock"></i> 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>  
+> <u>Demanda para a turma de **Engenharia de Telecomunicações**</u>
+> **OBJETIVO**: Discorrer sobre as distribuições F e de Qui-quadrado:
+> 1) Apresentar como elas podem estar relacionadas a distribuições amostrais;
+> 2) Quais as funções da amostra que se relacionam com elas; 
+> 3) Por fim, apresentar aplicações dessas distribuições em sua área de atuação.
+>
+> <u>Demanda para a turma de **Engenharia Mecatrônica**</u>
+>
+> **Grupo 1**: Discorrer sobre a distribuição F. Mostrar como essa distribuição pode ser relacionada com uma função da amostra de uma população normal.
+>
+> **Grupo 2**: Discorrer sobre a distribuição F. Mostrar como essa distribuição pode ser relacionada com funções de amostras de duas populações normais e independentes.
+>
+> **Grupo 3**: Discorrer sobre a distribuição Qui-quadrado. Mostrar como essa distribuição pode ser relacionada com uma função da amostra de uma população normal.
+>
+> **Grupo 4**: Discorrer sobre a distribuição Qui-quadrado. Mostrar como essa distribuição pode ser relacionada com uma função da amostra de uma população normal.
+>
+> **Grupo 5**: Considere $ Y \sim N(0,1) $ (normal padrão) e $ W_1 = U \sim \chi_{\nu} $ (qui-quadrado com $ \nu $ graus de liberdade). Sabemos que $ Y / \sqrt{U / \nu} \sim t_{\nu} $ . Então, como podemos relacionar este último resultado com o fato de  $  W_2 = (\bar{X} - \mu)\sqrt{n} / S \sim t_{\nu} $ , baseado em uma população normal ($ X \sim N(\mu, \sigma^2) $) e dada uma amostra de tamanho $ n $ com $ \bar{X} $ (média amostral) e $ S $ (desvio pradrão amostral), isto é, $ W_1 $ e $ W_2 $ apresentarem a mesma distribuição? Realize aplicações em sua área baseada nesses resultados.
+>
+> **Grupo 6**: Considere uma população normal,$ X \sim N(\mu, \sigma^2) $ , e dada uma amostra de tamanho $ n $ com $ \bar{X} $ (média amostral) e $ S^2 $ (variância amostral). Como as funções:
+> - $ \frac{(n-1) S^2}{\sigma^2}  $ e
+> - $ \sum_{i=1}^{n} \left( \frac{X_i - \mu}{\sigma} \right)^2 $
+> 
+> se relacionam? Mostre como esses resultados podem impactar nas aplicações em sua área de atuação profissional.
+>
+> **DATA DA ENTREGA: 26/05/2026, 13h (Todos os cursos!!!)**
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 6 -->
+
 
 </div>
 

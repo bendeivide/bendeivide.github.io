@@ -1,0 +1,543 @@
+---
+title: "Linguagem R na Ciência de Dados"
+subtitle: "Aula 08 - A filosofia dos gráficos"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[LRCD](https://bendeivide.github.io/courses/lrcd/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+
+
+# 1. Principais filosofias de construção gráfica
+
+Podemos dividir os sistemas em algumas grandes ideias:
+
+| Filosofia             | Ideia principal                |
+| --------------------- | ------------------------------ |
+| Imperativa            | “Desenhe isso”                 |
+| Declarativa           | “Descreva os dados”            |
+| Orientada a objetos   | Objetos gráficos independentes |
+| Baseada em gramática  | Componentes combináveis        |
+| Reativa/interativa    | Visualizações dinâmicas        |
+| Pipeline/encadeamento | Fluxo de transformação         |
+| Baseada em cena       | Elementos gráficos em uma cena |
+
+---
+
+# 2. Filosofia imperativa
+
+É a abordagem mais antiga.
+
+O programador diz explicitamente:
+
+> “Desenhe uma linha.”
+> “Agora desenhe um ponto.”
+> “Agora escreva um texto.”
+
+---
+
+## Exemplo: Base R
+
+```r id="mv8ahp"
+plot(x, y)
+
+lines(x, y)
+
+text(x, y)
+```
+
+Aqui o usuário controla diretamente:
+
+* desenho;
+* sequência;
+* elementos.
+
+---
+
+## Características
+
+| Vantagem        | Desvantagem               |
+| --------------- | ------------------------- |
+| Simples         | Pouco modular             |
+| Controle direto | Difícil manutenção        |
+| Rápido          | Código cresce rapidamente |
+
+---
+
+# 3. Filosofia declarativa
+
+Aqui o usuário não descreve:
+
+> “Como desenhar.”
+
+Mas sim:
+
+> “O que deseja mostrar.”
+
+O sistema decide como produzir.
+
+---
+
+## Exemplo: ggplot2
+
+```r id="jlwm6t"
+ggplot(dados, aes(x, y)) +
+  geom_point()
+```
+
+Você declara:
+
+* dados;
+* relações;
+* geometria.
+
+---
+
+## Característica central
+
+O gráfico é:
+
+> uma descrição semântica dos dados.
+
+---
+
+# 4. Filosofia baseada em gramática
+
+É uma evolução da abordagem declarativa.
+
+O gráfico é visto como:
+
+> combinação formal de componentes.
+
+---
+
+## Exemplo: Grammar of Graphics
+
+Componentes:
+
+* dados;
+* estética;
+* geometria;
+* escalas;
+* coordenadas;
+* facetas.
+
+---
+
+## Sistemas que seguem essa ideia
+
+| Sistema   | Linguagem  |
+| --------- | ---------- |
+| ggplot2   | R          |
+| Vega-Lite | JavaScript |
+| Altair    | Python     |
+| plotnine  | Python     |
+
+---
+
+# 5. Filosofia orientada a objetos gráficos
+
+Aqui cada elemento do gráfico é um objeto independente.
+
+---
+
+## Exemplo: grid graphics no R
+
+O sistema `grid` trabalha com:
+
+* viewport;
+* grobs;
+* layouts.
+
+---
+
+## Exemplo conceitual
+
+```r id="e2ah6r"
+grid.rect()
+grid.text()
+grid.lines()
+```
+
+Cada elemento é um objeto manipulável.
+
+---
+
+## Importância
+
+O `ggplot2` internamente usa:
+
+```r id="5k93u9"
+grid
+```
+
+---
+
+# 6. Filosofia baseada em cena (scene graph)
+
+Muito usada em:
+
+* computação gráfica;
+* engines gráficas;
+* visualização avançada.
+
+O gráfico é tratado como:
+
+> uma cena contendo objetos hierárquicos.
+
+---
+
+## Exemplos
+
+| Sistema     | Linguagem  |
+| ----------- | ---------- |
+| D3.js       | JavaScript |
+| SVG         | Web        |
+| JavaFX      | Java       |
+| Qt Graphics | C++        |
+
+---
+
+# 7. Filosofia reativa
+
+Usada em dashboards e aplicações web.
+
+O gráfico reage automaticamente às mudanças dos dados.
+
+---
+
+## Exemplo: Shiny
+
+```r id="eqxkq0"
+renderPlot({
+  hist(dados())
+})
+```
+
+Quando os dados mudam:
+
+* o gráfico atualiza sozinho.
+
+---
+
+## Característica
+
+Visualização dinâmica e interativa.
+
+---
+
+# 8. Filosofia funcional
+
+Muito presente em sistemas modernos.
+
+O gráfico é tratado como:
+
+> resultado de transformações sucessivas.
+
+---
+
+## Exemplo com pipelines
+
+```r id="br2hsa"
+dados |>
+  ggplot(aes(x, y)) +
+  geom_point()
+```
+
+---
+
+## Ideia
+
+Cada etapa transforma os dados.
+
+---
+
+# 9. Filosofia DOM/data-binding
+
+Muito usada na web moderna.
+
+Os dados são ligados diretamente aos elementos gráficos.
+
+---
+
+## Exemplo: D3.js
+
+A ideia central:
+
+> “Data-driven documents”
+
+Cada elemento HTML/SVG:
+
+* recebe dados;
+* reage aos dados.
+
+---
+
+# 10. Filosofia estatística integrada
+
+Alguns sistemas entendem gráficos como:
+
+> extensões automáticas da análise estatística.
+
+---
+
+## Exemplo: lattice
+
+```r id="dqjlwm"
+xyplot(y ~ x | grupo)
+```
+
+A estrutura estatística já faz parte do gráfico.
+
+---
+
+## Muito usado em:
+
+* modelos estatísticos;
+* análise experimental;
+* gráficos condicionais.
+
+---
+
+# 11. Filosofia interativa
+
+Sistemas modernos incorporam:
+
+* zoom;
+* hover;
+* filtros;
+* brushing;
+* seleção.
+
+---
+
+## Exemplos
+
+| Sistema     | Característica     |
+| ----------- | ------------------ |
+| plotly      | Hover              |
+| highcharter | Dashboards         |
+| echarts4r   | Interação avançada |
+| Tableau     | BI visual          |
+| Power BI    | BI corporativo     |
+
+---
+
+# 12. Filosofia de dashboards
+
+Aqui o gráfico não é isolado.
+
+Ele faz parte de:
+
+* painéis;
+* indicadores;
+* monitoramento.
+
+---
+
+## Exemplos
+
+| Sistema       | Uso    |
+| ------------- | ------ |
+| flexdashboard | R      |
+| shiny         | R      |
+| Dash          | Python |
+| Tableau       | BI     |
+| Power BI      | BI     |
+
+---
+
+# 13. Filosofia low-level vs high-level
+
+---
+
+## Low-level
+
+Você controla tudo.
+
+Exemplo:
+
+* Base R;
+* grid;
+* D3.js.
+
+---
+
+## High-level
+
+O sistema automatiza.
+
+Exemplo:
+
+* ggplot2;
+* seaborn;
+* plotly express.
+
+---
+
+# 14. Filosofia da composição
+
+Sistemas modernos permitem:
+
+> combinar gráficos.
+
+---
+
+## Exemplos
+
+### patchwork
+
+```r id="0ycux8"
+g1 + g2
+```
+
+### cowplot
+
+Layouts avançados.
+
+---
+
+# 15. Filosofia da visualização narrativa
+
+Muito usada em jornalismo de dados.
+
+O gráfico é parte de:
+
+* narrativa;
+* storytelling;
+* explicação visual.
+
+---
+
+## Exemplos
+
+| Sistema     | Área       |
+| ----------- | ---------- |
+| Flourish    | Jornalismo |
+| Datawrapper | Mídia      |
+| Observable  | Narrativas |
+
+---
+
+# 16. Filosofia científica clássica
+
+Muito presente em:
+
+* MATLAB;
+* Mathematica;
+* Origin;
+* GNUPlot.
+
+O foco é:
+
+* precisão científica;
+* publicação técnica;
+* controle matemático.
+
+---
+
+# 17. Comparação geral
+
+| Filosofia        | Exemplo       |
+| ---------------- | ------------- |
+| Imperativa       | Base R        |
+| Declarativa      | ggplot2       |
+| Gramática        | ggplot2/Vega  |
+| Objetos gráficos | grid          |
+| Reativa          | Shiny         |
+| Interativa       | plotly        |
+| Dashboard        | flexdashboard |
+| Data-binding     | D3.js         |
+| Científica       | MATLAB        |
+
+---
+
+# 18. Onde o ggplot2 se encaixa?
+
+O `ggplot2` combina:
+
+* gramática dos gráficos;
+* sistema declarativo;
+* camadas;
+* mapeamento semântico;
+* objetos gráficos internos (`grid`).
+
+Por isso ele se tornou tão poderoso.
+
+---
+
+# 19. Tendência moderna
+
+Hoje os sistemas caminham para integrar:
+
+* gramática;
+* interatividade;
+* dashboards;
+* reatividade;
+* animação;
+* web.
+
+---
+
+# 20. Ideia fundamental
+
+A grande pergunta mudou ao longo do tempo:
+
+---
+
+## Antigamente
+
+> “Como desenhar gráficos?”
+
+---
+
+## Hoje
+
+> “Como representar relações entre dados visualmente?”
+
+Essa mudança conceitual é o que levou ao surgimento de sistemas como o `ggplot2`.

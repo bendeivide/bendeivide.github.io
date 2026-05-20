@@ -1,0 +1,1823 @@
+---
+title: "Linguagem R na Ciência de Dados"
+subtitle: "Aula 06 - Gráficos em R"
+title-slide-attributes:
+    data-background-image: cap.png
+
+author: "{{< fa user-tie >}} [Ben Dêivide](http://bendeivide.github.io) | {{< fa school >}} [UFSJ](https://www.ufsj.edu.br/)"
+bibliography: biblio.bib
+link-citations: true
+csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+lang: "pt-br"
+format: 
+  revealjs:
+    navigation-mode: vertical # Slides horizontais e verticais
+    theme: [dark, ben-slide.scss]
+    transition: slide
+    background-transition: fade
+#    transition-speed: fade
+    footer: "[LRCD](https://bendeivide.github.io/courses/lrcd/) | <https://bendeivide.github.io/>" # Rodapé
+    incremental: true # Transição de itens gradativos
+    controls: true # Inserindo as flechas de transicao
+    # Quadro negro
+    chalkboard: 
+      theme: whiteboard
+      #chalk-width: 5 # largura da caneta do quadro negro
+      boardmarker-width: 3 # largura da caneta do quadro branco
+    #multiplex: true # Efeito para quando eu mudar o slide, todos observarao mudando em seus browsers tbm
+    logo: ben.png
+#   slide-tone: true # som na transicao dos slides
+    slide-number: true # Inserindo numero nos slides
+#    show-slide-number: print
+    menu:
+      side: left # lado do menu
+      width: wide
+#     numbers: true # inserir numero nos itens do menu
+    pointer: # Plugin para o ponteiro
+      - key: q
+      - color: red
+      - pointerSize: 16
+      - alwaysVisible: false
+revealjs-plugins:
+  - pointer
+editor: source
+---
+
+# Filosofia de publicação (Selo DC) {background-image="cap02.png"}
+
+<a href="https://bendeivide.github.io/dc/" target="_blank" style="text-align: center;">
+
+<img src="SeloDC-branco.png" width = "400">
+
+</a>
+
+
+# Introdução {background-image="cap02.png"}
+
+## Objetivos da aula {background-image="cap02.png"}
+
+Ao final desta aula você deverá ser capaz de:
+
+- Construir gráficos usando Base R;
+- Personalizar gráficos;
+- Utilizar o pacote `ggplot2`;
+- Construir gráficos interativos;
+- Conhecer outros sistemas gráficos do R.
+
+
+# Sistemas Gráficos no R {background-image="cap02.png"}
+
+
+
+## Principais sistemas {background-image="cap02.png"}
+
+| Sistema | Característica |
+|---|---|
+| Base R | Simples e rápido |
+| ggplot2 | Gramática dos gráficos |
+| plotly | Interatividade |
+| lattice | Gráficos condicionais |
+| highcharter | Visual moderno |
+| leaflet | Mapas interativos |
+
+# Base R {background-image="cap02.png"}
+
+## O sistema gráfico nativo {background-image="cap02.png"}
+
+O Base R já acompanha a instalação do R.
+
+Principais funções:
+
+- `plot()`
+- `hist()`
+- `boxplot()`
+- `barplot()`
+- `pie()`
+
+# Gráfico de Dispersão {background-image="cap02.png"}
+
+## Exemplo básico {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 4, 5, 4, 6)
+
+plot(x, y)
+```
+
+# Personalizando gráficos {background-image="cap02.png"}
+
+## Ajustando elementos gráficos {background-image="cap02.png"}
+
+```{r}
+plot(
+  x, y,
+  main = "Gráfico de Dispersão",
+  xlab = "Variável X",
+  ylab = "Variável Y",
+  pch = 19,
+  col = "blue",
+  cex = 1.5
+)
+```
+
+# Principais argumentos {background-image="cap02.png"}
+
+## Argumentos gráficos importantes {background-image="cap02.png"}
+
+| Argumento | Função         |
+| --------- | -------------- |
+| `main`    | Título         |
+| `xlab`    | Nome do eixo X |
+| `ylab`    | Nome do eixo Y |
+| `col`     | Cor            |
+| `pch`     | Símbolo        |
+| `cex`     | Tamanho        |
+| `lwd`     | Espessura      |
+| `lty`     | Tipo de linha  |
+
+## Demais argumentos {background-image="cap02.png"}
+
+> Saber mais parâmetros gráficos: `` ?`graphical parameters` ``
+
+# Gráfico de Linhas {background-image="cap02.png"}
+
+## Série temporal simples {background-image="cap02.png"}
+
+```{r}
+x <- 1:10
+y <- x^2
+
+plot(x, y, type = "l", lwd = 2)
+```
+
+# Histogramas {background-image="cap02.png"}
+
+## Distribuição de frequências {background-image="cap02.png"}
+
+```{r}
+dados <- rnorm(100)
+
+hist(
+  dados,
+  col = "lightblue",
+  border = "white",
+  main = "Histograma",
+  xlab = "Valores"
+)
+```
+
+# Boxplot {background-image="cap02.png"}
+
+## Medidas resumo {background-image="cap02.png"}
+
+```{r}
+grupo <- rep(c("A", "B"), each = 50)
+valor <- rnorm(100)
+
+boxplot(valor ~ grupo,
+        col = c("orange", "lightgreen"))
+```
+
+# Barplot {background-image="cap02.png"}
+
+## Gráfico de barras {background-image="cap02.png"}
+
+```{r}
+valores <- c(10, 15, 8)
+
+barplot(
+  valores,
+  names.arg = c("A", "B", "C"),
+  col = "tomato"
+)
+```
+
+# Limitações do Base R {background-image="cap02.png"}
+
+## Algumas dificuldades {background-image="cap02.png"}
+
+* Sintaxe menos moderna;
+* Personalização extensa pode ficar complexa;
+* Menor integração com pipelines;
+* Interatividade limitada.
+
+
+# ggplot2 {background-image="cap02.png"}
+
+## Gramática dos gráficos {background-image="cap02.png"}
+
+O `ggplot2` é um dos pacotes mais importantes do R.
+
+Instalação:
+
+```{r eval=FALSE}
+install.packages("ggplot2")
+```
+
+Carregamento:
+
+```{r}
+library(ggplot2)
+```
+
+# Estrutura do ggplot2 {background-image="cap02.png"}
+
+## Estrutura básica {background-image="cap02.png"}
+
+```{r eval=FALSE}
+ggplot(dados, aes()) +
+  geometria()
+```
+
+Componentes:
+
+* Dados;
+* Estética (`aes()`);
+* Geometrias (`geom_*()`);
+* Temas.
+
+
+# Dispersão com ggplot2 {background-image="cap02.png"}
+
+## geom_point() {background-image="cap02.png"}
+
+```{r}
+dados <- data.frame(
+  x = 1:10,
+  y = c(2, 5, 4, 6, 8, 7, 9, 10, 12, 11)
+)
+
+ggplot(dados, aes(x, y)) +
+  geom_point(size = 3, color = "blue")
+```
+
+
+# Adicionando linhas {background-image="cap02.png"}
+
+## geom_line() {background-image="cap02.png"}
+
+```{r}
+ggplot(dados, aes(x, y)) +
+  geom_point(size = 3) +
+  geom_line(linewidth = 1)
+```
+
+# Histogramas no ggplot2 {background-image="cap02.png"}
+
+## geom_histogram() {background-image="cap02.png"}
+
+```{r}
+ggplot(data.frame(x = rnorm(1000)), aes(x)) +
+  geom_histogram(
+    bins = 20,
+    fill = "steelblue",
+    color = "white"
+  )
+```
+
+# Boxplot com ggplot2 {background-image="cap02.png"}
+
+## geom_boxplot() {background-image="cap02.png"}
+
+```{r}
+dados2 <- data.frame(
+  grupo = rep(c("A", "B"), each = 50),
+  valor = rnorm(100)
+)
+
+ggplot(dados2, aes(grupo, valor, fill = grupo)) +
+  geom_boxplot()
+```
+ 
+# Temas {background-image="cap02.png"}
+
+## Melhorando o visual {background-image="cap02.png"}
+
+```{r}
+ggplot(dados, aes(x, y)) +
+  geom_point(size = 3) +
+  theme_minimal()
+```
+
+
+# Outros temas {background-image="cap02.png"}
+
+## Temas disponíveis {background-image="cap02.png"}
+
+| Tema           | Função            |
+| -------------- | ----------------- |
+| Minimalista    | `theme_minimal()` |
+| Clássico       | `theme_classic()` |
+| Escuro         | `theme_dark()`    |
+| Preto e branco | `theme_bw()`      |
+
+# Facetas {background-image="cap02.png"}
+
+## Dividindo gráficos {background-image="cap02.png"}
+
+```{r}
+ggplot(dados2, aes(grupo, valor)) +
+  geom_boxplot() +
+  facet_wrap(~grupo)
+```
+
+# plotly {background-image="cap02.png"}
+
+## Gráficos interativos {background-image="cap02.png"}
+
+Instalação:
+
+```{r eval=FALSE, echo = TRUE}
+install.packages("plotly")
+```
+
+# Exemplo plotly {background-image="cap02.png"}
+
+## Interatividade {background-image="cap02.png"}
+
+```{r}
+#| echo: true
+#| fig-align: center
+library(plotly)
+
+plot_ly(
+  x = c(1, 2, 3, 4),
+  y = c(10, 15, 13, 20),
+  type = "scatter",
+  mode = "lines+markers")
+```
+
+
+# ggplot2 + plotly {background-image="cap02.png"}
+
+## Tornando gráficos interativos {background-image="cap02.png"}
+
+```{r}
+g <- ggplot(dados, aes(x, y)) +
+  geom_point(size = 3)
+
+ggplotly(g)
+```
+
+# Outros Pacotes {background-image="cap02.png"}
+
+## Ecossistema gráfico {background-image="cap02.png"}
+
+### lattice {background-image="cap02.png"}
+
+```{r eval=FALSE}
+library(lattice)
+xyplot(y ~ x, data = dados)
+```
+
+### highcharter {background-image="cap02.png"}
+
+```{r eval=FALSE}
+library(highcharter)
+```
+
+### leaflet {background-image="cap02.png"}
+
+```{r eval=FALSE}
+library(leaflet)
+```
+
+
+# Exportando gráficos {background-image="cap02.png"}
+
+## Base R {background-image="cap02.png"}
+
+```{r eval=FALSE}
+png("grafico.png")
+plot(x, y)
+dev.off()
+```
+
+## ggplot2 {background-image="cap02.png"}
+
+```{r eval=FALSE}
+ggsave("grafico.png")
+```
+
+# Comparação {background-image="cap02.png"}
+
+## Sistemas gráficos {background-image="cap02.png"}
+
+| Sistema | Vantagem   | Desvantagem          |
+| ------- | ---------- | -------------------- |
+| Base R  | Simples    | Menos elegante       |
+| ggplot2 | Flexível   | Curva de aprendizado |
+| plotly  | Interativo | Mais pesado          |
+| lattice | Painéis    | Menos popular        |
+
+# Aplicações {background-image="cap02.png"}
+
+## Onde os gráficos são utilizados? {background-image="cap02.png"}
+
+* Estatística;
+* Engenharia;
+* Ciência de dados;
+* Machine learning;
+* Controle estatístico;
+* Dashboards;
+* Relatórios técnicos.
+
+# Exercícios {background-image="cap02.png"}
+
+## Prática {background-image="cap02.png"}
+
+1. Construir um histograma;
+2. Construir um boxplot;
+3. Criar um gráfico no ggplot2;
+4. Tornar o gráfico interativo;
+5. Alterar temas gráficos.
+
+# Conclusão {background-image="cap02.png"}
+
+## Resumo {background-image="cap02.png"}
+
+Nesta aula vimos:
+
+* Base R;
+* ggplot2;
+* plotly;
+* Sistemas gráficos modernos;
+* Exportação de gráficos.
+
+# Introdução ao `highcharter`
+
+O pacote highcharter é uma interface do R para a biblioteca JavaScript Highcharts.
+
+Ele permite criar:
+
+* gráficos modernos;
+* interativos;
+* dashboards;
+* visualizações profissionais;
+* gráficos animados.
+
+---
+
+# 1. Instalação
+
+```r id="1l6dyy"
+install.packages("highcharter")
+```
+
+---
+
+# 2. Carregando o pacote
+
+```r id="wjlwm1"
+library(highcharter)
+```
+
+---
+
+# 3. Estrutura básica
+
+O `highcharter` trabalha com:
+
+```r id="4jlwm2"
+highchart()
+```
+
+e depois adicionamos componentes.
+
+---
+
+# 4. Primeiro gráfico
+
+## Série simples
+
+```r id="3yjg1f"
+library(highcharter)
+
+highchart() |>
+
+  hc_add_series(
+    data = c(1, 3, 2, 5)
+  )
+```
+
+---
+
+# 5. Definindo o tipo gráfico
+
+## Linha
+
+```r id="jlwm3t"
+highchart() |>
+
+  hc_add_series(
+    data = c(1, 3, 2, 5),
+    type = "line"
+  )
+```
+
+---
+
+## Barras
+
+```r id="jlwm4t"
+highchart() |>
+
+  hc_add_series(
+    data = c(1, 3, 2, 5),
+    type = "column"
+  )
+```
+
+---
+
+## Área
+
+```r id="jlwm5t"
+highchart() |>
+
+  hc_add_series(
+    data = c(1, 3, 2, 5),
+    type = "area"
+  )
+```
+
+---
+
+# 6. Adicionando título
+
+```r id="jlwm6t"
+highchart() |>
+
+  hc_title(
+    text = "Produção Mensal"
+  ) |>
+
+  hc_add_series(
+    data = c(1, 3, 2, 5),
+    type = "line"
+  )
+```
+
+---
+
+# 7. Personalizando eixos
+
+```r id="jlwm7t"
+highchart() |>
+
+  hc_title(text = "Produção") |>
+
+  hc_xAxis(
+    title = list(text = "Meses")
+  ) |>
+
+  hc_yAxis(
+    title = list(text = "Quantidade")
+  ) |>
+
+  hc_add_series(
+    data = c(2, 5, 8, 10),
+    type = "line"
+  )
+```
+
+---
+
+# 8. Adicionando categorias
+
+```r id="jlwm8t"
+meses <- c("Jan", "Fev", "Mar", "Abr")
+
+highchart() |>
+
+  hc_xAxis(
+    categories = meses
+  ) |>
+
+  hc_add_series(
+    data = c(10, 12, 8, 15),
+    type = "column"
+  )
+```
+
+---
+
+# 9. Múltiplas séries
+
+## Comparando grupos
+
+```r id="jlwm9t"
+highchart() |>
+
+  hc_xAxis(
+    categories = c("Jan", "Fev", "Mar", "Abr")
+  ) |>
+
+  hc_add_series(
+    name = "Produto A",
+    data = c(5, 8, 6, 9),
+    type = "line"
+  ) |>
+
+  hc_add_series(
+    name = "Produto B",
+    data = c(4, 7, 10, 12),
+    type = "line"
+  )
+```
+
+---
+
+# 10. Gráfico de dispersão
+
+```r id="jlwm10t"
+dados <- data.frame(
+  x = 1:10,
+  y = c(2, 5, 4, 6, 8, 7, 9, 10, 12, 11)
+)
+
+highchart() |>
+
+  hc_add_series(
+    data = list_parse2(dados),
+    type = "scatter",
+    hcaes(x = x, y = y)
+  )
+```
+
+---
+
+# 11. Entendendo `hcaes()`
+
+O `hcaes()` funciona parecido com:
+
+```r id="jlwm11t"
+aes()
+```
+
+do `ggplot2`.
+
+Ele faz o mapeamento:
+
+| Variável | Representação |
+| -------- | ------------- |
+| `x`      | eixo X        |
+| `y`      | eixo Y        |
+| `group`  | agrupamento   |
+| `color`  | cores         |
+
+---
+
+# 12. Usando `list_parse2()`
+
+O Highcharts trabalha internamente com JavaScript.
+
+A função:
+
+```r id="jlwm12t"
+list_parse2()
+```
+
+converte `data.frame` do R para formato compatível com JavaScript.
+
+---
+
+# 13. Gráfico de pizza
+
+```r id="jlwm13t"
+highchart() |>
+
+  hc_add_series(
+    data = list(
+      list(name = "A", y = 30),
+      list(name = "B", y = 45),
+      list(name = "C", y = 25)
+    ),
+    type = "pie"
+  )
+```
+
+---
+
+# 14. Tooltips
+
+Tooltips são informações exibidas ao passar o mouse.
+
+```r id="jlwm14t"
+highchart() |>
+
+  hc_add_series(
+    data = c(2, 5, 8, 10),
+    type = "line"
+  ) |>
+
+  hc_tooltip(
+    pointFormat = "Valor: {point.y}"
+  )
+```
+
+---
+
+# 15. Alterando cores
+
+```r id="jlwm15t"
+highchart() |>
+
+  hc_add_series(
+    data = c(3, 5, 7, 9),
+    type = "column",
+    color = "steelblue"
+  )
+```
+
+---
+
+# 16. Temas
+
+O `highcharter` possui temas prontos.
+
+## Tema escuro
+
+```r id="jlwm16t"
+library(highcharter)
+
+hc_theme_set(hc_theme_darkunica())
+
+highchart() |>
+
+  hc_add_series(
+    data = c(1, 4, 3, 5)
+  )
+```
+
+---
+
+# 17. Gráficos usando pipe
+
+O `highcharter` foi pensado para trabalhar com:
+
+```r id="jlwm17t"
+|>
+```
+
+ou:
+
+```r id="jlwm18t"
+%>%
+```
+
+Isso cria um fluxo de construção.
+
+---
+
+# 18. Usando dados reais
+
+## Dataset `iris`
+
+```r id="jlwm19t"
+highchart() |>
+
+  hc_add_series(
+    data = list_parse2(iris),
+    type = "scatter",
+    hcaes(
+      x = Sepal.Length,
+      y = Sepal.Width
+    )
+  )
+```
+
+---
+
+# 19. Agrupando por categoria
+
+```r id="jlwm20t"
+library(dplyr)
+
+dados <- iris |>
+
+  group_by(Species) |>
+
+  summarise(
+    media = mean(Sepal.Length)
+  )
+
+highchart() |>
+
+  hc_xAxis(
+    categories = dados$Species
+  ) |>
+
+  hc_add_series(
+    data = dados$media,
+    type = "column"
+  )
+```
+
+---
+
+# 20. Gráficos interativos avançados
+
+O `highcharter` permite:
+
+* zoom;
+* hover;
+* exportação;
+* animações;
+* seleção;
+* navegação;
+* dashboards.
+
+---
+
+# 21. Habilitando zoom
+
+```r id="jlwm21t"
+highchart() |>
+
+  hc_chart(
+    zoomType = "x"
+  ) |>
+
+  hc_add_series(
+    data = c(2, 5, 8, 10, 12, 15),
+    type = "line"
+  )
+```
+
+---
+
+# 22. Exportando gráficos
+
+O Highcharts possui menu embutido para:
+
+* PNG;
+* JPEG;
+* SVG;
+* PDF.
+
+Automaticamente disponível nos gráficos.
+
+---
+
+# 23. Comparação com ggplot2
+
+| ggplot2                | highcharter             |
+| ---------------------- | ----------------------- |
+| Estático               | Interativo              |
+| Gramática dos gráficos | API JavaScript          |
+| Publicações            | Dashboards              |
+| Forte em estatística   | Forte em visual moderno |
+
+---
+
+# 24. Quando usar highcharter?
+
+O `highcharter` é excelente para:
+
+* dashboards;
+* aplicações Shiny;
+* relatórios interativos;
+* visualização empresarial;
+* monitoramento;
+* séries temporais.
+
+---
+
+# 25. Exemplo completo
+
+```r id="jlwm22t"
+library(highcharter)
+
+meses <- c("Jan", "Fev", "Mar", "Abr", "Mai")
+
+vendas <- c(10, 14, 9, 18, 22)
+
+highchart() |>
+
+  hc_chart(type = "line") |>
+
+  hc_title(
+    text = "Vendas Mensais"
+  ) |>
+
+  hc_subtitle(
+    text = "Empresa XYZ"
+  ) |>
+
+  hc_xAxis(
+    categories = meses,
+    title = list(text = "Meses")
+  ) |>
+
+  hc_yAxis(
+    title = list(text = "Vendas")
+  ) |>
+
+  hc_add_series(
+    name = "2025",
+    data = vendas
+  ) |>
+
+  hc_tooltip(
+    pointFormat = "Vendas: {point.y}"
+  )
+```
+
+---
+
+# 26. Filosofia do highcharter
+
+O `highcharter` segue uma filosofia diferente do `ggplot2`.
+
+---
+
+## ggplot2
+
+Baseado em:
+
+* gramática dos gráficos;
+* camadas;
+* mapeamento semântico.
+
+---
+
+## highcharter
+
+Baseado em:
+
+* componentes JavaScript;
+* configuração incremental;
+* interatividade;
+* visualização web.
+
+---
+
+# 27. Resumo
+
+O `highcharter` é:
+
+* moderno;
+* interativo;
+* elegante;
+* excelente para dashboards;
+* integrado ao ecossistema web.
+
+Ele complementa muito bem o `ggplot2`, especialmente em aplicações interativas.
+
+O pacote leaflet é uma interface do R para a biblioteca JavaScript Leaflet, muito utilizada para:
+
+* mapas interativos;
+* georreferenciamento;
+* dashboards;
+* visualização espacial;
+* aplicações web.
+
+A grande vantagem do `leaflet` é que ele permite:
+
+* zoom;
+* navegação;
+* marcadores;
+* camadas;
+* polígonos;
+* mapas temáticos;
+* integração com Shiny.
+
+---
+
+# 1. Instalação
+
+```r id="m7q1fs"
+install.packages("leaflet")
+```
+
+---
+
+# 2. Carregando o pacote
+
+```r id="z3d1yt"
+library(leaflet)
+```
+
+---
+
+# 3. Primeiro mapa
+
+## Mapa mundial básico
+
+```r id="pjttwt"
+library(leaflet)
+
+leaflet() |>
+
+  addTiles()
+```
+
+---
+
+# O que aconteceu?
+
+## `leaflet()`
+
+Cria o objeto mapa.
+
+---
+
+## `addTiles()`
+
+Adiciona o mapa base.
+
+Por padrão usa:
+
+* OpenStreetMap.
+
+---
+
+# 4. Filosofia do leaflet
+
+O `leaflet` trabalha em camadas.
+
+A lógica é:
+
+| Camada     | Função        |
+| ---------- | ------------- |
+| mapa base  | ruas/satélite |
+| marcadores | pontos        |
+| polígonos  | regiões       |
+| linhas     | trajetos      |
+| controles  | menus         |
+| popups     | informações   |
+
+---
+
+# 5. Exemplo: Minas Gerais e Ouro Branco
+
+Agora vamos criar um exemplo mais interessante.
+
+A ideia será:
+
+* centralizar o mapa em Minas Gerais;
+* destacar a cidade de Ouro Branco;
+* adicionar marcador;
+* adicionar popup;
+* desenhar círculo de destaque.
+
+---
+
+# 6. Coordenadas aproximadas
+
+## Ouro Branco (MG)
+
+Latitude:
+
+```r id="e8s8lp"
+-20.5236
+```
+
+Longitude:
+
+```r id="7w7p2o"
+-43.6949
+```
+
+---
+
+# 7. Código completo
+
+```r id="4vl1mu"
+library(leaflet)
+
+# Coordenadas de Ouro Branco
+lat <- -20.5236
+lon <- -43.6949
+
+leaflet() |>
+
+  # Mapa base
+  addTiles() |>
+
+  # Centralizando em Minas Gerais
+  setView(
+    lng = lon,
+    lat = lat,
+    zoom = 8
+  ) |>
+
+  # Adicionando marcador
+  addMarkers(
+    lng = lon,
+    lat = lat,
+
+    # Texto popup
+    popup = "Ouro Branco - Minas Gerais"
+  ) |>
+
+  # Adicionando círculo de destaque
+  addCircles(
+    lng = lon,
+    lat = lat,
+
+    radius = 15000,
+
+    color = "red",
+
+    fillOpacity = 0.3
+  )
+```
+
+---
+
+# 8. Explicando cada parte
+
+---
+
+## `setView()`
+
+Define:
+
+* posição inicial;
+* nível de zoom.
+
+```r id="jlwm2m"
+setView(
+  lng,
+  lat,
+  zoom
+)
+```
+
+---
+
+## `addMarkers()`
+
+Adiciona um marcador clicável.
+
+```r id="jlwm3m"
+addMarkers(
+  lng,
+  lat
+)
+```
+
+---
+
+## `popup`
+
+Texto exibido ao clicar.
+
+```r id="jlwm4m"
+popup = "Ouro Branco - MG"
+```
+
+---
+
+## `addCircles()`
+
+Adiciona círculo geográfico.
+
+Muito útil para:
+
+* regiões;
+* áreas de influência;
+* destaque visual.
+
+---
+
+# 9. Melhorando o visual
+
+## Usando mapa satélite
+
+```r id="jlwm5m"
+library(leaflet)
+
+leaflet() |>
+
+  addProviderTiles(
+    providers$Esri.WorldImagery
+  ) |>
+
+  setView(
+    lng = -43.6949,
+    lat = -20.5236,
+    zoom = 10
+  ) |>
+
+  addMarkers(
+    lng = -43.6949,
+    lat = -20.5236,
+    popup = "Ouro Branco"
+  )
+```
+
+---
+
+# 10. Outros tipos de mapas
+
+O `leaflet` suporta vários provedores.
+
+---
+
+## OpenStreetMap
+
+```r id="jlwm6m"
+addTiles()
+```
+
+---
+
+## Satélite
+
+```r id="jlwm7m"
+addProviderTiles(
+  providers$Esri.WorldImagery
+)
+```
+
+---
+
+## CartoDB
+
+```r id="jlwm8m"
+addProviderTiles(
+  providers$CartoDB.Positron
+)
+```
+
+---
+
+## Terreno
+
+```r id="jlwm9m"
+addProviderTiles(
+  providers$Stamen.Terrain
+)
+```
+
+---
+
+# 11. Adicionando rótulos
+
+```r id="jlwm10m"
+leaflet() |>
+
+  addTiles() |>
+
+  addMarkers(
+    lng = -43.6949,
+    lat = -20.5236,
+
+    label = "Ouro Branco"
+  )
+```
+
+---
+
+# 12. Adicionando múltiplas cidades
+
+```r id="jlwm11m"
+cidades <- data.frame(
+  nome = c("Ouro Branco", "Belo Horizonte"),
+  lat = c(-20.5236, -19.9167),
+  lon = c(-43.6949, -43.9345)
+)
+
+leaflet(cidades) |>
+
+  addTiles() |>
+
+  addMarkers(
+    lng = ~lon,
+    lat = ~lat,
+    popup = ~nome
+  )
+```
+
+---
+
+# 13. Fórmulas com `~`
+
+No `leaflet`, o símbolo:
+
+```r id="jlwm12m"
+~
+```
+
+significa:
+
+> “use a coluna da base de dados”.
+
+---
+
+Exemplo:
+
+```r id="jlwm13m"
+lng = ~lon
+```
+
+equivale a:
+
+> usar a coluna `lon`.
+
+---
+
+# 14. Adicionando polígonos
+
+Podemos desenhar regiões inteiras.
+
+Exemplo:
+
+* estados;
+* municípios;
+* áreas experimentais.
+
+Isso normalmente usa:
+
+* shapefiles;
+* `sf`;
+* `terra`.
+
+---
+
+# 15. Exemplo com `sf`
+
+```r id="jlwm14m"
+library(sf)
+library(leaflet)
+```
+
+O pacote `sf` trabalha com:
+
+* objetos espaciais;
+* mapas vetoriais;
+* geometrias.
+
+---
+
+# 16. Aplicações do leaflet
+
+O `leaflet` é muito usado em:
+
+| Área          | Aplicação              |
+| ------------- | ---------------------- |
+| Engenharia    | Obras e infraestrutura |
+| Agricultura   | Talhões                |
+| Estatística   | Dados espaciais        |
+| Meio ambiente | Monitoramento          |
+| Mineração     | Áreas de exploração    |
+| Transporte    | Rotas                  |
+| Epidemiologia | Distribuição espacial  |
+
+---
+
+# 17. Leaflet + Shiny
+
+O `leaflet` integra perfeitamente com:
+
+Shiny
+
+permitindo:
+
+* mapas reativos;
+* filtros;
+* dashboards geográficos.
+
+---
+
+# 18. Filosofia do leaflet
+
+O `leaflet` segue uma filosofia:
+
+> baseada em camadas espaciais interativas.
+
+Cada comando adiciona algo ao mapa:
+
+| Função          | Camada    |
+| --------------- | --------- |
+| `addTiles()`    | mapa base |
+| `addMarkers()`  | pontos    |
+| `addPolygons()` | regiões   |
+| `addCircles()`  | áreas     |
+| `addLegend()`   | legenda   |
+
+---
+
+# 19. Exemplo final completo
+
+```r id="jlwm15m"
+library(leaflet)
+
+# Coordenadas de Ouro Branco
+lat <- -20.5236
+lon <- -43.6949
+
+leaflet() |>
+
+  # Mapa base
+  addProviderTiles(
+    providers$CartoDB.Positron
+  ) |>
+
+  # Centralização
+  setView(
+    lng = lon,
+    lat = lat,
+    zoom = 9
+  ) |>
+
+  # Marcador
+  addMarkers(
+    lng = lon,
+    lat = lat,
+
+    popup = paste(
+      "<b>Ouro Branco</b><br>",
+      "Estado de Minas Gerais"
+    )
+  ) |>
+
+  # Círculo de destaque
+  addCircles(
+    lng = lon,
+    lat = lat,
+
+    radius = 20000,
+
+    color = "red",
+
+    fillColor = "red",
+
+    fillOpacity = 0.2
+  )
+```
+
+---
+
+# 20. Resultado esperado
+
+O mapa exibirá:
+
+* Minas Gerais;
+* marcador em Ouro Branco;
+* círculo vermelho destacando a cidade;
+* zoom interativo;
+* navegação livre;
+* popup clicável.
+
+Sim, e essa é provavelmente a abordagem mais interessante para ensino moderno de R, porque integra:
+
+* APIs;
+* web scraping estruturado;
+* JSON;
+* ciência de dados;
+* visualização espacial.
+
+O IBGE possui várias APIs públicas.
+
+Além disso, o Brasil também possui:
+
+* API SIDRA;
+* API localidades;
+* API agregados;
+* API malhas territoriais.
+
+---
+
+# 1. APIs mais importantes do IBGE
+
+| API         | Função                   |
+| ----------- | ------------------------ |
+| SIDRA       | indicadores estatísticos |
+| Localidades | estados e municípios     |
+| Agregados   | pesquisas                |
+| Malhas      | mapas territoriais       |
+
+---
+
+# 2. Melhor pacote no R
+
+O pacote mais usado para acessar o SIDRA é:
+
+sidrar
+
+---
+
+# 3. Instalação
+
+```r id="7jqn0m"
+install.packages(c(
+  "sidrar",
+  "geobr",
+  "ggplot2",
+  "dplyr"
+))
+```
+
+---
+
+# 4. Carregando pacotes
+
+```r id="jlwm1z"
+library(sidrar)
+library(geobr)
+library(ggplot2)
+library(dplyr)
+```
+
+---
+
+# 5. Ideia do processo
+
+A lógica será:
+
+| Etapa    | Função       |
+| -------- | ------------ |
+| API IBGE | obter dados  |
+| geobr    | obter mapa   |
+| join     | unir dados   |
+| ggplot2  | colorir mapa |
+
+---
+
+# 6. Obtendo dados do SIDRA
+
+Exemplo: população dos estados.
+
+```r id="jlwm2z"
+dados_ibge <- get_sidra(
+  api = "/t/6579/n1/all/v/9324/p/latest"
+)
+```
+
+---
+
+# Explicando
+
+| Parte      | Significado          |
+| ---------- | -------------------- |
+| `t/6579`   | tabela               |
+| `n1/all`   | todos os estados     |
+| `v/9324`   | variável             |
+| `p/latest` | período mais recente |
+
+---
+
+# 7. Visualizando dados
+
+```r id="jlwm3z"
+head(dados_ibge)
+```
+
+Você verá algo como:
+
+| Unidade da Federação | Valor |
+| -------------------- | ----- |
+| Minas Gerais         | ...   |
+| São Paulo            | ...   |
+
+---
+
+# 8. Baixando mapa dos estados
+
+```r id="jlwm4z"
+estados <- read_state()
+```
+
+---
+
+# 9. Ajustando nomes
+
+```r id="jlwm5z"
+dados_ibge <- dados_ibge |>
+
+  rename(
+    name_state = `Unidade da Federação`,
+    valor = Valor
+  )
+```
+
+---
+
+# 10. Juntando dados e mapa
+
+```r id="jlwm6z"
+mapa <- estados |>
+
+  left_join(
+    dados_ibge,
+    by = "name_state"
+  )
+```
+
+---
+
+# 11. Construindo mapa temático
+
+```r id="jlwm7z"
+ggplot(mapa) +
+
+  geom_sf(
+    aes(fill = valor),
+    color = "white"
+  ) +
+
+  scale_fill_viridis_c() +
+
+  labs(
+    title = "Indicador do IBGE",
+    fill = "Valor"
+  ) +
+
+  theme_minimal()
+```
+
+---
+
+# 12. E o IDH?
+
+Aqui existe um detalhe importante:
+
+> O IDH não é produzido diretamente pelo IBGE.
+
+Ele normalmente vem de:
+
+* PNUD;
+* Atlas Brasil;
+* IPEA.
+
+---
+
+# 13. API do Atlas Brasil
+
+O Atlas Brasil possui dados públicos.
+
+Mas muitas vezes é mais simples:
+
+* baixar CSV;
+* integrar no R.
+
+---
+
+# 14. Exemplo mais realista para ensino
+
+Você pode usar indicadores IBGE como:
+
+| Indicador    | Aplicação    |
+| ------------ | ------------ |
+| população    | demografia   |
+| PIB          | economia     |
+| renda        | desigualdade |
+| escolaridade | educação     |
+| saneamento   | engenharia   |
+| mortalidade  | saúde        |
+
+---
+
+# 15. Exemplo: PIB por estado
+
+```r id="jlwm8z"
+pib <- get_sidra(
+  api = "/t/5938/n1/all/v/37/p/latest"
+)
+```
+
+---
+
+# 16. Fazendo mapa do PIB
+
+```r id="jlwm9z"
+pib <- pib |>
+
+  rename(
+    name_state = `Unidade da Federação`,
+    PIB = Valor
+  )
+
+mapa_pib <- estados |>
+
+  left_join(
+    pib,
+    by = "name_state"
+  )
+
+ggplot(mapa_pib) +
+
+  geom_sf(
+    aes(fill = PIB)
+  ) +
+
+  scale_fill_viridis_c() +
+
+  theme_void()
+```
+
+---
+
+# 17. Vantagem didática enorme
+
+Esse fluxo ensina:
+
+* APIs;
+* JSON;
+* manipulação;
+* joins;
+* visualização;
+* mapas;
+* ciência de dados aplicada.
+
+---
+
+# 18. Mapas interativos com leaflet
+
+Depois você pode usar:
+
+```r id="jlwm10z"
+leaflet()
+```
+
+para:
+
+* hover;
+* zoom;
+* popup.
+
+---
+
+# 19. Exemplo interativo
+
+```r id="jlwm11z"
+library(leaflet)
+
+leaflet(mapa_pib) |>
+
+  addTiles() |>
+
+  addPolygons(
+    fillColor = ~colorNumeric(
+      "viridis",
+      PIB
+    )(PIB),
+
+    color = "white",
+
+    popup = ~paste(
+      name_state,
+      "<br>PIB:",
+      PIB
+    )
+  )
+```
+
+---
+
+# 20. Melhor estrutura para aula
+
+Uma aula excelente seria:
+
+| Etapa | Tema              |
+| ----- | ----------------- |
+| 1     | APIs públicas     |
+| 2     | SIDRA/IBGE        |
+| 3     | Dados espaciais   |
+| 4     | geobr             |
+| 5     | ggplot2           |
+| 6     | leaflet           |
+| 7     | mapas interativos |
+
+---
+
+# 21. Pacotes ideais para essa aula
+
+| Pacote   | Função         |
+| -------- | -------------- |
+| sidrar   | API SIDRA      |
+| httr2    | APIs modernas  |
+| jsonlite | JSON           |
+| geobr    | mapas Brasil   |
+| sf       | espacial       |
+| ggplot2  | visualização   |
+| leaflet  | interatividade |
+
+---
+
+# 22. Conceito importante
+
+Esse tipo de visualização é chamado de:
+
+> Cartografia temática
+
+ou:
+
+> mapa coroplético
+
+onde:
+
+* dados numéricos;
+* controlam cores geográficas.
+
+
+ 
+# Obrigado! {background-image="cap02.png"}
+
+## Perguntas? {background-image="cap02.png"}
