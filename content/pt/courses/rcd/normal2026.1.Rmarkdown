@@ -293,7 +293,7 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
 - <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
-- <i class="fas fa-calendar-check"></i> 19/04/2026 <i class="fas fa-clock"></i> 17h
+- <i class="fas fa-calendar-check"></i> 19/05/2026 <i class="fas fa-clock"></i> 17h
 
 ---
 
@@ -303,11 +303,149 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 >
 > **DATA DA ENTREGA:** 
 >
->  - Até às 17h do dia 10/04/2026 
+>  - Até às 17h do dia 19/05/2026 
 
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 3 -->
+
+{{< spoiler text="🗒 Relatório 4 (Clique!) - 26/05/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 26/05/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Tema: Análise Socioeconômica dos Estados Brasileiros com Visualização de Dados no R
+>
+> - Uma empresa de consultoria em análise de dados foi contratada para produzir um relatório visual sobre indicadores socioeconômicos dos estados brasileiros utilizando a linguagem R.
+> 
+> O objetivo é transformar dados públicos em informações gráficas claras e informativas para auxiliar gestores, pesquisadores e tomadores de decisão.
+> 
+> Vocês atuarão como cientistas de dados responsáveis pela construção desse relatório.
+>
+> Assim, cada aluno deverá:
+>
+> - obter dados públicos;
+> - organizar os dados no R;
+> - produzir gráficos informativos;
+> - interpretar os resultados;
+> - apresentar conclusões baseadas nas visualizações.
+> 
+> Tema dos Dados
+>
+> Cada aluno poderá escolher UM dos temas abaixo:
+> - População dos estados brasileiros;
+> - PIB estadual;
+> - Taxa de escolarização;
+> - Taxa de analfabetismo;
+> - Rendimento médio;
+> - Mortalidade infantil;
+> - Saneamento básico;
+> - Indicadores ambientais;
+> - Produção agrícola;
+> - Dados climáticos;
+> - Outro tema aprovado pelo professor.
+>
+> Requisitos Obrigatórios
+> 
+> O relatório deverá conter:
+>
+> - Introdução
+> 
+> Explique:
+>
+> - o problema estudado;
+> - a importância dos dados;
+> - o objetivo da análise.
+>
+> - Obtenção dos Dados
+>
+> Os dados devem ser obtidos de fontes públicas, como:
+>
+> - SIDRA/IBGE;
+> - Atlas Brasil;
+> - IPEA;
+> - dados.gov.br;
+> - outras APIs públicas.
+>
+> Explique:
+>
+> - de onde os dados foram obtidos;
+> - quais pacotes foram utilizados.
+>
+> - Tratamento dos Dados
+>
+> Mostrar no relatório:
+>
+> - limpeza dos dados;
+> - organização;
+> - junções (`join`);
+> - transformação de variáveis;
+> - criação de novas variáveis.
+>
+> - Construção dos Gráficos
+> 
+> O trabalho deverá conter pelo menos:
+>
+> | Tipo de gráfico | Obrigatório |
+> |---|---|
+> | Barras | Sim |
+> | Dispersão | Sim |
+> | Histograma | Sim |
+> | Boxplot | Sim |
+> | Mapa temático | Sim |
+> | Gráfico interativo | Sim |
+
+> - Comparação entre Sistemas Gráficos
+>
+> O relatório deverá conter:
+>
+> - pelo menos um gráfico em Base R;
+> - um gráfico equivalente em `ggplot2`;
+> - uma comparação entre os dois sistemas.
+>
+> Discutir:
+>
+> - vantagens;
+> - desvantagens;
+> - facilidade de uso;
+> - estética;
+> - flexibilidade.
+>
+> - Interpretação dos Resultados
+>
+> Não basta apenas produzir gráficos.
+>
+> O aluno deverá interpretar:
+>
+> - padrões observados;
+> - tendências;
+> - diferenças regionais;
+> - possíveis causas;
+> - limitações dos dados.
+>
+> - Conclusão
+>
+> Responder:
+>
+> - O que foi aprendido?
+> - Quais gráficos foram mais úteis?
+> - Quais dificuldades surgiram?
+>
+> - Como o R contribui para análise de dados?
+>
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17h do dia 26/05/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 4 -->
 
 
 
