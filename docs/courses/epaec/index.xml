@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Thu, 21 May 2026 05:50:34 -0300</pubDate>
+      <pubDate>Tue, 26 May 2026 07:27:40 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -488,12 +488,50 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Lista de Exercicio 5 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;📌 Lista de Exercício 6 (Clique!) - 26/05/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via portal didático&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: Escrito a mão (Digitalizado)&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 26/05/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; Até às 13h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Considere as duas populações que estudamos em distribuições especiais de probabilidade, $ Y\sim Binomial(n,~p) $ e  $ X\sim Poisson(\lambda) $. Considerando os parâmetros $ p $ e $ \lambda $, respectivamente, estime-os por meio do método dos momentos ( $ \hat{p}_1 $ e $ \hat{\lambda}_1 $ ) e da máxima verossimilhança ( $ \hat{p}_2 $ e $ \hat{\lambda}_2 $ ), e apresente qual dos dois é o melhor estimador para representar os parâmetros desconhecidos, usando as características de viés, eficiência e consistência.&lt;/p&gt;
+&lt;p&gt;Em um segundo momento, use as condições de simulação:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Semente
+set.seed(10)
+
+# Amostra de tamanho 100 (Populacao Binomial)
+rbinom(100, size = 10, prob = 0.4)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   [1] 4 3 4 5 2 3 3 3 4 4 5 4 2 4 3 4 2 3 4 6 6 4 5 3 4 5 6 3 5 3 4 2 3 6 4 5 5
+##  [38] 7 5 4 3 3 1 5 3 2 1 4 2 5 3 6 3 4 3 4 4 4 4 4 1 2 4 4 5 5 4 4 2 3 2 4 5 4
+##  [75] 1 4 3 7 3 3 6 4 3 4 3 1 5 3 2 3 4 5 4 4 3 6 3 4 5 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Amostra de tamanho 100 (Populacao Binomial)
+rpois(100, lambda = 2.5)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   [1] 2 0 2 2 5 4 6 2 3 2 4 4 1 2 3 5 1 4 3 3 1 2 2 3 1 1 3 2 4 5 4 0 4 1 2 1 3
+##  [38] 4 1 3 3 1 0 5 1 4 2 3 0 5 4 1 0 1 2 1 1 2 5 1 3 2 2 2 4 1 4 6 3 3 3 4 3 3
+##  [75] 7 2 1 1 2 2 2 1 2 2 2 3 4 3 3 1 0 0 0 2 4 2 3 1 4 3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Baseado nas amostras obtidas via simulação, de acordo com o código anterior, use os estimadores (método dos momentos e máxima verossimilhança) para obter as probabilidades  $ P(Y = 2) $  e $ P(X = 2) $, e compare com os valores exatos da probabilidade usando os parâmetros da simulação no código.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;29/05/2026, até às 13:00&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Lista de Exercicio 6 --&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; &lt;strong&gt;Relatórios&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div style=&#34;margin-left: 30px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;📝 Como os relatórios serão avaliados?&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;Seguindo as seguintes indagações:&lt;/p&gt;
 &lt;center&gt;
@@ -610,7 +648,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/details&gt;
 &lt;/div&gt;
 &lt;div style=&#34;margin-left: 40px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;🗒 Relatório 1 (Clique!) - 31/03/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -630,7 +668,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 1 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;🗒 Relatório 2 (Clique!) - 03/04/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -649,7 +687,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 2 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;🗒 Relatório 3 (Clique!) - 14/04/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -678,7 +716,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 3 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;🗒 Relatório 4 (Clique!) - 12/05/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -695,7 +733,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 4 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;🗒 Relatório 5 (Clique!) - 19/05/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -711,7 +749,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 5 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;🗒 Relatório 6 (Clique!) - 26/05/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -748,7 +786,7 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;experimentos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-flask&#34;&gt;&lt;/i&gt; Experimentos para as aulas práticas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
   &lt;summary&gt;⚗️ Experimento da catapulta&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;O experimento da catapulta consiste no lançamento de uma bolinha por meio de um dispositivo mecânico, variando-se condições como a posição do elástico, posição da bolinha e o ângulo de disparo. O objetivo é analisar como essas variáveis podem ou não influenciar a distância percorrida pela bolinha.&lt;/p&gt;
 &lt;p&gt;Ou melhor,&lt;/p&gt;
@@ -923,7 +961,7 @@ $$
 &lt;/div&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt; 
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação do
@@ -1028,7 +1066,7 @@ target=&#34;_blank&#34;&gt;Técnicas de Somatório&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R e Aula Prática 01&lt;/p&gt;
@@ -1104,7 +1142,7 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim de Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II) e &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap02.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 2&lt;/a&gt;&lt;/p&gt;
@@ -1200,7 +1238,7 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Aula Prática 02 - Cap. 01 e 02&lt;/p&gt;
@@ -1249,7 +1287,7 @@ target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; &lt;a href=&#34;#relatorio%22&#34;&gt;Como desenvolver Relatórios Web&lt;/a&gt;&lt;/p&gt;
@@ -1311,7 +1349,7 @@ Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/a&gt;&lt;/li&g
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -1373,7 +1411,7 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 06 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
   &lt;summary&gt;🎓 Aula 7&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -1447,7 +1485,7 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 07 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
   &lt;summary&gt;🎓 Aula 8&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -1534,11 +1572,11 @@ href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
 target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-49&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-50&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-50&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-51&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;

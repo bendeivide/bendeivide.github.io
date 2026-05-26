@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-05-21 05:50:34"
+date: "2026-05-26 07:27:40"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -425,6 +425,56 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 {{</spoiler>}}
 
 <!-- Fim da Lista de Exercicio 5 -->
+
+{{< spoiler text="📌 Lista de Exercício 6 (Clique!) - 26/05/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via portal didático
+- <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
+- <i class="fas fa-calendar-check"></i> 26/05/2026 <i class="fas fa-clock"></i> Até às 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Considere as duas populações que estudamos em distribuições especiais de probabilidade, $ Y\sim Binomial(n,~p) $ e  $ X\sim Poisson(\lambda) $. Considerando os parâmetros $ p $ e $ \lambda $, respectivamente, estime-os por meio do método dos momentos ( $ \hat{p}_1 $ e $ \hat{\lambda}_1 $ ) e da máxima verossimilhança ( $ \hat{p}_2 $ e $ \hat{\lambda}_2 $ ), e apresente qual dos dois é o melhor estimador para representar os parâmetros desconhecidos, usando as características de viés, eficiência e consistência.
+>
+> Em um segundo momento, use as condições de simulação:
+>
+> 
+> ``` r
+> # Semente
+> set.seed(10)
+> 
+> # Amostra de tamanho 100 (Populacao Binomial)
+> rbinom(100, size = 10, prob = 0.4)
+> ```
+> 
+> ```
+> ##   [1] 4 3 4 5 2 3 3 3 4 4 5 4 2 4 3 4 2 3 4 6 6 4 5 3 4 5 6 3 5 3 4 2 3 6 4 5 5
+> ##  [38] 7 5 4 3 3 1 5 3 2 1 4 2 5 3 6 3 4 3 4 4 4 4 4 1 2 4 4 5 5 4 4 2 3 2 4 5 4
+> ##  [75] 1 4 3 7 3 3 6 4 3 4 3 1 5 3 2 3 4 5 4 4 3 6 3 4 5 1
+> ```
+> 
+> ``` r
+> # Amostra de tamanho 100 (Populacao Binomial)
+> rpois(100, lambda = 2.5)
+> ```
+> 
+> ```
+> ##   [1] 2 0 2 2 5 4 6 2 3 2 4 4 1 2 3 5 1 4 3 3 1 2 2 3 1 1 3 2 4 5 4 0 4 1 2 1 3
+> ##  [38] 4 1 3 3 1 0 5 1 4 2 3 0 5 4 1 0 1 2 1 1 2 5 1 3 2 2 2 4 1 4 6 3 3 3 4 3 3
+> ##  [75] 7 2 1 1 2 2 2 1 2 2 2 3 4 3 3 1 0 0 0 2 4 2 3 1 4 3
+> ```
+>
+> Baseado nas amostras obtidas via simulação, de acordo com o código anterior, use os estimadores (método dos momentos e máxima verossimilhança) para obter as probabilidades  $ P(Y = 2) $  e $ P(X = 2) $, e compare com os valores exatos da probabilidade usando os parâmetros da simulação no código. 
+>
+> **DATA DA ENTREGA:** 
+>
+>  - 29/05/2026, até às 13:00
+
+{{</spoiler>}}
+
+<!-- Fim da Lista de Exercicio 6 -->
 
 
 </div>

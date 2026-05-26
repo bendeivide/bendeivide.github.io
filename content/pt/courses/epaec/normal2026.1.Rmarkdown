@@ -495,6 +495,41 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 <!-- Fim da Lista de Exercicio 5 -->
 
+{{< spoiler text="📌 Lista de Exercício 6 (Clique!) - 26/05/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via portal didático
+- <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
+- <i class="fas fa-calendar-check"></i> 26/05/2026 <i class="fas fa-clock"></i> Até às 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Considere as duas populações que estudamos em distribuições especiais de probabilidade, $ Y\sim Binomial(n,~p) $ e  $ X\sim Poisson(\lambda) $. Considerando os parâmetros $ p $ e $ \lambda $, respectivamente, estime-os por meio do método dos momentos ( $ \hat{p}_1 $ e $ \hat{\lambda}_1 $ ) e da máxima verossimilhança ( $ \hat{p}_2 $ e $ \hat{\lambda}_2 $ ), e apresente qual dos dois é o melhor estimador para representar os parâmetros desconhecidos, usando as características de viés, eficiência e consistência.
+>
+> Em um segundo momento, use as condições de simulação:
+>
+> ```{r}
+> # Semente
+> set.seed(10)
+>
+> # Amostra de tamanho 100 (Populacao Binomial)
+> rbinom(100, size = 10, prob = 0.4)
+>
+> # Amostra de tamanho 100 (Populacao Binomial)
+> rpois(100, lambda = 2.5)
+> ```
+>
+> Baseado nas amostras obtidas via simulação, de acordo com o código anterior, use os estimadores (método dos momentos e máxima verossimilhança) para obter as probabilidades  $ P(Y = 2) $  e $ P(X = 2) $, e compare com os valores exatos da probabilidade usando os parâmetros da simulação no código. 
+>
+> **DATA DA ENTREGA:** 
+>
+>  - 29/05/2026, até às 13:00
+
+{{</spoiler>}}
+
+<!-- Fim da Lista de Exercicio 6 -->
+
 
 </div>
 
