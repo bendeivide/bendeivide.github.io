@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-05-26 07:27:40"
+date: "2026-05-26 16:41:02"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -426,11 +426,11 @@ Acesse o [link](/courses/epaec/modrel/index.html)
 
 <!-- Fim da Lista de Exercicio 5 -->
 
-{{< spoiler text="📌 Lista de Exercício 6 (Clique!) - 26/05/2026">}}
+{{< spoiler text="📌 Lista de Exercício 6 (Clique!) - 29/05/2026">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via portal didático
 - <i class="fas fa-file"></i> Formato: Escrito a mão (Digitalizado)
-- <i class="fas fa-calendar-check"></i> 26/05/2026 <i class="fas fa-clock"></i> Até às 13h
+- <i class="fas fa-calendar-check"></i> 29/05/2026 <i class="fas fa-clock"></i> Até às 13h
 
 ---
 
