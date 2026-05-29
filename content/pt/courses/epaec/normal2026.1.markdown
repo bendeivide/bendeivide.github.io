@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-05-26 16:41:02"
+date: "2026-05-29 07:16:07"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -687,6 +687,45 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 6 -->
+
+{{< spoiler text="🗒 Relatório 7 (Clique!) - 05/06/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: HTML
+- <i class="fas fa-calendar-check"></i> 05/06/2026 <i class="fas fa-clock"></i> 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>  
+> **OBJETIVO**: **(I) Deduzir estimadores intervalares para as seguintes situações:**
+>
+> 1) Baseado em uma população normal, deduza um estimador intervalar para a média populacional, considerando a variância populacional conhecida;
+> 2) Baseado em uma população normal, deduza um estimador intervalar para a variância populacional;
+> 3) Baseado em duas populações normais e independentes, deduza:
+>
+>    **a.** um estimador intervalar para a diferença entre as médias populacionais, considerando que as variâncias são homocedáticas;
+>    **b.** um estimador intervalar para a diferença entre as médias populacionais, considerando que as variâncias são heterocedáticas;
+>    **c.** um estimador intervalar para a razão entre as variâncias populacionais;
+>
+> 4) Baseado em uma população bernoulli:
+>
+>    **a.** como poderíamos determinar um estimador (aproximado) para o parâmetro $ p $ ? 
+>    **b.** Qual o fundamento que se baseou na construção do intervalo aproximado. 
+>    **c.** Estude também um forma de desenvolver um intervalo exato para $ p $.
+>
+> **(II) Como esses estimadores se relacionam com o assunto estudado no relatório 6?**
+>
+> **(III) Aplique esses resultados em R, simulando amostras das populações e desenvolvendo códigos para o cálculo desses estimadores intervalares.**
+>
+> **(IV) Busque aplicações de como esses estimadores podem ser utilizados em sua área de atuação.**
+
+> **DATA DA ENTREGA: 05/06/2026, 13h (Todos os cursos!!!)**
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 7 -->
+
 
 
 </div>
