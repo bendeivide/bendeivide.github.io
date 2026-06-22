@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/teoria-de-decisao/</link>
       <atom:link href="http://bendeivide.github.io/category/teoria-de-decisao/index.xml" rel="self" type="application/rss+xml" />
     <description>Teoria de Decisão</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 29 May 2026 07:16:07 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 22 Jun 2026 06:59:27 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Teoria de Decisão</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Fri, 29 May 2026 07:16:07 -0300</pubDate>
+      <pubDate>Mon, 22 Jun 2026 06:59:27 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -824,10 +824,217 @@ rpois(100, lambda = 2.5)
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 7 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 8 (Clique!) - 29/06/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: HTML&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 29/06/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OBJETIVO&lt;/strong&gt;: &lt;strong&gt;Comparar dois grupos de populações&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Vamos considerar que os dados da distância da bolinha arremessada pela catapulta seja modelada pela distribuição normal. Assim, teremos o interesse, entre duas combinações dentre as quatro variáveis no experimento, de comparar a combinação que em média garanta a maior distância percorrida pela bolinha com a catapulta. Para cada grupo, teremos quatro combinações diferentes, descritas a seguir.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ENGENHARIA MECATRÔNICA&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;João Pedro e Maria Eduarda&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinações:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV), $ B^{+} $ (Nível VI)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Grupo 2:&lt;/em&gt; $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV), $ B^{+} $ (Nível IV)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2)&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;22/06/2026, das 13h às 14h&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Variável resposta: Distância da bolinha arremessada pela catapulta&lt;/li&gt;
+&lt;li&gt;Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Igor e Lucas&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinações:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível II), $ B^{+} $ (Nível III)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Grupo 2:&lt;/em&gt; $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível II), $ B^{+} $ (Nível VII)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2)&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;22/06/2026, das 14h às 15h&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Variável resposta: Distância da bolinha arremessada pela catapulta&lt;/li&gt;
+&lt;li&gt;Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Wadmilson&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinações:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível I), $ A^{+} $ (Nível III), $ A^{-} $ (Nível III), $ B^{+} $ (Nível V)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Grupo 2:&lt;/em&gt; $ O^{-} $ (Nível I), $ A^{+} $ (Nível III), $ A^{-} $ (Nível III), $ B^{+} $ (Nível IX)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2)&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;23/06/2026, das 13h às 14h&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Variável resposta: Distância da bolinha arremessada pela catapulta&lt;/li&gt;
+&lt;li&gt;Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Marcos e Daniel&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinações:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível I), $ B^{+} $ (Nível VI)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Grupo 2:&lt;/em&gt; $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível I), $ B^{+} $ (Nível II)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2)&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;23/06/2026, das 14h às 15h&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Variável resposta: Distância da bolinha arremessada pela catapulta&lt;/li&gt;
+&lt;li&gt;Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ENGENHARIA DE TELECOMUNICAÇÕES&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Todos os alunos&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinações:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV), $ B^{+} $ (Nível V)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Grupo 2:&lt;/em&gt; $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV), $ B^{+} $ (Nível VII)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2)&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;22/06/2026, das 16h às 17h&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Variável resposta: Distância da bolinha arremessada pela catapulta&lt;/li&gt;
+&lt;li&gt;Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Perguntas que devem ser respondidas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Quais as hipóteses complementares?&lt;/li&gt;
+&lt;li&gt;Qual o nível de significância?&lt;/li&gt;
+&lt;li&gt;Entre as combinações estudadas ($ O^{-} $, $ A^{+} $, $ A^{-} $, $ B^{+} $), qual a que proporciona maior distância arremessada pela bolinha?&lt;/li&gt;
+&lt;li&gt;Quais melhorias poderia ser realizadas ao experimento?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;Lembrem-se de seguir as recomendações em &amp;ldquo;📝 Como os relatórios serão avaliados?&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA: 29/06/2026, 13h (Todos os cursos!!!)&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 8 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 9 (Clique!) - 03/07/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: HTML&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 03/07/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OBJETIVO&lt;/strong&gt;: &lt;strong&gt;Estudo de regressão linear&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Desejamos estudar a distância que a bolinha percorre arremessada pela catapulta em função do ângulo, níveis da variável $ B^+ &lt;code&gt;\(. Para cada grupo de alunos, teremos uma combinação específica para as variáveis (\)&lt;/code&gt; O^{-} $, $ A^{+} $, $ A^{-} $), sendo que o interesse será verificar se é possível informar qual o ângulo que leva a maior distância percorrida pela bolinha no experimento da catapulta.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ENGENHARIA MECATRÔNICA&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;João Pedro e Maria Eduarda&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinação:&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV)&lt;/li&gt;
+&lt;li&gt;Para o estudo de regressão linear, usar:
+&lt;ul&gt;
+&lt;li&gt;$ X $: Variável $ B^+ $ (9 ângulos)&lt;/li&gt;
+&lt;li&gt;$ Y $: Distância do arremesso da bolinha em metros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;22/06/2026, das 13h às 14h&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Igor e Lucas&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinação:&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível II)&lt;/li&gt;
+&lt;li&gt;Para o estudo de regressão linear, usar:
+&lt;ul&gt;
+&lt;li&gt;$ X $: Variável $ B^+ $ (9 ângulos)&lt;/li&gt;
+&lt;li&gt;$ Y $: Distância do arremesso da bolinha em metros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;22/06/2026, das 14h às 15h&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Wadmilson&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinação:&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível I), $ A^{+} $ (Nível III), $ A^{-} $ (Nível III)&lt;/li&gt;
+&lt;li&gt;Para o estudo de regressão linear, usar:
+&lt;ul&gt;
+&lt;li&gt;$ X $: Variável $ B^+ $ (9 ângulos)&lt;/li&gt;
+&lt;li&gt;$ Y $: Distância do arremesso da bolinha em metros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;23/06/2026, das 13h às 14h&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Marcos e Daniel&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinação:&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível I)&lt;/li&gt;
+&lt;li&gt;Para o estudo de regressão linear, usar:
+&lt;ul&gt;
+&lt;li&gt;$ X $: Variável $ B^+ $ (9 ângulos)&lt;/li&gt;
+&lt;li&gt;$ Y $: Distância do arremesso da bolinha em metros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;23/06/2026, das 14h às 15h&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;ENGENHARIA DE TELECOMUNICAÇÕES&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Todos os alunos&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Combinação:&lt;em&gt;Grupo 1:&lt;/em&gt; $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV)&lt;/li&gt;
+&lt;li&gt;Para o estudo de regressão linear, usar:
+&lt;ul&gt;
+&lt;li&gt;$ X $: Variável $ B^+ $ (9 ângulos)&lt;/li&gt;
+&lt;li&gt;$ Y $: Distância do arremesso da bolinha em metros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.&lt;/li&gt;
+&lt;li&gt;Data para coleta dos dados: &lt;strong&gt;22/06/2026, das 16h às 17h&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Perguntas que devem ser respondidas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Existe associação entre a distância percorrida pela bolinha e o ângulo escolhido na variável $ B^+ $ na catapulta?&lt;/li&gt;
+&lt;li&gt;Qual a forma dessa associação (modelo de regressão)?&lt;/li&gt;
+&lt;li&gt;Qual o nível de significância?&lt;/li&gt;
+&lt;li&gt;Quais hipóteses são estudadas para verificar se o modelo de regressão é significativo?&lt;/li&gt;
+&lt;li&gt;O modelo de regressão encontrado é adequado para explicar a relação entre as variáveis envolvidas?&lt;/li&gt;
+&lt;li&gt;Apresente o gráfico de regressão linear&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;Lembrem-se de seguir as recomendações em &amp;ldquo;📝 Como os relatórios serão avaliados?&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA: 03/07/2026, 13h (Todos os cursos!!!)&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 9 --&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;experimentos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-flask&#34;&gt;&lt;/i&gt; Experimentos para as aulas práticas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
   &lt;summary&gt;⚗️ Experimento da catapulta&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;O experimento da catapulta consiste no lançamento de uma bolinha por meio de um dispositivo mecânico, variando-se condições como a posição do elástico, posição da bolinha e o ângulo de disparo. O objetivo é analisar como essas variáveis podem ou não influenciar a distância percorrida pela bolinha.&lt;/p&gt;
 &lt;p&gt;Ou melhor,&lt;/p&gt;
@@ -1002,7 +1209,7 @@ $$
 &lt;/div&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt; 
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação do
@@ -1107,7 +1314,7 @@ target=&#34;_blank&#34;&gt;Técnicas de Somatório&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R e Aula Prática 01&lt;/p&gt;
@@ -1183,7 +1390,7 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim de Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II) e &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap02.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 2&lt;/a&gt;&lt;/p&gt;
@@ -1279,7 +1486,7 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Aula Prática 02 - Cap. 01 e 02&lt;/p&gt;
@@ -1328,7 +1535,7 @@ target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; &lt;a href=&#34;#relatorio%22&#34;&gt;Como desenvolver Relatórios Web&lt;/a&gt;&lt;/p&gt;
@@ -1390,7 +1597,7 @@ Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/a&gt;&lt;/li&g
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -1452,7 +1659,7 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 06 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
   &lt;summary&gt;🎓 Aula 7&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -1526,7 +1733,7 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 07 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
   &lt;summary&gt;🎓 Aula 8&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -1613,11 +1820,11 @@ href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
 target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-51&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-53&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-52&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-54&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;

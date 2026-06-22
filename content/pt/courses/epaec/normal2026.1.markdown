@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-05-29 07:16:07"
+date: "2026-06-22 06:59:27"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -726,7 +726,156 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 
 <!-- Fim do Relatorio 7 -->
 
+{{< spoiler text="🗒 Relatório 8 (Clique!) - 29/06/2026 ">}}
 
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: HTML
+- <i class="fas fa-calendar-check"></i> 29/06/2026 <i class="fas fa-clock"></i> 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>  
+> **OBJETIVO**: **Comparar dois grupos de populações**
+>
+> Vamos considerar que os dados da distância da bolinha arremessada pela catapulta seja modelada pela distribuição normal. Assim, teremos o interesse, entre duas combinações dentre as quatro variáveis no experimento, de comparar a combinação que em média garanta a maior distância percorrida pela bolinha com a catapulta. Para cada grupo, teremos quatro combinações diferentes, descritas a seguir.
+>
+> **ENGENHARIA MECATRÔNICA**
+>
+> - **João Pedro e Maria Eduarda**
+>   - Combinações:
+>     - *Grupo 1:* $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV), $ B^{+} $ (Nível VI)
+>     - *Grupo 2:* $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV), $ B^{+} $ (Nível IV)
+>   - Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2) 
+>   - Data para coleta dos dados: **22/06/2026, das 13h às 14h**
+>   - Variável resposta: Distância da bolinha arremessada pela catapulta
+>   - Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.
+>
+> - **Igor e Lucas**
+>   - Combinações:
+>     - *Grupo 1:* $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível II), $ B^{+} $ (Nível III)
+>     - *Grupo 2:* $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível II), $ B^{+} $ (Nível VII)
+>   - Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2) 
+>   - Data para coleta dos dados: **22/06/2026, das 14h às 15h**
+>   - Variável resposta: Distância da bolinha arremessada pela catapulta
+>   - Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.
+>
+> - **Wadmilson**
+>   - Combinações:
+>     - *Grupo 1:* $ O^{-} $ (Nível I), $ A^{+} $ (Nível III), $ A^{-} $ (Nível III), $ B^{+} $ (Nível V)
+>     - *Grupo 2:* $ O^{-} $ (Nível I), $ A^{+} $ (Nível III), $ A^{-} $ (Nível III), $ B^{+} $ (Nível IX)
+>   - Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2) 
+>   - Data para coleta dos dados: **23/06/2026, das 13h às 14h**
+>   - Variável resposta: Distância da bolinha arremessada pela catapulta
+>   - Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.
+>
+> - **Marcos e Daniel**
+>   - Combinações:
+>     - *Grupo 1:* $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível I), $ B^{+} $ (Nível VI)
+>     - *Grupo 2:* $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível I), $ B^{+} $ (Nível II)
+>   - Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2) 
+>   - Data para coleta dos dados: **23/06/2026, das 14h às 15h**
+>   - Variável resposta: Distância da bolinha arremessada pela catapulta
+>   - Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.
+>
+> **ENGENHARIA DE TELECOMUNICAÇÕES**
+>
+> - **Todos os alunos**
+>   - Combinações:
+>     - *Grupo 1:* $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV), $ B^{+} $ (Nível V)
+>     - *Grupo 2:* $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV), $ B^{+} $ (Nível VII)
+>   - Amostra: $ n_1 = 15 $ (Grupo 1) e $ n_2 = 15 $ (Grupo 2) 
+>   - Data para coleta dos dados: **22/06/2026, das 16h às 17h**
+>   - Variável resposta: Distância da bolinha arremessada pela catapulta
+>   - Hipótese a ser testada: $ H_0:~\mu_1 = \mu_2 $.
+>
+> Perguntas que devem ser respondidas:
+>   1) Quais as hipóteses complementares?
+>   2) Qual o nível de significância?
+>   3) Entre as combinações estudadas ($ O^{-} $, $ A^{+} $, $ A^{-} $, $ B^{+} $), qual a que proporciona maior distância arremessada pela bolinha?
+>   4) Quais melhorias poderia ser realizadas ao experimento?
+> 
+> *Lembrem-se de seguir as recomendações em "📝 Como os relatórios serão avaliados?".*
+>
+> **DATA DA ENTREGA: 29/06/2026, 13h (Todos os cursos!!!)**
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 8 -->
+
+{{< spoiler text="🗒 Relatório 9 (Clique!) - 03/07/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: HTML
+- <i class="fas fa-calendar-check"></i> 03/07/2026 <i class="fas fa-clock"></i> 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>  
+> **OBJETIVO**: **Estudo de regressão linear**
+>
+> Desejamos estudar a distância que a bolinha percorre arremessada pela catapulta em função do ângulo, níveis da variável $ B^+ `\(. Para cada grupo de alunos, teremos uma combinação específica para as variáveis (\)` O^{-} $, $ A^{+} $, $ A^{-} $), sendo que o interesse será verificar se é possível informar qual o ângulo que leva a maior distância percorrida pela bolinha no experimento da catapulta.
+>
+> **ENGENHARIA MECATRÔNICA**
+>
+> - **João Pedro e Maria Eduarda**
+>   - Combinação:*Grupo 1:* $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV)
+>   - Para o estudo de regressão linear, usar:
+>     - $ X $: Variável $ B^+ $ (9 ângulos)
+>     - $ Y $: Distância do arremesso da bolinha em metros
+>   - Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.
+>   - Data para coleta dos dados: **22/06/2026, das 13h às 14h**
+>
+> - **Igor e Lucas**
+>   - Combinação:*Grupo 1:* $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível II)
+>   - Para o estudo de regressão linear, usar:
+>     - $ X $: Variável $ B^+ $ (9 ângulos)
+>     - $ Y $: Distância do arremesso da bolinha em metros
+>   - Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.
+>   - Data para coleta dos dados: **22/06/2026, das 14h às 15h**
+>
+> - **Wadmilson**
+>   - Combinação:*Grupo 1:* $ O^{-} $ (Nível I), $ A^{+} $ (Nível III), $ A^{-} $ (Nível III)
+>   - Para o estudo de regressão linear, usar:
+>     - $ X $: Variável $ B^+ $ (9 ângulos)
+>     - $ Y $: Distância do arremesso da bolinha em metros
+>   - Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.
+>   - Data para coleta dos dados: **23/06/2026, das 13h às 14h**
+>
+> - **Marcos e Daniel**
+>   - Combinação:*Grupo 1:* $ O^{-} $ (Nível II), $ A^{+} $ (Nível I), $ A^{-} $ (Nível I)
+>   - Para o estudo de regressão linear, usar:
+>     - $ X $: Variável $ B^+ $ (9 ângulos)
+>     - $ Y $: Distância do arremesso da bolinha em metros
+>   - Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.
+>   - Data para coleta dos dados: **23/06/2026, das 14h às 15h**
+>
+> **ENGENHARIA DE TELECOMUNICAÇÕES**
+>
+> - **Todos os alunos**
+>   - Combinação:*Grupo 1:* $ O^{-} $ (Nível III), $ A^{+} $ (Nível III), $ A^{-} $ (Nível IV)
+>   - Para o estudo de regressão linear, usar:
+>     - $ X $: Variável $ B^+ $ (9 ângulos)
+>     - $ Y $: Distância do arremesso da bolinha em metros
+>   - Amostra: $ n = 18 $, isto significa que cada combinação deve ser repetida duas vezes. Por exemplo, para o ângulo 100º faz-se dois arremessos, assim como para os demais ângulos. Como temos nove ângulos, teremos um total de 18 arremessos.
+>   - Data para coleta dos dados: **22/06/2026, das 16h às 17h**
+>
+> Perguntas que devem ser respondidas:
+>   1) Existe associação entre a distância percorrida pela bolinha e o ângulo escolhido na variável $ B^+ $ na catapulta?
+>   2) Qual a forma dessa associação (modelo de regressão)?
+>   3) Qual o nível de significância?
+>   4) Quais hipóteses são estudadas para verificar se o modelo de regressão é significativo?
+>   5) O modelo de regressão encontrado é adequado para explicar a relação entre as variáveis envolvidas?
+>   6) Apresente o gráfico de regressão linear
+> 
+> *Lembrem-se de seguir as recomendações em "📝 Como os relatórios serão avaliados?".*
+>
+> **DATA DA ENTREGA: 03/07/2026, 13h (Todos os cursos!!!)**
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 9 -->
 
 </div>
 
