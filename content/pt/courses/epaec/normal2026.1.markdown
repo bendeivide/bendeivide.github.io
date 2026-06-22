@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.1
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-06-22 06:59:27"
+date: "2026-06-22 07:13:58"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -815,7 +815,7 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 >  
 > **OBJETIVO**: **Estudo de regressão linear**
 >
-> Desejamos estudar a distância que a bolinha percorre arremessada pela catapulta em função do ângulo, níveis da variável $ B^+ `\(. Para cada grupo de alunos, teremos uma combinação específica para as variáveis (\)` O^{-} $, $ A^{+} $, $ A^{-} $), sendo que o interesse será verificar se é possível informar qual o ângulo que leva a maior distância percorrida pela bolinha no experimento da catapulta.
+> Desejamos estudar a distância que a bolinha percorre arremessada pela catapulta em função do ângulo, níveis da variável $ B^+ $ . Para cada grupo de alunos, teremos uma combinação específica para as variáveis ( $ O^{-} $, $ A^{+} $, $ A^{-} $ ), sendo que o interesse será verificar se é possível informar qual o ângulo que leva a maior distância percorrida pela bolinha no experimento da catapulta.
 >
 > **ENGENHARIA MECATRÔNICA**
 >

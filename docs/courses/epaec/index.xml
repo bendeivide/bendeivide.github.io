@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.1</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.1/</link>
-      <pubDate>Mon, 22 Jun 2026 06:59:27 -0300</pubDate>
+      <pubDate>Mon, 22 Jun 2026 07:13:58 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.1/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -940,7 +940,7 @@ rpois(100, lambda = 2.5)
 &lt;blockquote&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;OBJETIVO&lt;/strong&gt;: &lt;strong&gt;Estudo de regressão linear&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Desejamos estudar a distância que a bolinha percorre arremessada pela catapulta em função do ângulo, níveis da variável $ B^+ &lt;code&gt;\(. Para cada grupo de alunos, teremos uma combinação específica para as variáveis (\)&lt;/code&gt; O^{-} $, $ A^{+} $, $ A^{-} $), sendo que o interesse será verificar se é possível informar qual o ângulo que leva a maior distância percorrida pela bolinha no experimento da catapulta.&lt;/p&gt;
+&lt;p&gt;Desejamos estudar a distância que a bolinha percorre arremessada pela catapulta em função do ângulo, níveis da variável $ B^+ $ . Para cada grupo de alunos, teremos uma combinação específica para as variáveis ( $ O^{-} $, $ A^{+} $, $ A^{-} $ ), sendo que o interesse será verificar se é possível informar qual o ângulo que leva a maior distância percorrida pela bolinha no experimento da catapulta.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ENGENHARIA MECATRÔNICA&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
