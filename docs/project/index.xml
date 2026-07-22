@@ -5,12 +5,22 @@
     <link>http://bendeivide.github.io/project/</link>
       <atom:link href="http://bendeivide.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 14 Apr 2022 07:54:13 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 22 Jul 2026 06:57:56 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>http://bendeivide.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Acadêmico</title>
+      <link>http://bendeivide.github.io/project/academico/</link>
+      <pubDate>Wed, 22 Jul 2026 06:57:56 -0300</pubDate>
+      <guid>http://bendeivide.github.io/project/academico/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Projeto desenvolvido a auxiliar na produção dos textos de conclusão acadêmico, isto é, TCCs, dissertações e teses. O protótipo inicial está pensado na para a Universidade Federal de São João del Rei.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rapidinhas do R</title>

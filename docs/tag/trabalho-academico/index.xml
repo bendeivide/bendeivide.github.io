@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latex | Ben Dêivide</title>
-    <link>http://bendeivide.github.io/tag/latex/</link>
-      <atom:link href="http://bendeivide.github.io/tag/latex/index.xml" rel="self" type="application/rss+xml" />
-    <description>Latex</description>
+    <title>trabalho acadêmico | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/tag/trabalho-academico/</link>
+      <atom:link href="http://bendeivide.github.io/tag/trabalho-academico/index.xml" rel="self" type="application/rss+xml" />
+    <description>trabalho acadêmico</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 22 Jul 2026 06:57:56 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
-      <title>Latex</title>
-      <link>http://bendeivide.github.io/tag/latex/</link>
+      <title>trabalho acadêmico</title>
+      <link>http://bendeivide.github.io/tag/trabalho-academico/</link>
     </image>
     
     <item>
@@ -19,19 +19,6 @@
       <guid>http://bendeivide.github.io/project/academico/</guid>
       <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
 &lt;p&gt;Projeto desenvolvido a auxiliar na produção dos textos de conclusão acadêmico, isto é, TCCs, dissertações e teses. O protótipo inicial está pensado na para a Universidade Federal de São João del Rei.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>LaTeX: Um guia prático com aplicações na pesquisa e educação</title>
-      <link>http://bendeivide.github.io/talk/latex-um-guia-pratico-com-aplicacoes-na-pesquisa-e-educacao/</link>
-      <pubDate>Wed, 21 May 2025 19:00:00 -0300</pubDate>
-      <guid>http://bendeivide.github.io/talk/latex-um-guia-pratico-com-aplicacoes-na-pesquisa-e-educacao/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Clique no botão &lt;strong&gt;Slides&lt;/strong&gt; acima para visualizar o recurso de slides integrado.
-  &lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     

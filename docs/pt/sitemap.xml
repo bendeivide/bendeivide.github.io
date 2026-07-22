@@ -100,7 +100,9 @@
   <url>
     <loc>http://bendeivide.github.io/rc/palestras/palestra-moises/</loc><lastmod>2026-04-14T06:28:24-03:00</lastmod></url>
   <url>
-    <loc>http://bendeivide.github.io/</loc><lastmod>2026-06-22T07:13:58-03:00</lastmod><xhtml:link
+    <loc>http://bendeivide.github.io/project/academico/</loc><lastmod>2026-07-22T06:57:56-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/</loc><lastmod>2026-07-22T06:57:56-03:00</lastmod><xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://bendeivide.github.io/en/"
@@ -109,6 +111,32 @@
       hreflang="pt"
       href="http://bendeivide.github.io/"
     /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/latex/</loc><lastmod>2026-07-22T06:57:56-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/project/</loc><lastmod>2026-07-22T06:57:56-03:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/project/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/project/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-07-22T06:57:56-03:00</lastmod><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://bendeivide.github.io/en/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="http://bendeivide.github.io/tags/"
+    /></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/tex/</loc><lastmod>2026-07-22T06:57:56-03:00</lastmod></url>
+  <url>
+    <loc>http://bendeivide.github.io/tag/trabalho-academico/</loc><lastmod>2026-07-22T06:57:56-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/categories/</loc><lastmod>2026-06-22T07:13:58-03:00</lastmod><xhtml:link
       rel="alternate"
@@ -137,16 +165,6 @@
     <loc>http://bendeivide.github.io/category/inferencia-estatistica/</loc><lastmod>2026-06-22T07:13:58-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/probabilidade/</loc><lastmod>2026-06-22T07:13:58-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tags/</loc><lastmod>2026-06-22T07:13:58-03:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/tags/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/tags/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/category/teoria-de-decisao/</loc><lastmod>2026-06-22T07:13:58-03:00</lastmod></url>
   <url>
@@ -245,8 +263,6 @@
     <loc>http://bendeivide.github.io/category/curso/</loc><lastmod>2026-02-03T10:30:59-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/courses/rpack/</loc><lastmod>2026-02-03T10:30:59-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/tag/latex/</loc><lastmod>2026-02-03T10:30:59-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/category/pacote-r/</loc><lastmod>2026-02-03T10:30:59-03:00</lastmod></url>
   <url>
@@ -457,16 +473,6 @@
     <loc>http://bendeivide.github.io/tag/bookepaec/</loc><lastmod>2022-09-02T06:36:00-03:00</lastmod></url>
   <url>
     <loc>http://bendeivide.github.io/books/epaec/</loc><lastmod>2022-09-02T06:36:00-03:00</lastmod></url>
-  <url>
-    <loc>http://bendeivide.github.io/project/</loc><lastmod>2022-04-14T07:54:13-03:00</lastmod><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://bendeivide.github.io/en/project/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="http://bendeivide.github.io/project/"
-    /></url>
   <url>
     <loc>http://bendeivide.github.io/tag/rapidinhar/</loc><lastmod>2022-04-14T07:54:13-03:00</lastmod></url>
   <url>

@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/</link>
       <atom:link href="http://bendeivide.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ben Dêivide</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 22 Jun 2026 07:13:58 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 22 Jul 2026 06:57:56 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Ben Dêivide</title>
@@ -14305,6 +14305,16 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;h3 id=&#34;encerramento-e-geopolítica&#34;&gt;Encerramento e Geopolítica&lt;/h3&gt;
 &lt;p&gt;O palestrante conecta o passado ao presente, mencionando que os conflitos que ocorreram na &lt;strong&gt;Faixa de Gaza&lt;/strong&gt; (iniciada em 7 de outubro de 2023 até os dias atuais) são desdobramentos de um &amp;ldquo;novelo cármico&amp;rdquo; iniciado nos tempos de Javé e Moisés. Ele sugere que a única coisa que pode frear a estupidez humana atual seriam &lt;strong&gt;problemas ambientais graves&lt;/strong&gt; ou um &lt;strong&gt;evento extraterrestre&lt;/strong&gt;. A palestra termina reforçando que a humanidade precisa parar de esperar por salvadores externos e começar a construir sua própria dignidade.&lt;/p&gt;
 &lt;h2 id=&#34;aprofundamento&#34;&gt;Aprofundamento&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Acadêmico</title>
+      <link>http://bendeivide.github.io/project/academico/</link>
+      <pubDate>Wed, 22 Jul 2026 06:57:56 -0300</pubDate>
+      <guid>http://bendeivide.github.io/project/academico/</guid>
+      <description>&lt;h2 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h2&gt;
+&lt;p&gt;Projeto desenvolvido a auxiliar na produção dos textos de conclusão acadêmico, isto é, TCCs, dissertações e teses. O protótipo inicial está pensado na para a Universidade Federal de São João del Rei.&lt;/p&gt;
 </description>
     </item>
     
