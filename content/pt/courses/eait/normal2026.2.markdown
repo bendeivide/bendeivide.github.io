@@ -1,0 +1,722 @@
+---
+title: 📝 Ensino normal 2026.2
+summary: "Apresentaremos os fundamentos da estatística de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
+date: "2026-08-11 15:26:09"
+type: book
+weight: 1
+classes: ["blink-text"]
+params:
+  destaque: true
+categories: ["R", "Estatística", "Engenharia Civil", "Mestrado"]
+tags: ["Curso"]
+draft: false
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+{{< toc hide_on="xl" >}}
+
+## <i class="fas fa-chalkboard-teacher"></i> Apresentação {id="apresentacao" title="Clique aqui!"}
+
+Curso Estatística Aplicada a Inovações Tecnológicas (EAIT) oferecido no formato presencial pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba ([CAP](http://ufsj.edu.br/cap/)), Ouro Branco/MG.
+
+{{< icon name="clock" pack="fas" >}} 60h por semestre
+
+## <i class="fas fa-map"></i> Tópicos abordados {id="topicos" title="Clique aqui!"}
+
+Introdução ao R; extração, transformação e carregamento de dados; estatística descritiva; inferência estatística; introdução a planejamento de experimentos; análise gráfica exploratória; gráficos interativos; relatórios estatísticos e dinâmicos; *dashboards*; apresentações; páginas Web estatísticas e dinâmicas.
+
+
+
+## <i class="fa fa-globe"></i> Onde? {id="onde" title="Clique aqui!"}
+
+-   O curso é ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
+    Paraopeba ([CAP](http://ufsj.edu.br/cap/)), para os alunos do Metrado Porfissional em Inovações Tecniológicas;
+-   Aulas gravadas e postadas em:
+    -   canal: <http://youtube.com/bendeivide>
+-   Aulas presenciais:
+    -  segunda-feira (18:45 - 20:50, sala 25 - Prédio da Eng. Civil);
+    -  segunda-feira (17:00 - 17:45, sala 25 - Prédio da Eng. Civil);
+    
+## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
+
+-   Calendário
+
+<img src="/pt/courses/eait/normal2026.2_files/figure-html/unnamed-chunk-1-1.png" alt="" width="110%" />
+
+-   [Cronograma de
+    aulas](https://docs.google.com/document/d/18RSHFo7yTpUfzzd3wwah896D9s1bXTzFRbwMMv8Qe1s/edit?usp=sharing):
+    {{< gdocs src="https://docs.google.com/document/d/18RSHFo7yTpUfzzd3wwah896D9s1bXTzFRbwMMv8Qe1s/edit?usp=sharing" >}}
+
+## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
+
+- [*Link* (Só clicar!!!)](https://chat.whatsapp.com/BVzgpXGYEYVDwJvkIDDqA4)
+
+
+<!-- ## <i class="fas fa-file-contract"></i> Preenchimento de dados para as avaliações {id="formulario" title="Clique aqui!"} -->
+
+<!-- {{< gdocs src="https://docs.google.com/forms/d/e/1FAIpQLSetgmgCVUzFIheWM6dLdwZcIix5zEmXWaqBDIQnCBhBjMbvEg/viewform?usp=sf_link">}} -->
+
+## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
+
+-   Engenharia Química ([Link]())
+
+## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
+
+Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do CAP/UFSJ
+
+{{< spoiler text="Acesse a ementa do curso">}}
+1. INTRODUÇÃO A LINGUAGEM R
+2. PROBABILIDADES NO R
+3. EXTRAÇÃO, TRANSFORMAÇÃO E CARREGAMENTO DE DADOS
+4. ESTATÍSTICA DESCRITIVA
+5. GRÁFICOS
+6. CRIAÇÃO DE RELATÓRIOS
+7. CRIAÇÃO DE *DASHBOARDS*
+8. CRIAÇÃO DE PÁGINAS *WEB*
+{{< /spoiler >}}
+
+## <i class="fab fa-readme"></i> Metodologia {id="metodologia" title="Clique aqui!"}
+
+Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
+aulas serão expositivas e dialogadas com os alunos presencialmente, conectando a todo momento as nossas demandas a página de relatórios via web. Ainda, usaremos o ambiente R para o desenvolvimento de todas as atividades, constituída pela seguinte estratégia de ensino:
+
+-   Motivação:
+    -   Levantamento do conhecimento prévio dos alunos em relação ao
+        tema;
+    -   Apresentação de algumas situações práticas para a compreensão
+        dos tópicos a serem abordados;
+    -   Exposição dos objetivos da aula.
+-   Desenvolvimento:
+    -   Introdução ao assunto abordado;
+    -   Apresentação de definições e teoremas envolvidos;
+    -   Aplicação de softwares estatísticos, quando for pertinente;
+    -   Exemplos e aplicações na estatística e área do curso, do assunto
+        abordado.
+
+{{< spoiler text="Detalhamento da metodologia">}}
+
+Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **2 (quatro) horas semanais de aulas presenciais**, um total de 30h.
+
+<!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube <https://youtube.com/bendeivide>. -->
+
+Iremos utilizar o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) [Quarto](https://quarto.org/) e [Github](https://github.com/).
+{{< /spoiler >}}
+
+## <i class="fas fa-award"></i> Avaliação {id="avaliacao" title="Clique aqui!"}
+
+<!-- - [Planilha de Notas (Engenharia Mecatrônica)](https://docs.google.com/spreadsheets/d/1JQ3csMP-eLpWs6yDhDjwb9JRCk85Z-Yv8OAYTt2FZ0s/edit?usp=sharing) -->
+
+<!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) -->
+
+{{< spoiler text="Segue um detalhamento das nossas avaliações">}}
+
+Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) e  [Quarto](https://quarto.org/), integrando estes relatórios ao [Github](https://github.com/). 
+
+A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.
+
+Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina.
+
+O discente que perder algum relatório ou atividade avaliativa referente aos 20% dos pontos informados anteriormente, deverá solicitar a coordenadoria de seu curso uma segunda chamada para tal atividade perdida, justificando a ausência da entrega. Sendo deferida pela coordação, faremos a segunda chamada de tal atividade.
+
+{{< /spoiler >}}
+
+
+## <i class="fa fa-book"></i> Bibliografia adotada para a disciplina {id="bibiografia" title="Clique aqui!"}
+
+{{< spoiler text="Bibliografia detalhada">}}
+
+- [R DEVELOPMENT CORE TEAM. *R: A Language and Environment for Statistical Computing*. Vienna, Austria, 2025. Disponível em: <http://www.R-project.org/>.](https://www.r-project.org/)
+
+- [BATISTA, B. D. O.; OLIVEIRA, D. A. B. J.. **R básico**. Ouro Branco, MG: [s.n.]. 2022.
+(Estudando o Ambiente R, v.1). ISBN 978-65-00-51600-5. Disponível em: https://
+bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/)
+
+- [Wickham, H. *ggplot2: Elegant Graphics for Data Analysis*. 2ª ed. Springer, 2018.](https://ggplot2-book.org/)
+
+- [Wickham, H. *Advanced R*. 2ª ed. Chapman and Hall/CRC, 2019.](https://adv-r.hadley.nz/)
+
+- [Wickham, H. *Mastering Shiny*. O’Reilly Media, 2021.](https://mastering-shiny.org/)
+
+- [Wickham, H.; Grolemund, G. *R for Data Science*. O’Reilly Media, 2023.](https://r4ds.hadley.nz/)
+
+- [Wilke, C. O. *Fundamentals of Data Visualization*. O’Reilly Media, 2016.](https://clauswilke.com/dataviz/)
+
+
+{{< /spoiler >}}
+
+## <i class="fas fa-book-open"></i> Material adotado {id="matadotado" title="Clique aqui!"}
+
+-   Livro referência: [R4ds](https://r4ds.hadley.nz/)
+
+{{< spoiler text="Materiais complementares">}}
+
+- Em desenvolvimento
+
+{{< /spoiler >}}
+
+
+## <i class="fab fa-r-project"></i> -> <i class="fa fa-globe" aria-hidden="true"></i> Modelo de Relatório R para *Web* {id="relatorio" title="Clique aqui!"}
+
+<center>
+
+<span class="blink-text">🔗 Clique no </span> [link](/courses/rcd/modrel/index.html)
+
+</center>
+
+
+## <i class="fas fa-feather"></i> Lista alunos {id="exerc_entregar" title="Clique aqui!"}
+
+- [🎓 EVERTON FELIPE HENRIQUES MACEDO](https://macedoeverton37.github.io/relatorio-estprob/)
+- [🎓 GABRIEL DE PAULA AGUIAR](https://gabriel-dpaula-eng.github.io/relatorio-estprob-master/)
+- [🎓 HUGO ARAÚJO SOUZA FILHO](https://ryuug0.github.io/relatorio-lrcd)
+- [🎓 REGINA GRAZIELA CASSEMIRO DE ALMEIDA](https://reginacassemiro.github.io/relatorio-estprob/)
+- [🎓 YURI DE OLIVEIRA GOMES](https://yuriogomes.github.io/relatorio-estprob)
+
+
+
+## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
+
+{{< spoiler text="🗒 Relatório 1 (Clique!) - 03/04/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 31/03/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Realizar um introdução ao R, fundamentado nas 26 aulas do [curso R Básico 2024](/courses/ear/rbasico2024/).
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17:05 do dia 03/04/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 1 -->
+
+{{< spoiler text="🗒 Relatório 2 (Clique!) - 10/04/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 10/04/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+>  Descrever as funções apresentadas no <a href="/slides/lrcd/s04/" target="_blank"> Slide da aula 4</a> e no <a href="/lrcd/2026.1/LRCD2026.1_AULA04.R" target="_blank"> Script da Aula 4</a> 
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17h do dia 10/04/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 2 -->
+
+{{< spoiler text="🗒 Relatório 3 (Clique!) - 19/05/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 19/05/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+>  Fazer um comparativo das funções apresentadas no <a href="/slides/lrcd/s04/" target="_blank"> Slide da aula 4</a> e no <a href="/lrcd/2026.1/LRCD2026.1_AULA04.R" target="_blank"> Script da Aula 4</a> com as funções do {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}, isto é, faça um comparativo entre as funções da Base R com as funções da família de pacotes Tidyverse.
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17h do dia 19/05/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 3 -->
+
+{{< spoiler text="🗒 Relatório 4 (Clique!) - 26/05/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 26/05/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+> Tema: Análise Socioeconômica dos Estados Brasileiros com Visualização de Dados no R
+>
+> - Uma empresa de consultoria em análise de dados foi contratada para produzir um relatório visual sobre indicadores socioeconômicos dos estados brasileiros utilizando a linguagem R.
+> 
+> O objetivo é transformar dados públicos em informações gráficas claras e informativas para auxiliar gestores, pesquisadores e tomadores de decisão.
+> 
+> Vocês atuarão como cientistas de dados responsáveis pela construção desse relatório.
+>
+> Assim, cada aluno deverá:
+>
+> - obter dados públicos;
+> - organizar os dados no R;
+> - produzir gráficos informativos;
+> - interpretar os resultados;
+> - apresentar conclusões baseadas nas visualizações.
+> 
+> Tema dos Dados
+>
+> Cada aluno poderá escolher UM dos temas abaixo:
+> - População dos estados brasileiros;
+> - PIB estadual;
+> - Taxa de escolarização;
+> - Taxa de analfabetismo;
+> - Rendimento médio;
+> - Mortalidade infantil;
+> - Saneamento básico;
+> - Indicadores ambientais;
+> - Produção agrícola;
+> - Dados climáticos;
+> - Outro tema aprovado pelo professor.
+>
+> Requisitos Obrigatórios
+> 
+> O relatório deverá conter:
+>
+> - Introdução
+> 
+> Explique:
+>
+> - o problema estudado;
+> - a importância dos dados;
+> - o objetivo da análise.
+>
+> - Obtenção dos Dados
+>
+> Os dados devem ser obtidos de fontes públicas, como:
+>
+> - SIDRA/IBGE;
+> - Atlas Brasil;
+> - IPEA;
+> - dados.gov.br;
+> - outras APIs públicas.
+>
+> Explique:
+>
+> - de onde os dados foram obtidos;
+> - quais pacotes foram utilizados.
+>
+> - Tratamento dos Dados
+>
+> Mostrar no relatório:
+>
+> - limpeza dos dados;
+> - organização;
+> - junções (`join`);
+> - transformação de variáveis;
+> - criação de novas variáveis.
+>
+> - Construção dos Gráficos
+> 
+> O trabalho deverá conter pelo menos:
+>
+> | Tipo de gráfico | Obrigatório |
+> |---|---|
+> | Barras | Sim |
+> | Dispersão | Sim |
+> | Histograma | Sim |
+> | Boxplot | Sim |
+> | Mapa temático | Sim |
+> | Gráfico interativo | Sim |
+
+> - Comparação entre Sistemas Gráficos
+>
+> O relatório deverá conter:
+>
+> - pelo menos um gráfico em Base R;
+> - um gráfico equivalente em `ggplot2`;
+> - uma comparação entre os dois sistemas.
+>
+> Discutir:
+>
+> - vantagens;
+> - desvantagens;
+> - facilidade de uso;
+> - estética;
+> - flexibilidade.
+>
+> - Interpretação dos Resultados
+>
+> Não basta apenas produzir gráficos.
+>
+> O aluno deverá interpretar:
+>
+> - padrões observados;
+> - tendências;
+> - diferenças regionais;
+> - possíveis causas;
+> - limitações dos dados.
+>
+> - Conclusão
+>
+> Responder:
+>
+> - O que foi aprendido?
+> - Quais gráficos foram mais úteis?
+> - Quais dificuldades surgiram?
+>
+> - Como o R contribui para análise de dados?
+>
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17h do dia 26/05/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 4 -->
+
+{{< spoiler text="🗒 Relatório 5 (Clique!) - 02/06/2026 ">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 02/06/2026 <i class="fas fa-clock"></i> 17h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+>
+>  Na aula do dia 26/05/2026, apresendemos a desenvolver um pacote, sendo assim:
+>
+>  1) Desenvolva um pacote para a solução de um determinado problema;
+>  2) Use as ideias que desenvolvemos nas aulas anteriores, isto é, usufrua das funções que aprendemos para manipular os dados;
+>  3) Documente as funções que serão exportadas no pacote;
+>  4) Insira os dados necessário no arquivo DESCRIPTION;
+>  5) Envie o projeto ao seu github;
+>
+> No relatório, desecreva cada passo dos itens solicitados apresentando os links necessários para a verificação, quando for o caso.
+>
+> **DATA DA ENTREGA:** 
+>
+>  - Até às 17h do dia 02/06/2026 
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 5 -->
+
+
+
+## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
+
+<div style="margin-left: 20px;"> 
+
+{{< spoiler text="🎓 Aula 1">}}
+
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Apresentação do curso e Introdução ao R
+
+
+{{< icon name="book-reader" pack="fas" >}}
+<a href="https://docs.google.com/document/d/1zrPgmA0sUDp9SWATvxC9RMJUTiR8d8a7wNB3uhu_Iy0/edit?usp=sharing" target="_blank">
+**Plano de aula** </a>
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/lrcd/" target="_blank"> Aula
+01</a>
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+
+{{< icon name="book" pack="fas" >}} **Livro R Básico:** [Capítulo 2](https://bendeivide.github.io/book-eambr01/cap02.html), [Capítulo 3](https://bendeivide.github.io/book-eambr01/cap03.html)
+
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+
+<div style="margin-left: 20px;">
+
+<!-- Podcast 01 -->
+
+{{< spoiler text="🎙 Podcast 01 (NotebookLM  - 2026.1) - Professor troca PDFs por R/RStudio/GitHub">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast01_Como_a_estatística_transforma_dados_em_decisoes.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado na página do curso [LRCD](https://bendeivide.github.io/courses/rcd/normal2026.1/).
+
+{{< /spoiler >}}
+
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim do Podcast 01 -->
+
+<!-- Div de Podcast de Aula 01 -->
+</div>
+
+{{< icon name="r-project" pack="fab" >}} <a
+    href="/lrcd/2026.1/" target="_blank">*Script* Aula 1</a>
+
+{{< icon name="brain" pack="fas" >}} **Infográfico**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🧠 Infográfico 01 (NotebookLM) - Guia do Curso: Linguagem R para Ciência de Dados">}}
+
+{{< figure src="/infografico/lrcd/2026.1/info01-LRCD.png" 
+           title="Infográfico 01 (NotebookLM) - Guia do Curso: Linguagem R para Ciência de Dados." 
+           width="400px" >}}
+           
+{{< /spoiler >}}
+
+</div>
+
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
+
+- 🎥 <a href="https://www.youtube.com/live/rG3M9E0rwfM?si=FfvUUUNTB1FkcWL8"
+    target="_blank">R Básico 2024 | Aula 01 - Entendendo o curso EAR: R Básico</a>  
+- 🎥 <a href="https://youtu.be/KryehEXgGF8?si=-PeNsb2gFxIfAFs4"
+    target="_blank">R Básico 2024 | Aula 02 - Passos iniciais para a utilização do R e RStudio</a>
+- 🎥 <a href="https://www.youtube.com/live/yO8qKud3sIk?si=nUyFuvFHTKf7M88b"
+    target="_blank">R Básico 2024 | Aula 04 - Como o R trabalha?</a>
+- 🎥 <a href="https://youtu.be/iI9Vx7dzOfo?si=rU4FRfXKyaTvhjbz"
+    target="_blank">R Básico 2024 | Aula 05 - Comandos no R e Ambiente Global</a>
+- 🎥 <a href="https://youtu.be/8gYuZKXSwNg?si=ZK6Ng16oTloILhVC"
+    target="_blank">R Básico 2024 | Aula 06 - Arquivos .RData e .Rhistory</a>
+- 🎥 <a href="https://www.youtube.com/live/jLI3ofN2EXI?si=8OwB7C1Y2qKersqv"
+    target="_blank">R Básico 2024 | Aula 07 - Criando e salvando um Script</a>
+
+
+<!-- Div de Aula 01 -->
+</div>
+
+<!-- Fim do Spoiler Aula 01 -->
+{{< /spoiler >}}
+
+<!-- Fim da Aula 01 -->
+
+{{< spoiler text="🎓 Aula 4">}}
+<!-- Div de aula 04 -->
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema** Manipulando objetos em R
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/lrcd/s04/" target="_blank"> Aula
+04</a>
+{{< icon name="book-reader" pack="fas" >}}
+<a href="https://docs.google.com/document/d/1GEyxV2Mx6P0vxM68j6QnvGj25SekHzgHy4VcaVwOE9c/edit?usp=sharing" target="_blank">
+**Plano de aula** </a>
+
+{{< icon name="book" pack="fas" >}} Em desenvolvimento...
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🎙 Podcast 4 (NotebookLM  - 2026.1) - A Anatomia dos objetos em R">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod05-A_anatomia_dos_objetos_em_R.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, na apresentação <a href="/slides/lrcd/s04/" target="_blank"> Aula
+04</a>.
+{{< /spoiler >}}
+
+</div>
+
+{{< /spoiler >}}
+
+{{< spoiler text="🎙 Podcast 5 (NotebookLM  - 2026.1) - Manipulação de dados eficiente com Base R">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod04-Manipulacao_de_dados_eficiente_com_Base_R.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, na apresentação <a href="/slides/lrcd/s04/" target="_blank"> Aula
+04</a>.
+{{< /spoiler >}}
+
+</div>
+
+{{< /spoiler >}}
+
+
+<!-- Fim div podcast -->
+</div>
+
+{{< icon name="brain" pack="fas" >}} **Infográfico**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🧠 Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R">}}
+
+{{< figure src="/infografico/lrcd/2026.1/info04-Dominando_manipulacao_obj_R.mp3" 
+           title="Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R." 
+           width="400px" >}}
+           
+{{< /spoiler >}}
+
+
+<!-- Fim div infografico -->
+</div>
+
+
+
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA04.R" "newtab" %}}Script Aula 04.R{{% /staticref %}}
+
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
+
+
+-   🎥 ...
+
+
+
+
+<!-- Fim div de aula 04 -->
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 05 -->
+
+{{< spoiler text="🎓 Aula 5">}}
+<!-- Div de aula 05 -->
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Tema** Manipulando objetos em R (Família *Tidyverse*)
+
+{{< icon name="eye" pack="fas" >}} **Apresentação:** 
+{{< icon name="book-reader" pack="fas" >}} **Plano de aula**
+
+{{< icon name="book" pack="fas" >}} Em desenvolvimento...
+
+{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
+
+{{< icon name="headphones" pack="fas" >}} **Podcast**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🎙 Podcast 6 (NotebookLM  - 2026.1) - Tidyverse: Do *pipe* ao *purr* do R">}}
+
+<div style="margin-left: 20px;">
+
+{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod06-Tidyverse_do_pipe_ao_purrr_no_R.mp3" >}}
+
+{{< spoiler text="✏️ Descrição do Podcast">}}
+
+Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}.
+
+{{< /spoiler >}}
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim div podcast -->
+</div>
+
+{{< icon name="brain" pack="fas" >}} **Infográfico**
+
+<div style="margin-left: 20px;">
+
+{{< spoiler text="🧠 Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados">}}
+
+{{< figure src="/infografico/lrcd/2026.1/info05-Tidyverse_Manipulando_Dados.png" 
+           title="Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados." 
+           width="400px" >}}
+           
+{{< /spoiler >}}
+
+
+<!-- Fim div infografico -->
+</div>
+
+
+
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}
+
+{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
+
+-   <a href="{{< relref"courses/epaec/remoto/index" >}}"
+    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
+-   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
+    target="_blank"> Curso EAR: R básico</a>
+-   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
+    target="_blank">Exercícios resolvidos</a>
+
+{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
+
+
+-   🎥 ...
+
+
+
+
+
+<!-- Fim div de aula 05 -->
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 05 -->
+
+
+<!-- Div de aulas (Geral) -->
+</div>
+
+
+## <i class="fas fa-eye"></i> Veja também {id="vejatbmn" title="Clique aqui!"}
+
+-   {{< icon name="tv" pack="fas" >}} <a
+    href="{{< relref"courses/epaec/remoto/index.html" >}}"
+    target="_blank">Ensino remoto 2021.2</a>
+-   {{< icon name="tv" pack="fas" >}} <a
+    href="{{< relref"courses/epaec/remoto2022.1/index.html" >}}"
+    target="_blank">Ensino remoto 2022.1</a>
+-   {{< icon name="podcast" pack="fas" >}} <a
+    href="{{< relref"courses/epaec/podcasts/index.html" >}}"
+    target="_blank">Podcasts</a>
+-   {{< icon name="feather" pack="fas" >}} <a
+    href="{{< relref"courses/epaec/exerresolvidos/index.html" >}}"
+    target="_blank">Exercícios resolvidos</a>
+-   {{< icon name="r-project" pack="fab" >}} <a
+    href="{{< relref"courses/ear/Rbasico/index" >}}"
+    target="_blank">Curso EAR: R básico</a>
+-   {{< icon name="guitar" pack="fas" >}} <a
+    href="{{< relref"project/cantest/index" >}}"
+    target="_blank">Cantando com a Estatística</a>
+-   {{< icon name="video" pack="fas" >}} <a
+    href="{{< relref"courses/epaec/videoaulas/index" >}}"
+    target="_blank">Vídeos</a>
+-   {{< icon name="file" pack="fas" >}} <a
+    href="{{< relref"courses/epaec/resest/index.html" >}}"
+    target="_blank">Resumos da Estatística</a>
+
+## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
+
+{{< spoiler text="Quais as datas de avaliação?">}}
+Acessem: [Avaliação](#avaliacao) e [Cronograma](#cronograma)
+{{< /spoiler >}}
+
+{{< spoiler text="Como acessar o material de apoio?">}}
+- Acessem: [Livro EPAEC](#matadotado)
+  - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
+{{< /spoiler >}}
