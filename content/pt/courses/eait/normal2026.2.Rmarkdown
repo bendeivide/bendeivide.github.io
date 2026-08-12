@@ -60,7 +60,7 @@ events[terca] <- "Aulas (Sala 25 - Pred. Eng Civ)\nHorário: 17:00/17:45"
 
 # Inicio/termino
 initergrad <- c(10, 140)
-events[initergrad] <- "Início/Término \ndo semestre 2026.2\n Graduação"
+events[initergrad] <- "Início/Término \ndo semestre 2026.2\n Pós-Graduação"
 
 # Aulas extras
 #events[c(25, 102, 103)] <- "Aulas extras"
