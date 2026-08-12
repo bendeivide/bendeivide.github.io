@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
-summary: "Apresentaremos os fundamentos da estatística de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-08-11 15:26:09"
+summary: "Apresentaremos ferramentas tecnológicas e estatísticas de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R para a disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT). Avaliaremos a aprendizagem dos alunos através de relatórios desenvolvidos via Quarto inseridos no Github."
+date: "2026-08-12 06:12:23"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -46,8 +46,8 @@ Introdução ao R; extração, transformação e carregamento de dados; estatís
 <img src="/pt/courses/eait/normal2026.2_files/figure-html/unnamed-chunk-1-1.png" alt="" width="110%" />
 
 -   [Cronograma de
-    aulas](https://docs.google.com/document/d/18RSHFo7yTpUfzzd3wwah896D9s1bXTzFRbwMMv8Qe1s/edit?usp=sharing):
-    {{< gdocs src="https://docs.google.com/document/d/18RSHFo7yTpUfzzd3wwah896D9s1bXTzFRbwMMv8Qe1s/edit?usp=sharing" >}}
+    aulas](https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing):
+    {{< gdocs src="https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing" >}}
 
 ## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
 
@@ -60,7 +60,7 @@ Introdução ao R; extração, transformação e carregamento de dados; estatís
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
--   Engenharia Química ([Link]())
+-   Turma 2026.2 ([Link]())
 
 ## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
@@ -68,18 +68,19 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do CAP/U
 
 {{< spoiler text="Acesse a ementa do curso">}}
 1. INTRODUÇÃO A LINGUAGEM R
-2. PROBABILIDADES NO R
-3. EXTRAÇÃO, TRANSFORMAÇÃO E CARREGAMENTO DE DADOS
-4. ESTATÍSTICA DESCRITIVA
-5. GRÁFICOS
-6. CRIAÇÃO DE RELATÓRIOS
-7. CRIAÇÃO DE *DASHBOARDS*
-8. CRIAÇÃO DE PÁGINAS *WEB*
+2. EXTRAÇÃO, TRANSFORMAÇÃO E CARREGAMENTO DE DADOS
+3. ESTATÍSTICA DESCRITIVA
+4. ESTATÍSTICA INFERENCIAL
+5. INTRODUÇÃO A PLANEJAMENTO DE EXPERIMENTOS
+6. GRÁFICOS
+7. CRIAÇÃO DE RELATÓRIOS ESTATÍSTICOS E DINÂMICOS
+8. CRIAÇÃO DE *DASHBOARDS*
+9. CRIAÇÃO DE PÁGINAS *WEB*
 {{< /spoiler >}}
 
 ## <i class="fab fa-readme"></i> Metodologia {id="metodologia" title="Clique aqui!"}
 
-Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
+Nossas aulas serão divididas de acordo com as 36 semanas de aula. As
 aulas serão expositivas e dialogadas com os alunos presencialmente, conectando a todo momento as nossas demandas a página de relatórios via web. Ainda, usaremos o ambiente R para o desenvolvimento de todas as atividades, constituída pela seguinte estratégia de ensino:
 
 -   Motivação:
@@ -97,7 +98,7 @@ aulas serão expositivas e dialogadas com os alunos presencialmente, conectando 
 
 {{< spoiler text="Detalhamento da metodologia">}}
 
-Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **2 (quatro) horas semanais de aulas presenciais**, um total de 30h.
+Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **2 (quatro) horas semanais de aulas presenciais**, um total de 60h.
 
 <!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube <https://youtube.com/bendeivide>. -->
 
@@ -161,19 +162,14 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 <center>
 
-<span class="blink-text">🔗 Clique no </span> [link](/courses/rcd/modrel/index.html)
+<span class="blink-text">🔗 Clique no </span> [link](/courses/eait/modrel/index.html)
 
 </center>
 
 
 ## <i class="fas fa-feather"></i> Lista alunos {id="exerc_entregar" title="Clique aqui!"}
 
-- [🎓 EVERTON FELIPE HENRIQUES MACEDO](https://macedoeverton37.github.io/relatorio-estprob/)
-- [🎓 GABRIEL DE PAULA AGUIAR](https://gabriel-dpaula-eng.github.io/relatorio-estprob-master/)
-- [🎓 HUGO ARAÚJO SOUZA FILHO](https://ryuug0.github.io/relatorio-lrcd)
-- [🎓 REGINA GRAZIELA CASSEMIRO DE ALMEIDA](https://reginacassemiro.github.io/relatorio-estprob/)
-- [🎓 YURI DE OLIVEIRA GOMES](https://yuriogomes.github.io/relatorio-estprob)
-
+- [🎓 ]()
 
 
 ## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
@@ -197,212 +193,6 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 1 -->
-
-{{< spoiler text="🗒 Relatório 2 (Clique!) - 10/04/2026 ">}}
-
-- <i class="fas fa-upload"></i> Entrega: Via Github
-- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
-- <i class="fas fa-calendar-check"></i> 10/04/2026 <i class="fas fa-clock"></i> 17h
-
----
-
-> <i class="fas fa-question-circle"></i> **OBJETIVO** 
->
->  Descrever as funções apresentadas no <a href="/slides/lrcd/s04/" target="_blank"> Slide da aula 4</a> e no <a href="/lrcd/2026.1/LRCD2026.1_AULA04.R" target="_blank"> Script da Aula 4</a> 
->
-> **DATA DA ENTREGA:** 
->
->  - Até às 17h do dia 10/04/2026 
-
-{{</spoiler>}}
-
-<!-- Fim do Relatorio 2 -->
-
-{{< spoiler text="🗒 Relatório 3 (Clique!) - 19/05/2026 ">}}
-
-- <i class="fas fa-upload"></i> Entrega: Via Github
-- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
-- <i class="fas fa-calendar-check"></i> 19/05/2026 <i class="fas fa-clock"></i> 17h
-
----
-
-> <i class="fas fa-question-circle"></i> **OBJETIVO** 
->
->  Fazer um comparativo das funções apresentadas no <a href="/slides/lrcd/s04/" target="_blank"> Slide da aula 4</a> e no <a href="/lrcd/2026.1/LRCD2026.1_AULA04.R" target="_blank"> Script da Aula 4</a> com as funções do {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}, isto é, faça um comparativo entre as funções da Base R com as funções da família de pacotes Tidyverse.
->
-> **DATA DA ENTREGA:** 
->
->  - Até às 17h do dia 19/05/2026 
-
-{{</spoiler>}}
-
-<!-- Fim do Relatorio 3 -->
-
-{{< spoiler text="🗒 Relatório 4 (Clique!) - 26/05/2026 ">}}
-
-- <i class="fas fa-upload"></i> Entrega: Via Github
-- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
-- <i class="fas fa-calendar-check"></i> 26/05/2026 <i class="fas fa-clock"></i> 17h
-
----
-
-> <i class="fas fa-question-circle"></i> **OBJETIVO** 
->
-> Tema: Análise Socioeconômica dos Estados Brasileiros com Visualização de Dados no R
->
-> - Uma empresa de consultoria em análise de dados foi contratada para produzir um relatório visual sobre indicadores socioeconômicos dos estados brasileiros utilizando a linguagem R.
-> 
-> O objetivo é transformar dados públicos em informações gráficas claras e informativas para auxiliar gestores, pesquisadores e tomadores de decisão.
-> 
-> Vocês atuarão como cientistas de dados responsáveis pela construção desse relatório.
->
-> Assim, cada aluno deverá:
->
-> - obter dados públicos;
-> - organizar os dados no R;
-> - produzir gráficos informativos;
-> - interpretar os resultados;
-> - apresentar conclusões baseadas nas visualizações.
-> 
-> Tema dos Dados
->
-> Cada aluno poderá escolher UM dos temas abaixo:
-> - População dos estados brasileiros;
-> - PIB estadual;
-> - Taxa de escolarização;
-> - Taxa de analfabetismo;
-> - Rendimento médio;
-> - Mortalidade infantil;
-> - Saneamento básico;
-> - Indicadores ambientais;
-> - Produção agrícola;
-> - Dados climáticos;
-> - Outro tema aprovado pelo professor.
->
-> Requisitos Obrigatórios
-> 
-> O relatório deverá conter:
->
-> - Introdução
-> 
-> Explique:
->
-> - o problema estudado;
-> - a importância dos dados;
-> - o objetivo da análise.
->
-> - Obtenção dos Dados
->
-> Os dados devem ser obtidos de fontes públicas, como:
->
-> - SIDRA/IBGE;
-> - Atlas Brasil;
-> - IPEA;
-> - dados.gov.br;
-> - outras APIs públicas.
->
-> Explique:
->
-> - de onde os dados foram obtidos;
-> - quais pacotes foram utilizados.
->
-> - Tratamento dos Dados
->
-> Mostrar no relatório:
->
-> - limpeza dos dados;
-> - organização;
-> - junções (`join`);
-> - transformação de variáveis;
-> - criação de novas variáveis.
->
-> - Construção dos Gráficos
-> 
-> O trabalho deverá conter pelo menos:
->
-> | Tipo de gráfico | Obrigatório |
-> |---|---|
-> | Barras | Sim |
-> | Dispersão | Sim |
-> | Histograma | Sim |
-> | Boxplot | Sim |
-> | Mapa temático | Sim |
-> | Gráfico interativo | Sim |
-
-> - Comparação entre Sistemas Gráficos
->
-> O relatório deverá conter:
->
-> - pelo menos um gráfico em Base R;
-> - um gráfico equivalente em `ggplot2`;
-> - uma comparação entre os dois sistemas.
->
-> Discutir:
->
-> - vantagens;
-> - desvantagens;
-> - facilidade de uso;
-> - estética;
-> - flexibilidade.
->
-> - Interpretação dos Resultados
->
-> Não basta apenas produzir gráficos.
->
-> O aluno deverá interpretar:
->
-> - padrões observados;
-> - tendências;
-> - diferenças regionais;
-> - possíveis causas;
-> - limitações dos dados.
->
-> - Conclusão
->
-> Responder:
->
-> - O que foi aprendido?
-> - Quais gráficos foram mais úteis?
-> - Quais dificuldades surgiram?
->
-> - Como o R contribui para análise de dados?
->
->
-> **DATA DA ENTREGA:** 
->
->  - Até às 17h do dia 26/05/2026 
-
-{{</spoiler>}}
-
-<!-- Fim do Relatorio 4 -->
-
-{{< spoiler text="🗒 Relatório 5 (Clique!) - 02/06/2026 ">}}
-
-- <i class="fas fa-upload"></i> Entrega: Via Github
-- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
-- <i class="fas fa-calendar-check"></i> 02/06/2026 <i class="fas fa-clock"></i> 17h
-
----
-
-> <i class="fas fa-question-circle"></i> **OBJETIVO** 
->
->  Na aula do dia 26/05/2026, apresendemos a desenvolver um pacote, sendo assim:
->
->  1) Desenvolva um pacote para a solução de um determinado problema;
->  2) Use as ideias que desenvolvemos nas aulas anteriores, isto é, usufrua das funções que aprendemos para manipular os dados;
->  3) Documente as funções que serão exportadas no pacote;
->  4) Insira os dados necessário no arquivo DESCRIPTION;
->  5) Envie o projeto ao seu github;
->
-> No relatório, desecreva cada passo dos itens solicitados apresentando os links necessários para a verificação, quando for o caso.
->
-> **DATA DA ENTREGA:** 
->
->  - Até às 17h do dia 02/06/2026 
-
-{{</spoiler>}}
-
-<!-- Fim do Relatorio 5 -->
 
 
 

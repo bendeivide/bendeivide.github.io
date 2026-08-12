@@ -1,10 +1,10 @@
 ---
 title: 📑 Modelo de Relatório
-summary: "O propósito dessa página é auxiliar aos alunos a construção dos seus relatórios na disciplina Linguagem R na Ciência de Dados (DEFIM/CAP/UFSJ)"
-date: "2026-03-27 08:16:55"
+summary: "O propósito dessa página é auxiliar aos alunos a construção dos seus relatórios na disciplina Estatística Aplicada a Inovações Tecnológicas (EAIT)"
+date: "2026-08-12 05:34:08"
 type: book
 weight: 7
-categories: ["Estatística", "Programação", "Ciência de Dados", "R"]
+categories: ["Estatística", "Programação", "Ciência de Dados", "R", "Relatório", "Mestrado"]
 tags: ["Curso"]
 draft: false
 editor_options: 
@@ -16,7 +16,7 @@ editor_options:
 
 ## <i class="fas fa-chalkboard-teacher"></i> Apresentação {id="apresentacao" title="Clique aqui!"}
 
-Material desenvolvido para que os alunos da disciplina Linguagem R na Ciência de Dados (LRCD) possam desenvolver seus relatórios estatísticos ou dinâmicos para a disciplina.
+Material desenvolvido para que os alunos da disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT) possam desenvolver seus relatórios estatísticos ou dinâmicos para a disciplina.
 
 ## <i class="fa fa-download" aria-hidden="true"></i> O que é necessário?
 
@@ -26,7 +26,7 @@ Material desenvolvido para que os alunos da disciplina Linguagem R na Ciência d
 - [Github](https://github.com/) 
 - [LEEM](http://localhost:4321/project/leem/)
 
-De forma mais detalhada recomendamos acessar este [link](https://bendeivide.github.io/relatorio-lrcd/relatorio/index.html#vis%C3%A3o-geral-sobre-os-relat%C3%B3rios).
+De forma mais detalhada recomendamos acessar este [link](https://bendeivide.github.io/relatorio-eait/relatorio/index.html#vis%C3%A3o-geral-sobre-os-relat%C3%B3rios).
 
 ## <i class="fas fa-pencil-alt" aria-hidden="true"></i> Como aprender cada uma das ferramentas necessárias?
 
@@ -50,7 +50,7 @@ De forma mais detalhada recomendamos acessar este [link](https://bendeivide.gith
 
 ## <i class="fab fa-youtube" aria-hidden="true"></i> Videoaulas com o passo a passo
 
-Os dois primeiros vídeos foram usados quando ministramos a disciplina [MA 41 no Profmat](https://bendeivide.github.io/courses/profmat-probest/). Na época, usamos o projeto do relatório baseado no modelo <https://bendeivide.github.io/profmatma41/>. Para a disciplina LRCD, usaremos o projeto <https://bendeivide.github.io/relatorio-lrcd/>.
+Para a disciplina EAIT, usaremos o projeto <https://github.com/bendeivide/relatorio-eait>. Na sequência, mostraremos quatro vídeos indicando o passo a passo para usar o projeto do relatório.
 
 Seguem os dois primeiros vídeos:
 
@@ -69,7 +69,7 @@ Seguem os dois primeiros vídeos:
 
 Para a melhoria de como desenvolver esses relatórios, resolvemos acrescentar mais 4 vídeos reapresentando de forma simplificada o que os vídeos anteriores mostraram. Seguem:
 
-{{< spoiler text="📹 Relatório via web | Aula 01 - Baixar o projeto R/RStudio">}}
+{{< spoiler text="📹 Relatório via web | Aula 01 - Baixar o projeto R/RStudio (Ao ínves de usar o projeto indicado no vídeo, usaremos o relatório da disciplina no [link](https://github.com/bendeivide/relatorio-eait) )">}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z3iAahE3xIg?si=jGkVoRJ0A4VS7ioh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -97,7 +97,7 @@ Para a melhoria de como desenvolver esses relatórios, resolvemos acrescentar ma
 
 ## <i class="fab fa-github" aria-hidden="true"></i> Onde encontrar o projeto base? {id="onde" title="Clique aqui!"}
 
-Segue o [link](https://github.com/bendeivide/relatorio-lrcd). Seguindo os passos dos dois vídeos informados anteriormente, será possível a criação do modelo de relatório.
+Segue o [link](https://github.com/bendeivide/relatorio-eait). Seguindo os passos dos dois vídeos informados anteriormente, será possível a criação do modelo de relatório.
 
 
 
