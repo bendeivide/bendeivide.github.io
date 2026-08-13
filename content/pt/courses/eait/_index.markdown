@@ -2,8 +2,9 @@
 title: 💻 Estatística Aplicada a Inovações Tecnológicas (UFSJ)
 linkTitle: EAIT (UFSJ)
 summary: O curso Estatística Aplicada a Inovações Tecnológicas é voltado para o Mestrado Profissional em Tecnologias e Inovações da UFSJ, campus Alto Paraopeba (CAP). 
-date: "2026-08-11 15:11:08"
+date: "2026-08-13 15:05:04"
 type: book
+weight: 2
 categories: ["R", "Estatística", "Engenharia Civil", "Mestrado"]
 tags: ["Curso"]
 ---

@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/inferencia-estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/inferencia-estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Inferência Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 12 Aug 2026 14:49:02 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 13 Aug 2026 15:40:06 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Inferência Estatística</title>
@@ -13,9 +13,256 @@
     </image>
     
     <item>
+      <title>📚 Ensino normal 2026.2</title>
+      <link>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</link>
+      <pubDate>Thu, 13 Aug 2026 15:40:06 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</guid>
+      <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
+pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática
+em Rede Nacional, campus Alto Paraopeba
+(&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentacao&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;A Natureza da estatística. Tratamento da informação. Distribuições de
+frequência e gráficos. Medidas. Conceitos básicos em probabilidade.
+Probabilidade condicional e Independência. Variáveis aleatórias
+discretas e contínuas. Função de distribuição acumulada. Esperança e
+variância de variáveis aleatórias. Modelos Bernoulli, binomial e
+geométrico. Modelo uniforme e modelo normal. Distribuição assintótica da
+média amostral. Introdução à inferência estatística.&lt;/p&gt;
+&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de
+Engenharia do campus.&lt;/li&gt;
+&lt;li&gt;Todas as nossas estão gravadas:
+&lt;ul&gt;
+&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Período:&lt;/li&gt;
+&lt;li&gt;Aulas presenciais:
+&lt;ul&gt;
+&lt;li&gt;PROFMAT (Sala 211.5):
+&lt;ul&gt;
+&lt;li&gt;sexta-feira (13:15 - 16:35)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calendário&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;http://bendeivide.github.io/pt/courses/profmat-prob&amp;est/normal2026.2_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;110%&#34; /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
+aulas&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grupo-de-whatsapp&#34;&gt;Grupo de Whatsapp&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chat.whatsapp.com/BQauGFVMXCFKN2DX4rFsJd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;demandas-e-notas&#34;&gt;Demandas e Notas&lt;/h2&gt;
+&lt;p&gt;Em desenvolvimento &amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;modelo-de-relatório-para-entregas&#34;&gt;Modelo de relatório para entregas&lt;/h2&gt;
+&lt;p&gt;Segue o link: &lt;a href=&#34;https://bendeivide.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/profmatma41/&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&#34;relatório-dos-alunos&#34;&gt;Relatório dos alunos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
+CAP/UFSJ&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
+&lt;li&gt;Tabelas e gráficos&lt;/li&gt;
+&lt;li&gt;Medidas de posição&lt;/li&gt;
+&lt;li&gt;Medidas de dispersão e desenho esquemático (Box Plot)&lt;/li&gt;
+&lt;li&gt;Probabilidade: conceitos básicos, definições e propriedades&lt;/li&gt;
+&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade total e teorema de
+Bayes&lt;/li&gt;
+&lt;li&gt;Função e distribuição de probabilidade de uma variável aleatória discreta&lt;/li&gt;
+&lt;li&gt;Características numéricas de uma variável aleatória discreta&lt;/li&gt;
+&lt;li&gt;Função densidade de probabilidade de uma variável aleatória contínua&lt;/li&gt;
+&lt;li&gt;Características numéricas de uma variável aleatória contínua&lt;/li&gt;
+&lt;li&gt;Principais modelos probabilísticos discretos: uniforme, Bernoulli, binomial, geométrico,
+Poisson e hipergeométrico&lt;/li&gt;
+&lt;li&gt;Modelos probabilísticos contínuos. Principais modelos probabilísticos contínuos: uniforme,
+exponencial e normal&lt;/li&gt;
+&lt;li&gt;Teorema central do limite&lt;/li&gt;
+&lt;li&gt;Aproximação da distribuição binomial pela normal&lt;/li&gt;
+&lt;li&gt;Introdução à inferência estatística: primeiras ideias; propriedades dos estimadores&lt;/li&gt;
+&lt;li&gt;Erro quadrático médio e erro absoluto de estimação&lt;/li&gt;
+&lt;li&gt;Estimação pontual de parâmetros: estimadores de momentos; estimadores de mínimos
+quadrados&lt;/li&gt;
+&lt;li&gt;Estimadores de máxima verossimilhança&lt;/li&gt;
+&lt;li&gt;Distribuição amostral da média e proporção; dimensionamento da amostra&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a média populacional e para proporção populacional&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
+&lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
+aulas serão expositivas e dialogadas com os alunos presencialmente ou
+via portal didático, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Motivação:
+&lt;ul&gt;
+&lt;li&gt;Levantamento do conhecimento prévio dos alunos em relação ao tema;&lt;/li&gt;
+&lt;li&gt;Apresentação de algumas situações práticas para a compreensão dos
+tópicos a serem abordados;&lt;/li&gt;
+&lt;li&gt;Exposição dos objetivos da aula.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Desenvolvimento:
+&lt;ul&gt;
+&lt;li&gt;Introdução ao assunto abordado;&lt;/li&gt;
+&lt;li&gt;Apresentação de definições e teoremas envolvidos;&lt;/li&gt;
+&lt;li&gt;Aplicação de softwares estatísticos, quando for pertinente;&lt;/li&gt;
+&lt;li&gt;Exemplos e aplicações na estatística e área do curso, do assunto
+abordado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;3 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
+&lt;p&gt;Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; e  &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.&lt;/p&gt;
+&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina.&lt;/p&gt;
+&lt;p&gt;O discente que perder algum relatório ou atividade avaliativa referente aos 20% dos pontos informados anteriormente, deverá solicitar a coordenadoria de seu curso uma segunda chamada para tal atividade perdida, justificando a ausência da entrega. Sendo deferida pela coordação, faremos a segunda chamada de tal atividade.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&amp;amp;url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&amp;amp;usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. &lt;strong&gt;Análise
+combinatória e probabilidade&lt;/strong&gt;. SBM, 2005 (Capítulo
+5).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUSSABW, MORETTIN, W. &lt;strong&gt;Estatística básica&lt;/strong&gt;. Editora Saraiva, 2010.&lt;/li&gt;
+&lt;li&gt;PINHEIRO, R; CUNHA, G. &lt;strong&gt;Probabilidade e estatística&lt;/strong&gt;: quantificando
+a incerteza. Editora Campus, 2012.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;matadotado&#34;&gt;Materiais adotado&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livro &lt;a href=&#34;http://bendeivide.github.io/books/epprofmat/&#34;&gt;Estatística e Probabilidade: Um curso para o
+PROFMAT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Livro &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para
+&lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Materiais complementares&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/estbasica/&#34;&gt;Estatística Básica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://leg.ufpr.br/~paulojus/estbas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/talesjfer/Apostila-Estatistica-Aplicada&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estimação Estatística (Assis, et. al. 2021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução à estatística com R (Eric Ferreira &amp;amp; Marcelo Oliveira )&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria &amp;amp; João Parga)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canal Ciência Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://editorapantanal.com.br/ebooks/2023/probabilidade-e-estatistica-exercicios/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade: Exercícios (Assis et. al., 2023)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Os programas necessários:
+&lt;ul&gt;
+&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Studio&lt;/a&gt;
+OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;p&gt;Em desenvolvimento &amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
+  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+</description>
+    </item>
+    
+    <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.2/</link>
-      <pubDate>Wed, 12 Aug 2026 14:49:02 -0300</pubDate>
+      <pubDate>Thu, 13 Aug 2026 06:04:48 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -5822,7 +6069,7 @@ target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2024.2</title>
       <link>http://bendeivide.github.io/courses/profmat-probest/normal/</link>
-      <pubDate>Thu, 27 Mar 2025 19:58:25 -0300</pubDate>
+      <pubDate>Thu, 13 Aug 2026 06:15:15 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/profmat-probest/normal/</guid>
       <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática em Rede Nacional, campus Alto Paraopeba

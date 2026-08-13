@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2024.2
-date: "2025-03-27 19:58:25"
+date: "2026-08-13 06:15:15"
 type: book
 weight: 10
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]

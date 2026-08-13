@@ -4,6 +4,7 @@ linkTitle: Est & Prob (UFSJ)
 summary: O curso de Estatística e Probabilidade é voltado para os alunos dos cursos de Engenharias da UFSJ, campus Alto Paraopeba (CAP). 
 date: "`r format(Sys.time())`"
 type: book
+weight: 3
 categories: ["R", "Estatística", "Probabilidade"]
 tags: ["Curso"]
 ---

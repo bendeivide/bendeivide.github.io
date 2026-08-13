@@ -77,7 +77,7 @@ events[initergrad] <- "Início/Término \ndo semestre 2026.2\n Graduação"
 #events[c(25, 102, 103)] <- "Aulas extras"
 
 # Provas
-#events[seq(17, 153, by = 7)] <- "Relatórios toda terça.\nEntrega até horário\nde aula"
+events[c(45, 80, 124)] <- "P1/P2/P3"
 
 # Feriados
 events[c(38, 72, 89, 93, 111, 112, 134, 147)] <- "Feriados \ne/ou recessos"
@@ -86,17 +86,17 @@ events[c(38, 72, 89, 93, 111, 112, 134, 147)] <- "Feriados \ne/ou recessos"
 #events[166] <- "Retomada 2024/2025"
 
 # Prova segunda chamada
-#events[130] <- "Prova Segunda chamada"
+events[129] <- "Prova Segunda chamada"
 
 # Prova substitutiva
-#events[132] <- "Prova substitutiva"
+events[131] <- "Prova substitutiva"
 
 # Ferias
 #events[136:153] <- "Férias"
 
 # Cores
 #cores <- c("lightsalmon", "gold", "red", "green", "cyan", "pink", "lightblue4", "lightgreen")
-cores <- c("lightblue", "lightblue", "red", "green")
+cores <- c("lightblue", "lightblue", "lightblue4", "green", "gold", "lightsalmon", "cyan")
 
 
 # Creating the calendar

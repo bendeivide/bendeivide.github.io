@@ -2,13 +2,14 @@
 title: 💻 Probabilidade e Estatística (PROFMAT/CAP/UFSJ)
 linkTitle: Prob & Est (PROFMAT/CA/UFSJ)
 summary: O curso de Probabilidade e Estatística é voltado para os alunos de Mestrado Profissional em Matemática em Rede Nacional, campus Alto Paraopeba (CAP/UFSJ). 
-date: "2023-03-17 07:25:10"
+date: "2026-08-13 15:14:27"
 type: book
+weight: 1
 categories: ["R", "Estatística", "Probabilidade"]
 tags: ["Curso"]
 ---
 
-{{< figure src="featured.jpg" >}}
+{{< figure src="featured.png" >}}
 
 {{< toc hide_on="xl" >}}
 
@@ -17,6 +18,7 @@ tags: ["Curso"]
 - Estatística Descritiva
 - Probabilidade
 - Estatística Inferencial
+- Programação em R
 
 ## Visão geral do curso
 
