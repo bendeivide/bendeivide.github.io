@@ -237,26 +237,86 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 ## <i class="fas fa-feather"></i> Lista alunos {id="exerc_entregar" title="Clique aqui!"}
 
-- [🎓 ]()
+- [🎓 Matheus Gonçalves Marco Antônio](https://marcoantonio2026.github.io/relatorio_eait/)
+- [🎓 Jair Malta e Wesley Rodrigues](https://jmalta97.github.io/relatorio-eait/)
+- [🎓 Maria Clara](https://mcfcoelho1.github.io/relatorio-eait/)
+- [🎓 Marcus Fillipe e Gustavo Almeida (Sem link)]()
+- [🎓 Bruno Henrique e Lucas Felipe](https://lucasfelipe31.github.io/eait/ )
 
 
 ## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
 
-{{< spoiler text="🗒 Relatório 1 (Clique!) - 03/04/2026 ">}}
+<div style="margin-left: 30px;">
+
+{{< spoiler text="📝 Como os relatórios serão avaliados?">}}
+
+Seguindo as seguintes indagações:
+
+<center>
+
+| Indagações ao realatório escrito| 
+|:---|
+| 1. Entregou no prazo? |
+| 3. Relatório organizado? |
+| 4. Coerente com o que foi pedido? |
+| 5. Abordou todos os tópicos solicitados?|
+| 6. Aprofundou o assunto?|
+| 7. Código R formatado?|
+| 8. Tem exemplos de aplicação?|
+| 9. Código R Markdown formatado?|
+| 10. Tem referências?|
+| 11. Referências formatadas?|
+| 12. Introdução?|
+| 13. Objetivos?|
+| 14. Metodologia?|
+| 15. Resultados e Discussão?|
+| 16. Conclusão ou considerações finais?|
+| 17. O trabalho atingiu os objetivos?|
+
+
+</center>
+
+
+As perguntas se enquadrarão em:
+
+<center>
+
+| Não (0%) | Pouco (25%) | Parcial(50%) | Quase lá (75%) | Sim (100%)|
+|:---:|:---:|:---:|:---:|:---:|
+| [ ] | [ ] | [ ] | [ ] | [ ] |
+
+</center>
+
+A pergunta 2 seguirá a seguinte escala:
+
+| Não (0%) | Pouco (-10%) | Parcial(-20%) | Metade (-50%) | Mais da metade (-75%)|
+|:---:|:---:|:---:|:---:|:---:|
+| [ ] | [ ] | [ ] | [ ] | [ ] |
+
+O item 2.1, auxiliará a recuperar a nota perdida em 2.
+
+{{</spoiler>}}
+
+</div>
+
+{{< spoiler text="🗒 Relatório 1 (Clique!) - 24/08/2026 ">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
-- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-lrcd/archive/refs/heads/master.zip)
-- <i class="fas fa-calendar-check"></i> 31/03/2026 <i class="fas fa-clock"></i> 17h
+- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 24/08/2026 <i class="fas fa-clock"></i> 18h
 
 ---
 
 > <i class="fas fa-question-circle"></i> **OBJETIVO** 
 >
-> Realizar um introdução ao R, fundamentado nas 26 aulas do [curso R Básico 2024](/courses/ear/rbasico2024/).
+> Este relatório será dividido em 3 etapas:
+> - Realizar um introdução ao R, fundamentado nas 26 aulas do [curso R Básico 2024](/courses/ear/rbasico2024/);
+> - Fazer uma revisão sobre a estatística descritiva, que compreende os 4 primeiros capítulos do livro [EPAEC](https://bendeivide.github.io/book-epaec/). Como assunto adicional, pesquise também sobre assimetria e curtose e insira em sua revisão;
+> - A partir de um banco de dados (que envolva a área da Engenharia Civil), use o [pacote leem](/courses/leem/) para realizar uma descrição dos dados (Estatística descritiva), que compreende organizar, tabular, apresentação gráfica, medidas de posição e dispersão, bem como assimetria e curtose.
 >
 > **DATA DA ENTREGA:** 
 >
->  - Até às 17:05 do dia 03/04/2026 
+>  - Até às 18h do dia 24/08/2026 
 
 {{</spoiler>}}
 
@@ -266,280 +326,7 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
 
-<div style="margin-left: 20px;"> 
-
-{{< spoiler text="🎓 Aula 1">}}
-
-<div style="margin-left: 20px;">
-
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Apresentação do curso e Introdução ao R
-
-
-{{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1zrPgmA0sUDp9SWATvxC9RMJUTiR8d8a7wNB3uhu_Iy0/edit?usp=sharing" target="_blank">
-**Plano de aula** </a>
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/lrcd/" target="_blank"> Aula
-01</a>
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-
-{{< icon name="book" pack="fas" >}} **Livro R Básico:** [Capítulo 2](https://bendeivide.github.io/book-eambr01/cap02.html), [Capítulo 3](https://bendeivide.github.io/book-eambr01/cap03.html)
-
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-
-<div style="margin-left: 20px;">
-
-<!-- Podcast 01 -->
-
-{{< spoiler text="🎙 Podcast 01 (NotebookLM  - 2026.1) - Professor troca PDFs por R/RStudio/GitHub">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/epaec/2026.1/notebooklm/podcast01_Como_a_estatística_transforma_dados_em_decisoes.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado na página do curso [LRCD](https://bendeivide.github.io/courses/rcd/normal2026.1/).
-
-{{< /spoiler >}}
-
-
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim do Podcast 01 -->
-
-<!-- Div de Podcast de Aula 01 -->
-</div>
-
-{{< icon name="r-project" pack="fab" >}} <a
-    href="/lrcd/2026.1/" target="_blank">*Script* Aula 1</a>
-
-{{< icon name="brain" pack="fas" >}} **Infográfico**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🧠 Infográfico 01 (NotebookLM) - Guia do Curso: Linguagem R para Ciência de Dados">}}
-
-{{< figure src="/infografico/lrcd/2026.1/info01-LRCD.png" 
-           title="Infográfico 01 (NotebookLM) - Guia do Curso: Linguagem R para Ciência de Dados." 
-           width="400px" >}}
-           
-{{< /spoiler >}}
-
-</div>
-
-{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
-
-- 🎥 <a href="https://www.youtube.com/live/rG3M9E0rwfM?si=FfvUUUNTB1FkcWL8"
-    target="_blank">R Básico 2024 | Aula 01 - Entendendo o curso EAR: R Básico</a>  
-- 🎥 <a href="https://youtu.be/KryehEXgGF8?si=-PeNsb2gFxIfAFs4"
-    target="_blank">R Básico 2024 | Aula 02 - Passos iniciais para a utilização do R e RStudio</a>
-- 🎥 <a href="https://www.youtube.com/live/yO8qKud3sIk?si=nUyFuvFHTKf7M88b"
-    target="_blank">R Básico 2024 | Aula 04 - Como o R trabalha?</a>
-- 🎥 <a href="https://youtu.be/iI9Vx7dzOfo?si=rU4FRfXKyaTvhjbz"
-    target="_blank">R Básico 2024 | Aula 05 - Comandos no R e Ambiente Global</a>
-- 🎥 <a href="https://youtu.be/8gYuZKXSwNg?si=ZK6Ng16oTloILhVC"
-    target="_blank">R Básico 2024 | Aula 06 - Arquivos .RData e .Rhistory</a>
-- 🎥 <a href="https://www.youtube.com/live/jLI3ofN2EXI?si=8OwB7C1Y2qKersqv"
-    target="_blank">R Básico 2024 | Aula 07 - Criando e salvando um Script</a>
-
-
-<!-- Div de Aula 01 -->
-</div>
-
-<!-- Fim do Spoiler Aula 01 -->
-{{< /spoiler >}}
-
-<!-- Fim da Aula 01 -->
-
-{{< spoiler text="🎓 Aula 4">}}
-<!-- Div de aula 04 -->
-<div style="margin-left: 20px;">
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema** Manipulando objetos em R
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** <a href="/slides/lrcd/s04/" target="_blank"> Aula
-04</a>
-{{< icon name="book-reader" pack="fas" >}}
-<a href="https://docs.google.com/document/d/1GEyxV2Mx6P0vxM68j6QnvGj25SekHzgHy4VcaVwOE9c/edit?usp=sharing" target="_blank">
-**Plano de aula** </a>
-
-{{< icon name="book" pack="fas" >}} Em desenvolvimento...
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🎙 Podcast 4 (NotebookLM  - 2026.1) - A Anatomia dos objetos em R">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod05-A_anatomia_dos_objetos_em_R.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, na apresentação <a href="/slides/lrcd/s04/" target="_blank"> Aula
-04</a>.
-{{< /spoiler >}}
-
-</div>
-
-{{< /spoiler >}}
-
-{{< spoiler text="🎙 Podcast 5 (NotebookLM  - 2026.1) - Manipulação de dados eficiente com Base R">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod04-Manipulacao_de_dados_eficiente_com_Base_R.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, na apresentação <a href="/slides/lrcd/s04/" target="_blank"> Aula
-04</a>.
-{{< /spoiler >}}
-
-</div>
-
-{{< /spoiler >}}
-
-
-<!-- Fim div podcast -->
-</div>
-
-{{< icon name="brain" pack="fas" >}} **Infográfico**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🧠 Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R">}}
-
-{{< figure src="/infografico/lrcd/2026.1/info04-Dominando_manipulacao_obj_R.mp3" 
-           title="Infográfico 04 (NotebookLM - 2026.1) - Dominando manipulação de Objetos R." 
-           width="400px" >}}
-           
-{{< /spoiler >}}
-
-
-<!-- Fim div infografico -->
-</div>
-
-
-
-{{< icon name="r-project" pack="fab" >}} {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA04.R" "newtab" %}}Script Aula 04.R{{% /staticref %}}
-
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
-
-
--   🎥 ...
-
-
-
-
-<!-- Fim div de aula 04 -->
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim da Aula 05 -->
-
-{{< spoiler text="🎓 Aula 5">}}
-<!-- Div de aula 05 -->
-<div style="margin-left: 20px;">
-
-{{< icon name="pen-fancy" pack="fas" >}} **Tema** Manipulando objetos em R (Família *Tidyverse*)
-
-{{< icon name="eye" pack="fas" >}} **Apresentação:** 
-{{< icon name="book-reader" pack="fas" >}} **Plano de aula**
-
-{{< icon name="book" pack="fas" >}} Em desenvolvimento...
-
-{{< icon name="clock" pack="fas" >}} **Tempo:** 1h 50min.
-
-{{< icon name="headphones" pack="fas" >}} **Podcast**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🎙 Podcast 6 (NotebookLM  - 2026.1) - Tidyverse: Do *pipe* ao *purr* do R">}}
-
-<div style="margin-left: 20px;">
-
-{{< audio src="/podcast/lrcd/2026.1/notebooklm/pod06-Tidyverse_do_pipe_ao_purrr_no_R.mp3" >}}
-
-{{< spoiler text="✏️ Descrição do Podcast">}}
-
-Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben Dêivide, baseado no {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}.
-
-{{< /spoiler >}}
-
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim div podcast -->
-</div>
-
-{{< icon name="brain" pack="fas" >}} **Infográfico**
-
-<div style="margin-left: 20px;">
-
-{{< spoiler text="🧠 Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados">}}
-
-{{< figure src="/infografico/lrcd/2026.1/info05-Tidyverse_Manipulando_Dados.png" 
-           title="Infográfico 05 (NotebookLM - 2026.1) - Tidyverse: Manipulando Dados." 
-           width="400px" >}}
-           
-{{< /spoiler >}}
-
-
-<!-- Fim div infografico -->
-</div>
-
-
-
-{{< icon name="r-project" pack="fab" >}} {{% staticref "/lrcd/2026.1/LRCD2026.1_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}
-
-{{< icon name="book-reader" pack="fas" >}} **Material para consulta**
-
--   <a href="{{< relref"courses/epaec/remoto/index" >}}"
-    target="_blank">Estatística e Probabilidade (Ensino Remoto)</a>
--   <a href="{{< relref"courses/EAR/Rbasico/index">}}"
-    target="_blank"> Curso EAR: R básico</a>
--   <a href="{{< relref "courses/epaec/exerresolvidos/index">}}"
-    target="_blank">Exercícios resolvidos</a>
-
-{{< icon name="youtube" pack="fab" >}} **Videoaulas de semestres anteriores**
-
-
--   🎥 ...
-
-
-
-
-
-<!-- Fim div de aula 05 -->
-</div>
-
-{{< /spoiler >}}
-
-<!-- Fim da Aula 05 -->
-
-
-<!-- Div de aulas (Geral) -->
-</div>
-
+Em desenvolvimento...
 
 ## <i class="fas fa-eye"></i> Veja também {id="vejatbmn" title="Clique aqui!"}
 

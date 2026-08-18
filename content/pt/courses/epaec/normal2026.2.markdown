@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-08-13 06:04:48"
+date: "2026-08-18 05:56:18"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -766,7 +766,7 @@ Este podcast foi desenvolvido por meio da *IA Notebooklm* com edição de Ben D�
 </div>
 
 {{< icon name="r-project" pack="fab" >}} <a
-    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>
+    href="https://raw.githubusercontent.com/bendeivide/bendeivide.github.io/main/docs/epaec/2024.1/r-scripts/aula03.R" target="_blank">*Script* Aula 3</a>, {{% staticref "/epaec/2026.2/r-scripts/aula03.R" "newtab" %}}Script_Aula03(17.08.2026).R{{% /staticref %}}
 
 {{< icon name="brain" pack="fas" >}} **Infográfico**
 
@@ -870,7 +870,7 @@ Níveis dos fatores experimentais:
 
 </div>
 
-{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/r-scripts/aula04.R" "newtab" %}}Script Aula 04 (Geral).R{{% /staticref %}}, {{% staticref "/epaec/2026.1/telecom/EPAEC2026.1_TELECOM_AP02.R" "newtab" %}}Script Aula 04 - AP02 (Eng. Tel).R{{% /staticref %}}, {{% staticref "/epaec/2026.1/meca/EPAEC2026.1_MECA_AP02.R" "newtab" %}}Script Aula 04 - AP02 (Eng. Mec).R{{% /staticref %}}
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/r-scripts/aula04.R" "newtab" %}}Script Aula 04 (Geral).R{{% /staticref %}}
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 
