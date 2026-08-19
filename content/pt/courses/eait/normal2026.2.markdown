@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "Apresentaremos ferramentas tecnológicas e estatísticas de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R para a disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT). Avaliaremos a aprendizagem dos alunos através de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-08-18 15:49:43"
+date: "2026-08-19 06:52:53"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -172,8 +172,9 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 - [🎓 Matheus Gonçalves Marco Antônio](https://marcoantonio2026.github.io/relatorio_eait/)
 - [🎓 Jair Malta e Wesley Rodrigues](https://jmalta97.github.io/relatorio-eait/)
 - [🎓 Maria Clara](https://mcfcoelho1.github.io/relatorio-eait/)
-- [🎓 Marcus Fillipe e Gustavo Almeida (Sem link)]()
+- [🎓 Marcus Fillipe e Gustavo Almeida](https://mfillipecivil.github.io/relatorio-eait/)
 - [🎓 Bruno Henrique e Lucas Felipe](https://lucasfelipe31.github.io/eait/ )
+- [🎓 Otávio Augusto e Gregório Grazziotti](https://otavioneiva12.github.io/relatorio_eait/)
 
 
 ## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
@@ -242,9 +243,9 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 > <i class="fas fa-question-circle"></i> **OBJETIVO** 
 >
 > Este relatório será dividido em 3 etapas:
-> - Realizar um introdução ao R, fundamentado nas 26 aulas do [curso R Básico 2024](/courses/ear/rbasico2024/);
+> - Realizar um introdução ao R, fundamentado nas 26 aulas do [curso R Básico 2024](/courses/ear/rbasico2024/) (Sintaxe e Semântica);
 > - Fazer uma revisão sobre a estatística descritiva, que compreende os 4 primeiros capítulos do livro [EPAEC](https://bendeivide.github.io/book-epaec/). Como assunto adicional, pesquise também sobre assimetria e curtose e insira em sua revisão;
-> - A partir de um banco de dados (que envolva a área da Engenharia Civil), use o [pacote leem](/courses/leem/) para realizar uma descrição dos dados (Estatística descritiva), que compreende organizar, tabular, apresentação gráfica, medidas de posição e dispersão, bem como assimetria e curtose.
+> - A partir de um banco de dados (que envolva a área da Engenharia Civil), use o [pacote leem](/courses/leem/) para realizar uma descrição dos dados (Estatística descritiva), que compreende organizar, tabular, apresentação gráfica, medidas de posição e dispersão, bem como assimetria e curtose. Faça uma discussão sobre os resultados encontrados, entendo que apesar de ser feito pelo *leem*, tenham ciência de como as medidas e os demais processos (tabulação, cômputo de medidas, etc.) foram obtidos.
 >
 > **DATA DA ENTREGA:** 
 >
