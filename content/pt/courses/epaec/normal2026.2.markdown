@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-08-18 05:56:18"
+date: "2026-08-19 21:29:43"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -839,38 +839,8 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 {{< icon name="book" pack="fas" >}} **Livro EPAEC:** [Capítulo 1](https://bendeivide.github.io/book-epaec/cap01.html), [Capítulo 2](https://bendeivide.github.io/book-epaec/cap02.html)
 
 
-<i class="fa fa-cogs" aria-hidden="true"></i> **Configuração do experimento**
 
-<div style="margin-left: 20px;">
-
-Para detalhes sobre os níveis, acesse: [Experimento para aulas práticas](#experimentos)
-
-{{< spoiler text="🔭 Desenho experimental - Eng. Tel.">}}
-
-Níveis dos fatores experimentais:
-
-- **O-**: nível II
-- **A+**: nível III
-- **B+**: nível 90°
-- **A-**: nível IV
-
-{{< /spoiler >}}
-
-{{< spoiler text="🔭 Desenho experimental - Eng. Mec.">}}
-
-Níveis dos fatores experimentais:
-
-- **O-**: nível III
-- **A+**: nível II
-- **B+**: nível 100°
-- **A-**: nível II
-
-{{< /spoiler >}}
-
-
-</div>
-
-{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/r-scripts/aula04.R" "newtab" %}}Script Aula 04 (Geral).R{{% /staticref %}}
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/epaec/2026.1/r-scripts/aula04.R" "newtab" %}}Script Aula 04 (Geral).R{{% /staticref %}}, {{% staticref "/epaec/2026.2/r-scripts/aula04.R" "newtab" %}}Script_Aula04(19.08.2026).R{{% /staticref %}}
 
 {{< icon name="book-reader" pack="fas" >}} **Material para consulta**
 

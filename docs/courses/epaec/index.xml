@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.2/</link>
-      <pubDate>Tue, 18 Aug 2026 05:56:18 -0300</pubDate>
+      <pubDate>Wed, 19 Aug 2026 21:29:43 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -793,31 +793,7 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 04&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Tempo:&lt;/strong&gt; 1h 50min.&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Livro EPAEC:&lt;/strong&gt; &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap01.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 1&lt;/a&gt;, &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap02.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fa fa-cogs&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;strong&gt;Configuração do experimento&lt;/strong&gt;&lt;/p&gt;
-&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;Para detalhes sobre os níveis, acesse: &lt;a href=&#34;#experimentos&#34;&gt;Experimento para aulas práticas&lt;/a&gt;&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
-  &lt;summary&gt;🔭 Desenho experimental - Eng. Tel.&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Níveis dos fatores experimentais:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;O-&lt;/strong&gt;: nível II&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A+&lt;/strong&gt;: nível III&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;B+&lt;/strong&gt;: nível 90°&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A-&lt;/strong&gt;: nível IV&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;🔭 Desenho experimental - Eng. Mec.&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Níveis dos fatores experimentais:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;O-&lt;/strong&gt;: nível III&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A+&lt;/strong&gt;: nível II&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;B+&lt;/strong&gt;: nível 100°&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A-&lt;/strong&gt;: nível II&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/r-scripts/aula04.R&#34; target=&#34;_blank&#34;&gt;Script Aula 04 (Geral).R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.1/r-scripts/aula04.R&#34; target=&#34;_blank&#34;&gt;Script Aula 04 (Geral).R&lt;/a&gt;, &lt;a href=&#34;http://bendeivide.github.io/epaec/2026.2/r-scripts/aula04.R&#34; target=&#34;_blank&#34;&gt;Script_Aula04(19.08.2026).R&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-book-reader  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Material para consulta&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
