@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2026.2
-date: "2026-08-13 15:40:06"
+date: "2026-08-24 05:53:16"
 type: book
 weight: 1
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -78,7 +78,11 @@ Segue o link: <https://bendeivide.github.io/profmatma41/>
 
 ## Relatório dos alunos
 
-- [🎓]()
+- [🎓 Ailton Gomes da Silva Machado ](https://ailtonmachado.github.io/profmatma41/)
+- [🎓 Flávia Alves dos Anjos Santos ](https://flaviaalves-profmat.github.io/Relatorio/)
+- [🎓 Luciano Vaz de Oliveira (sem link)]()
+- [🎓 Mário Marcos de Faria (sem link)]()
+- [🎓 Reinado Gomes dos Santos](https://rei-santos.github.io/profmat41/)
 
 ## Ementa
 

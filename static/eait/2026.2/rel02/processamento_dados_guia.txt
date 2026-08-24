@@ -1,0 +1,474 @@
+Sim. A proposta pode ser construída como um **problema real de controle tecnológico do concreto**, em que o aluno não recebe uma base “perfeita”, mas precisa primeiro **entender, diagnosticar, limpar e organizar os dados** antes de realizar as análises estatísticas.
+
+A atividade foi estruturada tomando como referência direta o roteiro da aula enviada: exploração de `data.frame`, `str()`, `summary()`, subconjuntos, `apply()`, `lapply()`, `sapply()`, criação de variáveis, `ifelse()`, estruturas `for`/`if`, além de `tapply()`, `aggregate()`, `split()`, `with()`, `by()`, `within()` e `ave()`.    
+
+## 1. Situação-problema
+
+Imagine que uma empresa de engenharia esteja executando quatro blocos de um empreendimento e tenha realizado ensaios de **controle tecnológico do concreto** durante a execução da obra.
+
+Ao longo de várias semanas, foram coletadas informações referentes aos corpos de prova moldados em diferentes concretagens. Os dados foram posteriormente reunidos por diferentes profissionais da empresa em uma única planilha.
+
+O problema é que a planilha **não foi preenchida de maneira completamente padronizada**. Alguns registros apresentam valores ausentes, erros de digitação, diferenças na forma de representação dos números e alguns valores aparentemente incompatíveis com as demais observações.
+
+O engenheiro responsável pela análise precisa transformar essa planilha bruta em uma **base de dados confiável**, antes de utilizá-la para produzir informações sobre o comportamento do concreto empregado na obra.
+
+Esse tipo de situação é bastante comum na prática profissional: antes de calcular médias, comparar grupos ou construir modelos estatísticos, o profissional precisa verificar **se os dados realmente podem ser utilizados**.
+
+A tarefa do aluno será atuar como o profissional responsável pelo **processamento e preparação da base de dados**, utilizando a linguagem **R e, preferencialmente, os recursos de Base R trabalhados em sala**.
+
+---
+
+# 2. Base de dados
+
+A base contém **100 observações e 10 variáveis**.
+
+| Variável                | Tipo esperado | Descrição                                    |
+| ----------------------- | ------------- | -------------------------------------------- |
+| `id_corpo_prova`        | qualitativa   | Identificação do corpo de prova              |
+| `obra`                  | qualitativa   | Bloco da obra onde ocorreu a concretagem     |
+| `tipo_concreto`         | qualitativa   | Classe do concreto: C25, C30, C35 ou C40     |
+| `idade_dias`            | quantitativa  | Idade do corpo de prova no momento do ensaio |
+| `resistencia_mpa`       | quantitativa  | Resistência à compressão, em MPa             |
+| `cimento_kg_m3`         | quantitativa  | Consumo de cimento, em kg/m³                 |
+| `relacao_a_c`           | quantitativa  | Relação água/cimento                         |
+| `abatimento_mm`         | quantitativa  | Abatimento do concreto, em mm                |
+| `densidade_kg_m3`       | quantitativa  | Densidade aparente do concreto, em kg/m³     |
+| `absorção_agregado_pct` | quantitativa  | Absorção de água do agregado, em %           |
+
+A base foi propositalmente construída com **problemas de qualidade de dados** para que o aluno tenha que descobri-los durante o processamento.
+
+# 3. Problemas inseridos propositalmente
+
+Há diferentes tipos de problemas na base, incluindo:
+
+* valores ausentes (`NA`);
+* números utilizando vírgula decimal;
+* erros de digitação;
+* caracteres inseridos em variáveis que deveriam ser numéricas;
+* valores com ordem de grandeza aparentemente incorreta;
+* casas decimais deslocadas;
+* inconsistência na capitalização de categorias;
+* espaços adicionais em categorias.
+
+O interessante pedagogicamente é **não informar ao aluno previamente onde estão esses problemas**. Assim, a primeira etapa da atividade será justamente descobrir a estrutura e a qualidade da base.
+
+Por exemplo, o aluno poderá perceber que uma variável que deveria ser quantitativa foi importada como `character`, investigar a razão e decidir como proceder.
+
+Isso reproduz uma situação muito mais próxima do trabalho profissional do que simplesmente entregar uma base perfeitamente organizada.
+
+---
+
+# 4. Questões propostas aos alunos
+
+Eu sugiro organizar a atividade em **cinco etapas progressivas**.
+
+## Etapa 1 — Conhecendo a base
+
+### Questão 1
+
+Importe a base de dados no R e atribua-a a um objeto chamado `dados`.
+
+### Questão 2
+
+Quantas observações e quantas variáveis existem na base?
+
+### Questão 3
+
+Apresente a estrutura da base utilizando uma função apropriada do R.
+
+**Objetivo:** fazer o aluno utilizar `str()`.
+
+### Questão 4
+
+Apresente um resumo das variáveis da base.
+
+Quais informações chamam sua atenção?
+
+### Questão 5
+
+Quais variáveis foram reconhecidas pelo R como quantitativas e quais foram reconhecidas como qualitativas?
+
+### Questão 6
+
+Verifique a existência de valores ausentes na base.
+
+* Quantos valores ausentes existem?
+* Em quais variáveis?
+* Em quais observações eles aparecem?
+
+---
+
+# 5. Etapa 2 — Investigando problemas nos dados
+
+Aqui começa a parte mais interessante da atividade.
+
+### Questão 7
+
+Verifique se existem valores que parecem incompatíveis com o contexto de engenharia civil.
+
+Por exemplo:
+
+* idade dos corpos de prova;
+* resistência à compressão;
+* abatimento;
+* densidade;
+* relação água/cimento;
+* absorção.
+
+Crie códigos que permitam localizar essas observações.
+
+### Questão 8
+
+Existem valores que podem ser considerados **possíveis erros de digitação**?
+
+Localize-os e apresente os respectivos registros completos.
+
+### Questão 9
+
+Verifique se todas as categorias de `obra` estão escritas de forma padronizada.
+
+### Questão 10
+
+Verifique se todas as categorias de `tipo_concreto` estão padronizadas.
+
+Existe alguma categoria que possa representar o mesmo tipo de concreto que outra, mas esteja escrita de maneira diferente?
+
+### Questão 11
+
+Verifique os tipos das variáveis novamente após identificar os problemas.
+
+**Pergunta para reflexão:**
+
+> Por que um único valor digitado incorretamente pode alterar a maneira como o R interpreta uma variável inteira?
+
+Essa questão é particularmente interessante para discutir a importância de `str()` e da estrutura dos objetos em R.
+
+---
+
+# 6. Etapa 3 — Limpeza da base
+
+Agora o aluno deverá produzir uma nova base:
+
+```r
+dados_limpos
+```
+
+sem modificar diretamente a base original.
+
+### Questão 12
+
+Crie uma versão da base destinada ao processamento.
+
+```r
+dados_limpos <- dados
+```
+
+### Questão 13
+
+Corrija os problemas encontrados nos nomes/categorias das variáveis qualitativas.
+
+### Questão 14
+
+Converta as variáveis que deveriam ser quantitativas para o tipo adequado.
+
+### Questão 15
+
+Identifique os valores ausentes.
+
+O que você considera mais adequado:
+
+* excluir as observações;
+* substituir os valores;
+* manter os `NA`;
+* procurar a informação original?
+
+Justifique sua decisão.
+
+### Questão 16
+
+Depois da limpeza, verifique novamente:
+
+```r
+str(dados_limpos)
+summary(dados_limpos)
+```
+
+O que mudou em relação à base original?
+
+---
+
+# 7. Etapa 4 — Explorando os dados
+
+Agora podemos retomar várias ferramentas da aula.
+
+### Questão 17 — Resistência média
+
+Qual é a resistência média à compressão dos corpos de prova?
+
+Faça também o cálculo da resistência média por:
+
+* bloco da obra;
+* tipo de concreto;
+* idade do corpo de prova.
+
+Aqui o aluno poderá utilizar `tapply()`.
+
+---
+
+### Questão 18 — Comparação entre obras
+
+Qual bloco apresentou a maior resistência média?
+
+Qual apresentou a menor?
+
+---
+
+### Questão 19 — Tipo de concreto
+
+Calcule a resistência média para cada classe:
+
+* C25;
+* C30;
+* C35;
+* C40.
+
+Qual classe apresentou maior resistência média?
+
+---
+
+### Questão 20 — `aggregate()`
+
+Utilizando `aggregate()`, obtenha simultaneamente a média de:
+
+* resistência;
+* consumo de cimento;
+* relação água/cimento;
+* abatimento;
+* densidade.
+
+Faça isso para cada tipo de concreto.
+
+---
+
+# 8. Etapa 5 — Criando novas variáveis
+
+Aqui podemos reproduzir a parte da aula referente à criação de variáveis derivadas e ao uso de `ifelse()`. 
+
+### Questão 21
+
+Crie uma variável chamada:
+
+```r
+resistencia_relativa
+```
+
+representando a razão entre a resistência observada e a resistência de referência da classe do concreto.
+
+---
+
+### Questão 22
+
+Crie uma variável denominada:
+
+```r
+classificacao
+```
+
+classificando os corpos de prova em categorias definidas pelo aluno.
+
+Por exemplo, uma classificação poderia considerar a resistência observada em relação à resistência de referência do concreto.
+
+O aluno deverá **justificar os critérios utilizados**.
+
+---
+
+### Questão 23
+
+Crie uma variável indicando se a resistência do corpo de prova está **acima ou abaixo da resistência média de seu respectivo tipo de concreto**.
+
+Por exemplo:
+
+```r
+acima_media
+```
+
+com valores `TRUE` e `FALSE`.
+
+---
+
+# 9. Questões envolvendo `split()`, `lapply()` e `sapply()`
+
+### Questão 24
+
+Utilize `split()` para dividir a base de dados de acordo com:
+
+```r
+tipo_concreto
+```
+
+Quantas observações existem em cada grupo?
+
+---
+
+### Questão 25
+
+Utilizando a estrutura criada com `split()`, calcule a resistência média de cada tipo de concreto utilizando `lapply()`.
+
+---
+
+### Questão 26
+
+Repita a operação utilizando `sapply()`.
+
+Qual é a diferença entre os resultados produzidos por `lapply()` e `sapply()`?
+
+Essa questão dialoga diretamente com o conteúdo da aula, em que `lapply()` retorna uma lista e `sapply()` procura simplificar o resultado. 
+
+---
+
+# 10. Questões envolvendo `apply()`
+
+### Questão 27
+
+Selecione as variáveis quantitativas relacionadas às propriedades do concreto e utilize `apply()` para calcular a média de cada variável.
+
+---
+
+### Questão 28
+
+Utilize `apply()` para obter, para cada observação, uma medida resumo envolvendo as variáveis quantitativas selecionadas.
+
+Discuta:
+
+> Essa medida resumo possui necessariamente uma interpretação física direta?
+
+Essa é uma boa oportunidade para mostrar ao aluno que **saber aplicar uma função estatística não significa necessariamente que o resultado tenha interpretação científica**.
+
+---
+
+# 11. Questões com `for` e `if`
+
+### Questão 29
+
+Utilizando `for` e `if`, percorra as 100 observações e identifique os corpos de prova cuja resistência esteja acima da resistência média de sua respectiva classe de concreto.
+
+Não utilize `ifelse()` nessa questão.
+
+---
+
+### Questão 30
+
+Repita a questão anterior utilizando uma abordagem vetorizada.
+
+Compare as duas soluções.
+
+Qual código você considera:
+
+* mais simples;
+* mais legível;
+* mais eficiente?
+
+---
+
+# 12. Questões mais próximas da prática profissional
+
+Estas seriam, na minha opinião, as questões mais interessantes para uma disciplina de **Estatística Aplicada em um programa de pós-graduação**.
+
+### Questão 31
+
+O engenheiro responsável afirma:
+
+> "Os concretos utilizados no Bloco C apresentam desempenho superior aos utilizados nos demais blocos."
+
+Utilize a base de dados para verificar se os dados **dão suporte a essa afirmação descritiva**.
+
+Não é necessário realizar um teste de hipótese neste momento. O objetivo é explorar os dados.
+
+---
+
+### Questão 32
+
+Outro engenheiro afirma:
+
+> "Quanto maior o consumo de cimento, maior tende a ser a resistência do concreto."
+
+Utilize a base para investigar essa afirmação.
+
+Quais variáveis devem ser analisadas conjuntamente?
+
+---
+
+### Questão 33
+
+Investigue a relação entre:
+
+```text
+relação água/cimento
+```
+
+e
+
+```text
+resistência à compressão
+```
+
+Os dados apresentam algum padrão que mereça investigação?
+
+---
+
+### Questão 34
+
+Compare a resistência média dos concretos com diferentes idades.
+
+O que acontece com a resistência à medida que aumenta a idade do corpo de prova?
+
+---
+
+### Questão 35
+
+O controle tecnológico da empresa precisa produzir um relatório.
+
+Quais **cinco informações estatísticas** você considera mais importantes para apresentar ao engenheiro responsável?
+
+Justifique sua escolha.
+
+---
+
+# 13. Desafio final
+
+Eu colocaria uma última questão aberta para fechar a atividade:
+
+> **Você recebeu uma planilha produzida por diferentes profissionais da empresa e não sabe quais erros foram cometidos durante a coleta e digitação. Desenvolva um script em R capaz de realizar uma inspeção inicial da base, identificar possíveis problemas, produzir uma versão limpa dos dados e gerar um pequeno relatório descritivo sobre a qualidade do concreto.**
+>
+> O script deverá ser organizado de forma que outro engenheiro consiga compreender as etapas realizadas.
+
+Isso transforma a atividade de uma sequência de comandos em um **pequeno projeto de análise de dados**.
+
+---
+
+## Arquivos da atividade
+
+Preparei uma base com **100 observações × 10 variáveis**, contendo deliberadamente os problemas de qualidade de dados descritos acima:
+
+**[Baixar a base de dados — CSV](sandbox:/mnt/data/base_processamento_dados_engenharia_civil.csv)**
+
+Também preparei um **script inicial em R**, para o aluno começar a atividade:
+
+**[Baixar o script da atividade — R](sandbox:/mnt/data/atividade_processamento_dados_engenharia_civil.R)**
+
+### Uma sugestão didática importante
+
+Eu **não entregaria aos alunos a lista dos erros inseridos na base**. Entregaria somente a situação-problema, a descrição das variáveis e as perguntas.
+
+Assim, a atividade passa a ter três níveis:
+
+**1. Diagnóstico →** "O que há de errado com os dados?"
+
+**2. Tratamento →** "Como posso corrigir ou lidar com o problema?"
+
+**3. Análise →** "O que os dados nos dizem sobre o concreto?"
+
+Isso se encaixa muito bem na progressão da sua aula, que parte da inspeção de `data.frame` e `summary()` e avança para manipulação, agrupamento, criação de variáveis e estruturas de controle.  
+
+Se a intenção for usar isso como **atividade avaliativa da disciplina**, a próxima evolução interessante seria transformar essa proposta em um **enunciado formal de atividade**, com **objetivos, competências, instruções de entrega, critérios de avaliação/rubrica e espaço para o aluno desenvolver o script em R**, mantendo a solução dos problemas deliberadamente fora do enunciado.
+

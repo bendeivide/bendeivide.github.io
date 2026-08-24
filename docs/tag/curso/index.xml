@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/tag/curso/</link>
       <atom:link href="http://bendeivide.github.io/tag/curso/index.xml" rel="self" type="application/rss+xml" />
     <description>Curso</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 19 Aug 2026 21:29:43 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 24 Aug 2026 16:53:01 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Curso</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/eait/normal2026.2/</link>
-      <pubDate>Wed, 19 Aug 2026 06:52:53 -0300</pubDate>
+      <pubDate>Mon, 24 Aug 2026 16:53:01 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/eait/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -36,22 +36,28 @@
     &lt;li&gt;&lt;a href=&#34;#exerc_entregar&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#lrel&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#vejatbmn&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#quiz&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;/details&gt;
 
 &lt;h2 id=&#34;apresentacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Apresentação&lt;/h2&gt;
-&lt;p&gt;Curso Estatística Aplicada a Inovações Tecnológicas (EAIT) oferecido no formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
+&lt;p&gt;Curso Estatística Aplicada a Inovações Tecnológicas (EAIT) oferecido no
+formato presencial pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 60h por semestre&lt;/p&gt;
 &lt;h2 id=&#34;topicos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-map&#34;&gt;&lt;/i&gt; Tópicos abordados&lt;/h2&gt;
-&lt;p&gt;Introdução ao R; extração, transformação e carregamento de dados; estatística descritiva; inferência estatística; introdução a planejamento de experimentos; análise gráfica exploratória; gráficos interativos; relatórios estatísticos e dinâmicos; &lt;em&gt;dashboards&lt;/em&gt;; apresentações; páginas Web estatísticas e dinâmicas.&lt;/p&gt;
+&lt;p&gt;Introdução ao R; extração, transformação e carregamento de dados;
+estatística descritiva; inferência estatística; introdução a
+planejamento de experimentos; análise gráfica exploratória; gráficos
+interativos; relatórios estatísticos e dinâmicos; &lt;em&gt;dashboards&lt;/em&gt;;
+apresentações; páginas Web estatísticas e dinâmicas.&lt;/p&gt;
 &lt;h2 id=&#34;onde&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-globe&#34;&gt;&lt;/i&gt; Onde?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
-Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para os alunos do Metrado Porfissional em Inovações Tecniológicas;&lt;/li&gt;
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para os alunos do Metrado
+Porfissional em Inovações Tecniológicas;&lt;/li&gt;
 &lt;li&gt;Aulas gravadas e postadas em:
 &lt;ul&gt;
 &lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
@@ -73,12 +79,13 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
 aulas&lt;/a&gt;:
 &lt;div class=&#34;responsive-wrap&#34;&gt;
-      &lt;iframe src=&#34;https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;&lt;/li&gt;
+    &lt;iframe src=&#34;https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;whatsapp&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-whatsapp&#34;&gt;&lt;/i&gt; Grupo de Whatsapp&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chat.whatsapp.com/BVzgpXGYEYVDwJvkIDDqA4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Link&lt;/em&gt; (Só clicar!!!)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chat.whatsapp.com/BVzgpXGYEYVDwJvkIDDqA4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Link&lt;/em&gt; (Só
+clicar!!!)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- ## &lt;i class=&#34;fas fa-file-contract&#34;&gt;&lt;/i&gt; Preenchimento de dados para as avaliações {id=&#34;formulario&#34; title=&#34;Clique aqui!&#34;} --&gt;
 &lt;!-- &lt;div class=&#34;responsive-wrap&#34;&gt;
@@ -89,7 +96,8 @@ aulas&lt;/a&gt;:
 &lt;li&gt;Turma 2026.2 (&lt;a href=&#34;&#34;&gt;Link&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-list-ol&#34;&gt;&lt;/i&gt; Ementa&lt;/h2&gt;
-&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do CAP/UFSJ&lt;/p&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do
+CAP/UFSJ&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
   &lt;p&gt;&lt;ol&gt;
@@ -107,14 +115,16 @@ aulas&lt;/a&gt;:
 &lt;/details&gt;
 &lt;h2 id=&#34;metodologia&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fab fa-readme&#34;&gt;&lt;/i&gt; Metodologia&lt;/h2&gt;
 &lt;p&gt;Nossas aulas serão divididas de acordo com as 36 semanas de aula. As
-aulas serão expositivas e dialogadas com os alunos presencialmente, conectando a todo momento as nossas demandas a página de relatórios via web. Ainda, usaremos o ambiente R para o desenvolvimento de todas as atividades, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
+aulas serão expositivas e dialogadas com os alunos presencialmente,
+conectando a todo momento as nossas demandas a página de relatórios via
+web. Ainda, usaremos o ambiente R para o desenvolvimento de todas as
+atividades, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Motivação:
 &lt;ul&gt;
-&lt;li&gt;Levantamento do conhecimento prévio dos alunos em relação ao
-tema;&lt;/li&gt;
-&lt;li&gt;Apresentação de algumas situações práticas para a compreensão
-dos tópicos a serem abordados;&lt;/li&gt;
+&lt;li&gt;Levantamento do conhecimento prévio dos alunos em relação ao tema;&lt;/li&gt;
+&lt;li&gt;Apresentação de algumas situações práticas para a compreensão dos
+tópicos a serem abordados;&lt;/li&gt;
 &lt;li&gt;Exposição dos objetivos da aula.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -130,9 +140,14 @@ abordado.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;2 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para
+os alunos matriculados na disciplina, também será possível acompanhar o
+material pelo portal didático. Nossas aulas terão &lt;strong&gt;2 (quatro) horas
+semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
 &lt;!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube &lt;https://youtube.com/bendeivide&gt;. --&gt;
-&lt;p&gt;Iremos utilizar o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt; e &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Iremos utilizar o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;,
+&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;
+e &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;avaliacao&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-award&#34;&gt;&lt;/i&gt; Avaliação&lt;/h2&gt;
@@ -140,10 +155,24 @@ abordado.&lt;/li&gt;
 &lt;!-- - [Planilha de Notas (Engenharia de Telecomunicações)](https://docs.google.com/spreadsheets/d/1vZHMVeUxkG4iEzkhigjahRB2ahnJD2pepK7sGk68V1E/edit#gid=0) --&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; e  &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.&lt;/p&gt;
-&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina.&lt;/p&gt;
-&lt;p&gt;O discente que perder algum relatório ou atividade avaliativa referente aos 20% dos pontos informados anteriormente, deverá solicitar a coordenadoria de seu curso uma segunda chamada para tal atividade perdida, justificando a ausência da entrega. Sendo deferida pela coordação, faremos a segunda chamada de tal atividade.&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e
+práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;,
+&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; e
+&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80%
+distribuído aos relatórios, e 20% distribuídos aos nossos testes
+rápidos, trabalhos ou qualquer outra dinâmica que consiga obter
+informações da captação de conhecimento no momento da aula.&lt;/p&gt;
+&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60
+pontos e não poderá faltar mais de 25% das aulas. O discente que não for
+aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o
+conteúdo da disciplina.&lt;/p&gt;
+&lt;p&gt;O discente que perder algum relatório ou atividade avaliativa referente
+aos 20% dos pontos informados anteriormente, deverá solicitar a
+coordenadoria de seu curso uma segunda chamada para tal atividade
+perdida, justificando a ausência da entrega. Sendo deferida pela
+coordação, faremos a segunda chamada de tal atividade.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;bibiografia&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-book&#34;&gt;&lt;/i&gt; Bibliografia adotada para a disciplina&lt;/h2&gt;
@@ -151,27 +180,35 @@ abordado.&lt;/li&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R DEVELOPMENT CORE TEAM. &lt;em&gt;R: A Language and Environment for Statistical Computing&lt;/em&gt;. Vienna, Austria, 2025. Disponível em: &lt;a href=&#34;http://www.R-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.R-project.org/&lt;/a&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R DEVELOPMENT CORE TEAM. &lt;em&gt;R: A Language and Environment for
+Statistical Computing&lt;/em&gt;. Vienna, Austria, 2025. Disponível em:
+&amp;lt;http://www.R-project.org/&amp;gt;.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BATISTA, B. D. O.; OLIVEIRA, D. A. B. J.. &lt;strong&gt;R básico&lt;/strong&gt;. Ouro Branco, MG: [s.n.]. 2022.
-(Estudando o Ambiente R, v.1). ISBN 978-65-00-51600-5. Disponível em: https://
+&lt;p&gt;&lt;a href=&#34;https://bendeivide.github.io/books/eambr01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BATISTA, B. D. O.; OLIVEIRA, D. A. B. J.. &lt;strong&gt;R básico&lt;/strong&gt;. Ouro Branco,
+MG: \[s.n.\]. 2022. (Estudando o Ambiente R, v.1). ISBN
+978-65-00-51600-5. Disponível em: https://
 bendeivide.github.io/book-eambr01/.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://ggplot2-book.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wickham, H. &lt;em&gt;ggplot2: Elegant Graphics for Data Analysis&lt;/em&gt;. 2ª ed. Springer, 2018.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ggplot2-book.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wickham, H. &lt;em&gt;ggplot2: Elegant Graphics for Data Analysis&lt;/em&gt;. 2ª ed.
+Springer, 2018.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://adv-r.hadley.nz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wickham, H. &lt;em&gt;Advanced R&lt;/em&gt;. 2ª ed. Chapman and Hall/CRC, 2019.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://adv-r.hadley.nz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wickham, H. &lt;em&gt;Advanced R&lt;/em&gt;. 2ª ed. Chapman and Hall/CRC,
+2019.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://mastering-shiny.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wickham, H. &lt;em&gt;Mastering Shiny&lt;/em&gt;. O’Reilly Media, 2021.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mastering-shiny.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wickham, H. &lt;em&gt;Mastering Shiny&lt;/em&gt;. O&amp;rsquo;Reilly Media,
+2021.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://r4ds.hadley.nz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wickham, H.; Grolemund, G. &lt;em&gt;R for Data Science&lt;/em&gt;. O’Reilly Media, 2023.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://r4ds.hadley.nz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wickham, H.; Grolemund, G. &lt;em&gt;R for Data Science&lt;/em&gt;. O&amp;rsquo;Reilly Media,
+2023.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://clauswilke.com/dataviz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wilke, C. O. &lt;em&gt;Fundamentals of Data Visualization&lt;/em&gt;. O’Reilly Media, 2016.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://clauswilke.com/dataviz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wilke, C. O. &lt;em&gt;Fundamentals of Data Visualization&lt;/em&gt;. O&amp;rsquo;Reilly Media,
+2016.&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -193,12 +230,17 @@ bendeivide.github.io/book-eambr01/.&lt;/a&gt;&lt;/p&gt;
 &lt;/center&gt;
 &lt;h2 id=&#34;exerc_entregar&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marcoantonio2026.github.io/relatorio_eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Matheus Gonçalves Marco Antônio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jmalta97.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Jair Malta e Wesley Rodrigues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marcoantonio2026.github.io/relatorio_eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Matheus Gonçalves Marco
+Antônio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jmalta97.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Jair Malta e Wesley
+Rodrigues&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mcfcoelho1.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Maria Clara&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mfillipecivil.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Marcus Fillipe e Gustavo Almeida&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lucasfelipe31.github.io/eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Bruno Henrique e Lucas Felipe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://otavioneiva12.github.io/relatorio_eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Otávio Augusto e Gregório Grazziotti&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mfillipecivil.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Marcus Fillipe e Gustavo
+Almeida&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lucasfelipe31.github.io/eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Bruno Henrique e Lucas
+Felipe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://otavioneiva12.github.io/relatorio_eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Otávio Augusto e Gregório
+Grazziotti&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;lrel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 30px;&#34;&gt;
@@ -316,17 +358,31 @@ bendeivide.github.io/book-eambr01/.&lt;/a&gt;&lt;/p&gt;
   &lt;summary&gt;🗒 Relatório 1 (Clique!) - 24/08/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Relatório&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 24/08/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 18h&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 24/08/2026
+&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 18h&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Este relatório será dividido em 3 etapas:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Realizar um introdução ao R, fundamentado nas 26 aulas do &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico2024/&#34;&gt;curso R Básico 2024&lt;/a&gt; (Sintaxe e Semântica);&lt;/li&gt;
-&lt;li&gt;Fazer uma revisão sobre a estatística descritiva, que compreende os 4 primeiros capítulos do livro &lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;. Como assunto adicional, pesquise também sobre assimetria e curtose e insira em sua revisão;&lt;/li&gt;
-&lt;li&gt;A partir de um banco de dados (que envolva a área da Engenharia Civil), use o &lt;a href=&#34;http://bendeivide.github.io/courses/leem/&#34;&gt;pacote leem&lt;/a&gt; para realizar uma descrição dos dados (Estatística descritiva), que compreende organizar, tabular, apresentação gráfica, medidas de posição e dispersão, bem como assimetria e curtose. Faça uma discussão sobre os resultados encontrados, entendo que apesar de ser feito pelo &lt;em&gt;leem&lt;/em&gt;, tenham ciência de como as medidas e os demais processos (tabulação, cômputo de medidas, etc.) foram obtidos.&lt;/li&gt;
+&lt;li&gt;Realizar um introdução ao R, fundamentado nas 26 aulas do &lt;a href=&#34;http://bendeivide.github.io/courses/ear/rbasico2024/&#34;&gt;curso R
+Básico 2024&lt;/a&gt; (Sintaxe e Semântica);&lt;/li&gt;
+&lt;li&gt;Fazer uma revisão sobre a estatística descritiva, que compreende os
+4 primeiros capítulos do livro
+&lt;a href=&#34;https://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;. Como assunto
+adicional, pesquise também sobre assimetria e curtose e insira em
+sua revisão;&lt;/li&gt;
+&lt;li&gt;A partir de um banco de dados (que envolva a área da Engenharia
+Civil), use o &lt;a href=&#34;http://bendeivide.github.io/courses/leem/&#34;&gt;pacote leem&lt;/a&gt; para realizar uma
+descrição dos dados (Estatística descritiva), que compreende
+organizar, tabular, apresentação gráfica, medidas de posição e
+dispersão, bem como assimetria e curtose. Faça uma discussão sobre
+os resultados encontrados, entendo que apesar de ser feito pelo
+&lt;em&gt;leem&lt;/em&gt;, tenham ciência de como as medidas e os demais processos
+(tabulação, cômputo de medidas, etc.) foram obtidos.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -336,49 +392,390 @@ bendeivide.github.io/book-eambr01/.&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 1 --&gt;
-&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
-&lt;p&gt;Em desenvolvimento&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;vejatbmn&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-eye&#34;&gt;&lt;/i&gt; Veja também&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;http://bendeivide.github.io/courses/epaec/remoto/&#34;
-target=&#34;_blank&#34;&gt;Ensino remoto 2021.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-tv  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;http://bendeivide.github.io/courses/epaec/remoto2022.1/&#34;
-target=&#34;_blank&#34;&gt;Ensino remoto 2022.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-podcast  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;http://bendeivide.github.io/courses/epaec/podcasts/&#34;
-target=&#34;_blank&#34;&gt;Podcasts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-feather  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;http://bendeivide.github.io/courses/epaec/exerresolvidos/&#34;
-target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;http://bendeivide.github.io/courses/ear/rbasico/&#34;
-target=&#34;_blank&#34;&gt;Curso EAR: R básico&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-guitar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;http://bendeivide.github.io/project/cantest/&#34;
-target=&#34;_blank&#34;&gt;Cantando com a Estatística&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-video  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;http://bendeivide.github.io/courses/epaec/videoaulas/&#34;
-target=&#34;_blank&#34;&gt;Vídeos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-  &lt;i class=&#34;fas fa-file  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a
-href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
-target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 2 (Clique!) - 31/08/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; Dados: &lt;a href=&#34;http://bendeivide.github.io/eait/2026.2/rel02/base_processamento_dados_engenharia_civil.csv&#34; target=&#34;_blank&#34;&gt;base_processamento_dados_engenharia_civil.csv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/eait/2026.2/rel02/atividade_processamento_dados_engenharia_civil.R&#34; target=&#34;_blank&#34;&gt;atividade_processamento_dados_engenharia_civil.R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 31/08/2026
+&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 18h&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O objetivo desta atividade é desenvolver a capacidade de &lt;strong&gt;inspecionar, diagnosticar, organizar, limpar e explorar uma base de dados proveniente de uma situação prática da Engenharia Civil&lt;/strong&gt;, utilizando a linguagem R e, preferencialmente, os recursos de &lt;strong&gt;Base R&lt;/strong&gt; trabalhados em sala de aula.&lt;/p&gt;
+&lt;p&gt;Na prática profissional, o engenheiro frequentemente recebe dados provenientes de diferentes fontes: planilhas preenchidas por técnicos, resultados de ensaios de laboratório, registros de obras e informações coletadas em campo. Antes de realizar qualquer análise estatística, é necessário verificar se os dados estão completos, se os tipos das variáveis estão corretos, se existem erros de digitação e se os valores são coerentes com o fenômeno estudado.&lt;/p&gt;
+&lt;p&gt;Nesta atividade, você assumirá o papel de um engenheiro responsável pelo processamento de dados de &lt;strong&gt;controle tecnológico do concreto&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; &lt;strong&gt;CONTEXTUALIZAÇÃO DA BASE DE DADOS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Imagine que uma empresa de Engenharia Civil esteja executando diferentes blocos de um empreendimento. Durante a execução da obra, foram realizados ensaios e registros relacionados ao concreto utilizado nas concretagens.&lt;/p&gt;
+&lt;p&gt;Os dados foram reunidos posteriormente em uma única planilha. Entretanto, diferentes profissionais participaram da coleta e da digitação das informações. Por esse motivo, a base contém alguns problemas que podem ocorrer em situações reais, tais como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;valores ausentes;&lt;/li&gt;
+&lt;li&gt;erros de digitação;&lt;/li&gt;
+&lt;li&gt;números registrados de maneira inadequada;&lt;/li&gt;
+&lt;li&gt;uso de vírgula decimal em alguns registros;&lt;/li&gt;
+&lt;li&gt;valores com ordem de grandeza aparentemente incorreta;&lt;/li&gt;
+&lt;li&gt;casas decimais deslocadas;&lt;/li&gt;
+&lt;li&gt;categorias escritas de maneiras diferentes;&lt;/li&gt;
+&lt;li&gt;espaços adicionais em alguns registros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Os problemas não foram identificados previamente.&lt;/strong&gt; Uma das tarefas do engenheiro é justamente descobrir quais problemas existem e decidir como tratá-los.&lt;/p&gt;
+&lt;p&gt;A base possui &lt;strong&gt;100 observações e 10 variáveis&lt;/strong&gt;. Cada linha representa um corpo de prova ou registro de controle, enquanto as colunas representam características relacionadas ao concreto.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Variável&lt;/th&gt;
+&lt;th&gt;Descrição&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;id_corpo_prova&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Identificação do corpo de prova&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;obra&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Bloco da obra onde ocorreu a concretagem&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;tipo_concreto&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Classe do concreto: C25, C30, C35 ou C40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;idade_dias&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Idade do corpo de prova no momento do ensaio&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;resistencia_mpa&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Resistência à compressão, em MPa&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;cimento_kg_m3&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Consumo de cimento, em kg/m³&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;relacao_a_c&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Relação água/cimento&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;abatimento_mm&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Abatimento do concreto, em mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;densidade_kg_m3&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Densidade aparente do concreto, em kg/m³&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;absorção_agregado_pct&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Absorção de água do agregado, em %&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;O objetivo não é simplesmente obter números. Espera-se que você consiga &lt;strong&gt;justificar as decisões tomadas durante o processamento da base&lt;/strong&gt; e utilizar o R para transformar dados brutos em informações úteis para a tomada de decisão na Engenharia Civil.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-cogs&#34;&gt;&lt;/i&gt; &lt;strong&gt;PREPARAÇÃO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Coloque o arquivo &lt;code&gt;base_processamento_dados_engenharia_civil.csv&lt;/code&gt; no mesmo diretório do seu relatorio &lt;code&gt;/rel02/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;A base deverá ser importada no R e armazenada no objeto &lt;code&gt;dados&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados &amp;lt;- read.csv2(
+  &amp;quot;base_processamento_dados_engenharia_civil.csv&amp;quot;,
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Orientação:&lt;/strong&gt; não altere diretamente a base original. Sempre que necessário, crie novos objetos ou uma cópia denominada &lt;code&gt;dados_limpos&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 1 — Conhecendo a base&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 1&lt;/p&gt;
+&lt;p&gt;Importe a base de dados no R e atribua-a ao objeto &lt;code&gt;dados&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Verifique se a importação foi realizada corretamente.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 2&lt;/p&gt;
+&lt;p&gt;Quantas observações e quantas variáveis existem na base?&lt;/p&gt;
+&lt;p&gt;Apresente um código R que permita responder à questão.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 3&lt;/p&gt;
+&lt;p&gt;Apresente a estrutura da base utilizando uma função apropriada do R.&lt;/p&gt;
+&lt;p&gt;Analise o resultado obtido.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 4&lt;/p&gt;
+&lt;p&gt;Apresente um resumo das variáveis da base.&lt;/p&gt;
+&lt;p&gt;Quais informações chamam sua atenção?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 5&lt;/p&gt;
+&lt;p&gt;Quais variáveis foram reconhecidas pelo R como quantitativas e quais foram reconhecidas como qualitativas?&lt;/p&gt;
+&lt;p&gt;Justifique sua resposta a partir da estrutura apresentada pelo R.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 6&lt;/p&gt;
+&lt;p&gt;Verifique a existência de valores ausentes na base.&lt;/p&gt;
+&lt;p&gt;Responda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantos valores ausentes existem?&lt;/li&gt;
+&lt;li&gt;Em quais variáveis eles aparecem?&lt;/li&gt;
+&lt;li&gt;Em quais observações eles aparecem?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 2 — Investigando problemas nos dados&lt;/p&gt;
+&lt;p&gt;Nesta etapa, o objetivo é identificar possíveis problemas de qualidade da informação antes de realizar análises estatísticas.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 7&lt;/p&gt;
+&lt;p&gt;Verifique se existem valores que parecem incompatíveis com o contexto da Engenharia Civil.&lt;/p&gt;
+&lt;p&gt;Considere, entre outras, as variáveis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;idade dos corpos de prova;&lt;/li&gt;
+&lt;li&gt;resistência à compressão;&lt;/li&gt;
+&lt;li&gt;abatimento;&lt;/li&gt;
+&lt;li&gt;densidade;&lt;/li&gt;
+&lt;li&gt;relação água/cimento;&lt;/li&gt;
+&lt;li&gt;absorção.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Crie códigos que permitam localizar as observações potencialmente problemáticas.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 8&lt;/p&gt;
+&lt;p&gt;Existem valores que podem ser considerados possíveis erros de digitação?&lt;/p&gt;
+&lt;p&gt;Localize-os e apresente os respectivos registros completos.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 9&lt;/p&gt;
+&lt;p&gt;Verifique se todas as categorias da variável &lt;code&gt;obra&lt;/code&gt; estão escritas de forma padronizada.&lt;/p&gt;
+&lt;p&gt;Caso encontre alguma inconsistência, identifique-a.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 10&lt;/p&gt;
+&lt;p&gt;Verifique se todas as categorias de &lt;code&gt;tipo_concreto&lt;/code&gt; estão padronizadas.&lt;/p&gt;
+&lt;p&gt;Existe alguma categoria que possa representar o mesmo tipo de concreto que outra, mas esteja escrita de maneira diferente?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 11&lt;/p&gt;
+&lt;p&gt;Verifique novamente os tipos das variáveis depois de identificar os problemas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Por que um único valor digitado incorretamente pode alterar a maneira como o R interpreta uma variável inteira?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 3 — Limpeza da base&lt;/p&gt;
+&lt;p&gt;Nesta etapa, você deverá produzir uma versão da base destinada às análises.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 12&lt;/p&gt;
+&lt;p&gt;Crie uma cópia da base original chamada &lt;code&gt;dados_limpos&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados_limpos &amp;lt;- dados
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Por que é recomendável preservar a base original?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 13&lt;/p&gt;
+&lt;p&gt;Corrija os problemas encontrados nas variáveis qualitativas, de modo que suas categorias fiquem padronizadas.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 14&lt;/p&gt;
+&lt;p&gt;Converta para o tipo adequado as variáveis que deveriam ser quantitativas.&lt;/p&gt;
+&lt;p&gt;Verifique se a conversão foi realizada corretamente.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 15&lt;/p&gt;
+&lt;p&gt;Identifique os valores ausentes.&lt;/p&gt;
+&lt;p&gt;Discuta qual procedimento seria mais adequado para cada situação:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;excluir a observação;&lt;/li&gt;
+&lt;li&gt;substituir o valor;&lt;/li&gt;
+&lt;li&gt;manter o &lt;code&gt;NA&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;consultar a fonte original dos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Justifique suas decisões.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 16&lt;/p&gt;
+&lt;p&gt;Depois da limpeza, verifique novamente:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;str(dados_limpos)
+summary(dados_limpos)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;O que mudou em relação à base original?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 4 — Explorando os dados&lt;/p&gt;
+&lt;p&gt;Agora que a base foi inspecionada e tratada, utilize as ferramentas de manipulação e processamento estudadas em aula.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 17 — Resistência média&lt;/p&gt;
+&lt;p&gt;Calcule a resistência média à compressão dos corpos de prova.&lt;/p&gt;
+&lt;p&gt;Calcule também a resistência média por:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bloco da obra;&lt;/li&gt;
+&lt;li&gt;tipo de concreto;&lt;/li&gt;
+&lt;li&gt;idade do corpo de prova.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 18 — Comparação entre obras&lt;/p&gt;
+&lt;p&gt;Qual bloco da obra apresentou a maior resistência média?&lt;/p&gt;
+&lt;p&gt;Qual apresentou a menor?&lt;/p&gt;
+&lt;p&gt;Apresente os códigos utilizados para responder à questão.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 19 — Tipo de concreto&lt;/p&gt;
+&lt;p&gt;Calcule a resistência média para cada classe de concreto:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C25;&lt;/li&gt;
+&lt;li&gt;C30;&lt;/li&gt;
+&lt;li&gt;C35;&lt;/li&gt;
+&lt;li&gt;C40.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Qual classe apresentou a maior resistência média?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 20 — Utilizando &lt;code&gt;aggregate()&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Utilizando &lt;code&gt;aggregate()&lt;/code&gt;, obtenha a média das seguintes variáveis para cada tipo de concreto:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;resistência;&lt;/li&gt;
+&lt;li&gt;consumo de cimento;&lt;/li&gt;
+&lt;li&gt;relação água/cimento;&lt;/li&gt;
+&lt;li&gt;abatimento;&lt;/li&gt;
+&lt;li&gt;densidade.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Interprete os resultados obtidos.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 5 — Criando novas variáveis&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 21&lt;/p&gt;
+&lt;p&gt;Crie uma variável chamada &lt;code&gt;resistencia_relativa&lt;/code&gt;, representando a razão entre a resistência observada e uma resistência de referência associada à classe do concreto.&lt;/p&gt;
+&lt;p&gt;Explique como você definiu a resistência de referência para cada classe.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 22&lt;/p&gt;
+&lt;p&gt;Crie uma variável denominada &lt;code&gt;classificacao&lt;/code&gt;, classificando os corpos de prova segundo um critério relacionado à resistência.&lt;/p&gt;
+&lt;p&gt;Você deverá definir os critérios utilizados e justificá-los tecnicamente.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 23&lt;/p&gt;
+&lt;p&gt;Crie uma variável denominada &lt;code&gt;acima_media&lt;/code&gt;, indicando se a resistência do corpo de prova está acima ou abaixo da resistência média de seu respectivo tipo de concreto.&lt;/p&gt;
+&lt;p&gt;A variável deverá assumir valores &lt;code&gt;TRUE&lt;/code&gt; ou &lt;code&gt;FALSE&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 6 — Utilizando &lt;code&gt;split()&lt;/code&gt;, &lt;code&gt;lapply()&lt;/code&gt; e &lt;code&gt;sapply()&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 24&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;split()&lt;/code&gt; para dividir a base de dados de acordo com a variável &lt;code&gt;tipo_concreto&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Quantas observações existem em cada grupo?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 25&lt;/p&gt;
+&lt;p&gt;Utilizando a estrutura criada com &lt;code&gt;split()&lt;/code&gt;, calcule a resistência média de cada tipo de concreto utilizando &lt;code&gt;lapply()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 26&lt;/p&gt;
+&lt;p&gt;Repita a operação utilizando &lt;code&gt;sapply()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Explique a diferença entre os resultados produzidos por &lt;code&gt;lapply()&lt;/code&gt; e &lt;code&gt;sapply()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 7 — Utilizando &lt;code&gt;apply()&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 27&lt;/p&gt;
+&lt;p&gt;Selecione as variáveis quantitativas relacionadas às propriedades do concreto e utilize &lt;code&gt;apply()&lt;/code&gt; para calcular a média de cada variável.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 28&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;apply()&lt;/code&gt; para obter, para cada observação, uma medida resumo envolvendo as variáveis quantitativas selecionadas.&lt;/p&gt;
+&lt;p&gt;Discuta:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Essa medida resumo possui necessariamente uma interpretação física direta?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Explique sua resposta.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 8 — Estruturas &lt;code&gt;for&lt;/code&gt; e &lt;code&gt;if&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 29&lt;/p&gt;
+&lt;p&gt;Utilizando &lt;code&gt;for&lt;/code&gt; e &lt;code&gt;if&lt;/code&gt;, percorra as 100 observações e identifique os corpos de prova cuja resistência esteja acima da resistência média de sua respectiva classe de concreto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Não utilize &lt;code&gt;ifelse()&lt;/code&gt; nesta questão.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 30&lt;/p&gt;
+&lt;p&gt;Repita a questão anterior utilizando uma abordagem vetorizada.&lt;/p&gt;
+&lt;p&gt;Compare as duas soluções.&lt;/p&gt;
+&lt;p&gt;Qual código você considera:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mais simples;&lt;/li&gt;
+&lt;li&gt;mais legível;&lt;/li&gt;
+&lt;li&gt;mais eficiente?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Justifique.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Etapa 9 — Questões próximas da prática profissional&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 31&lt;/p&gt;
+&lt;p&gt;O engenheiro responsável afirma:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Os concretos utilizados no Bloco C apresentam desempenho superior aos utilizados nos demais blocos.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Utilize a base de dados para verificar se os dados dão suporte a essa afirmação &lt;strong&gt;em termos descritivos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Não é necessário realizar um teste de hipótese. O objetivo é explorar os dados.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 32&lt;/p&gt;
+&lt;p&gt;Outro engenheiro afirma:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Quanto maior o consumo de cimento, maior tende a ser a resistência do concreto.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Utilize a base para investigar essa afirmação.&lt;/p&gt;
+&lt;p&gt;Quais variáveis devem ser analisadas conjuntamente?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 33&lt;/p&gt;
+&lt;p&gt;Investigue a relação entre:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;relação água/cimento;&lt;/li&gt;
+&lt;li&gt;resistência à compressão.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Os dados apresentam algum padrão que mereça investigação?&lt;/p&gt;
+&lt;p&gt;Apresente sua análise e interprete os resultados.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 34&lt;/p&gt;
+&lt;p&gt;Compare a resistência média dos concretos com diferentes idades.&lt;/p&gt;
+&lt;p&gt;O que acontece com a resistência à medida que aumenta a idade do corpo de prova?&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Questão 35&lt;/p&gt;
+&lt;p&gt;O controle tecnológico da empresa precisa produzir um relatório para o engenheiro responsável.&lt;/p&gt;
+&lt;p&gt;Quais &lt;strong&gt;cinco informações estatísticas&lt;/strong&gt; você considera mais importantes para apresentar?&lt;/p&gt;
+&lt;p&gt;Justifique a escolha de cada uma.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Desafio final — O engenheiro responsável pelos dados&lt;/p&gt;
+&lt;p&gt;Você recebeu uma planilha produzida por diferentes profissionais da empresa e não sabe previamente quais erros foram cometidos durante a coleta e a digitação.&lt;/p&gt;
+&lt;p&gt;Desenvolva um &lt;strong&gt;script em R&lt;/strong&gt; capaz de:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;realizar uma inspeção inicial da base;&lt;/li&gt;
+&lt;li&gt;identificar possíveis problemas;&lt;/li&gt;
+&lt;li&gt;verificar valores ausentes;&lt;/li&gt;
+&lt;li&gt;identificar inconsistências nas variáveis;&lt;/li&gt;
+&lt;li&gt;produzir uma versão limpa dos dados;&lt;/li&gt;
+&lt;li&gt;gerar estatísticas descritivas relevantes;&lt;/li&gt;
+&lt;li&gt;criar pelo menos duas variáveis derivadas;&lt;/li&gt;
+&lt;li&gt;produzir informações que possam auxiliar o engenheiro responsável pela obra.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;O script deverá ser organizado de forma que &lt;strong&gt;outro engenheiro consiga compreender as etapas realizadas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; Requisitos do desafio&lt;/p&gt;
+&lt;p&gt;Procure utilizar, sempre que possível, as ferramentas de &lt;strong&gt;Base R trabalhadas em aula&lt;/strong&gt;, tais como:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;str()
+summary()
+subset()
+apply()
+lapply()
+sapply()
+ifelse()
+for
+if
+tapply()
+aggregate()
+split()
+with()
+by()
+within()
+ave()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Não é necessário utilizar todas as funções.&lt;/p&gt;
+&lt;p&gt;O mais importante é que o código seja &lt;strong&gt;coerente com o problema, organizado e justificável&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Reflexão final&lt;/p&gt;
+&lt;p&gt;Depois de concluir a atividade, responda:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Por que o processamento e a limpeza dos dados são etapas fundamentais antes da aplicação de métodos estatísticos na Engenharia Civil?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Em seguida, descreva brevemente &lt;strong&gt;qual foi o principal problema encontrado na base e qual decisão você tomou para tratá-lo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Entrega&lt;/p&gt;
+&lt;p&gt;A entrega deverá conter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;o arquivo da base de dados;&lt;/li&gt;
+&lt;li&gt;o código R desenvolvido;&lt;/li&gt;
+&lt;li&gt;os resultados obtidos;&lt;/li&gt;
+&lt;li&gt;as justificativas das decisões tomadas durante o processamento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O objetivo principal não é apenas produzir respostas numéricas, mas demonstrar que você consegue &lt;strong&gt;usar o R para transformar uma base de dados bruta em uma fonte de informação confiável para a tomada de decisão na Engenharia Civil&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 18h do dia 31/08/2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 2 --&gt;
+&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação da disciplina e Introdução ao R&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 01 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II), &lt;em&gt;R Markdown&lt;/em&gt;, Quarto e &lt;em&gt;Github&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 03 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Como desenvolver nossos relatórios de avaliação&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 03 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Estatística Descritiva&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 04 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte I)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/eait/2026.2/EAIT2026.2_AULA05.R&#34; target=&#34;_blank&#34;&gt;Script Aula 05.R&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 05 --&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
@@ -395,7 +792,7 @@ target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
     <item>
       <title>📚 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</link>
-      <pubDate>Thu, 13 Aug 2026 15:40:06 -0300</pubDate>
+      <pubDate>Mon, 24 Aug 2026 05:53:16 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</guid>
       <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática
@@ -458,7 +855,11 @@ aulas&lt;/a&gt;:&lt;/li&gt;
 &lt;/iframe&gt;
 &lt;h2 id=&#34;relatório-dos-alunos&#34;&gt;Relatório dos alunos&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ailtonmachado.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Ailton Gomes da Silva Machado &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://flaviaalves-profmat.github.io/Relatorio/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Flávia Alves dos Anjos Santos &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 Luciano Vaz de Oliveira (sem link)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 Mário Marcos de Faria (sem link)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rei-santos.github.io/profmat41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Reinado Gomes dos Santos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
@@ -2986,7 +3387,7 @@ Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; 
     <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.2/</link>
-      <pubDate>Wed, 19 Aug 2026 21:29:43 -0300</pubDate>
+      <pubDate>Mon, 24 Aug 2026 12:57:29 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;

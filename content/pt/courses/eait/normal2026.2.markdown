@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "Apresentaremos ferramentas tecnológicas e estatísticas de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R para a disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT). Avaliaremos a aprendizagem dos alunos através de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-08-19 06:52:53"
+date: "2026-08-24 16:53:01"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -19,40 +19,45 @@ editor_options:
 
 ## <i class="fas fa-chalkboard-teacher"></i> Apresentação {id="apresentacao" title="Clique aqui!"}
 
-Curso Estatística Aplicada a Inovações Tecnológicas (EAIT) oferecido no formato presencial pela [UFSJ](http://ufsj.edu.br/), campus Alto Paraopeba ([CAP](http://ufsj.edu.br/cap/)), Ouro Branco/MG.
+Curso Estatística Aplicada a Inovações Tecnológicas (EAIT) oferecido no
+formato presencial pela [UFSJ](http://ufsj.edu.br/), campus Alto
+Paraopeba ([CAP](http://ufsj.edu.br/cap/)), Ouro Branco/MG.
 
 {{< icon name="clock" pack="fas" >}} 60h por semestre
 
 ## <i class="fas fa-map"></i> Tópicos abordados {id="topicos" title="Clique aqui!"}
 
-Introdução ao R; extração, transformação e carregamento de dados; estatística descritiva; inferência estatística; introdução a planejamento de experimentos; análise gráfica exploratória; gráficos interativos; relatórios estatísticos e dinâmicos; *dashboards*; apresentações; páginas Web estatísticas e dinâmicas.
-
-
+Introdução ao R; extração, transformação e carregamento de dados;
+estatística descritiva; inferência estatística; introdução a
+planejamento de experimentos; análise gráfica exploratória; gráficos
+interativos; relatórios estatísticos e dinâmicos; *dashboards*;
+apresentações; páginas Web estatísticas e dinâmicas.
 
 ## <i class="fa fa-globe"></i> Onde? {id="onde" title="Clique aqui!"}
 
--   O curso é ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
-    Paraopeba ([CAP](http://ufsj.edu.br/cap/)), para os alunos do Metrado Porfissional em Inovações Tecniológicas;
--   Aulas gravadas e postadas em:
-    -   canal: <http://youtube.com/bendeivide>
--   Aulas presenciais:
-    -  segunda-feira (18:45 - 20:50, sala 25 - Prédio da Eng. Civil);
-    -  segunda-feira (17:00 - 17:45, sala 25 - Prédio da Eng. Civil);
-    
+- O curso é ministrado na [UFSJ](http://ufsj.edu.br/), campus Alto
+  Paraopeba ([CAP](http://ufsj.edu.br/cap/)), para os alunos do Metrado
+  Porfissional em Inovações Tecniológicas;
+- Aulas gravadas e postadas em:
+  - canal: <http://youtube.com/bendeivide>
+- Aulas presenciais:
+  - segunda-feira (18:45 - 20:50, sala 25 - Prédio da Eng. Civil);
+  - segunda-feira (17:00 - 17:45, sala 25 - Prédio da Eng. Civil);
+
 ## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
 
--   Calendário
+- Calendário
 
 <img src="/pt/courses/eait/normal2026.2_files/figure-html/unnamed-chunk-1-1.png" alt="" width="110%" />
 
--   [Cronograma de
-    aulas](https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing):
-    {{< gdocs src="https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing" >}}
+- [Cronograma de
+  aulas](https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing):
+  {{< gdocs src="https://docs.google.com/document/d/179QAbYXEktzicbfXWWWTGqkvXg_yTHQt34cqZCZa-QA/edit?usp=sharing" >}}
 
 ## <i class="fab fa-whatsapp"></i> Grupo de Whatsapp {id="whatsapp" title="Clique aqui!"}
 
-- [*Link* (Só clicar!!!)](https://chat.whatsapp.com/BVzgpXGYEYVDwJvkIDDqA4)
-
+- [*Link* (Só
+  clicar!!!)](https://chat.whatsapp.com/BVzgpXGYEYVDwJvkIDDqA4)
 
 <!-- ## <i class="fas fa-file-contract"></i> Preenchimento de dados para as avaliações {id="formulario" title="Clique aqui!"} -->
 
@@ -60,11 +65,12 @@ Introdução ao R; extração, transformação e carregamento de dados; estatís
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
--   Turma 2026.2 ([Link]())
+- Turma 2026.2 ([Link]())
 
 ## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
-Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do CAP/UFSJ
+Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do
+CAP/UFSJ
 
 {{< spoiler text="Acesse a ementa do curso">}}
 1. INTRODUÇÃO A LINGUAGEM R
@@ -81,29 +87,35 @@ Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) do CAP/U
 ## <i class="fab fa-readme"></i> Metodologia {id="metodologia" title="Clique aqui!"}
 
 Nossas aulas serão divididas de acordo com as 36 semanas de aula. As
-aulas serão expositivas e dialogadas com os alunos presencialmente, conectando a todo momento as nossas demandas a página de relatórios via web. Ainda, usaremos o ambiente R para o desenvolvimento de todas as atividades, constituída pela seguinte estratégia de ensino:
+aulas serão expositivas e dialogadas com os alunos presencialmente,
+conectando a todo momento as nossas demandas a página de relatórios via
+web. Ainda, usaremos o ambiente R para o desenvolvimento de todas as
+atividades, constituída pela seguinte estratégia de ensino:
 
--   Motivação:
-    -   Levantamento do conhecimento prévio dos alunos em relação ao
-        tema;
-    -   Apresentação de algumas situações práticas para a compreensão
-        dos tópicos a serem abordados;
-    -   Exposição dos objetivos da aula.
--   Desenvolvimento:
-    -   Introdução ao assunto abordado;
-    -   Apresentação de definições e teoremas envolvidos;
-    -   Aplicação de softwares estatísticos, quando for pertinente;
-    -   Exemplos e aplicações na estatística e área do curso, do assunto
-        abordado.
+- Motivação:
+  - Levantamento do conhecimento prévio dos alunos em relação ao tema;
+  - Apresentação de algumas situações práticas para a compreensão dos
+    tópicos a serem abordados;
+  - Exposição dos objetivos da aula.
+- Desenvolvimento:
+  - Introdução ao assunto abordado;
+  - Apresentação de definições e teoremas envolvidos;
+  - Aplicação de softwares estatísticos, quando for pertinente;
+  - Exemplos e aplicações na estatística e área do curso, do assunto
+    abordado.
 
 {{< spoiler text="Detalhamento da metodologia">}}
 
-Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **2 (quatro) horas semanais de aulas presenciais**, um total de 60h.
+Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para
+os alunos matriculados na disciplina, também será possível acompanhar o
+material pelo portal didático. Nossas aulas terão **2 (quatro) horas
+semanais de aulas presenciais**, um total de 60h.
 
 <!-- Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube <https://youtube.com/bendeivide>. -->
 
-Iremos utilizar o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) [Quarto](https://quarto.org/) e [Github](https://github.com/).
-{{< /spoiler >}}
+Iremos utilizar o [R](https://www.r-project.org/),
+[$\LaTeX$](https://www.latex-project.org/) [Quarto](https://quarto.org/)
+e [Github](https://github.com/). {{< /spoiler >}}
 
 ## <i class="fas fa-award"></i> Avaliação {id="avaliacao" title="Clique aqui!"}
 
@@ -113,43 +125,63 @@ Iremos utilizar o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-
 
 {{< spoiler text="Segue um detalhamento das nossas avaliações">}}
 
-Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) e  [Quarto](https://quarto.org/), integrando estes relatórios ao [Github](https://github.com/). 
+Faremos toda semana relatórios baseado em nossas aula teóricas e
+práticas, usando o [R](https://www.r-project.org/),
+[$\LaTeX$](https://www.latex-project.org/) e
+[Quarto](https://quarto.org/), integrando estes relatórios ao
+[Github](https://github.com/).
 
-A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.
+A disciplina terá uma pontuação total de 10 pontos, sendo 80%
+distribuído aos relatórios, e 20% distribuídos aos nossos testes
+rápidos, trabalhos ou qualquer outra dinâmica que consiga obter
+informações da captação de conhecimento no momento da aula.
 
-Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina.
+Para ser aprovado o aluno deverá obter nota final maior ou igual a 60
+pontos e não poderá faltar mais de 25% das aulas. O discente que não for
+aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o
+conteúdo da disciplina.
 
-O discente que perder algum relatório ou atividade avaliativa referente aos 20% dos pontos informados anteriormente, deverá solicitar a coordenadoria de seu curso uma segunda chamada para tal atividade perdida, justificando a ausência da entrega. Sendo deferida pela coordação, faremos a segunda chamada de tal atividade.
+O discente que perder algum relatório ou atividade avaliativa referente
+aos 20% dos pontos informados anteriormente, deverá solicitar a
+coordenadoria de seu curso uma segunda chamada para tal atividade
+perdida, justificando a ausência da entrega. Sendo deferida pela
+coordação, faremos a segunda chamada de tal atividade.
 
 {{< /spoiler >}}
-
 
 ## <i class="fa fa-book"></i> Bibliografia adotada para a disciplina {id="bibiografia" title="Clique aqui!"}
 
 {{< spoiler text="Bibliografia detalhada">}}
 
-- [R DEVELOPMENT CORE TEAM. *R: A Language and Environment for Statistical Computing*. Vienna, Austria, 2025. Disponível em: <http://www.R-project.org/>.](https://www.r-project.org/)
+- [R DEVELOPMENT CORE TEAM. *R: A Language and Environment for
+  Statistical Computing*. Vienna, Austria, 2025. Disponível em:
+  \<http://www.R-project.org/\>.](https://www.r-project.org/)
 
-- [BATISTA, B. D. O.; OLIVEIRA, D. A. B. J.. **R básico**. Ouro Branco, MG: [s.n.]. 2022.
-(Estudando o Ambiente R, v.1). ISBN 978-65-00-51600-5. Disponível em: https://
-bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/)
+- [BATISTA, B. D. O.; OLIVEIRA, D. A. B. J.. **R básico**. Ouro Branco,
+  MG: \[s.n.\]. 2022. (Estudando o Ambiente R, v.1). ISBN
+  978-65-00-51600-5. Disponível em: https://
+  bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/)
 
-- [Wickham, H. *ggplot2: Elegant Graphics for Data Analysis*. 2ª ed. Springer, 2018.](https://ggplot2-book.org/)
+- [Wickham, H. *ggplot2: Elegant Graphics for Data Analysis*. 2ª ed.
+  Springer, 2018.](https://ggplot2-book.org/)
 
-- [Wickham, H. *Advanced R*. 2ª ed. Chapman and Hall/CRC, 2019.](https://adv-r.hadley.nz/)
+- [Wickham, H. *Advanced R*. 2ª ed. Chapman and Hall/CRC,
+  2019.](https://adv-r.hadley.nz/)
 
-- [Wickham, H. *Mastering Shiny*. O’Reilly Media, 2021.](https://mastering-shiny.org/)
+- [Wickham, H. *Mastering Shiny*. O'Reilly Media,
+  2021.](https://mastering-shiny.org/)
 
-- [Wickham, H.; Grolemund, G. *R for Data Science*. O’Reilly Media, 2023.](https://r4ds.hadley.nz/)
+- [Wickham, H.; Grolemund, G. *R for Data Science*. O'Reilly Media,
+  2023.](https://r4ds.hadley.nz/)
 
-- [Wilke, C. O. *Fundamentals of Data Visualization*. O’Reilly Media, 2016.](https://clauswilke.com/dataviz/)
-
+- [Wilke, C. O. *Fundamentals of Data Visualization*. O'Reilly Media,
+  2016.](https://clauswilke.com/dataviz/)
 
 {{< /spoiler >}}
 
 ## <i class="fas fa-book-open"></i> Material adotado {id="matadotado" title="Clique aqui!"}
 
--   Livro referência: [R4ds](https://r4ds.hadley.nz/)
+- Livro referência: [R4ds](https://r4ds.hadley.nz/)
 
 {{< spoiler text="Materiais complementares">}}
 
@@ -157,8 +189,7 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 {{< /spoiler >}}
 
-
-## <i class="fab fa-r-project"></i> -> <i class="fa fa-globe" aria-hidden="true"></i> Modelo de Relatório R para *Web* {id="relatorio" title="Clique aqui!"}
+## <i class="fab fa-r-project"></i> -\> <i class="fa fa-globe" aria-hidden="true"></i> Modelo de Relatório R para *Web* {id="relatorio" title="Clique aqui!"}
 
 <center>
 
@@ -166,16 +197,19 @@ bendeivide.github.io/book-eambr01/.](https://bendeivide.github.io/books/eambr01/
 
 </center>
 
-
 ## <i class="fas fa-feather"></i> Lista alunos {id="exerc_entregar" title="Clique aqui!"}
 
-- [🎓 Matheus Gonçalves Marco Antônio](https://marcoantonio2026.github.io/relatorio_eait/)
-- [🎓 Jair Malta e Wesley Rodrigues](https://jmalta97.github.io/relatorio-eait/)
+- [🎓 Matheus Gonçalves Marco
+  Antônio](https://marcoantonio2026.github.io/relatorio_eait/)
+- [🎓 Jair Malta e Wesley
+  Rodrigues](https://jmalta97.github.io/relatorio-eait/)
 - [🎓 Maria Clara](https://mcfcoelho1.github.io/relatorio-eait/)
-- [🎓 Marcus Fillipe e Gustavo Almeida](https://mfillipecivil.github.io/relatorio-eait/)
-- [🎓 Bruno Henrique e Lucas Felipe](https://lucasfelipe31.github.io/eait/ )
-- [🎓 Otávio Augusto e Gregório Grazziotti](https://otavioneiva12.github.io/relatorio_eait/)
-
+- [🎓 Marcus Fillipe e Gustavo
+  Almeida](https://mfillipecivil.github.io/relatorio-eait/)
+- [🎓 Bruno Henrique e Lucas
+  Felipe](https://lucasfelipe31.github.io/eait/)
+- [🎓 Otávio Augusto e Gregório
+  Grazziotti](https://otavioneiva12.github.io/relatorio_eait/)
 
 ## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
 
@@ -232,61 +266,551 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 
 </div>
 
-{{< spoiler text="🗒 Relatório 1 (Clique!) - 24/08/2026 ">}}
+{{< spoiler text="🗒 Relatório 1 (Clique!) - 24/08/2026">}}
 
 - <i class="fas fa-upload"></i> Entrega: Via Github
-- <i class="fas fa-file"></i> Formato: [Modelo de Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
-- <i class="fas fa-calendar-check"></i> 24/08/2026 <i class="fas fa-clock"></i> 18h
+- <i class="fas fa-file"></i> Formato: [Modelo de
+  Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 24/08/2026
+  <i class="fas fa-clock"></i> 18h
 
----
+------------------------------------------------------------------------
 
-> <i class="fas fa-question-circle"></i> **OBJETIVO** 
+> <i class="fas fa-question-circle"></i> **OBJETIVO**
 >
 > Este relatório será dividido em 3 etapas:
-> - Realizar um introdução ao R, fundamentado nas 26 aulas do [curso R Básico 2024](/courses/ear/rbasico2024/) (Sintaxe e Semântica);
-> - Fazer uma revisão sobre a estatística descritiva, que compreende os 4 primeiros capítulos do livro [EPAEC](https://bendeivide.github.io/book-epaec/). Como assunto adicional, pesquise também sobre assimetria e curtose e insira em sua revisão;
-> - A partir de um banco de dados (que envolva a área da Engenharia Civil), use o [pacote leem](/courses/leem/) para realizar uma descrição dos dados (Estatística descritiva), que compreende organizar, tabular, apresentação gráfica, medidas de posição e dispersão, bem como assimetria e curtose. Faça uma discussão sobre os resultados encontrados, entendo que apesar de ser feito pelo *leem*, tenham ciência de como as medidas e os demais processos (tabulação, cômputo de medidas, etc.) foram obtidos.
 >
-> **DATA DA ENTREGA:** 
+> - Realizar um introdução ao R, fundamentado nas 26 aulas do [curso R
+>   Básico 2024](/courses/ear/rbasico2024/) (Sintaxe e Semântica);
+> - Fazer uma revisão sobre a estatística descritiva, que compreende os
+>   4 primeiros capítulos do livro
+>   [EPAEC](https://bendeivide.github.io/book-epaec/). Como assunto
+>   adicional, pesquise também sobre assimetria e curtose e insira em
+>   sua revisão;
+> - A partir de um banco de dados (que envolva a área da Engenharia
+>   Civil), use o [pacote leem](/courses/leem/) para realizar uma
+>   descrição dos dados (Estatística descritiva), que compreende
+>   organizar, tabular, apresentação gráfica, medidas de posição e
+>   dispersão, bem como assimetria e curtose. Faça uma discussão sobre
+>   os resultados encontrados, entendo que apesar de ser feito pelo
+>   *leem*, tenham ciência de como as medidas e os demais processos
+>   (tabulação, cômputo de medidas, etc.) foram obtidos.
 >
->  - Até às 18h do dia 24/08/2026 
+> **DATA DA ENTREGA:**
+>
+> - Até às 18h do dia 24/08/2026
 
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 1 -->
 
+{{< spoiler text="🗒 Relatório 2 (Clique!) - 31/08/2026">}}
 
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de
+  Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+- <i class="fas fa-database"></i> Dados: {{% staticref "/eait/2026.2/rel02/base_processamento_dados_engenharia_civil.csv" "newtab" %}}base_processamento_dados_engenharia_civil.csv{{% /staticref %}}
+- {{< icon name="r-project" pack="fab" >}} {{% staticref "/eait/2026.2/rel02/atividade_processamento_dados_engenharia_civil.R" "newtab" %}}atividade_processamento_dados_engenharia_civil.R{{% /staticref %}}
+- <i class="fas fa-calendar-check"></i> 31/08/2026
+  <i class="fas fa-clock"></i> 18h
+
+------------------------------------------------------------------------
+
+<i class="fas fa-question-circle"></i> **OBJETIVO**
+
+O objetivo desta atividade é desenvolver a capacidade de **inspecionar, diagnosticar, organizar, limpar e explorar uma base de dados proveniente de uma situação prática da Engenharia Civil**, utilizando a linguagem R e, preferencialmente, os recursos de **Base R** trabalhados em sala de aula.
+
+Na prática profissional, o engenheiro frequentemente recebe dados provenientes de diferentes fontes: planilhas preenchidas por técnicos, resultados de ensaios de laboratório, registros de obras e informações coletadas em campo. Antes de realizar qualquer análise estatística, é necessário verificar se os dados estão completos, se os tipos das variáveis estão corretos, se existem erros de digitação e se os valores são coerentes com o fenômeno estudado.
+
+Nesta atividade, você assumirá o papel de um engenheiro responsável pelo processamento de dados de **controle tecnológico do concreto**.
+
+<i class="fas fa-database"></i> **CONTEXTUALIZAÇÃO DA BASE DE DADOS**
+
+Imagine que uma empresa de Engenharia Civil esteja executando diferentes blocos de um empreendimento. Durante a execução da obra, foram realizados ensaios e registros relacionados ao concreto utilizado nas concretagens.
+
+Os dados foram reunidos posteriormente em uma única planilha. Entretanto, diferentes profissionais participaram da coleta e da digitação das informações. Por esse motivo, a base contém alguns problemas que podem ocorrer em situações reais, tais como:
+
+- valores ausentes;
+- erros de digitação;
+- números registrados de maneira inadequada;
+- uso de vírgula decimal em alguns registros;
+- valores com ordem de grandeza aparentemente incorreta;
+- casas decimais deslocadas;
+- categorias escritas de maneiras diferentes;
+- espaços adicionais em alguns registros.
+
+**Os problemas não foram identificados previamente.** Uma das tarefas do engenheiro é justamente descobrir quais problemas existem e decidir como tratá-los.
+
+A base possui **100 observações e 10 variáveis**. Cada linha representa um corpo de prova ou registro de controle, enquanto as colunas representam características relacionadas ao concreto.
+
+| Variável | Descrição |
+|---|---|
+| `id_corpo_prova` | Identificação do corpo de prova |
+| `obra` | Bloco da obra onde ocorreu a concretagem |
+| `tipo_concreto` | Classe do concreto: C25, C30, C35 ou C40 |
+| `idade_dias` | Idade do corpo de prova no momento do ensaio |
+| `resistencia_mpa` | Resistência à compressão, em MPa |
+| `cimento_kg_m3` | Consumo de cimento, em kg/m³ |
+| `relacao_a_c` | Relação água/cimento |
+| `abatimento_mm` | Abatimento do concreto, em mm |
+| `densidade_kg_m3` | Densidade aparente do concreto, em kg/m³ |
+| `absorção_agregado_pct` | Absorção de água do agregado, em % |
+
+O objetivo não é simplesmente obter números. Espera-se que você consiga **justificar as decisões tomadas durante o processamento da base** e utilizar o R para transformar dados brutos em informações úteis para a tomada de decisão na Engenharia Civil.
+
+<i class="fas fa-cogs"></i> **PREPARAÇÃO**
+
+Coloque o arquivo `base_processamento_dados_engenharia_civil.csv` no mesmo diretório do seu relatorio `/rel02/`.
+
+A base deverá ser importada no R e armazenada no objeto `dados`.
+
+```r
+dados <- read.csv2(
+  "base_processamento_dados_engenharia_civil.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+```
+
+> **Orientação:** não altere diretamente a base original. Sempre que necessário, crie novos objetos ou uma cópia denominada `dados_limpos`.
+
+<i class="fas fa-tasks"></i> Etapa 1 — Conhecendo a base
+
+<i class="fas fa-edit"></i> Questão 1
+
+Importe a base de dados no R e atribua-a ao objeto `dados`.
+
+Verifique se a importação foi realizada corretamente.
+
+<i class="fas fa-edit"></i> Questão 2
+
+Quantas observações e quantas variáveis existem na base?
+
+Apresente um código R que permita responder à questão.
+
+<i class="fas fa-edit"></i> Questão 3
+
+Apresente a estrutura da base utilizando uma função apropriada do R.
+
+Analise o resultado obtido.
+
+<i class="fas fa-edit"></i> Questão 4
+
+Apresente um resumo das variáveis da base.
+
+Quais informações chamam sua atenção?
+
+<i class="fas fa-edit"></i> Questão 5
+
+Quais variáveis foram reconhecidas pelo R como quantitativas e quais foram reconhecidas como qualitativas?
+
+Justifique sua resposta a partir da estrutura apresentada pelo R.
+
+<i class="fas fa-edit"></i> Questão 6
+
+Verifique a existência de valores ausentes na base.
+
+Responda:
+
+- Quantos valores ausentes existem?
+- Em quais variáveis eles aparecem?
+- Em quais observações eles aparecem?
+
+<i class="fas fa-tasks"></i> Etapa 2 — Investigando problemas nos dados
+
+Nesta etapa, o objetivo é identificar possíveis problemas de qualidade da informação antes de realizar análises estatísticas.
+
+<i class="fas fa-edit"></i> Questão 7
+
+Verifique se existem valores que parecem incompatíveis com o contexto da Engenharia Civil.
+
+Considere, entre outras, as variáveis:
+
+- idade dos corpos de prova;
+- resistência à compressão;
+- abatimento;
+- densidade;
+- relação água/cimento;
+- absorção.
+
+Crie códigos que permitam localizar as observações potencialmente problemáticas.
+
+<i class="fas fa-edit"></i> Questão 8
+
+Existem valores que podem ser considerados possíveis erros de digitação?
+
+Localize-os e apresente os respectivos registros completos.
+
+<i class="fas fa-edit"></i> Questão 9
+
+Verifique se todas as categorias da variável `obra` estão escritas de forma padronizada.
+
+Caso encontre alguma inconsistência, identifique-a.
+
+<i class="fas fa-edit"></i> Questão 10
+
+Verifique se todas as categorias de `tipo_concreto` estão padronizadas.
+
+Existe alguma categoria que possa representar o mesmo tipo de concreto que outra, mas esteja escrita de maneira diferente?
+
+<i class="fas fa-edit"></i> Questão 11
+
+Verifique novamente os tipos das variáveis depois de identificar os problemas.
+
+**Questão para reflexão:**
+
+> Por que um único valor digitado incorretamente pode alterar a maneira como o R interpreta uma variável inteira?
+
+<i class="fas fa-tasks"></i> Etapa 3 — Limpeza da base
+
+Nesta etapa, você deverá produzir uma versão da base destinada às análises.
+
+<i class="fas fa-edit"></i> Questão 12
+
+Crie uma cópia da base original chamada `dados_limpos`.
+
+```r
+dados_limpos <- dados
+```
+
+Por que é recomendável preservar a base original?
+
+<i class="fas fa-edit"></i> Questão 13
+
+Corrija os problemas encontrados nas variáveis qualitativas, de modo que suas categorias fiquem padronizadas.
+
+<i class="fas fa-edit"></i> Questão 14
+
+Converta para o tipo adequado as variáveis que deveriam ser quantitativas.
+
+Verifique se a conversão foi realizada corretamente.
+
+<i class="fas fa-edit"></i> Questão 15
+
+Identifique os valores ausentes.
+
+Discuta qual procedimento seria mais adequado para cada situação:
+
+- excluir a observação;
+- substituir o valor;
+- manter o `NA`;
+- consultar a fonte original dos dados.
+
+Justifique suas decisões.
+
+<i class="fas fa-edit"></i> Questão 16
+
+Depois da limpeza, verifique novamente:
+
+```r
+str(dados_limpos)
+summary(dados_limpos)
+```
+
+O que mudou em relação à base original?
+
+<i class="fas fa-tasks"></i> Etapa 4 — Explorando os dados
+
+Agora que a base foi inspecionada e tratada, utilize as ferramentas de manipulação e processamento estudadas em aula.
+
+<i class="fas fa-edit"></i> Questão 17 — Resistência média
+
+Calcule a resistência média à compressão dos corpos de prova.
+
+Calcule também a resistência média por:
+
+- bloco da obra;
+- tipo de concreto;
+- idade do corpo de prova.
+
+<i class="fas fa-edit"></i> Questão 18 — Comparação entre obras
+
+Qual bloco da obra apresentou a maior resistência média?
+
+Qual apresentou a menor?
+
+Apresente os códigos utilizados para responder à questão.
+
+<i class="fas fa-edit"></i> Questão 19 — Tipo de concreto
+
+Calcule a resistência média para cada classe de concreto:
+
+- C25;
+- C30;
+- C35;
+- C40.
+
+Qual classe apresentou a maior resistência média?
+
+<i class="fas fa-edit"></i> Questão 20 — Utilizando `aggregate()`
+
+Utilizando `aggregate()`, obtenha a média das seguintes variáveis para cada tipo de concreto:
+
+- resistência;
+- consumo de cimento;
+- relação água/cimento;
+- abatimento;
+- densidade.
+
+Interprete os resultados obtidos.
+
+<i class="fas fa-tasks"></i> Etapa 5 — Criando novas variáveis
+
+<i class="fas fa-edit"></i> Questão 21
+
+Crie uma variável chamada `resistencia_relativa`, representando a razão entre a resistência observada e uma resistência de referência associada à classe do concreto.
+
+Explique como você definiu a resistência de referência para cada classe.
+
+<i class="fas fa-edit"></i> Questão 22
+
+Crie uma variável denominada `classificacao`, classificando os corpos de prova segundo um critério relacionado à resistência.
+
+Você deverá definir os critérios utilizados e justificá-los tecnicamente.
+
+<i class="fas fa-edit"></i> Questão 23
+
+Crie uma variável denominada `acima_media`, indicando se a resistência do corpo de prova está acima ou abaixo da resistência média de seu respectivo tipo de concreto.
+
+A variável deverá assumir valores `TRUE` ou `FALSE`.
+
+<i class="fas fa-tasks"></i> Etapa 6 — Utilizando `split()`, `lapply()` e `sapply()`
+
+<i class="fas fa-edit"></i> Questão 24
+
+Utilize `split()` para dividir a base de dados de acordo com a variável `tipo_concreto`.
+
+Quantas observações existem em cada grupo?
+
+<i class="fas fa-edit"></i> Questão 25
+
+Utilizando a estrutura criada com `split()`, calcule a resistência média de cada tipo de concreto utilizando `lapply()`.
+
+<i class="fas fa-edit"></i> Questão 26
+
+Repita a operação utilizando `sapply()`.
+
+Explique a diferença entre os resultados produzidos por `lapply()` e `sapply()`.
+
+<i class="fas fa-tasks"></i> Etapa 7 — Utilizando `apply()`
+
+<i class="fas fa-edit"></i> Questão 27
+
+Selecione as variáveis quantitativas relacionadas às propriedades do concreto e utilize `apply()` para calcular a média de cada variável.
+
+<i class="fas fa-edit"></i> Questão 28
+
+Utilize `apply()` para obter, para cada observação, uma medida resumo envolvendo as variáveis quantitativas selecionadas.
+
+Discuta:
+
+> Essa medida resumo possui necessariamente uma interpretação física direta?
+
+Explique sua resposta.
+
+<i class="fas fa-tasks"></i> Etapa 8 — Estruturas `for` e `if`
+
+<i class="fas fa-edit"></i> Questão 29
+
+Utilizando `for` e `if`, percorra as 100 observações e identifique os corpos de prova cuja resistência esteja acima da resistência média de sua respectiva classe de concreto.
+
+**Não utilize `ifelse()` nesta questão.**
+
+<i class="fas fa-edit"></i> Questão 30
+
+Repita a questão anterior utilizando uma abordagem vetorizada.
+
+Compare as duas soluções.
+
+Qual código você considera:
+
+- mais simples;
+- mais legível;
+- mais eficiente?
+
+Justifique.
+
+<i class="fas fa-tasks"></i> Etapa 9 — Questões próximas da prática profissional
+
+<i class="fas fa-edit"></i> Questão 31
+
+O engenheiro responsável afirma:
+
+> "Os concretos utilizados no Bloco C apresentam desempenho superior aos utilizados nos demais blocos."
+
+Utilize a base de dados para verificar se os dados dão suporte a essa afirmação **em termos descritivos**.
+
+Não é necessário realizar um teste de hipótese. O objetivo é explorar os dados.
+
+<i class="fas fa-edit"></i> Questão 32
+
+Outro engenheiro afirma:
+
+> "Quanto maior o consumo de cimento, maior tende a ser a resistência do concreto."
+
+Utilize a base para investigar essa afirmação.
+
+Quais variáveis devem ser analisadas conjuntamente?
+
+<i class="fas fa-edit"></i> Questão 33
+
+Investigue a relação entre:
+
+- relação água/cimento;
+- resistência à compressão.
+
+Os dados apresentam algum padrão que mereça investigação?
+
+Apresente sua análise e interprete os resultados.
+
+<i class="fas fa-edit"></i> Questão 34
+
+Compare a resistência média dos concretos com diferentes idades.
+
+O que acontece com a resistência à medida que aumenta a idade do corpo de prova?
+
+<i class="fas fa-edit"></i> Questão 35
+
+O controle tecnológico da empresa precisa produzir um relatório para o engenheiro responsável.
+
+Quais **cinco informações estatísticas** você considera mais importantes para apresentar?
+
+Justifique a escolha de cada uma.
+
+<i class="fas fa-tasks"></i> Desafio final — O engenheiro responsável pelos dados
+
+Você recebeu uma planilha produzida por diferentes profissionais da empresa e não sabe previamente quais erros foram cometidos durante a coleta e a digitação.
+
+Desenvolva um **script em R** capaz de:
+
+1. realizar uma inspeção inicial da base;
+2. identificar possíveis problemas;
+3. verificar valores ausentes;
+4. identificar inconsistências nas variáveis;
+5. produzir uma versão limpa dos dados;
+6. gerar estatísticas descritivas relevantes;
+7. criar pelo menos duas variáveis derivadas;
+8. produzir informações que possam auxiliar o engenheiro responsável pela obra.
+
+O script deverá ser organizado de forma que **outro engenheiro consiga compreender as etapas realizadas**.
+
+<i class="fas fa-edit"></i> Requisitos do desafio
+
+Procure utilizar, sempre que possível, as ferramentas de **Base R trabalhadas em aula**, tais como:
+
+```r
+str()
+summary()
+subset()
+apply()
+lapply()
+sapply()
+ifelse()
+for
+if
+tapply()
+aggregate()
+split()
+with()
+by()
+within()
+ave()
+```
+
+Não é necessário utilizar todas as funções.
+
+O mais importante é que o código seja **coerente com o problema, organizado e justificável**.
+
+<i class="fas fa-tasks"></i> Reflexão final
+
+Depois de concluir a atividade, responda:
+
+> **Por que o processamento e a limpeza dos dados são etapas fundamentais antes da aplicação de métodos estatísticos na Engenharia Civil?**
+
+Em seguida, descreva brevemente **qual foi o principal problema encontrado na base e qual decisão você tomou para tratá-lo**.
+
+<i class="fas fa-tasks"></i> Entrega
+
+A entrega deverá conter:
+
+- o arquivo da base de dados;
+- o código R desenvolvido;
+- os resultados obtidos;
+- as justificativas das decisões tomadas durante o processamento.
+
+> O objetivo principal não é apenas produzir respostas numéricas, mas demonstrar que você consegue **usar o R para transformar uma base de dados bruta em uma fonte de informação confiável para a tomada de decisão na Engenharia Civil**.
+>
+> **DATA DA ENTREGA:**
+>
+> - Até às 18h do dia 31/08/2026
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 2 -->
 
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
 
-Em desenvolvimento...
+{{< spoiler text="🎓 Aula 1">}}
 
-## <i class="fas fa-eye"></i> Veja também {id="vejatbmn" title="Clique aqui!"}
+<div style="margin-left: 20px;">
 
--   {{< icon name="tv" pack="fas" >}} <a
-    href="{{< relref"courses/epaec/remoto/index.html" >}}"
-    target="_blank">Ensino remoto 2021.2</a>
--   {{< icon name="tv" pack="fas" >}} <a
-    href="{{< relref"courses/epaec/remoto2022.1/index.html" >}}"
-    target="_blank">Ensino remoto 2022.1</a>
--   {{< icon name="podcast" pack="fas" >}} <a
-    href="{{< relref"courses/epaec/podcasts/index.html" >}}"
-    target="_blank">Podcasts</a>
--   {{< icon name="feather" pack="fas" >}} <a
-    href="{{< relref"courses/epaec/exerresolvidos/index.html" >}}"
-    target="_blank">Exercícios resolvidos</a>
--   {{< icon name="r-project" pack="fab" >}} <a
-    href="{{< relref"courses/ear/Rbasico/index" >}}"
-    target="_blank">Curso EAR: R básico</a>
--   {{< icon name="guitar" pack="fas" >}} <a
-    href="{{< relref"project/cantest/index" >}}"
-    target="_blank">Cantando com a Estatística</a>
--   {{< icon name="video" pack="fas" >}} <a
-    href="{{< relref"courses/epaec/videoaulas/index" >}}"
-    target="_blank">Vídeos</a>
--   {{< icon name="file" pack="fas" >}} <a
-    href="{{< relref"courses/epaec/resest/index.html" >}}"
-    target="_blank">Resumos da Estatística</a>
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Apresentação da disciplina e Introdução ao R
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 01 -->
+
+{{< spoiler text="🎓 Aula 2">}}
+
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Introdução ao R (Parte II), *R Markdown*, Quarto e *Github*
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 03 -->
+
+{{< spoiler text="🎓 Aula 3">}}
+
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Como desenvolver nossos relatórios de avaliação
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 03 -->
+
+{{< spoiler text="🎓 Aula 4">}}
+
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Estatística Descritiva
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 04 -->
+
+{{< spoiler text="🎓 Aula 5">}}
+
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Processamento de dados (Parte I)
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/eait/2026.2/EAIT2026.2_AULA05.R" "newtab" %}}Script Aula 05.R{{% /staticref %}}
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 05 -->
+
 
 ## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
 
