@@ -17,7 +17,7 @@
 # Criando vetores
 notas <- c(7.5, 8.0, 6.5, 9.0, 5.5); notas
 alunos <- c("Ana", "Bruno", "Carlos", "Daniela", "Eduardo")
-
+alunos
 # Nomeando elementos
 names(notas) <- alunos; notas
 
@@ -55,7 +55,7 @@ summary(dados)
 # Acessando colunas
 dados$matematica
 dados[, "estatistica"]
-dados[, 2]
+dados[, 2] # matematica
 
 ## -------------------------------
 ## 3. Subconjuntos
@@ -63,18 +63,26 @@ dados[, 2]
 
 # Alunos com nota >= 7 em matemática
 subset(dados, matematica >= 7)
-
+dados |>
+  subset(matematica >= 7) |>
+  summary()
+## Forma sintatica nativa antes do pipe
+res1 <- subset(dados, matematica >= 7)
+res2 <- summary(res1)
+res2
 # Selecionando colunas específicas
 subset(dados, select = c(aluno, programacao))
-
-# Condição múltipla
+subset(dados, programacao >= 8, select = c(aluno, programacao))
+## De forma nativa
+dados$programacao[dados$programacao >= 8]
+# Condicao multipla
 subset(dados, matematica >= 7 & estatistica >= 7)
 
 ## -------------------------------
 ## 4. apply()
 ## -------------------------------
 
-# Média por linha (por aluno)
+# Media por linha (por aluno)
 apply(dados[, 2:4], 1, mean)
 
 # Media por coluna (por disciplina)
@@ -91,13 +99,14 @@ lista_notas <- dados[, 2:4]
 lapply(lista_notas, mean)
 
 # sapply: simplifica resultado
-sapply(lista_notas, mean)
+sapply(lista_notas, mean) # Media por coluna
+sapply(lista_notas, summary) # Resumo por coluna
 
 ## -------------------------------
 ## 6. Criando nova variavel
 ## -------------------------------
 
-# Média geral por aluno
+# Media geral por aluno
 dados$media <- apply(dados[, 2:4], 1, mean)
 
 # Situacao do aluno

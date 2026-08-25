@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "Apresentaremos ferramentas tecnológicas e estatísticas de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R para a disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT). Avaliaremos a aprendizagem dos alunos através de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-08-24 16:53:01"
+date: "2026-08-25 05:46:05"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -772,7 +772,7 @@ A entrega deverá conter:
 
 {{< /spoiler >}}
 
-<!-- Fim da Aula 03 -->
+<!-- Fim da Aula 02 -->
 
 {{< spoiler text="🎓 Aula 3">}}
 
