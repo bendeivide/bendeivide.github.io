@@ -27,9 +27,9 @@ View(vendas)
 vendas$valor_total <- vendas$quantidade * vendas$preco_unitario
 
 # Visualizando os dados
-print("Dataset de Vendas:")
-print(vendas)
-print("Estrutura dos dados:")
+cat("\nDataset de Vendas:")
+vendas
+cat("Estrutura dos dados:")
 glimpse(vendas)  # glimpse(): similar ao str() mas mais amigavel, mostra tipo e primeiros valores
 
 # ===============================================
@@ -44,6 +44,11 @@ vendas_caras <- vendas |>
   filter(valor_total > 5000)  # Mantem apenas linhas onde valor_total eh maior que 5000
 print(paste("Vendas caras (> R$5000):", nrow(vendas_caras), "registros"))
 View(vendas_caras)
+## Imprimindo todas as colunas
+vendas |>
+  filter(valor_total > 5000) |>
+  print(width = Inf)
+  
 
 # Multiplas condicoes (AND - todas devem ser verdadeiras)
 vendas_sp_monitor <- vendas |> 
@@ -53,9 +58,9 @@ View(vendas_sp_monitor)
 
 # Multiplas condicoes (OR - pelo menos uma verdadeira)
 vendas_grandes <- vendas |> 
-  filter(quantidade >= 8 | valor_total > 3000)  # | significa "OU" (pelo menos uma condicao)
+  filter(quantidade >= 8 | valor_total > 3000 )  # | significa "OU" (pelo menos uma condicao)
 print(paste("Vendas grandes (quant>=8 ou valor>3000):", nrow(vendas_grandes), "registros"))
-
+vendas_grandes
 # ============================================
 # 2. SELECT - Selecionar colunas
 # ============================================
@@ -87,7 +92,7 @@ View(vendas_estado)
 
 # Selecionar colunas que contem determinado termo
 vendas_und <- vendas |> 
-  select(contains(""))  # contains(): helper para selecionar colunas que contem determinado termo
+  select(contains("_"))  # contains(): helper para selecionar colunas que contem determinado termo
 print("Colunas que contem '_':")
 print(head(vendas_und))
 View(vendas_und)
@@ -116,13 +121,13 @@ texto1 <- c("pal", "tal", "sal", "mal")
 grep("[pt]al", texto1, value = TRUE)  # Retorna "pal" "tal"
 
 # ------------------------------------------
-# 2. Quantificadores - dígitos
+# 2. Quantificadores - caracteres
 # ------------------------------------------
 
-# \\d{3}  -> 3 dígitos consecutivos
+# \\d{3}  -> pelo menos 3 caracteres consecutivos
 # Exemplos: "123", "456", "789"
-texto2 <- c("123", "456", "789", "12", "1234")
-grep("\\d{3}", texto2, value = TRUE)  # Retorna "123" "456" "789"
+texto2 <- c("123", "456a", "789", "12", "1234")
+grep("\\d{3}", texto2, value = TRUE)  # Retorna "123"  "456a" "789"  "1234"
 
 # ------------------------------------------
 # 3. Classes de caracteres - letras maiúsculas
@@ -211,6 +216,10 @@ vendas_com_imposto <- vendas |>
     desconto = ifelse(valor_total > 3000, valor_total * 0.1, 0),  # ifelse(): condicional
     valor_final = valor_com_imposto - desconto  # Combinação de operações
   )
+# Visualizando
+View(vendas_com_imposto)
+dim(vendas_com_imposto)
+
 cat("Novas colunas criadas (imposto, desconto, etc):")
 vendas_com_imposto |>
   print(
@@ -252,7 +261,7 @@ vendas_por_produto <- vendas |>
     quantidade_total = sum(quantidade),
     receita_media = mean(valor_total)
   ) |> 
-  arrange(desc(receita_total))  # arrange(): ordena resultados
+  arrange(desc(receita_media))  # arrange(): ordena resultados
 cat("Resumo por produto:")
 vendas_por_produto
 
