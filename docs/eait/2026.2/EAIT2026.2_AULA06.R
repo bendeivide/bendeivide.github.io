@@ -1,17 +1,17 @@
 ######################################################################
-# AULA 05 - MANIPULANDO OBJETOS (FAMÍLIA TIDYVERSE)
-# DISCIPLINA: LRCD
+# AULA 06 - PROCESSAMENTO DE DADOS (PARTE II - FAMÍLIA TIDYVERSE)
+# DISCIPLINA: EAIT
 # Prof. Ben Deivide | UFSJ
-# https://bendeivide.github.io/courses/rcd
+# https://bendeivide.github.io/courses/eait
 ######################################################################
 
-# Instalação e carregamento dos pacotes
+# Instalacao e carregamento dos pacotes
 # install.packages("tidyverse")
 library(tidyverse)  # Carrega todos os pacotes do tidyverse (dplyr, ggplot2, tidyr, etc.)
 
 # Criando um dataset de exemplo
-set.seed(123)  # Define semente aleatória para resultados reprodutíveis
-vendas <- tibble(  # tibble: versão moderna do data.frame com melhor impressão e comportamento
+set.seed(123)  # Define semente aleatoria para resultados reprodutíveis
+vendas <- tibble(  # tibble: versao moderna do data.frame com melhor impressao e comportamento
   id = 1:100,
   data = sample(seq(as.Date('2024-01-01'), as.Date('2024-12-31'), by="day"), 100),
   produto = sample(c("Notebook", "Mouse", "Teclado", "Monitor", "Webcam"), 100, replace = TRUE),
@@ -30,28 +30,30 @@ vendas$valor_total <- vendas$quantidade * vendas$preco_unitario
 print("Dataset de Vendas:")
 print(vendas)
 print("Estrutura dos dados:")
-glimpse(vendas)  # glimpse(): similar ao str() mas mais amigável, mostra tipo e primeiros valores
+glimpse(vendas)  # glimpse(): similar ao str() mas mais amigavel, mostra tipo e primeiros valores
 
-# ============================================
-# 1. FILTER - Filtrar linhas baseado em condições
-# ============================================
+# ===============================================
+# 1. FILTER - Filtrar linhas baseado em condicoes
+# ===============================================
 
 print("=== FILTER ===")
-# filter(): seleciona linhas que atendem a condições booleanas
+# filter(): seleciona linhas que atendem a condicoes booleanas
 
 # Filtrar vendas com valor total > 5000
 vendas_caras <- vendas |> 
-  filter(valor_total > 5000)  # Mantém apenas linhas onde valor_total é maior que 5000
+  filter(valor_total > 5000)  # Mantem apenas linhas onde valor_total eh maior que 5000
 print(paste("Vendas caras (> R$5000):", nrow(vendas_caras), "registros"))
+View(vendas_caras)
 
-# Múltiplas condições (AND - todas devem ser verdadeiras)
+# Multiplas condicoes (AND - todas devem ser verdadeiras)
 vendas_sp_monitor <- vendas |> 
-  filter(categoria == "Eletrônicos" & cliente_estado == "SP")  # & significa "E" (ambas condições)
+  filter(categoria == "Eletrônicos" & cliente_estado == "SP")  # & significa "E" (ambas condicoes)
 print(paste("Vendas de Eletrônicos em SP:", nrow(vendas_sp_monitor), "registros"))
+View(vendas_sp_monitor)
 
-# Múltiplas condições (OR - pelo menos uma verdadeira)
+# Multiplas condicoes (OR - pelo menos uma verdadeira)
 vendas_grandes <- vendas |> 
-  filter(quantidade >= 8 | valor_total > 3000)  # | significa "OU" (pelo menos uma condição)
+  filter(quantidade >= 8 | valor_total > 3000)  # | significa "OU" (pelo menos uma condicao)
 print(paste("Vendas grandes (quant>=8 ou valor>3000):", nrow(vendas_grandes), "registros"))
 
 # ============================================
@@ -59,19 +61,43 @@ print(paste("Vendas grandes (quant>=8 ou valor>3000):", nrow(vendas_grandes), "r
 # ============================================
 
 print("=== SELECT ===")
-# select(): escolhe colunas específicas para manter ou remover
+# select(): escolhe colunas especificas para manter ou remover
 
 # Selecionar colunas específicas
 vendas_resumido <- vendas |> 
-  select(id, data, produto, quantidade, valor_total)  # Mantém apenas estas colunas
+  select(id, data, produto, quantidade, valor_total)  # Mantem apenas estas colunas
 print("Dataset resumido:")
 print(head(vendas_resumido))
+View(vendas_resumido)
 
 # Selecionar colunas que começam com determinado prefixo
 vendas_preco <- vendas |> 
   select(starts_with("preco"))  # starts_with(): helper para selecionar colunas com prefixo específico
 print("Colunas que começam com 'preco':")
 print(head(vendas_preco))
+View(vendas_preco)
+
+
+# Selecionar colunas que terminam com determinado sufixo
+vendas_estado <- vendas |> 
+  select(ends_with("estado"))  # ends_with(): helper para selecionar colunas com sufixo específico
+print("Colunas que terminam com 'estado':")
+print(head(vendas_estado))
+View(vendas_estado)
+
+# Selecionar colunas que contem determinado termo
+vendas_und <- vendas |> 
+  select(contains("_"))  # contains(): helper para selecionar colunas que contem determinado termo
+print("Colunas que contem '_':")
+print(head(vendas_und))
+View(vendas_und)
+
+# Selecionar colunas que contem determinada expressao especifica
+## Por exemplo, desejamos uma coluna que contenha a letra "p"
+##  seguida das letras "ad", fazemos isso: matches("[p]ad")
+## a funcao contains() entende "[p]ad" como caracteres literalmente
+
+
 
 # Remover colunas específicas (uso do sinal de menos)
 vendas_sem_id <- vendas |> 

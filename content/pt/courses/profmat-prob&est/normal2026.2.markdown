@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2026.2
-date: "2026-08-25 06:04:35"
+date: "2026-08-31 06:06:39"
 type: book
 weight: 1
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -18,7 +18,6 @@ em Rede Nacional, campus Alto Paraopeba
 
 {{< icon name="clock" pack="fas" >}} 4 horas por semana, por 18 semanas
 
-
 ## Apresentação {id="apresentacao"}
 
 A Natureza da estatística. Tratamento da informação. Distribuições de
@@ -28,7 +27,6 @@ discretas e contínuas. Função de distribuição acumulada. Esperança e
 variância de variáveis aleatórias. Modelos Bernoulli, binomial e
 geométrico. Modelo uniforme e modelo normal. Distribuição assintótica da
 média amostral. Introdução à inferência estatística.
-
 
 ## Onde? {id="onde"}
 
@@ -42,10 +40,9 @@ média amostral. Introdução à inferência estatística.
     - PROFMAT (Sala 211.5):
       - sexta-feira (13:15 - 16:35)
 
-
 ## <i class="fas fa-calendar-alt"></i> Calendário e Cronograma {id="cronograma" title="Clique aqui!"}
 
--   Calendário
+- Calendário
 
 <img src="/pt/courses/profmat-prob&est/normal2026.2_files/figure-html/unnamed-chunk-1-1.png" alt="" width="110%" />
 
@@ -74,15 +71,16 @@ Segue o link: <https://bendeivide.github.io/profmatma41/>
 
 </iframe>
 
-
-
 ## Relatório dos alunos
 
-- [🎓 Ailton Gomes da Silva Machado ](https://ailtonmachado.github.io/profmatma41/)
-- [🎓 Flávia Alves dos Anjos Santos ](https://flaviaalves-profmat.github.io/Relatorio/)
+- [🎓 Ailton Gomes da Silva
+  Machado](https://ailtonmachado.github.io/profmatma41/)
+- [🎓 Flávia Alves dos Anjos
+  Santos](https://flaviaalves-profmat.github.io/Relatorio/)
 - [🎓 Luciano Vaz de Oliveira (sem link)]()
 - [🎓 Mário Marcos de Faria (sem link)]()
-- [🎓 Reinado Gomes dos Santos](https://rei-santos.github.io/profmat41/)
+- [🎓 Reinado Gomes dos
+  Santos](https://rei-santos.github.io/profmatma41/)
 
 ## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
 
@@ -151,7 +149,11 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 
 > <i class="fas fa-question-circle"></i> **OBJETIVO**
 >
-> Descreva como desenvolvemos o relatório das nossas avaliações baseados na seção [Modelo de relatório para entregas](#modrel). Apresente todos os passos necessários para termos o relatório disponível como página *web*, apresentando os programas, como baixá-los, instalarmos, como subirmos ao Gihub, e como atualizar o projeto.
+> Descreva como desenvolvemos o relatório das nossas avaliações baseados
+> na seção [Modelo de relatório para entregas](#modrel). Apresente todos
+> os passos necessários para termos o relatório disponível como página
+> *web*, apresentando os programas, como baixá-los, instalarmos, como
+> subirmos ao Gihub, e como atualizar o projeto.
 >
 > **DATA DA ENTREGA:**
 >
@@ -161,6 +163,181 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 
 <!-- Fim do Relatorio 1 -->
 
+{{< spoiler text="🗒 Relatório 2 (Clique!) - 04/09/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de
+  Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 04/09/2026
+  <i class="fas fa-clock"></i> 13h
+
+------------------------------------------------------------------------
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO**
+>
+> O presente conjunto de dados foi construído para simular uma situação
+> real de pesquisa em uma escola pública brasileira, envolvendo 1000
+> alunos e 5 variáveis que capturam diferentes dimensões da realidade
+> escolar e sociofamiliar dos estudantes. Este banco de dados foi
+> especialmente elaborado para atender aos objetivos pedagógicos do
+> Mestrado Profissional em Matemática (PROFMAT), proporcionando aos
+> alunos uma experiência prática e contextualizada no processo de
+> análise estatística.
+>
+> **Justificativa da Escolha do Tema**
+>
+> A escolha do contexto escolar público é particularmente significativa
+> por várias razões:
+>
+> 1.  **Relevância social**: A educação pública no Brasil enfrenta
+>     desafios estruturais que merecem investigação aprofundada.
+>     Variáveis como frequência escolar, desempenho acadêmico e
+>     condições socioeconômicas são indicadores cruciais para políticas
+>     educacionais.
+>
+> 2.  **Familiaridade**: Alunos do PROFMAT, em sua maioria professores
+>     da educação básica, têm vivência direta com o ambiente escolar, o
+>     que facilita a compreensão e interpretação dos dados.
+>
+> 3.  **Complexidade apropriada**: O contexto escolar permite a
+>     utilização de todos os tipos de variáveis (quantitativas e
+>     qualitativas) de forma natural e coerente, sem forçamentos
+>     artificiais.
+>
+> 4.  **Aplicabilidade prática**: Os dados permitem discussões que vão
+>     além da estatística descritiva, abrangendo questões pedagógicas,
+>     sociais e de gestão educacional.
+>
+> **Descrição Geral das Variáveis**
+>
+> 1.  <u>Número de Faltas</u> (Quantitativa Discreta):
+>     Variável quantitativa discreta que representa a contagem de
+>     ausências do aluno ao longo do ano letivo.
+>
+> **Características**:
+>
+> - Assume valores inteiros entre 0 e 30
+>
+> **Importância**: A frequência escolar é um dos principais preditores
+> de desempenho acadêmico e abandono escolar, sendo objeto de políticas
+> como o Programa Bolsa Família.
+>
+> 2.  <u>Nota Média</u> (Quantitativa Contínua): Variável
+>     quantitativa contínua que expressa o desempenho acadêmico médio do
+>     aluno.
+>
+> **Características**:
+>
+> - Valores no intervalo $ [0, 10] $ com uma casa decimal
+>
+> **Importância**: A nota média é o indicador mais direto do rendimento
+> escolar, permitindo análises de desempenho por grupos.
+>
+> 3. <u>Turno de Estudo</u> (Qualitativa Nominal): Variável
+> qualitativa nominal com três categorias sem ordenação intrínseca.
+> 
+> **Categorias**: Matutino, Vespertino e Noturno
+>
+> **Importância**: O turno de estudo está associado a diferentes perfis
+> de alunos (ex.: noturno geralmente composto por trabalhadores) e pode
+> influenciar tanto a frequência quanto o desempenho acadêmico.
+>
+> 4. <u>Escolaridade da Mãe</u> (Qualitativa Ordinal):
+> Variável qualitativa ordinal com hierarquia natural entre as
+> categorias.
+>
+> **Categorias (ordem crescente)**: Fundamental, Médio e Superior
+>
+> **Importância**: A escolaridade materna é um dos mais fortes
+> preditores do desempenho educacional dos filhos, refletindo o capital
+> cultural e socioeconômico da família. A variável foi tratada como
+> ordinal exatamente para preservar essa hierarquia natural.
+>
+> 5. <u>Acesso à Internet em Casa</u> (Qualitativa Nominal):
+> Variável qualitativa nominal dicotômica (binária).
+>
+> **Categorias**: Sim, Não
+>
+> **Importância**: Em um mundo cada vez mais digital, o acesso à
+> internet tornou-se fator crucial para a realização de pesquisas,
+> acesso a materiais didáticos e participação em atividades educacionais
+> remotas, especialmente após a pandemia de COVID-19.
+>
+> **Estrutura do Banco de Dados**
+
+> | Variável | Tipo | Categoria | Escala de Medida | Valores Possíveis |
+> |--------------|--------------|--------------|----------------|-----------------|
+> | faltas | Quantitativa | Discreta | Razão | 0 a 30 (inteiros) |
+> | nota_media | Quantitativa | Contínua | Razão | 0 a 10 (reais) |
+> | turno | Qualitativa | Nominal | Nominal | Matutino, Vespertino, Noturno |
+> | escolaridade_mae | Qualitativa | Ordinal | Ordinal | Fundamental \< Médio \< Superior |
+> | acesso_internet | Qualitativa | Nominal | Nominal | Sim, Não |
+>
+> **DATA DA ENTREGA:**
+>
+> - Até às 13h do dia 04/09/2026
+
+**Questões a serem respondidas**
+
+Para orientar a exploração dos dados, sugerimos as seguintes questões
+investigativas:
+
+1.  **Relação entre infraestrutura e desempenho**: Alunos com acesso à
+    internet em casa apresentam notas médias significativamente maiores?
+
+2.  **Capital cultural e rendimento**: Como a escolaridade da mãe se
+    relaciona com o desempenho dos alunos?
+
+3.  **Frequência e desempenho**: Qual é a correlação entre número de
+    faltas e nota média? Existe um ponto crítico a partir do qual as
+    faltas comprometem severamente o desempenho?
+
+4.  **Perfil do aluno noturno**: Alunos do turno noturno têm mais
+    faltas? Como seu desempenho se compara aos demais turnos?
+
+5.  **Desigualdades educacionais**: As variáveis sociofamiliares
+    (escolaridade da mãe, acesso à internet) explicam parte da
+    variabilidade no desempenho dos alunos?
+
+6.  **Análise por subgrupos**: Considerando conjuntamente turno e acesso
+    à internet, que padrões emergem?
+
+**Sugestão de Roteiro de Análise**
+
+Propomos que os alunos sigam este roteiro para explorar os dados de
+forma estruturada:
+
+1.  **Análise univariada**: Explore cada variável individualmente
+2.  **Análise bivariada**: Investigue relações entre pares de variáveis
+3.  **Análise multivariada**: Considere combinações de variáveis (ex.:
+    tabelas de contingência com três dimensões)
+4.  **Síntese**: Elabore um relatório com principais descobertas e
+    recomendações
+5.  **Reflexão**: Discuta as limitações metodológicas e sugestões para
+    pesquisas futuras
+
+**Banco de dados**
+
+Arquivo `<>.csv` para baixar: {{% staticref "/profmat/2026.2/relatorios/rel02/dados_alunos.csv" "newtab" %}}dados_alunos.csv{{% /staticref %}}
+
+Código para importar o banco de dados:
+
+```r
+dados_alunos <- read.table(
+  file = "dados_alunos.csv",
+  header = TRUE,
+  sep = ";",
+  dec = ".",
+  stringsAsFactors = FALSE
+)
+```
+
+
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 2 -->
+
 ## Ementa
 
 Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
@@ -168,30 +345,34 @@ CAP/UFSJ
 
 {{< spoiler text="Acesse a ementa do curso">}}
 
-1. Conceitos básicos: tipos de variáveis; distribuições de frequências
-2. Tabelas e gráficos
-3. Medidas de posição
-4. Medidas de dispersão e desenho esquemático (Box Plot)
-5. Probabilidade: conceitos básicos, definições e propriedades
-6. Probabilidade condicional e independência; teorema da probabilidade total e teorema de
-Bayes
-7. Função e distribuição de probabilidade de uma variável aleatória discreta
-8. Características numéricas de uma variável aleatória discreta
-9. Função densidade de probabilidade de uma variável aleatória contínua
+1.  Conceitos básicos: tipos de variáveis; distribuições de frequências
+2.  Tabelas e gráficos
+3.  Medidas de posição
+4.  Medidas de dispersão e desenho esquemático (Box Plot)
+5.  Probabilidade: conceitos básicos, definições e propriedades
+6.  Probabilidade condicional e independência; teorema da probabilidade
+    total e teorema de Bayes
+7.  Função e distribuição de probabilidade de uma variável aleatória
+    discreta
+8.  Características numéricas de uma variável aleatória discreta
+9.  Função densidade de probabilidade de uma variável aleatória contínua
 10. Características numéricas de uma variável aleatória contínua
-11. Principais modelos probabilísticos discretos: uniforme, Bernoulli, binomial, geométrico,
-Poisson e hipergeométrico
-12. Modelos probabilísticos contínuos. Principais modelos probabilísticos contínuos: uniforme,
-exponencial e normal
+11. Principais modelos probabilísticos discretos: uniforme, Bernoulli,
+    binomial, geométrico, Poisson e hipergeométrico
+12. Modelos probabilísticos contínuos. Principais modelos
+    probabilísticos contínuos: uniforme, exponencial e normal
 13. Teorema central do limite
 14. Aproximação da distribuição binomial pela normal
-15. Introdução à inferência estatística: primeiras ideias; propriedades dos estimadores
+15. Introdução à inferência estatística: primeiras ideias; propriedades
+    dos estimadores
 16. Erro quadrático médio e erro absoluto de estimação
-17. Estimação pontual de parâmetros: estimadores de momentos; estimadores de mínimos
-quadrados
+17. Estimação pontual de parâmetros: estimadores de momentos;
+    estimadores de mínimos quadrados
 18. Estimadores de máxima verossimilhança
-19. Distribuição amostral da média e proporção; dimensionamento da amostra
-20. Intervalo de confiança para a média populacional e para proporção populacional
+19. Distribuição amostral da média e proporção; dimensionamento da
+    amostra
+20. Intervalo de confiança para a média populacional e para proporção
+    populacional
 
 {{< /spoiler >}}
 
@@ -215,32 +396,59 @@ via portal didático, constituída pela seguinte estratégia de ensino:
 
 {{< spoiler text="Detalhamento da metodologia">}}
 
-As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo "ensinar por aprender".
+As aulas seguirão um modelo de metodologia ativa baseado nas
+coreografias didáticas. Criaremos um cenário em que o propagador de
+conhecimento também seja produzido pelo aluno. Ele será o protagonista.
+Desta forma, traremos métodos de aprendizagem do tipo "ensinar por
+aprender".
 
-Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão **3 (quatro) horas semanais de aulas presenciais**, um total de 60h.
+Nossas aulas estarão disponíveis em <http://bendeivide.github.io/>. Para
+os alunos matriculados na disciplina, também será possível acompanhar o
+material pelo portal didático. Nossas aulas terão **3 (quatro) horas
+semanais de aulas presenciais**, um total de 60h.
 
-Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube <https://youtube.com/bendeivide>.
+Faremos também uma retramissão do conteúdo abordado durante a semana
+pelo canal do youtube <https://youtube.com/bendeivide>.
 
-Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o *overlief* para usuários de LaTeX. Com a linguagem *R*, mostraremos documentos dinâmicos, usando o *R Markdown* e o *shiny*, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.
+Iremos utilizar diversas ferramentas do google como os seus editores de
+textos, planilhas e apresentadores. Também utilizaremos o *overlief*
+para usuários de LaTeX. Com a linguagem *R*, mostraremos documentos
+dinâmicos, usando o *R Markdown* e o *shiny*, também para o
+desenvolvimento de materiais didáticos, quanto para as atividades com os
+alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil
+instalação para os alunos, uma vez que dareremos todo o suporte, de
+forma que os alunos estejam capacitados a utilizar todas as ferramentas
+quando necessário.
 
 {{< /spoiler >}}
 
 ## Avaliação {#avaliacao}
 
-
-
 {{< spoiler text="Segue um detalhamento das nossas avaliações">}}
 
-Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o [R](https://www.r-project.org/), [$\LaTeX$](https://www.latex-project.org/) e  [Quarto](https://quarto.org/), integrando estes relatórios ao [Github](https://github.com/). 
+Faremos toda semana relatórios baseado em nossas aula teóricas e
+práticas, usando o [R](https://www.r-project.org/),
+[$\LaTeX$](https://www.latex-project.org/) e
+[Quarto](https://quarto.org/), integrando estes relatórios ao
+[Github](https://github.com/).
 
-A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.
+A disciplina terá uma pontuação total de 10 pontos, sendo 80%
+distribuído aos relatórios, e 20% distribuídos aos nossos testes
+rápidos, trabalhos ou qualquer outra dinâmica que consiga obter
+informações da captação de conhecimento no momento da aula.
 
-Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina.
+Para ser aprovado o aluno deverá obter nota final maior ou igual a 60
+pontos e não poderá faltar mais de 25% das aulas. O discente que não for
+aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o
+conteúdo da disciplina.
 
-O discente que perder algum relatório ou atividade avaliativa referente aos 20% dos pontos informados anteriormente, deverá solicitar a coordenadoria de seu curso uma segunda chamada para tal atividade perdida, justificando a ausência da entrega. Sendo deferida pela coordação, faremos a segunda chamada de tal atividade.
+O discente que perder algum relatório ou atividade avaliativa referente
+aos 20% dos pontos informados anteriormente, deverá solicitar a
+coordenadoria de seu curso uma segunda chamada para tal atividade
+perdida, justificando a ausência da entrega. Sendo deferida pela
+coordação, faremos a segunda chamada de tal atividade.
 
 {{< /spoiler >}}
-
 
 ## Bibliografia adotada para a disciplina
 
@@ -283,26 +491,33 @@ O discente que perder algum relatório ou atividade avaliativa referente aos 20%
 
 {{< spoiler text="Aprender por ensinar">}}
 
-- [Modelo de Arquivo em power point](https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing)
-- [Resultado em vídeo](https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing)
+- [Modelo de Arquivo em power
+  point](https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing)
+- [Resultado em
+  vídeo](https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing)
 - Os programas necessários:
-  - Editor de Slides: o MS Power Point (Instalado previamente no Windows); [LibreOffice](https://www.libreoffice.org/download/download/);
-  - Gravador de tela e de seu áudio: [OBS Studio](https://obsproject.com/pt-br/download)
-OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
-{{< youtube YqMQix2P1oU >}}
+  - Editor de Slides: o MS Power Point (Instalado previamente no
+    Windows);
+    [LibreOffice](https://www.libreoffice.org/download/download/);
+  - Gravador de tela e de seu áudio: [OBS
+    Studio](https://obsproject.com/pt-br/download) OBS.: Os programas
+    são esses. Qualquer dúvida, favor me procurar.
+    {{< youtube YqMQix2P1oU >}}
 
 {{< /spoiler >}}
 
 {{< spoiler text="Mapas Mentais">}}
 
-- Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;
+- Dúvidas de como desenvolver, faça uso dos buscadores na internet,
+  vídeo-aulas, etc. Há muito material interessante na internet;
 - [Modelo](https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing)
 
 {{< /spoiler >}}
 
 {{< spoiler text="Resumo de Cornell">}}
 
-- Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;
+- Dúvidas de como desenvolver, faça uso dos buscadores na internet,
+  vídeo-aulas, etc. Há muito material interessante na internet;
 - [Modelo](https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing)
 
 {{< /spoiler >}}
@@ -347,17 +562,20 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.
 
 
 
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Estatística Descritiva
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** 
 
+1. Conceitos básicos: tipos de variáveis; distribuições de frequências
+2. Tabelas e gráficos
+
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/profmat/2026.2/aula03/aula28.08.26.R" "newtab" %}}Script Aula 03.R{{% /staticref %}}
+
+{{< icon name="file-pdf" pack="fas" >}} {{% staticref "/profmat/2026.2/aula03/aula28.08.26.pdf" "newtab" %}}PDF Aula 03.R{{% /staticref %}}
 
 </div>
 
 {{< /spoiler >}}
 
 <!-- Fim da Aula 03 -->
-
-
-
 
 ## Quiz
 
@@ -367,10 +585,10 @@ Acessem: [Avaliação](#avaliacao) e [Cronograma](#cronograma)
 
 {{< /spoiler >}}
 
-
 {{< spoiler text="Como acessar o material de apoio?">}}
 
 - Acessem: [Livro EPAEC](#matadotado)
-  - Sugestões e críticas sobre o livro podem ser enviadas para [livrosdeben@gmail.com](mailto:livrosdeben@gmail.com).
+  - Sugestões e críticas sobre o livro podem ser enviadas para
+    [livrosdeben\@gmail.com](mailto:livrosdeben@gmail.com).
 
 {{< /spoiler >}}

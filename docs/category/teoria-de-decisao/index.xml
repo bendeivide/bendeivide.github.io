@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/teoria-de-decisao/</link>
       <atom:link href="http://bendeivide.github.io/category/teoria-de-decisao/index.xml" rel="self" type="application/rss+xml" />
     <description>Teoria de Decisão</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 25 Aug 2026 06:04:35 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 31 Aug 2026 06:06:39 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Teoria de Decisão</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📚 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</link>
-      <pubDate>Tue, 25 Aug 2026 06:04:35 -0300</pubDate>
+      <pubDate>Mon, 31 Aug 2026 06:06:39 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</guid>
       <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
 pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática
@@ -78,11 +78,14 @@ aulas&lt;/a&gt;:&lt;/li&gt;
 &lt;/iframe&gt;
 &lt;h2 id=&#34;relatório-dos-alunos&#34;&gt;Relatório dos alunos&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ailtonmachado.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Ailton Gomes da Silva Machado &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://flaviaalves-profmat.github.io/Relatorio/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Flávia Alves dos Anjos Santos &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ailtonmachado.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Ailton Gomes da Silva
+Machado&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://flaviaalves-profmat.github.io/Relatorio/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Flávia Alves dos Anjos
+Santos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 Luciano Vaz de Oliveira (sem link)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;🎓 Mário Marcos de Faria (sem link)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://rei-santos.github.io/profmat41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Reinado Gomes dos Santos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rei-santos.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Reinado Gomes dos
+Santos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;lrel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 30px;&#34;&gt;
@@ -208,7 +211,11 @@ Relatório&lt;/a&gt;&lt;/li&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Descreva como desenvolvemos o relatório das nossas avaliações baseados na seção &lt;a href=&#34;#modrel&#34;&gt;Modelo de relatório para entregas&lt;/a&gt;. Apresente todos os passos necessários para termos o relatório disponível como página &lt;em&gt;web&lt;/em&gt;, apresentando os programas, como baixá-los, instalarmos, como subirmos ao Gihub, e como atualizar o projeto.&lt;/p&gt;
+&lt;p&gt;Descreva como desenvolvemos o relatório das nossas avaliações baseados
+na seção &lt;a href=&#34;#modrel&#34;&gt;Modelo de relatório para entregas&lt;/a&gt;. Apresente todos
+os passos necessários para termos o relatório disponível como página
+&lt;em&gt;web&lt;/em&gt;, apresentando os programas, como baixá-los, instalarmos, como
+subirmos ao Gihub, e como atualizar o projeto.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Até às 13h do dia 28/08/2026&lt;/li&gt;
@@ -217,10 +224,223 @@ Relatório&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 1 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 2 (Clique!) - 04/09/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 04/09/2026
+&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O presente conjunto de dados foi construído para simular uma situação
+real de pesquisa em uma escola pública brasileira, envolvendo 1000
+alunos e 5 variáveis que capturam diferentes dimensões da realidade
+escolar e sociofamiliar dos estudantes. Este banco de dados foi
+especialmente elaborado para atender aos objetivos pedagógicos do
+Mestrado Profissional em Matemática (PROFMAT), proporcionando aos
+alunos uma experiência prática e contextualizada no processo de
+análise estatística.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Justificativa da Escolha do Tema&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A escolha do contexto escolar público é particularmente significativa
+por várias razões:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Relevância social&lt;/strong&gt;: A educação pública no Brasil enfrenta
+desafios estruturais que merecem investigação aprofundada.
+Variáveis como frequência escolar, desempenho acadêmico e
+condições socioeconômicas são indicadores cruciais para políticas
+educacionais.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Familiaridade&lt;/strong&gt;: Alunos do PROFMAT, em sua maioria professores
+da educação básica, têm vivência direta com o ambiente escolar, o
+que facilita a compreensão e interpretação dos dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Complexidade apropriada&lt;/strong&gt;: O contexto escolar permite a
+utilização de todos os tipos de variáveis (quantitativas e
+qualitativas) de forma natural e coerente, sem forçamentos
+artificiais.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aplicabilidade prática&lt;/strong&gt;: Os dados permitem discussões que vão
+além da estatística descritiva, abrangendo questões pedagógicas,
+sociais e de gestão educacional.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Descrição Geral das Variáveis&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;u&gt;Número de Faltas&lt;/u&gt; (Quantitativa Discreta):
+Variável quantitativa discreta que representa a contagem de
+ausências do aluno ao longo do ano letivo.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Características&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Assume valores inteiros entre 0 e 30&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A frequência escolar é um dos principais preditores
+de desempenho acadêmico e abandono escolar, sendo objeto de políticas
+como o Programa Bolsa Família.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;u&gt;Nota Média&lt;/u&gt; (Quantitativa Contínua): Variável
+quantitativa contínua que expressa o desempenho acadêmico médio do
+aluno.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Características&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Valores no intervalo $ [0, 10] $ com uma casa decimal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A nota média é o indicador mais direto do rendimento
+escolar, permitindo análises de desempenho por grupos.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;u&gt;Turno de Estudo&lt;/u&gt; (Qualitativa Nominal): Variável
+qualitativa nominal com três categorias sem ordenação intrínseca.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Categorias&lt;/strong&gt;: Matutino, Vespertino e Noturno&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: O turno de estudo está associado a diferentes perfis
+de alunos (ex.: noturno geralmente composto por trabalhadores) e pode
+influenciar tanto a frequência quanto o desempenho acadêmico.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;u&gt;Escolaridade da Mãe&lt;/u&gt; (Qualitativa Ordinal):
+Variável qualitativa ordinal com hierarquia natural entre as
+categorias.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Categorias (ordem crescente)&lt;/strong&gt;: Fundamental, Médio e Superior&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A escolaridade materna é um dos mais fortes
+preditores do desempenho educacional dos filhos, refletindo o capital
+cultural e socioeconômico da família. A variável foi tratada como
+ordinal exatamente para preservar essa hierarquia natural.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;u&gt;Acesso à Internet em Casa&lt;/u&gt; (Qualitativa Nominal):
+Variável qualitativa nominal dicotômica (binária).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Categorias&lt;/strong&gt;: Sim, Não&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: Em um mundo cada vez mais digital, o acesso à
+internet tornou-se fator crucial para a realização de pesquisas,
+acesso a materiais didáticos e participação em atividades educacionais
+remotas, especialmente após a pandemia de COVID-19.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Estrutura do Banco de Dados&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Variável&lt;/th&gt;
+&lt;th&gt;Tipo&lt;/th&gt;
+&lt;th&gt;Categoria&lt;/th&gt;
+&lt;th&gt;Escala de Medida&lt;/th&gt;
+&lt;th&gt;Valores Possíveis&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;faltas&lt;/td&gt;
+&lt;td&gt;Quantitativa&lt;/td&gt;
+&lt;td&gt;Discreta&lt;/td&gt;
+&lt;td&gt;Razão&lt;/td&gt;
+&lt;td&gt;0 a 30 (inteiros)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nota_media&lt;/td&gt;
+&lt;td&gt;Quantitativa&lt;/td&gt;
+&lt;td&gt;Contínua&lt;/td&gt;
+&lt;td&gt;Razão&lt;/td&gt;
+&lt;td&gt;0 a 10 (reais)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;turno&lt;/td&gt;
+&lt;td&gt;Qualitativa&lt;/td&gt;
+&lt;td&gt;Nominal&lt;/td&gt;
+&lt;td&gt;Nominal&lt;/td&gt;
+&lt;td&gt;Matutino, Vespertino, Noturno&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;escolaridade_mae&lt;/td&gt;
+&lt;td&gt;Qualitativa&lt;/td&gt;
+&lt;td&gt;Ordinal&lt;/td&gt;
+&lt;td&gt;Ordinal&lt;/td&gt;
+&lt;td&gt;Fundamental &amp;lt; Médio &amp;lt; Superior&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;acesso_internet&lt;/td&gt;
+&lt;td&gt;Qualitativa&lt;/td&gt;
+&lt;td&gt;Nominal&lt;/td&gt;
+&lt;td&gt;Nominal&lt;/td&gt;
+&lt;td&gt;Sim, Não&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 13h do dia 04/09/2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Questões a serem respondidas&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para orientar a exploração dos dados, sugerimos as seguintes questões
+investigativas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Relação entre infraestrutura e desempenho&lt;/strong&gt;: Alunos com acesso à
+internet em casa apresentam notas médias significativamente maiores?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Capital cultural e rendimento&lt;/strong&gt;: Como a escolaridade da mãe se
+relaciona com o desempenho dos alunos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Frequência e desempenho&lt;/strong&gt;: Qual é a correlação entre número de
+faltas e nota média? Existe um ponto crítico a partir do qual as
+faltas comprometem severamente o desempenho?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Perfil do aluno noturno&lt;/strong&gt;: Alunos do turno noturno têm mais
+faltas? Como seu desempenho se compara aos demais turnos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Desigualdades educacionais&lt;/strong&gt;: As variáveis sociofamiliares
+(escolaridade da mãe, acesso à internet) explicam parte da
+variabilidade no desempenho dos alunos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Análise por subgrupos&lt;/strong&gt;: Considerando conjuntamente turno e acesso
+à internet, que padrões emergem?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Sugestão de Roteiro de Análise&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Propomos que os alunos sigam este roteiro para explorar os dados de
+forma estruturada:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Análise univariada&lt;/strong&gt;: Explore cada variável individualmente&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Análise bivariada&lt;/strong&gt;: Investigue relações entre pares de variáveis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Análise multivariada&lt;/strong&gt;: Considere combinações de variáveis (ex.:
+tabelas de contingência com três dimensões)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Síntese&lt;/strong&gt;: Elabore um relatório com principais descobertas e
+recomendações&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reflexão&lt;/strong&gt;: Discuta as limitações metodológicas e sugestões para
+pesquisas futuras&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Banco de dados&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Arquivo &lt;code&gt;&amp;lt;&amp;gt;.csv&lt;/code&gt; para baixar: &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/relatorios/rel02/dados_alunos.csv&#34; target=&#34;_blank&#34;&gt;dados_alunos.csv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Código para importar o banco de dados:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados_alunos &amp;lt;- read.table(
+  file = &amp;quot;dados_alunos.csv&amp;quot;,
+  header = TRUE,
+  sep = &amp;quot;;&amp;quot;,
+  dec = &amp;quot;.&amp;quot;,
+  stringsAsFactors = FALSE
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 2 --&gt;
 &lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
 &lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
 CAP/UFSJ&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
   &lt;p&gt;&lt;ol&gt;
 &lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
@@ -228,25 +448,29 @@ CAP/UFSJ&lt;/p&gt;
 &lt;li&gt;Medidas de posição&lt;/li&gt;
 &lt;li&gt;Medidas de dispersão e desenho esquemático (Box Plot)&lt;/li&gt;
 &lt;li&gt;Probabilidade: conceitos básicos, definições e propriedades&lt;/li&gt;
-&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade total e teorema de
-Bayes&lt;/li&gt;
-&lt;li&gt;Função e distribuição de probabilidade de uma variável aleatória discreta&lt;/li&gt;
+&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade
+total e teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função e distribuição de probabilidade de uma variável aleatória
+discreta&lt;/li&gt;
 &lt;li&gt;Características numéricas de uma variável aleatória discreta&lt;/li&gt;
 &lt;li&gt;Função densidade de probabilidade de uma variável aleatória contínua&lt;/li&gt;
 &lt;li&gt;Características numéricas de uma variável aleatória contínua&lt;/li&gt;
-&lt;li&gt;Principais modelos probabilísticos discretos: uniforme, Bernoulli, binomial, geométrico,
-Poisson e hipergeométrico&lt;/li&gt;
-&lt;li&gt;Modelos probabilísticos contínuos. Principais modelos probabilísticos contínuos: uniforme,
-exponencial e normal&lt;/li&gt;
+&lt;li&gt;Principais modelos probabilísticos discretos: uniforme, Bernoulli,
+binomial, geométrico, Poisson e hipergeométrico&lt;/li&gt;
+&lt;li&gt;Modelos probabilísticos contínuos. Principais modelos
+probabilísticos contínuos: uniforme, exponencial e normal&lt;/li&gt;
 &lt;li&gt;Teorema central do limite&lt;/li&gt;
 &lt;li&gt;Aproximação da distribuição binomial pela normal&lt;/li&gt;
-&lt;li&gt;Introdução à inferência estatística: primeiras ideias; propriedades dos estimadores&lt;/li&gt;
+&lt;li&gt;Introdução à inferência estatística: primeiras ideias; propriedades
+dos estimadores&lt;/li&gt;
 &lt;li&gt;Erro quadrático médio e erro absoluto de estimação&lt;/li&gt;
-&lt;li&gt;Estimação pontual de parâmetros: estimadores de momentos; estimadores de mínimos
-quadrados&lt;/li&gt;
+&lt;li&gt;Estimação pontual de parâmetros: estimadores de momentos;
+estimadores de mínimos quadrados&lt;/li&gt;
 &lt;li&gt;Estimadores de máxima verossimilhança&lt;/li&gt;
-&lt;li&gt;Distribuição amostral da média e proporção; dimensionamento da amostra&lt;/li&gt;
-&lt;li&gt;Intervalo de confiança para a média populacional e para proporção populacional&lt;/li&gt;
+&lt;li&gt;Distribuição amostral da média e proporção; dimensionamento da
+amostra&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a média populacional e para proporção
+populacional&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
 &lt;/details&gt;
@@ -273,25 +497,55 @@ abordado.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
   &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas coreografias didáticas. Criaremos um cenário em que o propagador de conhecimento também seja produzido pelo aluno. Ele será o protagonista. Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por aprender&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para os alunos matriculados na disciplina, também será possível acompanhar o material pelo portal didático. Nossas aulas terão &lt;strong&gt;3 (quatro) horas semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
-&lt;p&gt;Faremos também uma retramissão do conteúdo abordado durante a semana pelo canal do youtube &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt; para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o desenvolvimento de materiais didáticos, quanto para as atividades com os alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil instalação para os alunos, uma vez que dareremos todo o suporte, de forma que os alunos estejam capacitados a utilizar todas as ferramentas quando necessário.&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas
+coreografias didáticas. Criaremos um cenário em que o propagador de
+conhecimento também seja produzido pelo aluno. Ele será o protagonista.
+Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por
+aprender&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para
+os alunos matriculados na disciplina, também será possível acompanhar o
+material pelo portal didático. Nossas aulas terão &lt;strong&gt;3 (quatro) horas
+semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
+&lt;p&gt;Faremos também uma retramissão do conteúdo abordado durante a semana
+pelo canal do youtube &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de
+textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt;
+para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos
+dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o
+desenvolvimento de materiais didáticos, quanto para as atividades com os
+alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil
+instalação para os alunos, uma vez que dareremos todo o suporte, de
+forma que os alunos estejam capacitados a utilizar todas as ferramentas
+quando necessário.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;, &lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; e  &lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80% distribuído aos relatórios, e 20% distribuídos aos nossos testes rápidos, trabalhos ou qualquer outra dinâmica que consiga obter informações da captação de conhecimento no momento da aula.&lt;/p&gt;
-&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60 pontos e não poderá faltar mais de 25% das aulas. O discente que não for aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o conteúdo da disciplina.&lt;/p&gt;
-&lt;p&gt;O discente que perder algum relatório ou atividade avaliativa referente aos 20% dos pontos informados anteriormente, deverá solicitar a coordenadoria de seu curso uma segunda chamada para tal atividade perdida, justificando a ausência da entrega. Sendo deferida pela coordação, faremos a segunda chamada de tal atividade.&lt;/p&gt;
+  &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e
+práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;,
+&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;$\LaTeX$&lt;/a&gt; e
+&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80%
+distribuído aos relatórios, e 20% distribuídos aos nossos testes
+rápidos, trabalhos ou qualquer outra dinâmica que consiga obter
+informações da captação de conhecimento no momento da aula.&lt;/p&gt;
+&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60
+pontos e não poderá faltar mais de 25% das aulas. O discente que não for
+aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o
+conteúdo da disciplina.&lt;/p&gt;
+&lt;p&gt;O discente que perder algum relatório ou atividade avaliativa referente
+aos 20% dos pontos informados anteriormente, deverá solicitar a
+coordenadoria de seu curso uma segunda chamada para tal atividade
+perdida, justificando a ausência da entrega. Sendo deferida pela
+coordação, faremos a segunda chamada de tal atividade.&lt;/p&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
   &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&amp;amp;url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&amp;amp;usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. &lt;strong&gt;Análise
@@ -314,7 +568,7 @@ PROFMAT&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
   &lt;summary&gt;Materiais complementares&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/estbasica/&#34;&gt;Estatística Básica&lt;/a&gt;&lt;/li&gt;
@@ -333,42 +587,53 @@ PROFMAT&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
   &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power point&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power
+point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em
+vídeo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Os programas necessários:
 &lt;ul&gt;
-&lt;li&gt;Editor de Slides: o MS Power Point (Instalado previamente no Windows); &lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS Studio&lt;/a&gt;
-OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;Editor de Slides: o MS Power Point (Instalado previamente no
+Windows);
+&lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS
+Studio&lt;/a&gt; OBS.: Os programas
+são esses. Qualquer dúvida, favor me procurar.&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
-  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
+vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet, vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
+vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -376,38 +641,46 @@ OBS.: Os programas são esses. Qualquer dúvida, favor me procurar.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação da disciplina e Introdução ao R&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; &lt;em&gt;R Markdown&lt;/em&gt;, Quarto, &lt;em&gt;Github&lt;/em&gt; e como desenvolver nossos relatórios de avaliação&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Estatística Descritiva&lt;/p&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
+&lt;li&gt;Tabelas e gráficos&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula03/aula28.08.26.R&#34; target=&#34;_blank&#34;&gt;Script Aula 03.R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula03/aula28.08.26.pdf&#34; target=&#34;_blank&#34;&gt;PDF Aula 03.R&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
 &lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para
+&lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

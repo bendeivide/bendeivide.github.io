@@ -21,6 +21,11 @@ alunos
 # Nomeando elementos
 names(notas) <- alunos; notas
 
+# Modificando apenas um nome do vetor (ex.: o segundo elemento)
+names(notas)[2] <- "Jair"
+notas
+
+
 # Operacoes vetoriais
 media <- mean(notas); media
 
@@ -471,10 +476,10 @@ by(dados_limpos[, c("bill_length_mm", "flipper_length_mm")],
 # Criando novas variaveis de forma organizada
 dados2 <- within(dados_limpos, {
   
-  media_medidas2 <- (bill_length_mm + bill_depth_mm +
-                       flipper_length_mm + body_mass_g) / 4
+  media_medidas2 <- (bill_len + bill_dep +
+                       flipper_len + body_mass) / 4
   
-  categoria_massa <- ifelse(body_mass_g > 4000,
+  categoria_massa <- ifelse(body_mass > 4000,
                             "Grande",
                             "Pequeno")
 })
@@ -486,7 +491,7 @@ head(dados2)
 ## -------------------------------
 
 # Media da massa por grupo (mesmo tamanho do vetor original)
-dados_limpos$media_por_especie <- ave(dados_limpos$body_mass_g,
+dados_limpos$media_por_especie <- ave(dados_limpos$body_mass,
                                       dados_limpos$species,
                                       FUN = mean)
 
@@ -503,17 +508,17 @@ table(dados_limpos$acima_media2)
 ## -------------------------------
 
 # tapply
-tapply(dados_limpos$body_mass_g,
+tapply(dados_limpos$body_mass,
        dados_limpos$species,
        mean)
 
 # by
-by(dados_limpos$body_mass_g,
+by(dados_limpos$body_mass,
    dados_limpos$species,
    mean)
 
 # aggregate
-aggregate(body_mass_g ~ species,
+aggregate(body_mass ~ species,
           data = dados_limpos,
           mean)
 
@@ -526,7 +531,7 @@ aggregate(body_mass_g ~ species,
 
 dados_limpos$acima_media3 <-
   with(dados_limpos,
-       body_mass_g > ave(body_mass_g, species, FUN = mean))
+       body_mass > ave(body_mass, species, FUN = mean))
 
 table(dados_limpos$acima_media3)
 

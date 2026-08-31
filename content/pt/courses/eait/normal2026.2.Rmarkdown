@@ -879,6 +879,19 @@ A entrega deverá conter:
 
 <!-- Fim da Aula 05 -->
 
+{{< spoiler text="🎓 Aula 6">}}
+
+<div style="margin-left: 20px;">
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Processamento de dados (Parte II)
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/eait/2026.2/EAIT2026.2_AULA06.R" "newtab" %}}Script Aula 06.R{{% /staticref %}}
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 06 -->
+
 
 ## <i class="fas fa-question"></i> Quiz {id="quiz" title="Clique aqui!"}
 
