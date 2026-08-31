@@ -87,17 +87,108 @@ View(vendas_estado)
 
 # Selecionar colunas que contem determinado termo
 vendas_und <- vendas |> 
-  select(contains("_"))  # contains(): helper para selecionar colunas que contem determinado termo
+  select(contains(""))  # contains(): helper para selecionar colunas que contem determinado termo
 print("Colunas que contem '_':")
 print(head(vendas_und))
 View(vendas_und)
 
 # Selecionar colunas que contem determinada expressao especifica
-## Por exemplo, desejamos uma coluna que contenha a letra "p"
-##  seguida das letras "ad", fazemos isso: matches("[p]ad")
-## a funcao contains() entende "[p]ad" como caracteres literalmente
+## Por exemplo, desejamos uma coluna que contenha o simbolo "_"
+##  seguida das letras "u", "e" ou "t", fazemos isso: matches("_[uet]")
+## a funcao contains() entende "_[uet]" como caracteres literalmente
+vendas_unt <- vendas |> 
+  select(matches("_[uet]"))  # Variaveis que contem "_" seguidas de "u", "e" ou "t"
+print("Colunas que contem '_' seguido com 'u', 'e' ou 't':")
+print(head(vendas_unt))
+View(vendas_unt)
 
+# ============================================================
+# EXPRESSÕES REGULARES (REGEX) - EXEMPLOS PRÁTICOS
+# ============================================================
 
+# ------------------------------------------
+# 1. Classes de caracteres
+# ------------------------------------------
+
+# [pt]al  -> "p" ou "t" seguido de "al"
+# Exemplos: "pal", "tal"
+texto1 <- c("pal", "tal", "sal", "mal")
+grep("[pt]al", texto1, value = TRUE)  # Retorna "pal" "tal"
+
+# ------------------------------------------
+# 2. Quantificadores - dígitos
+# ------------------------------------------
+
+# \\d{3}  -> 3 dígitos consecutivos
+# Exemplos: "123", "456", "789"
+texto2 <- c("123", "456", "789", "12", "1234")
+grep("\\d{3}", texto2, value = TRUE)  # Retorna "123" "456" "789"
+
+# ------------------------------------------
+# 3. Classes de caracteres - letras maiúsculas
+# ------------------------------------------
+
+# [A-Z]  -> Qualquer letra maiúscula
+# Exemplos: "A", "B", "C"
+texto3 <- c("A", "b", "C", "d", "E")
+grep("[A-Z]", texto3, value = TRUE)  # Retorna "A" "C" "E"
+
+# ------------------------------------------
+# 4. Âncoras - final da string
+# ------------------------------------------
+
+# @mail\\.com$  -> Termina com "@mail.com"
+# Exemplo: "joao@gmail.com"
+texto4 <- c("joao@gmail.com", "maria@mail.com", "pedro@yahoo.com")
+grep("@mail\\.com$", texto4, value = TRUE)  # Retorna "maria@mail.com"
+
+# ------------------------------------------
+# 5. Padrões específicos - CEP brasileiro
+# ------------------------------------------
+
+# \\d{5}-\\d{3}  -> CEP brasileiro (5 dígitos - 3 dígitos)
+# Exemplo: "12345-678"
+texto5 <- c("12345-678", "1234-567", "123456-78", "12345-67")
+grep("\\d{5}-\\d{3}", texto5, value = TRUE)  # Retorna "12345-678"
+
+# ------------------------------------------
+# 6. Âncoras e quantificadores - apenas números
+# ------------------------------------------
+
+# ^[0-9]+$  -> Apenas números (do início ao fim)
+# Exemplos: "123", "4567"
+texto6 <- c("123", "4567", "12a3", " 123", "123 ")
+grep("^[0-9]+$", texto6, value = TRUE)  # Retorna "123" "4567"
+
+# ============================================================
+# APLICAÇÃO NO DATASET IRIS 
+# ============================================================
+
+# Seleciona colunas que contêm "pal" ou "tal"
+iris %>% select(matches("[pt]al")) |> head()
+
+# Explicação: 
+# - "Sepal" contém "pal" -> selecionado
+# - "Petal" contém "tal" -> selecionado
+# - "Species" não contém nenhum -> NÃO selecionado
+
+# ============================================================
+# FUNÇÕES ÚTEIS PARA REGEX NO R
+# ============================================================
+
+# grep()       - Encontra padrões em vetores
+# grepl()      - Retorna TRUE/FALSE para cada elemento
+# regexpr()    - Encontra a posição do padrão
+# gsub()       - Substitui padrões
+# strsplit()   - Divide strings usando regex
+# stringr::str_detect() - Alternativa moderna (tidyverse)
+
+# Exemplo com grepl (retorna lógico):
+grepl("[pt]al", c("pal", "tal", "sal"))  # TRUE TRUE FALSE
+
+# Exemplo com gsub (substituição):
+gsub("[pt]al", "XX", c("palavra", "metal", "sal"))  
+# Retorna: "XXavra" "meXX" "sal"
 
 # Remover colunas específicas (uso do sinal de menos)
 vendas_sem_id <- vendas |> 
@@ -120,8 +211,15 @@ vendas_com_imposto <- vendas |>
     desconto = ifelse(valor_total > 3000, valor_total * 0.1, 0),  # ifelse(): condicional
     valor_final = valor_com_imposto - desconto  # Combinação de operações
   )
-print("Novas colunas criadas (imposto, desconto, etc):")
-print(head(vendas_com_imposto |> select(valor_total, imposto, desconto, valor_final)))
+cat("Novas colunas criadas (imposto, desconto, etc):")
+vendas_com_imposto |>
+  print(
+        n = 7, # quantas linhas impressas
+    width = Inf  # todas as colunas impressas
+  )
+# Selecionando algumas colunas
+vendas_com_imposto |> 
+  select(valor_total, imposto, desconto, valor_final)
 
 # Transformar dados
 vendas_transformado <- vendas |> 
@@ -132,14 +230,15 @@ vendas_transformado <- vendas |>
     produto_maiusculo = toupper(produto),  # toupper(): converte para maiúsculas
     preco_arredondado = round(preco_unitario, 0)  # round(): arredondamento numérico
   )
-print("Colunas transformadas:")
-print(head(vendas_transformado |> select(data, mes, produto_maiusculo, preco_arredondado)))
+cat("Colunas transformadas:")
+vendas_transformado |> 
+  select(data, mes, produto_maiusculo, preco_arredondado)
 
 # ============================================
 # 4. GROUP_BY + SUMMARISE - Agrupamento e Resumo
 # ============================================
 
-print("=== GROUP_BY + SUMMARISE ===")
+cat("=== GROUP_BY + SUMMARISE ===")
 # group_by(): define grupos para operações agregadas
 # summarise(): reduz múltiplos valores a um resumo por grupo
 
@@ -154,8 +253,8 @@ vendas_por_produto <- vendas |>
     receita_media = mean(valor_total)
   ) |> 
   arrange(desc(receita_total))  # arrange(): ordena resultados
-print("Resumo por produto:")
-print(vendas_por_produto)
+cat("Resumo por produto:")
+vendas_por_produto
 
 # Análise por estado e categoria (agrupamento múltiplo)
 vendas_por_estado_cat <- vendas |> 
@@ -167,8 +266,8 @@ vendas_por_estado_cat <- vendas |>
     .groups = "drop"  # Remove agrupamento após summarise
   ) |> 
   arrange(cliente_estado, desc(receita))
-print("Resumo por estado e categoria (top 20):")
-print(head(vendas_por_estado_cat, 20))
+cat("Resumo por estado e categoria (top 20):")
+vendas_por_estado_cat
 
 # Métricas avançadas com summarise
 metricas_avancadas <- vendas |> 
@@ -186,8 +285,9 @@ metricas_avancadas <- vendas |>
     amplitude = max_valor - min_valor,
     cv = (desvio_padrao / receita_media) * 100  # Coeficiente de variação
   )
-print("Métricas avançadas por produto:")
-print(metricas_avancadas)
+cat("Métricas avançadas por produto:")
+metricas_avancadas |>
+  print(width = Inf)
 
 # ============================================
 # 5. ARRANGE - Ordenação de linhas
