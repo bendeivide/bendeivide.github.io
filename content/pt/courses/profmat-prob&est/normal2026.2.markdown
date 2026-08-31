@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2026.2
-date: "2026-08-31 06:06:39"
+date: "2026-08-31 06:11:28"
 type: book
 weight: 1
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -569,7 +569,7 @@ coordação, faremos a segunda chamada de tal atividade.
 
 {{< icon name="r-project" pack="fab" >}} {{% staticref "/profmat/2026.2/aula03/aula28.08.26.R" "newtab" %}}Script Aula 03.R{{% /staticref %}}
 
-{{< icon name="file-pdf" pack="fas" >}} {{% staticref "/profmat/2026.2/aula03/aula28.08.26.pdf" "newtab" %}}PDF Aula 03.R{{% /staticref %}}
+{{< icon name="file-pdf" pack="fas" >}} {{% staticref "/profmat/2026.2/aula03/aula28.08.26.pdf" "newtab" %}}PDF_Aula_03.pdf{{% /staticref %}}
 
 </div>
 
