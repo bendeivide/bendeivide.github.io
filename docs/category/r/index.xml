@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 28 Aug 2026 16:50:26 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 01 Sep 2026 15:50:35 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/eait/normal2026.2/</link>
-      <pubDate>Fri, 28 Aug 2026 16:50:26 -0300</pubDate>
+      <pubDate>Tue, 01 Sep 2026 15:50:35 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/eait/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -732,36 +732,648 @@ ave()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 2 --&gt;
-&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 3 (Clique!) - 07/09/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; Dados: &lt;a href=&#34;http://bendeivide.github.io/eait/2026.2/rel03/base_processamento_dados_engenharia_civil.csv&#34; target=&#34;_blank&#34;&gt;base_processamento_dados_engenharia_civil.csv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/eait/2026.2/rel03/atividade_processamento_dados_engenharia_civil.R&#34; target=&#34;_blank&#34;&gt;atividade_processamento_dados_engenharia_civil.R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 07/09/2026
+&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 18h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O objetivo desta atividade é desenvolver a capacidade de &lt;strong&gt;inspecionar, diagnosticar, organizar, limpar, transformar e explorar uma base de dados proveniente de uma situação prática da Engenharia Civil&lt;/strong&gt;, utilizando a linguagem R e, preferencialmente, os recursos da &lt;strong&gt;família tidyverse&lt;/strong&gt; trabalhados em sala de aula.&lt;/p&gt;
+&lt;p&gt;Na prática profissional, o engenheiro frequentemente recebe dados provenientes de diferentes fontes: planilhas preenchidas por técnicos, resultados de ensaios de laboratório, registros de obras e informações coletadas em campo. Antes de realizar qualquer análise estatística, é necessário verificar se os dados estão completos, se os tipos das variáveis estão corretos, se existem erros de digitação e se os valores são coerentes com o fenômeno estudado.&lt;/p&gt;
+&lt;p&gt;Nesta atividade, você assumirá o papel de um engenheiro responsável pelo processamento de dados de &lt;strong&gt;controle tecnológico do concreto&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Diferentemente do relatório anterior, nesta atividade você deverá utilizar, prioritariamente, as ferramentas da &lt;strong&gt;família tidyverse&lt;/strong&gt;, explorando principalmente os pacotes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;dplyr&lt;/code&gt; — manipulação e transformação de dados;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tidyr&lt;/code&gt; — organização e reestruturação dos dados;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;stringr&lt;/code&gt; — tratamento de textos;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;readr&lt;/code&gt; — leitura e conversão de dados;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;purrr&lt;/code&gt; — aplicação de funções;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ggplot2&lt;/code&gt; — visualização gráfica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sempre que possível, utilize o operador &lt;code&gt;|&amp;gt;&lt;/code&gt; para construir fluxos de transformação dos dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; &lt;strong&gt;CONTEXTUALIZAÇÃO DA BASE DE DADOS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Imagine que uma empresa de Engenharia Civil esteja executando diferentes blocos de um empreendimento. Durante a execução da obra, foram realizados ensaios e registros relacionados ao concreto utilizado nas concretagens.&lt;/p&gt;
+&lt;p&gt;Os dados foram reunidos posteriormente em uma única planilha. Entretanto, diferentes profissionais participaram da coleta e da digitação das informações. Por esse motivo, a base contém alguns problemas que podem ocorrer em situações reais, tais como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;valores ausentes;&lt;/li&gt;
+&lt;li&gt;erros de digitação;&lt;/li&gt;
+&lt;li&gt;números registrados de maneira inadequada;&lt;/li&gt;
+&lt;li&gt;uso de vírgula decimal em alguns registros;&lt;/li&gt;
+&lt;li&gt;valores com ordem de grandeza aparentemente incorreta;&lt;/li&gt;
+&lt;li&gt;casas decimais deslocadas;&lt;/li&gt;
+&lt;li&gt;categorias escritas de maneiras diferentes;&lt;/li&gt;
+&lt;li&gt;espaços adicionais em alguns registros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Os problemas não foram identificados previamente.&lt;/strong&gt; Uma das tarefas do engenheiro é justamente descobrir quais problemas existem e decidir como tratá-los.&lt;/p&gt;
+&lt;p&gt;A base possui &lt;strong&gt;100 observações e 10 variáveis&lt;/strong&gt;. Cada linha representa um corpo de prova ou registro de controle, enquanto as colunas representam características relacionadas ao concreto.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Variável&lt;/th&gt;
+&lt;th&gt;Descrição&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;id_corpo_prova&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Identificação do corpo de prova&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;obra&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Bloco da obra onde ocorreu a concretagem&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;tipo_concreto&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Classe do concreto: C25, C30, C35 ou C40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;idade_dias&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Idade do corpo de prova no momento do ensaio&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;resistencia_mpa&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Resistência à compressão, em MPa&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;cimento_kg_m3&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Consumo de cimento, em kg/m³&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;relacao_a_c&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Relação água/cimento&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;abatimento_mm&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Abatimento do concreto, em mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;densidade_kg_m3&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Densidade aparente do concreto, em kg/m³&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;absorção_agregado_pct&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Absorção de água do agregado, em %&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;O objetivo não é simplesmente obter números. Espera-se que você consiga &lt;strong&gt;justificar as decisões tomadas durante o processamento da base&lt;/strong&gt; e utilizar o R para transformar dados brutos em informações úteis para a tomada de decisão na Engenharia Civil.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-cogs&#34;&gt;&lt;/i&gt; &lt;strong&gt;PREPARAÇÃO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Coloque o arquivo &lt;code&gt;base_processamento_dados_engenharia_civil.csv&lt;/code&gt; no mesmo diretório do seu relatório &lt;code&gt;/rel03/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Instale, caso necessário, e carregue os pacotes da família tidyverse:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;tidyverse&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Em seguida:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Importe a base utilizando &lt;code&gt;read_csv2()&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados &amp;lt;- read_csv2(
+  &amp;quot;base_processamento_dados_engenharia_civil.csv&amp;quot;,
+  show_col_types = FALSE
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Orientação:&lt;/strong&gt; não altere diretamente a base original. Sempre que necessário, crie novos objetos ou uma cópia denominada &lt;code&gt;dados_limpos&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Durante a atividade, procure utilizar o fluxo de transformação de dados característico do tidyverse:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados |&amp;gt;
+  função1() |&amp;gt;
+  função2() |&amp;gt;
+  função3()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 1 — Conhecendo a base&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Importe a base de dados no R e atribua-a ao objeto &lt;code&gt;dados&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Verifique se a importação foi realizada corretamente.&lt;/p&gt;
+&lt;p&gt;Utilize funções da família tidyverse para visualizar as primeiras e as últimas observações.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quantas observações e quantas variáveis existem na base?&lt;/p&gt;
+&lt;p&gt;Apresente um código R que permita responder à questão utilizando funções da família tidyverse.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Apresente a estrutura da base utilizando uma função apropriada do tidyverse.&lt;/p&gt;
+&lt;p&gt;Analise o resultado obtido.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Sugestão:&lt;/strong&gt; utilize &lt;code&gt;glimpse()&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 4&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Apresente um resumo das variáveis da base utilizando recursos do tidyverse.&lt;/p&gt;
+&lt;p&gt;Quais informações chamam sua atenção?&lt;/p&gt;
+&lt;p&gt;Compare, se desejar, o resultado com o resumo obtido no Relatório 02.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 5&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quais variáveis foram reconhecidas pelo R como quantitativas e quais foram reconhecidas como qualitativas?&lt;/p&gt;
+&lt;p&gt;Utilize funções do tidyverse para investigar os tipos das variáveis.&lt;/p&gt;
+&lt;p&gt;Justifique sua resposta.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 6&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Verifique a existência de valores ausentes na base.&lt;/p&gt;
+&lt;p&gt;Responda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantos valores ausentes existem?&lt;/li&gt;
+&lt;li&gt;Em quais variáveis eles aparecem?&lt;/li&gt;
+&lt;li&gt;Em quais observações eles aparecem?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Procure utilizar &lt;code&gt;across()&lt;/code&gt; para realizar a investigação de forma sistemática.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 2 — Investigando problemas nos dados&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nesta etapa, o objetivo é identificar possíveis problemas de qualidade da informação antes de realizar análises estatísticas.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 7&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Verifique se existem valores que parecem incompatíveis com o contexto da Engenharia Civil.&lt;/p&gt;
+&lt;p&gt;Considere, entre outras, as variáveis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;idade dos corpos de prova;&lt;/li&gt;
+&lt;li&gt;resistência à compressão;&lt;/li&gt;
+&lt;li&gt;abatimento;&lt;/li&gt;
+&lt;li&gt;densidade;&lt;/li&gt;
+&lt;li&gt;relação água/cimento;&lt;/li&gt;
+&lt;li&gt;absorção.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Utilize &lt;code&gt;filter()&lt;/code&gt; para localizar as observações potencialmente problemáticas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 8&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Existem valores que podem ser considerados possíveis erros de digitação?&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;filter()&lt;/code&gt;, &lt;code&gt;select()&lt;/code&gt; e outras funções do tidyverse para localizar os registros suspeitos.&lt;/p&gt;
+&lt;p&gt;Apresente os respectivos registros completos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 9&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Verifique se todas as categorias da variável &lt;code&gt;obra&lt;/code&gt; estão escritas de forma padronizada.&lt;/p&gt;
+&lt;p&gt;Utilize funções como &lt;code&gt;count()&lt;/code&gt; e &lt;code&gt;distinct()&lt;/code&gt; para identificar as categorias existentes.&lt;/p&gt;
+&lt;p&gt;Caso encontre alguma inconsistência, identifique-a.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 10&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Verifique se todas as categorias de &lt;code&gt;tipo_concreto&lt;/code&gt; estão padronizadas.&lt;/p&gt;
+&lt;p&gt;Utilize funções do tidyverse para identificar as diferentes categorias existentes.&lt;/p&gt;
+&lt;p&gt;Existe alguma categoria que possa representar o mesmo tipo de concreto que outra, mas esteja escrita de maneira diferente?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 11&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Verifique novamente os tipos das variáveis depois de identificar os problemas.&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;glimpse()&lt;/code&gt; e outras funções apropriadas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Por que um único valor digitado incorretamente pode alterar a maneira como o R interpreta uma variável inteira?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 3 — Limpeza e transformação da base&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nesta etapa, você deverá produzir uma versão da base destinada às análises.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 12&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Crie uma cópia da base original chamada &lt;code&gt;dados_limpos&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados_limpos &amp;lt;- dados
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Por que é recomendável preservar a base original?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 13&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Corrija os problemas encontrados nas variáveis qualitativas, de modo que suas categorias fiquem padronizadas.&lt;/p&gt;
+&lt;p&gt;Utilize funções do pacote &lt;code&gt;stringr&lt;/code&gt;, tais como:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;str_trim()
+str_to_upper()
+str_replace()
+str_replace_all()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Procure construir uma transformação que possa ser aplicada de maneira consistente às observações.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 14&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Converta para o tipo adequado as variáveis que deveriam ser quantitativas.&lt;/p&gt;
+&lt;p&gt;Utilize funções do pacote &lt;code&gt;readr&lt;/code&gt;, quando apropriado, para realizar a conversão.&lt;/p&gt;
+&lt;p&gt;Investigue situações envolvendo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;vírgula decimal;&lt;/li&gt;
+&lt;li&gt;caracteres indevidos;&lt;/li&gt;
+&lt;li&gt;valores registrados como texto;&lt;/li&gt;
+&lt;li&gt;valores ausentes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Verifique se a conversão foi realizada corretamente utilizando &lt;code&gt;glimpse()&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 15&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Identifique os valores ausentes.&lt;/p&gt;
+&lt;p&gt;Utilize recursos do &lt;code&gt;dplyr&lt;/code&gt; para investigar a distribuição dos &lt;code&gt;NA&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Discuta qual procedimento seria mais adequado para cada situação:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;excluir a observação;&lt;/li&gt;
+&lt;li&gt;substituir o valor;&lt;/li&gt;
+&lt;li&gt;manter o &lt;code&gt;NA&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;consultar a fonte original dos dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Justifique suas decisões.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 16&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Depois da limpeza, verifique novamente a estrutura e um resumo da base.&lt;/p&gt;
+&lt;p&gt;Utilize, por exemplo:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;glimpse(dados_limpos)
+
+dados_limpos |&amp;gt;
+  summary()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;O que mudou em relação à base original?&lt;/p&gt;
+&lt;p&gt;Quais problemas foram efetivamente corrigidos?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 4 — Explorando os dados com &lt;code&gt;dplyr&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Agora que a base foi inspecionada e tratada, utilize as ferramentas de manipulação e processamento da família tidyverse.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 17 — Resistência média&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Calcule a resistência média à compressão dos corpos de prova.&lt;/p&gt;
+&lt;p&gt;Calcule também a resistência média por:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bloco da obra;&lt;/li&gt;
+&lt;li&gt;tipo de concreto;&lt;/li&gt;
+&lt;li&gt;idade do corpo de prova.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Utilize &lt;code&gt;group_by()&lt;/code&gt; e &lt;code&gt;summarise()&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 18 — Comparação entre obras&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Qual bloco da obra apresentou a maior resistência média?&lt;/p&gt;
+&lt;p&gt;Qual apresentou a menor?&lt;/p&gt;
+&lt;p&gt;Utilize uma combinação de:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;group_by()
+summarise()
+arrange()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;para responder à questão.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 19 — Tipo de concreto&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Calcule a resistência média para cada classe de concreto:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C25;&lt;/li&gt;
+&lt;li&gt;C30;&lt;/li&gt;
+&lt;li&gt;C35;&lt;/li&gt;
+&lt;li&gt;C40.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Qual classe apresentou a maior resistência média?&lt;/p&gt;
+&lt;p&gt;Organize o resultado da maior para a menor resistência média.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 20 — Estatísticas por grupo&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Utilizando &lt;code&gt;group_by()&lt;/code&gt; e &lt;code&gt;summarise()&lt;/code&gt;, obtenha a média das seguintes variáveis para cada tipo de concreto:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;resistência;&lt;/li&gt;
+&lt;li&gt;consumo de cimento;&lt;/li&gt;
+&lt;li&gt;relação água/cimento;&lt;/li&gt;
+&lt;li&gt;abatimento;&lt;/li&gt;
+&lt;li&gt;densidade.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Interprete os resultados obtidos.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Observação:&lt;/strong&gt; nesta questão, não utilize &lt;code&gt;aggregate()&lt;/code&gt;. O objetivo é praticar a combinação &lt;code&gt;group_by()&lt;/code&gt; + &lt;code&gt;summarise()&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 5 — Criando novas variáveis com &lt;code&gt;mutate()&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 21&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Crie uma variável chamada &lt;code&gt;resistencia_relativa&lt;/code&gt;, representando a razão entre a resistência observada e uma resistência de referência associada à classe do concreto.&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;mutate()&lt;/code&gt; e &lt;code&gt;case_when()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Explique como você definiu a resistência de referência para cada classe.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 22&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Crie uma variável denominada &lt;code&gt;classificacao&lt;/code&gt;, classificando os corpos de prova segundo um critério relacionado à resistência.&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;mutate()&lt;/code&gt; e &lt;code&gt;case_when()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Você deverá definir os critérios utilizados e justificá-los tecnicamente.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 23&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Crie uma variável denominada &lt;code&gt;acima_media&lt;/code&gt;, indicando se a resistência do corpo de prova está acima ou abaixo da resistência média de seu respectivo tipo de concreto.&lt;/p&gt;
+&lt;p&gt;A variável deverá assumir valores:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;TRUE
+FALSE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Utilize &lt;code&gt;group_by()&lt;/code&gt; em conjunto com &lt;code&gt;mutate()&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Desafio:&lt;/strong&gt; procure realizar a operação sem calcular manualmente as médias de cada classe.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 6 — Trabalhando com dados agrupados&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nesta etapa, você deverá explorar os mecanismos de agrupamento do &lt;code&gt;dplyr&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 24&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;group_by()&lt;/code&gt; e &lt;code&gt;summarise()&lt;/code&gt; para determinar quantas observações existem em cada grupo de &lt;code&gt;tipo_concreto&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Apresente o resultado em uma tabela organizada.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 25&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Calcule a resistência média de cada tipo de concreto utilizando:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;group_by()
+summarise()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Depois, ordene os resultados utilizando &lt;code&gt;arrange()&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 26&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Calcule simultaneamente diferentes estatísticas da variável &lt;code&gt;resistencia_mpa&lt;/code&gt; para cada tipo de concreto.&lt;/p&gt;
+&lt;p&gt;Obtenha, por exemplo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;número de observações;&lt;/li&gt;
+&lt;li&gt;média;&lt;/li&gt;
+&lt;li&gt;mediana;&lt;/li&gt;
+&lt;li&gt;desvio-padrão;&lt;/li&gt;
+&lt;li&gt;mínimo;&lt;/li&gt;
+&lt;li&gt;máximo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Utilize &lt;code&gt;summarise()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Explique por que uma tabela com várias estatísticas pode ser mais informativa do que apresentar apenas a média.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 7 — Selecionando e reorganizando variáveis&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 27&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Selecione somente as variáveis quantitativas relacionadas às propriedades do concreto.&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;select()&lt;/code&gt; e, quando apropriado, &lt;code&gt;where()&lt;/code&gt; ou &lt;code&gt;all_of()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Apresente a nova tabela.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 28&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;across()&lt;/code&gt; para calcular a média das variáveis quantitativas selecionadas.&lt;/p&gt;
+&lt;p&gt;Compare o resultado com aquele obtido utilizando &lt;code&gt;summarise()&lt;/code&gt; individualmente para cada variável.&lt;/p&gt;
+&lt;p&gt;Qual abordagem apresenta maior facilidade de manutenção quando o número de variáveis aumenta?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 29&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;mutate()&lt;/code&gt; e &lt;code&gt;across()&lt;/code&gt; para realizar uma transformação simultânea em um conjunto de variáveis quantitativas.&lt;/p&gt;
+&lt;p&gt;Escolha uma transformação coerente com o problema e explique sua finalidade.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 30&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;across()&lt;/code&gt; em conjunto com &lt;code&gt;summarise()&lt;/code&gt; para obter, por tipo de concreto, pelo menos duas estatísticas para cada variável quantitativa selecionada.&lt;/p&gt;
+&lt;p&gt;Apresente o resultado de forma organizada.&lt;/p&gt;
+&lt;p&gt;Compare essa solução com a utilização de vários comandos separados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 8 — Trabalhando com textos e categorias&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 31&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Utilize funções do pacote &lt;code&gt;stringr&lt;/code&gt; para verificar e padronizar os valores da variável &lt;code&gt;obra&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Investigue:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;espaços no início ou no final dos textos;&lt;/li&gt;
+&lt;li&gt;diferenças entre letras maiúsculas e minúsculas;&lt;/li&gt;
+&lt;li&gt;possíveis grafias diferentes para uma mesma categoria.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Apresente o antes e o depois da padronização.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 32&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;str_detect()&lt;/code&gt; para localizar registros que contenham determinado padrão textual em &lt;code&gt;tipo_concreto&lt;/code&gt; ou &lt;code&gt;obra&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Crie uma condição de busca adequada aos dados.&lt;/p&gt;
+&lt;p&gt;Explique como a utilização de padrões de texto pode auxiliar no diagnóstico de bases de dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 9 — Visualização dos dados&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nesta etapa, utilize o pacote &lt;code&gt;ggplot2&lt;/code&gt; para produzir representações gráficas que auxiliem a interpretação dos dados.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 33&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Produza um gráfico comparando a distribuição da resistência à compressão entre os diferentes tipos de concreto.&lt;/p&gt;
+&lt;p&gt;Utilize uma geometria apropriada, como:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;geom_boxplot()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Interprete o gráfico.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 34&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Produza um gráfico investigando a relação entre:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;consumo de cimento;&lt;/li&gt;
+&lt;li&gt;resistência à compressão.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Utilize um gráfico de dispersão com &lt;code&gt;geom_point()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Acrescente, se considerar apropriado, uma linha de tendência.&lt;/p&gt;
+&lt;p&gt;O gráfico fornece evidências visuais para a afirmação:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Quanto maior o consumo de cimento, maior tende a ser a resistência do concreto.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Justifique.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 35&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Produza um gráfico para investigar a relação entre:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;relação água/cimento;&lt;/li&gt;
+&lt;li&gt;resistência à compressão.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Utilize &lt;code&gt;ggplot2&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Apresente o gráfico e interprete o padrão observado.&lt;/p&gt;
+&lt;p&gt;Os dados apresentam alguma tendência que mereça investigação?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 10 — Questões próximas da prática profissional&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 36 — Comparação entre obras&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O engenheiro responsável afirma:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Os concretos utilizados no Bloco C apresentam desempenho superior aos utilizados nos demais blocos.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Utilize &lt;code&gt;dplyr&lt;/code&gt; e &lt;code&gt;ggplot2&lt;/code&gt; para verificar se os dados dão suporte a essa afirmação &lt;strong&gt;em termos descritivos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Não é necessário realizar um teste de hipótese. O objetivo é explorar os dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 37 — Idade e resistência&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Compare a resistência média dos concretos com diferentes idades.&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;group_by()&lt;/code&gt; e &lt;code&gt;summarise()&lt;/code&gt; para obter as médias.&lt;/p&gt;
+&lt;p&gt;Em seguida, produza uma representação gráfica adequada.&lt;/p&gt;
+&lt;p&gt;O que acontece com a resistência à medida que aumenta a idade do corpo de prova?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 38 — Resumo para o engenheiro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O controle tecnológico da empresa precisa produzir um relatório para o engenheiro responsável.&lt;/p&gt;
+&lt;p&gt;Utilizando &lt;code&gt;dplyr&lt;/code&gt;, construa uma tabela-resumo contendo pelo menos &lt;strong&gt;cinco informações estatísticas&lt;/strong&gt; que você considera importantes para o acompanhamento da qualidade do concreto.&lt;/p&gt;
+&lt;p&gt;Justifique a escolha de cada informação.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Desafio final — O engenheiro responsável pelos dados&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Você recebeu uma planilha produzida por diferentes profissionais da empresa e não sabe previamente quais erros foram cometidos durante a coleta e a digitação.&lt;/p&gt;
+&lt;p&gt;Desenvolva um &lt;strong&gt;script em R utilizando prioritariamente a família tidyverse&lt;/strong&gt; capaz de:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;realizar uma inspeção inicial da base;&lt;/li&gt;
+&lt;li&gt;identificar possíveis problemas;&lt;/li&gt;
+&lt;li&gt;verificar valores ausentes;&lt;/li&gt;
+&lt;li&gt;identificar inconsistências nas variáveis;&lt;/li&gt;
+&lt;li&gt;produzir uma versão limpa dos dados;&lt;/li&gt;
+&lt;li&gt;gerar estatísticas descritivas relevantes;&lt;/li&gt;
+&lt;li&gt;criar pelo menos duas variáveis derivadas;&lt;/li&gt;
+&lt;li&gt;produzir pelo menos dois gráficos;&lt;/li&gt;
+&lt;li&gt;gerar informações que possam auxiliar o engenheiro responsável pela obra.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;O script deverá ser organizado de forma que &lt;strong&gt;outro engenheiro consiga compreender as etapas realizadas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Procure organizar o código em etapas, utilizando comentários para explicar as principais decisões.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Requisitos do desafio&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Procure utilizar, sempre que possível, ferramentas da família tidyverse, tais como:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
+
+read_csv2()
+glimpse()
+
+select()
+filter()
+mutate()
+summarise()
+arrange()
+group_by()
+count()
+distinct()
+
+across()
+case_when()
+if_else()
+
+str_trim()
+str_to_upper()
+str_replace()
+str_replace_all()
+str_detect()
+
+parse_double()
+
+map()
+map_dbl()
+
+pivot_longer()
+pivot_wider()
+
+ggplot()
+geom_point()
+geom_boxplot()
+geom_histogram()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Não é necessário utilizar todas as funções.&lt;/p&gt;
+&lt;p&gt;O mais importante é que o código seja &lt;strong&gt;coerente com o problema, organizado e justificável&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; nesta atividade, as soluções devem priorizar as ferramentas da família tidyverse. Evite utilizar as funções de Base R trabalhadas como foco principal no Relatório 02 quando existir uma alternativa adequada no tidyverse.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para ajudar no desenvolvimento do relatório, inserimos uma tabela abaixo para comparar as funções correlatas usadas no Relatório 2 e Relatório 3.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Relatório 02 — Base R&lt;/th&gt;
+&lt;th&gt;Relatório 03 — Tidyverse&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;read.csv2()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;read_csv2()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;str()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;glimpse()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;subset()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;filter()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;seleção &lt;code&gt;dados[, ]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;select()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;criação de variável&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;mutate()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;ifelse()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;if_else()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;múltiplas condições&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;case_when()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;tapply()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;group_by()&lt;/code&gt; + &lt;code&gt;summarise()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;aggregate()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;group_by()&lt;/code&gt; + &lt;code&gt;summarise()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;apply()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;across()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;lapply()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;map()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;sapply()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;map_*()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;ave()&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;group_by()&lt;/code&gt; + &lt;code&gt;mutate()&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tratamento textual&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;stringr&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;conversão numérica&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;readr&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;reorganização&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;tidyr&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gráficos&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;ggplot2&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Reflexão final&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Depois de concluir a atividade, responda:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Qual é a principal diferença entre resolver um problema de processamento de dados utilizando Base R e utilizando as ferramentas da família tidyverse?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Em seguida, responda:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Por que o processamento e a limpeza dos dados são etapas fundamentais antes da aplicação de métodos estatísticos na Engenharia Civil?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Finalmente, descreva brevemente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;qual foi o principal problema encontrado na base;&lt;/li&gt;
+&lt;li&gt;qual decisão você tomou para tratá-lo;&lt;/li&gt;
+&lt;li&gt;quais funções do tidyverse foram utilizadas;&lt;/li&gt;
+&lt;li&gt;por que você considera que sua solução é adequada.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;ENTREGA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A entrega deverá conter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;o arquivo da base de dados;&lt;/li&gt;
+&lt;li&gt;o código R desenvolvido;&lt;/li&gt;
+&lt;li&gt;os resultados obtidos;&lt;/li&gt;
+&lt;li&gt;as tabelas produzidas;&lt;/li&gt;
+&lt;li&gt;os gráficos produzidos;&lt;/li&gt;
+&lt;li&gt;as justificativas das decisões tomadas durante o processamento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O código deverá estar organizado e comentado.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O objetivo principal não é apenas produzir respostas numéricas, mas demonstrar que você consegue &lt;strong&gt;usar o R e as ferramentas da família tidyverse para transformar uma base de dados bruta em uma fonte de informação confiável para a tomada de decisão na Engenharia Civil&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 18h do dia 07/09/2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 3 --&gt;
+&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação da disciplina e Introdução ao R&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II), &lt;em&gt;R Markdown&lt;/em&gt;, Quarto e &lt;em&gt;Github&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Como desenvolver nossos relatórios de avaliação&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Estatística Descritiva&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte I)&lt;/p&gt;
@@ -770,7 +1382,7 @@ ave()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte II)&lt;/p&gt;
@@ -780,11 +1392,11 @@ ave()
 &lt;/details&gt;
 &lt;!-- Fim da Aula 06 --&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;

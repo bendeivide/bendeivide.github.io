@@ -352,10 +352,10 @@
     
       <meta
         property="article:published_time"
-        content="2026-08-28T16:50:26-03:00"
+        content="2026-09-01T15:50:35-03:00"
       />
     
-    <meta property="article:modified_time" content="2026-08-28T16:50:26-03:00">
+    <meta property="article:modified_time" content="2026-09-01T15:50:35-03:00">
   
 
   
@@ -1854,36 +1854,648 @@ ave()
 </p>
 </details>
 <!-- Fim do Relatorio 2 -->
-<h2 id="aulas" title="Clique aqui!"><i class="fas fa-pencil-ruler"></i> Aulas</h2>
 <details class="spoiler "  id="spoiler-12">
+  <summary>🗒 Relatório 3 (Clique!) - 07/09/2026</summary>
+  <p><ul>
+<li><i class="fas fa-upload"></i> Entrega: Via Github</li>
+<li><i class="fas fa-file"></i> Formato: <a href="https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip" target="_blank" rel="noopener">Modelo de
+Relatório</a></li>
+<li><i class="fas fa-database"></i> Dados: <a href="/eait/2026.2/rel03/base_processamento_dados_engenharia_civil.csv" target="_blank">base_processamento_dados_engenharia_civil.csv</a></li>
+<li><i class="fab fa-r-project  pr-1 fa-fw"></i> <a href="/eait/2026.2/rel03/atividade_processamento_dados_engenharia_civil.R" target="_blank">atividade_processamento_dados_engenharia_civil.R</a></li>
+<li><i class="fas fa-calendar-check"></i> 07/09/2026
+<i class="fas fa-clock"></i> 18h</li>
+</ul>
+<hr>
+<p><i class="fas fa-question-circle"></i> <strong>OBJETIVO</strong></p>
+<p>O objetivo desta atividade é desenvolver a capacidade de <strong>inspecionar, diagnosticar, organizar, limpar, transformar e explorar uma base de dados proveniente de uma situação prática da Engenharia Civil</strong>, utilizando a linguagem R e, preferencialmente, os recursos da <strong>família tidyverse</strong> trabalhados em sala de aula.</p>
+<p>Na prática profissional, o engenheiro frequentemente recebe dados provenientes de diferentes fontes: planilhas preenchidas por técnicos, resultados de ensaios de laboratório, registros de obras e informações coletadas em campo. Antes de realizar qualquer análise estatística, é necessário verificar se os dados estão completos, se os tipos das variáveis estão corretos, se existem erros de digitação e se os valores são coerentes com o fenômeno estudado.</p>
+<p>Nesta atividade, você assumirá o papel de um engenheiro responsável pelo processamento de dados de <strong>controle tecnológico do concreto</strong>.</p>
+<p>Diferentemente do relatório anterior, nesta atividade você deverá utilizar, prioritariamente, as ferramentas da <strong>família tidyverse</strong>, explorando principalmente os pacotes:</p>
+<ul>
+<li><code>dplyr</code> — manipulação e transformação de dados;</li>
+<li><code>tidyr</code> — organização e reestruturação dos dados;</li>
+<li><code>stringr</code> — tratamento de textos;</li>
+<li><code>readr</code> — leitura e conversão de dados;</li>
+<li><code>purrr</code> — aplicação de funções;</li>
+<li><code>ggplot2</code> — visualização gráfica.</li>
+</ul>
+<p>Sempre que possível, utilize o operador <code>|&gt;</code> para construir fluxos de transformação dos dados.</p>
+<hr>
+<p><i class="fas fa-database"></i> <strong>CONTEXTUALIZAÇÃO DA BASE DE DADOS</strong></p>
+<p>Imagine que uma empresa de Engenharia Civil esteja executando diferentes blocos de um empreendimento. Durante a execução da obra, foram realizados ensaios e registros relacionados ao concreto utilizado nas concretagens.</p>
+<p>Os dados foram reunidos posteriormente em uma única planilha. Entretanto, diferentes profissionais participaram da coleta e da digitação das informações. Por esse motivo, a base contém alguns problemas que podem ocorrer em situações reais, tais como:</p>
+<ul>
+<li>valores ausentes;</li>
+<li>erros de digitação;</li>
+<li>números registrados de maneira inadequada;</li>
+<li>uso de vírgula decimal em alguns registros;</li>
+<li>valores com ordem de grandeza aparentemente incorreta;</li>
+<li>casas decimais deslocadas;</li>
+<li>categorias escritas de maneiras diferentes;</li>
+<li>espaços adicionais em alguns registros.</li>
+</ul>
+<p><strong>Os problemas não foram identificados previamente.</strong> Uma das tarefas do engenheiro é justamente descobrir quais problemas existem e decidir como tratá-los.</p>
+<p>A base possui <strong>100 observações e 10 variáveis</strong>. Cada linha representa um corpo de prova ou registro de controle, enquanto as colunas representam características relacionadas ao concreto.</p>
+<table>
+<thead>
+<tr>
+<th>Variável</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id_corpo_prova</code></td>
+<td>Identificação do corpo de prova</td>
+</tr>
+<tr>
+<td><code>obra</code></td>
+<td>Bloco da obra onde ocorreu a concretagem</td>
+</tr>
+<tr>
+<td><code>tipo_concreto</code></td>
+<td>Classe do concreto: C25, C30, C35 ou C40</td>
+</tr>
+<tr>
+<td><code>idade_dias</code></td>
+<td>Idade do corpo de prova no momento do ensaio</td>
+</tr>
+<tr>
+<td><code>resistencia_mpa</code></td>
+<td>Resistência à compressão, em MPa</td>
+</tr>
+<tr>
+<td><code>cimento_kg_m3</code></td>
+<td>Consumo de cimento, em kg/m³</td>
+</tr>
+<tr>
+<td><code>relacao_a_c</code></td>
+<td>Relação água/cimento</td>
+</tr>
+<tr>
+<td><code>abatimento_mm</code></td>
+<td>Abatimento do concreto, em mm</td>
+</tr>
+<tr>
+<td><code>densidade_kg_m3</code></td>
+<td>Densidade aparente do concreto, em kg/m³</td>
+</tr>
+<tr>
+<td><code>absorção_agregado_pct</code></td>
+<td>Absorção de água do agregado, em %</td>
+</tr>
+</tbody>
+</table>
+<p>O objetivo não é simplesmente obter números. Espera-se que você consiga <strong>justificar as decisões tomadas durante o processamento da base</strong> e utilizar o R para transformar dados brutos em informações úteis para a tomada de decisão na Engenharia Civil.</p>
+<hr>
+<p><i class="fas fa-cogs"></i> <strong>PREPARAÇÃO</strong></p>
+<p>Coloque o arquivo <code>base_processamento_dados_engenharia_civil.csv</code> no mesmo diretório do seu relatório <code>/rel03/</code>.</p>
+<p>Instale, caso necessário, e carregue os pacotes da família tidyverse:</p>
+<pre><code class="language-r">install.packages(&quot;tidyverse&quot;)
+</code></pre>
+<p>Em seguida:</p>
+<pre><code class="language-r">library(tidyverse)
+</code></pre>
+<p>Importe a base utilizando <code>read_csv2()</code>:</p>
+<pre><code class="language-r">dados &lt;- read_csv2(
+  &quot;base_processamento_dados_engenharia_civil.csv&quot;,
+  show_col_types = FALSE
+)
+</code></pre>
+<blockquote>
+<p><strong>Orientação:</strong> não altere diretamente a base original. Sempre que necessário, crie novos objetos ou uma cópia denominada <code>dados_limpos</code>.</p>
+</blockquote>
+<p>Durante a atividade, procure utilizar o fluxo de transformação de dados característico do tidyverse:</p>
+<pre><code class="language-r">dados |&gt;
+  função1() |&gt;
+  função2() |&gt;
+  função3()
+</code></pre>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 1 — Conhecendo a base</strong></p>
+<p><i class="fas fa-edit"></i> <strong>Questão 1</strong></p>
+<p>Importe a base de dados no R e atribua-a ao objeto <code>dados</code>.</p>
+<p>Verifique se a importação foi realizada corretamente.</p>
+<p>Utilize funções da família tidyverse para visualizar as primeiras e as últimas observações.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 2</strong></p>
+<p>Quantas observações e quantas variáveis existem na base?</p>
+<p>Apresente um código R que permita responder à questão utilizando funções da família tidyverse.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 3</strong></p>
+<p>Apresente a estrutura da base utilizando uma função apropriada do tidyverse.</p>
+<p>Analise o resultado obtido.</p>
+<blockquote>
+<p><strong>Sugestão:</strong> utilize <code>glimpse()</code>.</p>
+</blockquote>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 4</strong></p>
+<p>Apresente um resumo das variáveis da base utilizando recursos do tidyverse.</p>
+<p>Quais informações chamam sua atenção?</p>
+<p>Compare, se desejar, o resultado com o resumo obtido no Relatório 02.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 5</strong></p>
+<p>Quais variáveis foram reconhecidas pelo R como quantitativas e quais foram reconhecidas como qualitativas?</p>
+<p>Utilize funções do tidyverse para investigar os tipos das variáveis.</p>
+<p>Justifique sua resposta.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 6</strong></p>
+<p>Verifique a existência de valores ausentes na base.</p>
+<p>Responda:</p>
+<ul>
+<li>Quantos valores ausentes existem?</li>
+<li>Em quais variáveis eles aparecem?</li>
+<li>Em quais observações eles aparecem?</li>
+</ul>
+<p>Procure utilizar <code>across()</code> para realizar a investigação de forma sistemática.</p>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 2 — Investigando problemas nos dados</strong></p>
+<p>Nesta etapa, o objetivo é identificar possíveis problemas de qualidade da informação antes de realizar análises estatísticas.</p>
+<p><i class="fas fa-edit"></i> <strong>Questão 7</strong></p>
+<p>Verifique se existem valores que parecem incompatíveis com o contexto da Engenharia Civil.</p>
+<p>Considere, entre outras, as variáveis:</p>
+<ul>
+<li>idade dos corpos de prova;</li>
+<li>resistência à compressão;</li>
+<li>abatimento;</li>
+<li>densidade;</li>
+<li>relação água/cimento;</li>
+<li>absorção.</li>
+</ul>
+<p>Utilize <code>filter()</code> para localizar as observações potencialmente problemáticas.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 8</strong></p>
+<p>Existem valores que podem ser considerados possíveis erros de digitação?</p>
+<p>Utilize <code>filter()</code>, <code>select()</code> e outras funções do tidyverse para localizar os registros suspeitos.</p>
+<p>Apresente os respectivos registros completos.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 9</strong></p>
+<p>Verifique se todas as categorias da variável <code>obra</code> estão escritas de forma padronizada.</p>
+<p>Utilize funções como <code>count()</code> e <code>distinct()</code> para identificar as categorias existentes.</p>
+<p>Caso encontre alguma inconsistência, identifique-a.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 10</strong></p>
+<p>Verifique se todas as categorias de <code>tipo_concreto</code> estão padronizadas.</p>
+<p>Utilize funções do tidyverse para identificar as diferentes categorias existentes.</p>
+<p>Existe alguma categoria que possa representar o mesmo tipo de concreto que outra, mas esteja escrita de maneira diferente?</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 11</strong></p>
+<p>Verifique novamente os tipos das variáveis depois de identificar os problemas.</p>
+<p>Utilize <code>glimpse()</code> e outras funções apropriadas.</p>
+<p><strong>Questão para reflexão:</strong></p>
+<blockquote>
+<p>Por que um único valor digitado incorretamente pode alterar a maneira como o R interpreta uma variável inteira?</p>
+</blockquote>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 3 — Limpeza e transformação da base</strong></p>
+<p>Nesta etapa, você deverá produzir uma versão da base destinada às análises.</p>
+<p><i class="fas fa-edit"></i> <strong>Questão 12</strong></p>
+<p>Crie uma cópia da base original chamada <code>dados_limpos</code>.</p>
+<pre><code class="language-r">dados_limpos &lt;- dados
+</code></pre>
+<p>Por que é recomendável preservar a base original?</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 13</strong></p>
+<p>Corrija os problemas encontrados nas variáveis qualitativas, de modo que suas categorias fiquem padronizadas.</p>
+<p>Utilize funções do pacote <code>stringr</code>, tais como:</p>
+<pre><code class="language-r">str_trim()
+str_to_upper()
+str_replace()
+str_replace_all()
+</code></pre>
+<p>Procure construir uma transformação que possa ser aplicada de maneira consistente às observações.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 14</strong></p>
+<p>Converta para o tipo adequado as variáveis que deveriam ser quantitativas.</p>
+<p>Utilize funções do pacote <code>readr</code>, quando apropriado, para realizar a conversão.</p>
+<p>Investigue situações envolvendo:</p>
+<ul>
+<li>vírgula decimal;</li>
+<li>caracteres indevidos;</li>
+<li>valores registrados como texto;</li>
+<li>valores ausentes.</li>
+</ul>
+<p>Verifique se a conversão foi realizada corretamente utilizando <code>glimpse()</code>.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 15</strong></p>
+<p>Identifique os valores ausentes.</p>
+<p>Utilize recursos do <code>dplyr</code> para investigar a distribuição dos <code>NA</code>.</p>
+<p>Discuta qual procedimento seria mais adequado para cada situação:</p>
+<ul>
+<li>excluir a observação;</li>
+<li>substituir o valor;</li>
+<li>manter o <code>NA</code>;</li>
+<li>consultar a fonte original dos dados.</li>
+</ul>
+<p>Justifique suas decisões.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 16</strong></p>
+<p>Depois da limpeza, verifique novamente a estrutura e um resumo da base.</p>
+<p>Utilize, por exemplo:</p>
+<pre><code class="language-r">glimpse(dados_limpos)
+
+dados_limpos |&gt;
+  summary()
+</code></pre>
+<p>O que mudou em relação à base original?</p>
+<p>Quais problemas foram efetivamente corrigidos?</p>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 4 — Explorando os dados com <code>dplyr</code></strong></p>
+<p>Agora que a base foi inspecionada e tratada, utilize as ferramentas de manipulação e processamento da família tidyverse.</p>
+<p><i class="fas fa-edit"></i> <strong>Questão 17 — Resistência média</strong></p>
+<p>Calcule a resistência média à compressão dos corpos de prova.</p>
+<p>Calcule também a resistência média por:</p>
+<ul>
+<li>bloco da obra;</li>
+<li>tipo de concreto;</li>
+<li>idade do corpo de prova.</li>
+</ul>
+<p>Utilize <code>group_by()</code> e <code>summarise()</code>.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 18 — Comparação entre obras</strong></p>
+<p>Qual bloco da obra apresentou a maior resistência média?</p>
+<p>Qual apresentou a menor?</p>
+<p>Utilize uma combinação de:</p>
+<pre><code class="language-r">group_by()
+summarise()
+arrange()
+</code></pre>
+<p>para responder à questão.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 19 — Tipo de concreto</strong></p>
+<p>Calcule a resistência média para cada classe de concreto:</p>
+<ul>
+<li>C25;</li>
+<li>C30;</li>
+<li>C35;</li>
+<li>C40.</li>
+</ul>
+<p>Qual classe apresentou a maior resistência média?</p>
+<p>Organize o resultado da maior para a menor resistência média.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 20 — Estatísticas por grupo</strong></p>
+<p>Utilizando <code>group_by()</code> e <code>summarise()</code>, obtenha a média das seguintes variáveis para cada tipo de concreto:</p>
+<ul>
+<li>resistência;</li>
+<li>consumo de cimento;</li>
+<li>relação água/cimento;</li>
+<li>abatimento;</li>
+<li>densidade.</li>
+</ul>
+<p>Interprete os resultados obtidos.</p>
+<blockquote>
+<p><strong>Observação:</strong> nesta questão, não utilize <code>aggregate()</code>. O objetivo é praticar a combinação <code>group_by()</code> + <code>summarise()</code>.</p>
+</blockquote>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 5 — Criando novas variáveis com <code>mutate()</code></strong></p>
+<p><i class="fas fa-edit"></i> <strong>Questão 21</strong></p>
+<p>Crie uma variável chamada <code>resistencia_relativa</code>, representando a razão entre a resistência observada e uma resistência de referência associada à classe do concreto.</p>
+<p>Utilize <code>mutate()</code> e <code>case_when()</code>.</p>
+<p>Explique como você definiu a resistência de referência para cada classe.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 22</strong></p>
+<p>Crie uma variável denominada <code>classificacao</code>, classificando os corpos de prova segundo um critério relacionado à resistência.</p>
+<p>Utilize <code>mutate()</code> e <code>case_when()</code>.</p>
+<p>Você deverá definir os critérios utilizados e justificá-los tecnicamente.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 23</strong></p>
+<p>Crie uma variável denominada <code>acima_media</code>, indicando se a resistência do corpo de prova está acima ou abaixo da resistência média de seu respectivo tipo de concreto.</p>
+<p>A variável deverá assumir valores:</p>
+<pre><code class="language-r">TRUE
+FALSE
+</code></pre>
+<p>Utilize <code>group_by()</code> em conjunto com <code>mutate()</code>.</p>
+<blockquote>
+<p><strong>Desafio:</strong> procure realizar a operação sem calcular manualmente as médias de cada classe.</p>
+</blockquote>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 6 — Trabalhando com dados agrupados</strong></p>
+<p>Nesta etapa, você deverá explorar os mecanismos de agrupamento do <code>dplyr</code>.</p>
+<p><i class="fas fa-edit"></i> <strong>Questão 24</strong></p>
+<p>Utilize <code>group_by()</code> e <code>summarise()</code> para determinar quantas observações existem em cada grupo de <code>tipo_concreto</code>.</p>
+<p>Apresente o resultado em uma tabela organizada.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 25</strong></p>
+<p>Calcule a resistência média de cada tipo de concreto utilizando:</p>
+<pre><code class="language-r">group_by()
+summarise()
+</code></pre>
+<p>Depois, ordene os resultados utilizando <code>arrange()</code>.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 26</strong></p>
+<p>Calcule simultaneamente diferentes estatísticas da variável <code>resistencia_mpa</code> para cada tipo de concreto.</p>
+<p>Obtenha, por exemplo:</p>
+<ul>
+<li>número de observações;</li>
+<li>média;</li>
+<li>mediana;</li>
+<li>desvio-padrão;</li>
+<li>mínimo;</li>
+<li>máximo.</li>
+</ul>
+<p>Utilize <code>summarise()</code>.</p>
+<p>Explique por que uma tabela com várias estatísticas pode ser mais informativa do que apresentar apenas a média.</p>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 7 — Selecionando e reorganizando variáveis</strong></p>
+<p><i class="fas fa-edit"></i> <strong>Questão 27</strong></p>
+<p>Selecione somente as variáveis quantitativas relacionadas às propriedades do concreto.</p>
+<p>Utilize <code>select()</code> e, quando apropriado, <code>where()</code> ou <code>all_of()</code>.</p>
+<p>Apresente a nova tabela.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 28</strong></p>
+<p>Utilize <code>across()</code> para calcular a média das variáveis quantitativas selecionadas.</p>
+<p>Compare o resultado com aquele obtido utilizando <code>summarise()</code> individualmente para cada variável.</p>
+<p>Qual abordagem apresenta maior facilidade de manutenção quando o número de variáveis aumenta?</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 29</strong></p>
+<p>Utilize <code>mutate()</code> e <code>across()</code> para realizar uma transformação simultânea em um conjunto de variáveis quantitativas.</p>
+<p>Escolha uma transformação coerente com o problema e explique sua finalidade.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 30</strong></p>
+<p>Utilize <code>across()</code> em conjunto com <code>summarise()</code> para obter, por tipo de concreto, pelo menos duas estatísticas para cada variável quantitativa selecionada.</p>
+<p>Apresente o resultado de forma organizada.</p>
+<p>Compare essa solução com a utilização de vários comandos separados.</p>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 8 — Trabalhando com textos e categorias</strong></p>
+<p><i class="fas fa-edit"></i> <strong>Questão 31</strong></p>
+<p>Utilize funções do pacote <code>stringr</code> para verificar e padronizar os valores da variável <code>obra</code>.</p>
+<p>Investigue:</p>
+<ul>
+<li>espaços no início ou no final dos textos;</li>
+<li>diferenças entre letras maiúsculas e minúsculas;</li>
+<li>possíveis grafias diferentes para uma mesma categoria.</li>
+</ul>
+<p>Apresente o antes e o depois da padronização.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 32</strong></p>
+<p>Utilize <code>str_detect()</code> para localizar registros que contenham determinado padrão textual em <code>tipo_concreto</code> ou <code>obra</code>.</p>
+<p>Crie uma condição de busca adequada aos dados.</p>
+<p>Explique como a utilização de padrões de texto pode auxiliar no diagnóstico de bases de dados.</p>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 9 — Visualização dos dados</strong></p>
+<p>Nesta etapa, utilize o pacote <code>ggplot2</code> para produzir representações gráficas que auxiliem a interpretação dos dados.</p>
+<p><i class="fas fa-edit"></i> <strong>Questão 33</strong></p>
+<p>Produza um gráfico comparando a distribuição da resistência à compressão entre os diferentes tipos de concreto.</p>
+<p>Utilize uma geometria apropriada, como:</p>
+<pre><code class="language-r">geom_boxplot()
+</code></pre>
+<p>Interprete o gráfico.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 34</strong></p>
+<p>Produza um gráfico investigando a relação entre:</p>
+<ul>
+<li>consumo de cimento;</li>
+<li>resistência à compressão.</li>
+</ul>
+<p>Utilize um gráfico de dispersão com <code>geom_point()</code>.</p>
+<p>Acrescente, se considerar apropriado, uma linha de tendência.</p>
+<p>O gráfico fornece evidências visuais para a afirmação:</p>
+<blockquote>
+<p>&ldquo;Quanto maior o consumo de cimento, maior tende a ser a resistência do concreto.&rdquo;</p>
+</blockquote>
+<p>Justifique.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 35</strong></p>
+<p>Produza um gráfico para investigar a relação entre:</p>
+<ul>
+<li>relação água/cimento;</li>
+<li>resistência à compressão.</li>
+</ul>
+<p>Utilize <code>ggplot2</code>.</p>
+<p>Apresente o gráfico e interprete o padrão observado.</p>
+<p>Os dados apresentam alguma tendência que mereça investigação?</p>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Etapa 10 — Questões próximas da prática profissional</strong></p>
+<p><i class="fas fa-edit"></i> <strong>Questão 36 — Comparação entre obras</strong></p>
+<p>O engenheiro responsável afirma:</p>
+<blockquote>
+<p>&ldquo;Os concretos utilizados no Bloco C apresentam desempenho superior aos utilizados nos demais blocos.&rdquo;</p>
+</blockquote>
+<p>Utilize <code>dplyr</code> e <code>ggplot2</code> para verificar se os dados dão suporte a essa afirmação <strong>em termos descritivos</strong>.</p>
+<p>Não é necessário realizar um teste de hipótese. O objetivo é explorar os dados.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 37 — Idade e resistência</strong></p>
+<p>Compare a resistência média dos concretos com diferentes idades.</p>
+<p>Utilize <code>group_by()</code> e <code>summarise()</code> para obter as médias.</p>
+<p>Em seguida, produza uma representação gráfica adequada.</p>
+<p>O que acontece com a resistência à medida que aumenta a idade do corpo de prova?</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Questão 38 — Resumo para o engenheiro</strong></p>
+<p>O controle tecnológico da empresa precisa produzir um relatório para o engenheiro responsável.</p>
+<p>Utilizando <code>dplyr</code>, construa uma tabela-resumo contendo pelo menos <strong>cinco informações estatísticas</strong> que você considera importantes para o acompanhamento da qualidade do concreto.</p>
+<p>Justifique a escolha de cada informação.</p>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Desafio final — O engenheiro responsável pelos dados</strong></p>
+<p>Você recebeu uma planilha produzida por diferentes profissionais da empresa e não sabe previamente quais erros foram cometidos durante a coleta e a digitação.</p>
+<p>Desenvolva um <strong>script em R utilizando prioritariamente a família tidyverse</strong> capaz de:</p>
+<ol>
+<li>realizar uma inspeção inicial da base;</li>
+<li>identificar possíveis problemas;</li>
+<li>verificar valores ausentes;</li>
+<li>identificar inconsistências nas variáveis;</li>
+<li>produzir uma versão limpa dos dados;</li>
+<li>gerar estatísticas descritivas relevantes;</li>
+<li>criar pelo menos duas variáveis derivadas;</li>
+<li>produzir pelo menos dois gráficos;</li>
+<li>gerar informações que possam auxiliar o engenheiro responsável pela obra.</li>
+</ol>
+<p>O script deverá ser organizado de forma que <strong>outro engenheiro consiga compreender as etapas realizadas</strong>.</p>
+<p>Procure organizar o código em etapas, utilizando comentários para explicar as principais decisões.</p>
+<hr>
+<p><i class="fas fa-edit"></i> <strong>Requisitos do desafio</strong></p>
+<p>Procure utilizar, sempre que possível, ferramentas da família tidyverse, tais como:</p>
+<pre><code class="language-r">library(tidyverse)
+
+read_csv2()
+glimpse()
+
+select()
+filter()
+mutate()
+summarise()
+arrange()
+group_by()
+count()
+distinct()
+
+across()
+case_when()
+if_else()
+
+str_trim()
+str_to_upper()
+str_replace()
+str_replace_all()
+str_detect()
+
+parse_double()
+
+map()
+map_dbl()
+
+pivot_longer()
+pivot_wider()
+
+ggplot()
+geom_point()
+geom_boxplot()
+geom_histogram()
+</code></pre>
+<p>Não é necessário utilizar todas as funções.</p>
+<p>O mais importante é que o código seja <strong>coerente com o problema, organizado e justificável</strong>.</p>
+<blockquote>
+<p><strong>Importante:</strong> nesta atividade, as soluções devem priorizar as ferramentas da família tidyverse. Evite utilizar as funções de Base R trabalhadas como foco principal no Relatório 02 quando existir uma alternativa adequada no tidyverse.</p>
+</blockquote>
+<p>Para ajudar no desenvolvimento do relatório, inserimos uma tabela abaixo para comparar as funções correlatas usadas no Relatório 2 e Relatório 3.</p>
+<table>
+<thead>
+<tr>
+<th>Relatório 02 — Base R</th>
+<th>Relatório 03 — Tidyverse</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>read.csv2()</code></td>
+<td><code>read_csv2()</code></td>
+</tr>
+<tr>
+<td><code>str()</code></td>
+<td><code>glimpse()</code></td>
+</tr>
+<tr>
+<td><code>subset()</code></td>
+<td><code>filter()</code></td>
+</tr>
+<tr>
+<td>seleção <code>dados[, ]</code></td>
+<td><code>select()</code></td>
+</tr>
+<tr>
+<td>criação de variável</td>
+<td><code>mutate()</code></td>
+</tr>
+<tr>
+<td><code>ifelse()</code></td>
+<td><code>if_else()</code></td>
+</tr>
+<tr>
+<td>múltiplas condições</td>
+<td><code>case_when()</code></td>
+</tr>
+<tr>
+<td><code>tapply()</code></td>
+<td><code>group_by()</code> + <code>summarise()</code></td>
+</tr>
+<tr>
+<td><code>aggregate()</code></td>
+<td><code>group_by()</code> + <code>summarise()</code></td>
+</tr>
+<tr>
+<td><code>apply()</code></td>
+<td><code>across()</code></td>
+</tr>
+<tr>
+<td><code>lapply()</code></td>
+<td><code>map()</code></td>
+</tr>
+<tr>
+<td><code>sapply()</code></td>
+<td><code>map_*()</code></td>
+</tr>
+<tr>
+<td><code>ave()</code></td>
+<td><code>group_by()</code> + <code>mutate()</code></td>
+</tr>
+<tr>
+<td>tratamento textual</td>
+<td><code>stringr</code></td>
+</tr>
+<tr>
+<td>conversão numérica</td>
+<td><code>readr</code></td>
+</tr>
+<tr>
+<td>reorganização</td>
+<td><code>tidyr</code></td>
+</tr>
+<tr>
+<td>gráficos</td>
+<td><code>ggplot2</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>Reflexão final</strong></p>
+<p>Depois de concluir a atividade, responda:</p>
+<blockquote>
+<p><strong>Qual é a principal diferença entre resolver um problema de processamento de dados utilizando Base R e utilizando as ferramentas da família tidyverse?</strong></p>
+</blockquote>
+<p>Em seguida, responda:</p>
+<blockquote>
+<p><strong>Por que o processamento e a limpeza dos dados são etapas fundamentais antes da aplicação de métodos estatísticos na Engenharia Civil?</strong></p>
+</blockquote>
+<p>Finalmente, descreva brevemente:</p>
+<ul>
+<li>qual foi o principal problema encontrado na base;</li>
+<li>qual decisão você tomou para tratá-lo;</li>
+<li>quais funções do tidyverse foram utilizadas;</li>
+<li>por que você considera que sua solução é adequada.</li>
+</ul>
+<hr>
+<p><i class="fas fa-tasks"></i> <strong>ENTREGA</strong></p>
+<p>A entrega deverá conter:</p>
+<ul>
+<li>o arquivo da base de dados;</li>
+<li>o código R desenvolvido;</li>
+<li>os resultados obtidos;</li>
+<li>as tabelas produzidas;</li>
+<li>os gráficos produzidos;</li>
+<li>as justificativas das decisões tomadas durante o processamento.</li>
+</ul>
+<p>O código deverá estar organizado e comentado.</p>
+<blockquote>
+<p>O objetivo principal não é apenas produzir respostas numéricas, mas demonstrar que você consegue <strong>usar o R e as ferramentas da família tidyverse para transformar uma base de dados bruta em uma fonte de informação confiável para a tomada de decisão na Engenharia Civil</strong>.</p>
+</blockquote>
+<blockquote>
+<p><strong>DATA DA ENTREGA:</strong></p>
+<ul>
+<li>Até às 18h do dia 07/09/2026</li>
+</ul>
+</blockquote>
+</p>
+</details>
+<!-- Fim do Relatorio 3 -->
+<h2 id="aulas" title="Clique aqui!"><i class="fas fa-pencil-ruler"></i> Aulas</h2>
+<details class="spoiler "  id="spoiler-13">
   <summary>🎓 Aula 1</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Apresentação da disciplina e Introdução ao R</p>
 </div></p>
 </details>
 <!-- Fim da Aula 01 -->
-<details class="spoiler "  id="spoiler-13">
+<details class="spoiler "  id="spoiler-14">
   <summary>🎓 Aula 2</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Introdução ao R (Parte II), <em>R Markdown</em>, Quarto e <em>Github</em></p>
 </div></p>
 </details>
 <!-- Fim da Aula 02 -->
-<details class="spoiler "  id="spoiler-14">
+<details class="spoiler "  id="spoiler-15">
   <summary>🎓 Aula 3</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Como desenvolver nossos relatórios de avaliação</p>
 </div></p>
 </details>
 <!-- Fim da Aula 03 -->
-<details class="spoiler "  id="spoiler-15">
+<details class="spoiler "  id="spoiler-16">
   <summary>🎓 Aula 4</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Estatística Descritiva</p>
 </div></p>
 </details>
 <!-- Fim da Aula 04 -->
-<details class="spoiler "  id="spoiler-16">
+<details class="spoiler "  id="spoiler-17">
   <summary>🎓 Aula 5</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Processamento de dados (Parte I)</p>
@@ -1892,7 +2504,7 @@ ave()
 </p>
 </details>
 <!-- Fim da Aula 05 -->
-<details class="spoiler "  id="spoiler-17">
+<details class="spoiler "  id="spoiler-18">
   <summary>🎓 Aula 6</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Processamento de dados (Parte II)</p>
@@ -1902,11 +2514,11 @@ ave()
 </details>
 <!-- Fim da Aula 06 -->
 <h2 id="quiz" title="Clique aqui!"><i class="fas fa-question"></i> Quiz</h2>
-<details class="spoiler "  id="spoiler-18">
+<details class="spoiler "  id="spoiler-19">
   <summary>Quais as datas de avaliação?</summary>
   <p>Acessem: <a href="#avaliacao">Avaliação</a> e <a href="#cronograma">Cronograma</a></p>
 </details>
-<details class="spoiler "  id="spoiler-19">
+<details class="spoiler "  id="spoiler-20">
   <summary>Como acessar o material de apoio?</summary>
   <p><ul>
 <li>Acessem: <a href="#matadotado">Livro EPAEC</a>
@@ -1950,7 +2562,7 @@ ave()
         </div>
 
         <div class="body-footer">
-          <p>Última atualização em ago. 28, 2026</p>
+          <p>Última atualização em set. 1, 2026</p>
 
           
 
