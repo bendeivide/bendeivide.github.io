@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "Apresentaremos ferramentas tecnológicas e estatísticas de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R para a disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT). Avaliaremos a aprendizagem dos alunos através de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-09-08 16:35:26"
+date: "2026-09-08 16:54:20"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -1592,7 +1592,7 @@ O código deverá estar organizado e comentado.
 <div style="margin-left: 20px;">
 
 {{< icon name="pen-fancy" pack="fas" >}} **Temas:** Processamento de dados (Parte II)
-{{< icon name="r-project" pack="fab" >}} {{% staticref "/eait/2026.2/EAIT2026.2_AULA07.R" "newtab" %}}Script Aula 06.R{{% /staticref %}}
+{{< icon name="r-project" pack="fab" >}} {{% staticref "/eait/2026.2/EAIT2026.2_AULA07.R" "newtab" %}}Script Aula 07.R{{% /staticref %}}
 
 </div>
 
