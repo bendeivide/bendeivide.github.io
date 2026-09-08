@@ -354,10 +354,10 @@
     
       <meta
         property="article:published_time"
-        content="2026-08-31T06:11:28-03:00"
+        content="2026-09-08T20:50:23-03:00"
       />
     
-    <meta property="article:modified_time" content="2026-08-31T06:11:28-03:00">
+    <meta property="article:modified_time" content="2026-09-08T20:50:23-03:00">
   
 
   
@@ -1417,7 +1417,7 @@ aluno.</li>
 </ol>
 <p><strong>Características</strong>:</p>
 <ul>
-<li>Valores no intervalo $ [0, 10] $ com uma casa decimal</li>
+<li>Valores no intervalo  $  [0, 10]  $  com uma casa decimal</li>
 </ul>
 <p><strong>Importância</strong>: A nota média é o indicador mais direto do rendimento
 escolar, permitindo análises de desempenho por grupos.</p>
@@ -1562,10 +1562,429 @@ pesquisas futuras</li>
 </p>
 </details>
 <!-- Fim do Relatorio 2 -->
+<details class="spoiler "  id="spoiler-5">
+  <summary>🗒 Relatório 3 (Clique!) - 15/09/2026</summary>
+  <p><ul>
+<li><i class="fas fa-upload"></i> Entrega: Via Github</li>
+<li><i class="fas fa-file"></i> Formato: <a href="https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip" target="_blank" rel="noopener">Modelo de
+Relatório</a></li>
+<li><i class="fas fa-calendar-check"></i> 15/09/2026 <i class="fas fa-clock"></i> 13h</li>
+</ul>
+<hr>
+<blockquote>
+<p><i class="fas fa-question-circle"></i> <strong>OBJETIVO</strong></p>
+<p>O presente relatório tem como objetivo aprofundar a análise estatística
+do banco de dados utilizado no <strong>Relatório 2</strong>, explorando as principais
+<strong>medidas de posição e de dispersão</strong> aplicadas às variáveis quantitativas
+do estudo.</p>
+<p>A partir das variáveis <strong>Número de Faltas</strong> e <strong>Nota Média</strong>, os alunos
+deverão calcular, interpretar e comparar diferentes medidas estatísticas,
+buscando compreender não apenas o comportamento típico dos dados, mas
+também sua variabilidade.</p>
+<p>A proposta é avançar da simples apresentação dos dados para uma análise
+capaz de responder perguntas como:</p>
+<ul>
+<li>Qual é o valor que melhor representa o centro dos dados?</li>
+<li>Os alunos apresentam comportamentos semelhantes ou bastante distintos?</li>
+<li>A média é uma medida adequada para representar os dados?</li>
+<li>Como a presença de valores extremos influencia as medidas de posição?</li>
+<li>Dois grupos podem apresentar a mesma média e possuir comportamentos
+bastante diferentes?</li>
+</ul>
+<p>Dessa forma, o relatório deverá relacionar os cálculos estatísticos à
+interpretação do contexto educacional, evitando que as medidas sejam
+apresentadas apenas como resultados numéricos.</p>
+</blockquote>
+<h2 id="i-classfas-fa-databasei-banco-de-dados"><i class="fas fa-database"></i> Banco de dados</h2>
+<p>Será utilizado <strong>o mesmo banco de dados do Relatório 2</strong>, contendo informações
+sobre 1000 alunos de uma escola pública brasileira.</p>
+<p>As variáveis quantitativas consideradas inicialmente serão:</p>
+<ol>
+<li>
+<p><strong>Faltas</strong> — variável quantitativa discreta, com valores inteiros de 0 a
+30.</p>
+</li>
+<li>
+<p><strong>Nota Média</strong> — variável quantitativa contínua, com valores entre 0 e 10,
+registrados com uma casa decimal.</p>
+</li>
+</ol>
+<p>As variáveis qualitativas poderão ser utilizadas posteriormente para a
+formação de <strong>subgrupos de comparação</strong>, especialmente:</p>
+<ul>
+<li>Turno de estudo;</li>
+<li>Escolaridade da mãe;</li>
+<li>Acesso à internet em casa.</li>
+</ul>
+<p>O banco de dados poderá ser importado utilizando:</p>
+<pre><code class="language-r">dados_alunos &lt;- read.table(
+  file = &quot;dados_alunos.csv&quot;,
+  header = TRUE,
+  sep = &quot;;&quot;,
+  dec = &quot;.&quot;,
+  stringsAsFactors = FALSE
+)
+</code></pre>
+<hr>
+<h1 id="i-classfas-fa-chart-simplei-parte-i--medidas-de-posição"><i class="fas fa-chart-simple"></i> Parte I — Medidas de posição</h1>
+<p>Para as variáveis <strong>faltas</strong> e <strong>nota_media</strong>, determine e interprete as
+seguintes medidas:</p>
+<h3 id="1-média-aritmética">1. Média aritmética</h3>
+<p>Calcule a média aritmética para:</p>
+<ul>
+<li>número de faltas;</li>
+<li>nota média.</li>
+</ul>
+<p>Apresente os resultados com uma quantidade adequada de casas decimais e
+interprete cada resultado no contexto da pesquisa.</p>
+<h3 id="2-mediana">2. Mediana</h3>
+<p>Calcule a mediana das duas variáveis.</p>
+<p>Compare a mediana com a média e discuta:</p>
+<blockquote>
+<p>A média e a mediana apresentam valores próximos ou muito diferentes?</p>
+</blockquote>
+<p>O que essa comparação pode indicar sobre a distribuição dos dados?</p>
+<h3 id="3-moda">3. Moda</h3>
+<p>Determine a moda de cada variável.</p>
+<p>No caso de existirem várias modas, identifique e discuta essa situação.</p>
+<p>Para a variável <strong>nota_media</strong>, considere também a possibilidade de que
+diferentes valores apresentem a mesma frequência.</p>
+<h3 id="4-quartis">4. Quartis</h3>
+<p>Determine:</p>
+<ul>
+<li>primeiro quartil ( $  Q_1  $ );</li>
+<li>segundo quartil ( $  Q_2  $ );</li>
+<li>terceiro quartil ( $  Q_3  $ ).</li>
+</ul>
+<p>Apresente uma interpretação contextualizada para cada quartil.</p>
+<p>Por exemplo:</p>
+<blockquote>
+<p>O que significa estar no primeiro quartil da distribuição das notas?</p>
+</blockquote>
+<h3 id="5-percentis">5. Percentis</h3>
+<p>Calcule pelo menos os percentis:</p>
+<ul>
+<li>$ P_{10} $ ;</li>
+<li>$ P_{25} $ ;</li>
+<li>$ P_{50} $ ;</li>
+<li>$ P_{75} $ ;</li>
+<li>$ P_{90} $ .</li>
+</ul>
+<p>Explique o significado dos percentis obtidos.</p>
+<hr>
+<h1 id="i-classfas-fa-arrows-left-righti-parte-ii--medidas-de-dispersão"><i class="fas fa-arrows-left-right"></i> Parte II — Medidas de dispersão</h1>
+<p>As medidas de posição permitem identificar valores representativos do
+conjunto de dados, mas não são suficientes para descrever completamente uma
+distribuição.</p>
+<p>Assim, para as variáveis <strong>faltas</strong> e <strong>nota_media</strong>, determine:</p>
+<h3 id="6-amplitude-total">6. Amplitude total</h3>
+<p>Calcule:</p>
+$$ 
+A = x_{\max} - x_{\min}
+$$
+<p>Interprete a amplitude encontrada para cada variável.</p>
+<h3 id="7-amplitude-interquartil">7. Amplitude interquartil</h3>
+<p>Calcule:</p>
+$$ 
+AIQ = Q_3-Q_1
+$$
+<p>Explique o que essa medida representa e compare a dispersão central das
+variáveis.</p>
+<h3 id="8-variância">8. Variância</h3>
+<p>Calcule a variância amostral para as duas variáveis.</p>
+<p>Discuta:</p>
+<ul>
+<li>o que representa a variância;</li>
+<li>sua unidade de medida;</li>
+<li>por que sua interpretação direta pode ser pouco intuitiva.</li>
+</ul>
+<h3 id="9-desvio-padrão">9. Desvio-padrão</h3>
+<p>Calcule o desvio-padrão amostral.</p>
+<p>Compare o desvio-padrão das variáveis com suas respectivas médias e discuta
+qual delas apresenta maior variabilidade em relação à sua escala.</p>
+<h3 id="10-coeficiente-de-variação">10. Coeficiente de variação</h3>
+<p>Calcule o coeficiente de variação:</p>
+$$ 
+CV = \frac{s}{\bar{x}}\times100\%
+$$
+<p>Utilize o coeficiente de variação para comparar a variabilidade relativa das
+variáveis <strong>faltas</strong> e <strong>nota_media</strong>.</p>
+<p>Explique por que o coeficiente de variação pode ser mais adequado que o
+desvio-padrão quando se deseja comparar a variabilidade relativa.</p>
+<hr>
+<h1 id="i-classfas-fa-usersi-parte-iii--comparação-entre-grupos"><i class="fas fa-users"></i> Parte III — Comparação entre grupos</h1>
+<p>Nesta etapa, as medidas estatísticas deverão ser utilizadas para comparar
+diferentes grupos de alunos.</p>
+<h3 id="11-notas-segundo-o-acesso-à-internet">11. Notas segundo o acesso à internet</h3>
+<p>Separe os alunos em dois grupos:</p>
+<ul>
+<li>alunos com acesso à internet;</li>
+<li>alunos sem acesso à internet.</li>
+</ul>
+<p>Para cada grupo, calcule:</p>
+<ul>
+<li>média;</li>
+<li>mediana;</li>
+<li>desvio-padrão;</li>
+<li>mínimo;</li>
+<li>máximo;</li>
+<li>$ Q_1 $ ;</li>
+<li>$ Q_3 $ ;</li>
+<li>coeficiente de variação.</li>
+</ul>
+<p>Compare os resultados.</p>
+<blockquote>
+<p>Os dois grupos apresentam comportamento semelhante em relação às notas?</p>
+</blockquote>
+<h3 id="12-notas-segundo-a-escolaridade-da-mãe">12. Notas segundo a escolaridade da mãe</h3>
+<p>Considere os três grupos:</p>
+<ul>
+<li>Fundamental;</li>
+<li>Médio;</li>
+<li>Superior.</li>
+</ul>
+<p>Calcule as principais medidas de posição e dispersão da variável
+<strong>nota_media</strong> para cada grupo.</p>
+<p>Analise:</p>
+<blockquote>
+<p>Como o centro e a variabilidade das notas se comportam à medida que
+aumenta a escolaridade da mãe?</p>
+</blockquote>
+<p>Não se limite à comparação das médias. Considere também a mediana e as
+medidas de dispersão.</p>
+<h3 id="13-faltas-segundo-o-turno">13. Faltas segundo o turno</h3>
+<p>Compare as variáveis <strong>faltas</strong> entre:</p>
+<ul>
+<li>Matutino;</li>
+<li>Vespertino;</li>
+<li>Noturno.</li>
+</ul>
+<p>Para cada turno, determine pelo menos:</p>
+<ul>
+<li>média;</li>
+<li>mediana;</li>
+<li>desvio-padrão;</li>
+<li>mínimo;</li>
+<li>máximo;</li>
+<li>amplitude interquartil.</li>
+</ul>
+<p>Analise:</p>
+<blockquote>
+<p>Qual turno apresenta maior número típico de faltas?</p>
+</blockquote>
+<blockquote>
+<p>Qual turno apresenta maior variabilidade?</p>
+</blockquote>
+<blockquote>
+<p>A média e a mediana conduzem à mesma conclusão?</p>
+</blockquote>
+<hr>
+<h1 id="i-classfas-fa-chart-columni-parte-iv--representação-gráfica"><i class="fas fa-chart-column"></i> Parte IV — Representação gráfica</h1>
+<p>Produza representações gráficas que auxiliem na interpretação das medidas
+calculadas.</p>
+<h3 id="14-boxplot">14. Boxplot</h3>
+<p>Construa boxplots para:</p>
+<ul>
+<li><code>nota_media</code>;</li>
+<li><code>faltas</code>.</li>
+</ul>
+<p>Identifique nos gráficos:</p>
+<ul>
+<li>mediana;</li>
+<li>primeiro quartil;</li>
+<li>terceiro quartil;</li>
+<li>amplitude interquartil;</li>
+<li>possíveis valores discrepantes.</li>
+</ul>
+<p>Explique como as informações apresentadas no boxplot estão relacionadas às
+medidas calculadas anteriormente.</p>
+<h3 id="15-comparação-entre-grupos">15. Comparação entre grupos</h3>
+<p>Produza gráficos que permitam comparar a distribuição das notas entre os
+grupos de:</p>
+<ul>
+<li>acesso à internet;</li>
+<li>escolaridade da mãe;</li>
+<li>turno.</li>
+</ul>
+<p>Os gráficos devem ser acompanhados de uma interpretação estatística.</p>
+<hr>
+<h1 id="i-classfas-fa-magnifying-glass-charti-parte-v--análise-crítica"><i class="fas fa-magnifying-glass-chart"></i> Parte V — Análise crítica</h1>
+<h3 id="16-média-versus-mediana">16. Média versus mediana</h3>
+<p>Escolha uma das variáveis quantitativas e responda:</p>
+<blockquote>
+<p>Se fosse necessário escolher apenas uma medida de posição para representar
+o comportamento típico dos alunos, você escolheria a média ou a mediana?</p>
+</blockquote>
+<p>Justifique sua resposta com base nos resultados encontrados.</p>
+<h3 id="17-o-efeito-da-variabilidade">17. O efeito da variabilidade</h3>
+<p>Considere dois grupos de alunos que eventualmente apresentem médias
+semelhantes.</p>
+<p>Explique por que a análise apenas da média pode levar a conclusões
+incompletas.</p>
+<p>Utilize as medidas de dispersão calculadas para fundamentar sua discussão.</p>
+<h3 id="18-medida-mais-adequada">18. Medida mais adequada</h3>
+<p>Para cada uma das situações abaixo, indique qual medida estatística você
+considera mais informativa e justifique:</p>
+<p>a) identificar o desempenho médio dos alunos;</p>
+<p>b) identificar o desempenho típico quando existem valores extremos;</p>
+<p>c) avaliar a dispersão das notas;</p>
+<p>d) comparar a variabilidade de duas variáveis com escalas diferentes;</p>
+<p>e) identificar a posição de um aluno em relação aos demais.</p>
+<hr>
+<h1 id="i-classfas-fa-tablei-parte-vi--tabela-estatística"><i class="fas fa-table"></i> Parte VI — Tabela estatística</h1>
+<p>Elabore uma tabela-síntese contendo, para as variáveis <code>faltas</code> e
+<code>nota_media</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Medida</th>
+<th style="text-align:right">Faltas</th>
+<th style="text-align:right">Nota Média</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mínimo</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>$ Q_1 $</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Média</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Mediana</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>$ Q_3 $</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Máximo</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Amplitude</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>AIQ</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Variância</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Desvio-padrão</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Coeficiente de variação</td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<p>A tabela deverá ser acompanhada de uma análise textual destacando as
+principais características observadas.</p>
+<hr>
+<h1 id="i-classfas-fa-lightbulbi-síntese-e-reflexão"><i class="fas fa-lightbulb"></i> Síntese e reflexão</h1>
+<p>Ao final do relatório, responda às seguintes questões:</p>
+<ol>
+<li>
+<p>Qual medida de posição melhor representa o comportamento das <strong>notas
+médias</strong> dos alunos? Por quê?</p>
+</li>
+<li>
+<p>Qual medida de posição melhor representa o comportamento do <strong>número de
+faltas</strong>? Por quê?</p>
+</li>
+<li>
+<p>Qual das duas variáveis apresenta maior variabilidade relativa?</p>
+</li>
+<li>
+<p>A análise das medidas de dispersão modificou alguma conclusão que poderia
+ser obtida apenas pela média?</p>
+</li>
+<li>
+<p>Quais diferenças foram observadas entre os grupos analisados?</p>
+</li>
+<li>
+<p>Quais cuidados devem ser tomados ao interpretar essas diferenças?</p>
+</li>
+<li>
+<p>Quais limitações devem ser consideradas antes de afirmar que as variáveis
+sociofamiliares são responsáveis pelo desempenho dos alunos?</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Importante:</strong> diferenças observadas entre grupos não significam,
+necessariamente, relações de causa e efeito. O relatório deve distinguir
+claramente <strong>descrição estatística</strong>, <strong>associação</strong> e <strong>causalidade</strong>.</p>
+</blockquote>
+<hr>
+<h1 id="i-classfas-fa-file-linesi-estrutura-sugerida-para-o-relatório"><i class="fas fa-file-lines"></i> Estrutura sugerida para o relatório</h1>
+<p>O relatório final deverá apresentar, preferencialmente, a seguinte
+estrutura:</p>
+<ol>
+<li><strong>Introdução</strong></li>
+<li><strong>Descrição do banco de dados</strong></li>
+<li><strong>Metodologia</strong></li>
+<li><strong>Medidas de posição</strong></li>
+<li><strong>Medidas de dispersão</strong></li>
+<li><strong>Análise por subgrupos</strong></li>
+<li><strong>Representações gráficas</strong></li>
+<li><strong>Discussão dos resultados</strong></li>
+<li><strong>Conclusões</strong></li>
+<li><strong>Limitações da análise</strong></li>
+<li><strong>Código R utilizado</strong></li>
+</ol>
+<p>Os resultados devem ser acompanhados de <strong>interpretações</strong>, evitando a
+simples apresentação de números ou saídas do R.</p>
+<hr>
+<h2 id="i-classfas-fa-bullseyei-competências-esperadas"><i class="fas fa-bullseye"></i> Competências esperadas</h2>
+<p>Ao concluir o Relatório 3, espera-se que o aluno seja capaz de:</p>
+<ul>
+<li>calcular medidas de posição utilizando R;</li>
+<li>calcular medidas de dispersão utilizando R;</li>
+<li>interpretar média, mediana e moda;</li>
+<li>interpretar quartis e percentis;</li>
+<li>compreender amplitude e amplitude interquartil;</li>
+<li>interpretar variância e desvio-padrão;</li>
+<li>utilizar o coeficiente de variação para comparar variabilidades;</li>
+<li>relacionar medidas numéricas a representações gráficas;</li>
+<li>comparar estatisticamente diferentes subgrupos;</li>
+<li>distinguir medidas de posição de medidas de dispersão;</li>
+<li>produzir uma síntese estatística contextualizada;</li>
+<li>reconhecer as limitações de interpretações baseadas exclusivamente em
+estatísticas descritivas.</li>
+</ul>
+<p><strong>DATA DA ENTREGA:</strong></p>
+<ul>
+<li>Até às 13h do dia <strong>15/09/2026</strong>.</li>
+</ul>
+</p>
+</details>
+<!-- Fim do Relatorio 3 -->
 <h2 id="ementa">Ementa</h2>
 <p>Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
 CAP/UFSJ</p>
-<details class="spoiler "  id="spoiler-5">
+<details class="spoiler "  id="spoiler-6">
   <summary>Acesse a ementa do curso</summary>
   <p><ol>
 <li>Conceitos básicos: tipos de variáveis; distribuições de frequências</li>
@@ -1622,7 +2041,7 @@ abordado.</li>
 </ul>
 </li>
 </ul>
-<details class="spoiler "  id="spoiler-6">
+<details class="spoiler "  id="spoiler-7">
   <summary>Detalhamento da metodologia</summary>
   <p><p>As aulas seguirão um modelo de metodologia ativa baseado nas
 coreografias didáticas. Criaremos um cenário em que o propagador de
@@ -1647,11 +2066,11 @@ quando necessário.</p>
 </p>
 </details>
 <h2 id="avaliacao">Avaliação</h2>
-<details class="spoiler "  id="spoiler-7">
+<details class="spoiler "  id="spoiler-8">
   <summary>Segue um detalhamento das nossas avaliações</summary>
   <p><p>Faremos toda semana relatórios baseado em nossas aula teóricas e
 práticas, usando o <a href="https://www.r-project.org/" target="_blank" rel="noopener">R</a>,
-<a href="https://www.latex-project.org/" target="_blank" rel="noopener">$\LaTeX$</a> e
+<a href="https://www.latex-project.org/" target="_blank" rel="noopener"> $ \LaTeX $ </a> e
 <a href="https://quarto.org/" target="_blank" rel="noopener">Quarto</a>, integrando estes relatórios ao
 <a href="https://github.com/" target="_blank" rel="noopener">Github</a>.</p>
 <p>A disciplina terá uma pontuação total de 10 pontos, sendo 80%
@@ -1670,7 +2089,7 @@ coordação, faremos a segunda chamada de tal atividade.</p>
 </p>
 </details>
 <h2 id="bibliografia-adotada-para-a-disciplina">Bibliografia adotada para a disciplina</h2>
-<details class="spoiler "  id="spoiler-8">
+<details class="spoiler "  id="spoiler-9">
   <summary>Bibliografia detalhada</summary>
   <p><ul>
 <li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&amp;url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&amp;usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj" target="_blank" rel="noopener">CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. <strong>Análise
@@ -1693,7 +2112,7 @@ PROFMAT</a></li>
 </ul>
 </li>
 </ul>
-<details class="spoiler "  id="spoiler-9">
+<details class="spoiler "  id="spoiler-10">
   <summary>Materiais complementares</summary>
   <p><ul>
 <li><a href="/books/estbasica/">Estatística Básica</a></li>
@@ -1712,7 +2131,7 @@ PROFMAT</a></li>
 </p>
 </details>
 <h2 id="metodologias-ativas">Metodologias ativas</h2>
-<details class="spoiler "  id="spoiler-10">
+<details class="spoiler "  id="spoiler-11">
   <summary>Aprender por ensinar</summary>
   <p><ul>
 <li><a href="https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing" target="_blank" rel="noopener">Modelo de Arquivo em power
@@ -1739,7 +2158,7 @@ são esses. Qualquer dúvida, favor me procurar.</p>
 </ul>
 </p>
 </details>
-<details class="spoiler "  id="spoiler-11">
+<details class="spoiler "  id="spoiler-12">
   <summary>Mapas Mentais</summary>
   <p><ul>
 <li>Dúvidas de como desenvolver, faça uso dos buscadores na internet,
@@ -1748,7 +2167,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </ul>
 </p>
 </details>
-<details class="spoiler "  id="spoiler-12">
+<details class="spoiler "  id="spoiler-13">
   <summary>Resumo de Cornell</summary>
   <p><ul>
 <li>Dúvidas de como desenvolver, faça uso dos buscadores na internet,
@@ -1758,7 +2177,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </p>
 </details>
 <h2 id="como-estudar-e-aprender">Como estudar e aprender</h2>
-<details class="spoiler "  id="spoiler-13">
+<details class="spoiler "  id="spoiler-14">
   <summary>Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)</summary>
   <p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/noXqEGIZak8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -1766,21 +2185,21 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </p>
 </details>
 <h2 id="aulas">Aulas</h2>
-<details class="spoiler "  id="spoiler-14">
+<details class="spoiler "  id="spoiler-15">
   <summary>🎓 Aula 1</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Apresentação da disciplina e Introdução ao R</p>
 </div></p>
 </details>
 <!-- Fim da Aula 01 -->
-<details class="spoiler "  id="spoiler-15">
+<details class="spoiler "  id="spoiler-16">
   <summary>🎓 Aula 2</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> <em>R Markdown</em>, Quarto, <em>Github</em> e como desenvolver nossos relatórios de avaliação</p>
 </div></p>
 </details>
 <!-- Fim da Aula 02 -->
-<details class="spoiler "  id="spoiler-16">
+<details class="spoiler "  id="spoiler-17">
   <summary>🎓 Aula 3</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong></p>
@@ -1795,11 +2214,11 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </details>
 <!-- Fim da Aula 03 -->
 <h2 id="quiz">Quiz</h2>
-<details class="spoiler "  id="spoiler-17">
+<details class="spoiler "  id="spoiler-18">
   <summary>Quais as datas de avaliação?</summary>
   <p>Acessem: <a href="#avaliacao">Avaliação</a> e <a href="#cronograma">Cronograma</a></p>
 </details>
-<details class="spoiler "  id="spoiler-18">
+<details class="spoiler "  id="spoiler-19">
   <summary>Como acessar o material de apoio?</summary>
   <p><ul>
 <li>Acessem: <a href="#matadotado">Livro EPAEC</a>
@@ -1844,7 +2263,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
         </div>
 
         <div class="body-footer">
-          <p>Última atualização em ago. 31, 2026</p>
+          <p>Última atualização em set. 8, 2026</p>
 
           
 

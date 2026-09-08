@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2026.2
-date: "2026-08-31 06:11:28"
+date: "2026-09-08 20:50:23"
 type: book
 weight: 1
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -228,7 +228,7 @@ O item 2.1, auxiliará a recuperar a nota perdida em 2.
 >
 > **Características**:
 >
-> - Valores no intervalo $ [0, 10] $ com uma casa decimal
+> - Valores no intervalo  $  [0, 10]  $  com uma casa decimal
 >
 > **Importância**: A nota média é o indicador mais direto do rendimento
 > escolar, permitindo análises de desempenho por grupos.
@@ -338,6 +338,447 @@ dados_alunos <- read.table(
 
 <!-- Fim do Relatorio 2 -->
 
+{{< spoiler text="🗒 Relatório 3 (Clique!) - 15/09/2026">}}
+
+* <i class="fas fa-upload"></i> Entrega: Via Github
+* <i class="fas fa-file"></i> Formato: [Modelo de
+  Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+* <i class="fas fa-calendar-check"></i> 15/09/2026 <i class="fas fa-clock"></i> 13h
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO**
+>
+> O presente relatório tem como objetivo aprofundar a análise estatística
+> do banco de dados utilizado no **Relatório 2**, explorando as principais
+> **medidas de posição e de dispersão** aplicadas às variáveis quantitativas
+> do estudo.
+>
+> A partir das variáveis **Número de Faltas** e **Nota Média**, os alunos
+> deverão calcular, interpretar e comparar diferentes medidas estatísticas,
+> buscando compreender não apenas o comportamento típico dos dados, mas
+> também sua variabilidade.
+>
+> A proposta é avançar da simples apresentação dos dados para uma análise
+> capaz de responder perguntas como:
+>
+> * Qual é o valor que melhor representa o centro dos dados?
+> * Os alunos apresentam comportamentos semelhantes ou bastante distintos?
+> * A média é uma medida adequada para representar os dados?
+> * Como a presença de valores extremos influencia as medidas de posição?
+> * Dois grupos podem apresentar a mesma média e possuir comportamentos
+>   bastante diferentes?
+>
+> Dessa forma, o relatório deverá relacionar os cálculos estatísticos à
+> interpretação do contexto educacional, evitando que as medidas sejam
+> apresentadas apenas como resultados numéricos.
+
+## <i class="fas fa-database"></i> Banco de dados
+
+Será utilizado **o mesmo banco de dados do Relatório 2**, contendo informações
+sobre 1000 alunos de uma escola pública brasileira.
+
+As variáveis quantitativas consideradas inicialmente serão:
+
+1. **Faltas** — variável quantitativa discreta, com valores inteiros de 0 a
+   30.
+
+2. **Nota Média** — variável quantitativa contínua, com valores entre 0 e 10,
+   registrados com uma casa decimal.
+
+As variáveis qualitativas poderão ser utilizadas posteriormente para a
+formação de **subgrupos de comparação**, especialmente:
+
+* Turno de estudo;
+* Escolaridade da mãe;
+* Acesso à internet em casa.
+
+O banco de dados poderá ser importado utilizando:
+
+```r
+dados_alunos <- read.table(
+  file = "dados_alunos.csv",
+  header = TRUE,
+  sep = ";",
+  dec = ".",
+  stringsAsFactors = FALSE
+)
+```
+
+---
+
+# <i class="fas fa-chart-simple"></i> Parte I — Medidas de posição
+
+Para as variáveis **faltas** e **nota_media**, determine e interprete as
+seguintes medidas:
+
+### 1. Média aritmética
+
+Calcule a média aritmética para:
+
+* número de faltas;
+* nota média.
+
+Apresente os resultados com uma quantidade adequada de casas decimais e
+interprete cada resultado no contexto da pesquisa.
+
+### 2. Mediana
+
+Calcule a mediana das duas variáveis.
+
+Compare a mediana com a média e discuta:
+
+> A média e a mediana apresentam valores próximos ou muito diferentes?
+
+O que essa comparação pode indicar sobre a distribuição dos dados?
+
+### 3. Moda
+
+Determine a moda de cada variável.
+
+No caso de existirem várias modas, identifique e discuta essa situação.
+
+Para a variável **nota_media**, considere também a possibilidade de que
+diferentes valores apresentem a mesma frequência.
+
+### 4. Quartis
+
+Determine:
+
+* primeiro quartil ( $  Q_1  $ );
+* segundo quartil ( $  Q_2  $ );
+* terceiro quartil ( $  Q_3  $ ).
+
+Apresente uma interpretação contextualizada para cada quartil.
+
+Por exemplo:
+
+> O que significa estar no primeiro quartil da distribuição das notas?
+
+### 5. Percentis
+
+Calcule pelo menos os percentis:
+
+*  $ P_{10} $ ;
+*  $ P_{25} $ ;
+*  $ P_{50} $ ;
+*  $ P_{75} $ ;
+*  $ P_{90} $ .
+
+Explique o significado dos percentis obtidos.
+
+---
+
+# <i class="fas fa-arrows-left-right"></i> Parte II — Medidas de dispersão
+
+As medidas de posição permitem identificar valores representativos do
+conjunto de dados, mas não são suficientes para descrever completamente uma
+distribuição.
+
+Assim, para as variáveis **faltas** e **nota_media**, determine:
+
+### 6. Amplitude total
+
+Calcule:
+
+$$ 
+A = x_{\max} - x_{\min}
+$$ 
+
+Interprete a amplitude encontrada para cada variável.
+
+### 7. Amplitude interquartil
+
+Calcule:
+
+$$ 
+AIQ = Q_3-Q_1
+$$ 
+
+Explique o que essa medida representa e compare a dispersão central das
+variáveis.
+
+### 8. Variância
+
+Calcule a variância amostral para as duas variáveis.
+
+Discuta:
+
+* o que representa a variância;
+* sua unidade de medida;
+* por que sua interpretação direta pode ser pouco intuitiva.
+
+### 9. Desvio-padrão
+
+Calcule o desvio-padrão amostral.
+
+Compare o desvio-padrão das variáveis com suas respectivas médias e discuta
+qual delas apresenta maior variabilidade em relação à sua escala.
+
+### 10. Coeficiente de variação
+
+Calcule o coeficiente de variação:
+
+$$ 
+CV = \frac{s}{\bar{x}}\times100\%
+$$ 
+
+Utilize o coeficiente de variação para comparar a variabilidade relativa das
+variáveis **faltas** e **nota_media**.
+
+Explique por que o coeficiente de variação pode ser mais adequado que o
+desvio-padrão quando se deseja comparar a variabilidade relativa.
+
+---
+
+# <i class="fas fa-users"></i> Parte III — Comparação entre grupos
+
+Nesta etapa, as medidas estatísticas deverão ser utilizadas para comparar
+diferentes grupos de alunos.
+
+### 11. Notas segundo o acesso à internet
+
+Separe os alunos em dois grupos:
+
+* alunos com acesso à internet;
+* alunos sem acesso à internet.
+
+Para cada grupo, calcule:
+
+* média;
+* mediana;
+* desvio-padrão;
+* mínimo;
+* máximo;
+*  $ Q_1 $ ;
+*  $ Q_3 $ ;
+* coeficiente de variação.
+
+Compare os resultados.
+
+> Os dois grupos apresentam comportamento semelhante em relação às notas?
+
+### 12. Notas segundo a escolaridade da mãe
+
+Considere os três grupos:
+
+* Fundamental;
+* Médio;
+* Superior.
+
+Calcule as principais medidas de posição e dispersão da variável
+**nota_media** para cada grupo.
+
+Analise:
+
+> Como o centro e a variabilidade das notas se comportam à medida que
+> aumenta a escolaridade da mãe?
+
+Não se limite à comparação das médias. Considere também a mediana e as
+medidas de dispersão.
+
+### 13. Faltas segundo o turno
+
+Compare as variáveis **faltas** entre:
+
+* Matutino;
+* Vespertino;
+* Noturno.
+
+Para cada turno, determine pelo menos:
+
+* média;
+* mediana;
+* desvio-padrão;
+* mínimo;
+* máximo;
+* amplitude interquartil.
+
+Analise:
+
+> Qual turno apresenta maior número típico de faltas?
+
+> Qual turno apresenta maior variabilidade?
+
+> A média e a mediana conduzem à mesma conclusão?
+
+---
+
+# <i class="fas fa-chart-column"></i> Parte IV — Representação gráfica
+
+Produza representações gráficas que auxiliem na interpretação das medidas
+calculadas.
+
+### 14. Boxplot
+
+Construa boxplots para:
+
+* `nota_media`;
+* `faltas`.
+
+Identifique nos gráficos:
+
+* mediana;
+* primeiro quartil;
+* terceiro quartil;
+* amplitude interquartil;
+* possíveis valores discrepantes.
+
+Explique como as informações apresentadas no boxplot estão relacionadas às
+medidas calculadas anteriormente.
+
+### 15. Comparação entre grupos
+
+Produza gráficos que permitam comparar a distribuição das notas entre os
+grupos de:
+
+* acesso à internet;
+* escolaridade da mãe;
+* turno.
+
+Os gráficos devem ser acompanhados de uma interpretação estatística.
+
+---
+
+# <i class="fas fa-magnifying-glass-chart"></i> Parte V — Análise crítica
+
+### 16. Média versus mediana
+
+Escolha uma das variáveis quantitativas e responda:
+
+> Se fosse necessário escolher apenas uma medida de posição para representar
+> o comportamento típico dos alunos, você escolheria a média ou a mediana?
+
+Justifique sua resposta com base nos resultados encontrados.
+
+### 17. O efeito da variabilidade
+
+Considere dois grupos de alunos que eventualmente apresentem médias
+semelhantes.
+
+Explique por que a análise apenas da média pode levar a conclusões
+incompletas.
+
+Utilize as medidas de dispersão calculadas para fundamentar sua discussão.
+
+### 18. Medida mais adequada
+
+Para cada uma das situações abaixo, indique qual medida estatística você
+considera mais informativa e justifique:
+
+a) identificar o desempenho médio dos alunos;
+
+b) identificar o desempenho típico quando existem valores extremos;
+
+c) avaliar a dispersão das notas;
+
+d) comparar a variabilidade de duas variáveis com escalas diferentes;
+
+e) identificar a posição de um aluno em relação aos demais.
+
+---
+
+# <i class="fas fa-table"></i> Parte VI — Tabela estatística
+
+Elabore uma tabela-síntese contendo, para as variáveis `faltas` e
+`nota_media`:
+
+| Medida                  | Faltas | Nota Média |
+| ----------------------- | -----: | ---------: |
+| Mínimo                  |        |            |
+|  $ Q_1 $                    |        |            |
+| Média                   |        |            |
+| Mediana                 |        |            |
+|  $ Q_3 $                    |        |            |
+| Máximo                  |        |            |
+| Amplitude               |        |            |
+| AIQ                     |        |            |
+| Variância               |        |            |
+| Desvio-padrão           |        |            |
+| Coeficiente de variação |        |            |
+
+A tabela deverá ser acompanhada de uma análise textual destacando as
+principais características observadas.
+
+---
+
+# <i class="fas fa-lightbulb"></i> Síntese e reflexão
+
+Ao final do relatório, responda às seguintes questões:
+
+1. Qual medida de posição melhor representa o comportamento das **notas
+   médias** dos alunos? Por quê?
+
+2. Qual medida de posição melhor representa o comportamento do **número de
+   faltas**? Por quê?
+
+3. Qual das duas variáveis apresenta maior variabilidade relativa?
+
+4. A análise das medidas de dispersão modificou alguma conclusão que poderia
+   ser obtida apenas pela média?
+
+5. Quais diferenças foram observadas entre os grupos analisados?
+
+6. Quais cuidados devem ser tomados ao interpretar essas diferenças?
+
+7. Quais limitações devem ser consideradas antes de afirmar que as variáveis
+   sociofamiliares são responsáveis pelo desempenho dos alunos?
+
+> **Importante:** diferenças observadas entre grupos não significam,
+> necessariamente, relações de causa e efeito. O relatório deve distinguir
+> claramente **descrição estatística**, **associação** e **causalidade**.
+
+---
+
+# <i class="fas fa-file-lines"></i> Estrutura sugerida para o relatório
+
+O relatório final deverá apresentar, preferencialmente, a seguinte
+estrutura:
+
+1. **Introdução**
+2. **Descrição do banco de dados**
+3. **Metodologia**
+4. **Medidas de posição**
+5. **Medidas de dispersão**
+6. **Análise por subgrupos**
+7. **Representações gráficas**
+8. **Discussão dos resultados**
+9. **Conclusões**
+10. **Limitações da análise**
+11. **Código R utilizado**
+
+Os resultados devem ser acompanhados de **interpretações**, evitando a
+simples apresentação de números ou saídas do R.
+
+---
+
+## <i class="fas fa-bullseye"></i> Competências esperadas
+
+Ao concluir o Relatório 3, espera-se que o aluno seja capaz de:
+
+* calcular medidas de posição utilizando R;
+* calcular medidas de dispersão utilizando R;
+* interpretar média, mediana e moda;
+* interpretar quartis e percentis;
+* compreender amplitude e amplitude interquartil;
+* interpretar variância e desvio-padrão;
+* utilizar o coeficiente de variação para comparar variabilidades;
+* relacionar medidas numéricas a representações gráficas;
+* comparar estatisticamente diferentes subgrupos;
+* distinguir medidas de posição de medidas de dispersão;
+* produzir uma síntese estatística contextualizada;
+* reconhecer as limitações de interpretações baseadas exclusivamente em
+  estatísticas descritivas.
+
+**DATA DA ENTREGA:**
+
+* Até às 13h do dia **15/09/2026**.
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 3 -->
+
+
 ## Ementa
 
 Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
@@ -428,7 +869,7 @@ quando necessário.
 
 Faremos toda semana relatórios baseado em nossas aula teóricas e
 práticas, usando o [R](https://www.r-project.org/),
-[$\LaTeX$](https://www.latex-project.org/) e
+[ $ \LaTeX $ ](https://www.latex-project.org/) e
 [Quarto](https://quarto.org/), integrando estes relatórios ao
 [Github](https://github.com/).
 
