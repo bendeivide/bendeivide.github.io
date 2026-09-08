@@ -1,26 +1,27 @@
-###############################################################
-# AULA 06 - GRÁFICOS EM R
-# DISCIPLINA: LRCD
+######################################################################
+# AULA 07 - GRAFICOS EM R
+# DISCIPLINA: EAIT
 # Prof. Ben Deivide | UFSJ
-# https://bendeivide.github.io/courses/rcd
-###############################################################
+# https://bendeivide.github.io/courses/eait
+######################################################################
+  
 # Objetivo:
 # Demonstrar os principais sistemas gráficos do R:
 # - Base R
 # - ggplot2
 # - plotly
-# - outros pacotes gráficos
+# - outros pacotes graficos
 ###############################################################
 
 ###############################################################
-# 1. GRÁFICOS NO BASE R
+# 1. GRAFICOS NO BASE R
 ###############################################################
 
-# O Base R já acompanha a instalação do R.
-# Não é necessário instalar pacotes adicionais.
+# O Base R ja acompanha a instalacao do R.
+# Nao eh necessario instalar pacotes adicionais.
 
 ###############################################################
-# 1.1 Gráfico de dispersão
+# 1.1 Grafico de dispersao
 ###############################################################
 
 # Criando vetores de dados
@@ -31,13 +32,13 @@ y <- c(2, 4, 5, 4, 6)
 plot(x, y)
 
 ###############################################################
-# 1.2 Personalizando gráficos
+# 1.2 Personalizando graficos
 ###############################################################
 
 plot(
   x, y,
   
-  # Título do gráfico
+  # Título do grafico
   main = "Gráfico de Dispersão",
   
   # Nome do eixo X
@@ -46,7 +47,7 @@ plot(
   # Nome do eixo Y
   ylab = "Variável Y",
   
-  # Tipo de símbolo
+  # Tipo de simbolo
   pch = 19,
   
   # Cor dos pontos
@@ -57,16 +58,16 @@ plot(
 )
 
 ###############################################################
-# 1.3 Tipos gráficos
+# 1.3 Tipos graficos
 ###############################################################
 
-# Criando sequência
+# Criando sequencia
 x <- 1:10
 
 # Elevando ao quadrado
 y <- x^2
 
-# Gráfico de linhas
+# Grafico de linhas
 plot(
   x, y,
   type = "l",   # l = lines
@@ -77,7 +78,7 @@ plot(
 # 1.4 Histograma
 ###############################################################
 
-# Gerando dados aleatórios da distribuição normal
+# Gerando dados aleatorios da distribuicao normal
 dados <- rnorm(100)
 
 # Construindo histograma
@@ -90,7 +91,7 @@ hist(
   # Cor da borda
   border = "white",
   
-  # Título
+  # Titulo
   main = "Histograma",
   
   # Nome eixo X
@@ -104,7 +105,7 @@ hist(
 # Criando grupos
 grupo <- rep(c("A", "B"), each = 50)
 
-# Gerando valores aleatórios
+# Gerando valores aleatorios
 valor <- rnorm(100)
 
 # Construindo boxplot
@@ -122,10 +123,10 @@ boxplot(
 # 1.6 Barplot
 ###############################################################
 
-# Vetor de frequências
+# Vetor de frequencias
 valores <- c(10, 15, 8)
 
-# Construindo gráfico de barras
+# Construindo grafico de barras
 barplot(
   valores,
   
@@ -135,7 +136,7 @@ barplot(
   # Cor das barras
   col = "lightblue",
   
-  # Título
+  # Titulo
   main = "Barplot"
 )
 
@@ -155,41 +156,386 @@ barplot(
 # 3. GGPLOT2
 ###############################################################
 
-# Carregando pacote
+# O pacote ggplot2 implementa a ideia de
+# "Grammar of Graphics" (Gramatica de Graficos).
+#
+# A ideia central eh que um grafico pode ser construido
+# combinando diferentes componentes:
+#
+#   DADOS
+#     +
+#   MAPEAMENTOS
+#     +
+#   GEOMETRIAS
+#     +
+#   CAMADAS
+#     +
+#   ESCALAS
+#     +
+#   FACETAS
+#     +
+#   COORDENADAS
+#     +
+#   TEMA
+#     =
+#   GRÁFICO
+#
+# Em vez de pensar em graficos como comandos isolados,
+# o ggplot2 permite construir um grafico por partes.
+
+
+###############################################################
+# 3.1 Carregando o pacote
+###############################################################
+
 library(ggplot2)
 
+
 ###############################################################
-# 3.1 Estrutura básica do ggplot2
+# 3.2 A estrutura basica do ggplot2
 ###############################################################
 
-# Criando data.frame
+# A estrutura fundamental pode ser representada por:
+
+# ggplot(DADOS, aes(MAPEAMENTOS)) +
+#   geom_XXX()
+
+# Onde:
+#
+# ggplot()  -> inicia a construcao do grafico
+#
+# DADOS     -> conjunto de dados utilizado
+#
+# aes()     -> define os mapeamentos esteticos
+#
+# geom_XXX() -> define a geometria utilizada
+#
+# +         -> adiciona novas camadas ao grafico
+
+
+###############################################################
+# 3.3 Criando uma base de dados
+###############################################################
+
 dados <- data.frame(
   x = 1:10,
   y = c(2, 5, 4, 6, 8, 7, 9, 10, 12, 11)
 )
 
-# Gráfico de dispersão
+dados
+
+
+###############################################################
+# 3.4 O conceito de DADOS
+###############################################################
+
+# O primeiro componente da gramatica eh o conjunto de dados.
+
+ggplot(data = dados)
+
+
+# Ainda nao temos um grafico propriamente dito.
+#
+# Apenas informamos ao ggplot2:
+#
+# "Utilize o objeto dados como fonte de informacoes."
+
+
+###############################################################
+# 3.5 O conceito de MAPEAMENTO
+###############################################################
+
+# O segundo componente eh o mapeamento estetico.
+#
+# O mapeamento eh definido pela funcao aes().
+#
+# aes() vem de "aesthetic mappings".
+
+aes(x = x, y = y)
+
+
+# Estamos estabelecendo uma relacao entre as variaveis
+# dos dados e caracteristicas visuais do grafico.
+#
+# Neste caso:
+#
+# variável x -> posição horizontal
+# variável y -> posição vertical
+
+
+###############################################################
+# 3.6 Primeiro grafico
+###############################################################
+
+ggplot(
+  data = dados,
+  aes(x = x, y = y)
+) +
+  geom_point()
+
+
+# Podemos interpretar o codigo como:
+#
+# 1. Utilize os dados armazenados em "dados";
+#
+# 2. Mapeie a variavel x para o eixo X;
+#
+# 3. Mapeie a variavel y para o eixo Y;
+#
+# 4. Represente as observacoes utilizando pontos.
+
+
+###############################################################
+# 3.7 Forma simplificada
+###############################################################
+
+# Como "data" e "aes" sao argumentos principais de ggplot(),
+# podemos escrever:
+
 ggplot(dados, aes(x, y)) +
   geom_point()
 
+
 ###############################################################
-# 3.2 Personalizando pontos
+# 3.8 O conceito de GEOMETRIA
+###############################################################
+
+# A funcao geom_*() determina como os dados
+# serão representados graficamente.
+#
+# Alguns exemplos:
+#
+# geom_point()      -> pontos
+# geom_line()       -> linhas
+# geom_histogram()  -> histograma
+# geom_boxplot()    -> boxplot
+# geom_bar()        -> barras
+# geom_col()        -> colunas
+# geom_density()    -> densidade
+# geom_smooth()     -> curva de tendência
+
+
+###############################################################
+# 3.9 Alterando a geometria
+###############################################################
+
+# Os mesmos dados podem ser representados
+# utilizando diferentes geometrias.
+
+
+# Pontos
+
+ggplot(dados, aes(x, y)) +
+  geom_point()
+
+
+# Linhas
+
+ggplot(dados, aes(x, y)) +
+  geom_line()
+
+
+# Pontos e linhas
+
+ggplot(dados, aes(x, y)) +
+  geom_point() +
+  geom_line()
+
+
+# Observe:
+#
+# Os DADOS continuam os mesmos.
+#
+# O que mudou foi a GEOMETRIA utilizada
+# para representar esses dados.
+
+
+###############################################################
+# 3.10 O operador +
+###############################################################
+
+# No ggplot2, o operador + eh utilizado para
+# adicionar novas camadas ao grafico.
+
+ggplot(dados, aes(x, y)) +
+  geom_point() +
+  geom_line()
+
+
+# Podemos pensar no gráfico como:
+
+# ggplot()
+#    |
+#    +-- geom_point()
+#    |
+#    +-- geom_line()
+
+
+# Portanto, o operador + nao representa uma
+# soma matematica.
+#
+# Ele representa a adicao de uma nova camada.
+
+
+###############################################################
+# 3.11 Construindo um grafico por camadas
 ###############################################################
 
 ggplot(dados, aes(x, y)) +
   
-  # Adicionando pontos
+  # Primeira camada:
+  # pontos
+  geom_point() +
+  
+  # Segunda camada:
+  # linha
+  geom_line()
+
+
+# Podemos continuar adicionando componentes:
+
+ggplot(dados, aes(x, y)) +
+  
+  geom_point() +
+  
+  geom_line() +
+  
+  labs(
+    title = "Relação entre X e Y",
+    x = "Variável X",
+    y = "Variável Y"
+  ) +
+  
+  theme_classic()
+
+
+###############################################################
+# 3.12 Mapeamentos estéticos
+###############################################################
+
+# As esteticas são definidas dentro de aes().
+#
+# aes() estabelece uma relação entre:
+#
+#       VARIÁVEL DOS DADOS
+#                ↓
+#       CARACTERISTICA VISUAL
+#
+# Principais esteticas:
+#
+# x         -> posição horizontal
+# y         -> posição vertical
+# color     -> cor
+# fill      -> preenchimento
+# size      -> tamanho
+# linewidth -> espessura da linha
+# shape     -> forma
+# alpha     -> transparência
+# linetype  -> tipo de linha
+# group     -> agrupamento
+# label     -> texto
+
+
+
+
+###############################################################
+# 3.13 Exemplo de mapeamento de cor
+###############################################################
+
+dados2 <- data.frame(
+  grupo = rep(c("A", "B"), each = 50),
+  valor = rnorm(100)
+)
+
+ggplot(
+  dados2,
+  aes(
+    x = grupo,
+    y = valor,
+    color = grupo
+  )
+) +
+  geom_point()
+
+
+# Neste caso:
+#
+# grupo -> eixo X
+# valor -> eixo Y
+# grupo -> cor dos pontos
+#
+# A cor esta sendo determinada pelos dados.
+
+
+###############################################################
+# 3.14 MAPEAMENTO x CONFIGURACAO
+###############################################################
+
+# Essa eh uma distincao muito importante no ggplot2.
+
+
+# -------------------------------------------------------------
+# CONFIGURACAO
+# -------------------------------------------------------------
+
+# Quando escrevemos:
+
+ggplot(dados, aes(x, y)) +
+  geom_point(color = "blue")
+
+
+# Estamos dizendo:
+#
+# "Todos os pontos devem ser azuis."
+
+
+# A cor nao depende de uma variavel.
+
+
+# -------------------------------------------------------------
+# MAPEAMENTO
+# -------------------------------------------------------------
+
+ggplot(
+  dados2,
+  aes(
+    x = grupo,
+    y = valor,
+    color = grupo
+  )
+) +
+  geom_point()
+
+
+# Aqui a cor depende da variavel "grupo".
+#
+# Portanto:
+#
+# color = "blue"
+#       -> configuracao
+#
+# aes(color = grupo)
+#       -> mapeamento
+
+
+###############################################################
+# 3.15 Personalizando pontos
+###############################################################
+
+ggplot(dados, aes(x, y)) +
+  
   geom_point(
     
     # Cor dos pontos
     color = "blue",
     
-    # Tamanho
+    # Tamanho dos pontos
     size = 3
   )
 
+
 ###############################################################
-# 3.3 Adicionando linhas
+# 3.16 Adicionando linhas
 ###############################################################
 
 ggplot(dados, aes(x, y)) +
@@ -200,65 +546,73 @@ ggplot(dados, aes(x, y)) +
   # Linha
   geom_line(linewidth = 1)
 
+
 ###############################################################
-# 3.4 Histograma no ggplot2
+# 3.17 Rotulos do grafico
 ###############################################################
 
-# Criando base de dados
-dados_hist <- data.frame(
-  x = rnorm(1000)
-)
+# A funcao labs() permite adicionar
+# titulos e rotulos.
 
-# Construindo histograma
-ggplot(dados_hist, aes(x)) +
+ggplot(dados, aes(x, y)) +
   
-  geom_histogram(
-    
-    # Número de classes
-    bins = 20,
-    
-    # Cor interna
-    fill = "steelblue",
-    
-    # Cor da borda
-    color = "white"
+  geom_point(size = 3) +
+  
+  geom_line() +
+  
+  labs(
+    title = "Relação entre X e Y",
+    subtitle = "Exemplo utilizando ggplot2",
+    x = "Variável X",
+    y = "Variável Y"
   )
 
+
 ###############################################################
-# 3.5 Boxplot no ggplot2
+# 3.18 Titulos e legendas
 ###############################################################
 
-# Criando banco de dados
-dados2 <- data.frame(
-  grupo = rep(c("A", "B"), each = 50),
-  valor = rnorm(100)
-)
-
-# Construindo boxplot
-ggplot(dados2, aes(grupo, valor, fill = grupo)) +
+ggplot(dados2, aes(grupo, valor, color = grupo)) +
   
-  geom_boxplot()
+  geom_point(size = 3) +
+  
+  labs(
+    title = "Distribuição dos valores",
+    x = "Grupo",
+    y = "Valor",
+    color = "Grupo"
+  )
+
 
 ###############################################################
-# 3.6 Temas gráficos
+# 3.19 TEMAS
 ###############################################################
+
+# Os temas controlam diversos aspectos da aparencia
+# do grafico.
 
 ggplot(dados, aes(x, y)) +
   
   geom_point(size = 3) +
   
-  # Tema minimalista
   theme_classic()
 
-## Usando theme_classic()
+
+###############################################################
+# 3.20 theme_classic()
+###############################################################
 
 ggplot(dados, aes(x, y)) +
   geom_point(size = 3) +
   theme_classic()
 
-## Adicionando linhas manualmente
+
+###############################################################
+# 3.21 Adicionando linhas aos eixos
+###############################################################
 
 ggplot(dados, aes(x, y)) +
+  
   geom_point(size = 3) +
   
   theme_minimal() +
@@ -270,56 +624,95 @@ ggplot(dados, aes(x, y)) +
     )
   )
 
-## Adicionando apenas eixo X e Y
+
+###############################################################
+# 3.22 Adicionando apenas os eixos X e Y
+###############################################################
 
 ggplot(dados, aes(x, y)) +
+  
   geom_point(size = 3) +
   
   theme_minimal() +
   
   theme(
-    axis.line.x = element_line(color = "black"),
-    axis.line.y = element_line(color = "black")
+    axis.line.x = element_line(
+      color = "black"
+    ),
+    
+    axis.line.y = element_line(
+      color = "black"
+    )
   )
 
-## Exemplo completo
 
-library(ggplot2)
-
-dados <- data.frame(
-  x = 1:10,
-  y = c(2, 5, 4, 6, 8, 7, 9, 10, 12, 11)
-)
+###############################################################
+# 3.23 Exemplo completo
+###############################################################
 
 ggplot(dados, aes(x, y)) +
   
+  # Geometria: pontos
   geom_point(
     size = 3,
     color = "black"
   ) +
   
+  # Geometria: linha
   geom_line() +
   
+  # Rotulos
   labs(
     title = "Gráfico com Eixos",
     x = "Eixo X",
     y = "Eixo Y"
   ) +
   
+  # Tema
   theme_classic()
 
+
 ###############################################################
-# 3.7 Facetas
+# 3.24 FACETAS
+###############################################################
+
+# Outro componente importante da gramatica de graficos
+# eh a possibilidade de dividir o grafico em varios paineis.
+
+# As principais funcoes sao:
+#
+# facet_wrap()
+# facet_grid()
+
+
+###############################################################
+# 3.25 facet_wrap()
 ###############################################################
 
 ggplot(dados2, aes(grupo, valor)) +
   
   geom_boxplot() +
   
-  # Dividindo gráficos
-  facet_wrap(~grupo) 
+  facet_wrap(~grupo)
 
-## Outro exemplo
+
+# O símbolo ~ pode ser lido como:
+#
+# "por"
+
+
+# Portanto:
+#
+# facet_wrap(~grupo)
+#
+# significa aproximadamente:
+#
+# "divida o gráfico por grupo."
+
+
+###############################################################
+# 3.26 Outro exemplo de facet_wrap()
+###############################################################
 
 dados3 <- data.frame(
   grupo = rep(c("A", "B", "C", "D"), each = 50),
@@ -328,11 +721,16 @@ dados3 <- data.frame(
 
 ggplot(dados3, aes(grupo, valor)) +
   
-  geom_boxplot(fill = "lightblue") +
+  geom_boxplot(
+    fill = "lightblue"
+  ) +
   
   facet_wrap(~grupo)
 
-## controlando o numero de colunas
+
+###############################################################
+# 3.27 Controlando o número de colunas
+###############################################################
 
 ggplot(dados3, aes(grupo, valor)) +
   
@@ -343,7 +741,10 @@ ggplot(dados3, aes(grupo, valor)) +
     ncol = 1
   )
 
-## controlando o numero de linhas
+
+###############################################################
+# 3.28 Controlando o número de linhas
+###############################################################
 
 ggplot(dados3, aes(grupo, valor)) +
   
@@ -354,7 +755,10 @@ ggplot(dados3, aes(grupo, valor)) +
     nrow = 2
   )
 
-## escalas livres
+
+###############################################################
+# 3.29 Escalas livres
+###############################################################
 
 ggplot(dados3, aes(grupo, valor)) +
   
@@ -365,7 +769,10 @@ ggplot(dados3, aes(grupo, valor)) +
     scales = "free"
   )
 
-## facetas com dispersao
+
+###############################################################
+# 3.30 Facetas com grafico de dispersao
+###############################################################
 
 dados4 <- data.frame(
   x = rnorm(200),
@@ -379,17 +786,28 @@ ggplot(dados4, aes(x, y)) +
   
   facet_wrap(~grupo)
 
-## melhorando aparencia
+
+###############################################################
+# 3.31 Melhorando a aparencia
+###############################################################
 
 ggplot(dados4, aes(x, y)) +
   
-  geom_point(color = "blue") +
+  geom_point(
+    color = "blue"
+  ) +
   
   facet_wrap(~grupo) +
   
   theme_classic()
 
-## facetas com grid
+
+###############################################################
+# 3.32 facet_grid()
+###############################################################
+
+# facet_grid() permite organizar os gráficos
+# em linhas e colunas.
 
 dados5 <- data.frame(
   sexo = rep(c("M", "F"), each = 100),
@@ -397,11 +815,206 @@ dados5 <- data.frame(
   valor = rnorm(200)
 )
 
-ggplot(dados5, aes(tratamento, valor)) +
+ggplot(
+  dados5,
+  aes(
+    tratamento,
+    valor
+  )
+) +
   
   geom_boxplot() +
   
-  facet_grid(sexo ~ tratamento)
+  facet_grid(
+    sexo ~ tratamento
+  )
+
+
+# A estrutura:
+#
+# facet_grid(linhas ~ colunas)
+#
+# significa:
+#
+# sexo       -> linhas
+# tratamento -> colunas
+
+
+###############################################################
+# 3.33 A gramática de gráficos em resumo
+###############################################################
+
+# Um gráfico no ggplot2 pode ser pensado como:
+
+# -------------------------------------------------------------
+# DADOS
+# -------------------------------------------------------------
+
+# Qual conjunto de dados será utilizado?
+
+
+# -------------------------------------------------------------
+# MAPEAMENTOS
+# -------------------------------------------------------------
+
+# Quais variáveis serão associadas
+# às características visuais?
+
+# aes(x, y)
+# aes(color = grupo)
+# aes(size = valor)
+# aes(shape = grupo)
+
+
+# -------------------------------------------------------------
+# GEOMETRIAS
+# -------------------------------------------------------------
+
+# Como os dados serão representados?
+
+# geom_point()
+# geom_line()
+# geom_histogram()
+# geom_boxplot()
+# geom_bar()
+
+
+# -------------------------------------------------------------
+# CAMADAS
+# -------------------------------------------------------------
+
+# O que mais pode ser acrescentado?
+
+# geom_point()
+# geom_line()
+# labs()
+# geom_smooth()
+
+
+# -------------------------------------------------------------
+# FACETAS
+# -------------------------------------------------------------
+
+# Precisamos dividir o gráfico em painéis?
+
+# facet_wrap()
+# facet_grid()
+
+
+# -------------------------------------------------------------
+# ESCALAS
+# -------------------------------------------------------------
+
+# Como os valores serão apresentados nos eixos,
+# cores, tamanhos etc.?
+
+# scale_x_...
+# scale_y_...
+# scale_color_...
+
+
+# -------------------------------------------------------------
+# COORDENADAS
+# -------------------------------------------------------------
+
+# Como o sistema de coordenadas será organizado?
+
+# coord_cartesian()
+# coord_flip()
+# coord_fixed()
+
+
+# -------------------------------------------------------------
+# TEMA
+# -------------------------------------------------------------
+
+# Como será a aparência do gráfico?
+
+# theme_classic()
+# theme_minimal()
+# theme_bw()
+# theme()
+
+
+###############################################################
+# 3.34 A "receita mental" do ggplot2
+###############################################################
+
+# Para construir um gráfico, pense:
+
+# 1. Quais são os meus DADOS?
+#
+# 2. Quais variáveis quero representar?
+#
+# 3. Como essas variáveis serão MAPEADAS?
+#
+# 4. Qual GEOMETRIA representa melhor os dados?
+#
+# 5. Preciso adicionar outras CAMADAS?
+#
+# 6. Preciso dividir o gráfico em FACETAS?
+#
+# 7. Preciso modificar as ESCALAS?
+#
+# 8. Preciso modificar as COORDENADAS?
+#
+# 9. Como quero PERSONALIZAR o gráfico?
+
+
+###############################################################
+# 3.35 Estrutura geral
+###############################################################
+
+# A estrutura pode ser resumida como:
+
+# ggplot(DADOS, aes(MAPEAMENTOS)) +
+#   GEOMETRIA() +
+#   CAMADA() +
+#   FACETAS() +
+#   ESCALAS() +
+#   COORDENADAS() +
+#   TEMA()
+
+
+###############################################################
+# 3.36 Exemplo final
+###############################################################
+
+ggplot(
+  dados4,
+  aes(
+    x = x,
+    y = y,
+    color = grupo
+  )
+) +
+  
+  # Geometria principal
+  geom_point(
+    size = 3
+  ) +
+  
+  # Linha de tendência
+  geom_smooth(
+    method = "lm",
+    se = FALSE
+  ) +
+  
+  # Divisão em painéis
+  facet_wrap(~grupo) +
+  
+  # Rótulos
+  labs(
+    title = "Relação entre X e Y",
+    subtitle = "Construção utilizando a gramática de gráficos",
+    x = "Variável X",
+    y = "Variável Y",
+    color = "Grupo"
+  ) +
+  
+  # Tema
+  theme_classic()
+
 
 ###############################################################
 # 4. PLOTLY
