@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "Apresentaremos ferramentas tecnológicas e estatísticas de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R para a disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT). Avaliaremos a aprendizagem dos alunos através de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-09-08 16:54:20"
+date: "2026-09-08 20:23:08"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -199,17 +199,55 @@ coordação, faremos a segunda chamada de tal atividade.
 
 ## <i class="fas fa-feather"></i> Lista alunos {id="exerc_entregar" title="Clique aqui!"}
 
-- [🎓 Matheus Gonçalves Marco
+- [🎓 Matheus Gonçalves | Marco
   Antônio](https://marcoantonio2026.github.io/relatorio_eait/)
-- [🎓 Jair Malta e Wesley
+- [🎓 Jair Malta | Wesley
   Rodrigues](https://jmalta97.github.io/relatorio-eait/)
-- [🎓 Maria Clara](https://mcfcoelho1.github.io/relatorio-eait/)
-- [🎓 Marcus Fillipe e Gustavo
+- [🎓 Maria Clara | Victória Marques](https://mcfcoelho1.github.io/relatorio-eait/)
+- [🎓 Marcus Fillipe | Gustavo
   Almeida](https://mfillipecivil.github.io/relatorio-eait/)
-- [🎓 Bruno Henrique e Lucas
+- [🎓 Bruno Henrique | Lucas
   Felipe](https://lucasfelipe31.github.io/eait/)
-- [🎓 Otávio Augusto e Gregório
+- [🎓 Otávio Augusto | Gregório
   Grazziotti](https://otavioneiva12.github.io/relatorio_eait/)
+
+## <i class="fas fa-balance-scale-right"></i> Defesas {id="defesas" title="Clique aqui!"}
+
+<div style="margin-left: 30px;">
+
+{{< spoiler text="⚖️ Defesa 1 (Clique) | 14/09/2026">}}
+
+- **Relatórios**: 1, 2 e 3
+- **Tempo:** 20 min.
+- **Local:** sala 103.2
+- **Horário:** 18:45 às 20:50
+
+---
+
+<center>
+
+**ORDEM DAS DEFESAS**
+
+</center>
+
+<center>
+
+| Ordem | Horário | Alunos |
+|:----|:----|:----|
+| 1   | 18:45 - 19:00 | Matheus Gonçalves e Marco Antônio  |
+| 2   | 19:00 - 19:15 | Jair Malta e Wesley Rodrigues |
+| 3   | 19:15 - 19:30 | Maria Clara e Victória Marques |
+| 4   | 19:30 - 19:45 | Marcos Fellipe e Gustavo Almeida |
+| 5   | 19:45 - 20:00 | Bruno Henrique e Lucas Felipe |
+| 6   | 20:00 - 20:15 | Otávio Augusto e Gregório Grazziotti |
+
+</center>
+
+{{< /spoiler >}}
+
+</div>
+
+
 
 ## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
 
@@ -1591,7 +1629,7 @@ O código deverá estar organizado e comentado.
 
 <div style="margin-left: 20px;">
 
-{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Processamento de dados (Parte II)
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** Gráficos em R
 {{< icon name="r-project" pack="fab" >}} {{% staticref "/eait/2026.2/EAIT2026.2_AULA07.R" "newtab" %}}Script Aula 07.R{{% /staticref %}}
 
 </div>

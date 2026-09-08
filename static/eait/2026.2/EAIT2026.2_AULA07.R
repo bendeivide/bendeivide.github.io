@@ -28,7 +28,7 @@
 x <- c(1, 2, 3, 4, 5)
 y <- c(2, 4, 5, 4, 6)
 
-# Construindo gráfico de dispersão simples
+# Construindo grafico de dispersão simples
 plot(x, y)
 
 ###############################################################
@@ -48,13 +48,13 @@ plot(
   ylab = "Variável Y",
   
   # Tipo de simbolo
-  pch = 19,
+  pch = 10,
   
   # Cor dos pontos
   col = "blue",
   
   # Tamanho dos pontos
-  cex = 1.5
+  cex = 0.5
 )
 
 ###############################################################
@@ -70,8 +70,9 @@ y <- x^2
 # Grafico de linhas
 plot(
   x, y,
-  type = "l",   # l = lines
-  lwd = 2       # espessura da linha
+  type = "h",   # l = lines
+  lwd = 2,       # espessura da linha
+  pch = 19
 )
 
 ###############################################################
@@ -97,6 +98,12 @@ hist(
   # Nome eixo X
   xlab = "Valores"
 )
+
+library(leem)
+dados |>
+  new_leem(variable = 2) |>
+  hist(barcol = "lightblue", bgcol = "black")
+
 
 ###############################################################
 # 1.5 Boxplot
@@ -134,7 +141,7 @@ barplot(
   names.arg = c("A", "B", "C"),
   
   # Cor das barras
-  col = "lightblue",
+  col = heat.colors(3),
   
   # Titulo
   main = "Barplot"
@@ -198,7 +205,7 @@ library(ggplot2)
 # A estrutura fundamental pode ser representada por:
 
 # ggplot(DADOS, aes(MAPEAMENTOS)) +
-#   geom_XXX()
+#   geom_XXX() + 
 
 # Onde:
 #
@@ -271,7 +278,7 @@ ggplot(
   data = dados,
   aes(x = x, y = y)
 ) +
-  geom_point()
+  geom_point(col = "red")
 
 
 # Podemos interpretar o codigo como:
@@ -292,9 +299,15 @@ ggplot(
 # Como "data" e "aes" sao argumentos principais de ggplot(),
 # podemos escrever:
 
+
 ggplot(dados, aes(x, y)) +
   geom_point()
 
+dados2 <- dados
+names(dados2)  <- c("w", "z")
+
+ggplot(dados2, aes(w, z)) +
+  geom_point()
 
 ###############################################################
 # 3.8 O conceito de GEOMETRIA

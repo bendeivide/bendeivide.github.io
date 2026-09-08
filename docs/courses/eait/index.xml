@@ -15,7 +15,7 @@
     <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/eait/normal2026.2/</link>
-      <pubDate>Tue, 08 Sep 2026 16:54:20 -0300</pubDate>
+      <pubDate>Tue, 08 Sep 2026 20:23:08 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/eait/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -34,6 +34,7 @@
     &lt;li&gt;&lt;a href=&#34;#matadotado&#34;&gt;&lt;i class=&#34;fas fa-book-open&#34;&gt;&lt;/i&gt; Material adotado&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#relatorio&#34;&gt;&lt;i class=&#34;fab fa-r-project&#34;&gt;&lt;/i&gt; -&amp;gt; &lt;i class=&#34;fa fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Modelo de Relatório R para &lt;em&gt;Web&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#exerc_entregar&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#defesas&#34;&gt;&lt;i class=&#34;fas fa-balance-scale-right&#34;&gt;&lt;/i&gt; Defesas&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#lrel&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#aulas&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#quiz&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/a&gt;&lt;/li&gt;
@@ -230,21 +231,80 @@ Springer, 2018.&lt;/a&gt;&lt;/p&gt;
 &lt;/center&gt;
 &lt;h2 id=&#34;exerc_entregar&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-feather&#34;&gt;&lt;/i&gt; Lista alunos&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marcoantonio2026.github.io/relatorio_eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Matheus Gonçalves Marco
+&lt;li&gt;&lt;a href=&#34;https://marcoantonio2026.github.io/relatorio_eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Matheus Gonçalves | Marco
 Antônio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jmalta97.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Jair Malta e Wesley
+&lt;li&gt;&lt;a href=&#34;https://jmalta97.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Jair Malta | Wesley
 Rodrigues&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mcfcoelho1.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Maria Clara&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mfillipecivil.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Marcus Fillipe e Gustavo
+&lt;li&gt;&lt;a href=&#34;https://mcfcoelho1.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Maria Clara | Victória Marques&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mfillipecivil.github.io/relatorio-eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Marcus Fillipe | Gustavo
 Almeida&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lucasfelipe31.github.io/eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Bruno Henrique e Lucas
+&lt;li&gt;&lt;a href=&#34;https://lucasfelipe31.github.io/eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Bruno Henrique | Lucas
 Felipe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://otavioneiva12.github.io/relatorio_eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Otávio Augusto e Gregório
+&lt;li&gt;&lt;a href=&#34;https://otavioneiva12.github.io/relatorio_eait/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Otávio Augusto | Gregório
 Grazziotti&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;lrel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
+&lt;h2 id=&#34;defesas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-balance-scale-right&#34;&gt;&lt;/i&gt; Defesas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 30px;&#34;&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;⚖️ Defesa 1 (Clique) | 14/09/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Relatórios&lt;/strong&gt;: 1, 2 e 3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tempo:&lt;/strong&gt; 20 min.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local:&lt;/strong&gt; sala 103.2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Horário:&lt;/strong&gt; 18:45 às 20:50&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;strong&gt;ORDEM DAS DEFESAS&lt;/strong&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Ordem&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Horário&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Alunos&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;18:45 - 19:00&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Matheus Gonçalves e Marco Antônio&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;19:00 - 19:15&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Jair Malta e Wesley Rodrigues&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;19:15 - 19:30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Maria Clara e Victória Marques&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;19:30 - 19:45&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Marcos Fellipe e Gustavo Almeida&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;19:45 - 20:00&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Bruno Henrique e Lucas Felipe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;6&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20:00 - 20:15&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Otávio Augusto e Gregório Grazziotti&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;lrel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
+&lt;div style=&#34;margin-left: 30px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
   &lt;summary&gt;📝 Como os relatórios serão avaliados?&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;Seguindo as seguintes indagações:&lt;/p&gt;
 &lt;center&gt;
@@ -354,7 +414,7 @@ Grazziotti&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;/div&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;🗒 Relatório 1 (Clique!) - 24/08/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -392,7 +452,7 @@ os resultados encontrados, entendo que apesar de ser feito pelo
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 1 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;🗒 Relatório 2 (Clique!) - 31/08/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -732,7 +792,7 @@ ave()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 2 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;🗒 Relatório 3 (Clique!) - 07/09/2026&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
@@ -1345,35 +1405,35 @@ geom_histogram()
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 3 --&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação da disciplina e Introdução ao R&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II), &lt;em&gt;R Markdown&lt;/em&gt;, Quarto e &lt;em&gt;Github&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Como desenvolver nossos relatórios de avaliação&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Estatística Descritiva&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte I)&lt;/p&gt;
@@ -1382,7 +1442,7 @@ geom_histogram()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte II)&lt;/p&gt;
@@ -1391,21 +1451,21 @@ geom_histogram()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 06 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;🎓 Aula 7&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte II)&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Gráficos em R&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/eait/2026.2/EAIT2026.2_AULA07.R&#34; target=&#34;_blank&#34;&gt;Script Aula 07.R&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 07 --&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
