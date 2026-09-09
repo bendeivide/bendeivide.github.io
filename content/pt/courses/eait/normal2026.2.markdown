@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "Apresentaremos ferramentas tecnológicas e estatísticas de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R para a disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT). Avaliaremos a aprendizagem dos alunos através de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-09-08 20:23:08"
+date: "2026-09-09 05:50:18"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -210,6 +210,7 @@ coordação, faremos a segunda chamada de tal atividade.
   Felipe](https://lucasfelipe31.github.io/eait/)
 - [🎓 Otávio Augusto | Gregório
   Grazziotti](https://otavioneiva12.github.io/relatorio_eait/)
+- [🎓 Leonarno Müller](https://leomuller13.github.io/relatorio-eait/)
 
 ## <i class="fas fa-balance-scale-right"></i> Defesas {id="defesas" title="Clique aqui!"}
 
@@ -240,6 +241,7 @@ coordação, faremos a segunda chamada de tal atividade.
 | 4   | 19:30 - 19:45 | Marcos Fellipe e Gustavo Almeida |
 | 5   | 19:45 - 20:00 | Bruno Henrique e Lucas Felipe |
 | 6   | 20:00 - 20:15 | Otávio Augusto e Gregório Grazziotti |
+| 7   | 20:15 - 20:30 | Leonardo Müller |
 
 </center>
 
