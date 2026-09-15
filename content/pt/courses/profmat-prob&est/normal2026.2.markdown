@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2026.2
-date: "2026-09-15 06:22:30"
+date: "2026-09-15 16:24:21"
 type: book
 weight: 1
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -815,7 +815,61 @@ Ao concluir o Relatório 3, espera-se que o aluno seja capaz de:
 
 {{</spoiler>}}
 
-<!-- Fim do Relatorio 3 -->
+<!-- Fim do Relatorio 4 -->
+
+{{< spoiler text="🗒 Relatório 4 (Clique!) - 24/09/2026">}}
+
+* <i class="fas fa-upload"></i> Entrega: Via Github
+* <i class="fas fa-file"></i> Formato: [Modelo de
+  Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+* <i class="fas fa-calendar-check"></i> 24/09/2026 <i class="fas fa-clock"></i> 23h59min.
+
+---
+
+> <i class="fas fa-question-circle"></i> **OBJETIVO**
+>
+> Na aula anterior estudamos os fundamentos da teoria de probabilidades. Para consolidar esse aprendizado, você deverá elaborar um **relatório individual** que organize, explique e relacione os conceitos trabalhados em sala.
+> O relatório **não é um resumo do material didático**, nem uma cópia de definições. Espera-se um texto **autoral**, no qual você:
+>
+> - explique os conceitos com suas próprias palavras;
+> - apresente as definições formais;
+> - demonstre as propriedades e os teoremas;
+> - construa exemplos e contraexemplos próprios;
+> - reflita sobre a aplicação desses conteúdos na Educação Básica.
+>
+> Seu relatório deve abordar, obrigatoriamente, **todos** os tópicos abaixo:
+>
+> 1. **Conceitos básicos de conjuntos no contexto probabilístico** — espaço amostral, eventos, operações entre eventos, eventos mutuamente exclusivos.
+> 2. **Definição da medida de probabilidade pelos axiomas de Kolmogorov** — os três axiomas, no contexto de espaços amostrais finitos ou enumeráveis (sem o conceito formal de σ-álgebra).
+> 3. **Propriedades de probabilidade** — decorrentes dos axiomas (probabilidade do evento impossível, complementar, monotonicidade, aditividade para eventos não disjuntos, etc.).
+> 4. **Independência de eventos** — definição, distinção entre independência e exclusão mútua, independência de múltiplos eventos.
+> 5. **Teorema da Probabilidade Total** — partição do espaço amostral, enunciado e demonstração.
+> 6. **Teorema de Bayes** — enunciado, demonstração e interpretação.
+>
+
+Ao final, finalizamos com uma seguinte situação-problema: " O teste da Doença Rara na Escola".
+
+Uma escola pública decidiu realizar, em caráter experimental, um programa de triagem para uma doença infecciosa rara entre seus 1.200 estudantes. A doença afeta **1 em cada 100 estudantes** da população escolar. O teste utilizado tem as seguintes características, informadas pelo fabricante:
+
+- **Sensibilidade:** se o estudante **tem** a doença, o teste dá positivo em **90%** dos casos.
+- **Especificidade:** se o estudante **não tem** a doença, o teste dá negativo em **95%** dos casos.
+
+Um estudante é sorteado ao acaso e submetido ao teste. Ele **testou positivo**.
+
+**Pergunta central:** Qual é a probabilidade de esse estudante realmente ter a doença?
+
+**Pergunta secundária (didática):** Esse resultado é intuitivo? Por que muitos diriam, equivocadamente, que é "90%"?
+
+> Apresente ao final do relatório a solução da situação-problema usando as definições e teoremas abordados no presente relatório.
+
+
+**DATA DA ENTREGA:**
+
+* Até às 23h59min. do dia **24/09/2026**.
+
+{{</spoiler>}}
+
+<!-- Fim do Relatorio 4 -->
 
 
 ## Ementa
@@ -1056,6 +1110,60 @@ coordação, faremos a segunda chamada de tal atividade.
 {{< /spoiler >}}
 
 <!-- Fim da Aula 03 -->
+
+{{< spoiler text="🎓 Aula 4">}}
+
+<div style="margin-left: 20px;">
+
+
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** 
+
+3. Medidas de posição
+4. Medidas de dispersão e desenho esquemático (Box Plot)
+
+{{< icon name="file-pdf" pack="fas" >}} {{% staticref "/profmat/2026.2/aula04/aula04.pdf" "newtab" %}}PDF_Aula_04.pdf{{% /staticref %}}
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 04 -->
+
+{{< spoiler text="🎓 Aula 5">}}
+
+<div style="margin-left: 20px;">
+
+
+
+{{< icon name="pen-fancy" pack="fas" >}} **Temas:** 
+
+5. Probabilidade: conceitos básicos, definições e propriedades
+6. Probabilidade condicional e independência; teorema da probabilidade total e teorema de Bayes
+
+{{< icon name="file-pdf" pack="fas" >}} {{% staticref "/profmat/2026.2/aula05/aula05.pdf" "newtab" %}}PDF_Aula_05.pdf{{% /staticref %}}
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 05 -->
+
+{{< spoiler text="🎓 Aula 6">}}
+
+<div style="margin-left: 20px;">
+
+
+
+{{< icon name="pen-fancy" pack="fas" >}} **Defesa:** Relatórios 1, 2 e 3
+
+
+
+</div>
+
+{{< /spoiler >}}
+
+<!-- Fim da Aula 06 -->
 
 ## Quiz
 

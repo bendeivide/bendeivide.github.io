@@ -1,0 +1,174 @@
+# Situação-Problema Integradora
+
+## "O Teste da Doença Rara na Escola"
+
+---
+
+### Contexto
+
+Uma escola pública decidiu realizar, em caráter experimental, um programa de triagem para uma doença infecciosa rara entre seus 1.200 estudantes. A doença afeta **1 em cada 100 estudantes** da população escolar. O teste utilizado tem as seguintes características, informadas pelo fabricante:
+
+- **Sensibilidade:** se o estudante **tem** a doença, o teste dá positivo em **90%** dos casos.
+- **Especificidade:** se o estudante **não tem** a doença, o teste dá negativo em **95%** dos casos.
+
+Um estudante é sorteado ao acaso e submetido ao teste. Ele **testou positivo**.
+
+**Pergunta central:** Qual é a probabilidade de esse estudante realmente ter a doença?
+
+**Pergunta secundária (didática):** Esse resultado é intuitivo? Por que muitos diriam, equivocadamente, que é "90%"?
+
+---
+
+## Roteiro de Solução — articulando todos os tópicos da disciplina
+
+A seguir, mostramos como a solução desse único problema percorre, naturalmente, **todos os seis assuntos** estudados.
+
+---
+
+### Etapa 1 — Conceitos básicos de conjuntos no contexto probabilístico
+
+**Espaço amostral (Ω):** todos os 1.200 estudantes.
+
+Definimos os eventos:
+
+| Evento | Significado |
+|---|---|
+| **D** | o estudante tem a doença |
+| **Dᶜ** | o estudante não tem a doença |
+| **T⁺** | o teste dá positivo |
+| **T⁻** | o teste dá negativo |
+
+Observe as relações de conjuntos:
+
+- D ∪ Dᶜ = Ω (a doença está presente ou ausente — partição).
+- D ∩ Dᶜ = ∅ (eventos mutuamente exclusivos).
+- T⁺ ∩ T⁻ = ∅.
+- O evento "tem a doença **e** testou positivo" é **D ∩ T⁺**.
+- O evento "testou positivo" pode ser escrito como união disjunta:
+  **T⁺ = (D ∩ T⁺) ∪ (Dᶜ ∩ T⁺)**
+
+Essa decomposição em união disjunta é a chave para o Teorema da Probabilidade Total, mais adiante.
+
+**Diagrama de Venn:** dois círculos (D e T⁺) que se sobrepõem, dividindo Ω em quatro regiões: D∩T⁺, D∩T⁻, Dᶜ∩T⁺, Dᶜ∩T⁻.
+
+---
+
+### Etapa 2 — Definição axiomática de probabilidade (Kolmogorov)
+
+Adotamos uma medida de probabilidade P sobre os eventos, satisfazendo:
+
+1. **Não negatividade:** P(A) ≥ 0 para todo evento A.
+2. **Normalização:** P(Ω) = 1.
+3. **Aditividade:** se A e B são mutuamente exclusivos, P(A ∪ B) = P(A) + P(B).
+
+**Verificação nos dados do problema:**
+
+- P(D) = 1/100 = 0,01 (probabilidade a priori de ter a doença).
+- P(Dᶜ) = 1 − 0,01 = 0,99.
+- P(T⁺ | D) = 0,90 (sensibilidade).
+- P(T⁻ | Dᶜ) = 0,95 (especificidade), logo P(T⁺ | Dᶜ) = 0,05.
+
+Como D e Dᶜ formam uma partição de Ω, podemos aplicar o axioma da aditividade para escrever:
+
+P(T⁺) = P(T⁺ ∩ D) + P(T⁺ ∩ Dᶜ)
+
+---
+
+### Etapa 3 — Propriedades de probabilidade
+
+Antes de prosseguir, usamos propriedades decorrentes dos axiomas:
+
+- **Complementar:** P(Dᶜ) = 1 − P(D) = 0,99.
+- **Monotonicidade:** como D ∩ T⁺ ⊆ T⁺, temos P(D ∩ T⁺) ≤ P(T⁺).
+- **Aditividade para eventos disjuntos:** usada diretamente na decomposição de T⁺.
+
+Essas propriedades justificam cada passo algébrico seguinte, garantindo rigor à solução.
+
+---
+
+### Etapa 4 — Independência de eventos
+
+**Pergunta provocadora:** D e T⁺ são independentes?
+
+Se fossem independentes, teríamos P(D ∩ T⁺) = P(D)·P(T⁺). Mas **não são** — o teste foi construído justamente para que T⁺ dependa de D. A sensibilidade e a especificidade são, por definição, **probabilidades condicionais**, o que já indica dependência.
+
+**Contraexemplo didático:** se a doença fosse tão comum quanto o teste é preciso, a intuição mudaria. Compare:
+
+- Se P(D) = 0,5, então P(D | T⁺) seria bem próximo de 0,90.
+- Se P(D) = 0,01 (nosso caso), P(D | T⁺) será muito menor — como veremos.
+
+Isso mostra que **independência não é o mesmo que exclusão mútua**, e que a dependência é o que torna o problema interessante.
+
+---
+
+### Etapa 5 — Teorema da Probabilidade Total
+
+Como {D, Dᶜ} é uma partição de Ω, aplicamos o Teorema da Probabilidade Total:
+
+**P(T⁺) = P(T⁺ | D)·P(D) + P(T⁺ | Dᶜ)·P(Dᶜ)**
+
+Substituindo os valores:
+
+P(T⁺) = (0,90)(0,01) + (0,05)(0,99)
+P(T⁺) = 0,009 + 0,0495
+**P(T⁺) = 0,0585**
+
+Ou seja, **5,85%** dos estudantes testarão positivo — mesmo sendo a doença rara.
+
+**Interpretação:** a maior parte dos positivos vem de **falsos positivos** (0,0495), não de verdadeiros positivos (0,009). Esse é o cerne do chamado *paradoxo do falso positivo*.
+
+---
+
+### Etapa 6 — Teorema de Bayes
+
+Queremos P(D | T⁺). Pela definição de probabilidade condicional e pelo Teorema de Bayes:
+
+**P(D | T⁺) = [P(T⁺ | D)·P(D)] / P(T⁺)**
+
+Substituindo:
+
+P(D | T⁺) = 0,009 / 0,0585
+**P(D | T⁺) ≈ 0,1538 ≈ 15,4%**
+
+---
+
+## Resposta e reflexão
+
+Apesar de o teste ter 90% de sensibilidade, a probabilidade de o estudante realmente ter a doença, **dado que testou positivo**, é de apenas **≈ 15,4%**.
+
+**Por que a intuição falha?**
+Porque confundimos **P(T⁺ | D)** (sensibilidade) com **P(D | T⁺)** (valor preditivo positivo). O Teorema de Bayes mostra que a resposta depende crucialmente da **prevalência** da doença (P(D) = 1%). Quando a doença é rara, mesmo um teste bom gera muitos falsos positivos.
+
+**Implicação prática:** um teste positivo em triagem de doença rara **não** significa "90% de chance de estar doente" — e isso tem enormes consequências éticas e pedagógicas.
+
+---
+
+## Como essa situação-problema cobre os seis tópicos
+
+| Tópico | Onde aparece na solução |
+|---|---|
+| **1. Conjuntos no contexto probabilístico** | Definição de Ω, D, T⁺; decomposição T⁺ = (D∩T⁺) ∪ (Dᶜ∩T⁺); diagrama de Venn |
+| **2. Axiomas de Kolmogorov** | Justificativa da medida P; uso da aditividade para eventos disjuntos |
+| **3. Propriedades de probabilidade** | Complementar (P(Dᶜ)), monotonicidade, aditividade |
+| **4. Independência de eventos** | Discussão sobre D e T⁺ não serem independentes; relação com probabilidade condicional |
+| **5. Teorema da Probabilidade Total** | Cálculo de P(T⁺) pela partição {D, Dᶜ} |
+| **6. Teorema de Bayes** | Cálculo de P(D | T⁺) e interpretação do resultado |
+
+---
+
+## Extensões possíveis (para enriquecer o relatório)
+
+1. **Variação da prevalência:** recalcular P(D | T⁺) para P(D) = 10%, 20%, 50%. Construir uma tabela e um gráfico. O que se observa?
+2. **Variação da especificidade:** o que acontece se a especificidade cair para 90%? E se subir para 99%?
+3. **Falso negativo:** calcular P(D | T⁻). Qual o risco de um teste negativo?
+4. **Conexão com a BNCC:** propor essa situação para o Ensino Médio, articulando com probabilidade condicional e leitura crítica de dados.
+5. **Reflexão ética:** discutir as consequências sociais de testes em massa com baixa prevalência.
+
+---
+
+Se quiser, posso agora:
+- **desenvolver a solução completa em formato de relatório-modelo** (com introdução, desenvolvimento e conclusão);
+- **criar uma versão adaptada para o Ensino Médio** dessa mesma situação;
+- ou **propor uma segunda situação-problema** com outro contexto (urnas, produção industrial, spam, etc.).
+
+Qual dessas opções você prefere?
