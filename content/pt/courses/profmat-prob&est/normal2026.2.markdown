@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2026.2
-date: "2026-09-08 20:50:23"
+date: "2026-09-15 06:22:30"
 type: book
 weight: 1
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -77,10 +77,49 @@ Segue o link: <https://bendeivide.github.io/profmatma41/>
   Machado](https://ailtonmachado.github.io/profmatma41/)
 - [🎓 Flávia Alves dos Anjos
   Santos](https://flaviaalves-profmat.github.io/Relatorio/)
-- [🎓 Luciano Vaz de Oliveira (sem link)]()
-- [🎓 Mário Marcos de Faria (sem link)]()
+- [🎓 Luciano Vaz de Oliveira ](https://lucianovaz-math.github.io/profmatma41/)
+- [🎓 Mário Marcos de Faria](https://mariofaria-spec.github.io/relatorio/)
 - [🎓 Reinado Gomes dos
   Santos](https://rei-santos.github.io/profmatma41/)
+
+## <i class="fas fa-balance-scale-right"></i> Defesas {id="defesas" title="Clique aqui!"}
+
+<div style="margin-left: 30px;">
+
+{{< spoiler text="⚖️ Defesa 1 (Clique) | 18/09/2026">}}
+
+- **Relatórios**: 1, 2 e 3
+- **Tempo:** 30 min.
+- **Local:** sala 103.2
+- **Horário:** 13:00 às 16h
+
+---
+
+<center>
+
+**ORDEM DAS DEFESAS**
+
+</center>
+
+<center>
+
+| Ordem | Horário | Alunos |
+|:----|:----|:----|
+| 1   | 13:00 - 13:30 | Ailton Gomes  |
+| 2   | 13:30 - 14:00 | Flávia Alves |
+| 3   | 14:00 - 14:30 | Luciano Vaz |
+| 4   | 14:30 - 15:00 | Mário Marcos |
+| 5   | 15:00 - 15:30 | Reinaldo Gomes |
+
+
+</center>
+
+{{< /spoiler >}}
+
+</div>
+
+
+
 
 ## <i class="fas fa-tasks"></i> Lista de relatórios {id="lrel" title="Clique aqui!"}
 
