@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2026.2
-date: "2026-09-15 16:24:21"
+date: "2026-09-16 06:41:31"
 type: book
 weight: 1
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -80,7 +80,7 @@ Segue o link: <https://bendeivide.github.io/profmatma41/>
 - [🎓 Luciano Vaz de Oliveira ](https://lucianovaz-math.github.io/profmatma41/)
 - [🎓 Mário Marcos de Faria](https://mariofaria-spec.github.io/relatorio/)
 - [🎓 Reinado Gomes dos
-  Santos](https://rei-santos.github.io/profmatma41/)
+  Santos](https://rei-santos.github.io/Profmatma41/)
 
 ## <i class="fas fa-balance-scale-right"></i> Defesas {id="defesas" title="Clique aqui!"}
 
