@@ -1,0 +1,587 @@
+---
+title: "Gabarito Analítico — Lista de Probabilidade em Engenharia Química"
+subtitle: "Resolução detalhada dos 50 exercícios"
+author: "Baseado no Capítulo 5 do livro EPAEC"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    theme: flatly
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+# Apresentação
+
+Este documento apresenta o **gabarito analítico completo** dos 50 exercícios de Probabilidade em Engenharia Química. Cada solução é desenvolvida passo a passo, com justificativa das propriedades utilizadas do Teorema 5.6, das Leis de Morgan, do Teorema da Probabilidade Total e do Teorema de Bayes.
+
+\newpage
+
+# Parte I — Conceitos Básicos e Definições de Probabilidade
+
+## Exercício 1
+
+**Enunciado.** Lote de 500 válvulas com 15 defeituosas. Retira-se uma ao acaso.
+
+**(a)** O espaço amostral é
+$$\Omega = \{\omega_1, \omega_2, \dots, \omega_{500}\}$$
+em que cada $\omega_i$ representa "a válvula $i$ foi retirada".
+
+**(b)** Pela definição clássica (casos favoráveis / casos possíveis):
+$$P(D) = \frac{15}{500} = 0{,}03$$
+
+**(c)** Pelo complemento (propriedade i do Teorema 5.6):
+$$P(D^c) = 1 - P(D) = 1 - 0{,}03 = 0{,}97$$
+
+---
+
+## Exercício 2
+
+**Enunciado.** 60% produção, 25% laboratório, 15% manutenção.
+
+**(a)** $P(\text{produção}^c) = 1 - 0{,}60 = 0{,}40$
+
+**(b)** Laboratório e manutenção são mutuamente exclusivos:
+$$P(L \cup M) = P(L) + P(M) = 0{,}25 + 0{,}15 = 0{,}40$$
+
+---
+
+## Exercício 3
+
+**Enunciado.** 8 brancas e 12 pretas; duas retiradas sem reposição.
+
+**(a)** Ambas brancas:
+$$P(B_1 \cap B_2) = \frac{8}{20} \cdot \frac{7}{19} = \frac{56}{380} = \frac{14}{95} \approx 0{,}1474$$
+
+**(b)** Ambas pretas:
+$$P(P_1 \cap P_2) = \frac{12}{20} \cdot \frac{11}{19} = \frac{132}{380} = \frac{33}{95} \approx 0{,}3474$$
+
+**(c)** Uma branca e uma preta (ordem qualquer):
+$$P = \frac{8}{20}\cdot\frac{12}{19} + \frac{12}{20}\cdot\frac{8}{19} = 2 \cdot \frac{96}{380} = \frac{192}{380} = \frac{48}{95} \approx 0{,}5053$$
+
+---
+
+## Exercício 4
+
+**Enunciado.** 100 reatores; 5 com trinca (T), 8 com corrosão (C), 3 com ambos.
+
+**(a)** Inclusão-exclusão:
+$$P(T \cup C) = P(T) + P(C) - P(T \cap C) = \frac{5}{100} + \frac{8}{100} - \frac{3}{100} = 0{,}10$$
+
+**(b)** Somente trinca:
+$$P(T \cap C^c) = P(T) - P(T \cap C) = 0{,}05 - 0{,}03 = 0{,}02$$
+
+**(c)** Nenhum dos dois (Morgan + complemento):
+$$P(T^c \cap C^c) = 1 - P(T \cup C) = 1 - 0{,}10 = 0{,}90$$
+
+---
+
+## Exercício 5
+
+**Enunciado.** $P(A) = 0{,}5$, $P(B) = 0{,}4$, $P(A \cap B) = 0{,}2$.
+
+**(a)** $P(A \cup B) = 0{,}5 + 0{,}4 - 0{,}2 = 0{,}7$
+
+**(b)** $P(A^c \cap B^c) = 1 - P(A \cup B) = 1 - 0{,}7 = 0{,}3$
+
+**(c)** $P(A^c \cup B^c) = 1 - P(A \cap B) = 1 - 0{,}2 = 0{,}8$
+
+---
+
+## Exercício 6
+
+**(a)** Como $B = (A \cap B) \cup (A^c \cap B)$ e os conjuntos são disjuntos:
+$$P(B) = P(A \cap B) + P(A^c \cap B) \Rightarrow P(A^c \cap B) = P(B) - P(A \cap B)$$
+Alternativamente, com $A$ no lugar de $B$:
+$$P(A) = P(A \cap B) + P(A \cap B^c) \Rightarrow P(A \cap B) = P(A) - P(A \cap B^c)$$
+
+**(b)** Se $A \subseteq B$, então $B = A \cup (B \setminus A)$ com $A \cap (B \setminus A) = \emptyset$:
+$$P(B) = P(A) + P(B \setminus A) \Rightarrow P(B \setminus A) = P(B) - P(A)$$
+
+---
+
+## Exercício 7
+
+**Enunciado.** $P(A) = 0{,}3$, $P(B) = 0{,}6$, $A \subseteq B$.
+
+**(a)** Como $A \subseteq B$, então $A \cap B = A$, logo $P(A \cap B) = 0{,}3$.
+
+**(b)** $P(A \cup B) = P(B) = 0{,}6$.
+
+**(c)** $P(A^c \cap B) = P(B) - P(A) = 0{,}6 - 0{,}3 = 0{,}3$.
+
+---
+
+## Exercício 8
+
+Para uma partição, é necessário: $P(A_i) \geq 0$ e $\sum_i P(A_i) = 1$.
+
+**(a)** $0{,}1 + 0{,}2 + 0{,}3 + 0{,}4 = 1{,}0$. **Sim.**
+
+**(b)** $0{,}1 + 0{,}2 + 0{,}3 + 0{,}5 = 1{,}1$. **Não** — a soma excede 1.
+
+**(c)** $-0{,}1 < 0$. **Não** — viola a propriedade $P(A_i) \geq 0$.
+
+---
+
+## Exercício 9
+
+$$P(S \cup P) = 0{,}05 + 0{,}03 - 0{,}01 = 0{,}07$$
+
+---
+
+## Exercício 10
+
+Desigualdade de Boole (subaditividade):
+$$P(A_1 \cup A_2 \cup A_3) \leq P(A_1) + P(A_2) + P(A_3) = 0{,}01 + 0{,}01 + 0{,}01 = 0{,}03$$
+
+\newpage
+
+# Parte II — Leis de Morgan e Propriedades
+
+## Exercício 11
+
+**Leis de Morgan:**
+$$(A \cup B)^c = A^c \cap B^c \qquad \text{e} \qquad (A \cap B)^c = A^c \cup B^c$$
+
+**Verificação via propriedades:** Como $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ e $P((A \cup B)^c) = 1 - P(A \cup B)$:
+$$P(A^c \cap B^c) = 1 - P(A) - P(B) + P(A \cap B) = P((A \cup B)^c)$$
+Analogamente para a segunda.
+
+---
+
+## Exercício 12
+
+**(a)** $(A \cup B \cup C)^c = A^c \cap B^c \cap C^c$
+
+**(b)** $(A \cap B \cap C)^c = A^c \cup B^c \cup C^c$
+
+---
+
+## Exercício 13
+
+Dados $P(A) = 0{,}9$, $P(B) = 0{,}8$, $P(A \cap B) = 0{,}75$.
+
+**(a)** Por Morgan: $A^c \cup B^c = (A \cap B)^c$
+$$P(A^c \cup B^c) = 1 - P(A \cap B) = 1 - 0{,}75 = 0{,}25$$
+
+**(b)** Por Morgan: $A^c \cap B^c = (A \cup B)^c$. Como $P(A \cup B) = 0{,}9 + 0{,}8 - 0{,}75 = 0{,}95$:
+$$P(A^c \cap B^c) = 1 - 0{,}95 = 0{,}05$$
+
+---
+
+## Exercício 14
+
+Por Morgan, $A^c \cap B^c = (A \cup B)^c$. Logo:
+$$P(A^c \cap B^c) = 1 - P(A \cup B) = 1 - [P(A) + P(B) - P(A \cap B)]$$
+$$= 1 - P(A) - P(B) + P(A \cap B) \quad \blacksquare$$
+
+---
+
+## Exercício 15
+
+Seja $A_i$ = "bomba $i$ opera", $i = 1, 2, 3$.
+
+- "Pelo menos uma bomba opera": $A_1 \cup A_2 \cup A_3$
+- "Nenhuma bomba opera": $(A_1 \cup A_2 \cup A_3)^c = A_1^c \cap A_2^c \cap A_3^c$ (Morgan)
+
+---
+
+## Exercício 16
+
+$P(A) = 0{,}7$, $P(B) = 0{,}5$, $P(A \cup B) = 0{,}9$.
+
+**(a)** $P(A \cap B) = P(A) + P(B) - P(A \cup B) = 0{,}7 + 0{,}5 - 0{,}9 = 0{,}3$
+
+**(b)** $P(A^c \cap B^c) = 1 - P(A \cup B) = 1 - 0{,}9 = 0{,}1$
+
+**(c)** $P(A^c \cup B^c) = 1 - P(A \cap B) = 1 - 0{,}3 = 0{,}7$
+
+---
+
+## Exercício 17
+
+Desigualdade de Bonferroni:
+$$P(A \cap B \cap C) \geq P(A) + P(B) + P(C) - 2 = 0{,}95 + 0{,}90 + 0{,}85 - 2 = 0{,}70$$
+
+---
+
+## Exercício 18
+
+Demonstração por decomposição:
+$$A \cup B \cup C = A \cup (B \cap A^c) \cup (C \cap A^c \cap B^c)$$
+Como os três conjuntos são disjuntos dois a dois:
+$$P(A \cup B \cup C) = P(A) + P(B \cap A^c) + P(C \cap A^c \cap B^c)$$
+Usando $P(B \cap A^c) = P(B) - P(A \cap B)$ e
+$P(C \cap A^c \cap B^c) = P(C) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)$,
+obtém-se a fórmula de inclusão-exclusão. $\blacksquare$
+
+---
+
+## Exercício 19
+
+$$P(D) = \frac{30}{200} + \frac{20}{200} - \frac{10}{200} = \frac{40}{200} = 0{,}20$$
+
+---
+
+## Exercício 20
+
+$$P(A \cup B \cup C) = 0{,}4 + 0{,}5 + 0{,}3 - 0{,}2 - 0{,}1 - 0{,}15 + 0{,}05 = 0{,}80$$
+
+\newpage
+
+# Parte III — Probabilidade Condicional e Independência
+
+## Exercício 21
+
+$$P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \quad \text{desde que } P(B) > 0$$
+
+---
+
+## Exercício 22
+
+$$P(A \cap B) = P(B \mid A) \cdot P(A) = 0{,}40 \times 0{,}30 = 0{,}12$$
+
+---
+
+## Exercício 23
+
+$P(A) \cdot P(B) = 0{,}6 \times 0{,}4 = 0{,}24 = P(A \cap B)$. **Sim, são independentes.**
+
+---
+
+## Exercício 24
+
+**(a)** Como $A = (A \cap B) \cup (A \cap B^c)$ (disjuntos):
+$$P(A \cap B^c) = P(A) - P(A \cap B) = P(A) - P(A)P(B) = P(A)(1 - P(B)) = P(A)P(B^c)$$
+
+**(b)** $P(A^c \cap B^c) = 1 - P(A) - P(B) + P(A)P(B) = (1 - P(A))(1 - P(B)) = P(A^c)P(B^c)$
+
+---
+
+## Exercício 25
+
+Independência em série:
+$$P = 0{,}95^3 = 0{,}857375 \approx 0{,}8574$$
+
+---
+
+## Exercício 26
+
+Paralelo via complemento:
+$$P = 1 - P(\text{todas falham}) = 1 - 0{,}10^3 = 0{,}999$$
+
+---
+
+## Exercício 27
+
+**(a)** $P(A \cap B) = 0{,}5 \times 0{,}3 = 0{,}15$
+
+**(b)** $P(A \cup B) = 0{,}5 + 0{,}3 - 0{,}15 = 0{,}65$
+
+**(c)** $P(A \mid B) = \dfrac{P(A \cap B)}{P(B)} = \dfrac{0{,}15}{0{,}3} = 0{,}5$
+
+---
+
+## Exercício 28
+
+$P(A \mid B) = P(A \mid B^c)$ implica:
+$$\frac{P(A \cap B)}{P(B)} = \frac{P(A \cap B^c)}{P(B^c)} = \frac{P(A) - P(A \cap B)}{1 - P(B)}$$
+Multiplicando em cruz:
+$$P(A \cap B)(1 - P(B)) = P(B)[P(A) - P(A \cap B)]$$
+$$P(A \cap B) - P(A \cap B)P(B) = P(A)P(B) - P(A \cap B)P(B)$$
+$$P(A \cap B) = P(A)P(B) \quad \blacksquare$$
+
+---
+
+## Exercício 29
+
+**(a)** Teorema da Probabilidade Total:
+$$P(D) = P(D \mid X)P(X) + P(D \mid Y)P(Y) = 0{,}02 \times 0{,}7 + 0{,}05 \times 0{,}3 = 0{,}014 + 0{,}015 = 0{,}029$$
+
+**(b)** Bayes:
+$$P(Y \mid D) = \frac{0{,}05 \times 0{,}3}{0{,}029} = \frac{0{,}015}{0{,}029} \approx 0{,}5172$$
+
+---
+
+## Exercício 30
+
+**(a)** $P(A \cap B) = P(B \mid A) \cdot P(A) = 0{,}6 \times 0{,}4 = 0{,}24$
+
+**(b)** $P(A \mid B) = \dfrac{P(A \cap B)}{P(B)} = \dfrac{0{,}24}{0{,}5} = 0{,}48$
+
+\newpage
+
+# Parte IV — Teorema da Probabilidade Total e Teorema de Bayes
+
+## Exercício 31
+
+Seja $\{B_1, \dots, B_n\}$ uma partição de $\Omega$ ($B_i \cap B_j = \emptyset$, $\bigcup_i B_i = \Omega$, $P(B_i) > 0$). Então:
+$$P(A) = \sum_{i=1}^{n} P(A \mid B_i) P(B_i)$$
+
+---
+
+## Exercício 32
+
+$$P(B_k \mid A) = \frac{P(A \mid B_k) P(B_k)}{\sum_{i=1}^{n} P(A \mid B_i) P(B_i)}$$
+
+O denominador é exatamente $P(A)$ dado pelo Teorema da Probabilidade Total.
+
+---
+
+## Exercício 33
+
+**(a)** $P(D) = 0{,}02(0{,}5) + 0{,}03(0{,}3) + 0{,}05(0{,}2) = 0{,}010 + 0{,}009 + 0{,}010 = 0{,}029$
+
+**(b)** $P(L_3 \mid D) = \dfrac{0{,}05 \times 0{,}2}{0{,}029} = \dfrac{0{,}010}{0{,}029} \approx 0{,}3448$
+
+---
+
+## Exercício 34
+
+$$P(\text{alarme}) = \frac{1}{3}(0{,}9) + \frac{1}{3}(0{,}85) + \frac{1}{3}(0{,}8) = \frac{2{,}55}{3} = 0{,}85$$
+
+---
+
+## Exercício 35
+
+**(a)** $P(F) = 0{,}10(0{,}6) + 0{,}20(0{,}3) + 0{,}50(0{,}1) = 0{,}06 + 0{,}06 + 0{,}05 = 0{,}17$
+
+**(b)** Comparando as posteriores:
+$$P(\text{desgaste} \mid F) = \frac{0{,}06}{0{,}17} \approx 0{,}3529$$
+$$P(\text{corrosão} \mid F) = \frac{0{,}06}{0{,}17} \approx 0{,}3529$$
+$$P(\text{projeto} \mid F) = \frac{0{,}05}{0{,}17} \approx 0{,}2941$$
+
+**Desgaste e corrosão empatam** com ≈ 0,3529 cada (a resposta mais provável é desgaste, mas empatada com corrosão).
+
+---
+
+## Exercício 36
+
+$S$ = sensibilidade = $P(+ \mid F) = 0{,}95$; $E$ = especificidade = $P(- \mid F^c) = 0{,}90$; $P(F) = 0{,}02$.
+
+**(a)** $P(+) = P(+ \mid F)P(F) + P(+ \mid F^c)P(F^c) = 0{,}95(0{,}02) + 0{,}10(0{,}98) = 0{,}019 + 0{,}098 = 0{,}117$
+
+**(b)** $P(F \mid +) = \dfrac{0{,}019}{0{,}117} \approx 0{,}1624$
+
+---
+
+## Exercício 37
+
+**(a)** $P(D) = 0{,}05(0{,}8) + 0{,}10(0{,}2) = 0{,}04 + 0{,}02 = 0{,}06$
+
+**(b)** $P(A \mid D) = \dfrac{0{,}04}{0{,}06} \approx 0{,}6667$
+
+---
+
+## Exercício 38
+
+**(a)** $P(F) = 0{,}02(0{,}40) + 0{,}04(0{,}35) + 0{,}08(0{,}25) = 0{,}008 + 0{,}014 + 0{,}020 = 0{,}042$
+
+**(b)** $P(R_3 \mid F) = \dfrac{0{,}020}{0{,}042} \approx 0{,}4762$
+
+---
+
+## Exercício 39
+
+$P(A) = 0{,}1(0{,}5) + 0{,}2(0{,}3) + 0{,}3(0{,}2) = 0{,}05 + 0{,}06 + 0{,}06 = 0{,}17$
+$$P(B_2 \mid A) = \frac{0{,}06}{0{,}17} \approx 0{,}3529$$
+
+---
+
+## Exercício 40
+
+$P(D) = 0{,}02(0{,}25) + 0{,}03(0{,}35) + 0{,}01(0{,}40) = 0{,}005 + 0{,}0105 + 0{,}004 = 0{,}0195$
+
+Máquina com maior taxa de defeito: máquina 2 (3%).
+$$P(B_2 \mid D) = \frac{0{,}0105}{0{,}0195} \approx 0{,}5385$$
+
+---
+
+\newpage
+
+# Parte V — Exercícios Integradores
+
+## Exercício 41
+
+**(a)** $P(\text{parada}) = 0{,}2(0{,}4) + 0{,}5(0{,}35) + 0{,}6(0{,}25) = 0{,}08 + 0{,}175 + 0{,}15 = 0{,}405$
+
+**(b)** Comparando as posteriores:
+$$P(H \mid \text{parada}) = \frac{0{,}08}{0{,}405} \approx 0{,}1975$$
+$$P(M \mid \text{parada}) = \frac{0{,}175}{0{,}405} \approx 0{,}4321$$
+$$P(E \mid \text{parada}) = \frac{0{,}15}{0{,}405} \approx 0{,}3704$$
+
+**Mais provável: falha mecânica** (≈ 0,4321).
+
+---
+
+## Exercício 42
+
+Como $B$ e $B^c$ formam uma partição de $\Omega$ ($B \cup B^c = \Omega$, $B \cap B^c = \emptyset$):
+$$A = (A \cap B) \cup (A \cap B^c)$$
+Os dois conjuntos são disjuntos, logo:
+$$P(A) = P(A \cap B) + P(A \cap B^c) = P(A \mid B)P(B) + P(A \mid B^c)P(B^c) \quad \blacksquare$$
+
+---
+
+## Exercício 43
+
+Dado que o lote tem exatamente 1 defeituoso em 20, e retira-se 1 item ao acaso:
+$$P(\text{aceitar} \mid 1 \text{ defeituoso}) = P(\text{retirar o não defeituoso}) = \frac{19}{20} = 0{,}95$$
+
+---
+
+## Exercício 44
+
+$P(F_1) = 0{,}01$, $P(F_2) = 0{,}02$, independentes.
+
+**(a)** $P(\text{alarme}) = 1 - P(F_1^c \cap F_2^c) = 1 - (0{,}99)(0{,}98) = 1 - 0{,}9702 = 0{,}0298$
+
+**(b)** $P(F_1 \mid \text{alarme}) = \dfrac{P(F_1 \cap \text{alarme})}{P(\text{alarme})} = \dfrac{P(F_1)}{P(\text{alarme})} = \dfrac{0{,}01}{0{,}0298} \approx 0{,}3356$
+
+---
+
+## Exercício 45
+
+$P(A) = 0{,}9$, $P(B) = 0{,}8$, $P(A \cap B) = 0{,}75$.
+
+**(a)** $P(A \mid B) = \dfrac{0{,}75}{0{,}8} = 0{,}9375$
+
+**(b)** $P(B \mid A) = \dfrac{0{,}75}{0{,}9} \approx 0{,}8333$
+
+**(c)** $P(A) P(B) = 0{,}72 \neq 0{,}75$. **Não são independentes.**
+
+---
+
+## Exercício 46
+
+**Teorema de Bayes.** Sejam $\{B_1, \dots, B_n\}$ uma partição de $\Omega$ com $P(B_i) > 0$ e $A$ um evento com $P(A) > 0$. Então:
+$$P(B_k \mid A) = \frac{P(A \mid B_k) P(B_k)}{P(A)} = \frac{P(A \mid B_k) P(B_k)}{\sum_{i=1}^{n} P(A \mid B_i) P(B_i)}$$
+
+**Demonstração.** Pela definição de probabilidade condicional:
+$$P(B_k \mid A) = \frac{P(A \cap B_k)}{P(A)}$$
+Pela regra do produto: $P(A \cap B_k) = P(A \mid B_k)P(B_k)$.
+Pelo Teorema da Probabilidade Total: $P(A) = \sum_i P(A \mid B_i) P(B_i)$.
+Substituindo, obtém-se a fórmula. $\blacksquare$
+
+---
+
+## Exercício 47
+
+**(a)** $P(\text{fora}) = 0{,}01(0{,}6) + 0{,}03(0{,}4) = 0{,}006 + 0{,}012 = 0{,}018$
+
+**(b)** $P(B \mid \text{fora}) = \dfrac{0{,}012}{0{,}018} \approx 0{,}6667$
+
+---
+
+## Exercício 48
+
+Por Morgan generalizado:
+$$A^c \cap B^c \cap C^c = (A \cup B \cup C)^c$$
+Logo:
+$$P(A^c \cap B^c \cap C^c) = 1 - P(A \cup B \cup C) \quad \blacksquare$$
+
+---
+
+## Exercício 49
+
+**(a)** $P(\text{acidente}) = 0{,}01(0{,}45) + 0{,}02(0{,}35) + 0{,}04(0{,}20) = 0{,}0045 + 0{,}007 + 0{,}008 = 0{,}0195$
+
+**(b)** $P(\text{noite} \mid \text{acidente}) = \dfrac{0{,}008}{0{,}0195} \approx 0{,}4103$
+
+---
+
+## Exercício 50
+
+**(a)** Alarme dispara se ao menos 2 dos 3 sensores detectam. Com $p_1 = 0{,}9$, $p_2 = 0{,}85$, $p_3 = 0{,}8$:
+$$P(\geq 2) = p_1 p_2 (1-p_3) + p_1 (1-p_2) p_3 + (1-p_1) p_2 p_3 + p_1 p_2 p_3$$
+$$= 0{,}9 \cdot 0{,}85 \cdot 0{,}2 + 0{,}9 \cdot 0{,}15 \cdot 0{,}8 + 0{,}1 \cdot 0{,}85 \cdot 0{,}8 + 0{,}9 \cdot 0{,}85 \cdot 0{,}8$$
+$$= 0{,}153 + 0{,}108 + 0{,}068 + 0{,}612 = 0{,}941$$
+
+**(b)** Seja $F$ = falha real e $A$ = alarme dispara. Temos:
+$$P(F) = 0{,}05, \quad P(A \mid F) = 0{,}941, \quad P(A \mid F^c) = 0{,}02$$
+
+Probabilidade total:
+$$P(A) = 0{,}941(0{,}05) + 0{,}02(0{,}95) = 0{,}04705 + 0{,}019 = 0{,}06605$$
+
+Bayes:
+$$P(F \mid A) = \frac{0{,}04705}{0{,}06605} \approx 0{,}7121$$
+
+\newpage
+
+# Tabela Resumo das Respostas
+
+| Ex. | Resposta |
+|:---:|:---------|
+| 1 | (b) 0,03; (c) 0,97 |
+| 2 | (a) 0,40; (b) 0,40 |
+| 3 | (a) 14/95; (b) 33/95; (c) 48/95 |
+| 4 | (a) 0,10; (b) 0,02; (c) 0,90 |
+| 5 | (a) 0,70; (b) 0,30; (c) 0,80 |
+| 6 | Demonstração |
+| 7 | (a) 0,30; (b) 0,60; (c) 0,30 |
+| 8 | (a) sim; (b) não; (c) não |
+| 9 | 0,07 |
+| 10 | ≤ 0,03 |
+| 11 | Demonstração |
+| 12 | Morgan generalizado |
+| 13 | (a) 0,25; (b) 0,05 |
+| 14 | Demonstração |
+| 15 | $\bigcup A_i$; $\bigcap A_i^c$ |
+| 16 | (a) 0,30; (b) 0,10; (c) 0,70 |
+| 17 | ≥ 0,70 |
+| 18 | Demonstração |
+| 19 | 0,20 |
+| 20 | 0,80 |
+| 21 | Definição com $P(B)>0$ |
+| 22 | 0,12 |
+| 23 | Sim |
+| 24 | Demonstração |
+| 25 | ≈ 0,8574 |
+| 26 | 0,999 |
+| 27 | (a) 0,15; (b) 0,65; (c) 0,50 |
+| 28 | Demonstração |
+| 29 | (a) 0,029; (b) ≈ 0,5172 |
+| 30 | (a) 0,24; (b) 0,48 |
+| 31 | Enunciado |
+| 32 | Enunciado |
+| 33 | (a) 0,029; (b) ≈ 0,3448 |
+| 34 | 0,85 |
+| 35 | (a) 0,17; (b) desgaste (empatado com corrosão) |
+| 36 | (a) 0,117; (b) ≈ 0,1624 |
+| 37 | (a) 0,06; (b) ≈ 0,6667 |
+| 38 | (a) 0,042; (b) ≈ 0,4762 |
+| 39 | ≈ 0,3529 |
+| 40 | ≈ 0,5385 (máquina 2) |
+| 41 | (a) 0,405; (b) mecânica |
+| 42 | Demonstração |
+| 43 | 0,95 |
+| 44 | (a) 0,0298; (b) ≈ 0,3356 |
+| 45 | (a) 0,9375; (b) 0,8333; (c) Não |
+| 46 | Demonstração |
+| 47 | (a) 0,018; (b) ≈ 0,6667 |
+| 48 | Demonstração |
+| 49 | (a) 0,0195; (b) ≈ 0,4103 |
+| 50 | (a) 0,941; (b) ≈ 0,7121 |
+
+---
+
+# Observações Finais
+
+- **Desenvolvimento analítico**: cada solução apresenta a fórmula, a substituição numérica e o resultado.
+- **Propriedades utilizadas**: Teorema 5.6 (complemento, monotonicidade, inclusão-exclusão, Boole, Bonferroni), Leis de Morgan, Teorema da Probabilidade Total e Teorema de Bayes.
+- **Sem uso de R**: toda a resolução é analítica (papel e caneta).
+- **Correções importantes em relação ao gabarito resumido anterior**:
+  - **Exercício 8(b)**: a soma é 1,1 ≠ 1, portanto **não** pode ser partição.
+  - **Exercício 35(b)**: desgaste e corrosão empatam em ≈ 0,3529.
+  - **Exercício 40**: a resposta correta é ≈ 0,5385 (máquina 2), não 0,4054.
+
+Se desejar, posso:
+1. Gerar uma **versão em PDF** com formatação LaTeX para impressão;
+2. Produzir uma **versão apenas com enunciados** (sem gabarito) para aplicação em prova;
+3. Adicionar **gráficos ilustrativos** (diagramas de Venn, árvores de decisão) em TikZ.

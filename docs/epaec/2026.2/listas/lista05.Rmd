@@ -1,0 +1,608 @@
+---
+title: "Lista de Exercícios de Probabilidade em Engenharia Química"
+subtitle: "Conceitos Básicos, Propriedades, Probabilidade Condicional e Teorema de Bayes"
+author: "Baseado no Capítulo 5 do livro EPAEC"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    theme: flatly
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+# Apresentação
+
+Esta lista contém **50 exercícios** de Probabilidade aplicados à **Engenharia Química**, cobrindo estritamente os tópicos do capítulo 5:
+
+- Conceitos básicos de probabilidade;
+- Definições de probabilidade (clássica, frequentista e axiomática);
+- Propriedades da função $P(\cdot)$ conforme o Teorema 5.6;
+- Eventos independentes e probabilidade condicional;
+- Leis de Morgan;
+- Teorema da Probabilidade Total;
+- Teorema de Bayes.
+
+Todas as questões são de **resolução analítica** (sem uso de linguagem R). Os valores numéricos são indicados entre parênteses ao final de cada item, quando aplicável.
+
+\newpage
+
+# Parte I — Conceitos Básicos e Definições de Probabilidade
+
+## Exercício 1
+
+Um lote de 500 válvulas industriais contém 15 defeituosas. Uma válvula é retirada ao acaso.
+
+(a) Descreva o espaço amostral $\Omega$.
+
+(b) Qual a probabilidade de a válvula ser defeituosa?
+
+(c) Qual a probabilidade de não ser defeituosa?
+
+*(Resposta: (b) 0,03; (c) 0,97)*
+
+---
+
+## Exercício 2
+
+Em uma planta química, 60% dos funcionários trabalham no setor de produção, 25% no laboratório e 15% na manutenção. Sorteia-se um funcionário ao acaso.
+
+(a) Qual a probabilidade de ele NÃO trabalhar na produção?
+
+(b) Qual a probabilidade de ele trabalhar no laboratório ou na manutenção?
+
+*(Resposta: (a) 0,40; (b) 0,40)*
+
+---
+
+## Exercício 3
+
+Uma urna contém 8 esferas brancas e 12 esferas pretas. Duas esferas são retiradas **sem reposição**.
+
+(a) Qual a probabilidade de ambas serem brancas?
+
+(b) Qual a probabilidade de ambas serem pretas?
+
+(c) Qual a probabilidade de uma branca e uma preta (em qualquer ordem)?
+
+*(Resposta: (a) 14/95 ≈ 0,1474; (b) 33/95 ≈ 0,3474; (c) 48/95 ≈ 0,5053)*
+
+---
+
+## Exercício 4
+
+Em um lote de 100 reatores, sabe-se que 5 apresentam trincas, 8 apresentam corrosão e 3 apresentam ambos os defeitos. Um reator é escolhido ao acaso. Calcule:
+
+(a) $P(\text{trinca} \cup \text{corrosão})$
+
+(b) $P(\text{somente trinca})$
+
+(c) $P(\text{nenhum dos dois defeitos})$
+
+*(Resposta: (a) 0,10; (b) 0,02; (c) 0,90)*
+
+---
+
+## Exercício 5
+
+Sejam $A$ e $B$ eventos tais que $P(A) = 0{,}5$, $P(B) = 0{,}4$ e $P(A \cap B) = 0{,}2$. Calcule:
+
+(a) $P(A \cup B)$
+
+(b) $P(A^c \cap B^c)$
+
+(c) $P(A^c \cup B^c)$
+
+*(Resposta: (a) 0,7; (b) 0,3; (c) 0,8)*
+
+---
+
+## Exercício 6
+
+Usando as propriedades do Teorema 5.6, mostre que:
+
+(a) $P(A \cap B) = P(A) - P(A \cap B^c)$ *(propriedade iii)*
+
+(b) Se $A \subseteq B$, então $P(B \setminus A) = P(B) - P(A)$
+
+---
+
+## Exercício 7
+
+Sejam $A$ e $B$ eventos com $P(A) = 0{,}3$, $P(B) = 0{,}6$ e $A \subseteq B$. Determine:
+
+(a) $P(A \cap B)$
+
+(b) $P(A \cup B)$
+
+(c) $P(A^c \cap B)$
+
+*(Resposta: (a) 0,3; (b) 0,6; (c) 0,3)*
+
+---
+
+## Exercício 8
+
+Verifique se os valores abaixo podem representar probabilidades de eventos mutuamente exclusivos $A_1, A_2, A_3, A_4$ que formam uma partição de $\Omega$:
+
+(a) $0{,}1;\ 0{,}2;\ 0{,}3;\ 0{,}4$
+
+(b) $0{,}1;\ 0{,}2;\ 0{,}3;\ 0{,}5$
+
+(c) $-0{,}1;\ 0{,}3;\ 0{,}4;\ 0{,}4$
+
+*(Resposta: (a) sim; (b) sim; (c) não — viola $P(A_i) \geq 0$)*
+
+---
+
+## Exercício 9
+
+Em um reator, sabe-se que a probabilidade de falha por superaquecimento é 0,05; por sobrepressão é 0,03; e por ambos é 0,01. Calcule a probabilidade de o reator falhar por pelo menos um dos dois motivos.
+
+*(Resposta: 0,07)*
+
+---
+
+## Exercício 10
+
+Use a **desigualdade de Boole** para majorar $P(A_1 \cup A_2 \cup A_3)$ sabendo que $P(A_i) = 0{,}01$ para $i = 1, 2, 3$.
+
+*(Resposta: ≤ 0,03)*
+
+\newpage
+
+# Parte II — Leis de Morgan e Propriedades da Probabilidade
+
+## Exercício 11
+
+Enuncie as **Leis de Morgan** para dois eventos $A$ e $B$ e verifique-as usando as propriedades do Teorema 5.6.
+
+---
+
+## Exercício 12
+
+Sejam $A$, $B$ e $C$ eventos. Aplique as Leis de Morgan para escrever:
+
+(a) $(A \cup B \cup C)^c$
+
+(b) $(A \cap B \cap C)^c$
+
+---
+
+## Exercício 13
+
+Em uma planta, a probabilidade de o reator A operar é 0,9 e do reator B operar é 0,8. Sabendo que ambos operam com probabilidade 0,75, calcule:
+
+(a) $P(A^c \cup B^c)$
+
+(b) $P(A^c \cap B^c)$
+
+*(Resposta: (a) 0,25; (b) 0,05)*
+
+---
+
+## Exercício 14
+
+Prove, usando Leis de Morgan e propriedades, que:
+$$P(A^c \cap B^c) = 1 - P(A) - P(B) + P(A \cap B)$$
+
+---
+
+## Exercício 15
+
+Considere três bombas em paralelo. Sejam $A_i$ = "bomba $i$ opera", $i = 1, 2, 3$. Use Leis de Morgan para expressar o evento "pelo menos uma bomba opera" e "nenhuma bomba opera".
+
+---
+
+## Exercício 16
+
+Sabendo que $P(A) = 0{,}7$, $P(B) = 0{,}5$ e $P(A \cup B) = 0{,}9$, calcule:
+
+(a) $P(A \cap B)$
+
+(b) $P(A^c \cap B^c)$
+
+(c) $P(A^c \cup B^c)$
+
+*(Resposta: (a) 0,3; (b) 0,1; (c) 0,7)*
+
+---
+
+## Exercício 17
+
+Use a **desigualdade de Bonferroni** para minorar $P(A \cap B \cap C)$ sabendo que $P(A) = 0{,}95$, $P(B) = 0{,}90$, $P(C) = 0{,}85$.
+
+*(Resposta: ≥ 0,70)*
+
+---
+
+## Exercício 18
+
+Prove, usando inclusão-exclusão, que para três eventos:
+$$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)$$
+
+---
+
+## Exercício 19
+
+Em um lote de 200 peças, 30 têm defeito de dimensão, 20 têm defeito de superfície e 10 têm ambos. Calcule a probabilidade de uma peça sorteada ter pelo menos um defeito usando inclusão-exclusão.
+
+*(Resposta: 40/200 = 0,20)*
+
+---
+
+## Exercício 20
+
+Sejam $P(A) = 0{,}4$, $P(B) = 0{,}5$, $P(C) = 0{,}3$, $P(A \cap B) = 0{,}2$, $P(A \cap C) = 0{,}1$, $P(B \cap C) = 0{,}15$ e $P(A \cap B \cap C) = 0{,}05$. Calcule $P(A \cup B \cup C)$.
+
+*(Resposta: 0,80)*
+
+\newpage
+
+# Parte III — Probabilidade Condicional e Independência
+
+## Exercício 21
+
+Defina **probabilidade condicional** $P(A \mid B)$ e apresente a fórmula. Em que condições ela está bem definida?
+
+---
+
+## Exercício 22
+
+Em uma planta, 30% dos reatores apresentam falha no sistema de agitação ($A$). Sabe-se que 40% dos reatores que falham na agitação também falham no controle de temperatura ($B$). Calcule $P(A \cap B)$.
+
+*(Resposta: 0,12)*
+
+---
+
+## Exercício 23
+
+Sejam $P(A) = 0{,}6$, $P(B) = 0{,}4$ e $P(A \cap B) = 0{,}24$. Verifique se $A$ e $B$ são **independentes**.
+
+*(Resposta: Sim, pois $P(A \cap B) = P(A) \cdot P(B)$)*
+
+---
+
+## Exercício 24
+
+Mostre que se $A$ e $B$ são independentes, então:
+
+(a) $A$ e $B^c$ são independentes
+
+(b) $A^c$ e $B^c$ são independentes
+
+---
+
+## Exercício 25
+
+Em um sistema de três válvulas em série, cada válvula funciona com probabilidade 0,95 e de forma independente. Qual a probabilidade de o sistema funcionar?
+
+*(Resposta: $0{,}95^3 \approx 0{,}8574$)*
+
+---
+
+## Exercício 26
+
+Em um sistema com três válvulas em paralelo, cada uma com probabilidade de funcionamento 0,90 e independentes. Qual a probabilidade de o sistema funcionar?
+
+*(Resposta: $1 - 0{,}10^3 = 0{,}999$)*
+
+---
+
+## Exercício 27
+
+Sejam $A$ e $B$ eventos independentes com $P(A) = 0{,}5$ e $P(B) = 0{,}3$. Calcule:
+
+(a) $P(A \cap B)$
+
+(b) $P(A \cup B)$
+
+(c) $P(A \mid B)$
+
+*(Resposta: (a) 0,15; (b) 0,65; (c) 0,5)*
+
+---
+
+## Exercício 28
+
+Mostre que se $P(A \mid B) = P(A \mid B^c)$, então $A$ e $B$ são independentes (supondo $0 < P(B) < 1$).
+
+---
+
+## Exercício 29
+
+Em uma planta, 70% dos lotes vêm do fornecedor X e 30% do fornecedor Y. A taxa de defeituosos do fornecedor X é 2% e do Y é 5%. Um lote é escolhido ao acaso.
+
+(a) Qual a probabilidade de ser defeituoso?
+
+(b) Se for defeituoso, qual a probabilidade de vir de Y?
+
+*(Resposta: (a) 0,029; (b) ≈ 0,5172)*
+
+---
+
+## Exercício 30
+
+Sejam $A$ e $B$ eventos com $P(A) = 0{,}4$, $P(B) = 0{,}5$, $P(B \mid A) = 0{,}6$. Calcule:
+
+(a) $P(A \cap B)$
+
+(b) $P(A \mid B)$
+
+*(Resposta: (a) 0,24; (b) 0,48)*
+
+\newpage
+
+# Parte IV — Teorema da Probabilidade Total e Teorema de Bayes
+
+## Exercício 31
+
+Enuncie o **Teorema da Probabilidade Total** para uma partição $\{B_1, B_2, \dots, B_n\}$ de $\Omega$.
+
+---
+
+## Exercício 32
+
+Enuncie o **Teorema de Bayes** e explique sua relação com o Teorema da Probabilidade Total.
+
+---
+
+## Exercício 33
+
+Uma planta possui três linhas de produção: L1 (50% da produção), L2 (30%) e L3 (20%). As taxas de defeituosos são 2%, 3% e 5%, respectivamente. Um produto é retirado ao acaso.
+
+(a) Qual a probabilidade de ser defeituoso?
+
+(b) Se for defeituoso, qual a probabilidade de ter vindo de L3?
+
+*(Resposta: (a) 0,029; (b) ≈ 0,3448)*
+
+---
+
+## Exercício 34
+
+Em um reator, três sensores $S_1$, $S_2$, $S_3$ acionam alarme independentemente com probabilidades 0,9, 0,85 e 0,8. Apenas um sensor é escolhido ao acaso (probabilidades iguais) para operar. Calcule a probabilidade de o alarme soar.
+
+*(Resposta: $(0{,}9 + 0{,}85 + 0{,}8)/3 = 0{,}85$)*
+
+---
+
+## Exercício 35
+
+Uma válvula pode falhar por três causas: desgaste (60%), corrosão (30%) e erro de projeto (10%). As probabilidades de falha dadas cada causa são 0,10, 0,20 e 0,50, respectivamente.
+
+(a) Qual a probabilidade total de falha?
+
+(b) Se a válvula falhou, qual a causa mais provável?
+
+*(Resposta: (a) 0,17; (b) desgaste, com ≈ 0,3529)*
+
+---
+
+## Exercício 36
+
+Um teste diagnóstico para detectar falha em um equipamento tem sensibilidade 0,95 e especificidade 0,90. A prevalência da falha é 0,02. Calcule:
+
+(a) $P(\text{teste positivo})$
+
+(b) $P(\text{falha} \mid \text{teste positivo})$
+
+*(Resposta: (a) 0,117; (b) ≈ 0,1624)*
+
+---
+
+## Exercício 37
+
+Em uma linha de produção, 80% das peças vêm da máquina A e 20% da máquina B. Sabe-se que 5% das peças de A e 10% das peças de B são defeituosas.
+
+(a) Qual a probabilidade de uma peça ser defeituosa?
+
+(b) Se uma peça é defeituosa, qual a probabilidade de ter vindo de A?
+
+*(Resposta: (a) 0,06; (b) ≈ 0,6667)*
+
+---
+
+## Exercício 38
+
+Um reator pode operar em três regimes: R1 (40%), R2 (35%) e R3 (25%). As probabilidades de falha em cada regime são 0,02, 0,04 e 0,08.
+
+(a) Qual a probabilidade total de falha?
+
+(b) Se houve falha, qual a probabilidade de ter operado em R3?
+
+*(Resposta: (a) 0,042; (b) ≈ 0,4762)*
+
+---
+
+## Exercício 39
+
+Considere uma partição $\{B_1, B_2, B_3\}$ com $P(B_1) = 0{,}5$, $P(B_2) = 0{,}3$, $P(B_3) = 0{,}2$. Sejam $P(A \mid B_1) = 0{,}1$, $P(A \mid B_2) = 0{,}2$ e $P(A \mid B_3) = 0{,}3$. Calcule $P(B_2 \mid A)$.
+
+*(Resposta: ≈ 0,3529)*
+
+---
+
+## Exercício 40
+
+Em uma fábrica, três máquinas produzem 25%, 35% e 40% dos itens. As taxas de defeito são 2%, 3% e 1%. Um item é escolhido ao acaso e é defeituoso. Qual a probabilidade de ter sido produzido pela máquina que tem a maior taxa de defeito?
+
+*(Resposta: máquina 2, $P(B_2 \mid D) \approx 0{,}4054$)*
+
+\newpage
+
+# Parte V — Exercícios Integradores
+
+## Exercício 41
+
+Em uma planta petroquímica, as falhas podem ser causadas por: erro humano (H, 40%), falha mecânica (M, 35%) e falha elétrica (E, 25%). As probabilidades de parada total da planta dados cada tipo são 0,2, 0,5 e 0,6.
+
+(a) Qual a probabilidade de parada total?
+
+(b) Se houve parada, qual a causa mais provável?
+
+*(Resposta: (a) 0,405; (b) mecânica, ≈ 0,4321)*
+
+---
+
+## Exercício 42
+
+Prove que, para dois eventos $A$ e $B$ com $0 < P(B) < 1$:
+$$P(A) = P(A \mid B) P(B) + P(A \mid B^c) P(B^c)$$
+(versão do Teorema da Probabilidade Total com $n = 2$).
+
+---
+
+## Exercício 43
+
+Um lote é aceito se, ao se testar uma amostra, nenhum item defeituoso for encontrado. A probabilidade de defeito é 0,05 e o lote tem 20 itens. Se o lote tem exatamente 1 defeituoso, qual a probabilidade de ele ser aceito? Use probabilidade condicional.
+
+*(Resposta: 19/20 = 0,95)*
+
+---
+
+## Exercício 44
+
+Um sistema de segurança tem dois subsistemas $S_1$ e $S_2$ independentes com probabilidades de falha 0,01 e 0,02. O alarme dispara se qualquer um falhar.
+
+(a) Qual a probabilidade de o alarme disparar?
+
+(b) Se o alarme disparou, qual a probabilidade de $S_1$ ter falhado?
+
+*(Resposta: (a) 0,0298; (b) ≈ 0,3356)*
+
+---
+
+## Exercício 45
+
+Em uma linha de envase, 90% das garrafas passam pelo teste A e 80% pelo teste B. Sabendo que 75% passam por ambos, calcule:
+
+(a) $P(\text{passar em A} \mid \text{passar em B})$
+
+(b) $P(\text{passar em B} \mid \text{passar em A})$
+
+(c) Os eventos são independentes?
+
+*(Resposta: (a) 0,9375; (b) 0,8333; (c) Não)*
+
+---
+
+## Exercício 46
+
+Enuncie e demonstre o **Teorema de Bayes** a partir da definição de probabilidade condicional e do Teorema da Probabilidade Total.
+
+---
+
+## Exercício 47
+
+Em uma planta, há dois fornecedores de matéria-prima. O fornecedor A entrega 60% com 1% de impureza acima do limite; o fornecedor B entrega 40% com 3% de impureza acima do limite.
+
+(a) Qual a probabilidade de a matéria-prima estar fora do limite?
+
+(b) Se estiver fora do limite, qual a probabilidade de ter vindo de B?
+
+*(Resposta: (a) 0,018; (b) ≈ 0,6667)*
+
+---
+
+## Exercício 48
+
+Use as Leis de Morgan para mostrar que:
+$$P(A^c \cap B^c \cap C^c) = 1 - P(A \cup B \cup C)$$
+
+---
+
+## Exercício 49
+
+Uma empresa tem três turnos: manhã (45%), tarde (35%) e noite (20%). As taxas de acidentes são 0,01, 0,02 e 0,04.
+
+(a) Qual a probabilidade de acidente em um turno sorteado?
+
+(b) Se houve acidente, qual a probabilidade de ter ocorrido no turno da noite?
+
+*(Resposta: (a) 0,0195; (b) ≈ 0,4103)*
+
+---
+
+## Exercício 50 — Desafio Integrador
+
+Um reator tem três sensores independentes $S_1, S_2, S_3$ com probabilidades de detecção de falha iguais a 0,9, 0,85 e 0,8. O sistema de alarme dispara se ao menos dois sensores detectarem a falha.
+
+(a) Qual a probabilidade de o alarme disparar dada uma falha real?
+
+(b) Sabendo que a probabilidade de falha real é 0,05 e que o alarme pode disparar por ruído com probabilidade 0,02 na ausência de falha, qual a probabilidade de haver falha real dado que o alarme disparou?
+
+*(Resposta: (a) $0{,}941$; (b) ≈ $0{,}7121$)*
+
+\newpage
+
+# Gabarito Resumido
+
+| Exercício | Resposta |
+|:---------:|:---------|
+| 1 | (b) 0,03; (c) 0,97 |
+| 2 | (a) 0,40; (b) 0,40 |
+| 3 | (a) 14/95; (b) 33/95; (c) 48/95 |
+| 4 | (a) 0,10; (b) 0,02; (c) 0,90 |
+| 5 | (a) 0,7; (b) 0,3; (c) 0,8 |
+| 6 | Demonstração (propriedades iii e iv) |
+| 7 | (a) 0,3; (b) 0,6; (c) 0,3 |
+| 8 | (a) sim; (b) sim; (c) não |
+| 9 | 0,07 |
+| 10 | ≤ 0,03 |
+| 11 | $A^c \cap B^c = (A \cup B)^c$ e $A^c \cup B^c = (A \cap B)^c$ |
+| 12 | (a) $A^c \cap B^c \cap C^c$; (b) $A^c \cup B^c \cup C^c$ |
+| 13 | (a) 0,25; (b) 0,05 |
+| 14 | Demonstração via Morgan + inclusão-exclusão |
+| 15 | $\bigcup A_i$ e $\bigcap A_i^c$ |
+| 16 | (a) 0,3; (b) 0,1; (c) 0,7 |
+| 17 | ≥ 0,70 |
+| 18 | Demonstração |
+| 19 | 0,20 |
+| 20 | 0,80 |
+| 21 | Definição + $P(B) > 0$ |
+| 22 | 0,12 |
+| 23 | Sim |
+| 24 | Demonstração |
+| 25 | ≈ 0,8574 |
+| 26 | 0,999 |
+| 27 | (a) 0,15; (b) 0,65; (c) 0,5 |
+| 28 | Demonstração |
+| 29 | (a) 0,029; (b) ≈ 0,5172 |
+| 30 | (a) 0,24; (b) 0,48 |
+| 31 | Enunciado do Teorema |
+| 32 | Enunciado do Teorema |
+| 33 | (a) 0,029; (b) ≈ 0,3448 |
+| 34 | 0,85 |
+| 35 | (a) 0,17; (b) desgaste |
+| 36 | (a) 0,117; (b) ≈ 0,1624 |
+| 37 | (a) 0,06; (b) ≈ 0,6667 |
+| 38 | (a) 0,042; (b) ≈ 0,4762 |
+| 39 | ≈ 0,3529 |
+| 40 | ≈ 0,4054 (máquina 2) |
+| 41 | (a) 0,405; (b) mecânica |
+| 42 | Demonstração |
+| 43 | 0,95 |
+| 44 | (a) 0,0298; (b) ≈ 0,3356 |
+| 45 | (a) 0,9375; (b) 0,8333; (c) Não |
+| 46 | Demonstração |
+| 47 | (a) 0,018; (b) ≈ 0,6667 |
+| 48 | Demonstração |
+| 49 | (a) 0,0195; (b) ≈ 0,4103 |
+| 50 | (a) 0,941; (b) ≈ 0,7121 |
+
+\newpage
+
+# Observações Finais
+
+- **Escopo**: estritamente dentro do Capítulo 5 — Conceitos básicos, definições de probabilidade, propriedades do Teorema 5.6, eventos independentes, probabilidade condicional, Leis de Morgan, Teorema da Probabilidade Total e Teorema de Bayes.
+- **Sem uso de R**: todas as questões foram pensadas para resolução analítica (papel e caneta), com respostas numéricas ou demonstrações.
+- **Sem variáveis aleatórias**: não há exercícios envolvendo distribuições discretas ou contínuas, pois esse conteúdo é posterior ao capítulo.
+- **Contexto**: todos os enunciados são ambientados em Engenharia Química (reatores, válvulas, bombas, tubulações, efluentes, catalisadores, etc.).
+- **Como compilar**: salve o arquivo como `lista_probabilidade_eq.Rmd` e clique em **Knit** no RStudio.

@@ -5,12 +5,65 @@
     <link>http://bendeivide.github.io/tag/digital/</link>
       <atom:link href="http://bendeivide.github.io/tag/digital/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 04 Mar 2026 06:12:09 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Sep 2026 17:44:56 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Digital</title>
       <link>http://bendeivide.github.io/tag/digital/</link>
     </image>
+    
+    <item>
+      <title>📹 Curso Tidyverse e Ciência de Dados</title>
+      <link>http://bendeivide.github.io/courses/tidycd/videoaulas/</link>
+      <pubDate>Mon, 21 Sep 2026 17:44:56 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/tidycd/videoaulas/</guid>
+      <description>&lt;p&gt;Vídeos destinados ao Curso TidyCD. Para acessar toda a lista de vídeos diretamente no Youtube, acesse: &lt;a href=&#34;https://www.youtube.com/playlist?list=PLCSNUd05NOV8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube/bendeivide&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;-sequência-de-videoaulas&#34;&gt;📼 Sequência de videoaulas&lt;/h2&gt;
+&lt;p&gt;Seguem as videoaulas:&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 01 - Aula 01 - O que é necessário?&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kC7ygObNG3U?si=n0-Zfw0w2YrmqdEd&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 02 - Operador pipe&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v6XhqllDlts?si=FMlWf706z41Obw4V&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 03 - Conhecendo o tibble&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/i0IgyN1_BP0?si=lH-PjclAuYxDpKL0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 04 - Selecionando linhas em um tibble (Dados numéricos)&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TvbFurlNp2o?si=non9231XPNYgdSU3&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 05 - Selecionando linhas em um tibble (Dados categóricos)&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gvIYwWNPK_I?si=6iZdXb4yuH1flAww&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 06 - Selecionando linhas em um tibble (Datas)&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VmgIEzZMmkY?si=J7D8doBaRnOcuL8I&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+</description>
+    </item>
     
     <item>
       <title>📹 Videoaulas do Curso LaTeX</title>

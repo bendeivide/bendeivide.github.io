@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tidyverse | Ben Dêivide</title>
+    <link>http://bendeivide.github.io/category/tidyverse/</link>
+      <atom:link href="http://bendeivide.github.io/category/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tidyverse</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Sep 2026 17:37:57 -0300</lastBuildDate>
+    <image>
+      <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
+      <title>Tidyverse</title>
+      <link>http://bendeivide.github.io/category/tidyverse/</link>
+    </image>
+    
+  </channel>
+</rss>
