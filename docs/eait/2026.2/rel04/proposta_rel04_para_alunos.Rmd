@@ -1,0 +1,242 @@
+---
+title: "Proposta de Relatório — Gráficos em R aplicados à Engenharia Civil"
+author: "Disciplina: Estatística Aplicada a Inovações Tecnológicas"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    theme: flatly
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo    = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  fig.width = 8,
+  fig.height = 5,
+  dpi = 120
+)
+```
+
+## Apresentação da atividade
+
+Você receberá o arquivo `dados_engenharia_civil.csv`, contendo informações de **300 obras de engenharia civil** (residenciais, comerciais, industriais e de infraestrutura), distribuídas pelas cinco regiões do Brasil. O banco inclui variáveis de **custo**, **prazo**, **desempenho técnico do concreto**, **consumo de cimento**, **índice de falhas**, **satisfação do cliente** e **adoção de práticas sustentáveis**.
+
+Sua tarefa é **produzir um relatório técnico em RMarkdown** que explore esse banco por meio de gráficos, utilizando **todos os sistemas gráficos vistos em sala**: **Base R**, **ggplot2**, **plotly**, **highcharter** e **leaflet**.
+
+O relatório **não deve conter respostas prontas** — você é quem constrói os gráficos, escolhe as variáveis, define as geometrias e interpreta os resultados.
+
+## Objetivos de aprendizagem
+
+Ao final da atividade, você deve ser capaz de:
+
+- Ler e inspecionar um banco de dados com `read.csv()`, `head()`, `str()` e `summary()`;
+- Escolher o sistema gráfico mais adequado para cada tipo de pergunta;
+- Construir gráficos no **Base R** (`plot()`, `hist()`, `boxplot()`, `barplot()`);
+- Construir gráficos com **ggplot2** aplicando a gramática de gráficos (dados + `aes()` + `geom_*()` + camadas + facetas + temas);
+- Produzir versões **interativas** com **plotly** e **highcharter**;
+- Produzir **mapas interativos** com **leaflet**;
+- Interpretar graficamente os resultados com linguagem técnica.
+
+## Preparação do ambiente
+
+```{r pacotes, eval=FALSE}
+# Instale os pacotes caso ainda não tenha
+# install.packages(c("ggplot2", "dplyr", "plotly",
+#                    "highcharter", "leaflet", "scales"))
+
+library(ggplot2)
+library(dplyr)
+library(plotly)
+library(highcharter)
+library(leaflet)
+library(scales)
+
+dados <- read.csv("dados_engenharia_civil.csv")
+```
+
+**Antes de qualquer gráfico**, inspecione o banco:
+
+```{r inspecao, eval=FALSE}
+head(dados)
+str(dados)
+summary(dados)
+dim(dados)
+names(dados)
+```
+
+> **Tarefa 0.** Descreva, em poucas linhas, o que cada variável representa e quais são os tipos de dados (numérico, categórico, inteiro). Essa descrição deve abrir o seu relatório.
+
+## Bloco 1 — Gráficos no Base R
+
+Construa, **obrigatoriamente**, os quatro gráficos abaixo usando apenas funções do Base R (sem ggplot2).
+
+### 1.1 Dispersão
+
+Construa um gráfico de dispersão entre `area_construida` (eixo X) e `custo_total` (eixo Y). Personalize título, rótulos dos eixos, cor, forma e tamanho dos pontos.
+
+> **Pergunta 1.1.** O que o gráfico sugere sobre a relação entre área construída e custo total? Existem obras com custo muito acima ou muito abaixo do esperado para o seu tamanho?
+
+### 1.2 Histograma
+
+Construa um histograma da variável `resistencia_mpa`. Ajuste o número de classes (`breaks`), a cor das barras e a cor da borda. Adicione uma linha vertical indicando a **média** da resistência.
+
+> **Pergunta 1.2.** A distribuição parece simétrica? Há valores que fogem do intervalo típico de projeto (por exemplo, abaixo de 25 MPa ou acima de 40 MPa)?
+
+### 1.3 Boxplot
+
+Construa um boxplot de `custo_total` **por `tipo_obra`**. Use cores diferentes para cada categoria.
+
+> **Pergunta 1.3.** Qual tipo de obra apresenta maior mediana de custo? Qual apresenta maior dispersão? Há outliers visíveis?
+
+### 1.4 Barplot
+
+Construa um gráfico de barras com a **contagem de obras por região** (`table(dados$regiao)`).
+
+> **Pergunta 1.4.** Quais regiões concentram mais obras? Esse resultado é coerente com o que você conhece sobre a distribuição da construção civil no Brasil?
+
+## Bloco 2 — Gráficos com ggplot2
+
+Agora refaça e **amplie** as análises usando **ggplot2**, explorando a gramática de gráficos.
+
+### 2.1 Dispersão com cor por tipo de obra
+
+Construa um gráfico de dispersão entre `area_construida` e `custo_total`, mapeando a **cor** dos pontos para `tipo_obra`. Adicione `labs()` com título, subtítulo e rótulos dos eixos, e um tema (`theme_classic()`, `theme_minimal()`, etc.).
+
+> **Pergunta 2.1.** Ao separar por tipo de obra, o padrão observado no Bloco 1.1 continua o mesmo? Algum tipo se destaca?
+
+### 2.2 Boxplot com preenchimento
+
+Construa um boxplot de `custo_total` por `tipo_obra` com `fill = tipo_obra`. Oculte a legenda com `theme(legend.position = "none")`.
+
+> **Pergunta 2.2.** Compare com o boxplot do Base R (item 1.3). Quais vantagens o ggplot2 oferece aqui?
+
+### 2.3 Histograma com densidade
+
+Construa um histograma de `resistencia_mpa` com a **densidade** sobreposta (`geom_density()`). Use `aes(y = after_stat(density))` no histograma.
+
+> **Pergunta 2.3.** A curva de densidade reforça ou contradiz a leitura feita no histograma do Base R?
+
+### 2.4 Barras com agrupamento
+
+Construa um gráfico de barras de `tipo_obra` com **preenchimento por `sustentavel`**, usando `position = "dodge"`.
+
+> **Pergunta 2.4.** Em quais tipos de obra a adoção de práticas sustentáveis é mais frequente? Em quais é menos?
+
+### 2.5 Facetas
+
+Construa um gráfico de dispersão `area_construida` × `custo_total` **com facetas por região** (`facet_wrap(~regiao)`) e adicione uma reta de tendência com `geom_smooth(method = "lm", se = FALSE)`.
+
+> **Pergunta 2.5.** A relação entre área e custo é a mesma em todas as regiões? Alguma região apresenta comportamento atípico?
+
+### 2.6 Gráfico autoral com múltiplas camadas
+
+Escolha **duas variáveis numéricas** do banco e construa um gráfico com **pelo menos duas camadas** (`geom_point()` + `geom_smooth()`, por exemplo), **facetas** por uma variável categórica e um **tema** personalizado. Use `scale_*_*()` para ajustar escalas de cor ou tamanho.
+
+> **Pergunta 2.6.** Justifique a escolha das variáveis, da geometria e das facetas. O que o gráfico revela que os anteriores não revelavam?
+
+## Bloco 3 — Gráficos interativos com plotly
+
+### 3.1 Convertendo um gráfico ggplot em interativo
+
+Construa um gráfico com **ggplot2** e converta-o em interativo com `ggplotly()`. Inclua o argumento `text` no `aes()` para exibir o `id_obra` no tooltip.
+
+> **Pergunta 3.1.** Ao passar o mouse sobre os pontos, você identifica obras com custo atipicamente alto ou baixo? A que tipo e região pertencem?
+
+### 3.2 Gráfico interativo direto com `plot_ly()`
+
+Construa um gráfico com `plot_ly()` (sem passar por ggplot) usando `type = "scatter"` e `mode = "lines+markers"`. Sugestão: use uma variável agregada por tipo de obra ou por região.
+
+> **Pergunta 3.2.** Em que situações o `plot_ly()` direto é mais vantajoso do que o `ggplotly()`?
+
+## Bloco 4 — Gráficos com highcharter
+
+### 4.1 Colunas: custo médio por tipo de obra
+
+Agrupe os dados com `dplyr` (`group_by()` + `summarise()`) e construa um gráfico de **colunas** com `hchart("column", ...)`. Adicione título e rótulos de eixo com `hc_title()`, `hc_xAxis()` e `hc_yAxis()`.
+
+> **Pergunta 4.1.** O ranking de custo médio por tipo de obra coincide com o observado no boxplot do Bloco 1.3? Comente.
+
+### 4.2 Linhas: prazo médio por região
+
+Construa um gráfico de **linhas** com `hchart("line", ...)` mostrando o prazo médio por região.
+
+> **Pergunta 4.2.** Há regiões com prazos sistematicamente maiores? Isso poderia estar relacionado a fatores logísticos ou climáticos?
+
+### 4.3 Pizza: participação por tipo de obra
+
+Construa um gráfico de **pizza** com `hchart("pie", ...)` a partir de uma contagem por `tipo_obra`.
+
+> **Pergunta 4.3.** O gráfico de pizza é a melhor escolha para essa informação? Justifique, comparando com o gráfico de barras.
+
+### 4.4 Personalização
+
+Adicione a um dos gráficos acima: **título**, **tooltip personalizado** (`hc_tooltip()`), **tema escuro** (`hc_theme_darkunica()`) ou **zoom** (`hc_chart(zoomType = "x")`).
+
+> **Pergunta 4.4.** Qual recurso do highcharter você considera mais útil para apresentações executivas? Por quê?
+
+## Bloco 5 — Mapas interativos com leaflet
+
+### 5.1 Mapa base
+
+Crie um mapa com `leaflet()` + `addTiles()` centralizado em uma região de sua escolha (por exemplo, Minas Gerais) com `setView()`.
+
+> **Pergunta 5.1.** Qual provedor de tiles você escolheu (`addTiles()`, `addProviderTiles(providers$Esri.WorldImagery)`, `providers$CartoDB.Positron`, etc.)? Justifique a escolha.
+
+### 5.2 Marcadores por região
+
+Crie um `data.frame` com **coordenadas aproximadas** das capitais das cinco regiões brasileiras e o **número de obras** de cada região (obtido com `table()`). Adicione marcadores com `addMarkers()` e popups exibindo a região e o número de obras.
+
+> **Pergunta 5.2.** A distribuição geográfica das obras no mapa é coerente com o barplot do Bloco 1.4?
+
+### 5.3 Destaque com círculos
+
+Adicione um `addCircles()` destacando a região com maior número de obras, com `radius`, `color` e `fillOpacity` ajustados.
+
+> **Pergunta 5.3.** Que outras informações do banco poderiam ser mapeadas geograficamente se tivéssemos as coordenadas exatas das obras?
+
+## Bloco 6 — Relatório final
+
+Reúna **todos os gráficos** em um único RMarkdown renderizado em HTML, seguindo esta estrutura:
+
+1. **Introdução** — descrição do banco e dos objetivos.
+2. **Bloco 1** — quatro gráficos do Base R + respostas às Perguntas 1.1 a 1.4.
+3. **Bloco 2** — seis gráficos do ggplot2 + respostas às Perguntas 2.1 a 2.6.
+4. **Bloco 3** — gráficos interativos do plotly + respostas às Perguntas 3.1 e 3.2.
+5. **Bloco 4** — gráficos do highcharter + respostas às Perguntas 4.1 a 4.4.
+6. **Bloco 5** — mapa leaflet + respostas às Perguntas 5.1 a 5.3.
+7. **Conclusão** — síntese dos principais achados sobre o banco de obras.
+
+## Critérios de avaliação
+
+| Critério | Peso |
+|---|---|
+| Correção técnica do código R (sintaxe, uso correto das funções) | 25% |
+| Variedade e adequação das geometrias escolhidas | 20% |
+| Uso dos cinco sistemas gráficos (Base R, ggplot2, plotly, highcharter, leaflet) | 20% |
+| Qualidade das interpretações (clareza, coerência, uso de vocabulário técnico) | 20% |
+| Organização do RMarkdown (estrutura, legibilidade, reprodutibilidade) | 10% |
+| Gráfico autoral do item 2.6 (originalidade e pertinência) | 5% |
+
+## Entregáveis
+
+- Arquivo `relatorio.Rmd` completo e renderizável.
+- Arquivo `relatorio.html` gerado por `rmarkdown::render()`.
+- Arquivo `dados_engenharia_civil.csv` (fornecido).
+- Entrega em repositório Git ou `.zip` contendo os três arquivos.
+
+## Orientações finais
+
+- **Não copie** os exemplos da AULA 07 literalmente: adapte-os ao banco de engenharia civil.
+- Sempre **nomeie** os eixos, adicione **títulos** e escolha **cores legíveis**.
+- Cada gráfico deve ter **um parágrafo interpretativo** abaixo, respondendo à pergunta correspondente.
+- Em caso de dúvida sobre alguma função, consulte `?funcao` no console do R ou a documentação oficial do pacote.
+- Use `set.seed()` apenas se gerar dados simulados; para este relatório, os dados já estão fixos no CSV.
+
+```{r sessao, eval=FALSE}
+sessionInfo()
+```

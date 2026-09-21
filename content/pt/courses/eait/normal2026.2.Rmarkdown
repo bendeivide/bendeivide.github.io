@@ -1619,6 +1619,580 @@ O código deverá estar organizado e comentado.
 
 <!-- Fim do Relatorio 3 -->
 
+
+{{< spoiler text="🗒 Relatório 4 (Clique!) - 28/09/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de
+  Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+- <i class="fas fa-database"></i> Dados: {{% staticref "/eait/2026.2/rel04/dados_engenharia_civil.csv" "newtab" %}}dados_engenharia_civil.csv{{% /staticref %}}
+- <i class="fas fa-calendar-check"></i> 28/09/2026
+  <i class="fas fa-clock"></i> 18h
+
+------------------------------------------------------------------------
+
+<i class="fas fa-question-circle"></i> **OBJETIVO**
+
+O objetivo desta atividade é desenvolver a capacidade de **explorar, visualizar e comunicar dados provenientes de uma situação prática da Engenharia Civil**, utilizando os principais **sistemas gráficos da linguagem R** trabalhados em sala de aula.
+
+Na prática profissional, o engenheiro precisa transformar resultados numéricos em **informação visual** capaz de subsidiar decisões técnicas: comparar o desempenho de concretos, identificar relações entre variáveis, detectar obras atípicas, comunicar resultados a clientes e gestores e produzir mapas de acompanhamento de empreendimentos.
+
+Nesta atividade, você assumirá o papel de um engenheiro responsável pela **análise gráfica do controle tecnológico do concreto**, utilizando os sistemas:
+
+* **Base R** — funções gráficas nativas (`plot()`, `hist()`, `boxplot()`, `barplot()`);
+* **ggplot2** — gramática de gráficos (dados + `aes()` + `geom_*()` + camadas + facetas + temas);
+* **plotly** — gráficos interativos a partir de objetos ggplot;
+* **highcharter** — gráficos interativos com recursos avançados;
+* **leaflet** — mapas interativos.
+
+Sempre que possível, utilize o operador `|>` para construir fluxos de transformação dos dados antes da etapa de visualização.
+
+---
+
+<i class="fas fa-database"></i> **CONTEXTUALIZAÇÃO DA BASE DE DADOS**
+
+Imagine que uma empresa de Engenharia Civil esteja executando diferentes obras pelo Brasil. Durante a execução, foram reunidas informações sobre **300 obras**, incluindo tipo, região, área construída, custo total, prazo, resistência do concreto, consumo de cimento, índice de falhas, satisfação do cliente e adoção de práticas sustentáveis.
+
+O objetivo não é simplesmente "fazer gráficos". Espera-se que você consiga **escolher o sistema gráfico mais adequado para cada pergunta**, **justificar as decisões visuais tomadas** e **interpretar os resultados** à luz do contexto da Engenharia Civil.
+
+A seguir, apresentamos uma descrição da base de dados.
+
+| Variável                | Descrição                                          |
+| ----------------------- | -------------------------------------------------- |
+| `id_obra`               | Identificador da obra                              |
+| `tipo_obra`             | Residencial, Comercial, Industrial ou Infraestrutura |
+| `regiao`                | Região do Brasil                                   |
+| `area_construida`       | Área construída, em m²                             |
+| `custo_total`           | Custo total da obra, em R$                         |
+| `prazo_meses`           | Duração da obra, em meses                          |
+| `resistencia_mpa`       | Resistência à compressão do concreto, em MPa       |
+| `consumo_cimento`       | Consumo de cimento, em kg/m³                       |
+| `indice_falhas`         | Número de falhas registradas                       |
+| `satisfacao`            | Satisfação do cliente (0 a 10)                     |
+| `sustentavel`           | Uso de práticas sustentáveis (Sim/Não)             |
+
+---
+
+<i class="fas fa-cogs"></i> **PREPARAÇÃO**
+
+Coloque o arquivo `dados_engenharia_civil.csv` no mesmo diretório do seu relatório `/rel04/`.
+
+Instale, caso necessário, e carregue os pacotes:
+
+```r
+install.packages(c("ggplot2", "dplyr", "plotly",
+                   "highcharter", "leaflet", "scales"))
+```
+
+Em seguida:
+
+```r
+library(ggplot2)
+library(dplyr)
+library(plotly)
+library(highcharter)
+library(leaflet)
+library(scales)
+
+dados <- read.csv("dados_engenharia_civil.csv")
+```
+
+> **Orientação:** inspecione a base antes de qualquer gráfico. Utilize `head()`, `str()`, `summary()` e `dim()`.
+
+Durante a atividade, procure utilizar o fluxo de transformação de dados característico do tidyverse antes de plotar:
+
+```r
+dados |>
+  group_by(variavel_categorica) |>
+  summarise(media = mean(variavel_numerica)) |>
+  ggplot(aes(x = variavel_categorica, y = media)) +
+  geom_col()
+```
+
+---
+
+<i class="fas fa-tasks"></i> **Etapa 1 — Conhecendo a base**
+
+<i class="fas fa-edit"></i> **Questão 1**
+
+Importe a base de dados no R e atribua-a ao objeto `dados`.
+
+Verifique se a importação foi realizada corretamente utilizando funções como `head()`, `tail()` e `dim()`.
+
+---
+
+<i class="fas fa-edit"></i> **Questão 2**
+
+Quantas observações e quantas variáveis existem na base?
+
+Apresente um código R que permita responder à questão.
+
+---
+
+<i class="fas fa-edit"></i> **Questão 3**
+
+Apresente a estrutura da base utilizando `str()` e `glimpse()`.
+
+Quais variáveis foram reconhecidas pelo R como quantitativas e quais foram reconhecidas como qualitativas?
+
+Justifique sua resposta.
+
+---
+
+<i class="fas fa-edit"></i> **Questão 4**
+
+Apresente um resumo das variáveis da base utilizando `summary()`.
+
+Quais informações chamam sua atenção?
+
+Há valores mínimo ou máximo que pareçam incompatíveis com o contexto da Engenharia Civil?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 5**
+
+Verifique a existência de valores ausentes na base.
+
+Responda:
+
+* Quantos valores ausentes existem?
+* Em quais variáveis eles aparecem?
+* Em quais observações eles aparecem?
+
+---
+
+<i class="fas fa-tasks"></i> **Etapa 2 — Gráficos no Base R**
+
+Nesta etapa, o objetivo é construir gráficos utilizando **apenas funções do Base R**, sem ggplot2.
+
+<i class="fas fa-edit"></i> **Questão 6 — Dispersão**
+
+Construa um gráfico de dispersão entre `area_construida` (eixo X) e `custo_total` (eixo Y) utilizando `plot()`.
+
+Personalize:
+
+* título (`main`);
+* rótulos dos eixos (`xlab`, `ylab`);
+* forma dos pontos (`pch`);
+* cor (`col`);
+* tamanho (`cex`).
+
+**Questão para reflexão:**
+
+> O gráfico sugere relação entre área construída e custo total? Existem obras com custo muito acima ou muito abaixo do esperado para o seu tamanho?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 7 — Histograma**
+
+Construa um histograma da variável `resistencia_mpa` utilizando `hist()`.
+
+Ajuste:
+
+* número de classes (`breaks`);
+* cor das barras (`col`);
+* cor da borda (`border`);
+* título e rótulo do eixo X.
+
+Adicione uma linha vertical indicando a **média** da resistência com `abline()`.
+
+**Questão para reflexão:**
+
+> A distribuição parece simétrica? Há valores que fogem do intervalo típico de projeto?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 8 — Boxplot**
+
+Construa um boxplot de `custo_total` **por `tipo_obra`** utilizando `boxplot()`.
+
+Utilize cores diferentes para cada categoria.
+
+**Questão para reflexão:**
+
+> Qual tipo de obra apresenta maior mediana de custo? Qual apresenta maior dispersão? Há outliers visíveis?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 9 — Barplot**
+
+Construa um gráfico de barras com a contagem de obras por região utilizando `table()` e `barplot()`.
+
+Personalize as cores com `heat.colors()` ou outra paleta.
+
+**Questão para reflexão:**
+
+> Quais regiões concentram mais obras? Esse resultado é coerente com a distribuição da construção civil no Brasil?
+
+---
+
+<i class="fas fa-tasks"></i> **Etapa 3 — Gráficos com ggplot2**
+
+Nesta etapa, refaça e amplie as análises utilizando a **gramática de gráficos** do ggplot2.
+
+<i class="fas fa-edit"></i> **Questão 10 — Dispersão com cor por tipo de obra**
+
+Construa um gráfico de dispersão entre `area_construida` e `custo_total`, mapeando a cor dos pontos para `tipo_obra`.
+
+Adicione `labs()` com título, subtítulo e rótulos dos eixos.
+
+Aplique um tema (`theme_classic()`, `theme_minimal()`, etc.).
+
+**Questão para reflexão:**
+
+> Ao separar por tipo de obra, o padrão observado na Questão 6 continua o mesmo? Algum tipo se destaca?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 11 — Boxplot com preenchimento**
+
+Construa um boxplot de `custo_total` por `tipo_obra` com `fill = tipo_obra`.
+
+Oculte a legenda com `theme(legend.position = "none")`.
+
+**Questão para reflexão:**
+
+> Compare com o boxplot do Base R (Questão 8). Quais vantagens o ggplot2 oferece aqui?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 12 — Histograma com densidade**
+
+Construa um histograma de `resistencia_mpa` com a **densidade** sobreposta (`geom_density()`).
+
+Utilize `aes(y = after_stat(density))` no histograma.
+
+**Questão para reflexão:**
+
+> A curva de densidade reforça ou contradiz a leitura feita no histograma do Base R (Questão 7)?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 13 — Barras com agrupamento**
+
+Construa um gráfico de barras de `tipo_obra` com **preenchimento por `sustentavel`**, usando `position = "dodge"`.
+
+**Questão para reflexão:**
+
+> Em quais tipos de obra a adoção de práticas sustentáveis é mais frequente? Em quais é menos?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 14 — Facetas**
+
+Construa um gráfico de dispersão `area_construida` × `custo_total` **com facetas por região** (`facet_wrap(~regiao)`).
+
+Adicione uma reta de tendência com `geom_smooth(method = "lm", se = FALSE)`.
+
+**Questão para reflexão:**
+
+> A relação entre área e custo é a mesma em todas as regiões? Alguma região apresenta comportamento atípico?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 15 — Gráfico autoral com múltiplas camadas**
+
+Escolha **duas variáveis numéricas** do banco e construa um gráfico com **pelo menos duas camadas** (`geom_point()` + `geom_smooth()`, por exemplo), **facetas** por uma variável categórica e um **tema** personalizado.
+
+Use `scale_*_*()` para ajustar escalas de cor ou tamanho.
+
+**Questão para reflexão:**
+
+> Justifique a escolha das variáveis, da geometria e das facetas. O que o gráfico revela que os anteriores não revelavam?
+
+---
+
+<i class="fas fa-tasks"></i> **Etapa 4 — Gráficos interativos com plotly**
+
+<i class="fas fa-edit"></i> **Questão 16 — Convertendo ggplot em interativo**
+
+Construa um gráfico com **ggplot2** e converta-o em interativo com `ggplotly()`.
+
+Inclua o argumento `text` no `aes()` para exibir o `id_obra` no tooltip.
+
+**Questão para reflexão:**
+
+> Ao passar o mouse sobre os pontos, você identifica obras com custo atipicamente alto ou baixo? A que tipo e região pertencem?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 17 — Gráfico interativo direto com `plot_ly()`**
+
+Construa um gráfico com `plot_ly()` (sem passar por ggplot) usando `type = "scatter"` e `mode = "lines+markers"`.
+
+Sugestão: use uma variável agregada por tipo de obra ou por região.
+
+**Questão para reflexão:**
+
+> Em que situações o `plot_ly()` direto é mais vantajoso do que o `ggplotly()`?
+
+---
+
+<i class="fas fa-tasks"></i> **Etapa 5 — Gráficos com highcharter**
+
+<i class="fas fa-edit"></i> **Questão 18 — Colunas: custo médio por tipo de obra**
+
+Agrupe os dados com `dplyr` (`group_by()` + `summarise()`) e construa um gráfico de **colunas** com `hchart("column", ...)`.
+
+Adicione título e rótulos de eixo com `hc_title()`, `hc_xAxis()` e `hc_yAxis()`.
+
+**Questão para reflexão:**
+
+> O ranking de custo médio por tipo de obra coincide com o observado no boxplot da Questão 8? Comente.
+
+---
+
+<i class="fas fa-edit"></i> **Questão 19 — Linhas: prazo médio por região**
+
+Construa um gráfico de **linhas** com `hchart("line", ...)` mostrando o prazo médio por região.
+
+**Questão para reflexão:**
+
+> Há regiões com prazos sistematicamente maiores? Isso poderia estar relacionado a fatores logísticos ou climáticos?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 20 — Pizza: participação por tipo de obra**
+
+Construa um gráfico de **pizza** com `hchart("pie", ...)` a partir de uma contagem por `tipo_obra`.
+
+**Questão para reflexão:**
+
+> O gráfico de pizza é a melhor escolha para essa informação? Justifique, comparando com o gráfico de barras.
+
+---
+
+<i class="fas fa-edit"></i> **Questão 21 — Personalização**
+
+Adicione a um dos gráficos acima pelo menos **dois** dos seguintes recursos:
+
+* título (`hc_title()`);
+* tooltip personalizado (`hc_tooltip()`);
+* tema escuro (`hc_theme_darkunica()`);
+* zoom (`hc_chart(zoomType = "x")`);
+* múltiplas séries (`hc_add_series()`).
+
+**Questão para reflexão:**
+
+> Qual recurso do highcharter você considera mais útil para apresentações executivas? Por quê?
+
+---
+
+<i class="fas fa-tasks"></i> **Etapa 6 — Mapas interativos com leaflet**
+
+<i class="fas fa-edit"></i> **Questão 22 — Mapa base**
+
+Crie um mapa com `leaflet()` + `addTiles()` centralizado em uma região de sua escolha com `setView()`.
+
+**Questão para reflexão:**
+
+> Qual provedor de tiles você escolheu (`addTiles()`, `addProviderTiles(providers$Esri.WorldImagery)`, `providers$CartoDB.Positron`, etc.)? Justifique a escolha.
+
+---
+
+<i class="fas fa-edit"></i> **Questão 23 — Marcadores por região**
+
+Crie um `data.frame` com **coordenadas aproximadas** das capitais das cinco regiões brasileiras e o **número de obras** de cada região (obtido com `table()`).
+
+Adicione marcadores com `addMarkers()` e popups exibindo a região e o número de obras.
+
+**Questão para reflexão:**
+
+> A distribuição geográfica das obras no mapa é coerente com o barplot da Questão 9?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 24 — Destaque com círculos**
+
+Adicione um `addCircles()` destacando a região com maior número de obras, com `radius`, `color` e `fillOpacity` ajustados.
+
+**Questão para reflexão:**
+
+> Que outras informações do banco poderiam ser mapeadas geograficamente se tivéssemos as coordenadas exatas das obras?
+
+---
+
+<i class="fas fa-tasks"></i> **Etapa 7 — Questões próximas da prática profissional**
+
+<i class="fas fa-edit"></i> **Questão 25 — Comparação entre tipos de obra**
+
+O engenheiro responsável afirma:
+
+> "As obras de infraestrutura apresentam custo médio superior às demais."
+
+Utilize `dplyr` e `ggplot2` para verificar se os dados dão suporte a essa afirmação **em termos descritivos**.
+
+Não é necessário realizar teste de hipótese. O objetivo é explorar os dados.
+
+---
+
+<i class="fas fa-edit"></i> **Questão 26 — Sustentabilidade e custo**
+
+Investigue, por meio de gráficos, se obras classificadas como **sustentáveis** apresentam custo total sistematicamente diferente das não sustentáveis.
+
+Produza pelo menos **dois gráficos** (um do Base R e um do ggplot2 ou highcharter) que permitam comparar os grupos.
+
+---
+
+<i class="fas fa-edit"></i> **Questão 27 — Relação entre falhas e satisfação**
+
+Produza um gráfico que relacione `indice_falhas` e `satisfacao`.
+
+Existe evidência visual de associação entre as variáveis?
+
+Qual geometria você escolheu e por quê?
+
+---
+
+<i class="fas fa-edit"></i> **Questão 28 — Resumo gráfico para o engenheiro**
+
+O controle tecnológico da empresa precisa produzir um **painel gráfico** para o engenheiro responsável.
+
+Utilizando `ggplot2`, `highcharter` ou uma combinação dos sistemas, construa **pelo menos três gráficos** que, juntos, comuniquem de forma clara:
+
+* o perfil das obras por tipo e região;
+* a distribuição de custo e prazo;
+* a relação entre consumo de cimento e resistência.
+
+Justifique a escolha dos gráficos e a ordem em que eles aparecem.
+
+---
+
+<i class="fas fa-tasks"></i> **Desafio final — O engenheiro responsável pela comunicação visual dos dados**
+
+Você recebeu uma base de dados de obras de Engenharia Civil e precisa **comunicar visualmente** os principais resultados para um público técnico e gerencial.
+
+Desenvolva um **script em R** capaz de:
+
+1. realizar uma inspeção inicial da base;
+2. produzir pelo menos **um gráfico em cada um dos cinco sistemas** (Base R, ggplot2, plotly, highcharter, leaflet);
+3. construir um **gráfico autoral** com múltiplas camadas e facetas;
+4. construir um **mapa interativo** com marcadores e popups;
+5. apresentar **interpretações técnicas** para cada gráfico;
+6. justificar as decisões visuais tomadas (geometria, cores, escalas, temas).
+
+O script deverá ser organizado de forma que **outro engenheiro consiga compreender as etapas realizadas**.
+
+Procure organizar o código em etapas, utilizando comentários para explicar as principais decisões.
+
+---
+
+<i class="fas fa-edit"></i> **Requisitos do desafio**
+
+Procure utilizar, sempre que possível, as ferramentas trabalhadas em sala:
+
+```r
+# Base R
+plot()
+hist()
+boxplot()
+barplot()
+
+# ggplot2
+ggplot()
+aes()
+geom_point()
+geom_line()
+geom_boxplot()
+geom_histogram()
+geom_bar()
+geom_smooth()
+facet_wrap()
+facet_grid()
+labs()
+theme_classic()
+theme_minimal()
+scale_*_*()
+
+# plotly
+plot_ly()
+ggplotly()
+
+# highcharter
+hchart()
+hc_title()
+hc_xAxis()
+hc_yAxis()
+hc_tooltip()
+hc_theme_darkunica()
+hc_chart()
+
+# leaflet
+leaflet()
+addTiles()
+addProviderTiles()
+setView()
+addMarkers()
+addCircles()
+
+# dplyr (para preparar os dados antes de plotar)
+group_by()
+summarise()
+mutate()
+filter()
+arrange()
+count()
+```
+
+Não é necessário utilizar todas as funções.
+
+O mais importante é que o código seja **coerente com o problema, organizado e justificável**.
+
+> **Importante:** nesta atividade, o foco é a **visualização gráfica**. Diferentemente do Relatório 3, o objetivo não é a limpeza dos dados, mas sim a **exploração visual e a comunicação dos resultados**.
+
+Para ajudar no desenvolvimento do relatório, inserimos uma tabela comparando os sistemas gráficos trabalhados.
+
+| Sistema        | Uso principal                                        | Vantagem                                       |
+| -------------- | ---------------------------------------------------- | ---------------------------------------------- |
+| **Base R**     | Gráficos rápidos e didáticos                         | Simplicidade, sem dependência de pacotes       |
+| **ggplot2**    | Gráficos estáticos com gramática de gráficos         | Flexibilidade, camadas, facetas, temas         |
+| **plotly**     | Interatividade a partir de gráficos ggplot           | Tooltips, zoom, hover                          |
+| **highcharter**| Gráficos interativos avançados                       | Temas, animações, exportação, múltiplas séries |
+| **leaflet**    | Mapas interativos                                    | Marcadores, popups, camadas geográficas        |
+
+
+---
+
+<i class="fas fa-tasks"></i> **Reflexão final**
+
+Depois de concluir a atividade, responda:
+
+> **Qual é a principal diferença entre produzir um gráfico no Base R e produzir um gráfico no ggplot2?**
+
+Em seguida, responda:
+
+> **Por que a escolha do sistema gráfico e da geometria é uma decisão técnica importante na Engenharia Civil?**
+
+Finalmente, descreva brevemente:
+
+* qual foi o gráfico que você considerou mais informativo;
+* qual sistema gráfico você utilizou para produzi-lo;
+* por que você considera que essa escolha foi adequada;
+* o que esse gráfico revela sobre as obras analisadas.
+
+---
+
+<i class="fas fa-tasks"></i> **ENTREGA**
+
+A entrega deverá conter:
+
+* o arquivo da base de dados;
+* o código R desenvolvido;
+* os gráficos produzidos em cada um dos cinco sistemas;
+* as interpretações técnicas de cada gráfico;
+* as justificativas das decisões visuais tomadas.
+
+O código deverá estar organizado e comentado.
+
+> O objetivo principal não é apenas produzir gráficos, mas demonstrar que você consegue **usar o R para transformar dados brutos em informação visual confiável para a tomada de decisão na Engenharia Civil**.
+
+> **DATA DA ENTREGA:**
+>
+> * Até às 18h do dia 28/09/2026
+
+{{</spoiler>}}
+
+
 ## <i class="fas fa-pencil-ruler"></i> Aulas {id="aulas" title="Clique aqui!"}
 
 {{< spoiler text="🎓 Aula 1">}}

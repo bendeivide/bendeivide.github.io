@@ -1,0 +1,313 @@
+---
+title: "Relatório de Gráficos em R — Engenharia Civil"
+author: "Disciplina: Estatística Aplicada a Inovações Tecnológicas"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    theme: flatly
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo    = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  fig.width = 8,
+  fig.height = 5,
+  dpi = 120
+)
+```
+
+## Contexto
+
+Este relatório tem como objetivo aplicar os principais sistemas gráficos do R — **Base R**, **ggplot2**, **plotly**, **highcharter** e **leaflet** — a um banco de dados da área de **Engenharia Civil**. O banco contém informações sobre 300 obras, incluindo tipo, região, área construída, custo, prazo, resistência do concreto, consumo de cimento, índice de falhas, satisfação do cliente e adoção de práticas sustentáveis.
+
+O foco é **explorar, comunicar e interpretar** os dados por meio de gráficos, escolhendo a geometria e o sistema mais adequado para cada pergunta.
+
+## Carregando pacotes e dados
+
+```{r pacotes}
+library(ggplot2)
+library(dplyr)
+library(plotly)
+library(highcharter)
+library(leaflet)
+library(scales)
+
+dados <- read.csv("dados_engenharia_civil.csv")
+
+glimpse(dados)
+```
+
+## 1. Gráficos no Base R
+
+### 1.1 Dispersão: área construída × custo total
+
+```{r base-dispersao}
+plot(
+  dados$area_construida,
+  dados$custo_total,
+  main = "Área construída vs. Custo total",
+  xlab = "Área construída (m²)",
+  ylab = "Custo total (R$)",
+  pch  = 19,
+  col  = adjustcolor("steelblue", alpha.f = 0.6),
+  cex  = 0.8
+)
+grid()
+```
+
+**Interpretação esperada:** verificar se há relação linear positiva entre área e custo, e se existem *outliers* que fogem do padrão.
+
+### 1.2 Histograma: resistência do concreto
+
+```{r base-hist}
+hist(
+  dados$resistencia_mpa,
+  breaks = 20,
+  col    = "lightblue",
+  border = "white",
+  main   = "Distribuição da resistência do concreto",
+  xlab   = "Resistência (MPa)"
+)
+abline(v = mean(dados$resistencia_mpa), col = "red", lwd = 2, lty = 2)
+legend("topright", legend = "Média", col = "red", lty = 2, lwd = 2)
+```
+
+**Interpretação esperada:** avaliar simetria, dispersão e possíveis valores fora do intervalo típico de projeto.
+
+### 1.3 Boxplot: custo total por tipo de obra
+
+```{r base-box}
+boxplot(
+  custo_total ~ tipo_obra,
+  data = dados,
+  col  = c("orange", "lightgreen", "lightblue", "plum"),
+  main = "Custo total por tipo de obra",
+  xlab = "Tipo de obra",
+  ylab = "Custo total (R$)"
+)
+```
+
+**Interpretação esperada:** comparar medianas e variabilidade entre categorias; identificar qual tipo de obra é mais caro e mais heterogêneo.
+
+### 1.4 Barplot: contagem por região
+
+```{r base-bar}
+tab <- table(dados$regiao)
+
+barplot(
+  tab,
+  col    = heat.colors(length(tab)),
+  main   = "Número de obras por região",
+  xlab   = "Região",
+  ylab   = "Frequência"
+)
+```
+
+**Interpretação esperada:** verificar concentração de obras nas regiões Sudeste e Sul.
+
+## 2. Gráficos com ggplot2
+
+### 2.1 Dispersão com cor por tipo de obra
+
+```{r gg-disp}
+ggplot(dados, aes(x = area_construida, y = custo_total, color = tipo_obra)) +
+  geom_point(size = 2.5, alpha = 0.8) +
+  labs(
+    title = "Relação entre área construída e custo total",
+    subtitle = "Cada cor representa um tipo de obra",
+    x = "Área construída (m²)",
+    y = "Custo total (R$)",
+    color = "Tipo de obra"
+  ) +
+  theme_classic()
+```
+
+### 2.2 Boxplot com preenchimento por tipo
+
+```{r gg-box}
+ggplot(dados, aes(x = tipo_obra, y = custo_total, fill = tipo_obra)) +
+  geom_boxplot(alpha = 0.85, outlier.color = "red") +
+  labs(
+    title = "Distribuição do custo total por tipo de obra",
+    x = "Tipo de obra",
+    y = "Custo total (R$)"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+### 2.3 Histograma com densidade
+
+```{r gg-hist}
+ggplot(dados, aes(x = resistencia_mpa)) +
+  geom_histogram(aes(y = after_stat(density)),
+                 bins = 25, fill = "steelblue", color = "white") +
+  geom_density(color = "red", linewidth = 1) +
+  labs(
+    title = "Distribuição da resistência do concreto",
+    x = "Resistência (MPa)",
+    y = "Densidade"
+  ) +
+  theme_classic()
+```
+
+### 2.4 Barras: obras sustentáveis por tipo
+
+```{r gg-bar}
+ggplot(dados, aes(x = tipo_obra, fill = sustentavel)) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Adoção de práticas sustentáveis por tipo de obra",
+    x = "Tipo de obra",
+    y = "Número de obras",
+    fill = "Sustentável"
+  ) +
+  theme_minimal()
+```
+
+### 2.5 Facetas: área × custo por região
+
+```{r gg-facet}
+ggplot(dados, aes(x = area_construida, y = custo_total)) +
+  geom_point(color = "darkgreen", alpha = 0.7) +
+  geom_smooth(method = "lm", se = FALSE, color = "red") +
+  facet_wrap(~regiao, ncol = 3) +
+  labs(
+    title = "Área construída vs. custo total por região",
+    x = "Área construída (m²)",
+    y = "Custo total (R$)"
+  ) +
+  theme_bw()
+```
+
+### 2.6 Gráfico final com múltiplas camadas
+
+```{r gg-final}
+ggplot(dados, aes(x = consumo_cimento, y = resistencia_mpa, color = tipo_obra)) +
+  geom_point(size = 2.5, alpha = 0.75) +
+  geom_smooth(method = "lm", se = FALSE, linewidth = 1) +
+  facet_wrap(~sustentavel) +
+  scale_color_brewer(palette = "Set2") +
+  labs(
+    title = "Consumo de cimento vs. resistência do concreto",
+    subtitle = "Separado por adoção de práticas sustentáveis",
+    x = "Consumo de cimento (kg/m³)",
+    y = "Resistência (MPa)",
+    color = "Tipo de obra"
+  ) +
+  theme_classic()
+```
+
+## 3. Gráficos interativos com plotly
+
+### 3.1 Dispersão interativa
+
+```{r plotly-disp}
+p <- ggplot(dados, aes(x = area_construida, y = custo_total,
+                       color = tipo_obra, text = paste("Obra:", id_obra))) +
+  geom_point(size = 2.5, alpha = 0.8) +
+  labs(
+    title = "Área × Custo (interativo)",
+    x = "Área construída (m²)",
+    y = "Custo total (R$)",
+    color = "Tipo de obra"
+  ) +
+  theme_minimal()
+
+ggplotly(p, tooltip = c("text", "x", "y", "color"))
+```
+
+**Sugestão de exploração:** passar o mouse sobre os pontos para identificar obras com custo atípico e verificar se pertencem a algum tipo específico.
+
+## 4. Gráficos com highcharter
+
+### 4.1 Custo médio por tipo de obra
+
+```{r hc-barra}
+dados |>
+  group_by(tipo_obra) |>
+  summarise(custo_medio = mean(custo_total)) |>
+  hchart("column", hcaes(x = tipo_obra, y = custo_medio)) |>
+  hc_title(text = "Custo médio por tipo de obra") |>
+  hc_yAxis(title = list(text = "Custo médio (R$)")) |>
+  hc_xAxis(title = list(text = "Tipo de obra"))
+```
+
+### 4.2 Série temporal simulada de prazo médio por região
+
+```{r hc-linha}
+dados |>
+  group_by(regiao) |>
+  summarise(prazo_medio = mean(prazo_meses)) |>
+  hchart("line", hcaes(x = regiao, y = prazo_medio)) |>
+  hc_title(text = "Prazo médio por região") |>
+  hc_yAxis(title = list(text = "Meses"))
+```
+
+### 4.3 Pizza: participação de cada tipo de obra
+
+```{r hc-pizza}
+dados |>
+  count(tipo_obra) |>
+  hchart("pie", hcaes(name = tipo_obra, y = n)) |>
+  hc_title(text = "Participação por tipo de obra")
+```
+
+## 5. Mapas interativos com leaflet
+
+### 5.1 Mapa base centralizado em Minas Gerais
+
+```{r leaflet-mg}
+leaflet() |>
+  addProviderTiles(providers$CartoDB.Positron) |>
+  setView(lng = -44.5, lat = -19.0, zoom = 6)
+```
+
+### 5.2 Marcadores para obras por região (coordenadas aproximadas)
+
+```{r leaflet-regioes}
+obras_regiao <- data.frame(
+  regiao = c("Sudeste", "Sul", "Nordeste", "Centro-Oeste", "Norte"),
+  lat    = c(-19.9, -25.4, -8.0, -15.8, -3.1),
+  lon    = c(-43.9, -49.3, -34.9, -47.9, -60.0),
+  n      = as.integer(table(dados$regiao))
+)
+
+leaflet(obras_regiao) |>
+  addTiles() |>
+  addMarkers(
+    lng = ~lon, lat = ~lat,
+    popup = ~paste0("<b>", regiao, "</b><br>Obras: ", n)
+  )
+```
+
+**Sugestão de exploração:** relacionar o número de obras com o custo médio regional e discutir implicações logísticas.
+
+## 6. Perguntas orientadoras para o relatório
+
+1. Existe relação entre **área construída** e **custo total**? Essa relação é a mesma em todas as regiões?
+2. Qual **tipo de obra** apresenta maior custo médio e maior variabilidade?
+3. A **resistência do concreto** segue uma distribuição aproximadamente normal? Há valores fora do intervalo típico de projeto?
+4. O **consumo de cimento** está associado à **resistência**? Essa associação muda quando a obra é sustentável?
+5. Há diferença no **prazo médio** entre regiões? Alguma região se destaca?
+6. A **satisfação do cliente** está relacionada ao **índice de falhas**?
+7. A adoção de **práticas sustentáveis** está concentrada em algum tipo de obra?
+
+## 7. Entregáveis
+
+- Um **RMarkdown** (`relatorio.Rmd`) renderizado em HTML com todos os gráficos.
+- Pelo menos **um gráfico de cada sistema**: Base R, ggplot2, plotly, highcharter e leaflet.
+- **Comentário interpretativo** de 3 a 5 linhas abaixo de cada gráfico, explicando o que o gráfico revela sobre os dados.
+- Um **gráfico final autoral** que responda a uma das perguntas orientadoras, combinando pelo menos **duas camadas** (ex.: `geom_point()` + `geom_smooth()` + `facet_wrap()`).
+- Entrega em repositório Git ou arquivo `.zip` com o `.Rmd`, o CSV e o HTML renderizado.
+
+```{r sessao}
+sessionInfo()
+```

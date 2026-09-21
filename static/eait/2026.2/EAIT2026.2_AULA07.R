@@ -1191,6 +1191,7 @@ highchart() |>
     mapping = hcaes(x = x, y = y)
   )
 
+
 ## Grafico de pizza
 highchart() |>
   
@@ -1215,6 +1216,7 @@ highchart() |>
   hc_tooltip(
     pointFormat = "Valor: {point.y}"
   )
+
 
 ## Alterando cores
 highchart() |>
@@ -1475,10 +1477,10 @@ pop <- get_sidra(
 )
 
 # -------------------------
-# Mapa dos estados
+# Mapa dos estados (geobr)
 # -------------------------
 
-estados <- read_state()
+estados <- geobr::read_state(year = 2025)
 
 # -------------------------
 # Ajustando base
@@ -1547,74 +1549,4 @@ ggplot(mapa) +
 
 
 
-
-###############################################################
-# 9. EXPORTANDO GRÁFICOS
-###############################################################
-
-###############################################################
-# 8.1 Exportando no Base R
-###############################################################
-
-# Abrindo dispositivo PNG
-png("grafico_base.png")
-
-# Construindo gráfico
-plot(x, y)
-
-# Fechando dispositivo
-dev.off()
-
-###############################################################
-# 8.2 Exportando no ggplot2
-###############################################################
-
-# Criando gráfico
-g <- ggplot(dados, aes(x, y)) +
-  geom_point()
-
-# Salvando gráfico
-ggsave(
-  filename = "grafico_ggplot.png",
-  plot = g
-)
-
-###############################################################
-# 9. EXERCÍCIOS
-###############################################################
-
-###############################################################
-# Exercício 1
-# Construir um histograma com 200 observações
-###############################################################
-
-dados <- rnorm(200)
-
-hist(dados)
-
-###############################################################
-# Exercício 2
-# Construir gráfico de dispersão
-###############################################################
-
-x <- rnorm(50)
-y <- rnorm(50)
-
-plot(x, y)
-
-###############################################################
-# Exercício 3
-# Construir gráfico ggplot2 com tema
-###############################################################
-
-dados <- data.frame(
-  x = 1:20,
-  y = rnorm(20)
-)
-
-ggplot(dados, aes(x, y)) +
-  
-  geom_line() +
-  
-  theme_classic()
 

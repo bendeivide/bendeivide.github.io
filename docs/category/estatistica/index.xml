@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/estatistica/</link>
       <atom:link href="http://bendeivide.github.io/category/estatistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Estatística</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 16 Sep 2026 06:41:31 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Sep 2026 06:33:02 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Estatística</title>
@@ -13,1241 +13,9 @@
     </image>
     
     <item>
-      <title>📚 Ensino normal 2026.2</title>
-      <link>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</link>
-      <pubDate>Wed, 16 Sep 2026 06:41:31 -0300</pubDate>
-      <guid>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</guid>
-      <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
-pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática
-em Rede Nacional, campus Alto Paraopeba
-(&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
-&lt;h2 id=&#34;apresentacao&#34;&gt;Apresentação&lt;/h2&gt;
-&lt;p&gt;A Natureza da estatística. Tratamento da informação. Distribuições de
-frequência e gráficos. Medidas. Conceitos básicos em probabilidade.
-Probabilidade condicional e Independência. Variáveis aleatórias
-discretas e contínuas. Função de distribuição acumulada. Esperança e
-variância de variáveis aleatórias. Modelos Bernoulli, binomial e
-geométrico. Modelo uniforme e modelo normal. Distribuição assintótica da
-média amostral. Introdução à inferência estatística.&lt;/p&gt;
-&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
-Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de
-Engenharia do campus.&lt;/li&gt;
-&lt;li&gt;Todas as nossas estão gravadas:
-&lt;ul&gt;
-&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Período:&lt;/li&gt;
-&lt;li&gt;Aulas presenciais:
-&lt;ul&gt;
-&lt;li&gt;PROFMAT (Sala 211.5):
-&lt;ul&gt;
-&lt;li&gt;sexta-feira (13:15 - 16:35)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Calendário&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img src=&#34;http://bendeivide.github.io/pt/courses/profmat-prob&amp;est/normal2026.2_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;110%&#34; /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
-aulas&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;responsive-wrap&#34;&gt;
-  &lt;iframe src=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;grupo-de-whatsapp&#34;&gt;Grupo de Whatsapp&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chat.whatsapp.com/BQauGFVMXCFKN2DX4rFsJd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;demandas-e-notas&#34;&gt;Demandas e Notas&lt;/h2&gt;
-&lt;p&gt;Em desenvolvimento &amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;modrel&#34;&gt;Modelo de relatório para entregas&lt;/h2&gt;
-&lt;p&gt;Segue o link: &lt;a href=&#34;https://bendeivide.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/profmatma41/&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;
-&lt;/iframe&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;
-&lt;/iframe&gt;
-&lt;h2 id=&#34;relatório-dos-alunos&#34;&gt;Relatório dos alunos&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ailtonmachado.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Ailton Gomes da Silva
-Machado&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://flaviaalves-profmat.github.io/Relatorio/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Flávia Alves dos Anjos
-Santos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lucianovaz-math.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Luciano Vaz de Oliveira &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mariofaria-spec.github.io/relatorio/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Mário Marcos de Faria&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://rei-santos.github.io/Profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Reinado Gomes dos
-Santos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;defesas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-balance-scale-right&#34;&gt;&lt;/i&gt; Defesas&lt;/h2&gt;
-&lt;div style=&#34;margin-left: 30px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;⚖️ Defesa 1 (Clique) | 18/09/2026&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Relatórios&lt;/strong&gt;: 1, 2 e 3&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tempo:&lt;/strong&gt; 30 min.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Local:&lt;/strong&gt; sala 103.2&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Horário:&lt;/strong&gt; 13:00 às 16h&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;center&gt;
-&lt;p&gt;&lt;strong&gt;ORDEM DAS DEFESAS&lt;/strong&gt;&lt;/p&gt;
-&lt;/center&gt;
-&lt;center&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Ordem&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Horário&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Alunos&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;13:00 - 13:30&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Ailton Gomes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;2&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;13:30 - 14:00&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Flávia Alves&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;14:00 - 14:30&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Luciano Vaz&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;4&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;14:30 - 15:00&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Mário Marcos&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;5&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;15:00 - 15:30&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Reinaldo Gomes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/center&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;lrel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
-&lt;div style=&#34;margin-left: 30px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;📝 Como os relatórios serão avaliados?&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Seguindo as seguintes indagações:&lt;/p&gt;
-&lt;center&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Indagações ao realatório escrito&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;1. Entregou no prazo?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;3. Relatório organizado?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;4. Coerente com o que foi pedido?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;5. Abordou todos os tópicos solicitados?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;6. Aprofundou o assunto?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;7. Código R formatado?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;8. Tem exemplos de aplicação?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;9. Código R Markdown formatado?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;10. Tem referências?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;11. Referências formatadas?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;12. Introdução?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;13. Objetivos?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;14. Metodologia?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;15. Resultados e Discussão?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;16. Conclusão ou considerações finais?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;17. O trabalho atingiu os objetivos?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/center&gt;
-&lt;p&gt;As perguntas se enquadrarão em:&lt;/p&gt;
-&lt;center&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Não (0%)&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Pouco (25%)&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Parcial(50%)&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Quase lá (75%)&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Sim (100%)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/center&gt;
-&lt;p&gt;A pergunta 2 seguirá a seguinte escala:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Não (0%)&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Pouco (-10%)&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Parcial(-20%)&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Metade (-50%)&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Mais da metade (-75%)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;O item 2.1, auxiliará a recuperar a nota perdida em 2.&lt;/p&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;/div&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary&gt;🗒 Relatório 1 (Clique!) - 28/08/2026&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
-Relatório&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 28/08/2026
-&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Descreva como desenvolvemos o relatório das nossas avaliações baseados
-na seção &lt;a href=&#34;#modrel&#34;&gt;Modelo de relatório para entregas&lt;/a&gt;. Apresente todos
-os passos necessários para termos o relatório disponível como página
-&lt;em&gt;web&lt;/em&gt;, apresentando os programas, como baixá-los, instalarmos, como
-subirmos ao Gihub, e como atualizar o projeto.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Até às 13h do dia 28/08/2026&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim do Relatorio 1 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
-  &lt;summary&gt;🗒 Relatório 2 (Clique!) - 04/09/2026&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
-Relatório&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 04/09/2026
-&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;O presente conjunto de dados foi construído para simular uma situação
-real de pesquisa em uma escola pública brasileira, envolvendo 1000
-alunos e 5 variáveis que capturam diferentes dimensões da realidade
-escolar e sociofamiliar dos estudantes. Este banco de dados foi
-especialmente elaborado para atender aos objetivos pedagógicos do
-Mestrado Profissional em Matemática (PROFMAT), proporcionando aos
-alunos uma experiência prática e contextualizada no processo de
-análise estatística.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Justificativa da Escolha do Tema&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A escolha do contexto escolar público é particularmente significativa
-por várias razões:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Relevância social&lt;/strong&gt;: A educação pública no Brasil enfrenta
-desafios estruturais que merecem investigação aprofundada.
-Variáveis como frequência escolar, desempenho acadêmico e
-condições socioeconômicas são indicadores cruciais para políticas
-educacionais.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Familiaridade&lt;/strong&gt;: Alunos do PROFMAT, em sua maioria professores
-da educação básica, têm vivência direta com o ambiente escolar, o
-que facilita a compreensão e interpretação dos dados.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Complexidade apropriada&lt;/strong&gt;: O contexto escolar permite a
-utilização de todos os tipos de variáveis (quantitativas e
-qualitativas) de forma natural e coerente, sem forçamentos
-artificiais.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Aplicabilidade prática&lt;/strong&gt;: Os dados permitem discussões que vão
-além da estatística descritiva, abrangendo questões pedagógicas,
-sociais e de gestão educacional.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Descrição Geral das Variáveis&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;u&gt;Número de Faltas&lt;/u&gt; (Quantitativa Discreta):
-Variável quantitativa discreta que representa a contagem de
-ausências do aluno ao longo do ano letivo.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Características&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Assume valores inteiros entre 0 e 30&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A frequência escolar é um dos principais preditores
-de desempenho acadêmico e abandono escolar, sendo objeto de políticas
-como o Programa Bolsa Família.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;u&gt;Nota Média&lt;/u&gt; (Quantitativa Contínua): Variável
-quantitativa contínua que expressa o desempenho acadêmico médio do
-aluno.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Características&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Valores no intervalo  $  [0, 10]  $  com uma casa decimal&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A nota média é o indicador mais direto do rendimento
-escolar, permitindo análises de desempenho por grupos.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;u&gt;Turno de Estudo&lt;/u&gt; (Qualitativa Nominal): Variável
-qualitativa nominal com três categorias sem ordenação intrínseca.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Categorias&lt;/strong&gt;: Matutino, Vespertino e Noturno&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: O turno de estudo está associado a diferentes perfis
-de alunos (ex.: noturno geralmente composto por trabalhadores) e pode
-influenciar tanto a frequência quanto o desempenho acadêmico.&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;u&gt;Escolaridade da Mãe&lt;/u&gt; (Qualitativa Ordinal):
-Variável qualitativa ordinal com hierarquia natural entre as
-categorias.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Categorias (ordem crescente)&lt;/strong&gt;: Fundamental, Médio e Superior&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A escolaridade materna é um dos mais fortes
-preditores do desempenho educacional dos filhos, refletindo o capital
-cultural e socioeconômico da família. A variável foi tratada como
-ordinal exatamente para preservar essa hierarquia natural.&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;&lt;u&gt;Acesso à Internet em Casa&lt;/u&gt; (Qualitativa Nominal):
-Variável qualitativa nominal dicotômica (binária).&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Categorias&lt;/strong&gt;: Sim, Não&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: Em um mundo cada vez mais digital, o acesso à
-internet tornou-se fator crucial para a realização de pesquisas,
-acesso a materiais didáticos e participação em atividades educacionais
-remotas, especialmente após a pandemia de COVID-19.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Estrutura do Banco de Dados&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Variável&lt;/th&gt;
-&lt;th&gt;Tipo&lt;/th&gt;
-&lt;th&gt;Categoria&lt;/th&gt;
-&lt;th&gt;Escala de Medida&lt;/th&gt;
-&lt;th&gt;Valores Possíveis&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;faltas&lt;/td&gt;
-&lt;td&gt;Quantitativa&lt;/td&gt;
-&lt;td&gt;Discreta&lt;/td&gt;
-&lt;td&gt;Razão&lt;/td&gt;
-&lt;td&gt;0 a 30 (inteiros)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;nota_media&lt;/td&gt;
-&lt;td&gt;Quantitativa&lt;/td&gt;
-&lt;td&gt;Contínua&lt;/td&gt;
-&lt;td&gt;Razão&lt;/td&gt;
-&lt;td&gt;0 a 10 (reais)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;turno&lt;/td&gt;
-&lt;td&gt;Qualitativa&lt;/td&gt;
-&lt;td&gt;Nominal&lt;/td&gt;
-&lt;td&gt;Nominal&lt;/td&gt;
-&lt;td&gt;Matutino, Vespertino, Noturno&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;escolaridade_mae&lt;/td&gt;
-&lt;td&gt;Qualitativa&lt;/td&gt;
-&lt;td&gt;Ordinal&lt;/td&gt;
-&lt;td&gt;Ordinal&lt;/td&gt;
-&lt;td&gt;Fundamental &amp;lt; Médio &amp;lt; Superior&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;acesso_internet&lt;/td&gt;
-&lt;td&gt;Qualitativa&lt;/td&gt;
-&lt;td&gt;Nominal&lt;/td&gt;
-&lt;td&gt;Nominal&lt;/td&gt;
-&lt;td&gt;Sim, Não&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Até às 13h do dia 04/09/2026&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Questões a serem respondidas&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Para orientar a exploração dos dados, sugerimos as seguintes questões
-investigativas:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Relação entre infraestrutura e desempenho&lt;/strong&gt;: Alunos com acesso à
-internet em casa apresentam notas médias significativamente maiores?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Capital cultural e rendimento&lt;/strong&gt;: Como a escolaridade da mãe se
-relaciona com o desempenho dos alunos?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Frequência e desempenho&lt;/strong&gt;: Qual é a correlação entre número de
-faltas e nota média? Existe um ponto crítico a partir do qual as
-faltas comprometem severamente o desempenho?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Perfil do aluno noturno&lt;/strong&gt;: Alunos do turno noturno têm mais
-faltas? Como seu desempenho se compara aos demais turnos?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Desigualdades educacionais&lt;/strong&gt;: As variáveis sociofamiliares
-(escolaridade da mãe, acesso à internet) explicam parte da
-variabilidade no desempenho dos alunos?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Análise por subgrupos&lt;/strong&gt;: Considerando conjuntamente turno e acesso
-à internet, que padrões emergem?&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Sugestão de Roteiro de Análise&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Propomos que os alunos sigam este roteiro para explorar os dados de
-forma estruturada:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Análise univariada&lt;/strong&gt;: Explore cada variável individualmente&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Análise bivariada&lt;/strong&gt;: Investigue relações entre pares de variáveis&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Análise multivariada&lt;/strong&gt;: Considere combinações de variáveis (ex.:
-tabelas de contingência com três dimensões)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Síntese&lt;/strong&gt;: Elabore um relatório com principais descobertas e
-recomendações&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reflexão&lt;/strong&gt;: Discuta as limitações metodológicas e sugestões para
-pesquisas futuras&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Banco de dados&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Arquivo &lt;code&gt;&amp;lt;&amp;gt;.csv&lt;/code&gt; para baixar: &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/relatorios/rel02/dados_alunos.csv&#34; target=&#34;_blank&#34;&gt;dados_alunos.csv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Código para importar o banco de dados:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados_alunos &amp;lt;- read.table(
-  file = &amp;quot;dados_alunos.csv&amp;quot;,
-  header = TRUE,
-  sep = &amp;quot;;&amp;quot;,
-  dec = &amp;quot;.&amp;quot;,
-  stringsAsFactors = FALSE
-)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim do Relatorio 2 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;🗒 Relatório 3 (Clique!) - 15/09/2026&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
-Relatório&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 15/09/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;O presente relatório tem como objetivo aprofundar a análise estatística
-do banco de dados utilizado no &lt;strong&gt;Relatório 2&lt;/strong&gt;, explorando as principais
-&lt;strong&gt;medidas de posição e de dispersão&lt;/strong&gt; aplicadas às variáveis quantitativas
-do estudo.&lt;/p&gt;
-&lt;p&gt;A partir das variáveis &lt;strong&gt;Número de Faltas&lt;/strong&gt; e &lt;strong&gt;Nota Média&lt;/strong&gt;, os alunos
-deverão calcular, interpretar e comparar diferentes medidas estatísticas,
-buscando compreender não apenas o comportamento típico dos dados, mas
-também sua variabilidade.&lt;/p&gt;
-&lt;p&gt;A proposta é avançar da simples apresentação dos dados para uma análise
-capaz de responder perguntas como:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Qual é o valor que melhor representa o centro dos dados?&lt;/li&gt;
-&lt;li&gt;Os alunos apresentam comportamentos semelhantes ou bastante distintos?&lt;/li&gt;
-&lt;li&gt;A média é uma medida adequada para representar os dados?&lt;/li&gt;
-&lt;li&gt;Como a presença de valores extremos influencia as medidas de posição?&lt;/li&gt;
-&lt;li&gt;Dois grupos podem apresentar a mesma média e possuir comportamentos
-bastante diferentes?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Dessa forma, o relatório deverá relacionar os cálculos estatísticos à
-interpretação do contexto educacional, evitando que as medidas sejam
-apresentadas apenas como resultados numéricos.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;i-classfas-fa-databasei-banco-de-dados&#34;&gt;&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; Banco de dados&lt;/h2&gt;
-&lt;p&gt;Será utilizado &lt;strong&gt;o mesmo banco de dados do Relatório 2&lt;/strong&gt;, contendo informações
-sobre 1000 alunos de uma escola pública brasileira.&lt;/p&gt;
-&lt;p&gt;As variáveis quantitativas consideradas inicialmente serão:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Faltas&lt;/strong&gt; — variável quantitativa discreta, com valores inteiros de 0 a
-30.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Nota Média&lt;/strong&gt; — variável quantitativa contínua, com valores entre 0 e 10,
-registrados com uma casa decimal.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;As variáveis qualitativas poderão ser utilizadas posteriormente para a
-formação de &lt;strong&gt;subgrupos de comparação&lt;/strong&gt;, especialmente:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Turno de estudo;&lt;/li&gt;
-&lt;li&gt;Escolaridade da mãe;&lt;/li&gt;
-&lt;li&gt;Acesso à internet em casa.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;O banco de dados poderá ser importado utilizando:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados_alunos &amp;lt;- read.table(
-  file = &amp;quot;dados_alunos.csv&amp;quot;,
-  header = TRUE,
-  sep = &amp;quot;;&amp;quot;,
-  dec = &amp;quot;.&amp;quot;,
-  stringsAsFactors = FALSE
-)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;i-classfas-fa-chart-simplei-parte-i--medidas-de-posição&#34;&gt;&lt;i class=&#34;fas fa-chart-simple&#34;&gt;&lt;/i&gt; Parte I — Medidas de posição&lt;/h1&gt;
-&lt;p&gt;Para as variáveis &lt;strong&gt;faltas&lt;/strong&gt; e &lt;strong&gt;nota_media&lt;/strong&gt;, determine e interprete as
-seguintes medidas:&lt;/p&gt;
-&lt;h3 id=&#34;1-média-aritmética&#34;&gt;1. Média aritmética&lt;/h3&gt;
-&lt;p&gt;Calcule a média aritmética para:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;número de faltas;&lt;/li&gt;
-&lt;li&gt;nota média.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Apresente os resultados com uma quantidade adequada de casas decimais e
-interprete cada resultado no contexto da pesquisa.&lt;/p&gt;
-&lt;h3 id=&#34;2-mediana&#34;&gt;2. Mediana&lt;/h3&gt;
-&lt;p&gt;Calcule a mediana das duas variáveis.&lt;/p&gt;
-&lt;p&gt;Compare a mediana com a média e discuta:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A média e a mediana apresentam valores próximos ou muito diferentes?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;O que essa comparação pode indicar sobre a distribuição dos dados?&lt;/p&gt;
-&lt;h3 id=&#34;3-moda&#34;&gt;3. Moda&lt;/h3&gt;
-&lt;p&gt;Determine a moda de cada variável.&lt;/p&gt;
-&lt;p&gt;No caso de existirem várias modas, identifique e discuta essa situação.&lt;/p&gt;
-&lt;p&gt;Para a variável &lt;strong&gt;nota_media&lt;/strong&gt;, considere também a possibilidade de que
-diferentes valores apresentem a mesma frequência.&lt;/p&gt;
-&lt;h3 id=&#34;4-quartis&#34;&gt;4. Quartis&lt;/h3&gt;
-&lt;p&gt;Determine:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;primeiro quartil ( $  Q_1  $ );&lt;/li&gt;
-&lt;li&gt;segundo quartil ( $  Q_2  $ );&lt;/li&gt;
-&lt;li&gt;terceiro quartil ( $  Q_3  $ ).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Apresente uma interpretação contextualizada para cada quartil.&lt;/p&gt;
-&lt;p&gt;Por exemplo:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;O que significa estar no primeiro quartil da distribuição das notas?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;5-percentis&#34;&gt;5. Percentis&lt;/h3&gt;
-&lt;p&gt;Calcule pelo menos os percentis:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;$ P_{10} $ ;&lt;/li&gt;
-&lt;li&gt;$ P_{25} $ ;&lt;/li&gt;
-&lt;li&gt;$ P_{50} $ ;&lt;/li&gt;
-&lt;li&gt;$ P_{75} $ ;&lt;/li&gt;
-&lt;li&gt;$ P_{90} $ .&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Explique o significado dos percentis obtidos.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;i-classfas-fa-arrows-left-righti-parte-ii--medidas-de-dispersão&#34;&gt;&lt;i class=&#34;fas fa-arrows-left-right&#34;&gt;&lt;/i&gt; Parte II — Medidas de dispersão&lt;/h1&gt;
-&lt;p&gt;As medidas de posição permitem identificar valores representativos do
-conjunto de dados, mas não são suficientes para descrever completamente uma
-distribuição.&lt;/p&gt;
-&lt;p&gt;Assim, para as variáveis &lt;strong&gt;faltas&lt;/strong&gt; e &lt;strong&gt;nota_media&lt;/strong&gt;, determine:&lt;/p&gt;
-&lt;h3 id=&#34;6-amplitude-total&#34;&gt;6. Amplitude total&lt;/h3&gt;
-&lt;p&gt;Calcule:&lt;/p&gt;
-$$ 
-A = x_{\max} - x_{\min}
-$$
-&lt;p&gt;Interprete a amplitude encontrada para cada variável.&lt;/p&gt;
-&lt;h3 id=&#34;7-amplitude-interquartil&#34;&gt;7. Amplitude interquartil&lt;/h3&gt;
-&lt;p&gt;Calcule:&lt;/p&gt;
-$$ 
-AIQ = Q_3-Q_1
-$$
-&lt;p&gt;Explique o que essa medida representa e compare a dispersão central das
-variáveis.&lt;/p&gt;
-&lt;h3 id=&#34;8-variância&#34;&gt;8. Variância&lt;/h3&gt;
-&lt;p&gt;Calcule a variância amostral para as duas variáveis.&lt;/p&gt;
-&lt;p&gt;Discuta:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;o que representa a variância;&lt;/li&gt;
-&lt;li&gt;sua unidade de medida;&lt;/li&gt;
-&lt;li&gt;por que sua interpretação direta pode ser pouco intuitiva.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;9-desvio-padrão&#34;&gt;9. Desvio-padrão&lt;/h3&gt;
-&lt;p&gt;Calcule o desvio-padrão amostral.&lt;/p&gt;
-&lt;p&gt;Compare o desvio-padrão das variáveis com suas respectivas médias e discuta
-qual delas apresenta maior variabilidade em relação à sua escala.&lt;/p&gt;
-&lt;h3 id=&#34;10-coeficiente-de-variação&#34;&gt;10. Coeficiente de variação&lt;/h3&gt;
-&lt;p&gt;Calcule o coeficiente de variação:&lt;/p&gt;
-$$ 
-CV = \frac{s}{\bar{x}}\times100\%
-$$
-&lt;p&gt;Utilize o coeficiente de variação para comparar a variabilidade relativa das
-variáveis &lt;strong&gt;faltas&lt;/strong&gt; e &lt;strong&gt;nota_media&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Explique por que o coeficiente de variação pode ser mais adequado que o
-desvio-padrão quando se deseja comparar a variabilidade relativa.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;i-classfas-fa-usersi-parte-iii--comparação-entre-grupos&#34;&gt;&lt;i class=&#34;fas fa-users&#34;&gt;&lt;/i&gt; Parte III — Comparação entre grupos&lt;/h1&gt;
-&lt;p&gt;Nesta etapa, as medidas estatísticas deverão ser utilizadas para comparar
-diferentes grupos de alunos.&lt;/p&gt;
-&lt;h3 id=&#34;11-notas-segundo-o-acesso-à-internet&#34;&gt;11. Notas segundo o acesso à internet&lt;/h3&gt;
-&lt;p&gt;Separe os alunos em dois grupos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;alunos com acesso à internet;&lt;/li&gt;
-&lt;li&gt;alunos sem acesso à internet.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Para cada grupo, calcule:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;média;&lt;/li&gt;
-&lt;li&gt;mediana;&lt;/li&gt;
-&lt;li&gt;desvio-padrão;&lt;/li&gt;
-&lt;li&gt;mínimo;&lt;/li&gt;
-&lt;li&gt;máximo;&lt;/li&gt;
-&lt;li&gt;$ Q_1 $ ;&lt;/li&gt;
-&lt;li&gt;$ Q_3 $ ;&lt;/li&gt;
-&lt;li&gt;coeficiente de variação.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Compare os resultados.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Os dois grupos apresentam comportamento semelhante em relação às notas?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;12-notas-segundo-a-escolaridade-da-mãe&#34;&gt;12. Notas segundo a escolaridade da mãe&lt;/h3&gt;
-&lt;p&gt;Considere os três grupos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fundamental;&lt;/li&gt;
-&lt;li&gt;Médio;&lt;/li&gt;
-&lt;li&gt;Superior.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Calcule as principais medidas de posição e dispersão da variável
-&lt;strong&gt;nota_media&lt;/strong&gt; para cada grupo.&lt;/p&gt;
-&lt;p&gt;Analise:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Como o centro e a variabilidade das notas se comportam à medida que
-aumenta a escolaridade da mãe?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Não se limite à comparação das médias. Considere também a mediana e as
-medidas de dispersão.&lt;/p&gt;
-&lt;h3 id=&#34;13-faltas-segundo-o-turno&#34;&gt;13. Faltas segundo o turno&lt;/h3&gt;
-&lt;p&gt;Compare as variáveis &lt;strong&gt;faltas&lt;/strong&gt; entre:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Matutino;&lt;/li&gt;
-&lt;li&gt;Vespertino;&lt;/li&gt;
-&lt;li&gt;Noturno.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Para cada turno, determine pelo menos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;média;&lt;/li&gt;
-&lt;li&gt;mediana;&lt;/li&gt;
-&lt;li&gt;desvio-padrão;&lt;/li&gt;
-&lt;li&gt;mínimo;&lt;/li&gt;
-&lt;li&gt;máximo;&lt;/li&gt;
-&lt;li&gt;amplitude interquartil.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Analise:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Qual turno apresenta maior número típico de faltas?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Qual turno apresenta maior variabilidade?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A média e a mediana conduzem à mesma conclusão?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;i-classfas-fa-chart-columni-parte-iv--representação-gráfica&#34;&gt;&lt;i class=&#34;fas fa-chart-column&#34;&gt;&lt;/i&gt; Parte IV — Representação gráfica&lt;/h1&gt;
-&lt;p&gt;Produza representações gráficas que auxiliem na interpretação das medidas
-calculadas.&lt;/p&gt;
-&lt;h3 id=&#34;14-boxplot&#34;&gt;14. Boxplot&lt;/h3&gt;
-&lt;p&gt;Construa boxplots para:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;nota_media&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;faltas&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Identifique nos gráficos:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;mediana;&lt;/li&gt;
-&lt;li&gt;primeiro quartil;&lt;/li&gt;
-&lt;li&gt;terceiro quartil;&lt;/li&gt;
-&lt;li&gt;amplitude interquartil;&lt;/li&gt;
-&lt;li&gt;possíveis valores discrepantes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Explique como as informações apresentadas no boxplot estão relacionadas às
-medidas calculadas anteriormente.&lt;/p&gt;
-&lt;h3 id=&#34;15-comparação-entre-grupos&#34;&gt;15. Comparação entre grupos&lt;/h3&gt;
-&lt;p&gt;Produza gráficos que permitam comparar a distribuição das notas entre os
-grupos de:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;acesso à internet;&lt;/li&gt;
-&lt;li&gt;escolaridade da mãe;&lt;/li&gt;
-&lt;li&gt;turno.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Os gráficos devem ser acompanhados de uma interpretação estatística.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;i-classfas-fa-magnifying-glass-charti-parte-v--análise-crítica&#34;&gt;&lt;i class=&#34;fas fa-magnifying-glass-chart&#34;&gt;&lt;/i&gt; Parte V — Análise crítica&lt;/h1&gt;
-&lt;h3 id=&#34;16-média-versus-mediana&#34;&gt;16. Média versus mediana&lt;/h3&gt;
-&lt;p&gt;Escolha uma das variáveis quantitativas e responda:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Se fosse necessário escolher apenas uma medida de posição para representar
-o comportamento típico dos alunos, você escolheria a média ou a mediana?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Justifique sua resposta com base nos resultados encontrados.&lt;/p&gt;
-&lt;h3 id=&#34;17-o-efeito-da-variabilidade&#34;&gt;17. O efeito da variabilidade&lt;/h3&gt;
-&lt;p&gt;Considere dois grupos de alunos que eventualmente apresentem médias
-semelhantes.&lt;/p&gt;
-&lt;p&gt;Explique por que a análise apenas da média pode levar a conclusões
-incompletas.&lt;/p&gt;
-&lt;p&gt;Utilize as medidas de dispersão calculadas para fundamentar sua discussão.&lt;/p&gt;
-&lt;h3 id=&#34;18-medida-mais-adequada&#34;&gt;18. Medida mais adequada&lt;/h3&gt;
-&lt;p&gt;Para cada uma das situações abaixo, indique qual medida estatística você
-considera mais informativa e justifique:&lt;/p&gt;
-&lt;p&gt;a) identificar o desempenho médio dos alunos;&lt;/p&gt;
-&lt;p&gt;b) identificar o desempenho típico quando existem valores extremos;&lt;/p&gt;
-&lt;p&gt;c) avaliar a dispersão das notas;&lt;/p&gt;
-&lt;p&gt;d) comparar a variabilidade de duas variáveis com escalas diferentes;&lt;/p&gt;
-&lt;p&gt;e) identificar a posição de um aluno em relação aos demais.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;i-classfas-fa-tablei-parte-vi--tabela-estatística&#34;&gt;&lt;i class=&#34;fas fa-table&#34;&gt;&lt;/i&gt; Parte VI — Tabela estatística&lt;/h1&gt;
-&lt;p&gt;Elabore uma tabela-síntese contendo, para as variáveis &lt;code&gt;faltas&lt;/code&gt; e
-&lt;code&gt;nota_media&lt;/code&gt;:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Medida&lt;/th&gt;
-&lt;th style=&#34;text-align:right&#34;&gt;Faltas&lt;/th&gt;
-&lt;th style=&#34;text-align:right&#34;&gt;Nota Média&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Mínimo&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$ Q_1 $&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Média&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Mediana&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$ Q_3 $&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Máximo&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Amplitude&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;AIQ&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Variância&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Desvio-padrão&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Coeficiente de variação&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;A tabela deverá ser acompanhada de uma análise textual destacando as
-principais características observadas.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;i-classfas-fa-lightbulbi-síntese-e-reflexão&#34;&gt;&lt;i class=&#34;fas fa-lightbulb&#34;&gt;&lt;/i&gt; Síntese e reflexão&lt;/h1&gt;
-&lt;p&gt;Ao final do relatório, responda às seguintes questões:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Qual medida de posição melhor representa o comportamento das &lt;strong&gt;notas
-médias&lt;/strong&gt; dos alunos? Por quê?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Qual medida de posição melhor representa o comportamento do &lt;strong&gt;número de
-faltas&lt;/strong&gt;? Por quê?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Qual das duas variáveis apresenta maior variabilidade relativa?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A análise das medidas de dispersão modificou alguma conclusão que poderia
-ser obtida apenas pela média?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Quais diferenças foram observadas entre os grupos analisados?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Quais cuidados devem ser tomados ao interpretar essas diferenças?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Quais limitações devem ser consideradas antes de afirmar que as variáveis
-sociofamiliares são responsáveis pelo desempenho dos alunos?&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; diferenças observadas entre grupos não significam,
-necessariamente, relações de causa e efeito. O relatório deve distinguir
-claramente &lt;strong&gt;descrição estatística&lt;/strong&gt;, &lt;strong&gt;associação&lt;/strong&gt; e &lt;strong&gt;causalidade&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;i-classfas-fa-file-linesi-estrutura-sugerida-para-o-relatório&#34;&gt;&lt;i class=&#34;fas fa-file-lines&#34;&gt;&lt;/i&gt; Estrutura sugerida para o relatório&lt;/h1&gt;
-&lt;p&gt;O relatório final deverá apresentar, preferencialmente, a seguinte
-estrutura:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Introdução&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Descrição do banco de dados&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Metodologia&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Medidas de posição&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Medidas de dispersão&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Análise por subgrupos&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Representações gráficas&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Discussão dos resultados&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Conclusões&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Limitações da análise&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Código R utilizado&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Os resultados devem ser acompanhados de &lt;strong&gt;interpretações&lt;/strong&gt;, evitando a
-simples apresentação de números ou saídas do R.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;i-classfas-fa-bullseyei-competências-esperadas&#34;&gt;&lt;i class=&#34;fas fa-bullseye&#34;&gt;&lt;/i&gt; Competências esperadas&lt;/h2&gt;
-&lt;p&gt;Ao concluir o Relatório 3, espera-se que o aluno seja capaz de:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;calcular medidas de posição utilizando R;&lt;/li&gt;
-&lt;li&gt;calcular medidas de dispersão utilizando R;&lt;/li&gt;
-&lt;li&gt;interpretar média, mediana e moda;&lt;/li&gt;
-&lt;li&gt;interpretar quartis e percentis;&lt;/li&gt;
-&lt;li&gt;compreender amplitude e amplitude interquartil;&lt;/li&gt;
-&lt;li&gt;interpretar variância e desvio-padrão;&lt;/li&gt;
-&lt;li&gt;utilizar o coeficiente de variação para comparar variabilidades;&lt;/li&gt;
-&lt;li&gt;relacionar medidas numéricas a representações gráficas;&lt;/li&gt;
-&lt;li&gt;comparar estatisticamente diferentes subgrupos;&lt;/li&gt;
-&lt;li&gt;distinguir medidas de posição de medidas de dispersão;&lt;/li&gt;
-&lt;li&gt;produzir uma síntese estatística contextualizada;&lt;/li&gt;
-&lt;li&gt;reconhecer as limitações de interpretações baseadas exclusivamente em
-estatísticas descritivas.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Até às 13h do dia &lt;strong&gt;15/09/2026&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim do Relatorio 4 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
-  &lt;summary&gt;🗒 Relatório 4 (Clique!) - 24/09/2026&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
-Relatório&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 24/09/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 23h59min.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Na aula anterior estudamos os fundamentos da teoria de probabilidades. Para consolidar esse aprendizado, você deverá elaborar um &lt;strong&gt;relatório individual&lt;/strong&gt; que organize, explique e relacione os conceitos trabalhados em sala.
-O relatório &lt;strong&gt;não é um resumo do material didático&lt;/strong&gt;, nem uma cópia de definições. Espera-se um texto &lt;strong&gt;autoral&lt;/strong&gt;, no qual você:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;explique os conceitos com suas próprias palavras;&lt;/li&gt;
-&lt;li&gt;apresente as definições formais;&lt;/li&gt;
-&lt;li&gt;demonstre as propriedades e os teoremas;&lt;/li&gt;
-&lt;li&gt;construa exemplos e contraexemplos próprios;&lt;/li&gt;
-&lt;li&gt;reflita sobre a aplicação desses conteúdos na Educação Básica.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Seu relatório deve abordar, obrigatoriamente, &lt;strong&gt;todos&lt;/strong&gt; os tópicos abaixo:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Conceitos básicos de conjuntos no contexto probabilístico&lt;/strong&gt; — espaço amostral, eventos, operações entre eventos, eventos mutuamente exclusivos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Definição da medida de probabilidade pelos axiomas de Kolmogorov&lt;/strong&gt; — os três axiomas, no contexto de espaços amostrais finitos ou enumeráveis (sem o conceito formal de σ-álgebra).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Propriedades de probabilidade&lt;/strong&gt; — decorrentes dos axiomas (probabilidade do evento impossível, complementar, monotonicidade, aditividade para eventos não disjuntos, etc.).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Independência de eventos&lt;/strong&gt; — definição, distinção entre independência e exclusão mútua, independência de múltiplos eventos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Teorema da Probabilidade Total&lt;/strong&gt; — partição do espaço amostral, enunciado e demonstração.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Teorema de Bayes&lt;/strong&gt; — enunciado, demonstração e interpretação.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Ao final, finalizamos com uma seguinte situação-problema: &amp;quot; O teste da Doença Rara na Escola&amp;quot;.&lt;/p&gt;
-&lt;p&gt;Uma escola pública decidiu realizar, em caráter experimental, um programa de triagem para uma doença infecciosa rara entre seus 1.200 estudantes. A doença afeta &lt;strong&gt;1 em cada 100 estudantes&lt;/strong&gt; da população escolar. O teste utilizado tem as seguintes características, informadas pelo fabricante:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Sensibilidade:&lt;/strong&gt; se o estudante &lt;strong&gt;tem&lt;/strong&gt; a doença, o teste dá positivo em &lt;strong&gt;90%&lt;/strong&gt; dos casos.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Especificidade:&lt;/strong&gt; se o estudante &lt;strong&gt;não tem&lt;/strong&gt; a doença, o teste dá negativo em &lt;strong&gt;95%&lt;/strong&gt; dos casos.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Um estudante é sorteado ao acaso e submetido ao teste. Ele &lt;strong&gt;testou positivo&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pergunta central:&lt;/strong&gt; Qual é a probabilidade de esse estudante realmente ter a doença?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pergunta secundária (didática):&lt;/strong&gt; Esse resultado é intuitivo? Por que muitos diriam, equivocadamente, que é &amp;ldquo;90%&amp;rdquo;?&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Apresente ao final do relatório a solução da situação-problema usando as definições e teoremas abordados no presente relatório.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Até às 23h59min. do dia &lt;strong&gt;24/09/2026&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim do Relatorio 4 --&gt;
-&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
-&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
-CAP/UFSJ&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
-  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
-  &lt;p&gt;&lt;ol&gt;
-&lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
-&lt;li&gt;Tabelas e gráficos&lt;/li&gt;
-&lt;li&gt;Medidas de posição&lt;/li&gt;
-&lt;li&gt;Medidas de dispersão e desenho esquemático (Box Plot)&lt;/li&gt;
-&lt;li&gt;Probabilidade: conceitos básicos, definições e propriedades&lt;/li&gt;
-&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade
-total e teorema de Bayes&lt;/li&gt;
-&lt;li&gt;Função e distribuição de probabilidade de uma variável aleatória
-discreta&lt;/li&gt;
-&lt;li&gt;Características numéricas de uma variável aleatória discreta&lt;/li&gt;
-&lt;li&gt;Função densidade de probabilidade de uma variável aleatória contínua&lt;/li&gt;
-&lt;li&gt;Características numéricas de uma variável aleatória contínua&lt;/li&gt;
-&lt;li&gt;Principais modelos probabilísticos discretos: uniforme, Bernoulli,
-binomial, geométrico, Poisson e hipergeométrico&lt;/li&gt;
-&lt;li&gt;Modelos probabilísticos contínuos. Principais modelos
-probabilísticos contínuos: uniforme, exponencial e normal&lt;/li&gt;
-&lt;li&gt;Teorema central do limite&lt;/li&gt;
-&lt;li&gt;Aproximação da distribuição binomial pela normal&lt;/li&gt;
-&lt;li&gt;Introdução à inferência estatística: primeiras ideias; propriedades
-dos estimadores&lt;/li&gt;
-&lt;li&gt;Erro quadrático médio e erro absoluto de estimação&lt;/li&gt;
-&lt;li&gt;Estimação pontual de parâmetros: estimadores de momentos;
-estimadores de mínimos quadrados&lt;/li&gt;
-&lt;li&gt;Estimadores de máxima verossimilhança&lt;/li&gt;
-&lt;li&gt;Distribuição amostral da média e proporção; dimensionamento da
-amostra&lt;/li&gt;
-&lt;li&gt;Intervalo de confiança para a média populacional e para proporção
-populacional&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
-&lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
-aulas serão expositivas e dialogadas com os alunos presencialmente ou
-via portal didático, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Motivação:
-&lt;ul&gt;
-&lt;li&gt;Levantamento do conhecimento prévio dos alunos em relação ao tema;&lt;/li&gt;
-&lt;li&gt;Apresentação de algumas situações práticas para a compreensão dos
-tópicos a serem abordados;&lt;/li&gt;
-&lt;li&gt;Exposição dos objetivos da aula.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Desenvolvimento:
-&lt;ul&gt;
-&lt;li&gt;Introdução ao assunto abordado;&lt;/li&gt;
-&lt;li&gt;Apresentação de definições e teoremas envolvidos;&lt;/li&gt;
-&lt;li&gt;Aplicação de softwares estatísticos, quando for pertinente;&lt;/li&gt;
-&lt;li&gt;Exemplos e aplicações na estatística e área do curso, do assunto
-abordado.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
-  &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas
-coreografias didáticas. Criaremos um cenário em que o propagador de
-conhecimento também seja produzido pelo aluno. Ele será o protagonista.
-Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por
-aprender&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para
-os alunos matriculados na disciplina, também será possível acompanhar o
-material pelo portal didático. Nossas aulas terão &lt;strong&gt;3 (quatro) horas
-semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
-&lt;p&gt;Faremos também uma retramissão do conteúdo abordado durante a semana
-pelo canal do youtube &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de
-textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt;
-para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos
-dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o
-desenvolvimento de materiais didáticos, quanto para as atividades com os
-alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil
-instalação para os alunos, uma vez que dareremos todo o suporte, de
-forma que os alunos estejam capacitados a utilizar todas as ferramentas
-quando necessário.&lt;/p&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
-  &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e
-práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;,
-&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; $ \LaTeX $ &lt;/a&gt; e
-&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao
-&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80%
-distribuído aos relatórios, e 20% distribuídos aos nossos testes
-rápidos, trabalhos ou qualquer outra dinâmica que consiga obter
-informações da captação de conhecimento no momento da aula.&lt;/p&gt;
-&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60
-pontos e não poderá faltar mais de 25% das aulas. O discente que não for
-aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o
-conteúdo da disciplina.&lt;/p&gt;
-&lt;p&gt;O discente que perder algum relatório ou atividade avaliativa referente
-aos 20% dos pontos informados anteriormente, deverá solicitar a
-coordenadoria de seu curso uma segunda chamada para tal atividade
-perdida, justificando a ausência da entrega. Sendo deferida pela
-coordação, faremos a segunda chamada de tal atividade.&lt;/p&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
-  &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&amp;amp;url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&amp;amp;usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. &lt;strong&gt;Análise
-combinatória e probabilidade&lt;/strong&gt;. SBM, 2005 (Capítulo
-5).&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;BUSSABW, MORETTIN, W. &lt;strong&gt;Estatística básica&lt;/strong&gt;. Editora Saraiva, 2010.&lt;/li&gt;
-&lt;li&gt;PINHEIRO, R; CUNHA, G. &lt;strong&gt;Probabilidade e estatística&lt;/strong&gt;: quantificando
-a incerteza. Editora Campus, 2012.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;matadotado&#34;&gt;Materiais adotado&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Livro &lt;a href=&#34;http://bendeivide.github.io/books/epprofmat/&#34;&gt;Estatística e Probabilidade: Um curso para o
-PROFMAT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Livro &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para
-&lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
-  &lt;summary&gt;Materiais complementares&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/estbasica/&#34;&gt;Estatística Básica&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://leg.ufpr.br/~paulojus/estbas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://github.com/talesjfer/Apostila-Estatistica-Aplicada&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estimação Estatística (Assis, et. al. 2021)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução à estatística com R (Eric Ferreira &amp;amp; Marcelo Oliveira )&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria &amp;amp; João Parga)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canal Ciência Estatística&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://editorapantanal.com.br/ebooks/2023/probabilidade-e-estatistica-exercicios/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade: Exercícios (Assis et. al., 2023)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
-  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power
-point&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em
-vídeo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Os programas necessários:
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Editor de Slides: o MS Power Point (Instalado previamente no
-Windows);
-&lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS
-Studio&lt;/a&gt; OBS.: Os programas
-são esses. Qualquer dúvida, favor me procurar.&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
-vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
-  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
-vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
-  &lt;summary&gt;Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
-  &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação da disciplina e Introdução ao R&lt;/p&gt;
-&lt;/div&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
-  &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; &lt;em&gt;R Markdown&lt;/em&gt;, Quarto, &lt;em&gt;Github&lt;/em&gt; e como desenvolver nossos relatórios de avaliação&lt;/p&gt;
-&lt;/div&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim da Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
-  &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
-&lt;li&gt;Tabelas e gráficos&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula03/aula28.08.26.R&#34; target=&#34;_blank&#34;&gt;Script Aula 03.R&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula03/aula28.08.26.pdf&#34; target=&#34;_blank&#34;&gt;PDF_Aula_03.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
-  &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Medidas de posição&lt;/li&gt;
-&lt;li&gt;Medidas de dispersão e desenho esquemático (Box Plot)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula04/aula04.pdf&#34; target=&#34;_blank&#34;&gt;PDF_Aula_04.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
-  &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Probabilidade: conceitos básicos, definições e propriedades&lt;/li&gt;
-&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade total e teorema de Bayes&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula05/aula05.pdf&#34; target=&#34;_blank&#34;&gt;PDF_Aula_05.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
-  &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
-  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Defesa:&lt;/strong&gt; Relatórios 1, 2 e 3&lt;/p&gt;
-&lt;/div&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;!-- Fim da Aula 06 --&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
-  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
-  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
-  &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
-  &lt;p&gt;&lt;ul&gt;
-&lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para
-&lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-</description>
-    </item>
-    
-    <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/eait/normal2026.2/</link>
-      <pubDate>Wed, 09 Sep 2026 05:50:18 -0300</pubDate>
+      <pubDate>Mon, 21 Sep 2026 06:33:02 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/eait/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -2642,36 +1410,525 @@ geom_histogram()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim do Relatorio 3 --&gt;
-&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 4 (Clique!) - 28/09/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; Dados: &lt;a href=&#34;http://bendeivide.github.io/eait/2026.2/rel04/dados_engenharia_civil.csv&#34; target=&#34;_blank&#34;&gt;dados_engenharia_civil.csv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 28/09/2026
+&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 18h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O objetivo desta atividade é desenvolver a capacidade de &lt;strong&gt;explorar, visualizar e comunicar dados provenientes de uma situação prática da Engenharia Civil&lt;/strong&gt;, utilizando os principais &lt;strong&gt;sistemas gráficos da linguagem R&lt;/strong&gt; trabalhados em sala de aula.&lt;/p&gt;
+&lt;p&gt;Na prática profissional, o engenheiro precisa transformar resultados numéricos em &lt;strong&gt;informação visual&lt;/strong&gt; capaz de subsidiar decisões técnicas: comparar o desempenho de concretos, identificar relações entre variáveis, detectar obras atípicas, comunicar resultados a clientes e gestores e produzir mapas de acompanhamento de empreendimentos.&lt;/p&gt;
+&lt;p&gt;Nesta atividade, você assumirá o papel de um engenheiro responsável pela &lt;strong&gt;análise gráfica do controle tecnológico do concreto&lt;/strong&gt;, utilizando os sistemas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Base R&lt;/strong&gt; — funções gráficas nativas (&lt;code&gt;plot()&lt;/code&gt;, &lt;code&gt;hist()&lt;/code&gt;, &lt;code&gt;boxplot()&lt;/code&gt;, &lt;code&gt;barplot()&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ggplot2&lt;/strong&gt; — gramática de gráficos (dados + &lt;code&gt;aes()&lt;/code&gt; + &lt;code&gt;geom_*()&lt;/code&gt; + camadas + facetas + temas);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;plotly&lt;/strong&gt; — gráficos interativos a partir de objetos ggplot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;highcharter&lt;/strong&gt; — gráficos interativos com recursos avançados;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;leaflet&lt;/strong&gt; — mapas interativos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sempre que possível, utilize o operador &lt;code&gt;|&amp;gt;&lt;/code&gt; para construir fluxos de transformação dos dados antes da etapa de visualização.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; &lt;strong&gt;CONTEXTUALIZAÇÃO DA BASE DE DADOS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Imagine que uma empresa de Engenharia Civil esteja executando diferentes obras pelo Brasil. Durante a execução, foram reunidas informações sobre &lt;strong&gt;300 obras&lt;/strong&gt;, incluindo tipo, região, área construída, custo total, prazo, resistência do concreto, consumo de cimento, índice de falhas, satisfação do cliente e adoção de práticas sustentáveis.&lt;/p&gt;
+&lt;p&gt;O objetivo não é simplesmente &amp;ldquo;fazer gráficos&amp;rdquo;. Espera-se que você consiga &lt;strong&gt;escolher o sistema gráfico mais adequado para cada pergunta&lt;/strong&gt;, &lt;strong&gt;justificar as decisões visuais tomadas&lt;/strong&gt; e &lt;strong&gt;interpretar os resultados&lt;/strong&gt; à luz do contexto da Engenharia Civil.&lt;/p&gt;
+&lt;p&gt;A seguir, apresentamos uma descrição da base de dados.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Variável&lt;/th&gt;
+&lt;th&gt;Descrição&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;id_obra&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Identificador da obra&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;tipo_obra&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Residencial, Comercial, Industrial ou Infraestrutura&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;regiao&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Região do Brasil&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;area_construida&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Área construída, em m²&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;custo_total&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Custo total da obra, em R$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;prazo_meses&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Duração da obra, em meses&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;resistencia_mpa&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Resistência à compressão do concreto, em MPa&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;consumo_cimento&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Consumo de cimento, em kg/m³&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;indice_falhas&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Número de falhas registradas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;satisfacao&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Satisfação do cliente (0 a 10)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;sustentavel&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Uso de práticas sustentáveis (Sim/Não)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-cogs&#34;&gt;&lt;/i&gt; &lt;strong&gt;PREPARAÇÃO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Coloque o arquivo &lt;code&gt;dados_engenharia_civil.csv&lt;/code&gt; no mesmo diretório do seu relatório &lt;code&gt;/rel04/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Instale, caso necessário, e carregue os pacotes:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(c(&amp;quot;ggplot2&amp;quot;, &amp;quot;dplyr&amp;quot;, &amp;quot;plotly&amp;quot;,
+                   &amp;quot;highcharter&amp;quot;, &amp;quot;leaflet&amp;quot;, &amp;quot;scales&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Em seguida:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+library(dplyr)
+library(plotly)
+library(highcharter)
+library(leaflet)
+library(scales)
+
+dados &amp;lt;- read.csv(&amp;quot;dados_engenharia_civil.csv&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Orientação:&lt;/strong&gt; inspecione a base antes de qualquer gráfico. Utilize &lt;code&gt;head()&lt;/code&gt;, &lt;code&gt;str()&lt;/code&gt;, &lt;code&gt;summary()&lt;/code&gt; e &lt;code&gt;dim()&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Durante a atividade, procure utilizar o fluxo de transformação de dados característico do tidyverse antes de plotar:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados |&amp;gt;
+  group_by(variavel_categorica) |&amp;gt;
+  summarise(media = mean(variavel_numerica)) |&amp;gt;
+  ggplot(aes(x = variavel_categorica, y = media)) +
+  geom_col()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 1 — Conhecendo a base&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Importe a base de dados no R e atribua-a ao objeto &lt;code&gt;dados&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Verifique se a importação foi realizada corretamente utilizando funções como &lt;code&gt;head()&lt;/code&gt;, &lt;code&gt;tail()&lt;/code&gt; e &lt;code&gt;dim()&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quantas observações e quantas variáveis existem na base?&lt;/p&gt;
+&lt;p&gt;Apresente um código R que permita responder à questão.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Apresente a estrutura da base utilizando &lt;code&gt;str()&lt;/code&gt; e &lt;code&gt;glimpse()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Quais variáveis foram reconhecidas pelo R como quantitativas e quais foram reconhecidas como qualitativas?&lt;/p&gt;
+&lt;p&gt;Justifique sua resposta.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 4&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Apresente um resumo das variáveis da base utilizando &lt;code&gt;summary()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Quais informações chamam sua atenção?&lt;/p&gt;
+&lt;p&gt;Há valores mínimo ou máximo que pareçam incompatíveis com o contexto da Engenharia Civil?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 5&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Verifique a existência de valores ausentes na base.&lt;/p&gt;
+&lt;p&gt;Responda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantos valores ausentes existem?&lt;/li&gt;
+&lt;li&gt;Em quais variáveis eles aparecem?&lt;/li&gt;
+&lt;li&gt;Em quais observações eles aparecem?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 2 — Gráficos no Base R&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nesta etapa, o objetivo é construir gráficos utilizando &lt;strong&gt;apenas funções do Base R&lt;/strong&gt;, sem ggplot2.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 6 — Dispersão&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico de dispersão entre &lt;code&gt;area_construida&lt;/code&gt; (eixo X) e &lt;code&gt;custo_total&lt;/code&gt; (eixo Y) utilizando &lt;code&gt;plot()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Personalize:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;título (&lt;code&gt;main&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;rótulos dos eixos (&lt;code&gt;xlab&lt;/code&gt;, &lt;code&gt;ylab&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;forma dos pontos (&lt;code&gt;pch&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;cor (&lt;code&gt;col&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;tamanho (&lt;code&gt;cex&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O gráfico sugere relação entre área construída e custo total? Existem obras com custo muito acima ou muito abaixo do esperado para o seu tamanho?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 7 — Histograma&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um histograma da variável &lt;code&gt;resistencia_mpa&lt;/code&gt; utilizando &lt;code&gt;hist()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Ajuste:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;número de classes (&lt;code&gt;breaks&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;cor das barras (&lt;code&gt;col&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;cor da borda (&lt;code&gt;border&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;título e rótulo do eixo X.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Adicione uma linha vertical indicando a &lt;strong&gt;média&lt;/strong&gt; da resistência com &lt;code&gt;abline()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A distribuição parece simétrica? Há valores que fogem do intervalo típico de projeto?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 8 — Boxplot&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um boxplot de &lt;code&gt;custo_total&lt;/code&gt; &lt;strong&gt;por &lt;code&gt;tipo_obra&lt;/code&gt;&lt;/strong&gt; utilizando &lt;code&gt;boxplot()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Utilize cores diferentes para cada categoria.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Qual tipo de obra apresenta maior mediana de custo? Qual apresenta maior dispersão? Há outliers visíveis?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 9 — Barplot&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico de barras com a contagem de obras por região utilizando &lt;code&gt;table()&lt;/code&gt; e &lt;code&gt;barplot()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Personalize as cores com &lt;code&gt;heat.colors()&lt;/code&gt; ou outra paleta.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Quais regiões concentram mais obras? Esse resultado é coerente com a distribuição da construção civil no Brasil?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 3 — Gráficos com ggplot2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nesta etapa, refaça e amplie as análises utilizando a &lt;strong&gt;gramática de gráficos&lt;/strong&gt; do ggplot2.&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 10 — Dispersão com cor por tipo de obra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico de dispersão entre &lt;code&gt;area_construida&lt;/code&gt; e &lt;code&gt;custo_total&lt;/code&gt;, mapeando a cor dos pontos para &lt;code&gt;tipo_obra&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Adicione &lt;code&gt;labs()&lt;/code&gt; com título, subtítulo e rótulos dos eixos.&lt;/p&gt;
+&lt;p&gt;Aplique um tema (&lt;code&gt;theme_classic()&lt;/code&gt;, &lt;code&gt;theme_minimal()&lt;/code&gt;, etc.).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ao separar por tipo de obra, o padrão observado na Questão 6 continua o mesmo? Algum tipo se destaca?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 11 — Boxplot com preenchimento&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um boxplot de &lt;code&gt;custo_total&lt;/code&gt; por &lt;code&gt;tipo_obra&lt;/code&gt; com &lt;code&gt;fill = tipo_obra&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Oculte a legenda com &lt;code&gt;theme(legend.position = &amp;quot;none&amp;quot;)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Compare com o boxplot do Base R (Questão 8). Quais vantagens o ggplot2 oferece aqui?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 12 — Histograma com densidade&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um histograma de &lt;code&gt;resistencia_mpa&lt;/code&gt; com a &lt;strong&gt;densidade&lt;/strong&gt; sobreposta (&lt;code&gt;geom_density()&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Utilize &lt;code&gt;aes(y = after_stat(density))&lt;/code&gt; no histograma.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A curva de densidade reforça ou contradiz a leitura feita no histograma do Base R (Questão 7)?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 13 — Barras com agrupamento&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico de barras de &lt;code&gt;tipo_obra&lt;/code&gt; com &lt;strong&gt;preenchimento por &lt;code&gt;sustentavel&lt;/code&gt;&lt;/strong&gt;, usando &lt;code&gt;position = &amp;quot;dodge&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Em quais tipos de obra a adoção de práticas sustentáveis é mais frequente? Em quais é menos?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 14 — Facetas&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico de dispersão &lt;code&gt;area_construida&lt;/code&gt; × &lt;code&gt;custo_total&lt;/code&gt; &lt;strong&gt;com facetas por região&lt;/strong&gt; (&lt;code&gt;facet_wrap(~regiao)&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Adicione uma reta de tendência com &lt;code&gt;geom_smooth(method = &amp;quot;lm&amp;quot;, se = FALSE)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A relação entre área e custo é a mesma em todas as regiões? Alguma região apresenta comportamento atípico?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 15 — Gráfico autoral com múltiplas camadas&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Escolha &lt;strong&gt;duas variáveis numéricas&lt;/strong&gt; do banco e construa um gráfico com &lt;strong&gt;pelo menos duas camadas&lt;/strong&gt; (&lt;code&gt;geom_point()&lt;/code&gt; + &lt;code&gt;geom_smooth()&lt;/code&gt;, por exemplo), &lt;strong&gt;facetas&lt;/strong&gt; por uma variável categórica e um &lt;strong&gt;tema&lt;/strong&gt; personalizado.&lt;/p&gt;
+&lt;p&gt;Use &lt;code&gt;scale_*_*()&lt;/code&gt; para ajustar escalas de cor ou tamanho.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Justifique a escolha das variáveis, da geometria e das facetas. O que o gráfico revela que os anteriores não revelavam?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 4 — Gráficos interativos com plotly&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 16 — Convertendo ggplot em interativo&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico com &lt;strong&gt;ggplot2&lt;/strong&gt; e converta-o em interativo com &lt;code&gt;ggplotly()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Inclua o argumento &lt;code&gt;text&lt;/code&gt; no &lt;code&gt;aes()&lt;/code&gt; para exibir o &lt;code&gt;id_obra&lt;/code&gt; no tooltip.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ao passar o mouse sobre os pontos, você identifica obras com custo atipicamente alto ou baixo? A que tipo e região pertencem?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 17 — Gráfico interativo direto com &lt;code&gt;plot_ly()&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico com &lt;code&gt;plot_ly()&lt;/code&gt; (sem passar por ggplot) usando &lt;code&gt;type = &amp;quot;scatter&amp;quot;&lt;/code&gt; e &lt;code&gt;mode = &amp;quot;lines+markers&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Sugestão: use uma variável agregada por tipo de obra ou por região.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Em que situações o &lt;code&gt;plot_ly()&lt;/code&gt; direto é mais vantajoso do que o &lt;code&gt;ggplotly()&lt;/code&gt;?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 5 — Gráficos com highcharter&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 18 — Colunas: custo médio por tipo de obra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Agrupe os dados com &lt;code&gt;dplyr&lt;/code&gt; (&lt;code&gt;group_by()&lt;/code&gt; + &lt;code&gt;summarise()&lt;/code&gt;) e construa um gráfico de &lt;strong&gt;colunas&lt;/strong&gt; com &lt;code&gt;hchart(&amp;quot;column&amp;quot;, ...)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Adicione título e rótulos de eixo com &lt;code&gt;hc_title()&lt;/code&gt;, &lt;code&gt;hc_xAxis()&lt;/code&gt; e &lt;code&gt;hc_yAxis()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O ranking de custo médio por tipo de obra coincide com o observado no boxplot da Questão 8? Comente.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 19 — Linhas: prazo médio por região&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico de &lt;strong&gt;linhas&lt;/strong&gt; com &lt;code&gt;hchart(&amp;quot;line&amp;quot;, ...)&lt;/code&gt; mostrando o prazo médio por região.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Há regiões com prazos sistematicamente maiores? Isso poderia estar relacionado a fatores logísticos ou climáticos?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 20 — Pizza: participação por tipo de obra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Construa um gráfico de &lt;strong&gt;pizza&lt;/strong&gt; com &lt;code&gt;hchart(&amp;quot;pie&amp;quot;, ...)&lt;/code&gt; a partir de uma contagem por &lt;code&gt;tipo_obra&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O gráfico de pizza é a melhor escolha para essa informação? Justifique, comparando com o gráfico de barras.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 21 — Personalização&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Adicione a um dos gráficos acima pelo menos &lt;strong&gt;dois&lt;/strong&gt; dos seguintes recursos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;título (&lt;code&gt;hc_title()&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;tooltip personalizado (&lt;code&gt;hc_tooltip()&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;tema escuro (&lt;code&gt;hc_theme_darkunica()&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;zoom (&lt;code&gt;hc_chart(zoomType = &amp;quot;x&amp;quot;)&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;múltiplas séries (&lt;code&gt;hc_add_series()&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Qual recurso do highcharter você considera mais útil para apresentações executivas? Por quê?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 6 — Mapas interativos com leaflet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 22 — Mapa base&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Crie um mapa com &lt;code&gt;leaflet()&lt;/code&gt; + &lt;code&gt;addTiles()&lt;/code&gt; centralizado em uma região de sua escolha com &lt;code&gt;setView()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Qual provedor de tiles você escolheu (&lt;code&gt;addTiles()&lt;/code&gt;, &lt;code&gt;addProviderTiles(providers$Esri.WorldImagery)&lt;/code&gt;, &lt;code&gt;providers$CartoDB.Positron&lt;/code&gt;, etc.)? Justifique a escolha.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 23 — Marcadores por região&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Crie um &lt;code&gt;data.frame&lt;/code&gt; com &lt;strong&gt;coordenadas aproximadas&lt;/strong&gt; das capitais das cinco regiões brasileiras e o &lt;strong&gt;número de obras&lt;/strong&gt; de cada região (obtido com &lt;code&gt;table()&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Adicione marcadores com &lt;code&gt;addMarkers()&lt;/code&gt; e popups exibindo a região e o número de obras.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A distribuição geográfica das obras no mapa é coerente com o barplot da Questão 9?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 24 — Destaque com círculos&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Adicione um &lt;code&gt;addCircles()&lt;/code&gt; destacando a região com maior número de obras, com &lt;code&gt;radius&lt;/code&gt;, &lt;code&gt;color&lt;/code&gt; e &lt;code&gt;fillOpacity&lt;/code&gt; ajustados.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questão para reflexão:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Que outras informações do banco poderiam ser mapeadas geograficamente se tivéssemos as coordenadas exatas das obras?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Etapa 7 — Questões próximas da prática profissional&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 25 — Comparação entre tipos de obra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O engenheiro responsável afirma:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;As obras de infraestrutura apresentam custo médio superior às demais.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Utilize &lt;code&gt;dplyr&lt;/code&gt; e &lt;code&gt;ggplot2&lt;/code&gt; para verificar se os dados dão suporte a essa afirmação &lt;strong&gt;em termos descritivos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Não é necessário realizar teste de hipótese. O objetivo é explorar os dados.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 26 — Sustentabilidade e custo&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Investigue, por meio de gráficos, se obras classificadas como &lt;strong&gt;sustentáveis&lt;/strong&gt; apresentam custo total sistematicamente diferente das não sustentáveis.&lt;/p&gt;
+&lt;p&gt;Produza pelo menos &lt;strong&gt;dois gráficos&lt;/strong&gt; (um do Base R e um do ggplot2 ou highcharter) que permitam comparar os grupos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 27 — Relação entre falhas e satisfação&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Produza um gráfico que relacione &lt;code&gt;indice_falhas&lt;/code&gt; e &lt;code&gt;satisfacao&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Existe evidência visual de associação entre as variáveis?&lt;/p&gt;
+&lt;p&gt;Qual geometria você escolheu e por quê?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Questão 28 — Resumo gráfico para o engenheiro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O controle tecnológico da empresa precisa produzir um &lt;strong&gt;painel gráfico&lt;/strong&gt; para o engenheiro responsável.&lt;/p&gt;
+&lt;p&gt;Utilizando &lt;code&gt;ggplot2&lt;/code&gt;, &lt;code&gt;highcharter&lt;/code&gt; ou uma combinação dos sistemas, construa &lt;strong&gt;pelo menos três gráficos&lt;/strong&gt; que, juntos, comuniquem de forma clara:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;o perfil das obras por tipo e região;&lt;/li&gt;
+&lt;li&gt;a distribuição de custo e prazo;&lt;/li&gt;
+&lt;li&gt;a relação entre consumo de cimento e resistência.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Justifique a escolha dos gráficos e a ordem em que eles aparecem.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Desafio final — O engenheiro responsável pela comunicação visual dos dados&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Você recebeu uma base de dados de obras de Engenharia Civil e precisa &lt;strong&gt;comunicar visualmente&lt;/strong&gt; os principais resultados para um público técnico e gerencial.&lt;/p&gt;
+&lt;p&gt;Desenvolva um &lt;strong&gt;script em R&lt;/strong&gt; capaz de:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;realizar uma inspeção inicial da base;&lt;/li&gt;
+&lt;li&gt;produzir pelo menos &lt;strong&gt;um gráfico em cada um dos cinco sistemas&lt;/strong&gt; (Base R, ggplot2, plotly, highcharter, leaflet);&lt;/li&gt;
+&lt;li&gt;construir um &lt;strong&gt;gráfico autoral&lt;/strong&gt; com múltiplas camadas e facetas;&lt;/li&gt;
+&lt;li&gt;construir um &lt;strong&gt;mapa interativo&lt;/strong&gt; com marcadores e popups;&lt;/li&gt;
+&lt;li&gt;apresentar &lt;strong&gt;interpretações técnicas&lt;/strong&gt; para cada gráfico;&lt;/li&gt;
+&lt;li&gt;justificar as decisões visuais tomadas (geometria, cores, escalas, temas).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;O script deverá ser organizado de forma que &lt;strong&gt;outro engenheiro consiga compreender as etapas realizadas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Procure organizar o código em etapas, utilizando comentários para explicar as principais decisões.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt; &lt;strong&gt;Requisitos do desafio&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Procure utilizar, sempre que possível, as ferramentas trabalhadas em sala:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Base R
+plot()
+hist()
+boxplot()
+barplot()
+
+# ggplot2
+ggplot()
+aes()
+geom_point()
+geom_line()
+geom_boxplot()
+geom_histogram()
+geom_bar()
+geom_smooth()
+facet_wrap()
+facet_grid()
+labs()
+theme_classic()
+theme_minimal()
+scale_*_*()
+
+# plotly
+plot_ly()
+ggplotly()
+
+# highcharter
+hchart()
+hc_title()
+hc_xAxis()
+hc_yAxis()
+hc_tooltip()
+hc_theme_darkunica()
+hc_chart()
+
+# leaflet
+leaflet()
+addTiles()
+addProviderTiles()
+setView()
+addMarkers()
+addCircles()
+
+# dplyr (para preparar os dados antes de plotar)
+group_by()
+summarise()
+mutate()
+filter()
+arrange()
+count()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Não é necessário utilizar todas as funções.&lt;/p&gt;
+&lt;p&gt;O mais importante é que o código seja &lt;strong&gt;coerente com o problema, organizado e justificável&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; nesta atividade, o foco é a &lt;strong&gt;visualização gráfica&lt;/strong&gt;. Diferentemente do Relatório 3, o objetivo não é a limpeza dos dados, mas sim a &lt;strong&gt;exploração visual e a comunicação dos resultados&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para ajudar no desenvolvimento do relatório, inserimos uma tabela comparando os sistemas gráficos trabalhados.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Sistema&lt;/th&gt;
+&lt;th&gt;Uso principal&lt;/th&gt;
+&lt;th&gt;Vantagem&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Base R&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Gráficos rápidos e didáticos&lt;/td&gt;
+&lt;td&gt;Simplicidade, sem dependência de pacotes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;ggplot2&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Gráficos estáticos com gramática de gráficos&lt;/td&gt;
+&lt;td&gt;Flexibilidade, camadas, facetas, temas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;plotly&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Interatividade a partir de gráficos ggplot&lt;/td&gt;
+&lt;td&gt;Tooltips, zoom, hover&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;highcharter&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Gráficos interativos avançados&lt;/td&gt;
+&lt;td&gt;Temas, animações, exportação, múltiplas séries&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;leaflet&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Mapas interativos&lt;/td&gt;
+&lt;td&gt;Marcadores, popups, camadas geográficas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;Reflexão final&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Depois de concluir a atividade, responda:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Qual é a principal diferença entre produzir um gráfico no Base R e produzir um gráfico no ggplot2?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Em seguida, responda:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Por que a escolha do sistema gráfico e da geometria é uma decisão técnica importante na Engenharia Civil?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Finalmente, descreva brevemente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;qual foi o gráfico que você considerou mais informativo;&lt;/li&gt;
+&lt;li&gt;qual sistema gráfico você utilizou para produzi-lo;&lt;/li&gt;
+&lt;li&gt;por que você considera que essa escolha foi adequada;&lt;/li&gt;
+&lt;li&gt;o que esse gráfico revela sobre as obras analisadas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; &lt;strong&gt;ENTREGA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A entrega deverá conter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;o arquivo da base de dados;&lt;/li&gt;
+&lt;li&gt;o código R desenvolvido;&lt;/li&gt;
+&lt;li&gt;os gráficos produzidos em cada um dos cinco sistemas;&lt;/li&gt;
+&lt;li&gt;as interpretações técnicas de cada gráfico;&lt;/li&gt;
+&lt;li&gt;as justificativas das decisões visuais tomadas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O código deverá estar organizado e comentado.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O objetivo principal não é apenas produzir gráficos, mas demonstrar que você consegue &lt;strong&gt;usar o R para transformar dados brutos em informação visual confiável para a tomada de decisão na Engenharia Civil&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 18h do dia 28/09/2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação da disciplina e Introdução ao R&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II), &lt;em&gt;R Markdown&lt;/em&gt;, Quarto e &lt;em&gt;Github&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Como desenvolver nossos relatórios de avaliação&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Estatística Descritiva&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte I)&lt;/p&gt;
@@ -2680,7 +1937,7 @@ geom_histogram()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte II)&lt;/p&gt;
@@ -2689,7 +1946,7 @@ geom_histogram()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 06 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;🎓 Aula 7&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Gráficos em R&lt;/p&gt;
@@ -2699,16 +1956,1248 @@ geom_histogram()
 &lt;/details&gt;
 &lt;!-- Fim da Aula 07 --&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para &lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📚 Ensino normal 2026.2</title>
+      <link>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</link>
+      <pubDate>Wed, 16 Sep 2026 06:41:31 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/profmat-probest/normal2026.2/</guid>
+      <description>&lt;p&gt;Curso de Probabilidade e Estatística oferecido no formato presencial
+pela &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt; ao Mestrado Profissional em Matemática
+em Rede Nacional, campus Alto Paraopeba
+(&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), Ouro Branco/MG.&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 horas por semana, por 18 semanas&lt;/p&gt;
+&lt;h2 id=&#34;apresentacao&#34;&gt;Apresentação&lt;/h2&gt;
+&lt;p&gt;A Natureza da estatística. Tratamento da informação. Distribuições de
+frequência e gráficos. Medidas. Conceitos básicos em probabilidade.
+Probabilidade condicional e Independência. Variáveis aleatórias
+discretas e contínuas. Função de distribuição acumulada. Esperança e
+variância de variáveis aleatórias. Modelos Bernoulli, binomial e
+geométrico. Modelo uniforme e modelo normal. Distribuição assintótica da
+média amostral. Introdução à inferência estatística.&lt;/p&gt;
+&lt;h2 id=&#34;onde&#34;&gt;Onde?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;O curso é ministrado na &lt;a href=&#34;http://ufsj.edu.br/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UFSJ&lt;/a&gt;, campus Alto
+Paraopeba (&lt;a href=&#34;http://ufsj.edu.br/cap/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAP&lt;/a&gt;), para todos os cursos de
+Engenharia do campus.&lt;/li&gt;
+&lt;li&gt;Todas as nossas estão gravadas:
+&lt;ul&gt;
+&lt;li&gt;canal: &lt;a href=&#34;http://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://youtube.com/bendeivide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Período:&lt;/li&gt;
+&lt;li&gt;Aulas presenciais:
+&lt;ul&gt;
+&lt;li&gt;PROFMAT (Sala 211.5):
+&lt;ul&gt;
+&lt;li&gt;sexta-feira (13:15 - 16:35)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cronograma&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-calendar-alt&#34;&gt;&lt;/i&gt; Calendário e Cronograma&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calendário&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;http://bendeivide.github.io/pt/courses/profmat-prob&amp;est/normal2026.2_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;110%&#34; /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cronograma de
+aulas&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/document/d/1lrP7gbx_QJzfU3baYVrPS8AGntcuZtOykbAs3vN7_qg/edit?usp=sharing&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;grupo-de-whatsapp&#34;&gt;Grupo de Whatsapp&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chat.whatsapp.com/BQauGFVMXCFKN2DX4rFsJd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;demandas-e-notas&#34;&gt;Demandas e Notas&lt;/h2&gt;
+&lt;p&gt;Em desenvolvimento &amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;modrel&#34;&gt;Modelo de relatório para entregas&lt;/h2&gt;
+&lt;p&gt;Segue o link: &lt;a href=&#34;https://bendeivide.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bendeivide.github.io/profmatma41/&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sY4eo3eUR-c?si=uZW08Zcngz9KvFUH&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nhh323kMWqo?si=pmfv3iZMuzUN4dxo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&#34;relatório-dos-alunos&#34;&gt;Relatório dos alunos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ailtonmachado.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Ailton Gomes da Silva
+Machado&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://flaviaalves-profmat.github.io/Relatorio/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Flávia Alves dos Anjos
+Santos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lucianovaz-math.github.io/profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Luciano Vaz de Oliveira &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mariofaria-spec.github.io/relatorio/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Mário Marcos de Faria&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rei-santos.github.io/Profmatma41/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🎓 Reinado Gomes dos
+Santos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;defesas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-balance-scale-right&#34;&gt;&lt;/i&gt; Defesas&lt;/h2&gt;
+&lt;div style=&#34;margin-left: 30px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;⚖️ Defesa 1 (Clique) | 18/09/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Relatórios&lt;/strong&gt;: 1, 2 e 3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tempo:&lt;/strong&gt; 30 min.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local:&lt;/strong&gt; sala 103.2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Horário:&lt;/strong&gt; 13:00 às 16h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;strong&gt;ORDEM DAS DEFESAS&lt;/strong&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Ordem&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Horário&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Alunos&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;13:00 - 13:30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Ailton Gomes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;13:30 - 14:00&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Flávia Alves&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;14:00 - 14:30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Luciano Vaz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;14:30 - 15:00&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Mário Marcos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;15:00 - 15:30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Reinaldo Gomes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;lrel&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-tasks&#34;&gt;&lt;/i&gt; Lista de relatórios&lt;/h2&gt;
+&lt;div style=&#34;margin-left: 30px;&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;📝 Como os relatórios serão avaliados?&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Seguindo as seguintes indagações:&lt;/p&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Indagações ao realatório escrito&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Entregou no prazo?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3. Relatório organizado?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4. Coerente com o que foi pedido?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5. Abordou todos os tópicos solicitados?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;6. Aprofundou o assunto?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;7. Código R formatado?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;8. Tem exemplos de aplicação?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;9. Código R Markdown formatado?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10. Tem referências?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;11. Referências formatadas?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;12. Introdução?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;13. Objetivos?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;14. Metodologia?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;15. Resultados e Discussão?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;16. Conclusão ou considerações finais?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;17. O trabalho atingiu os objetivos?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;p&gt;As perguntas se enquadrarão em:&lt;/p&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Não (0%)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Pouco (25%)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parcial(50%)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Quase lá (75%)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Sim (100%)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;p&gt;A pergunta 2 seguirá a seguinte escala:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Não (0%)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Pouco (-10%)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parcial(-20%)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Metade (-50%)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Mais da metade (-75%)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;[ ]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;O item 2.1, auxiliará a recuperar a nota perdida em 2.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 1 (Clique!) - 28/08/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 28/08/2026
+&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Descreva como desenvolvemos o relatório das nossas avaliações baseados
+na seção &lt;a href=&#34;#modrel&#34;&gt;Modelo de relatório para entregas&lt;/a&gt;. Apresente todos
+os passos necessários para termos o relatório disponível como página
+&lt;em&gt;web&lt;/em&gt;, apresentando os programas, como baixá-los, instalarmos, como
+subirmos ao Gihub, e como atualizar o projeto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 13h do dia 28/08/2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 1 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 2 (Clique!) - 04/09/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 04/09/2026
+&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O presente conjunto de dados foi construído para simular uma situação
+real de pesquisa em uma escola pública brasileira, envolvendo 1000
+alunos e 5 variáveis que capturam diferentes dimensões da realidade
+escolar e sociofamiliar dos estudantes. Este banco de dados foi
+especialmente elaborado para atender aos objetivos pedagógicos do
+Mestrado Profissional em Matemática (PROFMAT), proporcionando aos
+alunos uma experiência prática e contextualizada no processo de
+análise estatística.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Justificativa da Escolha do Tema&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A escolha do contexto escolar público é particularmente significativa
+por várias razões:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Relevância social&lt;/strong&gt;: A educação pública no Brasil enfrenta
+desafios estruturais que merecem investigação aprofundada.
+Variáveis como frequência escolar, desempenho acadêmico e
+condições socioeconômicas são indicadores cruciais para políticas
+educacionais.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Familiaridade&lt;/strong&gt;: Alunos do PROFMAT, em sua maioria professores
+da educação básica, têm vivência direta com o ambiente escolar, o
+que facilita a compreensão e interpretação dos dados.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Complexidade apropriada&lt;/strong&gt;: O contexto escolar permite a
+utilização de todos os tipos de variáveis (quantitativas e
+qualitativas) de forma natural e coerente, sem forçamentos
+artificiais.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aplicabilidade prática&lt;/strong&gt;: Os dados permitem discussões que vão
+além da estatística descritiva, abrangendo questões pedagógicas,
+sociais e de gestão educacional.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Descrição Geral das Variáveis&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;u&gt;Número de Faltas&lt;/u&gt; (Quantitativa Discreta):
+Variável quantitativa discreta que representa a contagem de
+ausências do aluno ao longo do ano letivo.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Características&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Assume valores inteiros entre 0 e 30&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A frequência escolar é um dos principais preditores
+de desempenho acadêmico e abandono escolar, sendo objeto de políticas
+como o Programa Bolsa Família.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;u&gt;Nota Média&lt;/u&gt; (Quantitativa Contínua): Variável
+quantitativa contínua que expressa o desempenho acadêmico médio do
+aluno.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Características&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Valores no intervalo  $  [0, 10]  $  com uma casa decimal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A nota média é o indicador mais direto do rendimento
+escolar, permitindo análises de desempenho por grupos.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;u&gt;Turno de Estudo&lt;/u&gt; (Qualitativa Nominal): Variável
+qualitativa nominal com três categorias sem ordenação intrínseca.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Categorias&lt;/strong&gt;: Matutino, Vespertino e Noturno&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: O turno de estudo está associado a diferentes perfis
+de alunos (ex.: noturno geralmente composto por trabalhadores) e pode
+influenciar tanto a frequência quanto o desempenho acadêmico.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;u&gt;Escolaridade da Mãe&lt;/u&gt; (Qualitativa Ordinal):
+Variável qualitativa ordinal com hierarquia natural entre as
+categorias.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Categorias (ordem crescente)&lt;/strong&gt;: Fundamental, Médio e Superior&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: A escolaridade materna é um dos mais fortes
+preditores do desempenho educacional dos filhos, refletindo o capital
+cultural e socioeconômico da família. A variável foi tratada como
+ordinal exatamente para preservar essa hierarquia natural.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;u&gt;Acesso à Internet em Casa&lt;/u&gt; (Qualitativa Nominal):
+Variável qualitativa nominal dicotômica (binária).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Categorias&lt;/strong&gt;: Sim, Não&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Importância&lt;/strong&gt;: Em um mundo cada vez mais digital, o acesso à
+internet tornou-se fator crucial para a realização de pesquisas,
+acesso a materiais didáticos e participação em atividades educacionais
+remotas, especialmente após a pandemia de COVID-19.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Estrutura do Banco de Dados&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Variável&lt;/th&gt;
+&lt;th&gt;Tipo&lt;/th&gt;
+&lt;th&gt;Categoria&lt;/th&gt;
+&lt;th&gt;Escala de Medida&lt;/th&gt;
+&lt;th&gt;Valores Possíveis&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;faltas&lt;/td&gt;
+&lt;td&gt;Quantitativa&lt;/td&gt;
+&lt;td&gt;Discreta&lt;/td&gt;
+&lt;td&gt;Razão&lt;/td&gt;
+&lt;td&gt;0 a 30 (inteiros)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nota_media&lt;/td&gt;
+&lt;td&gt;Quantitativa&lt;/td&gt;
+&lt;td&gt;Contínua&lt;/td&gt;
+&lt;td&gt;Razão&lt;/td&gt;
+&lt;td&gt;0 a 10 (reais)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;turno&lt;/td&gt;
+&lt;td&gt;Qualitativa&lt;/td&gt;
+&lt;td&gt;Nominal&lt;/td&gt;
+&lt;td&gt;Nominal&lt;/td&gt;
+&lt;td&gt;Matutino, Vespertino, Noturno&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;escolaridade_mae&lt;/td&gt;
+&lt;td&gt;Qualitativa&lt;/td&gt;
+&lt;td&gt;Ordinal&lt;/td&gt;
+&lt;td&gt;Ordinal&lt;/td&gt;
+&lt;td&gt;Fundamental &amp;lt; Médio &amp;lt; Superior&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;acesso_internet&lt;/td&gt;
+&lt;td&gt;Qualitativa&lt;/td&gt;
+&lt;td&gt;Nominal&lt;/td&gt;
+&lt;td&gt;Nominal&lt;/td&gt;
+&lt;td&gt;Sim, Não&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 13h do dia 04/09/2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Questões a serem respondidas&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para orientar a exploração dos dados, sugerimos as seguintes questões
+investigativas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Relação entre infraestrutura e desempenho&lt;/strong&gt;: Alunos com acesso à
+internet em casa apresentam notas médias significativamente maiores?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Capital cultural e rendimento&lt;/strong&gt;: Como a escolaridade da mãe se
+relaciona com o desempenho dos alunos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Frequência e desempenho&lt;/strong&gt;: Qual é a correlação entre número de
+faltas e nota média? Existe um ponto crítico a partir do qual as
+faltas comprometem severamente o desempenho?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Perfil do aluno noturno&lt;/strong&gt;: Alunos do turno noturno têm mais
+faltas? Como seu desempenho se compara aos demais turnos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Desigualdades educacionais&lt;/strong&gt;: As variáveis sociofamiliares
+(escolaridade da mãe, acesso à internet) explicam parte da
+variabilidade no desempenho dos alunos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Análise por subgrupos&lt;/strong&gt;: Considerando conjuntamente turno e acesso
+à internet, que padrões emergem?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Sugestão de Roteiro de Análise&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Propomos que os alunos sigam este roteiro para explorar os dados de
+forma estruturada:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Análise univariada&lt;/strong&gt;: Explore cada variável individualmente&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Análise bivariada&lt;/strong&gt;: Investigue relações entre pares de variáveis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Análise multivariada&lt;/strong&gt;: Considere combinações de variáveis (ex.:
+tabelas de contingência com três dimensões)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Síntese&lt;/strong&gt;: Elabore um relatório com principais descobertas e
+recomendações&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reflexão&lt;/strong&gt;: Discuta as limitações metodológicas e sugestões para
+pesquisas futuras&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Banco de dados&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Arquivo &lt;code&gt;&amp;lt;&amp;gt;.csv&lt;/code&gt; para baixar: &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/relatorios/rel02/dados_alunos.csv&#34; target=&#34;_blank&#34;&gt;dados_alunos.csv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Código para importar o banco de dados:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados_alunos &amp;lt;- read.table(
+  file = &amp;quot;dados_alunos.csv&amp;quot;,
+  header = TRUE,
+  sep = &amp;quot;;&amp;quot;,
+  dec = &amp;quot;.&amp;quot;,
+  stringsAsFactors = FALSE
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 2 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 3 (Clique!) - 15/09/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 15/09/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 13h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O presente relatório tem como objetivo aprofundar a análise estatística
+do banco de dados utilizado no &lt;strong&gt;Relatório 2&lt;/strong&gt;, explorando as principais
+&lt;strong&gt;medidas de posição e de dispersão&lt;/strong&gt; aplicadas às variáveis quantitativas
+do estudo.&lt;/p&gt;
+&lt;p&gt;A partir das variáveis &lt;strong&gt;Número de Faltas&lt;/strong&gt; e &lt;strong&gt;Nota Média&lt;/strong&gt;, os alunos
+deverão calcular, interpretar e comparar diferentes medidas estatísticas,
+buscando compreender não apenas o comportamento típico dos dados, mas
+também sua variabilidade.&lt;/p&gt;
+&lt;p&gt;A proposta é avançar da simples apresentação dos dados para uma análise
+capaz de responder perguntas como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Qual é o valor que melhor representa o centro dos dados?&lt;/li&gt;
+&lt;li&gt;Os alunos apresentam comportamentos semelhantes ou bastante distintos?&lt;/li&gt;
+&lt;li&gt;A média é uma medida adequada para representar os dados?&lt;/li&gt;
+&lt;li&gt;Como a presença de valores extremos influencia as medidas de posição?&lt;/li&gt;
+&lt;li&gt;Dois grupos podem apresentar a mesma média e possuir comportamentos
+bastante diferentes?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dessa forma, o relatório deverá relacionar os cálculos estatísticos à
+interpretação do contexto educacional, evitando que as medidas sejam
+apresentadas apenas como resultados numéricos.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;i-classfas-fa-databasei-banco-de-dados&#34;&gt;&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; Banco de dados&lt;/h2&gt;
+&lt;p&gt;Será utilizado &lt;strong&gt;o mesmo banco de dados do Relatório 2&lt;/strong&gt;, contendo informações
+sobre 1000 alunos de uma escola pública brasileira.&lt;/p&gt;
+&lt;p&gt;As variáveis quantitativas consideradas inicialmente serão:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Faltas&lt;/strong&gt; — variável quantitativa discreta, com valores inteiros de 0 a
+30.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Nota Média&lt;/strong&gt; — variável quantitativa contínua, com valores entre 0 e 10,
+registrados com uma casa decimal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As variáveis qualitativas poderão ser utilizadas posteriormente para a
+formação de &lt;strong&gt;subgrupos de comparação&lt;/strong&gt;, especialmente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Turno de estudo;&lt;/li&gt;
+&lt;li&gt;Escolaridade da mãe;&lt;/li&gt;
+&lt;li&gt;Acesso à internet em casa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O banco de dados poderá ser importado utilizando:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;dados_alunos &amp;lt;- read.table(
+  file = &amp;quot;dados_alunos.csv&amp;quot;,
+  header = TRUE,
+  sep = &amp;quot;;&amp;quot;,
+  dec = &amp;quot;.&amp;quot;,
+  stringsAsFactors = FALSE
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;i-classfas-fa-chart-simplei-parte-i--medidas-de-posição&#34;&gt;&lt;i class=&#34;fas fa-chart-simple&#34;&gt;&lt;/i&gt; Parte I — Medidas de posição&lt;/h1&gt;
+&lt;p&gt;Para as variáveis &lt;strong&gt;faltas&lt;/strong&gt; e &lt;strong&gt;nota_media&lt;/strong&gt;, determine e interprete as
+seguintes medidas:&lt;/p&gt;
+&lt;h3 id=&#34;1-média-aritmética&#34;&gt;1. Média aritmética&lt;/h3&gt;
+&lt;p&gt;Calcule a média aritmética para:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;número de faltas;&lt;/li&gt;
+&lt;li&gt;nota média.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Apresente os resultados com uma quantidade adequada de casas decimais e
+interprete cada resultado no contexto da pesquisa.&lt;/p&gt;
+&lt;h3 id=&#34;2-mediana&#34;&gt;2. Mediana&lt;/h3&gt;
+&lt;p&gt;Calcule a mediana das duas variáveis.&lt;/p&gt;
+&lt;p&gt;Compare a mediana com a média e discuta:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A média e a mediana apresentam valores próximos ou muito diferentes?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;O que essa comparação pode indicar sobre a distribuição dos dados?&lt;/p&gt;
+&lt;h3 id=&#34;3-moda&#34;&gt;3. Moda&lt;/h3&gt;
+&lt;p&gt;Determine a moda de cada variável.&lt;/p&gt;
+&lt;p&gt;No caso de existirem várias modas, identifique e discuta essa situação.&lt;/p&gt;
+&lt;p&gt;Para a variável &lt;strong&gt;nota_media&lt;/strong&gt;, considere também a possibilidade de que
+diferentes valores apresentem a mesma frequência.&lt;/p&gt;
+&lt;h3 id=&#34;4-quartis&#34;&gt;4. Quartis&lt;/h3&gt;
+&lt;p&gt;Determine:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;primeiro quartil ( $  Q_1  $ );&lt;/li&gt;
+&lt;li&gt;segundo quartil ( $  Q_2  $ );&lt;/li&gt;
+&lt;li&gt;terceiro quartil ( $  Q_3  $ ).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Apresente uma interpretação contextualizada para cada quartil.&lt;/p&gt;
+&lt;p&gt;Por exemplo:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O que significa estar no primeiro quartil da distribuição das notas?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;5-percentis&#34;&gt;5. Percentis&lt;/h3&gt;
+&lt;p&gt;Calcule pelo menos os percentis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ P_{10} $ ;&lt;/li&gt;
+&lt;li&gt;$ P_{25} $ ;&lt;/li&gt;
+&lt;li&gt;$ P_{50} $ ;&lt;/li&gt;
+&lt;li&gt;$ P_{75} $ ;&lt;/li&gt;
+&lt;li&gt;$ P_{90} $ .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Explique o significado dos percentis obtidos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;i-classfas-fa-arrows-left-righti-parte-ii--medidas-de-dispersão&#34;&gt;&lt;i class=&#34;fas fa-arrows-left-right&#34;&gt;&lt;/i&gt; Parte II — Medidas de dispersão&lt;/h1&gt;
+&lt;p&gt;As medidas de posição permitem identificar valores representativos do
+conjunto de dados, mas não são suficientes para descrever completamente uma
+distribuição.&lt;/p&gt;
+&lt;p&gt;Assim, para as variáveis &lt;strong&gt;faltas&lt;/strong&gt; e &lt;strong&gt;nota_media&lt;/strong&gt;, determine:&lt;/p&gt;
+&lt;h3 id=&#34;6-amplitude-total&#34;&gt;6. Amplitude total&lt;/h3&gt;
+&lt;p&gt;Calcule:&lt;/p&gt;
+$$ 
+A = x_{\max} - x_{\min}
+$$
+&lt;p&gt;Interprete a amplitude encontrada para cada variável.&lt;/p&gt;
+&lt;h3 id=&#34;7-amplitude-interquartil&#34;&gt;7. Amplitude interquartil&lt;/h3&gt;
+&lt;p&gt;Calcule:&lt;/p&gt;
+$$ 
+AIQ = Q_3-Q_1
+$$
+&lt;p&gt;Explique o que essa medida representa e compare a dispersão central das
+variáveis.&lt;/p&gt;
+&lt;h3 id=&#34;8-variância&#34;&gt;8. Variância&lt;/h3&gt;
+&lt;p&gt;Calcule a variância amostral para as duas variáveis.&lt;/p&gt;
+&lt;p&gt;Discuta:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;o que representa a variância;&lt;/li&gt;
+&lt;li&gt;sua unidade de medida;&lt;/li&gt;
+&lt;li&gt;por que sua interpretação direta pode ser pouco intuitiva.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;9-desvio-padrão&#34;&gt;9. Desvio-padrão&lt;/h3&gt;
+&lt;p&gt;Calcule o desvio-padrão amostral.&lt;/p&gt;
+&lt;p&gt;Compare o desvio-padrão das variáveis com suas respectivas médias e discuta
+qual delas apresenta maior variabilidade em relação à sua escala.&lt;/p&gt;
+&lt;h3 id=&#34;10-coeficiente-de-variação&#34;&gt;10. Coeficiente de variação&lt;/h3&gt;
+&lt;p&gt;Calcule o coeficiente de variação:&lt;/p&gt;
+$$ 
+CV = \frac{s}{\bar{x}}\times100\%
+$$
+&lt;p&gt;Utilize o coeficiente de variação para comparar a variabilidade relativa das
+variáveis &lt;strong&gt;faltas&lt;/strong&gt; e &lt;strong&gt;nota_media&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Explique por que o coeficiente de variação pode ser mais adequado que o
+desvio-padrão quando se deseja comparar a variabilidade relativa.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;i-classfas-fa-usersi-parte-iii--comparação-entre-grupos&#34;&gt;&lt;i class=&#34;fas fa-users&#34;&gt;&lt;/i&gt; Parte III — Comparação entre grupos&lt;/h1&gt;
+&lt;p&gt;Nesta etapa, as medidas estatísticas deverão ser utilizadas para comparar
+diferentes grupos de alunos.&lt;/p&gt;
+&lt;h3 id=&#34;11-notas-segundo-o-acesso-à-internet&#34;&gt;11. Notas segundo o acesso à internet&lt;/h3&gt;
+&lt;p&gt;Separe os alunos em dois grupos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;alunos com acesso à internet;&lt;/li&gt;
+&lt;li&gt;alunos sem acesso à internet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para cada grupo, calcule:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;média;&lt;/li&gt;
+&lt;li&gt;mediana;&lt;/li&gt;
+&lt;li&gt;desvio-padrão;&lt;/li&gt;
+&lt;li&gt;mínimo;&lt;/li&gt;
+&lt;li&gt;máximo;&lt;/li&gt;
+&lt;li&gt;$ Q_1 $ ;&lt;/li&gt;
+&lt;li&gt;$ Q_3 $ ;&lt;/li&gt;
+&lt;li&gt;coeficiente de variação.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Compare os resultados.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Os dois grupos apresentam comportamento semelhante em relação às notas?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;12-notas-segundo-a-escolaridade-da-mãe&#34;&gt;12. Notas segundo a escolaridade da mãe&lt;/h3&gt;
+&lt;p&gt;Considere os três grupos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fundamental;&lt;/li&gt;
+&lt;li&gt;Médio;&lt;/li&gt;
+&lt;li&gt;Superior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Calcule as principais medidas de posição e dispersão da variável
+&lt;strong&gt;nota_media&lt;/strong&gt; para cada grupo.&lt;/p&gt;
+&lt;p&gt;Analise:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Como o centro e a variabilidade das notas se comportam à medida que
+aumenta a escolaridade da mãe?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Não se limite à comparação das médias. Considere também a mediana e as
+medidas de dispersão.&lt;/p&gt;
+&lt;h3 id=&#34;13-faltas-segundo-o-turno&#34;&gt;13. Faltas segundo o turno&lt;/h3&gt;
+&lt;p&gt;Compare as variáveis &lt;strong&gt;faltas&lt;/strong&gt; entre:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matutino;&lt;/li&gt;
+&lt;li&gt;Vespertino;&lt;/li&gt;
+&lt;li&gt;Noturno.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para cada turno, determine pelo menos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;média;&lt;/li&gt;
+&lt;li&gt;mediana;&lt;/li&gt;
+&lt;li&gt;desvio-padrão;&lt;/li&gt;
+&lt;li&gt;mínimo;&lt;/li&gt;
+&lt;li&gt;máximo;&lt;/li&gt;
+&lt;li&gt;amplitude interquartil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Analise:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Qual turno apresenta maior número típico de faltas?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Qual turno apresenta maior variabilidade?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A média e a mediana conduzem à mesma conclusão?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;i-classfas-fa-chart-columni-parte-iv--representação-gráfica&#34;&gt;&lt;i class=&#34;fas fa-chart-column&#34;&gt;&lt;/i&gt; Parte IV — Representação gráfica&lt;/h1&gt;
+&lt;p&gt;Produza representações gráficas que auxiliem na interpretação das medidas
+calculadas.&lt;/p&gt;
+&lt;h3 id=&#34;14-boxplot&#34;&gt;14. Boxplot&lt;/h3&gt;
+&lt;p&gt;Construa boxplots para:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;nota_media&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;faltas&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Identifique nos gráficos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mediana;&lt;/li&gt;
+&lt;li&gt;primeiro quartil;&lt;/li&gt;
+&lt;li&gt;terceiro quartil;&lt;/li&gt;
+&lt;li&gt;amplitude interquartil;&lt;/li&gt;
+&lt;li&gt;possíveis valores discrepantes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Explique como as informações apresentadas no boxplot estão relacionadas às
+medidas calculadas anteriormente.&lt;/p&gt;
+&lt;h3 id=&#34;15-comparação-entre-grupos&#34;&gt;15. Comparação entre grupos&lt;/h3&gt;
+&lt;p&gt;Produza gráficos que permitam comparar a distribuição das notas entre os
+grupos de:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;acesso à internet;&lt;/li&gt;
+&lt;li&gt;escolaridade da mãe;&lt;/li&gt;
+&lt;li&gt;turno.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Os gráficos devem ser acompanhados de uma interpretação estatística.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;i-classfas-fa-magnifying-glass-charti-parte-v--análise-crítica&#34;&gt;&lt;i class=&#34;fas fa-magnifying-glass-chart&#34;&gt;&lt;/i&gt; Parte V — Análise crítica&lt;/h1&gt;
+&lt;h3 id=&#34;16-média-versus-mediana&#34;&gt;16. Média versus mediana&lt;/h3&gt;
+&lt;p&gt;Escolha uma das variáveis quantitativas e responda:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Se fosse necessário escolher apenas uma medida de posição para representar
+o comportamento típico dos alunos, você escolheria a média ou a mediana?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Justifique sua resposta com base nos resultados encontrados.&lt;/p&gt;
+&lt;h3 id=&#34;17-o-efeito-da-variabilidade&#34;&gt;17. O efeito da variabilidade&lt;/h3&gt;
+&lt;p&gt;Considere dois grupos de alunos que eventualmente apresentem médias
+semelhantes.&lt;/p&gt;
+&lt;p&gt;Explique por que a análise apenas da média pode levar a conclusões
+incompletas.&lt;/p&gt;
+&lt;p&gt;Utilize as medidas de dispersão calculadas para fundamentar sua discussão.&lt;/p&gt;
+&lt;h3 id=&#34;18-medida-mais-adequada&#34;&gt;18. Medida mais adequada&lt;/h3&gt;
+&lt;p&gt;Para cada uma das situações abaixo, indique qual medida estatística você
+considera mais informativa e justifique:&lt;/p&gt;
+&lt;p&gt;a) identificar o desempenho médio dos alunos;&lt;/p&gt;
+&lt;p&gt;b) identificar o desempenho típico quando existem valores extremos;&lt;/p&gt;
+&lt;p&gt;c) avaliar a dispersão das notas;&lt;/p&gt;
+&lt;p&gt;d) comparar a variabilidade de duas variáveis com escalas diferentes;&lt;/p&gt;
+&lt;p&gt;e) identificar a posição de um aluno em relação aos demais.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;i-classfas-fa-tablei-parte-vi--tabela-estatística&#34;&gt;&lt;i class=&#34;fas fa-table&#34;&gt;&lt;/i&gt; Parte VI — Tabela estatística&lt;/h1&gt;
+&lt;p&gt;Elabore uma tabela-síntese contendo, para as variáveis &lt;code&gt;faltas&lt;/code&gt; e
+&lt;code&gt;nota_media&lt;/code&gt;:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Medida&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Faltas&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Nota Média&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mínimo&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$ Q_1 $&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Média&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mediana&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$ Q_3 $&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Máximo&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Amplitude&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AIQ&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Variância&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Desvio-padrão&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Coeficiente de variação&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;A tabela deverá ser acompanhada de uma análise textual destacando as
+principais características observadas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;i-classfas-fa-lightbulbi-síntese-e-reflexão&#34;&gt;&lt;i class=&#34;fas fa-lightbulb&#34;&gt;&lt;/i&gt; Síntese e reflexão&lt;/h1&gt;
+&lt;p&gt;Ao final do relatório, responda às seguintes questões:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Qual medida de posição melhor representa o comportamento das &lt;strong&gt;notas
+médias&lt;/strong&gt; dos alunos? Por quê?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Qual medida de posição melhor representa o comportamento do &lt;strong&gt;número de
+faltas&lt;/strong&gt;? Por quê?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Qual das duas variáveis apresenta maior variabilidade relativa?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A análise das medidas de dispersão modificou alguma conclusão que poderia
+ser obtida apenas pela média?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Quais diferenças foram observadas entre os grupos analisados?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Quais cuidados devem ser tomados ao interpretar essas diferenças?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Quais limitações devem ser consideradas antes de afirmar que as variáveis
+sociofamiliares são responsáveis pelo desempenho dos alunos?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; diferenças observadas entre grupos não significam,
+necessariamente, relações de causa e efeito. O relatório deve distinguir
+claramente &lt;strong&gt;descrição estatística&lt;/strong&gt;, &lt;strong&gt;associação&lt;/strong&gt; e &lt;strong&gt;causalidade&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;i-classfas-fa-file-linesi-estrutura-sugerida-para-o-relatório&#34;&gt;&lt;i class=&#34;fas fa-file-lines&#34;&gt;&lt;/i&gt; Estrutura sugerida para o relatório&lt;/h1&gt;
+&lt;p&gt;O relatório final deverá apresentar, preferencialmente, a seguinte
+estrutura:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Introdução&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Descrição do banco de dados&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metodologia&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medidas de posição&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medidas de dispersão&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Análise por subgrupos&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Representações gráficas&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussão dos resultados&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusões&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Limitações da análise&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Código R utilizado&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Os resultados devem ser acompanhados de &lt;strong&gt;interpretações&lt;/strong&gt;, evitando a
+simples apresentação de números ou saídas do R.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-classfas-fa-bullseyei-competências-esperadas&#34;&gt;&lt;i class=&#34;fas fa-bullseye&#34;&gt;&lt;/i&gt; Competências esperadas&lt;/h2&gt;
+&lt;p&gt;Ao concluir o Relatório 3, espera-se que o aluno seja capaz de:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;calcular medidas de posição utilizando R;&lt;/li&gt;
+&lt;li&gt;calcular medidas de dispersão utilizando R;&lt;/li&gt;
+&lt;li&gt;interpretar média, mediana e moda;&lt;/li&gt;
+&lt;li&gt;interpretar quartis e percentis;&lt;/li&gt;
+&lt;li&gt;compreender amplitude e amplitude interquartil;&lt;/li&gt;
+&lt;li&gt;interpretar variância e desvio-padrão;&lt;/li&gt;
+&lt;li&gt;utilizar o coeficiente de variação para comparar variabilidades;&lt;/li&gt;
+&lt;li&gt;relacionar medidas numéricas a representações gráficas;&lt;/li&gt;
+&lt;li&gt;comparar estatisticamente diferentes subgrupos;&lt;/li&gt;
+&lt;li&gt;distinguir medidas de posição de medidas de dispersão;&lt;/li&gt;
+&lt;li&gt;produzir uma síntese estatística contextualizada;&lt;/li&gt;
+&lt;li&gt;reconhecer as limitações de interpretações baseadas exclusivamente em
+estatísticas descritivas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 13h do dia &lt;strong&gt;15/09/2026&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 4 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 4 (Clique!) - 24/09/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 24/09/2026 &lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 23h59min.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;OBJETIVO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Na aula anterior estudamos os fundamentos da teoria de probabilidades. Para consolidar esse aprendizado, você deverá elaborar um &lt;strong&gt;relatório individual&lt;/strong&gt; que organize, explique e relacione os conceitos trabalhados em sala.
+O relatório &lt;strong&gt;não é um resumo do material didático&lt;/strong&gt;, nem uma cópia de definições. Espera-se um texto &lt;strong&gt;autoral&lt;/strong&gt;, no qual você:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;explique os conceitos com suas próprias palavras;&lt;/li&gt;
+&lt;li&gt;apresente as definições formais;&lt;/li&gt;
+&lt;li&gt;demonstre as propriedades e os teoremas;&lt;/li&gt;
+&lt;li&gt;construa exemplos e contraexemplos próprios;&lt;/li&gt;
+&lt;li&gt;reflita sobre a aplicação desses conteúdos na Educação Básica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Seu relatório deve abordar, obrigatoriamente, &lt;strong&gt;todos&lt;/strong&gt; os tópicos abaixo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Conceitos básicos de conjuntos no contexto probabilístico&lt;/strong&gt; — espaço amostral, eventos, operações entre eventos, eventos mutuamente exclusivos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Definição da medida de probabilidade pelos axiomas de Kolmogorov&lt;/strong&gt; — os três axiomas, no contexto de espaços amostrais finitos ou enumeráveis (sem o conceito formal de σ-álgebra).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Propriedades de probabilidade&lt;/strong&gt; — decorrentes dos axiomas (probabilidade do evento impossível, complementar, monotonicidade, aditividade para eventos não disjuntos, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Independência de eventos&lt;/strong&gt; — definição, distinção entre independência e exclusão mútua, independência de múltiplos eventos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teorema da Probabilidade Total&lt;/strong&gt; — partição do espaço amostral, enunciado e demonstração.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teorema de Bayes&lt;/strong&gt; — enunciado, demonstração e interpretação.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ao final, finalizamos com uma seguinte situação-problema: &amp;quot; O teste da Doença Rara na Escola&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Uma escola pública decidiu realizar, em caráter experimental, um programa de triagem para uma doença infecciosa rara entre seus 1.200 estudantes. A doença afeta &lt;strong&gt;1 em cada 100 estudantes&lt;/strong&gt; da população escolar. O teste utilizado tem as seguintes características, informadas pelo fabricante:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sensibilidade:&lt;/strong&gt; se o estudante &lt;strong&gt;tem&lt;/strong&gt; a doença, o teste dá positivo em &lt;strong&gt;90%&lt;/strong&gt; dos casos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Especificidade:&lt;/strong&gt; se o estudante &lt;strong&gt;não tem&lt;/strong&gt; a doença, o teste dá negativo em &lt;strong&gt;95%&lt;/strong&gt; dos casos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Um estudante é sorteado ao acaso e submetido ao teste. Ele &lt;strong&gt;testou positivo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pergunta central:&lt;/strong&gt; Qual é a probabilidade de esse estudante realmente ter a doença?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pergunta secundária (didática):&lt;/strong&gt; Esse resultado é intuitivo? Por que muitos diriam, equivocadamente, que é &amp;ldquo;90%&amp;rdquo;?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apresente ao final do relatório a solução da situação-problema usando as definições e teoremas abordados no presente relatório.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DATA DA ENTREGA:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Até às 23h59min. do dia &lt;strong&gt;24/09/2026&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim do Relatorio 4 --&gt;
+&lt;h2 id=&#34;ementa&#34;&gt;Ementa&lt;/h2&gt;
+&lt;p&gt;Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
+CAP/UFSJ&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Acesse a ementa do curso&lt;/summary&gt;
+  &lt;p&gt;&lt;ol&gt;
+&lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
+&lt;li&gt;Tabelas e gráficos&lt;/li&gt;
+&lt;li&gt;Medidas de posição&lt;/li&gt;
+&lt;li&gt;Medidas de dispersão e desenho esquemático (Box Plot)&lt;/li&gt;
+&lt;li&gt;Probabilidade: conceitos básicos, definições e propriedades&lt;/li&gt;
+&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade
+total e teorema de Bayes&lt;/li&gt;
+&lt;li&gt;Função e distribuição de probabilidade de uma variável aleatória
+discreta&lt;/li&gt;
+&lt;li&gt;Características numéricas de uma variável aleatória discreta&lt;/li&gt;
+&lt;li&gt;Função densidade de probabilidade de uma variável aleatória contínua&lt;/li&gt;
+&lt;li&gt;Características numéricas de uma variável aleatória contínua&lt;/li&gt;
+&lt;li&gt;Principais modelos probabilísticos discretos: uniforme, Bernoulli,
+binomial, geométrico, Poisson e hipergeométrico&lt;/li&gt;
+&lt;li&gt;Modelos probabilísticos contínuos. Principais modelos
+probabilísticos contínuos: uniforme, exponencial e normal&lt;/li&gt;
+&lt;li&gt;Teorema central do limite&lt;/li&gt;
+&lt;li&gt;Aproximação da distribuição binomial pela normal&lt;/li&gt;
+&lt;li&gt;Introdução à inferência estatística: primeiras ideias; propriedades
+dos estimadores&lt;/li&gt;
+&lt;li&gt;Erro quadrático médio e erro absoluto de estimação&lt;/li&gt;
+&lt;li&gt;Estimação pontual de parâmetros: estimadores de momentos;
+estimadores de mínimos quadrados&lt;/li&gt;
+&lt;li&gt;Estimadores de máxima verossimilhança&lt;/li&gt;
+&lt;li&gt;Distribuição amostral da média e proporção; dimensionamento da
+amostra&lt;/li&gt;
+&lt;li&gt;Intervalo de confiança para a média populacional e para proporção
+populacional&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologia&#34;&gt;Metodologia&lt;/h2&gt;
+&lt;p&gt;Nossas aulas serão divididas de acordo com as 18 semanas de aula. As
+aulas serão expositivas e dialogadas com os alunos presencialmente ou
+via portal didático, constituída pela seguinte estratégia de ensino:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Motivação:
+&lt;ul&gt;
+&lt;li&gt;Levantamento do conhecimento prévio dos alunos em relação ao tema;&lt;/li&gt;
+&lt;li&gt;Apresentação de algumas situações práticas para a compreensão dos
+tópicos a serem abordados;&lt;/li&gt;
+&lt;li&gt;Exposição dos objetivos da aula.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Desenvolvimento:
+&lt;ul&gt;
+&lt;li&gt;Introdução ao assunto abordado;&lt;/li&gt;
+&lt;li&gt;Apresentação de definições e teoremas envolvidos;&lt;/li&gt;
+&lt;li&gt;Aplicação de softwares estatísticos, quando for pertinente;&lt;/li&gt;
+&lt;li&gt;Exemplos e aplicações na estatística e área do curso, do assunto
+abordado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Detalhamento da metodologia&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;As aulas seguirão um modelo de metodologia ativa baseado nas
+coreografias didáticas. Criaremos um cenário em que o propagador de
+conhecimento também seja produzido pelo aluno. Ele será o protagonista.
+Desta forma, traremos métodos de aprendizagem do tipo &amp;ldquo;ensinar por
+aprender&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Nossas aulas estarão disponíveis em &lt;a href=&#34;http://bendeivide.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bendeivide.github.io/&lt;/a&gt;. Para
+os alunos matriculados na disciplina, também será possível acompanhar o
+material pelo portal didático. Nossas aulas terão &lt;strong&gt;3 (quatro) horas
+semanais de aulas presenciais&lt;/strong&gt;, um total de 60h.&lt;/p&gt;
+&lt;p&gt;Faremos também uma retramissão do conteúdo abordado durante a semana
+pelo canal do youtube &lt;a href=&#34;https://youtube.com/bendeivide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtube.com/bendeivide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Iremos utilizar diversas ferramentas do google como os seus editores de
+textos, planilhas e apresentadores. Também utilizaremos o &lt;em&gt;overlief&lt;/em&gt;
+para usuários de LaTeX. Com a linguagem &lt;em&gt;R&lt;/em&gt;, mostraremos documentos
+dinâmicos, usando o &lt;em&gt;R Markdown&lt;/em&gt; e o &lt;em&gt;shiny&lt;/em&gt;, também para o
+desenvolvimento de materiais didáticos, quanto para as atividades com os
+alunos. Todas essas ferramentas tecnológicas são gratuitas e de fácil
+instalação para os alunos, uma vez que dareremos todo o suporte, de
+forma que os alunos estejam capacitados a utilizar todas as ferramentas
+quando necessário.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;avaliacao&#34;&gt;Avaliação&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Segue um detalhamento das nossas avaliações&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;Faremos toda semana relatórios baseado em nossas aula teóricas e
+práticas, usando o &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;,
+&lt;a href=&#34;https://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; $ \LaTeX $ &lt;/a&gt; e
+&lt;a href=&#34;https://quarto.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quarto&lt;/a&gt;, integrando estes relatórios ao
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A disciplina terá uma pontuação total de 10 pontos, sendo 80%
+distribuído aos relatórios, e 20% distribuídos aos nossos testes
+rápidos, trabalhos ou qualquer outra dinâmica que consiga obter
+informações da captação de conhecimento no momento da aula.&lt;/p&gt;
+&lt;p&gt;Para ser aprovado o aluno deverá obter nota final maior ou igual a 60
+pontos e não poderá faltar mais de 25% das aulas. O discente que não for
+aprovado por nota poderá fazer uma prova substitutiva, incluindo todo o
+conteúdo da disciplina.&lt;/p&gt;
+&lt;p&gt;O discente que perder algum relatório ou atividade avaliativa referente
+aos 20% dos pontos informados anteriormente, deverá solicitar a
+coordenadoria de seu curso uma segunda chamada para tal atividade
+perdida, justificando a ausência da entrega. Sendo deferida pela
+coordação, faremos a segunda chamada de tal atividade.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;bibliografia-adotada-para-a-disciplina&#34;&gt;Bibliografia adotada para a disciplina&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;Bibliografia detalhada&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&amp;amp;url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&amp;amp;usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. &lt;strong&gt;Análise
+combinatória e probabilidade&lt;/strong&gt;. SBM, 2005 (Capítulo
+5).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUSSABW, MORETTIN, W. &lt;strong&gt;Estatística básica&lt;/strong&gt;. Editora Saraiva, 2010.&lt;/li&gt;
+&lt;li&gt;PINHEIRO, R; CUNHA, G. &lt;strong&gt;Probabilidade e estatística&lt;/strong&gt;: quantificando
+a incerteza. Editora Campus, 2012.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;matadotado&#34;&gt;Materiais adotado&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Livro &lt;a href=&#34;http://bendeivide.github.io/books/epprofmat/&#34;&gt;Estatística e Probabilidade: Um curso para o
+PROFMAT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Livro &lt;a href=&#34;http://bendeivide.github.io/book-epaec/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EPAEC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para
+&lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;Materiais complementares&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/books/estbasica/&#34;&gt;Estatística Básica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://leg.ufpr.br/~paulojus/estbas/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Básica (Departamento de Estatística, UFPR)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/talesjfer/Apostila-Estatistica-Aplicada&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística Aplicada (Tales Jesus Fernandes, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://repositorio.ufla.br/bitstream/1/41344/1/Gex112_0.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resumo do Livro Estatística Básica (Daniel Furtado, UFLA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://educapes.capes.gov.br/bitstream/capes/432207/2/Livro_Estatistica%20e%20Probabilidade.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade (UECE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.editorapantanal.com.br/ebooks/2021/estimacao-estatistica/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estimação Estatística (Assis, et. al. 2021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.unifal-mg.edu.br/bibliotecas/system/files/imce/EBR_Unifal.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução à estatística com R (Eric Ferreira &amp;amp; Marcelo Oliveira )&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/345985082_Introducao_a_Linguagem_R_seus_fundamentos_e_sua_pratica&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introdução a linguagem R: seus fundamentos e práticas (Pedro Faria &amp;amp; João Parga)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2020/08/testes-de-hipoteses-estatisticas-edufersa.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Teste de Hipóteses Estatísticas (Janilson Pinheiro de Assis et. al., UFERSA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://livraria.ufersa.edu.br/wp-content/uploads/sites/165/2019/07/Glossario-de-Estatistica_2019-1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glossário de Estatística (Janilson Pinheiro de Assis, UFERSA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCoL7IgyKRZ6JBog71LnoGzA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canal Ciência Estatística&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://editorapantanal.com.br/ebooks/2023/probabilidade-e-estatistica-exercicios/ebook.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Estatística e Probabilidade: Exercícios (Assis et. al., 2023)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;metodologias-ativas&#34;&gt;Metodologias ativas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;Aprender por ensinar&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de Arquivo em power
+point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q8-YQYC48ufVJqQVj3_7VEytSouk0u_n/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resultado em
+vídeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Os programas necessários:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Editor de Slides: o MS Power Point (Instalado previamente no
+Windows);
+&lt;a href=&#34;https://www.libreoffice.org/download/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreOffice&lt;/a&gt;;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gravador de tela e de seu áudio: &lt;a href=&#34;https://obsproject.com/pt-br/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OBS
+Studio&lt;/a&gt; OBS.: Os programas
+são esses. Qualquer dúvida, favor me procurar.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YqMQix2P1oU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;Mapas Mentais&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
+vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1tpHtGiDbpQ01zoxhOmQMa4Rqf4G6JbMO2c6EYdyrQCo/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;Resumo de Cornell&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Dúvidas de como desenvolver, faça uso dos buscadores na internet,
+vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1XEc3IWEcn2Kx40XjaOGF-wKAXHseTrOqbcIibdOmod8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;como-estudar-e-aprender&#34;&gt;Como estudar e aprender&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/noXqEGIZak8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34;&gt;Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação da disciplina e Introdução ao R&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 01 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; &lt;em&gt;R Markdown&lt;/em&gt;, Quarto, &lt;em&gt;Github&lt;/em&gt; e como desenvolver nossos relatórios de avaliação&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 02 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Conceitos básicos: tipos de variáveis; distribuições de frequências&lt;/li&gt;
+&lt;li&gt;Tabelas e gráficos&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula03/aula28.08.26.R&#34; target=&#34;_blank&#34;&gt;Script Aula 03.R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula03/aula28.08.26.pdf&#34; target=&#34;_blank&#34;&gt;PDF_Aula_03.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 03 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+  &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Medidas de posição&lt;/li&gt;
+&lt;li&gt;Medidas de dispersão e desenho esquemático (Box Plot)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula04/aula04.pdf&#34; target=&#34;_blank&#34;&gt;PDF_Aula_04.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 04 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+  &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Probabilidade: conceitos básicos, definições e propriedades&lt;/li&gt;
+&lt;li&gt;Probabilidade condicional e independência; teorema da probabilidade total e teorema de Bayes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-file-pdf  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;a href=&#34;http://bendeivide.github.io/profmat/2026.2/aula05/aula05.pdf&#34; target=&#34;_blank&#34;&gt;PDF_Aula_05.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 05 --&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+  &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
+  &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Defesa:&lt;/strong&gt; Relatórios 1, 2 e 3&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;!-- Fim da Aula 06 --&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+  &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
+  &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+  &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Sugestões e críticas sobre o livro podem ser enviadas para
+&lt;a href=&#34;mailto:livrosdeben@gmail.com&#34;&gt;livrosdeben@gmail.com&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
