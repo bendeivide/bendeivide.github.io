@@ -605,4 +605,3 @@ Um reator tem três sensores independentes $S_1, S_2, S_3$ com probabilidades de
 - **Sem uso de R**: todas as questões foram pensadas para resolução analítica (papel e caneta), com respostas numéricas ou demonstrações.
 - **Sem variáveis aleatórias**: não há exercícios envolvendo distribuições discretas ou contínuas, pois esse conteúdo é posterior ao capítulo.
 - **Contexto**: todos os enunciados são ambientados em Engenharia Química (reatores, válvulas, bombas, tubulações, efluentes, catalisadores, etc.).
-- **Como compilar**: salve o arquivo como `lista_probabilidade_eq.Rmd` e clique em **Knit** no RStudio.

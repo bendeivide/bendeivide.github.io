@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/teoria-de-decisao/</link>
       <atom:link href="http://bendeivide.github.io/category/teoria-de-decisao/index.xml" rel="self" type="application/rss+xml" />
     <description>Teoria de Decisão</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 16 Sep 2026 06:41:31 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Sep 2026 15:14:21 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>Teoria de Decisão</title>
@@ -1247,7 +1247,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;&lt;/li&gt;
     <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/epaec/normal2026.2/</link>
-      <pubDate>Mon, 24 Aug 2026 12:57:29 -0300</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:14:21 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/epaec/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -1560,9 +1560,12 @@ Blucher, 2007.&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;i-classfas-fa-clipboard-listi-listas-de-exercícios&#34;&gt;&lt;i class=&#34;fas fa-clipboard-list&#34;&gt;&lt;/i&gt; &lt;strong&gt;Listas de exercícios&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bendeivide.github.io/epaec/2026.2/listas/lista_cap05/&#34; target=&#34;_blank&#34;&gt;Lista 05&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;experimentos&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fa fa-flask&#34;&gt;&lt;/i&gt; Experimentos para as aulas práticas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
   &lt;summary&gt;⚗️ Experimento da catapulta&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;O experimento da catapulta consiste no lançamento de uma bolinha por meio de um dispositivo mecânico, variando-se condições como a posição do elástico, posição da bolinha e o ângulo de disparo. O objetivo é analisar como essas variáveis podem ou não influenciar a distância percorrida pela bolinha.&lt;/p&gt;
 &lt;p&gt;Ou melhor,&lt;/p&gt;
@@ -1737,7 +1740,7 @@ $$
 &lt;/div&gt;
 &lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt; 
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação do
@@ -1842,7 +1845,7 @@ target=&#34;_blank&#34;&gt;Técnicas de Somatório&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R e Aula Prática 01&lt;/p&gt;
@@ -1918,7 +1921,7 @@ target=&#34;_blank&#34;&gt;Comandos no R e Ambiente Global&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim de Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II) e &lt;a href=&#34;https://bendeivide.github.io/book-epaec/cap02.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capítulo 2&lt;/a&gt;&lt;/p&gt;
@@ -2014,7 +2017,7 @@ Estatística e Probabilidade (ER - 2021.2) - Aula 02: Exercícios resolvidos aos
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Aula Prática 02 - Cap. 01 e 02&lt;/p&gt;
@@ -2039,7 +2042,7 @@ target=&#34;_blank&#34;&gt;Exercícios resolvidos&lt;/a&gt;&lt;/li&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; &lt;a href=&#34;#relatorio%22&#34;&gt;Como desenvolver Relatórios Web&lt;/a&gt;&lt;/p&gt;
@@ -2101,7 +2104,7 @@ Relatórios para páginas web (R &amp;amp; GitHub) - Parte II&lt;/a&gt;&lt;/li&g
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -2163,7 +2166,7 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 06 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;🎓 Aula 7&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -2237,7 +2240,7 @@ target=&#34;_blank&#34;&gt;Estatística e Probabilidade (ER - 2021) - Aula 04: M
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 07 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;🎓 Aula 8&lt;/summary&gt;
   &lt;p&gt;&lt;!-- Div de aula 06 --&gt;
 &lt;div style=&#34;margin-left: 20px;&#34;&gt;
@@ -2324,11 +2327,11 @@ href=&#34;http://bendeivide.github.io/courses/epaec/resest/&#34;
 target=&#34;_blank&#34;&gt;Resumos da Estatística&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
