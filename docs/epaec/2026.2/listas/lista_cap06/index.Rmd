@@ -1,0 +1,865 @@
+---
+title: "Lista de Exercícios de Probabilidade em Engenharia Química"
+author: "Baseado no Capítulo 5 do livro EPAEC"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+# Introdução
+
+Esta lista contém 50 exercícios de Probabilidade aplicados à Engenharia Química, abordando:
+
+- **Probabilidade básica** e variáveis aleatórias
+- **Distribuições discretas**: Bernoulli, Binomial, Poisson
+- **Distribuições contínuas**: Uniforme, Exponencial, Normal, Gama
+- **Aplicações típicas**: reatores, tubulações, catalisadores, tratamento de efluentes, controle de qualidade
+
+---
+
+# Parte I — Probabilidade Básica e Distribuições Discretas
+
+## Exercício 1
+
+Uma planta química registra que 30% das falhas em tubulações são causadas por erro operacional. Sorteiam-se 20 registros de falhas ao acaso. Seja $X$ o número de falhas causadas por erro operacional.
+
+**(a)** Qual é a distribuição de $X$? Escreva sua função de probabilidade.
+**(b)** Calcule $P(X = 5)$.
+**(c)** Calcule $P(X \leq 4)$.
+**(d)** Calcule $P(X \geq 10)$.
+
+```{r}
+n <- 20
+p <- 0.30
+# (b)
+dbinom(5, n, p)
+# (c)
+pbinom(4, n, p)
+# (d)
+1 - pbinom(9, n, p)
+```
+
+---
+
+## Exercício 2
+
+Em um reator em batelada, a probabilidade de ocorrer descontrole térmico em cada batelada é 0,05. Suponha independência entre bateladas e realize 10 bateladas.
+
+**(a)** Qual a probabilidade de exatamente 2 descontroles?
+**(b)** Qual a probabilidade de pelo menos 1 descontrole?
+**(c)** Qual a esperança e a variância do número de descontroles?
+
+```{r}
+n <- 10
+p <- 0.05
+dbinom(2, n, p)
+1 - dbinom(0, n, p)
+n * p
+n * p * (1 - p)
+```
+
+---
+
+## Exercício 3
+
+A taxa de desativação de um catalisador segue distribuição de Poisson com média de 2,5 eventos por mês.
+
+**(a)** Qual a probabilidade de nenhum evento em um mês?
+**(b)** Qual a probabilidade de mais de 5 eventos em um mês?
+**(c)** Qual a esperança e o desvio padrão?
+
+```{r}
+lambda <- 2.5
+dpois(0, lambda)
+1 - ppois(5, lambda)
+lambda
+sqrt(lambda)
+```
+
+---
+
+## Exercício 4
+
+A probabilidade de que o teor de impureza na alimentação de uma coluna de destilação esteja acima do limite é 0,15. Sorteiam-se 8 lotes.
+
+**(a)** Probabilidade de exatamente 3 lotes fora do limite?
+**(b)** Probabilidade de no máximo 2 lotes fora do limite?
+**(c)** Probabilidade de pelo menos 5 lotes fora do limite?
+
+```{r}
+n <- 8
+p <- 0.15
+dbinom(3, n, p)
+pbinom(2, n, p)
+1 - pbinom(4, n, p)
+```
+
+---
+
+## Exercício 5
+
+Um trocador de calor apresenta, em média, um vazamento a cada 3 anos (Poisson).
+
+**(a)** Qual a probabilidade de ocorrer vazamento em um ano?
+**(b)** Qual a probabilidade de não ocorrer vazamento em dois anos?
+
+```{r}
+lambda_ano <- 1/3
+1 - dpois(0, lambda_ano)
+dpois(0, 2 * lambda_ano)
+```
+
+---
+
+## Exercício 6
+
+Em uma planta, 3 bombas operam em paralelo de forma independente, com probabilidades de operação normal iguais a 0,85, 0,80 e 0,95.
+
+**(a)** Qual a probabilidade de exatamente 2 bombas operarem?
+**(b)** Qual a probabilidade de ao menos 1 bomba operar?
+
+```{r}
+p <- c(0.85, 0.80, 0.95)
+p2 <- p[1]*p[2]*(1-p[3]) + p[1]*(1-p[2])*p[3] + (1-p[1])*p[2]*p[3]
+p2
+1 - prod(1 - p)
+```
+
+---
+
+## Exercício 7
+
+O sistema de água de resfriamento falha, em média, 0,5 vez por semana (Poisson).
+
+**(a)** Qual a probabilidade de pelo menos 1 falha em uma semana?
+**(b)** Qual a probabilidade de no máximo 2 falhas em 4 semanas?
+
+```{r}
+lambda_semana <- 0.5
+1 - dpois(0, lambda_semana)
+lambda_mes <- 0.5 * 4
+ppois(2, lambda_mes)
+```
+
+---
+
+## Exercício 8
+
+Uma planta registra em média 1,8 eventos de desativação de catalisador a cada 1000 horas (Poisson).
+
+**(a)** Probabilidade de no máximo 2 eventos em 1000 horas?
+**(b)** Probabilidade de pelo menos 3 eventos em 2000 horas?
+
+```{r}
+lambda <- 1.8
+ppois(2, lambda)
+lambda2 <- 1.8 * 2
+1 - ppois(2, lambda2)
+```
+
+---
+
+## Exercício 9
+
+Em cada 10 km de tubulação, ocorrem em média 0,5 vazamentos por ano (Poisson).
+
+**(a)** Probabilidade de nenhum vazamento em 20 km por ano?
+**(b)** Probabilidade de pelo menos 2 vazamentos em 50 km por ano?
+
+```{r}
+lambda_20 <- 0.5 * 2
+dpois(0, lambda_20)
+lambda_50 <- 0.5 * 5
+1 - ppois(1, lambda_50)
+```
+
+---
+
+## Exercício 10
+
+O número de falhas anuais de uma bomba de resfriamento segue Poisson com média 2.
+
+**(a)** Probabilidade de nenhuma falha em um ano?
+**(b)** Probabilidade de mais de 3 falhas em um ano?
+
+```{r}
+lambda <- 2
+dpois(0, lambda)
+1 - ppois(3, lambda)
+```
+
+---
+
+## Exercício 11
+
+Em um processo químico, cada experimento tem probabilidade 0,7 de sucesso. Realizam-se 10 experimentos independentes.
+
+**(a)** Probabilidade de exatamente 7 sucessos?
+**(b)** Probabilidade de pelo menos 8 sucessos?
+
+```{r}
+n <- 10
+p <- 0.7
+dbinom(7, n, p)
+1 - pbinom(7, n, p)
+```
+
+---
+
+## Exercício 12
+
+Uma amostra de 1 litro de produto contém, em média, 3 partículas de impureza (Poisson).
+
+**(a)** Probabilidade de nenhuma partícula em 1 litro?
+**(b)** Probabilidade de pelo menos 1 partícula em 2 litros?
+
+```{r}
+lambda <- 3
+dpois(0, lambda)
+1 - dpois(0, 2 * lambda)
+```
+
+---
+
+## Exercício 13
+
+Um lote de 50 metros de tubulação apresenta, em média, 0,02 defeito por metro (Poisson).
+
+**(a)** Esperança e variância do número de defeitos em 50 m.
+**(b)** Probabilidade de nenhum defeito.
+
+```{r}
+lambda <- 0.02 * 50
+lambda
+dpois(0, lambda)
+```
+
+---
+
+## Exercício 14
+
+Em um reator, 15% das bateladas apresentam impureza acima do limite. Sorteiam-se 20 bateladas.
+
+**(a)** Probabilidade de pelo menos 10 fora do limite?
+**(b)** Probabilidade de no máximo 4 fora do limite?
+**(c)** Probabilidade de exatamente 5 fora do limite?
+
+```{r}
+n <- 20
+p <- 0.15
+1 - pbinom(9, n, p)
+pbinom(4, n, p)
+dbinom(5, n, p)
+```
+
+---
+
+## Exercício 15
+
+Uma torre de resfriamento falha em média 0,8 vez por mês (Poisson).
+
+**(a)** Probabilidade de nenhuma falha em um mês?
+**(b)** Probabilidade de pelo menos 1 falha em 3 meses?
+
+```{r}
+lambda <- 0.8
+dpois(0, lambda)
+1 - dpois(0, 3 * lambda)
+```
+
+---
+
+# Parte II — Distribuições Contínuas
+
+## Exercício 16
+
+O tempo de residência $T$ (min) em um reator segue exponencial com $\lambda = 0{,}1$.
+
+**(a)** Probabilidade de tempo de residência superior a 10 min.
+**(b)** Probabilidade entre 5 e 15 min.
+**(c)** Valor $t$ tal que $P(T > t) = 0{,}01$.
+
+```{r}
+lambda <- 0.1
+1 - pexp(10, lambda)
+pexp(15, lambda) - pexp(5, lambda)
+qexp(0.99, lambda)
+```
+
+---
+
+## Exercício 17
+
+A massa molar $M$ (g/mol) de um polímero segue $N(50000, 5000^2)$.
+
+**(a)** Probabilidade de $M > 55000$.
+**(b)** Probabilidade de $45000 < M < 52000$.
+**(c)** Probabilidade de $M < 40000$.
+
+```{r}
+mu <- 50000
+sigma <- 5000
+1 - pnorm(55000, mu, sigma)
+pnorm(52000, mu, sigma) - pnorm(45000, mu, sigma)
+pnorm(40000, mu, sigma)
+```
+
+---
+
+## Exercício 18
+
+A concentração de sólidos suspensos no efluente (mg/L) segue $N(48, 6^2)$. O limite é 60 mg/L.
+
+**(a)** Probabilidade de ultrapassar o limite.
+**(b)** Em 20 dias úteis, esperança e desvio padrão do número de dias em não conformidade.
+
+```{r}
+mu <- 48
+sigma <- 6
+p_exceed <- 1 - pnorm(60, mu, sigma)
+p_exceed
+n_dias <- 20
+n_dias * p_exceed
+sqrt(n_dias * p_exceed * (1 - p_exceed))
+```
+
+---
+
+## Exercício 19
+
+A temperatura $T$ (°C) de um reator tubular segue $N(350, 15^2)$. O limite de segurança é 380 °C.
+
+**(a)** Probabilidade de ultrapassar o limite.
+**(b)** Probabilidade de $340 < T < 365$.
+**(c)** Percentil 95 de $T$.
+
+```{r}
+mu <- 350
+sigma <- 15
+1 - pnorm(380, mu, sigma)
+pnorm(365, mu, sigma) - pnorm(340, mu, sigma)
+qnorm(0.95, mu, sigma)
+```
+
+---
+
+## Exercício 20
+
+A resistência à compressão $S$ (MPa) segue $N(29{,}70; 0{,}98^2)$.
+
+**(a)** $P(S > 30{,}00)$.
+**(b)** $P(28{,}00 < S < 33{,}00)$.
+**(c)** Limite que cobre 95% dos valores.
+
+```{r}
+mu <- 29.70
+sigma <- 0.98
+1 - pnorm(30.00, mu, sigma)
+pnorm(33.00, mu, sigma) - pnorm(28.00, mu, sigma)
+qnorm(0.95, mu, sigma)
+```
+
+---
+
+## Exercício 21
+
+A concentração de impureza $C$ (ppm) tem densidade $f(c) = k c^2$, para $0 \le c \le 2$.
+
+**(a)** Determine $k$.
+**(b)** Calcule $P(0{,}5 < C < 1{,}5)$.
+**(c)** Calcule $E(C)$ e $Var(C)$.
+
+```{r}
+k <- 3/8
+integrate(function(c) k * c^2, 0.5, 1.5)$value
+integrate(function(c) c * k * c^2, 0, 2)$value
+integrate(function(c) c^2 * k * c^2, 0, 2)$value - (3/2)^2
+```
+
+---
+
+## Exercício 22
+
+A vida útil $X$ (mil horas) de um componente segue exponencial com $\lambda = 1$. Custo: R$ 2,00; venda: R$ 5,00; se $X \le 0{,}9$, reembolso total.
+
+**(a)** Lucro esperado por componente.
+
+```{r}
+lambda <- 1
+p_falha <- pexp(0.9, lambda)
+(1 - p_falha) * 3 + p_falha * (-3)
+```
+
+---
+
+## Exercício 23
+
+A temperatura $T$ de um reator tem densidade $f(t) = c(1 + t^2)$, $-1 \le t \le 2$.
+
+**(a)** Determine $c$.
+**(b)** $P(T > 1)$.
+
+```{r}
+c_val <- 1 / integrate(function(t) 1 + t^2, -1, 2)$value
+c_val
+integrate(function(t) c_val * (1 + t^2), 1, 2)$value
+```
+
+---
+
+## Exercício 24
+
+A concentração $X$ na saída de um misturador tem densidade $f(x) = 10/x^2$, $x > 10$.
+
+**(a)** $P(X > 20)$.
+**(b)** Função de distribuição acumulada.
+
+```{r}
+integrate(function(x) 10/x^2, 20, Inf)$value
+# F(x) = 1 - 10/x
+```
+
+---
+
+## Exercício 25
+
+O diâmetro $D$ (mm) de um tubo segue $U(0{,}20; 4{,}25)$.
+
+**(a)** $P(D > 3)$.
+**(b)** $P$ em torno da média ± 1 mm.
+
+```{r}
+a <- 0.20
+b <- 4.25
+1 - punif(3, a, b)
+mu <- (a + b) / 2
+punif(mu + 1, a, b) - punif(mu - 1, a, b)
+```
+
+---
+
+## Exercício 26
+
+O volume diário de efluente $V$ (mil galões) tem densidade $f(v) = 5(1-v)^4$, $0 < v < 1$.
+
+**(a)** Capacidade para garantir $P(\text{transbordo}) < 0{,}01$.
+
+```{r}
+q <- 1 - (1 - 0.99)^(1/5)
+q
+```
+
+---
+
+## Exercício 27
+
+A temperatura $T$ de um reator segue $N(16, 5^2)$.
+
+**(a)** $P(T \ge 17)$.
+**(b)** $P(T \le 14)$.
+**(c)** $P(13 < T < 20)$.
+**(d)** $a$ tal que $P(T < a) = 0{,}75$.
+
+```{r}
+mu <- 16
+sigma <- 5
+1 - pnorm(17, mu, sigma)
+pnorm(14, mu, sigma)
+pnorm(20, mu, sigma) - pnorm(13, mu, sigma)
+qnorm(0.75, mu, sigma)
+```
+
+---
+
+## Exercício 28
+
+O peso $W$ (g) de embalagens segue normal com média 600 g. Deseja-se que no máximo 1 em 100 caixas esteja fora de $[590, 610]$.
+
+**(a)** Desvio padrão máximo.
+
+```{r}
+z <- qnorm(0.995)
+10 / z
+```
+
+---
+
+## Exercício 29
+
+A taxa de conversão $Y$ (%) segue $N(85, 2^2)$.
+
+**(a)** $P(Y > 88)$.
+**(b)** $P(82 < Y < 87)$.
+**(c)** Percentil 10.
+
+```{r}
+mu <- 85
+sigma <- 2
+1 - pnorm(88, mu, sigma)
+pnorm(87, mu, sigma) - pnorm(82, mu, sigma)
+qnorm(0.10, mu, sigma)
+```
+
+---
+
+## Exercício 30
+
+A vida útil $L$ (meses) de um catalisador segue exponencial com média 24 meses.
+
+**(a)** $P(L > 30)$.
+**(b)** $P(12 < L < 36)$.
+**(c)** Percentil 80.
+
+```{r}
+lambda <- 1/24
+1 - pexp(30, lambda)
+pexp(36, lambda) - pexp(12, lambda)
+qexp(0.80, lambda)
+```
+
+---
+
+## Exercício 31
+
+A densidade $D$ (g/cm³) tem densidade $f(d) = \tfrac{1}{4} d e^{-d/2}$, $d > 0$.
+
+**(a)** $E(D)$.
+**(b)** $Var(D)$.
+
+```{r}
+# Gama(2, taxa=1/2): E=4, Var=8
+```
+
+---
+
+## Exercício 32
+
+O tempo de residência $T$ segue exponencial e $P(T < 1) = 0{,}05$.
+
+**(a)** Determine $\lambda$.
+**(b)** $P(T > 5)$.
+
+```{r}
+lambda <- -log(0.95)
+lambda
+exp(-lambda * 5)
+```
+
+---
+
+## Exercício 33
+
+O pH do efluente segue $N(7{,}2; 0{,}3^2)$. Faixa permitida: $[6{,}5; 8{,}0]$.
+
+**(a)** Probabilidade de não conformidade em um dia.
+**(b)** Probabilidade de 3 dias consecutivos conformes.
+
+```{r}
+mu <- 7.2
+sigma <- 0.3
+p_ok <- pnorm(8.0, mu, sigma) - pnorm(6.5, mu, sigma)
+1 - p_ok
+p_ok^3
+```
+
+---
+
+## Exercício 34
+
+A temperatura $T$ tem densidade gama com forma 2 e taxa 0,5.
+
+**(a)** $P(T > 4)$.
+**(b)** Função de distribuição acumulada.
+
+```{r}
+1 - pgamma(4, shape = 2, rate = 0.5)
+# F(t) = 1 - (1 + t/2) * exp(-t/2)
+```
+
+---
+
+## Exercício 35
+
+A vida $X$ (meses) de um selo segue exponencial com média 36 meses.
+
+**(a)** $P(X > 48)$.
+**(b)** $P(X < 12)$.
+
+```{r}
+lambda <- 1/36
+1 - pexp(48, lambda)
+pexp(12, lambda)
+```
+
+---
+
+## Exercício 36
+
+A produção $Y$ (t/dia) segue $N(50, 5^2)$.
+
+**(a)** $P(Y > 60)$.
+**(b)** $P(45 < Y < 55)$.
+**(c)** Percentil 90.
+
+```{r}
+mu <- 50
+sigma <- 5
+1 - pnorm(60, mu, sigma)
+pnorm(55, mu, sigma) - pnorm(45, mu, sigma)
+qnorm(0.90, mu, sigma)
+```
+
+---
+
+## Exercício 37
+
+A queda de pressão $P$ (kPa) segue $N(25, 3^2)$.
+
+**(a)** $P(P > 30)$.
+**(b)** $P(P < 20)$.
+
+```{r}
+mu <- 25
+sigma <- 3
+1 - pnorm(30, mu, sigma)
+pnorm(20, mu, sigma)
+```
+
+---
+
+## Exercício 38
+
+A vazão $F$ (L/min) segue $U(90, 110)$.
+
+**(a)** $P(F > 105)$.
+**(b)** $P(95 < F < 102)$.
+
+```{r}
+a <- 90
+b <- 110
+1 - punif(105, a, b)
+punif(102, a, b) - punif(95, a, b)
+```
+
+---
+
+## Exercício 39
+
+O nível $L$ (m) de um tanque segue $N(8; 1{,}5^2)$. Alarme em 10 m.
+
+**(a)** Probabilidade de disparar o alarme.
+**(b)** $P(L < 5)$.
+
+```{r}
+mu <- 8
+sigma <- 1.5
+1 - pnorm(10, mu, sigma)
+pnorm(5, mu, sigma)
+```
+
+---
+
+## Exercício 40
+
+A vida $X$ (h) de um selo segue exponencial com $P(X < 1000) = 0{,}3$.
+
+**(a)** Determine $\lambda$.
+**(b)** $P(X > 2000)$.
+
+```{r}
+lambda <- -log(0.7) / 1000
+lambda
+exp(-lambda * 2000)
+```
+
+---
+
+## Exercício 41
+
+A temperatura $T$ segue $N(200, 10^2)$. Faixa ótima: $[185, 215]$.
+
+**(a)** $P(185 \le T \le 215)$.
+**(b)** $P(T > 220)$.
+
+```{r}
+mu <- 200
+sigma <- 10
+pnorm(215, mu, sigma) - pnorm(185, mu, sigma)
+1 - pnorm(220, mu, sigma)
+```
+
+---
+
+## Exercício 42
+
+O diâmetro $D$ (μm) de partículas tem densidade $f(d) = \tfrac{3}{8} d^2$, $0 \le d \le 2$.
+
+**(a)** $P(D < 1)$.
+**(b)** $E(D)$.
+
+```{r}
+integrate(function(d) 3/8 * d^2, 0, 1)$value
+integrate(function(d) d * 3/8 * d^2, 0, 2)$value
+```
+
+---
+
+## Exercício 43
+
+A eficiência $E$ (%) de um catalisador segue $N(92, 3^2)$. Troca-se abaixo de 85%.
+
+**(a)** Probabilidade de precisar trocar.
+**(b)** $P(E > 95)$.
+
+```{r}
+mu <- 92
+sigma <- 3
+pnorm(85, mu, sigma)
+1 - pnorm(95, mu, sigma)
+```
+
+---
+
+## Exercício 44
+
+O ciclo $T$ (dias) de produção segue $U(5, 12)$.
+
+**(a)** $P(T > 10)$.
+**(b)** $P(7 < T < 9)$.
+
+```{r}
+a <- 5
+b <- 12
+1 - punif(10, a, b)
+punif(9, a, b) - punif(7, a, b)
+```
+
+---
+
+## Exercício 45
+
+O rendimento $Y$ segue $N(78, 4^2)$.
+
+**(a)** $P(Y > 85)$.
+**(b)** $P(Y < 70)$.
+**(c)** Percentil 25.
+
+```{r}
+mu <- 78
+sigma <- 4
+1 - pnorm(85, mu, sigma)
+pnorm(70, mu, sigma)
+qnorm(0.25, mu, sigma)
+```
+
+---
+
+## Exercício 46
+
+A pressão $P$ (bar) tem densidade $f(p) = k p$, $0 \le p \le 3$.
+
+**(a)** Determine $k$.
+**(b)** $P(P > 2)$.
+**(c)** $E(P)$.
+
+```{r}
+k <- 2/9
+integrate(function(p) k * p, 2, 3)$value
+integrate(function(p) p * k * p, 0, 3)$value
+```
+
+---
+
+## Exercício 47
+
+A DQO (mg/L) do efluente segue $N(120, 15^2)$. Limite: 150 mg/L.
+
+**(a)** Probabilidade de ultrapassar o limite.
+**(b)** Probabilidade de 5 dias consecutivos conformes.
+
+```{r}
+mu <- 120
+sigma <- 15
+p_ok <- pnorm(150, mu, sigma)
+1 - p_ok
+p_ok^5
+```
+
+---
+
+## Exercício 48
+
+O tempo até falha $T$ (h) de um equipamento segue exponencial com $\lambda = 0{,}002$.
+
+**(a)** $P(T > 500)$.
+**(b)** $P(T < 200)$.
+
+```{r}
+lambda <- 0.002
+1 - pexp(500, lambda)
+pexp(200, lambda)
+```
+
+---
+
+## Exercício 49
+
+A concentração $C$ (mg/L) de um contaminante segue $N(2{,}5; 0{,}4^2)$. Limite: 3,0 mg/L.
+
+**(a)** Probabilidade de ultrapassar o limite.
+**(b)** Concentração que é superada em apenas 5% dos casos.
+
+```{r}
+mu <- 2.5
+sigma <- 0.4
+1 - pnorm(3.0, mu, sigma)
+qnorm(0.95, mu, sigma)
+```
+
+---
+
+## Exercício 50
+
+Em um reator, a taxa de reação $R$ (mol/L·s) segue $N(0{,}8; 0{,}1^2)$.
+
+**(a)** $P(R > 1{,}0)$.
+**(b)** $P(0{,}7 < R < 0{,}95)$.
+**(c)** Valor mínimo para garantir 99% das observações acima dele.
+
+```{r}
+mu <- 0.8
+sigma <- 0.1
+1 - pnorm(1.0, mu, sigma)
+pnorm(0.95, mu, sigma) - pnorm(0.7, mu, sigma)
+qnorm(0.01, mu, sigma)
+```
+
+---
+
+# Apêndice — Guia Rápido de Funções do R
+
+| Distribuição | Densidade/Função de Probabilidade | Acumulada | Quantil | Geração |
+|--------------|-----------------------------------|-----------|---------|---------|
+| Binomial | `dbinom(x, size, prob)` | `pbinom(q, size, prob)` | `qbinom(p, size, prob)` | `rbinom(n, size, prob)` |
+| Poisson | `dpois(x, lambda)` | `ppois(q, lambda)` | `qpois(p, lambda)` | `rpois(n, lambda)` |
+| Normal | `dnorm(x, mean, sd)` | `pnorm(q, mean, sd)` | `qnorm(p, mean, sd)` | `rnorm(n, mean, sd)` |
+| Exponencial | `dexp(x, rate)` | `pexp(q, rate)` | `qexp(p, rate)` | `rexp(n, rate)` |
+| Uniforme | `dunif(x, min, max)` | `punif(q, min, max)` | `qunif(p, min, max)` | `runif(n, min, max)` |
+| Gama | `dgamma(x, shape, rate)` | `pgamma(q, shape, rate)` | `qgamma(p, shape, rate)` | `rgamma(n, shape, rate)` |
+
+---
+
+# Observações Finais
+
+- **Distribuições cobertas**: Bernoulli, Binomial, Poisson, Uniforme, Exponencial, Normal e Gama.
+- **Contextos de aplicação**: reatores, tubulações, trocadores de calor, catalisadores, bombas, efluentes, controle de qualidade.
+- **Como usar**: salve como `lista_probabilidade_eq.Rmd` e compile no RStudio clicando em **Knit**.
+- **Adaptação**: cada exercício pode ser modificado alterando parâmetros nas funções `d`, `p`, `q` e `r` do R.
