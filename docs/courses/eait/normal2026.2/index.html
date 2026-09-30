@@ -352,10 +352,10 @@
     
       <meta
         property="article:published_time"
-        content="2026-09-21T06:33:02-03:00"
+        content="2026-09-30T17:12:34-03:00"
       />
     
-    <meta property="article:modified_time" content="2026-09-21T06:33:02-03:00">
+    <meta property="article:modified_time" content="2026-09-30T17:12:34-03:00">
   
 
   
@@ -3022,36 +3022,241 @@ count()
 </blockquote>
 </p>
 </details>
-<h2 id="aulas" title="Clique aqui!"><i class="fas fa-pencil-ruler"></i> Aulas</h2>
 <details class="spoiler "  id="spoiler-15">
+  <summary>🗒 Relatório 5 (Clique!) - 05/10/2026</summary>
+  <p><ul>
+<li><i class="fas fa-upload"></i> Entrega: Via Github</li>
+<li><i class="fas fa-file"></i> Formato: <a href="https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip" target="_blank" rel="noopener">Modelo de
+Relatório</a></li>
+<li><i class="fas fa-calendar-check"></i> 05/10/2026
+<i class="fas fa-clock"></i> 18h</li>
+</ul>
+<hr>
+<p><strong>Contextualização</strong></p>
+<p>Você faz parte da equipe de engenharia e estatística de uma empresa responsável pela construção de uma <strong>Pequena Central Hidrelétrica (PCH)</strong>. Ao longo do projeto, diversas variáveis aleatórias precisam ser modeladas para apoiar decisões técnicas, de qualidade, de segurança e de planejamento.</p>
+<p>A empresa contratou você para realizar análises estatísticas utilizando <strong>distribuições especiais de probabilidade</strong> e a linguagem <strong>R</strong>. O objetivo é aplicar os conceitos teóricos das distribuições de variáveis aleatórias discretas e contínuas na resolução de problemas reais de engenharia civil.</p>
+<p><strong>Objetivos</strong></p>
+<p>Ao final desta atividade, espera-se que o aluno seja capaz de:</p>
+<ul>
+<li>Identificar a distribuição de probabilidade adequada para cada fenômeno estudado;</li>
+<li>Calcular probabilidades, valores esperados, variâncias e quantis teóricos;</li>
+<li>Utilizar funções do R (<code>dnorm</code>, <code>pnorm</code>, <code>qnorm</code>, <code>rnorm</code>, <code>dbinom</code>, <code>pbinom</code>, etc.);</li>
+<li>Realizar simulações de Monte Carlo para validar resultados teóricos;</li>
+<li>Interpretar os resultados no contexto da engenharia civil.</li>
+</ul>
+<p><strong>Metodologia</strong></p>
+<ul>
+<li>A atividade deve ser desenvolvida em <strong>grupos de 2 a 3 alunos</strong>.</li>
+<li>O relatório final deve conter: introdução, desenvolvimento, resultados, discussão e conclusão.</li>
+<li>Os códigos em R devem ser apresentados, comentados e executados.</li>
+<li>As interpretações devem relacionar os resultados estatísticos com o contexto da engenharia civil.</li>
+</ul>
+<p><strong>Parte 1 – Controle de Qualidade do Concreto (Distribuição Normal)</strong></p>
+<p>A resistência à compressão do concreto ( $ f_c $ ) segue uma distribuição <strong>Normal</strong> com média $ \mu = 35 $ MPa e desvio padrão $ \sigma = 4 $ MPa.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de uma amostra aleatória ter resistência <strong>inferior a 30 MPa</strong> (abaixo do $ f_{ck} $ )?</p>
+<p>b) Qual a probabilidade de a resistência estar <strong>entre 32 e 38 MPa</strong>?</p>
+<p>c) Qual o valor de resistência tal que apenas <strong>5% das amostras</strong> fiquem abaixo dele?</p>
+<p>d) Se forem coletadas <strong>10 amostras</strong>, qual a probabilidade de a <strong>média</strong> ser inferior a 33 MPa?</p>
+<p>e) Gere <strong>1000 valores aleatórios</strong> dessa distribuição e compare o histograma com a curva teórica de densidade.</p>
+<pre><code class="language-r"># a) P(X &lt; 30)
+# ...
+
+# b) P(32 &lt; X &lt; 38)
+# ...
+
+# c) Percentil 5
+# ...
+
+# d) Média de 10 amostras
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &lt;- rnorm(1000, 35, 4)
+# hist(...)
+# curve(...)
+</code></pre>
+<p><strong>Parte 2 – Qualidade de Estacas Pré-Moldadas (Distribuição Binomial)</strong></p>
+<p>Em um lote de <strong>15 estacas pré-moldadas</strong>, dados históricos indicam que <strong>8%</strong> são defeituosas.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de <strong>nenhuma</strong> estaca ser defeituosa?</p>
+<p>b) Qual a probabilidade de <strong>no máximo 2</strong> serem defeituosas?</p>
+<p>c) Qual a probabilidade de <strong>4 ou mais</strong> serem defeituosas?</p>
+<p>d) Calcule a <strong>esperança</strong> e a <strong>variância</strong>.</p>
+<p>e) Simule <strong>500 lotes</strong> de 15 estacas e compare as frequências relativas com as probabilidades teóricas.</p>
+<pre><code class="language-r"># a) P(X = 0)
+# ...
+
+# b) P(X &lt;= 2)
+# ...
+
+# c) P(X &gt;= 4)
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# sim &lt;- rbinom(500, 15, 0.08)
+# table(sim) / 500
+</code></pre>
+<p><strong>Parte 3 – Fissuras em Túnel (Distribuição Poisson)</strong></p>
+<p>O número de fissuras por quilômetro de túnel segue uma distribuição <strong>Poisson</strong> com $ \lambda = 2,5 $ fissuras/km.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de <strong>nenhuma fissura</strong> em 1 km?</p>
+<p>b) Qual a probabilidade de <strong>3 ou mais fissuras</strong> em 1 km?</p>
+<p>c) Qual a probabilidade de <strong>entre 1 e 4 fissuras</strong> em 1 km?</p>
+<p>d) Qual a probabilidade de <strong>exatamente 5 fissuras</strong> em 2 km?</p>
+<p>e) Determine a <strong>esperança</strong> e a <strong>variância</strong>.</p>
+<pre><code class="language-r"># a) P(X = 0)
+# ...
+
+# b) P(X &gt;= 3)
+# ...
+
+# c) P(1 &lt;= X &lt;= 4)
+# ...
+
+# d) 2 km: lambda = 5
+# ...
+
+# e) Esperança e variância
+# ...
+</code></pre>
+<p><strong>Parte 4 – Confiabilidade de Equipamentos (Distribuição Exponencial)</strong></p>
+<p>O tempo até a falha (em horas) de uma betoneira segue uma distribuição <strong>Exponencial</strong> com média de <strong>200 horas</strong>.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de o equipamento durar <strong>mais de 250 horas</strong>?</p>
+<p>b) Qual a probabilidade de falhar <strong>antes de 100 horas</strong>?</p>
+<p>c) Qual o <strong>tempo mediano</strong> até a falha?</p>
+<p>d) Se o equipamento já operou por <strong>150 horas</strong>, qual a probabilidade de durar <strong>pelo menos mais 100 horas</strong>? (Propriedade da falta de memória)</p>
+<p>e) Simule <strong>1000 tempos de falha</strong> e verifique a forma exponencial.</p>
+<pre><code class="language-r"># a) P(X &gt; 250)
+# ...
+
+# b) P(X &lt; 100)
+# ...
+
+# c) Mediana
+# ...
+
+# d) P(X &gt; 250 | X &gt; 150)
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &lt;- rexp(1000, 1/200)
+# hist(...)
+# curve(...)
+</code></pre>
+<p><strong>Parte 5 – Capacidade de Suporte do Solo (Distribuição Weibull)</strong></p>
+<p>A capacidade de suporte do solo (em kPa) segue uma distribuição <strong>Weibull</strong> com parâmetro de forma $ k = 2 $ e escala $ \lambda = 150 $ kPa.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de a capacidade ser <strong>inferior a 100 kPa</strong>?</p>
+<p>b) Qual a probabilidade de estar <strong>entre 120 e 200 kPa</strong>?</p>
+<p>c) Qual o <strong>percentil 90</strong>?</p>
+<p>d) Calcule a <strong>média</strong> e o <strong>desvio padrão</strong>.</p>
+<p>e) Gere a <strong>função de risco (hazard)</strong> e comente sobre o comportamento do solo.</p>
+<pre><code class="language-r"># a) P(X &lt; 100)
+# ...
+
+# b) P(120 &lt; X &lt; 200)
+# ...
+
+# c) Percentil 90
+# ...
+
+# d) Média e desvio padrão
+# ...
+
+# e) Função de risco
+# x_seq &lt;- seq(0.1, 300, by = 1)
+# hazard &lt;- (2/150) * (x_seq/150)^(2-1)
+# plot(...)
+</code></pre>
+<p><strong>Parte 6 – Precipitação Diária (Distribuição Gama)</strong></p>
+<p>A precipitação diária (em mm) durante a estação chuvosa segue uma distribuição <strong>Gama</strong> com forma $ \alpha = 3 $ e taxa $ \beta = 0,5 $.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de chuva <strong>superior a 10 mm</strong> em um dia?</p>
+<p>b) Qual a probabilidade de chuva <strong>entre 5 e 15 mm</strong>?</p>
+<p>c) Qual o <strong>percentil 95</strong> (evento extremo)?</p>
+<p>d) Calcule $ E[X] $ e $ Var(X) $.</p>
+<p>e) Simule <strong>365 dias</strong> de chuva e plote o histograma.</p>
+<pre><code class="language-r"># a) P(X &gt; 10)
+# ...
+
+# b) P(5 &lt; X &lt; 15)
+# ...
+
+# c) Percentil 95
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &lt;- rgamma(365, 3, 0.5)
+# hist(...)
+# curve(...)
+</code></pre>
+<p><strong>Parte 7 – Análise Integrada com Simulação de Monte Carlo</strong></p>
+<p>Utilizando <strong>10.000 simulações</strong>:</p>
+<ul>
+<li>Simule a resistência do concreto (Normal) e calcule a proporção de valores abaixo de <strong>30 MPa</strong>.</li>
+<li>Compare com o valor teórico obtido na Parte 1a.</li>
+<li>Discuta a importância da simulação no contexto da engenharia civil.</li>
+</ul>
+<pre><code class="language-r"># set.seed(123)
+# n_sim &lt;- 10000
+# x &lt;- rnorm(n_sim, 35, 4)
+# mean(x &lt; 30)
+# pnorm(30, 35, 4)  # valor teórico
+</code></pre>
+<p><strong>Resultados e Discussão</strong></p>
+<p>Apresente os resultados obtidos em cada parte, incluindo tabelas, gráficos e saídas do R. Compare os valores teóricos com os valores simulados. Discuta as implicações práticas dos resultados para o projeto da PCH, destacando riscos, confiabilidade e tomada de decisão.</p>
+<p><strong>Conclusão</strong></p>
+<p>Retome os objetivos propostos e sintetize as principais conclusões do estudo. Destaque as distribuições que melhor se ajustaram aos fenômenos analisados e a importância da modelagem probabilística na engenharia civil.</p>
+<p><strong>Referências</strong></p>
+<ul>
+<li>BUSSAB, W. O.; MORETTIN, P. A. <strong>Estatística Básica</strong>. Saraiva.</li>
+<li>MONTGOMERY, D. C.; RUNGER, G. C. <strong>Estatística Aplicada e Probabilidade para Engenheiros</strong>. LTC.</li>
+<li>R CORE TEAM. <strong>R: A Language and Environment for Statistical Computing</strong>. Vienna: R Foundation for Statistical Computing.</li>
+</ul>
+</p>
+</details>
+<h2 id="aulas" title="Clique aqui!"><i class="fas fa-pencil-ruler"></i> Aulas</h2>
+<details class="spoiler "  id="spoiler-16">
   <summary>🎓 Aula 1</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Apresentação da disciplina e Introdução ao R</p>
 </div></p>
 </details>
 <!-- Fim da Aula 01 -->
-<details class="spoiler "  id="spoiler-16">
+<details class="spoiler "  id="spoiler-17">
   <summary>🎓 Aula 2</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Introdução ao R (Parte II), <em>R Markdown</em>, Quarto e <em>Github</em></p>
 </div></p>
 </details>
 <!-- Fim da Aula 02 -->
-<details class="spoiler "  id="spoiler-17">
+<details class="spoiler "  id="spoiler-18">
   <summary>🎓 Aula 3</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Como desenvolver nossos relatórios de avaliação</p>
 </div></p>
 </details>
 <!-- Fim da Aula 03 -->
-<details class="spoiler "  id="spoiler-18">
+<details class="spoiler "  id="spoiler-19">
   <summary>🎓 Aula 4</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Estatística Descritiva</p>
 </div></p>
 </details>
 <!-- Fim da Aula 04 -->
-<details class="spoiler "  id="spoiler-19">
+<details class="spoiler "  id="spoiler-20">
   <summary>🎓 Aula 5</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Processamento de dados (Parte I)</p>
@@ -3060,7 +3265,7 @@ count()
 </p>
 </details>
 <!-- Fim da Aula 05 -->
-<details class="spoiler "  id="spoiler-20">
+<details class="spoiler "  id="spoiler-21">
   <summary>🎓 Aula 6</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Processamento de dados (Parte II)</p>
@@ -3069,7 +3274,7 @@ count()
 </p>
 </details>
 <!-- Fim da Aula 06 -->
-<details class="spoiler "  id="spoiler-21">
+<details class="spoiler "  id="spoiler-22">
   <summary>🎓 Aula 7</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Gráficos em R</p>
@@ -3079,11 +3284,11 @@ count()
 </details>
 <!-- Fim da Aula 07 -->
 <h2 id="quiz" title="Clique aqui!"><i class="fas fa-question"></i> Quiz</h2>
-<details class="spoiler "  id="spoiler-22">
+<details class="spoiler "  id="spoiler-23">
   <summary>Quais as datas de avaliação?</summary>
   <p>Acessem: <a href="#avaliacao">Avaliação</a> e <a href="#cronograma">Cronograma</a></p>
 </details>
-<details class="spoiler "  id="spoiler-23">
+<details class="spoiler "  id="spoiler-24">
   <summary>Como acessar o material de apoio?</summary>
   <p><ul>
 <li>Acessem: <a href="#matadotado">Livro EPAEC</a>
@@ -3127,7 +3332,7 @@ count()
         </div>
 
         <div class="body-footer">
-          <p>Última atualização em set. 21, 2026</p>
+          <p>Última atualização em set. 30, 2026</p>
 
           
 

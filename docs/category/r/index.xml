@@ -5,7 +5,7 @@
     <link>http://bendeivide.github.io/category/r/</link>
       <atom:link href="http://bendeivide.github.io/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 21 Sep 2026 17:44:56 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Wed, 30 Sep 2026 17:12:34 -0300</lastBuildDate>
     <image>
       <url>http://bendeivide.github.io/media/icon_hu96f6bd792b3af7602ac6cf7cef98b13a_17598_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
@@ -13,62 +13,9 @@
     </image>
     
     <item>
-      <title>📹 Curso Tidyverse e Ciência de Dados</title>
-      <link>http://bendeivide.github.io/courses/tidycd/videoaulas/</link>
-      <pubDate>Mon, 21 Sep 2026 17:44:56 -0300</pubDate>
-      <guid>http://bendeivide.github.io/courses/tidycd/videoaulas/</guid>
-      <description>&lt;p&gt;Vídeos destinados ao Curso TidyCD. Para acessar toda a lista de vídeos diretamente no Youtube, acesse: &lt;a href=&#34;https://www.youtube.com/playlist?list=PLCSNUd05NOV8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube/bendeivide&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;-sequência-de-videoaulas&#34;&gt;📼 Sequência de videoaulas&lt;/h2&gt;
-&lt;p&gt;Seguem as videoaulas:&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
-  &lt;summary&gt;TidyCD | Aula 01 - Aula 01 - O que é necessário?&lt;/summary&gt;
-  &lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kC7ygObNG3U?si=n0-Zfw0w2YrmqdEd&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
-  &lt;summary&gt;TidyCD | Aula 02 - Operador pipe&lt;/summary&gt;
-  &lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v6XhqllDlts?si=FMlWf706z41Obw4V&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;TidyCD | Aula 03 - Conhecendo o tibble&lt;/summary&gt;
-  &lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/i0IgyN1_BP0?si=lH-PjclAuYxDpKL0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;TidyCD | Aula 04 - Selecionando linhas em um tibble (Dados numéricos)&lt;/summary&gt;
-  &lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TvbFurlNp2o?si=non9231XPNYgdSU3&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary&gt;TidyCD | Aula 05 - Selecionando linhas em um tibble (Dados categóricos)&lt;/summary&gt;
-  &lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gvIYwWNPK_I?si=6iZdXb4yuH1flAww&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
-  &lt;summary&gt;TidyCD | Aula 06 - Selecionando linhas em um tibble (Datas)&lt;/summary&gt;
-  &lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VmgIEzZMmkY?si=J7D8doBaRnOcuL8I&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-</description>
-    </item>
-    
-    <item>
       <title>📝 Ensino normal 2026.2</title>
       <link>http://bendeivide.github.io/courses/eait/normal2026.2/</link>
-      <pubDate>Mon, 21 Sep 2026 06:33:02 -0300</pubDate>
+      <pubDate>Wed, 30 Sep 2026 17:12:34 -0300</pubDate>
       <guid>http://bendeivide.github.io/courses/eait/normal2026.2/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Sumário&lt;/summary&gt;
@@ -1952,36 +1899,241 @@ count()
 &lt;/blockquote&gt;
 &lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;🗒 Relatório 5 (Clique!) - 05/10/2026&lt;/summary&gt;
+  &lt;p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-upload&#34;&gt;&lt;/i&gt; Entrega: Via Github&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-file&#34;&gt;&lt;/i&gt; Formato: &lt;a href=&#34;https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modelo de
+Relatório&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-calendar-check&#34;&gt;&lt;/i&gt; 05/10/2026
+&lt;i class=&#34;fas fa-clock&#34;&gt;&lt;/i&gt; 18h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Contextualização&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Você faz parte da equipe de engenharia e estatística de uma empresa responsável pela construção de uma &lt;strong&gt;Pequena Central Hidrelétrica (PCH)&lt;/strong&gt;. Ao longo do projeto, diversas variáveis aleatórias precisam ser modeladas para apoiar decisões técnicas, de qualidade, de segurança e de planejamento.&lt;/p&gt;
+&lt;p&gt;A empresa contratou você para realizar análises estatísticas utilizando &lt;strong&gt;distribuições especiais de probabilidade&lt;/strong&gt; e a linguagem &lt;strong&gt;R&lt;/strong&gt;. O objetivo é aplicar os conceitos teóricos das distribuições de variáveis aleatórias discretas e contínuas na resolução de problemas reais de engenharia civil.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objetivos&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ao final desta atividade, espera-se que o aluno seja capaz de:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identificar a distribuição de probabilidade adequada para cada fenômeno estudado;&lt;/li&gt;
+&lt;li&gt;Calcular probabilidades, valores esperados, variâncias e quantis teóricos;&lt;/li&gt;
+&lt;li&gt;Utilizar funções do R (&lt;code&gt;dnorm&lt;/code&gt;, &lt;code&gt;pnorm&lt;/code&gt;, &lt;code&gt;qnorm&lt;/code&gt;, &lt;code&gt;rnorm&lt;/code&gt;, &lt;code&gt;dbinom&lt;/code&gt;, &lt;code&gt;pbinom&lt;/code&gt;, etc.);&lt;/li&gt;
+&lt;li&gt;Realizar simulações de Monte Carlo para validar resultados teóricos;&lt;/li&gt;
+&lt;li&gt;Interpretar os resultados no contexto da engenharia civil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Metodologia&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A atividade deve ser desenvolvida em &lt;strong&gt;grupos de 2 a 3 alunos&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;O relatório final deve conter: introdução, desenvolvimento, resultados, discussão e conclusão.&lt;/li&gt;
+&lt;li&gt;Os códigos em R devem ser apresentados, comentados e executados.&lt;/li&gt;
+&lt;li&gt;As interpretações devem relacionar os resultados estatísticos com o contexto da engenharia civil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Parte 1 – Controle de Qualidade do Concreto (Distribuição Normal)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A resistência à compressão do concreto ( $ f_c $ ) segue uma distribuição &lt;strong&gt;Normal&lt;/strong&gt; com média $ \mu = 35 $ MPa e desvio padrão $ \sigma = 4 $ MPa.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Perguntas:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a) Qual a probabilidade de uma amostra aleatória ter resistência &lt;strong&gt;inferior a 30 MPa&lt;/strong&gt; (abaixo do $ f_{ck} $ )?&lt;/p&gt;
+&lt;p&gt;b) Qual a probabilidade de a resistência estar &lt;strong&gt;entre 32 e 38 MPa&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;c) Qual o valor de resistência tal que apenas &lt;strong&gt;5% das amostras&lt;/strong&gt; fiquem abaixo dele?&lt;/p&gt;
+&lt;p&gt;d) Se forem coletadas &lt;strong&gt;10 amostras&lt;/strong&gt;, qual a probabilidade de a &lt;strong&gt;média&lt;/strong&gt; ser inferior a 33 MPa?&lt;/p&gt;
+&lt;p&gt;e) Gere &lt;strong&gt;1000 valores aleatórios&lt;/strong&gt; dessa distribuição e compare o histograma com a curva teórica de densidade.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# a) P(X &amp;lt; 30)
+# ...
+
+# b) P(32 &amp;lt; X &amp;lt; 38)
+# ...
+
+# c) Percentil 5
+# ...
+
+# d) Média de 10 amostras
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &amp;lt;- rnorm(1000, 35, 4)
+# hist(...)
+# curve(...)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Parte 2 – Qualidade de Estacas Pré-Moldadas (Distribuição Binomial)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Em um lote de &lt;strong&gt;15 estacas pré-moldadas&lt;/strong&gt;, dados históricos indicam que &lt;strong&gt;8%&lt;/strong&gt; são defeituosas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Perguntas:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a) Qual a probabilidade de &lt;strong&gt;nenhuma&lt;/strong&gt; estaca ser defeituosa?&lt;/p&gt;
+&lt;p&gt;b) Qual a probabilidade de &lt;strong&gt;no máximo 2&lt;/strong&gt; serem defeituosas?&lt;/p&gt;
+&lt;p&gt;c) Qual a probabilidade de &lt;strong&gt;4 ou mais&lt;/strong&gt; serem defeituosas?&lt;/p&gt;
+&lt;p&gt;d) Calcule a &lt;strong&gt;esperança&lt;/strong&gt; e a &lt;strong&gt;variância&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;e) Simule &lt;strong&gt;500 lotes&lt;/strong&gt; de 15 estacas e compare as frequências relativas com as probabilidades teóricas.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# a) P(X = 0)
+# ...
+
+# b) P(X &amp;lt;= 2)
+# ...
+
+# c) P(X &amp;gt;= 4)
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# sim &amp;lt;- rbinom(500, 15, 0.08)
+# table(sim) / 500
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Parte 3 – Fissuras em Túnel (Distribuição Poisson)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O número de fissuras por quilômetro de túnel segue uma distribuição &lt;strong&gt;Poisson&lt;/strong&gt; com $ \lambda = 2,5 $ fissuras/km.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Perguntas:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a) Qual a probabilidade de &lt;strong&gt;nenhuma fissura&lt;/strong&gt; em 1 km?&lt;/p&gt;
+&lt;p&gt;b) Qual a probabilidade de &lt;strong&gt;3 ou mais fissuras&lt;/strong&gt; em 1 km?&lt;/p&gt;
+&lt;p&gt;c) Qual a probabilidade de &lt;strong&gt;entre 1 e 4 fissuras&lt;/strong&gt; em 1 km?&lt;/p&gt;
+&lt;p&gt;d) Qual a probabilidade de &lt;strong&gt;exatamente 5 fissuras&lt;/strong&gt; em 2 km?&lt;/p&gt;
+&lt;p&gt;e) Determine a &lt;strong&gt;esperança&lt;/strong&gt; e a &lt;strong&gt;variância&lt;/strong&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# a) P(X = 0)
+# ...
+
+# b) P(X &amp;gt;= 3)
+# ...
+
+# c) P(1 &amp;lt;= X &amp;lt;= 4)
+# ...
+
+# d) 2 km: lambda = 5
+# ...
+
+# e) Esperança e variância
+# ...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Parte 4 – Confiabilidade de Equipamentos (Distribuição Exponencial)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O tempo até a falha (em horas) de uma betoneira segue uma distribuição &lt;strong&gt;Exponencial&lt;/strong&gt; com média de &lt;strong&gt;200 horas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Perguntas:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a) Qual a probabilidade de o equipamento durar &lt;strong&gt;mais de 250 horas&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;b) Qual a probabilidade de falhar &lt;strong&gt;antes de 100 horas&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;c) Qual o &lt;strong&gt;tempo mediano&lt;/strong&gt; até a falha?&lt;/p&gt;
+&lt;p&gt;d) Se o equipamento já operou por &lt;strong&gt;150 horas&lt;/strong&gt;, qual a probabilidade de durar &lt;strong&gt;pelo menos mais 100 horas&lt;/strong&gt;? (Propriedade da falta de memória)&lt;/p&gt;
+&lt;p&gt;e) Simule &lt;strong&gt;1000 tempos de falha&lt;/strong&gt; e verifique a forma exponencial.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# a) P(X &amp;gt; 250)
+# ...
+
+# b) P(X &amp;lt; 100)
+# ...
+
+# c) Mediana
+# ...
+
+# d) P(X &amp;gt; 250 | X &amp;gt; 150)
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &amp;lt;- rexp(1000, 1/200)
+# hist(...)
+# curve(...)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Parte 5 – Capacidade de Suporte do Solo (Distribuição Weibull)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A capacidade de suporte do solo (em kPa) segue uma distribuição &lt;strong&gt;Weibull&lt;/strong&gt; com parâmetro de forma $ k = 2 $ e escala $ \lambda = 150 $ kPa.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Perguntas:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a) Qual a probabilidade de a capacidade ser &lt;strong&gt;inferior a 100 kPa&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;b) Qual a probabilidade de estar &lt;strong&gt;entre 120 e 200 kPa&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;c) Qual o &lt;strong&gt;percentil 90&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;d) Calcule a &lt;strong&gt;média&lt;/strong&gt; e o &lt;strong&gt;desvio padrão&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;e) Gere a &lt;strong&gt;função de risco (hazard)&lt;/strong&gt; e comente sobre o comportamento do solo.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# a) P(X &amp;lt; 100)
+# ...
+
+# b) P(120 &amp;lt; X &amp;lt; 200)
+# ...
+
+# c) Percentil 90
+# ...
+
+# d) Média e desvio padrão
+# ...
+
+# e) Função de risco
+# x_seq &amp;lt;- seq(0.1, 300, by = 1)
+# hazard &amp;lt;- (2/150) * (x_seq/150)^(2-1)
+# plot(...)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Parte 6 – Precipitação Diária (Distribuição Gama)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A precipitação diária (em mm) durante a estação chuvosa segue uma distribuição &lt;strong&gt;Gama&lt;/strong&gt; com forma $ \alpha = 3 $ e taxa $ \beta = 0,5 $.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Perguntas:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;a) Qual a probabilidade de chuva &lt;strong&gt;superior a 10 mm&lt;/strong&gt; em um dia?&lt;/p&gt;
+&lt;p&gt;b) Qual a probabilidade de chuva &lt;strong&gt;entre 5 e 15 mm&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;c) Qual o &lt;strong&gt;percentil 95&lt;/strong&gt; (evento extremo)?&lt;/p&gt;
+&lt;p&gt;d) Calcule $ E[X] $ e $ Var(X) $.&lt;/p&gt;
+&lt;p&gt;e) Simule &lt;strong&gt;365 dias&lt;/strong&gt; de chuva e plote o histograma.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# a) P(X &amp;gt; 10)
+# ...
+
+# b) P(5 &amp;lt; X &amp;lt; 15)
+# ...
+
+# c) Percentil 95
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &amp;lt;- rgamma(365, 3, 0.5)
+# hist(...)
+# curve(...)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Parte 7 – Análise Integrada com Simulação de Monte Carlo&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Utilizando &lt;strong&gt;10.000 simulações&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simule a resistência do concreto (Normal) e calcule a proporção de valores abaixo de &lt;strong&gt;30 MPa&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Compare com o valor teórico obtido na Parte 1a.&lt;/li&gt;
+&lt;li&gt;Discuta a importância da simulação no contexto da engenharia civil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# set.seed(123)
+# n_sim &amp;lt;- 10000
+# x &amp;lt;- rnorm(n_sim, 35, 4)
+# mean(x &amp;lt; 30)
+# pnorm(30, 35, 4)  # valor teórico
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Resultados e Discussão&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Apresente os resultados obtidos em cada parte, incluindo tabelas, gráficos e saídas do R. Compare os valores teóricos com os valores simulados. Discuta as implicações práticas dos resultados para o projeto da PCH, destacando riscos, confiabilidade e tomada de decisão.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusão&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Retome os objetivos propostos e sintetize as principais conclusões do estudo. Destaque as distribuições que melhor se ajustaram aos fenômenos analisados e a importância da modelagem probabilística na engenharia civil.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Referências&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BUSSAB, W. O.; MORETTIN, P. A. &lt;strong&gt;Estatística Básica&lt;/strong&gt;. Saraiva.&lt;/li&gt;
+&lt;li&gt;MONTGOMERY, D. C.; RUNGER, G. C. &lt;strong&gt;Estatística Aplicada e Probabilidade para Engenheiros&lt;/strong&gt;. LTC.&lt;/li&gt;
+&lt;li&gt;R CORE TEAM. &lt;strong&gt;R: A Language and Environment for Statistical Computing&lt;/strong&gt;. Vienna: R Foundation for Statistical Computing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;aulas&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt; Aulas&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
   &lt;summary&gt;🎓 Aula 1&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Apresentação da disciplina e Introdução ao R&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 01 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
   &lt;summary&gt;🎓 Aula 2&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Introdução ao R (Parte II), &lt;em&gt;R Markdown&lt;/em&gt;, Quarto e &lt;em&gt;Github&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 02 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
   &lt;summary&gt;🎓 Aula 3&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Como desenvolver nossos relatórios de avaliação&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 03 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
   &lt;summary&gt;🎓 Aula 4&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Estatística Descritiva&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 04 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
   &lt;summary&gt;🎓 Aula 5&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte I)&lt;/p&gt;
@@ -1990,7 +2142,7 @@ count()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 05 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
   &lt;summary&gt;🎓 Aula 6&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Processamento de dados (Parte II)&lt;/p&gt;
@@ -1999,7 +2151,7 @@ count()
 &lt;/p&gt;
 &lt;/details&gt;
 &lt;!-- Fim da Aula 06 --&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
   &lt;summary&gt;🎓 Aula 7&lt;/summary&gt;
   &lt;p&gt;&lt;div style=&#34;margin-left: 20px;&#34;&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-pen-fancy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;strong&gt;Temas:&lt;/strong&gt; Gráficos em R&lt;/p&gt;
@@ -2009,11 +2161,11 @@ count()
 &lt;/details&gt;
 &lt;!-- Fim da Aula 07 --&gt;
 &lt;h2 id=&#34;quiz&#34; title=&#34;Clique aqui!&#34;&gt;&lt;i class=&#34;fas fa-question&#34;&gt;&lt;/i&gt; Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
   &lt;summary&gt;Quais as datas de avaliação?&lt;/summary&gt;
   &lt;p&gt;Acessem: &lt;a href=&#34;#avaliacao&#34;&gt;Avaliação&lt;/a&gt; e &lt;a href=&#34;#cronograma&#34;&gt;Cronograma&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
   &lt;summary&gt;Como acessar o material de apoio?&lt;/summary&gt;
   &lt;p&gt;&lt;ul&gt;
 &lt;li&gt;Acessem: &lt;a href=&#34;#matadotado&#34;&gt;Livro EPAEC&lt;/a&gt;
@@ -2022,6 +2174,59 @@ count()
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📹 Curso Tidyverse e Ciência de Dados</title>
+      <link>http://bendeivide.github.io/courses/tidycd/videoaulas/</link>
+      <pubDate>Mon, 21 Sep 2026 17:44:56 -0300</pubDate>
+      <guid>http://bendeivide.github.io/courses/tidycd/videoaulas/</guid>
+      <description>&lt;p&gt;Vídeos destinados ao Curso TidyCD. Para acessar toda a lista de vídeos diretamente no Youtube, acesse: &lt;a href=&#34;https://www.youtube.com/playlist?list=PLCSNUd05NOV8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube/bendeivide&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;-sequência-de-videoaulas&#34;&gt;📼 Sequência de videoaulas&lt;/h2&gt;
+&lt;p&gt;Seguem as videoaulas:&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 01 - Aula 01 - O que é necessário?&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kC7ygObNG3U?si=n0-Zfw0w2YrmqdEd&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 02 - Operador pipe&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v6XhqllDlts?si=FMlWf706z41Obw4V&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 03 - Conhecendo o tibble&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/i0IgyN1_BP0?si=lH-PjclAuYxDpKL0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 04 - Selecionando linhas em um tibble (Dados numéricos)&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TvbFurlNp2o?si=non9231XPNYgdSU3&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 05 - Selecionando linhas em um tibble (Dados categóricos)&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gvIYwWNPK_I?si=6iZdXb4yuH1flAww&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;TidyCD | Aula 06 - Selecionando linhas em um tibble (Datas)&lt;/summary&gt;
+  &lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VmgIEzZMmkY?si=J7D8doBaRnOcuL8I&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
 &lt;/p&gt;
 &lt;/details&gt;
 </description>

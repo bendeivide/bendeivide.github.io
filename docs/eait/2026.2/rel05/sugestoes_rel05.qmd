@@ -1,0 +1,343 @@
+---
+title: "Sugestões ao Relatório 5"
+format: html
+---
+
+# Situação-Problema para Pós-Graduação em Engenharia Civil – Estatística Aplicada
+
+## Tema: Distribuições Especiais de Probabilidade (Discretas e Contínuas) com Aplicação no R
+
+---
+
+## 1. Contexto da Situação-Problema
+
+**Cenário:** Você faz parte da equipe de engenharia e estatística de uma empresa responsável pela construção de uma **Pequena Central Hidrelétrica (PCH)**. Ao longo do projeto, diversas variáveis aleatórias precisam ser modeladas para apoiar decisões técnicas, de qualidade, de segurança e de planejamento. A empresa contratou você para realizar análises estatísticas utilizando **distribuições especiais de probabilidade** e a linguagem **R**.
+
+**Objetivo:** Aplicar os conceitos teóricos das distribuições de probabilidade (discretas e contínuas) na resolução de problemas reais de engenharia civil, utilizando o R para cálculos, visualizações e simulações.
+
+---
+
+## 2. Objetivos de Aprendizagem
+
+Ao final da atividade, espera-se que o aluno seja capaz de:
+
+- Identificar a distribuição de probabilidade adequada para cada fenômeno estudado;
+- Calcular probabilidades, valores esperados, variâncias e quantis teóricos;
+- Utilizar funções do R (`dnorm`, `pnorm`, `qnorm`, `rnorm`, `dbinom`, `pbinom`, etc.);
+- Realizar simulações de Monte Carlo para validar resultados teóricos;
+- Interpretar os resultados no contexto da engenharia civil.
+
+---
+
+## 3. Situação-Problema Proposta
+
+### Parte 1 – Controle de Qualidade do Concreto (Distribuição Normal)
+
+A resistência à compressão do concreto (f_c) segue uma distribuição **Normal** com média **35 MPa** e desvio padrão **4 MPa**.
+
+**Perguntas:**
+
+a) Qual a probabilidade de uma amostra aleatória ter resistência **inferior a 30 MPa** (abaixo do f_ck)?
+
+b) Qual a probabilidade de a resistência estar **entre 32 e 38 MPa**?
+
+c) Qual o valor de resistência tal que apenas **5% das amostras** fiquem abaixo dele?
+
+d) Se forem coletadas **10 amostras**, qual a probabilidade de a **média** ser inferior a 33 MPa?
+
+e) Gere **1000 valores aleatórios** dessa distribuição e compare o histograma com a curva teórica de densidade.
+
+---
+
+### Parte 2 – Qualidade de Estacas Pré-Moldadas (Distribuição Binomial)
+
+Em um lote de **15 estacas pré-moldadas**, dados históricos indicam que **8%** são defeituosas.
+
+**Perguntas:**
+
+a) Qual a probabilidade de **nenhuma** estaca ser defeituosa?
+
+b) Qual a probabilidade de **no máximo 2** serem defeituosas?
+
+c) Qual a probabilidade de **4 ou mais** serem defeituosas?
+
+d) Calcule a **esperança** e a **variância**.
+
+e) Simule **500 lotes** de 15 estacas e compare as frequências relativas com as probabilidades teóricas.
+
+---
+
+### Parte 3 – Fissuras em Túnel (Distribuição Poisson)
+
+O número de fissuras por quilômetro de túnel segue uma distribuição **Poisson** com **λ = 2,5 fissuras/km**.
+
+**Perguntas:**
+
+a) Qual a probabilidade de **nenhuma fissura** em 1 km?
+
+b) Qual a probabilidade de **3 ou mais fissuras** em 1 km?
+
+c) Qual a probabilidade de **entre 1 e 4 fissuras** em 1 km?
+
+d) Qual a probabilidade de **exatamente 5 fissuras** em 2 km?
+
+e) Determine a **esperança** e a **variância**.
+
+---
+
+### Parte 4 – Confiabilidade de Equipamentos (Distribuição Exponencial)
+
+O tempo até a falha (em horas) de uma betoneira segue uma distribuição **Exponencial** com média de **200 horas**.
+
+**Perguntas:**
+
+a) Qual a probabilidade de o equipamento durar **mais de 250 horas**?
+
+b) Qual a probabilidade de falhar **antes de 100 horas**?
+
+c) Qual o **tempo mediano** até a falha?
+
+d) Se o equipamento já operou por **150 horas**, qual a probabilidade de durar **pelo menos mais 100 horas**? (Propriedade da falta de memória)
+
+e) Simule **1000 tempos de falha** e verifique a forma exponencial.
+
+---
+
+### Parte 5 – Capacidade de Suporte do Solo (Distribuição Weibull)
+
+A capacidade de suporte do solo (em kPa) segue uma distribuição **Weibull** com parâmetro de forma **k = 2** e escala **λ = 150 kPa**.
+
+**Perguntas:**
+
+a) Qual a probabilidade de a capacidade ser **inferior a 100 kPa**?
+
+b) Qual a probabilidade de estar **entre 120 e 200 kPa**?
+
+c) Qual o **percentil 90**?
+
+d) Calcule a **média** e o **desvio padrão**.
+
+e) Gere a **função de risco (hazard)** e comente sobre o comportamento do solo.
+
+---
+
+### Parte 6 – Precipitação Diária (Distribuição Gama)
+
+A precipitação diária (em mm) durante a estação chuvosa segue uma distribuição **Gama** com forma **α = 3** e taxa **β = 0,5**.
+
+**Perguntas:**
+
+a) Qual a probabilidade de chuva **superior a 10 mm** em um dia?
+
+b) Qual a probabilidade de chuva **entre 5 e 15 mm**?
+
+c) Qual o **percentil 95** (evento extremo)?
+
+d) Calcule **E[X]** e **Var(X)**.
+
+e) Simule **365 dias** de chuva e plote o histograma.
+
+---
+
+### Parte 7 – Análise Integrada com Simulação de Monte Carlo
+
+Utilizando **10.000 simulações**:
+
+- Simule a resistência do concreto (Normal) e calcule a proporção de valores abaixo de **30 MPa**.
+- Compare com o valor teórico obtido na Parte 1a.
+- Discuta a importância da simulação no contexto da engenharia civil.
+
+---
+
+## 4. Soluções em R
+
+```r
+# ============================================================
+# PARTE 1 – DISTRIBUIÇÃO NORMAL
+# ============================================================
+mu <- 35; sigma <- 4
+
+# a) P(X < 30)
+pnorm(30, mu, sigma)
+
+# b) P(32 < X < 38)
+pnorm(38, mu, sigma) - pnorm(32, mu, sigma)
+
+# c) Percentil 5
+qnorm(0.05, mu, sigma)
+
+# d) Média de 10 amostras: N(35, 4/sqrt(10))
+pnorm(33, mu, sigma/sqrt(10))
+
+# e) Simulação
+set.seed(123)
+x <- rnorm(1000, mu, sigma)
+hist(x, freq = FALSE, breaks = 30, main = "Resistência do Concreto",
+     xlab = "MPa", ylab = "Densidade")
+curve(dnorm(x, mu, sigma), add = TRUE, col = "red", lwd = 2)
+
+# ============================================================
+# PARTE 2 – DISTRIBUIÇÃO BINOMIAL
+# ============================================================
+n <- 15; p <- 0.08
+
+# a) P(X = 0)
+dbinom(0, n, p)
+
+# b) P(X <= 2)
+pbinom(2, n, p)
+
+# c) P(X >= 4) = 1 - P(X <= 3)
+1 - pbinom(3, n, p)
+
+# d) Esperança e variância
+n * p
+n * p * (1 - p)
+
+# e) Simulação
+set.seed(123)
+sim <- rbinom(500, n, p)
+table(sim) / 500
+# Comparar com dbinom(0:15, n, p)
+
+# ============================================================
+# PARTE 3 – DISTRIBUIÇÃO POISSON
+# ============================================================
+lambda <- 2.5
+
+# a) P(X = 0)
+dpois(0, lambda)
+
+# b) P(X >= 3) = 1 - P(X <= 2)
+1 - ppois(2, lambda)
+
+# c) P(1 <= X <= 4)
+ppois(4, lambda) - ppois(0, lambda)
+
+# d) 2 km: lambda = 5
+dpois(5, 5)
+
+# e) Esperança e variância
+lambda
+lambda
+
+# ============================================================
+# PARTE 4 – DISTRIBUIÇÃO EXPONENCIAL
+# ============================================================
+rate <- 1/200  # média = 200 => taxa = 1/200
+
+# a) P(X > 250)
+1 - pexp(250, rate)
+
+# b) P(X < 100)
+pexp(100, rate)
+
+# c) Mediana
+qexp(0.5, rate)
+
+# d) P(X > 250 | X > 150) = P(X > 100)
+1 - pexp(100, rate)
+
+# e) Simulação
+set.seed(123)
+x <- rexp(1000, rate)
+hist(x, freq = FALSE, breaks = 30, main = "Tempo até Falha",
+     xlab = "Horas", ylab = "Densidade")
+curve(dexp(x, rate), add = TRUE, col = "red", lwd = 2)
+
+# ============================================================
+# PARTE 5 – DISTRIBUIÇÃO WEIBULL
+# ============================================================
+k <- 2; lambda_w <- 150
+
+# a) P(X < 100)
+pweibull(100, k, lambda_w)
+
+# b) P(120 < X < 200)
+pweibull(200, k, lambda_w) - pweibull(120, k, lambda_w)
+
+# c) Percentil 90
+qweibull(0.9, k, lambda_w)
+
+# d) Média e desvio padrão
+media_w <- lambda_w * gamma(1 + 1/k)
+var_w <- lambda_w^2 * (gamma(1 + 2/k) - (gamma(1 + 1/k))^2)
+media_w
+sqrt(var_w)
+
+# e) Função de risco
+x_seq <- seq(0.1, 300, by = 1)
+hazard <- (k/lambda_w) * (x_seq/lambda_w)^(k-1)
+plot(x_seq, hazard, type = "l", col = "blue", lwd = 2,
+     main = "Função de Risco - Weibull(k=2, λ=150)",
+     xlab = "kPa", ylab = "h(x)")
+
+# ============================================================
+# PARTE 6 – DISTRIBUIÇÃO GAMA
+# ============================================================
+alpha <- 3; beta <- 0.5  # taxa
+
+# a) P(X > 10)
+1 - pgamma(10, alpha, beta)
+
+# b) P(5 < X < 15)
+pgamma(15, alpha, beta) - pgamma(5, alpha, beta)
+
+# c) Percentil 95
+qgamma(0.95, alpha, beta)
+
+# d) Esperança e variância
+alpha / beta
+alpha / beta^2
+
+# e) Simulação
+set.seed(123)
+x <- rgamma(365, alpha, beta)
+hist(x, freq = FALSE, breaks = 30, main = "Precipitação Diária",
+     xlab = "mm", ylab = "Densidade")
+curve(dgamma(x, alpha, beta), add = TRUE, col = "red", lwd = 2)
+
+# ============================================================
+# PARTE 7 – MONTE CARLO
+# ============================================================
+set.seed(123)
+n_sim <- 10000
+x <- rnorm(n_sim, 35, 4)
+mean(x < 30)  # Comparar com pnorm(30, 35, 4) ≈ 0.1056
+```
+
+---
+
+## 5. Critérios de Avaliação Sugeridos
+
+| Critério | Peso |
+|---|---|
+| Identificação correta da distribuição | 20% |
+| Cálculos teóricos corretos | 25% |
+| Implementação correta no R | 25% |
+| Interpretação dos resultados no contexto da engenharia | 20% |
+| Simulações e análise crítica | 10% |
+
+---
+
+## 6. Extensões Possíveis
+
+- **Distribuição Hipergeométrica:** amostragem sem reposição de lotes de estacas.
+- **Distribuição Log-Normal:** tempos de cura ou resistência de materiais.
+- **Distribuição Beta:** proporção de defeitos em diferentes lotes.
+- **Teorema Central do Limite:** estudo da média amostral da resistência do concreto.
+- **Intervalos de Confiança e Testes de Hipótese:** complemento natural após as distribuições.
+
+---
+
+## 7. Considerações Finais
+
+Esta situação-problema permite que os alunos:
+
+- **Contextualizem** conceitos estatísticos em problemas reais de engenharia civil;
+- **Transitem** entre teoria e prática computacional com o R;
+- **Desenvolvam** pensamento crítico sobre modelagem probabilística;
+- **Compreendam** a importância da simulação como ferramenta de validação.
+
+Sugere-se que a atividade seja desenvolvida em **grupos de 2 a 3 alunos**, com entrega de **relatório técnico** contendo: introdução, metodologia, resultados (com códigos R), interpretação e conclusões.
+

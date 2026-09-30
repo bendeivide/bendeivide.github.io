@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "Apresentaremos ferramentas tecnológicas e estatísticas de forma aplicada ao Metrado Porfissional em Inovações Tecniológicas juntamente com o ambiente R para a disciplina de Estatística Aplicada a Inovações Tecnológicas (EAIT). Avaliaremos a aprendizagem dos alunos através de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-09-21 06:33:02"
+date: "2026-09-30 17:12:34"
 type: book
 weight: 1
 classes: ["blink-text"]
@@ -2121,6 +2121,290 @@ O código deverá estar organizado e comentado.
 > **DATA DA ENTREGA:**
 >
 > * Até às 18h do dia 28/09/2026
+
+{{</spoiler>}}
+
+
+{{< spoiler text="🗒 Relatório 5 (Clique!) - 05/10/2026">}}
+
+- <i class="fas fa-upload"></i> Entrega: Via Github
+- <i class="fas fa-file"></i> Formato: [Modelo de
+  Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+- <i class="fas fa-calendar-check"></i> 05/10/2026
+  <i class="fas fa-clock"></i> 18h
+
+------------------------------------------------------------------------
+
+**Contextualização**
+
+Você faz parte da equipe de engenharia e estatística de uma empresa responsável pela construção de uma **Pequena Central Hidrelétrica (PCH)**. Ao longo do projeto, diversas variáveis aleatórias precisam ser modeladas para apoiar decisões técnicas, de qualidade, de segurança e de planejamento.
+
+A empresa contratou você para realizar análises estatísticas utilizando **distribuições especiais de probabilidade** e a linguagem **R**. O objetivo é aplicar os conceitos teóricos das distribuições de variáveis aleatórias discretas e contínuas na resolução de problemas reais de engenharia civil.
+
+**Objetivos**
+
+Ao final desta atividade, espera-se que o aluno seja capaz de:
+
+- Identificar a distribuição de probabilidade adequada para cada fenômeno estudado;
+- Calcular probabilidades, valores esperados, variâncias e quantis teóricos;
+- Utilizar funções do R (`dnorm`, `pnorm`, `qnorm`, `rnorm`, `dbinom`, `pbinom`, etc.);
+- Realizar simulações de Monte Carlo para validar resultados teóricos;
+- Interpretar os resultados no contexto da engenharia civil.
+
+**Metodologia**
+
+- A atividade deve ser desenvolvida em **grupos de 2 a 3 alunos**.
+- O relatório final deve conter: introdução, desenvolvimento, resultados, discussão e conclusão.
+- Os códigos em R devem ser apresentados, comentados e executados.
+- As interpretações devem relacionar os resultados estatísticos com o contexto da engenharia civil.
+
+**Parte 1 – Controle de Qualidade do Concreto (Distribuição Normal)**
+
+A resistência à compressão do concreto ( $ f_c $ ) segue uma distribuição **Normal** com média $ \mu = 35 $ MPa e desvio padrão $ \sigma = 4 $ MPa.
+
+**Perguntas:**
+
+a) Qual a probabilidade de uma amostra aleatória ter resistência **inferior a 30 MPa** (abaixo do $ f_{ck} $ )?
+
+b) Qual a probabilidade de a resistência estar **entre 32 e 38 MPa**?
+
+c) Qual o valor de resistência tal que apenas **5% das amostras** fiquem abaixo dele?
+
+d) Se forem coletadas **10 amostras**, qual a probabilidade de a **média** ser inferior a 33 MPa?
+
+e) Gere **1000 valores aleatórios** dessa distribuição e compare o histograma com a curva teórica de densidade.
+
+
+``` r
+# a) P(X < 30)
+# ...
+
+# b) P(32 < X < 38)
+# ...
+
+# c) Percentil 5
+# ...
+
+# d) Média de 10 amostras
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x <- rnorm(1000, 35, 4)
+# hist(...)
+# curve(...)
+```
+
+**Parte 2 – Qualidade de Estacas Pré-Moldadas (Distribuição Binomial)**
+
+Em um lote de **15 estacas pré-moldadas**, dados históricos indicam que **8%** são defeituosas.
+
+**Perguntas:**
+
+a) Qual a probabilidade de **nenhuma** estaca ser defeituosa?
+
+b) Qual a probabilidade de **no máximo 2** serem defeituosas?
+
+c) Qual a probabilidade de **4 ou mais** serem defeituosas?
+
+d) Calcule a **esperança** e a **variância**.
+
+e) Simule **500 lotes** de 15 estacas e compare as frequências relativas com as probabilidades teóricas.
+
+
+``` r
+# a) P(X = 0)
+# ...
+
+# b) P(X <= 2)
+# ...
+
+# c) P(X >= 4)
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# sim <- rbinom(500, 15, 0.08)
+# table(sim) / 500
+```
+
+**Parte 3 – Fissuras em Túnel (Distribuição Poisson)**
+
+O número de fissuras por quilômetro de túnel segue uma distribuição **Poisson** com $ \lambda = 2,5 $ fissuras/km.
+
+**Perguntas:**
+
+a) Qual a probabilidade de **nenhuma fissura** em 1 km?
+
+b) Qual a probabilidade de **3 ou mais fissuras** em 1 km?
+
+c) Qual a probabilidade de **entre 1 e 4 fissuras** em 1 km?
+
+d) Qual a probabilidade de **exatamente 5 fissuras** em 2 km?
+
+e) Determine a **esperança** e a **variância**.
+
+
+``` r
+# a) P(X = 0)
+# ...
+
+# b) P(X >= 3)
+# ...
+
+# c) P(1 <= X <= 4)
+# ...
+
+# d) 2 km: lambda = 5
+# ...
+
+# e) Esperança e variância
+# ...
+```
+
+**Parte 4 – Confiabilidade de Equipamentos (Distribuição Exponencial)**
+
+O tempo até a falha (em horas) de uma betoneira segue uma distribuição **Exponencial** com média de **200 horas**.
+
+**Perguntas:**
+
+a) Qual a probabilidade de o equipamento durar **mais de 250 horas**?
+
+b) Qual a probabilidade de falhar **antes de 100 horas**?
+
+c) Qual o **tempo mediano** até a falha?
+
+d) Se o equipamento já operou por **150 horas**, qual a probabilidade de durar **pelo menos mais 100 horas**? (Propriedade da falta de memória)
+
+e) Simule **1000 tempos de falha** e verifique a forma exponencial.
+
+
+``` r
+# a) P(X > 250)
+# ...
+
+# b) P(X < 100)
+# ...
+
+# c) Mediana
+# ...
+
+# d) P(X > 250 | X > 150)
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x <- rexp(1000, 1/200)
+# hist(...)
+# curve(...)
+```
+
+**Parte 5 – Capacidade de Suporte do Solo (Distribuição Weibull)**
+
+A capacidade de suporte do solo (em kPa) segue uma distribuição **Weibull** com parâmetro de forma $ k = 2 $ e escala $ \lambda = 150 $ kPa.
+
+**Perguntas:**
+
+a) Qual a probabilidade de a capacidade ser **inferior a 100 kPa**?
+
+b) Qual a probabilidade de estar **entre 120 e 200 kPa**?
+
+c) Qual o **percentil 90**?
+
+d) Calcule a **média** e o **desvio padrão**.
+
+e) Gere a **função de risco (hazard)** e comente sobre o comportamento do solo.
+
+
+``` r
+# a) P(X < 100)
+# ...
+
+# b) P(120 < X < 200)
+# ...
+
+# c) Percentil 90
+# ...
+
+# d) Média e desvio padrão
+# ...
+
+# e) Função de risco
+# x_seq <- seq(0.1, 300, by = 1)
+# hazard <- (2/150) * (x_seq/150)^(2-1)
+# plot(...)
+```
+
+**Parte 6 – Precipitação Diária (Distribuição Gama)**
+
+A precipitação diária (em mm) durante a estação chuvosa segue uma distribuição **Gama** com forma $ \alpha = 3 $ e taxa $ \beta = 0,5 $.
+
+**Perguntas:**
+
+a) Qual a probabilidade de chuva **superior a 10 mm** em um dia?
+
+b) Qual a probabilidade de chuva **entre 5 e 15 mm**?
+
+c) Qual o **percentil 95** (evento extremo)?
+
+d) Calcule $ E[X] $ e $ Var(X) $.
+
+e) Simule **365 dias** de chuva e plote o histograma.
+
+
+``` r
+# a) P(X > 10)
+# ...
+
+# b) P(5 < X < 15)
+# ...
+
+# c) Percentil 95
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x <- rgamma(365, 3, 0.5)
+# hist(...)
+# curve(...)
+```
+
+**Parte 7 – Análise Integrada com Simulação de Monte Carlo**
+
+Utilizando **10.000 simulações**:
+
+- Simule a resistência do concreto (Normal) e calcule a proporção de valores abaixo de **30 MPa**.
+- Compare com o valor teórico obtido na Parte 1a.
+- Discuta a importância da simulação no contexto da engenharia civil.
+
+
+``` r
+# set.seed(123)
+# n_sim <- 10000
+# x <- rnorm(n_sim, 35, 4)
+# mean(x < 30)
+# pnorm(30, 35, 4)  # valor teórico
+```
+
+**Resultados e Discussão**
+
+Apresente os resultados obtidos em cada parte, incluindo tabelas, gráficos e saídas do R. Compare os valores teóricos com os valores simulados. Discuta as implicações práticas dos resultados para o projeto da PCH, destacando riscos, confiabilidade e tomada de decisão.
+
+**Conclusão**
+
+Retome os objetivos propostos e sintetize as principais conclusões do estudo. Destaque as distribuições que melhor se ajustaram aos fenômenos analisados e a importância da modelagem probabilística na engenharia civil.
+
+**Referências**
+
+- BUSSAB, W. O.; MORETTIN, P. A. **Estatística Básica**. Saraiva.
+- MONTGOMERY, D. C.; RUNGER, G. C. **Estatística Aplicada e Probabilidade para Engenheiros**. LTC.
+- R CORE TEAM. **R: A Language and Environment for Statistical Computing**. Vienna: R Foundation for Statistical Computing.
 
 {{</spoiler>}}
 
