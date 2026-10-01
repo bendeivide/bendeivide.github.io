@@ -1,6 +1,6 @@
 ---
 title: 📚 Ensino normal 2026.2
-date: "2026-09-16 06:41:31"
+date: "2026-10-01 13:37:44"
 type: book
 weight: 1
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -870,6 +870,291 @@ Um estudante é sorteado ao acaso e submetido ao teste. Ele **testou positivo**.
 {{</spoiler>}}
 
 <!-- Fim do Relatorio 4 -->
+
+{{< spoiler text="🗒 Relatório 5 (Clique!) - 09/10/2026">}}
+
+* <i class="fas fa-upload"></i> Entrega: Via Github
+* <i class="fas fa-file"></i> Formato: [Modelo de
+  Relatório](https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip)
+* <i class="fas fa-calendar-check"></i> 09/10/2026 <i class="fas fa-clock"></i> 13h
+
+---
+
+**Contextualização**
+
+Você é professor(a) de Matemática da Educação Básica e atua como coordenador(a) do laboratório de ensino de Estatística em uma escola pública. A secretaria de educação solicitou que a escola desenvolva um **projeto interdisciplinar de modelagem estatística** utilizando dados reais da comunidade escolar, com o objetivo de ensinar aos alunos as **distribuições especiais de probabilidade** previstas na Base Nacional Comum Curricular (BNCC).
+
+Para isso, você deverá realizar as análises estatísticas utilizando a linguagem **R**, produzindo um relatório técnico-pedagógico que sirva de material de apoio para suas aulas e para a formação continuada de outros professores. O relatório deve articular a **teoria das distribuições de probabilidade** (variáveis aleatórias discretas e contínuas) com **aplicações práticas** e **reflexões sobre o ensino de Estatística**.
+
+**Objetivos**
+
+Ao final desta atividade, espera-se que o(a) mestrando(a) seja capaz de:
+
+- Identificar a distribuição de probabilidade adequada para cada fenômeno observado no contexto escolar;
+- Calcular probabilidades, valores esperados, variâncias e quantis teóricos;
+- Utilizar funções do R (`dnorm`, `pnorm`, `qnorm`, `rnorm`, `dbinom`, `pbinom`, etc.);
+- Realizar simulações de Monte Carlo para validar resultados teóricos;
+- Interpretar os resultados no contexto da Educação Básica;
+- Elaborar propostas pedagógicas que articulem teoria, prática computacional e contexto social.
+
+**Metodologia**
+
+- A atividade deve ser desenvolvida **individualmente** ou em **duplas**, com entrega de relatório em formato R Markdown;
+- O relatório final deve conter: introdução, desenvolvimento teórico, resultados, discussão pedagógica e conclusão;
+- Os códigos em R devem ser apresentados, comentados e executados;
+- As interpretações devem relacionar os resultados estatísticos com o contexto escolar e com propostas de ensino na Educação Básica.
+
+**Parte 1 – Desempenho em Matemática (Distribuição Normal)**
+
+As notas da prova de Matemática do ENEM dos alunos de uma escola seguem uma distribuição **Normal** com média $ \mu = 520 $ pontos e desvio padrão $ \sigma = 80 $ pontos.
+
+**Perguntas:**
+
+a) Qual a probabilidade de um aluno aleatoriamente escolhido ter nota **inferior a 400 pontos**?
+
+b) Qual a probabilidade de a nota estar **entre 500 e 650 pontos**?
+
+c) Qual a nota tal que apenas **10% dos alunos** ficam abaixo dela?
+
+d) Se forem sorteados **25 alunos**, qual a probabilidade de a **média amostral** ser superior a 550 pontos?
+
+e) Gere **1000 valores aleatórios** dessa distribuição e compare o histograma com a curva teórica de densidade.
+
+
+``` r
+# a) P(X < 400)
+# ...
+
+# b) P(500 < X < 650)
+# ...
+
+# c) Percentil 10
+# ...
+
+# d) Média de 25 alunos
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x <- rnorm(1000, 520, 80)
+# hist(...)
+# curve(...)
+```
+
+**Parte 2 – Aprovação em Olimpíadas de Matemática (Distribuição Binomial)**
+
+Em uma turma de **20 alunos** inscritos na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP), dados históricos indicam que **25%** conseguem se classificar para a segunda fase.
+
+**Perguntas:**
+
+a) Qual a probabilidade de **nenhum** aluno se classificar?
+
+b) Qual a probabilidade de **no máximo 3** alunos se classificarem?
+
+c) Qual a probabilidade de **8 ou mais** alunos se classificarem?
+
+d) Calcule a **esperança** e a **variância**.
+
+e) Simule **1000 turmas** de 20 alunos e compare as frequências relativas com as probabilidades teóricas.
+
+
+``` r
+# a) P(X = 0)
+# ...
+
+# b) P(X <= 3)
+# ...
+
+# c) P(X >= 8)
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# sim <- rbinom(1000, 20, 0.25)
+# table(sim) / 1000
+```
+
+**Parte 3 – Evasão Escolar por Semana (Distribuição Poisson)**
+
+O número de alunos que abandonam a escola por semana em um município segue uma distribuição **Poisson** com $ \lambda = 3 $ alunos/semana.
+
+**Perguntas:**
+
+a) Qual a probabilidade de **nenhuma evasão** em uma semana?
+
+b) Qual a probabilidade de **5 ou mais evasões** em uma semana?
+
+c) Qual a probabilidade de **entre 2 e 4 evasões** em uma semana?
+
+d) Qual a probabilidade de **exatamente 7 evasões** em duas semanas?
+
+e) Determine a **esperança** e a **variância**.
+
+
+``` r
+# a) P(X = 0)
+# ...
+
+# b) P(X >= 5)
+# ...
+
+# c) P(2 <= X <= 4)
+# ...
+
+# d) 2 semanas: lambda = 6
+# ...
+
+# e) Esperança e variância
+# ...
+```
+
+**Parte 4 – Tempo de Espera no Atendimento (Distribuição Exponencial)**
+
+O tempo de espera (em minutos) dos responsáveis na fila da secretaria escolar segue uma distribuição **Exponencial** com média de **12 minutos**.
+
+**Perguntas:**
+
+a) Qual a probabilidade de o tempo de espera ser **superior a 20 minutos**?
+
+b) Qual a probabilidade de o tempo de espera ser **inferior a 5 minutos**?
+
+c) Qual o **tempo mediano** de espera?
+
+d) Se um responsável já esperou **10 minutos**, qual a probabilidade de esperar **pelo menos mais 8 minutos**? (Propriedade da falta de memória)
+
+e) Simule **1000 tempos de espera** e verifique a forma exponencial.
+
+
+``` r
+# a) P(X > 20)
+# ...
+
+# b) P(X < 5)
+# ...
+
+# c) Mediana
+# ...
+
+# d) P(X > 18 | X > 10)
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x <- rexp(1000, 1/12)
+# hist(...)
+# curve(...)
+```
+
+**Parte 5 – Altura dos Alunos do 9º Ano (Distribuição Weibull)**
+
+A altura (em cm) dos alunos do 9º ano de uma escola segue uma distribuição **Weibull** com parâmetro de forma $ k = 2 $ e escala $ \lambda = 160 $ cm.
+
+**Perguntas:**
+
+a) Qual a probabilidade de um aluno ter altura **inferior a 140 cm**?
+
+b) Qual a probabilidade de a altura estar **entre 150 e 175 cm**?
+
+c) Qual o **percentil 90** das alturas?
+
+d) Calcule a **média** e o **desvio padrão**.
+
+e) Gere a **função de risco (hazard)** e comente sobre o comportamento da variável.
+
+
+``` r
+# a) P(X < 140)
+# ...
+
+# b) P(150 < X < 175)
+# ...
+
+# c) Percentil 90
+# ...
+
+# d) Média e desvio padrão
+# ...
+
+# e) Função de risco
+# x_seq <- seq(0.1, 250, by = 1)
+# hazard <- (2/160) * (x_seq/160)^(2-1)
+# plot(...)
+```
+
+**Parte 6 – Precipitação Mensal na Região Escolar (Distribuição Gama)**
+
+A precipitação mensal (em mm) na região da escola durante o período chuvoso segue uma distribuição **Gama** com forma $ \alpha = 4 $ e taxa $ \beta = 0,02 $.
+
+**Perguntas:**
+
+a) Qual a probabilidade de chuva **superior a 300 mm** em um mês?
+
+b) Qual a probabilidade de chuva **entre 150 e 250 mm**?
+
+c) Qual o **percentil 95** (evento extremo)?
+
+d) Calcule $ E[X] $ e $ Var(X) $.
+
+e) Simule **120 meses** de chuva e plote o histograma.
+
+
+``` r
+# a) P(X > 300)
+# ...
+
+# b) P(150 < X < 250)
+# ...
+
+# c) Percentil 95
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x <- rgamma(120, 4, 0.02)
+# hist(...)
+# curve(...)
+```
+
+**Parte 7 – Análise Integrada com Simulação de Monte Carlo**
+
+Utilizando **10.000 simulações**:
+
+- Simule as notas do ENEM (Normal) e calcule a proporção de alunos com nota abaixo de **400 pontos**;
+- Compare com o valor teórico obtido na Parte 1a;
+- Discuta a importância da simulação como recurso didático no ensino de Estatística na Educação Básica.
+
+
+``` r
+# set.seed(123)
+# n_sim <- 10000
+# x <- rnorm(n_sim, 520, 80)
+# mean(x < 400)
+# pnorm(400, 520, 80)  # valor teórico
+```
+
+**Resultados e Discussão**
+
+Apresente os resultados obtidos em cada parte, incluindo tabelas, gráficos e saídas do R. Compare os valores teóricos com os valores simulados. Discuta as implicações pedagógicas dos resultados, destacando como cada distribuição pode ser explorada em sala de aula na Educação Básica, articulando teoria, prática computacional e contexto social dos alunos.
+
+**Conclusão**
+
+Retome os objetivos propostos e sintetize as principais conclusões do estudo. Destaque as distribuições que melhor se ajustaram aos fenômenos analisados, a importância da modelagem probabilística no ensino de Matemática e possíveis desdobramentos para a prática docente no contexto do PROFMAT.
+
+**Referências**
+
+- BUSSAB, W. O.; MORETTIN, P. A. **Estatística Básica**. Saraiva.
+- MONTGOMERY, D. C.; RUNGER, G. C. **Estatística Aplicada e Probabilidade para Engenheiros**. LTC.
+- R CORE TEAM. **R: A Language and Environment for Statistical Computing**. Vienna: R Foundation for Statistical Computing.
+
+
+
+{{</spoiler>}}
 
 
 ## Ementa
