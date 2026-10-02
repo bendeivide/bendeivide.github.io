@@ -354,10 +354,10 @@
     
       <meta
         property="article:published_time"
-        content="2026-09-16T06:41:31-03:00"
+        content="2026-10-02T13:25:37-03:00"
       />
     
-    <meta property="article:modified_time" content="2026-09-16T06:41:31-03:00">
+    <meta property="article:modified_time" content="2026-10-02T13:25:37-03:00">
   
 
   
@@ -2085,10 +2085,215 @@ O relatório <strong>não é um resumo do material didático</strong>, nem uma c
 </p>
 </details>
 <!-- Fim do Relatorio 4 -->
+<details class="spoiler "  id="spoiler-8">
+  <summary>🗒 Relatório 5 (Clique!) - 09/10/2026</summary>
+  <p><ul>
+<li><i class="fas fa-upload"></i> Entrega: Via Github</li>
+<li><i class="fas fa-file"></i> Formato: <a href="https://github.com/bendeivide/relatorio-eait/archive/refs/heads/master.zip" target="_blank" rel="noopener">Modelo de
+Relatório</a></li>
+<li><i class="fas fa-calendar-check"></i> 09/10/2026 <i class="fas fa-clock"></i> 13h</li>
+</ul>
+<hr>
+<p><strong>Contextualização</strong></p>
+<p>Você é professor(a) de Matemática da Educação Básica e atua como coordenador(a) do laboratório de ensino de Estatística em uma escola pública. A secretaria de educação solicitou que a escola desenvolva um <strong>projeto interdisciplinar de modelagem estatística</strong> utilizando dados reais da comunidade escolar, com o objetivo de ensinar aos alunos as <strong>distribuições especiais de probabilidade</strong> previstas na Base Nacional Comum Curricular (BNCC).</p>
+<p>Para isso, você deverá realizar as análises estatísticas utilizando a linguagem <strong>R</strong>, produzindo um relatório técnico-pedagógico que sirva de material de apoio para suas aulas e para a formação continuada de outros professores. O relatório deve articular a <strong>teoria das distribuições de probabilidade</strong> (variáveis aleatórias discretas e contínuas) com <strong>aplicações práticas</strong> e <strong>reflexões sobre o ensino de Estatística</strong>.</p>
+<p><strong>Objetivos</strong></p>
+<p>Ao final desta atividade, espera-se que o(a) mestrando(a) seja capaz de:</p>
+<ul>
+<li>Identificar a distribuição de probabilidade adequada para cada fenômeno observado no contexto escolar;</li>
+<li>Calcular probabilidades, valores esperados, variâncias e quantis teóricos;</li>
+<li>Utilizar funções do R (<code>dnorm</code>, <code>pnorm</code>, <code>qnorm</code>, <code>rnorm</code>, <code>dbinom</code>, <code>pbinom</code>, etc.);</li>
+<li>Realizar simulações de Monte Carlo para validar resultados teóricos;</li>
+<li>Interpretar os resultados no contexto da Educação Básica;</li>
+<li>Elaborar propostas pedagógicas que articulem teoria, prática computacional e contexto social.</li>
+</ul>
+<p><strong>Metodologia</strong></p>
+<ul>
+<li>A atividade deve ser desenvolvida <strong>individualmente</strong> ou em <strong>duplas</strong>, com entrega de relatório em formato R Markdown;</li>
+<li>O relatório final deve conter: introdução, desenvolvimento teórico, resultados, discussão pedagógica e conclusão;</li>
+<li>Os códigos em R devem ser apresentados, comentados e executados;</li>
+<li>As interpretações devem relacionar os resultados estatísticos com o contexto escolar e com propostas de ensino na Educação Básica.</li>
+</ul>
+<p><strong>Parte 1 – Desempenho em Matemática (Distribuição Normal)</strong></p>
+<p>As notas da prova de Matemática do ENEM dos alunos de uma escola seguem uma distribuição <strong>Normal</strong> com média $ \mu = 520 $ pontos e desvio padrão $ \sigma = 80 $ pontos.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de um aluno aleatoriamente escolhido ter nota <strong>inferior a 400 pontos</strong>?</p>
+<p>b) Qual a probabilidade de a nota estar <strong>entre 500 e 650 pontos</strong>?</p>
+<p>c) Qual a nota tal que apenas <strong>10% dos alunos</strong> ficam abaixo dela?</p>
+<p>d) Se forem sorteados <strong>25 alunos</strong>, qual a probabilidade de a <strong>média amostral</strong> ser superior a 550 pontos?</p>
+<p>e) Gere <strong>1000 valores aleatórios</strong> dessa distribuição e compare o histograma com a curva teórica de densidade.</p>
+<pre><code class="language-r"># a) P(X &lt; 400)
+# ...
+
+# b) P(500 &lt; X &lt; 650)
+# ...
+
+# c) Percentil 10
+# ...
+
+# d) Média de 25 alunos
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &lt;- rnorm(1000, 520, 80)
+# hist(...)
+# curve(...)
+</code></pre>
+<p><strong>Parte 2 – Aprovação em Olimpíadas de Matemática (Distribuição Binomial)</strong></p>
+<p>Em uma turma de <strong>20 alunos</strong> inscritos na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP), dados históricos indicam que <strong>25%</strong> conseguem se classificar para a segunda fase.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de <strong>nenhum</strong> aluno se classificar?</p>
+<p>b) Qual a probabilidade de <strong>no máximo 3</strong> alunos se classificarem?</p>
+<p>c) Qual a probabilidade de <strong>8 ou mais</strong> alunos se classificarem?</p>
+<p>d) Calcule a <strong>esperança</strong> e a <strong>variância</strong>.</p>
+<p>e) Simule <strong>1000 turmas</strong> de 20 alunos e compare as frequências relativas com as probabilidades teóricas.</p>
+<pre><code class="language-r"># a) P(X = 0)
+# ...
+
+# b) P(X &lt;= 3)
+# ...
+
+# c) P(X &gt;= 8)
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# sim &lt;- rbinom(1000, 20, 0.25)
+# table(sim) / 1000
+</code></pre>
+<p><strong>Parte 3 – Evasão Escolar por Semana (Distribuição Poisson)</strong></p>
+<p>O número de alunos que abandonam a escola por semana em um município segue uma distribuição <strong>Poisson</strong> com $ \lambda = 3 $ alunos/semana.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de <strong>nenhuma evasão</strong> em uma semana?</p>
+<p>b) Qual a probabilidade de <strong>5 ou mais evasões</strong> em uma semana?</p>
+<p>c) Qual a probabilidade de <strong>entre 2 e 4 evasões</strong> em uma semana?</p>
+<p>d) Qual a probabilidade de <strong>exatamente 7 evasões</strong> em duas semanas?</p>
+<p>e) Determine a <strong>esperança</strong> e a <strong>variância</strong>.</p>
+<pre><code class="language-r"># a) P(X = 0)
+# ...
+
+# b) P(X &gt;= 5)
+# ...
+
+# c) P(2 &lt;= X &lt;= 4)
+# ...
+
+# d) 2 semanas: lambda = 6
+# ...
+
+# e) Esperança e variância
+# ...
+</code></pre>
+<p><strong>Parte 4 – Tempo de Espera no Atendimento (Distribuição Exponencial)</strong></p>
+<p>O tempo de espera (em minutos) dos responsáveis na fila da secretaria escolar segue uma distribuição <strong>Exponencial</strong> com média de <strong>12 minutos</strong>.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de o tempo de espera ser <strong>superior a 20 minutos</strong>?</p>
+<p>b) Qual a probabilidade de o tempo de espera ser <strong>inferior a 5 minutos</strong>?</p>
+<p>c) Qual o <strong>tempo mediano</strong> de espera?</p>
+<p>d) Se um responsável já esperou <strong>10 minutos</strong>, qual a probabilidade de esperar <strong>pelo menos mais 8 minutos</strong>? (Propriedade da falta de memória)</p>
+<p>e) Simule <strong>1000 tempos de espera</strong> e verifique a forma exponencial.</p>
+<pre><code class="language-r"># a) P(X &gt; 20)
+# ...
+
+# b) P(X &lt; 5)
+# ...
+
+# c) Mediana
+# ...
+
+# d) P(X &gt; 18 | X &gt; 10)
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &lt;- rexp(1000, 1/12)
+# hist(...)
+# curve(...)
+</code></pre>
+<p><strong>Parte 5 – Altura dos Alunos do 9º Ano (Distribuição Weibull)</strong></p>
+<p>A altura (em cm) dos alunos do 9º ano de uma escola segue uma distribuição <strong>Weibull</strong> com parâmetro de forma $ k = 2 $ e escala $ \lambda = 160 $ cm.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de um aluno ter altura <strong>inferior a 140 cm</strong>?</p>
+<p>b) Qual a probabilidade de a altura estar <strong>entre 150 e 175 cm</strong>?</p>
+<p>c) Qual o <strong>percentil 90</strong> das alturas?</p>
+<p>d) Calcule a <strong>média</strong> e o <strong>desvio padrão</strong>.</p>
+<p>e) Gere a <strong>função de risco (hazard)</strong> e comente sobre o comportamento da variável.</p>
+<pre><code class="language-r"># a) P(X &lt; 140)
+# ...
+
+# b) P(150 &lt; X &lt; 175)
+# ...
+
+# c) Percentil 90
+# ...
+
+# d) Média e desvio padrão
+# ...
+
+# e) Função de risco
+# x_seq &lt;- seq(0.1, 250, by = 1)
+# hazard &lt;- (2/160) * (x_seq/160)^(2-1)
+# plot(...)
+</code></pre>
+<p><strong>Parte 6 – Precipitação Mensal na Região Escolar (Distribuição Gama)</strong></p>
+<p>A precipitação mensal (em mm) na região da escola durante o período chuvoso segue uma distribuição <strong>Gama</strong> com forma $ \alpha = 4 $ e taxa $ \beta = 0,02 $.</p>
+<p><strong>Perguntas:</strong></p>
+<p>a) Qual a probabilidade de chuva <strong>superior a 300 mm</strong> em um mês?</p>
+<p>b) Qual a probabilidade de chuva <strong>entre 150 e 250 mm</strong>?</p>
+<p>c) Qual o <strong>percentil 95</strong> (evento extremo)?</p>
+<p>d) Calcule $ E[X] $ e $ Var(X) $.</p>
+<p>e) Simule <strong>120 meses</strong> de chuva e plote o histograma.</p>
+<pre><code class="language-r"># a) P(X &gt; 300)
+# ...
+
+# b) P(150 &lt; X &lt; 250)
+# ...
+
+# c) Percentil 95
+# ...
+
+# d) Esperança e variância
+# ...
+
+# e) Simulação
+# set.seed(123)
+# x &lt;- rgamma(120, 4, 0.02)
+# hist(...)
+# curve(...)
+</code></pre>
+<p><strong>Parte 7 – Análise Integrada com Simulação de Monte Carlo</strong></p>
+<p>Utilizando <strong>10.000 simulações</strong>:</p>
+<ul>
+<li>Simule as notas do ENEM (Normal) e calcule a proporção de alunos com nota abaixo de <strong>400 pontos</strong>;</li>
+<li>Compare com o valor teórico obtido na Parte 1a;</li>
+<li>Discuta a importância da simulação como recurso didático no ensino de Estatística na Educação Básica.</li>
+</ul>
+<pre><code class="language-r"># set.seed(123)
+# n_sim &lt;- 10000
+# x &lt;- rnorm(n_sim, 520, 80)
+# mean(x &lt; 400)
+# pnorm(400, 520, 80)  # valor teórico
+</code></pre>
+<p><strong>Resultados e Discussão</strong></p>
+<p>Apresente os resultados obtidos em cada parte, incluindo tabelas, gráficos e saídas do R. Compare os valores teóricos com os valores simulados. Discuta as implicações pedagógicas dos resultados, destacando como cada distribuição pode ser explorada em sala de aula na Educação Básica, articulando teoria, prática computacional e contexto social dos alunos.</p>
+<p><strong>Conclusão</strong></p>
+<p>Retome os objetivos propostos e sintetize as principais conclusões do estudo. Destaque as distribuições que melhor se ajustaram aos fenômenos analisados, a importância da modelagem probabilística no ensino de Matemática e possíveis desdobramentos para a prática docente no contexto do PROFMAT.</p>
+<p><strong>Referências</strong></p>
+<ul>
+<li>BUSSAB, W. O.; MORETTIN, P. A. <strong>Estatística Básica</strong>. Saraiva.</li>
+<li>MONTGOMERY, D. C.; RUNGER, G. C. <strong>Estatística Aplicada e Probabilidade para Engenheiros</strong>. LTC.</li>
+<li>R CORE TEAM. <strong>R: A Language and Environment for Statistical Computing</strong>. Vienna: R Foundation for Statistical Computing.</li>
+</ul>
+</p>
+</details>
 <h2 id="ementa">Ementa</h2>
 <p>Nós usamos a ementa contida nos Projetos Pedagógicos de Cursos (PPCs) da
 CAP/UFSJ</p>
-<details class="spoiler "  id="spoiler-8">
+<details class="spoiler "  id="spoiler-9">
   <summary>Acesse a ementa do curso</summary>
   <p><ol>
 <li>Conceitos básicos: tipos de variáveis; distribuições de frequências</li>
@@ -2145,7 +2350,7 @@ abordado.</li>
 </ul>
 </li>
 </ul>
-<details class="spoiler "  id="spoiler-9">
+<details class="spoiler "  id="spoiler-10">
   <summary>Detalhamento da metodologia</summary>
   <p><p>As aulas seguirão um modelo de metodologia ativa baseado nas
 coreografias didáticas. Criaremos um cenário em que o propagador de
@@ -2170,7 +2375,7 @@ quando necessário.</p>
 </p>
 </details>
 <h2 id="avaliacao">Avaliação</h2>
-<details class="spoiler "  id="spoiler-10">
+<details class="spoiler "  id="spoiler-11">
   <summary>Segue um detalhamento das nossas avaliações</summary>
   <p><p>Faremos toda semana relatórios baseado em nossas aula teóricas e
 práticas, usando o <a href="https://www.r-project.org/" target="_blank" rel="noopener">R</a>,
@@ -2193,7 +2398,7 @@ coordação, faremos a segunda chamada de tal atividade.</p>
 </p>
 </details>
 <h2 id="bibliografia-adotada-para-a-disciplina">Bibliografia adotada para a disciplina</h2>
-<details class="spoiler "  id="spoiler-11">
+<details class="spoiler "  id="spoiler-12">
   <summary>Bibliografia detalhada</summary>
   <p><ul>
 <li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwidgbSv7eL9AhUjr5UCHVdMDeoQFnoECB4QAQ&amp;url=https%3A%2F%2Fportaldaobmep.impa.br%2Fuploads%2Fmsg%2F5fpwf84eez8c0.pdf&amp;usg=AOvVaw16LWD0EVg3xg3ZcRCRgJBj" target="_blank" rel="noopener">CARVALHO, P.C.P; MORGADO, A.C; WAGNER; FERNANDEZ, P. <strong>Análise
@@ -2216,7 +2421,7 @@ PROFMAT</a></li>
 </ul>
 </li>
 </ul>
-<details class="spoiler "  id="spoiler-12">
+<details class="spoiler "  id="spoiler-13">
   <summary>Materiais complementares</summary>
   <p><ul>
 <li><a href="/books/estbasica/">Estatística Básica</a></li>
@@ -2235,7 +2440,7 @@ PROFMAT</a></li>
 </p>
 </details>
 <h2 id="metodologias-ativas">Metodologias ativas</h2>
-<details class="spoiler "  id="spoiler-13">
+<details class="spoiler "  id="spoiler-14">
   <summary>Aprender por ensinar</summary>
   <p><ul>
 <li><a href="https://drive.google.com/file/d/1QCbtxb9vCOmgD4sxBjp8D8L8Z7GObiyg/view?usp=sharing" target="_blank" rel="noopener">Modelo de Arquivo em power
@@ -2262,7 +2467,7 @@ são esses. Qualquer dúvida, favor me procurar.</p>
 </ul>
 </p>
 </details>
-<details class="spoiler "  id="spoiler-14">
+<details class="spoiler "  id="spoiler-15">
   <summary>Mapas Mentais</summary>
   <p><ul>
 <li>Dúvidas de como desenvolver, faça uso dos buscadores na internet,
@@ -2271,7 +2476,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </ul>
 </p>
 </details>
-<details class="spoiler "  id="spoiler-15">
+<details class="spoiler "  id="spoiler-16">
   <summary>Resumo de Cornell</summary>
   <p><ul>
 <li>Dúvidas de como desenvolver, faça uso dos buscadores na internet,
@@ -2281,7 +2486,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </p>
 </details>
 <h2 id="como-estudar-e-aprender">Como estudar e aprender</h2>
-<details class="spoiler "  id="spoiler-16">
+<details class="spoiler "  id="spoiler-17">
   <summary>Vídeo-aula do Prof. Pierluigi Piazzi (Youtube: Canal Glauco Copeck XYZ)</summary>
   <p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/noXqEGIZak8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -2289,21 +2494,21 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </p>
 </details>
 <h2 id="aulas">Aulas</h2>
-<details class="spoiler "  id="spoiler-17">
+<details class="spoiler "  id="spoiler-18">
   <summary>🎓 Aula 1</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> Apresentação da disciplina e Introdução ao R</p>
 </div></p>
 </details>
 <!-- Fim da Aula 01 -->
-<details class="spoiler "  id="spoiler-18">
+<details class="spoiler "  id="spoiler-19">
   <summary>🎓 Aula 2</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong> <em>R Markdown</em>, Quarto, <em>Github</em> e como desenvolver nossos relatórios de avaliação</p>
 </div></p>
 </details>
 <!-- Fim da Aula 02 -->
-<details class="spoiler "  id="spoiler-19">
+<details class="spoiler "  id="spoiler-20">
   <summary>🎓 Aula 3</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong></p>
@@ -2317,7 +2522,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </p>
 </details>
 <!-- Fim da Aula 03 -->
-<details class="spoiler "  id="spoiler-20">
+<details class="spoiler "  id="spoiler-21">
   <summary>🎓 Aula 4</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong></p>
@@ -2330,7 +2535,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </p>
 </details>
 <!-- Fim da Aula 04 -->
-<details class="spoiler "  id="spoiler-21">
+<details class="spoiler "  id="spoiler-22">
   <summary>🎓 Aula 5</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Temas:</strong></p>
@@ -2343,7 +2548,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </p>
 </details>
 <!-- Fim da Aula 05 -->
-<details class="spoiler "  id="spoiler-22">
+<details class="spoiler "  id="spoiler-23">
   <summary>🎓 Aula 6</summary>
   <p><div style="margin-left: 20px;">
 <p><i class="fas fa-pen-fancy  pr-1 fa-fw"></i> <strong>Defesa:</strong> Relatórios 1, 2 e 3</p>
@@ -2351,11 +2556,11 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
 </details>
 <!-- Fim da Aula 06 -->
 <h2 id="quiz">Quiz</h2>
-<details class="spoiler "  id="spoiler-23">
+<details class="spoiler "  id="spoiler-24">
   <summary>Quais as datas de avaliação?</summary>
   <p>Acessem: <a href="#avaliacao">Avaliação</a> e <a href="#cronograma">Cronograma</a></p>
 </details>
-<details class="spoiler "  id="spoiler-24">
+<details class="spoiler "  id="spoiler-25">
   <summary>Como acessar o material de apoio?</summary>
   <p><ul>
 <li>Acessem: <a href="#matadotado">Livro EPAEC</a>
@@ -2400,7 +2605,7 @@ vídeo-aulas, etc. Há muito material interessante na internet;</li>
         </div>
 
         <div class="body-footer">
-          <p>Última atualização em set. 16, 2026</p>
+          <p>Última atualização em out. 2, 2026</p>
 
           
 
