@@ -1,7 +1,7 @@
 ---
 title: 📝 Ensino normal 2026.2
 summary: "O projeto desse curso será inovador. Focaremos todos os assuntos planjeados baseado no experimento da catapulta. Por meio dele, avaliaremos a aprendizagem dos alunos por meio de relatórios desenvolvidos via Quarto inseridos no Github."
-date: "2026-09-30 16:41:13"
+date: "2026-10-05 06:19:31"
 type: book
 weight: 7
 categories: ["Estatística", "Probabilidade", "Inferência Estatística", "Teoria de Decisão"]
@@ -70,7 +70,7 @@ regressão linear simples.
 
 ## <i class="fas fa-file-alt"></i> Notas {id="notas" title="Clique aqui!"}
 
--   Engenharia Química ([Link]()
+-   Engenharia Química ([Link](https://docs.google.com/spreadsheets/d/1CLuCzgJyL8PoMHRe7vbuza_6p7X2ZMfDdb3zVb36WBo/edit?usp=sharing))
 
 ## <i class="fas fa-list-ol"></i> Ementa {id="ementa" title="Clique aqui!"}
 
