@@ -1,0 +1,169 @@
+---
+title: "Delineamentos experimentais"
+author: "Ben Dêivide"
+format: html
+editor: visual
+---
+
+# Dois Experimentos em Engenharia Civil: DIC e DBC
+
+Vou apresentar dois experimentos clássicos da engenharia civil, um em **Delineamento Inteiramente Casualizado (DIC)** e outro em **Delineamento em Blocos Casualizados (DBC)**, com análise completa em R.
+
+------------------------------------------------------------------------
+
+## Experimento 1 — DIC: Resistência à Compressão de Concretos com Diferentes Teores de Cinza Volante
+
+**Contexto:** Avaliar o efeito de 4 teores de substituição de cimento por cinza volante (0%, 10%, 20%, 30%) na resistência à compressão (MPa) de corpos de prova aos 28 dias. Como todas as amostras são fabricadas em laboratório sob condições homogêneas (mesmo lote de cimento, mesma cura, mesmo operador), **não há fonte de heterogeneidade sistemática** → DIC.
+
+- **Fator:** Teor de cinza volante (4 níveis)
+- **Repetições:** 5 por tratamento (n = 20)
+- **Unidade experimental:** corpo de prova cilíndrico
+
+### Código R — DIC
+
+```{r}
+# ============================================================
+# EXPERIMENTO 1 - DIC
+# Resistência à compressão x Teor de cinza volante
+# ============================================================
+
+dados_dic <- data.frame(
+  teor = factor(rep(c("0%","10%","20%","30%"), each = 5),
+                levels = c("0%","10%","20%","30%")),
+  resist = c(38.2, 37.5, 39.1, 38.8, 37.9,   # 0%
+             36.1, 35.8, 36.9, 36.4, 35.5,   # 10%
+             33.2, 34.0, 33.7, 32.8, 33.5,   # 20%
+             30.1, 29.5, 30.8, 29.9, 30.4)   # 30%
+)
+
+# --- Estatísticas descritivas ---
+aggregate(resist ~ teor, data = dados_dic,
+          FUN = function(x) c(media = mean(x), dp = sd(x), n = length(x)))
+
+# --- Verificação de pressupostos ---
+modelo_dic <- aov(resist ~ teor, data = dados_dic)
+
+# Normalidade dos resíduos (Shapiro-Wilk)
+shapiro.test(residuals(modelo_dic))
+
+# Homocedasticidade (Levene - pacote car)
+# install.packages("car")
+library(car)
+leveneTest(resist ~ teor, data = dados_dic)
+
+# Independência (Durbin-Watson)
+# install.packages("lmtest")
+library(lmtest)
+dwtest(modelo_dic)
+
+# --- ANOVA ---
+summary(modelo_dic)
+
+# --- Diagnóstico gráfico ---
+par(mfrow = c(2,2))
+plot(modelo_dic)
+par(mfrow = c(1,1))
+
+# --- Comparações múltiplas (Tukey) ---
+tukey_dic <- TukeyHSD(modelo_dic)
+tukey_dic
+plot(tukey_dic)
+
+# --- Alternativa não paramétrica (se pressupostos falharem) ---
+kruskal.test(resist ~ teor, data = dados_dic)
+
+# --- Gráfico de médias com erro padrão ---
+library(ggplot2)
+ggplot(dados_dic, aes(x = teor, y = resist)) +
+  geom_boxplot(fill = "steelblue", alpha = 0.6) +
+  geom_point(position = position_jitter(width = 0.1), size = 2) +
+  labs(title = "Resistência à compressão por teor de cinza volante",
+       x = "Teor de cinza volante", y = "Resistência (MPa)") +
+  theme_minimal()
+```
+
+**Interpretação esperada:** Se o p-valor da ANOVA for \< 0,05, rejeita-se H₀ de igualdade entre médias. O teste de Tukey identifica quais teores diferem. Espera-se queda significativa na resistência com o aumento do teor de cinza (efeito típico em idades iniciais).
+
+------------------------------------------------------------------------
+
+## Experimento 2 — DBC: Ensaio de Compactação (Proctor) em Diferentes Solos, Bloqueando por Lote de Amostra
+
+**Contexto:** Comparar a massa específica seca máxima (g/cm³) de 3 tipos de solo (A, B, C) submetidos ao ensaio Proctor Normal. Como as amostras vêm de **4 jazidas/lotes distintos** (possível variabilidade entre lotes), cada lote é considerado um **bloco**, e todos os 3 solos são testados dentro de cada lote → DBC.
+
+- **Fator:** Tipo de solo (3 níveis)
+- **Bloco:** Lote de amostra (4 blocos)
+- **Unidade experimental:** amostra compactada
+
+### Código R — DBC
+
+``` r
+# ============================================================
+# EXPERIMENTO 2 - DBC
+# Massa específica seca máxima x Tipo de solo, blocos = lote
+# ============================================================
+
+dados_dbc <- data.frame(
+  bloco = factor(rep(paste0("L", 1:4), each = 3)),
+  solo  = factor(rep(c("A","B","C"), times = 4)),
+  gama  = c(1.82, 1.90, 1.78,   # Lote 1
+            1.85, 1.93, 1.80,   # Lote 2
+            1.79, 1.88, 1.75,   # Lote 3
+            1.88, 1.95, 1.83)   # Lote 4
+)
+
+# --- Descritivas ---
+aggregate(gama ~ solo, data = dados_dbc, FUN = mean)
+aggregate(gama ~ bloco, data = dados_dbc, FUN = mean)
+
+# --- Modelo DBC (blocos + tratamento) ---
+modelo_dbc <- aov(gama ~ bloco + solo, data = dados_dbc)
+
+# --- Pressupostos ---
+shapiro.test(residuals(modelo_dbc))
+leveneTest(gama ~ solo, data = dados_dbc)   # car
+dwtest(modelo_dbc)                          # lmtest
+
+# --- ANOVA ---
+summary(modelo_dbc)
+
+# --- Eficiência do bloqueamento ---
+# Comparar QM residual do DBC com o do DIC equivalente
+modelo_dic_equiv <- aov(gama ~ solo, data = dados_dbc)
+qmres_dbc <- summary(modelo_dbc)[[1]]["Residuals","Mean Sq"]
+qmres_dic <- summary(modelo_dic_equiv)[[1]]["Residuals","Mean Sq"]
+eficiencia <- (qmres_dic / qmres_dbc) * 100
+cat("Eficiência relativa do DBC (%):", round(eficiencia, 2), "\n")
+# >100% indica que o bloqueamento foi vantajoso
+
+# --- Tukey ---
+TukeyHSD(modelo_dbc)
+plot(TukeyHSD(modelo_dbc))
+
+# --- Diagnóstico ---
+par(mfrow = c(2,2)); plot(modelo_dbc); par(mfrow = c(1,1))
+
+# --- Gráfico ---
+library(ggplot2)
+ggplot(dados_dbc, aes(x = solo, y = gama, fill = solo)) +
+  geom_boxplot(alpha = 0.6) +
+  geom_point(position = position_jitter(width = 0.1), size = 2) +
+  labs(title = "Massa específica seca máxima por tipo de solo (DBC)",
+       x = "Tipo de solo", y = "Massa específica seca (g/cm³)") +
+  theme_minimal() + theme(legend.position = "none")
+```
+
+**Interpretação esperada:** - **Efeito de bloco significativo** → confirma que havia heterogeneidade entre lotes que precisava ser controlada; o DBC foi a escolha correta. - **Eficiência relativa \> 100%** → o bloqueamento reduziu o erro experimental em relação a um DIC. - **Tukey** indica qual solo apresenta maior massa específica seca (geralmente solos argilosos bem graduados → maior γ_d).
+
+------------------------------------------------------------------------
+
+## Comparativo didático dos dois delineamentos
+
+| Aspecto | DIC | DBC |
+|------------------------|------------------------|------------------------|
+| Princípio | Aleatorização total | Aleatorização restrita dentro de blocos |
+| Modelo | (Y\_{ij} = \mu + \tau*i +* \varepsilon{ij}) | (Y\_{ij} = \mu + \tau\_i + \beta*j +* \varepsilon{ij}) |
+| Fontes de variação | Tratamento + Resíduo | Tratamento + Bloco + Resíduo |
+| GL do resíduo | (a(n-1)) | ((a-1)(b-1)) |
+| Quando usar | Condições homogêneas | Existe fonte conhecida de heterogeneidade |
+
+**Dica prática:** sempre verificar os pressupostos (normalidade, homocedasticidade, independência) antes de concluir a ANOVA. Se violados, use transformações (log, Box-Cox) ou alternativas não paramétricas (Kruskal-Wallis para DIC; Friedman para DBC).
